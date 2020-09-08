@@ -1,0 +1,1 @@
+<span data-ttu-id="9904e-101">„Project Service“ programos 2.5x ar naujesnė versija, veikianti „Dynamics 365 (online)“ 9.x versijoje</span><span class="sxs-lookup"><span data-stu-id="9904e-101">Project Service app version 2.5.x or later on Dynamics 365 (online) version 9.x</span></span>

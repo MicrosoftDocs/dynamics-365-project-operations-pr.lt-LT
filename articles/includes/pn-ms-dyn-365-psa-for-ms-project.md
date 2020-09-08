@@ -1,0 +1,1 @@
+<span data-ttu-id="3de6e-101">„Dynamics 365 Project Service Automation“ papildinys, skirtas „Microsoft Project“</span><span class="sxs-lookup"><span data-stu-id="3de6e-101">Dynamics 365 Project Service Automation Add-in for Microsoft Project</span></span>

@@ -1,0 +1,1 @@
+<span data-ttu-id="45902-101">Taikoma „Project Service“ programos 2.x ir 1.x versijoms</span><span class="sxs-lookup"><span data-stu-id="45902-101">Applies to Project Service app versions 2.x and 1.x</span></span>

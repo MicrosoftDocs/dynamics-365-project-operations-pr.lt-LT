@@ -1,0 +1,1 @@
+<span data-ttu-id="e5a12-101">„OneDrive“ verslui</span><span class="sxs-lookup"><span data-stu-id="e5a12-101">OneDrive for Business</span></span>
