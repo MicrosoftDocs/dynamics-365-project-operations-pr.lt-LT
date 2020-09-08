@@ -1,0 +1,1 @@
+Šią funkciją palaiko „Dynamics CRM Online 2016 Update 1“. Domina, kaip gauti šią funkciją? [Kreipkitės į savo „Dynamics 365“ administratorių arba techninės priežiūros specialistą](../basics/find-administrator-support.md)
