@@ -1,0 +1,45 @@
+---
+title: Pasiūlymo uždarymas
+description: Šioje temoje pateikta informacija apie „Project Operations“ pasiūlymų uždarymą.
+author: rumant
+manager: Annbe
+ms.date: 10/01/2020
+ms.topic: article
+ms.service: dynamics-365-customerservice
+ms.reviewer: kfend
+ms.author: rumant
+ms.openlocfilehash: 3c429fa14b4b95420c67a91a6a59af7db2660f68
+ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3898901"
+---
+# <a name="close-a-quote"></a><span data-ttu-id="9d674-103">Pasiūlymo uždarymas</span><span class="sxs-lookup"><span data-stu-id="9d674-103">Close a quote</span></span>
+
+<span data-ttu-id="9d674-104">_**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_</span><span class="sxs-lookup"><span data-stu-id="9d674-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
+
+<span data-ttu-id="9d674-105">Projekto pasiūlymą galima uždaryti kaip laimėtą arba pralaimėtą.</span><span class="sxs-lookup"><span data-stu-id="9d674-105">A project quote can be closed as Won or Lost.</span></span> <span data-ttu-id="9d674-106">Pasiūlymų aktyvinimo ir peržiūros funkcijos nepalaikomos „Microsoft Dynamics 365 Project Operations“, todėl juodraštinį pasiūlymą galima uždaryti.</span><span class="sxs-lookup"><span data-stu-id="9d674-106">Because the functions Activate and Revise are not supported on quotes in Microsoft Dynamics 365 Project Operations, you can close a draft quote.</span></span>
+
+## <a name="close-a-quote-as-won"></a><span data-ttu-id="9d674-107">Pasiūlymo uždarymas kaip laimėto</span><span class="sxs-lookup"><span data-stu-id="9d674-107">Close a quote as Won</span></span>
+
+<span data-ttu-id="9d674-108">Uždarant projekto pasiūlymą kaip laimėtą, nustatoma pasiūlymo būsena **Uždarytas**, o būsenos tipas nustatomas kaip **Laimėtas**.</span><span class="sxs-lookup"><span data-stu-id="9d674-108">Closing a project quote as Won will set the status of the quote to **Closed** and status reason to **Won**.</span></span> <span data-ttu-id="9d674-109">Uždarius pasiūlymą, jis pasidaro tik skaitomas ir sukuriamas projekto sutarties juodraštis su visa pasiūlymo informacija.</span><span class="sxs-lookup"><span data-stu-id="9d674-109">Closing the quotes makes it read-only and creates a draft project contract with all the quote information.</span></span> <span data-ttu-id="9d674-110">Kadangi uždaryto pasiūlymo atidaryti iš naujo negalima, prieš uždarant pasiūlymą pateikiamas patvirtinimo dialogo langas, kuriame reikės patvirtinti keitimus.</span><span class="sxs-lookup"><span data-stu-id="9d674-110">Because a closed quote can't be reopened, before you close a quote, a confirmation dialog will confirm your changes.</span></span>
+
+<span data-ttu-id="9d674-111">Projekto sutartis, sukurta pagal projekto pasiūlymą, taip pat pateikiama „Project Operations“ modulyje Projektų valdymas ir apskaita.</span><span class="sxs-lookup"><span data-stu-id="9d674-111">The project contract created from a project quote is also made available in the Project management and accounting module of Project Operations.</span></span> <span data-ttu-id="9d674-112">Jei projekto sutartis nesusieta su jokiomis projekto eilutėmis, ši projekto sutartis nustatoma kaip neaktyvi projekto sutartis ir ji pasidaro aktyvi iš karto, kai tik projektas susiejamas su bent viena iš sutarties eilučių.</span><span class="sxs-lookup"><span data-stu-id="9d674-112">If a project contract is not mapped to a project on any of its lines, this project contract is made available as an inactive project contract and becomes active as soon as a project is mapped to at least one of its contract lines.</span></span>
+
+<span data-ttu-id="9d674-113">Jei pasiūlymas pridedamas prie galimybės, kiti projekto pasiūlymai dėl galimybės automatiškai uždaromi kaip pralaimėti.</span><span class="sxs-lookup"><span data-stu-id="9d674-113">If the quote is attached to an opportunity, any other project quotes on the opportunity are automatically closed as Lost.</span></span>
+
+### <a name="financial-impact-of-closing-a-quote-as-won"></a><span data-ttu-id="9d674-114">Finansinis poveikis uždarius pasiūlymą kaip laimėtą</span><span class="sxs-lookup"><span data-stu-id="9d674-114">Financial impact of closing a quote as Won</span></span>
+
+<span data-ttu-id="9d674-115">Jei yra įrašytų projekto laiko faktinių duomenų, kol jis dar pridėtas prie juodraštinio pasiūlymo, įrašomos tik laiko sąnaudos arba išlaidos.</span><span class="sxs-lookup"><span data-stu-id="9d674-115">If there have been any actuals for time recorded on a project while it is still attached to a draft quote, only the cost of the time or expense is recorded.</span></span> <span data-ttu-id="9d674-116">Kai pasiūlymas uždaromas kaip laimėtas, programa restruktūrizuos išlaidas atšaukdama senesnius išlaidų faktinius duomenis ir iš naujo sukurdama naujus išlaidų faktinius duomenis.</span><span class="sxs-lookup"><span data-stu-id="9d674-116">After a quote is closed as Won, the application will refactor the costs by reversing the older cost actuals and re-creating new cost actuals.</span></span> <span data-ttu-id="9d674-117">Programa apdoros šiuos išlaidų faktinius duomenis pagal susietos projekto sutarties eilutės atsiskaitymo metodą.</span><span class="sxs-lookup"><span data-stu-id="9d674-117">The application will process these cost actuals based on the Billing method of the associated project contract line.</span></span> <span data-ttu-id="9d674-118">Jei išlaidų faktiniai duomenys nurodo laiko ir medžiagų sutarties eilutę, sistema automatiškai sukurs atitinkamus pardavimo faktinius duomenis, kuriems neišrašyta sąskaita faktūra, kai pasiūlymas uždaromas ir sukuriama projekto sutartis.</span><span class="sxs-lookup"><span data-stu-id="9d674-118">If the cost actuals reference a time and material contract line, the system will automatically create corresponding unbilled sales actuals for when the quote is closed and the project contract is created.</span></span> <span data-ttu-id="9d674-119">Jei išlaidų faktiniai duomenys nurodo fiksuotos kainos sutarties eilutę, programa sustabdys išlaidų faktinių duomenų apdorojimą pagal išskaidyto atsiskaitymo taisykles, taikomas projekto sutarties klientams.</span><span class="sxs-lookup"><span data-stu-id="9d674-119">If the cost actuals reference a fixed price contract line, the application will stop reprocessing the cost actuals based on the split billing rules for the project contract customers.</span></span>
+
+<span data-ttu-id="9d674-120">Visus iš naujo apdorotus faktinius duomenis projekto apskaitininkas gali rasti modulyje Projektų valdymas ir apskaita, kad galėtų juos peržiūrėti, atnaujinti ir užregistruoti didžiojoje knygoje.</span><span class="sxs-lookup"><span data-stu-id="9d674-120">All reprocessed actuals are available in the Project management and accounting module for the Project accountant to review, update, and post to the General ledger.</span></span> 
+
+## <a name="close-a-quote-as-lost"></a><span data-ttu-id="9d674-121">Pasiūlymo uždarymas kaip pralaimėto</span><span class="sxs-lookup"><span data-stu-id="9d674-121">Close a quote as Lost</span></span>
+
+<span data-ttu-id="9d674-122">Uždarant projekto pasiūlymą kaip pralaimėtą, bus nustatyta būsena **Uždarytas** ir nustatytas būsenos tipas **Pralaimėtas**.</span><span class="sxs-lookup"><span data-stu-id="9d674-122">Closing a project quote as Lost will set the status to **Closed** and status reason to **Lost**.</span></span> <span data-ttu-id="9d674-123">Uždarius pasiūlymą, jį galima tik skaityti.</span><span class="sxs-lookup"><span data-stu-id="9d674-123">Closing the quote makes it read-only.</span></span> <span data-ttu-id="9d674-124">Kadangi uždaryto pasiūlymo atidaryti iš naujo negalima, prieš uždarant pasiūlymą pateikiamas patvirtinimo dialogo langas, kuriame reikės patvirtinti keitimus.</span><span class="sxs-lookup"><span data-stu-id="9d674-124">Because a closed quote can't be reopened and, before you close a quote, a confirmation dialog will confirm your changes.</span></span>
+
+<span data-ttu-id="9d674-125">Jei projekto pasiūlymo, kuris uždarytas kaip pralaimėtas, bet kuri eilutė nurodo projektą, tas projektas taip pat pažymimas kaip uždarytas, o bet kokie išteklių rezervavimai nuo tos dienos atšaukiami.</span><span class="sxs-lookup"><span data-stu-id="9d674-125">If the project quote that is closed as Lost has a project referenced on any of its lines, that project is also marked as Closed and any resource bookings from that day forward are canceled.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="9d674-126">„Project Operations“ uždarius pasiūlymą kaip laimėtą arba pralaimėtą galimybės būsena nebus paveikta – ji bus atidaryta tol, kol nebus uždaryta rankiniu būdu.</span><span class="sxs-lookup"><span data-stu-id="9d674-126">In Project Operations, closing a quote as Won or Lost will not impact that status of the Opportunity, which will remain open until it is manually closed.</span></span>
