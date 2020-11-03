@@ -1,0 +1,63 @@
+---
+title: Kas nauja arba pakeista „Project Service Automation“ V3 18 atnaujintame leidime
+description: Šioje temoje išvardytos funkcijos ir pataisymai, kurie yra pasiekiami „Project Service Automation“ V3 18 atnaujintame leidime.
+author: ruhercul
+manager: kfend
+ms.service: dynamics-365-customerservice
+ms.custom: dyn365-projectservice
+ms.date: 04/27/2020
+ms.topic: article
+ms.author: ruhercul
+audience: Admin
+search.audienceType:
+- admin
+- customizer
+- enduser
+search.app:
+- D365CE
+- D365PS
+- ProjectOperations
+ms.openlocfilehash: 1d7ea200531dd24d56a829f879e3a2532a9b38dc
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080790"
+---
+# <a name="project-service-automation-update-release-18-v3"></a><span data-ttu-id="e269a-103">„Project Service Automation“ V3 18 naujinimo leidimas</span><span class="sxs-lookup"><span data-stu-id="e269a-103">Project Service Automation Update Release 18, V3</span></span>
+
+<span data-ttu-id="e269a-104">Malonu pranešti apie naujausią „Dynamics 365“ programos „Project Service Automation“ naujinimą.</span><span class="sxs-lookup"><span data-stu-id="e269a-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="e269a-105">Šiame leidime yra kai kurių svarbių kokybės, veikimo ir naudojimo patobulinimų.</span><span class="sxs-lookup"><span data-stu-id="e269a-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="e269a-106">Šis leidimas suderinamas su „Dynamics 365“ 9.x versija.</span><span class="sxs-lookup"><span data-stu-id="e269a-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="e269a-107">Norėdami naujinti šį leidimą, eikite į „Dynamics 365“ administravimo centrą, tada eikite į sprendimų puslapį, iš kurio galite įdiegti naujinimą.</span><span class="sxs-lookup"><span data-stu-id="e269a-107">To update to this release, visit the Admin Center for Dynamics 365 online, solutions page to install the update.</span></span> <span data-ttu-id="e269a-108">Daugiau informacijos žr. [Pageidaujamo sprendimo diegimas, naujinimas arba šalinimas](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="e269a-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
+
+<span data-ttu-id="e269a-109">Šioje temoje išvardytos funkcijos ir pataisymai, kurie yra nauji arba pakeisti „Project Service Automation“ V3 18 atnaujintame leidime.</span><span class="sxs-lookup"><span data-stu-id="e269a-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 18.</span></span> <span data-ttu-id="e269a-110">Šios versijos komponavimo versijos numeris yra V3.10.8.12 ir ji paprastai pasiekiama savaiminiu naujinimu, vykdytu 2020 m. balandžio mėn.</span><span class="sxs-lookup"><span data-stu-id="e269a-110">This version has a build number of V3.10.8.12 and is generally available through a self-update in April 2020.</span></span>
+
+## <a name="update-release-18"></a><span data-ttu-id="e269a-111">18 atnaujintas leidimas</span><span class="sxs-lookup"><span data-stu-id="e269a-111">Update Release 18</span></span>
+
+### <a name="bug-fixes"></a><span data-ttu-id="e269a-112">Ištaisytos klaidos</span><span class="sxs-lookup"><span data-stu-id="e269a-112">Bug fixes</span></span>
+
+<span data-ttu-id="e269a-113">**Laikas ir išlaidos**</span><span class="sxs-lookup"><span data-stu-id="e269a-113">**Time and Expense**</span></span>
+
+- <span data-ttu-id="e269a-114">Išspręsta: srautai **Atšaukti** , **Pateikti užklausą** ir **Atšaukti patvirtinimą** pateikia išimtis su neaiškiais klaidos pranešimais.</span><span class="sxs-lookup"><span data-stu-id="e269a-114">Fixed: **Recall** , **Request** , and **Cancel Approval** flows throw exceptions with unclear error messages.</span></span>
+- <span data-ttu-id="e269a-115">Išspręsta: kai išlaidoms nepavyksta **Atšaukti patvirtinimą** , nepateikiama reikiama išimties klaida.</span><span class="sxs-lookup"><span data-stu-id="e269a-115">Fixed: When **Cancel Approval** fails for an expense, a relevant exception error is not thrown.</span></span>
+- <span data-ttu-id="e269a-116">Išspręsta: tinklelyje Laiko įrašas neteisingai tvarkomos ne darbo dienos Australijoje po vasaros laiko įvedimo (DST) spalio mėn.</span><span class="sxs-lookup"><span data-stu-id="e269a-116">Fixed: The Time Entry grid incorrectly handles non-working days in Australia after the daylight savings time (DST) switch in October.</span></span>
+- <span data-ttu-id="e269a-117">Išspręsta: dėl netinkamos numatytojo vykdymo logikos negalima pateikti išlaidų.</span><span class="sxs-lookup"><span data-stu-id="e269a-117">Fixed: Incorrect defaulting logic prevents submission of expenses.</span></span>
+- <span data-ttu-id="e269a-118">Išspręsta: kai laiko įrašo patvirtinimas yra nesėkmingas, jis tebėra būsenoje **Laukiama**.</span><span class="sxs-lookup"><span data-stu-id="e269a-118">Fixed: When time entry approval fails, the approval remains in a state of **Pending**.</span></span>
+- <span data-ttu-id="e269a-119">Išspręsta: SQL masinių patvirtinimų klaidos (aklavietė / pasibaigė skirtasis laikas).</span><span class="sxs-lookup"><span data-stu-id="e269a-119">Fixed: SQL Errors on bulk approvals (deadlock/timeout).</span></span>
+- <span data-ttu-id="e269a-120">Išspręsta: patvirtinant laiko įrašus vartotojo patirtyje atsiranda reikšmingų našumo problemų, kai naujinami komandos nariai.</span><span class="sxs-lookup"><span data-stu-id="e269a-120">Fixed: Significant performance issues in the user experience caused by updating team members while approving time entries.</span></span>
+
+<span data-ttu-id="e269a-121">**Projektų valdymas**</span><span class="sxs-lookup"><span data-stu-id="e269a-121">**Project Management**</span></span>
+
+- <span data-ttu-id="e269a-122">Išspręsta: laiko juostos pranešimas perkeltas iš rodinio **Suderinimas** į pagrindinę formą **Projektas**.</span><span class="sxs-lookup"><span data-stu-id="e269a-122">Fixed: Time zone notification moved from the **Reconciliation** view to the **Project** main form.</span></span>
+- <span data-ttu-id="e269a-123">Išspręsta: kalendoriaus šablonas netinkamai vykdomas, kai atidaroma nauja projekto forma.</span><span class="sxs-lookup"><span data-stu-id="e269a-123">Fixed: Calendar template is not correctly defaulting when a new project form opens.</span></span>
+- <span data-ttu-id="e269a-124">Išspręsta: „Chromium“ pagrindu sukurtose naršyklėse vartotojai negali lengvai pažymėti naikinti ankstesnių užduočių.</span><span class="sxs-lookup"><span data-stu-id="e269a-124">Fixed: For chromium-based browsers, users are unable to easily select predecessor tasks to delete.</span></span>
+- <span data-ttu-id="e269a-125">Išspręsta: kuriant arba kopijuojant **projektą iš tuščio šablono** iškviečiami nesusiję priskyrimai.</span><span class="sxs-lookup"><span data-stu-id="e269a-125">Fixed: Creating or copying **Project from Empty template** fetches unrelated assignments.</span></span>
+- <span data-ttu-id="e269a-126">Išspręsta: tam tikrais kraštutiniais atvejais sukūrus naują priskyrimą iš užduočių tinklelio, sukuriami įrašų dublikatai.</span><span class="sxs-lookup"><span data-stu-id="e269a-126">Fixed: In specific edge cases, creating a new assignment from the task grid results in duplicate records being created.</span></span>
+- <span data-ttu-id="e269a-127">Išspręsta: neautomatiniu režimu vartotojai negali atnaujinti užduoties pradžios datos, kad ši būtų vėlesnė nei dabartinė įrašyta data.</span><span class="sxs-lookup"><span data-stu-id="e269a-127">Fixed: In manual mode, users are unable to update task start dates to be later than the current date saved.</span></span>
+
+<span data-ttu-id="e269a-128">**Išteklių valdymas**</span><span class="sxs-lookup"><span data-stu-id="e269a-128">**Resource Management**</span></span>
+
+- <span data-ttu-id="e269a-129">Išspręsta: išplėtus rezervavimus rodinio **Suderinimas** tarpinės sumos eilutėje neteisingai apskaičiuojamas rezervavimų nuokrypis.</span><span class="sxs-lookup"><span data-stu-id="e269a-129">Fixed: **Reconciliation** view subtotal row incorrectly calculates bookings variance after extending bookings.</span></span>
+- <span data-ttu-id="e269a-130">Išspręsta: rodinyje **Suderinimas** netinkamai rodomi išteklių priskyrimai, kai rezervuotinų išteklių kalendorius neatitinka projekto kalendoriaus.</span><span class="sxs-lookup"><span data-stu-id="e269a-130">Fixed: **Reconciliation** view incorrectly displays resource assignments when the bookable resource has a calendar that does not match the project calendar.</span></span>
+
+<span data-ttu-id="e269a-131">**„Sales“**</span><span class="sxs-lookup"><span data-stu-id="e269a-131">**Sales**</span></span>
+
+- <span data-ttu-id="e269a-132">Išspręsta: kai laiko įrašai patvirtinami iš naujo ( **Patvirtinti > Atšaukti >** patvirtinti dar kartą), sukuriamas įrašo duplikatas su neapmokestinama faktine reikšme.</span><span class="sxs-lookup"><span data-stu-id="e269a-132">Fixed: When time entries are re-approved ( **Approve > Cancel >** approve again), a duplicate non-chargeable actual is created.</span></span>
