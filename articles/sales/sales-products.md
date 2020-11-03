@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 28397fd49ad4cdb2c820ef4b6f198f410995ba0f
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 7116659c646b323667e3c92cb3f6de99184f5ae6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898721"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080933"
 ---
 # <a name="products"></a>Produktai
 
@@ -39,22 +38,22 @@ Produktai yra jūsų verslo pagrindas. Produktų katalogas programoje „Dynamic
 
     -  **Pavadinimas**
     -  **Produkto ID**
-    -  **Pirminis**: pasirinkite produkto pirminę produktų šeimą. Jei kuriate antrinį produktą produktų šeimoje, čia įvedamas pirminės produktų šeimos pavadinimas. Įrašius įrašą pavadinimo keisti negalima.
-    -  **Galioja nuo** / **Galioja iki**: nustatykite produkto galiojimo laikotarpį pasirinkdami datas laukuose **Galioja nuo** ir **Galioja iki**.
-    -  **Vienetų grupė**: pasirinkite vienetų grupę. Vienetų grupė yra įvairių vienetų, kurie naudojami parduodant produktą, rinkinys ir ji nustato, kaip atskiri elementai yra grupuojami į didesnius kiekius. Pavyzdžiui, jeigu įtraukiate sėklas kaip produktą, galite sukurti vienetų grupę, pavadintą „Sėklos“, ir kaip pirminį vienetą nustatyti „pakelį“.
-    -  **Numatytasis vienetas**: pasirinkite dažniausią vienetą, kuriuo gali būti parduodamas produktas. Vienetai yra kiekiai arba matavimų vienetai, kuriais skaičiuojami parduodami produktai. Pvz., jei sėklas pridedate kaip produktą, jas galite parduoti pakeliais, dėžėmis arba padėklais. Kiekvienas iš jų yra produkto vienetas. Jeigu sėklos yra dažniausiai parduodamos pakeliais, pasirinkite jį kaip vienetą.
-    -  **Numatytasis kainoraštis**: jei tai naujas produktas, šis laukas bus skirtas tik skaityti. Kad galėtumėte pažymėti numatytąjį kainoraštį, turite užpildyti visus privalomuosius laukus, o tada įrašyti įrašą. Nors numatytasis kainoraštis nėra būtinas, įrašius produkto įrašą verta nustatyti numatytąjį kiekvieno produkto kainoraštį. Tada, jei kliento įraše nėra kainoraščio, „Sales“ gali naudoti numatytąjį kainoraštį pasiūlymams, užsakymams ir sąskaitoms faktūroms generuoti.
-    -  **Palaikomos dešimtainės trupmenos**: įveskite sveikąjį skaičių nuo 0 iki 5. Jei produkto negalima padalyti į dalinius kiekius, įveskite 0. Jei su produktu nesusietas kainoraštis, pasiūlymo, užsakymo arba sąskaitos faktūros produkto įrašo lauke **Kiekis** įvestos reikšmės tikslumas tikrinamas pagal šiame lauke įvestą reikšmę.
-    -  **Tema**: šį produktą susiekite su tema. Norėdami suskirstyti produktus į kategorijas ir filtruoti ataskaitas, galite naudoti temas.
+    -  **Pirminis** : pasirinkite produkto pirminę produktų šeimą. Jei kuriate antrinį produktą produktų šeimoje, čia įvedamas pirminės produktų šeimos pavadinimas. Įrašius įrašą pavadinimo keisti negalima.
+    -  **Galioja nuo**  / **Galioja iki** : nustatykite produkto galiojimo laikotarpį pasirinkdami datas laukuose **Galioja nuo** ir **Galioja iki**.
+    -  **Vienetų grupė** : pasirinkite vienetų grupę. Vienetų grupė yra įvairių vienetų, kurie naudojami parduodant produktą, rinkinys ir ji nustato, kaip atskiri elementai yra grupuojami į didesnius kiekius. Pavyzdžiui, jeigu įtraukiate sėklas kaip produktą, galite sukurti vienetų grupę, pavadintą „Sėklos“, ir kaip pirminį vienetą nustatyti „pakelį“.
+    -  **Numatytasis vienetas** : pasirinkite dažniausią vienetą, kuriuo gali būti parduodamas produktas. Vienetai yra kiekiai arba matavimų vienetai, kuriais skaičiuojami parduodami produktai. Pvz., jei sėklas pridedate kaip produktą, jas galite parduoti pakeliais, dėžėmis arba padėklais. Kiekvienas iš jų yra produkto vienetas. Jeigu sėklos yra dažniausiai parduodamos pakeliais, pasirinkite jį kaip vienetą.
+    -  **Numatytasis kainoraštis** : jei tai naujas produktas, šis laukas bus skirtas tik skaityti. Kad galėtumėte pažymėti numatytąjį kainoraštį, turite užpildyti visus privalomuosius laukus, o tada įrašyti įrašą. Nors numatytasis kainoraštis nėra būtinas, įrašius produkto įrašą verta nustatyti numatytąjį kiekvieno produkto kainoraštį. Tada, jei kliento įraše nėra kainoraščio, „Sales“ gali naudoti numatytąjį kainoraštį pasiūlymams, užsakymams ir sąskaitoms faktūroms generuoti.
+    -  **Palaikomos dešimtainės trupmenos** : įveskite sveikąjį skaičių nuo 0 iki 5. Jei produkto negalima padalyti į dalinius kiekius, įveskite 0. Jei su produktu nesusietas kainoraštis, pasiūlymo, užsakymo arba sąskaitos faktūros produkto įrašo lauke **Kiekis** įvestos reikšmės tikslumas tikrinamas pagal šiame lauke įvestą reikšmę.
+    -  **Tema** : šį produktą susiekite su tema. Norėdami suskirstyti produktus į kategorijas ir filtruoti ataskaitas, galite naudoti temas.
 
 4.  Pasirinkite **Įrašyti**.
-5.  Skirtuke **Papildoma informacija**, esančiame skiltyje **Kainoraščio elementai** pasirinkite **Daugiau komandų**, o tada pasirinkite **Įtraukti naują kainoraščio elementą**.
-7.  Skirtuke **Papildoma informacija**, esančiame skiltyje **Produkto ryšys** pasirinkite piktogramą **Daugiau komandų**, o tada pasirinkite **Įtraukti naują produkto ryšį**.
+5.  Skirtuke **Papildoma informacija** , esančiame skiltyje **Kainoraščio elementai** pasirinkite **Daugiau komandų** , o tada pasirinkite **Įtraukti naują kainoraščio elementą**.
+7.  Skirtuke **Papildoma informacija** , esančiame skiltyje **Produkto ryšys** pasirinkite piktogramą **Daugiau komandų** , o tada pasirinkite **Įtraukti naują produkto ryšį**.
 8.  Formoje **Naujas produkto ryšys** įveskite toliau nurodytą informaciją ir komandų juostoje pasirinkite **Įrašyti ir uždaryti**.
 
     -   **Susijęs produktas** – pasirinkite produktą, kurį norite įtraukti kaip susijusį produktą į esamo produkto įrašą, su kuriuo dirbate.
     -   **Pardavimų ryšio tipas** – pasirinkite, ar norite įtraukti produktą kaip papildomą pardavimą, kaip kryžminį pardavimą, kaip priedą, ar kaip pakaitinį produktą.
-    -   **Kryptis** – pasirinkite, ar ryšys tarp produktų bus vienakryptis ar dvikryptis. Kai pasirenkate Vienakryptis, produktas, kurį pasirenkate dalyje **Susijęs produktas**, bus rodomas kaip esamo produkto rekomendacija (bet ne atvirkščiai).
+    -   **Kryptis** – pasirinkite, ar ryšys tarp produktų bus vienakryptis ar dvikryptis. Kai pasirenkate Vienakryptis, produktas, kurį pasirenkate dalyje **Susijęs produktas** , bus rodomas kaip esamo produkto rekomendacija (bet ne atvirkščiai).
 
 9.  Produkto formoje pasirinkite **Įrašyti**.
 

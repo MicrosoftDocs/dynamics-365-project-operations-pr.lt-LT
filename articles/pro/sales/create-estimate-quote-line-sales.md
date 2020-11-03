@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 65aee7238781ac90f603e57c6d9b0b92cabd6644
-ms.sourcegitcommit: f6509f7d50de4d4ebb92c1bf2cfcdf09f17458eb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3966827"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080740"
 ---
 # <a name="estimating-a-project-based-quote-line"></a>Projektu pagrįstos pasiūlymo eilutės įvertinimas
 
@@ -30,7 +30,7 @@ Norėdami įvertinti projektu pagrįstą pasiūlymo eilutę, projektu pagrįstoj
 
 Jei norite kurti įvertinimą projektu pagrįstoje pasiūlymo eilutėje, pažymėkite skirtuką **Pasiūlymo eilutės informacija**. Šiame skirtuke sukurtas eilutės elementas apibendrins šios pasiūlymo eilutės pasiūlytą reikšmę. 
 
-Norėdami sukurti pasiūlymo eilutės išsamią informaciją, pažymėkite parinktį **+ Naujos pasiūlymo eilutės išsami informacija**, esančią papildomame tinklelyje **Pasiūlymo eilutės išsami informacija**. Atsidarys sparčiojo kūrimo slankiklis. Toliau nurodyti laukai, esantys formoje **Pasiūlymo eilutė**:
+Norėdami sukurti pasiūlymo eilutės išsamią informaciją, pažymėkite parinktį **+ Naujos pasiūlymo eilutės išsami informacija** , esančią papildomame tinklelyje **Pasiūlymo eilutės išsami informacija**. Atsidarys sparčiojo kūrimo slankiklis. Toliau nurodyti laukai, esantys formoje **Pasiūlymo eilutė** :
 
 | **Laukas** | **Vieta** | **Atitiktis, tikslas ir gairės** | **Tolesnis poveikis** |
 | --- | --- | --- | --- |
@@ -50,11 +50,11 @@ Norėdami sukurti pasiūlymo eilutės išsamią informaciją, pažymėkite parin
 
 ## <a name="update-prices-on-quote-line-details"></a>Kainų atnaujinimas pasiūlymo eilutės informacijoje
 
-Jei pakeitėte kainas projekto kainoraštyje, kuris pridėtas prie pasiūlymo, arba sutartį sudarančio vieneto savikainos kainoraštyje, galite pažymėti parinktį **Perskaičiuoti**, esančią puslapyje **Pasiūlymas**, kad atnaujintumėte kainas individualios pasiūlymo eilutės išsamiojoje informacijoje. Kai pasirenkate **Perskaičiuoti**, atsiranda įspėjimas, kuris informuoja, kad kainos pasiūlymo eilutės išsamiojoje informacijoje apie visas pasiūlymo eilutes šiame pasiūlyme bus nustatyta iš naujo. Norėdami atnaujinti pardavimų ir išlaidų pasiūlymo eilutės išsamią informaciją, pasirinkite **Taip**.
+Jei pakeitėte kainas projekto kainoraštyje, kuris pridėtas prie pasiūlymo, arba sutartį sudarančio vieneto savikainos kainoraštyje, galite pažymėti parinktį **Perskaičiuoti** , esančią puslapyje **Pasiūlymas** , kad atnaujintumėte kainas individualios pasiūlymo eilutės išsamiojoje informacijoje. Kai pasirenkate **Perskaičiuoti** , atsiranda įspėjimas, kuris informuoja, kad kainos pasiūlymo eilutės išsamiojoje informacijoje apie visas pasiūlymo eilutes šiame pasiūlyme bus nustatyta iš naujo. Norėdami atnaujinti pardavimų ir išlaidų pasiūlymo eilutės išsamią informaciją, pasirinkite **Taip**.
 
 ## <a name="access-quote-line-details-for-cost"></a>Prieiga prie išlaidų pasiūlymo eilutės išsamios informacijos
 
-Skirtuk **Pasiūlymo eilutės informacija** pažymėkite tinklelyje esančią eilutę, kad kai kurie veiksmai būtų įjungti papildomo tinklelio įrankių juostoje. Pirmasis veiksmas papildomo tinklelio įrankių juostoje, kai pasirinkta pasiūlymo eilutės išsami informacija, yra **Atidaryti išlaidų informaciją**. Pasirinkite **Atidaryti išlaidų informaciją**, kad matytumėte šios pasiūlymo eilutės išlaidų tarifą ir sumą.
+Skirtuk **Pasiūlymo eilutės informacija** pažymėkite tinklelyje esančią eilutę, kad kai kurie veiksmai būtų įjungti papildomo tinklelio įrankių juostoje. Pirmasis veiksmas papildomo tinklelio įrankių juostoje, kai pasirinkta pasiūlymo eilutės išsami informacija, yra **Atidaryti išlaidų informaciją**. Pasirinkite **Atidaryti išlaidų informaciją** , kad matytumėte šios pasiūlymo eilutės išlaidų tarifą ir sumą.
 
 > [!NOTE]
 > Išteklių paskirstymo vieneto, kiekybės, datos, vaidmens arba kategorijos reikšmių keitimas išlaidų pasiūlymo eilutės išsamiojoje informacijoje pakeis atitinkamas reikšmes pardavimų pasiūlymo eilutės išsamiojoje informacijoje.

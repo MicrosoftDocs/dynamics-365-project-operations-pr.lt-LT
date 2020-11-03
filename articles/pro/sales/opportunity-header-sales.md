@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 2f08de54767f49c308d0ccc7f2e1c6ef880b7f99
-ms.sourcegitcommit: a0f80d024a5d3112a39781815bd31d0c05ddaf6f
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "3906255"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080764"
 ---
 # <a name="opportunity-header"></a>Galimybės antraštė
 
@@ -27,7 +27,7 @@ Toliau pateiktoje lentelėje yra projektu pagrįstų galimybių laukai, kurie yr
 
 | **Laukas** | **Vieta** | **Atitiktis, tikslas ir gairės** | **Tolesnis poveikis** |
 | --- | --- | --- | --- |
-| Tipas | Bendros informacijos skirtukas (paslėptas) | Šis parinkčių rinkinio laukas turi šias parinktis:</br>- Darbu pagrįsta (veikia tik su „Project Operations“)</br>- Elementu pagrįsta (yra tik jei turite įsidiegę „Project Operations“ ir „Sales")</br>- Pagrįstas aptarnavimo priežiūra (yra, kai įdiegta „Field Service“) | Kai naudojate „Project Operations“, ši lauko reikšmė automatiškai nustatoma kaip **Darbu pagrįsta**, kuri galimybę suklasifikuoja kaip projektu pagrįstą. Galimybė turi būti pagrįsta projektu, kad būtų galima įjungti visus su projektu susijusius išplėtimus ir funkcijas tolesniuose šio sandorio procesuose. |
+| Tipas | Bendros informacijos skirtukas (paslėptas) | Šis parinkčių rinkinio laukas turi šias parinktis:</br>- Darbu pagrįsta (veikia tik su „Project Operations“)</br>- Elementu pagrįsta (yra tik jei turite įsidiegę „Project Operations“ ir „Sales")</br>- Pagrįstas aptarnavimo priežiūra (yra, kai įdiegta „Field Service“) | Kai naudojate „Project Operations“, ši lauko reikšmė automatiškai nustatoma kaip **Darbu pagrįsta** , kuri galimybę suklasifikuoja kaip projektu pagrįstą. Galimybė turi būti pagrįsta projektu, kad būtų galima įjungti visus su projektu susijusius išplėtimus ir funkcijas tolesniuose šio sandorio procesuose. |
 | Susisiekite | Bendros informacijos skirtukas | Nuoroda į kliento pirminį šio sandorio kontaktą. | |
 | Abonementas | Bendros informacijos skirtukas | Nurodo į kliento įmonę arba kliento įrašą. | |
 | Klientų tvarkytuvas | Bendros informacijos skirtukas | Šios projektu pagrįstos galimybės klientų vadybininko vardas. | Klientų vadybininkas yra atsakingas už ryšių su klientu viso projekto metu valdymą. Remiantis rezervuojamų išteklių įrašo susiejimu su klientų vadybininku, sutartį sudarantis vienetas laikomas numatytuoju. |

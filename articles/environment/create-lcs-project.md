@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
 ms.openlocfilehash: c0b756068f7eec5e3abd326957ee07cb0d00331f
-ms.sourcegitcommit: f42a5e4dbb9e82d8e635d1fbfb17c49c73f25d60
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3930537"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080693"
 ---
 # <a name="start-a-new-project-in-lcs"></a>Pradėkite naują LCS projektą
 
@@ -23,7 +23,7 @@ Naudokite „Lifecycle Services“ (LCS), kad valdytumėte jūsų „Dynamics 36
 
 1. Eikite į [LCS](https://lcs.dynamics.com/Logon/Index) ir pasirinkite **Prisijungti** naudojant abonementą, kurį naudojote prenumeruodami.
 2. Jei būsite paraginti, sutikite su teisiniais ir privatumo terminais.
-3. Norėdami sukurti naują projektą, pasirinkite pliuso ženklą (**+**).
+3. Norėdami sukurti naują projektą, pasirinkite pliuso ženklą ( **+** ).
 4. Peržiūros tikslais pažymėkite projekto tipą **Perkelti, kurti sprendimus ir išmokite**.
 
   ![LCS projekto tipo pasirinkimas](./media/create-lcs-1.png)

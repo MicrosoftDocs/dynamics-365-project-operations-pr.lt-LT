@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 3c429fa14b4b95420c67a91a6a59af7db2660f68
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898901"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080734"
 ---
 # <a name="close-a-quote"></a>Pasiūlymo uždarymas
 
@@ -23,7 +23,7 @@ Projekto pasiūlymą galima uždaryti kaip laimėtą arba pralaimėtą. Pasiūly
 
 ## <a name="close-a-quote-as-won"></a>Pasiūlymo uždarymas kaip laimėto
 
-Uždarant projekto pasiūlymą kaip laimėtą, nustatoma pasiūlymo būsena **Uždarytas**, o būsenos tipas nustatomas kaip **Laimėtas**. Uždarius pasiūlymą, jis pasidaro tik skaitomas ir sukuriamas projekto sutarties juodraštis su visa pasiūlymo informacija. Kadangi uždaryto pasiūlymo atidaryti iš naujo negalima, prieš uždarant pasiūlymą pateikiamas patvirtinimo dialogo langas, kuriame reikės patvirtinti keitimus.
+Uždarant projekto pasiūlymą kaip laimėtą, nustatoma pasiūlymo būsena **Uždarytas** , o būsenos tipas nustatomas kaip **Laimėtas**. Uždarius pasiūlymą, jis pasidaro tik skaitomas ir sukuriamas projekto sutarties juodraštis su visa pasiūlymo informacija. Kadangi uždaryto pasiūlymo atidaryti iš naujo negalima, prieš uždarant pasiūlymą pateikiamas patvirtinimo dialogo langas, kuriame reikės patvirtinti keitimus.
 
 Projekto sutartis, sukurta pagal projekto pasiūlymą, taip pat pateikiama „Project Operations“ modulyje Projektų valdymas ir apskaita. Jei projekto sutartis nesusieta su jokiomis projekto eilutėmis, ši projekto sutartis nustatoma kaip neaktyvi projekto sutartis ir ji pasidaro aktyvi iš karto, kai tik projektas susiejamas su bent viena iš sutarties eilučių.
 

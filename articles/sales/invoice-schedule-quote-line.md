@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ecaf4d872873473b0e7fe3b08d62c6fe5af9c3d
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: 3ead79371c5ebf5801123e47dc0d24e35ae51e58
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908391"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080769"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Projektu pagrįstų pasiūlymo eilučių sąskaitų faktūrų grafikai
 
@@ -32,7 +32,7 @@ Kai projektu pagrįstos pasiūlymo eilutės atsiskaitymo būdas yra laikas ir me
 3. Atidarykite laiko ir medžiagos pasiūlymo eilutę, kurią turite sukurti pagal data pagrįstą sąskaitos faktūros grafiką. 
 4. Skirtuke **Sąskaitos faktūros grafikas** pažymėkite reikšmes laukuose **Atsiskaitymo pradžia** ir **Sąskaitos faktūros dažnumas**. 
 5. Papildomame tinklelyje pasirinkite **Generuoti sąskaitų faktūrų grafiką**.
-6. Programa sukuria sąskaitos faktūros grafiką su laukais **Sąskaitos faktūros vykdymo data**, **Operacijos galutinė data** ir **Vykdymo būsena** šiuo būdu:
+6. Programa sukuria sąskaitos faktūros grafiką su laukais **Sąskaitos faktūros vykdymo data** , **Operacijos galutinė data** ir **Vykdymo būsena** šiuo būdu:
 
     - **Sąskaitos faktūros vykdymo data** nustatoma į datą, kurią diktuoja sąskaitos faktūros dažnumas.
     - **Operacijos galutinė data** nustatoma į tą dieną prieš **Sąskaitos faktūros vykdymo datą**.
@@ -58,7 +58,7 @@ Kai projektu pagrįstoje pasiūlymo eilutėje yra **Fiksuotas** atsiskaitymo bū
 
 Fiksuotos kainos etapai taip pat gali būti generuojamos rankiniu būdu, kai jie nėra periodiškai padalijami. Norėdami sukurti etapą rankiniu būdu:
 
-Atidarykite fiksuotos kainos pasiūlymo eilutę, kur norite sukurti etapą. Skirtuke **Sąskaitos faktūros grafikas**, esančiame papildomame tinklelyje, pažymėkite **+ Kurti naują pasiūlymo eilutės etapą** ir įveskite reikiamą informaciją pagal šią lentelę.
+Atidarykite fiksuotos kainos pasiūlymo eilutę, kur norite sukurti etapą. Skirtuke **Sąskaitos faktūros grafikas** , esančiame papildomame tinklelyje, pažymėkite **+ Kurti naują pasiūlymo eilutės etapą** ir įveskite reikiamą informaciją pagal šią lentelę.
 
 | **Laukas** | **Vieta** | **Atitiktis, tikslas ir gairės** | **Tolesnis poveikis** |
 | --- | --- | --- | --- |

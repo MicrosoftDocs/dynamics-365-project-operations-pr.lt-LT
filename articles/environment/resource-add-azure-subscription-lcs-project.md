@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
 ms.openlocfilehash: 0b5703542ac58adcc710890d9676dd0090a82f25
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948981"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080707"
 ---
 # <a name="add-an-azure-subscription-to-lcs-project"></a>„Azure“ prenumeratos įtraukimas į LCS projektą
 
@@ -23,15 +23,15 @@ Naudojant esamą „Azure“ prenumeratą būtina įdiegti debesyje esančią ap
 
 ## <a name="grant-admin-consent"></a>Administratoriaus sutikimo davimas
 
-1. Savo LCS projekte, skyriuje **Aplinkos**, pasirinkite **„Microsoft Azure“ parametrai**.
+1. Savo LCS projekte, skyriuje **Aplinkos** , pasirinkite **„Microsoft Azure“ parametrai**.
 
 ![„Microsoft Azure“, parametrai](./media/1MicrosoftAzureSettings.png)
 
-2. Puslapyje **Projekto parametrai**, skirtuke **„Azure“ jungtys** pažymėkite **Leisti**. Taip leidžiama aplinkas įdiegti į šį projektą.
+2. Puslapyje **Projekto parametrai** , skirtuke **„Azure“ jungtys** pažymėkite **Leisti**. Taip leidžiama aplinkas įdiegti į šį projektą.
 
 ![„Azure” jungtys](./media/2AzureConnectors.png)
 
-3. Dar kartą pasirinkite **Leisti**, kad būtų duotas administratoriaus sutikimas.
+3. Dar kartą pasirinkite **Leisti** , kad būtų duotas administratoriaus sutikimas.
 
 ![Administratoriaus sutikimo davimas](./media/3GrantAdminConsent.png)
 
@@ -49,19 +49,19 @@ Dabar autorizavimas baigtas.
 
 ![„Azure“ prenumeratos informacija](./media/6AzureSubscription.png)
 
-2. Naršymo srityje pasirinkite **Prieigos valdymas (IAM)**, tada pažymėkite **Įtraukti vaidmens priskyrimą**.
-3. Dešinėje pusėje esančiame slankiklyje pasirinkite **Dalyvio vaidmuo**, pateiktame sąraše raskite ir pažymėkite **Dynamics Deployment Services**. 
+2. Naršymo srityje pasirinkite **Prieigos valdymas (IAM)** , tada pažymėkite **Įtraukti vaidmens priskyrimą**.
+3. Dešinėje pusėje esančiame slankiklyje pasirinkite **Dalyvio vaidmuo** , pateiktame sąraše raskite ir pažymėkite **Dynamics Deployment Services**. 
 4. Pasirinkite **Įrašyti**.
 
 ![Prenumeratos prieiga](./media/7SubscriptionAccess.png)
 
 ### <a name="add-a-subscription-connector-to-an-lcs-project"></a>Įtraukti prenumeratos jungtį į LCS projektą
 
-1. Savo LCS projekto puslapyje **„Microsoft Azure“ parametrai** pasirinkite **Įtraukti**, kad įtrauktumėte naują jungtį.
+1. Savo LCS projekto puslapyje **„Microsoft Azure“ parametrai** pasirinkite **Įtraukti** , kad įtrauktumėte naują jungtį.
 2. Įveskite savo „Azure“ prenumeratos ID. Savo „Azure“ prenumeratos ID galite rasti [„Azure“ portale](https://ms.portal.azure.com/) dalyje **Parametrai** apatiniame kairiajame ekrano kampe.
 3. Lauke **Konfigūruoti naudoti „Azure Resource Manager“** pasirinkite **Taip**.
 4. Įsitikinkite, kad „Azure“ prenumeratos AAD nuomotojo domenas atitinka domeno „Azure“ prenumeratą, kurią naudojate, ir pažymėkite **Kitas**.
-5. Ekrane **„Microsoft Azure“ sąranka** pasirinkite **Kitas**, kad patvirtintumėte. Jei šiame ekrane įvyksta klaida, grįžkite į skyrių [„Dynamics Deployment Services“ prieigos prie jūsų „Azure“ prenumeratos suteikimas](#provide)ir įsitikinkite, kad atlikote visus veiksmus.
+5. Ekrane **„Microsoft Azure“ sąranka** pasirinkite **Kitas** , kad patvirtintumėte. Jei šiame ekrane įvyksta klaida, grįžkite į skyrių [„Dynamics Deployment Services“ prieigos prie jūsų „Azure“ prenumeratos suteikimas](#provide)ir įsitikinkite, kad atlikote visus veiksmus.
 6. Atsisiųskite „Azure Management Certificate“ į vietinį aplanką savo kompiuteryje, tada įkelkite jį į „Azure Management Portal“ įėję į **Parametrai** > **Valdymo sertifikatai**. Šis sertifikatas leis LCS užmegzti ryšį su „Azure“ jūsų vardu. Šį veiksmą galite praleisti, jei jūsų vartotojas turi prieigą prie prenumeratos.
 7. Pasirinkite **Toliau**.
 8. Pažymėkite „Azure“ regioną, skirtą visuotinai diegti, ir pasirinkite duomenų centrą, esantį netoli tos sistemos, kurią ketinate naudoti.

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: ffcfa8a9c8e31c5665acd3c3919fa90d36a3f3ca
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: e875d1765b5038e60830d626abb5bcd61749ece1
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896741"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080721"
 ---
 # <a name="security-model"></a>Saugos modelis
 
@@ -36,10 +36,11 @@ _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems s
 
 
 „Microsoft Project“ žiniatinkliui komponentas apima toliau nurodytus vaidmenis:
-| Vaidmuo                          | Aprašo                                                                                                          | Scope |                                                       
-|-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
-| „Project“ vartotojas | „Project“ bendradarbiaujantis vartotojas, galintis kurti savo projektus ir peržiūrėti bet kokius su juo bendrintus projektus.| Vartotojas|
-| „Project“ sistema | Vaidmuo, naudojamas programos kontekste. Klientai neturėtų naudoti šio sistemos vaidmens. | Visuotinis|
+
+| Vaidmuo           | Aprašo                                                                                                        | Scope  |
+|----------------|--------------------------------------------------------------------------------------------------------------------|--------|
+| „Project“ vartotojas   | „Project“ bendradarbiaujantis vartotojas, galintis kurti savo projektus ir peržiūrėti bet kokius su juo bendrintus projektus. | Vartotojas   |
+| „Project“ sistema | Vaidmuo, naudojamas programos kontekste. Klientai neturėtų naudoti šio sistemos vaidmens.                                    | Visuotinis |
 
 ## <a name="security-enforcement"></a>Saugos užtikrinimas
 Projekto lygmeniu atliekami veiksmai atliekami prisijungusio vartotojo kontekste. Tai reiškia, kad norint kurti, atidaryti arba panaikinti projektą, vartotojas privalo turėti prieigą prie CDS. Prieiga prie CDS gali būti suteikta naudojant bet kuriuos galimus į platformą įtrauktus mechanizmus. Pavyzdžiui, vartotojas, turintis didesnės aprėpties teises, gali pasiekti projektą arba jei atliktas aiškus projekto bendrinimo veiksmas, kuris suteikia vartotojui prieigą.
@@ -56,6 +57,8 @@ Naudojant grupes galima bendrai dirbti su projekto teisėmis ir palaikomais bend
 „Project Operations“ grupė nesukuriama atliekant netiesioginį veiksmą – grupė sukuriama tiesiogiai paspaudus grupes.
 
 Dialogo lange **Grupės valdymas** galima ieškoti tik grupės narių, kurie nustatyti kaip priklausantys aplinkos saugos grupei. Daugiau informacijos žr. [Vartotojų prieigos prie aplinkos valdymas: saugos grupės ir licencijos](https://docs.microsoft.com/power-platform/admin/control-user-access).
+
+![Grupės režimas](./media/groupsmode.png)
 
 1. Projektą sukuria vartotojas ir jis priklauso projektą sukūrusiam vartotojui.
 2. Projekto savininkas atnaujinamas komandoje.

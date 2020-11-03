@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 17ffcf8dc94d42102115281d281d6b553cf1fa17
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896246"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080762"
 ---
 # <a name="product-based-opportunity-lines"></a>Produktu pagrįstos galimybių eilutės
 
@@ -25,4 +25,4 @@ Produktu pagrįstos eilutės gali būti katalogo elementai arba įtraukiamieji p
 
 Viena sąvoka apie produktu pagrįstų galimybių eilutes, būdingas projektu pagrįstomis galimybėmis, yra **Kliento biudžetas**. Šiame lauke galite sekti sumą, kurią klientas nori mokėti už eilutės elementą.
 
-Jei galimybės suvestinės pajamų metodas nustatytas kaip **Sistema apskaičiuota**, kliento biudžeto reikšmės visose produktu ir projektu pagrįstose eilutėse yra apibendrintos, kad būtų galima apskaičiuoti numatomas pajamas.
+Jei galimybės suvestinės pajamų metodas nustatytas kaip **Sistema apskaičiuota** , kliento biudžeto reikšmės visose produktu ir projektu pagrįstose eilutėse yra apibendrintos, kad būtų galima apskaičiuoti numatomas pajamas.

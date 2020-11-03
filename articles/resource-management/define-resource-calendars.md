@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: ab39d7e5dc2d8c01ed49ca0f1a4d1691aaf15637
-ms.sourcegitcommit: 396e0fea2f1598a5313cb0128eca4fe0bb5aade9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961908"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080684"
 ---
 # <a name="define-resource-calendars"></a>Išteklių kalendorių apibrėžimas
 
@@ -40,6 +40,6 @@ Kiekvienas projekto rezervuojamasis išteklius turi turėti darbo valandų kalen
 ## <a name="applying-a-calendar-template-to-a-resource"></a>Kalendoriaus šablono taikymas ištekliui
 
 1. Meniu **Ištekliai** pažymėkite **Ištekliai**.
-2. Tinklelio rodinyje pažymėkite iki 25 **Rezervuojamų išteklių**, kad juos atnaujintumėte.
+2. Tinklelio rodinyje pažymėkite iki 25 **Rezervuojamų išteklių** , kad juos atnaujintumėte.
 3. Pažymėkite **Nustatyti kalendorių** ir dialogo langas pasiūlys galimų darbo valandų šablonų sąrašą.
 4. Pasirinkite norimą naudoti šabloną ir pažymėkite **Taikyti**.

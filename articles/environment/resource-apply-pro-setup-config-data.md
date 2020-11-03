@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d99ab4c7b2ebf6ba56b86a3e0151036c6247e484
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948980"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080709"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>Konfigūracijos duomenų nustatymas ir taikymas „Common Data Service“, skirtoje „Project Operations“
 
@@ -23,11 +23,11 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 
 1. Atsisiųskite, atblokuokite ir išskleiskite [sąrankos ir konfigūracijos duomenų paketą](https://download.microsoft.com/download/1/3/4/1349369c-6209-42b7-b3b4-5be0e67cacd8/ProjOpsSampleSetupData-%20Integrated%20UR1.zip).
 2. Nueikite į neišskleistą aplanką ir vykdykite vykdomąjį failą *DataMigrationUtility*.
-3. „Common Data Service“ konfigūravimo perkėlimo (CMT) vedlio 1 puslapyje pasirinkite **Importuoti duomenis**, o tada pasirinkite **Tęsti**.
+3. „Common Data Service“ konfigūravimo perkėlimo (CMT) vedlio 1 puslapyje pasirinkite **Importuoti duomenis** , o tada pasirinkite **Tęsti**.
 
 ![Konfigūravimo perkėlimas](./media/1ConfigurationMigration.png)
 
-4. CMT vedlio 2 puslapyje pažymėkite **„Office 365“** kaip **Visuotinio diegimo tipą**.
+4. CMT vedlio 2 puslapyje pažymėkite **Microsoft 365** kaip **Visuotinio diegimo tipą**.
 5. Pažymėkite žymės langelius **Rodyti galimų organizacijų sąrašą** ir **Rodyti išsamiau**.
 6. Pasirinkite savo nuomotojo regioną, įveskite savo kredencialus ir pasirinkite **Prisijungti**.
 
@@ -75,7 +75,7 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 
 ![Aplinkos atidarymas](./media/7OpenEnvironment.png)
 
-2. Eikite į **Projektai** > **Ištekliai**, tada pasirinkite **Naujas**, kad vartotojui sukurtumėte išteklių, kurį galima rezervuoti.
+2. Eikite į **Projektai** > **Ištekliai** , tada pasirinkite **Naujas** , kad vartotojui sukurtumėte išteklių, kurį galima rezervuoti.
 
 ![Rezervuojami ištekliai](./media/8BookableResources.png)
 
@@ -114,10 +114,10 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
  
 12. Atnaujinkite toliau nurodytus laukus:
 
- - **Numatytoji įmonė**: USPM
- - **Numatytasis organizacinis vienetas**: „Contoso Robotics Global“
- - **Sąskaitų faktūrų dažnumas**: septintoji diena ir paskutinė diena
- - **Darbo valandų šablonas**: pakeiskite į savo sukurtą šabloną.
+ - **Numatytoji įmonė** : USPM
+ - **Numatytasis organizacinis vienetas** : „Contoso Robotics Global“
+ - **Sąskaitų faktūrų dažnumas** : septintoji diena ir paskutinė diena
+ - **Darbo valandų šablonas** : pakeiskite į savo sukurtą šabloną.
 
 13. Pasirinkite **Įrašyti**. 
 

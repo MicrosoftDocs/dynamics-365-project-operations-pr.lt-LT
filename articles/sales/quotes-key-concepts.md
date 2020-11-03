@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: b252f6e02d0809c352d3665731ec5e02e4e9a73f
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 42ea1eb71b3285159b3fdf79ba34a562f948fd6e
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898452"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081002"
 ---
 # <a name="quotes---key-concepts"></a>Pasiūlymai – pagrindinės sąvokos
 
@@ -31,11 +30,11 @@ _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems s
 
 Programoje „Dynamics 365 Project Operations“ yra dviejų tipų pasiūlymai, projektas ir pardavimas. Šių pasiūlymų dviejų tipų skirtumai išvardyti toliau.
 
-- **Tinkleliai eilutės elementams**: pardavimo pasiūlymuose yra tik vienas tinklelis eilutės elementams. Projekto pasiūlyme yra du eilučių elementų tinkleliai. Vienas tinklelis skirtas projektų eilutėms, o kitas – produktų eilutėms.
+- **Tinkleliai eilutės elementams** : pardavimo pasiūlymuose yra tik vienas tinklelis eilutės elementams. Projekto pasiūlyme yra du eilučių elementų tinkleliai. Vienas tinklelis skirtas projektų eilutėms, o kitas – produktų eilutėms.
 - **Aktyvinimas ir peržiūrėjimas** – pardavimo pasiūlymus galima aktyvuoti ir peržiūrėti. Šie procesai nepalaikomi projekto pasiūlyme.
 - **Pridėti užsakymai** – į pardavimo pasiūlymą galima įtraukti keletą užsakymų. Į projekto pasiūlymą galima įtraukti tik vieną projekto sutartį.
 - **Pasiūlymo laimėjimas** – kai laimite pardavimo pasiūlymą, susijusi galimybė gali likti atvira. Laimėjus projekto pasiūlymą, susijusi galimybė uždaroma.
-- **Laukai ir sąvokos** – pardavimo pasiūlyme nėra kai kurių laukų ir sąvokų, įtrauktų į projekto pasiūlymą. Šie laukai yra **Sutartį pasirašantis vienetas**, **Klientų vadybininkas** ir **Sąskaitų gavėjo kontakto vardas**.  
+- **Laukai ir sąvokos** – pardavimo pasiūlyme nėra kai kurių laukų ir sąvokų, įtrauktų į projekto pasiūlymą. Šie laukai yra **Sutartį pasirašantis vienetas** , **Klientų vadybininkas** ir **Sąskaitų gavėjo kontakto vardas**.  
 - **Tipas** – pardavimo pasiūlymai ir projekto pasiūlymai taip pat identifikuojami pagal parinkčių rinkiniu grindžiamą lauką **Tipas**. Pardavimo pasiūlyme šio lauko reikšmė yra **Pagrįstas prekėmis**. Projekto pasiūlyme jo reikšmė yra **Pagrįstas darbais**.
 
 Šioje temoje pagrindinis dėmesys skiriamas projekto pasiūlymų informacijai.
@@ -91,7 +90,7 @@ Pavyzdžiui, pasiūlyme gali būti šios dvi pasiūlymo eilutės:
 - susijusios kelionių išlaidos, kurioms taikomas fiksuotos kainos atsiskaitymo metodas. Pavyzdžiui, sąskaita už visas pavyzdinio projekto **Visuotinis „Dynamics AX“ diegimas** kelionių išlaidas išrašoma naudojant fiksuotą piniginę vertę.
 
 > [!NOTE]
-> Su pasiūlymo eilute arba sutarties eilute susietų operacijų klasifikacijų **Laikas**, **Išlaidos** ir **Mokestis** derinys turi būti unikalus. Jei tas pats projekto ir operacijų klasių derinys susiejamas su daugiau nei viena sutarties eilute arba pasiūlymo eilute, „Project Operations“ veiks netinkamai.
+> Su pasiūlymo eilute arba sutarties eilute susietų operacijų klasifikacijų **Laikas** , **Išlaidos** ir **Mokestis** derinys turi būti unikalus. Jei tas pats projekto ir operacijų klasių derinys susiejamas su daugiau nei viena sutarties eilute arba pasiūlymo eilute, „Project Operations“ veiks netinkamai.
 
 ## <a name="billing-types"></a>Atsiskaitymo tipai
 

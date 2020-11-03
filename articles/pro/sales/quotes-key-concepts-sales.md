@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 64d2fd9bab9452d71e8cd194fbab70edadf00b93
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896291"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080760"
 ---
 # <a name="project-quote-key-concepts"></a>Projekto pasiūlymo pagrindinės sąvokos
 
@@ -28,7 +28,7 @@ Sutartį sudarantis vienetas yra padalinys arba praktika, kuriai priklauso proje
 
 ## <a name="cost-currency"></a>Savikainos valiuta
 
-Išlaidų valiuta „Project Operations“ yra valiuta, kuria pateikiamos išlaidos. Ši valiuta gaunama iš valiutos, susietos su lauku **Sutartį sudarantis vienetas**, esančiu pasiūlyme, sutartyje ir projekte. Išlaidas galima registruoti bet kuria valiuta projekte. Tačiau tada nurodomas valiutos konvertavimas iš valiutos, kuria užregistruotos išlaidos, į projekto išlaidų valiutą.
+Išlaidų valiuta „Project Operations“ yra valiuta, kuria pateikiamos išlaidos. Ši valiuta gaunama iš valiutos, susietos su lauku **Sutartį sudarantis vienetas** , esančiu pasiūlyme, sutartyje ir projekte. Išlaidas galima registruoti bet kuria valiuta projekte. Tačiau tada nurodomas valiutos konvertavimas iš valiutos, kuria užregistruotos išlaidos, į projekto išlaidų valiutą.
 
 Kadangi CDS platformos valiutų kursai nėra galiojantys pagal datą, todėl, jei atnaujinate valiutos keitimo kursus, išlaidų ekrane sumos gali pasikeisti. Tačiau išlaidos, įrašytos į duomenų bazę, lieka nepakitusios, nes sumos saugomos valiuta, kuria jos patirtos.
 

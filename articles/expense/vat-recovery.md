@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.openlocfilehash: 2c20e4a7fa9748e03bf1729fc2f7bdbfc2f292d1
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908386"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080704"
 ---
 # <a name="vat-recovery-in-expense-management"></a>PVM susigrąžinimas naudojant modulį Išlaidų valdymas
 
@@ -21,7 +21,7 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 
 Norint susigrąžinti PVM už atitinkamas pridėtinės vertės mokesčio (VAT) operacijas, įmonė arba organizacija turi identifikuoti, rinkti, patikrinti ir pateikti tikslią informaciją. Šis procesas apima kelias užduotis ir, atsižvelgiant į jūsų įmonės dydį, kelis darbuotojus arba vaidmenis.
 
-Norint susigrąžinti PVM naudojant modulį **Išlaidų valdymas**, turi būti įgyvendintos toliau nurodytos būtinosios sąlygos.
+Norint susigrąžinti PVM naudojant modulį **Išlaidų valdymas** , turi būti įgyvendintos toliau nurodytos būtinosios sąlygos.
 
 - Turi būti sukurti mokesčių kodai, skirti šalims / regionams, kurie priskiriami išlaidų kategorijoms.
 - Kiekvienam mokesčių kodui reikia sukurti PVM grupę.

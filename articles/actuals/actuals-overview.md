@@ -1,5 +1,5 @@
 ---
-title: Faktinių duomenų pagrindinis puslapis
+title: Faktiniai duomenys
 description: Šioje temoje pateikta informacija, kaip dirbti su faktiniais duomenimis programoje „Microsoft Dynamics 365 Project Operations“.
 author: rumant
 manager: AnnBe
@@ -7,7 +7,6 @@ ms.date: 09/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,14 +16,14 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 75ad336a995aba3505325466433a5c5e2bb3e776
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: 93a945ffbe9c6dd998456b506b95e717ab8fbab7
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907328"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080826"
 ---
-# <a name="actuals"></a>Faktiniai duomenys
+# <a name="actuals"></a>Faktiniai duomenys 
 
 _**Taikoma:** „Project Operations“, skirtai išteklių / ne atsargomis pagrįstiems scenarijams_
 
@@ -46,7 +45,7 @@ Kai teikiamas laiko įrašas susiejamas su projektu, kuris susietas su fiksuotos
 
 Numatytųjų kainų kūrimo logika yra žurnalo eilutėje. Laiko įrašo lauko reikšmės kopijuojamos į žurnalo eilutę. Šiose reikšmėse nurodoma operacijos data, sutarties eilutė, su kuria susietas projektas, ir valiuta iš atitinkamo kainoraščio.
 
-Laukai, turintys įtakos numatytąjai kainodarai, pvz., **Vaidmuo** ir **Organizacinis vienetas**, naudojami atitinkamai žurnalo eilutės kainai nustatyti. Į laiko įrašą galite įtraukti pasirinktinį lauką. Jei norite, kad lauko reikšmė būtų perkelta į faktinius duomenis, sukurkite lauką faktinių duomenų objekte ir naudokite lauko susiejimus norėdami kopijuoti lauką iš laiko įrašo į faktinius duomenis.
+Laukai, turintys įtakos numatytąjai kainodarai, pvz., **Vaidmuo** ir **Organizacinis vienetas** , naudojami atitinkamai žurnalo eilutės kainai nustatyti. Į laiko įrašą galite įtraukti pasirinktinį lauką. Jei norite, kad lauko reikšmė būtų perkelta į faktinius duomenis, sukurkite lauką faktinių duomenų objekte ir naudokite lauko susiejimus norėdami kopijuoti lauką iš laiko įrašo į faktinius duomenis.
 
 ## <a name="journal-lines-and-basic-expense-submission"></a>Žurnalo eilutės ir pagrindinių išlaidų pateikimas
 

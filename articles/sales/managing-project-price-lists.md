@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d09a0dd8234641ca106c37a38d1d721dfb07236c
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 1a69cf51ca8cde8260f4136cf1b2e936f99b112a
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898676"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081062"
 ---
 # <a name="project-price-lists"></a>Projekto kainoraščiai
 
@@ -54,7 +53,7 @@ Terminas *išteklių vaidmuo* nurodo įgūdžių, kompetencijų ir sertifikatų 
 
 Žmogiškųjų išteklių laiko kaina paprastai nustatoma atsižvelgiant į ištekliaus vaidmenį tam tikrame projekte. Nustatant žmogiškųjų išteklių laiką, įkainojimas ir atsiskaitymas vyksta remiantis išteklių vaidmenimi. Laiko kainą galima nustatyti naudojant bet kokį vienetų grupės **Laikas** vienetą.
 
-**Laiko** vienetų grupė sukuriama diegiant „Project Operations“. Jos numatytasis vienetas yra **Valanda**. Vienetų grupės **Laikas** ir vieneto **Valanda** atributų negalima panaikinti, pervardyti arba redaguoti. Tačiau į vienetų grupę **Laikas** galima įtraukti kitų vienetų. Jei bandysite panaikinti vienetų grupę **Laikas** arba vienetą **Valanda**, verslo logika gali sutrikti.
+**Laiko** vienetų grupė sukuriama diegiant „Project Operations“. Jos numatytasis vienetas yra **Valanda**. Vienetų grupės **Laikas** ir vieneto **Valanda** atributų negalima panaikinti, pervardyti arba redaguoti. Tačiau į vienetų grupę **Laikas** galima įtraukti kitų vienetų. Jei bandysite panaikinti vienetų grupę **Laikas** arba vienetą **Valanda** , verslo logika gali sutrikti.
  
 ## <a name="transaction-categories-and-expense-categories"></a>Operacijų kategorijos ir išlaidų kategorijos
 

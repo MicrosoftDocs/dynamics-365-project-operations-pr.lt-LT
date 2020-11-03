@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 4c814754e68b3a1a8bf8784434d45010bf8d0123
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908375"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080753"
 ---
 # <a name="skills-and-certifications"></a>Įgūdžiai ir sertifikatai
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
@@ -30,7 +30,7 @@ Charakteristikos papildo atributus, kuriais apibūdinami ištekliaus gebėjimai.
 
 ## <a name="assign-characteristics-to-resources"></a>Charakteristikų priskyrimas ištekliams
 
-1. Pagrindiniame meniu pasirinkite **Ištekliai** > **Rezervuojami ištekliai**. Atidaromas puslapis **Aktyvūs rezervuojami ištekliai**, kuriame galite peržiūrėti visų pasiekiamų išteklių sąrašą sistemoje.
+1. Pagrindiniame meniu pasirinkite **Ištekliai** > **Rezervuojami ištekliai**. Atidaromas puslapis **Aktyvūs rezervuojami ištekliai** , kuriame galite peržiūrėti visų pasiekiamų išteklių sąrašą sistemoje.
 2. Sąraše pasirinkite rezervuojamą išteklių.
 3. Skyriuje **Projektų vykdymo paslaugos** pasirinkite įrašą **+Įtraukti rezervuojamų išteklių charakteristikas**.
 4. Atidarytame iššokančiajame lange raskite ir pasirinkite reikiamas charakteristikas ir įtraukite to ištekliaus **Įvertinimo reikšmė**.

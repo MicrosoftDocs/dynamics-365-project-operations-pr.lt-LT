@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: d7234958d542dec4cba55cb0516f1222937389e1
-ms.sourcegitcommit: f255b2cbf290973ce62fe2c1c121bd1df15a7392
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3928589"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080713"
 ---
 # <a name="copy-project-based-quotes"></a>Projektu pagrįstų pasiūlymų kopijavimas
 
@@ -33,9 +33,9 @@ Taip atidarysite dialogo puslapį, kuriame galėsite įvesti kopijos parametrus.
 Kai atidaromas dialogo langas, sistema nustatys ją šaltinio pasiūlymo sutartį sudarančiu vienetu. | Sutartį sudarantis vienetas yra įmonės padalinys, kuris vykdys projektus po to, kai sandoris bus uždarytas. Kiekvienas sutartį sudarantis vienetas turi valiutą. Valiuta naudojama apskaičiuoti apytiksles ir faktines išlaidas, patirtas vykdant projektą. |
 | Valiuta | Tai valiuta, kuria sudaromas sandėris. Kai atidaromas dialogo langas, sistema nustatys ją šaltinio pasiūlymo valiuta. Tai galima modifikuoti ir, jei tai pasikeis, laukas **Kopijavimo kainodara** visada nustatomas į **Ne**. Taip yra todėl, kad kainoraščiai šaltinio pasiūlyme nebeaktualūs. | Valiuta naudojama kainoraščiui nustatyti, kad būtų galima apskaičiuoti pasiūlymo finansinį įvertinimą ir galiausiai išrašyti sąskaitą faktūrą klientui, kai sandoris laimėtas. |
 | Pageidaujama pristatymo data | Tai yra kliento pareikalauta pristatymo data. | Ji naudojama kaip pabaigos data kuriant sąskaitų faktūrų išrašymo datas pagal tam tikrą dažnumą. |
-| Kopijavimo įkainiai | Taip / Ne reikšmė nurodo, ar pasiūlymo kainos turėtų būti kopijuojamos iš šaltinio pasiūlymo. | Jei pasirinkta **Taip**, projekto kainoraštis ir produktų kainoraščio nuorodos kopijuojamos iš šaltinio pasiūlymo į tikslinį pasiūlymą. Jei pasirinkta **Ne**, kainoraščiai iš naujo nustatomi pagal naujausius kainoraščius, nustatytus kliento arba projekto parametruose. |
+| Kopijavimo įkainiai | Taip / Ne reikšmė nurodo, ar pasiūlymo kainos turėtų būti kopijuojamos iš šaltinio pasiūlymo. | Jei pasirinkta **Taip** , projekto kainoraštis ir produktų kainoraščio nuorodos kopijuojamos iš šaltinio pasiūlymo į tikslinį pasiūlymą. Jei pasirinkta **Ne** , kainoraščiai iš naujo nustatomi pagal naujausius kainoraščius, nustatytus kliento arba projekto parametruose. |
 
-Kai dialogo lango puslapyje pasirenkate **Gerai**, sistema sukuria projekto pasiūlymo kopiją pagal dialogo lange pažymėtus parametrus. Atidaromas naujas projekto pasiūlymas. 
+Kai dialogo lango puslapyje pasirenkate **Gerai** , sistema sukuria projekto pasiūlymo kopiją pagal dialogo lange pažymėtus parametrus. Atidaromas naujas projekto pasiūlymas. 
 
 > [!NOTE]
 > Ši informacija nėra kopijuojama iš šaltinio į tikslinį pasiūlymą:
@@ -44,4 +44,4 @@ Kai dialogo lango puslapyje pasirenkate **Gerai**, sistema sukuria projekto pasi
 > - Pasiūlymo ir pasiūlymo eilutės klientai
 > - Projekto nuoroda projekte – pagrįstos pasiūlymo eilutės – kliento biudžeto informacija
 >
->Kadangi tai yra specifinė kiekvieno pasiūlymo informacija, šie laukai ir įrašai nebus kopijuojami. Pasiūlymo lygyje bus kopijuojamos projektų ir produktų pasiūlymo eilutės, pasiūlymo eilutės išsamios informacijos įvertinimai ir „Neviršyti“ reikšmės. Kaios ir išlaidų tarifų numatytosios reikšmės priklauso nuo parinkties **Kopijuoti įkainius**, pasirinktos dialogo lango puslapyje **Kopijuoti parametrus**.
+>Kadangi tai yra specifinė kiekvieno pasiūlymo informacija, šie laukai ir įrašai nebus kopijuojami. Pasiūlymo lygyje bus kopijuojamos projektų ir produktų pasiūlymo eilutės, pasiūlymo eilutės išsamios informacijos įvertinimai ir „Neviršyti“ reikšmės. Kaios ir išlaidų tarifų numatytosios reikšmės priklauso nuo parinkties **Kopijuoti įkainius** , pasirinktos dialogo lango puslapyje **Kopijuoti parametrus**.

@@ -3,17 +3,17 @@ title: Naujos aplinkos parengimas
 description: Šioje temoje pateikiama informacija, kaip parengti naują „Project Operations“ aplinką.
 author: sigitac
 manager: Annbe
-ms.date: 10/02/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 45700371c50e3b5a840df45fc24fa8a5b4584b61
-ms.sourcegitcommit: 87b7a8d793c19c50f3765b8d788cde24a6a0ca24
+ms.openlocfilehash: a43b947207b6d4276ef27ec996713bf3883e7906
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949372"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080723"
 ---
 # <a name="provision-a-new-environment"></a>Naujos aplinkos parengimas
 
@@ -26,14 +26,14 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 Atlikite toliau nurodytus veiksmus, kad įjungtumėte automatinį „Project Operations“ parengimą LCS projekte.
 
 1. Eikite į [LCS](https://lcs.dynamics.com/v2) ir pasirinkite plytelę **Peržiūros versijos funkcijų valdymas**.
-2. Sąraše **Peržiūros versijos funkcija** pasirinkite **Project Operations** ir pasirinkite **Peržiūros versijos funkcija įjungta**, kad įjungtumėte „Project Operations“.
+2. Sąraše **Peržiūros versijos funkcija** pasirinkite **„Project Operations“ funkcija** , tada pasirinkite **Peržiūros versijos funkcija įjungta** , kad įjungtumėte „Project Operations“.
 
 > [!NOTE]
 > Šį veiksmą reikia atlikti tik vieną kartą LCS projekte.
 
 ## <a name="provision-a-project-operations-environment"></a>„Project Operations“ aplinkos parengimas
 
-1. Atidarykite naują „Dynamics 365 Finance“ [demonstracinės aplinkos](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) arba [smėlio dėžės / gamybos aplinkos](https://docs.microsoft.com/edynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) visuotinio diegimo paketą. 
+1. Atidarykite naują „Dynamics 365 Finance“ [demonstracinės aplinkos](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) arba [smėlio dėžės / gamybos aplinkos](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) visuotinio diegimo paketą. 
 2. Atlikite vediklio **Aplinkos parengimas** veiksmus. 
 
 > [!IMPORTANT]
@@ -54,7 +54,7 @@ Atlikite toliau nurodytus veiksmus, kad įjungtumėte automatinį „Project Ope
 ![Visuotinio diegimo parametrai](./media/1DeploymentSettings.png)
 
 > [!IMPORTANT]
-> Pasirinkite **Sutinku**, kad sutiktumėte su paslaugos teikimo sąlygomis, tada pasirinkite **Atlikta**, kad grįžtumėte į visuotinio diegimo parametrus.
+> Pasirinkite **Sutinku** , kad sutiktumėte su paslaugos teikimo sąlygomis, tada pasirinkite **Atlikta** , kad grįžtumėte į visuotinio diegimo parametrus.
 
 ![Visuotinio diegimo sutikimas](./media/2DeploymentConsent.png)
 
@@ -116,11 +116,11 @@ Aplinkos paruošimas gali šiek tiek užtrukti. Baigus vėl bus nustatyta aplink
 
 ![Susiejimas su CDS](./media/12LinktoCDS.png)
 
-4. Pasirinkite **Taikyti sprendimą**, kad pasiektumėte objektus, kurie bus susieti atliekant integravimą.
+4. Pasirinkite **Taikyti sprendimą** , kad pasiektumėte objektus, kurie bus susieti atliekant integravimą.
 
 ![Taikyti sprendimus](./media/13ApplySolutions.png)
 
-5. Pasirinkite abu sprendimus: **„Dynamics 365 Finance and Operations“ dvigubo rašymo objektų schema** ir **„Dynamics 365 Project Operations“ dvigubo rašymo objektų schemos**, tada pasirinkite **Taikyti**.
+5. Pasirinkite abu sprendimus: **„Dynamics 365 Finance and Operations“ dvigubo rašymo objektų schema** ir **„Dynamics 365 Project Operations“ dvigubo rašymo objektų schemos** , tada pasirinkite **Taikyti**.
 
 ![Sprendimų patvirtinimas](./media/14ConfirmSolutions.png)
 
@@ -165,18 +165,19 @@ Atnaujinimas truks apie 20 minučių. Kai jis bus baigtas, gausite įspėjimą.
 | **Projekto operacijų ryšių integravimo objektas (msdyn\_transactionconnections)** | No | No | Nėra | No | Nėra |
 | **„Project Operations“ integravimo sutarties eilučių etapai (msdyn\_contractlinesscheduleofvalues)** | No | No | Nėra | No | Nėra |
 | **„Project Operations“ integravimo objektas, skirtas išlaidų įvertinimams (msdyn\_estimateslines)** | No | No | Nėra | No | Nėra |
-| **„Project Operations“ integravimo objektas, skirtas valandų įvertinimams (msdyn\_resourceassignments)** | No | No | Nėra | No | Nėra |
+| **„Project Operations“ integracijos projekto išlaidų kategorijų eksportavimo objektas (msdyn\_expensecategories)** | No | No | Nėra | No | Nėra |
 | **„Project Operations“ integravimo projekto išlaidų eksportavimo objektas (msdyn\_expenses)** | Taip | No | Nėra | No | Nėra |
 | **„Project Operations“ integravimo objektas, skirtas valandų įvertinimams (msdyn\_resourceassignments)** | Taip | No | Nėra | No | Nėra |
 
+
 4. Norėdami atnaujinti objektą, pasirinkite schemos pavadinimą ir pasirinkite **Atnaujinti objektus**. 
-5. Atnaujinus paleiskite schemą.
+
 
 ![Schemos atnaujinimas](./media/20RefreshMapping.png)
 
-Prieš įjungdami kitą schemą patikrinkite, ar lentelėje schemos būsena yra **Vykdoma**. Gali šiek tiek užtrukti, kol bus paleistos schemos, turinčios daug būtinųjų sąlygų.
+5. Atnaujinę paleiskite schemą. Prieš įjungdami kitą schemą patikrinkite, ar lentelėje schemos būsena yra **Vykdoma**. Gali šiek tiek užtrukti, kol bus paleistos schemos, turinčios daug būtinųjų sąlygų.
 
-Norėdami paleisti schemą su būtinosiomis sąlygomis, įjunkite perjungiklį **Rodyti susijusias objektų schemas**. Jei lentelėje nurodyta **Būtinas pradinis sinchronizavimas** reikšmė **Ne**, įsitikinkite, kad žymės **Pradinis sinchronizavimas** būklė yra **Išjungta** visose būtinosiose schemose prieš ją vykdydami.
+Norėdami paleisti schemą su būtinosiomis sąlygomis, įjunkite perjungiklį **Rodyti susijusias objektų schemas**. Jei lentelėje nurodyta **Būtinas pradinis sinchronizavimas** reikšmė **Ne** , įsitikinkite, kad žymės **Pradinis sinchronizavimas** būklė yra **Išjungta** visose būtinosiose schemose prieš ją vykdydami.
 
 ![Schemos vykdymas](./media/21RunMap.png)
 

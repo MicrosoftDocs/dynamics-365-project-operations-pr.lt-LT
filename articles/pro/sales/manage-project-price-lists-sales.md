@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 4013d2e8cc0d2329f824a17484ee6f4a054a390e
-ms.sourcegitcommit: f6509f7d50de4d4ebb92c1bf2cfcdf09f17458eb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3966824"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080759"
 ---
 # <a name="manage-project-price-lists-on-project-quotes-sales"></a>Projektų kainoraščių valdymas projekto pasiūlymuose (pardavimai)
 
@@ -29,8 +29,8 @@ Kai projekto pasiūlyme nėra projektų kainoraščių, gausite įspėjamąjį p
 
 Norėdami sukurti arba pažymėti tam tikrą kainoraštį, skirtą projektu pagrįstam darbui ir išlaidoms įvertinti, atlikite toliau nurodytus veiksmus.
 
-1. Pasiūlyme pasirinkite skirtuką **Projekto kaina**, o papildomame tinklelyje pasirinkite **+ Įtraukti naują projekto kainoraštį**.
-2. Sparčiojo kūrimo puslapyje pažymėkite kainoraštį. Išplečiamajame sąraše rodomi visi kainoraščiai, kurių kontekstas nustatytas į **Pardavimai**, o valiuta atitinka pasiūlymo valiutą.
+1. Pasiūlyme pasirinkite skirtuką **Projekto kaina** , o papildomame tinklelyje pasirinkite **+ Įtraukti naują projekto kainoraštį**.
+2. Sparčiojo kūrimo puslapyje pažymėkite kainoraštį. Išplečiamajame sąraše rodomi visi kainoraščiai, kurių kontekstas nustatytas į **Pardavimai** , o valiuta atitinka pasiūlymo valiutą.
 4. Įveskite projekto kainoraščio susiejimo aprašą ir pasirinkite **Įrašyti ir uždaryti**.
 
 Sukuriamas projekto kainoraščio susiejimas.
@@ -65,5 +65,5 @@ Norėdami nustatyti konkretaus kliento projekto kainoraštį, atlikite šiuos ve
 
 Jei turite organizacinių ir klientui būdingų numatytųjų projektų kainoraščių, jūsų projekto pasiūlymai bus automatiškai sukurti naudojant šiuos projektų kainoraščio susiejimus. Tačiau tam tikrais atvejais gali prireikti sukurti tam tikro projekto pasiūlymo pasirinktines kainas. 
 
-1. **Projekto pasiūlyme**, skirtuke **Projekto kainoraštis** patikrinkite papildomame tinklelyje, kad nepažymėtas konkretus kainoraščio įrašas.
+1. **Projekto pasiūlyme** , skirtuke **Projekto kainoraštis** patikrinkite papildomame tinklelyje, kad nepažymėtas konkretus kainoraščio įrašas.
 2. Pasirinkite **Kurti pasirinktinę kainodarą**. Taip galėsite padaryti visų standartinių kainoraščių, kurie šiuo metu susieti su pasiūlymu, kopijas ir susieti jas su pasiūlymu. Esami susiejimai su standartiniais kainoraščiais bus pašalinti. Tada pardavėjas gali pradėti redaguoti šių kopijų kainas. Šios pakeistos kainos bus taikomos tik šiam projekto pasiūlymui.

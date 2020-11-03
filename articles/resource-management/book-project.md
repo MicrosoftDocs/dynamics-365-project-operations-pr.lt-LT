@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 19128264ed3db7efeeba948155f0ddbdc806c2a0
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908393"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080688"
 ---
 # <a name="book-to-a-project"></a>Rezervacija į projektą
 
@@ -60,7 +60,7 @@ Kai išteklių vadovas turi užsakyti išteklių tiesiogiai projektui, jis gali 
 
 Kaip projektų vadovui, jums gali tekti rezervuoti išteklių projektui, tačiau tik žinant kriterijus, o ne ištekliaus pavadinimą. Atlikite šiuos veiksmus, kad naudodami pagalbinę planavimo priemonę rastumėte išteklių, pagrįstą bet kuriais galimais ištekliaus atributais. 
 
-1. Pereikite prie projekto ir pasirinkite **Rezervuoti**, kad atidarytumėte planavimo pagalbinę priemonę.
+1. Pereikite prie projekto ir pasirinkite **Rezervuoti** , kad atidarytumėte planavimo pagalbinę priemonę.
 2. Naudodami filtrus, esančius kairėje planavimo pagalbinės priemonės pusėje, susiaurinkite kriterijus ir pažymėkite **Ieškoti.**
 3. Pagal rezultatuose grąžintus išteklius galite užsakyti išteklių.
 
