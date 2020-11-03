@@ -1,0 +1,1117 @@
+- name: „Dynamics 365 Project Operations“
+  href: index.md
+- name: Darbo pradžia
+  items:
+    - name: Visuotinio diegimo tipo nustatymas
+      href: environment/determine-deployment-type.md
+- name: '„Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
+  items:
+    - name: Darbo pradžia
+      items:
+        - name: Registracija norint gauti peržiūros versijos prenumeratą (ištekliais / atsargose nelaikomomis prekėmis pagrįsti scenarijai)
+          href: environment/resource-sign-up-preview-subscription.md
+        - name: Būtinųjų komponentų konfigūravimas
+          items:
+            - name: Naujo LCS projekto pradėjimas
+              href: environment/create-lcs-project.md
+            - name: „Azure“ prenumeratos įtraukimas į LCS projektą
+              href: environment/resource-add-azure-subscription-lcs-project.md
+        - name: Demonstracinių duomenų taikymas
+          items:
+            - name: „Project Operations“ demonstracinių duomenų taikymas debesyje esančioje „Finance“ aplinkoje
+              href: environment/resource-apply-finance-demo-data.md
+            - name: 'Konfigūracijos duomenų taikymas „Common Data Service“, skirtoje „Project Operations“'
+              href: environment/resource-apply-pro-setup-config-data.md
+        - name: Visuotinis aplinkų diegimas
+          items:
+            - name: Naujos aplinkos konfigūravimas
+              href: environment/resource-provision-new-environment.md
+            - name: Saugos modelis
+              href: environment/security-model.md
+            - name: „Project Operations“ integravimo į kiekvieną juridinį objektą konfigūravimas
+              href: environment/resource-configure-integration-per-legal-entity.md
+    - name: Pardavimo procesas
+      items:
+        - name: Pardavimo apžvalga
+          href: sales/sales-overview.md
+        - name: Sąranka
+          items:
+            - name: Produktai
+              href: sales/sales-products.md
+            - name: Vienetai ir vienetų grupės
+              href: sales/sales-units-unit-groups.md
+            - name: Valiuta
+              href: sales/sales-currency.md
+        - name: Galimų klientų valdymas
+          href: sales/manage-leads.md
+        - name: Galimybių valdymas
+          items:
+            - name: Valdykite projektais pagrįstas galimybes
+              href: sales/manage-project-based-opportunities.md
+            - name: Galimybės antraštė
+              href: sales/opportunity-header.md
+            - name: Projektu pagrįstos eilutės
+              href: sales/project-based-lines.md
+            - name: Projektu pagrįstų galimybių kopijavimas
+              href: sales/copy-project-based-opportunity.md
+            - name: Projektų pasiūlymų kūrimas iš galimybių
+              href: sales/link-quotes-opportunities.md
+            - name: Galimybės uždarymas
+              href: sales/close-opportunity.md
+        - name: Pasiūlymų valdymas
+          items:
+            - name: Pagrindinės sąvokos
+              href: sales/quotes-key-concepts.md
+            - name: Projekto pasiūlymo suvestinės informacija
+              href: sales/quote-values-budget-limits-contract.md
+            - name: Kelių klientų tvarkymas pasiūlyme
+              href: sales/manage-multiple-customers-quote.md
+            - name: Produktu pagrįstos pasiūlymo eilutės
+              item:
+                - name: Produktais pagrįstų pasiūlymo eilučių įkainojimas
+                  href: sales/costing-product-based-quote-lines.md
+                - name: Produktu pagrįstų pasiūlymo eilučių sudėtinių vienetų valdymas
+                  href: sales/managing-complex-units-product-based-quote-lines.md
+            - name: Projektu pagrįstos pasiūlymo eilutės
+              items:
+                - name: Projekto kainoraščių tvarkymas
+                  href: sales/managing-project-price-lists.md
+                - name: Kelių klientų tvarkymas projektu pagrįsto pasiūlymo eilutėse
+                  href: sales/manage-multiple-customers-quote-line.md
+                - name: Įvertinimų kūrimas pasiūlymo eilutėje
+                  href: sales/create-estimate-quote-line.md
+                - name: Projekto įvertinimų importavimas į projektu pagrįstą pasiūlymo eilutę
+                  href: sales/import-estimate-quote-line.md
+                - name: 'Pasiūlymų reikšmių, klientų biudžetų ir limitų, kurių negalima viršyti, valdymas'
+                  href: sales/manage-quoted-values-budget-limits-quote-line.md
+                - name: Projektu pagrįstų pasiūlymo eilučių sąskaitų faktūrų grafikai
+                  href: sales/invoice-schedule-quote-line.md
+            - name: Projektu pagrįstų pasiūlymų kopijavimas
+              href: sales/lose-quote.md
+            - name: Pasiūlymo uždarymas
+              href: sales/win-quote.md
+        - name: Sutarčių tvarkymas
+          items:
+            - name: Pagrindinės sąvokos – projekto sutartys
+              href: sales/contracts-key-concepts.md
+            - name: Projekto sutarties parametrai
+              href: sales/project-contract-settings.md
+            - name: Projektu pagrįstos sutarties eilutės
+              items:
+                - name: Projektu pagrįstos sutarties eilutės apmokestinamų komponentų konfigūravimas
+                  href: sales/configure-chargeable-contract-line.md
+                - name: Įvertinimų importavimas į projektu pagrįstą į sutarties eilutę
+                  href: sales/import-estimate-project-contract-line.md
+                - name: Sąskaitos faktūros grafiko kūrimas projektu pagrįstoje sutarties eilutėje
+                  href: sales/invoice-schedules-contract-line.md
+            - name: Projekto sutarties patvirtinimas
+              href: pro/sales/confirm-contract-sales.md
+    - name: Kainodara ir įkainojimas
+      items:
+        - name: Kainoraščių nustatymas
+          href: pricing-costing/price-list-setup.md
+        - name: Produkto kainoraščiai
+          href: pricing-costing/product-price-list.md
+        - name: Projekto kainoraščiai
+          items:
+            - name: Pardavimo kainoraščio sąranka
+              items:
+                - name: Pardavimo kainoraščio sąranka
+                  href: pricing-costing/sales-price-list-setup.md
+                - name: Darbo sąskaitų tarifų sąranka
+                  href: pricing-costing/set-up-labor-bill-rate.md
+                - name: Darbo savikainos tarifų sąranka
+                  href: pricing-costing/set-up-labor-cost-rate.md
+                - name: Išlaidų savikainos ir pardavimo kainų sąranka
+                  href: pricing-costing/set-up-cost-sales-rates-expenses.md
+                - name: Numatytieji kainoraščiai
+                  href: pricing-costing/default-project-sales-price-lists.md
+                - name: Įvertinimų ir faktinių duomenų savikainos nustatymas
+                  href: pricing-costing/cost-price-resolution.md
+        - name: Numatytosios reikšmės ir perrašymai
+          items:
+            - name: Įvertinimų ir faktinių duomenų pardavimo kainų nustatymas
+              href: pricing-costing/sales-price-resolution.md
+            - name: Kainoraščių kopijavimas
+              href: pricing-costing/copy-price-lists.md
+        - name: Kainodaros dimensijos
+          items:
+            - name: Kainodaros dimensijų apžvalga
+              href: pricing-costing/pricing-dimensions-overview.md
+            - name: Esamo lauko kaip kainodaros dimensijos naudojimas
+              href: pricing-costing/use-existing-field-pricing-dimension.md
+            - name: Pasirinktiniai laukai kaip kainodaros dimensijos
+              items:
+                - name: Pasirinktinių laukų ir objektų kaip kainodaros dimensijų kūrimas
+                  href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
+                - name: Pasirinktinių laukų įtraukimas į kainų sąranką ir operacijų objektus
+                  href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
+                - name: Pasirinktinių laukų kaip kainodaros dimensijų nustatymas
+                  href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+            - name: Kainodaros dimensijos išjungimas
+              href: pricing-costing/turning-off-pricing-dimension.md
+    - name: Projektų valdymas
+      items:
+        - name: Projekto valdymo apžvalga
+          href: project-management/project-management-overview.md
+        - name: Projekto etapai
+          href: project-management/project-stages.md
+        - name: Vartotojo sąsajos naršymas
+          href: project-management/navigate-ui.md
+        - name: Projekto būsenos paaiškinimas
+          href: project-management/understand-project-status.md
+        - name: Projekto kalendorių apibrėžimas
+          href: project-management/define-project-calendars.md
+        - name: Projekto atnaujinimas
+          href: project-management/update-project.md
+        - name: Projekto kopijavimas
+          href: project-management/copy-project.md
+        - name: Darbo paskirstymo struktūros planavimas
+          items:
+            - name: Priskyrimų kūrimas
+              href: project-management/create-assignments.md
+        - name: Projektų įvertinimas
+          items:
+            - name: Projektų įvertinimo apžvalga
+              href: project-management/estimating-projects-overview.md
+            - name: Išteklių įvertinimai
+              href: project-management/resource-estimates.md
+            - name: Išlaidų įvertinimų kūrimas
+              href: project-management/create-expense-estimates.md
+        - name: Projekto sekimas
+          items:
+            - name: Projekto sekimo apžvalga
+              href: project-management/project-tracking-overview.md
+            - name: Įvertinimo pabaigoje atnaujinimas
+              href: project-management/update-completed-estimate.md
+        - name: Projekto komandos nariai
+          items:
+            - name: Projekto komandos narių apžvalga
+              href: project-management/project-team-members-overview.md
+            - name: Komandos narių tvarkymas
+              href: project-management/maintain-team-members.md
+        - name: Bendradarbiavimas
+          items:
+            - name: Bendradarbiavimas naudojant „Office“ grupes
+              href: project-management/collaboration-groups.md
+        - name: Kūrėjų pastabos
+          items:
+            - name: Projektų šablonų kūrimas naudojant projekto kopijavimo funkciją
+              href: project-management/dev-copy-project.md
+    - name: Išteklių valdymas
+      items:
+        - name: Pagrindinės sąvokos
+          href: resource-management/resource-management-key-concepts.md
+        - name: Rezervacijos ir priskyrimai
+          href: resource-management/booking-vs-assignment.md
+        - name: Išteklių valdymo režimų apžvalga
+          href: resource-management/resource-management-mode-overview.md
+        - name: Planavimo pagalbinės priemonės apžvalga
+          href: resource-management/schedule-assistant-overview.md
+        - name: Centralizuotas išteklių rezervavimas
+          items:
+            - name: Išteklių reikalavimų apibrėžimas
+              href: resource-management/define-resource-requirements.md
+            - name: Išteklių reikalavimų atnaujinimas
+              href: resource-management/update-resource-requirements.md
+            - name: Išteklių užklausos pateikimas
+              href: resource-management/submit-resource-requirements.md
+            - name: Rezervacija į projektą
+              href: resource-management/book-project.md
+            - name: Peržiūrėti siūlomus išteklius
+              href: resource-management/review-proposed-resources.md
+        - name: Decentralizuotas išteklių rezervavimas (hibridinis)
+          items:
+            - name: Komandos narių iš komandos narių tinklelio įtraukimas
+              href: resource-management/add-team-members-grid.md
+            - name: Bendrųjų išteklių reikalavimo įvykdymas
+              href: resource-management/generic-resource-requirement-fulfillment.md
+        - name: Išteklių administravimas
+          items:
+            - name: Įgūdžių ir kvalifikacijų apibrėžimas
+              href: resource-management/define-skills-proficiencies.md
+            - name: Išteklių kalendorių apibrėžimas
+              href: resource-management/define-resource-calendars.md
+        - name: Rezervavimo paskirstymo metodai
+          href: resource-management/booking-allocation-methods.md
+        - name: Įgūdžių ir kompetencijos modeliai
+          href: resource-management/skills-proficiency-models.md
+        - name: Išteklių suderinimas
+          items:
+            - name: Išteklių suderinimo apžvalga
+              href: resource-management/resource-reconciliation-overview.md
+            - name: Laiko juostų valdymas
+              href: resource-management/manage-multiple-time-zones.md
+    - name: Laikas
+      items:
+        - name: Laiko apžvalga
+          href: time/time-entry-overview.md
+        - name: Laiko įrašų kūrimas
+          items:
+            - name: Laiko įrašo vartotojo sąsajoje veikimas
+              href: time/ui-behavior-time.md
+        - name: Kūrėjų pastabos
+          items:
+            - name: Savaitės laiko įrašų tinklelio tinkinimas
+              href: time/customize-weekly-time-entry-grid.md
+    - name: Išlaidos
+      items:
+        - name: Išlaidų apžvalga
+          href: expense/expense-overview.md
+        - name: Projektų išlaidų valdymo galimybės
+          items:
+            - name: Konfigūravimas ir sąranka
+              items:
+                - name: Strategijų nustatymas
+                  href: expense/set-up-policies.md
+                - name: Darbo eigų nustatymas
+                  href: expense/set-up-workflows.md
+                - name: Perdavimo valdymas
+                  href: expense/manage-delegation.md
+                - name: Išlaidų valdymo parametrų konfigūravimas
+                  href: expense/configure-expense-management-parameters.md
+                - name: Kredito kortelės integravimo nustatymas
+                  href: expense/set-up-credit-card-integration.md
+                - name: Išlaidų kategorijų nustatymas
+                  href: expense/set-up-expense-categories.md
+            - name: Išlaidų ataskaitų kūrimas
+              items:
+                - name: Išlaidų ataskaitos platinimas
+                  href: expense/distributions-expense-report.md
+            - name: Išlaidų ataskaitų tvirtinimas
+              items:
+                - name: Išlaidų ataskaitos ir keli tvirtintojai
+                  href: expense/expense-reports-multiple-approvers.md
+            - name: Išlaidų ataskaitų publikavimas
+              href: expense/posting-expense-reports.md
+            - name: Kelionės paraiška
+              href: expense/travel-requisition.md
+            - name: Avansinis mokėjimas
+              href: expense/cash-advance.md
+            - name: Dienpinigiai
+              href: expense/per-diems.md
+            - name: Finansų valdymas
+              items:
+                - name: PVM grąžinimas
+                  href: expense/vat-recovery.md
+            - name: Naujų išlaidų funkcija
+              items:
+                - name: Išlaidų ataskaitų pertvarkymas
+                  href: expense/expense-reports-reimagined.md
+                - name: Kvitų gretinimas su išlaidomis naudojant OCR
+                  href: expense/match-receipt-expense-ocr.md
+            - name: Mobiliųjų įrenginių išlaidų valdymas
+              href: expense/expense-using-mobile.md
+    - name: Patvirtinimai
+      items:
+        - name: Patvirtinimų apžvalga
+          href: approvals/approvals-overview.md
+    - name: Faktiniai duomenys
+      items:
+        - name: Faktinių duomenų apžvalga
+          href: actuals/actuals-overview.md
+        - name: Koregavimo žurnalai
+          items:
+            - name: Koregavimo žurnalų kūrimas ir patvirtinimas
+              href: actuals/create-confirm-correction-journals.md
+    - name: Išankstinių sąskaitų faktūrų išrašymas
+      items:
+        - name: Atsiskaitymo nebaigtų užduočių tvarkymas
+          href: proforma-invoicing/manage-billing-backlog.md
+        - name: Neautomatinės išankstinės sąskaitos faktūros kūrimas
+          href: proforma-invoicing/create-manual-proforma-invoice.md
+        - name: Išankstinės sąskaitos faktūros patvirtinimas
+          href: proforma-invoicing/confirm-proforma-invoice.md
+        - name: Koreguotos sąskaitos faktūros
+          href: proforma-invoicing/corrective-invoices.md
+        - name: Automatinių sąskaitų faktūrų kūrimo konfigūravimas
+          href: proforma-invoicing/configure-automated-invoice-creation.md
+    - name: Projekto apskaita
+      items:
+        - name: Projekto kategorijų konfigūravimas
+          href: project-accounting/configure-project-categories.md
+        - name: Vidinių projektų apskaitos konfigūravimas
+          href: project-accounting/configure-accounting-internal-projects.md
+        - name: Apmokėtinų projektų apskaitos konfigūravimas
+          href: project-accounting/configure-accounting-billable-projects.md
+- name: „Lite“ visuotinis diegimas – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo
+  items:
+    - name: Darbo pradžia
+      items:
+        - name: Registracija norint gauti peržiūros versijos prenumeratą („Lite“ versija)
+          href: environment/lite-preview-subscription-sign-up.md
+        - name: „Project Operations Lite“ diegimas – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo
+          href: environment/lite-deployment.md
+        - name: Demonstracinės sąrankos ir konfigūracijos duomenų taikymas
+          href: environment/lite-apply-demo-setup-config-data.md
+        - name: Saugos modelis
+          href: environment/security-model.md
+    - name: Pardavimo procesas
+      items:
+        - name: Sąranka
+          items:
+            - name: Produktai
+              href: sales/sales-products.md
+            - name: Vienetai ir vienetų grupės
+              href: sales/sales-units-unit-groups.md
+            - name: Valiuta
+              href: sales/sales-currency.md
+        - name: Galimų klientų valdymas
+          href: pro/sales/managing-leads-sales.md
+        - name: Galimybių valdymas
+          items:
+            - name: Valdykite projektais pagrįstas galimybes
+              href: sales/manage-project-based-opportunities.md
+            - name: Galimybės antraštė
+              href: pro/sales/opportunity-header-sales.md
+            - name: Projektu pagrįstos eilutės
+              href: pro/sales/project-based-lines-sales.md
+            - name: Projektu pagrįstų galimybių kopijavimas
+              href: sales/copy-project-based-opportunity.md
+            - name: Projektų pasiūlymų kūrimas iš galimybių
+              href: sales/link-quotes-opportunities.md
+            - name: Produktu pagrįstos galimybių eilutės
+              href: pro/sales/product-based-lines-sales.md
+            - name: Galimybės uždarymas
+              href: sales/close-opportunity.md
+        - name: Pasiūlymų valdymas
+          items:
+            - name: Projekto pasiūlymo pagrindinės sąvokos
+              href: pro/sales/quotes-key-concepts-sales.md
+            - name: Projekto pasiūlymo suvestinės informacija (pardavimas)
+              href: pro/sales/quote-values-budget-limits-contract-sales.md
+            - name: Kelių klientų tvarkymas pasiūlymo eilutėse
+              href: pro/sales/manage-multiple-customers-quote-sales.md
+            - name: Produktu pagrįstos pasiūlymo eilutės
+              items:
+                - name: Produktais pagrįstų pasiūlymo eilučių įkainojimas
+                  href: pro/sales/costing-product-based-quote-lines-sales.md
+                - name: 'Produktu pagrįsto pasiūlymo eilučių sudėtinių vienetų valdymas, pvz., pagal vartotoją ar pagal mėnesį'
+                  href: pro/sales/managing-complex-units-product-based-quote-lines-sales.md
+            - name: Projektu pagrįstos pasiūlymo eilutės
+              items:
+                - name: Projektų kainoraščių valdymas projekto pasiūlymuose
+                  href: pro/sales/manage-project-price-lists-sales.md
+                - name: Kelių klientų tvarkymas projektu pagrįsto pasiūlymo eilutėse
+                  href: pro/sales/manage-multiple-customers-quote-line-sales.md
+                - name: Projektų ir užduočių susiejimas su projektu pagrįsto pasiūlymo eilute
+                  href: pro/sales/mapping-projects-tasks-quote-line-sales.md
+                - name: Projektu pagrįstos pasiūlymo eilutės įvertinimas
+                  href: pro/sales/create-estimate-quote-line-sales.md
+                - name: Projektu pagrįstos pasiūlymo eilutės (pardavimas)
+                  href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
+                - name: Projekto įvertinimų importavimas į projektu pagrįstą pasiūlymo eilutę
+                  href: pro/sales/import-estimate-project-quote-sales.md
+                - name: Projektu pagrįstų pasiūlymo eilučių sąskaitų faktūrų grafikai
+                  href: sales/invoice-schedule-quote-line.md
+                - name: Pasiūlymo eilutės apmokestinamų komponentų konfigūravimas
+                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
+        - name: Projektu pagrįstų pasiūlymų kopijavimas
+          href: sales/lose-quote.md
+        - name: Pasiūlymo uždarymas
+          href: pro/sales/win-quote-sales.md
+    - name: Sutarčių tvarkymas
+      items:
+        - name: Pagrindinės projekto sutarčių sąvokos
+          href: pro/sales/contracts-key-concepts-sales.md
+        - name: Projekto sutarties laukai ir informacija
+          href: pro/sales/project-contract-settings-sales.md
+        - name: Produktais pagrįstos sutarties eilutės
+          items:
+            - name: Produktu pagrįstų sutarties eilučių peržiūra
+              href: pro/sales/product-based-contract-lines-overview-sales.md
+            - name: Produktu pagrįstų sutarties eilučių įkainojimas
+              href: pro/sales/cost-product-based-contract-lines-sales.md
+        - name: Projektu pagrįstos sutarties eilutės
+          items:
+            - name: Projektu pagrįstos sutarties eilutės apmokestinamų komponentų konfigūravimas
+              href: pro/sales/configure-chargeable-components-contract-line.md
+            - name: Įvertinimų importavimas į projektu pagrįstą į sutarties eilutę
+              href: pro/sales/import-estimate-project-contract-line-sales.md
+            - name: Sąskaitos faktūros grafikų kūrimas projektu pagrįstoje sutarties eilutėje
+              href: pro/sales/invoice-schedules-contract-line-sales.md
+        - name: Projekto sutarčių kopijavimas
+          href: pro/sales/copy-project-contracts-sales.md
+        - name: Projekto sutarties patvirtinimas
+          href: pro/sales/confirm-contract-sales.md
+        - name: Išankstinės arba išankstiniais apmokėjimais pagrįstos sutartys
+          href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
+    - name: Kainodara ir įkainojimas
+      items:
+        - name: Kainoraščių nustatymas
+          href: pricing-costing/price-list-setup.md
+        - name: Projekto kainoraščiai
+          items:
+            - name: Pardavimo kainoraščio sąranka
+              items:
+                - name: Pardavimo kainoraščio sąranka
+                  href: pricing-costing/sales-price-list-setup.md
+                - name: Darbo sąskaitų tarifų nustatymas
+                  href: pro/pricing-costing/set-up-labor-bill-rate-sales.md
+                - name: Darbo sąskaitų savikainos nustatymas
+                  href: pro/pricing-costing/set-up-labor-cost-rates-sales.md
+                - name: Katalogo produktų savikainos ir pardavimo kainų sąranka
+                  href: pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md
+                - name: Išlaidų savikainos ir pardavimo kainų sąranka
+                  href: pricing-costing/set-up-cost-sales-rates-expenses.md
+                - name: Numatytieji kainoraščiai
+                  href: pricing-costing/default-project-sales-price-lists.md
+                - name: Įvertinimų ir faktinių duomenų savikainos nustatymas
+                  href: pro/pricing-costing/cost-price-resolution-sales.md
+        - name: Numatytosios reikšmės ir perrašymai
+          items:
+            - name: Įvertinimų ir faktinių duomenų pardavimo kainų nustatymas
+              href: pro/pricing-costing/sales-price-resolution-sales.md
+            - name: Kainoraščių kopijavimas
+              href: pricing-costing/copy-price-lists.md
+        - name: Kainodaros dimensijos
+          items:
+            - name: Esamo lauko kaip kainodaros dimensijos naudojimas
+              href: pricing-costing/use-existing-field-pricing-dimension.md
+            - name: Pasirinktiniai laukai kaip kainodaros dimensija
+              items:
+                - name: Pasirinktinių laukų ir objektų kaip kainodaros dimensijų kūrimas
+                  href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
+                - name: Pasirinktinių laukų įtraukimas į kainų sąranką ir operacijų objektus
+                  href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
+                - name: Pasirinktinių laukų kaip kainodaros dimensijų nustatymas
+                  href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+            - name: Kainodaros dimensijos išjungimas
+              href: pricing-costing/turning-off-pricing-dimension.md
+    - name: Projektų valdymas
+      items:
+        - name: Projekto valdymo apžvalga
+          href: project-management/project-management-overview.md
+        - name: Projekto etapai
+          href: project-management/project-stages.md
+        - name: Vartotojo sąsajos naršymas
+          href: project-management/navigate-ui.md
+        - name: Projekto būsenos paaiškinimas
+          href: project-management/understand-project-status.md
+        - name: Projekto kalendorių apibrėžimas
+          href: project-management/define-project-calendars.md
+        - name: Projekto atnaujinimas
+          href: project-management/update-project.md
+        - name: Projekto kopijavimas
+          href: project-management/copy-project.md
+        - name: Darbo paskirstymo struktūros planavimas
+          items:
+            - name: Priskyrimų kūrimas
+              href: project-management/create-assignments.md
+        - name: Projektų įvertinimas
+          items:
+            - name: Projektų įvertinimo apžvalga
+              href: project-management/estimating-projects-overview.md
+            - name: Išteklių įvertinimai
+              href: project-management/resource-estimates.md
+            - name: Išlaidų įvertinimų kūrimas
+              href: project-management/create-expense-estimates.md
+        - name: Projekto sekimas
+          items:
+            - name: Projekto sekimo apžvalga
+              href: project-management/project-tracking-overview.md
+            - name: Įvertinimo pabaigoje atnaujinimas
+              href: project-management/update-completed-estimate.md
+        - name: Projekto komandos nariai
+          items:
+            - name: Projekto komandos narių apžvalga
+              href: project-management/project-team-members-overview.md
+            - name: Komandos narių tvarkymas
+              href: project-management/maintain-team-members.md
+        - name: Bendradarbiavimas
+          items:
+            - name: Bendradarbiavimas naudojant „Office“ grupes
+              href: project-management/collaboration-groups.md
+    - name: Išteklių valdymas
+      items:
+        - name: Pagrindinės sąvokos
+          href: resource-management/resource-management-key-concepts.md
+        - name: Rezervacijos ir priskyrimai
+          href: resource-management/booking-vs-assignment.md
+        - name: Išteklių valdymo režimų apžvalga
+          href: resource-management/resource-management-mode-overview.md
+        - name: Planavimo pagalbinės priemonės apžvalga
+          href: resource-management/schedule-assistant-overview.md
+        - name: Centralizuotas išteklių rezervavimas
+          items:
+            - name: Išteklių reikalavimų apibrėžimas
+              href: resource-management/define-resource-requirements.md
+            - name: Išteklių reikalavimų atnaujinimas
+              href: resource-management/update-resource-requirements.md
+            - name: Išteklių užklausos pateikimas
+              href: resource-management/submit-resource-requirements.md
+            - name: Rezervacija į projektą
+              href: resource-management/book-project.md
+            - name: Peržiūrėti siūlomus išteklius
+              href: resource-management/review-proposed-resources.md
+        - name: Decentralizuotas išteklių rezervavimas (hibridinis)
+          items:
+            - name: Komandos narių iš komandos narių tinklelio įtraukimas
+              href: resource-management/add-team-members-grid.md
+            - name: Bendrųjų išteklių reikalavimo įvykdymas
+              href: resource-management/generic-resource-requirement-fulfillment.md
+        - name: Išteklių administravimas
+          items:
+            - name: Įgūdžių ir kvalifikacijų apibrėžimas
+              href: resource-management/define-skills-proficiencies.md
+            - name: Išteklių kalendorių apibrėžimas
+              href: resource-management/define-resource-calendars.md
+        - name: Rezervavimo paskirstymo metodai
+          href: resource-management/booking-allocation-methods.md
+        - name: Įgūdžių ir kompetencijos modeliai
+          href: resource-management/skills-proficiency-models.md
+        - name: Išteklių suderinimas
+          items:
+            - name: Išteklių suderinimo apžvalga
+              href: resource-management/resource-reconciliation-overview.md
+            - name: Laiko juostų valdymas
+              href: resource-management/manage-multiple-time-zones.md
+    - name: Laikas
+      items:
+        - name: Laiko apžvalga
+          href: time/time-entry-overview.md
+        - name: Laiko įrašų kūrimas
+          items:
+            - name: Laiko įrašo vartotojo sąsajoje veikimas
+              href: time/ui-behavior-time.md
+        - name: Kūrėjų pastabos
+          items:
+            - name: Savaitės laiko įrašų tinklelio tinkinimas
+              href: time/customize-weekly-time-entry-grid.md
+    - name: Išlaidos
+      items:
+        - name: Išlaidų apžvalga
+          href: expense/expense-overview.md
+        - name: Išlaidų įrašas („Lite“ versija)
+          href: expense/basic-expense.md
+    - name: Patvirtinimai
+      items:
+        - name: Patvirtinimų apžvalga
+          href: approvals/approvals-overview.md
+    - name: Faktiniai duomenys
+      items:
+        - name: Faktinių duomenų apžvalga
+          href: actuals/actuals-overview.md
+        - name: Koregavimo žurnalai
+          items:
+            - name: Koregavimo žurnalų kūrimas ir patvirtinimas
+              href: actuals/create-confirm-correction-journals.md
+        - name: Išankstinių sąskaitų faktūrų išrašymas
+          items:
+            - name: Atsiskaitymo nebaigtų užduočių tvarkymas
+              href: proforma-invoicing/manage-billing-backlog.md
+            - name: Neautomatinės išankstinės sąskaitos faktūros kūrimas
+              href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
+            - name: Išankstinio apmokėjimo arba išankstiniu mokėjimu pagrįsto mokėjimo sąskaita faktūra
+              href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
+            - name: Koreguotos sąskaitos faktūros
+              href: proforma-invoicing/corrective-invoices.md
+            - name: Automatizuotų sąskaitų faktūrų kūrimo konfigūravimas
+              href: proforma-invoicing/configure-automated-invoice-creation.md
+- name: '„Project Operations“, skirta laikomų medžiagų / gamyba pagrįstiems scenarijams'
+  items:
+    - name: Projektų valdymo ir apskaitos apžvalga
+      href: prod-pma/overview-project-management-accounting.md
+    - name: Vidinės įmonės SF išrašymas
+      href: prod-pma/intercompany-invoicing.md
+    - name: Vidinės įmonės projekto SF išrašymo konfigūravimas
+      href: prod-pma/tasks/configure-intercompany-project-invoicing.md
+    - name: Darbo standartinių kainų ir išlaidų konfigūravimas
+      href: prod-pma/tasks/configure-standard-costs-labor-expenses.md
+    - name: Tiekėjo mokėjimo saugojimo sąlygų kūrimas ir taikymas
+      href: prod-pma/create-and-apply-vendor-payment-retention-terms.md
+    - name: Tiekėjo mokėjimų „Mokėti sumokėjus“ sąranka ir naudojimas
+      href: prod-pma/setup-manage-vendor-payments.md
+    - name: Projekto savikainos kaupimas pirkimo kvituose
+      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts'
+    - name: Projekto sąskaitų faktūrų išrašymas
+      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing'
+    - name: Projekto sutartys
+      href: prod-pma/project-contracts.md
+    - name: Pagal eigą pagrįsto apmokėjimo išplėstinių sutarčių kūrimas
+      href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
+    - name: Projektų prognozės ir biudžetai
+      href: prod-pma/project-forecasts-budgets.md
+    - name: Projektų biudžetų prognozės modelių kūrimas
+      href: prod-pma/create-forecast-models-project-budgets.md
+    - name: Projektų biudžetų perkėlimas finansinių metų pabaigoje
+      href: prod-pma/process-project-budgets-for-fiscal-year-end.md
+    - name: Projekto pardavimo užsakymai
+      href: prod-pma/project-sales-orders.md
+    - name: Projekto pirkimo užsakymai
+      href: prod-pma/project-purchase-orders.md
+    - name: Projekto pasiūlymai
+      href: prod-pma/project-quotations.md
+    - name: 'Projekto pasiūlymo patvirtinimas, atnaujinimas ir siuntimas'
+      href: prod-pma/confirm-update-send-project-quotation.md
+    - name: Pasiūlymo perkėlimas į projektą
+      href: prod-pma/transfer-quote-new-existing-project.md
+    - name: Projekto išteklių paskirstymas
+      items:
+        - name: Projekto išteklių paskirstymo apžvalga
+          href: prod-pma/project-resourcing.md
+        - name: Projekto išteklių sąranka
+          href: prod-pma/set-up-project-resources.md
+        - name: Išteklių kompetencijų valdymas
+          href: prod-pma/manage-resource-competencies.md
+        - name: Kurti naują projektą
+          href: prod-pma/create-new-project.md
+        - name: Vaidmenimis grindžiamų kainų nustatymas
+          href: prod-pma/set-up-role-based-pricing.md
+        - name: Kurti projekto komandą
+          href: prod-pma/create-project-team.md
+        - name: Išteklių pajėgumo sinchronizavimas
+          href: prod-pma/synchronize-resource-capacity.md
+        - name: Projekto išteklių planavimo našumas
+          href: prod-pma/project-scheduling-performance.md
+        - name: Darbo paskirstymo struktūros šablonų vaidmenų sąranka
+          href: prod-pma/set-up-roles-wbs-template.md
+        - name: Suplanuotų išteklių panaudojimas
+          href: prod-pma/resource-fulfillment-planned-resources.md
+    - name: Pirkimo užsakymo elementų gavimas iš elementų reikalavimo
+      href: prod-pma/tasks/receive-items-purchase-order-item-requirement.md
+    - name: Darbo paskirstymo struktūros
+      items:
+        - name: Darbo paskirstymo struktūrų apžvalga
+          href: prod-pma/work-breakdown-structures.md
+        - name: „Microsoft Project Client” integravimas
+          href: prod-pma/project-integration.md
+        - name: „Project“ mobiliųjų įrenginių programėlių apžvalga
+          href: prod-pma/project-mobile-application-overview.md
+        - name: Mobilioji darbo sritis Projekto laiko įvedimas
+          href: prod-pma/project-time-entry-mobile-workspace.md
+        - name: Projekto grafiko mobiliųjų įrenginių programėlė
+          href: prod-pma/project-timesheet.md
+        - name: Projekto grafikai mobiliajame įrenginyje
+          href: prod-pma/mobile-timesheets.md
+        - name: Pasirinktinių laukų diegimas projekto grafiko mobiliųjų įrenginių programėlėje
+          href: prod-pma/custom-fields-mobile.md
+    - name: Projekto suteikiamos teisės
+      href: prod-pma/project-grants.md
+    - name: Projekto įvertinimo naikinimas
+      href: prod-pma/eliminate-project-estimate.md
+- name: Išlaidų valdymas
+  items:
+    - name: Išlaidų valdymo apžvalga
+      href: prod-exp/expense-management.md
+    - name: Išlaidų ataskaitų pertvarkymas
+      href: prod-exp/ExpenseWorkspaceNew.md
+    - name: Išlaidų plano valdymas
+      href: prod-exp/plan-expense-management.md
+    - name: Išlaidų valdymo parametrai
+      href: prod-exp/Expense-Management-Parameters.md
+    - name: Mobiliosios darbo srities išlaidų valdymas
+      href: prod-exp/expense-management-mobile-workspace.md
+    - name: Išlaidų valdymo darbo eigų nustatymas
+      href: prod-exp/expense-workflows.md
+    - name: Išlaidų valdymo darbo eiga
+      href: prod-exp/expense-workflow.md
+    - name: Išlaidų perdavimo valdymas
+      href: prod-exp/manage-expense-delegation.md
+    - name: Išlaidų kvito apdorojimas
+      href: prod-exp/expense-receipt-processing.md
+    - name: Kredito kortelės operacijų importavimas ir tvarkymas
+      href: prod-exp/import-credit-card.md
+    - name: Išlaidų ataskaitos platinimas
+      href: prod-exp/expense-report-distributions.md
+    - name: Įmonės vidaus išlaidos
+      href: prod-exp/intercompany-expense.md
+    - name: Apibrėžti išlaidų strategijas
+      href: prod-exp/travel-expense-policies.md
+    - name: Išlaidų ataskaitos peržiūra
+      href: prod-exp/view-expense-report.md
+    - name: Išlaidų ataskaitos publikavimas
+      href: prod-exp/post-expense.md
+    - name: Išlaidų ataskaitos ir keli tvirtintojai
+      href: prod-exp/expense-report-multiple-approvers.md
+    - name: PVM susigrąžinimas naudojant modulį Išlaidų valdymas
+      href: prod-exp/VAT-expense-report.md
+    - name: Dienpinigių taisyklės
+      href: prod-exp/per-diem.md
+    - name: Kelionės paraiškos
+      href: prod-exp/travel-req.md
+    - name: Asmeninės išlaidos išlaidų ataskaitoje
+      href: prod-exp/personal-expenses.md
+- name: Dynamics 365 Project Service Automation
+  items:
+    - name: „Project Service Automation“ apžvalga
+      href: psa/overview.md
+    - name: Kas nauja
+      items:
+        - name: „Project Service” 3.x versijos naujinimo leidimo grafikas
+          href: psa/version-history-ps.md
+        - name: 'Kas nauja arba pakeista šiame atnaujintame 24 leidime, V3'
+          href: psa/whats-new-ur-24.md
+        - name: 'Kas nauja arba pakeista šiame atnaujintame 23 leidime, V3'
+          href: psa/whats-new-ur-23.md
+        - name: 'Kas nauja arba pakeista šiame atnaujintame 22 leidime, V3'
+          href: psa/whats-new-ur-21.md
+        - name: 'Kas nauja arba pakeista šiame atnaujintame 20 leidime, V3'
+          href: psa/whats-new-ur-20.md
+        - name: 'Kas nauja arba pakeista šiame atnaujintame 19 leidime, V3'
+          href: psa/whats-new-ur-19.md
+        - name: 'Kas nauja arba pakeista šiame atnaujintame 18 leidime, V3'
+          href: psa/whats-new-ur-18.md
+        - name: 'Kas nauja arba pakeista šiame atnaujintame 17.5 leidime su skubiosiomis pataisomis, V3'
+          href: psa/whats-new-ur-17-5.md
+        - name: 'Kas nauja arba pakeista šiame atnaujintame 17 leidime, V3'
+          href: psa/whats-new-ur-17.md
+        - name: 'Kas nauja arba pakeista šiame atnaujintame 16 leidime, V3'
+          href: psa/whats-new-ur-16.md
+        - name: 'Kas nauja arba pakeista šiame atnaujintame 15 leidime, V3'
+          href: psa/whats-new-ur-15.md
+        - name: 'Kas nauja arba pakeista šiame atnaujintame 14 leidime, V3'
+          href: psa/whats-new-ur-14.md
+        - name: 'Kas nauja arba pakeista šiame atnaujintame 13 leidime, V3'
+          href: psa/whats-new-ur-13.md
+        - name: 'Kas nauja arba pakeista šiame atnaujintame 12 leidime, V3'
+          href: psa/whats-new-ur-12.md
+        - name: Kas nauja arba pakeista programos „Project Service Automation“ 2020 m. 1 leidimo bangos V3.x versijoje
+          href: psa/whats-new-v3-2020-wave1.md
+        - name: Kas nauja arba pakeista programos „Project Service Automation“ V3
+          href: psa/whats-new-changed-v3.md
+    - name: „Project Service Automation“ 3.x diegimas
+      items:
+        - name: Visuotinio diegimo apžvalga
+          href: psa/install-sample-data-3-x.md
+    - name: Naujinimas
+      items:
+        - name: „Project Service Automation“ naujinimas (3.x)
+          href: psa/upgrade-psa-home-page.md
+        - name: Aptarimų naujinimas – iš 2.x arba 1.x į 3.x versiją
+          href: psa/upgrade-v3.md
+        - name: Kūrimas (3.x)
+          href: psa/developer-guides/overview-dev-notes-v3.x.md
+        - name: Objekto pakeitimai
+          href: psa/developer-guides/entity-changes-v3.x.md
+        - name: Laikas ir išlaidos
+          href: psa/developer-guides/time-expense-changes-v3.x.md
+        - name: Išteklių valdymas
+          href: psa/developer-guides/resource-management-changes-v3.x.md
+        - name: „Project Service Automation“ 3.x versijos nebenaudojami žiniatinklio ištekliai
+          href: psa/developer-guides/web-resources-deprecated-v3.x.md
+    - name: Projekto planavimas
+      items:
+        - name: Projekto planavimo apžvalga
+          href: psa/project-planning.md
+        - name: Projekto grafikai
+          href: psa/project-creating.md
+        - name: Projekto savikaina ir įplaukos
+          href: psa/project-estimating.md
+        - name: Pardavimo įvertinimai ir projektai
+          href: psa/project-leveraging.md
+        - name: Projekto eiga ir savikainos naudojimas
+          href: psa/project-tracking.md
+        - name: Projekto šablonai
+          href: psa/project-templates.md
+        - name: Projekto etapai
+          href: psa/project-stages.md
+        - name: Projekto parametrai
+          href: psa/project-settings.md
+    - name: Kainodaros ir įkainojimo dimensijos
+      items:
+        - name: Kainodaros ir įkainojimo dimensijų apžvalga
+          href: psa/pricing-costing-dimensions.md
+        - name: Sprendimo pasirinktinėms kainodaros dimensijoms kūrimas
+          href: psa/custompricingdimensionssolution.md
+        - name: Pasirinktinių laukų ir objektų kūrimas
+          href: psa/create-custom-fields-entities.md
+        - name: Pasirinktinių laukų įtraukimas į kainų sąranką ir operacijų objektus
+          href: psa/field-references.md
+        - name: 'Pasirinktinių laukų kaip kainodaros dimensijų nustatymas '
+          href: psa/set-up-pricing-dimensions.md
+        - name: 'Priedo atributų atnaujinimas, kad būtų galima įtraukti naujas kainodaros dimensijas'
+          href: psa/update-plug-in-attributes.md
+        - name: Elementų kaip kainodaros dimensijų pakartotinis naudojimas
+          items:
+            - name: „Project Service“ esamo lauko kaip kainodaros dimensijos naudojimas
+              href: psa/use-existing-field.md
+            - name: Rezervuojamų išteklių naudojimas kaip kainodaros dimensijos
+              href: psa/bookable-resource-pricing-dimension.md
+            - name: Operacijos kategorijos kaip kainodaros dimensijos naudojimas
+              href: psa/transaction-category-pricing-dimension.md
+        - name: 'Rezervuojami ištekliai, kai projektui taikoma keletas vaidmenų'
+          href: psa/bookable-resource-multiple-roles.md
+        - name: Kainodaros dimensijos išjungimas
+          href: psa/turn-off-pricing-dimension.md
+    - name: 'Pasiūlymų teikimas, kainodara ir sąskaitų išrašymas'
+      items:
+        - name: 'Pasiūlymų teikimo, kainodaros ir sąskaitų išrašymo apžvalga'
+          href: psa/quote-bill-price.md
+        - name: Pasiūlymo teikimas
+          items:
+            - name: Pardavimo procesai
+              href: psa/basic-sales-process.md
+            - name: Vienetų grupės ir vienetai
+              href: psa/advanced-units.md
+            - name: Organizaciniai vienetai
+              href: psa/advanced-organizational.md
+            - name: Pasiūlymai ir pasiūlymo eilutės
+              href: psa/basic-quote-lines.md
+            - name: Produktu pagrįstos pasiūlymo eilutės
+              href: psa/product-based-quote-lines.md
+            - name: Projektų pasiūlymų analizavimas
+              href: psa/basic-analyzing-quotes.md
+        - name: Įkainiai
+          items:
+            - name: Projekto kainodara
+              href: psa/basic-pricing.md
+            - name: Produktų katalogo kainodara
+              hreF: psa/product-catalog-pricing.md
+            - name: Verslo operacijos
+              href: psa/basic-business-transactions.md
+            - name: Įvertinimai
+              href: psa/estimates.md
+        - name: Sąskaitų siuntimas
+          items:
+            - name: Projektų pasiūlymų analizavimas
+              href: psa/basic-analyzing-quotes.md
+            - name: Anksčiau patvirtintų laiko ar išlaidų įrašų atšaukimas
+              href: psa/recall-approved.md
+            - name: Anksčiau patvirtintų laiko arba išlaidų įrašų patvirtinimo atšaukimas
+              href: psa/cancel-approval.md
+            - name: Faktiniai duomenys
+              href: psa/actuals.md
+            - name: 'Faktinių duomenų, sukurtų pagal patvirtintus laiko ir išlaidų įrašus, masiniai pakeitimai'
+              href: psa/bulk-corrections-actuals-created-by-approved-time-expense-entries.md
+            - name: Projekto atsiskaitymo nebaigtų užduočių peržiūra
+              href: psa/review-invoicing-backlog.md
+            - name: SF išrašymas
+              href: psa/invoicing.md
+            - name: Keleto valiutų scenarijai
+              href: psa/advanced-currency.md
+    - name: Projektų paskirstymas ištekliams
+      items:
+        - name: Išteklių projektų paskirstymo apžvalga
+          href: psa/resource-management.md
+        - name: Bendrųjų rezervuojamų išteklių priskyrimas užduočiai ir išteklių reikalavimų generavimas
+          href: psa/assign-generic-bookable-resource.md
+        - name: Įvardytų rezervuojamų išteklių rezervavimas projekto komandai ir užduočių priskyrimas
+          href: psa/assign-named-bookable-resource.md
+        - name: Išteklių priskyrimas užduočiai
+          href: psa/FAQ-assign-resources-to-tasks.md
+        - name: Įvardytų išteklių rezervavimas iš išteklių reikalavimų
+          href: psa/book-named-resource.md
+        - name: Išteklių rezervavimas ir jų sąsajos su užduočių priskyrimais
+          href: psa/FAQ-bookings-and-assignments.md
+        - name: Išteklių užklausos pateikimas
+          href: psa/submit-resource-request.md
+        - name: Siūlomų išteklių priėmimas arba atmetimas
+          href: psa/accept-reject-proposed-resource.md
+        - name: Apmokestinamo išteklių naudojimo peržiūra
+          href: psa/FAQ-utilization-view.md
+        - name: Rezervavimų ir priskyrimų suderinimas
+          href: psa/reconcile-booking-assignment.md
+    - name: Išteklių valdymas
+      items:
+        - name: Išteklių valdymo pagrindinis puslapis
+          href: psa/resource-management-home-page.md
+        - name: Išteklių tvarkymas
+          href: psa/manage-resources.md
+        - name: Pagrindinės sąvokos
+          href: psa/reports-key-concepts.md
+        - name: Išteklių užklausų įvykdymas
+          href: psa/resource-management-fulfill-requests.md
+        - name: Išteklių siūlymas
+          href: psa/resource-management-propose-resources.md
+        - name: Išteklių rezervavimas
+          href: psa/resource-management-book-resources-scheduleboard.md
+        - name: Rezervavimo paskirstymo metodai
+          href: psa/FAQ-allocation-methods.md
+        - name: Preliminaraus rezervavimo reikalavimai
+          href: psa/resource-management-softbook-requirements.md
+        - name: Preliminarus išteklių rezervavimas
+          href: psa/FAQ-soft-book.md
+        - name: Projekto rezervavimo iš grafiko lentos kūrimas
+          href: psa/FAQ-project-booking-schedule-board.md
+        - name: Įgūdžių ir kompetencijos modeliai
+          href: psa/resource-management-skills-proficiency.md
+        - name: Išteklių valdymo DUK
+          href: psa/resource-management-faq.md
+    - name: Ataskaitų teikimas
+      items:
+        - name: Ataskaitų teikimo apžvalga
+          href: psa/reports-reporting-dynamics-365-project-service.md
+        - name: Ataskaitų sritys
+          href: psa/reports-dashboards.md
+        - name: Darbas su „Project Service Automation“ duomenų modeliu
+          href: psa/reports-working-project-service-data-model.md
+    - name: Laiko įrašas
+      items:
+        - name: Laiko įrašų kūrimas
+          href: psa/time-entries.md
+        - name: Laiko įrašų kalendorius
+          href: psa/time-entry-calendar.md
+        - name: Savaitės laiko įrašo tinkinimas
+          href: psa/time-entry-extensibility-v3.md
+    - name: DUK ir trikčių diagnostika
+      items:
+        - name: Kodėl numatytoji faktinių duomenų išlaidų savikaina nustatoma kaip nulis?
+          href: psa/FAQ-zero-price-expense-cost-actuals.md
+        - name: Kodėl numatytoji faktinių duomenų pardavimo išlaidų kaina nustatoma kaip nulis?
+          href: psa/FAQ-zero-price-expense-sales-actuals.md
+        - name: Kodėl numatytoji faktinių duomenų laiko savikaina nustatoma kaip nulis?
+          href: psa/FAQ-zero-price-time-cost-actuals.md
+        - name: Kodėl numatytoji laiko pardavimo faktinių duomenų kaina nustatoma kaip nulis?
+          href: psa/FAQ-zero-price-time-sales-actuals.md
+        - name: Kodėl negalima panaikinti įrašų iš objekto Faktiniai duomenys?
+          href: psa/FAQ-deleting-actuals.md
+    - name: „Project Service Automation“ 2.x ir 1.x
+      items:
+        - name: DUK ir trikčių diagnostika
+          items:
+            - name: Kaip užduočiai priskirti išteklius (2.x programos versija)?
+              href: psa/FAQ-assign-resources-to-tasks-in-web-app.md
+            - name: Kaip man atlikti „minkštą“ išteklių rezervaciją (2.x programos versija)?
+              href: psa/FAQ-soft-book-in-web-app.md
+            - name: Kaip tinkinti projekto etapų veiklos procesų sekas?
+              href: psa/FAQ-customize-bpf.md
+            - name: Darbo paskirstymo struktūros atnaujinimo aptarimas
+              href: psa/upgrade-considerations-tasks.md
+        - name: Techninė dokumentacija
+          href: psa/white-papers.md
+        - name: Administratoriaus vadovas
+          href: psa/admin-guide.md
+        - name: Diegimas ir tinkinimas
+          href: psa/install-customize.md
+        - name: Demonstracinių duomenų naudojimas
+          href: psa/use-demo-data.md
+        - name: „Project Service Automation“ konfigūravimas
+          items:
+            - name: „Project Service Automation“ programos konfigūravimas
+              href: psa/configure.md
+            - name: Laiko vienetų nustatymas
+              href: psa/set-up-time-units.md
+            - name: Valiutų ir valiutų kursų nustatymas
+              href: psa/set-up-currencies-exchange-rates.md
+            - name: Organizacijos vienetų kūrimas
+              href: psa/create-organizational-units.md
+            - name: SF išrašymo dažnumo nustatymas
+              href: psa/set-up-invoice-frequencies.md
+            - name: Operacijų kategorijų nustatymas
+              href: psa/configure-transaction-categories.md
+            - name: Išlaidų kategorijų konfigūravimas
+              href: psa/configure-expense-categories.md
+            - name: Produktų katalogo elementų kūrimas
+              href: psa/create-product-catalog-items.md
+            - name: Kainoraščio kūrimas
+              href: psa/create-price-list.md
+        - name: Ištekliai
+          items:
+            - name: Išteklių nustatymas
+              href: psa/set-up-resources.md
+            - name: Išteklių įtraukimas
+              href: psa/add-resources.md
+            - name: Išteklių įgūdžių įtraukimas
+              href: psa/add-resource-skills.md
+            - name: Kvalifikacijos modelių nustatymas
+              href: psa/set-up-proficiency-models.md
+            - name: Išteklių vaidmenų įtraukimas
+              href: psa/add-resource-roles.md
+            - name: Išteklių vaidmenų konfigūravimas
+              href: psa/configure-resource-roles.md
+            - name: Įgūdžių siejimas su ištekliais
+              href: psa/associate-skills-with-resources.md
+            - name: Įgūdžių siejimas su išteklių vaidmenimis
+              href: psa/associate-skills-with-resource-roles.md
+            - name: Darbo valandų šablono kūrimas
+              href: psa/create-work-hours-template.md
+            - name: Kalendoriaus taikymas ištekliui
+              href: psa/apply-calendar-resource.md
+            - name: Papildomų parametrų konfigūravimas
+              href: psa/configure-additional-parameters-settings.md
+            - name: „Project Finder Mobile“ įjungimas
+              href: psa/enable-project-finder-mobile-app-features.md
+        - name: Išteklių valdymas
+          items:
+            - name: „Resource Manager“ vadovas
+              href: psa/resource-manager-guide.md
+            - name: Išteklių užklausų valdymas
+              href: psa/manage-resource-requests.md
+            - name: Projekto išteklių planavimas
+              href: psa/schedule-resources-project.md
+            - name: Išteklių pasiekiamumo peržiūra
+              href: psa/view-resource-availability.md
+            - name: Išteklių naudojimo peržiūra
+              href: psa/view-resource-utilization.md
+            - name: „Universal Resource Scheduling“ (URS)
+              href: 'https://docs.microsoft.com/dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling'
+        - name: Projektų valdymas
+          items:
+            - name: Projekto vadovo vadovas
+              href: psa/project-manager-guide.md
+            - name: Darbo įvertinimų teikimas
+              href: psa/provide-estimates-project-during-sales-process.md
+            - name: Projekto kūrimas
+              href: psa/create-project.md
+            - name: Projekto planavimas su darbo paskirstymo struktūra
+              href: psa/schedule-project-work-breakdown-structure.md
+            - name: Projekto savikainos ir pajamų įvertinimų nustatymas
+              href: psa/determine-project-cost-revenue-estimates.md
+            - name: Projekto eigos ir savikainos sekimas
+              href: psa/track-project-progress-cost.md
+            - name: Projekto šablono kūrimas
+              href: psa/create-project-template.md
+            - name: Išteklių užklausų pateikimas
+              href: psa/submit-resource-requests.md
+            - name: '„Office 365“ grupės, skirtos projektui, kūrimas'
+              href: psa/create-office-365-group-project.md
+            - name: Dokumentų įtraukimas į projektą
+              href: psa/add-documents-project.md
+            - name: Projekto būsenos sekimas
+              href: psa/track-project-status.md
+            - name: Projekto komandos narių peržiūra ir rezervavimų valdymas
+              href: psa/view-project-team-members-manage-bookings.md
+            - name: Projekto įvertinimų peržiūra ir redagavimas
+              href: psa/view-edit-project-estimates.md
+            - name: Laiko ir išlaidų tvirtinimas
+              href: psa/approve-time-expenses.md
+            - name: Projekto faktinių duomenų peržiūra
+              href: psa/review-project-actuals.md
+            - name: SF peržiūra ir siuntimas
+              href: psa/view-send-invoices.md
+            - name: Ataskaitų sričių ir ataskaitų peržiūra
+              href: psa/view-dashboards-reports.md
+            - name: Papildinio naudojimas planuojant darbą „Microsoft Project“
+              href: psa/add-plan-work-microsoft-project.md
+        - name: Klientų valdymas
+          items:
+            - name: Klientų vadovo vadovas
+              href: psa/account-manager-guide.md
+            - name: Kliento paskyros kūrimas
+              href: psa/create-customer-account.md
+            - name: Projekto galimybės kūrimas
+              href: psa/create-project-opportunity.md
+            - name: Projekto pasiūlymo kūrimas
+              href: psa/create-project-quote.md
+            - name: Projekto sutarties kūrimas
+              href: psa/create-project-contract.md
+        - name: Laikas ir išlaidos
+          items:
+            - name: 'Laikas, išlaidos ir bendradarbiavimas'
+              href: psa/time-expense-collaboration-guide.md
+            - name: Programų gavimas
+              href: psa/get-apps.md
+            - name: Prisijungimas
+              href: psa/sign-in.md
+            - name: Grafiko peržiūra
+              href: psa/view-schedule.md
+            - name: Projektų ir rezervavimų valdymas naudojant „Office 365“
+              href: psa/manage-project-bookings-office-365-calendar.md
+            - name: Laiko įvedimas
+              href: psa/enter-time.md
+            - name: Išlaidų įvedimas
+              href: psa/enter-expenses.md
+            - name: Atstovo laiko arba išlaidų įrašas
+              href: psa/allow-someone-else-enter-time-entry-expense.md
+            - name: Ne darbo laiko planavimas
+              href: psa/schedule-time-off.md
+            - name: 'Bendradarbiavimas naudojant „Office 365“ grupes](collaborate-project-team-members-office-365-groups.md'
+            - name: Projektų ieška naudojant „Project Finder Mobile“
+              href: psa/find-next-project-finder-mobile-app.md
+            - name: Projekto išteklių telkinio vadovas
+              href: psa/project-resource-hub-users-guide.md
+        - name: Kūrėjų pastabos
+          items:
+            - name: Objektų pasirinktinių formų įtraukimas
+              href: psa/developer-guides/add-custom-qoi-forms-v2.x.md
