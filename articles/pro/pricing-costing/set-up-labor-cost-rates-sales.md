@@ -1,44 +1,44 @@
 ---
-title: Darbo savikainos tarifų nustatymas
+title: Darbo savikainos tarifų sąranka – „Lite“ versija
 description: Šioje temoje pateikta informacija, kaip nustatyti darbo savikainos tarifus naudojant „Project Operations“.
 author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 66a254ce4e7c7f25ac3ea303b73a01625988b0d9
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2e79dde867833fb952349c073ce8975381029dcf
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080747"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180734"
 ---
-# <a name="setting-up-labor-cost-rates"></a>Darbo savikainos tarifų nustatymas 
+# <a name="set-up-labor-cost-rates---lite"></a>Darbo savikainos tarifų sąranka – „Lite“ versija
 
 _**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
 
 Kiekviename kainoraštyje yra darbo tarifų (vaidmens kainos) rinkinys, kuris derinamas su kainoraščio turiniu ir galiojimo data.
 
-1. Sukurkite kainoraštį skirtuke **Vaidmens kaina** , papildomame tinklelyje, pasirinkite **Naujas vaidmuo**.
+1. Sukurkite kainoraštį ir skirtuke **Vaidmens kaina** papildomo tinklelio eilutėje pasirinkite **Naujas vaidmuo**.
 2. Puslapyje **Spartusis kūrimas** pasirinkite vaidmenį ir organizacijos vienetą.
 3. Laukuose įveskite kitą būtiną informaciją.
 
 Šioje lentelėje yra laukų, kurie svarbūs savikainos kainoraštyje kuriant darbo tarifus.
 
-| Laukas | Vieta | Atitiktis, tikslas ir gairės | Tolesnis poveikis |
+| Laukas | Vieta | Aprašo | Tolesnis poveikis |
 | --- | --- | --- | --- |
 | Vaidmuo | Skirtukas **Bendra** ir **Sparčiojo kūrimo** puslapiai | Pasirinkite vaidmenį, kuriam taikomas savikainos tarifas. | Gaunamų įvertinimo arba faktinių reikšmių vaidmuo bus sugretintas su šia eilute, kad būtų nustatyta numatytoji vaidmens savikaina. |
 | Išteklių paskirstymo vienetas | Skirtukas **Bendra** ir **Sparčiojo kūrimo** puslapiai | Pasirinkite įmonės organizacijos vienetą arba padalinį, kur šis vaidmuo bus naudojamas. Pavyzdžiui, kūrėjas iš „Fabrikam India“ robotų padalinio arba kūrėjas iš „Fabrikam USA“ programinės įrangos padalinio. | Gaunamų įvertinimo arba faktinių reikšmių išteklių paskirstymo vienetas bus sugretintas su šia eilute, kad būtų nustatyta numatytoji vaidmens savikaina. |
 | Kainos | Skirtukas **Bendra** ir **Sparčiojo kūrimo** puslapiai | Nustatykite vaidmens, išteklių paskirstymo įmonės ir išteklių paskirstymo vieneto derinio savikainos tarifą. Pavyzdžiui, kūrėjas iš „Fabrikam India“ kainuoja 1000 INR arba kūrėjas iš „Fabrikam USA“ kainuoja 150 USD. | Kaina yra numatytasis savikainos tarifas, nustatomas gaunamo įvertinimo arba faktinės **Laiko** operacijos klasės eilutei. |
 | Valiuta | Skirtukas **Bendra** ir **Sparčiojo kūrimo** puslapiai | Pagal numatytuosius nustatymus valiutos reikšmė gaunama iš savikainos kainoraščio antraštės valiutos, bet ją galima perrašyti. Pavyzdžiui, „Fabrikam India“ kūrėjas kainuoja 1000 INR. „Fabrikam USA“ kūrėjas kainuoja 150 USD. | Ši numatytoji valiuta taikoma gaunamai faktinei **Laiko** operacijos klasės sąnaudų eilutei (vieneto savikainai). Projekto įvertinime valiutos reikšmė konvertuojama į projekto valiutą ir parodoma įvertinimo laipsniškai laike išdėstytame rodinyje. |
 | Vieneto grafikas | Skirtukas **Bendra** ir **Sparčiojo kūrimo** puslapiai | Numatytasis vieneto grafikas yra laikas ir jo negalima pakeisti vaidmens kainos objekte, nes jis naudoja skubius tarifus pagal laiko vienetus. | Tai neturi poveikio tolesniam procesui. |
-| Vienetas | Skirtukas **Bendra** ir **Sparčiojo kūrimo** puslapiai | Pagal numatytuosius nustatymus reikšmė gaunama iš lauko **Laiko vienetas** , esančio savikainos kainoraščio antraštėje. Reikšmės negalima perrašyti. Pavyzdžiui, „Fabrikam India“ kūrėjas kainuoja 1000 INR už **Indijos dieną**. „Fabrikam USA“ kūrėjas kainuoja 150 USD už **JAV dieną**. | Sistema naudoja vienetų sistemą ir konvertavimą pradiniais vienetais, kad apskaičiuotų vieneto savikainą ir numatytąją vieneto kainą gaunamo įvertinimo arba faktinėje eilutėje. Pavyzdžiui, skaičiuojamas kūrėjo iš Indijos 10 **Indijos dienų** darbo vertės įvertinimas, o vienetas **Indijos diena** apibrėžiamas kaip 10 valandų. Įkainojant šią įvertinimo eilutę, programa apskaičiuoja įvertinimo vieneto savikainą: 1000 INR / 10 valandų = 100 INR už valandą, kuri konvertuojama į USD ir rodoma kaip vieneto savikaina puslapyje **Projektų įvertinimai**. |
+| Vienetas | Skirtukas **Bendra** ir **Sparčiojo kūrimo** puslapiai | Pagal numatytuosius nustatymus reikšmė gaunama iš lauko **Laiko vienetas**, esančio savikainos kainoraščio antraštėje. Reikšmės negalima perrašyti. Pavyzdžiui, „Fabrikam India“ kūrėjas kainuoja 1000 INR už **Indijos dieną**. „Fabrikam USA“ kūrėjas kainuoja 150 USD už **JAV dieną**. | Sistema naudoja vienetų sistemą ir konvertavimą pradiniais vienetais, kad apskaičiuotų vieneto savikainą ir numatytąją vieneto kainą gaunamo įvertinimo arba faktinėje eilutėje. Pavyzdžiui, skaičiuojamas kūrėjo iš Indijos 10 **Indijos dienų** darbo vertės įvertinimas, o vienetas **Indijos diena** apibrėžiamas kaip 10 valandų. Įkainojant šią įvertinimo eilutę, programa apskaičiuoja įvertinimo vieneto savikainą: 1000 INR / 10 valandų = 100 INR už valandą, kuri konvertuojama į USD ir rodoma kaip vieneto savikaina puslapyje **Projektų įvertinimai**. |
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>Išteklių kainodaros ir išlaidų perkėlimas už savo padalinio arba juridinio subjekto ribų
 
-Projektų įmonėse projektams vykdyti įprasta naudoti darbuotojus iš skirtingų juridinių subjektų arba padalinių. Projektą gali vykdyti vienas juridinis asmuo, tačiau su projektu dirbantys darbuotojai arba konsultantai gali būti iš to paties juridinio subjekto arba iš skirtingų – galimas ir abiejų variantų derinys. Naudojant „Dynamics 365 Project Operations“ juridinis subjektas, kuris pristato projektą, yra **Valdančioji įmonė** , o pristatantis padalinys yra **Sutartį sudarantis vienetas**. Kiti juridiniai subjektai, kurie tiekia išteklius, yra **Išteklių paskirstymo įmonės** , o padaliniai, kurie tiekia išteklius, yra **Išteklių paskirstymo vienetai**. Daugelyje šalių įmonės privalo užtikrinti, kad išteklių paskirstymo juridinis subjektas arba padalinys prašytų valdančiosios įmonės ir sutartį sudarančio vieneto sumokėti už išteklių naudojimą.
+Projektų įmonėse projektams vykdyti įprasta naudoti darbuotojus iš skirtingų juridinių subjektų arba padalinių. Projektą gali vykdyti vienas juridinis asmuo, tačiau su projektu dirbantys darbuotojai arba konsultantai gali būti iš to paties juridinio subjekto arba iš skirtingų – galimas ir abiejų variantų derinys. Naudojant „Dynamics 365 Project Operations“ juridinis subjektas, kuris pristato projektą, yra **Valdančioji įmonė**, o pristatantis padalinys yra **Sutartį sudarantis vienetas**. Kiti juridiniai subjektai, kurie tiekia išteklius, yra **Išteklių paskirstymo įmonės**, o padaliniai, kurie tiekia išteklius, yra **Išteklių paskirstymo vienetai**. Daugelyje šalių įmonės privalo užtikrinti, kad išteklių paskirstymo juridinis subjektas arba padalinys prašytų valdančiosios įmonės ir sutartį sudarančio vieneto sumokėti už išteklių naudojimą.
 
 Pavyzdžiui, „Fabrikam Corporation“ turi užtikrinti, kad „Fabrikam India-Robotics“ susitarė dėl savikainos tarifo kortelės su „Fabrikam US-Robotics“ arba „Fabrikam UK-Robotics“.
 

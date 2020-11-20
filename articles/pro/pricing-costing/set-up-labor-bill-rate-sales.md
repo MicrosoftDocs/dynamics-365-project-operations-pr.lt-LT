@@ -1,33 +1,33 @@
 ---
-title: Darbo sąskaitų tarifų nustatymas
+title: Darbo sąskaitų tarifų sąranka – „Lite“ versija
 description: Šioje temoje pateikta informacija apie atsiskaitymo už darbą tarifų nustatymą naudojant „Project Operations“.
 author: rumant
 manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e6294895857442f3a24a9d73ee07d2b90926a4fb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cf53f6909ed5fb9b143197118c799b9803699171
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080898"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181192"
 ---
-# <a name="setting-up-bill-rates-for-labor-rate-billing"></a>Atsiskaitymo už darbą tarifų nustatymas 
+# <a name="set-up-labor-bill-rates---lite"></a>Darbo sąskaitų tarifų sąranka – „Lite“ versija
 
 _**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
 
 Kiekviename kainoraštyje yra galiojančių vaidmenų kainų arba darbo tarifų rinkinys ir galiojimo data, įtraukta į kainoraščio antraštę. Laiko sąskaitų tarifus naudojant „Dynamics 365 Project Operations“ galima nustatyti tik viena valiuta, kuri nurodyta kainoraščio antraštėje.
 
 1. Jei norite nustatyti pardavimo kainoraščio darbo sąskaitų tarifus, sukurkite kainoraštį pagal kainoraščio antraštę. 
-2. Skirtuke **Vaidmenų kainos** , papildomame tinklelyje, pasirinkite **+ Naujo vaidmens kaina**. 
+2. Skirtuke **Vaidmenų kainos**, papildomame tinklelyje, pasirinkite **+ Naujo vaidmens kaina**. 
 3. **Sparčiojo kūrimo** srityje įveskite vaidmens ir organizacijos vieneto derinį, kuriam norite nustatyti sąskaitos tarifą.
 
   Toliau esančioje lentelėje yra laukai skirtuke **Bendra** ir vaidmens kainos eilutės **Sparčiojo kūrimo** sritis, kuriuos reikia turėti omenyje kuriant vaidmenų kainas pardavimo kainoraštyje:
 
-  | Laukas | Vieta | Atitiktis, tikslas ir gairės | Tolesnis poveikis |
+  | Laukas | Vieta | Aprašo | Tolesnis poveikis |
   | --- | --- | --- | --- |
   | Vaidmuo | Skirtukas **Bendra** ir **Sparčiojo kūrimo** sritis | Pasirinkite vaidmenį, kuriam nustatote sąskaitos tarifą. | Gaunamų įvertinimo arba faktinių reikšmių vaidmuo bus sugretintas su šia eilute, kad būtų nustatytas numatytasis vaidmens sąskaitos tarifas. |
   | Išteklių paskirstymo vienetas | Skirtukas **Bendra** ir **Sparčiojo kūrimo** sritis | Pasirinkite įmonės organizacijos vienetą arba padalinį, kuriam priklauso šis vaidmuo. Pavyzdžiui, kūrėjas iš „Fabrikam India“ robotų padalinio arba kūrėjas iš „Fabrikam USA“ programinės įrangos padalinio. | Gaunamų įvertinimo arba faktinių reikšmių išteklių paskirstymo vienetas bus sugretintas su šia eilute, kad būtų nustatytas numatytasis vaidmens sąskaitos tarifas. |

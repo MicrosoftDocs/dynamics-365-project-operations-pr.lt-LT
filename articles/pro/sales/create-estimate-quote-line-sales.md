@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 65aee7238781ac90f603e57c6d9b0b92cabd6644
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 56892a134c0c739958f7f939214930631dea7420
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080740"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180382"
 ---
 # <a name="estimating-a-project-based-quote-line"></a>Projektu pagrįstos pasiūlymo eilutės įvertinimas
 
@@ -30,9 +30,9 @@ Norėdami įvertinti projektu pagrįstą pasiūlymo eilutę, projektu pagrįstoj
 
 Jei norite kurti įvertinimą projektu pagrįstoje pasiūlymo eilutėje, pažymėkite skirtuką **Pasiūlymo eilutės informacija**. Šiame skirtuke sukurtas eilutės elementas apibendrins šios pasiūlymo eilutės pasiūlytą reikšmę. 
 
-Norėdami sukurti pasiūlymo eilutės išsamią informaciją, pažymėkite parinktį **+ Naujos pasiūlymo eilutės išsami informacija** , esančią papildomame tinklelyje **Pasiūlymo eilutės išsami informacija**. Atsidarys sparčiojo kūrimo slankiklis. Toliau nurodyti laukai, esantys formoje **Pasiūlymo eilutė** :
+Norėdami sukurti pasiūlymo eilutės išsamią informaciją, papildomame tinklelyje **Pasiūlymo eilutės informacija** pasirinkite **+ Nauja pasiūlymo eilutės informacija**. Atsidarys sparčiojo kūrimo slankiklis. Toliau nurodyti laukai, esantys formoje **Pasiūlymo eilutė**:
 
-| **Laukas** | **Vieta** | **Atitiktis, tikslas ir gairės** | **Tolesnis poveikis** |
+| **Laukas** | **Vieta** | **Aprašas** | **Tolesnis poveikis** |
 | --- | --- | --- | --- |
 | Aprašo | Spartusis kūrimas | Konkretaus įvertinimo aprašymas. | Šio lauko numatytosios reikšmės nurodytos automatiškai sukurtoje susijusios pasiūlymo eilutės savikainos išsamioje informacijoje. |
 | Operacijos klasė | Spartusis kūrimas | Šiame išplečiamajame sąraše pateikiamos operacijų klasės, įtrauktos į projektu pagrįstos pasiūlymo eilutės skirtuke **Bendra**.  | Šio lauko numatytosios reikšmės nurodytos automatiškai sukurtoje susijusios pasiūlymo eilutės savikainos išsamioje informacijoje. |
@@ -50,11 +50,11 @@ Norėdami sukurti pasiūlymo eilutės išsamią informaciją, pažymėkite parin
 
 ## <a name="update-prices-on-quote-line-details"></a>Kainų atnaujinimas pasiūlymo eilutės informacijoje
 
-Jei pakeitėte kainas projekto kainoraštyje, kuris pridėtas prie pasiūlymo, arba sutartį sudarančio vieneto savikainos kainoraštyje, galite pažymėti parinktį **Perskaičiuoti** , esančią puslapyje **Pasiūlymas** , kad atnaujintumėte kainas individualios pasiūlymo eilutės išsamiojoje informacijoje. Kai pasirenkate **Perskaičiuoti** , atsiranda įspėjimas, kuris informuoja, kad kainos pasiūlymo eilutės išsamiojoje informacijoje apie visas pasiūlymo eilutes šiame pasiūlyme bus nustatyta iš naujo. Norėdami atnaujinti pardavimų ir išlaidų pasiūlymo eilutės išsamią informaciją, pasirinkite **Taip**.
+Jei pakeitėte kainas projekto kainoraštyje, kuris pridėtas prie pasiūlymo, arba sutartį sudarančio vieneto savikainos kainoraštyje, galite pažymėti parinktį **Perskaičiuoti**, esančią puslapyje **Pasiūlymas**, kad atnaujintumėte kainas individualios pasiūlymo eilutės išsamiojoje informacijoje. Kai pasirenkate **Perskaičiuoti**, atsiranda įspėjimas, kuris informuoja, kad kainos pasiūlymo eilutės išsamiojoje informacijoje apie visas pasiūlymo eilutes šiame pasiūlyme bus nustatyta iš naujo. Norėdami atnaujinti pardavimų ir išlaidų pasiūlymo eilutės išsamią informaciją, pasirinkite **Taip**.
 
 ## <a name="access-quote-line-details-for-cost"></a>Prieiga prie išlaidų pasiūlymo eilutės išsamios informacijos
 
-Skirtuk **Pasiūlymo eilutės informacija** pažymėkite tinklelyje esančią eilutę, kad kai kurie veiksmai būtų įjungti papildomo tinklelio įrankių juostoje. Pirmasis veiksmas papildomo tinklelio įrankių juostoje, kai pasirinkta pasiūlymo eilutės išsami informacija, yra **Atidaryti išlaidų informaciją**. Pasirinkite **Atidaryti išlaidų informaciją** , kad matytumėte šios pasiūlymo eilutės išlaidų tarifą ir sumą.
+Skirtuke **Pasiūlymo eilutės informacija** pažymėkite tinklelio eilutę, kad būtų įjungta keletas veiksmų papildomo tinklelio įrankių juostoje. Pirmasis veiksmas papildomo tinklelio įrankių juostoje, kai yra pasirinkta pasiūlymo eilutės informacija, yra **Atidaryti kaštų informaciją**. Pasirinkite **Atidaryti išlaidų informaciją**, kad matytumėte šios pasiūlymo eilutės išlaidų tarifą ir sumą.
 
 > [!NOTE]
 > Išteklių paskirstymo vieneto, kiekybės, datos, vaidmens arba kategorijos reikšmių keitimas išlaidų pasiūlymo eilutės išsamiojoje informacijoje pakeis atitinkamas reikšmes pardavimų pasiūlymo eilutės išsamiojoje informacijoje.

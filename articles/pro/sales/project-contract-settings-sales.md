@@ -1,21 +1,21 @@
 ---
-title: Projekto sutarties laukai ir informacija
+title: Projekto sutarties parametrai – „Lite“ versija
 description: Šioje temoje pateikta informacija apie laukus, kurie veikia sutarties eilutes, ir informacija apie sutartį, apibendrinančią visų eilučių elementus.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 082292c54682022933a4b46b856f9241078a9067
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 28dfb256eb75ca9484161f053969c205fcd60965
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088017"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180924"
 ---
-# <a name="project-contract-fields-and-information"></a>Projekto sutarties laukai ir informacija 
+# <a name="project-contract-settings---lite"></a>Projekto sutarties parametrai – „Lite“ versija
 
 _**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
 
@@ -23,7 +23,7 @@ _**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės
 
 Toliau esančioje lentelėje išvardyti projekto sutarties laukai, kurie yra unikalūs „Dynamics 365 Project Operations“ arba kurių veikimas iš esmės skiriasi nuo „Dynamics 365 Sales“ pardavimo užsakymų.
 
-| Laukas | Vieta | Atitiktis, tikslas ir gairės | Tolesnis poveikis |
+| Laukas | Vieta | Aprašo | Tolesnis poveikis |
 | --- | --- | --- | --- |
 | Tipas | Skirtukas **Suvestinė** (paslėptas) | Tai parinkčių rinkinio laukas su nurodytomis parinktimis:</br>- **Darbu pagrįsta** (veikia, tik kai įdiegta „Project Operations“)</br>- **Elementu pagrįsta** (yra, tik jei turite įsidiegę „Project Operations“ ir „Sales")</br>- **Pagrįstas aptarnavimo priežiūra** (yra, kai įdiegta „Dynamics 365 Field Service“) | Naudojant „Project Operations“ šio lauko numatytoji reikšmė yra **Pagrįsta darbu** ir sutartis klasifikuojama kaip projektu pagrįsta sutartis. Sutartis turi būti pagrįsta projektu, kad būtų galima įjungti visus projekto plėtinius ir funkcijas. |
 | Potencialus klientas | Skirtukas **Suvestinė** | Kliento įmonės arba kliento įrašo nuoroda. Kai sutartis sukuriama iš pasiūlymo, šis laukas nukopijuojamas iš atitinkamo pasiūlymo įrašo lauko. | Projekto sutarties valiuta nustatoma pagal kliento valiutą. Ją galima pakeisti prieš įrašant sutartį. |
@@ -36,7 +36,7 @@ Toliau esančioje lentelėje išvardyti projekto sutarties laukai, kurie yra uni
 
 Nurodyti KPI pasiekiami projekto sutarties skirtuke **Sutarties efektyvumas**.
 
-| Laukas | Vieta | Atitiktis, tikslas ir gairės |
+| Laukas | Vieta | Aprašo |
 | --- | --- | --- |
 | Sutarties vertė | Bendra sutartis | Bendra projekto sutarties vertė. |
 | Išrašytos sąskaitos suma | Bendra sutartis | Visų šios sutarties sąskaitų faktūrų sumų suma. |

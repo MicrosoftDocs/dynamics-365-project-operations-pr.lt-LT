@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c11d6e76b551e0d2cde8ff514d1a0ddd989d07b9
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 2f29e396f8d30a5c5648b5c9937f1f20fbf72e89
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088022"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181148"
 ---
 # <a name="project-contract-settings"></a>Projekto sutarties parametrai
 
@@ -23,7 +23,7 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 
 Toliau esančioje lentelėje išvardyti projekto sutarties laukai, kurie yra unikalūs „Dynamics 365 Project Operations“ arba kurių veikimas iš esmės skiriasi nuo „Dynamics 365 Sales“ pardavimo užsakymų.
 
-| Laukas | Vieta | Atitiktis, tikslas ir gairės | Tolesnis poveikis |
+| Laukas | Vieta | Aprašo | Tolesnis poveikis |
 | --- | --- | --- | --- |
 | Tipas | Skirtukas **Suvestinė** (paslėptas) | Tai parinkčių rinkinio laukas su nurodytomis parinktimis:</br>- **Darbu pagrįsta** (veikia, tik kai įdiegta „Project Operations“)</br>- **Elementu pagrįsta** (yra, tik jei turite įsidiegę „Project Operations“ ir „Sales")</br>- **Pagrįstas aptarnavimo priežiūra** (yra, kai įdiegta „Dynamics 365 Field Service“) | Naudojant „Project Operations“ šio lauko numatytoji reikšmė yra **Pagrįsta darbu** ir sutartis klasifikuojama kaip projektu pagrįsta sutartis. Sutartis turi būti pagrįsta projektu, kad būtų galima įjungti visus projekto plėtinius ir funkcijas. |
 | Įmonė, kuriai priklauso | Skirtukas **Suvestinė** | Juridinis subjektas, kuris atsižvelgia į išlaidas ir pajamas, sukauptas iš projektų, susijusių su šio projekto sutartimi. Kai sutartis sukuriama iš pasiūlymo, šis laukas nukopijuojamas iš atitinkamo pasiūlymo įrašo lauko. | Valdančioji įmonė atitinka juridinio subjekto sąvoką „Project Operations“ **Projekto valdymo ir apskaitos** modulyje. Visos išlaidos ir pajamos, gautos iš šio projekto, įtraukiamos į valdančiosios įmonės didžiąją knygą. |
@@ -37,7 +37,7 @@ Toliau esančioje lentelėje išvardyti projekto sutarties laukai, kurie yra uni
 
 Nurodyti KPI pasiekiami projekto sutarties skirtuke **Sutarties efektyvumas**.
 
-| Laukas | Vieta | Atitiktis, tikslas ir gairės |
+| Laukas | Vieta | Aprašo |
 | --- | --- | --- |
 | Sutarties vertė | Bendra sutartis | Bendra projekto sutarties vertė. |
 | Išrašytos sąskaitos suma | Bendra sutartis | Visų šios sutarties sąskaitų faktūrų sumų suma. |

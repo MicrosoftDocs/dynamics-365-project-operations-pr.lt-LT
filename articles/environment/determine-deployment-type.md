@@ -3,17 +3,17 @@ title: Visuotinio diegimo tipo nustatymas
 description: Šioje temoje pateikta informacija padės jums nustatyti teisingą visuotinio diegimo tipą, skirtą jūsų įmonės „Project Operations“.
 author: stsporen
 manager: Annbe
-ms.date: 10/07/2020
+ms.date: 11/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 564f2878553fe3904a7c47c7e80a3b57c763a3b2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e9d3a5d8e6e1daafac72a3b4c0380b679d1869bd
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080840"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401228"
 ---
 # <a name="determine-your-deployment-type"></a>Visuotinio diegimo tipo nustatymas
 
@@ -25,11 +25,11 @@ _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems s
 
 
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Esami „Dynamics“ klientai, naudojantys „Dynamics 365 Project Service Automation“
-„Project Operations“ pateikiamos galimybės, pristatytos su „Project Service Automation“. Ateityje bus išleistas šiems klientams skirtas naujinimo kelias.
+„Project Operations“ pateikiamos galimybės, pristatytos su „Project Service Automation“. Naujovinimo kelias šiems klientams bus išleistas 2021 m. 1-osios leidimų bangos metu.
 
 ## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Esami „Dynamics 365 Finance“ klientai, naudojantys projektų valdymą ir apskaitą 
 
-Esami „Finance“ klientai, naudojantys projektų valdymo ir apskaitos funkcijas, gali toliau juos naudoti kaip įprasta. Žr. [„Project Operations“, skirta laikomų medžiagų / gamybos užsakymo scenarijams](#pma).
+Esami „Finance“ klientai, naudojantys projektų valdymo ir apskaitos funkcijas, gali ją naudoti taip, kaip dabar. Žr. [„Project Operations“, skirta laikomų medžiagų / gamybos užsakymo scenarijams](#pma).
 
 
 ## <a name="deployment-types"></a>Visuotinio diegimo tipai
@@ -47,12 +47,13 @@ Mūsų [Vsuotinio diegimo klausimynas](https://aka.ms/provisionprojectoperations
 
 „Lite“ visuotinis diegimas turi šias galimybes:
 
+- Projektų pardavimo procesas, išplečiantis „Dynamics 365 Sales“ programos pardavimo galimybes
 - Projekto planavimas naudojant „Microsoft Project“, skirtą žiniatinkliui
 - Kelių dimensijų įkainiai
 - Vieningasis išteklių valdymas
 - Laiko sekimas
 - Pagrindinės išlaidos
-- Sąskaitos faktūros pasiūlymas
+- „Proforma“ ir klientams prieinamos sąskaitos faktūros 
 
 #### <a name="deployment-steps"></a>Visuotinio diegimo veiksmai
 Nustatykite geriausią „Project Operations“ visuotinio diegimo modelį naudodami [Visuotinio diegimo klausimyną](https://aka.ms/provisionprojectoperations).
@@ -62,7 +63,8 @@ Nustatykite geriausią „Project Operations“ visuotinio diegimo modelį naudo
 
 ### <a name="project-operations-for-resourcenon-stocked-scenarios"></a><a name="integrated"></a>„Project Operations“, skirta išteklių / nelaikomų medžiagų scenarijams
 „Project Operations“, skirtos ištekliams / nelaikomų medžiagų scenarijams, yra šios galimybės:
-  
+ 
+- Projektų pardavimo procesas, išplečiantis „Dynamics 365 Sales“ programą
 - Projekto planavimas naudojant „Microsoft Project“, skirtą žiniatinkliui
 - Kelių dimensijų įkainiai
 - Vieningasis išteklių valdymas
@@ -70,8 +72,8 @@ Nustatykite geriausią „Project Operations“ visuotinio diegimo modelį naudo
 - Pagrindinės išlaidos
 - Visos išlaidos
 - OCR kvitas
-- Pilnas SF išrašymas
-- Pajamų pripažinimas
+- „Proforma“ ir klientams prieinamos sąskaitos faktūros 
+- Projektų pajamų pripažinimas
 
 #### <a name="deployment-steps"></a>Visuotinio diegimo veiksmai
 Nustatykite geriausią „Project Operations“ visuotinio diegimo modelį naudodami [Visuotinio diegimo klausimyną](https://aka.ms/provisionprojectoperations).

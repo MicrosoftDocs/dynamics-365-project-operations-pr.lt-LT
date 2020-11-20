@@ -1,21 +1,21 @@
 ---
-title: Projekto pasiūlymo pagrindinės sąvokos
+title: Pasiūlymai – pagrindinės sąvokos – „Lite“ versija
 description: Šioje temoje pateikta informacija apie „Project Operations“ projektų pasiūlymų naudojimą.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 64d2fd9bab9452d71e8cd194fbab70edadf00b93
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: e86f1a5a7b2859df5bf9569ee9ca306c6dcc6293
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080760"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4178016"
 ---
-# <a name="project-quote-key-concepts"></a>Projekto pasiūlymo pagrindinės sąvokos
+# <a name="quotes---key-concepts---lite"></a>Pasiūlymai – pagrindinės sąvokos – „Lite“ versija
 
 _**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
 
@@ -28,7 +28,7 @@ Sutartį sudarantis vienetas yra padalinys arba praktika, kuriai priklauso proje
 
 ## <a name="cost-currency"></a>Savikainos valiuta
 
-Išlaidų valiuta „Project Operations“ yra valiuta, kuria pateikiamos išlaidos. Ši valiuta gaunama iš valiutos, susietos su lauku **Sutartį sudarantis vienetas** , esančiu pasiūlyme, sutartyje ir projekte. Išlaidas galima registruoti bet kuria valiuta projekte. Tačiau tada nurodomas valiutos konvertavimas iš valiutos, kuria užregistruotos išlaidos, į projekto išlaidų valiutą.
+Išlaidų valiuta „Project Operations“ yra valiuta, kuria pateikiamos išlaidos. Ši valiuta gaunama iš valiutos, susietos su lauku **Sutartį sudarantis vienetas**, esančiu pasiūlyme, sutartyje ir projekte. Išlaidas galima registruoti bet kuria valiuta projekte. Tačiau tada nurodomas valiutos konvertavimas iš valiutos, kuria užregistruotos išlaidos, į projekto išlaidų valiutą.
 
 Kadangi CDS platformos valiutų kursai nėra galiojantys pagal datą, todėl, jei atnaujinate valiutos keitimo kursus, išlaidų ekrane sumos gali pasikeisti. Tačiau išlaidos, įrašytos į duomenų bazę, lieka nepakitusios, nes sumos saugomos valiuta, kuria jos patirtos.
 

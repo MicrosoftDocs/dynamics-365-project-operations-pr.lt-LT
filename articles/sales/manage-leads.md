@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a10be42f4ae1ecc8ae5613ed8fdc669304e0ec72
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 4c99485a1d0c54ae848e5fbed4c4590e96cba9fd
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080694"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181777"
 ---
 # <a name="manage-leads"></a>Galimų klientų valdymas
 
@@ -23,7 +23,7 @@ Projektu pagrįstus galimus klientus galima tvarkyti ir kvalifikuoti „Project 
 
 ## <a name="project-sales-leads"></a>Projektu pagrįsti galimi klientai
 
-Skyrius **Pardavimas** , esantis kairiojoje naršymo srityje, atidaro sąrašo **Galimi klientai** puslapį, kur galima peržiūrėti visų sistemos galimų klientų įrašų sąrašą. Rodomą galimų klientų sąrašą sudaro darbu pagrįsti ir kitų tipų galimi klientai, kuriuos galima sukurti, jei turite „Dynamics 365 Sales“ arba „Dynamics 365 Field Service“ programą.
+Skyrius **Pardavimas**, esantis kairiojoje naršymo srityje, atidaro sąrašo **Galimi klientai** puslapį, kur galima peržiūrėti visų sistemos galimų klientų įrašų sąrašą. Rodomą galimų klientų sąrašą sudaro darbu pagrįsti ir kitų tipų galimi klientai, kuriuos galima sukurti, jei turite „Dynamics 365 Sales“ arba „Dynamics 365 Field Service“ programą.
 
 Galite sukurti filtruotą rodinį, kad matytumėte tik projektu pagrįstus galimus klientus, sukurdami filtrą reikšmėje **Tipas**. Pavyzdžiui, galite pasirinkti, kad būtų rodomi tik darbu pagrįsti galimi klientai.
 
@@ -38,10 +38,10 @@ Kad tinkamas galimas klientas galėtų sukurti galimybę, kurdami galimą klient
 
 Šioje lentelėje yra svarbi galimo kliento lauko informacija ir šių laukų tolesnis poveikis.
  
-| **Laukas** | **Vieta** | **Atitiktis, tikslas ir gairės** | **Tolesnis poveikis** |
+| **Laukas** | **Vieta** | **Aprašas** | **Tolesnis poveikis** |
 | --- | --- | --- | --- |
 | Tema | Bendros informacijos skirtukas | Šiame teksto lauke turi būti trumpas sandorio aprašas. | Galimo kliento tema bus numatytoji kaip galimybės ir pasiūlymo bei projekto sutarties pavadinimo tema. |
-| Tipas | Bendros informacijos skirtukas | Šis parinkčių rinkinio laukas turi šias parinktis:</br>- Darbu pagrįsta (veikia tik kai įdiegta „Project Operations“)</br>- Elementu pagrįsta (yra tik jei turite įsidiegę „Project Operations“ ir „Sales")</br>- Pagrįstas aptarnavimo priežiūra (yra, kai įdiegta „Field Service“) | Kai šio lauko galimame kliente reikšmė nustatyta kaip **Darbu pagrįsta** , galimą klientą galima kvalifikuoti, kad būtų sukurta projektu pagrįsta galimybė. Galimybė turi būti pagrįsta projektu, kad būtų galima įjungti visus su projektu susijusius išplėtimus ir funkcijas tolesniuose šio sandorio procesuose. |
+| Tipas | Bendros informacijos skirtukas | Šis parinkčių rinkinio laukas turi šias parinktis:</br>- Darbu pagrįsta (veikia tik kai įdiegta „Project Operations“)</br>- Elementu pagrįsta (yra tik jei turite įsidiegę „Project Operations“ ir „Sales")</br>- Pagrįstas aptarnavimo priežiūra (yra, kai įdiegta „Field Service“) | Kai šio lauko galimame kliente reikšmė nustatyta kaip **Darbu pagrįsta**, galimą klientą galima kvalifikuoti, kad būtų sukurta projektu pagrįsta galimybė. Galimybė turi būti pagrįsta projektu, kad būtų galima įjungti visus su projektu susijusius išplėtimus ir funkcijas tolesniuose šio sandorio procesuose. |
 | Vardas | Bendros informacijos skirtukas | Potencialaus kliento vardas | Kai galimas klientas yra kvalifikuotas, sukuriamas klientas, kontaktas ir galimybė. Kontakto vardo reikšmė nustatyta čia. |
 | Pavardė | Bendros informacijos skirtukas | Potencialaus kliento pavardė | Kai galimas klientas yra kvalifikuotas, sukuriamas klientas, kontaktas ir galimybė. Kontakto pavardės reikšmė nustatyta čia. |
 | Įmonė | Bendros informacijos skirtukas | Potencialaus kliento įmonės pavadinimas | Kai galimas klientas yra kvalifikuotas, sukuriamas klientas, kontaktas ir galimybė. Sukurto kliento vardo reikšmė nustatyta čia. |
@@ -49,7 +49,7 @@ Kad tinkamas galimas klientas galėtų sukurti galimybę, kurdami galimą klient
 
 ## <a name="qualify-a-new-project-based-lead"></a>Naujo projekto pagrįsto galimo kliento tinkamumo patvirtinimas
 
-Galimi klientai, kurių reikšmė **Tipas** nustatyta kaip **Darbu pagrįsta** , vadinami projektu pagrįstais galimais klientais. Kai projektu pagrįstas galimas klientas yra patvirtintas kaip tinkamas, sukuriama:
+Galimi klientai, kurių reikšmė **Tipas** nustatyta kaip **Darbu pagrįsta**, vadinami projektu pagrįstais galimais klientais. Kai projektu pagrįstas galimas klientas yra patvirtintas kaip tinkamas, sukuriama:
 
 - Klientas, kuris naudoja lauką **Įmonė** iš galimo kliento.
 - Kontakto įrašas, susietas su klientu pagal galimo kliento laukų **Vardas** ir **Pavardė** reikšmes.

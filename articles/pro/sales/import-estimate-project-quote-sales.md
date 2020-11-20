@@ -1,21 +1,21 @@
 ---
-title: Projekto įvertinimų importavimas į projektais pagrįstą pasiūlymo eilutę
+title: Projekto įvertinimų importavimas į projektu pagrįstą pasiūlymo eilutę – „Lite“ versija
 description: Šioje temoje pateikta informacija apie projekto įvertinimų importavimą į pasiūlymo eilutę.
 author: rumant
 manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 224c2265cfcc38dfc2ed74664d38c095feefaca7
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 607ccaeb61b12458f8b0e9d7230c000e7ff0501a
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080738"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177746"
 ---
-# <a name="importing-estimates-for-a-project-to-a-project-based-quote-line"></a>Projekto įvertinimų importavimas į projektais pagrįstą pasiūlymo eilutę
+# <a name="import-estimates-for-a-project-to-a-project-based-quote-line---lite"></a>Projekto įvertinimų importavimas į projektu pagrįstą pasiūlymo eilutę – „Lite“ versija
 
 _**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
 
@@ -30,7 +30,7 @@ Jei projektas kuriamas prieš pardavimo etapą, galite pažymėti, kad į projek
   - **Vaidmuo** 
   - **Projekto užduotis**
 
-Remiantis jūsų pasirinkimu, kopijuojami visų operacijų klasių, įtrauktų į šią pasiūlymo eilutę, projekto įvertinimai. Norėdami patikrinti, kokios operacijų klasės įtrauktos, pasirinkite skirtuką **Bendra** , esantį projektu pagrįstoje pasiūlymo eilutėje, ir patikrinkite reikšmes parinktyse **Įtraukti laiką** , **Įtraukti išlaidas** ir **Įtraukti mokesčius**.  Jei norite patikrinti, kokios užduotys įtrauktos, pasirinkite skirtuką **Apmokestinama užduotis** pasiūlymo eilutėje.
+Remiantis jūsų pasirinkimu, kopijuojami visų operacijų klasių, įtrauktų į šią pasiūlymo eilutę, projekto įvertinimai. Norėdami patikrinti, kokios operacijų klasės įtrauktos, pasirinkite skirtuką **Bendra**, esantį projektu pagrįstoje pasiūlymo eilutėje, ir patikrinkite reikšmes parinktyse **Įtraukti laiką**, **Įtraukti išlaidas** ir **Įtraukti mokesčius**.  Jei norite patikrinti, kokios užduotys įtrauktos, pasirinkite skirtuką **Apmokestinama užduotis** pasiūlymo eilutėje.
 
 Atsižvelgiant į susietas užduotis ir įtrauktas operacijų klases, tų užduočių ir operacijų klasių derinių įvertinimai importuojami į pasiūlymo eilutę.
 

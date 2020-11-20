@@ -1,21 +1,21 @@
 ---
-title: Projektu pagrįstos pasiūlymo eilutės
+title: Projektu pagrįstų pasiūlymo eilučių apžvalga
 description: Šioje temoje pateikiama informacija apie projektu pagrįstų pasiūlymo eilučių naudojimą projektiniam darbui.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 06a47c45dc3b3b174658e2fba14d3d2050aabf85
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: ea54d83b1e26d1ee3520dbfab9ba56ffd1191dc9
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080703"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181867"
 ---
-# <a name="project-based-quote-lines"></a>Projektu pagrįstos pasiūlymo eilutės
+# <a name="project-based-quote-lines-overview"></a>Projektu pagrįstų pasiūlymo eilučių apžvalga
 
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
@@ -31,7 +31,7 @@ Projektu pagrįstos pasiūlymo eilutės yra skirtos padėti įvertinti projekto 
 
 Šioje lentelėje pateikiama informacija apie laukus, esančius projektu pagrįsto pasiūlymo eilutės skirtuke **Bendroji informacija**. Šie laukai padeda nustatyti išsamaus projekto darbo įvertinimo pagrindą.
 
-| **Laukas** | **Atitiktis, tikslas ir gairės** | **Tolesnis poveikis** |
+| **Laukas** | **Aprašas** | **Tolesnis poveikis** |
 | --- | --- | --- |
 | Pavadinimas / vardas, pavardė | Pasiūlymo eilutės pavadinimas, kuris turėtų padėti nustatyti atskirą vertinamo pasiūlymo komponentą. | Nukopijuota į projekto sutarties eilutę, kuri sukuriama iš šios pasiūlymo eilutės laimėjus pasiūlymą. |
 | Atsiskaitymo metodas | Pasiūlyme, sukurtame iš galimybės, ši vertė nukopijuojama iš atitinkamo galimybių eilutės lauko. Šiame lauke yra du pagrindiniai sutarčių sudarymo modeliai, palaikomi „Dynamics 365 Project Operations":</br>- Fiksuota kaina</br>- Laikas ir medžiaga.| Šio lauko vertė nukopijuota į projekto sutarties eilutę, kuri sukuriama iš šio pasiūlymo eilutės laimėjus pasiūlymą. |
@@ -47,11 +47,11 @@ Projektu pagrįstos pasiūlymo eilutės yra skirtos padėti įvertinti projekto 
 
 ## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>Su projektu pagrįstų pasiūlymo eilučių skirtuke Bendra laukų tikrinimo taisyklės
 
-**1 taisyklė** : tam tikra pasirinkto projekto operacijų klasė gali būti įtraukta tik į vieną pasiūlymo projektu pagrįsto pasiūlymo eilutę.
+**1 taisyklė**: tam tikra pasirinkto projekto operacijų klasė gali būti įtraukta tik į vieną pasiūlymo projektu pagrįsto pasiūlymo eilutę.
 
-**2 taisyklė** : jei galimybė turi kelis pasiūlymus, gali būti pasiūlymo eilučių iš skirtingų pasiūlymų, kurie visi nurodo tą patį projektą ir įtraukia tą pačią operacijos klasę.
+**2 taisyklė**: jei galimybė turi kelis pasiūlymus, gali būti pasiūlymo eilučių iš skirtingų pasiūlymų, kurie visi nurodo tą patį projektą ir įtraukia tą pačią operacijos klasę.
 
-**3 taisyklė** : jei pasiūlymai nepriklauso tai pačiai galimybei, jie negali apimti to paties projekto ir operacijos klasės.
+**3 taisyklė**: jei pasiūlymai nepriklauso tai pačiai galimybei, jie negali apimti to paties projekto ir operacijos klasės.
 
 <table border="1" cellspacing="0" cellpadding="0">
     <tbody>

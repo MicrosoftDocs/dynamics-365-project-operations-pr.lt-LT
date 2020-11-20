@@ -1,21 +1,21 @@
 ---
-title: Išankstinės arba išankstiniais apmokėjimais pagrįstos sutartys
+title: Išankstinės arba išankstiniais apmokėjimais pagrįstos sutartys – „Lite“ versija
 description: Šioje temoje pateikta informacija apie išankstiniais apmokėjimais pagrįstų sutarčių modelius ir avansus naudojant „Project Operations“.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5ccf8ff4fa52fa6ff9fe534dfbe6736afc24ffba
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088015"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180877"
 ---
-# <a name="advances-and-retainer-based-contracts"></a>Išankstinės arba išankstiniais apmokėjimais pagrįstos sutartys 
+# <a name="advances-and-retainer-based-contracts---lite"></a>Išankstinės arba išankstiniais apmokėjimais pagrįstos sutartys – „Lite“ versija
 
 
 _**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
@@ -33,7 +33,7 @@ Neskaitant periodiniais išankstiniais apmokėjimais pagrįsto grafiko, „Proje
 
 „Project Operations“ išankstinį apmokėjimą galima naudoti tik tada, kai klientui išrašoma sąskaita faktūra. Tai nurodo toliau papildomame tinklelyje pateikti laukai, skirti avansams ir išankstiniams mokėjimams.
 
-| Laukas | Atitiktis, tikslas ir gairės | Tolesnis poveikis |
+| Laukas | Aprašo | Tolesnis poveikis |
 | --- | --- | --- |
 | Galima suma | Suma, kurią galima naudoti išankstinio mokėjimo arba avanso įrašui. | Kol neišrašoma avanso arba išankstinio apmokėjimo sąskaita faktūra, jų negalima naudoti; tai reiškia, kad suma yra nulis. |
 | Panaudota suma | Suma, kuri jau naudojama išankstiniam mokėjimui arba avansui. | Avansą arba išankstinį mokėjimą sąskaitoje faktūroje galima iš dalies suderinti su faktinėmis išlaidomis, kurios bus pažymėtos, kaip panaudotos. Likusi avanso arba išankstinio mokėjimo suma galės būti suderinta su faktinėmis išlaidomis būsimoje sąskaitoje faktūroje. |

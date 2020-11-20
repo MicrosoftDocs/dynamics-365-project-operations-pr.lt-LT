@@ -1,21 +1,21 @@
 ---
-title: Projekto pasiūlymo suvestinės informacija (Sales)
+title: Projekto pasiūlymo suvestinės informacija – „Lite“ versija
 description: Šioje temoje pateikta informacija apie informaciją ir parametrus, taikomus projekto pasiūlymams ir jų poveikį. („Sales“)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d050258ae457bb4392d5fa761442cfc7a444feb0
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: f16634a87780c23d699d9ad535dd5e6d4ecb895d
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080767"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180966"
 ---
-# <a name="summary-information-on-a-project-quote-sales"></a>Projekto pasiūlymo suvestinės informacija (Sales)
+# <a name="summary-information-on-a-project-quote---lite"></a>Projekto pasiūlymo suvestinės informacija – „Lite“ versija
 
 _**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
 
@@ -23,7 +23,7 @@ _**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės
 
 Toliau esančioje lentelėje išvardyti projekto pasiūlymo suvestinės informacijos laukai, kurie yra unikalūs „Dynamics 365 Project Operations“ arba kurių veikimas iš esmės skiriasi nuo „Dynamics 365 Sales“ pasiūlymų.
 
-| **Laukas** | **Vieta** | **Atitiktis, tikslas ir gairės** | **Tolesnis poveikis** |
+| **Laukas** | **Vieta** | **Aprašas** | **Tolesnis poveikis** |
 | --- | --- | --- | --- |
 | Tipas | Suvestinės skirtukas (paslėptas) | Šis parinkčių rinkinio laukas sutelkia šias parinktis:</br>- Darbu pagrįsta (veikia tik kai įdiegta „Project Operations“)</br>- Elementu pagrįsta (yra tik jei turite įsidiegę „Project Operations“ ir „Sales")</br>- Pagrįstas aptarnavimo priežiūra (yra, kai įdiegta „Dynamics 365 Field Service“) | Kai naudojate „Project Operations“ programą, ši lauko reikšmė automatiškai nustatoma kaip **Darbu pagrįsta**. Taip pasiūlymas klasifikuojamas kaip projektu pagrįstas pasiūlymas. Pasiūlymas turi būti pagrįstas projektu, kad būtų galima įjungti visus projekto plėtinius ir funkcijas. |
 | Potencialus klientas | Skirtukas Suvestinė | Nurodo į kliento įmonę arba kliento įrašą. Kai pasiūlymas, sukuriamas iš galimybės, šis laukas nukopijuojamas iš atitinkamo galimybės eilutės lauko. | Projekto pasiūlymo valiuta nustatoma pagal kliento valiutą. Tačiau ją galima pakeisti prieš įrašant pasiūlymą. |
@@ -36,7 +36,7 @@ Toliau esančioje lentelėje išvardyti projekto pasiūlymo suvestinės informac
 
 Toliau nurodyti skirtukai ir KPI, kuriuos galite naudoti projekto pasiūlyme ir kurie yra unikalūs „Project Operations“ arba kurių veikimas iš esmės skiriasi nuo „Sales“ pasiūlymų:
 
-| **Laukas** | **Vieta** | **Atitiktis, tikslas ir gairės** |
+| **Laukas** | **Vieta** | **Aprašas** |
 | --- | --- | --- |
 | Pelningumo analizė | Skirtukas pasiūlyme | Skirtukas rodo toliau pateiktas metrikas.</br>- Bendra apmokestinama savikaina</br></br>- Bendra neapmokestinama savikaina</br>- Bendrosios pajamos</br>- Bendrosios pajamos (pagrindinės)</br>- Bruto marža</br>- Pakoreguota bruto marža|
 | Palyginimas su kliento lūkesčiais | Skirtukas pasiūlyme | Šis skirtukas rodo toliau pateiktas metrikas.</br>- Numatomas baigimas</br>- Pageidaujamas baigimas</br>- Kliento biudžetas</br>- Pasiūlymo vertė |

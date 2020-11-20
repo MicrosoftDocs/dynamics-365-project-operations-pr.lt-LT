@@ -1,21 +1,21 @@
 ---
-title: Avansinio arba išankstinio apmokėjimo sąskaitos faktūros išrašymas
+title: Sąskaitos faktūros išrašymas už išankstinį apmokėjimą arba avansą – „Lite“ versija
 description: Šioje temoje pateikta informacija apie išankstinio arba avansinio apmokėjimo sąskaitų faktūrų išrašymą naudojant „Project Operations“.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6ed3b71d5f0ac035403de9fa213f3f45d14038e0
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088018"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180562"
 ---
-# <a name="invoice-a-retainer-or-an-advance"></a>Avansinio arba išankstinio apmokėjimo sąskaitos faktūros išrašymas
+# <a name="invoice-a-retainer-or-an-advance---lite"></a>Sąskaitos faktūros išrašymas už išankstinį apmokėjimą arba avansą – „Lite“ versija
 
 _**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
 
@@ -32,7 +32,7 @@ Norėdami išrašyti išankstinio arba avansinio apmokėjimo sąskaitą faktūr�
 
 Išankstinį arba avansinį apmokėjimą galite tiesiogiai sukurti sąskaitoje faktūroje.
 
-1. Sąskaitos faktūros juodraščio papildomame tinklelyje **Avansiniai ir išankstiniai apmokėjimai** pasirinkite **Naujas** , kad sukurtumėte naują išankstinį arba avansinį apmokėjimą. 
+1. Sąskaitos faktūros juodraščio papildomame tinklelyje **Avansiniai ir išankstiniai apmokėjimai** pasirinkite **Naujas**, kad sukurtumėte naują išankstinį arba avansinį apmokėjimą. 
 2. Puslapyje **Spartusis kūrimas** įtraukite būtiną informaciją ir pasirinkite **Įrašyti**. Išankstinis arba avansinis apmokėjimas sukuriamas projekto sutartyje, susijusioje su sąskaita faktūra. Išankstinis arba avansinis apmokėjimas automatiškai pažymimas kaip **Parengta išrašyti sąskaitą faktūrą** ir tada įtraukiamas į puslapio **Sąskaita faktūra** papildomą tinklelį **Avansiniai ir išankstiniai apmokėjimai**.
 
 ## <a name="reconcile-an-invoiced-retainer-or-advance"></a>Avansinio arba išankstinio apmokėjimo, už kurį išrašyta sąskaita faktūra, derinimas
@@ -43,7 +43,7 @@ Kiekvienoje sąskaitoje faktūroje, sugeneruojamoje projekto sutarčiai, kurioje
 
 Tai galima matyti puslapio **Sąskaita faktūra** tinklelyje **Taikomi išankstiniai ir avansiniai apmokėjimai**. Šioje lentelėje pateikiama informacija apie puslapyje **Projekto sąskaita faktūra** esančio tinklelio **Taikomi išankstiniai ir avansiniai apmokėjimai** laukus.
 
-| Laukas | Vieta | Atitiktis, tikslas ir gairės | Tolesnis poveikis |
+| Laukas | Vieta | Aprašo | Tolesnis poveikis |
 | --- | --- | --- | --- |
 | Aprašo | Puslapio **Projekto sąskaita faktūra** tinklelis **Taikomi išankstiniai ir avansiniai apmokėjimai** |Šiame tik skaitomame lauke pateikiamas išankstinio ir avansinio apmokėjimo, panaudoto šioje sąskaitoje faktūroje, aprašymas. Šios reikšmės sąskaitoje faktūroje pakeisti negalima. Šią reikšmę galima atnaujinti puslapio **Projekto sutartis** papildomame tinklelyje. | Šį lauką galima rodyti išspausdintoje sąskaitoje faktūroje klientui, kad būtų nurodyta, kuris išankstinis ir avansinis apmokėjimas taikomas sąskaitoje faktūroje. |
 | Kada pristatyta | Puslapio **Projekto sąskaita faktūra** tinklelis **Taikomi išankstiniai ir avansiniai apmokėjimai**  | Šiame tik skaitomame lauke pateikiama išankstinio ir avansinio apmokėjimo, panaudoto šioje sąskaitoje faktūroje, sąskaitos faktūros data. Šios reikšmės sąskaitoje faktūroje pakeisti negalima. Šią reikšmę galima atnaujinti puslapio **Projekto sutartis** papildomame tinklelyje. | Šį lauką galima rodyti išspausdintoje sąskaitoje faktūroje klientui, kad būtų nurodyta data, kai išankstinio ir avansinio apmokėjimo sąskaita faktūra buvo pirmą kartą išrašyta klientui. |

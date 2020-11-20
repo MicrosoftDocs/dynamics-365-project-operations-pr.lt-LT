@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 91ee798a206ea5200780c8ebafc8f99cd9a3e219
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 67a69d521ac0a5632371138bd4fbb9dd00fe34ee
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080875"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181507"
 ---
 # <a name="copy-price-lists"></a>Kainoraščių kopijavimas
 
@@ -26,12 +26,12 @@ Norėdami nukopijuoti kainoraštį, atlikite toliau nurodytus veiksmus.
 1. Atidarykite kainoraštį, kurį norite kopijuoti, ir pasirinkite **Kopijuoti**.
 2. Įveskite visą būtiną informaciją, kad nukopijuotumėte kainoraštį. Toliau pateiktoje lentelėje nurodomi svarstymai, į kuriuos reikia atsižvelgti įvedant informaciją.
 
-| Laukas | Atitiktis, tikslas ir gairės | Tolesnis poveikis |
+| Laukas | Aprašo | Tolesnis poveikis |
 | --- | --- | --- |
 | Pavadinimas / vardas, pavardė | Šaltinio kainoraščio pavadinimas kartu su prierašu **kopija**. | Kainoraštis apima šią reikšmę visuose sąrašo puslapiuose ir išplečiamosiose parinktyse. |
-| Kontekstas | Įveskite norimą paskirties kainoraščio kontekstą. | Kainoraštis, kurio kontekstas nustatytas į **Savikaina** , naudojamas norint ieškoti numatomos savikainos ir faktinės savikainos. Kainoraštis, kurio kontekstas nustatytas į **Pardavimas** , naudojamas norint ieškoti numatomos pardavimo kainos ir faktinės pardavimo kainos. Prie kliento, pasiūlymų arba sutarties projekto kainoraščių galima pridėti tik kainoraščius, kurių kontekstas nustatytas į **Pardavimas**. |
-| Pradžios data | Kainoraščio galiojimo laikotarpio pradžios data. | Kartu su lauku **Pabaigos data** , šis laukas naudojamas norint nustatyti, kuris kainoraštis taikomas tam tikrai numatomai arba faktinei eilutei. |
-| Pabaigos data | Kainoraščio galiojimo laikotarpio pabaigos data. | Kartu su lauku **Pradžios data** , šis laukas naudojamas norint nustatyti, kuris kainoraštis taikomas tam tikrai numatomai arba faktinei eilutei. |
+| Kontekstas | Įveskite norimą paskirties kainoraščio kontekstą. | Kainoraštis, kurio kontekstas nustatytas į **Savikaina**, naudojamas norint ieškoti numatomos savikainos ir faktinės savikainos. Kainoraštis, kurio kontekstas nustatytas į **Pardavimas**, naudojamas norint ieškoti numatomos pardavimo kainos ir faktinės pardavimo kainos. Prie kliento, pasiūlymų arba sutarties projekto kainoraščių galima pridėti tik kainoraščius, kurių kontekstas nustatytas į **Pardavimas**. |
+| Pradžios data | Kainoraščio galiojimo laikotarpio pradžios data. | Kartu su lauku **Pabaigos data**, šis laukas naudojamas norint nustatyti, kuris kainoraštis taikomas tam tikrai numatomai arba faktinei eilutei. |
+| Pabaigos data | Kainoraščio galiojimo laikotarpio pabaigos data. | Kartu su lauku **Pradžios data**, šis laukas naudojamas norint nustatyti, kuris kainoraštis taikomas tam tikrai numatomai arba faktinei eilutei. |
 | Valiuta | Šaltinio kainoraščio valiuta. To keisti negalima. | Kai tai pakeičiama, visos gautos kainų eilutės už darbą, išlaidas ir produktų katalogų prekes konvertuojamos į paskirties kainoraščio valiutą kopijuojant. |
 | Laiko vienetas | Šaltinio kainoraščio valiuta. To keisti negalima. | Kai tai pakeičiama, visos gautos kainų eilutės už darbo prekes konvertuojamos į paskirties kainoraščio vienetą kopijuojant. Naudojamas šaltinio kainoraščio laiko vieneto ir paskirties kainoraščio laiko vieneto konvertavimas iš vienetų sąrankos. |
 | Aprašo | Šaltinio kainoraščio aprašas kartu su prierašu **kopija**. Šiame teksto lauke galite nurodyti keleto eilučių kainoraščio aprašą. | Šis laukas rodomas įvairių objektų, kurie turi susietų kainoraščių, kainoraščių **susietuose** rodiniuose. |
@@ -40,6 +40,6 @@ Norėdami nukopijuoti kainoraštį, atlikite toliau nurodytus veiksmus.
 
 ## <a name="update-a-price-list-by-applying-a-mark-up-to-all-the-prices"></a>Kainoraščio naujinimas taikant antkainį visoms prekėms
 
-1. Kainoraščio skirtukuose **Vaidmuo** , **Kategorija** ir **Kainoraščio elemento prekė** , galite pasirinkti **Atnaujinti kainas** , kad taikytumėte antkainį visos antrinio tinklelio kainoms. 
+1. Kainoraščio skirtukuose **Vaidmuo**, **Kategorija** ir **Kainų sąrašo elementas** galite pasirinkti **Naujinti kainas**, kad visoms papildomo tinklelio kainoms pritaikytumėte antkainį. 
 2. Atidarytame dialogo lango puslapyje įveskite antkainį. Taip pat galite įvesti neigiamą antkainį procentais, kad sumažintumėte kainas tam tikra procentine dalimi. 
 3. Dialogo lango puslapyje pasirinkite **Gerai** ir patikrinkite, ar papildomo tinklelio kainos atitinka atliktus pakeitimus.

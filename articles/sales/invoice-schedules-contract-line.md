@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/17/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 23378b51c8324a60918ad494e7f659dbbc94e2a8
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 674f4ccced3d0e3178799f60d9f95a2ec27cd153
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4081068"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180787"
 ---
 # <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>Sąskaitos faktūros grafikų kūrimas projektais pagrįstoje sutarties eilutėje 
 
@@ -26,14 +26,14 @@ Sąskaitos faktūros grafikus galite kurti projektais pagrįstoje sutarties eilu
 Kai projektu pagrįstos sutarties eilutės atsiskaitymo būdas yra laikas ir medžiaga, galite kurti data pagrįstą sąskaitos faktūros grafiką. Norėdami automatiškai sugeneruoti data pagrįstą sąskaitos faktūros grafiką, atlikite toliau nurodytus veiksmus.
 
 1. Pasirinkite **Parametrai** > **Sąskaitos faktūros dažniai** ir nustatykite sąskaitos faktūros dažnumą.
-2. Pereikite prie projekto sutarties įrašo skirtuke **Suvestinė** , lauke **Pageidaujama pristatymo data** pasirinkite datą.
+2. Pereikite prie projekto sutarties įrašo skirtuke **Suvestinė**, lauke **Pageidaujama pristatymo data** pasirinkite datą.
 3. Atidarykite **laiko ir medžiagos** pasiūlymo eilutę, kurią turite sukurti pagal data pagrįstą sąskaitos faktūros grafiką. 
 4. Skirtuke **Sąskaitos faktūros** grafikas pasirinkite reikšmes atsiskaitymo pradžios datą ir sąskaitos faktūros dažnumą.
-5. Papildomame tinklelyje pasirinkite **Generuoti sąskaitų faktūrų grafiką**. Sąskaitos faktūros grafikas sugeneruojamas su laukais **Sąskaitos faktūros vykdymo data** , **Operacijos galutinė data** ir **Vykdymo būsena** , kaip nurodyta toliau.
+5. Papildomame tinklelyje pasirinkite **Generuoti sąskaitų faktūrų grafiką**. Sąskaitos faktūros grafikas sugeneruojamas su laukais **Sąskaitos faktūros vykdymo data**, **Operacijos galutinė data** ir **Vykdymo būsena**, kaip nurodyta toliau.
 
-    - **Sąskaitos faktūros vykdymo data** : tai data, kurią diktuoja sąskaitos faktūros dažnumas.
-    - **Operacijos galutinė data** : diena prieš sąskaitos faktūros vykdymo datą.
-    - **Vykdymo būsena** : automatiškai nustatoma į **Nevykdoma**. Kai automatinio sąskaitos faktūros kūrimo užduotis paleidžiama tam tikrai sąskaitos faktūros vykdymo datai, ji atnaujins šį lauką į **Vykdymas sėkmingas** arba **Vykdymas nepavyko**.
+    - **Sąskaitos faktūros vykdymo data**: tai data, kurią diktuoja sąskaitos faktūros dažnumas.
+    - **Operacijos galutinė data**: diena prieš sąskaitos faktūros vykdymo datą.
+    - **Vykdymo būsena**: automatiškai nustatoma į **Nevykdoma**. Kai automatinio sąskaitos faktūros kūrimo užduotis paleidžiama tam tikrai sąskaitos faktūros vykdymo datai, ji atnaujins šį lauką į **Vykdymas sėkmingas** arba **Vykdymas nepavyko**.
 
 ## <a name="create-a-fixed-price-invoice-schedule-for-a-contract-line"></a>Sutarties eilutės fiksuotos kainos sąskaitų faktūrų grafiko kūrimas
 
@@ -45,15 +45,15 @@ Kai sutarties eilutėje yra fiksuotas atsiskaitymo būdas, galite kurti etapu pa
 Atlikite šiuos veiksmus, kad automatiškai generuotumėte etapais pagrįstą sąskaitų faktūrų grafiką, skirtą etapų, kurie vienodai paskirstyti kalendoriniam laikotarpiui, fiksuotam rinkiniui.
 
 1. Pasirinkite **Parametrai** > **Sąskaitos faktūros dažniai** ir nustatykite sąskaitos faktūros dažnumą.
-2. Pereikite prie projekto sutarties įrašo skirtuke **Suvestinė** , lauke **Pageidaujama pristatymo data** pasirinkite datą.
+2. Pereikite prie projekto sutarties įrašo skirtuke **Suvestinė**, lauke **Pageidaujama pristatymo data** pasirinkite datą.
 3. Atidarykite **fiksuotos kainos** pasiūlymo eilutę, kuriai reikia sukurti etapo grafiką. Skirtuke **Atsiskaitymo etapai** pasirinkite reikšmes atsiskaitymo pradžios datą ir sąskaitos faktūros dažnumą. 
-4. Papildomame tinklelyje pasirinkite **Periodiški etapai**. Sąskaitų faktūrų grafikas generuojamas naudojant laukus **Etapo pavadinimas** , **Etapo data** ir **Etapo suma** , kaip nurodyta toliau.
+4. Papildomame tinklelyje pasirinkite **Periodiški etapai**. Sąskaitų faktūrų grafikas generuojamas naudojant laukus **Etapo pavadinimas**, **Etapo data** ir **Etapo suma**, kaip nurodyta toliau.
 
-    - **Etapo pavadinimas** : tai data, kurią diktuoja sąskaitos faktūros dažnumas.
-    - **Etapo data** : tai data, kurią diktuoja sąskaitos faktūros dažnumas.
-    - **Etapų suma** : ši suma apskaičiuojama dalijant sutarties eilutės sutarties sumą iš etapų skaičių, kuris priklauso nuo dažnumo ir atsiskaitymo pradžios ir pageidaujamų pristatymo datų.
+    - **Etapo pavadinimas**: tai data, kurią diktuoja sąskaitos faktūros dažnumas.
+    - **Etapo data**: tai data, kurią diktuoja sąskaitos faktūros dažnumas.
+    - **Etapų suma**: ši suma apskaičiuojama dalijant sutarties eilutės sutarties sumą iš etapų skaičių, kuris priklauso nuo dažnumo ir atsiskaitymo pradžios ir pageidaujamų pristatymo datų.
 
-    Jei sutarties eilutė turi reikšmę lauke **Apskaičiuota mokesčių suma** , šis laukas taip pat paskirstomas kiekvienam etapui vienodai, kai generuojami periodiniai etapai.
+    Jei sutarties eilutė turi reikšmę lauke **Apskaičiuota mokesčių suma**, šis laukas taip pat paskirstomas kiekvienam etapui vienodai, kai generuojami periodiniai etapai.
 
 Atsiskaitymo etapai turi būti lygūs sutarties eilutės sutartyje nustatytai vertei. Jei taip nėra, puslapyje **Sutarties eilutė** įvyks klaida. Klaidą galite ištaisyti patvirtindami, kad atsiskaitymo etapų suma atitinka sutartyje nustatytą eilutės reikšmę, kurdami, redaguodami arba naikindami etapus. Atlikę pakeitimus atnaujinkite puslapį, kad būtų pašalinta klaida.
 
@@ -64,7 +64,7 @@ Fiksuotos kainos etapai gali būti generuojamos neautomatiškai, kai jie nėra p
 1. Atidarykite fiksuotos kainos sutarties eilutę, kuriai kuriate etapą, ir papildomame tinklelyje esančiame skirtuke **Sąskaitų faktūrų grafikas** pasirinkite **+ Kurti naują sutarties eilutės etapą**. 
 2. Puslapyje **Etapo kūrimas** įveskite reikiamą informaciją pagal toliau pateiktą lentelę.
 
-| Laukas | Vieta | Atitiktis, tikslas ir gairės | Tolesnis poveikis |
+| Laukas | Vieta | Aprašo | Tolesnis poveikis |
 | --- | --- | --- | --- |
 | Etapo pavadinimas | Spartusis kūrimas | Etapo pavadinimo teksto laukas. | Tai perkeliama į projekto sutarties eilutės etapą ir į sąskaitą faktūrą. |
 | Projekto užduotis | Spartusis kūrimas | Jei etapas yra susietas su projekto užduotimi, galite naudoti šią nuorodą ir įtraukti pasirinktinę logiką, kuri nustatys etapo būseną pagal užduoties būseną. | Programa neturi jokio tolesnio šios nuorodos poveikio užduočiai. |
