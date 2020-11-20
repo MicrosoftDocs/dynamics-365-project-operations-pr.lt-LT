@@ -3,7 +3,7 @@ title: Vienetų grupės ir vienetai
 description: Šioje temoje pateikiama informacija apie vienetų grupes ir vienetus.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 78f154856acf796f408491c5873cb29da8ac55bb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 58ce821d11d729f6e2c33e5a50344458e395db4d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080852"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130588"
 ---
 # <a name="unit-groups-and-units"></a>Vienetų grupės ir vienetai
 
@@ -33,16 +33,16 @@ Vienetų grupės ir vienetai yra pagrindiniai „Microsoft Dynamics 365“ objek
 
 Toliau pateikiami keli vienetų ir vienetų grupių pavyzdžiai.
  
-- **Vienetų grupė** : atstumas 
-    - **Vienetai** : mylia, kilometras ir pan.
-- **Vienetų grupė** : laikas
-    - **Vienetai** : valanda, diena, savaitė ir pan. 
+- **Vienetų grupė**: atstumas 
+    - **Vienetai**: mylia, kilometras ir pan.
+- **Vienetų grupė**: laikas
+    - **Vienetai**: valanda, diena, savaitė ir pan. 
 
 Nustatę kelis vienetų grupės vienetus, taip pat turite nustatyti jų konvertavimo koeficientą, nurodydami pirmąjį vienetą, kurį nustatote kaip numatytąjį arba pagrindinį vienetų grupės vienetą. 
 
-Pavyzdžiui, jei vienetų grupėje **Laikas** nustatysite parinktį **Valanda** kaip pirmąjį vienetą, sistema paskirs reikšmę **Valanda** kaip numatytąjį vienetą. Jei kitas nustatytas vienetas yra **Diena** , turite nustatyti vieneto **Diena** konvertavimo koeficientą **Valanda**. Jei tada kaip trečią vienetą įtrauksite **Savaitė** , reikės nustatyti vieneto **Savaitė** konvertavimo koeficientą **Diena** arba **Valanda**. 
+Pavyzdžiui, jei vienetų grupėje **Laikas** nustatysite parinktį **Valanda** kaip pirmąjį vienetą, sistema paskirs reikšmę **Valanda** kaip numatytąjį vienetą. Jei kitas nustatytas vienetas yra **Diena**, turite nustatyti vieneto **Diena** konvertavimo koeficientą **Valanda**. Jei tada kaip trečią vienetą įtrauksite **Savaitė**, reikės nustatyti vieneto **Savaitė** konvertavimo koeficientą **Diena** arba **Valanda**. 
 
-Tolesniame paveiksle pateikiamas vieneto **Diena** , kurio lauke **Kiekis** rodomas dienos valandų skaičius, ir vieneto **Savaitė** , kurio lauke **Kiekis** rodomas, savaitės dienų skaičius, sąrankos pavyzdys.
+Tolesniame paveiksle pateikiamas vieneto **Diena**, kurio lauke **Kiekis** rodomas dienos valandų skaičius, ir vieneto **Savaitė**, kurio lauke **Kiekis** rodomas, savaitės dienų skaičius, sąrankos pavyzdys.
 
 > ![Vienetų grupė: informacijos puslapis](media/advanced-2.png)
 
@@ -52,7 +52,7 @@ Tolesniame paveiksle pateikiamas vieneto **Diena** , kurio lauke **Kiekis** rodo
 
 Apdorojant išlaidas kiekvienai išlaidų kategorijai nustatoma numatytoji vienetų grupė ir vienetas. Šios reikšmės įvedamos kaip numatytosios reikšmės į išlaidų kategorijų kainoraščio įrašus. 
 
-Pavyzdžiui, turite išlaidų kategoriją pavadinimu **Kilometražas**. Joje yra vienetų grupė pavadinimu **Atstumas** ir numatytasis vienetas pavadinimu **Mylia**. Jei vienetų grupėje **Atstumas** nustatysite du vienetus ( **Mylia** ir **Kilometras** ), viename kainoraštyje galėsite nustatyti dvi kategorijos **Kilometražas** kainas: kainą už mylią ir kainą už kilometrą.
+Pavyzdžiui, turite išlaidų kategoriją pavadinimu **Kilometražas**. Joje yra vienetų grupė pavadinimu **Atstumas** ir numatytasis vienetas pavadinimu **Mylia**. Jei vienetų grupėje **Atstumas** nustatysite du vienetus (**Mylia** ir **Kilometras**), viename kainoraštyje galėsite nustatyti dvi kategorijos **Kilometražas** kainas: kainą už mylią ir kainą už kilometrą.
 
 | Išlaidų kategorija  | Vienetų grupė  | Vienetas      | Kainodaros metodas  | Vieneto kaina  |
 |-------------------|---------------|-----------|-------------------|-------------------|
@@ -72,17 +72,17 @@ Lauko **Pasiūlyme nurodytas laikas** įvertinimų eilutes galima išreikšti be
 Tolesniame pavyzdyje parodyta, kaip PSA naudoja vienetų grupę, vienetus ir konvertavimo koeficientus.
 - Vienetai
 
-   - **Vienetų grupė** : laikas 
-   - **Vienetai** : valanda 
+   - **Vienetų grupė**: laikas 
+   - **Vienetai**: valanda 
     
     - **Diena** – konvertavimo koeficientas: 8 valandos       
     - **Savaitė** – konvertavimo koeficientas: 40 valandos  
         
 - A projekto kainoraščio sąranka
 
-    - **Pavadinimas** : 2016 m. pardavimo JK kainos 
-    - **Numatytasis laiko vienetas** : diena 
-    - **Valiuta** : GBP
+    - **Pavadinimas**: 2016 m. pardavimo JK kainos 
+    - **Numatytasis laiko vienetas**: diena 
+    - **Valiuta**: GBP
 
 | Vaidmuo      | Vienetų grupė | Vienetas | Organizacijos vienetas | Kaina   |
 |-----------|------------|------|---------------------|---------|
@@ -109,4 +109,4 @@ Kai kuriose šalyse arba regionuose įtaikomas teisinis reikalavimas sąskaitų 
 Ne. Grafiko įvertinimas šiuo metu apribotas naudoti tik valandas ir jo keisti negalima.
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Ar galima redaguoti, naikinti ir įtraukti vienetus bei vienetų grupes?
-Taip. Išskyrus vienetų grupę **Laikas** ir vienetą **Valanda** , visus vienetus galima panaikinti arba redaguoti bei įtraukti naujų vienetų. PSA negalima panaikinti vienetų grupės **Laikas** ir vieneto **Valanda**. Tačiau juos galima atnaujinti įvedant vertimo tekstą lauke **Pavadinimas**.
+Taip. Išskyrus vienetų grupę **Laikas** ir vienetą **Valanda**, visus vienetus galima panaikinti arba redaguoti bei įtraukti naujų vienetų. PSA negalima panaikinti vienetų grupės **Laikas** ir vieneto **Valanda**. Tačiau juos galima atnaujinti įvedant vertimo tekstą lauke **Pavadinimas**.

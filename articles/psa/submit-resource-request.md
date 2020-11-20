@@ -2,7 +2,7 @@
 title: Išteklių užklausos pateikimas
 description: Šioje temoje pateikiama informacija apie tai, kaip pateikti užklausą projekto ištekliams.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/1/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bcea3d640d7e9ee2b071c55bff9ade3268edb319
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 50f076b89c5ac7fee4866534cbd47d81f92f3ab3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080929"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131287"
 ---
 # <a name="submitting-a-resource-request"></a>Išteklių užklausos pateikimas
 
@@ -31,11 +31,11 @@ ms.locfileid: "4080929"
 
 Kaip išteklių užklausą galite pateikti sugeneruotus išteklių reikalavimus. Tada užklausa siunčiama išteklių valdytojui, kad ją įvykdytų.
 
-1. „Project Service Automation“ (PSA) lange **Projektai** spustelėkite skirtuką **Komanda** , kad peržiūrėtumėte rezervuojamų išteklių sąrašą. 
+1. „Project Service Automation“ (PSA) lange **Projektai** spustelėkite skirtuką **Komanda**, kad peržiūrėtumėte rezervuojamų išteklių sąrašą. 
 2. Sąraše pažymėkite bendruosius išteklius, kuriems taikomas išteklių reikalavimas, tada spustelėkite **Pateikti užklausą.**
 
 ![Išteklių užklausos pateikimas](media/RM-how-to-18.png)
 
 Bendrosios komandos nario užklausos būsena bus pakeista į **Pateikta**.
 
-Išteklių valdytojui įvykdžius užklausą, bendrieji ištekliai bus pakeisti įvardintais ištekliais, jei išteklių valdytojas įvykdo užklausą naudodamas įvardintų išteklių pavadinimą. Kitu atveju bendrieji ištekliai liks komandoje, o užklausos būsena bus pakeista į **Reikia peržiūrėti** , jei išteklių valdytojas pasiūlė įvardintus išteklius.
+Išteklių valdytojui įvykdžius užklausą, bendrieji ištekliai bus pakeisti įvardintais ištekliais, jei išteklių valdytojas įvykdo užklausą naudodamas įvardintų išteklių pavadinimą. Kitu atveju bendrieji ištekliai liks komandoje, o užklausos būsena bus pakeista į **Reikia peržiūrėti**, jei išteklių valdytojas pasiūlė įvardintus išteklius.

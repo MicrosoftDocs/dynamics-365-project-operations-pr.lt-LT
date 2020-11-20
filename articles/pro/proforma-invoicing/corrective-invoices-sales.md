@@ -1,21 +1,21 @@
 ---
-title: Kreditai ir pataisytos sąskaitos faktūros
+title: Koreguotos sąskaitos faktūros – „Lite“ versija
 description: Šioje temoje pateikta informacija apie pataisytas sąskaita faktūras programoje „Project Operations“.
 author: rumant
 manager: Annbe
 ms.date: 10/15/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d2187627439d42b37222dce0a491c62dafc358d5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 55bec8ad1d9c2b55cabb453321f13df8b7cd1614
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080947"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176441"
 ---
-# <a name="credits-and-corrected-invoices"></a>Kreditai ir pataisytos sąskaitos faktūros
+# <a name="corrected-invoices---lite"></a>Koreguotos sąskaitos faktūros – „Lite“ versija
 
 _**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
 
@@ -35,7 +35,7 @@ Iš patvirtintos sąskaitos faktūros sukuriama naujas sąskaitos faktūros juod
 - Išankstinių apmokėjimų ir avansų derinimą galima pataisyti, jei klaidinga suma buvo naudojama derinant pagal anksčiau patvirtintos sąskaitos faktūros mokesčius.
 
 > [!IMPORTANT]
-> Sąskaitos faktūros eilučių informacija yra kitų išlaidų, už kurias sąskaita faktūra jau išrašyta, pataisymai ir jos laukas **Pataisymas** nustatytas į parinktį **Taip**. Sąskaitos faktūros, kurių eilučių informacija pataisyta, turi lauką **Yra pataisymų** , kuris taip pat nustatytas į parinktį **Taip**.
+> Sąskaitos faktūros eilučių informacija yra kitų išlaidų, už kurias sąskaita faktūra jau išrašyta, pataisymai ir jos laukas **Pataisymas** nustatytas į parinktį **Taip**. Sąskaitos faktūros, kurių eilučių informacija pataisyta, turi lauką **Yra pataisymų**, kuris taip pat nustatytas į parinktį **Taip**.
 
 ## <a name="actuals-created-on-confirmation-of-a-corrective-invoice"></a>Faktiniai duomenys sukuriami patvirtinus pataisytą sąskaitą faktūrą
 

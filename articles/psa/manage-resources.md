@@ -3,7 +3,7 @@ title: Tvarkyti išteklius
 description: Šioje temoje pateikiama informacija apie tai, kaip galite tvarkyti išteklius.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/13/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5b34ad66750dba9459d551a2527c13111196511e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 548595e3951f824e1c79a641d3f336e381fcaaf9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081037"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132343"
 ---
 # <a name="manage-resources"></a>Tvarkyti išteklius
 
@@ -36,7 +36,7 @@ ms.locfileid: "4081037"
 - **Apmokėtinas realizavimas per paskutinę savaitę** – diagramoje **Naudojimas pagal vaidmenį** rodoma organizacijos faktinis apmokamas realizavimas pagal vaidmenį lyginant su tiksliniu apmokėtinu realizavimu pagal vaidmenį.
 
     > [!NOTE]
-    > Kad pasiektumėte diagramą **Naudojimas pagal vaidmenį** , sukurkite užduotį, kuri vykdo darbo eigą UpdateRoleUtilization. Ši pasikartojanti užduotis vykdoma kas septynias dienas, kad apskaičiuotų apmokėtiną realizavimą per ankstesnes septynias dienas. Rezultatai sujungiami pagal vaidmenį.
+    > Kad pasiektumėte diagramą **Naudojimas pagal vaidmenį**, sukurkite užduotį, kuri vykdo darbo eigą UpdateRoleUtilization. Ši pasikartojanti užduotis vykdoma kas septynias dienas, kad apskaičiuotų apmokėtiną realizavimą per ankstesnes septynias dienas. Rezultatai sujungiami pagal vaidmenį.
 
 ## <a name="manage-project-team-members"></a>Projekto komandos narių valdymas
 
@@ -56,15 +56,15 @@ Naudodami PSA galite užsakyti bendrąjį išteklių projekto komandoje ir nurod
 
 Vadovaukitės šiais veiksmais, kad nustatytumėte bendrūjų išteklių kūrėjams būtinus įgūdžius.
 
-1. Puslapio **Projektai** skirtuke **Komanda** pažymėkite **Naujas** , kad rezervuotumėte bendrąjį išteklių.
+1. Puslapio **Projektai** skirtuke **Komanda** pažymėkite **Naujas**, kad rezervuotumėte bendrąjį išteklių.
 
     ![Komandoje rezervuotas bendrasis išteklius](media/Resource-Management-image9.png)
 
-2. Rodinyje **Viso komandos nariai** , stulpelyje **Ištekliaus reikalavimas** pažymėkite nuorodą, kad įtrauktumėte bendriesiems ištekliams būtinus įgūdžius.
+2. Rodinyje **Viso komandos nariai**, stulpelyje **Ištekliaus reikalavimas** pažymėkite nuorodą, kad įtrauktumėte bendriesiems ištekliams būtinus įgūdžius.
 
     ![Reikalavimų nuoroda](media/Resource-Management-image10.png)
 
-3. Pasirodžiusio puslapio **Ištekliaus reikalavimas** tinklelyje **Įgūdžiai** pasirinkite elipsę ( **...** ), o tada pažymėkite **Įtraukti naują reikalavimo charakteristiką** , kad įtrauktumėte kūrėjui būtinus įgūdžius.
+3. Pasirodžiusio puslapio **Ištekliaus reikalavimas** tinklelyje **Įgūdžiai** pasirinkite elipsę (**...**), o tada pažymėkite **Įtraukti naują reikalavimo charakteristiką**, kad įtrauktumėte kūrėjui būtinus įgūdžius.
 
     ![Komanda „Įtraukti naują reikalavimo charakteristiką“](media/Resource-Management-image11.png)
 
@@ -72,11 +72,11 @@ Vadovaukitės šiais veiksmais, kad nustatytumėte bendrūjų išteklių kūrėj
 
     ![Spartusis kūrimas: dialogo langas „Reikalavimo charakteristika“](media/Resource-Management-image12.png)
 
-5. Puslapyje **Ištekliaus reikalavimas** pažymėkite **Rezervuoti** , kad būtų įvykdyti ištekliaus reikalavimai.
+5. Puslapyje **Ištekliaus reikalavimas** pažymėkite **Rezervuoti**, kad būtų įvykdyti ištekliaus reikalavimai.
 
     ![Rezervavimo mygtukas puslapyje „Ištekliaus reikalavimas“](media/Resource-Management-image13.png)
 
-    Bendrąjį išteklių taip pat galite pasirinkti tinklelyje **Visi komandos nariai** , o tada pažymėti **Rezervuoti**.
+    Bendrąjį išteklių taip pat galite pasirinkti tinklelyje **Visi komandos nariai**, o tada pažymėti **Rezervuoti**.
 
     ![Rezervavimo mygtukas virš tinklelio „Visi komandos nariai“](media/Resource-Management-image14.png)
 
@@ -93,7 +93,7 @@ Vadovaukitės šiais veiksmais, kad nustatytumėte bendrūjų išteklių kūrėj
     - **Vaidmenys** – filtruoja pagal rezervuojamiems ištekliams priskirtus numatytuosius vaidmenis.
     - **Organizacijos vienetai** – filtruoja rezervuojamus išteklius pagal organizacijos vienetus, kuriems jie yra priskirti.
 
-6. Jei netenkina pradinio reikalavimo ieškos rezultatai, galite pakeisti filtro kriterijus. Kairėje pusėje išplėskite skydą **Filtro rodinys** , o tada pažymėkite **Ieškoti** , kad rastumėte papildomų išteklių.
+6. Jei netenkina pradinio reikalavimo ieškos rezultatai, galite pakeisti filtro kriterijus. Kairėje pusėje išplėskite skydą **Filtro rodinys**, o tada pažymėkite **Ieškoti**, kad rastumėte papildomų išteklių.
 
     ![Filtro rodinio skydas](media/Resource-Management-image16.png)
 
@@ -103,11 +103,11 @@ Vadovaukitės šiais veiksmais, kad nustatytumėte bendrūjų išteklių kūrėj
 
 8. Pasirinkite išteklius pagal reikalavime nurodytą poreikį, kaip nurodyta tinklelio viršuje. Galite išvalyti tinklelio langelių žymėjimą ir palikti tą išteklių pajėgumą atvirą. Vienu metu tik vieną išteklių galima pažymėti kaip rezervuotą.
 
-9. Pasirinkite **Rezervuoti** , kad rezervuotumėte pažymėtą išteklių ir palikite grafiko lentą atvirą, kad galėtumėte pažymėti papildomus išteklius. Arba pažymėkite **Rezervuoti ir išeiti** , kad rezervuotumėte pasirinktą išteklių ir uždarytumėte grafiko lentą.
+9. Pasirinkite **Rezervuoti**, kad rezervuotumėte pažymėtą išteklių ir palikite grafiko lentą atvirą, kad galėtumėte pažymėti papildomus išteklius. Arba pažymėkite **Rezervuoti ir išeiti**, kad rezervuotumėte pasirinktą išteklių ir uždarytumėte grafiko lentą.
 
     ![Ištekliai, skirti rezervavimui](media/Resource-Management-image19.png)
 
-    Gaunate pranešimą apie rezervuotas valandas. Poreikio rodikliai rodo kiek rezervavimo reikalavimas yra tenkinamas ir kiek lieka. Taip pat galite matyti, kiek suvartojama pasirinkto ištekliaus pajėgumo. Pasirinkite **Išplėsti** , kad peržiūrėtumėte daugiau informacijos apie išteklių rezervavimus.
+    Gaunate pranešimą apie rezervuotas valandas. Poreikio rodikliai rodo kiek rezervavimo reikalavimas yra tenkinamas ir kiek lieka. Taip pat galite matyti, kiek suvartojama pasirinkto ištekliaus pajėgumo. Pasirinkite **Išplėsti**, kad peržiūrėtumėte daugiau informacijos apie išteklių rezervavimus.
 
 9. Grįžkite į rodinį **Visi komandos nariai**. Atkreipkite dėmesį, kad tinklelyje bendrasis išteklius pakeistas į įvardytąjį išteklių, o 40 valandos įvardytos kaip rezervuotos tam ištekliui.
 
@@ -120,7 +120,7 @@ Vadovaukitės šiais veiksmais, kad nustatytumėte bendrūjų išteklių kūrėj
 
 Programoje PSA galite kurti užduotis, o tada joms priskirti bendruosius išteklius. Tokiu būdu išteklių poreikį gali pavaizduoti vietos rezervavimo ženklai, kol įvertinate savo grafiką ir finansinius skaičius. Tada galite generuoti išteklių reikalavimus, skirtus bendriesiems ištekliams ir juos vykdyti.
 
-1. Puslapio **Projektai** skirtuke **Grafikas** pasirinkite **Įtraukti** , kad sukurtumėte užduotį.
+1. Puslapio **Projektai** skirtuke **Grafikas** pasirinkite **Įtraukti**, kad sukurtumėte užduotį.
 
     ![Kurti naują užduotį](media/Resource-Management-image21.png)
 
@@ -132,7 +132,7 @@ Programoje PSA galite kurti užduotis, o tada joms priskirti bendruosius ištekl
 
     ![Įvesti naujo bendrojo ištekliaus pavadinimą](media/Resource-Management-image23.png)
 
-4. Dialogo lange **Spartusis kūrimas: projekto komandos narys** , esančiame lauke **Vaidmuo** , pažymėkite bendrajam ištekliui skirtą vaidmenį. Lauke **Išteklių paskirstymo vienetas** pažymėkite bendrajam ištekliui skirtą organizacijos vienetą. Tada pasirinkite **Įrašyti**.
+4. Dialogo lange **Spartusis kūrimas: projekto komandos narys**, esančiame lauke **Vaidmuo**, pažymėkite bendrajam ištekliui skirtą vaidmenį. Lauke **Išteklių paskirstymo vienetas** pažymėkite bendrajam ištekliui skirtą organizacijos vienetą. Tada pasirinkite **Įrašyti**.
 
     ![Spartusis kūrimas: projekto komandos nario dialogo langas](media/Resource-Management-image24.png)
 
@@ -191,7 +191,7 @@ Programoje PSA galite kurti užduotis, o tada joms priskirti bendruosius ištekl
 
 PSA nepriskiria abiejų išteklių užduočiai, nes tai lemtų mažiau nuspėjamą grafiką. Šiame paprastame pavyzdyje nesunku po lygiai padalinti valandas tarp dviejų išteklių. Tačiau sudėtingesniais atvejais, į kuriuos įeina kelios užduotys ar keli ištekliai, PSA turėtų daryti prielaidas apie tai, kaip reikėtų paskirstyti rezervavimus, kurie gaunami keliems ištekliams keliose užduotyse.
 
-Todėl šiais atvejais projektų vadovas yra atsakingas už kelių rezervavimų analizavimą ir jų priskyrimą pagal poreikį. Norėdamas priskirti rezervavimus, projektų vadovas priskiria užduotis iš bendrųjų išteklių įvardytiems ištekliams, o tada naudoja rodinį **Derinimas** , kad įsitikintų, jog paskirstymas veikia su rezervavimais.
+Todėl šiais atvejais projektų vadovas yra atsakingas už kelių rezervavimų analizavimą ir jų priskyrimą pagal poreikį. Norėdamas priskirti rezervavimus, projektų vadovas priskiria užduotis iš bendrųjų išteklių įvardytiems ištekliams, o tada naudoja rodinį **Derinimas**, kad įsitikintų, jog paskirstymas veikia su rezervavimais.
 
 ### <a name="edit-a-resource-requirement"></a>Redaguoti ištekliaus reikalavimą
 
@@ -223,7 +223,7 @@ Puslapyje **Ištekliaus reikalavimas** projektų vadovas arba išteklių vadovas
 
     Atsiranda grafiko lenta ir rodomi projekto komandos nario rezervavimai. Išplėskite komandos nario įrašą, kad peržiūrėtumėte valandas, užrezervuotas pagal šį projektą, ir kitus projektus, naudojančius komandos nario pajėgumą.
 
-2. Pažymėkite ir tempkite rezervavimą, kad jį išplėstumėte arba sumažintumėte. Atsiras dialogo langas **Kurti ištekliaus rezervavimą** , kuris leidžia koreguoti rezervavimą.
+2. Pažymėkite ir tempkite rezervavimą, kad jį išplėstumėte arba sumažintumėte. Atsiras dialogo langas **Kurti ištekliaus rezervavimą**, kuris leidžia koreguoti rezervavimą.
 
     ![Dialogo langas „Kurti išteklių rezervavimą“](media/Resource-Management-image41.png)
 
@@ -277,7 +277,7 @@ Norėdami peržiūrėti siūlomą išteklių ir pasiūlymo rezervavimo efekto vi
 
 ![Siūlomi ištekliai](media/Resource-Management-image49.png)
 
-Pasirinkite **Priimti visus pasiūlymus** , kad priimtumėte visus siūlomus išteklius arba **Atmesti visus pasiūlymus** , kad juos atmestumėte. Jei priimate siūlomus išteklius, jie yra galutinai rezervuojami projekte kaip komandos nariai ir pakeičia bendruosius išteklius.
+Pasirinkite **Priimti visus pasiūlymus**, kad priimtumėte visus siūlomus išteklius arba **Atmesti visus pasiūlymus**, kad juos atmestumėte. Jei priimate siūlomus išteklius, jie yra galutinai rezervuojami projekte kaip komandos nariai ir pakeičia bendruosius išteklius.
 
 > [!NOTE]
 > Turite priimti arba atmesti visus siūlomus išteklius. Negalite jų priimti arba atmesti iš dalies.
@@ -318,7 +318,7 @@ Kartais projekto vadovas projekte turi pakeisti rezervuotos komandos narį.
 
 Komandos nariams rezervavimai ir priskyrimai yra laisvai susiję. Kitaip tariant, ištekliai gali turėti priskyrimų, bet ne rezervavimų, arba jie gali turėti rezervavimų, bet ne priskyrimų. Geriausiu atveju rezervavimai ir priskyrimai turėtų būti suderinti, kad ištekliai turėtų patvirtintą pajėgumą užduočių priskyrimams atlikti. Tačiau rezervavimai gali būti pagrįsti prieinamumu, o užduoties laikas gali keistis projektui tęsiantis. Todėl laisvas rezervavimų ir priskyrimų siejimas suteikia lankstumą.
 
-PSA turi skirtuką **Derinimas** , kuris leidžia projektų vadovams derinti komandos narių rezervavimus ir priskyrimus projekto komandoms.
+PSA turi skirtuką **Derinimas**, kuris leidžia projektų vadovams derinti komandos narių rezervavimus ir priskyrimus projekto komandoms.
 
 ![Derinimas](media/Resource-Management-image56.png)
 
@@ -333,11 +333,11 @@ Kiekvienam ištekliui skirtukas apskaičiuoja skirtumą tarp komandos narių rez
 
 Kai kuriais atvejais, peržiūrint laiką aukštesniame nei dienos lygyje (pavyzdžiui, mėnesio lygyje), galite matyti ištekliaus grynąjį nulio skirtumą (kitaip tariant, rezervavimai = priskyrimai). Tačiau, jei peržiūrite laiką savaitės lygyje, galite matyti nulio valandų priskyrimus ir 40 valandų rezervavimus pirmoje savaitėje, tačiau 40 valandų priskyrimus ir nulio valandų rezervavimus antroje savaitėje. Apskritai rezervavimai ir priskyrimai yra suderinami, tačiau kiekvieną savaitę jie skiriasi.
 
-Peržiūrint laiką aukštesniuose lygiuose, langeliai, esantys skirtuke **Derinimas** , turi indikatorių, kuris praneša, kad žemesniuose lygiuose yra skirtumų. Dukart spustelėję langelį galite priartinti ir peržiūrėti skirtumą. Tada galite spustelėti dešiniuoju pelės mygtuku ir nutolinti. Pažymėdami išteklių, o tada naudodami valdiklį **Kitas skirtumas** , esantį tinklelio įrankių juostoje, galite eiti į kitą skirtumą tarp šio ištekliaus rezervavimų ir priskyrimų. Tada galite naudoti valdiklį **Ankstesnis skirtumas** , kad grįžtumėte atgal. Taip pat galite išjungti skirtumo indikatorių ir naršymą **Parametruose**.
+Peržiūrint laiką aukštesniuose lygiuose, langeliai, esantys skirtuke **Derinimas**, turi indikatorių, kuris praneša, kad žemesniuose lygiuose yra skirtumų. Dukart spustelėję langelį galite priartinti ir peržiūrėti skirtumą. Tada galite spustelėti dešiniuoju pelės mygtuku ir nutolinti. Pažymėdami išteklių, o tada naudodami valdiklį **Kitas skirtumas**, esantį tinklelio įrankių juostoje, galite eiti į kitą skirtumą tarp šio ištekliaus rezervavimų ir priskyrimų. Tada galite naudoti valdiklį **Ankstesnis skirtumas**, kad grįžtumėte atgal. Taip pat galite išjungti skirtumo indikatorių ir naršymą **Parametruose**.
 
 ![Skirtumo indikatorius](media/Resource-Management-image57.png)
 
-Jei turite ištekliaus užduoties priskyrimus, bet ne rezervavimus, puslapio **Projektai** skirtuke **Derinimas** pažymėkite rezervavimo trūkumą, o tada pasirinkite **Išplėsti rezervavimą**. Atsiranda dialogo langas **Išplėsti rezervavimą** ir rodomas rezervavimas, reikalingas ištekliaus trūkumui spręsti. Jame taip pat nurodomi esami ištekliaus rezervavimai visuose projektuose arba kituose planiniuose objektuose. Jei pasirinksite **Gerai** , kad sukurtumėte ištekliaus rezervavimą, neatsižvelgiant į ištekliaus pasiekiamumą, galite viršyti rezervavimo limitą.
+Jei turite ištekliaus užduoties priskyrimus, bet ne rezervavimus, puslapio **Projektai** skirtuke **Derinimas** pažymėkite rezervavimo trūkumą, o tada pasirinkite **Išplėsti rezervavimą**. Atsiranda dialogo langas **Išplėsti rezervavimą** ir rodomas rezervavimas, reikalingas ištekliaus trūkumui spręsti. Jame taip pat nurodomi esami ištekliaus rezervavimai visuose projektuose arba kituose planiniuose objektuose. Jei pasirinksite **Gerai**, kad sukurtumėte ištekliaus rezervavimą, neatsižvelgiant į ištekliaus pasiekiamumą, galite viršyti rezervavimo limitą.
 
 ![Dialogo langas „Išplėsti rezervavimą“](media/Resource-Management-image58.png)
 

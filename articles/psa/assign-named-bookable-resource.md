@@ -3,7 +3,7 @@ title: Įvardytų rezervuojamų išteklių rezervavimas projekto komandai ir už
 description: Šioje temoje pateikiama informacija apie įvardytų išteklių rezervavimą projektų komandoms ir jų priskyrimą užduotims.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: defc92e701ae6baf9d54f41dca123a09ef834c35
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0300c494a3294b26e2de6bbfa1dd50a76bb72651
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080955"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130183"
 ---
 # <a name="book-named-bookable-resources-to-a-project-team-and-assign-tasks"></a>Įvardytų rezervuojamų išteklių rezervavimas projekto komandai ir užduočių priskyrimas 
 
@@ -44,7 +44,7 @@ Galite įtraukti įvardytąjį išteklių į savo projekto komandą rezervuodami
 ![Komandos nario įtraukimas į sparčiojo kūrimo formą](media/RM-how-to-2.png)
 
 
-Dabar galite rezervuotą išteklių priskirti projekto užduotims. Puslapyje **Projektas** spustelėkite skirtuką **Grafikas** ir priskirkite užduotis naujam ištekliui. Išteklių parinkiklis, paleidžiamas naudojant užduočių tinklelio lauką **Ištekliai** , parodys komandos narius, kuriuos galite pasirinkti.
+Dabar galite rezervuotą išteklių priskirti projekto užduotims. Puslapyje **Projektas** spustelėkite skirtuką **Grafikas** ir priskirkite užduotis naujam ištekliui. Išteklių parinkiklis, paleidžiamas naudojant užduočių tinklelio lauką **Ištekliai**, parodys komandos narius, kuriuos galite pasirinkti.
 
 ![Komandos nario priskyrimas užduočiai naudojant skirtuką Grafikas](media/RM-how-to-3.png)
 

@@ -3,7 +3,7 @@ title: „Project Service Automation“ rezervavimo paskirstymo būdai
 description: Šioje temoje pateikta informacija apie įvairius paskirstymo būdus.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,16 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 295da428ce15e7775450dfa94e96047f200bdede
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3dc87a66a4b881a06f2b888c26d9dfaefb419f16
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080830"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131376"
 ---
 # <a name="booking-allocation-methods-in-project-service-automation"></a>„Project Service Automation“ rezervavimo paskirstymo būdai
 
-Nesvarbu, ar komandos narį į projektą įtraukiate tiesiogiai skirtuke **Komanda** , ar rezervuojate išteklių projekte arba reikalavimą iš grafikos lentos, yra keli skirtingi paskirstymo metodai, kuriuos galite panaudoti. Šioje temoje paaiškinama, kaip veikia kiekvienas metodas ir kurių metodų taikymas gali tapti resursų per didelio kiekio rezervavimo priežastimi.
+Nesvarbu, ar komandos narį į projektą įtraukiate tiesiogiai skirtuke **Komanda**, ar rezervuojate išteklių projekte arba reikalavimą iš grafikos lentos, yra keli skirtingi paskirstymo metodai, kuriuos galite panaudoti. Šioje temoje paaiškinama, kaip veikia kiekvienas metodas ir kurių metodų taikymas gali tapti resursų per didelio kiekio rezervavimo priežastimi.
 
 ## <a name="full-capacity"></a>Visas pajėgumas 
 Visas pajėgumo metodas – rezervuojamas visas ištekliaus pajėgumas nurodytu pradžios ir pabaigos datų laikotarpiu. Pavyzdžiui, jei nustatyta, kad ištekliaus kalendorius turi veikti 8 valandas per dieną, 5 dienas per savaitę, nustačius pradžios ir pabaigos laikotarpį, apimantį penkias darbo dienas, išteklius bus rezervuotas 40 valandų. Toks rezervavimas atliekamas neatsižvelgiant į išteklių pajėgumo likutį. Jei nurodytu laikotarpiu išteklius jau rezervuotas kitiems projektams, 40 valandų rezervuojamos kaip papildomos, o tai gali tapti per didelio kiekio rezervavimo priežastimi.

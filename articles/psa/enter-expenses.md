@@ -3,7 +3,7 @@ title: Išlaidų įvedimas
 description: Išlaidų įvedimas „Project Service“
 author: revathimuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 360e2c6b103f3d441fd89995751ba038036563c4
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 34510b38773031795d3877c2736275fe67dbdd7b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081040"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132928"
 ---
 # <a name="enter-expenses-project-service"></a>Išlaidų įvedimas („Project Service“)
 
@@ -35,7 +35,7 @@ Savo išlaidas įveskite bent kartą per savaitę arba taip dažnai, kaip nurodo
   
 1. Eikite į **Project Service > Išlaidos**. Atsidarys kalendorius.  
   
-2. Jei norite matyti ankstesnės arba kitos savaitės kalendorių, spustelėkite **Ankstesnis** arba **Kitas**. Spustelėkite **Šiandien** , ir grįšite į šios dienos savaitę.  
+2. Jei norite matyti ankstesnės arba kitos savaitės kalendorių, spustelėkite **Ankstesnis** arba **Kitas**. Spustelėkite **Šiandien**, ir grįšite į šios dienos savaitę.  
   
 3. Norėdami įvesti išlaidas, spustelėkite **Naujas** arba dukart spustelėkite kalendoriuje, srityje tos dienos, kurios laiką norite įvesti.  
   
@@ -49,7 +49,7 @@ Savo išlaidas įveskite bent kartą per savaitę arba taip dažnai, kaip nurodo
   
    Jei naudojate mobiliųjų įrenginių programėlę:  
   
-8. Šiame meniu eikite į **Išlaidos**.     Galite persijungti į rodinį **Diena** , **Savaitė** arba **Mėnuo** , taip pat pereiti į ankstesnį arba kitą laikotarpį.  
+8. Šiame meniu eikite į **Išlaidos**.     Galite persijungti į rodinį **Diena**, **Savaitė** arba **Mėnuo**, taip pat pereiti į ankstesnį arba kitą laikotarpį.  
   
 9. Bakstelėkite **...** ir bakstelėkite **Naujas**.  
   

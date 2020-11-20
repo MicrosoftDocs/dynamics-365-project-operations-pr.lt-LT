@@ -2,28 +2,22 @@
 title: Pardavimo proceso apžvalga
 description: Šioje temoje pateikiama informacija apie pagrindinius pardavimo procesus.
 author: rumant
-manager: kfend
-ms.service: dynamics-365-customerservice
-ms.custom:
-- dyn365-projectservice
-ms.date: 09/23/2019
+manager: Annbe
+ms.date: 10/29/2020
 ms.topic: article
-ms.prod: ''
+ms.service: project-operations
+ms.reviewer: kfend
 ms.author: rumant
-audience: Admin
-search.audienceType:
-- admin
-- customizer
-- enduser
-search.app: ''
-ms.openlocfilehash: c70760748c5faa87f6738ab7e2ab593e2df49e41
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5da29d2959a6e49defa185630f45d280dba283c4
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081035"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177611"
 ---
-# <a name="sales-processes-overview"></a>Pardavimo proceso apžvalga
+# <a name="sales-process-overview"></a>Pardavimo proceso apžvalga
+
+_**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
 Organizacijoje, kurios veikla pagrįsta projektu, naudojami pardavimo procesai skiriasi nuo pardavimų procesų, naudojamų organizacijoje, kurios veikla pagrįsta produktais. Taip yra todėl, kad organizacijų, kurių veikla pagrįsta projektu, pardavimo ciklai yra ilgesni ir jiems reikia tinkintų įvertinimo technologijų, kad galėtų išanalizuoti ir kurti visų sandorių pasiūlymus. „Dynamics 365 Project Operations“ naudoja kai kurias iš toliau pateiktų funkcijų, kurios naudojamos pardavimo procese:
 
@@ -56,7 +50,7 @@ Pavyzdžiui, jūsų įmonės pardavimo procesą gali sudaryti šeši toliau išv
  
 Vykdydama tą patį sandorį organizacija gali naudoti įvairius objektus jam nurodyti. Pardavimo proceso pradžioje sandorį nurodo objektas Galimybė. Laikui bėgant gavę daugiau informacijos galite naudoti aukšto lygio įvertinimus ir sukurti vieną ar kelis pasiūlymus. Jei vieną iš šių pasiūlymų peržiūri vidaus ir kliento suinteresuotosios šalys, sandoris nurodomas kaip objektas Pasiūlymas. Klientui priėmus pasiūlymą, sandorį nurodo projekto sutartis arba SOW. Siekiant palaikyti šį veikimo principą veiklos procesų eigos yra sudarytos taip, kad kiekvienas proceso etapas būtų susietas su skirtinga duomenų bazės lentele.
 
-Pardavimo proceso etapą **Patvirtinimas** galima susieti su objektu Galimybė. Etapus **Įvertinimas** ir **Vidinė peržiūra** galima susieti su objektu Pasiūlymas. Etapus **Sutartis** , **Pristatymas** ir **Uždarymas** galima susieti su objektu Projekto sutartis.
+Pardavimo proceso etapą **Patvirtinimas** galima susieti su objektu Galimybė. Etapus **Įvertinimas** ir **Vidinė peržiūra** galima susieti su objektu Pasiūlymas. Etapus **Sutartis**, **Pristatymas** ir **Uždarymas** galima susieti su objektu Projekto sutartis.
 
 Vykdydami sandorio etapus būsite paraginti sukurti atitinkamą objekto įrašą, kad galėtumėte lengviau ir tiksliau atlikti procesą. Etapai gali būti sąlyginiai. Pavyzdžiui, jei jums pasiūlymo vidinės peržiūros jums tik tuo atveju, jei pasiūlymui naudojamas pasirinktinis kainoraštis, galite sukonfigūruoti šią sąlygą atitinkamame veiklos proceso etape. Tada etapas **Vidinė peržiūra** bus rodomas tik pasiūlymuose, kuriems naudojamas pasirinktinis kainoraštis. Visų kitų sandorių ir pasiūlymų atveju po etapo **Įvertinimas** vykdomas etapas **Sutartis**.
 
@@ -65,7 +59,7 @@ Vykdydami sandorio etapus būsite paraginti sukurti atitinkamą objekto įrašą
 
 
 ## <a name="track-revisions-to-quotes-and-project-plans-in-the-sales-cycle"></a>Pardavimo ciklo pasiūlymų ir projektų planų peržiūrų sekimas
-Naudodami „Project Operations“ negalite sekti atliktų pasiūlymo peržiūrų. Turite pažymėti esamą pasiūlymą **Uždarytas kaip pralaimėtas** , o tada sukurti naują pasiūlymą. Galite nukopijuoti pasiūlymą arba klonuoti projektu pagrįstą pasiūlymą.
+Naudodami „Project Operations“ negalite sekti atliktų pasiūlymo peržiūrų. Turite pažymėti esamą pasiūlymą **Uždarytas kaip pralaimėtas**, o tada sukurti naują pasiūlymą. Galite nukopijuoti pasiūlymą arba klonuoti projektu pagrįstą pasiūlymą.
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>Pasiūlymų ir projektų sutarčių komentarų bei patvirtinimų sekimas
 Naudodami įrašų sieną ir įrašus galite valdyti pasiūlymų ir projektų sutarčių peržiūrą bei patvirtinimą. Siekdama priskirti, peradresuoti, perskirti ir valdyti peržiūros ir patvirtinimo darbų elementų pranešimus organizacija gali kurti pasirinktines darbo eigas ir priedus.

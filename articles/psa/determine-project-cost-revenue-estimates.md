@@ -3,7 +3,7 @@ title: Projekto savikainos ir pajamų įvertinimų nustatymas
 description: Projekto savikainos ir pajamų įvertinimų nustatymas „Project Service“
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1652b39b6c8a703bf198a990eb9047eff9dc9f4c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 66fa8f4374caa08b07663cc9d261bfff8ce30c87
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080844"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133018"
 ---
 # <a name="determine-project-cost-and-revenue-estimates"></a>Projekto savikainos ir pajamų įvertinimų nustatymas 
 
@@ -35,7 +35,7 @@ Projekto sąmatos pateikia projekto darbo paskirstymo struktūroje įvertinto ir
 „[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]“ kainoraščiuose apibrėžiama projekto naudojamų vaidmenų kaina ir apmokestinimo tarifai. Remdamiesi vaidmenimis, susietais su projekto darbo paskirstymo struktūros užduotimis, galite nustatyti atliekamo darbo kainos ir pajamų poveikį.  
   
 ## <a name="cost-price-defaulting"></a>Numatytosios savikainos nustatymas  
-Kiekvienas projektas priklauso organizacijai (projekte tai nurodoma srityje **Nuosavybės teisę turintis vienetas** ). Vieneto savikaina nustatoma kainoraščiu, susietu su nuosavybės teisę turinčiu organizaciniu vienetu. „[!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-service-auto.md)]“ vaidmenų savikainas nustato savikainų sąraše ieškodama vaidmens, vieneto ir organizacinio vieneto derinio, kad gautų sąmatų eilučių galiojimo datos savikainą.  
+Kiekvienas projektas priklauso organizacijai (projekte tai nurodoma srityje **Nuosavybės teisę turintis vienetas**). Vieneto savikaina nustatoma kainoraščiu, susietu su nuosavybės teisę turinčiu organizaciniu vienetu. „[!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-service-auto.md)]“ vaidmenų savikainas nustato savikainų sąraše ieškodama vaidmens, vieneto ir organizacinio vieneto derinio, kad gautų sąmatų eilučių galiojimo datos savikainą.  
   
 Jei pagal vaidmens, vieneto ir organizacinio vieneto derinį nuosavybės teisę turinčio organizacinio vieneto kainoraštyje savikainos gauti negalima, vieneto nepaisoma, ir naudojamas vaidmens bei organizacinio vieneto derinys. Jei savikaina yra, ji konvertuojama į vienetą, kurį pasirinkote sąmatų eilutėje.  
   

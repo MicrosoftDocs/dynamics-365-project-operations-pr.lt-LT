@@ -1,21 +1,21 @@
 ---
-title: Registracija norint gauti peržiūros versijos prenumeratą
+title: Registracija norint gauti peržiūros versijos prenumeratą – „Lite“ versija
 description: Šioje temoje pateikta informacija apie tai, kaip prenumeruoti ir diegti „Project Operations Lite“ visuotinį diegimą – sandoris į išankstinės sąskaitos faktūros formą.
 author: sigitac
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5342466f308ab62a9f73a85fbd838d7c33bb1f47
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080699"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175901"
 ---
-# <a name="sign-up-for-a-preview-subscription-for-lite-deployment--deal-to-proforma-invoicing"></a>Registracija norint gauti „Lite“ visuotinio diegimo peržiūros versijos prenumeratą – sandoris į išankstinės sąskaitos faktūros formą
+# <a name="sign-up-for-a-preview-subscription---lite"></a>Registracija norint gauti peržiūros versijos prenumeratą – „Lite“ versija 
 
 Šioje temoje paaiškinama, kaip prenumeruoti peržiūros versijos partnerio pasiūlymą ir diegti „Dynamics 365 Project Operations“ „Lite“ visuotinį diegimą – sandoris į išankstinės sąskaitos faktūros formą
 
@@ -42,7 +42,7 @@ Gavę [peržiūros versijos užklausos](https://forms.office.com/FormsPro/Pages/
 
 Prieš pradėdami įsitikinkite, kad esate prisijungę prie naršyklės naudodami vartotojo darbo klientą nuomotojuje, kuriame norite atlikti „Project Operations“ peržiūrą.
 
-1. Pasinaudokite pirmuoju pasiūlymo kodu **„Dynamics 365 Project Operations“ (CRM) – bandomoji peržiūros versija** , įklijuodami jį į naršyklės URL lauką.
+1. Pasinaudokite pirmuoju pasiūlymo kodu **„Dynamics 365 Project Operations“ (CRM) – bandomoji peržiūros versija**, įklijuodami jį į naršyklės URL lauką.
 
 ![Pasinaudoti pasiūlymu](./media/16RedeemFirstOfferNew.png)
 

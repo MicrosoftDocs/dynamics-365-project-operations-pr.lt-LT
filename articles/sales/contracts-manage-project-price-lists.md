@@ -1,0 +1,74 @@
+---
+title: Projektų kainoraščių valdymas projekto sutartyse
+description: Šioje temoje pateikiama informacija apie projekto kainoraščius projekto sutartyse.
+author: rumant
+manager: Annbe
+ms.date: 10/27/2020
+ms.topic: article
+ms.service: project-operations
+ms.reviewer: kfend
+ms.author: rumant
+ms.openlocfilehash: 030684576e1f53d27921907b07c9e5e0c5efe612
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133395"
+---
+# <a name="manage-project-price-lists-on-project-contracts"></a>Projektų kainoraščių valdymas projekto sutartyse
+
+_**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
+
+Projekto sutartys programoje „Dynamics 365 Project Operations“ sukurtos siekiant palaikyti kelis nuo datos priklausančius sutarties pardavimo kainoraščius. Programoje „Project Operations“ yra naujas susietasis objektas, vadinamas **projekto kainoraščiais**. Šis objektas su projekto sutartimi yra susijęs ryšiu „vienas su daugeliu“.
+
+Projektų kainoraščiai naudojami projekto laikui ir išlaidų operacijoms įkainoti. Kai sutartyje yra vienas ar daugiau projekto kainoraščių, šie kainoraščiai naudojami norint nustatyti laiko ir išlaidų sąmatų bei faktinių duomenų projektuose, susijusiuose su sutartimi per sutarties eilutę, kainą.
+
+Kai projekto sutartyje projekto kainoraščių nebus, bus rodomas įspėjamasis pranešimas, kad nėra projekto kainoraščių, o jūsų sąmatų, faktinio projekto darbo bei išlaidų kaina nebus nustatyta. Nebus nustatyta pardavimo verčių kaina.
+
+## <a name="associate-or-unassociate-a-project-price-list-on-a-project-contract"></a>Projekto sutarties kainoraščio susiejimas arba atsiejimas
+
+### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-and-expenses"></a>Tam tikro kainoraščio kūrimas arba susiejimas norint įvertinti projektinį darbą ir išlaidas
+
+1. Projekto sutartyje pasirinkite skirtuką **Projekto kainoraščiai**.
+2. Papildomame tinklelyje pasirinkite **+ Įtraukti naują projekto kainoraštį**.
+3. Slankiklyje **Spartusis kūrimas** pažymėkite kainoraštį. 
+
+  Išplečiamajame sąraše rodomi visi kainoraščiai, kuriuose kontekstas nustatytas kaip **Pardavimas**, o kainoraščio valiuta atitinka sutarties valiutą.
+  
+4. Įveskite projekto kainoraščio susiejimo aprašą, pasirinkite **Įrašyti**, tada uždarykite slankiklį **Spartusis kūrimas**.
+
+   Sukuriamas projekto kainoraščio susiejimas.
+   
+5. Pakartokite 1–4 veiksmus, kad susietumėte daugiau nei vieną projekto kainoraštį su projekto sutartimi. Kelis projekto kainoraščius kurkite, tik jei kiekvienas susietas projekto kainoraštis galioja skirtingomis datomis.
+
+> [!NOTE]
+> „Project Operations“ nepalaiko projekto kainoraščių galiojimo datų persidengimo. Jei konkrečią dieną operacijai galioja keli projekto kainoraščiai, tai operacijai nustatoma numatytoji nulinė kaina.
+
+### <a name="remove-a-project-price-list-association"></a>Projekto kainoraščio susiejimo pašalinimas
+
+- Pasirinkite projekto kainoraštį, tada papildomame tinklelyje pasirinkite **Naikinti sutarties projekto kainoraštį**. 
+
+  Kainoraštis pašalinamas iš sutarties projekto kainoraščių. Pats kainoraštis nebus panaikintas. Panaikinamas tik susiejimas su sutartimi.
+
+## <a name="set-up-automatic-defaulting-of-project-price-lists-on-a-contract"></a>Projekto kainoraščių automatinio nustatymo numatytaisiais sąranka
+
+Projekto kainoraštį sutartyje galima nustatyti kaip numatytąjį. Toks nustatymas gali padėti užtikrinti, kad visos jūsų organizacijos sutartys visada pradėtų naudoti standartinį to kainų laikotarpio kainoraštį.
+
+### <a name="set-up-the-organizational-default-for-project-price-lists"></a>Projekto numatytojo kainoraščio organizacijoje nustatymas
+
+1. Nueikite į **Parametrai** > **Bendra**, tada pasirinkite **Parametrai**.
+2. Sąrašo puslapyje **Aktyvieji parametrai** pažymėkite ir dukart spustelėkite įrašą, kad jį atidarytumėte. Dukart spustelėdami, įsitikinkite, kad nespustelėjote lauko reikšmės, kuri yra hipersaitas. 
+3. Puslapyje **Aktyvieji parametrai** pažymėkite skirtuką **Kainoraštis**. Papildomame tinklelyje rodomas numatytųjų kainoraščių sąrašas. Tai yra standartinių kaštų ir pardavimo kainoraščių sąrašas. Jei čia **pardavimo** kainoraštis susietas su kiekviena valiuta, kuria parduodate, užtikrinama, kad šis pardavimo kainoraštis būtų numatytasis bet kurioje sutartyje, kurią kuriate klientams, prekiaujantiems šia valiuta.
+
+### <a name="set-up-a-customer-specific-project-price-list"></a>Konkrečiam klientui taikomui projekto kainoraščio nustatymas
+
+Konkretiems klientams taikomus kainoraščius taip pat galite nustatyti, kai su klientais susiderėjote dėl pagrindinės kainų sutarties.
+
+1. Eikite į **Pardavimas** > **Klientai**.
+2. Aktyvių klientų sąraše pažymėkite klientą, kuriam turite specialų kainoraštį.
+3. Pažymėkite kliento įrašą, kad jį atidarytumėte, ir pasirinkite skirtuką **Projekto kainoraščiai**. Papildomame tinklelyje rodomas konkrečiai šiam klientui taikomų projekto kainoraščių sąrašas. 
+4. Čia sukurkite naują kainoraščio susiejimą, kad turėtumėte konkrečiai šiam klientui skirtą projekto kainoraštį.
+
+## <a name="custom-pricing-on-a-project-contract"></a>Pasirinktinė kainodara projekto sutartyje
+
+Kai turite organizacinius ir konkretiems klientams taikomus projekto kainoraščius, jūsų projekto sutartys bus sukurtos automatiškai susiejant šiuos projekto kainoraščius. Tačiau projekto kainoraščiai projekto sutartyje visada kopijuojami prie jų nurodant datą ir sutarties pavadinimą. Tada klientų ir projektų vadovai gali pradėti redaguoti šių kopijų kainas. Šios pakeistos kainos bus taikomos tik šiai projekto sutarčiai.

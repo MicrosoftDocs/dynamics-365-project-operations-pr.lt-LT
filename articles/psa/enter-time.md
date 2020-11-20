@@ -3,7 +3,7 @@ title: Laiko įvedimas
 description: Laiko įvedimas „Project Service“
 author: revathimuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4db1e62e062aa5024c8b8807e155fbd543af1059
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b06062cf21cacedda759cc7bf7f940fc33f16bd0
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081039"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132883"
 ---
 # <a name="enter-time-project-service"></a>Laiko įvedimas („Project Service“)
 
@@ -35,7 +35,7 @@ Savo valandas įveskite bent kartą per savaitę arba taip dažnai, kaip nurodo 
   
 1. Eikite į **Project Service > Laiko įrašai**. Atsidarys kalendorius.  
   
-2. Jei norite matyti ankstesnės arba kitos savaitės kalendorių, spustelėkite **Ankstesnis** arba **Kitas**. Spustelėkite **Šiandien** , ir grįšite į šios dienos savaitę.  
+2. Jei norite matyti ankstesnės arba kitos savaitės kalendorių, spustelėkite **Ankstesnis** arba **Kitas**. Spustelėkite **Šiandien**, ir grįšite į šios dienos savaitę.  
   
 3. Norėdami įvesti laiką, spustelėkite **Naujas** arba dukart spustelėkite dienos, kurios laiką norite įvesti, srityje.  
   
@@ -51,7 +51,7 @@ Savo valandas įveskite bent kartą per savaitę arba taip dažnai, kaip nurodo 
   
    Jei naudojate mobiliųjų įrenginių programėlę:  
   
-9. Šiame meniu eikite į **Laiko įrašai**.     Galite persijungti į rodinį **Diena** , **Savaitė** arba **Mėnuo** , taip pat galite naršyti po ankstesnį arba kitą laikotarpį.  
+9. Šiame meniu eikite į **Laiko įrašai**.     Galite persijungti į rodinį **Diena**, **Savaitė** arba **Mėnuo**, taip pat galite naršyti po ankstesnį arba kitą laikotarpį.  
   
 10. Bakstelėkite **...** ir bakstelėkite **Naujas**.  
   

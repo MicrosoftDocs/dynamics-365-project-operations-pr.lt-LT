@@ -3,7 +3,7 @@ title: Projekto išteklių planavimas
 description: Projekto išteklių planavimas „Project Service“
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: db69348aac96cbfaaa865228c9230cbda4b1e784
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1479bf920be897a6ee3498aada7a6c36692a01fc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081042"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132156"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>Projekto išteklių planavimas („Project Service“)
 
@@ -31,7 +31,7 @@ ms.locfileid: "4081042"
 
 Galite patikrinti išteklių užimtumą, kad turėtumėte apie jį bendrą vaizdą, arba galite rodinį filtruoti pagal įgūdžius, komandą, vietą ir kitas parinktis.  
   
-Grafiko lentoje rodomas išteklių sąrašas ir jų pasiekiamumas. Pasirinkite peržiūros režimą, kas būtų rodomas pasiekiamumas pagal **Valandas** , **Dieną** , **Savaitę** arba **Mėnesį**.  
+Grafiko lentoje rodomas išteklių sąrašas ir jų pasiekiamumas. Pasirinkite peržiūros režimą, kas būtų rodomas pasiekiamumas pagal **Valandas**, **Dieną**, **Savaitę** arba **Mėnesį**.  
   
 Prieš pradedant naudotis grafiko lenta, svarbu ją nustatyti. Daugiau informacijos žr. [Grafiko lentos konfigūravimas („Field Service” arba „Project Service Automation”)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).
   
@@ -51,8 +51,8 @@ Jei jūs naudojate senesnę versiją, dėl išteklių pasiekiamumo, žr. [Ištek
 
 1.  Sąraše **Rezervacijos reikalavimas** dešiniuoju pelės klavišu spustelėkite ant nesuplanuotos rezervacijos ir pasirinkite vieną iš tolesnių parinkčių.  
   
-- Pasirinkite **Rasti pasiekiamus – dabartiniai ištekliai** , kad rastumėte pasiekiamų išteklių iš grafiko lentoje pateikto sąrašo.  
-- Pasirinkite **Rasti pasiekiamus – visi ištekliai** , kad rastumėte pasiekiamų išteklių sistemos šaltiniuose  
+- Pasirinkite **Rasti pasiekiamus – dabartiniai ištekliai**, kad rastumėte pasiekiamų išteklių iš grafiko lentoje pateikto sąrašo.  
+- Pasirinkite **Rasti pasiekiamus – visi ištekliai**, kad rastumėte pasiekiamų išteklių sistemos šaltiniuose  
    > [!NOTE]
    >  Tai atlikus, filtrai parodys pasirinkto rezervacijos reikalavimo parinktis.  
   

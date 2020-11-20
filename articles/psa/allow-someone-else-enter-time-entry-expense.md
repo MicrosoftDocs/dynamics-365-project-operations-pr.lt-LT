@@ -3,7 +3,7 @@ title: Leidimas kam nors kitam įvesti jūsų laiko arba išlaidų įrašus
 description: Leidimas kam nors kitam įvesti jūsų laiko arba išlaidų įrašus „Project Service“
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f56fae115b383d66a59cbcb08fffe95c83c83e17
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 50c54e73cf4898ce525492b8ef7c8b8cf6dc36cd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080809"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130388"
 ---
 # <a name="allow-someone-else-to-enter-your-time-entry-or-expense-project-service"></a>Leidimas kam nors kitam įvesti jūsų laiko arba išlaidų įrašus („Project Service“)
 
@@ -37,13 +37,13 @@ Nustatykite atstovą, norėdami kam nors kitam leisti įvesti laiko arba išlaid
   
 2.  Komandų juostoje spustelėkite **Naujas**.  
   
-3. **Pavadinimas** : įveskite įrašo pavadinimą.  
+3. **Pavadinimas**: įveskite įrašo pavadinimą.  
   
-4. **Tipas** : pasirinkite, ar atstovas jūsų vardu gali įvesti laiko, ar išlaidų įrašus.  
+4. **Tipas**: pasirinkite, ar atstovas jūsų vardu gali įvesti laiko, ar išlaidų įrašus.  
   
-5. **Atstovas** : pasirinkite asmens, kuris bus atstovas, vardą ir pavardę.  
+5. **Atstovas**: pasirinkite asmens, kuris bus atstovas, vardą ir pavardę.  
   
-6. **Pradžios ir pabaigos datos** : pasirinkite datas, kada perdavimas prasideda ir baigiasi.  
+6. **Pradžios ir pabaigos datos**: pasirinkite datas, kada perdavimas prasideda ir baigiasi.  
   
 7.  Baigę spustelėkite **Įrašyti ir uždaryti**.  
   
@@ -65,7 +65,7 @@ Nustatykite atstovą, norėdami kam nors kitam leisti įvesti laiko arba išlaid
   
 3.  Spustelėkite **Gerai**.  
   
-4.  Atsidarys kalendorius. Jei norite matyti ankstesnės arba kitos savaitės kalendorių, spustelėkite **Ankstesnis** arba **Kitas**. Spustelėkite **Šiandien** , ir grįšite į šios dienos savaitę.  
+4.  Atsidarys kalendorius. Jei norite matyti ankstesnės arba kitos savaitės kalendorių, spustelėkite **Ankstesnis** arba **Kitas**. Spustelėkite **Šiandien**, ir grįšite į šios dienos savaitę.  
   
 5.  Norėdami įvesti laiką, spustelėkite **Naujas** arba dukart spustelėkite dienos, kurios laiką norite įvesti, srityje.  
   
@@ -81,7 +81,7 @@ Nustatykite atstovą, norėdami kam nors kitam leisti įvesti laiko arba išlaid
   
 3.  Spustelėkite **Gerai**.  
   
-4.  Jei norite matyti ankstesnės arba kitos savaitės kalendorių, spustelėkite **Ankstesnis** arba **Kitas**. Spustelėkite **Šiandien** , ir grįšite į šios dienos savaitę.  
+4.  Jei norite matyti ankstesnės arba kitos savaitės kalendorių, spustelėkite **Ankstesnis** arba **Kitas**. Spustelėkite **Šiandien**, ir grįšite į šios dienos savaitę.  
   
 5.  Norėdami įvesti išlaidas, spustelėkite **Naujas**  
   

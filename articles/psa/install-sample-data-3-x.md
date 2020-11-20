@@ -3,7 +3,7 @@ title: Duomenų pavyzdžių įdiegimas
 description: Šioje temoje pateikta informacija apie „Project Service Automation“ duomenų pavyzdžio diegimą.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.suite: ''
 applies_to: Dynamics 365 Project Service Automation
@@ -11,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 46dbd8d125396baa97537ea5d11c47864558c113
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c9cca7aa9d85bb38e48820b361ba07923ceddbd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080901"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132433"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Duomenų pavyzdžių diegimas programoje „Project Service“
 
@@ -43,13 +43,13 @@ Naujausias **demonstracinių** duomenų paketas:
 Šie pavyzdžių duomenų paketai teikiami tik anglų kalba.
 
 > [!IMPORTANT]
-> **Duomenų pavyzdžių pašalinti neįmanoma.** Šiuos paketus turėtumėte diegti tik demonstracinėse, vertinimo, mokymo arba bandymo sistemose. Taip pat atkreipkite dėmesį, kad negalima įdiegti atskiro paketo ir tada įdiegti kito atskiro paketo. (T. y. negalite įdiegti **FSMasterData** , o tada įdiegti **PSMasterData** , arba atvirkščiai). Jei ateityje reikės pavyzdžių duomenų abiejose programose, turite įdiegti paketą **v902FPSMasterData**.
+> **Duomenų pavyzdžių pašalinti neįmanoma.** Šiuos paketus turėtumėte diegti tik demonstracinėse, vertinimo, mokymo arba bandymo sistemose. Taip pat atkreipkite dėmesį, kad negalima įdiegti atskiro paketo ir tada įdiegti kito atskiro paketo. (T. y. negalite įdiegti **FSMasterData**, o tada įdiegti **PSMasterData**, arba atvirkščiai). Jei ateityje reikės pavyzdžių duomenų abiejose programose, turite įdiegti paketą **v902FPSMasterData**.
 
 Kai įdiegiate bet kurį pavyzdžių duomenų paketą, diegimo proceso metu atliekami toliau nurodyti veiksmai.
 
 - Sukuria arba nustato numatytuosius parametrus, skirtus naudoti „Project Service“, „Field Service“ arba abiejose programose (jei taikoma).
 
-- Importuoja programų pavyzdžių duomenis, pvz., užsakomus išteklius, konkrečių programų vaidmenis, pardavimo ir išlaidų kainoraščius, organizacijų vienetus, pardavimo proceso įrašus ir kitus objektus, kad būtų parodytos pagrindinės galimybės.  
+- Importuoja programų pavyzdžių duomenis, pvz., užsakomus išteklius, konkrečių programų vaidmenis, pardavimo ir išlaidų kainoraščius, organizacijų vienetus, pardavimo proceso įrašus ir kitus objektus, kad būtų parodytos pagrindinės galimybės.  
 
 Įdiegę **demonstracinių duomenų** paketą gaunate pirmiau nurodytus ir papildomus operacijų duomenis, pvz., darbo užsakymų ir projektų duomenis.
 
@@ -114,13 +114,13 @@ Paketas **FPSMasterData** sukurtas įdiegti su vienu vartotoju Spencer Low, naud
 
 Norėdami sukurti arba konfigūruoti vartotojus, pasirinkite **Parametrai** > **Sauga** > **Vartotojai** ir atlikite toliau nurodytus veiksmus.
 
-1. Nustatykite UserFullname = "Spencer Low" su vartotojo vardu „spencerl“ ( **mažosios raidės** ) į projektų vadovo ir praktikos vadovo vaidmenis.
+1. Nustatykite UserFullname = "Spencer Low" su vartotojo vardu „spencerl“ (**mažosios raidės**) į projektų vadovo ir praktikos vadovo vaidmenis.
 
-2. Pasirinkite vartotoją **Spencer Low** , o po to pasirinkite **Tvarkyti vaidmenis**. Raskite ir pasirinkite vaidmenį **Sistemos administratorius** , tada pasirinkite **Gerai** , kad Spencer Low suteiktumėte visas administratoriaus teises. Šis veiksmas yra būtinas norint užtikrinti, kad įrašų pavyzdžiai kuriami nustačius tinkamą vartotojo nuosavybę, ir tinkamai užpildyti rodinius.
+2. Pasirinkite vartotoją **Spencer Low**, o po to pasirinkite **Tvarkyti vaidmenis**. Raskite ir pasirinkite vaidmenį **Sistemos administratorius**, tada pasirinkite **Gerai**, kad Spencer Low suteiktumėte visas administratoriaus teises. Šis veiksmas yra būtinas norint užtikrinti, kad įrašų pavyzdžiai kuriami nustačius tinkamą vartotojo nuosavybę, ir tinkamai užpildyti rodinius.
 
-3. Naudojant atsisiųstą paketą jums reikia atnaujinti duomenų susiejimo failą į numatytojo vartotojo konteksto el. pašto adresą. Norėdami tai padaryti, atidarykite **PkgFolder** , tada raskite ir atidarykite failą **ImportUserMapFile.xml** programoje „Notepad“ (arba „Visual Studio“ ar kitoje XML rengyklėje). Nustatykite lauką **DefaultUserToMapTo=** į vartotojo Spencer Low el. pašto adresą.
+3. Naudojant atsisiųstą paketą jums reikia atnaujinti duomenų susiejimo failą į numatytojo vartotojo konteksto el. pašto adresą. Norėdami tai padaryti, atidarykite **PkgFolder**, tada raskite ir atidarykite failą **ImportUserMapFile.xml** programoje „Notepad“ (arba „Visual Studio“ ar kitoje XML rengyklėje). Nustatykite lauką **DefaultUserToMapTo=** į vartotojo Spencer Low el. pašto adresą.
 
-4. Jei nenaudojate Spencer Low su vartotojo vardu **spencerl** , turite atnaujinti papildomą failą. Atidarykite failą **DemoDataPreImportConfig.xml** ir raskite žymę **userstocreateandconfigure**. Atnaujinkite **\<login\>** žymę nurodydami Benas Mikelionis naudotojo vardą. Norėdami gauti papildomos informacijos, žr. [techninę informaciją](#technical-notes).
+4. Jei nenaudojate Spencer Low su vartotojo vardu **spencerl**, turite atnaujinti papildomą failą. Atidarykite failą **DemoDataPreImportConfig.xml** ir raskite žymę **userstocreateandconfigure**. Atnaujinkite **\<login\>** žymę nurodydami Benas Mikelionis naudotojo vardą. Norėdami gauti papildomos informacijos, žr. [techninę informaciją](#technical-notes).
 
 ## <a name="create-or-configure-users---demo-data-package"></a>Vartotojų kūrimas ir konfigūravimas – demonstracinių duomenų paketas
 
@@ -143,9 +143,9 @@ Demonstraciniam duomenų paketui būtini šeši vartotojai. Norėdami tinkamai �
    > [!div class="mx-imgBorder"]
    > ![„UserMapFile“ ekrano kopija](media/sample-data-7.png)
 
-4. Jei vartotojui, kurio vardas ir pavardė „Spencer Low“, priskirtas vartotojo ID nėra **spencerl** , turite atnaujinti papildomą failą. Atidarykite **DemoDataPreImportConfig.xml** ir raskite žymę **userstocreateandconfigure**. Atnaujinkite **\<login\>** žymę nurodydami „loginId“ (skiriamos didžiosios ir mažosios raidės). 
+4. Jei vartotojui, kurio vardas ir pavardė „Spencer Low“, priskirtas vartotojo ID nėra **spencerl**, turite atnaujinti papildomą failą. Atidarykite **DemoDataPreImportConfig.xml** ir raskite žymę **userstocreateandconfigure**. Atnaujinkite **\<login\>** žymę nurodydami „loginId“ (skiriamos didžiosios ir mažosios raidės). 
 
-5. Pirmojo vartotojo kalendorius (žymėje **userstocreateandconfigure** ) naudojamas užpildant visų užsakomų išteklių darbo valandas demonstracinių duomenų importavimo metu. Pasirinkite **Parametrai** > **Sauga** > **Vartotojai** , raskite vartotoją „Spencer Low“ ir atidarykite parinktį „Darbo valandas“. Redaguokite esamas darbo valandas, pasirinkdami parinktį **Visas pasikartojantis savaitės grafikas nuo pradžios iki galo**. Užtikrinkite, kad **lauke Darbo valandos nustatyta reikšmė į 8:00–17:00 val. (9 valandos), pirmadienis–penktadienis, o lauke Laiko juosta – reikšmė Ramiojo vandenyno laikas (JAV ir Kanada)**. Tai reikia atlikti siekiant užtikrinti, kad projekto ir grafiko lentos duomenys būtų rodomi tinkamai.
+5. Pirmojo vartotojo kalendorius (žymėje **userstocreateandconfigure**) naudojamas užpildant visų užsakomų išteklių darbo valandas demonstracinių duomenų importavimo metu. Pasirinkite **Parametrai** > **Sauga** > **Vartotojai**, raskite vartotoją „Spencer Low“ ir atidarykite parinktį „Darbo valandas“. Redaguokite esamas darbo valandas, pasirinkdami parinktį **Visas pasikartojantis savaitės grafikas nuo pradžios iki galo**. Užtikrinkite, kad **lauke Darbo valandos nustatyta reikšmė į 8:00–17:00 val. (9 valandos), pirmadienis–penktadienis, o lauke Laiko juosta – reikšmė Ramiojo vandenyno laikas (JAV ir Kanada)**. Tai reikia atlikti siekiant užtikrinti, kad projekto ir grafiko lentos duomenys būtų rodomi tinkamai.
 
 **Rekomendacija:** galite dabar sukurti organizacijos duomenų atsarginę kopiją, jei duomenų pavyzdžių diegimo metu kils problemų ir norėsite juos atkurti. Daugiau informacijos rasite [Egzempliorių atsarginių kopijų kūrimas ir atkūrimas](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
 
@@ -157,7 +157,7 @@ Demonstraciniam duomenų paketui būtini šeši vartotojai. Norėdami tinkamai �
 
 3. Kitame lange:
 
-   a. Pasirinkite visuotinio diegimo tipą **„Office 365** “.
+   a. Pasirinkite visuotinio diegimo tipą **„Office 365**“.
 
    b. Naudokite sistemos administratoriaus vartotojo, sukonfigūruoto dalyje Vartotojų kūrimas ir konfigūravimas, vartotojo vardą ir slaptažodį" (Spencer Low su vartotojo vardu „spencerl“).
 
@@ -168,14 +168,14 @@ Demonstraciniam duomenų paketui būtini šeši vartotojai. Norėdami tinkamai �
 
 4. Pasirinkite organizaciją, kurioje norite įdiegti duomenų pavyzdžius.
 
-5. Pasirinkite **Toliau** , kol pamatysite dialogo langą **Demonstracinių duomenų sąranka**.
+5. Pasirinkite **Toliau**, kol pamatysite dialogo langą **Demonstracinių duomenų sąranka**.
 
    > [!div class="mx-imgBorder"]
    > ![Demonstracinių duomenų diegimo būsenos lango ekrano kopija](media/sample-data-3.png)
 
 6. Prieš tęsdami atkreipkite dėmesį, kad duomenų pavyzdžių diegimas gali užtrukti iki vienos valandos (paprastai – apie 10 minučių). Kompiuteris privalo būti įjungtas ir prijungtas prie tinklo diegimo proceso metu, o seansas turi būti aktyvus.   
 
-7. Kai būsite pasiruošę, spustelėkite **Toliau** , kad pradėtumėte duomenų pavyzdžių diegimo procesą. Įkėlus duomenų pavyzdžius, spustelėkite **Baigti**.
+7. Kai būsite pasiruošę, spustelėkite **Toliau**, kad pradėtumėte duomenų pavyzdžių diegimo procesą. Įkėlus duomenų pavyzdžius, spustelėkite **Baigti**.
 
 ## <a name="verify-the-sample-data-installation"></a>Duomenų pavyzdžių diegimo patikrinimas
 
@@ -241,7 +241,7 @@ Dėl šio pakeitimo diegimo programa neatliks tam tikrų svarbių saugos patikri
 
 ### <a name="fabrikam-robotics-fictitious-scenario"></a>Išgalvotas „Fabrikam Robotics“ scenarijus
 
-„Field Service“ ir „Project Service“ nuorodos duomenų pavyzdžių paketai įdiegia **„Fabrikam“ gamybos pagrindinių duomenų (v3.0.0.0) sprendimą** su maždaug 4000 įrašų ir 40 skirtingų objektų. Atskiruose „Field Service“ ir „Project Service“ duomenų pavyzdžių paketuose yra tos programos **v902FPSMasterData** duomenų pavyzdžių antrinis rinkinys. **Demonstracinių duomenų** paketas diegia **„Fabrikam“ gamybos demonstracinių duomenų (v3.0.0.7) sprendimą** , įskaitant maždaug 22 000 įrašų 148 objektuose.
+„Field Service“ ir „Project Service“ nuorodos duomenų pavyzdžių paketai įdiegia **„Fabrikam“ gamybos pagrindinių duomenų (v3.0.0.0) sprendimą** su maždaug 4000 įrašų ir 40 skirtingų objektų. Atskiruose „Field Service“ ir „Project Service“ duomenų pavyzdžių paketuose yra tos programos **v902FPSMasterData** duomenų pavyzdžių antrinis rinkinys. **Demonstracinių duomenų** paketas diegia **„Fabrikam“ gamybos demonstracinių duomenų (v3.0.0.7) sprendimą**, įskaitant maždaug 22 000 įrašų 148 objektuose.
 
 Išgalvota įmonė „Fabrikam Robotics“ yra elektroninių įrenginių surinkimo robotų gamintoja ir ji yra žinoma dėl savo produktų kokybės, naujovių ir kokybiško klientų aptarnavimo, įskaitant diegimo planavimą, diegimą ir nuolat teikiamas techninės priežiūros paslaugas. „Fabrikam“ įsikūrusi Jungtinėse Valstijose („Fabrikam US“) ir vykdo projektų aptarnavimo operacijas Prancūzijoje, Indijoje, Jungtinėje Karalystėje bei Šveicarijoje.
 

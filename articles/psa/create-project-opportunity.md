@@ -3,7 +3,7 @@ title: Kurti projekto galimybę
 description: Projekto galimybės kūrimas „Project Service“
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d822f37b5bb13f9f55355e65be591e7861a64a1f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c51ff895780085ed9f2723da8f505e666af90c42
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081028"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133243"
 ---
 # <a name="create-a-project-opportunity-project-service"></a>Projekto galimybės kūrimas („Project Service“)
 
@@ -45,11 +45,11 @@ Galimybės yra realūs galimi klientai, kurie domisi jūsų paslaugų pirkimu. �
   
 7.  Norėdami įtraukti konkurentų, srityje **Konkurentai** spustelėkite **+**.  
   
-8.  Norėdami į galimybę įtraukti produktą, spustelėkite **Naujas** , esantį srities **Galimybės eilutės** skiltyje **Eilutės pagal produktą**. Srityje **Produkto pavadinimas** pasirinkite elementą, o tada nurodykite kiekį, pardavimo kainą ir kliento biudžetą.  
+8.  Norėdami į galimybę įtraukti produktą, spustelėkite **Naujas**, esantį srities **Galimybės eilutės** skiltyje **Eilutės pagal produktą**. Srityje **Produkto pavadinimas** pasirinkite elementą, o tada nurodykite kiekį, pardavimo kainą ir kliento biudžetą.  
   
-9. Norėdami į galimybę įtraukti projekto sąmatą, spustelėkite **+** , esantį srities **Galimybės eilutės** skiltyje **Eilutės pagal projektą**. Įveskite pavadinimą, biudžeto sumą ir projektą, jei galima. Jei reikia sukurti projektą su darbo paskirstymo struktūra, kad būtų sudaryta sąmata, žr. [Projekto kūrimas](../psa/create-project.md).  
+9. Norėdami į galimybę įtraukti projekto sąmatą, spustelėkite **+**, esantį srities **Galimybės eilutės** skiltyje **Eilutės pagal projektą**. Įveskite pavadinimą, biudžeto sumą ir projektą, jei galima. Jei reikia sukurti projektą su darbo paskirstymo struktūra, kad būtų sudaryta sąmata, žr. [Projekto kūrimas](../psa/create-project.md).  
   
-10. Baigę redaguoti, spustelėkite į mygtuką **Įrašyti** , esantį ekrano apačioje dešinėje.  
+10. Baigę redaguoti, spustelėkite į mygtuką **Įrašyti**, esantį ekrano apačioje dešinėje.  
   
 ### <a name="see-also"></a>Taip pat žr.  
  [Klientų vadovo vadovas](../psa/account-manager-guide.md)

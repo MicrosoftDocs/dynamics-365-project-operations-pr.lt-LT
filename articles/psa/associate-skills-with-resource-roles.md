@@ -3,7 +3,7 @@ title: Įgūdžių siejimas su išteklių vaidmenimis
 description: Įgūdžių siejimas su išteklių vaidmenimis „Project Service“
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0b4d5fe145fc39afc1a909e0ff274c19e9a36d7a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 70c4b5cfca1495cb887ad6034542c46fd4cb079c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080953"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130273"
 ---
 # <a name="associate-skills-with-resource-roles-project-service"></a>Įgūdžių siejimas su išteklių vaidmenimis („Project Service“)
 
@@ -37,11 +37,11 @@ ms.locfileid: "4080953"
   
 3.  Jei norite pridėti įgūdį, srityje **Įgūdžiai** spustelėkite **+**.  
   
-4.  Srityje Vaidmens kompetencijų reikalavimas spustelėkite lauką **Įgūdis** ir spustelėkite mygtuką **Ieška** , tada pasirinkite įgūdį.  
+4.  Srityje Vaidmens kompetencijų reikalavimas spustelėkite lauką **Įgūdis** ir spustelėkite mygtuką **Ieška**, tada pasirinkite įgūdį.  
   
 5.  Pasirinkite to įgūdžiui kvalifikaciją, o tada spustelėkite **Įrašyti**.  
   
-6.  Tęskite pridėdami tiek įgūdžių, kiek reikia. Baigę spustelėkite mygtuką **Įrašyti** , esantį ekrano apatiniame dešiniame kampe.  
+6.  Tęskite pridėdami tiek įgūdžių, kiek reikia. Baigę spustelėkite mygtuką **Įrašyti**, esantį ekrano apatiniame dešiniame kampe.  
   
 ### <a name="see-also"></a>Taip pat žr.  
  [Rezervuojamų išteklių nustatymas](../psa/set-up-resources.md)

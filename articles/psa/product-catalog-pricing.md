@@ -3,7 +3,7 @@ title: Produktų katalogo kainodara
 description: Šioje temoje pateikta informacija apie tai, kaip veikia produktų katalogo kainodara programoje Dynamics 365 Project Service Automation (PSA).
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e6d9266cfee996b68608c99f77d1b0c053985b3d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11f1d237be4540a64f1854fbed4e5c72ebbce18d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080867"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132298"
 ---
 # <a name="product-catalog-pricing"></a>Produktų katalogo kainodara 
 
@@ -46,11 +46,11 @@ Programoje PSA palaikomos įvairios apvalinimo parinktys, kai kainos konfigūruo
 
 > ![Produktų įtraukimas iš katalogų į skirtingus kainoraščius](media/basic-guide-16.png)
 
-Kai pasiūlymui kuriate naują pasirinktinį kainoraštį pasirinkdami parinktį **Kurti pasirinktinį kainoraštį** puslapyje **Projekto pasiūlymas** , PSA sukuria kainoraščio kopiją, o laukas **Objektas** , esantis naujo kainoraščio antraštėje, nustatomas į **Pardavimo objektas**. Naujo kainoraščio pavadinimas sujungiamas su pasiūlymo pavadinimu ir laiko žyma. Taip pat galite naudoti naujo kainoraščio pavadinimą ir pasiūlymo pavadinimą pasirinktinėse darbo eigose, kad suaktyvintumėte papildomą peržiūrą ir pasiūlymų, naudojančių pasirinktinę kainodarą, patvirtinimą.
+Kai pasiūlymui kuriate naują pasirinktinį kainoraštį pasirinkdami parinktį **Kurti pasirinktinį kainoraštį** puslapyje **Projekto pasiūlymas**, PSA sukuria kainoraščio kopiją, o laukas **Objektas**, esantis naujo kainoraščio antraštėje, nustatomas į **Pardavimo objektas**. Naujo kainoraščio pavadinimas sujungiamas su pasiūlymo pavadinimu ir laiko žyma. Taip pat galite naudoti naujo kainoraščio pavadinimą ir pasiūlymo pavadinimą pasirinktinėse darbo eigose, kad suaktyvintumėte papildomą peržiūrą ir pasiūlymų, naudojančių pasirinktinę kainodarą, patvirtinimą.
 
  
 ## <a name="default-product-price-list"></a>Numatytasis produkto kainoraštis
-Kiekvienas kliento įrašas turi lauką **Numatytasis kainoraštis** , kuriame galite nurodyti kainoraštį, atitinkantį kliento valiutą. Programoje PSA šiame lauke numatytoji reikšmė automatiškai neįvesta. Kai egzistuoja pasirinktinės kainodaros sutartis su konkrečiu klientu, galite naudoti šį lauką, kad susietumėte kainoraštį su tuo klientu.
+Kiekvienas kliento įrašas turi lauką **Numatytasis kainoraštis**, kuriame galite nurodyti kainoraštį, atitinkantį kliento valiutą. Programoje PSA šiame lauke numatytoji reikšmė automatiškai neįvesta. Kai egzistuoja pasirinktinės kainodaros sutartis su konkrečiu klientu, galite naudoti šį lauką, kad susietumėte kainoraštį su tuo klientu.
 
 Galimybės, pasiūlymo ir projekto sutarties objektai naudoja toliau pateikiamą tvarką, kad būtų įvesti numatytieji produktų kainoraščiai. Tas pats užsakymas naudojamas projektų kainoraščiams.
 

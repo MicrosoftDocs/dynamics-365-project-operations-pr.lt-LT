@@ -3,7 +3,7 @@ title: Ne darbo laiko planavimas
 description: Ne darbo laiko planavimas „Project Service“
 author: revathimuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 12ec70eca468fc17a1a85cfedc67adfecd80b007
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: eed6103734773e90701853391584c55c1d1704e8
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081061"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132208"
 ---
 # <a name="schedule-time-off-project-service"></a>Ne darbo laiko planavimas („Project Service“)
 
@@ -35,7 +35,7 @@ Planuoti savo atostogas arba neatvykimą į darbą galite labai panašiai, kaip 
   
 1.  Eikite į **Project Service > Laiko įrašai**. Atsidarys kalendorius.  
   
-2.  Jei norite matyti ankstesnės arba kitos savaitės kalendorių, spustelėkite **Ankstesnis** arba **Kitas**. Spustelėkite **Šiandien** , ir grįšite į šios dienos savaitę.  
+2.  Jei norite matyti ankstesnės arba kitos savaitės kalendorių, spustelėkite **Ankstesnis** arba **Kitas**. Spustelėkite **Šiandien**, ir grįšite į šios dienos savaitę.  
   
 3.  Norėdami įvesti laiką, spustelėkite **Naujas** arba dukart spustelėkite dienos, kurios laiką norite įvesti, srityje.  
   

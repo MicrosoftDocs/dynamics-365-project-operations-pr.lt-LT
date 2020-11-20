@@ -1,12 +1,12 @@
 ---
-title: Projekto kainoraščiai
+title: Projektų kainoraščių valdymas pasiūlyme
 description: Šioje temoje pateikta informacija apie projektų kainoraščio objektą.
 author: rumant
 manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,14 +17,14 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1a69cf51ca8cde8260f4136cf1b2e936f99b112a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5fc8691984e22b2fa35e26b1a7d94cc56c25c26d
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081062"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177206"
 ---
-# <a name="project-price-lists"></a>Projekto kainoraščiai
+# <a name="manage-project-price-lists-on-a-quote"></a>Projektų kainoraščių valdymas pasiūlyme
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
@@ -53,7 +53,7 @@ Terminas *išteklių vaidmuo* nurodo įgūdžių, kompetencijų ir sertifikatų 
 
 Žmogiškųjų išteklių laiko kaina paprastai nustatoma atsižvelgiant į ištekliaus vaidmenį tam tikrame projekte. Nustatant žmogiškųjų išteklių laiką, įkainojimas ir atsiskaitymas vyksta remiantis išteklių vaidmenimi. Laiko kainą galima nustatyti naudojant bet kokį vienetų grupės **Laikas** vienetą.
 
-**Laiko** vienetų grupė sukuriama diegiant „Project Operations“. Jos numatytasis vienetas yra **Valanda**. Vienetų grupės **Laikas** ir vieneto **Valanda** atributų negalima panaikinti, pervardyti arba redaguoti. Tačiau į vienetų grupę **Laikas** galima įtraukti kitų vienetų. Jei bandysite panaikinti vienetų grupę **Laikas** arba vienetą **Valanda** , verslo logika gali sutrikti.
+**Laiko** vienetų grupė sukuriama diegiant „Project Operations“. Jos numatytasis vienetas yra **Valanda**. Vienetų grupės **Laikas** ir vieneto **Valanda** atributų negalima panaikinti, pervardyti arba redaguoti. Tačiau į vienetų grupę **Laikas** galima įtraukti kitų vienetų. Jei bandysite panaikinti vienetų grupę **Laikas** arba vienetą **Valanda**, verslo logika gali sutrikti.
  
 ## <a name="transaction-categories-and-expense-categories"></a>Operacijų kategorijos ir išlaidų kategorijos
 

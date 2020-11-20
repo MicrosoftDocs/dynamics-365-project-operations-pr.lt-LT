@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 2afe4ff2f84fc5426c409e6314da73b11a4de281
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 10872366453985561bda0c07e50cff7f5f6d333e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080758"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131713"
 ---
 # <a name="expense-estimates"></a>Išlaidų sąmatos
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
@@ -32,9 +32,9 @@ Atlikite šiuos veiksmus norėdami peržiūrėti, įtraukti arba panaikinti proj
 
 Kiekvienam išlaidų eilutės elementui nustatomi šie atributai:
 
-- **Kategorija** : bendrosios grupės, naudojamos visoms išlaidoms, patirtoms projekto metu, aprašyti.
-- **Pradžios data** : data, kada išlaidas numatoma patirti.
-- **Kiekis** : numatomas tam tikros kategorijos išlaidų elementų skaičius.
-- **Vieneto savikaina** : vieneto kaina, naudojama išlaidų kainai apskaičiuoti.
-- **Vieneto pardavimų kaina** : vieneto kaina, naudojama išlaidų pardavimų kainoms apskaičiuoti.
+- **Kategorija**: bendrosios grupės, naudojamos visoms išlaidoms, patirtoms projekto metu, aprašyti.
+- **Pradžios data**: data, kada išlaidas numatoma patirti.
+- **Kiekis**: numatomas tam tikros kategorijos išlaidų elementų skaičius.
+- **Vieneto savikaina**: vieneto kaina, naudojama išlaidų kainai apskaičiuoti.
+- **Vieneto pardavimų kaina**: vieneto kaina, naudojama išlaidų pardavimų kainoms apskaičiuoti.
 

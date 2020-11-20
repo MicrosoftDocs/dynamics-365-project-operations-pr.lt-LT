@@ -1,21 +1,21 @@
 ---
-title: Pasiūlymo eilutės apmokestinamų komponentų konfigūravimas
+title: Pasiūlymo eilutės apmokestinamųjų komponentų konfigūravimas – „Lite“ versija
 description: Šioje temoje pateikta informacija apie apmokestinamų ir neapmokestinamų komponentų nustatymą projektais pagrįsto pasiūlymo eilutėje.
 author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e0b64d7edb21df127bf7544f044de7f3c496dfe3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b5d751ecd66975135c4afd5f18e896251ff34990
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080957"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177116"
 ---
-# <a name="configure-the-chargeable-components-of-a-quote-line"></a>Pasiūlymo eilutės apmokestinamų komponentų konfigūravimas
+# <a name="configure-the-chargeable-components-of-a-quote-line---lite"></a>Pasiūlymo eilutės apmokestinamųjų komponentų konfigūravimas – „Lite“ versija
 
 _**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
 
@@ -34,31 +34,31 @@ Projektais pagrįsto pasiūlymo eilutėje pateikiama *įtrauktų* ir *apmokestin
 
 Apmokestinamus komponentus galima apibrėžti užduotyse, vaidmenyse ir operacijų kategorijose.
 
-Pasiūlymo eilutės apmokestinamumas apibrėžiamas užduotyse ir taikomas visoms į eilutę įtrauktoms operacijų klasėms. Jei laukas **Įtraukti užduotis** yra tuščias arba nustatytas į parinktį **Visas projektas** , skirtukas **Apmokestinamos užduotys** nebus pateiktas.
+Pasiūlymo eilutės apmokestinamumas apibrėžiamas užduotyse ir taikomas visoms į eilutę įtrauktoms operacijų klasėms. Jei laukas **Įtraukti užduotis** yra tuščias arba nustatytas į parinktį **Visas projektas**, skirtukas **Apmokestinamos užduotys** nebus pateiktas.
 
-Pasiūlymo eilutės apmokestinamumas, apibrėžtas vaidmenyse, taikomas tik tipo **Laikas** operacijų klasei. Jei projekto pasiūlymo eilutės laukas **Įtraukti laiką** yra nustatytas į parinktį **Ne** , skirtukas **Apmokestinami vaidmenys** nebus pateiktas.
+Pasiūlymo eilutės apmokestinamumas, apibrėžtas vaidmenyse, taikomas tik tipo **Laikas** operacijų klasei. Jei projekto pasiūlymo eilutės laukas **Įtraukti laiką** yra nustatytas į parinktį **Ne**, skirtukas **Apmokestinami vaidmenys** nebus pateiktas.
 
-Pasiūlymo eilutės apmokestinamumas, apibrėžtas operacijų kategorijose, taikomas tik tipo **Išlaidos** operacijų klasei. Jei projekto pasiūlymo eilutės laukas **Įtraukti išlaidas** yra nustatytas į parinktį **Ne** , skirtukas **Apmokestinamos kategorijos** nebus pateiktas.
+Pasiūlymo eilutės apmokestinamumas, apibrėžtas operacijų kategorijose, taikomas tik tipo **Išlaidos** operacijų klasei. Jei projekto pasiūlymo eilutės laukas **Įtraukti išlaidas** yra nustatytas į parinktį **Ne**, skirtukas **Apmokestinamos kategorijos** nebus pateiktas.
 
 ### <a name="update-a-project-task-to-be-chargeable-or-non-chargeable"></a>Projekto užduoties atnaujinimas į apmokestinamą arba neapmokestinamą
 
 Projekto užduotis gali būti apmokestinama arba neapmokestinama konkrečios projektais pagrįsto pasiūlymo eilutės kontekste, todėl galima nustatyti toliau nurodytą sąranką.
 
-Jei projekto pasiūlymo eilutėje yra **Laikas** ir užduotis **T1** , užduotis susieta su pasiūlymo eilute kaip apmokestinama. Jei antroje išlaidas eilutėje yra **Išlaidos** , **T1** užduotį galite susieti išlaidas eilutėje kaip neapmokestinamą. Todėl visas laikas, užfiksuotas užduotyje, yra apmokestinamas, o visos užduotyje įrašytos išlaidos – neapmokestinamos.
+Jei projekto pasiūlymo eilutėje yra **Laikas** ir užduotis **T1**, užduotis susieta su pasiūlymo eilute kaip apmokestinama. Jei antroje išlaidas eilutėje yra **Išlaidos**, **T1** užduotį galite susieti išlaidas eilutėje kaip neapmokestinamą. Todėl visas laikas, užfiksuotas užduotyje, yra apmokestinamas, o visos užduotyje įrašytos išlaidos – neapmokestinamos.
 
-Užduoties atsiskaitymo tipą galima sukonfigūruoti projektais pagrįsto pasiūlymo eilutės skirtuke **Apmokestinamos užduotys** atnaujinant papildomo tinklelio **Pasiūlymo eilutės užduotys** lauką **Atsiskaitymo tipas**. Taip pat galite atnaujinti projekto užduoties atsiskaitymo tipą projekto, kuriame rodomos su užduotimi susietos pasiūlymo eilutės, užduoties atsiskaitymo sąrankos papildomo tinklelio lauką **Atsiskaitymo tipas**.
+Užduoties sąskaitų išrašymo tipą galima sukonfigūruoti projektu pagrįstos pasiūlymo eilutės skirtuke **Apmokestinamosios užduotys**, atnaujinant lauką **Atsiskaitymo tipas**, esantį papildomame tinklelyje **Pasiūlymo eilučių užduotys**. Arba galite atnaujinti projekto užduoties atsiskaitymo tipą lauke **Atsiskaitymo tipas**, esantį projekto, kuriame pasiūlymo eilutės rodomos kaip susietos su užduotimi, atsiskaitymo už užduotis sąrankos papildomame tinklelyje.
 
 ### <a name="update-a-role-to-be-chargeable-or-non-chargeable"></a>Vaidmens atnaujinimas į apmokestinamą arba neapmokestinamą
 
 Vaidmuo gali būti apmokestinamas arba neapmokestinamas konkrečios projektais pagrįsto pasiūlymo eilutės kontekste.
 
-Vaidmens atsiskaitymo tipą galima sukonfigūruoti pasiūlymo eilutės skirtuke **Apmokestinami vaidmenys** atnaujinant papildomo tinklelio **Apmokestinami vaidmenys** lauką **Atsiskaitymo tipas**.
+Vaidmens sąskaitų išrašymo tipą galima sukonfigūruoti pasiūlymo eilutės skirtuke **Apmokestinamieji vaidmenys**, atnaujinant lauką **Atsiskaitymo tipas**, esantį papildomame tinklelyje **Apmokestinamieji vaidmenys**.
 
 ### <a name="update-a-transaction-category-to-be-chargeable-or-non-chargeable"></a>Operacijos kategorijos atnaujinimas į apmokestinamą arba neapmokestinamą
 
 Operacijos kategorija gali būti apmokestinama arba neapmokestinama konkrečioje pasiūlymo eilutėje.
 
-Operacijos atsiskaitymo tipą galima sukonfigūruoti pasiūlymo eilutės skirtuke **Apmokestinamos kategorijos** atnaujinant papildomo tinklelio **Apmokestinamos kategorijos** lauką **Atsiskaitymo tipas**.
+Operacijos sąskaitų išrašymo tipą galima sukonfigūruoti pasiūlymo eilutės skirtuke **Apmokestinamosios kategorijos**, atnaujinant lauką **Atsiskaitymo tipas**, esantį papildomame tinklelyje **Apmokestinamosios kategorijos**.
 
 ### <a name="resolve-chargeability"></a>Apmokestinamumo sprendimas
 Sukurtos numatomos arba faktinės laiko reikšmės bus laikomos apmokestinamomis tik jei **Laikas** įtraukiamas į pasiūlymo eilutę ir jei **Užduotis** ir **Vaidmuo** sukonfigūruojami kaip apmokestinami pasiūlymo eilutėje.

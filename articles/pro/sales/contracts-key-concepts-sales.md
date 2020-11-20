@@ -1,21 +1,21 @@
 ---
-title: Pagrindinės projekto sutarčių sąvokos
+title: Projekto sutartys – pagrindinės sąvokos – „Lite“ versija
 description: Šioje temoje pateikiama informacija apie pagrindines projekto sutarčių sąvokas.
 author: rumant
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 66d6b72b19a90ecc9161cd16ce9d4dd22798803b
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: ce37c9dd18fd01e599e8766389e42c066e182547
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080742"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177071"
 ---
-# <a name="key-concepts-of-project-contracts"></a>Pagrindinės projekto sutarčių sąvokos
+# <a name="project-contracts---key-concepts---lite"></a>Projekto sutartys – pagrindinės sąvokos – „Lite“ versija
 
 _**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
 
@@ -27,7 +27,7 @@ Sutartį sudarantis vienetas yra padalinys arba praktika, kuriai priklauso proje
 
 ## <a name="cost-currency"></a>Savikainos valiuta
 
-Savikainos valiuta yra valiuta, kuria ekrane pateikiama savikaina. Ši valiuta gaunama iš valiutos, susietos su lauku **Sutartį sudarantis vienetas** , esančiu sutartyje ir projekte. Išlaidas galima registruoti bet kuria valiuta projekte. Tačiau tada nurodomas valiutos konvertavimas iš valiutos, kuria užregistruota savikaina, į projekto išlaidų valiutą, kai rodoma ekrane.
+Savikainos valiuta yra valiuta, kuria ekrane pateikiama savikaina. Ši valiuta gaunama iš valiutos, susietos su lauku **Sutartį sudarantis vienetas**, esančiu sutartyje ir projekte. Išlaidas galima registruoti bet kuria valiuta projekte. Tačiau tada nurodomas valiutos konvertavimas iš valiutos, kuria užregistruota savikaina, į projekto išlaidų valiutą, kai rodoma ekrane.
 
 Kadangi „Common Data Service“ (CDS) platformos valiutų kursai nėra galiojantys pagal datą, todėl, jei atnaujinate valiutos keitimo kursus, ekrane savikainos sumos gali pasikeisti. Tačiau savikainos, įrašytos į duomenų bazę, lieka nepakitusios, nes sumos saugomos valiuta, kuria jos patirtos.
 

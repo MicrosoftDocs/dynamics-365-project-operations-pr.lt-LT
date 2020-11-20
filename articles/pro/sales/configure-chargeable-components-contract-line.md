@@ -1,21 +1,21 @@
 ---
-title: Projektais pagrįstos sutarties eilutės apmokestinamų komponentų konfigūravimas
+title: Projektu pagrįstos sutarties eilutės apmokestinamųjų komponentų konfigūravimas – „Lite“
 description: Šioje temoje pateikta informacija apie tai, kaip įtraukti apmokestinamus komponentus į sutarties eilutes naudojant „Project Operations“.
 author: rumant
 manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4d665a6351d2315d185e64e4eb6b0b8859f7bbc4
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 46429c94ca9aa1ebbbe9fc689a9a5bd6c52dc59e
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080743"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177161"
 ---
-# <a name="configuring-chargeable-components-of-a-project-based-contract-line"></a>Projektais pagrįstos sutarties eilutės apmokestinamų komponentų konfigūravimas
+# <a name="configure-chargeable-components-of-a-project-based-contract-line---lite"></a>Projektu pagrįstos sutarties eilutės apmokestinamųjų komponentų konfigūravimas – „Lite“
 
 _**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
 
@@ -34,31 +34,31 @@ _**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės
 
 Apmokestinamus komponentus galima apibrėžti užduotyse, vaidmenyse ir operacijų kategorijose.
 
-Projekto sutarties eilutės apmokestinamumas apibrėžiamas užduotyse ir taikomas visoms į eilutę įtrauktoms operacijų klasėms. Jei sutarties eilutės laukas **Įtraukti užduotis** yra tuščias arba nustatytas į parinktį **Visas projektas** , skirtukas **Apmokestinamos užduotys** nebus pateiktas.
+Projekto sutarties eilutės apmokestinamumas apibrėžiamas užduotyse ir taikomas visoms į eilutę įtrauktoms operacijų klasėms. Jei sutarties eilutės laukas **Įtraukti užduotis** yra tuščias arba nustatytas į parinktį **Visas projektas**, skirtukas **Apmokestinamos užduotys** nebus pateiktas.
 
-Projekto sutarties eilutės apmokestinamumas, apibrėžtas vaidmenyse, taikomas tik tipo **Laikas** operacijų klasei. Jei sutarties eilutės laukas **Įtraukti laiką** yra nustatytas į parinktį **Ne** , skirtukas **Apmokestinami vaidmenys** nebus pateiktas.
+Projekto sutarties eilutės apmokestinamumas, apibrėžtas vaidmenyse, taikomas tik tipo **Laikas** operacijų klasei. Jei sutarties eilutės laukas **Įtraukti laiką** yra nustatytas į parinktį **Ne**, skirtukas **Apmokestinami vaidmenys** nebus pateiktas.
 
-Projekto sutarties eilutės apmokestinamumas, apibrėžtas operacijų kategorijose, taikomas tik tipo **Išlaidos** operacijų klasei. Jei laukas **Įtraukti išlaidas** yra nustatytas į parinktį **Ne** , skirtukas **Apmokestinamos kategorijos** nebus pateiktas.
+Projekto sutarties eilutės apmokestinamumas, apibrėžtas operacijų kategorijose, taikomas tik tipo **Išlaidos** operacijų klasei. Jei laukas **Įtraukti išlaidas** yra nustatytas į parinktį **Ne**, skirtukas **Apmokestinamos kategorijos** nebus pateiktas.
 
 ### <a name="update-a-project-task-as-chargeable-or-non-chargeable"></a>Projekto užduoties atnaujinimas į apmokestinamą arba neapmokestinamą
 
 Projekto užduotis gali būti apmokestinama arba neapmokestinama konkrečioje sutarties eilutėje, todėl galima nustatyti toliau nurodytą sąranką.
 
-Jei projekto sutarties eilutėje yra nurodyti **Laikas** ir tam tikra užduotis, **T1** su ja susieta kaip apmokestinama. Jei antroje sutarties eilutėje yra **Išlaidos** , T1 užduotį galite susieti sutarties eilutėje kaip neapmokestinamą. Todėl visas laikas, užfiksuotas užduotyje, yra apmokestinamas, o visos išlaidos – neapmokestinamos.
+Jei projekto sutarties eilutėje yra nurodyti **Laikas** ir tam tikra užduotis, **T1** su ja susieta kaip apmokestinama. Jei antroje sutarties eilutėje yra **Išlaidos**, T1 užduotį galite susieti sutarties eilutėje kaip neapmokestinamą. Todėl visas laikas, užfiksuotas užduotyje, yra apmokestinamas, o visos išlaidos – neapmokestinamos.
 
-Užduoties atsiskaitymo tipą galima sukonfigūruoti sutarties eilutės skirtuke **Apmokestinamos užduotys** atnaujinant sutarties eilutės užduočių papildomo tinklelio lauką **Atsiskaitymo tipas**. Taip pat galite atnaujinti projekto, kuriame rodomos su užduotimi susietos sutarties eilutės, užduoties Atsiskaitymo sąranka antrinio tinklelio lauką **Atsiskaitymo tipas**.
+Užduoties sąskaitų išrašymo tipą galima sukonfigūruoti sutarties eilutės skirtuke **Apmokestinamosios užduotys**, atnaujinant lauką **Atsiskaitymo tipas**, esantį sutarties eilutės užduočių papildomame tinklelyje. Arba galite atnaujinti lauką **Atsiskaitymo tipas**, esantį projekto, kuriame sutarties eilutės rodomos kaip susietos su užduotimi, atsiskaitymo už užduotis sąrankos papildomame tinklelyje.
 
 ### <a name="update-a-role-as-chargeable-or-non-chargeable"></a>Vaidmens atnaujinimas į apmokestinamą arba neapmokestinamą
 
 Vaidmuo gali būti apmokestinamas arba neapmokestinamas konkrečioje sutarties eilutėje.
 
-Vaidmens atsiskaitymo tipą galima sukonfigūruoti sutarties eilutės skirtuke **Apmokestinami vaidmenys**. Norėdami tai atlikti, atnaujinkite papildomo tinklelio **Apmokestinami vaidmenys** lauką **Atsiskaitymo tipas**.
+Vaidmens atsiskaitymo tipą galima sukonfigūruoti sutarties eilutės skirtuke **Apmokestinami vaidmenys**. Norėdami tai atlikti, atnaujinkite lauką **Atsiskaitymo tipas**, esantį papildomame tinklelyje **Apmokestinamieji vaidmenys**.
 
 ### <a name="update-a-transaction-category-as-chargeable-or-non-chargeable"></a>Operacijos kategorijos atnaujinimas į apmokestinamą arba neapmokestinamą
 
 Operacijos kategorija gali būti apmokestinama arba neapmokestinama konkrečioje sutarties eilutėje.
 
-Operacijos atsiskaitymo tipą galima sukonfigūruoti projektais pagrįstos sutarties eilutės skirtuke **Apmokestinamos kategorijos**. Norėdami tai atlikti, atnaujinkite papildomo tinklelio **Apmokestinamos kategorijos** lauką **Atsiskaitymo tipas**.
+Operacijos atsiskaitymo tipą galima sukonfigūruoti projektais pagrįstos sutarties eilutės skirtuke **Apmokestinamos kategorijos**. Norėdami tai atlikti, atnaujinkite lauką **Atsiskaitymo tipas**, esantį papildomame tinklelyje **Apmokestinamosios kategorijos**.
 
 ### <a name="resolve-chargeability"></a>Apmokestinamumo sprendimas
 

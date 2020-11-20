@@ -3,7 +3,7 @@ title: Laiko įrašų kūrimas
 description: Šioje temoje pateikiama informacija apie tai, kaip kurti laiko įrašus.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 878413a24baa340b745a045a6991a63a00851c8b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d8c87f0fd2cc021bb9088d0fac73ccd52980a905
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080927"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131292"
 ---
 # <a name="create-time-entries"></a>Laiko įrašų kūrimas
 
@@ -41,7 +41,7 @@ Norėdami sukurti laiko įrašą, atlikite toliau nurodytus veiksmus.
 4. Lauke **Projekto užduotis** raskite šio laiko įrašo užduotį.
 
     > [!NOTE]
-    > Jei kuriate laiko įrašą užduočiai, kuri nėra priskirta naudotojui, lauke **Projekto užduotis** pažymėkite mygtuką **Ieškoti** , pažymėkite **Keisti rodinį** , tada pažymėkite **Visos aktyvios projekto užduotus** , kad sudarytumėte visų užduočių sąrašą.
+    > Jei kuriate laiko įrašą užduočiai, kuri nėra priskirta naudotojui, lauke **Projekto užduotis** pažymėkite mygtuką **Ieškoti**, pažymėkite **Keisti rodinį**, tada pažymėkite **Visos aktyvios projekto užduotus**, kad sudarytumėte visų užduočių sąrašą.
 
 5. Įveskite parašymą, jei jo reikia, tada pasirinkite **Įrašyti ir uždaryti**.
 
@@ -59,7 +59,7 @@ Sukūrus kelis laiko įrašus, galite juos nukopijuoti, kad sukurtumėte didelį
 1. Puslapyje **Laiko įrašai** pasirinkite **Kopijuoti savaitę**.
 2. Laukų grupėje **Nuo laikotarpio** laukuose **Pradžios data** ir **Pabaigos data** apibrėžkite datų intervalą, iš kurio kopijuosite laiko įrašus.
 3. Laukų grupėje **Iki laikotarpio** lauke **Pradžios data** nurodykite datą, kuriai kurti laiko įrašus.
-4. Pažymėkite **Kopijuoti** , kad sukurtumėte laiko įrašų, kurie atitinka savaitės dieną, kuri nurodyta laukų grupėje **Iki laikotarpio** , kopiją. Pavyzdžiui, praeitos savaitės pirmadienio laiko įrašas yra nukopijuojamas į savaitės, kuri nurodytą laukų grupėje **Iki periodo** , pirmadienį.
+4. Pažymėkite **Kopijuoti**, kad sukurtumėte laiko įrašų, kurie atitinka savaitės dieną, kuri nurodyta laukų grupėje **Iki laikotarpio**, kopiją. Pavyzdžiui, praeitos savaitės pirmadienio laiko įrašas yra nukopijuojamas į savaitės, kuri nurodytą laukų grupėje **Iki periodo**, pirmadienį.
 
 ## <a name="import-data-for-time-entries"></a>Duomenų importavimas laiko įrašams
 
