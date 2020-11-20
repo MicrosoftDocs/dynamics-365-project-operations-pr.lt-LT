@@ -5,15 +5,15 @@ author: stsporen
 manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 190ad9e1f9ced690aee953ed992bf7aa2844c3b3
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080735"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124648"
 ---
 # <a name="extending-time-entries"></a>Laiko įrašų išplėtimas
 
@@ -33,7 +33,7 @@ Laiko įrašų išplėtimas galimas dviejose srityse:
 
 ## <a name="add-custom-time-entries-for-your-own-use"></a><a name="add"></a>Pasirinktinių laiko įrašų įtraukimas asmeniniam naudojimui
 
-Laiko įrašai yra pagrindinis objektas, naudojamas keliuose scenarijuose. 2020 m. balandžio 1 bangos leidime pristatytas TESA pagrindinis sprendimas. TESA teikia objektą **Parametrai** ir naują saugos vaidmenį **Laiko įrašo vartotojas**. Tai pat įtraukti nauji laukai **msdyn_start** ir **msdyn_end** , kurie yra tiesiogiai susiję su **msdyn_duration**. Naujas objektas, saugos vaidmuo ir laukai leidžia vieningesnį požiūrį į laiką keliuose produktuose.
+Laiko įrašai yra pagrindinis objektas, naudojamas keliuose scenarijuose. 2020 m. balandžio 1 bangos leidime pristatytas TESA pagrindinis sprendimas. TESA teikia objektą **Parametrai** ir naują saugos vaidmenį **Laiko įrašo vartotojas**. Tai pat įtraukti nauji laukai **msdyn_start** ir **msdyn_end**, kurie yra tiesiogiai susiję su **msdyn_duration**. Naujas objektas, saugos vaidmuo ir laukai leidžia vieningesnį požiūrį į laiką keliuose produktuose.
 
 
 ### <a name="time-source-entity"></a>Laiko šaltinio objektas
@@ -58,7 +58,7 @@ Logika automatiškai atnaujins laiko įrašo įrašą šiose situacijose:
     - **msdyn_duration**
 
 - Laukuose **msdyn_start** ir **msdyn_end** paisoma laiko juosta.
-- Laiko įrašai, sukurti naudojant tik **msdyn_date** ir **msdyn_duration** , prasidės vidurnaktį. Laukai **msdyn_start** ir **msdyn_end** bus atitinkamai atnaujinti.
+- Laiko įrašai, sukurti naudojant tik **msdyn_date** ir **msdyn_duration**, prasidės vidurnaktį. Laukai **msdyn_start** ir **msdyn_end** bus atitinkamai atnaujinti.
 
 #### <a name="time-entry-types"></a>Laiko įrašo tipai
 
@@ -103,13 +103,13 @@ Tinkinkite rodinį **Mano savaitės laiko įrašai** ir įtraukite į jį pasiri
 
 #### <a name="create-a-new-default-custom-time-entry"></a>Naujo numatytojo pasirinktinio laiko įrašo kūrimas
 
-Šiame rodinyje turėtų būti laukai **Aprašas** ir **Išoriniai komentarai** , taip pat stulpeliai, kurie turėtų būti tinklelyje. 
+Šiame rodinyje turėtų būti laukai **Aprašas** ir **Išoriniai komentarai**, taip pat stulpeliai, kurie turėtų būti tinklelyje. 
 
 1. Pasirinkite tinklelio padėtį, dydį ir numatytąją rikiavimo tvarką redaguodami šias ypatybes rodinyje. 
 2. Sukonfigūruokite pasirinktinį šio rodinio valdiklį, kad jis būtų **Laiko įrašo tinklelis** valdikliu. 
 3. Įtraukite šį valdiklį į rodinį ir pasirinkite jį žiniatinklyje, telefone ir planšetiniame kompiuteryje. 
 4. Sukonfigūruokite savaitės laiko įrašo tinklelio parametrus. 
-5. Lauką **Pradžios data** nustatykite kaip **msdyn_date** , lauką **Trukmė** nustatykite kaip **msdyn_duration** , o lauką **Būsena** nustatykite kaip **msdyn_entrystatus**. 
+5. Lauką **Pradžios data** nustatykite kaip **msdyn_date**, lauką **Trukmė** nustatykite kaip **msdyn_duration**, o lauką **Būsena** nustatykite kaip **msdyn_entrystatus**. 
 6. Numatytajame rodinyje laukas **Tik skaitymo būsenos sąrašas** nustatomas į **192350002,192350003,192350004**. Laukas **Eilutės redagavimo užduočių srautas** nustatomas kaip **msdyn_timeentryrowedit**. Laukas **Langelio redagavimo užduočių srautas** nustatomas kaip **msdyn_timeentryedit**. 
 7. Galite tinkinti šiuos laukus, jei norite įtraukti arba pašalinti tik skaitymo būseną arba naudoti kitą užduotimi pagrįstą funkciją (TBX) eilutėms arba langeliams redaguoti. Šie laukai dabar susieti su pastovia reikšme.
 
@@ -119,12 +119,12 @@ Tinkinkite rodinį **Mano savaitės laiko įrašai** ir įtraukite į jį pasiri
 
 Nustatykite tinkamą pasirinktinio lauko užduočių srautą. Jei įtraukėte lauką į tinklelį, jis turėtų patekti į eilutės redagavimo užduočių srautą, naudojamą laukuose, kurie taikomi visai laiko įrašų eilutei. Jei pasirinktinis lauką kiekvieną dieną turi skirtingą reikšmę, pvz., **Pabaigos laiko** pasirinktinis laukas, jis turėtų patekti į langelio redagavimo užduočių srautą.
 
-Norėdami į užduočių srautą įtraukti pasirinktinį lauką, nuvilkite elementą **Laukas** į reikiamą vietą puslapyje ir nustatykite lauko ypatybes. Ypatybę **Šaltinis** nustatykite kaip **Laiko įrašas** , o ypatybę **Duomenų laukas** nustatykite kaip pasirinktinį lauką. Ypatybė **Laukas** nurodo rodomą pavadinimą TBX puslapyje. Pasirinkite **Taikyti** , kad įrašytumėte keitimus lauke, o tada pasirinkite **Atnaujinti** , kad įrašytumėte pakeitimus puslapyje.
+Norėdami į užduočių srautą įtraukti pasirinktinį lauką, nuvilkite elementą **Laukas** į reikiamą vietą puslapyje ir nustatykite lauko ypatybes. Ypatybę **Šaltinis** nustatykite kaip **Laiko įrašas**, o ypatybę **Duomenų laukas** nustatykite kaip pasirinktinį lauką. Ypatybė **Laukas** nurodo rodomą pavadinimą TBX puslapyje. Pasirinkite **Taikyti**, kad įrašytumėte keitimus lauke, o tada pasirinkite **Atnaujinti**, kad įrašytumėte pakeitimus puslapyje.
 
-Jei norite naudoti naują pasirinktinį TBX puslapį, sukurkite naują procesą. Nustatykite kategoriją kaip **Veiklos procesų seka** , nustatykite objektą kaip **Laiko įrašas** , o veiklos proceso tipą nustatykite kaip **Vykdyti procesą kaip užduočių srautą**. Srityje **Ypatybės** ypatybė **Puslapio pavadinimas** turi būti nustatyta kaip puslapio rodomas pavadinimas. Visus reikiamus laukus įtraukite į TBX puslapį. Procesų įrašymas ir suaktyvinimas. Atnaujinkite atitinkamo užduočių srauto pasirinktinio valdiklio ypatybę į reikšmę **Pavadinimas** procese.
+Jei norite naudoti naują pasirinktinį TBX puslapį, sukurkite naują procesą. Nustatykite kategoriją kaip **Veiklos procesų seka**, nustatykite objektą kaip **Laiko įrašas**, o veiklos proceso tipą nustatykite kaip **Vykdyti procesą kaip užduočių srautą**. Srityje **Ypatybės** ypatybė **Puslapio pavadinimas** turi būti nustatyta kaip puslapio rodomas pavadinimas. Visus reikiamus laukus įtraukite į TBX puslapį. Procesų įrašymas ir suaktyvinimas. Atnaujinkite atitinkamo užduočių srauto pasirinktinio valdiklio ypatybę į reikšmę **Pavadinimas** procese.
 
 ### <a name="add-new-option-set-values"></a>Naujų parinkčių rinkinio reikšmių įtraukimas
-Norėdami įtraukti parinkčių rinkinio reikšmių į numatytąjį lauką, atidarykite lauko redagavimo puslapį, tada srityje **Tipas** šalia parinkčių rinkinio pasirinkite **Redaguoti**. Įtraukite naują parinktį, turinčią pasirinktinę žymą ir spalvą. Jei norite įtraukti naują laiko įrašo būseną, numatytojo lauko pavadinimas yra **Įrašo būsena** , o ne **Būsena**.
+Norėdami įtraukti parinkčių rinkinio reikšmių į numatytąjį lauką, atidarykite lauko redagavimo puslapį, tada srityje **Tipas** šalia parinkčių rinkinio pasirinkite **Redaguoti**. Įtraukite naują parinktį, turinčią pasirinktinę žymą ir spalvą. Jei norite įtraukti naują laiko įrašo būseną, numatytojo lauko pavadinimas yra **Įrašo būsena**, o ne **Būsena**.
 
 ### <a name="designate-a-new-time-entry-status-as-read-only"></a>Naujos laiko įrašo būsenos nustatymas kaip skirtos tik skaityti
 Norėdami nustatyti naują laiko įrašo būseną kaip skirtą tik skaityti, įtraukite naują laiko įrašo reikšmę į ypatybę **Tik skaitymo būsenos sąrašas**. Eilučių, kurios turi naują būseną, laiko įrašo tinklelio redaguojama dalis bus užrakinta.

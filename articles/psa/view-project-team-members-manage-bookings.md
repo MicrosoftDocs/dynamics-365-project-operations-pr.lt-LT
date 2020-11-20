@@ -3,7 +3,7 @@ title: Projekto komandos narių peržiūra ir rezervavimų valdymas
 description: Kaip peržiūrėti projekto komandos narius ir valdyti rezervavimus „Project Service“
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f7fae8a4e8821b7983112ffa46c1879c97b9589
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f9607614b0b5cbc5a2d65abe5b72f40c6099d83c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080911"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127787"
 ---
 # <a name="view-project-team-members-and-manage-bookings-project-service"></a>Peržiūrėkite projekto komandos narius ir valdykite rezervavimus („Project Service“)
 
@@ -41,13 +41,13 @@ Galite peržiūrėti projekto komandos narių sąrašą ir iš ten valdyti rezer
   
 5.  Jei išteklių norite rezervuoti užtikrintai, pasirinkite vaidmenį ir spustelėkite **Rezervuoti užtikrintai**. Atsidarys kalendoriaus rodinys su visais ištekliais ir jų užimtumu, rodomais pagal spalvų schemą, vizualiai informuojančią apie ištekliaus rezervacijos būseną. Optimizuokite iešką vienu iš šių būdų.  
   
-    -   Ekrano viršuje pasirinkite rodinį arba rūšiavimo tvarką. Taip pat galite pasirinkti užimtumą rodyti pagal parinktis **Diena** , **Savaitė** arba **Mėnuo** , o naudodamiesi rodyklėmis galite peržiūrėti ankstesnio ar vėlesnio laikotarpio informaciją. Norėdami rasti konkretų išteklių, naudokitės ieškos lauku.  
+    -   Ekrano viršuje pasirinkite rodinį arba rūšiavimo tvarką. Taip pat galite pasirinkti užimtumą rodyti pagal parinktis **Diena**, **Savaitė** arba **Mėnuo**, o naudodamiesi rodyklėmis galite peržiūrėti ankstesnio ar vėlesnio laikotarpio informaciją. Norėdami rasti konkretų išteklių, naudokitės ieškos lauku.  
   
     -   Jei norite pakeisti rodomą informaciją, spustelėkite **Parinktys**. Pvz., galite pasirinkti rodyti legendą, kurioje matysite įvairių tipų rezervacijų spalvų schemą, arba pasirinkti rodyti tik tam tikro tipo rezervacijas (pvz., preliminarias arba patvirtintas rezervacijas).  
   
-    -   Spustelėkite **Filtras** , jei norite pereiti į sritį **Filtras** , kurioje galite filtruoti rezultatus pagal organizacijos skyrius, vaidmenis, įgūdžius ar kitus atributus.  
+    -   Spustelėkite **Filtras**, jei norite pereiti į sritį **Filtras**, kurioje galite filtruoti rezultatus pagal organizacijos skyrius, vaidmenis, įgūdžius ar kitus atributus.  
   
-    -   Norimo rezervuoti ištekliaus kalendoriuje pasirinkite laikotarpį, kuriam norite rezervuoti išteklių, ir tada arba spustelėkite **Užsakyti** , taip išteklių rezervuodami, arba **Pasiūlyti užsakyti** , taip pasiūlydami ištekliui rezervaciją, kad jis ją patvirtintų.  
+    -   Norimo rezervuoti ištekliaus kalendoriuje pasirinkite laikotarpį, kuriam norite rezervuoti išteklių, ir tada arba spustelėkite **Užsakyti**, taip išteklių rezervuodami, arba **Pasiūlyti užsakyti**, taip pasiūlydami ištekliui rezervaciją, kad jis ją patvirtintų.  
   
 6.  Norėdami valdyti šio projekto išteklių rezervavimus, pasirinkite norimus išteklius ir spustelėkite **Valdyti rezervavimus**.  
   

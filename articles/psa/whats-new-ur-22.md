@@ -3,7 +3,7 @@ title: Kas nauja arba pakeista „Project Service Automation“ V3 22 atnaujinta
 description: Šioje temoje išvardytos funkcijos ir pataisymai, kurie yra pasiekiami „Project Service Automation“ V3 22 atnaujintame leidime.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 07/28/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: badd87a276d68d9959e9cca4220daf61ed570638
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 456ed68bc1d74c2c8e5d2420a3f5d1fb8e0465d6
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080784"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126628"
 ---
 # <a name="project-service-automation-update-release-22-v3"></a>„Project Service Automation“ V3 22 naujinimo leidimas
 
@@ -69,4 +69,4 @@ Buvo pataisytos šios problemos:
 - Tikrinimo klaidos pranešimas nerodomas, kai formos / objekto „Naujo pasiūlymo projektų kainoraštis“ kainoraščio peržvalgoje pasirenkamas savikainos kainoraštis.
 - Uždarius pasiūlymą kaip laimėtą, nėra pereinama į sukurtą sutartį, jei prie pasiūlymo pridėtas BPF yra galutiniame etape.
 - Atšaukiant **Pardavimą, už kurį neišrašyta sąskaita** susiejama su originalia savikaina, kai laiko įrašas atšaukiamas.
-- Paspaudus mygtuką **Patvirtinti** , sąskaitos faktūros būsena nepakeičiama į **Patvirtinta** , nebent sąskaita faktūra yra atnaujinama.
+- Paspaudus mygtuką **Patvirtinti**, sąskaitos faktūros būsena nepakeičiama į **Patvirtinta**, nebent sąskaita faktūra yra atnaujinama.

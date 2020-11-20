@@ -3,7 +3,7 @@ title: Planuodami savo darbą „Microsoft Project“, naudokite „Project Serv
 description: Šioje temoje pateikta informacija apie tai, kaip įtraukti, konfigūruoti ir naudoti Microsoft Project papildinį, skirtą Microsoft Project Service.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 04/06/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d988419ae5a9d57532902d2553cd7de147e27c1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080966"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129688"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Planuodami savo darbą „Microsoft Project“, naudokite „Project Service Automation“ papildinį
 
@@ -44,7 +44,7 @@ ms.locfileid: "4080966"
 
 2.  Spustelėkite atsisiuntimo saitą.  
 
-3.  Kai atsisiuntimas bus baigtas, spustelėkite **Taip** , kad įdiegtumėte papildinį.  
+3.  Kai atsisiuntimas bus baigtas, spustelėkite **Taip**, kad įdiegtumėte papildinį.  
 
 ## <a name="configure-the-add-in"></a>Papildinio konfigūravimas  
 
@@ -80,7 +80,7 @@ ms.locfileid: "4080966"
 
 2.  Ekrane **Rezervuoti išteklius** pasirinkite norimą naudoti projekto išteklių.  
 
-3.  Spustelėkite **Rezervuoti** , tada spustelėkite **Gerai**.  
+3.  Spustelėkite **Rezervuoti**, tada spustelėkite **Gerai**.  
 
 ## <a name="publish-your-project"></a>Projekto publikavimas  
 Baigus projekto planavimą, kitas veiksmas yra importuoti ir publikuoti projektą [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
@@ -141,9 +141,9 @@ Projektas bus importuotas į [!INCLUDE[pn_project_service_auto](../includes/pn-p
 
 3. Dialogo lange **Leisti atidaryti programoje „[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]“** pasirinkite **Taip** arba **Ne**.  
 
-   - Paspaudus **Taip** , galėsite pasirinkti mygtuką **Atidaryti programoje [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** , esantį „Project Service Automation“, paleisti [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] ir įkelti Projekto failą iš SharePoint dokumentų bibliotekos.  
+   - Paspaudus **Taip**, galėsite pasirinkti mygtuką **Atidaryti programoje [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]**, esantį „Project Service Automation“, paleisti [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] ir įkelti Projekto failą iš SharePoint dokumentų bibliotekos.  
 
-   - Spustelėjus **Ne** , mygtuko **Atidaryti programoje [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** saitas neveiks.  
+   - Spustelėjus **Ne**, mygtuko **Atidaryti programoje [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** saitas neveiks.  
 
 4. „[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]“ failą galima rasti „[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]“ dalyje **Dokumentai** pagal konkretų „[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]“ projektą.  
 
@@ -155,9 +155,9 @@ Projektas bus importuotas į [!INCLUDE[pn_project_service_auto](../includes/pn-p
 
 3. Dialogo lange **Leisti atidaryti programoje „[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]“** pasirinkite **Taip** arba **Ne**.  
 
-   - Paspaudus **Taip** , galėsite pasirinkti mygtuką **Atidaryti programoje [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** , esantį „Project Service Automation“, paleisti [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] ir įkelti Projekto failą iš SharePoint dokumentų bibliotekos.  
+   - Paspaudus **Taip**, galėsite pasirinkti mygtuką **Atidaryti programoje [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]**, esantį „Project Service Automation“, paleisti [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] ir įkelti Projekto failą iš SharePoint dokumentų bibliotekos.  
 
-   - Spustelėjus **Ne** , mygtuko **Atidaryti programoje [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** saitas neveiks.  
+   - Spustelėjus **Ne**, mygtuko **Atidaryti programoje [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** saitas neveiks.  
 
 4. „[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]“ failą galima rasti „[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]“ dalyje **Dokumentai** pagal konkretų „[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]“ projektą.  
 

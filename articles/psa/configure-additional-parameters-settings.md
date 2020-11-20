@@ -3,7 +3,7 @@ title: Papildomų parametrų nuostatų konfigūravimas
 description: Papildomų parametrų nuostatų konfigūravimas „Project Service“
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 24a4fe83471da916fb91cfe20e739279c08d8e5e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5ce7ffd635b10689c8295d9349966450f11282d1
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080836"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129373"
 ---
 # <a name="configure-additional-parameter-settings-project-service"></a>Papildomų parametrų nuostatų konfigūravimas („Project Service“)
 
@@ -52,11 +52,11 @@ Norėdami nustatyti projekto parametrus, atlikite tolesnius veiksmus.
   
 1. Eikite į **Project Service > Parametrai**.  
   
-2. Spustelėkite parametrų nustatymą, kurį norite konfigūruoti (tas, kurį sukūrėte, kai pirmą kartą įdiegėte „[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]“), arba spustelėkite **Naujas** , kad sukurtumėte naują.  
+2. Spustelėkite parametrų nustatymą, kurį norite konfigūruoti (tas, kurį sukūrėte, kai pirmą kartą įdiegėte „[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]“), arba spustelėkite **Naujas**, kad sukurtumėte naują.  
   
 3. Srityje **Bendra** nustatykite visas savo projekto parametrų parinktis.  
   
-4. Srityje **Kainoraštis** spustelėkite **+** , kad įtrauktumėte kainoraštį, pasirinkite kainoraštį išplečiamajame sąraše **Projekto parametrų kainoraštis** , o tada spustelėkite **Įrašyti**.  
+4. Srityje **Kainoraštis** spustelėkite **+**, kad įtrauktumėte kainoraštį, pasirinkite kainoraštį išplečiamajame sąraše **Projekto parametrų kainoraštis**, o tada spustelėkite **Įrašyti**.  
   
 5. Viršutiniame dešiniajame ekrano kampe spustelėkite mygtuką **Įrašyti**.  
 

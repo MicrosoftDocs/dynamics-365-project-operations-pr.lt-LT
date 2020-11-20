@@ -3,7 +3,7 @@ title: Projekto savikaina ir pajamos
 description: Šioje temoje pateikiama informacija apie projektų savikainų ir pajamų įvertinimą.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,18 +18,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9862b6c69596f5b998cf40691f8478bb87251583
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 282950c0ee21f430a2f20b21128830891c76c84a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080866"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127978"
 ---
 # <a name="project-costs-and-revenue"></a>Projekto savikaina ir pajamos
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Projekto įvertinimai nurodomi finansiniame rodinyje to darbo, kuris įvertintas ir suplanuotas projektų grafike. Skirtuke **Sąmatos** , esančiame puslapyje **Projektai** , rodomas suplanuotų darbo savikainos ir pajamų poveikis. Taip pat pateikiama informacija apie daugelį iš anksto nustatytų dimensijų. 
+Projekto įvertinimai nurodomi finansiniame rodinyje to darbo, kuris įvertintas ir suplanuotas projektų grafike. Skirtuke **Sąmatos**, esančiame puslapyje **Projektai**, rodomas suplanuotų darbo savikainos ir pajamų poveikis. Taip pat pateikiama informacija apie daugelį iš anksto nustatytų dimensijų. 
 
 > ![Sąmatų skirtukas](media/project-5.png)
 
@@ -50,7 +50,7 @@ Jei vaidmens ir organizacinio vieneto derinys nerodo savikainos, sistema nepaiso
 Jei sistema vaidmens kainos neranda, sąmatos eilutėje savikaina nustatoma į **0,00** numatytąją reikšmę. Visos savikainos sumos projekto savikainos sąmatos eilutėse įrašomos perkančiojo vieneto valiuta.
 
 > [!NOTE]
-> Pagal numatytuosius nustatymus „Microsoft Dynamics 365“ saugo savikainos sumas jūsų pagrindine valiuta. Tačiau savikainos sumos, rodomos skirtuke **Sąmatos** , yra perkančiojo vieneto valiuta.  
+> Pagal numatytuosius nustatymus „Microsoft Dynamics 365“ saugo savikainos sumas jūsų pagrindine valiuta. Tačiau savikainos sumos, rodomos skirtuke **Sąmatos**, yra perkančiojo vieneto valiuta.  
 
 ### <a name="default-sales-price"></a>Numatytasis pardavimo kainoraštis 
 
@@ -80,7 +80,7 @@ Laipsniškai laike išdėstytame rodinyje visos apskaičiuotos pastangos užduo�
 
 ### <a name="work-hours-based-allocation"></a>Paskirstymas pagal darbo valandas
  
-Automatinio planavimo užduoties režimu dienos numatytosios užduočių išteklių valandos nustatomos pagal visą darbo valandų skaičių. Tai taip pat taikoma, kai pastangos paskirstomos jas išskaidant per visą užduoties atlikimo trukmę laipsniškai laike išdėstytame rodinyje. Pavyzdžiui, apskaičiavus, kad užduotis bus atlikta pasirinkus vieną išteklių laiko skalėje **Diena** , dienai priskiriamos pastangos neviršys dienos darbo valandų skaičiaus, nurodyto projekto kalendoriuje. Todėl paskirstant pastangas visada užtikrinama, kad ištekliai būtų numatomi naudoti visą dieną.
+Automatinio planavimo užduoties režimu dienos numatytosios užduočių išteklių valandos nustatomos pagal visą darbo valandų skaičių. Tai taip pat taikoma, kai pastangos paskirstomos jas išskaidant per visą užduoties atlikimo trukmę laipsniškai laike išdėstytame rodinyje. Pavyzdžiui, apskaičiavus, kad užduotis bus atlikta pasirinkus vieną išteklių laiko skalėje **Diena**, dienai priskiriamos pastangos neviršys dienos darbo valandų skaičiaus, nurodyto projekto kalendoriuje. Todėl paskirstant pastangas visada užtikrinama, kad ištekliai būtų numatomi naudoti visą dieną.
 
 ### <a name="even-allocation"></a>Tolygus paskirstymas
 
@@ -88,7 +88,7 @@ Neautomatiniu būdu suplanuotu užduoties režimu darbo valandos iš projekto ka
 
 ## <a name="grouping-and-time-phasing-options"></a>Grupavimas ir laipsniško išdėstymo laike parinktys
 
-Laipsniškai laike išdėstytame rodinyje nurodomas pastangų, savikainos ir pardavimo sąmatų paskirstymas dienai, savaitei, mėnesiui ar metams. Pagal numatytuosius nustatymus sąmatos duomenys yra rikiuojami greitojo rikiavimo būdu į dimensiją **Vaidmuo**. Tačiau galite naudoti parinktį **Grupuoti pagal** , skirtą rikiuoti greitojo rikiavimo būdu kitose dviejose dimensijose: **Kategorija** ir **Išteklius**.
+Laipsniškai laike išdėstytame rodinyje nurodomas pastangų, savikainos ir pardavimo sąmatų paskirstymas dienai, savaitei, mėnesiui ar metams. Pagal numatytuosius nustatymus sąmatos duomenys yra rikiuojami greitojo rikiavimo būdu į dimensiją **Vaidmuo**. Tačiau galite naudoti parinktį **Grupuoti pagal**, skirtą rikiuoti greitojo rikiavimo būdu kitose dviejose dimensijose: **Kategorija** ir **Išteklius**.
 
 Tinklelio ir laipsniškai laike išdėstytame rodiniuose galite pažymėti, kuriuos laukus rodyti. Visų laiko blokų bendrosios sumos rodomos projekto apačioje. Jose rodomi bendrai apskaičiuoti dienos, savaitės, mėnesio arba metų pastangos, savikaina ir pardavimas. Numatytoji savikaina ir pardavimo kaina yra efektyvi pagal datą. Kitaip tariant, ji keičiasi pagal kiekvieną išteklių ir pagal laipsniškai laike išdėstytą rodinį, kurį pažymėjote.
 

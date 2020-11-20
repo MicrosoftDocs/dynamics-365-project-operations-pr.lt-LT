@@ -3,7 +3,7 @@ title: Kas nauja arba pakeista „Project Service Automation“ V3 19 atnaujinta
 description: Šioje temoje išvardytos funkcijos ir pataisymai, kurie yra pasiekiami „Project Service Automation“ V3 19 atnaujintame leidime.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 05/05/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ecc923cccfad21985025ab9d8006aaff16afc25f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e116bcbb8e9d184b7b894709c893aaf1dadefc2f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080789"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126852"
 ---
 # <a name="project-service-automation-update-release-19-v3"></a>„Project Service Automation“ V3 19 naujinimo leidimas
 
@@ -60,7 +60,7 @@ Buvo pataisytos šios problemos:
 - Į apmokestinamą sutarties eilutę įtraukus neapmokestinamų operacijų kategorijos elementus, nebus paisomas operacijos kategorijos atsiskaitymo tipas **Neapmokestinama**.
 - Klientai negali naudoti naujai įtrauktų vaidmenų ir kategorijos anksčiau sudarytoms sutartims.
 - Klientai susiduria su suprastėjusiu veikimu, kai šaltinio kode „PreValidateProjectTeamMemberUpdate.cs” vykdomas nereikalingas grąžinimas
-- Vaidmenys, nustatyti kaip neapmokestinami sąraše **Išteklių kategorijos** , projekto sutarties eilutėje turėtų būti įtraukti į skirtuką **Apmokestinami vaidmenys** kaip **Neapmokestinami**.
+- Vaidmenys, nustatyti kaip neapmokestinami sąraše **Išteklių kategorijos**, projekto sutarties eilutėje turėtų būti įtraukti į skirtuką **Apmokestinami vaidmenys** kaip **Neapmokestinami**.
 - Kurdami projektą klientai gali susiduria su prastesniu veikimu, nes **GetBookableResourceIdFromUser** grąžina visus rezervuojamų išteklių stulpelius, o ne tik pirminį ID.
-- Objektas **TransactionType** neturi išankstinio tikrinimo naujinimo priedo, kad vartotojai negalėtų įvesti **vienetų** ir **UnitGroups** , netinkančių operacijos tipams.
+- Objektas **TransactionType** neturi išankstinio tikrinimo naujinimo priedo, kad vartotojai negalėtų įvesti **vienetų** ir **UnitGroups**, netinkančių operacijos tipams.
 - Veiksmas **Šalinti** neveikia importuojant laiko įrašą.

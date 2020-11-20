@@ -3,7 +3,7 @@ title: Faktinių duomenų apžvalga
 description: Šioje temoje pateikta informacija apie projekto faktinius duomenis.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/03/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9559cb2dcc38cb8058c5a9a3b97a35019fea486f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cf9e36c99790b77f0ed6490f49b4ebeb043bcdf6
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081034"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129778"
 ---
 # <a name="actuals-overview"></a>Faktinių duomenų apžvalga
 
@@ -39,7 +39,7 @@ Naudojant PSA, kai laiko įrašas pateikiamas projektui, susietam su laiko ir me
 
 Numatytųjų kainų įvedimo logika yra žurnalo eilutėje Visos laiko įrašo lauko reikšmės kopijuojamos į žurnalo eilutę. Šiuose laukuose nurodoma operacijos data, sutarties eilutė, su kuria susietas projektas, ir valiuta iš atitinkamo kainoraščio. 
 
-Dėl laukų, turinčių įtakos numatytosioms kainoms, pvz., **Vaidmuo** ir **Org vienetas** , pagal numatytuosius nustatymus įvedama atitinkama kaina į žurnalo eilutę. Jei į laiko įrašą įtrauksite pasirinktinį lauką ir norite, kad lauko reikšmė būtų dauginama į faktinius duomenis, sukurkite lauką faktinių duomenų objekto lauke ir naudokite lauko susiejimo funkciją, kad nukopijuotumėte lauką iš laiko įrašo į faktinius duomenis.
+Dėl laukų, turinčių įtakos numatytosioms kainoms, pvz., **Vaidmuo** ir **Org vienetas**, pagal numatytuosius nustatymus įvedama atitinkama kaina į žurnalo eilutę. Jei į laiko įrašą įtrauksite pasirinktinį lauką ir norite, kad lauko reikšmė būtų dauginama į faktinius duomenis, sukurkite lauką faktinių duomenų objekto lauke ir naudokite lauko susiejimo funkciją, kad nukopijuotumėte lauką iš laiko įrašo į faktinius duomenis.
 
 ## <a name="submitting-an-expense-entry"></a>Išlaidų įrašo pateikimas
 

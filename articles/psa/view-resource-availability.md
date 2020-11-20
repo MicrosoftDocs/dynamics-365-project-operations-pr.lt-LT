@@ -3,7 +3,7 @@ title: Išteklių užimtumo peržiūra
 description: Kaip peržiūrėti išteklių užimtumą „Project Service“
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 18f2287eeba5df9dae150c213e2a7c88de8c7276
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 65798e1b0d675b86a73fcd6a0426407d6fe86d0b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080910"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124963"
 ---
 # <a name="view-resource-availability-project-service"></a>Išteklių užimtumo peržiūra „Project Service“
 
@@ -38,11 +38,11 @@ Galite patikrinti išteklių užimtumą, kad turėtumėte apie jį bendrą vaizd
 
 1. Pasirinkite **Project Service > Išteklių pasiekiamumas**.  
 
-    Atsidarys kalendoriaus rodinys su visais ištekliais ir jų užimtumu. Ekrano viršuje pasirinkite rodinį arba rūšiavimo tvarką. Taip pat galite pasirinkti užimtumą rodyti pagal parinktis **Diena** , **Savaitė** arba **Mėnuo** , o naudodamiesi rodyklėmis galite peržiūrėti ankstesnio ar vėlesnio laikotarpio informaciją. Norėdami rasti konkretų išteklių, naudokitės ieškos lauku.  
+    Atsidarys kalendoriaus rodinys su visais ištekliais ir jų užimtumu. Ekrano viršuje pasirinkite rodinį arba rūšiavimo tvarką. Taip pat galite pasirinkti užimtumą rodyti pagal parinktis **Diena**, **Savaitė** arba **Mėnuo**, o naudodamiesi rodyklėmis galite peržiūrėti ankstesnio ar vėlesnio laikotarpio informaciją. Norėdami rasti konkretų išteklių, naudokitės ieškos lauku.  
 
 2. Jei norite pakeisti rodomą informaciją, spustelėkite **Parinktys**. Pvz., galite pasirinkti rodyti legendą, kurioje matysite įvairių tipų rezervacijų spalvų schemą, arba pasirinkti rodyti tik tam tikro tipo rezervacijas (pvz., preliminarias arba patvirtintas rezervacijas).  
 
-3. Spustelėkite **Filtras** , jei norite pereiti į sritį **Filtras** , kurioje galite filtruoti rezultatus pagal organizacijos skyrius, vaidmenis, įgūdžius ar kitus atributus.  
+3. Spustelėkite **Filtras**, jei norite pereiti į sritį **Filtras**, kurioje galite filtruoti rezultatus pagal organizacijos skyrius, vaidmenis, įgūdžius ar kitus atributus.  
 
 ### <a name="see-also"></a>Taip pat žr.  
  [Išteklių vadovo vadovas](../psa/resource-manager-guide.md)

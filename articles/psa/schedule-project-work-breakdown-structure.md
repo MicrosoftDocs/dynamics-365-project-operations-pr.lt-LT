@@ -3,7 +3,7 @@ title: Projekto planavimas su darbo paskirstymo struktūra
 description: Projekto planavimas su darbo paskirstymo struktūra „Project Service“
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d77d9f8427f06015d4f4cb9438d7f59ac840b061
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 04f30f2f2ed93dd1525f1c86a7521cdbf39a77bc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081018"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127888"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>Projekto planavimas su darbo paskirstymo struktūra („Project Service“)
 
@@ -86,14 +86,14 @@ Kuriant darbo paskirstymo struktūrą, naudojamos šių tipų užduotys:
   
 ### <a name="schedule-attributes"></a>Grafiko atributai
 
- - Priskiriant reikšmes laukuose **Pastangų valandos** , **Išteklių skaičius** , **Pradžios data** , **Pabaigos data** ir **Trukmė** , apibrėžiamas užduoties grafikas. 
+ - Priskiriant reikšmes laukuose **Pastangų valandos**, **Išteklių skaičius**, **Pradžios data**, **Pabaigos data** ir **Trukmė**, apibrėžiamas užduoties grafikas. 
  - **Pastangos** yra prognozuojamas valandų skaičius, reikalingas užduočiai atlikti.
  - **Išteklių skaičius** yra prognozuojami ištekliai, projekto vadovo skiriami užduočiai, siekiant sudaryti geriausią galimą grafiką. 
  - **Trukmė** (dienomis) rodo užduočiai atlikti reikalingų darbo dienų skaičių.  
   
 ### <a name="staffing-attributes"></a>Darbuotojų atributai
 
- - **Vaidmuo** , **Išteklių organizacinis vienetas** , **Išteklių skaičius** ir **Ištekliai** aprašo užduoties darbuotojų reikalavimus. 
+ - **Vaidmuo**, **Išteklių organizacinis vienetas**, **Išteklių skaičius** ir **Ištekliai** aprašo užduoties darbuotojų reikalavimus. 
  - **Vaidmuo** aprašo užduočiai atlikti reikalingų išteklių tipą. 
  - **Išteklių organizacinis vienetas** nurodo organizacinį vienetą, iš kurio šiai užduočiai turi būti skiriami ištekliai; šis atributas paveikia užduoties savikainą ir pardavimo sąmatą, kadangi į jį atsižvelgiama nustatant ištekliaus vieneto pardavimo kainą. 
  - **Ištekliai** – tai bendrojo ištekliaus pavadinimas arba įvardyto ištekliaus, kai toks surandamas, pavadinimas.  
@@ -136,17 +136,17 @@ Kuriant darbo paskirstymo struktūrą, naudojamos šių tipų užduotys:
   
 5.  Tęskite įtraukdami užduotis, kol užbaigsite darbo paskirstymo struktūrą. Kurdami darbo paskirstymo struktūrą, tvarkyti užduotis galite atlikdami šiuos veiksmus:  
   
-    -   pasirinkite užduotį ir spustelėkite **Įtrauka** , jei užduotį norite perkelti žemiau kitos užduoties,„Atvirkštinė įtrauka, jei užduotį norite pakelti vienu lygiu;  
+    -   pasirinkite užduotį ir spustelėkite **Įtrauka**, jei užduotį norite perkelti žemiau kitos užduoties,„Atvirkštinė įtrauka, jei užduotį norite pakelti vienu lygiu;  
   
     -   pasirinkite užduotį ir spustelėkite **Perkelti aukštyn** arba **Perkelti žemyn** ; jei užduotį norite perkelti sąraše aukštyn arba žemyn;  
   
-    -   spustelėkite **Slėpti Ganto diagramą** , jei Ganto diagramą norite paslėpti, arba spustelėkite **Rodyti Ganto diagramą** , jei norite, kad Ganto diagrama vėl būtų rodoma;  
+    -   spustelėkite **Slėpti Ganto diagramą**, jei Ganto diagramą norite paslėpti, arba spustelėkite **Rodyti Ganto diagramą**, jei norite, kad Ganto diagrama vėl būtų rodoma;  
   
     -   lauke **Laiko skalė** pasirinkite kitą Ganto diagramos laikotarpį.  
   
 6.  Norėdami projekto komandos nariams pridėti vaidmenis, kuriuos nurodėte darbo paskirstymo struktūroje, spustelėkite **Kurti projekto komandą**.  
   
-7.  Atlikę pakeitimus, spustelėkite mygtuką **Įrašyti** , esantį ekrano apatiniame dešiniame kampe.  
+7.  Atlikę pakeitimus, spustelėkite mygtuką **Įrašyti**, esantį ekrano apatiniame dešiniame kampe.  
   
 ### <a name="see-also"></a>Taip pat žr.  
  [Projekto vadovo vadovas](../psa/project-manager-guide.md)

@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f4941803c657fab55ee2702d9f58d6e333592889
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 3985febf62a520619e05bbb9a307195009e4b100
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080727"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127438"
 ---
 # <a name="project-team-members"></a>Projekto komandos nariai
 
@@ -47,16 +47,16 @@ Komandos narių tinklelyje projekto vadovas ir kiti projekto dalyviai gali matyt
 
 Komandos narių tinklelyje galima atlikti toliau nurodytus veiksmus:
 
-- **Rezervuoti** : organizacijoms, kurios veikia pasitelkusios hibridinio rezervavimo metodiką, rezervavimo veiksmas sudarys sąlygas vartotojams rezervuoti įvardytąjį išteklių, pagal reikiamus reikalavimus,sugeneruotus iš bendrojo komandos nario
-- **Generuoti reikalavimą** : šis veiksmas generuoja reikalavimą.
-- **Nurodyti modelį** : suteikia galimybę projektų vadovams pakoreguoti išteklių reikalavimus. Projektų vadovai gali pritaikyti pagal konkrečius projekto poreikius tais atvejais, kai numatytasis paskirstymas netinka.
-- **Pateikti užklausą** : organizacijoms, naudojančioms centrinę rezervavimo metodiką.
-- **Redaguoti** : komandos nario atributus galima redaguoti įtraukiant organizacijos vienetą, vaidmenį ir pareigų pavadinimą.
-- **Išlaikyti rezervavimus** : kai reikia atnaujinti išteklių rezervavimus, rezervavimų išlaikymas leidžia projektų vadovui koreguoti:
+- **Rezervuoti**: organizacijoms, kurios veikia pasitelkusios hibridinio rezervavimo metodiką, rezervavimo veiksmas sudarys sąlygas vartotojams rezervuoti įvardytąjį išteklių, pagal reikiamus reikalavimus,sugeneruotus iš bendrojo komandos nario
+- **Generuoti reikalavimą**: šis veiksmas generuoja reikalavimą.
+- **Nurodyti modelį**: suteikia galimybę projektų vadovams pakoreguoti išteklių reikalavimus. Projektų vadovai gali pritaikyti pagal konkrečius projekto poreikius tais atvejais, kai numatytasis paskirstymas netinka.
+- **Pateikti užklausą**: organizacijoms, naudojančioms centrinę rezervavimo metodiką.
+- **Redaguoti**: komandos nario atributus galima redaguoti įtraukiant organizacijos vienetą, vaidmenį ir pareigų pavadinimą.
+- **Išlaikyti rezervavimus**: kai reikia atnaujinti išteklių rezervavimus, rezervavimų išlaikymas leidžia projektų vadovui koreguoti:
 
     - Paleisti
     - Pabaiga
     - Bendras pastangų paskirstymas
 
-- **Naujas** : be išteklių papildymo tiesiogiai iš grafiko, projektų vadovai gali įtraukti naujų įvardytųjų arba bendrųjų komandos narių iš komandos narių tinklelio.
-- **Naikinti** : pasirinkus vieną ar kelis komandos narius, projektų vadovas gali panaikinti išteklius, kurie nebedalyvaus projekte. Panaikinus komandos narį taip pat bus panaikinti visi susieti išteklių priskyrimai ir atšaukti visi esami užsakymai.
+- **Naujas**: be išteklių papildymo tiesiogiai iš grafiko, projektų vadovai gali įtraukti naujų įvardytųjų arba bendrųjų komandos narių iš komandos narių tinklelio.
+- **Naikinti**: pasirinkus vieną ar kelis komandos narius, projektų vadovas gali panaikinti išteklius, kurie nebedalyvaus projekte. Panaikinus komandos narį taip pat bus panaikinti visi susieti išteklių priskyrimai ir atšaukti visi esami užsakymai.

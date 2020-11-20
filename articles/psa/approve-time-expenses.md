@@ -3,7 +3,7 @@ title: Laiko ir išlaidų tvirtinimas
 description: Laiko ir išlaidų tvirtinimas „Project Service“
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6b5fca4ab1eb4c907c3fd6cca5e2adf79fad9590
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ce126815dce37055fb364512a9a14c828d9b0c32
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081014"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127123"
 ---
 # <a name="approve-time-and-expenses-project-service"></a>Laiko ir išlaidų tvirtinimas („Project Service“)
 
@@ -35,7 +35,7 @@ Kai konsultantai įveda projekto laiką ir išlaidas, jums reikia juos patvirtin
   
 2.  Spustelėkite elementą, kurį norite patvirtinti.  
   
-3.  Skirtukuose **Laiko įrašai** , **Išlaidų įrašai** ir **Neatvykimas / atostogos** peržiūrėkite kiekvieną elementą ir atlikite reikiamus keitimus.  
+3.  Skirtukuose **Laiko įrašai**, **Išlaidų įrašai** ir **Neatvykimas / atostogos** peržiūrėkite kiekvieną elementą ir atlikite reikiamus keitimus.  
   
 4.  Norėdami patvirtinti elementą, pažymėkite jį ir spustelėkite **Tvirtinti**. Galite pasirinkti ir tvirtinti kelis elementus vienu metu.  
   

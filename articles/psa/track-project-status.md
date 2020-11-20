@@ -3,7 +3,7 @@ title: Projekto būsenos sekimas
 description: Kaip sekti projekto būseną „Project Service“
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 70d07c98bd9432712e939445dbf867b96642f5ba
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 00b6d874b42a415fe567d17e49c0ea319d8952a0
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080922"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127843"
 ---
 # <a name="track-a-projects-status-project-service"></a>Sekite projekto būseną („Project Service“)
 
@@ -37,10 +37,10 @@ Bendravimui plėtojantis, projekto etapai atnaujinami, siekiant atspindėti bend
 |              |                                                                                                                                                                                                                                                                                                  |
 |--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |   **Naujas**    | Kuriant projektą, etapas nustatomas į **Naujas**. Jei projektą sukūrėte iš šablono, šiame etape projektas gali turėti grafiką, sąmatas ir komandos duomenis. Priešingu atveju tai bus projekto schema, ir jums reikės rankiniu būdu įvesti likusius projekto komponentus. |
-|  **Pasiūlymas**   |      Kai projektą susiejate su pasiūlymu ar jį sukuriate iš pasiūlymo, projekto etapas nustatomas į **Pasiūlymas** , ir taip pat atnaujinamos numatomos pradžios bei pabaigos datos. Kai projektas yra pasiūlymo etape, pasiūlymo informacija rodoma **Projekto** puslapio skirtuke **Pardavimas**.      |
+|  **Pasiūlymas**   |      Kai projektą susiejate su pasiūlymu ar jį sukuriate iš pasiūlymo, projekto etapas nustatomas į **Pasiūlymas**, ir taip pat atnaujinamos numatomos pradžios bei pabaigos datos. Kai projektas yra pasiūlymo etape, pasiūlymo informacija rodoma **Projekto** puslapio skirtuke **Pardavimas**.      |
 |   **Planas**   |                                     Kai laimite su projektu susietą pasiūlymą, ir kai bendravimas išsiplėtoja iki sutarties etapo, projekto etapas atnaujinamas į **Planas**. Sutarties informacija rodoma **Projekto** puslapio skirtuke **Pardavimas**.                                      |
 | **Atlikti** |                    Kai projekto darbas baigtas, etapą galite nustatyti į **Baigtas**. Kai nustatytas baigtas projekto etapas, suprantama, kad darbas 100 proc. baigtas, bet projektas lieka atidarytas, kad būtų galima įrašyti laukimo laiko ar išlaidų įrašų.                     |
-|  **Uždaryti**   |           Kai įrašytos visos projekto operacijos, ir nemanote, kad jų bus daugiau, etapą galite rankiniu būdu nustatyti į **Uždarytas**. Kai projektas nustatytas į **Uždarytas** , jame registruoti operacijų nebegalite, ir projektą bus galima tik skaityti.           |
+|  **Uždaryti**   |           Kai įrašytos visos projekto operacijos, ir nemanote, kad jų bus daugiau, etapą galite rankiniu būdu nustatyti į **Uždarytas**. Kai projektas nustatytas į **Uždarytas**, jame registruoti operacijų nebegalite, ir projektą bus galima tik skaityti.           |
 
 ## <a name="to-track-a-projects-status"></a>Norėdami sekti projekto būseną  
 

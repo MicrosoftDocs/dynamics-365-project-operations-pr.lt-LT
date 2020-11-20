@@ -3,7 +3,7 @@ title: Kaip, naudojantis „Web App“, užduočiai priskirti rezervuojamus išt
 description: Peržiūrėkite, kaip galite priskirti rezervuojamus išteklius.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7b95eff52351904f97c62b3806f17b02db47860b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cc1859540ede064c4ab3e2ac128573972912a207
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081024"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125188"
 ---
 # <a name="how-do-i-assign-a-bookable-resource-to-a-task-in-the-web-app-project-service-app-v2x"></a>Kaip žiniatinklio programoje užduočiai priskirti rezervuotinus išteklius („Project Service“ programa v2.x)?
 
@@ -46,12 +46,12 @@ Naudodami šį metodą prie projekto komandos pridedate išteklius ir tada proje
     > ![Komandos nario įtraukimo ekrano kopija](media/FAQ-Resources-to-Tasks2-1.png "Komandos nario įtraukimo ekrano kopija")
  
 4.  Pasirinkite vieną iš šių išteklių rezervavimo paskirstymo metodų:
-    - **Visas pajėgumo metodas**  – rezervuojamas visas išteklių pajėgumas tarp nurodytų pradžios ir pabaigos datų esančiam laikotarpiui.
-    - **Pajėgumo procentinės dalies rezervavimo metodas**  – rezervuojama išteklių pajėgumo dalis procentais tarp nurodytų pradžios ir pabaigos datų esančiam laikotarpiui.
-    - **Tolygiai paskirstomų valandų metodas**  – ištekliai rezervuojami nurodytam valandų skaičiui, kiekvienai dienai skirtą laiką tolygiai paskirstant tarp nustatytų pradžios ir pabaigos datų esančiam laikotarpiui
-    - **Pirminės apkrovos metodas**  – ištekliai rezervuojami į išteklių naudojimo pradžios dieną keliant didžiausią dienos valandų skaičių tarp nurodytų pradžios ir pabaigos datų esančiam laikotarpiui.
+    - **Visas pajėgumo metodas** – rezervuojamas visas išteklių pajėgumas tarp nurodytų pradžios ir pabaigos datų esančiam laikotarpiui.
+    - **Pajėgumo procentinės dalies rezervavimo metodas** – rezervuojama išteklių pajėgumo dalis procentais tarp nurodytų pradžios ir pabaigos datų esančiam laikotarpiui.
+    - **Tolygiai paskirstomų valandų metodas** – ištekliai rezervuojami nurodytam valandų skaičiui, kiekvienai dienai skirtą laiką tolygiai paskirstant tarp nustatytų pradžios ir pabaigos datų esančiam laikotarpiui
+    - **Pirminės apkrovos metodas** – ištekliai rezervuojami į išteklių naudojimo pradžios dieną keliant didžiausią dienos valandų skaičių tarp nurodytų pradžios ir pabaigos datų esančiam laikotarpiui.
 
-    Nesirinkite parinkties **Joks** , nes tuomet ištekliai bus pridėti komandai, bet nebus sukuriami jokie išteklių pajėgumą naudojantys rezervavimai.
+    Nesirinkite parinkties **Joks**, nes tuomet ištekliai bus pridėti komandai, bet nebus sukuriami jokie išteklių pajėgumą naudojantys rezervavimai.
 5.  Pasirinkite **Įrašyti**.
 
     Atkreipkite dėmesį, kad turi būti rezervuota pakankamai valandų, kad būtų padengtos pastangų valandos bei datų intervalai, kuriems priskyrėte šiuos išteklius. Jei tai nebus suderinta, užduočiai priskirti resursų nepavyks.

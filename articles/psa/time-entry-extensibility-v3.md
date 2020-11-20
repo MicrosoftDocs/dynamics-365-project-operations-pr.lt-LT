@@ -3,7 +3,7 @@ title: Savaitės laiko įrašo tinkinimas
 description: Šioje temoje pateikta informacija apie tai, kaip įdiegti pasirinktines veiklos taisykles, kuriomis grindžiama organizacijos veikla.
 author: stsporen
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 07/09/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cc395e77e987dac062251ef87fcf8295305178e2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c4a508f2a67f87302f8b81640d2031fd5d2627b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080923"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127933"
 ---
 # <a name="customize-weekly-time-entry"></a>Savaitės laiko įrašo tinkinimas 
 
@@ -51,15 +51,15 @@ Skyriuje **Dimensijos** negalima atlikti įdėtojo redagavimo. Šiame skyriuje p
 Skyrius Trukmė rodo savaitės dienas kaip stulpelių antraštes. Šiame skyriuje leidžiamas įdėtasis redagavimas. Sukūrus laiko įrašo eilutę, kurioje yra atitinkamos dimensijos, vartotojai gali greitai eilutėje įvesti laiką, kurį skyrė šioms dimensijoms.
 
 ## <a name="create-a-new-time-entry"></a>Naujo laiko įrašo kūrimas
-Norėdami sukurti naują laiko įrašą laiko įrašo tinklelyje, pasirinkite **Naujas**. Atidaromas dialogo langas **Laiko įrašo spartusis kūrimas**. Šiame dialogo lange vartotojai gali pasirinkti laiko įrašo datą, o tada įvesti dimensijų **Projektas** , **Projekto užduotis** , **Vaidmuo** ir **Trukmės** duomenis minutėmis, valandomis arba dienomis, įvesdami **h** , **m** arba **d** kartu su skaičiumi. Vartotojai taip pat gali įvesti laiko įrašo aprašą ir komentarus, kuriuos galima bendrinti išorėje. Kai vartotojai įrašo keitimus, prie dimensijų įvestos reikšmės rodomos skyriuje **Dimensijos**. Trukmės informacija, įvesta lauke **Trukmė** , rodoma tą dieną, kuriai buvo sukurtas laiko įrašas.
+Norėdami sukurti naują laiko įrašą laiko įrašo tinklelyje, pasirinkite **Naujas**. Atidaromas dialogo langas **Laiko įrašo spartusis kūrimas**. Šiame dialogo lange vartotojai gali pasirinkti laiko įrašo datą, o tada įvesti dimensijų **Projektas**, **Projekto užduotis**, **Vaidmuo** ir **Trukmės** duomenis minutėmis, valandomis arba dienomis, įvesdami **h**, **m** arba **d** kartu su skaičiumi. Vartotojai taip pat gali įvesti laiko įrašo aprašą ir komentarus, kuriuos galima bendrinti išorėje. Kai vartotojai įrašo keitimus, prie dimensijų įvestos reikšmės rodomos skyriuje **Dimensijos**. Trukmės informacija, įvesta lauke **Trukmė**, rodoma tą dieną, kuriai buvo sukurtas laiko įrašas.
 
-Peržvalgos laukus teikia sistemos rodiniai. Pavyzdžiui, kai vartotojas įveda projektą, laukas **Projekto užduotis** pagal numatytuosius nustatymus nustatomas į rodinį **Kopijuoti**. Norėdami kurti užduočių, kurios nepriskirtos vartotojui, laiko įrašus, peržvalgos dialogo lange pasirinkite **Keisti rodinį** , tada pasirinkite rodinį **Visos aktyvios projekto užduotys**.
+Peržvalgos laukus teikia sistemos rodiniai. Pavyzdžiui, kai vartotojas įveda projektą, laukas **Projekto užduotis** pagal numatytuosius nustatymus nustatomas į rodinį **Kopijuoti**. Norėdami kurti užduočių, kurios nepriskirtos vartotojui, laiko įrašus, peržvalgos dialogo lange pasirinkite **Keisti rodinį**, tada pasirinkite rodinį **Visos aktyvios projekto užduotys**.
 
 ## <a name="edit-a-time-entry"></a>Laiko įrašo redagavimas
-Kai kurių laukų laiko įrašų puslapyje išsami informacija, pvz., **Aprašas** ir **Išoriniai komentarai** savaitės laiko įrašo tinklelyje nerodoma. Vietoje to, trukmės langeliuose, kuriuose yra ši papildoma išsami informacija, bus rodomas nedidelis trikampis indikatorius. Pasirinkite langelį, tada pasirinkite **Redaguoti išsamią informaciją** , kad peržiūrėtumėte duomenis srityje **Spartusis redagavimas**. Norėdami redaguoti arba atnaujinti tam tikro laiko įrašo, kuris nepriklauso savaitės laiko įrašo tinkleliui, išsamią informaciją, vartotojai turi atidaryti sritį **Spartusis redagavimas**.
+Kai kurių laukų laiko įrašų puslapyje išsami informacija, pvz., **Aprašas** ir **Išoriniai komentarai** savaitės laiko įrašo tinklelyje nerodoma. Vietoje to, trukmės langeliuose, kuriuose yra ši papildoma išsami informacija, bus rodomas nedidelis trikampis indikatorius. Pasirinkite langelį, tada pasirinkite **Redaguoti išsamią informaciją**, kad peržiūrėtumėte duomenis srityje **Spartusis redagavimas**. Norėdami redaguoti arba atnaujinti tam tikro laiko įrašo, kuris nepriklauso savaitės laiko įrašo tinkleliui, išsamią informaciją, vartotojai turi atidaryti sritį **Spartusis redagavimas**.
 
 ## <a name="copy-a-time-entry-row"></a>Laiko įrašo eilutės kopijavimas
-Sukūrus pirmą laiko įrašo eilutę, vartotojai gali pasirinkti **Kopijuoti eilutę** ir nukopijuoti visą eilutę į naują eilutę. Tokiu būdu nukopijavus eilutę, taip pat nukopijuojamos dimensijos ir trukmė. Be to, vartotojai gali pasirinkti **Redaguoti eilutę** , kad skyriuje **Trukmė** eilutėje atnaujintų dimensijos reikšmes ir trukmę.
+Sukūrus pirmą laiko įrašo eilutę, vartotojai gali pasirinkti **Kopijuoti eilutę** ir nukopijuoti visą eilutę į naują eilutę. Tokiu būdu nukopijavus eilutę, taip pat nukopijuojamos dimensijos ir trukmė. Be to, vartotojai gali pasirinkti **Redaguoti eilutę**, kad skyriuje **Trukmė** eilutėje atnaujintų dimensijos reikšmes ir trukmę.
 
 ## <a name="open-a-time-entry"></a>Laiko įrašo atidarymas
 Kad būtų galima optimaliai ir greitai įvesti į svarbiausius laukus, savaitės laiko įrašo tinklelyje rodomas pasirinktų dimensijų ir laiko trukmės subrinkinys. Norėdami peržiūrėti visą išsamią vieno laiko įrašo informaciją, srityje **Redaguoti įrašą** pasirinkite **Atidaryti**.
@@ -71,13 +71,13 @@ Vartotojai gali pateikti vieną laiko įrašą arba laiko įrašų grupę, pažy
 Galite atšaukti laiko įrašus, kuriuos pateikėte. Galite atšaukti vieną laiko įrašą, laiko įrašų bloką arba visą laiko įrašų eilutę. Atšauktus laiko įrašus ištekliai gali redaguoti.
 
 ## <a name="time-entry-status"></a>Laiko įrašo būsena
-Naujiems laiko įrašams automatiškai priskiriama būsena **Juodraštis**. Pateikus laiko įrašą jo būsena atnaujinama į **Pateiktas**. Kai pateiktas laiko įrašas patvirtinamas, jo būsena atnaujinama į **Patvirtintas**. Jei laiko įrašas atmetamas, būsena atnaujinama į **Grąžintas** , o įrašą galima pataisyti ir pateikti iš naujo. Galima naikinti tik laiko įrašus, kurių būsena yra **Juodraštis**.
+Naujiems laiko įrašams automatiškai priskiriama būsena **Juodraštis**. Pateikus laiko įrašą jo būsena atnaujinama į **Pateiktas**. Kai pateiktas laiko įrašas patvirtinamas, jo būsena atnaujinama į **Patvirtintas**. Jei laiko įrašas atmetamas, būsena atnaujinama į **Grąžintas**, o įrašą galima pataisyti ir pateikti iš naujo. Galima naikinti tik laiko įrašus, kurių būsena yra **Juodraštis**.
 
 ## <a name="view-rejection-comments"></a>Atmetimo komentarų peržiūra
 Kai tvirtintojas atmeta laiko įrašą, jis gali įtraukti atmetimo komentarų, kad išteklius galėtų sužinoti atmetimo priežastį. Norėdami peržiūrėti laiko įrašo atmetimo komentarus, pasirinkite **Atidaryti įrašą**. Atmetimo komentarai bus rodomi laiko planavimo juostoje. Laiko planavimo juostoje išteklius gali atsakyti į atmetimo komentarus prieš pateikdamas įrašą iš naujo.
 
 ## <a name="copy-week"></a>Kopijuoti savaitę
-Sukūrus kelis laiko įrašus, vartotojai gali pasirinkti **Kopijuoti savaitę** , kad būtų masiškai sukurti papildomi laiko įrašai. Rodomas dialogo langas **Kopijuoti**. Skyriuje **Laikotarpio pradžia** naudokite laukus **Pradžios data** ir **Pabaigos data** , kad nustatytumėte datos intervalą, iš kurio kopijuoti laiko įrašus. Skyriuje **Laikotarpio pabaiga** , lauke **Pradžios data** nurodykite datą, kuriai norite kurti laiko įrašus. Tada pasirinkite **Kopijuoti**. Datai, nurodytai kaip „Laikotarpio pabaiga“, sukuriama savaitės, nurodytos kaip „Laikotarpio pradžia“ atitinkamos dienos laiko įrašų kopija. Pavyzdžiui, praėjusios savaitės pirmadienio laiko įrašas nukopijuojamas į savaitės, nurodytos kaip „Laikotarpio pabaiga“, pirmadienį.
+Sukūrus kelis laiko įrašus, vartotojai gali pasirinkti **Kopijuoti savaitę**, kad būtų masiškai sukurti papildomi laiko įrašai. Rodomas dialogo langas **Kopijuoti**. Skyriuje **Laikotarpio pradžia** naudokite laukus **Pradžios data** ir **Pabaigos data**, kad nustatytumėte datos intervalą, iš kurio kopijuoti laiko įrašus. Skyriuje **Laikotarpio pabaiga**, lauke **Pradžios data** nurodykite datą, kuriai norite kurti laiko įrašus. Tada pasirinkite **Kopijuoti**. Datai, nurodytai kaip „Laikotarpio pabaiga“, sukuriama savaitės, nurodytos kaip „Laikotarpio pradžia“ atitinkamos dienos laiko įrašų kopija. Pavyzdžiui, praėjusios savaitės pirmadienio laiko įrašas nukopijuojamas į savaitės, nurodytos kaip „Laikotarpio pabaiga“, pirmadienį.
 
 ## <a name="import"></a>Importuoti
 Tas pats pagrindinis procesas naudojamas importuojant iš rezervavimų, užduočių ir keitimų. Vartotojai gali nurodyti datų intervalą, iš kurio importuojami rezervavimai. Tada jie turi pasirinkti konkrečius rezervavimus, kuriuos reikia kopijuoti į laiko įrašų juodraščius. Ankstesniame leidime siūlomi laiko įrašų buvo rodomi tinklelyje ir kalendoriuje, o atnaujinus seansą būdavo prarandami.
@@ -98,7 +98,7 @@ Be to, reikia įsitikinti, ar naujas laukas turi reikiamus tikrinimus eilutės a
 #### <a name="configure-the-grid-to-show-the-custom-field"></a>Sukonfigūruokite tinklelį, kad būtų rodomas pasirinktinis laukas
 Įtraukti pasirinktinį lauką į savaitės laiko įrašo tinklelį galima dviem būdais. Pirma parinktis yra tinkinti rodinį **Mano savaitės laiko įrašai** ir į jį įtraukti pasirinktinį lauką. Galite pasirinkti pasirinktinio lauko padėtį ir dydį tinklelyje redaguodami šias ypatybes rodinyje.
 
-Antroji parinktis yra sukurti naują pasirinktinį laiko įrašo rodinį ir nustatyti jį kaip numatytąjį rodinį. Šiame rodinyje turėtų būti laukai **Aprašas** ir **Išoriniai komentarai** , taip pat stulpeliai, kurie turėtų būti tinklelyje. Galite pasirinkti tinklelio padėtį, dydį ir numatytąją rikiavimo tvarką redaguodami šias ypatybes rodinyje. Tada sukonfigūruokite pasirinktinį šio rodinio valdiklį, kad jis būtų valdiklis **Laiko įrašo tinklelis**. Įtraukite šį valdiklį į rodinį ir pasirinkite jį žiniatinklyje, telefone ir planšetiniame kompiuteryje. Tada sukonfigūruokite savaitės laiko įrašo tinklelio parametrus. Lauką **Pradžios data** nustatykite kaip **msdyn_date** , lauką **Trukmė** nustatykite kaip **msdyn_duration** , o lauką **Būsena** nustatykite kaip **msdyn_entrystatus**. Naudojant numatytąjį rodinį laukas **Tik skaitymo būsenos sąrašas** nustatytas kaip **192350002,192350003,192350004** , laukas **Eilutės redagavimo užduočių srautas** nustatytas kaip **msdyn_timeentryrowedit** , o laukas **Langelio redagavimo užduočių srautas** nustatytas kaip **msdyn_timeentryedit**. Galite tinkinti šiuos laukus, jei norite įtraukti arba pašalinti tik skaitymo būseną arba naudoti kitą užduotimi pagrįstą funkciją (TBX) eilutėms arba langeliams redaguoti. Šie laukai turi būti susieti su pastovia reikšme.
+Antroji parinktis yra sukurti naują pasirinktinį laiko įrašo rodinį ir nustatyti jį kaip numatytąjį rodinį. Šiame rodinyje turėtų būti laukai **Aprašas** ir **Išoriniai komentarai**, taip pat stulpeliai, kurie turėtų būti tinklelyje. Galite pasirinkti tinklelio padėtį, dydį ir numatytąją rikiavimo tvarką redaguodami šias ypatybes rodinyje. Tada sukonfigūruokite pasirinktinį šio rodinio valdiklį, kad jis būtų valdiklis **Laiko įrašo tinklelis**. Įtraukite šį valdiklį į rodinį ir pasirinkite jį žiniatinklyje, telefone ir planšetiniame kompiuteryje. Tada sukonfigūruokite savaitės laiko įrašo tinklelio parametrus. Lauką **Pradžios data** nustatykite kaip **msdyn_date**, lauką **Trukmė** nustatykite kaip **msdyn_duration**, o lauką **Būsena** nustatykite kaip **msdyn_entrystatus**. Naudojant numatytąjį rodinį laukas **Tik skaitymo būsenos sąrašas** nustatytas kaip **192350002,192350003,192350004**, laukas **Eilutės redagavimo užduočių srautas** nustatytas kaip **msdyn_timeentryrowedit**, o laukas **Langelio redagavimo užduočių srautas** nustatytas kaip **msdyn_timeentryedit**. Galite tinkinti šiuos laukus, jei norite įtraukti arba pašalinti tik skaitymo būseną arba naudoti kitą užduotimi pagrįstą funkciją (TBX) eilutėms arba langeliams redaguoti. Šie laukai turi būti susieti su pastovia reikšme.
 
 #### <a name="add-the-custom-field-to-the-appropriate-edit-task-flow"></a>Pasirinktinio lauko įtraukimas į reikiamą redagavimo užduočių srautą
 TBX puslapius, naudojamus redagavimui, galima rasti srityje **Procesai**. Numatytieji puslapiai yra **„Project Service“ - Laiko įrašo eilutės redagavimas** ir **„Project Service“ - Laiko įrašo redagavimas**. Galite redaguoti šiuos numatytuosius puslapius arba kurti naujus pasirinktinius TBX puslapius.
@@ -108,12 +108,12 @@ TBX puslapius, naudojamus redagavimui, galima rasti srityje **Procesai**. Numaty
 
 Turite nustatyti tinkamą pasirinktinio lauko užduočių srautą. Tikriausiai, jei įtraukėte lauką į tinklelį, jis turėtų patekti į eilutės redagavimo užduočių srautą, naudojamą laukuose, kurie taikomi visai laiko įrašų eilutei. Jei pasirinktinis lauką kiekvieną dieną turi skirtingą reikšmę, pvz., **Pabaigos laiko** pasirinktinis laukas, jis turėtų patekti į langelio redagavimo užduočių srautą.
 
-Norėdami į užduočių srautą įtraukti pasirinktinį lauką, nuvilkite elementą **Laukas** į reikiamą vietą puslapyje ir nustatykite jo ypatybes. Ypatybę **Šaltinis** nustatykite kaip **Laiko įrašas** , o ypatybę **Duomenų laukas** nustatykite kaip pasirinktinį lauką. Ypatybė **Laukas** nurodo rodomą pavadinimą TBX puslapyje. Pasirinkite **Taikyti** , kad įrašytumėte lauko keitimus. Tada pasirinkite **Naujinti** , kad įrašytumėte puslapio keitimus.
+Norėdami į užduočių srautą įtraukti pasirinktinį lauką, nuvilkite elementą **Laukas** į reikiamą vietą puslapyje ir nustatykite jo ypatybes. Ypatybę **Šaltinis** nustatykite kaip **Laiko įrašas**, o ypatybę **Duomenų laukas** nustatykite kaip pasirinktinį lauką. Ypatybė **Laukas** nurodo rodomą pavadinimą TBX puslapyje. Pasirinkite **Taikyti**, kad įrašytumėte lauko keitimus. Tada pasirinkite **Naujinti**, kad įrašytumėte puslapio keitimus.
 
-Jei norite naudoti naują pasirinktinį TBX puslapį, sukurkite naują procesą. Nustatykite kategoriją kaip **Veiklos procesų seka** , nustatykite objektą kaip **Laiko įrašas** , o veiklos proceso tipą nustatykite kaip **Vykdyti procesą kaip užduočių srautą**. Srityje **Ypatybės** ypatybė **Puslapio pavadinimas** turi būti nustatyta kaip puslapio rodomas pavadinimas. Visus reikiamus laukus įtraukite į TBX puslapį. Įrašykite ir suaktyvinkite procesą, tada atnaujinkite atitinkamo užduočių srauto pasirinktinio valdiklio ypatybę į reikšmę **Pavadinimas** procese.
+Jei norite naudoti naują pasirinktinį TBX puslapį, sukurkite naują procesą. Nustatykite kategoriją kaip **Veiklos procesų seka**, nustatykite objektą kaip **Laiko įrašas**, o veiklos proceso tipą nustatykite kaip **Vykdyti procesą kaip užduočių srautą**. Srityje **Ypatybės** ypatybė **Puslapio pavadinimas** turi būti nustatyta kaip puslapio rodomas pavadinimas. Visus reikiamus laukus įtraukite į TBX puslapį. Įrašykite ir suaktyvinkite procesą, tada atnaujinkite atitinkamo užduočių srauto pasirinktinio valdiklio ypatybę į reikšmę **Pavadinimas** procese.
 
 ### <a name="add-new-option-set-values"></a>Naujų parinkčių rinkinio reikšmių įtraukimas
-Norėdami įtraukti parinkčių rinkinio reikšmių į numatytąjį lauką, atidarykite lauko redagavimo puslapį, tada srityje **Tipas** šalia parinkčių rinkinio pasirinkite **Redaguoti**. Tada įtraukite naują parinktį, turinčią pasirinktinę žymą ir spalvą. Jei norite įtraukti naują laiko įrašo būseną, numatytojo lauko pavadinimas yra **Įrašo būsena** , o ne **Būsena**.
+Norėdami įtraukti parinkčių rinkinio reikšmių į numatytąjį lauką, atidarykite lauko redagavimo puslapį, tada srityje **Tipas** šalia parinkčių rinkinio pasirinkite **Redaguoti**. Tada įtraukite naują parinktį, turinčią pasirinktinę žymą ir spalvą. Jei norite įtraukti naują laiko įrašo būseną, numatytojo lauko pavadinimas yra **Įrašo būsena**, o ne **Būsena**.
 
 ### <a name="designate-a-new-time-entry-status-as-read-only"></a>Naujos laiko įrašo būsenos nustatymas kaip skirtos tik skaityti
 Norėdami nustatyti naują laiko įrašo būseną kaip skirtą tik skaityti, įtraukite naują laiko įrašo reikšmę (numerį, o ne žymą) į ypatybę **Tik skaitymo būsenos sąrašas**. Eilučių, kurios turi naują būseną, laiko įrašo tinklelio redaguojama dalis bus užrakinta.

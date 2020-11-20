@@ -3,7 +3,7 @@ title: Kas nauja arba pakeista „Project Service Automation“ V3 14 atnaujinta
 description: Šioje temoje pateikiama informacijos apie tai, kas nauja ir pakeista „Project Service Automation“ 14 atnaujintame leidime V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 01/29/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 00ce5c68b1141c88671f0534f7500bf0d7eebd8e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b811bf7ccfb626e6944801dffa943d2afab0c5e8
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080794"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124828"
 ---
 # <a name="project-service-automation-update-release-14-v3"></a>„Project Service Automation“ V3 14 naujinimo leidimas
 Džiaugiamės galėdami pranešti apie naujausią Dynamics 365 Project Service Automation (PSA) programos naujinimą. Šiame leidime yra kai kurių svarbių kokybės, veikimo ir naudojimo patobulinimų. Šis leidimas suderinamas su „Dynamics 365“ 9.x versija. Norėdami naujinti šį leidimą, eikite į „Dynamics 365“ administravimo centrą, tada eikite į sprendimų puslapį, iš kurio galite įdiegti naujinimą. Daugiau informacijos žr. [Pageidaujamo sprendimo diegimas, naujinimas arba šalinimas](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
@@ -38,7 +38,7 @@ Džiaugiamės galėdami pranešti apie naujausią Dynamics 365 Project Service A
 
 - Sales
 
-     - Pasirinktinės lauko reikšmės iš **Pasiūlymo eilutės išsami informacija** kopijuojamos į **Projekto sutarties eilutės išsami informacija** , kai pasiūlymas atnaujinamas į **Uždarytas kaip laimėjęs**.
+     - Pasirinktinės lauko reikšmės iš **Pasiūlymo eilutės išsami informacija** kopijuojamos į **Projekto sutarties eilutės išsami informacija**, kai pasiūlymas atnaujinamas į **Uždarytas kaip laimėjęs**.
      - Patvirtinti projektai gali būti **Uždaryti kaip pralaimėję**.
 
 - Išteklių valdymas

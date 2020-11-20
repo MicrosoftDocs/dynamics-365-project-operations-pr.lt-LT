@@ -3,7 +3,7 @@ title: Kas nauja arba pakeista „Project Service Automation“ V3 21 atnaujinta
 description: Šioje temoje išvardytos funkcijos ir pataisymai, kurie yra pasiekiami „Project Service Automation“ V3 21 atnaujintame leidime.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 06/19/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e8a15d5f723da528640c62c1892bac0d801c2bee
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 799be481c365e82e8ffb59ba242e30378644008b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080787"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126718"
 ---
 # <a name="project-service-automation-update-release-21-v3"></a>„Project Service Automation“ V3 21 naujinimo leidimas
 
@@ -38,7 +38,7 @@ Malonu pranešti apie naujausią „Dynamics 365“ programos „Project Service
 
 Buvo pataisytos šios problemos:
 
-- Kai ataskaitų srityje veikia **Laiko įrašo tinklelio valdymas** , tinklelis nenaudoja viso ataskaitų srities tinklelio talpyklės pločio.
+- Kai ataskaitų srityje veikia **Laiko įrašo tinklelio valdymas**, tinklelis nenaudoja viso ataskaitų srities tinklelio talpyklės pločio.
 - Tam tikroms laiko juostoms **Laiko įrašo** tinklelio valdiklis nerodo įrašų.
 - Laiko įrašai, vėlesni nei 21:00, rodomi netinkamą parą.
 - Vartotojai negali pateikti išlaidų, jei išlaidų kategorijai **Būtinas išlaidų kvitas** nėra nustatytos reikšmės.
@@ -54,7 +54,7 @@ Buvo pataisytos šios problemos:
 
 Buvo pataisytos šios problemos:
 
-- **Projekto** formos tinklelius (rodiniai **Išteklių priskyrimas** , **Užduotis** , **Suderinimas** , **Išlaidų sąmatos** ) galima redaguoti net tada, kai projektas nėra aktyvus.
+- **Projekto** formos tinklelius (rodiniai **Išteklių priskyrimas**, **Užduotis**, **Suderinimas**, **Išlaidų sąmatos**) galima redaguoti net tada, kai projektas nėra aktyvus.
 - Dubliuotų klientų negalima sulieti su klientais, susijusiais su patvirtintomis projekto sutartimis.
 - Kai pridedamas išteklius, neturintis galiojančio kalendoriaus, sistema neparodo vartotojui patogaus klaidos pranešimo.
 - Mygtukas **Pridėti užduotį** įjungiamas užduočių tinklelyje tada, kai projektas susiejamas su **„Microsoft Project“ papildiniu**.
@@ -69,9 +69,9 @@ Buvo atlikti šie patobulinimai:
 Buvo pataisytos šios problemos:
 
 - **Kategorijoje** **Bendroji pardavimo kaina** yra nulis (0) , nors vertė **Vaidmuo** turi bendrą pardavimo kainą, nelygią nuliui.
-- Klientai negali pakeisti lauko **Sąskaitos faktūros būsenos** reikšmės į **Parengta išrašyti sąskaitą faktūrą** , kai kitas tinkinamas procesas naujina papildomą lauką.
+- Klientai negali pakeisti lauko **Sąskaitos faktūros būsenos** reikšmės į **Parengta išrašyti sąskaitą faktūrą**, kai kitas tinkinamas procesas naujina papildomą lauką.
 - Mygtuku **Atnaujinti sąskaitų faktūrų eilutes** galima sukurti kelias dubliuotas eilutes, jei jis yra pakartotinai paspaudžiamas.
-- Mygtukas **Naujinti kainas** neveikia papildomame tinklelyje **Vaidmens kainos** , esančiame formoje **Sparčioji peržiūra**.
+- Mygtukas **Naujinti kainas** neveikia papildomame tinklelyje **Vaidmens kainos** formoje **Sparčioji peržiūra**.
 - **Pardavimo kainoraščio aprašo** algoritmas netinkamai apdoroja laiko juostas, todėl gaunamas netinkamas kainoraščių pasirinkimas.
 - Patvirtinus vieno laiko įrašą, projekto **Faktinių išlaidų suma** gali turėti nežymią paklaidą.
 - **Kainų aprašo** algoritmas nepateikia vartotojui patogaus pranešimo, jei **Gauta vaidmenų kaina** neturi reikšmių laukuose **Pagrindinis vienetas** ir **Kaina pagrindiniu vienetu**.

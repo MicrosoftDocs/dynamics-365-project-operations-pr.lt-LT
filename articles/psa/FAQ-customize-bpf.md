@@ -2,7 +2,7 @@
 title: Kaip tinkinti projekto etapų veiklos procesų sekas?
 description: Peržiūra, kaip galima tinkinti projekto etapų veiklos procesų seką.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/11/2018
@@ -18,18 +18,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2dccc33088cd9e49e7ffe609f9d9754ef33a5dba
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a999bbffff848db7a6349df380d9ed5e73c143ab
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081022"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125053"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>Kaip tinkinti projekto etapų veiklos procesų sekas?
 [!INCLUDE[cc-applies-to-psa-app-2-4x-9-0-platform](../includes/cc-applies-to-psa-app-2-4x-9-0-platform.md)]
 [!INCLUDE[cc-applies-to-psa-app-1x-8-2-platform](../includes/cc-applies-to-psa-app-1x-8-2-platform.md)]
 
-Yra žinoma, kad ankstesnėse „Project Service“ programos versijose egzistuoja apribojimas, dėl kurio etapų pavadinimai projekto etapų veiklos procesų sekoje privalo būti lygiai tokie pat kaip ir numatytieji angliški pavadinimai ( **Quote** , **Plan** , **Close** ). Kitu atveju, verslo logika, kuri yra paremta angliškais etapų pavadinimais, neveiks tinkamai. Būtent dėl to negalite matyti žinomų ir projekto formoje galimų veiksmų, tokių kaip **Perjungti procesą** arba **Redaguoti procesą** , o veiklos procesų sekos tinkinimas nėra skatinamas. 
+Yra žinoma, kad ankstesnėse „Project Service“ programos versijose egzistuoja apribojimas, dėl kurio etapų pavadinimai projekto etapų veiklos procesų sekoje privalo būti lygiai tokie pat kaip ir numatytieji angliški pavadinimai (**Quote**, **Plan**, **Close**). Kitu atveju, verslo logika, kuri yra paremta angliškais etapų pavadinimais, neveiks tinkamai. Būtent dėl to negalite matyti žinomų ir projekto formoje galimų veiksmų, tokių kaip **Perjungti procesą** arba **Redaguoti procesą**, o veiklos procesų sekos tinkinimas nėra skatinamas. 
 
 Šis apribojimas panaikintas 2.4.5.48 ir naujesnėse versijose. Šiame straipsnyje pateikiami siūlomi problemos sprendimai, skirti ankstesnėms versijoms, jei jums reikia tinkinti numatytąją veiklos procesų seką,  
 
@@ -38,7 +38,7 @@ Yra žinoma, kad ankstesnėse „Project Service“ programos versijose egzistuo
 Į projekto etapų veiklos procesų seką įtraukta verslo logika, kuri yra šių veiksmų priežastis:
 - Kai projektas yra susietas su pasiūlymu, kodu nustatomas veiklos procesų sekos etapas **Quote**.
 - Kai projektas yra susietas su sutartimi, kodu nustatomas veiklos procesų sekos etapas **Plan**.
-- Kai veiklos procesų seka yra perkeliama į etapą **Close** , projekto įrašas yra išjungiamas. Kai projektas yra išjungiamas, projekto forma ir darbo paskirstymo struktūra (WBS) nustatomi į režimą „tik skaityti“, įvardyti išteklių rezervavimai yra paleidžiami, o visi susieti kainoraščiai išjungiami.
+- Kai veiklos procesų seka yra perkeliama į etapą **Close**, projekto įrašas yra išjungiamas. Kai projektas yra išjungiamas, projekto forma ir darbo paskirstymo struktūra (WBS) nustatomi į režimą „tik skaityti“, įvardyti išteklių rezervavimai yra paleidžiami, o visi susieti kainoraščiai išjungiami.
 
 Ši verslo logika yra paremta angliškais projekto etapų pavadinimais. Tokia priklausomybė nuo angliškų etapų vadinimų yra pagrindinė priežastis, kodėl nėra skatinamas projektų etapų veiklos procesų sekos tinkinimas, taip pat, kodėl projekto objekte negalite matyti bendrųjų veiklos procesų sekos veiksmų, pavyzdžiui, **„Perjungti procesą“** arba **„Redaguoti procesą“**.
 
@@ -48,7 +48,7 @@ Jei „Project Service“ programos 1.x versijos 8.2 platformoje etapų pavadini
 
 „Project Service“ programos 2.4.4.30 arba ankstesnės versijos 9.0 platformoje buvo atliktas esminis veiklos procesų sekos architektūros pakeitimas, kuriam buvo būtinas veiklos procesų sekos verslo logikos perrašymas. To rezultatas – jei proceso etapo pavadinimas ir numatytasis angliškas pavadinimas neatitinka, apie tai informuojama klaidos pranešimu. 
 
-Todėl, norėdami tinkinti projekto objekto projekto etapų veiklos procesų seką, galite nebent prie projekto objekto numatytosios veiklos procesų sekos pridėti naujus etapus, **Quote** , **Plan** ir **Close** palikdami tokius, kokie jie yra. Dėl šio apribojimo būsite tikri, kad jūs negausite klaidų pranešimų dėl verslo logikos, pagal kurią veiklos proceso sekoje turi būti angliški pavadinimai.
+Todėl, norėdami tinkinti projekto objekto projekto etapų veiklos procesų seką, galite nebent prie projekto objekto numatytosios veiklos procesų sekos pridėti naujus etapus, **Quote**, **Plan** ir **Close** palikdami tokius, kokie jie yra. Dėl šio apribojimo būsite tikri, kad jūs negausite klaidų pranešimų dėl verslo logikos, pagal kurią veiklos proceso sekoje turi būti angliški pavadinimai.
 
 Šiame straipsnyje aptariama verslo logika 2.4.5.48 arba naujesnėje versijoje bus pašalinta iš numatytosios projekto objekto veiklos procesų sekos. Atnaujinę savąją programą į šią arba naujesnę versiją galėsite tinkinti arba pakeisti numatytąją veiklos procesų seką savąja. 
 
@@ -56,18 +56,18 @@ Todėl, norėdami tinkinti projekto objekto projekto etapų veiklos procesų sek
 
 Jei atnaujinti programos negalite, galimi du projekto objekto projekto etapų veiklos procesų sekos tinkinimo būdai:
 
-1. Galite prie numatytosios konfigūracijos pridėti papildomus etapus, tuo pat metu palikdami angliškus etapų . **Quote** , **Plan** ir **Close** pavadinimus.
+1. Galite prie numatytosios konfigūracijos pridėti papildomus etapus, tuo pat metu palikdami angliškus etapų .**Quote**, **Plan** ir **Close** pavadinimus.
 
 
 ![Etapų pridėjimo prie numatytosios konfigūracijos ekrano nuotrauka](media/FAQ-Customize-BPF-1.png)
  
-2. Galite sukurti savąją veiklos procesų seką bei ją paversti pirmine projekto objekto veiklos procesų seka, kas leistų jums etapus vadinti taip, kaip norite. Tačiau jei norite naudoti tuos pačius standartinių projektų etapus **Quote** , **Plan** ir **Close** , turėsite atlikti keletą tinkinimų, po kurių bus pašalinti jūsų pasirinktiniai etapų pavadinimai. Dar sudėtingesnė yra projekto uždarymo logika, kurią vis vien galite sužadinti tiesiog išjungdami projekto įrašą.
+2. Galite sukurti savąją veiklos procesų seką bei ją paversti pirmine projekto objekto veiklos procesų seka, kas leistų jums etapus vadinti taip, kaip norite. Tačiau jei norite naudoti tuos pačius standartinių projektų etapus **Quote**, **Plan** ir **Close**, turėsite atlikti keletą tinkinimų, po kurių bus pašalinti jūsų pasirinktiniai etapų pavadinimai. Dar sudėtingesnė yra projekto uždarymo logika, kurią vis vien galite sužadinti tiesiog išjungdami projekto įrašą.
 
 ![BPF tinkinimas](media/FAQ-Customize-BPF-2.png)
 
 ### <a name="additional-considerations-for-project-service-app-version-24430-or-earlier-on-platform-90"></a>Kitos pastabos dėl „Project Service“ programos 2.4.4.30 arba ankstesnės versijos 9.0 platformoje
 
-„Project Service“ 2.4.4.30 arba ankstesnės versijos 9.0 platformoje, naudojant pasirinktinę veiklos procesų seką, projekto objekto laukas **„Etapo pavadinimas“** , kuris yra naudojamas diagramoje **„Projektas pagal etapą“** , ir projekto sąrašo rodiniai neatsinaujins, nes jie yra susieti su numatytąja projekto etapų veiklos procesų seka. Šią problemą galite išspręsti atlikdami šiuos veiksmus:
+„Project Service“ 2.4.4.30 arba ankstesnės versijos 9.0 platformoje, naudojant pasirinktinę veiklos procesų seką, projekto objekto laukas **„Etapo pavadinimas“**, kuris yra naudojamas diagramoje **„Projektas pagal etapą“**, ir projekto sąrašo rodiniai neatsinaujins, nes jie yra susieti su numatytąja projekto etapų veiklos procesų seka. Šią problemą galite išspręsti atlikdami šiuos veiksmus:
 
 - Įtraukite pasirinktinį lauką ir galėsite užfiksuoti dabartinį veiklos procesų sekos etapą, kuris yra naujinamas vartotojui žengiant per pasirinktinę veiklos procesų seką.
 
@@ -81,7 +81,7 @@ Norėdami sukurti asmeninę projekto objekto veiklos procesų seką atlikite ši
 
   ![Proceso kūrimas](media/FAQ-Customize-BPF-3.png)
 
-2. Naudodami procesų kūrimo įrankį sukurkite norimus etapų pavadinimus. Jei norite, kad jūsų etapo funkcionalumas būtų toks pat kaip ir numatytųjų etapų **Quote** , **Plan** ir **Close** , kurti etapą turėsite remdamiesi savo pasirinktinės veiklos procesų eilės etapų pavadinimais.
+2. Naudodami procesų kūrimo įrankį sukurkite norimus etapų pavadinimus. Jei norite, kad jūsų etapo funkcionalumas būtų toks pat kaip ir numatytųjų etapų **Quote**, **Plan** ir **Close**, kurti etapą turėsite remdamiesi savo pasirinktinės veiklos procesų eilės etapų pavadinimais.
 
    ![Procesų kūrimo įrankio, naudojamo veiklos procesų sekai tinkinti, ekrano nuotrauka](media/FAQ-Customize-BPF-4.png) 
 

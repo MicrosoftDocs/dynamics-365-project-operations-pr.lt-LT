@@ -3,7 +3,7 @@ title: Pardavimų procesai
 description: Šioje temoje pateikiama informacija apie pagrindinius pardavimo procesus.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f09b30fe6d842faaf896cb97f44b060ec4049213
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 38e02018e46943f53680babd12c7bede0a5d19de
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080950"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129328"
 ---
 # <a name="sales-processes"></a>Pardavimų procesai
 
@@ -70,12 +70,12 @@ Pavyzdžiui, jūsų įmonės pardavimo procesą gali sudaryti šeši toliau išv
  
 Vykdydama tą patį sandorį organizacija gali naudoti įvairius objektus jam nurodyti. Pardavimo proceso pradžioje sandorį nurodo objektas Galimybė. Laikui bėgant gavę daugiau informacijos galite naudoti aukšto lygio įvertinimus ir sukurti vieną ar kelis pasiūlymus. Jei vieną iš šių pasiūlymų peržiūri vidaus ir kliento suinteresuotosios šalys, sandoris nurodomas kaip objektas Pasiūlymas. Klientui priėmus pasiūlymą, sandorį nurodo projekto sutartis arba SOW. Siekiant palaikyti šį veikimo principą veiklos procesų eigos yra sudarytos taip, kad kiekvienas proceso etapas būtų susietas su skirtinga duomenų bazės lentele.
 
-Pardavimo proceso etapą **Patvirtinimas** galima susieti su objektu Galimybė. Etapus **Įvertinimas** ir **Vidinė peržiūra** galima susieti su objektu Pasiūlymas. Etapus **Sutartis** , **Pristatymas** ir **Uždarymas** galima susieti su objektu Projekto sutartis.
+Pardavimo proceso etapą **Patvirtinimas** galima susieti su objektu Galimybė. Etapus **Įvertinimas** ir **Vidinė peržiūra** galima susieti su objektu Pasiūlymas. Etapus **Sutartis**, **Pristatymas** ir **Uždarymas** galima susieti su objektu Projekto sutartis.
 
 Vykdydami sandorio etapus būsite paraginti sukurti atitinkamą objekto įrašą, kad galėtumėte lengviau ir tiksliau atlikti procesą. Etapai gali būti sąlyginiai. Pavyzdžiui, jei jums pasiūlymo vidinės peržiūros jums tik tuo atveju, jei pasiūlymui naudojamas pasirinktinis kainoraštis, galite sukonfigūruoti šią sąlygą atitinkamame veiklos proceso etape. Tada etapas **Vidinė peržiūra** bus rodomas tik pasiūlymuose, kuriems naudojamas pasirinktinis kainoraštis. Visų kitų sandorių ir pasiūlymų atveju po etapo **Įvertinimas** vykdomas etapas **Sutartis**.
 
 > [!NOTE]
-> PSA yra specialūs objektų Galimybė, Pasiūlymas, Užsakymas ir Sąskaita faktūra puslapiai. „Project Service“ galimybes, pasiūlymus, užsakymus ir sąskaitas faktūras reikia kurti naudojant šių objektų projekto informacijos puslapius. Jei kurdami įrašą naudosite kitą puslapį, negalėsite atidaryti įrašo puslapyje **Projekto informacija**. Norėdami atidaryti įrašą iš puslapio **Projekto informacija** , turėsite panaikinti įrašą ir iš naujo jį sukurti naudodami puslapį **Projekto informacija**. Puslapyje **Projekto informacija** kiekvieno iš šių objektų verslo logika užtikrina, kad įrašo laukas **Tipas** būtų tinkamai nustatytas ir visos privalomos koncepcijos būtų tinkamai inicijuotos.
+> PSA yra specialūs objektų Galimybė, Pasiūlymas, Užsakymas ir Sąskaita faktūra puslapiai. „Project Service“ galimybes, pasiūlymus, užsakymus ir sąskaitas faktūras reikia kurti naudojant šių objektų projekto informacijos puslapius. Jei kurdami įrašą naudosite kitą puslapį, negalėsite atidaryti įrašo puslapyje **Projekto informacija**. Norėdami atidaryti įrašą iš puslapio **Projekto informacija**, turėsite panaikinti įrašą ir iš naujo jį sukurti naudodami puslapį **Projekto informacija**. Puslapyje **Projekto informacija** kiekvieno iš šių objektų verslo logika užtikrina, kad įrašo laukas **Tipas** būtų tinkamai nustatytas ir visos privalomos koncepcijos būtų tinkamai inicijuotos.
 
 > ![Naujo užsakymo projekto informacija](media/basic-guide-4.png)
  
@@ -87,7 +87,7 @@ Nors PSA pardavimo procesui naudojamos pagrindines „Sales“ pardavimo proceso
 - **Pasiūlymo kaip pralaimėto arba laimėto uždarymas** – naudojant PSA, kai projekto pasiūlymas uždaromas kaip laimėtas arba pralaimėtas, galimybė lieka atidaryta. Visi kiti galimybės pasiūlymai uždaromi kaip pralaimėti. Kai pasiūlymas uždaromas kaip laimėtas arba pralaimėtas, vartotojas paraginamas imtis su galimybe susijusių veiksmų. Atsižvelgiant į vartotojo įvestį, pamatinė galimybė gali būti uždaryta arba palikta atidaryta.
 
 ## <a name="tracking-revisions-to-quotes-and-project-plans-in-the-sales-cycle"></a>Pardavimo ciklo pasiūlymų ir projektų planų peržiūrų sekimas
-Naudodami PSA negalite sekti atliktų pasiūlymo peržiūrų. Turite pažymėti esamą pasiūlymą **Uždarytas kaip pralaimėtas** , o tada sukurti naują pasiūlymą. Naudodami PSA galite nukopijuoti pasiūlymą arba klonuoti projektu pagrįstą pasiūlymą.
+Naudodami PSA negalite sekti atliktų pasiūlymo peržiūrų. Turite pažymėti esamą pasiūlymą **Uždarytas kaip pralaimėtas**, o tada sukurti naują pasiūlymą. Naudodami PSA galite nukopijuoti pasiūlymą arba klonuoti projektu pagrįstą pasiūlymą.
 
 ## <a name="tracking-comments-and-approvals-of-quotes-and-project-contracts"></a>Pasiūlymų ir projektų sutarčių komentarų bei patvirtinimų sekimas
 Naudodami įrašų sieną ir įrašus galite valdyti pasiūlymų ir projektų sutarčių peržiūrą bei patvirtinimą. Siekdama priskirti, peradresuoti, perskirti ir valdyti peržiūros ir patvirtinimo darbų elementų pranešimus organizacija gali kurti pasirinktines darbo eigas ir priedus.

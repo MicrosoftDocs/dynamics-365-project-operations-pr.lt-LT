@@ -3,7 +3,7 @@ title: SF peržiūra ir siuntimas
 description: Kaip peržiūrėti ir siųsti SF „Project Service“
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8eaef971d1fd419b7a21f0934d6a7f5f92aa35e2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 27994c4a14b25d769a0919514906a7be1804dae2
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080908"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125773"
 ---
 # <a name="view-and-send-invoices-project-service"></a>SF peržiūra ir siuntimas („Project Service“)
 
@@ -48,7 +48,7 @@ Sukūrus projektą, galima nustatyti SF generavimo dažnį. SF galite peržiūr�
   
 2.  Spustelėkite projektą, kuriam norite išrašyti SF.  
   
-3.  Spustelėkite **Pardavimas** , o tada spustelėkite **SF**.  
+3.  Spustelėkite **Pardavimas**, o tada spustelėkite **SF**.  
   
 4.  Pasirinkite operacijų, kurioms norite išrašyti SF, parametrus, įskaitant galutinę datą, elemento, kuriam išrašoma SF, tipą, vienetą ir etapą. Pasirinkę parametrus, spustelėkite **Toliau**.  
   
