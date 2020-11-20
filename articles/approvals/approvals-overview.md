@@ -5,15 +5,15 @@ author: stsporen
 manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 37994422e9146765076fdbb77f5c763b4f1d0802
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 14c6914cf9b5fb52e7554e51604e79f0920064df
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080696"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123838"
 ---
 # <a name="approvals-overview"></a>Tvirtinimų apžvalga
 
@@ -27,9 +27,9 @@ Kai kuriate ir pateikiate laiko arba išlaidų įrašą, sukuriamas patvirtinimo
 ## <a name="approve-an-entry"></a>Įrašo patvirtinimas
 **Patvirtinimo** forma leidžia persijungti iš skirtingų rodinių, kad galėtumėte peržiūrėti skirtingų tipų patvirtinimus.
   
-1. Eikite į **Patvirtinimų** formą ir pasirinkite **Išlaidos** , **Laikas** arba **Atšaukimai**.
+1. Eikite į **Patvirtinimų** formą ir pasirinkite **Išlaidos**, **Laikas** arba **Atšaukimai**.
 2. Peržiūrėkite kiekvieną patvirtinimą ir pažymėkite tuos, kuriuos norite patvirtinti.
-3. Pažymėkite **Patvirtinti** , kad patvirtintumėte pažymėtus įrašus.
+3. Pažymėkite **Patvirtinti**, kad patvirtintumėte pažymėtus įrašus.
 Sistema apdoros šiuos įrašus ir sukurs faktinius duomenis arba užsakymą.
 
 ## <a name="reject-an-entry"></a>Įrašo atmetimas

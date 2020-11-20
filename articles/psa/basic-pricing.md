@@ -3,7 +3,7 @@ title: Projekto kainodara
 description: Šioje temoje pateikiama informacija apie „Dynamics 365 Project Service Automation“ kainodarą.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/11/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b319f9be9fd72ac99ce6012b6baffde812e3077d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 88b791a1eb90d2aad67adba69169eab2c49c1318
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081033"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120778"
 ---
 # <a name="project-pricing"></a>Projekto kainodara 
 
@@ -56,7 +56,7 @@ Terminas *išteklių vaidmuo* nurodo įgūdžių, kompetencijų ir sertifikatų 
 
 Žmogiškųjų išteklių laiko kaina paprastai nustatoma atsižvelgiant į ištekliaus vaidmenį tam tikrame projekte. Nustatant žmogiškųjų išteklių laiko kainas PSA programoje naudojamos įkainojimo ir atsiskaitymo pagal ištekliaus vaidmenį funkcijos. Laiko kainą galima nustatyti naudojant bet kokį vienetų grupės **Laikas** vienetą.
 
-Įdiegus PSA, sukuriama vienetų grupė **Laikas**. Jos numatytasis vienetas yra **Valanda**. Vienetų grupės **Laikas** ir vieneto **Valanda** atributų negalima panaikinti, pervardyti arba redaguoti. Tačiau į vienetų grupę **Laikas** galima įtraukti kitų vienetų. Jei bandysite panaikinti vienetų grupę **Laikas** arba vienetą **Valanda** , PSA verslo logika gali sutrikti.
+Įdiegus PSA, sukuriama vienetų grupė **Laikas**. Jos numatytasis vienetas yra **Valanda**. Vienetų grupės **Laikas** ir vieneto **Valanda** atributų negalima panaikinti, pervardyti arba redaguoti. Tačiau į vienetų grupę **Laikas** galima įtraukti kitų vienetų. Jei bandysite panaikinti vienetų grupę **Laikas** arba vienetą **Valanda**, PSA verslo logika gali sutrikti.
 
 > ![Kainų konfigūravimas pagal vaidmenį](media/basic-guide-13.png)
  

@@ -3,7 +3,7 @@ title: Kas nauja arba pakeista „Project Service Automation“ V3 15 atnaujinta
 description: Šioje temoje pateikiama informacijos apie tai, kas nauja ir pakeista „Project Service Automation“ 15 atnaujintame leidime V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 01/27/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6112e4874025e528a2bb583cf215fd9eff681534
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2112e70d7359e7f30725ef3069a18570da651c06
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080793"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119923"
 ---
 # <a name="project-service-automation-update-release-15-v3"></a>„Project Service Automation“ V3 15 naujinimo leidimas
 
@@ -41,8 +41,8 @@ Džiaugiamės galėdami pranešti apie naujausią Dynamics 365 Project Service A
 - Laikas ir išlaidos
 
   - Sutaisyta: pridėtas įkėlimo klaidos tvarkymas suderinimo rodinyje.
-  - Sutaisyta: projekto išteklių priegloba: pervadinta **Suma** , siekiant sumažinti neaiškumą.
-  - Sutaisyta: pakoreguotas rodinys **Kopijuoti laiko įrašo stulpelius** , kad būtų įtrauktas tipas.
+  - Sutaisyta: projekto išteklių priegloba: pervadinta **Suma**, siekiant sumažinti neaiškumą.
+  - Sutaisyta: pakoreguotas rodinys **Kopijuoti laiko įrašo stulpelius**, kad būtų įtrauktas tipas.
   - Sutaisyta: laiko įrašo trukmės redagavimas tinklelio rodinyje naudojant dešimtainius skaičius sukelia kai kurių skaičių nežinomas klaidas.
 
 - Projektų valdymas

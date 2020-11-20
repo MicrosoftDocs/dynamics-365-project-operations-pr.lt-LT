@@ -2,7 +2,7 @@
 title: Atnaujinimo aptarimas – „Microsoft Dynamics 365 Project Service Automation“ 2.x arba 1.x versijos į 3 versiją
 description: Šioje temoje pateikta informacija apie dalykus, į kuriuos reikia atsižvelgti atnaujinant iš „Project Service Automation“ 2.x arba 1.x versijos į 3 versiją.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/13/2018
@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 19d6d312c7cedd2d7b9b5649452b85dd24fae761
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c51726f71cfd0d4be98982d6a02268d64a70b91
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080916"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121723"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Atnaujinimo aptarimas - iš PSA 2.x arba 1.x versijos į 3 versiją
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
@@ -31,7 +31,7 @@ ms.locfileid: "4080916"
 Dynamics 365 Project Service Automation ir Dynamics 365 Field Service išteklių planavimui naudoja „Universal Resourcing Scheduling“ sprendimą. Jei egzemplioriuje turite ir „Project Service Automation“ ir „Field Service“, turėtumėte planuoti, kad būtų atnaujinti abu sprendimai į naujausią versiją („Project Service Automation“ 3.x versiją, „Field Service“ 8.x versiją). Atnaujinus „Project Service Automation“ arba „Field Service“ bus įdiegta naujausia URS versija, tai reiškia, kad galimas nesuderinamas veikimas, jei to paties egzemplioriaus „Project Service Automation“ ir „Field Servic“ sprendimai nebus atnaujinti į naujausią versiją.
 
 ## <a name="resource-assignments"></a>Išteklių priskyrimai
-Naudojant „Project Service Automation“ 2 versiją ir 1 versiją, užduočių priskyrimai buvo saugomi kaip antrinės užduotys (taip pat vadinamos eilutės užduotimis) **Užduoties objekte** , ir buvo netiesiogiai susiję su objektu **Išteklių priskyrimas**. Eilutės užduotis buvo matoma priskyrimo iššokančiajame lange darbo paskirstymo struktūroje (WBS).
+Naudojant „Project Service Automation“ 2 versiją ir 1 versiją, užduočių priskyrimai buvo saugomi kaip antrinės užduotys (taip pat vadinamos eilutės užduotimis) **Užduoties objekte**, ir buvo netiesiogiai susiję su objektu **Išteklių priskyrimas**. Eilutės užduotis buvo matoma priskyrimo iššokančiajame lange darbo paskirstymo struktūroje (WBS).
 
 ![Eilutės užduotys WBS „Project Service Automation“ 2 versijoje ir 1 versijoje](media/upgrade-line-task-01.png)
 
@@ -56,7 +56,7 @@ Atnaujinus į 3 versiją, eilutės užduotys pakeičiamos išteklių priskyrimai
 
 ![Išteklių priskyrimai](media/resource-assignment-v2-05.png)
 
-Kadangi įvertinimai apskaičiuojami pagal numatytąjį išteklių vaidmenį, pardavimo ir savikainos įvertinimai gali pasikeisti. Atkreipkite dėmesį, kad toliau pateiktoje iliustracijoje neberodomas vaidmuo **Kūrėjas** , nes vaidmuo dabar gaunamas iš rezervuojamų išteklių numatytojo vaidmens.
+Kadangi įvertinimai apskaičiuojami pagal numatytąjį išteklių vaidmenį, pardavimo ir savikainos įvertinimai gali pasikeisti. Atkreipkite dėmesį, kad toliau pateiktoje iliustracijoje neberodomas vaidmuo **Kūrėjas**, nes vaidmuo dabar gaunamas iš rezervuojamų išteklių numatytojo vaidmens.
 
 ![Numatytųjų vaidmenų savikainos įvertinimai](media/resource-assignment-cost-estimate-06.png)
 ![Numatytųjų vaidmenų pardavimo įvertinimai](media/resource-assignment-sales-estimate-07.png)
@@ -68,7 +68,7 @@ Kai naujinimas bus baigtas, galėsite redaguoti komandos nario vaidmenį, kad ji
 Tai taikoma ir eilutės užduotims, kurios buvo priskirtos įvardytiems ištekliams, kai pakeičiate išteklių organizacijos vienetą iš numatytojo į kitą organizacijos vienetą. Baigus naujinimą į 3 versiją, priskyrimas naudos išteklių numatytąjį organizacijos vienetą, o ne tą, kuris nustatytas eilutės užduotyje.
 
 ### <a name="tasks-assigned-to-generic-resources"></a>Bendriesiems ištekliams priskirtos užduotys
-2 versijoje ir 1 versijoje galite nustatyti vaidmenį ir organizacijos vienetą užduotyje, o tada naudoti funkciją **Generuoti komandą** , kad būtų sugeneruoti bendrieji ištekliai pagal nustatytus užduoties atributus. 3 versijoje sukuriate bendruosius komandos narius su vaidmeniu ir organizacijos vienetu, tada komandos narius priskiriate užduotims.
+2 versijoje ir 1 versijoje galite nustatyti vaidmenį ir organizacijos vienetą užduotyje, o tada naudoti funkciją **Generuoti komandą**, kad būtų sugeneruoti bendrieji ištekliai pagal nustatytus užduoties atributus. 3 versijoje sukuriate bendruosius komandos narius su vaidmeniu ir organizacijos vienetu, tada komandos narius priskiriate užduotims.
 
 2 versijoje ir 1 versijoje projektai su bendraisiais ištekliais gali būti dviejų būsenų arba abiejų būsenų deriniu užduočių lygiu. Pvz., galimi šie scenarijai:
 
@@ -77,7 +77,7 @@ Tai taikoma ir eilutės užduotims, kurios buvo priskirtos įvardytiems ištekli
 
 Prieš pradedant naujinti, rekomenduojame iš naujo sugeneruoti kiekvieno projekto, kuriame yra bendriesiems ištekliams priskirtų užduočių, arba kuriuose dar reikia įvykdyti komandos generavimo procesą, komandą.
 
-Užduotims, priskirtoms bendriesiems komandos nariams, kurie buvo sugeneruoti naudojant funkciją **Generuoti komandą** , atnaujinus bendrasis išteklius bus paliktas komandoje, o priskyrimas bus paliktas tam bendrajam komandos nariui. Rekomenduojame sugeneruoti bendrojo komandos nario išteklių reikalavimą po atnaujinimo, bet prieš rezervuojant arba pateikiant išteklių užklausą. Taip bus išsaugoti bet kokie organizacijos vienetų priskyrimai bendriesiems komandos nariams, kurie skiriasi nuo projekto sutartį sudarančios organizacijos vieneto.
+Užduotims, priskirtoms bendriesiems komandos nariams, kurie buvo sugeneruoti naudojant funkciją **Generuoti komandą**, atnaujinus bendrasis išteklius bus paliktas komandoje, o priskyrimas bus paliktas tam bendrajam komandos nariui. Rekomenduojame sugeneruoti bendrojo komandos nario išteklių reikalavimą po atnaujinimo, bet prieš rezervuojant arba pateikiant išteklių užklausą. Taip bus išsaugoti bet kokie organizacijos vienetų priskyrimai bendriesiems komandos nariams, kurie skiriasi nuo projekto sutartį sudarančios organizacijos vieneto.
 
 Pavyzdžiui, projekte „Projektas Z“ sutartį sudarančios organizacijos vienetas yra „Danys US“. Projekto plane testavimo užduotims diegimo fazėje buvo priskirtas vaidmuo „techninis konsultantas“, o priskirtas organizacijos vienetas yra „Danys India“.
 

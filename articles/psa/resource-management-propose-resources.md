@@ -3,7 +3,7 @@ title: Projektų išteklių siūlymas
 description: Šioje temoje pateikiama informacija apie siūlomus projekto išteklius.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 18d7dcd95806841c952ea621ec65b513ef614958
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1fcb8d1d40286cf5cbb23338f93b072ae5bed70d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081055"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120193"
 ---
 # <a name="propose-project-resources"></a>Projektų išteklių siūlymas
 
@@ -82,7 +82,7 @@ Kadangi rodinys **Išteklių naudojimas** pagrįstas grafiko lenta, galite naudo
 
 Reikia, kad tinkleliui nustatytumėte tikslinį naudojimą arba pagal vaidmenį, arba individualų išteklių. Norėdami atlikti tokius nustatymus, eikite į **Ištekliai** \> **Išteklių vaidmenys**.
 
-Be to, kiekvienam rezervuojamam ištekliui reikia priskirti numatytąjį vaidmenį. Eikite į **Ištekliai** \> **Ištekliai**. Skirtuke **Project Service** patikrinkite, kad nustatytas išteklių vaidmuo ir kad laukas **Yra numatytasis** nustatytas kaip **Taip**. Galite įtraukti papildomų vaidmenų, kai **Kaip numatytasis = ne**. Vaidmuo, kai **Yra numatytasis = taip** , naudojamas išteklių naudojimui įvertinti pagal to vaidmens tikslą.
+Be to, kiekvienam rezervuojamam ištekliui reikia priskirti numatytąjį vaidmenį. Eikite į **Ištekliai** \> **Ištekliai**. Skirtuke **Project Service** patikrinkite, kad nustatytas išteklių vaidmuo ir kad laukas **Yra numatytasis** nustatytas kaip **Taip**. Galite įtraukti papildomų vaidmenų, kai **Kaip numatytasis = ne**. Vaidmuo, kai **Yra numatytasis = taip**, naudojamas išteklių naudojimui įvertinti pagal to vaidmens tikslą.
 
 ![Numatytojo vaidmens nustatymas](media/Resource-Management-image67.png)
 

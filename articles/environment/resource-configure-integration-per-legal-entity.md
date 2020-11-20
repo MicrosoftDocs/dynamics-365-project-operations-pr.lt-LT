@@ -5,15 +5,15 @@ author: sigitac
 manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c0e02ef2d17bf49209369f7adad681d9a5981e2a
-ms.sourcegitcommit: 91ad491e94a421f256a378b0f4b26ed48c67bc93
+ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "4096762"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122893"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>„Project Operations“ integracijos konfigūravimas juridiniam subjektui 
 
@@ -32,7 +32,7 @@ Norėdami įjungti būtinas funkcijas atlikite toliau nurodytus veiksmus.
     - **Įjungti „Project Operations“ naudojant „Dynamics 365 Customer Engagement“**
 
 > [!NOTE]
-> Jei nematote išvardytų **Funkcijų klavišų** , patikrinkite, ar jūsų „Finance“ versija atitinka mažiausią versijos reikalavimą (programos 10.0.13 versija su visais kokybės atnaujinimais arba naujesnė). Norėdami atnaujinti funkcijų sąrašą pasirinkite **Tikrinti, ar yra naujinimų**.
+> Jei nematote išvardytų **Funkcijų klavišų**, patikrinkite, ar jūsų „Finance“ versija atitinka mažiausią versijos reikalavimą (programos 10.0.13 versija su visais kokybės atnaujinimais arba naujesnė). Norėdami atnaujinti funkcijų sąrašą pasirinkite **Tikrinti, ar yra naujinimų**.
 
 ## <a name="define-the-project-operations-deployment-scenario-for-a-legal-entity"></a>„Project Operations“ juridinio subjekto visuotinio diegimo scenarijaus apibrėžimas
 
@@ -46,8 +46,8 @@ Galite įjungti „Project Operations“ „Dynamics 365 Customer Engagement“ 
 
 ## <a name="configure-project-management-and-accounting-parameters"></a>Projektų valdymo ir apskaitos parametrų konfigūravimas
 
-Kiekvienas juridinis subjektas, naudojantis „Project Operations“ „Dynamics 365 Customer Engagement“, turi turėti numatytųjų parametrų rinkinį. Šie parametrai sukonfigūruoti skirtuke **Project Operations** , puslapyje **Projektų valdymo ir apskaitos parametrai**. Parametrai:
+Kiekvienas juridinis subjektas, naudojantis „Project Operations“ „Dynamics 365 Customer Engagement“, turi turėti numatytųjų parametrų rinkinį. Šie parametrai sukonfigūruoti skirtuke **Project Operations**, puslapyje **Projektų valdymo ir apskaitos parametrai**. Parametrai:
 
-  - **Atsiskaitymo tipo numatytosios reikšmės** : „Project Operations“ naudoja nustatytą atsiskaitymo tipo numatytųjų reikšmių rinkinį, kuris turi būti susietas su eilučių ypatybėms Finansai. Sukurkite kiekvieno atsiskaitymo tipo įrašą: **Nenurodyta** , **Apmokestinama** , **Neapmokestinama** , **Nemokama** ir **Nepasiekiama**.
+  - **Atsiskaitymo tipo numatytosios reikšmės**: „Project Operations“ naudoja nustatytą atsiskaitymo tipo numatytųjų reikšmių rinkinį, kuris turi būti susietas su eilučių ypatybėms Finansai. Sukurkite kiekvieno atsiskaitymo tipo įrašą: **Nenurodyta**, **Apmokestinama**, **Neapmokestinama**, **Nemokama** ir **Nepasiekiama**.
   - **Projekto kategorijų numatytosios reikšmės** : pasirinkite numatytąsias projekto kategorijas, kurios bus naudojamos kiekvienam operacijų tipui. Šios numatytosios reikšmės bus naudojamos **„Project Operations“ integracijos žurnale** ir įvertinimuose, kur nėra nurodytos faktinio projekto operacijos kategorijos.
   - **Prognozės** : pasirinkite prognozės modelį, kuris bus naudojamas laiko ir išlaidų įvertinimams.

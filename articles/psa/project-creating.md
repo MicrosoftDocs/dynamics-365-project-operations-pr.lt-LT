@@ -3,7 +3,7 @@ title: Projekto grafikai
 description: Šioje temoje pateikta informacija apie tai, kaip sukurti grafiką.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9a6b27050a19d8a7f2ed35f74b42bb4f371ad069
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bad7a8712057b60d202c37cc75ea68bf04fd4cc9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080871"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123252"
 ---
 # <a name="project-schedules"></a>Projekto grafikai 
 
@@ -83,12 +83,12 @@ Mygtukai **Perkelti aukštyn** ir **Perkelti žemyn** pakeičia užduoties padė
 
 Tinklelis **Grafikas** yra visiškai pasiekiamas ir gali būti naudojamas su ekrano skaitytuvais, pavyzdžiui, „Narrator“, „JAWS“ ar „NVDA“. Galite judėti per tinklelio sritį naudodami rodyklių klavišus (kaip programoje Microsoft Excel), galite naudoti tabuliavimo klavišą, kad pasiektumėte interaktyviuosius vartotojo sąsajos elementus, o norėdami pasirinkti ir iškviesti išplečiamuosius meniu galite naudoti rodyklės žemyn, ENTER arba tarpo klavišus. Stulpelių antraštės taip pat interaktyvios. Galite slėpti ir rodyti stulpelius, naudoti tabuliavimo ir rodyklių klavišus, kad judėtumėte per stulpelių antraštes, bei naudoti veiksmo mygtukus įrankių juostoje. Be to, galite naudoti šiuos sparčiuosius klavišus:
 
-- **Atnaujinti** : ALT + SHIFT + F5
-- **Pridėti** : ALT + SHIFT + INSERT
-- **Naikinti** : ALT + SHIFT + DELETE
-- **Pereiti aukštyn / žemyn** : ALT + SHIFT + rodyklė aukštyn / žemyn
-- **Įtraukti / atvirkštinė įtrauka** : ALT_SHIFT + kairė / dešinė rodyklės
-- **Išplėsti / sutraukti hierarchijas** : ALT + SHIFT + pliuso / minuso klavišai
+- **Atnaujinti**: ALT + SHIFT + F5
+- **Pridėti**: ALT + SHIFT + INSERT
+- **Naikinti**: ALT + SHIFT + DELETE
+- **Pereiti aukštyn / žemyn**: ALT + SHIFT + rodyklė aukštyn / žemyn
+- **Įtraukti / atvirkštinė įtrauka**: ALT_SHIFT + kairė / dešinė rodyklės
+- **Išplėsti / sutraukti hierarchijas**: ALT + SHIFT + pliuso / minuso klavišai
 
 ## <a name="task-attributes"></a>Užduoties atributai
 
@@ -98,19 +98,19 @@ Užduoties pavadinimas apibūdina darbą, kurį reikia atlikti. Programoje PSA a
  
 ### <a name="schedule-attributes"></a>Grafiko atributai
 
-Atributai **Pastangos** , **Pradžios data** , **Pabaigos data** ir **Trukmė** apibrėžia užduoties grafiką.
+Atributai **Pastangos**, **Pradžios data**, **Pabaigos data** ir **Trukmė** apibrėžia užduoties grafiką.
 
 Papildomo grafiko atributus sudaro:
 
-- **Pastangų valandos** : įveskite valandų, reikalingų užduočiai užbaigti, įvertinimą. 
-- **Trukmė** : nurodykite darbo dienų skaičių, kurio reikia užduočiai užbaigti.
-- **Grafiko ID** : šis automatiškai sugeneruotas ID naudojamas užduotims hierarchijoje užsakyti. Priklausomybės tarp užduočių valdo faktinę tvarką, kurioje užduotys yra apdorojamos.
+- **Pastangų valandos**: įveskite valandų, reikalingų užduočiai užbaigti, įvertinimą. 
+- **Trukmė**: nurodykite darbo dienų skaičių, kurio reikia užduočiai užbaigti.
+- **Grafiko ID**: šis automatiškai sugeneruotas ID naudojamas užduotims hierarchijoje užsakyti. Priklausomybės tarp užduočių valdo faktinę tvarką, kurioje užduotys yra apdorojamos.
  
 ### <a name="staffing-attributes"></a>Darbuotojų atributai
 
 Personalo atributai pasiekiami grafiko lauke **Ištekliai**. Galite ieškoti esamų išteklių arba spustelėti **Kurti** ir skyde **Spartusis kūrimas** pridėti projekto komandos narį kaip naują išteklių.
 
-Laukai **Vaidmuo** , **Išteklių paskirstymo vienetas** ir **Padėties pavadinimas** yra naudojami apibūdinti užduoties personalo reikalavimus. Šie personalo atributai su užduočių grafiku naudojami pasiekiamiems ištekliams rasti, kad būtų galima atlikti šią užduotį.
+Laukai **Vaidmuo**, **Išteklių paskirstymo vienetas** ir **Padėties pavadinimas** yra naudojami apibūdinti užduoties personalo reikalavimus. Šie personalo atributai su užduočių grafiku naudojami pasiekiamiems ištekliams rasti, kad būtų galima atlikti šią užduotį.
 
 **Vaidmuo** – nurodykite ištekliaus, kurio reikia užduočiai atlikti, tipą.
 
@@ -124,7 +124,7 @@ Lauke **Kategorija** yra reikšmės, kurios nurodo platesnį darbo tipą, į kur
 
 ### <a name="task-dependencies"></a>Užduoties priklausomybės 
 
-Galite naudoti grafiką programoje PSA, kad kurtumėte ankstesnius ryšius tarp užduočių. Laukas **Ankstesnė veikla** , esantis po lauku **Užduotys** , pritaiko vieną ar daugiau reikšmių, kad nurodytų užduotis, nuo kurių užduotis priklauso. Užduočiai priskyrus ankstesnes reikšmes, užduotį pradėti galima tik atlikus visas ankstesnes užduotis. Dėl priklausomybės suplanuota užduoties pradžios data nustatoma iš naujo į datą, kai ankstesnės užduotys yra atliktos.
+Galite naudoti grafiką programoje PSA, kad kurtumėte ankstesnius ryšius tarp užduočių. Laukas **Ankstesnė veikla**, esantis po lauku **Užduotys**, pritaiko vieną ar daugiau reikšmių, kad nurodytų užduotis, nuo kurių užduotis priklauso. Užduočiai priskyrus ankstesnes reikšmes, užduotį pradėti galima tik atlikus visas ankstesnes užduotis. Dėl priklausomybės suplanuota užduoties pradžios data nustatoma iš naujo į datą, kai ankstesnės užduotys yra atliktos.
 
 Užduočių režimas nepaveikia naujinimų, atliktų su ankstesnėmis / priklausomų užduočių pradžios ir pabaigos datomis.
 

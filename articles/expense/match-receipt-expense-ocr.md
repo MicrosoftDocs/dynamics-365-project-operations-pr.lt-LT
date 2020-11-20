@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 62d6316c9602089518a94267d8ef2b7fb8d59cd0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 55f63c8c092942b73a55c9d86d867bca600f42e5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080801"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124333"
 ---
 # <a name="match-a-receipt-to-an-expense-using-ocr"></a>Kvitų gretinimas su išlaidomis naudojant OCR
 
@@ -46,11 +46,11 @@ Norėdami automatiškai pridėti kvitus, kuriuose yra kredito kortelių operacij
 ## <a name="create-or-match-receipts-to-an-expense-report"></a>Kvitų kūrimas ar gretinimas prie išlaidų ataskaitos
 Jei norite kurti išlaidas arba sugretinti išlaidas iš kvito, atlikite toliau nurodytus veiksmus.
 
-  1. Išlaidų ataskaitoje, skirtuke **Kvitai** , pridėkite kvitą pažymėdami **Įtraukti kvitus**.
-  2. Atkreipkite dėmesį į parinktis **Kurti** ir **Gretinti** , esančias po nusiųsto kvito vaizdu.
+  1. Išlaidų ataskaitoje, skirtuke **Kvitai**, pridėkite kvitą pažymėdami **Įtraukti kvitus**.
+  2. Atkreipkite dėmesį į parinktis **Kurti** ir **Gretinti**, esančias po nusiųsto kvito vaizdu.
 
-      - Pasirinkite **Kurti** , kad sukurtumėte rankiniu būdu įvestą išlaidų operaciją ir užpildytumėte iš kvito gautas reikšmes.
-      - Jei pažymėjote **Gretinti** , sistema bandys sugretinti esamas išlaidas su kvitu.
+      - Pasirinkite **Kurti**, kad sukurtumėte rankiniu būdu įvestą išlaidų operaciją ir užpildytumėte iš kvito gautas reikšmes.
+      - Jei pažymėjote **Gretinti**, sistema bandys sugretinti esamas išlaidas su kvitu.
 
 ## <a name="installation"></a>Diegimas
 

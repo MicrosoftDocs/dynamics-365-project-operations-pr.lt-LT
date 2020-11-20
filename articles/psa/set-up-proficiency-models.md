@@ -3,7 +3,7 @@ title: Kvalifikacijos modelių nustatymas
 description: Kvalifikacijos modelių nustatymas „Project Service“
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 653b7eef12c57203fbc6853e97d3be43bdb85b9d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2d13d5bbfd43ef88ec2f285357ee26a2a87db870
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081053"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122984"
 ---
 # <a name="set-up-proficiency-models-project-service"></a>Kvalifikacijos modelių nustatymas („Project Service“)
 
@@ -35,9 +35,9 @@ Dabar, kai jau esate įtraukę klientų projektams reikalingus įgūdžius, jums
   
 2.  Jei numatytąjį kvalifikacijos modelį norite peržiūrėti ar redaguoti, sąraše spustelėkite **Numatytasis vertinimo modelis** arba sukurkite naują kvalifikacijos modelį, spustelėdami **Naujas**.  
   
-3.  Jei kuriate naują kvalifikacijos modelį, užpildykite laukus srityje **Bendra** , o tada spustelėkite **Įrašyti** , ir bus sukurtas naujas įrašas, kurį galėsite toliau redaguoti. Kurdami kvalifikacijos vertinimo modelį atminkite, kad kuo skaičius didesnis, tuo geriau.  
+3.  Jei kuriate naują kvalifikacijos modelį, užpildykite laukus srityje **Bendra**, o tada spustelėkite **Įrašyti**, ir bus sukurtas naujas įrašas, kurį galėsite toliau redaguoti. Kurdami kvalifikacijos vertinimo modelį atminkite, kad kuo skaičius didesnis, tuo geriau.  
   
-     Pvz., peržiūrėdami ar redaguoti numatytąjį vertinimo modelį, pažvelgę į **Įvertinimo reikšmės** , matysite tokius kvalifikacijos lygius.  
+     Pvz., peržiūrėdami ar redaguoti numatytąjį vertinimo modelį, pažvelgę į **Įvertinimo reikšmės**, matysite tokius kvalifikacijos lygius.  
   
     |Vardas|Vertė|  
     |----------|-----------|  

@@ -3,7 +3,7 @@ title: Patvirtintas laiko arba išlaidų įrašų atšaukimas
 description: Šioje temoje pateikta informacija apie tai, kaip atšaukti anksčiau patvirtintą laiko arba išlaidų operaciją.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/08/2019
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7bacd70881a6c463cc449a365173da5338a3d3fc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 102da39d5940874a8e1f4220437ecdf386a7187b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080883"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120553"
 ---
 # <a name="recall-approved-time-or-expense-entries"></a>Patvirtintas laiko arba išlaidų įrašų atšaukimas
 
@@ -50,7 +50,7 @@ Norėdami prašyti atšaukti patvirtintą laiko arba išlaidų įrašą, atlikit
     Jei tai išlaidų įrašai, pažymėkite išlaidų įrašo, skirto atšaukti, eilutę.
 
 3. Pažymėkite **Atšaukti**. Rodomos patvirtinimo dialogo langas. Jei pažymėti laiko ir išlaidų įrašai jau buvo patvirtinti, būsite paraginti įvesti grąžinimo priežastį.
-4. Įveskite atšaukimo priežastį, tada pažymėkite **Gerai** , kad patvirtintumėte operaciją. Sistema siunčia asmeniui, patvirtinusiam įrašus, užklausą patvirtinti atšaukimą.
+4. Įveskite atšaukimo priežastį, tada pažymėkite **Gerai**, kad patvirtintumėte operaciją. Sistema siunčia asmeniui, patvirtinusiam įrašus, užklausą patvirtinti atšaukimą.
 
 > [!NOTE]
 > Nors patvirtinti laiko ir išlaidų įrašai gali būti atšaukti, jei patvirtintas laikas arba išlaidos jau buvo išrašyti klientui sąskaita faktūra, nebus galima sukurti atšaukimo užklausos. Naudotojas, kuris bando sukurti atšaukimo užklausą, gaus pranešimą, kuriame teigiama, kad laiko ar išlaidų negalima atšaukti, nes jau buvo išrašyta sąskaita faktūra.
@@ -62,11 +62,11 @@ Norėdami patvirtinti arba atmesti atšaukimo užklausą, atlikite šiuos veiksm
 1. Nueikite į **Projektai** \> **Mano darbai** \> **Patvirtinimai**.
 2. Sąrašo puslapyje **Patvirtinimai** pakeiskite rodinį į **Atšaukimo užklausos patvirtinti**. Rodomas pateiktų atšaukimo užklausų sąrašas.
 3. Pažymėkite vieną arba kelis įrašus, tada pasirinkite **Patvirtinti** arba **Atmesti**.
-4. Jei pažymėjote **Patvirtinti** , gausite įspėjimo pranešimą, paaiškinantį patvirtinimo poveikį. Pasirinkite **Gerai** norėdami patvirtinti operaciją. Atšaukimo užklausa patvirtinta.
+4. Jei pažymėjote **Patvirtinti**, gausite įspėjimo pranešimą, paaiškinantį patvirtinimo poveikį. Pasirinkite **Gerai** norėdami patvirtinti operaciją. Atšaukimo užklausa patvirtinta.
 
     -arba-
 
-    Jei pasirinkote **Atmesti** , atšaukimo užklausa atmetama.
+    Jei pasirinkote **Atmesti**, atšaukimo užklausa atmetama.
 
 > [!NOTE]
 > Kai atšaukimas patvirtinamas, sistema tikrina, ar nėra sąskaitų faktūrų išrašymo veiklos pagal laiko arba išlaidų įrašus. Jei įrašui jau buvo išrašyta sąskaita faktūra arba jis yra juodraščio sąskaitoje faktūroje, tvirtintojas gaus klaidos pranešimą, kuriame nurodoma, kad laiko ar išlaidų negalima patvirtinti atšaukti, nes jau buvo išrašyta sąskaita faktūra.
@@ -77,11 +77,11 @@ Kai patvirtinama atšaukti, atsiranda operatyvinis ir finansinis poveikis.
 
 ### <a name="operational-impact"></a>Operatyvinis poveikis
 
-Jei atšaukimo užklausa patvirtinama, patvirtinimo įrašas pažymimas kaip **Atmesta**. Įrašo būsena pakeičiama į **Grąžinta** arba **Atmesta** , atsižvelgiant į tai, ar tai yra laiko įrašas, ar išlaidų įrašas.
+Jei atšaukimo užklausa patvirtinama, patvirtinimo įrašas pažymimas kaip **Atmesta**. Įrašo būsena pakeičiama į **Grąžinta** arba **Atmesta**, atsižvelgiant į tai, ar tai yra laiko įrašas, ar išlaidų įrašas.
 
 Projekto komandos narys gali peržiūrėti įrašus, redaguoti ir pakartotinai pateikti įrašus arba visiškai panaikinti įrašus.
 
-Jei atšaukimo užklausa atmetama, įrašo būsena lieka **Patvirtinta** , o projekto komandos nariui ar projekto tvirtintojui negalima redaguoti įrašo.
+Jei atšaukimo užklausa atmetama, įrašo būsena lieka **Patvirtinta**, o projekto komandos nariui ar projekto tvirtintojui negalima redaguoti įrašo.
 
 ### <a name="financial-impact"></a>Finansinis poveikis
 
@@ -90,7 +90,7 @@ Jei atšaukimo užklausa patvirtinama, atitinkami savikainos ir pardavimo faktin
 - Laukas **Koregavimo būsena** atnaujinamas į **Pakoreguota**.
 - Laukas **SF išrašymo būsena** atnaujinamas į **Pakoreguota**.
 
-Toliau faktinių duomenų lentelėje sukuriami atšaukimo įrašai. Tam, kad būtų sukurti atšaukimo įrašai, sistema iš pirminių faktinių duomenų nukopijuoja lauko vertes. Vienintelės vertės, kurios nenukopijuojamos, yra kiekio vertės. Vietoj to, šios reikšmės yra atšaukiamos. Sukuriami atšaukti **savikainos** ir **pardavimo, už kurį neišrašyta sąskaita** faktiniai duomenys. Laukas **Koregavimo būsena** , esantis atvirkštinių faktinių duomenų srityje, nustatomas kaip **Nekoreguojamas** , o laukas **SF išrašymo būsena** nustatomas kaip **Atšaukta**. Dėl šių pakeitimų įrašyto neužbaigto projekto išlaidos ir pajamos nebebus įtraukiamos į sumas, kurias atitinka šie faktiniai duomenys.
+Toliau faktinių duomenų lentelėje sukuriami atšaukimo įrašai. Tam, kad būtų sukurti atšaukimo įrašai, sistema iš pirminių faktinių duomenų nukopijuoja lauko vertes. Vienintelės vertės, kurios nenukopijuojamos, yra kiekio vertės. Vietoj to, šios reikšmės yra atšaukiamos. Sukuriami atšaukti **savikainos** ir **pardavimo, už kurį neišrašyta sąskaita** faktiniai duomenys. Laukas **Koregavimo būsena**, esantis atvirkštinių faktinių duomenų srityje, nustatomas kaip **Nekoreguojamas**, o laukas **SF išrašymo būsena** nustatomas kaip **Atšaukta**. Dėl šių pakeitimų įrašyto neužbaigto projekto išlaidos ir pajamos nebebus įtraukiamos į sumas, kurias atitinka šie faktiniai duomenys.
 
 Jei atšaukimo užklausa atmetama, ji neturi finansinio poveikio projektui.
 

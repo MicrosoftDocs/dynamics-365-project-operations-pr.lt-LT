@@ -3,7 +3,7 @@ title: Projekto parametrai
 description: Šioje temoje pateikta informacija apie projektų valdymo parametrus.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c9b8659f3b7ee81d2e21ef52743debd521fa9bb9
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b2cda6bfd7f152ee948cf49fab91aed475968a09
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080999"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123118"
 ---
 # <a name="project-settings"></a>Projekto parametrai
 
@@ -50,7 +50,7 @@ Norėdami sukurti projekto grafiką, sukuriate projekto kalendoriaus šabloną, 
 > ![Nustatymų parinktys](media/project-13.png)
 
 4. Pažymėkite **Naujas savaitės grafikas** ir nustatykite šio išteklių grafiko parinktis. Galite nustatyti pasikartojantį savaitinį grafiką, dienos darbo valandų parametrus, įmonės ne darbo laiką ir kt.
-5. Nustatykite datų intervalą pasirinkdami **Įrašyti** , tada spustelėkite **Uždaryti**. 
+5. Nustatykite datų intervalą pasirinkdami **Įrašyti**, tada spustelėkite **Uždaryti**. 
 6. Grįžkite į sąrašo puslapį **Ištekliai** ir pažymėkite išteklių, kuriam nustatėte darbo valandas. 
 7. Pažymėkite **Nustatyti kalendorių kaip** nustatyti darbo šabloną. 
 8. Dialogo lange **Darbo šablonas** įveskite darbo šablono pavadinimą, tada pasirinkite **Taikyti**. 
@@ -59,7 +59,7 @@ Dabar galite susieti darbo šabloną su projekto kalendoriaus šablonu.
 
 ## <a name="resource-roles"></a>Išteklių vaidmenys
 
-Terminas „ *išteklių vaidmuo* “ nurodo įgūdžių, kompetencijų ir sertifikavimo rinkinį, kurį asmuo turi turėti, kad atliktų tam tikrą projekto užduočių rinkinį. PSA leidžia nustatyti savikainą ir išrašyti sąskaitą pagal ištekliaus laiką, pagrįstą ištekliaus vaidmeniu, su kuriuo jis susietas. Visos organizacijos turi nustatyti šiuos vaidmenis naudodami kairiąją naršymo juostą meniu **Project Service**.
+Terminas „*išteklių vaidmuo*“ nurodo įgūdžių, kompetencijų ir sertifikavimo rinkinį, kurį asmuo turi turėti, kad atliktų tam tikrą projekto užduočių rinkinį. PSA leidžia nustatyti savikainą ir išrašyti sąskaitą pagal ištekliaus laiką, pagrįstą ištekliaus vaidmeniu, su kuriuo jis susietas. Visos organizacijos turi nustatyti šiuos vaidmenis naudodami kairiąją naršymo juostą meniu **Project Service**.
 
 Kiekviena organizacija turi nustatyti šiuos vaidmenis puslapyje **Aktyvių išteklių kategorijos**. Norėdami atidaryti šį puslapį, kairiojoje naršymo srityje pažymėkite **Išteklių vaidmenys**.
 

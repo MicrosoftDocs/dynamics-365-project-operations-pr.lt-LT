@@ -5,15 +5,15 @@ author: suvaidya
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 8ecbd0abc16d0a29eea47d6bd1653a204a83de4c
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 09da0f4e0c6aec97c93c10eb686513e782189f77
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080718"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121048"
 ---
 # <a name="configure-expense-management-parameters"></a>Išlaidų valdymo parametrų konfigūravimas
 
@@ -26,7 +26,7 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 | Laukas                                                    | Aprašo |
 |----------------------------------------------------------|-------------|
 | Standartinis kilometražo tarifas                                 | Įveskite nuvažiuoto atstumo išlaidų kompensavimo tarifą. Šis tarifas padauginamas iš kilometražo, kuris nustatytas išlaidoms, kad būtų galima apskaičiuoti sumą, kompensuotą kelionės išlaidoms. |
-| Išlaidų paskirties tikrinimas                                 | Įjunkite šią parinktį, kad apribotumėte vartotojus iki esamo reikšmių rinkinio, sukonfigūruoto lauke **Išlaidų ataskaitos paskirtis** , kai jie kuria išlaidų ataskaitas. |
+| Išlaidų paskirties tikrinimas                                 | Įjunkite šią parinktį, kad apribotumėte vartotojus iki esamo reikšmių rinkinio, sukonfigūruoto lauke **Išlaidų ataskaitos paskirtis**, kai jie kuria išlaidų ataskaitas. |
 | Asmeninės išlaidos, kurias sumoka                                | Pažymėkite, kas atsakingas už bet kokios kreditinės kortelės operacijų sumų, suskirstytų kaip asmeninės, mokėjimą. |
 | Visų išlaidų ataskaitų rodymas funkcijoje „drillback“               | Pažymėkite šią parinktį, kad būtų rodomos visos išlaidų ataskaitos išlaidos, kai pirminio dokumento duomenys peržiūrimi pagal tam tikrą kvitą, kuris buvo sugeneruotas publikavus išlaidų ataskaitą. |
 | Būtina išankstinė kelionės registracija                 | Pažymėkite šią parinktį, kad reikalautumėte, jog kelionės paraiška būtų pateikta ir patvirtinta prieš darbuotojui pateikiant išlaidų ataskaitą. |
@@ -35,8 +35,8 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 | Leisti vidinės įmonės išlaidų eilutes                         | Pažymėkite, ar kitų juridinių objektų išlaidas galima įvesti išlaidų ataskaitoje. |
 | Leisti redaguoti kredito kortelės išlaidų valiutos kursą | Pažymėkite šią parinktį, kad leistumėte vartotojui redaguoti importuotų kredito kortelių išlaidų valiutos kursą. |
 | Kelių lygių hierarchijos laukų rodymas                  | Pažymėkite, kurie tvirtintojo laukai rodomi, kai darbo eigos priskyrimo tipas nustatomas į hierarchiją, o pasirinkimas **Hierarchija** nustatytas naudoti patvirtinimo hierarchiją, išlaidų kelių lygių patvirtinimą. Kai darbo eigoje naudojama kelių lygių patvirtinimo hierarchija, pažymėti laukai bus rodomi išlaidų ataskaitoje ir gali būti redaguojami. |
-| Įveskite darbuotojo kredito kortelės numerį                        | Pažymėkite, ar galima įvesti 15 simbolių arba 16 simbolių numerį, kuris bus išsaugotas lauke **Kortelės ID** , esančiame darbuotojo puslapyje **Kreditinės kortelės**. |
-| Patikrinkite kelionės paraiškos paskirtį                      | Įjunkite šią parinktį, kad apribotumėte vartotojus iki esamo reikšmių rinkinio, sukonfigūruoto lauke **Išlaidų ataskaitos paskirtis** , kai jie kuria kelionės paraiškas. |
+| Įveskite darbuotojo kredito kortelės numerį                        | Pažymėkite, ar galima įvesti 15 simbolių arba 16 simbolių numerį, kuris bus išsaugotas lauke **Kortelės ID**, esančiame darbuotojo puslapyje **Kreditinės kortelės**. |
+| Patikrinkite kelionės paraiškos paskirtį                      | Įjunkite šią parinktį, kad apribotumėte vartotojus iki esamo reikšmių rinkinio, sukonfigūruoto lauke **Išlaidų ataskaitos paskirtis**, kai jie kuria kelionės paraiškas. |
 
 ## <a name="financial"></a>Finansų
 

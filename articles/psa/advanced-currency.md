@@ -3,7 +3,7 @@ title: Kelių valiutų scenarijai (versija 3.x)
 description: Šioje temoje pateikta informacija apie kelių valiutų scenarijus.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7be029eeca3129d30f4bec1bf9b180a0a5122a86
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 61ca37db59b7d25478434c2376e3a987afd4972d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080946"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123388"
 ---
 # <a name="multiple-currency-scenarios"></a>Kelių valiutų scenarijai
 
@@ -56,7 +56,7 @@ Toliau nurodyti objektai laikomi verslo sandoriais:
 - Sąskaitos faktūros eilutės informacija
 - Faktinis
 
-Kiekviename iš šių objektų yra įrašas, nurodantis išlaidų sumą arba pardavimo sumą. Bet kurio Dynamics 365 objekto, kuriame yra laukas **Suma** , kiekviename įraše nurodomos sumos operacijos ir bazine valiuta. 
+Kiekviename iš šių objektų yra įrašas, nurodantis išlaidų sumą arba pardavimo sumą. Bet kurio Dynamics 365 objekto, kuriame yra laukas **Suma**, kiekviename įraše nurodomos sumos operacijos ir bazine valiuta. 
 
 PSA išplečia išlaidų ir pardavimo operacijų valiutos sampratą sekančiais būdais:
 
@@ -69,8 +69,8 @@ PSA išplečia išlaidų ir pardavimo operacijų valiutos sampratą sekančiais 
 Šiame skyriuje aprašomas projekto, kurį Danys JK pristato klientui, kuris pavadintas Fabrikam, Japonija, pavyzdys. Štai kaip scenarijus buvo sudarytas:
 
 1. GBP ir Japonijos jena (JPY) nustatomos **Parametrai** \> **Verslo Valdymas** \> **Valiutos**. 
-2. Kliento sąskaita, pavadinta **Fabrikam-Japonija** , sukuriama, o JPY nustatoma kaip sąskaitos valiuta.
-3. Nustatomas organizacijos vienetas, pavadintas **Danys JK** , o GBP nustatoma kaip valiuta.
+2. Kliento sąskaita, pavadinta **Fabrikam-Japonija**, sukuriama, o JPY nustatoma kaip sąskaitos valiuta.
+3. Nustatomas organizacijos vienetas, pavadintas **Danys JK**, o GBP nustatoma kaip valiuta.
 4. Sukuriama projekto sutartis, kurioje **Danys** yra nurodytas kaip sutarties vienetas, o **Fabrikam – Japonija** nurodytas kaip klientas.
 5. Sukuriamos projekto sutarties eilutės, remiantis įvairių projekto operacijų klasių atsiskaitymo tvarka, pvz., atsiskaitymas už laiką lyginant su atsiskaitymu už išlaidas.
 6. Projektas sukurtas, kai **Danys** yra nurodytas kaip sutarties vienetas. Šis projektas sukurtas ir susietas su projekto sutarties eilutėmis.

@@ -2,7 +2,7 @@
 title: Kas nauja arba pakeista programos „Project Service Automation“ 3 versijoje
 description: Šioje temoje pateikiama informacijos apie tai, kas nauja ir pakeista „Project Service Automation“ 3 versijoje.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0c198a0fd293008b73422f3f60ea023f918e0ddc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 46cbbc3ff3b0efcecd3cba30b265a782f6cdcf60
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080798"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120013"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Kas nauja arba pakeista programos „Project Service Automation“ 3 versijoje
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
@@ -40,7 +40,7 @@ Grafikas dabar turi naują interaktyvumo paviršių, kuris yra modernus ir priei
 - **Ganto diagrama** – Ganto diagramos nebėra. Naujos išvaizdos Ganto diagrama vėl bus pasiekiama atlikus būsimą naujinimą.
 - **Stulpelių antraštės** – spustelėdami šalia stulpelio pavadinimo esantį indikatorių galite paslėpti tinklelio stulpelių antraštes. 
 - **Stulpeliai** – spustelėdami **Įtraukti stulpelį** galite rodyti paslėptus stulpelius. 
-- **Operacijos kategorija** – į grafiko tinklelį įtraukta peržvalga **Operacijos kategorija** , kuri rodoma pagal numatytuosius nustatymus. 
+- **Operacijos kategorija** – į grafiko tinklelį įtraukta peržvalga **Operacijos kategorija**, kuri rodoma pagal numatytuosius nustatymus. 
  
 ## <a name="project-templates"></a>Projekto šablonai
 Atlikti toliau išvardyti projekto šablono funkcijų pakeitimai.
@@ -94,7 +94,7 @@ Išskiriami du įvertinimų skirtukai, **Išteklių priskyrimas** ir **Įvertini
 
 ![Išteklių priskyrimų skirtukas, kuriame rodomi pastangų įvertinimai ir užduočių išteklių priskyrimai](media/resource-assignments-tab-02.png)
 
-Skirtuke **Įvertinimai** rodomos išteklių priskyrimų išlaidų ir pardavimo sumos. Sumos yra tik skaitomos. Išlaidų ir pardavimo įkainiai dabar kuriami pagal komandos nario priskyrimus grafike. Tai reiškia, kad jokių priskyrimų neturinti užduotis rodoma nepriskirtų užduočių talpykloje. Tai taip pat reiškia, kad neturint numatytosios įkainių dimensijos **vaidmuo** , jei turite su projektu susietą klientą arba sutartį / pasiūlymą, nenumatomos išlaidos arba pardavimai. 
+Skirtuke **Įvertinimai** rodomos išteklių priskyrimų išlaidų ir pardavimo sumos. Sumos yra tik skaitomos. Išlaidų ir pardavimo įkainiai dabar kuriami pagal komandos nario priskyrimus grafike. Tai reiškia, kad jokių priskyrimų neturinti užduotis rodoma nepriskirtų užduočių talpykloje. Tai taip pat reiškia, kad neturint numatytosios įkainių dimensijos **vaidmuo**, jei turite su projektu susietą klientą arba sutartį / pasiūlymą, nenumatomos išlaidos arba pardavimai. 
 
 ![Skirtukas Įvertinimai, kuriame rodomos išlaidų ir pardavimo sumos](media/estimates-tab-03.png)
   
@@ -105,7 +105,7 @@ Išlaidų įvertinimus galima įvesti skirtuko **Išlaidų įvertinimai** tinkle
 ![Skirtukas Išlaidų įvertinimai, kuriame rodomas išlaidų įvertinimų tinklelis](media/expense-estimates-tab-04.png)
 
 ## <a name="resource-management"></a>Išteklių valdymas
-„Project Service Automation“ 3 versijoje, kurioje naudojama nauja vieningoji kliento vartotojo sąsaja ir esama ryšių tarp rezervavimų ir priskyrimų pakeitimų, itin pasikeitė personalo priskyrimo projektui tvarka naudojantis bendraisiais arba realiais ištekliais (lyginant su 2 ir 1 versija). Tačiau tiek **realių** , tiek **bendrųjų** rezervuojamų išteklių sąvokos išlieka nepakitusios, taip pat nekinta komandos nariai, reikalavimai, priskyrimai ir rezervavimai.   
+„Project Service Automation“ 3 versijoje, kurioje naudojama nauja vieningoji kliento vartotojo sąsaja ir esama ryšių tarp rezervavimų ir priskyrimų pakeitimų, itin pasikeitė personalo priskyrimo projektui tvarka naudojantis bendraisiais arba realiais ištekliais (lyginant su 2 ir 1 versija). Tačiau tiek **realių**, tiek **bendrųjų** rezervuojamų išteklių sąvokos išlieka nepakitusios, taip pat nekinta komandos nariai, reikalavimai, priskyrimai ir rezervavimai.   
 
 ![Išteklių parinkiklio naudojimas](media/resource-management-05.png)
 
@@ -146,7 +146,7 @@ Jei esama užduočių, kurios priskirtos ištekliams be rezervavimų (rezervavim
 Šiame skyriuje pateikiama informacijos apie programos „Project Service Automation“ 3 versijos laiko, išlaidų ir patvirtinimo pakeitimus. Kadangi funkcija **Laiko įrašas** yra Dynamics 365 Project Service Automation sprendimo dalis, ji atnaujinta, kad būtų išnaudojamos vieningosios sąsajos sistemos galimybės. Tokiu būdu galima užtikrinti pastovią vartotojo sąsają, kurią rengiant pasirinktas poreikius atitinkantis dizainas, kad būtų galima optimaliai peržiūrėti bet kokio dydžio ekrane arba bet kokiame įrenginyje. 
 
 ### <a name="landing-page"></a>Nukreipimo puslapis
-Nepratęsiamo pasirinktinio laiko įrašo funkcija 3 versijoje nebenaudojama. Dabar galima naudotis pratęsiamo ir prieinamo vietinio tinklelio funkcija. Laiko įrašo funkcija pasiekiama naudojantis kairėje pusėje esančia svetainės struktūra. Kadangi buvo atliktas šis pakeitimas, nebegalėsite vienu metu įvesti vienos savaitės trukmės laiko. Tinklelyje atskirai turėsite sukurti kiekvienos dienos laiko įrašą. Sukūrę keletą laiko įrašų, naudodamiesi toliau šioje temoje paaiškinta funkcija **Kopijuoti** , vartotojai vienu metu gali kurti kelis laiko įrašus. 
+Nepratęsiamo pasirinktinio laiko įrašo funkcija 3 versijoje nebenaudojama. Dabar galima naudotis pratęsiamo ir prieinamo vietinio tinklelio funkcija. Laiko įrašo funkcija pasiekiama naudojantis kairėje pusėje esančia svetainės struktūra. Kadangi buvo atliktas šis pakeitimas, nebegalėsite vienu metu įvesti vienos savaitės trukmės laiko. Tinklelyje atskirai turėsite sukurti kiekvienos dienos laiko įrašą. Sukūrę keletą laiko įrašų, naudodamiesi toliau šioje temoje paaiškinta funkcija **Kopijuoti**, vartotojai vienu metu gali kurti kelis laiko įrašus. 
 
 ![Laiko įrašo nukreipimo puslapis](media/time-entry-landing-page-07.png)
  
@@ -169,7 +169,7 @@ Atliekant priskyrimus ir keitimus taikomas tas pats vartotojo sąsajos modelis, 
 3 versijoje atsisakėme pasirinktinio kalendoriaus valdiklio ir dabar naudojame UC kalendorių, kuriame rodomi savaitės laiko įrašai. Naudodamiesi šiuo kalendoriumi galite peržiūrėti dieną, savaitę ir mėnesį. 
 
 > [!NOTE]
-> Kalendorius ribotas vienu požiūriu – šis valdiklis nepalaiko veiksmų atskiruose kalendoriaus elementuose. Pavyzdžiui, negalėsite pažymėti vieno ar kelių kalendoriaus elementų ir jų pateikti arba naikinti. Spustelėjus kalendoriaus elementą, atidaromas puslapis **Laiko įrašo objektas** , kuriame galima atlikti papildomus veiksmus. 
+> Kalendorius ribotas vienu požiūriu – šis valdiklis nepalaiko veiksmų atskiruose kalendoriaus elementuose. Pavyzdžiui, negalėsite pažymėti vieno ar kelių kalendoriaus elementų ir jų pateikti arba naikinti. Spustelėjus kalendoriaus elementą, atidaromas puslapis **Laiko įrašo objektas**, kuriame galima atlikti papildomus veiksmus. 
 
 ### <a name="extensibility"></a>Išplečiamumas
 **Duomenų įrašymas tik laiko ir išlaidų įrašų objektų pasirinktiniuose laukuose** – laiko įrašas naudoja platformos redaguojamą tinklelį, tik skaitomą tinklelį ir kalendoriaus valdiklius. Visi šie valdikliai vietiniai, todėl bus palaikomi tinkinimai. Naudodamiesi „Project Service Automation“ 3 versija galite įtraukti papildomų pasirinktinių laukų, nustatyti peržvalgos laukus ir kurti jų atsargines kopijas su pasirinktiniais rodiniais. Taip pat galite nustatyti pasirinktinę verslo logiką pagal pasirinktas pasirinktinių laukų reikšmes.  
@@ -189,7 +189,7 @@ Common Data Service platforma nepalaiko vieno vartotojo apsimetimo kitu vartotoj
 > Ši informacija turėtų būti laikoma tik siūloma rekomendacija, kaip partneris / klientas galėtų atlikti pasirinktinį diegimą. Produktų grupė neteikia oficialaus šios funkcijos palaikymo naudojantis bet kuriais mūsų pagalbos tarnybos kanalais.
 
 ### <a name="customization-details"></a>Išsami informacija apie tinkinimą 
-Atlikdami tinkinimą į kūrimo ir redagavimo patirtis galite įtraukti **Rezervavimo išteklių** , taigi vartotojas, pakeisdamas lauką **Rezervavimo ištekliai** , kad jis būtų paskirtas kitam vartotojui, kurio laiko ir išlaidų įrašai turi būti kuriami, gali veikti kaip atstovas. Toliau aprašyti veiksmai, atliekami perduodant įrašą. Ta pati informacija taikoma perduodant išlaidų įrašą. 
+Atlikdami tinkinimą į kūrimo ir redagavimo patirtis galite įtraukti **Rezervavimo išteklių**, taigi vartotojas, pakeisdamas lauką **Rezervavimo ištekliai**, kad jis būtų paskirtas kitam vartotojui, kurio laiko ir išlaidų įrašai turi būti kuriami, gali veikti kaip atstovas. Toliau aprašyti veiksmai, atliekami perduodant įrašą. Ta pati informacija taikoma perduodant išlaidų įrašą. 
  
 1.  Įsitikinkite, kad įgaliotasis vartotojas turi visuotinę saugią prieigą prie projektų ir projektų užduočių. 
 1.  Kadangi laukas **Rezervuojami ištekliai** (objekto **Laiko įrašas** laukas) puslapyje **Spartusis kūrimas** nerodomas, turite jį įtraukti.
@@ -229,13 +229,13 @@ Siekiant užtikrinti maksimalų lankstumą ir patenkinti įvairius verslo reikal
 „Project Service Automation“ 3 versijoje pasikeitė pasiūlymų ir sutarčių sąrankos ir valdymo aspektai. Tolesniuose skyriuose pateikiama daugiau informacijos.
 
 ### <a name="set-up-chargeability-options"></a>Apmokestinimo parinkčių nustatymas
-1 ir 2 versijose tam tikrų pasiūlymų ir sutarčių vaidmenų ir kategorijų apmokestinimo sąranka buvo atliekama naudojantis rodiniu **Apmokestinimas** , esančiu pasiūlymo ar sutarties eilutės naršymo juostos viršuje. Čia taip pat galėjote nustatyti tiems vaidmenims ir toms išlaidų kategorijoms skirtas kainas.
+1 ir 2 versijose tam tikrų pasiūlymų ir sutarčių vaidmenų ir kategorijų apmokestinimo sąranka buvo atliekama naudojantis rodiniu **Apmokestinimas**, esančiu pasiūlymo ar sutarties eilutės naršymo juostos viršuje. Čia taip pat galėjote nustatyti tiems vaidmenims ir toms išlaidų kategorijoms skirtas kainas.
 
 3 versijoje ir naujesnėse versijose apmokestinimo parinktys pagal vaidmenį ir išlaidų kategoriją bus nustatomos pasiūlymo arba sutarties eilutės lygiu. Įkainių sąranka skiriasi nuo apmokestinimo sąrankos. Puslapiuose **Pasiūlymo eilutė** ir **Sutarties eilutė** rasite skirtukus **Apmokestinami vaidmenys** ir **Apmokestinamos kategorijos** ir nereikės naudotis viršutine naršymo juosta.
 
 ![Apmokestinami vaidmenys](media/chargeable-12.png)
  
-Atliekant apmokestinamų vaidmenų ir apmokestinamų kategorijų sąranką taip pat naudojamasi iš anksto nustatytu redaguojamu tinklelio valdikliu. Kiekvieno vaidmens ir kategorijos atsiskaitymo tipo palaikomos parinktys teikiant pasiūlymą ir sudarant sutartį išlieka nepakitusios, t. y., kaip ir ankstesnėse versijose ( **Apmokestinama** ir **Neapmokestinama** ). Tipas **Nemokama** teikiant pasiūlymą ar sudarant sutartį nepalaikomas. Tipas **Nemokama** palaikomas tik tvirtinant laiką ir išlaidas.  
+Atliekant apmokestinamų vaidmenų ir apmokestinamų kategorijų sąranką taip pat naudojamasi iš anksto nustatytu redaguojamu tinklelio valdikliu. Kiekvieno vaidmens ir kategorijos atsiskaitymo tipo palaikomos parinktys teikiant pasiūlymą ir sudarant sutartį išlieka nepakitusios, t. y., kaip ir ankstesnėse versijose (**Apmokestinama** ir **Neapmokestinama**). Tipas **Nemokama** teikiant pasiūlymą ar sudarant sutartį nepalaikomas. Tipas **Nemokama** palaikomas tik tvirtinant laiką ir išlaidas.  
  
 ### <a name="create-and-edit-custom-pricing-for-a-project-service-automation-quote-and-project-contract"></a>Pasirinktinių „Project Service Automation“ pasiūlymui ir projekto sutarčiai taikomų įkainių kūrimas ir redagavimas
 1 ir 2 versijose norint pasinaudoti pasirinktiniu konkrečių pasiūlymų ir sutarčių kainoraščiu, tai buvo atliekama naudojantis rodinio **Apmokestinimas** parinktimi **Redaguoti kainas**. Rodinį **Apmokestinimas** buvo galima rasti viršutinėje pasiūlymo eilutės arba sutarties eilutės naršymo juostoje. Čia taip pat galėjote nustatyti vaidmenims ir (arba) išlaidų kategorijoms skirtas apmokestinimo parinktis.

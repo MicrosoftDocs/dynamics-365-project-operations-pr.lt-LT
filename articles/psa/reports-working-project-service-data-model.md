@@ -3,7 +3,7 @@ title: Darbas su „Project Service Automation“ duomenų modeliu
 description: Šioje temoje pateikiama informacija apie tai, kaip dirbti su duomenų modeliu.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 19e999e16a5bf6321a5a61208c8654f7870e6007
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8d63a1b36abe0a154c43e99738340f32f28c2f5e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081021"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120283"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Darbas su „Project Service Automation“ duomenų modeliu
 
@@ -33,15 +33,15 @@ Dynamics 365 Project Service Automation išplečia kitus programos objektus ir �
 
 ## <a name="reporting-on-opportunities"></a>Ataskaitų apie galimybes teikimas
 
-„Project Service Automation“ išplečia „Dynamics 365 Sales“ **Opportunity** objektą įtraukdamas laukus, kurie įgalina projektais pagrįstus scenarijus. Šie laukai identifikuojami pagal schemos pavadinimą, kuris yra su prefiksu **msdyn\_**. Vienas naujas laukas, svarbus norint pateikti ataskaitą apie PSA galimybes, yra **Užsakymo tipas**. Šiame lauke **Pagrįsta darbu** reikšmė nurodo, kad galimybė yra PSA galimybė. Kiti laukai, kurie buvo įtraukti į objektą, yra **Susijusi įmonė** , kuris fiksuoja organizaciją, turinčią galimybę, ir **Klientų vadybininkas** , kuris fiksuoja klientų vadybininko, atsakingo už galimybę, vardą.
+„Project Service Automation“ išplečia „Dynamics 365 Sales“ **Opportunity** objektą įtraukdamas laukus, kurie įgalina projektais pagrįstus scenarijus. Šie laukai identifikuojami pagal schemos pavadinimą, kuris yra su prefiksu **msdyn\_**. Vienas naujas laukas, svarbus norint pateikti ataskaitą apie PSA galimybes, yra **Užsakymo tipas**. Šiame lauke **Pagrįsta darbu** reikšmė nurodo, kad galimybė yra PSA galimybė. Kiti laukai, kurie buvo įtraukti į objektą, yra **Susijusi įmonė**, kuris fiksuoja organizaciją, turinčią galimybę, ir **Klientų vadybininkas**, kuris fiksuoja klientų vadybininko, atsakingo už galimybę, vardą.
 
 Objekte **Galimybės eilutė** taip pat yra laukų, susijusių su „Project Service“. **Sąskaitų išrašymo** metodas nurodo, ar galimybės eilutė turėtų būti išrašyta pagal laiką ir medžiagas, ar pagal fiksuotos kainos principą, o **Projektas** užfiksuoja projekto, kuris kuria galimybės atsarginę kopiją, pavadinimą. Kituose laukuose, kuriuos galite įtraukti į ataskaitą, fiksuojama eilutės elemento savikaina ir kliento biudžeto sumos.
 
 ## <a name="reporting-on-quotes"></a>Ataskaitų apie pasiūlymus teikimas
 
-PSA išplečia pardavimo **pasiūlymo** objektą įtraukdama su projektu susijusius laukus. **Užsakymo tipas** atskiria PSA pasiūlymus iš ne PSA pasiūlymų. Šio lauko **Darbu pagrįsta** reikšmė nurodo, kad pasiūlymas yra PSA pasiūlymas. Kiti laukai, kurie gali būti susiję su PSA pasiūlymų ataskaitų teikimu yra **Apmokestinama savikaina** , **Neapmokestinama savikaina** , **Bruto marža** , **Įvertinimai** ir **Biudžetas**. Kiti naudingi laukai nurodo, ar savikaina yra pelninga, ar ji bus užbaigta laiku ir ar ji atitinka kliento biudžeto lūkesčius.
+PSA išplečia pardavimo **pasiūlymo** objektą įtraukdama su projektu susijusius laukus. **Užsakymo tipas** atskiria PSA pasiūlymus iš ne PSA pasiūlymų. Šio lauko **Darbu pagrįsta** reikšmė nurodo, kad pasiūlymas yra PSA pasiūlymas. Kiti laukai, kurie gali būti susiję su PSA pasiūlymų ataskaitų teikimu yra **Apmokestinama savikaina**, **Neapmokestinama savikaina**, **Bruto marža**, **Įvertinimai** ir **Biudžetas**. Kiti naudingi laukai nurodo, ar savikaina yra pelninga, ar ji bus užbaigta laiku ir ar ji atitinka kliento biudžeto lūkesčius.
 
-PSA taip pat išplečia Pardavimų **pasiūlymo eilutės** objektą. Vienas laukas, kurį PSA įtraukia, yra **Atsiskaitymo metodas** , kuris nurodo, kaip pasiūlymo eilutė bus apmokestinta (laikas ir medžiagos arba fiksuota kaina). Kiti laukai, kurie buvo įtraukti į objektą, fiksuoja susijusį projektą, kuris kuria pasiūlymo eilutės, sąskaitos faktūros, savikainos ir biudžeto atsargines kopijas.
+PSA taip pat išplečia Pardavimų **pasiūlymo eilutės** objektą. Vienas laukas, kurį PSA įtraukia, yra **Atsiskaitymo metodas**, kuris nurodo, kaip pasiūlymo eilutė bus apmokestinta (laikas ir medžiagos arba fiksuota kaina). Kiti laukai, kurie buvo įtraukti į objektą, fiksuoja susijusį projektą, kuris kuria pasiūlymo eilutės, sąskaitos faktūros, savikainos ir biudžeto atsargines kopijas.
 
 PSA į „Dynamics 365“ duomenų modelį taip pat įtraukia naujus su pasiūlymu susijusius objektus. Štai keli pavyzdžiai:
 
@@ -50,13 +50,13 @@ PSA į „Dynamics 365“ duomenų modelį taip pat įtraukia naujus su pasiūly
 - **Pasiūlymo eilutės etapas** – šiame objekte yra fiksuotos kainos pasiūlymo eilučių atsiskaitymo etapai.
 - **Pasiūlymo eilutės analizės paskirstymas** – šiame objekte yra pasiūlymo eilutės finansinė informacija. Ši informacija gali būti naudinga teikiant ataskaitas apie pasiūlytus pardavimus ir įvertintas savikainos sumas įvairiais matmenimis.
 
-Kiti objektai, kuriuo PSA įtraukia į pasiūlymus, yra **Pasiūlymo eilutės projekto kainoraštis** , **Pasiūlymo eilutės išteklių kategorija** ir **Pasiūlymo eilutės operacijų kategorija**.
+Kiti objektai, kuriuo PSA įtraukia į pasiūlymus, yra **Pasiūlymo eilutės projekto kainoraštis**, **Pasiūlymo eilutės išteklių kategorija** ir **Pasiūlymo eilutės operacijų kategorija**.
 
 ![Diagrama, parodanti pasiūlymą, pasiūlymo eilutę ir projektų ryšius](media/PS-Reporting-image2.png "Diagrama, parodanti pasiūlymą, pasiūlymo eilutę ir projektų ryšius")
 
 ## <a name="reporting-on-project-contracts"></a>Ataskaitų teikimas apie projektų sutartis
 
-PSA išplečia Pardavimo **užsakymo** objektą, kuris naudojamas, kai įrašomos projekto sutartys. Jis įtraukia svarbų naują lauką **Užsakymo tipas** , kuris identifikuoja sutartį kaip PSA projekto sutartį, o ne pardavimo užsakymą. Šio lauko **Darbu pagrįsta** reikšmė nurodo, kad užsakymas yra PSA projekto sutartis. Kituose naujuose laukuose, kurie įtraukti į **Užsakymo** objektą, fiksuojama informacija apie savikainą, PSA sutarties būseną ir organizaciją, kurai priklauso sutartis.
+PSA išplečia Pardavimo **užsakymo** objektą, kuris naudojamas, kai įrašomos projekto sutartys. Jis įtraukia svarbų naują lauką **Užsakymo tipas**, kuris identifikuoja sutartį kaip PSA projekto sutartį, o ne pardavimo užsakymą. Šio lauko **Darbu pagrįsta** reikšmė nurodo, kad užsakymas yra PSA projekto sutartis. Kituose naujuose laukuose, kurie įtraukti į **Užsakymo** objektą, fiksuojama informacija apie savikainą, PSA sutarties būseną ir organizaciją, kurai priklauso sutartis.
 
 PSA taip pat išplečia **Pardavimo užsakymo eilutės** objektą. Tarp įtrauktinų laukų yra laukai, kuriuose fiksuojamas atsiskaitymo metodas (laikas ir medžiagos arba fiksuota kaina), kliento biudžeto sumos ir pagrindinis projektas.
 
@@ -66,7 +66,7 @@ PSA taip pat įtraukia naujus objektus, kurie sukurti projekto sutartims. Štai 
 - **Sutarties eilutės sąskaitų faktūrų grafikas** – šiame objekte yra sąskaitų faktūrų išrašymo grafikas, sugeneruotas pagal sąskaitų faktūrų išrašymo dažnumą, priskirtą sutarties eilutei.
 - **Sutarties etapas** – objekte yra sutarties eilučių, kurios turi fiksuotos kainos atsiskaitymo terminą, atsiskaitymo etapai.
 
-Kiti objektai, kuriuos PSA įtraukia į sutartis yra **Projekto sutarties eilutės projekto kainoraštis** , **Projekto sutarties eilutės išteklių kategorija** ir **Projektų sutarties eilutės operacijų kategorija**.
+Kiti objektai, kuriuos PSA įtraukia į sutartis yra **Projekto sutarties eilutės projekto kainoraštis**, **Projekto sutarties eilutės išteklių kategorija** ir **Projektų sutarties eilutės operacijų kategorija**.
 
 ![Diagrama, parodanti užsakymą, užsakymo eilutę ir projektų ryšius](media/PS-Reporting-image3.png "Diagrama, parodanti užsakymą, užsakymo eilutę ir projektų ryšius")
 
@@ -97,7 +97,7 @@ Projekto ištekliai naudoja **Rezervuojamų išteklių** objektus iš Universal 
 
 Kai patvirtinate tabelį arba išlaidas, sąskaitą faktūrą arba sutartį PSA, verslo operacija užfiksuojama objekte **Faktinis**. Šį objektą PSA galima naudoti kaip beveik visų su finansais susijusių ataskaitų pagrindą. Objektas **Faktinis** fiksuoja verslo įvykio savikainą ir pardavimo operacijas. Jame taip pat užfiksuojama daug susijusių atributų.
 
-Kai dirbate su objektu **Faktinis** , svarbu, kad suprastumėte, kokia operacija ar operacijos įrašomos objekte, ir kada operacijos įrašomos. Toliau pateiktas įprastas srautas, kai dirbate su laiko įrašais (išlaidų įrašų srautas yra panašus).
+Kai dirbate su objektu **Faktinis**, svarbu, kad suprastumėte, kokia operacija ar operacijos įrašomos objekte, ir kada operacijos įrašomos. Toliau pateiktas įprastas srautas, kai dirbate su laiko įrašais (išlaidų įrašų srautas yra panašus).
 
 1. Kai laiko įrašas įrašytas, objekte **Faktinis** nesukuriama jokių įrašų.
 2. Kai laiko įrašas pateiktas, objekte **Faktinis** nesukuriama jokių įrašų.

@@ -3,7 +3,7 @@ title: Projekto eiga ir savikainos naudojimas
 description: Šioje temoje pateikta informacija apie projekto eigos ir sąnaudų sekimą.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/21/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3b60f72b371a76a59216b0b528d8e63513b06e0d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0793ee0c75bcbdde0fd92a16634457f73f872b5e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080997"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120643"
 ---
 # <a name="project-progress-and-cost-consumption"></a>Projekto eiga ir savikainos naudojimas
 
@@ -89,7 +89,7 @@ Kai pastanga yra numatoma iš naujo, CTC, numatoma užbaigimo kaina, sąnaudų p
 
 ## <a name="project-status-summary"></a>Projekto būsenos suvestinė
 
-Stebėjimo duomenys rodiniuose **Pastangų sekimas** ir **Savikainos sekimas** nurodo projekto šakninio mazgo, suvestinių užduočių ir lapų mazgo užduočių lygių eigą ir sąnaudas. Skyriuje **Būsena** , esančiame puslapyje **Projekto objektas** , rodoma projekto lygio būsenos suvestinė.
+Stebėjimo duomenys rodiniuose **Pastangų sekimas** ir **Savikainos sekimas** nurodo projekto šakninio mazgo, suvestinių užduočių ir lapų mazgo užduočių lygių eigą ir sąnaudas. Skyriuje **Būsena**, esančiame puslapyje **Projekto objektas**, rodoma projekto lygio būsenos suvestinė.
 
 ## <a name="status-summary-fields"></a>Būsenos suvestinės laukai
 

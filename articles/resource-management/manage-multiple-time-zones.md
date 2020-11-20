@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 27f58f0dacc3404119a719547ad374629c740740
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 278b226c88c2f441262eb5be0504f34a1964848c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080774"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119833"
 ---
 # <a name="manage-time-zones"></a>Laiko juostų valdymas
 
@@ -30,7 +30,7 @@ Sukūrus užduotį, pradžios laiką, pabaigo laiką ir valandas / dienas valdo 
 
 ## <a name="manage-resources-with-time-zones"></a>Išteklių valdymas naudojant laiko zonas
 
-Norint gauti tikslius ir nuspėjamus rezultatus naudojant parinktį **Išplėsti rezervavimą** , reikia atlikti dvi pagrindines būtinąsias sąlygas:  
+Norint gauti tikslius ir nuspėjamus rezultatus naudojant parinktį **Išplėsti rezervavimą**, reikia atlikti dvi pagrindines būtinąsias sąlygas:  
 
 - Vartotojas turi sukonfigūruoti savo įrenginio laiko juostą, kad ji atitiktų laiko juostą, apibrėžtą sistemos **tinkinimo parametruose**.
  
@@ -57,7 +57,7 @@ Toliau esančioje lentelėje pateikiama:
 |C išteklius  |  ![C ištekliaus kalendorius](media/reconcile-assignments-08.png) |
 |D išteklius  | ![D ištekliaus kalendorius](media/reconcile-assignments-09.png)  |
  
-Kai pereisite į rodinį **Suderinimas** , rodomi išteklių priskyrimai ir susiję rezervavimo trūkumai.
+Kai pereisite į rodinį **Suderinimas**, rodomi išteklių priskyrimai ir susiję rezervavimo trūkumai.
 
 ![Suderinimo rodinys prieš išplėtimą](media/reconcile-assignments-10.png)
 

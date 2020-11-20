@@ -3,7 +3,7 @@ title: Kas nauja arba pakeista „Project Service Automation“ V3 18 atnaujinta
 description: Šioje temoje išvardytos funkcijos ir pataisymai, kurie yra pasiekiami „Project Service Automation“ V3 18 atnaujintame leidime.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 04/27/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d7ea200531dd24d56a829f879e3a2532a9b38dc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3a6d3ee21ecf742b2253132f3d3cc1cb2b57af75
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080790"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119878"
 ---
 # <a name="project-service-automation-update-release-18-v3"></a>„Project Service Automation“ V3 18 naujinimo leidimas
 
@@ -36,8 +36,8 @@ Malonu pranešti apie naujausią „Dynamics 365“ programos „Project Service
 
 **Laikas ir išlaidos**
 
-- Išspręsta: srautai **Atšaukti** , **Pateikti užklausą** ir **Atšaukti patvirtinimą** pateikia išimtis su neaiškiais klaidos pranešimais.
-- Išspręsta: kai išlaidoms nepavyksta **Atšaukti patvirtinimą** , nepateikiama reikiama išimties klaida.
+- Išspręsta: srautai **Atšaukti**, **Pateikti užklausą** ir **Atšaukti patvirtinimą** pateikia išimtis su neaiškiais klaidos pranešimais.
+- Išspręsta: kai išlaidoms nepavyksta **Atšaukti patvirtinimą**, nepateikiama reikiama išimties klaida.
 - Išspręsta: tinklelyje Laiko įrašas neteisingai tvarkomos ne darbo dienos Australijoje po vasaros laiko įvedimo (DST) spalio mėn.
 - Išspręsta: dėl netinkamos numatytojo vykdymo logikos negalima pateikti išlaidų.
 - Išspręsta: kai laiko įrašo patvirtinimas yra nesėkmingas, jis tebėra būsenoje **Laukiama**.
@@ -60,4 +60,4 @@ Malonu pranešti apie naujausią „Dynamics 365“ programos „Project Service
 
 **„Sales“**
 
-- Išspręsta: kai laiko įrašai patvirtinami iš naujo ( **Patvirtinti > Atšaukti >** patvirtinti dar kartą), sukuriamas įrašo duplikatas su neapmokestinama faktine reikšme.
+- Išspręsta: kai laiko įrašai patvirtinami iš naujo (**Patvirtinti > Atšaukti >** patvirtinti dar kartą), sukuriamas įrašo duplikatas su neapmokestinama faktine reikšme.

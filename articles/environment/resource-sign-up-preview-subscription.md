@@ -5,15 +5,15 @@ author: sigitac
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7a03f021b1ae0a87dfc947976b8a16c8246e1684
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: dc3b353f19b915f645aed91dc2a8127117027034
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080722"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121138"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Prisiregistravimas norint gauti „Project Operations“ peržiūros versijos prenumeratą, skirtą ištekliais / ne atsargomis pagrįstiems scenarijams
 
@@ -42,7 +42,7 @@ Patvirtinus jūsų [peržiūros versijos užklausą](https://forms.office.com/Fo
 
 Prieš pradėdami įsitikinkite, kad esate prisijungę prie naršyklės naudodami vartotojo darbo klientą nuomotojuje, kuriame norite atlikti „Project Operations“ peržiūrą.
 
-1. Pasinaudokite pirmuoju pasiūlymo kodu **„Dynamics 365 Project Operations“ (CRM) – bandomoji peržiūros versija** , įklijuodami jį į naršyklės URL lauką.
+1. Pasinaudokite pirmuoju pasiūlymo kodu **„Dynamics 365 Project Operations“ (CRM) – bandomoji peržiūros versija**, įklijuodami jį į naršyklės URL lauką.
 
 ![Pasinaudoti pasiūlymu](./media/16RedeemFirstOfferNew.png)
 

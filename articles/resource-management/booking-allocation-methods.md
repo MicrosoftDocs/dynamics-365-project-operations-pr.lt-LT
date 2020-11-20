@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c2a964c18c7eae61c5a0239da3b18da31b6ad574
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cc539a376088627aa8d3e9678b2aec4bd5d0edc3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080786"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121498"
 ---
 # <a name="booking-allocation-methods"></a>Rezervavimo paskirstymo metodai
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
-Nesvarbu, ar komandos narį į projektą įtraukiate tiesiogiai skirtuke **Komanda** , ar rezervuojate išteklių projekte arba reikalavimą iš grafikos lentos, yra keli skirtingi paskirstymo metodai, kuriuos galite panaudoti. Šioje temoje paaiškinama, kaip veikia kiekvienas metodas ir kurių metodų taikymas gali tapti resursų per didelio kiekio rezervavimo priežastimi.
+Nesvarbu, ar komandos narį į projektą įtraukiate tiesiogiai skirtuke **Komanda**, ar rezervuojate išteklių projekte arba reikalavimą iš grafikos lentos, yra keli skirtingi paskirstymo metodai, kuriuos galite panaudoti. Šioje temoje paaiškinama, kaip veikia kiekvienas metodas ir kurių metodų taikymas gali tapti resursų per didelio kiekio rezervavimo priežastimi.
 
 ## <a name="booking-allocation-methods"></a>Rezervavimo paskirstymo metodai
 
@@ -39,7 +39,7 @@ Yra šeši rezervavimo paskirstymo būdai, kuriuos galite naudoti:
 - [Pajėgumas procentais](#percentage)
 - [Valandas paskirstyti tolygiai](#evenly)
 - [Priekinės apkrovos valandos](#front)
-- [ Nėra](#none)
+- [Nėra](#none)
 
 ### <a name="full-capacity"></a><a name="full"></a>Visas pajėgumas 
 Visas pajėgumo metodas – rezervuojamas visas ištekliaus pajėgumas nurodytu pradžios ir pabaigos datų laikotarpiu. Pavyzdžiui, jei nustatyta, kad ištekliaus kalendorius turi veikti 8 valandas per dieną, 5 dienas per savaitę, nustačius pradžios ir pabaigos laikotarpį, apimantį penkias darbo dienas, išteklius bus rezervuotas 40 valandų. Toks rezervavimas atliekamas neatsižvelgiant į išteklių pajėgumo likutį. Jei nurodytu laikotarpiu išteklius jau rezervuotas kitiems projektams, 40 valandų rezervuojamos kaip papildomos, o tai gali tapti per didelio kiekio rezervavimo priežastimi.

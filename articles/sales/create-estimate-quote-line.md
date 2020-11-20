@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: f949c639530aecf9f7368925208ab12b68d2062e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 97030689eddb88576ffcf9dd848f8a0776512192
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080864"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122938"
 ---
 # <a name="create-estimates-on-a-quote-line"></a>Įvertinimų kūrimas pasiūlymo eilutėje
 
@@ -83,8 +83,8 @@ Jei pridėjote pasirinktinį lauką pasiūlymo eilutės informacijos dalyje ir n
 2. Pasirinkite **Ieškoti** ir ieškokite priedo, kurį norite naujinti.
 3. Pasirinkite priedą, tada pagrindiniame puslapyje pasirinkite **Pasirinkti**.
 4. Pasirinkite norimo naujinti priedo veiksmą, spustelėkite dešiniuoju pelės mygtuku ir pasirinkite **Naujinti**.
-5. Dialogo lango **Esamo veiksmo naujinimas** lauke **Filtravimo atributai** pasirinkite daugtaškio mygtuką ( **...** ):
+5. Dialogo lango **Esamo veiksmo naujinimas** lauke **Filtravimo atributai** pasirinkite daugtaškio mygtuką (**...**):
 6. Dialogo lange **Atributų pasirinkimas** pasirinkite pasirinktinių atributų žymės langelius.
-7. Pasirinkite **Gerai** , kad uždarytumėte dialogo langą, tada pasirinkite **Veiksmo naujinimas**.
+7. Pasirinkite **Gerai**, kad uždarytumėte dialogo langą, tada pasirinkite **Veiksmo naujinimas**.
 8. Pakartokite 1–7 veiksmus ir su antru priedu.
 9. Uždarykite PluginRegistrationTool.

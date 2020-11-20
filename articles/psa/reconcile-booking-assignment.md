@@ -3,7 +3,7 @@ title: Užsakymų ir priskyrimų derinimas
 description: Šioje temoje pateikta informacija apie faktinius duomenis.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/27/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7ca6f4bb69322db08c413e076860e2ee9fdcc412
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f5255b4aa2c6c8b7fa7320da2e10b2ed23a88fdd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080882"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120463"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>Užsakymų ir priskyrimų derinimas
 
@@ -35,7 +35,7 @@ Dėl projekto užsakymų ir užduočių priskyrimų laisvo siejimo į projekto o
 
 Kiekvieno pavadinto komandos nario skirtuke **Derinimas** rodomi užsakymai ir priskyrimai iki atskiro užduoties priskyrimo. Jame rodomos valandos langeliuose, kurie gali nurodyti laikotarpius nuo mėnesių iki dienų.
 
-Lauke **Laiko skalė** galite pasirinkti **Mėnesis** , **Savaitė** arba **Diena**. **Savaitė** yra numatytoji parinktis. Tačiau numatytąją reikšmę galite pakeisti spustelėję mygtuką **Parametrai**. Kai skirtukas **Derinimas** atidaromas, rodoma dabartinė data, tačiau galite naudoti kalendoriaus valdiklį ir pereiti laike į priekį arba atgal. Kai projekto pradžios data yra ateityje, skirtuke rodoma data, kai jis atidaromas. Kalendoriaus valdiklis taip pat turi parinkčių, leisiančių pereiti prie projekto pradžios ir laiko datų.
+Lauke **Laiko skalė** galite pasirinkti **Mėnesis**, **Savaitė** arba **Diena**. **Savaitė** yra numatytoji parinktis. Tačiau numatytąją reikšmę galite pakeisti spustelėję mygtuką **Parametrai**. Kai skirtukas **Derinimas** atidaromas, rodoma dabartinė data, tačiau galite naudoti kalendoriaus valdiklį ir pereiti laike į priekį arba atgal. Kai projekto pradžios data yra ateityje, skirtuke rodoma data, kai jis atidaromas. Kalendoriaus valdiklis taip pat turi parinkčių, leisiančių pereiti prie projekto pradžios ir laiko datų.
 
 Galite naudoti kiekvieno ištekliaus plėstuvo valdiklius, kad būtų rodoma išsami informacija apie išteklių rezervavimą. Taip pat galite išplėsti kiekvieno ištekliaus priskyrimus pagal atskirų užduočių lygį.
 
@@ -47,9 +47,9 @@ Skirtuko **Derinimas** apačioje rodoma bendra bendroji projekto suma bei skirtu
 > [!NOTE]
 > Šių sąlygų legenda gali būti paslėpta, kad liktų daugiau vietos tinkleliui. Šiuo atveju galite padaryti legendą matomą spustelėdami mygtuką **Parametrai**.
 
-Kai kuriais atvejais, kai laukas **Laiko skalė** nustatomas kaip lygis, kuris yra didesnis nei **Diena** , skirtumai gali būti apskaičiuojami kaip 0 (nulis). Pavyzdžiui, lygyje **Mėnesis** grynasis ištekliaus skirtumas gali būti 0 (nulis), kad nurodytų, jog užsakymai yra lygūs priskyrimams. Tačiau, jei peržiūrite lygį **Savaitė** , galite matyti, kad ten yra 0 (nulis) priskyrimų valandų ir rezervuota 40 valandų pirmojoje mėnesio savaitėje bei 40 priskyrimų valandų ir 0 (nulinių) valandų užsakymui antrą mėnesio savaitę. Nors bendras mėnesio užsakymų ir priskyrimų kiekis yra vienodas, jis skiriasi pagal savaitę.
+Kai kuriais atvejais, kai laukas **Laiko skalė** nustatomas kaip lygis, kuris yra didesnis nei **Diena**, skirtumai gali būti apskaičiuojami kaip 0 (nulis). Pavyzdžiui, lygyje **Mėnesis** grynasis ištekliaus skirtumas gali būti 0 (nulis), kad nurodytų, jog užsakymai yra lygūs priskyrimams. Tačiau, jei peržiūrite lygį **Savaitė**, galite matyti, kad ten yra 0 (nulis) priskyrimų valandų ir rezervuota 40 valandų pirmojoje mėnesio savaitėje bei 40 priskyrimų valandų ir 0 (nulinių) valandų užsakymui antrą mėnesio savaitę. Nors bendras mėnesio užsakymų ir priskyrimų kiekis yra vienodas, jis skiriasi pagal savaitę.
 
-Kai peržiūrite stambesnius laiko lygius, skirtuke **Derinimas** rodomas langelio indikatorius, kuris jums praneš, kad yra skirtumų esant smulkesniems laiko lygiams. Pavyzdžiui, šioje iliustracijoje rodomas langelio indikatorius, esantis 2018 m. spalio mėnesio langelyje, skirtame ištekliams, pavadintame Margarita Ambrazaitytė. Todėl galite matyti, kad net jei išteklių užsakymai ir priskyrimai lygūs lygiu **Mėnesis** , jie nesutampa su smulkesniais lygiais.
+Kai peržiūrite stambesnius laiko lygius, skirtuke **Derinimas** rodomas langelio indikatorius, kuris jums praneš, kad yra skirtumų esant smulkesniems laiko lygiams. Pavyzdžiui, šioje iliustracijoje rodomas langelio indikatorius, esantis 2018 m. spalio mėnesio langelyje, skirtame ištekliams, pavadintame Margarita Ambrazaitytė. Todėl galite matyti, kad net jei išteklių užsakymai ir priskyrimai lygūs lygiu **Mėnesis**, jie nesutampa su smulkesniais lygiais.
 
 ![Nesuderinti užsakymai ir prieskyros mėnesio lygiu](media/reconcile-assignments-01.JPG)
 
@@ -59,9 +59,9 @@ Dukart spustelėkite langelį, jei norite priartinti kitą apatinį lygį ir per
 
 Galite dešiniuoju pelės mygtuku spustelėti langelį ir sumažinti tolimesnį stambesnį lygį. Taip pat galite išjungti langelio indikatorių pažymėdami mygtuką **Parametrai**. 
 
-Taip pat galite naudoti mygtukus **Ankstesnis** ir **Kitas** , esančius virš tinklelio, ir peržvelgti visus projekto skirtumus. Norėdami naudoti šiuos mygtukus, pirmiausia turite pažymėti išteklių. Pasirinkite **Kitas** , kad pereitumėte prie kito skirtumo tarp to ištekliaus užsakymų ir priskyrimų. Pasirinkite **Ankstesnis** , kad pereitumėte prie ankstesnio skirtumo.
+Taip pat galite naudoti mygtukus **Ankstesnis** ir **Kitas**, esančius virš tinklelio, ir peržvelgti visus projekto skirtumus. Norėdami naudoti šiuos mygtukus, pirmiausia turite pažymėti išteklių. Pasirinkite **Kitas**, kad pereitumėte prie kito skirtumo tarp to ištekliaus užsakymų ir priskyrimų. Pasirinkite **Ankstesnis**, kad pereitumėte prie ankstesnio skirtumo.
 
-Situacijose, kai ištekliams yra užduočių priskyrimų, bet nėra užsakymų, galite pažymėti rezervavimo trūkumą ir pažymėti **Pratęsti rezervavimą**. Tada galite peržiūrėti rezervavimą, reikalingą norint spręsti išteklių trūkumą. Taip pat galite peržiūrėti išteklių užsakymus dabartiniame projekte ir kituose projektuose. Pasirinkite **Gerai** , kad sukurtumėte išteklių rezervavimą neatsižvelgdami į dabartinį pasiekiamumą. Tada projektų vadovas arba išteklių vadovas gali naudoti grafiko lentą valdyti situacijas, kai ištekliams priskirta per daug užsakymų lyginant su pajėgumu dėl to, kad užsakymai buvo pratęsti.
+Situacijose, kai ištekliams yra užduočių priskyrimų, bet nėra užsakymų, galite pažymėti rezervavimo trūkumą ir pažymėti **Pratęsti rezervavimą**. Tada galite peržiūrėti rezervavimą, reikalingą norint spręsti išteklių trūkumą. Taip pat galite peržiūrėti išteklių užsakymus dabartiniame projekte ir kituose projektuose. Pasirinkite **Gerai**, kad sukurtumėte išteklių rezervavimą neatsižvelgdami į dabartinį pasiekiamumą. Tada projektų vadovas arba išteklių vadovas gali naudoti grafiko lentą valdyti situacijas, kai ištekliams priskirta per daug užsakymų lyginant su pajėgumu dėl to, kad užsakymai buvo pratęsti.
 
 ## <a name="managing-with-time-zones"></a>Laiko juostų valdymas
 Norint užtikrinti tikslius ir prognozuojamus rezultatus naudojat rezervavimo išplėtimą, reikia atitikti dvi pagrindines sąlygas:  

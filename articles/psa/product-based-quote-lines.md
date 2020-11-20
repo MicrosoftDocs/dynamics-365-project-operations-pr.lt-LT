@@ -3,7 +3,7 @@ title: Produktu pagrįstos pasiūlymo eilutės
 description: Šioje temoje pateikta informacija apie produktu pagrįstas pasiūlymo eilutes.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/06/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 55a5b5041a494892e6d96bf24e1bc132a26521dc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9c3b2b35abe894e79d6f55a7ddd6e5c64d0f12f2
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081016"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123214"
 ---
 # <a name="product-based-quote-lines"></a>Produktu pagrįstos pasiūlymo eilutės
 
@@ -41,7 +41,7 @@ Pavyzdžiui, įmonė parduoda prenumeratos licencijas įvairioms programinėms �
 - Vartotojų skaičius 
 - Prenumeratos trukmė (mėnesiais)
 
-Geras būdas išlaikyti šio tipo katalogą yra sukurti produktų šeimą, pavadintą **Prenumeratos programinė įranga** , ir kuri turi atributus **Vartotojų skaičius** bei **Prenumeratos trukmė**. Tada galite įtraukti individualius produktus, pavyzdžiui, **Dynamics 365 Sales** arba **Dynamics 365 Field Service** , į produktų šeimą **Prenumeratos programinė įranga**.
+Geras būdas išlaikyti šio tipo katalogą yra sukurti produktų šeimą, pavadintą **Prenumeratos programinė įranga**, ir kuri turi atributus **Vartotojų skaičius** bei **Prenumeratos trukmė**. Tada galite įtraukti individualius produktus, pavyzdžiui, **Dynamics 365 Sales** arba **Dynamics 365 Field Service**, į produktų šeimą **Prenumeratos programinė įranga**.
 
 ## <a name="adding-product-catalog-items-to-a-project-quote"></a>Produktų katalogo elementų įtraukimas į projekto pasiūlymą
 
@@ -54,9 +54,9 @@ Jei pasiūlymo eilutė pagrįsta produktų katalogu, galite perrašyti pardavimo
 - Perrašyti kainodarą  
 - Naudoti numatytąją
 
-Jei šį lauką nustatysite į **Perrašyti kainodarą** , „Dynamics 365“ nenustato numatytosios kainos. Pasiūlymo eilutėje turite įvesti produkto kainą. Jei šį lauką nustatysite į **Naudoti numatytąją** , „Dynamics 365“ naudoja numatytąją pardavimo kainą ir užrakina lauką, kad jo nebūtų galima redaguoti.
+Jei šį lauką nustatysite į **Perrašyti kainodarą**, „Dynamics 365“ nenustato numatytosios kainos. Pasiūlymo eilutėje turite įvesti produkto kainą. Jei šį lauką nustatysite į **Naudoti numatytąją**, „Dynamics 365“ naudoja numatytąją pardavimo kainą ir užrakina lauką, kad jo nebūtų galima redaguoti.
 
-Įdiegus PSA numatytąsias pardavimo kainas galima įvesti pasiūlymo produktu pagrįstose eilutėse. Tada laukas **Kainodara** nustatomas į **Perrašyti kainodarą** , kad galėtumėte redaguoti numatytąją kainą pasiūlymo eilutėse.
+Įdiegus PSA numatytąsias pardavimo kainas galima įvesti pasiūlymo produktu pagrįstose eilutėse. Tada laukas **Kainodara** nustatomas į **Perrašyti kainodarą**, kad galėtumėte redaguoti numatytąją kainą pasiūlymo eilutėse.
 
 > ![Kainodaros perrašymo nustatymas](media/basic-guide-10.png)
  

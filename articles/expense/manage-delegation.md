@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: bfc141c6f1072314bdfaef835d730c6ca82bae1a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 09fc5a58b3367d1b70d2ddddb8e920769055f9d2
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080837"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122713"
 ---
 # <a name="manage-delegation"></a>Perdavimo valdymas
 Išlaidų atstovas gali kurti ir valdyti kito darbuotojo išlaidų ataskaitas.
@@ -29,7 +29,7 @@ Išlaidų atstovas gali kurti ir valdyti kito darbuotojo išlaidų ataskaitas.
 
 Norėdami nustatyti vartotoją kaip išlaidų atstovą, atlikite toliau nurodytus veiksmus. 
 1. Eikite į **Išlaidų valdymas** > **Sąranka** > **Bendra** > **Atstovai**. 
-2. Puslapyje **Atstovai** pažymėkite **Naujas** , o tada pažymėkite darbuotoją, kuris turės nustatytą atstovą. 
+2. Puslapyje **Atstovai** pažymėkite **Naujas**, o tada pažymėkite darbuotoją, kuris turės nustatytą atstovą. 
 3. Įveskite atstovaujančio vartotojo pseudonimą ir delegavimo laikotarpio pradžios ir pabaigos datas.
 
 ## <a name="manage-expenses-on-behalf-of-another-employee"></a>Išlaidų valdymas kito darbuotojo vardu

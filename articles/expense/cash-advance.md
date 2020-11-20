@@ -5,17 +5,17 @@ author: suvaidya
 manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 209fe0b8a79b2c0689c458c423664cb292da249b
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: c5839fbdab58903555936324139b76f4c94b6c35
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080719"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122759"
 ---
 # <a name="cash-advance"></a>Avansinis mokėjimas
 
@@ -25,7 +25,7 @@ Avansinis mokėjimas leidžia darbuotojams skolintis pinigus iš savo įmonės p
 
 ## <a name="create-and-submit-a-cash-advance-request"></a>Avansinio mokėjimo užklausos kūrimas ir pateikimas
 
-1. Dalyje **Mano išlaidos** pasirinkite **Avansiniai mokėjimai** > **Naujas** , kad sukurtumėte naują avansinį mokėjimą. 
+1. Dalyje **Mano išlaidos** pasirinkite **Avansiniai mokėjimai** > **Naujas**, kad sukurtumėte naują avansinį mokėjimą. 
 2. Puslapyje **Nauja avansinio mokėjimo užklausa** įveskite išlaidų tikslą ir pasirinkite vietą, kurioje bus patirtos išlaidos.
 3. Įveskite pageidaujamą sumą ir valiutą, tada pasirinkite **įrašyti**. 
 4. Kai būsite pasirengę pateikti avansinio mokėjimo užklausą, puslapyje **Avansinio mokėjimo užklausa** pasirinkite **Darbo eiga** > **Pateikti**.
@@ -52,7 +52,7 @@ Vadovai arba vartotojai, darbo eigoje sukonfigūruoti kaip tvirtintojai, galės 
 ## <a name="pay-cash-advances"></a>Avansinių mokėjimų išmokėjimas 
 Šią procedūrą paprastai atlieka apskaitininkas arba vartotojas, turintis apskaitos leidimus.
 
-1. Norėdami paskelbti patvirtintus avansinius mokėjimus, pažymėkite **Patvirtinti avansiniai mokėjimai** , o tada pasirinkite **Mokėti ir pervesti**.  
+1. Norėdami paskelbti patvirtintus avansinius mokėjimus, pažymėkite **Patvirtinti avansiniai mokėjimai**, o tada pasirinkite **Mokėti ir pervesti**.  
 2. Pateikite žurnalo išsamią informaciją apie avansinius mokėjimus, o tada pažymėkite **Gerai**. 
 
 ## <a name="submit-an-expense-report-against-a-paid-cash-advance"></a>Pateikite išlaidų ataskaitą pagal išmokėtą avansinį mokėjimą 

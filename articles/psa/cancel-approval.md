@@ -3,7 +3,7 @@ title: Anksčiau patvirtintų laiko ir išlaidų įrašų atšaukimas
 description: Šioje temoje pateikta informacija apie tai, kaip atšaukti anksčiau patvirtintą projekto laiko ir išlaidų operaciją.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0ea816040570cc8f6ddf3c5ec8a74ac092fc68b2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 84fc057599dd98162320d6104ed4a7612e894ecb
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081011"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123343"
 ---
 # <a name="cancel-previously-approved-time-or-expense-entries"></a>Anksčiau patvirtintų laiko ar išlaidų įrašų atšaukimas
 
@@ -46,7 +46,7 @@ Atšaukus patvirtinimą, patiriamas veiklos ir finansinis poveikis.
 
 ### <a name="operational-impact"></a>Veiklos poveikis
 
-Kai patvirtinimas atšaukiamas, veiklos požiūriu įrašo būsena iš naujo nustatoma į **juodraštį** , o patvirtinimas neberodomas rodinyje **Mano ankstesni patvirtinimai**. Vietoj to, atšauktas patvirtinimas rodomas rodinyje **Laiko įrašai, skirti patvirtinti** arba rodinyje **Išlaidų įrašai, skirti patvirtinti** , priklausomai nuo to, ar įrašas buvo laiko, ar išlaidų įrašas. Be to, susijusio laiko arba išlaidų įrašo būsena pakeičiama į **Pateikta** , kad susijęs įrašas atitiktų patvirtinimus, kurių būsena – **Juodraštis**.
+Kai patvirtinimas atšaukiamas, veiklos požiūriu įrašo būsena iš naujo nustatoma į **juodraštį**, o patvirtinimas neberodomas rodinyje **Mano ankstesni patvirtinimai**. Vietoj to, atšauktas patvirtinimas rodomas rodinyje **Laiko įrašai, skirti patvirtinti** arba rodinyje **Išlaidų įrašai, skirti patvirtinti**, priklausomai nuo to, ar įrašas buvo laiko, ar išlaidų įrašas. Be to, susijusio laiko arba išlaidų įrašo būsena pakeičiama į **Pateikta**, kad susijęs įrašas atitiktų patvirtinimus, kurių būsena – **Juodraštis**.
 
 Būdami tvirtintoju galite redaguoti kai kuriuos patvirtinimo laukus, kurių būsena – **Juodraštis**. Šie laukai – tai **Atsiskaitymo tipas** ir **Apmokėtinos valandos pagal laiko įrašus**. Atlikę keitimų galite patvirtinti įrašą dar kartą. Taip pat galite atmesti įrašą. Atmetus laiko įrašo patvirtinimą, įrašo būsena pakeičiama į **Grąžinta**. Atmetus išlaidų įrašo patvirtinimą, būsena pakeičiama į **Atmesta**. Funkciniu požiūriu grąžinti ir atmesti įrašai veikia taip pat kaip ir įrašas, kurio būsena – **Juodraštis**. Projekto komandos narys gali atlikti reikiamus įrašo keitimus, tada iš naujo pateikti įrašą patvirtinti arba visiškai jį panaikinti.
 
@@ -57,6 +57,6 @@ Atšaukus patvirtinimą, projektas taip pat paveikiamas finansiškai. Pirmiausia
 - Koregavimo būsena nustatoma į **Koreguota**.
 - Atsiskaitymo būsena nustatoma į **Atšaukta**.
 
-Toliau faktinių duomenų lentelėje sukuriami atšaukimo įrašai. Tam, kad būtų sukurti atšaukimo įrašai, sistema iš pirminių faktinių duomenų nukopijuoja lauko vertes. Vienintelės vertės, kurios nenukopijuojamos, yra kiekio vertės. Vietoj to, šios reikšmės yra atšaukiamos. Sukuriami atšaukti **savikainos** ir **pardavimo, už kurį neišrašyta sąskaita** faktiniai duomenys. Laukui **Koregavimo būsena** , esančiam atvirkštinių faktinių duomenų srityje, nustatoma būsena **Nekoreguojama** , o atsiskaitymo būsenai nustatoma būsena **Atšaukta**.
+Toliau faktinių duomenų lentelėje sukuriami atšaukimo įrašai. Tam, kad būtų sukurti atšaukimo įrašai, sistema iš pirminių faktinių duomenų nukopijuoja lauko vertes. Vienintelės vertės, kurios nenukopijuojamos, yra kiekio vertės. Vietoj to, šios reikšmės yra atšaukiamos. Sukuriami atšaukti **savikainos** ir **pardavimo, už kurį neišrašyta sąskaita** faktiniai duomenys. Laukui **Koregavimo būsena**, esančiam atvirkštinių faktinių duomenų srityje, nustatoma būsena **Nekoreguojama**, o atsiskaitymo būsenai nustatoma būsena **Atšaukta**.
 
 Atlikus šiuos pakeitimus, suma, kuri įrašoma kaip išleista vykdant projektą, ir nepanaudotos projekto pajamos nebelems sumų, kurias šie faktiniai duomenys iš tikrųjų reiškia.

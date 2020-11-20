@@ -2,7 +2,7 @@
 title: Pagrindinio puslapio atnaujinimas
 description: Šioje temoje nurodoma, kur rasti svarbią informaciją apie naujas ir pakeistas „Dynamics 365 Project Service Automation“ funkcijas bei naujinimo į naujausią versiją procesą.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/30/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 29e7b519b61e8709c025e9906d04aed0156f65eb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: fa25d069de8098c0e8788c9ebb8aa3426eec5db9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080917"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121768"
 ---
 # <a name="upgrade-home-page"></a>Pagrindinio puslapio atnaujinimas
 
@@ -61,4 +61,4 @@ Nuo 2019 m. gegužės 17 d. visų naujų egzempliorių numatytasis klientas bus
 Nuo 2020 m. kovo 1 d. „Dynamics“ PSA klientai nebegalės kurti naujų aplinkų naudodami senas PSA versijas, pavyzdžiui, PSA 2.x ir senesnes versijas. Bet kokią naują aplinką bus galima gauti tik naudojant PSA 3.x versiją.
 
 > [!NOTE]
-> Norėdami gauti geriausią patirtį, kai naudojatės senesnėmis „Field Service“ ir PSA programomis, eikite į puslapį **Sistemos parametrai** ir lauke **Naudoti tik naują vieningąją sąsają (rekomenduojama)** pasirinkite **Ne** , nes šios versijos nėra sukurtos taip, kad jas būtų galima tinkamai įkelti į UCI. Išjungę UCI, galite atidaryti ir paleisti šias „Field Service“ ir PSA versijas naudodami senąjį žiniatinklio klientą. 
+> Norėdami gauti geriausią patirtį, kai naudojatės senesnėmis „Field Service“ ir PSA programomis, eikite į puslapį **Sistemos parametrai** ir lauke **Naudoti tik naują vieningąją sąsają (rekomenduojama)** pasirinkite **Ne**, nes šios versijos nėra sukurtos taip, kad jas būtų galima tinkamai įkelti į UCI. Išjungę UCI, galite atidaryti ir paleisti šias „Field Service“ ir PSA versijas naudodami senąjį žiniatinklio klientą. 

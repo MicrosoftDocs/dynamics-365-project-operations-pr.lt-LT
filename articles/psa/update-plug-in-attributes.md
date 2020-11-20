@@ -6,7 +6,7 @@ manager: kfend
 ms.custom: ''
 ms.date: 11/19/2018
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f215555dd7b29444e00499c0e731624e51057250
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c42e5fda79d51430f4dedf46037e11c86a38c474
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080919"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121858"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Priedo atributų atnaujinimas norint įtraukti naujų kainodaros dimensijų
 
@@ -30,7 +30,7 @@ ms.locfileid: "4080919"
 
 Šioje temoje daroma prielaida, kad atlikote temose [Pasirinktinių laukų ir objektų kūrimas](create-custom-fields-entities.md), [Pasirinktinių laukų įtraukimas į kainos sąranką ir operacijų objektus](field-references.md) bei [Pasirinktinių laukų kaip kainodaros dimensijų nustatymas](set-up-pricing-dimensions.md) nurodytas procedūras. Jei neatlikote šių procedūrų, grįžkite ir jas atlikite, o tada grįžkite į šią temą.
 
-Kai pasiūlymo eilutės informacija sukuriama projekto pasiūlymo eilutės puslapyje **Pasiūlymo eilutė** , sistema sukuria dvi įvertinimo eilutes fone – vieną eilutę įvertinimo savikainos pusei, ir vieną pardavimo pusei. Tas pats taikoma projekto sutarties eilutėms.
+Kai pasiūlymo eilutės informacija sukuriama projekto pasiūlymo eilutės puslapyje **Pasiūlymo eilutė**, sistema sukuria dvi įvertinimo eilutes fone – vieną eilutę įvertinimo savikainos pusei, ir vieną pardavimo pusei. Tas pats taikoma projekto sutarties eilutėms.
 
 Kai keičiate kiekį arba lauką savikainos pusėje, šis pakeitimas perkeliamas į pardavimo pusę. Tai įmanoma dėl šių priedų, kuriuos pakeitus kainodaros dimensijas reikia iš naujo užregistruoti.
 
@@ -50,7 +50,7 @@ Toliau aprašytuose veiksmuose paaiškinta, kaip užregistruoti priedus.
 
  ![Priedo, kuris bus atnaujintas, ekrano kopija](media/PRT-2.png)
  
-5. Naujinimo lange filtravimo atributuose spustelėkite daugtaškį ( **...** ).
+5. Naujinimo lange filtravimo atributuose spustelėkite daugtaškį (**...**).
 
  ![Esamo veiksmo konfigūravimo informacijos naujinimo ekrano kopija](media/PRT-3.png)
  
@@ -58,7 +58,7 @@ Toliau aprašytuose veiksmuose paaiškinta, kaip užregistruoti priedus.
 
  ![Ekrano kopija, kurioje matomas kainodaros atributų žymės langelių pasirinkimas](media/PRT-4.png)
 
-7. Spustelėkite **Gerai** , kad uždarytumėte puslapį, tada pasirinkite **Atnaujinti veiksmą**.
+7. Spustelėkite **Gerai**, kad uždarytumėte puslapį, tada pasirinkite **Atnaujinti veiksmą**.
 
  ![Ekrano kopija, kurioje rodomas mygtukas „Atnaujinti veiksmą“](media/PRT-5.png)
  

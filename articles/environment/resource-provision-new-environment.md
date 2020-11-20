@@ -3,17 +3,17 @@ title: Naujos aplinkos parengimas
 description: Šioje temoje pateikiama informacija, kaip parengti naują „Project Operations“ aplinką.
 author: sigitac
 manager: Annbe
-ms.date: 10/07/2020
+ms.date: 10/26/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a43b947207b6d4276ef27ec996713bf3883e7906
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080723"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121183"
 ---
 # <a name="provision-a-new-environment"></a>Naujos aplinkos parengimas
 
@@ -26,7 +26,7 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 Atlikite toliau nurodytus veiksmus, kad įjungtumėte automatinį „Project Operations“ parengimą LCS projekte.
 
 1. Eikite į [LCS](https://lcs.dynamics.com/v2) ir pasirinkite plytelę **Peržiūros versijos funkcijų valdymas**.
-2. Sąraše **Peržiūros versijos funkcija** pasirinkite **„Project Operations“ funkcija** , tada pasirinkite **Peržiūros versijos funkcija įjungta** , kad įjungtumėte „Project Operations“.
+2. Sąraše **Peržiūros versijos funkcija** pasirinkite **„Project Operations“ funkcija**, tada pasirinkite **Peržiūros versijos funkcija įjungta**, kad įjungtumėte „Project Operations“.
 
 > [!NOTE]
 > Šį veiksmą reikia atlikti tik vieną kartą LCS projekte.
@@ -54,7 +54,7 @@ Atlikite toliau nurodytus veiksmus, kad įjungtumėte automatinį „Project Ope
 ![Visuotinio diegimo parametrai](./media/1DeploymentSettings.png)
 
 > [!IMPORTANT]
-> Pasirinkite **Sutinku** , kad sutiktumėte su paslaugos teikimo sąlygomis, tada pasirinkite **Atlikta** , kad grįžtumėte į visuotinio diegimo parametrus.
+> Pasirinkite **Sutinku**, kad sutiktumėte su paslaugos teikimo sąlygomis, tada pasirinkite **Atlikta**, kad grįžtumėte į visuotinio diegimo parametrus.
 
 ![Visuotinio diegimo sutikimas](./media/2DeploymentConsent.png)
 
@@ -116,11 +116,11 @@ Aplinkos paruošimas gali šiek tiek užtrukti. Baigus vėl bus nustatyta aplink
 
 ![Susiejimas su CDS](./media/12LinktoCDS.png)
 
-4. Pasirinkite **Taikyti sprendimą** , kad pasiektumėte objektus, kurie bus susieti atliekant integravimą.
+4. Pasirinkite **Taikyti sprendimą**, kad pasiektumėte objektus, kurie bus susieti atliekant integravimą.
 
 ![Taikyti sprendimus](./media/13ApplySolutions.png)
 
-5. Pasirinkite abu sprendimus: **„Dynamics 365 Finance and Operations“ dvigubo rašymo objektų schema** ir **„Dynamics 365 Project Operations“ dvigubo rašymo objektų schemos** , tada pasirinkite **Taikyti**.
+5. Pasirinkite abu sprendimus: **„Dynamics 365 Finance and Operations“ dvigubo rašymo objektų schema** ir **„Dynamics 365 Project Operations“ dvigubo rašymo objektų schemos**, tada pasirinkite **Taikyti**.
 
 ![Sprendimų patvirtinimas](./media/14ConfirmSolutions.png)
 
@@ -177,7 +177,7 @@ Atnaujinimas truks apie 20 minučių. Kai jis bus baigtas, gausite įspėjimą.
 
 5. Atnaujinę paleiskite schemą. Prieš įjungdami kitą schemą patikrinkite, ar lentelėje schemos būsena yra **Vykdoma**. Gali šiek tiek užtrukti, kol bus paleistos schemos, turinčios daug būtinųjų sąlygų.
 
-Norėdami paleisti schemą su būtinosiomis sąlygomis, įjunkite perjungiklį **Rodyti susijusias objektų schemas**. Jei lentelėje nurodyta **Būtinas pradinis sinchronizavimas** reikšmė **Ne** , įsitikinkite, kad žymės **Pradinis sinchronizavimas** būklė yra **Išjungta** visose būtinosiose schemose prieš ją vykdydami.
+Norėdami paleisti schemą su būtinosiomis sąlygomis, įjunkite perjungiklį **Rodyti susijusias objektų schemas**. Jei lentelėje nurodyta **Būtinas pradinis sinchronizavimas** reikšmė **Ne**, įsitikinkite, kad žymės **Pradinis sinchronizavimas** būklė yra **Išjungta** visose būtinosiose schemose prieš ją vykdydami.
 
 ![Schemos vykdymas](./media/21RunMap.png)
 
@@ -185,4 +185,10 @@ Norėdami paleisti schemą su būtinosiomis sąlygomis, įjunkite perjungiklį *
 
 ![Visos schemos yra vykdomos](./media/22AllMapsRunning.png)
 
-Jūsų „Project Operations“ aplinka dabar parengta ir sukonfigūruota.
+
+## <a name="apply-configuration-data-in-cds-for-project-operations-optional"></a>Konfigūracijos duomenų taikymas CDS, skirtoje „Project Operations“ (pasirenkama)
+
+Jeigu pritaikėte demonstracinius duomenis „Finance“ aplinkoje, žr. [Konfigūracijos duomenų nustatymas ir taikymas „Project Operations” skirtoje „Common Data Service”](resource-apply-pro-setup-config-data.md), kad pritaikytumėte demonstracinius duomenis CDS aplinkai.
+
+
+Jūsų „Project Operations“ aplinka dabar parengta ir sukonfigūruota. 
