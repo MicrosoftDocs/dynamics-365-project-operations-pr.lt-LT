@@ -1,4 +1,4 @@
-- name: „Dynamics 365 Project Operations“
+- name: Dynamics 365 Project Operations
   href: index.md
 - name: Darbo pradžia
   items:
@@ -38,6 +38,8 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Kas nauja
       items:
+        - name: '2020 m. gruodžio mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
+          href: whats-new/whats-new-dec-2020-resource-based.md
         - name: '2020 m. lapkričio mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
           href: whats-new/whats-new-nov-2020-resource-based.md
     - name: Projekto pardavimo procesas
@@ -87,7 +89,7 @@
                 - name: Kelių klientų valdymas projektu pagrįsto pasiūlymo eilutėse
                   href: sales/manage-multiple-customers-quote-line.md
                 - name: Projekto pasiūlymo eilutės apmokestinamų komponentų konfigūravimas
-                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
+                  href: sales/configure-chargeable-quoteline.md
                 - name: Įvertinimų kūrimas pasiūlymo eilutėje
                   href: sales/create-estimate-quote-line.md
                 - name: Įvertinimų importavimas iš projekto į projektu pagrįstą pasiūlymo eilutę
@@ -109,7 +111,7 @@
             - name: Projekto kainoraščių valdymas projekto sutartyse
               href: sales/contracts-manage-project-price-lists.md
             - name: Kelių klientų valdymas projekto sutartyse
-              href: sales/contracts-manage-project-price-lists.md
+              href: sales/manage-multiple-customers-contract.md
             - name: Projektu pagrįstos sutarties eilutės
               items:
                 - name: Projektu pagrįstų sutarties eilučių apžvalga
@@ -128,6 +130,14 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Projekto sutarties kopijavimas
               href: pro/sales/copy-project-contracts-sales.md
+            - name: Avansai ir išankstiniai apmokėjimai
+              items:
+                - name: Išankstinės arba išankstiniais apmokėjimais pagrįstos sutartys – „Lite“ versija
+                  href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
+                - name: Išankstinio apmokėjimo grafiko nustatymas – „Lite“ versija
+                  href: pro/sales/set-up-schedule-retainers-sales.md
+                - name: Ad hoc avanso kūrimas sutartyje – „Lite“ versija
+                  href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Kainodara ir įkainojimas
       items:
         - name: Kainoraščio sąranka
@@ -158,18 +168,28 @@
           items:
             - name: Kainodaros dimensijų apžvalga
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: Sprendimo pasirinktinėms kainodaros dimensijoms kūrimas
+              href: sales/create-solution-custompd.md
             - name: Esamų laukų kaip kainodaros dimensijų naudojimas
               items:
                 - name: „Project Operations“ laukai kaip kainodaros dimensijos
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: Rezervuojamų išteklių naudojimas kaip kainodaros dimensijos
+                  href: sales/use-br-as-pd.md
+                - name: Operacijos kategorijos kaip kainodaros dimensijos naudojimas
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: 'Rezervuojami ištekliai, kai projektui taikoma keletas vaidmenų'
+                  href: sales/br-playing-multiple-roles.md
             - name: Pasirinktiniai laukai kaip kainodaros dimensijos
               items:
                 - name: Pasirinktinių laukų ir objektų kaip kainodaros dimensijų kūrimas
                   href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
                 - name: Pasirinktinių laukų įtraukimas į kainų sąranką ir operacijų objektus
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
-                - name: Pasirinktinių laukų kaip kainodaros dimensijų nustatymas
+                - name: 'Pasirinktinių laukų kaip kainodaros dimensijų nustatymas '
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: 'Priedo atributų atnaujinimas, kad būtų galima įtraukti naujas kainodaros dimensijas'
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: Kainodaros dimensijos išjungimas
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: Projektų valdymas
@@ -250,12 +270,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: Išteklių administravimas
           items:
+            - name: Išteklių kūrimas
+              href: resource-management/create-resources.md
             - name: Įgūdžių ir kvalifikacijų apibrėžimas
               href: resource-management/define-skills-proficiencies.md
+            - name: Vaidmenų apibrėžimas
+              href: resource-management/define-roles.md
             - name: Išteklių kalendorių apibrėžimas
               href: resource-management/define-resource-calendars.md
         - name: Rezervavimo paskirstymo metodai
           href: resource-management/booking-allocation-methods.md
+        - name: Rezervavimo būsenos
+          href: resource-management/booking-status.md
         - name: Įgūdžių ir kompetencijos modeliai
           href: resource-management/skills-proficiency-models.md
         - name: Išteklių suderinimas
@@ -354,6 +380,8 @@
           href: proforma-invoicing/create-manual-proforma-invoice.md
         - name: Išankstinės projekto sąskaitos faktūros valdymas
           href: proforma-invoicing/manage-proforma-invoice.md
+        - name: Išankstinio apmokėjimo arba išankstiniu mokėjimu pagrįsto mokėjimo sąskaita faktūra
+          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
         - name: Išankstinės projekto sąskaitos faktūros patvirtinimas
           href: proforma-invoicing/confirm-proforma-invoice.md
         - name: Projekto sąskaitos faktūros automatizavimo konfigūravimas
@@ -370,6 +398,32 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: „Project Operations“ integravimo žurnalas
           href: project-accounting/project-operations-integration-journal.md
+        - name: Vidinės įmonės sąskaitų faktūrų išrašymas
+          items:
+            - name: Vidinės įmonės sąskaitų faktūrų išrašymo apžvalga
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: Vidinės įmonės SF išrašymo konfigūravimas
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: Vidinės įmonės kliento ir tiekėjo sąskaitų faktūrų kūrimas
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
+            - name: Vidinės įmonės operacijų kūrimas
+              href: project-accounting/create-intercompany-transactions.md
+    - name: Pajamų pripažinimas
+      items:
+        - name: Pajamų pripažinimo apžvalga
+          href: revenue-recognition/revenue-recognition-overview.md
+        - name: Pajamų pripažinimo nustatymas
+          items:
+            - name: Laikotarpių tipų nustatymas
+              href: project-accounting/period-types.md
+            - name: Išlaidų šablonų nustatymas
+              href: revenue-recognition/rev-rec-cost-templates.md
+        - name: Pajamų įvertinimų valdymas
+          href: revenue-recognition/rev-rec-completed-contract-method.md
+        - name: Fiksuotos kainos pajamų vertinimo projektai
+          href: revenue-recognition/rev-rec-percentage-completion-method.md
+        - name: Metodų užbaigimo išlaidos
+          href: revenue-recognition/cost-complete-methods.md
 - name: „Lite“ visuotinis diegimas – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo
   items:
     - name: Darbo pradžia
@@ -386,6 +440,8 @@
           href: environment/security-model.md
     - name: Kas nauja
       items:
+        - name: Kas nauja 2020 m. gruodžio mėn. – „Lite“ visuotinis diegimas – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo
+          href: pro/whats-new/whats-new-dec-2020-lite.md
         - name: Kas nauja 2020 m. lapkričio mėn. – „Lite“ visuotinis diegimas – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo
           href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: Projekto pardavimo procesas
@@ -538,18 +594,28 @@
           items:
             - name: Kainodaros dimensijų apžvalga
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: Sprendimo pasirinktinėms kainodaros dimensijoms kūrimas
+              href: sales/create-solution-custompd.md
             - name: Esamų laukų kaip kainodaros dimensijų naudojimas
               items:
-                - name: Esamo lauko kaip kainodaros dimensijos naudojimas
+                - name: „Project Operations“ laukai kaip kainodaros dimensijos
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: Rezervuojamų išteklių naudojimas kaip kainodaros dimensijos
+                  href: sales/use-br-as-pd.md
+                - name: Operacijos kategorijos kaip kainodaros dimensijos naudojimas
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: 'Rezervuojami ištekliai, kai projektui taikoma keletas vaidmenų'
+                  href: sales/br-playing-multiple-roles.md
             - name: Pasirinktiniai laukai kaip kainodaros dimensijos
               items:
                 - name: Pasirinktinių laukų ir objektų kaip kainodaros dimensijų kūrimas
                   href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
                 - name: Pasirinktinių laukų įtraukimas į kainų sąranką ir operacijų objektus
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
-                - name: Pasirinktinių laukų kaip kainodaros dimensijų nustatymas
+                - name: 'Pasirinktinių laukų kaip kainodaros dimensijų nustatymas '
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: 'Priedo atributų atnaujinimas, kad būtų galima įtraukti naujas kainodaros dimensijas'
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: Kainodaros dimensijos išjungimas
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: Projektų valdymas
@@ -626,12 +692,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: Išteklių administravimas
           items:
+            - name: Išteklių kūrimas
+              href: resource-management/create-resources.md
             - name: Įgūdžių ir kvalifikacijų apibrėžimas
               href: resource-management/define-skills-proficiencies.md
+            - name: Vaidmenų apibrėžimas
+              href: resource-management/define-roles.md
             - name: Išteklių kalendorių apibrėžimas
               href: resource-management/define-resource-calendars.md
         - name: Paskirstymo metodų rezervavimas
           href: resource-management/booking-allocation-methods.md
+        - name: Rezervavimo būsenos
+          href: resource-management/booking-status.md
         - name: Įgūdžių ir kompetencijos modeliai
           href: resource-management/skills-proficiency-models.md
         - name: Išteklių suderinimas
@@ -834,6 +906,8 @@
       items:
         - name: „Project Service” 3.x versijos naujinimo leidimo grafikas
           href: psa/version-history-ps.md
+        - name: 'Kas nauja arba pakeista šiame atnaujintame 26 leidime, V3'
+          href: psa/whats-new-ur-26.md
         - name: 'Kas nauja arba pakeista šiame atnaujintame 25 leidime, V3'
           href: psa/whats-new-ur-25.md
         - name: 'Kas nauja arba pakeista šiame atnaujintame 24 leidime, V3'
