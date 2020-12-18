@@ -1,6 +1,6 @@
 ---
 title: Saugos modelis
-description: Šioje temoje pateikiama informacija apie saugos modelį programoje „Dynamics 365 Project Operations“.
+description: Šioje temoje pateikiama informacijos apie „Dynamics 365 Project Operations“ saugos modelį.
 author: stsporen
 manager: Annbe
 ms.date: 10/01/2020
@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 3fc4101d0ea4b8e2a4ba8f1d43540d57239cf402
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b01f3d88dd021895933bc863b762f019ae50eed6
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124378"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642913"
 ---
 # <a name="security-model"></a>Saugos modelis
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
-„Microsoft Dynamics 365 Project Operations“ turi unikalų saugos modelį, leidžiantį naudoti vaidmenis pagrįstą verslo saugos modelį, suderintą su „Microsoft Office“ grupėmis. 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+„Microsoft Dynamics 365 Project Operations“ naudojamas unikalus saugos modelis, leidžiantis naudoti vaidmenimis pagrįstą veiklos saugos modelį, kuris veikia su „Microsoft Office“ grupėmis. 
 
 
 ## <a name="security-roles"></a>Saugos vaidmenys

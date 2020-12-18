@@ -17,16 +17,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 9e4f11ec0bb88ed0971a3d082e7ca7823fcf8453
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b3bc159fff25c4f6e5b1ed1b2eabbba675fb0f5
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080970"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642643"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Projekto sutarčių ir projektų sinchronizavimas tiesiogiai iš „Project Service Automation“ į „Finance and Operations“
 
 [!include[banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Šioje temoje aprašomi šablonas ir pagrindinės užduotys, kurie naudojami norint sinchronizuoti projekto sutartis ir projektus tiesiogiai iš „Dynamics 365 Project Service Automation“ į „Dynamics 365 Finance“.
 
@@ -46,7 +48,7 @@ Naudojant „Project Service Automation“ į „Finance“ integravimo sprendim
 
 ## <a name="templates-and-tasks"></a>Šablonai ir užduotys
 
-Norėdami pasiekti galimus šablonus, „Microsoft Power Apps“ administravimo centre pasirinkite **Projektai** , tada viršutiniame dešiniajame kampe pasirinkite **Naujas projektas** ir viešuosius šablonus.
+Norėdami pasiekti galimus šablonus, „Microsoft Power Apps“ administravimo centre pasirinkite **Projektai**, tada viršutiniame dešiniajame kampe pasirinkite **Naujas projektas** ir viešuosius šablonus.
 
 Toliau pateikiami šablonai ir pagrindinės užduotys naudojami norint sinchronizuoti projekto sutartis ir projektus iš „Project Service Automation“ į „Finance“.
 
@@ -95,11 +97,11 @@ Projektų sutarčių eilučių etapai valdomi naudojant „Project Service Autom
 
 Laukas **Projekto sutarties ID** pasiekiamas puslapyje **Projekto sutartys**. Šis laukas sukurtas kaip natūralus ir unikalus integravimo palaikymo raktas.
 
-Jeigu sukuriama nauja projekto sutartis, o reikšmės **Projekto sutarties ID** dar nėra, ji generuojama automatiškai, naudojant numerių seką. Reikšmę sudaro **ORD** , laipsniškai didėjanti numerių seka ir šešių simbolių sufiksas. Štai pavyzdys: **ORD-01022-Z4M9Q0**.
+Jeigu sukuriama nauja projekto sutartis, o reikšmės **Projekto sutarties ID** dar nėra, ji generuojama automatiškai, naudojant numerių seką. Reikšmę sudaro **ORD**, laipsniškai didėjanti numerių seka ir šešių simbolių sufiksas. Štai pavyzdys: **ORD-01022-Z4M9Q0**.
 
 Laukas **Projekto numeris** pasiekiamas puslapyje **Projektai**. Šis laukas sukurtas kaip natūralus ir unikalus integravimo palaikymo raktas.
 
-Jeigu sukuriamas naujas projektas, o reikšmės **Projekto numeris** dar nėra, ji generuojama automatiškai, naudojant numerių seką. Reikšmę sudaro **PRJ** , laipsniškai didėjanti numerių seka ir šešių simbolių sufiksas. Štai pavyzdys: **PRJ-01049-CCNID0**.
+Jeigu sukuriamas naujas projektas, o reikšmės **Projekto numeris** dar nėra, ji generuojama automatiškai, naudojant numerių seką. Reikšmę sudaro **PRJ**, laipsniškai didėjanti numerių seka ir šešių simbolių sufiksas. Štai pavyzdys: **PRJ-01049-CCNID0**.
 
 Taikant „Project Service Automation” į „Finance” integravimo sprendimą, naujinimo scenarijus nustato esamų projektų sutarčių lauką **Projekto sutarties ID** ir esamų projektų lauką **Projekto numeris** programoje „Project Service Automation”.
 
@@ -133,9 +135,9 @@ Jei reikia naudoti „Power Query“, vadovaukitės toliau pateikiamais nurodyma
 ## <a name="template-mapping-in-data-integration"></a>Šablonų susiejimas pasirinkus Duomenų integravimas
 
 > [!NOTE] 
-> Laukai **CustomerReference** , **AddressCity** , **AddressCountryRegionID** , **AddressDescription** , **AddressLine1** , **AddressLine2** , **AddressState** ir **AddressZipCode** neįtraukti į projektų sutarčių numatytąjį susiejimą. Jei reikia, kad šie duomenys būtų sinchronizuojami su projektų sutartimis, galite įtraukti šiuos susiejimus.
+> Laukai **CustomerReference**, **AddressCity**, **AddressCountryRegionID**, **AddressDescription**, **AddressLine1**, **AddressLine2**, **AddressState** ir **AddressZipCode** neįtraukti į projektų sutarčių numatytąjį susiejimą. Jei reikia, kad šie duomenys būtų sinchronizuojami su projektų sutartimis, galite įtraukti šiuos susiejimus.
 >
-> Laukai **Description** , **ParentID** , **ProjectGroup** , **ProjectManagerPersonnelNumber** ir **ProjectType** neįtraukti į projektų numatytąjį susiejimą. Jei reikia, kad šie duomenys būtų sinchronizuojami su projektais, galite įtraukti šiuos susiejimus.
+> Laukai **Description**, **ParentID**, **ProjectGroup**, **ProjectManagerPersonnelNumber** ir **ProjectType** neįtraukti į projektų numatytąjį susiejimą. Jei reikia, kad šie duomenys būtų sinchronizuojami su projektais, galite įtraukti šiuos susiejimus.
 
 Šiose iliustracijose pateikiami duomenų integravimo šablonų užduočių susiejimų pavyzdžiai. Susiejime rodoma lauko informacija, kuri bus sinchronizuojama iš „Project Service Automation“ į „Finance“.
 

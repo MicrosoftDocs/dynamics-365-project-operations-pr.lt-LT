@@ -5,15 +5,16 @@ author: rumant
 manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c97dca8685c2db7d256017cf4442416feb0e005b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: af9baca540d89f4e5e616bdfdd6111bef29abe28
+ms.sourcegitcommit: 656a9d03f260c29e988e2ff05b6e07ae0365d6d0
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130858"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "4672241"
 ---
 # <a name="override-project-sales-price-lists"></a>Pardavimo kainoraščio projekto perrašymas
 
@@ -27,7 +28,7 @@ Norėdami nustatyti konkrečiam klientui taikomą projekto kainoraštį, srityje
 
 1. Atidarykite sąrašo puslapį **Klientai**.
 2. Raskite ir dukart spustelėkite kliento įrašą, kad atidarytumėte informacijos puslapį **Klientas**.
-3. Skirtuke **Projekto kainoraščiai** pasirinkite **+ Naujas projekto kainoraštis^^.
+3. Skirtuke **Projekto kainoraščiai** pasirinkite **+ Naujas projekto kainoraštis**.
 4. Puslapyje **Naujas projekto kainoraštis** išplečiamajame sąraše pasirinkite kainoraštį. Įtraukiami tik tie kainoraščiai, kurių kontekstas nustatytas kaip **Pardavimas** ir kurių valiuta atitinka kliento valiutą.
 5. Suteikite sąsajai pavadinimą ir pasirinkite **Įrašyti**. Konkrečiam klientui taikomas projekto kainoraštis sukurtas. Šis kainoraštis bus naudojamas siekiant pagal numatytuosius nustatymus nustatyti projekto kainas projekto pasiūlymuose arba sutartyse, sukurtose šiam klientui, kai pasiūlymo arba projekto sutarties sukūrimo data patenka į kainoraščio galiojimo datų diapazoną.
 

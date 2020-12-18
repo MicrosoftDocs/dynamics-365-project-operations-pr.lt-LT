@@ -1,5 +1,5 @@
 ---
-title: Išankstinių apmokėjimų grafiko nustatymas – „Lite“ versija
+title: Išankstinių apmokėjimų grafiko nustatymas
 description: Šioje temoje pateikiama informacija apie tai, kaip nustatyti išankstinių apmokėjimų grafiką programoje „Project Operations”.
 author: rumant
 manager: Annbe
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5e0312b89d9969f140146b6aaaa9bdcfde702c0b
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1c264b544660cf7a0b116f09b6bd7c94fcf0457e
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181282"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596382"
 ---
-# <a name="set-up-a-retainer-schedule---lite"></a>Išankstinių apmokėjimų grafiko nustatymas – „Lite“ versija
+# <a name="set-up-a-retainer-schedule"></a>Išankstinių apmokėjimų grafiko nustatymas
 
-_**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
+_**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
-Išankstinių apmokėjimų grafikai nustatomi puslapyje **Projekto sutartis** programoje „Dynamics 365 Project Operations”.
+Išankstinių apmokėjimų grafikai nustatomi programos „Dynamics 365 Project Operations” puslapyje **Projekto sutartis**.
 
 1. Puslapio **Projekto sutartis** skirtuke **Avansai ir išankstiniai apmokėjimai** pasirinkite **Išankstinių apmokėjimų grafiko nustatymas**.
 2. Atsivėrusiame dialogo puslapyje rodomi laukai, išvardyti toliau pateikiamoje lentelėje. Lentelėje pateikiama idėja, kokį poveikį ar įtaką turės įvestos reikšmės išankstinių apmokėjimų grafikui, kuris bus sukurtas.

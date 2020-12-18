@@ -8,16 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dc3b353f19b915f645aed91dc2a8127117027034
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a6dfa51f59119834230b7c9f8859a9d85eaae999
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121138"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642978"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Prisiregistravimas norint gauti „Project Operations“ peržiūros versijos prenumeratą, skirtą ištekliais / ne atsargomis pagrįstiems scenarijams
 
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Šioje temoje aiškinama, kaip užsiprenumeruoti peržiūros versijos / partnerio pasiūlymą ir visuotinai įdiegti „Project Operations“ aplinką, skirtą ištekliais / ne atsargomis pagrįstiems scenarijams.
 
@@ -42,7 +44,7 @@ Patvirtinus jūsų [peržiūros versijos užklausą](https://forms.office.com/Fo
 
 Prieš pradėdami įsitikinkite, kad esate prisijungę prie naršyklės naudodami vartotojo darbo klientą nuomotojuje, kuriame norite atlikti „Project Operations“ peržiūrą.
 
-1. Pasinaudokite pirmuoju pasiūlymo kodu **„Dynamics 365 Project Operations“ (CRM) – bandomoji peržiūros versija**, įklijuodami jį į naršyklės URL lauką.
+1. Panaudokite pirmąjį pasiūlymo kodą, skirtą **„Dynamics 365 Project Operations“ (CRM) – bandomajai peržiūros versijai**, įklijuodami jį į naršyklės URL.
 
 ![Pasinaudoti pasiūlymu](./media/16RedeemFirstOfferNew.png)
 
@@ -75,7 +77,7 @@ Pakartokite tuos pačius veiksmus su paskutiniu pasiūlymu, esančiu pasveikinim
 
 ![Licencijų priskyrimas](./media/15AssignLicenses.png)
 
-3. Patikrinkite, ar pasirinkta **„Dynamics 365 Project Operations“ (CRM) peržiūros versijos** ir **„Office 365 Project Operations“ – peržiūros versijos** licencija, tada pasirinkite **Išsaugoti pakeitimus**.
+3. Įsitikinkite, kad pasirinktos **„Dynamics 365 Project Operations“ (CRM) peržiūros versija** ir **„Office 365 Project Operations“ – peržiūros versija** licencijos, ir pasirinkite **Įrašyti keitimus**.
 
 > [!NOTE]
 > „Finance“ bandomosios versijos pasiūlymo nereikia priskirti vartotojui.

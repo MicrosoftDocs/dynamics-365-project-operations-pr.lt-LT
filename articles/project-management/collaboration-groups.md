@@ -8,16 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e0a31e71dd1e184e2e9539ecfd5f82f718a5f159
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 815658ef66fb8083fb066f8f4d64a503580bfad2
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131848"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642508"
 ---
 # <a name="collaboration-with-office-groups"></a>Bendradarbiavimas naudojant „Office“ grupes
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 „Office“ grupės leidžia jums dalytis projektu su kitais komandos nariais programoje „Common Data Service“. Kai įtraukiate vartotojus į grupę, projekto nuosavybė perkeliama grupei. Visi vartotojai galės redaguoti projekto teises. Vartotojai taip pat gali matyti projektą, jei teises suteikė administratorius. Šie vartotojai grupėje nerodomi.
 

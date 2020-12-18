@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 86b676a0cf74e0257fd76cf32271497eebc06e75
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129688"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642778"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Planuodami savo darbą „Microsoft Project“, naudokite „Project Service Automation“ papildinį
 
@@ -173,6 +173,59 @@ Projektas bus importuotas į [!INCLUDE[pn_project_service_auto](../includes/pn-p
 4. Spustelėkite **Publikuoti**.  
 
 Projekto failą susiejus su [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], Projekto failas tampa pagrindiniu, o darbo paskirstymo struktūra [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] nustatoma kaip šablonas, skirtas tik skaityti.  Norėdami pakeisti projekto planą, turite atlikti pakeitimus naudodami „[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]“ ir publikuoti juos kaip „[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]“ naujinimus.
+
+## <a name="read-a-resource-loaded-schedule"></a>Išteklių įkelto grafiko skaitymas
+
+Skaitant „Project Service Automation“ projektą, išteklių kalendorius nesinchronizuojamas su stalinio kompiuterio klientu. Jei užduočių trukmės, pastangų arba pabaigos reikšmės skiriasi, tikriausiai dėl to, kad ištekliai ir stalinio kompiuterio klientas neturi paties darbo valandų šablono kalendoriaus, taikomo projektui.
+
+
+## <a name="data-synchronization"></a>Duomenų sinchronizavimas
+
+Toliau esančioje lentelėje nurodoma, kaip sinchronizuojami duomenys „Project Service Automation“ ir „Microsoft Project“ stalinio kompiuterio papildinyje.
+
+| **Objektas** | **Laukas** | **Iš „Microsoft Project“ į „Project Service Automation“** | **Iš „Project Service Automation“ į „Microsoft Project“** |
+| --- | --- | --- | --- |
+| Projekto užduotis | Terminas | ● | - |
+| Projekto užduotis | Įvertintos pastangos | ● | - |
+| Projekto užduotis | „MS Project“ kliento ID | ● | - |
+| Projekto užduotis | Pirminė užduotis | ● | - |
+| Projekto užduotis | Project | ● | - |
+| Projekto užduotis | Projekto užduotis | ● | - |
+| Projekto užduotis | Projekto užduoties pavadinimas | ● | - |
+| Projekto užduotis | Išteklių paskirstymo vienetas (nebenaudojama v3.0) | ● | - |
+| Projekto užduotis | Suplanuota trukmė | ● | - |
+| Projekto užduotis | Pradžios data | ● | - |
+| Projekto užduotis | WBS ID | ● | - |
+
+| **Objektas** | **Laukas** | **Iš „Microsoft Project“ į „Project Service Automation“** | **Iš „Project Service Automation“ į „Microsoft Project“** |
+| --- | --- | --- | --- |
+| Komandos narys | „MS Project“ kliento ID | ● | - |
+| Komandos narys | Pareigų pavadinimas | ● | - |
+| Komandos narys | projektas | ● | ● |
+| Komandos narys | Projekto komanda | ● | ● |
+| Komandos narys | Išteklių paskirstymo vienetas | - | ● |
+| Komandos narys | Vaidmuo | - | ● |
+| Komandos narys | Darbo valandos | Nesinchronizuota | Nesinchronizuota |
+
+| **Objektas** | **Laukas** | **Iš „Microsoft Project“ į „Project Service Automation“** | **Iš „Project Service Automation“ į „Microsoft Project“** |
+| --- | --- | --- | --- |
+| Išteklių priskyrimas | Pradžios data | ● | - |
+| Išteklių priskyrimas | Val. | ● | - |
+| Išteklių priskyrimas | „MS Project“ kliento ID | ● | - |
+| Išteklių priskyrimas | Suplanuotas darbas | ● | - |
+| Išteklių priskyrimas | Project | ● | - |
+| Išteklių priskyrimas | Projekto komanda | ● | - |
+| Išteklių priskyrimas | Išteklių priskyrimas | ● | - |
+| Išteklių priskyrimas | Užduotis | ● | - |
+| Išteklių priskyrimas | Iki datos | ● | - |
+
+| **Objektas** | **Laukas** | **Iš „Microsoft Project“ į „Project Service Automation“** | **Iš „Project Service Automation“ į „Microsoft Project“** |
+| --- | --- | --- | --- |
+| Projekto užduoties priklausomybės | Projekto užduoties priklausomybė | ● | - |
+| Projekto užduoties priklausomybės | Saito tipas | ● | - |
+| Projekto užduoties priklausomybės | Ankstesnė užduotis | ● | - |
+| Projekto užduoties priklausomybės | Project | ● | - |
+| Projekto užduoties priklausomybės | Vėlesnė užduotis | ● | - |
 
 ### <a name="see-also"></a>Taip pat žr.  
  [Projekto vadovo vadovas](../psa/project-manager-guide.md)

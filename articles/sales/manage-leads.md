@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4c99485a1d0c54ae848e5fbed4c4590e96cba9fd
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 16f5dbb283eee12cf10ca7145ea9e17c5ef8923e
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181777"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513844"
 ---
 # <a name="manage-leads"></a>Galimų klientų valdymas
 
@@ -53,7 +53,7 @@ Galimi klientai, kurių reikšmė **Tipas** nustatyta kaip **Darbu pagrįsta**, 
 
 - Klientas, kuris naudoja lauką **Įmonė** iš galimo kliento.
 - Kontakto įrašas, susietas su klientu pagal galimo kliento laukų **Vardas** ir **Pavardė** reikšmes.
-- Projektu pagrįsta galimybė, kurios laukas **Tipas** nustatytas į **Pagrįstas darbu**.
+- Projektu pagrįsta galimybė, kurios laukas **Tipas** nustatytas kaip **Pagrįsta darbu**.
 
 Išsamesnės informacijos apie galimų klientų tinkamumą žr. [Galimų klientų tinkamumo patvirtinimas arba konvertavimas](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 

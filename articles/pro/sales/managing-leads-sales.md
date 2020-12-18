@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 00fc16b0e723d4df88ceae961d9772e26dd1451e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 5e789295d4b1f5a53fcf179a2998f60d35f48f99
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180517"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513799"
 ---
 # <a name="manage-leads---lite"></a>Galimų klientų valdymas – „Lite“ versija
 
@@ -23,7 +23,7 @@ Projektu pagrįstus galimus klientus galima tvarkyti ir kvalifikuoti „Project 
 
 ## <a name="list-of-project-sales-leads"></a>Projektu pagrįstų galimų klientų sąrašas
 
-Skyrius **Pardavimas**, esantis kairiojoje naršymo srityje, atidaro sąrašo **Galimi klientai** puslapį, kur galima peržiūrėti visų sistemos galimų klientų įrašų sąrašą. Rodomą galimų klientų sąrašą sudaro darbu pagrįsti ir kitų tipų galimi klientai, kuriuos galima sukurti, jei turite „Dynamics 365 Sales“ arba „Dynamics 365 Field Service“ programą.
+Skyrius **Pardavimas**, esantis kairiojoje naršymo srityje, atidaro sąrašo **Galimi klientai** puslapį, kur galima peržiūrėti visų sistemos galimų klientų įrašų sąrašą. Sąraše pateikiami darbu pagrįsti galimi klientai ir kitų tipų galimi klientai, kuriuos galima sukurti, jei taip pat turite „Dynamics 365 Sales“ arba „Dynamics 365 Field Service“ programas.
 
 Galite sukurti filtruotą rodinį, kad matytumėte tik projektu pagrįstus galimus klientus, sukurdami filtrą reikšmėje **Tipas**. Pavyzdžiui, galite pasirinkti, kad būtų rodomi tik darbu pagrįsti galimi klientai.
 
@@ -53,7 +53,7 @@ Galimi klientai, kurių reikšmė **Tipas** nustatyta kaip **Darbu pagrįsta**, 
 
 - Klientas, kuris naudoja lauką **Įmonė** iš galimo kliento.
 - Kontakto įrašas, susietas su klientu pagal galimo kliento laukų **Vardas** ir **Pavardė** reikšmes.
-- Projektu pagrįsta galimybė, kurios laukas **Tipas** nustatytas į **Pagrįstas darbu**.
+- Projektu pagrįsta galimybė, kurios laukas **Tipas** nustatytas kaip **Pagrįsta darbu**.
 
 Išsamesnės informacijos apie galimų klientų tinkamumą žr. [Galimų klientų tinkamumo patvirtinimas arba konvertavimas](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 

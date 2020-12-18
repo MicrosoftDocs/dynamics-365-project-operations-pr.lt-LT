@@ -1,5 +1,5 @@
 ---
-title: Sąskaitos faktūros išrašymas už išankstinį apmokėjimą arba avansą – „Lite“ versija
+title: Avansinio arba išankstinio apmokėjimo sąskaitos faktūros išrašymas
 description: Šioje temoje pateikta informacija apie išankstinio arba avansinio apmokėjimo sąskaitų faktūrų išrašymą naudojant „Project Operations“.
 author: rumant
 manager: Annbe
@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180562"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596202"
 ---
-# <a name="invoice-a-retainer-or-an-advance---lite"></a>Sąskaitos faktūros išrašymas už išankstinį apmokėjimą arba avansą – „Lite“ versija
+# <a name="invoice-a-retainer-or-an-advance"></a>Išankstinio apmokėjimo arba išankstiniu mokėjimu pagrįsto mokėjimo sąskaita faktūra
 
-_**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
+_**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
 „Dynamics 365 Project Operations“ palaiko išankstiniais apmokėjimais pagrįstas sutartis ir vienkartinius avansus. Projekto sutartyje galite įrašyti išankstinio apmokėjimo arba vienkartinio avanso grafiką. Tačiau, įrašant projekto sutarties lygyje, išankstinio arba avansinio mokėjimo negalima naudoti iš karto. Jei norite naudoti išankstinį arba avansinį apmokėjimą sąskaitoje faktūroje, kuria klientas faktiškai apmokestinamas, pirmiausia reikia išrašyti išankstinio arba avansinio apmokėjimo sąskaitą faktūrą.
 

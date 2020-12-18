@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Operations, Core
 ms.search.region: Global
-ms.author: ryansand
+ms.author: suvaidya
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: ec8737d848ae5ad25219a43c68306d19b1c1fbce
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f2acd9eab52629b0baeb82a399993fbc6337c722
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080879"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650149"
 ---
 # <a name="redesigned-expense-reports"></a>Pertvarkytos išlaidų ataskaitos
 [!include[banner](../includes/banner.md)]
@@ -35,7 +35,7 @@ Išlaidų ataskaitos įrašas buvo perkurtas, kad išlaidų ataskaitų pildymo p
 - Naujas puslapis, nurodantis, kurių laukų reikia jūsų organizacijai, kurie laukai yra pasirinktiniai ir kurie laukai neturėtų būti fiksuojami. Šis puslapis padeda sumažinti laukų, kuriuos vartotojams reikia nustatyti, skaičių.
 - Nauja išlaidų ataskaitų išvaizda, kad ataskaitos nebeatrodytų lyg būtų skirtos tik apskaitą suprantantiems asmenims.
 
-Norėdami įjungti naują naudojimo patirtį, naudokite darbo sritį **Funkcijų valdymas** , kad įjungtumėte funkciją **Išlaidų ataskaitų pertvarkymas**. Įjungus šią funkciją atliekami šie veiksmai:
+Norėdami įjungti naują naudojimo patirtį, naudokite darbo sritį **Funkcijų valdymas**, kad įjungtumėte funkciją **Išlaidų ataskaitų pertvarkymas**. Įjungus šią funkciją atliekami šie veiksmai:
 
 - Esama išlaidų darbo sritis pakeičiama nauja darbo sritimi.
 - Įtraukiamas naujas išlaidų lauko matomumo meniu elementas.
@@ -62,7 +62,7 @@ Norėdami įjungti naują naudojimo patirtį, naudokite darbo sritį **Funkcijų
 | Nauja darbo sritis siekiant padidinti matomumą | Nauja darbo sritis sujungia funkcijas ir saitus, kurie vartotojams leidžia pereiti į skirtingas sritis. |
 | Esamų išlaidų ir kvitų įtraukimas atliekant išlaidų kūrimą | Kurdami išlaidų ataskaitas galite įtraukti visas arba pasirinktas išlaidas ir kvitus. |
 | Valiutos kurso skaičiuotuvas | Įtraukiamas valiutos kurso skaičiuotuvas, leidžiantis apskaičiuoti kišenės kelių valiutų operacijų valiutos kursą. |
-| Naujų išlaidų eilučių išsaugojimas ir įtraukimas | Įvesdami naujas išlaidas, galite naudoti mygtukus **Įrašyti** ir **Nauja** , kad greitai įvestumėte išlaidų eilutes. |
+| Naujų išlaidų eilučių išsaugojimas ir įtraukimas | Įvesdami naujas išlaidas, galite naudoti mygtukus **Įrašyti** ir **Nauja**, kad greitai įvestumėte išlaidų eilutes. |
 | Išskaidytų ir detaliai išvardytų eilučių geresnis matomumas | Detaliai išvardytos ir išskaidytos eilutės tiesiogiai įtraukiamos į išlaidų sąrašą, kad būtų padidintas matomumas ir būtų lengviau nustatyti, ar yra politikos arba kitų klaidų. |
 | Kvitų rodymas detalizavimo metu | Galite matyti kvitus detalizavimo metu. |
 

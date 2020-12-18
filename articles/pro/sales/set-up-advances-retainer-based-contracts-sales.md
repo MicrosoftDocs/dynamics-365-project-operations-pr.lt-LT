@@ -1,5 +1,5 @@
 ---
-title: Išankstinės arba išankstiniais apmokėjimais pagrįstos sutartys – „Lite“ versija
+title: Išankstinės arba išankstiniais apmokėjimais pagrįstos sutartys
 description: Šioje temoje pateikta informacija apie išankstiniais apmokėjimais pagrįstų sutarčių modelius ir avansus naudojant „Project Operations“.
 author: rumant
 manager: Annbe
@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1aee64bf683b7d8d0bcde284f2d5d484e689c4d2
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180877"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596112"
 ---
-# <a name="advances-and-retainer-based-contracts---lite"></a>Išankstinės arba išankstiniais apmokėjimais pagrįstos sutartys – „Lite“ versija
+# <a name="advances-and-retainer-based-contracts"></a>Išankstinės arba išankstiniais apmokėjimais pagrįstos sutartys
 
 
-_**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
+_**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
 „Dynamics 365 Project Operations“ palaiko išankstiniais apmokėjimais pagrįstas sutartis. Išankstiniais apmokėjimais pagrįsta sutartis yra sutartas lygiai paskirstytų mokėjimų, kuriuos klientas turės mokėti tęsiantis projektui, rinkinys. Šio tipo sutartis paprastai naudojama laiku ir medžiagomis arba sąnaudomis pagrįsto atsiskaitymo modeliuose, kai klientui reikia pateikti prognozuojamą sąskaitą faktūrą ir mokėjimo grafiką. Kiekvieną laikotarpį sukauptos faktinės pajamos suderinamos su laikotarpio pradžioje iš kliento gautu mokėjimu. Remiantis atsiskaitymo už laiką ir medžiagas modeliu, kiekvieną laikotarpį sukauptos pajamos gali skirtis atsižvelgiant į patirtas išlaidas. Jei sukauptos pajamos viršija laikotarpio pradžioje gautą sumą, projekto pristatymo įmonė gali:
 

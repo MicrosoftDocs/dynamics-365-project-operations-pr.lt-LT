@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 920388b622eaace1787428facbd12a0608615fe0
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c324e0e8797d0b6d3a06ffc2a40b787a475c49b5
+ms.sourcegitcommit: 16c442258ba24c79076cf5877a0f3c1f51a85f61
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130993"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4590911"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Būtinų pasirinktinių laukų įtraukimas į kainų sąranką ir operacijų objektus
 
@@ -49,6 +49,8 @@ Kai pasirinktinė kainodaros dimensija yra sukurta pagal parinkčių rinkinį, �
 > [!IMPORTANT]
 > Kai įtraukiate lauką į daugiau nei vieną objektą, visiems objektams naudokite tą patį lauko pavadinimą. 
 
+> ![Išteklių darbo vietos įtraukimas į vaidmenų kainą](media/RWL-Field.png)
+
 Projekto pardavimo ir įvertinimo etapuose darbo bandymų, kuriuos reikia atlikti **„Vietoje“** ir **„Darbo vietoje“** darbui, **„Įprastu laiku“** ir **„Viršvalandžiais“**, apskaičiavimas naudojamas įvertinti pasiūlymo / projekto vertę. Laukai **Išteklių darbo vieta“** ir **„Išteklių darbo valandos“** bus įtraukti į įvertinimo objektus: **„Pasiūlymo eilutės informacija“**, **„Sutarties eilutės informacija“**, **„Projekto komandos narys“** ir **„Įvertinimo eilutė“**.
 
 1. Projektų operacijose pasirinkite **Parametrai** > **Sprendimai**, o tada dukart spustelėkite **\<your organization name> kainodaros dimensijas**. 
@@ -58,6 +60,8 @@ Projekto pardavimo ir įvertinimo etapuose darbo bandymų, kuriuos reikia atlikt
 5. Pasirinkite **„Naudoti esamą parinkčių rinkinį“** ir **„Išteklių darbo vieta“**, tada spustelėkite **„Įrašyti“**.
 6. Pakartokite 1–5 žingsnius, kad įtrauktumėte šį lauką į objektus **„Projekto sutarties eilutės informacija“**, **„Projekto komandos narys“** ir **„Įvertinimo eilutė“**.
 7. Pakartokite 1–6 žingsnius parinkčių rinkiniui **„Išteklių darbo valandos“**. 
+
+> ![Išteklių darbo vietos įtraukimas į įvertinimo eilutę](media/RWL-Default-Value.png)
 
 Užsakymo pristatymo ir SF išrašymui baigtas darbas turi būti tiksliai įkainotas, kad būtų galima pažymėti, ar jis projekto faktiniais duomenimis buvo atliktas **„Vietoje“** arba **„Darbo vietoje“**, taip pat ar jis buvo užbaigtas **„Įprastu laiku“** ar **„Viršvalandžiais“**. Laukai **„Išteklių darbo vieta“** ir **„Išteklių darbo valandos“** turi būti įtraukti į objektus **„Laiko įrašas“**, **„Faktinis“**, **„Sąskaitos faktūros eilutės informacija“** ir **„Žurnalo eilutė“**.
 
@@ -69,6 +73,8 @@ Užsakymo pristatymo ir SF išrašymui baigtas darbas turi būti tiksliai įkain
 6. Pakartokite 1–5 žingsnius, kad įtrauktumėte šį lauką į objektus **„Faktinis“**, **„Sąskaitos faktūros eilutės informacija“** ir **„Žurnalo eilutė“**.
 7. Pakartokite 1–6 žingsnius parinkčių rinkiniui **„Išteklių darbo valandos“**. 
 
+> ![Išteklių darbo vietos įtraukimas į laiko įrašą](media/RWL-time-entry.png)
+
 Taip užbaigiami schemos pakeitimai, reikalingi parinkčių rinkinio pasirinktinėms dimensijoms.
 
 ## <a name="entity-based-custom-pricing-dimensions"></a>Objekto pasirinktinių kainų dimensijos
@@ -79,6 +85,8 @@ Kai pasirinktinių kainų dimensijos yra objektas, reikia įtraukti 1:N ryšį t
 2. Sprendimų naršyklėje, kairiojoje naršymo srities pusėje pasirinkite **„Objektai“ > „Standartinis pavadinimas“**.
 3. Išplėskite objektą **„Standartinis pavadinimas“** ir pasirinkite **„1:N ryšiai“**.
 4. Pasirinkite **„Naujas“**, kad sukurtumėte naują 1:N ryšį pavadinimu **„Standartinis rezervuojamų išteklių pavadinimas“**. Įveskite reikiamą informaciją ir pasirinkite **„Įrašyti“**.
+
+> ![Standartinio pavadinimo įtraukimas į rezervuojamus išteklius kaip nuorodos laukas](media/ST-BR.png)
 
 Standartinį pavadinimą taip pat reikės įtraukti į kainų objektus, **„Vaidmenų kaina“** ir **„Vaidmenų kainos antkainis“**. Tai taip pat atliekama naudojant 1:N ryšius tarp objektų **„Standartinis pavadinimas“** ir **„Vaidmenų kaina“** bei tarp objektų **„Standartinis pavadinimas“** ir **„Vaidmenų kainos antkainis“**.
 
@@ -96,9 +104,13 @@ Projekto pardavimo ir įvertinimo etapuose pasiūlymo / projekto įkainojimui re
 
 5. Pakartokite 1–5 žingsnius, kad sukurtumėte 1:N ryšius iš **„Standartinis pavadinimas“** į **„Pasiūlymo eilutės informacija“**, **„Projekto sutarties eilutės informacija“**, **„Projekto komandos narys“** ir **„Įvertinimo eilutė“**.
 
+> ![Standartinio pavadinimo įtraukimas į įvertinimo eilutę kaip nuorodos laukas](media/ST-Estimate-Line.png)
+
   Užsakymo pristatymo ir SF išrašymo etapuose kiekvieno standartinio pavadinimo užbaigtas darbas turi būti tiksliai įkainotas pagal projekto faktinius duomenis. Tai reiškia, kad reikia 1:N ryšių iš **„Standartinis pavadinimas“** į objektus **„Laiko įrašas“**, **„Faktinis“**, **Sąskaitos faktūros eilutės informacija“** ir **Žurnalo eilutė“**.
 
 6. Pakartokite 1–6 žingsnius, kad sukurtumėte 1:N ryšius iš **„Standartinis pavadinimas“** į objektus **„Laiko įrašas“**, **„Faktinis“**, **Sąskaitos faktūros eilutės informacija“** ir **Žurnalo eilutė“**.
+
+> ![Standartinio pavadinimo įtraukimas į laiko įrašą kaip nuorodos laukas](media/ST-Mapping.png)
 
 ### <a name="set-up-dimension-value-defaulting-using-the-mappings-features-of-the-platform"></a>Nustatykite Dimensijos reikšmę pagal platformos susiejimų funkcijas.
 „Laiko įrašui“ būtų naudinga turėti sistemos numatytąją reikšmę „Laiko įraše“ esančiam „Standartiniam pavadinimui“ iš „Rezervuojamų išteklių“, įrašinėjančių laiko įrašą. Atlikite šiuos veiksmus, jei norite įtraukti laukų susiejimus į 1:N ryšiams iš **„Rezervuojami ištekliai“** į **„Laiko įrašas“**.
@@ -107,6 +119,8 @@ Projekto pardavimo ir įvertinimo etapuose pasiūlymo / projekto įkainojimui re
 2. Išplėskite objektą **„Standartinis pavadinimas“** ir pasirinkite **„1:N ryšiai“**.
 3. Du kartus spustelėkite **„Rezervuojami ištekliai laiko įrašui“**. Puslapyje **„Ryšis“** pasirinkite **„Naudoti laukų susiejimus“**. 
 4. Pasirinkite **„Naujas“**, jei norite sukurti naują laukų susiejimą nuo lauko **„Standartinis pavadinimas“**, esančio objekte **„Rezervuojami ištekliai“**, iki nuorodos lauko **„Standartinis pavadinimas“**, esančio objekte **„Laiko įrašas“**. 
+
+> ![Nustatykite laukų susiejimus, kad galėtumėte vykdyti numatytuosius „Standartinis pavadinimas“ nuo „Rezervuojami ištekliai“ iki „Laiko įrašas“.](media/ST-Mapping2.png)
 
 Taip užbaigiami schemos pakeitimai, reikalingi objekto pasirinktinėms dimensijoms.
 

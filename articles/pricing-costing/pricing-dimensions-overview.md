@@ -1,28 +1,20 @@
 ---
 title: Kainodaros dimensijų apžvalga
-description: Šioje temoje pateikiama informacija apie kainodaros dimensijas programoje „Dynamics 365 Project Operations“.
+description: Šioje temoje pateikiama informacijos apie „Dynamics 365 Project Operations“ kainodaros dimensijas.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ec2e350e0e4c28ea1c9540d70c83fdf0a75dc408
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.author: rumant
+ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128473"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650211"
 ---
 # <a name="pricing-dimensions-overview"></a>Kainodaros dimensijų apžvalga
 
@@ -40,9 +32,21 @@ Dėl to egzistuoja dviejų tipų kainodaros dimensijų reikšmės:
 
 ## <a name="pricing-dimensions"></a>Kainodaros dimensijos
 
-„Dynamics 365 Project Operations“ pateikiamas su numatytuoju kainodaros dimensijų rinkiniu. Kainodaros dimensijas galite peržiūrėti apsilankę **„Project Operations“** > **Parametrai**. Parametrų įraše, esančiame skirtuke **Suma pagrįstos kainodaros dimensijos**, patvirtinkite, kad vaidmuo **msdyn_resourcecategory** ir išteklių organizacinio vieneto **msdyn_organizationalunit** laukai **Taikoma pardavimui** ir **Taikoma savikainai** nustatyti į **Taip**. Įgalinus šiuos laukus, galėsite nustatyti kiekvieno vaidmens ir organizacinio vieneto derinio kainą ir savikainą.
+„Dynamics 365 Project Operations“ pateikiama su numatytuoju kainodaros dimensijų rinkiniu. Kainodaros dimensijas galite peržiūrėti apsilankę **„Project Operations“** > **Parametrai**. Parametrų įraše, esančiame skirtuke **Suma pagrįstos kainodaros dimensijos**, patvirtinkite, kad vaidmuo **msdyn_resourcecategory** ir išteklių organizacinio vieneto **msdyn_organizationalunit** laukai **Taikoma pardavimui** ir **Taikoma savikainai** nustatyti į **Taip**. Įgalinus šiuos laukus, galėsite nustatyti kiekvieno vaidmens ir organizacinio vieneto derinio kainą ir savikainą.
 
-Jei jums reikia nustatyti išteklių kainą arba savikainą naudojant papildomus atributus, galite sukurti pritaikytus laukus, objektus ir dimensijas.
+![„Project Service“ parametrų ekrano kopija su pažymėtu lauku „Taikoma pardavimui“](media/PS-OOB-parameters.png)
+
+Jei jums reikia nustatyti išteklių kainą arba savikainą naudojant papildomus atributus, galite sukurti pritaikytus laukus, objektus ir dimensijas. Daugiau informacijos žr. tolesnėse temose. 
+  
+  > [!NOTE]
+  > Procedūras reikia atlikti tokia tvarka, kokia jos nurodytos.
+
+1. [Sprendimo pasirinktinėms kainodaros dimensijoms kūrimas](../sales/create-solution-custompd.md)
+2. [Pasirinktinių laukų ir objektų kūrimas](create-custom-fields-entities-pricing-dimensions.md)
+3. [Pasirinktinių laukų įtraukimas į kainų sąranką ir operacijų objektus ](add-custom-fields-price-setup-transactional-entities.md)
+4. [Pasirinktinių laukų kaip kainodaros dimensijų nustatymas ](set-up-custom-fields-pricing-dimensions.md)
+5. [Atnaujinti priedo atributus, kad įtrauktumėte naujas kainodaros dimensijas](update-plugin-attributes-pd.md)
+
 
 ## <a name="pricing-human-resource-time"></a>Žmogiškųjų išteklių laiko kainodara
 Kaip organizacijos nustato kainą žmogiškųjų išteklių laikui dažnai yra svarbus strateginis aspektas, turintis tiesioginės įtakos organizacijos pelningumui. Dirbkite su finansų komandomis ir praktikos vadovais, kai jūsų organizacija yra pasirengusi nustatyti, kaip ji nori nustatyti sąskaitų ir savikainos tarifus, skirtus žmogiškųjų išteklių laikui.

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 46429c94ca9aa1ebbbe9fc689a9a5bd6c52dc59e
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: b881e03a2bb085c6d7cfccb7eec70442e696e62c
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177161"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513889"
 ---
 # <a name="configure-chargeable-components-of-a-project-based-contract-line---lite"></a>Projektu pagrįstos sutarties eilutės apmokestinamųjų komponentų konfigūravimas – „Lite“
 
@@ -34,7 +34,7 @@ _**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės
 
 Apmokestinamus komponentus galima apibrėžti užduotyse, vaidmenyse ir operacijų kategorijose.
 
-Projekto sutarties eilutės apmokestinamumas apibrėžiamas užduotyse ir taikomas visoms į eilutę įtrauktoms operacijų klasėms. Jei sutarties eilutės laukas **Įtraukti užduotis** yra tuščias arba nustatytas į parinktį **Visas projektas**, skirtukas **Apmokestinamos užduotys** nebus pateiktas.
+Projekto sutarties eilutės apmokestinamumas apibrėžiamas užduotyse ir taikomas visoms į eilutę įtrauktoms operacijų klasėms. Jei sutarties eilutės laukas **Įtraukti užduotis** yra tuščias arba nustatytas kaip **Visas projektas**, skirtukas **Apmokestinamos užduotys** nebus pateiktas.
 
 Projekto sutarties eilutės apmokestinamumas, apibrėžtas vaidmenyse, taikomas tik tipo **Laikas** operacijų klasei. Jei sutarties eilutės laukas **Įtraukti laiką** yra nustatytas į parinktį **Ne**, skirtukas **Apmokestinami vaidmenys** nebus pateiktas.
 

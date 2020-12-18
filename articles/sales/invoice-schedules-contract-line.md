@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 674f4ccced3d0e3178799f60d9f95a2ec27cd153
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b2fbec567c07d7567f1d133fa3512496039f16a1
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180787"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513934"
 ---
 # <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>Sąskaitos faktūros grafikų kūrimas projektais pagrįstoje sutarties eilutėje 
 
@@ -49,7 +49,7 @@ Atlikite šiuos veiksmus, kad automatiškai generuotumėte etapais pagrįstą s�
 3. Atidarykite **fiksuotos kainos** pasiūlymo eilutę, kuriai reikia sukurti etapo grafiką. Skirtuke **Atsiskaitymo etapai** pasirinkite reikšmes atsiskaitymo pradžios datą ir sąskaitos faktūros dažnumą. 
 4. Papildomame tinklelyje pasirinkite **Periodiški etapai**. Sąskaitų faktūrų grafikas generuojamas naudojant laukus **Etapo pavadinimas**, **Etapo data** ir **Etapo suma**, kaip nurodyta toliau.
 
-    - **Etapo pavadinimas**: tai data, kurią diktuoja sąskaitos faktūros dažnumas.
+    - **Etapo pavadinimas**: šį pavadinimą nurodo sąskaitų faktūrų išrašymo dažnumas.
     - **Etapo data**: tai data, kurią diktuoja sąskaitos faktūros dažnumas.
     - **Etapų suma**: ši suma apskaičiuojama dalijant sutarties eilutės sutarties sumą iš etapų skaičių, kuris priklauso nuo dažnumo ir atsiskaitymo pradžios ir pageidaujamų pristatymo datų.
 

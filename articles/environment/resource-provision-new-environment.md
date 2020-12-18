@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121183"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642991"
 ---
 # <a name="provision-a-new-environment"></a>Naujos aplinkos parengimas
 
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
-Šioje temoje pateikiama informacija, kaip parengti naują „Dynamics 365 Project Operations“ aplinką, skirtą ištekliais / ne atsargomis pagrįstiems scenarijams.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Šioje temoje pateikiama informacijos, kaip sukonfigūruoti naują „Dynamics 365 Project Operations“ aplinką, skirtą ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Automatinio „Project Operations“ parengimo įjungimas LCS projekte
 
@@ -120,7 +122,7 @@ Aplinkos paruošimas gali šiek tiek užtrukti. Baigus vėl bus nustatyta aplink
 
 ![Taikyti sprendimus](./media/13ApplySolutions.png)
 
-5. Pasirinkite abu sprendimus: **„Dynamics 365 Finance and Operations“ dvigubo rašymo objektų schema** ir **„Dynamics 365 Project Operations“ dvigubo rašymo objektų schemos**, tada pasirinkite **Taikyti**.
+5. Pasirinkite abu sprendimus **Dynamics 365 Finance and Operations“ dvigubo rašymo objektų schema** ir **„Dynamics 365 Project Operations“ dvigubo rašymo objektų schemos**, tada pasirinkite **Taikyti**.
 
 ![Sprendimų patvirtinimas](./media/14ConfirmSolutions.png)
 
@@ -160,6 +162,7 @@ Atnaujinimas truks apie 20 minučių. Kai jis bus baigtas, gausite įspėjimą.
 | --- | --- | --- | --- | --- | --- |
 | **Projekto išteklių vaidmenys visoms įmonėms (bookableresourcecategories)** | No | Taip | „Common Data Service“ | No | Nėra |
 | **Juridiniai subjektai (cdm\_companies)** | No | Taip | „Finance and Operations“ programos | No | Nėra |
+| **Didžioji knyga (msdyn_ledgers)** | No | Taip | „Finance and Operations“ programos | Taip | Taip, „Finance and Operations“ programos |
 | **„Project Operations“ integravimo faktiniai duomenys (msdyn\_actuals)** | No | No | Nėra | Taip | No |
 | **Projekto sutarties eilutės (salesorderdetails)** | No | No | Nėra | No | No |
 | **Projekto operacijų ryšių integravimo objektas (msdyn\_transactionconnections)** | No | No | Nėra | No | Nėra |

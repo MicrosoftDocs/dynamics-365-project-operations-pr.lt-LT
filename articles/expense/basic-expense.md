@@ -3,17 +3,17 @@ title: Išlaidų įrašas („Lite“ versija)
 description: Šioje temoje pateikta informacija apie tai, kaip dirbti su išlaidų įrašu „Lite“ visuotiniame diegime.
 author: stsporen
 manager: AnnBe
-ms.date: 10/06/2020
+ms.date: 11/19/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 536c961593599df8e7e2986f92259b0e690eae8b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d87094882751f0751a8d9d539fa4cdcfc6b7b0d7
+ms.sourcegitcommit: 16c442258ba24c79076cf5877a0f3c1f51a85f61
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121093"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4590956"
 ---
 # <a name="expense-entry-lite"></a>Išlaidų įrašas („Lite“ versija)
 
@@ -21,7 +21,7 @@ _**Taikoma:** „Lite“ visuotiniam diegimui – sandoris į išankstinės sąs
 
 Pagrindinių (arba supaprastintų) išlaidų valdymas yra galimybė įrašyti paprastas išlaidas. Galite įrašyti projekto išlaidas, o tada projektų tvirtintojas jas peržiūrės ir patvirtins.
 
-Daugiau informacijos apie išlaidų galimybes naudojant „Dynamics 365 Project Operations“ žr. [Išlaidų apžvalga](expense-overview.md).
+Daugiau informacijos apie išlaidų valdymo galimybes programoje „Dynamics 365 Project Operations“ žr. [Išlaidų apžvalga](expense-overview.md).
 
 ## <a name="capture-a-basic-expense"></a>Pagrindinių išlaidų fiksavimas
 
@@ -36,6 +36,10 @@ Kai baigsite fiksuoti visas išlaidas ir jūs būsite pasirengę jas patvirtinti
 
 1. Eikite į **Išlaidos** ir pasirinkite išlaidas. Arba pažymėkite visas išlaidas naudodami antraštės žymės langelį.
 2. Pasirinkite **Pateikti**. Sistema apdoroja pažymėtus įrašus ir sukuria išlaidų patvirtinimo užklausas.
+
+## <a name="add-an-attachment"></a>Įtraukti priedą
+
+Gali reikėti tvirtintojui pateikti papildomų dokumentų apie savo išlaidas. Kvitą galite pridėti prie išlaidų įrašo laiko planavimo juostos. Pasirinkite **Redaguoti** skyriuje **Laiko planavimo juosta**, tada pasirinkite sąvaržėlės piktogramą, kad kvitas būtų pridėtas.
 
 ## <a name="recall-a-basic-expense"></a>Pagrindinių išlaidų atšaukimas
 
