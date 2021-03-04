@@ -16,18 +16,20 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 57d4b9aad433af6d3e73369c76f2793f349c6965
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 31986efed81892cc5722cb8f5e292cde14d8843d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081030"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144603"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Įtraukti naujas pasirinktinių objektų formas (Project Service Automation 2.x)
 
+[!include [banner](../../includes/psa-now-project-operations.md)]
+
 ## <a name="type-field"></a>Lauko tipas 
 
-Dynamics 365 Project Service Automation priklauso nuo Galimybės, Pasiūlymas, Užsakymas ir Sąskaita faktūra objektuose esančio lauko **Tipas** ( **msdyn\_ordertype** ), kad būtų atskirtos šių objektų **darbo pagrindo** versijos nuo **elemento pagrindu** ir **paslaugų pagrindu** versijų. Darbo pagrįstas šių objektų versijas tvarko PSA. Daug verslo logikos kliento pusėje ir sprendimo serverio pusėje priklauso nuo lauko **Tipas**. Todėl, kai objektai kuriami, svarbu, kad laukas būtų inicijuojamas naudojant teisingą reikšmę. Neteisinga reikšmė gali sukelti neteisingą veikimą, o tam tikra verslo logika gali veikti netinkamai.
+Dynamics 365 Project Service Automation priklauso nuo Galimybės, Pasiūlymas, Užsakymas ir Sąskaita faktūra objektuose esančio lauko **Tipas** (**msdyn\_ordertype**), kad būtų atskirtos šių objektų **darbo pagrindo** versijos nuo **elemento pagrindu** ir **paslaugų pagrindu** versijų. Darbo pagrįstas šių objektų versijas tvarko PSA. Daug verslo logikos kliento pusėje ir sprendimo serverio pusėje priklauso nuo lauko **Tipas**. Todėl, kai objektai kuriami, svarbu, kad laukas būtų inicijuojamas naudojant teisingą reikšmę. Neteisinga reikšmė gali sukelti neteisingą veikimą, o tam tikra verslo logika gali veikti netinkamai.
 
 ## <a name="automatic-form-switching"></a>Automatinis formų perjungimas
 
@@ -37,7 +39,7 @@ Automatinė formų perjungimo logika priklauso nuo **formid** reikšmės ir **ms
 
 ## <a name="add-custom-forms-and-turn-on-the-form-switching-logic"></a>Pridėkite pasirinktines formas ir įjunkite formų perjungimo logiką.
 
-Toliau pateiktame pavyzdyje parodyta, kaip įtraukti pasirinktinę formą, **Mano projekto informacija** , kuri veiktų su darbo pagrindo galimybėmis. Tas pats procesas naudojamas pridedant pasirinktines formas taip, kad jos dirbtų su citatomis, užsakymais ir sąskaitomis faktūromis.
+Toliau pateiktame pavyzdyje parodyta, kaip įtraukti pasirinktinę formą, **Mano projekto informacija**, kuri veiktų su darbo pagrindo galimybėmis. Tas pats procesas naudojamas pridedant pasirinktines formas taip, kad jos dirbtų su citatomis, užsakymais ir sąskaitomis faktūromis.
 
 Norėdami sukurti pasirinktinę **Projekto informacija** formos versiją, atlikite šiuos veiksmus.
 
@@ -47,7 +49,7 @@ Norėdami sukurti pasirinktinę **Projekto informacija** formos versiją, atliki
     > [!IMPORTANT]
     > Nepašalinkite scenarijų. Kitu atveju kai kurie duomenys gali būti inicijuoti neteisingai.
 
-3. Patikrinkite, ar formoje yra **Tipas** ( **msdyn\_ordertype** ) laukas. 
+3. Patikrinkite, ar formoje yra **Tipas** (**msdyn\_ordertype**) laukas. 
 
     > [!IMPORTANT]
     > Nepašalinkite šio lauko. Priešingu atveju inicijavimo scenarijai nepavyks.

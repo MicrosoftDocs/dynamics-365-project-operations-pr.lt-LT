@@ -2,6 +2,7 @@
 title: Atnaujinimo aptarimas – „Microsoft Dynamics 365 Project Service Automation“ 2.x arba 1.x versijos į 3 versiją
 description: Šioje temoje pateikta informacija apie dalykus, į kuriuos reikia atsižvelgti atnaujinant iš „Project Service Automation“ 2.x arba 1.x versijos į 3 versiją.
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -17,18 +18,21 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3c51726f71cfd0d4be98982d6a02268d64a70b91
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c0c1e07bacb4867254a12436cf3bff58989e117f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121723"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144182"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Atnaujinimo aptarimas - iš PSA 2.x arba 1.x versijos į 3 versiją
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 ## <a name="project-service-automation-and-field-service"></a>„Project Service Automation“ ir „Field Service“
-Dynamics 365 Project Service Automation ir Dynamics 365 Field Service išteklių planavimui naudoja „Universal Resourcing Scheduling“ sprendimą. Jei egzemplioriuje turite ir „Project Service Automation“ ir „Field Service“, turėtumėte planuoti, kad būtų atnaujinti abu sprendimai į naujausią versiją („Project Service Automation“ 3.x versiją, „Field Service“ 8.x versiją). Atnaujinus „Project Service Automation“ arba „Field Service“ bus įdiegta naujausia URS versija, tai reiškia, kad galimas nesuderinamas veikimas, jei to paties egzemplioriaus „Project Service Automation“ ir „Field Servic“ sprendimai nebus atnaujinti į naujausią versiją.
+Dynamics 365 Project Service Automation ir Dynamics 365 Field Service išteklių planavimui naudoja „Universal Resourcing Scheduling“ sprendimą. Jei savo egzemplioriuje turite „Project Service Automation“ ir „Field Service“, atnaujinkite abu sprendimus į naujausią versiją. „Project Service Automation“ – 3.x versija. „Field Service“ – 8.x versija. Naujinant „Project Service Automation“ arba „Field Service“ bus įdiegta naujausia URS versija. Jei ir „Project Service Automation“, ir „Field Service“ sprendimai tame pačiame egzemplioriuje neatnaujinti į naujausią versiją, gali būti, kad veikimas bus nenuoseklus.
 
 ## <a name="resource-assignments"></a>Išteklių priskyrimai
 Naudojant „Project Service Automation“ 2 versiją ir 1 versiją, užduočių priskyrimai buvo saugomi kaip antrinės užduotys (taip pat vadinamos eilutės užduotimis) **Užduoties objekte**, ir buvo netiesiogiai susiję su objektu **Išteklių priskyrimas**. Eilutės užduotis buvo matoma priskyrimo iššokančiajame lange darbo paskirstymo struktūroje (WBS).
@@ -40,9 +44,9 @@ Naudojant „Project Service Automation“ 2 versiją ir 1 versiją, užduočių
 Šie pakeitimai turi įtakos visų esamų projektų, kuriuose yra įvardytų rezervuojamų išteklių ir bendrųjų išteklių projekto komandoje priskyrimų, atnaujinimui. Šioje temoje nurodyti dalykai, į kuriuos reikės atsižvelgti dėl projektų atnaujinant iki 3 versijos. 
 
 ### <a name="tasks-assigned-to-named-resources"></a>Įvardytiems ištekliams priskirtos užduotys
-Naudojant esamą užduoties objektą, 2 versijos ir 1 versijos užduotys leido komandos nariams atlikti kitą vaidmenį, o ne jų numatytąjį apibrėžtą vaidmenį. Pavyzdžiui, Irena Jankauskienė, kuriai pagal numatytuosius nustatymus priskirtas programų vadovo vaidmuo, galėjo būti priskirta užduočiai, kurios vaidmuo yra kūrėjas. 3 versijoje įvardyto komandos nario vaidmuo visada yra numatytasis, todėl bet kokioje užduotyje, kuriai Irena Jankauskienė priskirta, naudojamas jos numatytasis programų vadovo vaidmuo.
+Naudojant esamą užduoties objektą, 2 versijos ir 1 versijos užduotys leido komandos nariams atlikti kitą vaidmenį, o ne jų numatytąjį apibrėžtą vaidmenį. Pavyzdžiui, Irena Jankauskienė, kuriai pagal numatytuosius nustatymus priskirtas programų vadovo vaidmuo, galėjo būti priskirta užduočiai, kurios vaidmuo yra kūrėjas. 3 versijoje įvardytojo komandos nario vaidmuo visada yra numatytasis, todėl bet kokioje užduotyje, kuriai Irena Jankauskienė priskirta, naudojamas jos numatytasis programų vadovo vaidmuo.
 
-Jei naudodami 2 versiją ir 1 versiją priskyrėte išteklių užduočiai už jo numatytojo vaidmens ribų, atnaujinę, įvardytam ištekliui bus priskirtas numatytasis vaidmuo visuose užduočių priskyrimuose, neatsižvelgiant į vaidmens priskyrimą 2 versijoje. Todėl bus apskaičiuotų įvertinimų iš 2 versijos arba 1 versijos į 3 versiją skirtumų, nes įvertinimai apskaičiuojami atsižvelgiant į išteklių vaidmenį, o ne į eilutės užduoties priskyrimą. Pavyzdžiui, 2 versijoje dvi užduotys priskirtos Brigitai Bortkevičienei. 1 užduoties eilutės užduoties vaidmuo yra kūrėjas, o 2 užduoties programos vadovas. Brigitos Bortkevičienės numatytasis vaidmuo yra programos vadovas.
+Jei naudodami 2 versiją ir 1 versiją priskyrėte išteklių užduočiai už jo numatytojo vaidmens ribų, atnaujinę, įvardytam ištekliui bus priskirtas numatytasis vaidmuo visuose užduočių priskyrimuose, neatsižvelgiant į vaidmens priskyrimą 2 versijoje. Šis priskyrimas lemia apskaičiuotų įvertinimų iš 2 versijos arba 1 versijos į 3 versiją skirtumų, nes įvertinimai apskaičiuojami atsižvelgiant į išteklių vaidmenį, o ne į eilutės užduoties priskyrimą. Pavyzdžiui, 2 versijoje dvi užduotys priskirtos Brigitai Bortkevičienei. 1 užduoties eilutės užduoties vaidmuo yra kūrėjas, o 2 užduoties programos vadovas. Brigitos Bortkevičienės numatytasis vaidmuo yra programos vadovas.
 
 ![Vienam ištekliui priskirti keli vaidmenys](media/upgrade-multiple-roles-02.png)
 
@@ -56,12 +60,12 @@ Atnaujinus į 3 versiją, eilutės užduotys pakeičiamos išteklių priskyrimai
 
 ![Išteklių priskyrimai](media/resource-assignment-v2-05.png)
 
-Kadangi įvertinimai apskaičiuojami pagal numatytąjį išteklių vaidmenį, pardavimo ir savikainos įvertinimai gali pasikeisti. Atkreipkite dėmesį, kad toliau pateiktoje iliustracijoje neberodomas vaidmuo **Kūrėjas**, nes vaidmuo dabar gaunamas iš rezervuojamų išteklių numatytojo vaidmens.
+Kadangi įvertinimai apskaičiuojami pagal numatytąjį išteklių vaidmenį, pardavimo ir savikainos įvertinimai gali pasikeisti. Toliau pateiktoje iliustracijoje neberodomas vaidmuo **Kūrėjas**, nes vaidmuo dabar gaunamas iš rezervuojamų išteklių numatytojo vaidmens.
 
 ![Numatytųjų vaidmenų savikainos įvertinimai](media/resource-assignment-cost-estimate-06.png)
 ![Numatytųjų vaidmenų pardavimo įvertinimai](media/resource-assignment-sales-estimate-07.png)
 
-Kai naujinimas bus baigtas, galėsite redaguoti komandos nario vaidmenį, kad jis būtų kitoks nei priskirtasis numatytasis vaidmuo. Tačiau, jei pakeisite komandos nario vaidmenį, jis bus pakeistas visose jam priskirtose užduotyse, nes 3 versijoje komandos nariams nebeleidžiama priskirti kelių vaidmenų.
+Kai naujinimas bus baigtas, galėsite redaguoti komandos nario vaidmenį, kad jis būtų kitoks nei priskirtasis numatytasis vaidmuo. Tačiau, jei pakeisite komandos nario vaidmenį, jis bus pakeistas visose jam priskirtose užduotyse, nes 3 versijoje komandos nariams negalima priskirti kelių vaidmenų.
 
 ![Išteklių vaidmens naujinimas](media/resource-role-assignment-08.png)
 
@@ -102,7 +106,7 @@ Organizacijos vienetą galite matyti įvertinimų rodinyje.
  
 Baigus naujinti, organizacijos vienetas eilutės užduotyje, atitinkantis bendrąjį komandos narį, įtraukiamas prie bendrojo komandos nario, o eilutės užduotis pašalinama. Todėl rekomenduojame prieš naujinant sugeneruoti arba iš naujo generuoti kiekvieno projekto, kuriame yra bendrųjų išteklių, komandą.
 
-Dėl užduočių, kurioms priskirtas vaidmuo su organizacijos vienetu, kuris skiriasi nuo sutarties sudarymo projekto organizacijos vieneto, o komanda nebuvo sugeneruota, atnaujinus vaidmeniui bus sukurtas bendrasis komandos narys, tačiau kaip komandos nario organizacijos vienetas bus naudojamas projekto sutartį sudarantis vienetas. Grįžtant prie „Projekto Z“ pavyzdžio, tai reiškia, kad sutartį sudarančios organizacijos vienetui „Danys US“ ir projekto plano testavimo užduotims diegimo fazėje buvo priskirtas vaidmuo „Techninis konsultantas“, kurio organizacijos vienetas priskirtas „Danys India“. Integravimo testavimo užduočiai, kuri buvo baigta po diegimo etapo, buvo priskirtas vaidmuo „Techninis konsultantas“. Organizacijos vienetas yra „Danys US“, o komanda nebuvo sugeneruota. Atnaujinus bus sukurtas vienas bendrasis komandos narys, techninis konsultantas, kuriam priskirtos visų trijų užduočių valandos ir organizacijos vienetas „Danys US“, projekto sutartį sudarančios organizacijos vienetas.   
+Dėl užduočių, kurioms priskirtas vaidmuo su organizacijos vienetu, kuris skiriasi nuo sutarties sudarymo projekto organizacijos vieneto, o komanda nebuvo sugeneruota, atnaujinus vaidmeniui bus sukurtas bendrasis komandos narys, tačiau kaip komandos nario organizacijos vienetas bus naudojamas projekto sutartį sudarantis vienetas. Grįžtant prie „Projekto Z“ pavyzdžio, tai reiškia, kad sutartį sudarančios organizacijos vienetui „Contoso US“ ir projekto plano testavimo užduotims diegimo fazėje buvo priskirtas vaidmuo „Techninis konsultantas“, kurio organizacijos vienetas priskirtas „Contoso India“. Integravimo testavimo užduočiai, kuri buvo baigta po diegimo etapo, buvo priskirtas vaidmuo „Techninis konsultantas“. Organizacijos vienetas yra „Danys US“, o komanda nebuvo sugeneruota. Atnaujinus bus sukurtas vienas bendrasis komandos narys, techninis konsultantas, kuriam priskirtos visų trijų užduočių valandos ir organizacijos vienetas „Danys US“, projekto sutartį sudarančios organizacijos vienetas.   
  
 Nesugeneruotų komandos narių skirtingų išteklių paskyrimo organizacijos vienetų numatytosios reikšmės pakeitimas yra priežasties, dėl kurios rekomenduojame prieš atnaujinant sugeneruoti arba iš naujo generuoti kiekvieno projekto, kuriame yra bendrųjų išteklių, komandą, kad nebūtų prarasti organizacijos vienetų priskyrimai.
 

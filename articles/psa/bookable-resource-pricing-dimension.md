@@ -17,14 +17,17 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8a5c643745d8e10887965228da7abd8f56228006
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d9b25a768f892d83c09d37ce76291d6c8e75b1be
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080935"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145008"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Rezervuojamų išteklių naudojimas kaip kainodaros dimensijos
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 Šioje temoje pateikiama informacijos apie rezervuojamų išteklių naudojimą kaip kainodaros dimensijos. Prieš pradėdami, jei dar nesukūrėte kainodaros dimensijos sprendimo, turėsite sukurti naują sprendimą. Jei jau turite kainodaros dimensijos sprendimą, galite atlikti šio sprendimo pakeitimus. Jei savo organizacijai nesukūrėte naujo kainodaros dimensijos sprendimo, atlikite procedūras, nurodytas temoje [Pasirinktinių laukų ir objektų kūrimas](create-custom-fields-entities.md).
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>Rezervuojamų išteklių įtraukimas į formas ir rodinius
@@ -52,12 +55,12 @@ Atidarykite kainodaros dimensijos sprendimo langą Sprendimų naršyklė ir spus
 2. Įtraukite **Rezervuojamą išteklių** į šį kainodaros dimensijų sąrašą kaip **msdyn_bookableresource**. 
 3. Nurodykite kontekstą, kuriame rezervuojamas išteklius veiks kaip kainodaros dimensija, ir nustatykite reikšmes **Taikoma savikainai** ir **Taikoma pardavimui**.
 4. Lauke **Dimensijos tipas** pažymėkite **Pagrįsta kiekiu**. 
-5. Pasirinkite rezervuojamo ištekliaus savikainos ir pardavimo prioritetą. Paprastai, kai rezervuojamas išteklius įtraukiamas kaip kainodaros dimensija, jam suteikiamas didžiausias prioritetas, todėl nustatoma parinktis **1** (arba **0** , atsižvelgiant į tai, kaip skaičiuojate prioritetą), kad būtų užtikrintas toks veikimas.
+5. Pasirinkite rezervuojamo ištekliaus savikainos ir pardavimo prioritetą. Paprastai, kai rezervuojamas išteklius įtraukiamas kaip kainodaros dimensija, jam suteikiamas didžiausias prioritetas, todėl nustatoma parinktis **1** (arba **0**, atsižvelgiant į tai, kaip skaičiuojate prioritetą), kad būtų užtikrintas toks veikimas.
 
 ## <a name="set-up-pricing-dimension-field-names"></a>Kainodaros dimensijų laukų pavadinimų nustatymas
 
 Kai lentelėje **Vaidmens kaina** kainodaros dimensijos lauko pavadinimas skiriasi nuo tos dimensijos lauko pavadinimo bet kuriame kitame objekte, kuriame numatytosios kainos turi veikti, kainodaros dimensijos įraše būtina pranešti, kad pavadinimai skiriasi.    
-Rezervuojamo ištekliaus lauko pavadinimas ( **msdyn_bookableresourceid** ), esantis objekte **Projekto komandos nariai** , nežymiai skiriasi nuo jo pavadinimo objekte **vaidmens kaina** ( **msdyn_bookableresource** ). Apie tai būtina pranešti kainodaros dimensijos įraše **msdyn_bookableresource**. 
+Rezervuojamo ištekliaus lauko pavadinimas (**msdyn_bookableresourceid**), esantis objekte **Projekto komandos nariai**, nežymiai skiriasi nuo jo pavadinimo objekte **vaidmens kaina** (**msdyn_bookableresource**). Apie tai būtina pranešti kainodaros dimensijos įraše **msdyn_bookableresource**. 
 1. Norėdami tai atlikti, dukart spustelėkite tinklelyje **Kainodaros dimensijos** esančią eilutę ir kad atidarykite dimensijos **msdyn_bookableresource** puslapį.
 2. Dimensijos puslapio skirtuke **Susiję** spustelėkite **Kainodaros dimensijų laukų pavadinimai**.
 
@@ -70,6 +73,6 @@ Rezervuojamo ištekliaus lauko pavadinimas ( **msdyn_bookableresourceid** ), esa
 
 Bus atidarytas dimensijos **msdyn_bookableresource** puslapis **Naujas kainodaros dimensijos lauko pavadinimas**. 
 
-5. Į lauką **Objekto loginis pavadinimas** įtraukite **msdyn_projectteam** , o į lauką **Lauko pavadinimas** – **msdyn_bookableresourceid**. Išsaugokite įrašą.
+5. Į lauką **Objekto loginis pavadinimas** įtraukite **msdyn_projectteam**, o į lauką **Lauko pavadinimas** – **msdyn_bookableresourceid**. Išsaugokite įrašą.
 
  ![Naujų kainodaros dimensijų laukų pavadinimų forma](media/PD-fieldname-Added.png)
