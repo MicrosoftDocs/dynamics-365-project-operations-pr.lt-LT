@@ -17,14 +17,17 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0019571a1d37d3b6a503e7221db3c3b51365c236
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 00214aa2b514da71b331073cd0eeb5320c03e7d7
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080920"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150768"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Operacijos kategorijos kaip kainodaros dimensijos naudojimas
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 Šioje temoje parodyta, kaip naudoti operacijos kategoriją kaip kainodaros dimensiją. Prieš pradėdami, jei dar nesukūrėte kainodaros dimensijos sprendimo, turėsite sukurti naują sprendimą. Jei jau turite kainodaros dimensijos sprendimą, galite atlikti šio sprendimo pakeitimus. Jei savo organizacijai nesukūrėte naujo kainodaros dimensijos sprendimo, atlikite procedūras, nurodytas temoje [Pasirinktinių laukų ir objektų kūrimas](create-custom-fields-entities.md).
 
 ## <a name="add-transaction-category-to-forms-and-views"></a>Operacijos kategorijos įtraukimas į formas ir rodinius
@@ -49,4 +52,4 @@ Tolesnėje lentelėje pateikiamas išsamus parengtų naudoti formų ir rodinių,
 1. Žiniatinklio sąsajoje eikite į **Project Service** > **Parametrai** > **Parametrai**. 
 2. Puslapio **Parametrai** skirtuke **Suma pagrįstos kainodaros dimensijos** pastebėkite, kad skirtuko tinklelis rodo objekte **Kainodaros dimensijos** esančius įrašus.
 3. Į šį sąrašą įtraukite **Operacijos kategoriją** ir laukus **Taikoma savikainai** ir **Taikoma pardavimui** nustatykite į **Taip**.
-4. Lauke **Dimensijos tipas** pasirinkite **Pagrįsta suma** , tada pasirinkite su savikaina ir pardavimu susijusios **Operacijos kategorijos** pirmenybę.
+4. Lauke **Dimensijos tipas** pasirinkite **Pagrįsta suma**, tada pasirinkite su savikaina ir pardavimu susijusios **Operacijos kategorijos** pirmenybę.
