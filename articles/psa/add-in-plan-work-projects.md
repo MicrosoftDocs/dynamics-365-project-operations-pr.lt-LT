@@ -1,12 +1,12 @@
 ---
-title: Planuodami savo darbą „Microsoft Project“, naudokite „Project Service“ papildinį | „MicrosoftDocs“
-description: Šioje temoje pateikta informacija apie tai, kaip įtraukti, konfigūruoti ir naudoti Microsoft Project papildinį, skirtą Microsoft Project Service.
+title: Darbo planavimas naudojant „Microsoft Project“ ir „Project Service“ papildinį
+description: Šioje temoje pateikta informacija apie tai, kaip naudoti „Microsoft Project“ papildinį, skirtą „Microsoft Project Service“.
 author: ruhercul
 manager: kfend
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
-ms.date: 04/06/2019
+ms.date: 01/07/2021
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -18,22 +18,22 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9556feac5481e20bde1c9624c0eccc05385eaa94
+ms.openlocfilehash: 87387ff870a7ef3ed0689f4ae38daad8cf220b46
 ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145998"
+ms.locfileid: "5145953"
 ---
-# <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Planuodami savo darbą „Microsoft Project“, naudokite „Project Service Automation“ papildinį
+# <a name="plan-your-work-in-microsoft-project-with-the-project-service-add-in"></a>Darbo planavimas naudojant „Microsoft Project“ ir „Project Service“ papildinį
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+[!INCLUDE[cc-applies-to-psa-app-3x](../includes/cc-applies-to-psa-app-3x.md)]
 
 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] palengvina projekto planavimą, įskaitant įvertinimus. Darbą galite nustatyti taip, kad, pateikus galutinį pasiūlymą, išlaidų, pastangų ir pardavimo vertė būtų aiški.  
 
- Dabar galite įdiegti „[!INCLUDE[pn_ms_dyn_365_psa_for_ms_project](../includes/pn-ms-dyn-365-psa-for-ms-project.md)]“ ir atlikti planavimo darbus pažįstamoje „[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]‟ aplinkoje. Pasinaudokite veiksmingomis„[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]‟ planavimo ir valdymo galimybėmis, tada atnaujinkite savo projekto planą „Project Service Automation“.  
+Galite įdiegti „[!INCLUDE[pn_ms_dyn_365_psa_for_ms_project](../includes/pn-ms-dyn-365-psa-for-ms-project.md)]“ ir atlikti planavimo darbus pažįstamoje „[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]‟ aplinkoje. Pasinaudokite veiksmingomis„[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]‟ planavimo ir valdymo galimybėmis, tada atnaujinkite savo projekto planą „Project Service Automation“.  
 
 > [!IMPORTANT]
 > - Tam, kad galėtumėte naudoti SharePoint dokumentų valdymo funkciją [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)], kad išsaugotumėte [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] projektų failus, [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] administratorius turės įjungti dokumentų valdymo funkciją. 
@@ -44,45 +44,45 @@ ms.locfileid: "5145998"
 
 1.  Iš atsisiuntimo centro galite atsisiųsti priedą, skirtą jūsų palaikomai Project Service versijai, arba [V2.X](https://go.microsoft.com/fwlink/?linkid=828268) arba [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
 
-2.  Spustelėkite atsisiuntimo saitą.  
+2.  Pasirinkite atsisiuntimo saitą.  
 
-3.  Kai atsisiuntimas bus baigtas, spustelėkite **Taip**, kad įdiegtumėte papildinį.  
+3.  Kai atsisiuntimas bus baigtas, pasirinkite **Taip**, kad įdiegtumėte papildinį.  
 
 ## <a name="configure-the-add-in"></a>Papildinio konfigūravimas  
 
-1. Atidarykite „[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]‟ ir spustelėkite skirtuką **Project Service**.  
+1. Atidarykite „[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]‟ ir pasirinkite skirtuką **„Project Service“**.  
 
-2. Spustelėkite **Prijungti**.  
+2. Pasirinkite **Prisijungti**.  
 
-3. Įveskite savo prisijungimo informaciją ir spustelėkite **Prisijungti**.  
+3. Įveskite savo prisijungimo informaciją ir pasirinkite **Prisijungti**.  
 
    Dabar galite pradėti naudoti papildinį.  
 
 ## <a name="read-from-a-template"></a>Skaitymas iš šablono  
  Norėdami pradėti projekto planavimą, skaitykite iš šablono, kurį sukūrėte „[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]“ ir nukopijavote į „[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]“. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Projekto šablono kūrimas („Project Service Automation“)](../psa/create-project-template.md)  
 
-1.  Skirtuke **Project Service** spustelėkite **Skaityti** > **„Project Service Automation‟ projekto šablonas**.  
+1.  Skirtuke **„Project Service“** pasirinkite **Skaityti** > **„Project Service Automation“ projekto šablonas**.  
 
-2.  Pasirinkite projekto šabloną iš sąrašo, tada spustelėkite **Atidaryti**.  
+2.  Pasirinkite projekto šabloną iš sąrašo, tada pasirinkite **Atidaryti**.  
 
     > [!NOTE]
     >  Pagal numatytuosius nustatymus užduotys, kurios į Projektą nukopijuojamos iš šablono, yra nustatomos kaip suplanuotos rankiniu būdu.  
 
 ## <a name="assign-pn_project_service_auto-roles-to-project-resources"></a>„[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]“ vaidmenų priskyrimas projekto ištekliams  
 
-1.  Atidarykite projektą ir spustelėkite juostelę **Užduotys**.  
+1.  Atidarykite projektą ir pasirinkite juostelę **Užduotis**.  
 
-2.  Spustelėkite meniu **Ganto diagrama** ir pasirinkite **Išteklių aprašą**.  
+2. Pasirinkite meniu **Ganto diagrama** ir pasirinkite **Išteklių aprašas**.  
 
-3.  Išteklių apraše spustelėkite išskleidžiamąjį meniu **„Project Service“ išteklių vaidmuo** ir pasirinkite „Project Service Automation“ vaidmenį.  
+3. Išteklių apraše pasirinkite išskleidžiamąjį meniu **„Project Service“ išteklių vaidmuo** ir pasirinkite „Project Service Automation“ vaidmenį.  
 
 ## <a name="staff-your-project-with-resources"></a>Projekto aprūpinimas ištekliais  
 
-1.  Skirtuke „Project Service“ pasirinkite eilutę ir spustelėkite **Rasti išteklių**.  
+1.  Skirtuke „Project Service“ pasirinkite eilutę ir pasirinkite **Rasti išteklius**.  
 
 2.  Ekrane **Rezervuoti išteklius** pasirinkite norimą naudoti projekto išteklių.  
 
-3.  Spustelėkite **Rezervuoti**, tada spustelėkite **Gerai**.  
+3.  Pasirinkite **Rezervuoti**, o tada pasirinkite **Gerai**.  
 
 ## <a name="publish-your-project"></a>Projekto publikavimas  
 Baigus projekto planavimą, kitas veiksmas yra importuoti ir publikuoti projektą [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
@@ -90,20 +90,20 @@ Baigus projekto planavimą, kitas veiksmas yra importuoti ir publikuoti projekt�
 Projektas bus importuotas į [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Taikomas kainodaros ir komandos formavimo procesas. Atidarykite projektą [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], kad pamatytumėte, jog komanda, projekto įvertinimai ir darbo paskirstymo struktūra buvo sugeneruoti. Tolesnėje lentelėje parodyta, kur rasti rezultatus.
 
 
-|                                                                                          |                                                                                                                                   |
+|              Microsoft Project                                                           |                      Project Service Automation                                                                                   |
 |------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
 |  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Ganto diagrama**   | Importuojama į „[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]“ ekraną **Darbo paskirstymo struktūra**. |
 | [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Išteklių aprašas** |   Importuojama į „[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]“ ekraną **Project Team Members**.   |
 |   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Naudojimas**    |    Importuojama į „[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]“ ekraną **Projekto įvertinimai**.     |
 
 **Projekto importavimas ir publikavimas**  
-1. Skirtuke **Project Service** spustelėkite **Publikuoti** > **Naujas „Project Service Automation‟ projektas**.  
+1. Skirtuke **„Project Service“** eikite į **Publikuoti** > **Naujas „Project Service Automation“ projektas**.  
 
 2. Dialogo lange **Publikuoti naują projektą naudojant „Project Service“** įveskite **Projekto pavadinimą** ir pasirinkite **Klientas**.  
 
-3. Pasirinktinai pažymėkite **Susieti projekto planą su „Project Service Automation“,** kad susietumėte plano Projekto failą su „Project Service Automation“.  
+3. Pasirinktinai pasirinkite **Susieti projekto planą su „Project Service Automation“**, kad susietumėte plano projekto failą su „Project Service Automation“.  
 
-4. Spustelėkite **Publikuoti**.  
+4. Pasirinkite **Publikuoti**.  
 
    Projekto failą susiejus su [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], Projekto failas tampa pagrindiniu, o darbo paskirstymo struktūra [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] nustatoma kaip skirta tik skaityti.  Norėdami pakeisti projekto planą, turite atlikti pakeitimus naudodami „[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]“ ir publikuoti juos kaip „[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]“ naujinimus.  
 
@@ -114,21 +114,21 @@ Projektas bus importuotas į [!INCLUDE[pn_project_service_auto](../includes/pn-p
 
 - Atsieti failą ir jį redaguoti tiesiai „Project Service“. Pagal numatytuosius parametrus projektas, kuris įkeltas iš „[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]‟, yra užrakinamas ir jį galima redaguoti tik projekte. Norint redaguoti failą [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], failas turi būti atsietas.  
 
-### <a name="edit-in-pn_microsoft_project"></a>Redaguoti „[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]“  
+### <a name="edit-in-pn_microsoft_project"></a>Redaguoti naudojant „[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]“  
 
-1. Pagrindiniame meniu spustelėkite **Project Service** > **Projektai**.  
+1. Pagrindiniame meniu eikite į **„Project Service“** > **Projektai**.  
 
-2. Iš projektų sąrašo pasirinkite ir atidarykite projektą, kurį sukūrėte „[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]“.  
+2. Iš projektų sąrašo pasirinkite ir atidarykite projektą, kurį sukūrėte naudodami „[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]“.  
 
-3. Juostelėje spustelėkite **Atidaryti „MS Project“**. Susietas pagrindinis failas bus atidarytas „[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]“.  
+3. Juostelėje pasirinkite **Atidaryti programoje „MS Project“**. Susietas pagrindinis failas bus atidarytas „[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]“.  
 
 ### <a name="unlink-a-file-and-edit-in-pn_microsoft_project-service"></a>Atsiekite failą ir redaguokite jį naudodamiesi „[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] Service“  
 
-1. Pagrindiniame meniu spustelėkite **Project Service** > **Projektai**.  
+1. Pagrindiniame meniu eikite į **„Project Service“** > **Projektai**.  
 
-2. Iš projektų sąrašo pasirinkite ir atidarykite projektą, kurį sukūrėte „[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]“.  
+2. Iš projektų sąrašo pasirinkite ir atidarykite projektą, kurį sukūrėte naudodami „[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]“.  
 
-3. Juostelėje spustelėkite **Atsieti nuo „MS Project“**.  
+3. Juostelėje pasirinkite **Atsieti nuo „MS Project“**.  
 
 ## <a name="upload-a-project-file-to-sharepoint-or-office-groups"></a>Įkelkite Projekto failą į SharePoint ar Biuro Grupės  
  Savo Projekto failą galite įkelti į SharePoint ir jį rasti savo [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] projekto dalyje Susiję Dokumentai.  Turite pasirūpinti, kad jūsų administratorius sukonfigūruotų SharePoint dokumentų valdymą ir įjungtų jį Projekto objektui. 
@@ -137,42 +137,42 @@ Projektas bus importuotas į [!INCLUDE[pn_project_service_auto](../includes/pn-p
 
 ### <a name="upload-a-file-for-sharepoint"></a>Nusiųsti failą į SharePoint  
 
-1. Pagrindiniame meniu spustelėkite **Project Service** > **Įkelti**.  
+1. Pagrindiniame meniu eikite į **„Project Service“** > **Nusiųsti**.  
 
 2. Pasirinkite **„Project Service Automation“ projekto dokumentai**.  
 
 3. Dialogo lange **Leisti atidaryti programoje „[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]“** pasirinkite **Taip** arba **Ne**.  
 
-   - Paspaudus **Taip**, galėsite pasirinkti mygtuką **Atidaryti programoje [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]**, esantį „Project Service Automation“, paleisti [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] ir įkelti Projekto failą iš SharePoint dokumentų bibliotekos.  
+   - Jei pasirinksite **Taip**, galėsite pasirinkti **Atidaryti programoje „[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]“** „Project Service Automation“ programoje, paleisti „[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]“ ir įkelti projekto failą iš „SharePoint“ dokumentų bibliotekos.  
 
-   - Spustelėjus **Ne**, mygtuko **Atidaryti programoje [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** saitas neveiks.  
+   - Jei pasirinksite **Ne**, **Atidaryti programoje „[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]“** saitas neveiks.  
 
 4. „[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]“ failą galima rasti „[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]“ dalyje **Dokumentai** pagal konkretų „[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]“ projektą.  
 
 ### <a name="upload-a-file-for-office-groups"></a>Failo, skirto „Office Groups“ įkėlimas  
 
-1. Pagrindiniame meniu spustelėkite **Project Service** > **Įkelti**.  
+1. Pagrindiniame meniu eikite į **„Project Service“** > **Nusiųsti**.  
 
 2. Pasirinkite **„Project Service Automation“ projekto dokumentai**.  
 
 3. Dialogo lange **Leisti atidaryti programoje „[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]“** pasirinkite **Taip** arba **Ne**.  
 
-   - Paspaudus **Taip**, galėsite pasirinkti mygtuką **Atidaryti programoje [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]**, esantį „Project Service Automation“, paleisti [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] ir įkelti Projekto failą iš SharePoint dokumentų bibliotekos.  
+   - Jei pasirinksite **Taip**, galėsite pasirinkti **Atidaryti programoje „[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]“** „Project Service Automation“ programoje, paleisti „[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]“ ir įkelti projekto failą iš „SharePoint“ dokumentų bibliotekos.  
 
-   - Spustelėjus **Ne**, mygtuko **Atidaryti programoje [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** saitas neveiks.  
+   - Jei pasirinksite **Ne**, **Atidaryti programoje „[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]“** saitas neveiks.  
 
 4. „[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]“ failą galima rasti „[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]“ dalyje **Dokumentai** pagal konkretų „[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]“ projektą.  
 
 ## <a name="publish--your-project-as-a-template"></a>Projekto kaip šablono publikavimas  
- Galite įrašyti savo projektą ir pakartotinai ją naudoti įrašydami jį kaip projekto šabloną [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  Projektų šablonai yra daugkartinio naudojimo projektų planai [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Projekto šablono kūrimas („Project Service Automation“)](../psa/create-project-template.md)  
+ Galite įrašyti savo projektą ir pakartotinai ją naudoti įrašydami jį kaip projekto šabloną [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Projektų šablonai yra daugkartinio naudojimo projektų planai [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Daugiau informacijos ieškokite [Projekto šablono kūrimas („Project Service Automation“)](../psa/create-project-template.md). 
 
-1. Skirtuke **Project Service** spustelėkite **Publikuoti** > **Naujas „Project Service Automation‟ projekto šablonas**.  
+1. Skirtuke **„Project Service“** eikite į **Publikuoti** > **Naujas „Project Service Automation“ projekto šablonas**.  
 
-2. Dialogo lange **Publikuoti į naują projektą „Project Service“ šablone** įveskite **Projekto šablono pavadinimą**.  
+2. Dialogo lange **Publikuoti naują projektą „Project Service“ šablone** įveskite **Projekto šablono pavadinimą**.  
 
-3. Arba pažymėkite **Susieti projekto planą su „Project Service Automation“,** kad susietumėte Projekto failą su [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
+3. Pasirinktinai pasirinkite **Susieti projekto planą su „Project Service Automation“**, kad susietumėte projekto failą su „[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]“.  
 
-4. Spustelėkite **Publikuoti**.  
+4. Pasirinkite **Publikuoti**.  
 
 Projekto failą susiejus su [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], Projekto failas tampa pagrindiniu, o darbo paskirstymo struktūra [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] nustatoma kaip šablonas, skirtas tik skaityti.  Norėdami pakeisti projekto planą, turite atlikti pakeitimus naudodami „[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]“ ir publikuoti juos kaip „[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]“ naujinimus.
 
@@ -182,52 +182,63 @@ Skaitant „Project Service Automation“ projektą, išteklių kalendorius nesi
 
 
 ## <a name="data-synchronization"></a>Duomenų sinchronizavimas
+Šio skyriaus lentelėse pateikiama informacija apie objekto duomenų sinchronizavimą tarp „Project Service Automation“ ir „Microsoft Project“ darbalaukio papildinio.
 
-Toliau esančioje lentelėje nurodoma, kaip sinchronizuojami duomenys „Project Service Automation“ ir „Microsoft Project“ stalinio kompiuterio papildinyje.
-
-| **Objektas** | **Laukas** | **Iš „Microsoft Project“ į „Project Service Automation“** | **Iš „Project Service Automation“ į „Microsoft Project“** |
-| --- | --- | --- | --- |
-| Projekto užduotis | Terminas | ● | - |
-| Projekto užduotis | Įvertintos pastangos | ● | - |
-| Projekto užduotis | „MS Project“ kliento ID | ● | - |
-| Projekto užduotis | Pirminė užduotis | ● | - |
-| Projekto užduotis | Project | ● | - |
-| Projekto užduotis | Projekto užduotis | ● | - |
-| Projekto užduotis | Projekto užduoties pavadinimas | ● | - |
-| Projekto užduotis | Išteklių paskirstymo vienetas (nebenaudojama v3.0) | ● | - |
-| Projekto užduotis | Suplanuota trukmė | ● | - |
-| Projekto užduotis | Pradžios data | ● | - |
-| Projekto užduotis | WBS ID | ● | - |
+### <a name="project-task-entity-table"></a>Projekto užduoties objektų lentelė
+Toliau esančioje lentelėje nurodoma, kaip sinchronizuojami projekto užduoties objekto duomenys tarp „Project Service Automation“ ir „Microsoft Project“ darbalaukio papildinio.
 
 | **Objektas** | **Laukas** | **Iš „Microsoft Project“ į „Project Service Automation“** | **Iš „Project Service Automation“ į „Microsoft Project“** |
 | --- | --- | --- | --- |
-| Komandos narys | „MS Project“ kliento ID | ● | - |
-| Komandos narys | Pareigų pavadinimas | ● | - |
-| Komandos narys | projektas | ● | ● |
-| Komandos narys | Projekto komanda | ● | ● |
-| Komandos narys | Išteklių paskirstymo vienetas | - | ● |
-| Komandos narys | Vaidmuo | - | ● |
+| Projekto užduotis | Terminas | Sinchronizuota | Nesinchronizuota |
+| Projekto užduotis | Įvertintos pastangos | Sinchronizuota | Nesinchronizuota |
+| Projekto užduotis | „MS Project“ kliento ID | Sinchronizuota | Nesinchronizuota |
+| Projekto užduotis | Pirminė užduotis | Sinchronizuota | Nesinchronizuota |
+| Projekto užduotis | Project | Sinchronizuota | Nesinchronizuota |
+| Projekto užduotis | Projekto užduotis | Sinchronizuota | Nesinchronizuota |
+| Projekto užduotis | Projekto užduoties pavadinimas | Sinchronizuota | Nesinchronizuota |
+| Projekto užduotis | Išteklių paskirstymo vienetas (nebenaudojama v3.0) | Sinchronizuota | Nesinchronizuota |
+| Projekto užduotis | Suplanuota trukmė | Sinchronizuota | Nesinchronizuota |
+| Projekto užduotis | Pradžios data | Sinchronizuota | Nesinchronizuota |
+| Projekto užduotis | WBS ID | Sinchronizuota | Nesinchronizuota |
+
+### <a name="team-member-entity-table"></a>Komandos nario objektų lentelė
+Toliau esančioje lentelėje nurodoma, kaip sinchronizuojami komandos nario objekto duomenys tarp „Project Service Automation“ ir „Microsoft Project“ darbalaukio papildinio.
+
+| **Objektas** | **Laukas** | **Iš „Microsoft Project“ į „Project Service Automation“** | **Iš „Project Service Automation“ į „Microsoft Project“** |
+| --- | --- | --- | --- |
+| Komandos narys | „MS Project“ kliento ID | Sinchronizuota | Nesinchronizuota |
+| Komandos narys | Pareigų pavadinimas | Sinchronizuota | Nesinchronizuota |
+| Komandos narys | projektas | Sinchronizuota | Sinchronizuota |
+| Komandos narys | Projekto komanda | Sinchronizuota | Sinchronizuota |
+| Komandos narys | Išteklių paskirstymo vienetas | Nesinchronizuota | Sinchronizuota |
+| Komandos narys | Vaidmuo | Nesinchronizuota | Sinchronizuota |
 | Komandos narys | Darbo valandos | Nesinchronizuota | Nesinchronizuota |
 
-| **Objektas** | **Laukas** | **Iš „Microsoft Project“ į „Project Service Automation“** | **Iš „Project Service Automation“ į „Microsoft Project“** |
-| --- | --- | --- | --- |
-| Išteklių priskyrimas | Pradžios data | ● | - |
-| Išteklių priskyrimas | Val. | ● | - |
-| Išteklių priskyrimas | „MS Project“ kliento ID | ● | - |
-| Išteklių priskyrimas | Suplanuotas darbas | ● | - |
-| Išteklių priskyrimas | Project | ● | - |
-| Išteklių priskyrimas | Projekto komanda | ● | - |
-| Išteklių priskyrimas | Išteklių priskyrimas | ● | - |
-| Išteklių priskyrimas | Užduotis | ● | - |
-| Išteklių priskyrimas | Iki datos | ● | - |
+### <a name="resource-assignment-entity-table"></a>Išteklių priskyrimo objektų lentelė
+Toliau esančioje lentelėje nurodoma, kaip sinchronizuojami išteklių priskyrimo objekto duomenys tarp „Project Service Automation“ ir „Microsoft Project“ darbalaukio papildinio.
 
 | **Objektas** | **Laukas** | **Iš „Microsoft Project“ į „Project Service Automation“** | **Iš „Project Service Automation“ į „Microsoft Project“** |
 | --- | --- | --- | --- |
-| Projekto užduoties priklausomybės | Projekto užduoties priklausomybė | ● | - |
-| Projekto užduoties priklausomybės | Saito tipas | ● | - |
-| Projekto užduoties priklausomybės | Ankstesnė užduotis | ● | - |
-| Projekto užduoties priklausomybės | Project | ● | - |
-| Projekto užduoties priklausomybės | Vėlesnė užduotis | ● | - |
+| Išteklių priskyrimas | Pradžios data | Sinchronizuota | Nesinchronizuota |
+| Išteklių priskyrimas | Val. | Sinchronizuota | Nesinchronizuota |
+| Išteklių priskyrimas | „MS Project“ kliento ID | Sinchronizuota | Nesinchronizuota |
+| Išteklių priskyrimas | Suplanuotas darbas | Sinchronizuota | Nesinchronizuota |
+| Išteklių priskyrimas | Project | Sinchronizuota | Nesinchronizuota |
+| Išteklių priskyrimas | Projekto komanda | Sinchronizuota | Nesinchronizuota |
+| Išteklių priskyrimas | Išteklių priskyrimas | Sinchronizuota | Nesinchronizuota |
+| Išteklių priskyrimas | Užduotis | Sinchronizuota | Nesinchronizuota |
+| Išteklių priskyrimas | Iki datos | Sinchronizuota | Nesinchronizuota |
 
-### <a name="see-also"></a>Taip pat žr.  
+### <a name="project-task-dependencies-entity-table"></a>Projekto užduoties priklausomybių objekto lentelė
+Toliau esančioje lentelėje nurodoma, kaip sinchronizuojami projekto užduoties priklausomybių objekto duomenys tarp „Project Service Automation“ ir „Microsoft Project“ darbalaukio papildinio.
+
+| **Objektas** | **Laukas** | **Iš „Microsoft Project“ į „Project Service Automation“** | **Iš „Project Service Automation“ į „Microsoft Project“** |
+| --- | --- | --- | --- |
+| Projekto užduoties priklausomybės | Projekto užduoties priklausomybė | Sinchronizuota | Nesinchronizuota |
+| Projekto užduoties priklausomybės | Saito tipas | Sinchronizuota | Nesinchronizuota |
+| Projekto užduoties priklausomybės | Ankstesnė užduotis | Sinchronizuota | Nesinchronizuota |
+| Projekto užduoties priklausomybės | Project | Sinchronizuota | Nesinchronizuota |
+| Projekto užduoties priklausomybės | Vėlesnė užduotis | Sinchronizuota | Nesinchronizuota |
+
+### <a name="additional-resources"></a>Papildomi ištekliai
  [Projekto vadovo vadovas](../psa/project-manager-guide.md)
