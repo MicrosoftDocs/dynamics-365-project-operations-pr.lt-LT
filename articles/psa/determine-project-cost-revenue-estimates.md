@@ -3,6 +3,7 @@ title: Projekto savikainos ir pajamų įvertinimų nustatymas
 description: Projekto savikainos ir pajamų įvertinimų nustatymas „Project Service“
 author: ruhercul
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,14 +19,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 66fa8f4374caa08b07663cc9d261bfff8ce30c87
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a91e988632d2b2cdebfe7fd17516c5d6886728fc
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4133018"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148833"
 ---
 # <a name="determine-project-cost-and-revenue-estimates"></a>Projekto savikainos ir pajamų įvertinimų nustatymas 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -37,7 +40,7 @@ Projekto sąmatos pateikia projekto darbo paskirstymo struktūroje įvertinto ir
 ## <a name="cost-price-defaulting"></a>Numatytosios savikainos nustatymas  
 Kiekvienas projektas priklauso organizacijai (projekte tai nurodoma srityje **Nuosavybės teisę turintis vienetas**). Vieneto savikaina nustatoma kainoraščiu, susietu su nuosavybės teisę turinčiu organizaciniu vienetu. „[!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-service-auto.md)]“ vaidmenų savikainas nustato savikainų sąraše ieškodama vaidmens, vieneto ir organizacinio vieneto derinio, kad gautų sąmatų eilučių galiojimo datos savikainą.  
   
-Jei pagal vaidmens, vieneto ir organizacinio vieneto derinį nuosavybės teisę turinčio organizacinio vieneto kainoraštyje savikainos gauti negalima, vieneto nepaisoma, ir naudojamas vaidmens bei organizacinio vieneto derinys. Jei savikaina yra, ji konvertuojama į vienetą, kurį pasirinkote sąmatų eilutėje.  
+Jei pagal vaidmens, vieneto ir organizacinio vieneto derinį negalima gauti savikainos iš valdančio vieneto kainoraščio, vieneto nepaisoma, ir naudojamas vaidmens ir organizacinio vieneto derinys. Jei savikaina yra, ji konvertuojama į vienetą, kurį pasirinkote sąmatų eilutėje.  
   
 Jei pagal vaidmens ir organizacinio vieneto derinį savikainos gauti negalima, organizacinio vieneto nepaisoma, ir naudojamas vaidmens ir vieneto derinys, o numatytoji kaina nustatoma ją konvertavus (jei reikia).  
   
@@ -46,9 +49,9 @@ Jei pagal vaidmens ir organizacinio vieneto derinį savikainos gauti negalima, o
  Visos išlaidų sumos projekto išlaidų sąmatų eilutėse pateikiamos nuosavybės teisę turinčio organizacinio vieneto valiuta.  
   
 ## <a name="sales-price-defaulting"></a>Numatytosios pardavimo kainos nustatymas  
-Pardavimo kainoraštis paremtas pardavimo objektu, prie kurio projektas pridėtas. Vieneto pardavimo kaina nustatoma pardavimo kainoraščiu, susietu su pasiūlymu ar sutartimi. Jei prie pasiūlymo ar sutarties yra pasirinktinis kainoraštis, jis bus numatytasis projekto sąmatų pardavimo kainoraštis. Jei su pardavimo objektais sąsajų nėra, numatytasis projekto kainoraštis bus parametrų nuostatose sukonfigūruotas numatytasis kainoraštis. Kiekvienoje sąmatų eilutėje yra susietas išteklių organizacinis vienetas, kuris nurodo organizacinį vienetą, iš kurio bus rezervuojami ištekliai atlikti užduočiai. Susietų vaidmenų pardavimo kaina nustatoma pardavimo kainoraštyje ieškant vaidmens, vieneto ir išteklių organizacinio vieneto derinio, kad būtų gauta sąmatų eilučių galiojimo datos pardavimo kaina.  
+Pardavimo kainoraštis paremtas pardavimo objektu, prie kurio projektas pridėtas. Vieneto pardavimo kaina nustatoma pardavimo kainoraščiu, susietu su pasiūlymu ar sutartimi. Jei prie pasiūlymo ar sutarties yra pasirinktinis kainoraštis, jis bus numatytasis projekto įvertinimų pardavimo kainoraštis. Jei su pardavimo objektais sąsajų nėra, numatytasis projekto kainoraštis bus parametrų nuostatose sukonfigūruotas numatytasis kainoraštis. Kiekvienoje sąmatų eilutėje yra susietas išteklių organizacinis vienetas, kuris nurodo organizacinį vienetą, iš kurio bus rezervuojami ištekliai atlikti užduočiai. Susietų vaidmenų pardavimo kaina nustatoma pardavimo kainoraštyje ieškant vaidmens, vieneto ir išteklių organizacinio vieneto derinio, kad būtų gauta sąmatų eilučių galiojimo datos pardavimo kaina.  
   
-Jei pagal vaidmens, vieneto ir išteklių organizacinio vieneto derinį pardavimo kainoraščio kainos gauti negalima, sistema vieneto nepaisys ir ieškos vaidmens bei išteklių organizacinio vieneto derinio. Jei pardavimo kaina randama, ji bus konvertuojama į vienetą, kurį pasirinkote pardavimo sąmatų eilutėje.  
+Jei pagal vaidmens, vieneto ir išteklių organizacinio vieneto derinį pardavimo kainoraščio kainos gauti negalima, sistema vieneto nepaisys ir ieškos vaidmens bei išteklių organizacinio vieneto derinio. Jei pardavimo kaina randama, ji bus konvertuojama į vienetą, kurį pasirinkote pardavimo įvertinimo eilutėje.  
   
 Jei sistema vaidmens kainos neranda, sąmatų eilutėje numatytoji pardavimo kaina turi būti nustatyta į 0,00.  
   
@@ -58,7 +61,7 @@ Sąmatų rodinyje yra tinklelio rodinys, kuriame rodomas plokščias sąmatų ei
 Laipsniškai laike išdėstytame projekto sąmatų rodinyje sąmatų duomenys iš tinklelio rodinio pagal numatytąsias nuostatas greitai surikiuojami pagal vaidmenį, ir sąmatų duomenys išdėstomi pasirinktos laiko skalės laiko planavimo juostoje.  
   
 ## <a name="effort-estimate-allocation-based-on-task-mode"></a>Pastangų sąmatų paskirstymas pagal užduoties režimą  
-Laipsniškai laike išdėstytame rodinyje visos įvertintos užduoties pastangos paskirstomos priskiriant tam tikrą pastangų valandų per pasirinktos laiko skalės laikotarpio vienetų skaičių. „Project Service“ užduoties režimu nustatoma, kaip pastangos paskirstomos per visą užduoties trukmę. Dvi paskirstymo rūšys – tai lygus paskirstymas ir paskirstymas pagal darbo valandas.  
+Laipsniškai laike išdėstytame rodinyje visos įvertintos užduoties pastangos paskirstomos priskiriant tam tikrą pastangų valandų per pasirinktos laiko skalės laikotarpio vienetų skaičių. „Project Service“ užduoties režimu nustatoma, kaip pastangos paskirstomos per visą užduoties trukmę. Dvi paskirstymo rūšys – tai lygus paskirstymas ir paskirstymas pagal darbo valandas. 
   
 ## <a name="work-hours-based-allocation"></a>Paskirstymas pagal darbo valandas  
 Automatinio planavimo užduoties režimas nustato, kad įvertintą užduoties išteklių skaičių numatoma naudoti visas dienos darbo valandas. Tai taip pat taikoma, kai pastangos paskirstomos jas išskaidant per visą užduočių trukmę laipsniškai laike išdėstytame rodinyje. Pavyzdžiui, „dienos‟ laiko skalėje užduoties, numatomos atlikti naudojant vieną išteklių, per dieną paskirstytos pastangos neviršys dienos darbo valandų, apibrėžtų projekto kalendoriuje. Todėl paskirstant pastangas visada užtikrinama, kad ištekliai būtų numatomi naudoti visą dieną.  
@@ -69,12 +72,12 @@ Rankiniu būdu suplanuotas užduoties režimas neatsižvelgia į darbo valandas,
 Tokiu būdu apibrėžtas užduoties režimas nustato pastangų paskirstymą arba priskyrimą vienam laipsniškai laike išdėstytų sąmatų laikotarpio vienetui.  
   
 ## <a name="grouping-and-time-phasing-options"></a>Grupavimas ir laipsniško išdėstymo laike parinktys  
-Šis rodinys padeda suprasti pastangų, išlaidų ir pardavimo sąmatų paskirstymą dienai, savaitei, mėnesiui ar metams. Parinktis Grupuoti pagal leidžia sąmatų duomenis greitai surikiuoti pagal kitas dvi dimensijas: kategorijos ir ištekliaus. Tiek tinklelio rodinyje, tiek laipsniškai laike išdėstytame rodinyje galite pasirinkti rodytinus laukus. Kiekvieno laiko bloko sumos rodomos apačioje; jomis nurodomos visos įvertintos pastangos, išlaidos ir pardavimas per dieną, savaitę, mėnesį ar metus.  
+Šis rodinys padeda suprasti pastangų, išlaidų ir pardavimo sąmatų paskirstymą dienai, savaitei, mėnesiui ar metams. Parinktis Grupuoti pagal leidžia sąmatų duomenis greitai surikiuoti pagal kitas dvi dimensijas: kategorijos ir ištekliaus. Tiek tinklelio rodinyje, tiek laipsniškai laike išdėstytame rodinyje galite pasirinkti rodytinus laukus. Kiekvieno laiko bloko bendrosios sumos rodomos apačioje; jomis nurodomos visos įvertintos pastangos, savikaina ir dienos, savaitės, mėnesio ar metų pardavimai.  
   
-Numatytoji kaina ir pardavimo kaina nustatoma pagal galiojimo datą – kai pasikeis vaidmenų tarifai, jie bus skaidresni laipsniškai laike išdėstytame rodinyje, peržiūrint pagal „išteklių‟ greitai surinkiuotus ir laipsniškai pagal savaitę išdėstytus sąmatų duomenis.  
+Numatytoji savikaina ir pardavimo kaina priklauso nuo datos. Kai vaidmenų tarifai pasikeičia, jie bus skaidresni laipsniškai laike išdėstytame rodinyje, peržiūrint įvertinimo duomenis, surikiuotus pagal „išteklius“ ir laipsniškai laike išdėstytus pagal savaitę.  
   
 ## <a name="expense-estimates"></a>Išlaidų sąmatos  
-Visas patirtas projekto išlaidas, kurios tiesiogiai nesusijusios su darbo išlaidomis, galima įrašyti į projekto sąmatas, pateiktas tinklelio rodinyje. Tai atlikti galite naudodami tinklelio rodinio parinktį **Pridėti išlaidų sąmatą**. Galima įrašyti konkrečios užduoties arba viso projekto išlaidų sąmatas; šiose eilutėse galite pasirinkti išlaidų kategorijas ir preliminarią datą, kad išlaidas numatoma patirti. Jei susietuose kainos ir pardavimo kainos kainoraščiuose yra numatytųjų kainų ar apibrėžtų išlaidų kategorijų antkainių procentų, susiejant kainoraštis bus pagal numatytąsias nuostatas naudojamas sąmatų eilutėje.  
+Visas patirtas projekto išlaidas, kurios tiesiogiai nesusijusios su darbo išlaidomis, galima įrašyti į projekto įvertinimus, pateiktus tinklelio rodinyje. Tai atlikti galite naudodami tinklelio rodinio parinktį **Pridėti išlaidų sąmatą**. Galima įrašyti specifinės užduoties ar viso projekto išlaidų įvertinimus. Šiose eilutėse galite pasirinkti išlaidų kategorijas ir preliminarią datą, kada tikimasi patirti išlaidas. Jei susietuose kainos ir pardavimo kainos kainoraščiuose yra numatytųjų kainų ar apibrėžtų išlaidų kategorijų antkainių procentų, susiejant kainoraštis bus pagal numatytąsias nuostatas naudojamas sąmatų eilutėje.  
   
 ### <a name="see-also"></a>Taip pat žr.  
  [Projekto vadovo vadovas](../psa/project-manager-guide.md)

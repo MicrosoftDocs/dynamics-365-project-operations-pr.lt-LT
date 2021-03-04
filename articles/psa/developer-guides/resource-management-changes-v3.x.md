@@ -16,20 +16,22 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5176d2c6b7b00d47d4aeb12f54bdb84d4b87304c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 94f9adc67163254486387a1ce59d5d3e8e93c335
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081027"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148653"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>Išteklių valdymo pakeitimai (Project Service Automation 3.x)
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 Šios temos skyriuose pateikiama informacija apie pakeitimus, kurie atlikti Dynamics 365 Project Service Automation 3.x versijos išteklių valdymo srityje.
 
 ## <a name="project-estimates"></a>Projekto įvertinimai
 
-Projekto įvertinimai pagrįsti ne objektu **msdyn\_projecttask** ( **Projekto užduotis** ), o objektu **msdyn\_resourceassignment** ( **Išteklių priskyrimas** ). Išteklių priskyrimai užduočių planavimui ir įkainiams tapo „tiesos šaltiniu“.
+Projekto įvertinimai pagrįsti ne objektu **msdyn\_projecttask** (**Projekto užduotis**), o objektu **msdyn\_resourceassignment** (**Išteklių priskyrimas**). Išteklių priskyrimai užduočių planavimui ir įkainiams tapo „tiesos šaltiniu“.
 
 ## <a name="line-tasks"></a>Eilutės užduotys
 
@@ -65,7 +67,7 @@ PSA 3.x nepriskirtas priskyrimas yra priskyrimas, kuris priskirtas **NULL** koma
 
 ## <a name="scheduling-fields-on-the-project-task-entity"></a>Projekto užduoties objekto planavimo laukai
 
-Laukai objekte **msdyn\_projecttask** nebenaudojami arba perkelti į objektą **msdyn\_resourceassignment** , arba dabar jie yra nurodomi iš objekto **msdyn\_projectteam** ( **Projekto komandos narys** ).
+Laukai objekte **msdyn\_projecttask** nebenaudojami arba perkelti į objektą **msdyn\_resourceassignment**, arba dabar jie yra nurodomi iš objekto **msdyn\_projectteam** (**Projekto komandos narys**).
 
 | Nebenaudojamas laukas, esantis msdyn\_projecttask (Projekto užduotis) | Naujas laukas, esantis msdyn\_resourceassignment (Išteklių priskyrimas) | Komentaras |
 |---|---|---|
@@ -77,7 +79,7 @@ Laukai objekte **msdyn\_projecttask** nebenaudojami arba perkelti į objektą **
 
 ## <a name="schedule-contour"></a>Grafiko kontūras
 
-Grafiko kontūras saugomas kiekvieno objekto **Išteklių priskyrimas** ( **msdyn\_resourceassignment** ) lauke **Suplanuotas darbas** ( **msdyn\_plannedwork** ).
+Grafiko kontūras saugomas kiekvieno objekto **Išteklių priskyrimas** (**msdyn\_resourceassignment**) lauke **Suplanuotas darbas** (**msdyn\_plannedwork**).
 
 ### <a name="structure"></a>Struktūra
 
@@ -139,7 +141,7 @@ Priskyrimo vienetas nebenaudojamas PSA 3.x versijoje. Užduoties vienos dienos p
 
 ## <a name="pricing-dimensions"></a>Kainodaros dimensijos
 
-PSA 3.x versijoje konkrečių išteklių kainodaros dimensijos laukai (pavyzdžiui, **Vaidmuo** ir **Organizacinis vienetas** ) pašalinti iš objekto **msdyn\_projecttask**. Šiuos laukus dabar galima gauti iš išteklių priskyrimo ( **msdyn\_resourceassignment** ) atitinkamo projekto komandos nario ( **msdyn\_projectteam** ), kai sugeneruojami projekto įvertinimai. Naujas laukas **msdyn\_organizationalunit** įtrauktas į objektą **msdyn\_projectteam**.
+PSA 3.x versijoje konkrečių išteklių kainodaros dimensijos laukai (pavyzdžiui, **Vaidmuo** ir **Organizacinis vienetas**) pašalinti iš objekto **msdyn\_projecttask**. Šiuos laukus dabar galima gauti iš išteklių priskyrimo (**msdyn\_resourceassignment**) atitinkamo projekto komandos nario (**msdyn\_projectteam**), kai sugeneruojami projekto įvertinimai. Naujas laukas **msdyn\_organizationalunit** įtrauktas į objektą **msdyn\_projectteam**.
 
 | Nebenaudojamas laukas, esantis msdyn\_projecttask (Projekto užduotis) | Laukas iš msdyn\_projectteam (Projekto komandos narys), kuris naudojamas vietoje |
 |---|---|
@@ -155,7 +157,7 @@ Kainodaros ir įvertinimo kontūro laukai, kurie nebenaudojami **msdyn\_projectt
 | msdyn\_costestimatecontour | msdyn\_plannedcostcontour |
 | msdyn\_salesestimatecontour | msdyn\_plannedsalescontour |
 
-Toliau nurodyti laukai buvo įtraukti į objektą **msdyn\_resourceassignment** :
+Toliau nurodyti laukai buvo įtraukti į objektą **msdyn\_resourceassignment**:
 
 * msdyn\_plannedcost
 * msdyn\_plannedsales

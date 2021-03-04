@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fed8d1d478dfcceb7a1e848b6432563e3b94dcf8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7576f73240a7366175d7be39815583a5c9cf7187
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081051"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150363"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Pasirinktinių laukų kaip kainodaros dimensijų nustatymas 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Prieš pradedant, šioje temoje daroma prielaida, kad atlikote temose [Pasirinktinių laukų ir objektų kūrimas](create-custom-fields-entities.md) ir [Pasirinktinių laukų įtraukimas į kainos sąranką ir operacijų objektus](field-references.md)  nurodytas procedūras. Jei neatlikote šių procedūrų, grįžkite ir jas atlikite, o tada grįžkite į šią temą. 
 
@@ -34,7 +36,7 @@ Prieš pradedant, šioje temoje daroma prielaida, kad atlikote temose [Pasirinkt
 - **msdyn_OrganizationalUnit** (organizacinis vienetas)
 
 > [!IMPORTANT]
-> Nenaikinkite šių eilučių. Tačiau, jei jums jų nereikia, padarykite juos netaikomais konkrečiame kontekste nustatydami **Taikoma savikainai** , **Taikoma pardavimui** ir **Taikoma pirkimui** kaip **Ne**. Nustačius šias atributų reikšmes kaip **Ne** , tai turi tokį patį poveikį kaip kainodaros dimensijos lauko neturėjimas.
+> Nenaikinkite šių eilučių. Tačiau, jei jums jų nereikia, padarykite juos netaikomais konkrečiame kontekste nustatydami **Taikoma savikainai**, **Taikoma pardavimui** ir **Taikoma pirkimui** kaip **Ne**. Nustačius šias atributų reikšmes kaip **Ne**, tai turi tokį patį poveikį kaip kainodaros dimensijos lauko neturėjimas.
 
 Kad laukas taptų kainodaros dimensija, jis turi:
 
@@ -43,7 +45,7 @@ Kad laukas taptų kainodaros dimensija, jis turi:
 
 ![Suma pagrįstos kainodaros dimensijos eilutės](media/Amt-based-PD.png)
 
-Atkreipkite dėmesį, kad išteklių darbo valandos ( **msdyn_resourceworkhours** ) įtrauktos kaip antkainiu pagrįsta dimensija ir įtrauktos į tinklelį skirtuke **Antkainiu pagrįsta kainodaros dimensija**.
+Atkreipkite dėmesį, kad išteklių darbo valandos (**msdyn_resourceworkhours**) įtrauktos kaip antkainiu pagrįsta dimensija ir įtrauktos į tinklelį skirtuke **Antkainiu pagrįsta kainodaros dimensija**.
 
 ![Antkainiu pagrįstos kainodaros dimensijos eilutės](media/Markup-based-PD.png)
 
@@ -55,16 +57,16 @@ Atkreipkite dėmesį, kad išteklių darbo valandos ( **msdyn_resourceworkhours*
 Tolesniuose skyriuose pateikiama informacija apie skirtingus atributus lentelėje **Kainodaros dimensijos**.
 
 ### <a name="pricing-dimension-name"></a>Kainodaros dimensijos pavadinimas
-Ši reikšmė turi būti tokia pati kaip ir lauko, kuris įtrauktas į pasirinktinių kainodaros dimensijų lentelę **Vaidmens kaina** , schemos pavadinimas. Daugiau informacijos apie tai, kaip įtraukti laikus į lentelę **Vaidmens kaina** , žr. [Pasirinktinių laukų įtraukimas į kainos sąranką ir operacijų objektus](field-references.md).
+Ši reikšmė turi būti tokia pati kaip ir lauko, kuris įtrauktas į pasirinktinių kainodaros dimensijų lentelę **Vaidmens kaina**, schemos pavadinimas. Daugiau informacijos apie tai, kaip įtraukti laikus į lentelę **Vaidmens kaina**, žr. [Pasirinktinių laukų įtraukimas į kainos sąranką ir operacijų objektus](field-references.md).
 
 ### <a name="type-of-dimension"></a>Dimensijos tipas
 Yra dviejų tipų kainodaros dimensijos:
   
-  - **Suma pagrįstos dimensijos** : dimensijų reikšmės iš įvesties konteksto yra sugretinamos su dimensijų reikšmėmis eilutėje **Vaidmens kaina** ir kaina / savikaina pagal numatytuosius parametrus tiesiogiai nustatoma iš lentelės **Vaidmens kaina**.
-  - **Antkainiu pagrįstos dimensijos** : tai yra dimensijos, kuriose „Project Service“ pritaikys toliau nurodytą 3 veiksmų procesą, kad gautų kainą / savikainą:
+  - **Suma pagrįstos dimensijos**: dimensijų reikšmės iš įvesties konteksto yra sugretinamos su dimensijų reikšmėmis eilutėje **Vaidmens kaina** ir kaina / savikaina pagal numatytuosius parametrus tiesiogiai nustatoma iš lentelės **Vaidmens kaina**.
+  - **Antkainiu pagrįstos dimensijos**: tai yra dimensijos, kuriose „Project Service“ pritaikys toliau nurodytą 3 veiksmų procesą, kad gautų kainą / savikainą:
  
     1. „Project Service“ sugretina dimensijų, kurios nėra pagrįstos antkainiu, reikšmes iš įvesties konteksto su vaidmens kainos eilute, kad gautų bazinį tarifą.
-    2. „Project Service“ sugretina visas dimensijų reikšmes iš įvesties konteksto su eilute **Vaidmens kainos antkainis** , kad gautų antkainio procentą.
+    2. „Project Service“ sugretina visas dimensijų reikšmes iš įvesties konteksto su eilute **Vaidmens kainos antkainis**, kad gautų antkainio procentą.
     3. „Project Service“ taiko antkainio procentą iš antrojo veiksmo baziniam tarifui, gautam iš lentelės **Vaidmens kaina** pirmojo veiksmo metu, kad gautų galutinę kainą / savikainą.
    
    Toliau pateiktoje lentelėje parodomas kainos antkainių skaičiavimas.
@@ -79,16 +81,16 @@ Yra dviejų tipų kainodaros dimensijos:
 Jei ištekliai iš „Danys India“, kurių bazinis tarifas yra 100 USD, dirba internetu, ir jie laiko įraše užregistruoja 8 reguliaraus laiko valandas ir 2 valandas viršvalandžių, „Project Service“ kainodaros variklis naudos 100 bazinį tarifą už 8 valandas įrašui 800 USD. Už 2 valandas viršvalandžių 100 baziniam tarifui bus taikomas 15 % antkainis, kad būtų gauta 115 USD vieneto kaina, ir įrašys bendrą savikainą, lygią 230 USD.
 
 ### <a name="applicable-to-cost"></a>Taikoma savikainai 
-Jei tai nustatyta kaip **Taip** , tai nurodo, kad dimensijos reikšmė iš įvesties konteksto turi būti naudojama, siekiant suderinti **Vaidmens kaina** ir **Vaidmens kainos antkainis** , kai gaunami savikainos ir antkainio tarifai.
+Jei tai nustatyta kaip **Taip**, tai nurodo, kad dimensijos reikšmė iš įvesties konteksto turi būti naudojama, siekiant suderinti **Vaidmens kaina** ir **Vaidmens kainos antkainis**, kai gaunami savikainos ir antkainio tarifai.
 
 ### <a name="applicable-to-sales"></a>Taikoma pardavimui
-Jei tai nustatyta kaip **Taip** , tai nurodo, kad dimensijos reikšmė iš įvesties konteksto turi būti naudojama, siekiant suderinti **Vaidmens kaina** ir **Vaidmens kainos antkainis** , kai gaunami sąskaitų ir antkainio tarifai.
+Jei tai nustatyta kaip **Taip**, tai nurodo, kad dimensijos reikšmė iš įvesties konteksto turi būti naudojama, siekiant suderinti **Vaidmens kaina** ir **Vaidmens kainos antkainis**, kai gaunami sąskaitų ir antkainio tarifai.
 
 ### <a name="applicable-to-purchase"></a>Taikoma pirkimui
-Jei tai nustatyta kaip **Taip** , tai nurodo, kad dimensijos reikšmė iš įvesties konteksto turi būti naudojama, siekiant suderinti **Vaidmens kaina** ir **Vaidmens kainos antkainis** , kai gaunama pirkimo kaina. Šiuo metu „Project Service“ nepalaiko subrangos scenarijų, todėl šis laukas nenaudojamas. 
+Jei tai nustatyta kaip **Taip**, tai nurodo, kad dimensijos reikšmė iš įvesties konteksto turi būti naudojama, siekiant suderinti **Vaidmens kaina** ir **Vaidmens kainos antkainis**, kai gaunama pirkimo kaina. Šiuo metu „Project Service“ nepalaiko subrangos scenarijų, todėl šis laukas nenaudojamas. 
 
 ### <a name="priority"></a>Pirmenybė
 Dimensijos prioriteto nustatymas padeda „Project Service“ kainodarai sukurti kainą netgi tada, kai ji negali rasti tikslaus įvesties dimensijos reikšmių ir reikšmių iš lentelių **Vaidmens kaina** arba **Vaidmens kainos antkainis** atitikties. Tokiu atveju „Project Service“ naudos nulines nesutampančių dimensijos reikšmių reikšmes įvertindama dimensijas pagal jų prioritetų tvarką.
 
-- **Savikainos prioritetas** : dimensijos savikainos prioriteto reikšmė nurodys dimensijos įvertinimą lygindama su savikainos sąranka. **Savikainos prioriteto** reikšmė turi būti unikali visose dimensijose, kurios taikomos **Taikoma savikainai**.
-- **Pardavimo prioritetas** : dimensijos pardavimo prioriteto reikšmė nurodys dimensijos įvertinimą lygindama su pardavimo kainų arba sąskaitų tarifų sąranka. **Pardavimo prioriteto** reikšmė turi būti unikali visose dimensijose, kurios taikomos **Taikoma pardavimui**.
+- **Savikainos prioritetas**: dimensijos savikainos prioriteto reikšmė nurodys dimensijos įvertinimą lygindama su savikainos sąranka. **Savikainos prioriteto** reikšmė turi būti unikali visose dimensijose, kurios taikomos **Taikoma savikainai**.
+- **Pardavimo prioritetas**: dimensijos pardavimo prioriteto reikšmė nurodys dimensijos įvertinimą lygindama su pardavimo kainų arba sąskaitų tarifų sąranka. **Pardavimo prioriteto** reikšmė turi būti unikali visose dimensijose, kurios taikomos **Taikoma pardavimui**.

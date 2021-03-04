@@ -2,6 +2,7 @@
 title: Pagrindinio puslapio atnaujinimas
 description: Šioje temoje nurodoma, kur rasti svarbią informaciją apie naujas ir pakeistas „Dynamics 365 Project Service Automation“ funkcijas bei naujinimo į naujausią versiją procesą.
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,14 +19,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fa25d069de8098c0e8788c9ebb8aa3426eec5db9
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e30da3a5ade6d8bafcdc45801b830196841997bf
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121768"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150093"
 ---
 # <a name="upgrade-home-page"></a>Pagrindinio puslapio atnaujinimas
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -37,7 +40,7 @@ Nuo 2019 m. gegužės 17 d., kai kuriant naują egzempliorių pasirenkama „Pr
 
 ### <a name="existing-instances"></a>Esami egzemplioriai
 
-Anksčiau klientai, turintys PSA 2.x versijos egzempliorių ir kuriems reikia atnaujinti į 3.x versiją, kuri yra vieningąją kliento sąsaja (UCI) pagrįsta PSA versija, turėjo kreiptis į „Microsoft“ pagalbos tarnybą ir pateikti išsamią informaciją apie savo egzempliorių, kad pagalbos tarnyba galėtų nustatyti, kad egzempliorių būtų galima atnaujinti į 3.x versiją. Nuo 2020 m. kovo 1 d. klientai, kurie turi PSA 2.x versijos egzempliorių ir kuriems reikia naujinti į 3.x versiją, galės naujinti savo egzempliorius tiesiai iš administravimo portalo nesusisiekdami su „Microsoft“ pagalbos tarnyba.  
+Anksčiau klientai, kurie turi PSA 2.x versijos egzempliorių ir turėjo jį atnaujinti į 3.x versiją, kuri yra vieningąja kliento sąsaja (UCI) pagrįsta PSA versija, turėjo susisiekti su „Microsoft“ palaikymo tarnyba ir pateikti išsamią informaciją apie savo egzempliorių, kad palaikymo tarnyba galėtų nustatyti, kad egzempliorių būtų galima atnaujinti į 3.x versiją. Nuo 2020 m. kovo 1 d. klientai, turintys PSA 2.x versijos egzempliorių ir kuriems reikia atnaujinti versiją į 3.x versiją, galės atnaujinti savo egzempliorius tiesiai iš administravimo portalo, neturėdami susisiekti su „Microsoft“ palaikymo tarnyba.  
 
 > [!NOTE]
 > PSA 3.x versijoje yra reikšmingų pakeitimų. Ji sukurta naudojant vieningosios sąsajos sistemą siekiant užtikrinti patobulintą vartotojų patirtį. Pertvarkyta programa užtikrina nuoseklią, vienodą vartotojo sąsają (UI), kurią rengiant pasirinktas poreikius atitinkantis dizainas, kad būtų galima optimaliai peržiūrėti bet kokio dydžio ekrane arba bet kokiame įrenginyje. Programoje atlikta ir kitų pakeitimų. Kai kurios iš pakeistų sričių yra išteklių kainodara, rezervavimas ir priskyrimas, laikas, išlaidos ir patvirtinimai.
@@ -58,7 +61,7 @@ Kai peržiūrėsite temas, kurios buvo paminėtos anksčiau, ir būsite pasiruo�
 
 Nuo 2019 m. gegužės 17 d. visų naujų egzempliorių numatytasis klientas bus UCI. Norint suderinti su šiuo pakeitimu, PSA 3.x versija ir „Field Service“ 8.x versija bus parengta pagal numatytuosius nustatymus, nes šios versijos skirtos darbui su UCI klientu.
 
-Nuo 2020 m. kovo 1 d. „Dynamics“ PSA klientai nebegalės kurti naujų aplinkų naudodami senas PSA versijas, pavyzdžiui, PSA 2.x ir senesnes versijas. Bet kokią naują aplinką bus galima gauti tik naudojant PSA 3.x versiją.
+Nuo 2020 m. kovo 1 d. „Dynamics PSA“ klientai nebegalės kurti naujos aplinkos su senesnėmis PSA versijomis, pvz., PSA 2.x arba senesne versija. Bet kokią naują aplinką bus galima gauti tik naudojant PSA 3.x versiją.
 
 > [!NOTE]
 > Norėdami gauti geriausią patirtį, kai naudojatės senesnėmis „Field Service“ ir PSA programomis, eikite į puslapį **Sistemos parametrai** ir lauke **Naudoti tik naują vieningąją sąsają (rekomenduojama)** pasirinkite **Ne**, nes šios versijos nėra sukurtos taip, kad jas būtų galima tinkamai įkelti į UCI. Išjungę UCI, galite atidaryti ir paleisti šias „Field Service“ ir PSA versijas naudodami senąjį žiniatinklio klientą. 
