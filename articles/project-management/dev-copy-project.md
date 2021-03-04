@@ -112,3 +112,6 @@ Toliau pateiktame pavyzdyje parodyta, kaip iškviesti pasirinktinį veiksmą **C
     }
 }
 ```
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

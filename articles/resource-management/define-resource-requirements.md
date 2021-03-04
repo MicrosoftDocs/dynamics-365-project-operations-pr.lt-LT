@@ -26,3 +26,5 @@ Išteklių reikalavimus apibrėžia projektų vadovas, kad nustatytų išteklius
 3.  Skirtuke **Komandos narys** pasirinkite komandos narį, o tada pasirinkite **Generuoti reikalavimą**.
 
 Norėdami gauti informacijos apie išteklių reikalavimo modifikavimą, žr. [Išteklių reikalavimo išsamios informacijos atnaujinimas](define-resource-requirements.md), kad modifikuotumėte išteklių reikalavimą.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

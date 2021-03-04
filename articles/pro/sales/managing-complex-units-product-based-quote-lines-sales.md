@@ -45,3 +45,6 @@ Norėdami kurti produkto ypatybių kiekio koeficientus, atlikite šiuos veiksmus
 6. Įrašykite ir uždarykite formą. Pakartokite šiuos veiksmus su visomis ypatybėmis, kurias reikia naudoti produktu pagrįsto pasiūlymo eilutės kiekiui apskaičiuoti.
 
 Kai kuriate produkto produktu pagrįsto pasiūlymo eilutę, pasiūlymo eilutės kiekis bus užrakintas. Kiekis bus skaičiuojamas kaip ypatybių reikšmių, kurias įvedate tai pasiūlymo eilutei, produktas.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

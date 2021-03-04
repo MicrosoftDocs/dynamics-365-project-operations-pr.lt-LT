@@ -50,3 +50,6 @@ Darbo eiga yra įmonės procesas. Ji apibrėžia, kaip dokumentas apdorojamas si
 |      <strong>Avansinis mokėjimo užklausa</strong>      |         Grynųjų pinigų avanso užklausų patvirtinimo darbo eigų kūrimas.          |
 |        <strong>PVM mokesčių grąžinimas</strong>        | Kurti pridėtinės vertės mokesčio (PVM) susigrąžinimo darbo eigas.  |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

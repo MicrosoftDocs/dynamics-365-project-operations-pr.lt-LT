@@ -101,3 +101,6 @@ Po to, kai buvo įvykdyta kiekvieno ištekliaus rezervavimo pratęsimo funkcija,
 
 Tačiau atidžiau apžvelgus rezervacijų išsamią informacija, matomi rezervacijų laiko pradžios skirtumai. Rezervavimai prasidės ne anksčiau nei priskyrimo kontūro pradžios laikas ir ne anksčiau nei galimas ištekliaus pradžios laikas.
  ![Naujos išteklių rezervacijos grafiko lentoje](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

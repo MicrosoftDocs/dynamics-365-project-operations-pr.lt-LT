@@ -63,3 +63,6 @@ Malonu pranešti apie naujausią „Dynamics 365“ programos „Project Service
 **„Sales“**
 
 - Išspręsta: kai laiko įrašai patvirtinami iš naujo (**Patvirtinti > Atšaukti >** patvirtinti dar kartą), sukuriamas įrašo duplikatas su neapmokestinama faktine reikšme.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

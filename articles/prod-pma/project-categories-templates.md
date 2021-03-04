@@ -124,3 +124,6 @@ Projekto išlaidų kategorijos valdomos naudojant „Finance, o sinchronizuojamo
 > Susiejime rodoma lauko informacija, kuri bus sinchronizuojama iš „Project Service Automation“ į „Finance“.
 
 [![„Project Service Automation“ ir „Finance“ šablonų susiejimas](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

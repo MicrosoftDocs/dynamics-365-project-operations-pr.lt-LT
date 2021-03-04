@@ -160,3 +160,6 @@ Sukūrę išlaidų ataskaitų strategijas, galite padėti savo organizacijai sut
 - Kada strategijos galiojimas pasibaigia?
 - Kas yra strategijos taisyklė?
 - Koks politikos taisyklės rezultatas?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

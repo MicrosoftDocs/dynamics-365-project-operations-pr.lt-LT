@@ -32,3 +32,6 @@ Bet koks projektas, nesusietas su sutartimi programoje „Dynamics 365 Project O
 Užregistravus operacijas projekte, jei projektas susietas su projekto sutartimi, sistema anuliuoja visas sukauptas operacijas ir sukuria naujas apmokestinamas operacijas. Apmokestinamos operacijos atitinka apskaitos taisykles, apibrėžtas atitinkamame projekto išlaidų ir pajamų profilyje.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

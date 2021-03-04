@@ -77,3 +77,6 @@ Objektų dimensijų duomenis galite kurti rankiniu būdu arba naudodami „Micro
 5. Pakartokite 1–3 veiksmus, kad sukurtumėte kitą standartinį vyresniojo sistemų inžinieriaus pavadinimą.
 
 > ![Standartinio pavadinimo objekto duomenų pavyzdžiai](media/ST-data.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

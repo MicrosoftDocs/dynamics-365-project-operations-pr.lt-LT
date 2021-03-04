@@ -77,3 +77,6 @@ Tikslinės išleidimo datos gali keistis. Daugiau informacijos žr. [Paslaugų a
 | --- | --- |
 | 10.0.17 | 2021 m. kovo 19 d. |
 | 10.0.18 | 2021 m. balandžio 16 mėn. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

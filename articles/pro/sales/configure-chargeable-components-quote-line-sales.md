@@ -77,3 +77,6 @@ Sukurtos numatomos arba faktinės išlaidų reikšmės bus laikomos apmokestinam
 | No | Taip | Visas projektas | Negalima nustatyti | Neapmokestinama | Negalima nustatyti | Atsiskaitymas pagal faktinį laiką: Nėra </br>Atsiskaitymas pagal faktines išlaidas: Neapmokestinamas |
 | Taip | No | Visas projektas | Apmokestinama | Negalima nustatyti | Negalima nustatyti | Atsiskaitymas pagal faktinį laiką: Apmokestinamas</br>Atsiskaitymas pagal faktines išlaidas: Nėra |
 | Taip | No | Visas projektas | Neapmokestinama | Negalima nustatyti | Negalima nustatyti | Atsiskaitymas pagal faktinį laiką: Neapmokestinamas </br>Atsiskaitymas pagal faktines išlaidas: Nėra |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

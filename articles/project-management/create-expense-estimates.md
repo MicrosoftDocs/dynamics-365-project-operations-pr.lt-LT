@@ -38,3 +38,6 @@ Kiekvienam išlaidų eilutės elementui nustatomi šie atributai:
 - **Vieneto savikaina**: vieneto kaina, naudojama išlaidų kainai apskaičiuoti.
 - **Vieneto pardavimų kaina**: vieneto kaina, naudojama išlaidų pardavimų kainoms apskaičiuoti.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

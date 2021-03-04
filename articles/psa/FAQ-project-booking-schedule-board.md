@@ -91,3 +91,6 @@ Atlikite šiuos veiksmus norėdami rezervuoti iš naujo išteklių reikalavimo.
 
 4. Kai ištekliai jau rezervuoti, reikia rankiniu būdu priskirti užduotis.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

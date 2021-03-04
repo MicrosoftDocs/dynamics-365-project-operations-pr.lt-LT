@@ -35,3 +35,6 @@ Visas sukurtas projekto sąskaitas faktūras galima rasti srities **Pardavimas**
 Išankstinę sąskaitą faktūrą taip pat galima sukurti **Projekto sutartis** išsamios informacijos puslapyje. Sistema tikrina, ar projekto sutartis turi **Parengta išrašyti sąskaitą faktūrą** nebaigtų užduočių, kurių data yra prieš šiandienos datą. Iš šių sutarčių sistema sukuria išankstinių sąskaitų faktūrų juodraščius pagal kiekvienos sutarties eilutės klientų skaičių.
 
 Kai sukuriama viena išankstinė sąskaita faktūra, atidaromas puslapis **sąskaita faktūra**. Jei to projekto sutarčiai sukūriamos kelios sąskaitos faktūros, atidaromas **Sąskaitos faktūros** sąrašo puslapis, kuriame rodomos visos sukurtos sąskaitos faktūros.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

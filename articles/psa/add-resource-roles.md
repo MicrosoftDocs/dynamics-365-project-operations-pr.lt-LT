@@ -47,3 +47,6 @@ Nustatykite kiekvieno vaidmens tikslinį naudingumo koeficientą. Šie parametra
   
 ### <a name="see-also"></a>Taip pat žr.  
  [Rezervuojamų išteklių nustatymas](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

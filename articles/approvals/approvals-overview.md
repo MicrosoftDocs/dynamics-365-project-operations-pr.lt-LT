@@ -59,3 +59,6 @@ Kiekvienas projektas turi keletą projekto komandos narių. Galite nurodyti, kur
 3. Pasirinkite **Įrašyti**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -33,3 +33,6 @@ Yra du darbuotojo asmeninių išlaidų apdorojimo būdai.
 - **Apmoka įmonė** – jūsų organizacija apmoka visą įmonės kredito kortelės sąskaitą, o tada atskaito asmeninių išlaidų sumą iš darbuotojo sąskaitos.
 
 Būdą, kurį jūsų organizacija naudoja, galite pasirinkti puslapyje **Išlaidų valdymo parametrai**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

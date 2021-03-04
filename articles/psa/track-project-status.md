@@ -58,3 +58,6 @@ Bendravimui plėtojantis, projekto etapai atnaujinami, siekiant atspindėti bend
 
 ### <a name="see-also"></a>Taip pat žr.  
  [Projekto vadovo vadovas](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

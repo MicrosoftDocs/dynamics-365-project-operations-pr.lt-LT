@@ -81,3 +81,6 @@ Jei naudojate projekto prognozavimo funkciją, galite nustatyti modelius kaip su
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

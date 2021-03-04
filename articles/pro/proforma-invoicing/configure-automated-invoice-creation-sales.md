@@ -91,3 +91,6 @@ Paketinė proceso užduotis, skirta sąskaitoms faktūroms kurti, yra pasikartoj
 
 > [!NOTE]
 > „Project Operations“ paketinių sąskaitų faktūrų išrašymas vykdomas tik projekto sutarties eilutėse, sukonfigūruotose sąskaitų faktūrų grafike. Sutarties eilutė su fiksuotos kainos atsiskaitymų metodu turi turėti sukonfigūruotus etapus. Norint naudoti projekto sutarties eilutę su laiko ir medžiagų atsiskaitymo metodu, reikės nustatyti data pagrįstą sąskaitos faktūros grafiką.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

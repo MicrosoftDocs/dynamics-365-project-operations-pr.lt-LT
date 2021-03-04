@@ -43,3 +43,6 @@ Naudodamiesi „[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]“, 
   
 ### <a name="see-also"></a>Taip pat žr.  
  [Laiko, išlaidų ir bendradarbiavimo vadovas](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

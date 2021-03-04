@@ -51,3 +51,6 @@ Jei norite pašalinti įvertinamo projektą, jis turi būti užbaigtas. Toliau a
 5. Baigus šalinimo procesą, pašalintas įvertinimo projektas rodomas su neigiama reikšme. 
 
 Jei neketinote panaikinti įvertinimo, galite pasirinkti pašalintus įvertinimus ir pasirinkti **Anuliuoti**.   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

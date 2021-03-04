@@ -55,3 +55,6 @@ Pasiūlymas kuriamas panašiai, kaip ir galimybė. Tačiau galimybė – tai inf
   
 ### <a name="see-also"></a>Taip pat žr.  
  [Klientų vadovo vadovas](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -32,3 +32,6 @@ ms.locfileid: "5148608"
 Anksčiau laiko ir išlaidų kalendoriaus ir tinklelio rodiniai buvo įdiegti kaip DHTMLX valdikliai. Artefaktai, susiję su kalendoriaus ir tinklelio rodinių diegimu, dabar pasenę (nebenaudojami).
 
 Norėdami pamatyti visą nebenaudojamų išteklių sąrašą, žr. [Nebenaudojami „Project Service Automation 3.x“ žiniatinklio ištekliai](web-resources-deprecated-v3.x.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

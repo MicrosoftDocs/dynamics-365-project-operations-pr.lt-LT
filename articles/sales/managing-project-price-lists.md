@@ -120,3 +120,6 @@ Kaip ir sąskaitų tarifai, žmogiškųjų išteklių išlaidų tarifai nustatom
     1. Išlaidų kainoraštis, susietas su organizacijos vienetu.
     2. Išlaidų kainoraštis, susietas su „Project Operations“ parametrais. Kadangi su parametrais galima susieti išlaidų kainoraščius keliomis skirtingomis valiutomis, valiutos pritaikymas vyksta tarp projektą, sutartį ar pasiūlymą pasirašiusios organizacijos vieneto ir savikainos kainoraščio valiutos.
     3. Išlaidų kainoraščiams netaikomi kainodaros pagal savikainą ir savikainos antkainio metodai. Net jei šie kainodaros metodai naudojami išlaidų kainoraščio eilutėse siekiant nustatyti operacijų kategorijų išlaidas, sistema juos ignoruoja ir neįveda jokių numatytųjų savikainų.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

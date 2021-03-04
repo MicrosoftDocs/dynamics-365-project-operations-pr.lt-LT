@@ -32,3 +32,6 @@ Išankstinių apmokėjimų grafikai nustatomi programos „Dynamics 365 Project 
 | Kuriamų išankstinių apmokėjimų skaičius | Kai įvedate išankstinių apmokėjimų, kuriuos reikia sukurti, skaičių, sistema naudoja pradžios datą ir dažnumą, kad sukurtų skaičių šiame lauke. | Rankiniu būdu atnaujinus šį lauką, sistema nepaiso reikšmės, esančios lauke **Išankstinio apmokėjimo grafiko pabaiga**, ir vietoj to kuria konkretų išankstinių apmokėjimų arba avansų akaičių. |
 | Sąskaitos faktūros dažnumas | Kaip dažnai programa kurs išankstinius apmokėjimus ir avansus. | Ši reikšmė turi tiesioginės įtakos išankstinių apmokėjimų ir avansų skaičiui bei sukūrimo datoms. |
 | Bendra suma | Bendra suma yra suma, padalyta į atskirus išankstinius mokėjimus arba avansus, kurie bus sukurti. | Nėra jokio tolesnio šio lauko poveikio. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

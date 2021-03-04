@@ -64,3 +64,6 @@ Džiaugiamės galėdami pranešti apie naujausią Dynamics 365 Project Service A
      - Sutaisyta: bendra pardavimo kaina nėra apskaičiuojama, kol vartotojas neįveda išlaidų savikainos, apskaičiuotos projektui.
      - Sutaisyta: uždaryti pasiūlymo kaip **Laimėjęs** nepavyksta, jei susijusio projekto būsena nėra **Juodraštis**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

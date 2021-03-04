@@ -67,3 +67,6 @@ Jei turite organizacinių ir klientui būdingų numatytųjų projektų kainoraš
 
 1. **Projekto pasiūlyme**, skirtuke **Projekto kainoraštis** patikrinkite papildomame tinklelyje, kad nepažymėtas konkretus kainoraščio įrašas.
 2. Pasirinkite **Kurti pasirinktinę kainodarą**. Taip galėsite padaryti visų standartinių kainoraščių, kurie šiuo metu susieti su pasiūlymu, kopijas ir susieti jas su pasiūlymu. Esami susiejimai su standartiniais kainoraščiais bus pašalinti. Tada pardavėjas gali pradėti redaguoti šių kopijų kainas. Šios pakeistos kainos bus taikomos tik šiam projekto pasiūlymui.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

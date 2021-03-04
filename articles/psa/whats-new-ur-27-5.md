@@ -42,3 +42,6 @@ Malonu pranešti apie naujausią „Dynamics 365“ programos „Project Service
 Buvo pataisytos šios problemos:
 
 - Grafiko pagalbos ieškos efektyvumo prastėjimas
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

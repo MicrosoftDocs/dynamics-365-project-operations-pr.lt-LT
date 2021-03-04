@@ -36,3 +36,6 @@ Norėdami naudoti vedlį atlikite šiuos veiksmus.
 1. Eikite į **Projektų valdymas ir apskaita** > **Pasiūlymai** > **Projektų pasiūlymai**.
 2. Pasirinkite norimą perkelti pasiūlymą ir skirtuke **Tolesnė veikla** , grupėje **Modifikuoti** , pasirinkite **Perkelti į projektą**.
 3. Naudokite vedlį **Perkelti pasiūlymą į projektą** norėdami susieti ir perkelti pasiūlymą į projektą.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

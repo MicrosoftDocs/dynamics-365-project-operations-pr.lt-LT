@@ -82,3 +82,6 @@ Ypatybės **Vartotojų skaičius** ir **Mėnesių skaičius** gali būti pažym�
 
 > ![Vartotojų ir mėnesių skaičių žymėjimas kaip kiekio koeficientai](media/basic-guide-11.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

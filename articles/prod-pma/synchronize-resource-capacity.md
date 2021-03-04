@@ -49,3 +49,6 @@ Rekomenduojame naudoti paketą. Šios parinktys yra pasiekiamos pajėgumų rezer
     | Pabaigos data    | Įveskite išteklių pajėgumų sumavimų sinchronizavimo proceso pabaigos datą. |
 
 [![Sinchronizavimo procesas](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

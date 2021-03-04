@@ -429,3 +429,6 @@ Numatytosios projekto kategorijos įrašas grafiko įrašuose pateikiamas trimis
 1. Programėlė bando įvesti numatytąją kategoriją iš projekto išteklių. Ši numatytoji kategorija yra nustatyta metoduose **getCurrentUserResource** ir **getDelegatedResourcesForCurrentUser** klasėje **TSTimesheetSettingsService**.
 2. Jei numatytoji kategorija nepateikta projekto išteklių lygyje, programėlė bando ją ištraukti iš projekto veiklos. Ši numatytoji kategorija yra nustatyta metode **getActivitiesForProject** klasėje **TSTimesheetProjectService**.
 3. Jei numatytoji kategorija nepateikta projekto veiklos lygyje, numatytoji kategorija paimama iš projekto parametrų. Ši numatytoji kategorija yra nustatyta metode **getProjectDetailsbyRule** klasėje **TSTimesheetProjectService**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

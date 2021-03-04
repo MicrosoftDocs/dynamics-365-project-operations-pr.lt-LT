@@ -57,3 +57,6 @@ Toliau pateikiamoje lentelėje išvardyti naujinimai, skirti „Project Operatio
 | Laikas ir išlaidos | 2034882 | Mygtukas **Naujas** rodomas du kartus laiko įrašų komandų juostoje įdiegus „Dynamics 365 Field Service“. |
 | Laikas ir išlaidos | 2056028 | Puslapio **Laiko redagavimas** atnaujinimas siekiant įtraukti laiko planavimo juostą. |
 | Laikas ir išlaidos | 1983747 | Laiko įrašų diagramoje rodomi papildomi duomenys. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

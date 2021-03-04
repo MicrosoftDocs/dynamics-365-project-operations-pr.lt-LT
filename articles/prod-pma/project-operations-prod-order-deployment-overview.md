@@ -43,3 +43,6 @@ Pasirinkite šį visuotinio diegimo tipą, jei norite naudoti „Dynamics 365 Pr
 - Įmonės klasės PVM ir valiutos kurso modulis, skirtas projektų klientui prieinamoms sąskaitoms faktūroms generuoti.
 - Projektų apskaitos ir pajamų pripažinimo sistema, atitinkanti tarptautinius finansinės atskaitomybės standartus (TFAS).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -75,3 +75,6 @@ Norėdami naudoti „Project Service Automation“ į „Finance“ integravimo 
 ## <a name="install-the-project-service-automation-to-finance-integration-solution-in-your-project-service-automation-instance"></a>„Project Service Automation“ į „Finance“ integravimo sprendimo diegimas „Project Service Automation“ egzemplioriuje
 
 Atsisiųskite „Project Service Automation“ į „Finance“ integravimo sprendimą iš [„Microsoft“ atsisiuntimo centro](https://www.microsoft.com/download/details.aspx?id=57016) ir vykdykite į sprendimą įtrauktas instrukcijas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

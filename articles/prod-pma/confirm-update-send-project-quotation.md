@@ -57,3 +57,6 @@ Kad modifikuotumėte esamą projekto pasiūlymą, pasiūlymo būsena turi būti 
 
 > [!NOTE]
 > Pakeitus būseną į **Išsiųsta** , negalima modifikuoti projekto pasiūlymo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

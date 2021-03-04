@@ -96,3 +96,6 @@ Spustelėkite **Pateikti** ir siųskite grafiką į patvirtinimo darbo eigą.
 ## <a name="review-timesheets"></a>Grafikų peržiūra
 
 Grafikų, kuriuos reikia peržiūrėti, sąrašas pateikiamas meniu. Ši parinktis galima tik tada, jei buvote paskirtas darbo eigos tvirtintoju. Palaikomas ir antraštės, ir eilutės patvirtinimas. Eilutės lygio patvirtinimas siūlo galimybę pažymėti vieną ar keletą tvirtinamų eilučių. Peržiūrėję grafiko informaciją, spustelėkite **Patvirtinti** , **Paskirti atstovą** arba **Grįžti** ir tęskite darbo eigą.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

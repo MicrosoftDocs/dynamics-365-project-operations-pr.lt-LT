@@ -29,3 +29,6 @@ Puslapio **Projekto objektas** skyriuje **Būsena** pateikiama projekto būklės
 - Lauke **Komentarai** projekto vadovui galima įvesti tam tikrus komentarus apie būseną. 
 - Lauko **Būsena atnaujinta** redaguoti negalima. Šio lauko reikšmė yra laiko žyma, nurodanti, kada paskutinį kartą buvo atnaujinta būsena.
 - Laukai **Grafiko našumas** ir **Savikainos našumas** nustatomi pagal sekimo tinklelį. Kai sekimo rodinyje **Pastangų sekimas** šakninio mazgo grafikas ir savikainos nuokrypis yra teigiami, galite atnaujinti šiuos laukus į **Prieš laiką**. Kai šakninio mazgo grafikas ir savikainos nuokrypis yra neigiami, galite nustatyti laukus į **Atsilieka**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

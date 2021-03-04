@@ -28,3 +28,6 @@ Yra du būdai, kuriuos galite naudoti norėdami dirbti su darbuotojo asmeninėmi
   - **Apmokėta įmonės**: jūsų organizacija apmoka visą sąskaitą už įmonės kredito kortelę, o tada nurašo nuo darbuotojo sąskaitos asmeninėms išlaidoms.
 
 Būdą, kurį jūsų organizacija naudoja, galite pasirinkti puslapyje **Išlaidų valdymo parametrai**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

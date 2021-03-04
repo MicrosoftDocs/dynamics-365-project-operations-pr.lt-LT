@@ -143,3 +143,6 @@ Norėdami peržiūrėti sąskaitą faktūrą prieš registravimą, išvalykite �
 Be puslapio **SF pasiūlymas**, sąskaitų faktūrų pasiūlymai taip pat gali būti registruojami vykdant periodinę užduotį **Registruoti SF pasiūlymus**. Norėdami rasti šią užduotį, eikite į **Projekto valdymas ir apskaita** > **Periodinis** > **Projekto SF** > **Registruoti SF pasiūlymus**.
 
 Šiame puslapyje pateikiami visi sąskaitų faktūrų, kurios yra paruoštos registruoti, pasiūlymai. Galite planuoti sąskaitų faktūrų registravimą pažymėdami **Paketas**. Nustatykite **Paketo apdorojimo parametrą** į **Taip** ir nustatykite paketo apdorojimo pasikartojimą pasirinkdami **Pasikartojimas**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

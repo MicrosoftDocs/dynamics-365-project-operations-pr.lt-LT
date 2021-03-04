@@ -66,3 +66,6 @@ Buvo pataisytos šios problemos:
 - Kurdami projektą klientai gali susiduria su prastesniu veikimu, nes **GetBookableResourceIdFromUser** grąžina visus rezervuojamų išteklių stulpelius, o ne tik pirminį ID.
 - Objektas **TransactionType** neturi išankstinio tikrinimo naujinimo priedo, kad vartotojai negalėtų įvesti **vienetų** ir **UnitGroups**, netinkančių operacijos tipams.
 - Veiksmas **Šalinti** neveikia importuojant laiko įrašą.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -66,3 +66,6 @@ Kaip projektų vadovui, jums gali tekti rezervuoti išteklių projektui, tačiau
 
 > [!NOTE]
 > Šis metodas nesukuria jokių išteklių rezervavimų. Šis metodas įtraukia išteklių į komandą. Įtraukę komandos narį į projektą, projektų vadovas gali naudoti išlaikytus rezervavimus arba išplėstus rezervavimus, kad įtrauktų reikiamus rezervavimus į išteklius.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

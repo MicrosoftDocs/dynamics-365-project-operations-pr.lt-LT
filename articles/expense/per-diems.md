@@ -31,3 +31,6 @@ Dienpinigiai yra pašalpa, mokama darbuotojui, kuris keliauja darbo reikalais. I
     
 ## <a name="submit-expenses-using-per-diem"></a>Pateikti išlaidas pagal dienpinigius
 Norėdami pateikti išlaidas, panaudojant dienpinigius, kurdami išlaidų ataskaitą naudokite išlaidų kategoriją **Dienpinigiai**. Įveskite reikšmes **Dienpinigiai nuo datos**, **Dienpinigiai iki datos** ir **Dienpinigių vietos**. Suma bus apskaičiuota pagal pasirinktos vietos dienpinigius, o mažesnė procentinė dalis už maistą bus apskaičiuota pagal dienpinigių normas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

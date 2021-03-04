@@ -68,3 +68,6 @@ Skirtuke **„Derinimo rodinys“** projektų vadovas gali matyti, kokie yra kie
 > [!NOTE]
 > Jei perkelsite užduotį, kurios kontūrus sudarėte patys, šie kontūrai nebus išlaikyti. Kontūrai yra generuojami iš naujo pagal projekto kalendorių, siekiant atsižvelgti į darbo valandų ir atostogų pokyčius Toks procesas yra numatytas, nes sistema nežino, koks yra originalaus kontūro tikslas, ir negali nuspręsti ar yra pagrindo jį išlaikyti naujame laikotarpyje. Kadangi rezervavimai ir priskyrimai nėra prijungti, rezervavimuose išlaikomi originalūs rezervavimo kontūrai. Tokiu atveju jums reikia atšaukti ir iš rezervuoti naują priskyrimo kontūrą.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

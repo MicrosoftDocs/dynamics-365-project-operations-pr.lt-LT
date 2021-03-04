@@ -30,3 +30,6 @@ Kai produktu pagrįsta sutarties eilutė sukūriama katalogo produktui, eilutės
 Produktais pagrįstoje sutarties eilutėje esant vieneto savikainai, galima naudoti skirtingas kiekvieno vieneto pardavimo išlaidas. Nors tai ne visada būtina, yra tam tikrų atvejų, kai tiekėjas klientui gali pritaikyti produkto savikainos nuolaidą. Apsvarstykite toliau pateiktą situaciją.
 
 „Fabrikam Robotics“ diegia roboto rankas „Adatum Corporation“ rinkinio eilutėse. „Fabrikam“ teikia diegimo paslaugas, tačiau roboto rankos yra iš „Trey Research“. Jei roboto rankų diegimas įmonėje „ADatum Corporation“ atveria naują pramonės segmentą įmonės „Trey Research“; už šį sandorį „Trey“ gali taikyti specialią nuolaidą įmonei „Fabrikam“. Tokiu atveju „Fabrikam“ sukuria produktu pagrįstą sutarties eilutę, skirtą roboto rankoms. Įvedama šios sutarties vieneto kaina. Savikaina skiriasi nuo roboto rankų iš „Trey Research“ savikainos.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

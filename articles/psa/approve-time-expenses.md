@@ -47,3 +47,6 @@ Kai konsultantai įveda projekto laiką ir išlaidas, jums reikia juos patvirtin
   
 ### <a name="see-also"></a>Taip pat žr.  
  [Projekto vadovo vadovas](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

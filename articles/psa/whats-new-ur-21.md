@@ -77,3 +77,6 @@ Buvo pataisytos šios problemos:
 - **Pardavimo kainoraščio aprašo** algoritmas netinkamai apdoroja laiko juostas, todėl gaunamas netinkamas kainoraščių pasirinkimas.
 - Patvirtinus vieno laiko įrašą, projekto **Faktinių išlaidų suma** gali turėti nežymią paklaidą.
 - **Kainų aprašo** algoritmas nepateikia vartotojui patogaus pranešimo, jei **Gauta vaidmenų kaina** neturi reikšmių laukuose **Pagrindinis vienetas** ir **Kaina pagrindiniu vienetu**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

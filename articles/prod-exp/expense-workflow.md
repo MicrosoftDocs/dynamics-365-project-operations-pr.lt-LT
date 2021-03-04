@@ -55,3 +55,6 @@ Toliau pateikiamas išlaidų ataskaitos išlaidų valdymo darbo eigos pavyzdys.
 Kai šie reikalavimai patvirtinti, užregistruojama išlaidų ataskaita.
 
 Užregistravus išlaidų ataskaitą, leidžiama atlikti išlaidų ataskaitos mokėjimą ir kompensuoti darbuotojo išlaidas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

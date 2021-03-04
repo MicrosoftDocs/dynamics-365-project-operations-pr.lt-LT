@@ -35,3 +35,6 @@ Norėdami peržiūrėti fiksuotos kainos pajamų įvertinimo projektus, atlikite
 
   Projekto išlaidas, pajamų profilį, sąnaudų šabloną ir laikotarpio kodą galima nustatyti rankiniu būdu. Jei jie nenustatomi rankiniu būdu, nustatomos numatytosios reikšmės atliekant pirmąjį įvertinimo skaičiavimą remiantis sukonfigūruotomis projekto išlaidų ir pajamų profilių taisyklėmis.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

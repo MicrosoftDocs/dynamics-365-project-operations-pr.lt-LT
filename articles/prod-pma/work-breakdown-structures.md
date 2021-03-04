@@ -316,3 +316,6 @@ Taip pat galite ištaisyti planavimo klaidas po vieną, spustelėdami kiekvienos
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

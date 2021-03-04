@@ -45,3 +45,6 @@ Sukūrę darbo valandų šabloną, turite jį priskirti ištekliams, kad jų kal
   
 ### <a name="see-also"></a>Taip pat žr.  
  [Rezervuojamų išteklių nustatymas](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ Kai sudaromas pardavimo kainoraštis, sistema atlieka toliau nurodytus veiksmus,
     | &nbsp; | Antkainis prie savikainos | Pritaikydami antkainį, kaip apibrėžta susijusios faktinės savikainos vieneto savikainos tarifo kategorijų kainų eilutėje |
 
 4. Jei sistema negali sugretinti laukų **Kategorija** ir **Vienetas** reikšmių, nustatomas numatytasis nulinis (0) pardavimo tarifas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

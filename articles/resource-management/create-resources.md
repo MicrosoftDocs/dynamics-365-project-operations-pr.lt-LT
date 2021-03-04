@@ -20,3 +20,6 @@ ms.locfileid: "4514557"
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
 Galite naudodami „Dynamics 365 Field Service“ kurti rezervuojamus išteklius, kuriuos galėsite naudoti „Dynamics 365 Project Operations“ aplinkoje. Norėdami sukurti šiuos išteklius, žr. [Rezervuojamų išteklių nustatymas](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resources).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

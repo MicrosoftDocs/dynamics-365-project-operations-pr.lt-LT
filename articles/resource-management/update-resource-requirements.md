@@ -37,3 +37,5 @@ Kaip projekto vadovas, atlikite toliau nurodytus veiksmus, kad galėtumėte reda
 ## <a name="edit-resource-assignment-contours"></a>Išteklių priskyrimo kontūrų redagavimas
 
 Be išteklių reikalavimų informacijos redagavimo, projekto vadovas gali atnaujinti atskirus ištekliaus reikalavimo kontūrus naudodamas funkciją **Nurodyti modelį**. Pasirinkus **Nurodyti modelį**, atidaromas puslapis, kuriame galite peržiūrėti kontūrus dienos, savaitės ar mėnesio laiko skalėje. Galima koreguoti kiekvieno kontūro pradžios laiką, pabaigos laiką ir bendras nurodyto laikotarpio pastangas.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

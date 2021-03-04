@@ -170,3 +170,6 @@ Toliau nurodyti suplanuotos, faktinės ir likusios savikainos ir pardavimo lauka
 * msdyn\_actualsales
 * msdyn\_remainingcost
 * msdyn\_remainingsales
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

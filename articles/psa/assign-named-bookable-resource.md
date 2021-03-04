@@ -68,3 +68,6 @@ Norėdami rezervuoti ištekliaus pajėgumą projektui galite naudoti skirtuko **
 ![Komandos nario rezervavimų išplėtimas skirtuke Išteklių derinimas](media/RM-how-to-7.png)
 
 Rezervavę komandos narį savo projektui, jo rezervavimus galite tvarkyti naudodami funkciją Prižiūrėti rezervavimus arba tiesiogiai naudodamiesi Grafiko lenta.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -297,3 +297,6 @@ Pasirinkite vartotoją (pvz., Spencer Low) ir pakeiskite Spenserio darbo valanda
 
 > [!div class="mx-imgBorder"]
 > ![Aktyviųjų užsakomų išteklių ekrano kopija](media/sample-data-6.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

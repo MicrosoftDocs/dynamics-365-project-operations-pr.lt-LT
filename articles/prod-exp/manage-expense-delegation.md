@@ -41,3 +41,6 @@ Kai įjungtas funkcijos valdymo raktas **Įjungti išlaidų atstovų sąrašo pu
 Atstovaujantis vartotojas gali greitai filtruoti ir ieškoti esamų išlaidų ataskaitų, kurios buvo jam priskirtos. Taip pat jie gali sukurti naują išlaidų ataskaitą kitiems vartotojams pasirinkdami **Nauja išlaidų ataskaita**.
 
 Atstovaujantys vartotojai taip pat gali kurti ir valdyti kitų darbuotojų išlaidų ataskaitas nuėję į **Išlaidų valdymas** > **Mano išlaidos** > **Išlaidų ataskaitos** ir pasirinkdami **Atidaryti kitų vartotojų išlaidas**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Pavyzdžiui, kūrėjui iš „Fabrikam India“ robotų technikos padalinio, dir
     | Programų kūrėjas | „Fabrikam US“ | „Fabrikam US - Robotics“ | 150 USD |
 
 3. Pridėkite pardavimo kainoraštį **„Fabrikam US“ sąskaitų tarifai** prie projekto sutarties kainoraščio arba prie tam tikro kliento.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

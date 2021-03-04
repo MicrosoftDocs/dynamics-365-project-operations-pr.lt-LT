@@ -70,3 +70,6 @@ Dabar autorizavimas baigtas.
 Sėkmingai prisijungėte prie „Azure“ prenumeratos. Dabar galite įdiegti „Dynamics 365 Finance“ debesyje veikiančias aplinkas.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

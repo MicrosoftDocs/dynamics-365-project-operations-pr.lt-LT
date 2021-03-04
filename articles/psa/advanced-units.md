@@ -112,3 +112,6 @@ Ne. Grafiko įvertinimas šiuo metu apribotas naudoti tik valandas ir jo keisti 
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Ar galima redaguoti, naikinti ir įtraukti vienetus bei vienetų grupes?
 Taip. Išskyrus vienetų grupę **Laikas** ir vienetą **Valanda**, visus vienetus galima panaikinti arba redaguoti bei įtraukti naujų vienetų. PSA negalima panaikinti vienetų grupės **Laikas** ir vieneto **Valanda**. Tačiau juos galima atnaujinti įvedant vertimo tekstą lauke **Pavadinimas**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

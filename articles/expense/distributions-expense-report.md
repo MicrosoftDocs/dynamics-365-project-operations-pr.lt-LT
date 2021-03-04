@@ -30,3 +30,6 @@ Kadangi Nensė dirbo ties dviem atskirais projektais, kol buvo Frankfurte, kai j
 | Traukinio bilieto kaina   | 578 DKK              | 405 DKK                         | 173 DKK                         |
 | Viešbutis        | 725 EUR              | 557 EUR                         | 168 EUR                         |
 | Maitinimas        | 346 EUR              | 284 EUR                         | 62 EUR                          |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

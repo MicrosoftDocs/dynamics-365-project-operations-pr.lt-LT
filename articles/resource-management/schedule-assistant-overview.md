@@ -57,3 +57,6 @@ Filtro srityje rodomos su darbu susijusios parinktys, įskaitant:
 -   Išteklių įmonė
 -   Išteklių tipai
 -   Pageidaujami ištekliai
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

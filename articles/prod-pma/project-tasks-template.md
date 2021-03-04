@@ -83,3 +83,6 @@ Jei reikia naudoti „Power Query“, vadovaukitės toliau pateikiamais nurodyma
 Šioje iliustracijoje pateikiamas duomenų integravimo šablonų užduočių susiejimų pavyzdys. Susiejime rodoma lauko informacija, kuri bus sinchronizuojama iš „Project Service Automation“ į „Finance“.
 
 [![Šablonų susiejimas](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

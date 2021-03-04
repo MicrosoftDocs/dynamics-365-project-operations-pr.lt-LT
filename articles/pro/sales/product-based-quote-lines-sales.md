@@ -46,3 +46,6 @@ Kai pasiūlymo eilutė pagrįsta produktų katalogu, galite perrašyti pardavimo
 Jei pažymėsite **Perrašyti kainodarą**, numatytoji kaina nenustatoma. Vietoje to pasiūlymo eilutėje turite įvesti produkto kainą. Jei pažymėsite **Naudoti numatytąsias reikšmes**, naudojama numatytoji pardavimo kaina, o laukas užrakinamas ir negali būti redaguojamas.
 
 Numatytąsias pardavimo kainas galima įvesti pasiūlymo produktu pagrįstose eilutėse. Tada laukas **Kainodara** nustatomas į **Perrašyti kainodarą**, kad galėtumėte redaguoti numatytąją kainą pasiūlymo eilutėse. Tai yra konkrečiai „Project Operations” naudojamas perrašymo į produktu pagrįstas eilutes veikimo būdas programoje „Dynamics 365 Sales”.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

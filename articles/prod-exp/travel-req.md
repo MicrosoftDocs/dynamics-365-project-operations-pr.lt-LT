@@ -32,3 +32,6 @@ Jūsų organizacija gali reikalauti, kad kelionės paraiška būtų pateikta pri
 Siekiant geriau valdyti biudžetą galima naudoti kelionių paraiškas ir strategijas. Pavyzdžiui, jei jūsų organizacija turi fiksuotos kainos projektą, kurį vykdant reikia keliauti, projekto komandos narių kelionių išlaidos turi atitikti projekto biudžetą. Organizacija, reikalaudama iš anksto patvirtinti kelionės išlaidas, gali pasirūpinti, kad projektas neviršytų biudžeto.
 
 Galite nustatyti kelionių paraiškų strategijas naudodami puslapį **Kelionės paraiška**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -79,3 +79,6 @@ Tai užtruks keletą minučių. Turėtumėte gauti patvirtinimo pranešimą, kad
 18. Uždarykite nuotolinio darbalaukio seansą ir naudokite LCS puslapį **Išsami aplinkos informacija**, kad prisijungtumėte prie aplinkos ir įsitikintumėte, kad ji veikia taip, kaip tikimasi.
 
 ![Finance and Operations](./media/10FinanceAndOperations.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

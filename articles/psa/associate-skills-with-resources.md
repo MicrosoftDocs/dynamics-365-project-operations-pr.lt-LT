@@ -45,3 +45,6 @@ Atlikdami ankstesnį veiksmą, jau susiejote kai kuriuos įgūdžius su nauju i�
   
 ### <a name="see-also"></a>Taip pat žr.  
  [Rezervuojamų išteklių nustatymas](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -107,3 +107,6 @@ Jei atšaukimo užklausa atmetama, ji neturi finansinio poveikio projektui.
 Šioje iliustracijoje rodomi kitimai, kurie įvyksta dėl patvirtintų išlaidų įrašų, kai jie atšaukiami.
 
 ![Išlaidų įrašų būsenos perėjimai](media/ExpenseEntryStateTransitions.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ Norėdami nustatyti darbuotojo kompetencijas, galite naudoti sąrašo **Darbuoto
 5. Lauke **Lygio data** pažymėkite **2014-01-14**.
 6. Lauke **Patirties metai** įveskite **10**.
 7. Spustelėkite **Įrašyti** ir uždarykite puslapį.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

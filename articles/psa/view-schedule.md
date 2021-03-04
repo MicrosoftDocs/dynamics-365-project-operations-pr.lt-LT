@@ -45,3 +45,6 @@ Kai norite matyti, kokie darbai jūsų laukia šią savaitę, pažvelkite į sav
   
 ### <a name="see-also"></a>Taip pat žr.  
  [Laiko, išlaidų ir bendradarbiavimo vadovas](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

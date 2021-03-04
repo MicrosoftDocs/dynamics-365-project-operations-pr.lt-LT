@@ -44,3 +44,6 @@ ms.locfileid: "4080896"
 13. Sąraše pažymėkite pasirinktą eilutę. 
 14. Lauke „Savikaina“ įveskite skaičių. 
 15. Spustelėkite „Skelbti“. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

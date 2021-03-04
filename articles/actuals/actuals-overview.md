@@ -342,3 +342,6 @@ Galite naudoti įrašų žurnalus, kad įrašytumėte savikainą ar pajamas med�
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

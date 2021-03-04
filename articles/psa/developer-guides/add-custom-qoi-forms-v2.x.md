@@ -96,3 +96,6 @@ Norėdami sukurti pasirinktinę **Projekto informacija** formos versiją, atliki
     ```
 
 6. Įrašykite ir publikuokite tinkinimus.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Be to, kiekvienam rezervuojamam ištekliui reikia priskirti numatytąjį vaidmen
 Skirtuke **Project Service** taip pat galite ištekliui nustatyti individualų tikslinį naudojimą. Tada naudojimo skaičiavimui naudojamas šis tikslinis naudojamas, kad būtų įvertintas išteklių tikslas, o ne išteklių numatytojo vaidmens tikslas.
 
 Išteklių naudojimas rodomas, tik jei šis išteklius turi patvirtintą ir apmokestinamą laiką periode, kuris rodomas tinklelyje.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

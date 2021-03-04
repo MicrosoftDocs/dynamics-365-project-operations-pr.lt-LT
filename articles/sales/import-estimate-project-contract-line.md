@@ -59,3 +59,6 @@ Kai vartotojas pasirenka apibendrinti pagal **operacijų klasę**, **kategoriją
 | Užduotis A | skrydžių; | 2020-01-10 | 4 | 400 | 1600 |
 | Užduotis B | Viešbutis | 2020-01-10 | 4 | Virš 200 | 800 |
 | Užduotis C | Viešbutis | 2020-01-11 | 2 | Virš 200 | 400 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

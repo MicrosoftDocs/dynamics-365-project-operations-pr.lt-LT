@@ -54,3 +54,6 @@ Pardavimo proceso metu galima apskaičiuoti pardavimo įvertinimus iš esmės pa
   
 ### <a name="see-also"></a>Taip pat žr.  
  [Projekto vadovo vadovas](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

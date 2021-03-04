@@ -41,3 +41,6 @@ Jei nuspręsite, kad reikia kelių išlaidų ataskaitų tvirtintojų, galite įt
 
     1. Darbuotojo vadovas patvirtina išlaidų ataskaitą.
     2. Biudžeto savininkas patvirtina išlaidų ataskaitą.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

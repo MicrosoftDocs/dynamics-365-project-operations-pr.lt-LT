@@ -106,3 +106,6 @@ Darbo paskirstymo struktūroje atliekant vieną ar daugiau naujinimų, pakeitima
   - „Project Operations“ sistema
   - „Project“ sistema
   - „Project Operations“ dvigubo rašymo sistema (šis vaidmuo būtinas, jei diegiate „Project Operations“, skirtą ištekliais / nelaikomomis medžiagomis pagrįstiems scenarijams).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

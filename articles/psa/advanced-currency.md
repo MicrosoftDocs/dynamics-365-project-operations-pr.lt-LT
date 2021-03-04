@@ -105,3 +105,6 @@ Dynamics 365 automatiškai apdoroja kaupiamas sumas skirtingomis valiutomis. Št
 | Išlaidos           | Neišrašytas pardavimas   | Birželio 17 d. | Darius  | Automobilio nuoma           | 1 ea     | 150 EUR      | 150 EUR     | 0.94          | 159,57 USD     |
 
 Norėdami apskaičiuoti bendrąją neišrašytą projekto vertę, galite sukurti kaupiamą lauką laukui **Suma** visiems susijusiems neišrašytų pardavimų faktiniams duomenims. Kaupiamas laukas yra Dynamics 365 konstruktas, leidžiantis sparčiąsias formules su susijusiais įrašais.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

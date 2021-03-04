@@ -43,3 +43,6 @@ Naudokite šį visuotinio diegimo tipą, jei tikitės programoje „Project Oper
 - Reikalingas išplėstinis įmonės klasės PVM ir valiutos kurso modulis, skirtas projektų klientui prieinamoms sąskaitoms faktūroms generuoti.
 - Projektų apskaitos ir pajamų pripažinimo sistema, atitinkanti tarptautinius finansinės atskaitomybės standartus (TFAS).
 - Programos „Finance” arba „Supply Chain Management” ir projektu pagrįstų operacijų integravimas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

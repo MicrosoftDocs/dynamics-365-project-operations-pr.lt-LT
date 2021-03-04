@@ -72,3 +72,6 @@ Buvo pataisytos šios problemos:
 - Uždarius pasiūlymą kaip laimėtą, nėra pereinama į sukurtą sutartį, jei prie pasiūlymo pridėtas BPF yra galutiniame etape.
 - Atšaukiant **Pardavimą, už kurį neišrašyta sąskaita** susiejama su originalia savikaina, kai laiko įrašas atšaukiamas.
 - Paspaudus mygtuką **Patvirtinti**, sąskaitos faktūros būsena nepakeičiama į **Patvirtinta**, nebent sąskaita faktūra yra atnaujinama.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

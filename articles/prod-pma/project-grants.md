@@ -79,3 +79,6 @@ Subsidiją galite sukurti įvedę visus duomenis naujame įraše arba galite nuk
 2. Pasirinkite modifikuotiną subsidiją.
 3. Veiksmų srityje, skirtuke **Subsidija** , grupėje **Tvarkyti** , pasirinkite **Redaguoti**.
 4. Peržiūrėkite subsidijos informaciją ir atlikite reikiamus pakeitimus.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

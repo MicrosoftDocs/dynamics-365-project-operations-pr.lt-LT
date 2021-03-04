@@ -62,3 +62,6 @@ Buvo pataisytos šios problemos:
 - Sąrašuose **Organizacijos vieneto savikaina** leidžiami datos efektyvumo persidengimai.
 - Vartotojams neleidžiama keisti **OrgUnit**, kai užsakymo tipas nesusijęs su darbu, nes dėl jo bus pateikiama neapibrėžtos nuorodos išimties klaida.
 - Bandant pereiti iš formos **Pasiūlymo eilutės išsami informacija**, atgal į skirtuką **Pasiūlymas**, forma atnaujinama ir rodomas skirtukas **Suvestinė**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

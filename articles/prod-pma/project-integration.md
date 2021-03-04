@@ -127,3 +127,6 @@ Jei norite sukurti naują darbo paskirstymo struktūrą naudodami „Microsoft P
 8.  Pasirinkite **kalendorių** , kurį naudosite paskirstydami išteklius.
 
 11. Spustelėkite **Gerai**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

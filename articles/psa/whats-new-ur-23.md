@@ -67,3 +67,6 @@ Buvo pataisytos šios problemos:
 Buvo pataisytos šios problemos:
 
 - Dukart paspaudus **Sukelti visas transakcijų kategorijas**, sukuriamos kelios eilutės.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

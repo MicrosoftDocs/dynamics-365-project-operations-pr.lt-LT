@@ -105,3 +105,6 @@ Savo išlaidas įveskite bent kartą per savaitę arba taip dažnai, kaip nurodo
  [„Project Service“ apžvalga](../psa/overview.md)   
  [Laiko, išlaidų ir bendradarbiavimo vadovas](../psa/time-expense-collaboration-guide.md)   
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

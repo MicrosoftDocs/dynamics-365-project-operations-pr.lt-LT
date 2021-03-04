@@ -34,3 +34,6 @@ Visos išlaidos, pardavimai ir perkėlimų kainos gali būti nustatytos vaidmeni
 1. Puslapyje **Pardavimo kaina (valanda)** pasirinkite **Nauja** ir įveskite įsigaliojimo datą.
 2. Stulpelyje **Vaidmuo** pasirinkite vaidmenį.
 3. Stulpelyje **Kainodara** įveskite pasirinkto ištekliaus vaidmens kainą.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

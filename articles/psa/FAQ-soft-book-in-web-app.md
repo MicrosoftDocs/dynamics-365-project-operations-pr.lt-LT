@@ -87,3 +87,6 @@ Kai būsite pasiruošę pakeisti preliminariai rezervuotus komandos nario ištek
 2. Atsidarius grafiko lentai, išplėsti išteklius, kad būtų matomi jų rezervavimai. Išteklių būsena, kuria pamatysite bus „Preliminari“.
 3. Dešiniuoju pelės mygtuku spustelėkite rezervavimą, po pasirinkimu „Keisti būseną” pasirinkite „Rezervuoti galutinai” ir tuomet „Galutinai”. Rezervavimo būsena yra „Galutinė”
 4. Uždarę grafiko lentą pamatysite, kad komandos nario tinklelyje išteklių naudojimo valandų būsena pasikeitė iš „Preliminari“ į „Galutinė“. Dabar galite ištekliams priskirti užduotis (darant prielaidą, kad galutinai rezervuotos ir priskiriamos užduoties pastangų valandos yra suderintos). Atkreipkite dėmesį, kad jei sekėte elemento nr.3 bendrųjų išteklių įvykdymo veiksmus, esančius aukščiau, jums pakeitus preliminariai rezervuotų rezervuotinų išteklių būseną į galutinę, bendrasis komandos narys pašalinamas iš komandos.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

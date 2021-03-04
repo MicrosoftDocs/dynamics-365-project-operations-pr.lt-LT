@@ -43,3 +43,6 @@ Norėdami „[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-a
   
 ### <a name="see-also"></a>Taip pat žr.  
  [„Project Service“ konfigūravimas](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

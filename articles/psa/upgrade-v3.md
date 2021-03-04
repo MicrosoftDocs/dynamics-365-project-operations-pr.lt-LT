@@ -110,3 +110,6 @@ Dėl užduočių, kurioms priskirtas vaidmuo su organizacijos vienetu, kuris ski
  
 Nesugeneruotų komandos narių skirtingų išteklių paskyrimo organizacijos vienetų numatytosios reikšmės pakeitimas yra priežasties, dėl kurios rekomenduojame prieš atnaujinant sugeneruoti arba iš naujo generuoti kiekvieno projekto, kuriame yra bendrųjų išteklių, komandą, kad nebūtų prarasti organizacijos vienetų priskyrimai.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

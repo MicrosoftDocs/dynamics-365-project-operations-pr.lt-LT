@@ -81,3 +81,6 @@ Buvo pataisytos šios problemos:
 - **Atnaujinti faktinius** mygtukas neteisingai apskaičiuoja suvestinės užduotis.
 - „Microsoft Project“ priedai: pataisyti nulinių nuorodų klaidas, jei bet kuris komandos narys turi tuščią išteklių vienetą.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

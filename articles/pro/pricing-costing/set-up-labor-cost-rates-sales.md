@@ -82,3 +82,6 @@ Kūrėjas iš „Fabrikam India-Robotics“ kainuoja 5000 INR, kai paskolinamas 
 | Programų kūrėjas | „Fabrikam UK“ | 115 GBP |
 
 Savikainos kainoraštis gali pateikti darbo tarifus keliomis valiutomis. Generuojant projekto savikainos įvertinimą „Project Operations“ konvertuos šiuos savikainos tarifus į projekto valiutą ir parodys vartotojui. Kai patvirtinamas laiko įrašas ir sukuriama faktinė savikaina, ji išreiškiama valiuta, kuri nurodyta savikainos kainoraščio vaidmens kainos eilutėje. Faktinė vieno projekto laiko savikaina gali būti įrašyta keliomis valiutomis. Tačiau, kai projekto lygyje sumuojamos faktinės darbo išlaidos, „Project Operations“ konvertuos visas darbo savikainos sumas į projekto valiutą, kurią naudotojas gali matyti.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

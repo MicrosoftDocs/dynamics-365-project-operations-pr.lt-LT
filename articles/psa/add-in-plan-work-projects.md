@@ -242,3 +242,6 @@ Toliau esančioje lentelėje nurodoma, kaip sinchronizuojami projekto užduoties
 
 ### <a name="additional-resources"></a>Papildomi ištekliai
  [Projekto vadovo vadovas](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

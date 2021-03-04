@@ -67,3 +67,6 @@ Kai būsite pasiruošę pakeisti preliminariai rezervuotus komandos nario ištek
 2. Dešiniuoju pelės mygtuku spustelėti **Keisti būseną** ir pasirinkite **Galutinės rezervacijos** \> **Galutinė**. Dabar rezervavimo būsena yra **„Galutinė”**.
 3. Uždarę Grafiko lentą, grįžę į projektą ir atidarę skirtuką **„Komanda”**, pamatysite, kad išteklių naudojimo valandos buvo perkeltos iš stulpelio **„Preliminariai rezervuotos valandos”**, į stulpelį **„Galutinai rezervuotos valandos”**, esantį skirtuke **„Komanda”**, kai žiūrėsite į rodinį **„Įvardytieji komandos nariai”**. Jei ištekliams buvo priskirtos užduotys, išteklių skirtuke **„Derinimas“** nebebus matomas rezervavimo deficitas, nes rezervavimai jau yra galutiniai.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

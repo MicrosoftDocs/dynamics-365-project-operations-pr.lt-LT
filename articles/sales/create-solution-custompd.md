@@ -64,3 +64,6 @@ Pridėkite toliau nurodytus „Project Service“ objektus prie savo kainodaros 
 5.  Kai būsite paraginti įtraukti bet kokius pasirinktų objektų priklausomuosius objektus, pasirinkite **Ne, būtinųjų komponentų įtraukti nereikia.**
 
     ![Priklausomųjų objektų įtraukimas](./media/Do-not-include-required.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -106,3 +106,6 @@ Išplėtę to komandos nario įrašo eilutę, komandos nario įraše galite maty
 ### <a name="estimates-grid"></a>Įvertinimo tinklelis 
 
 **Įvertinimų** tinklelyje abu to paties ištekliaus priskyrimai įkainoti skirtingai. **A užduoties** priskyrimas ištekliui yra įkainotas naudojant **vaidmens** **Konsultavimo vadovas** atributo reikšmę. **B užduoties** priskyrimas tam pačiam ištekliui yra įkainotas naudojant **vaidmens** **Tinklo technikas** atributo reikšmę.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

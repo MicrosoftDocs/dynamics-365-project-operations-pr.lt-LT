@@ -125,3 +125,6 @@ Fiksuota kaina – procentinė dalis
 Projekto išlaidų ir pajamų profilio taisyklės nustato projekto išlaidų ir pajamų profilį, kurį reikia naudoti apdorojant bet kokias apmokėtinas projekto operacijas. Apibrėžkite taisykles nuėję į **Projektų valdymas ir apskaita**\>**Nustatymas**\>**Publikavimas**\>**Projekto išlaidų ir pajamų profilio taisyklės**.
 
 Taisykles galima apibrėžti pagal projektų sutartis, projektų grupes arba pagal tam tikrą projektą. Pirmiausia sistema visada rinks didžiausią detalumo taisyklę.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Kiekviena organizacija turi nustatyti šiuos vaidmenis puslapyje **Aktyvių išt
 ## <a name="price-lists"></a>Kainoraščiai
 
 Kainoraščiais galima nustatyti išteklių vaidmenų, išlaidų kategorijų, produktų ir kitų organizacijos elementų savikainą ir pardavimo kainas. Norėdami sukurti finansines sąmatas už darbą, kuris bus atliekamas vykdant projektą, įsitikinkite, kad yra sudarytas atsarginis savikainos ir pardavimo kainoraštis. Parametrų skyriuje taip pat turite nustatyti numatytąją savikainos ir pardavimo kainoraštį, taikomą visiems organizacijoje sukurtiems projektams. Puslapyje **Aktyvieji projekto parametrai** įsitikinkite, kad nustatėte numatytąjį savikainos ir pardavimo kainoraštį.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

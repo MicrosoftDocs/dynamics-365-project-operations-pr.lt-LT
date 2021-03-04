@@ -75,3 +75,6 @@ Jeigu reikia, atlikę ankstesnes užduotis, galite atlikti toliau pateikiamas u�
 - Vykdykite išteklių užklausas.
 - Prašykite darbuotojui priskirto ištekliaus iš WBS.
 - Rezervuokite išteklius projektui, neturėdami darbuotojui priskirto ištekliaus užklausos.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

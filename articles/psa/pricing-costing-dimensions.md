@@ -77,3 +77,6 @@ Toliau pateiktame pavyzdyje pateikiami sąskaitų tarifai, nustatyti pagal vaidm
 | ----------------|-------------|----------|----------:|----------|
 | „My company_Band1“ | „Danys“, JAV  |Hour | 145|USD     |
 | „My company_Band2“ | „Danys India“ |Hour|   67|USD     |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

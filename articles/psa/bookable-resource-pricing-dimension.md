@@ -76,3 +76,6 @@ Bus atidarytas dimensijos **msdyn_bookableresource** puslapis **Naujas kainodaro
 5. Į lauką **Objekto loginis pavadinimas** įtraukite **msdyn_projectteam**, o į lauką **Lauko pavadinimas** – **msdyn_bookableresourceid**. Išsaugokite įrašą.
 
  ![Naujų kainodaros dimensijų laukų pavadinimų forma](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Tiesioginis ištekliaus rezervavimas projekte:
 Ištekliaus rezervavimas iš ištekliaus reikalavimo:
 - [Bendrųjų rezervuojamų išteklių priskyrimas užduočiai ir išteklių reikalavimų generavimas](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
 - [Įvardytų išteklių rezervavimas iš išteklių reikalavimų](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -94,3 +94,6 @@ Ne, „Microsoft“ sukūrė bendrąjį mašininio mokymo modelį, skirtą kvito
 Jei norite išskleisti lauko duomenis, „Finance“ susisieks su „Cognitive Services“. „Cognitive Services“ išsaugos jūsų kvito kopiją iki 24 valandų, kol vyksta apdorojimas. Baigus apdorojimą „Cognitive Services“ pašalins kvitą. Kvitai vis tiek saugomi programoje „Finance“.
 
 Daugiau informacijos žr [Kvitų supratimo įjungimas naudojant naują formų atpažinimo funkciją](https://azure.microsoft.com/blog/enable-receipt-understanding-with-form-recognizer-s-new-capability/).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

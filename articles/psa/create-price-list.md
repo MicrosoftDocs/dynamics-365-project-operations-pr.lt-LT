@@ -71,3 +71,6 @@ Kainoraščiai grindžiami vaidmenų ir išlaidų kategorijomis, todėl prieš k
   
 ### <a name="see-also"></a>Taip pat žr.  
  [„Project Service Automation“ konfigūravimas](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -97,3 +97,6 @@ Tinklelio ir laipsniškai laike išdėstytame rodiniuose galite pažymėti, kuri
 ## <a name="expense-estimates"></a>Išlaidų sąmatos
 
 Mygtukas **Įtraukti naują išlaidų sąmatą** tinklelio rodinyje leidžia įrašyti visas projekte patirtas išlaidas, tačiau tai nėra tiesiogiai susiję su darbu. Galite įrašyti specifinės užduoties arba viso projekto išlaidų sąmatas. Pasirinkite išlaidų kategorijas ir preliminarią datą, kai tikitės patirti išlaidų. Jei susietuose savikainos ir pardavimo savikainos kainoraščiuose yra numatytųjų savikainų (ar apibrėžtų išlaidų kategorijų antkainių procentų), susiejant, sąmatų eilutėje jos įvedamos automatiškai.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

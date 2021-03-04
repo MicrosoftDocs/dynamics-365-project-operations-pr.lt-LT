@@ -78,3 +78,6 @@ Toliau pateiktos funkcijos yra esamame puslapyje, bet dar nepateiktos naujame pu
 - Eilutės lygio darbo eiga
 - Tarpinio tvirtintojo palaikymas
 - Išplėstinis detalizavimas
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

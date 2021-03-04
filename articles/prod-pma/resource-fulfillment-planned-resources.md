@@ -40,3 +40,6 @@ Projekto vadovas gali planuoti reikiamus projekto išteklių vaidmenis. Ištekli
 7. Pasirinkite darbuotoją, tada pasirinkite **Priskirti**.
 8. Patikrinkite, ar eilutė **1-as programinės įrangos kūrėjas** buvo pašalinta projektui **XYZ Upgrade project Phase 2**.
 9. Skirtuke **Projekto komanda ir planavimas** , skirtame projektui **XYZ Upgrade Phase 2** , patikrinkite, ar darbuotojas, kurį pasirinkote atlikdami ankstesnį veiksmą, buvo įtrauktas kaip **Programinės įrangos kūrėjas**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

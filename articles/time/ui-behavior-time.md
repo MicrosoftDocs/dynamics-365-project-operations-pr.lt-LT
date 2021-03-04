@@ -85,3 +85,6 @@ Sukūrę kelis laiko įrašus, vartotojai tuo pačiu metu gali sukurti kelis lai
 
 ## <a name="import"></a>Importuoti
 Tas pats pagrindinis procesas naudojamas importuojant iš rezervavimų, užduočių ir keitimų. Galite nurodyti datos diapazoną, iš kurio importuojami rezervavimai, tada konkrečiai pasirinkti rezervavimus, kuriuos reikia nukopijuoti kaip laiko įrašų juodraščius. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

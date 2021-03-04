@@ -49,3 +49,6 @@ Norėdami sukurti projekto grafiką, sukuriate projekto kalendoriaus šabloną, 
 8. Dialogo lange **Darbo šablonas** įveskite darbo šablono pavadinimą, tada pasirinkite **Taikyti**. 
 
 Dabar galite susieti darbo šabloną su projekto kalendoriaus šablonu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

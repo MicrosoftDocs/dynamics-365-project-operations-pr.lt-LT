@@ -33,3 +33,6 @@ Tinklelyje **Komandos narys** projekto vadovas gali pažymėti konkretų ištekl
 ## <a name="schedule-board"></a>Grafiko lenta
 
 Parinktyje **Grafiko lenta** išteklių vadovas turi visų rezervavimų visoje organizacijoje portfolio rodinį. Šiame rodinyje išteklių vadovas gali išplėsti, sutrumpinti arba perkelti esamus rezervavimus, panašius į galimybes, siūlomas parinktyje **Išlaikyti rezervavimus**. Išteklių vadovas taip pat gali pakeisti esamus išteklius, skirtus konkrečiam rezervavimui, dešiniuoju pelės mygtuku spustelėdamas rezervavimą ir pasirinkdamas **Pakeisti išteklius**. Išteklių vadovai taip pat gali redaguoti esamų rezervavimo kontūrus dešiniuoju pelės mygtuku spustelėdami rezervavimą ir pasirinkdami **Redaguoti**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

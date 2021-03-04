@@ -149,3 +149,6 @@ Pagal numatytuosius nustatymus, jei lapo mazgo užduotis neturi ankstesnės veik
 ### <a name="manual-scheduling"></a>Neautomatinis planavimas
 
 Jei automatinio planavimo taisyklės neatitinka jūsų reikalavimų, galite nustatyti užduoties režimą užduočiai į **Suplanuota rankiniu būdu**. Šis parametras neleidžia planavimo moduliui skaičiuoti kitų planavimo atributų reikšmių. Neatsižvelgiant į užduoties režimą, jei nustatysite užduotims ankstesnę veiklą, tai visada paveiks priklausomos užduoties pradžios datą.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

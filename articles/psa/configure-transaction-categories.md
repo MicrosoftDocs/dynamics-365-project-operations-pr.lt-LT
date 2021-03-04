@@ -43,3 +43,6 @@ Nustatykite operacijų kategorijas, kad galėtumėte apibrėžti išlaidų kateg
   
 ### <a name="see-also"></a>Taip pat žr.  
  [„Project Service“ konfigūravimas](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

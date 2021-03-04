@@ -90,3 +90,6 @@ Vykdant pašalinimo veiksmą atliekami toliau nurodyti veiksmai.
 Naudodami šį puslapį, galite atšaukti visus pašalinimus su nurodyta įvertinimo data ir įvertinimo būsena **Pašalinta**. Operacijos būsena pasikeičia pasirinkus atitinkamus laukus.
 
 Taip pat automatiškai pakeičiama projekto būsena į **Apdorojama**, jei projekto etapas nustatytas kaip baigtas. Projekto laikotarpio įvertinimo būsena pakeičiama į **Užregistruota**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

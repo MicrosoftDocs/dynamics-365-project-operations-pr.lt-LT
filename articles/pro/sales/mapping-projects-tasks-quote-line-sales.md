@@ -90,3 +90,6 @@ Taip pat galite atsieti projekto užduotis nuo pasiūlymo eilutės iš skirtuko 
 
 >[!NOTE]
 > Ši procedūra nepanaikins užduoties iš projekto. Ji tik pašalina užduoties susiejimą su projektu pagrįsto pasiūlymo eilute.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

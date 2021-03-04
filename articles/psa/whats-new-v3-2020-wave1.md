@@ -43,3 +43,6 @@ Be to, jei turite pasirinktinių programų modulių, kuriuose yra visos laiko į
 
 ### <a name="currently-extended-time-entry-changes"></a>Neseniai išplėstų laiko įrašų pakeitimai
 Kad būtų sumažintas poveikis esamiems vartotojo laiko įrašams, šis vaidmens pakeitimas yra vienintelis pagrindinis reikalavimas, būtinas norint naudoti laiko įrašą. Jei sukūrėte pasirinktinius rodinius arba atskiras laiko įrašo patirtis, laukus **Laiko įrašo parametras** turite nustatyti į teisingą PSA reikšmę.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

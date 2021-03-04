@@ -36,3 +36,6 @@ Nustačius savikainų kainoraštį, laukai **Vaidmuo** ir **Išteklių paskirsty
 Išlaidų įvertintos eilutės nurodo pasiūlymo ir sutarties eilutės išlaidų informaciją ir projekto išlaidų įvertintas eilutes.
 
 Nustačius savikainų kainoraštį, sistema naudoja laukų **Kategorija** ir **Vienetas** derinį išlaidų įvertinimo eilutėje, kad būtų atitiktos **Kategorijos kaina** eilutės nustatytame kainoraštyje. Jei sistema suranda kategorijos kainos eilutę, kurios laukų **Kategorija** ir **Vienetas** derinys turi savikainos tarifą, savikainos tarifas bus numatytasis. Jei sistema negali atitikti **Kategorija** ir **Vienetas** reikšmių, arba jei sistema randa sutampančios kategorijos kainos eilutę, tačiau kainodaros būdas nėra **Vieneto kaina**, numatytasis savikainos tarifas bus nulis (0).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

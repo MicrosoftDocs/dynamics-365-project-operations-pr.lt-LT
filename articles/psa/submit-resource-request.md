@@ -41,3 +41,6 @@ Kaip išteklių užklausą galite pateikti sugeneruotus išteklių reikalavimus.
 Bendrosios komandos nario užklausos būsena bus pakeista į **Pateikta**.
 
 Išteklių valdytojui įvykdžius užklausą, bendrieji ištekliai bus pakeisti įvardintais ištekliais, jei išteklių valdytojas įvykdo užklausą naudodamas įvardintų išteklių pavadinimą. Kitu atveju bendrieji ištekliai liks komandoje, o užklausos būsena bus pakeista į **Reikia peržiūrėti**, jei išteklių valdytojas pasiūlė įvardintus išteklius.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

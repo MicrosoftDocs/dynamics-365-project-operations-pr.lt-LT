@@ -65,3 +65,6 @@ Nuo 2020 m. kovo 1 d. „Dynamics PSA“ klientai nebegalės kurti naujos aplink
 
 > [!NOTE]
 > Norėdami gauti geriausią patirtį, kai naudojatės senesnėmis „Field Service“ ir PSA programomis, eikite į puslapį **Sistemos parametrai** ir lauke **Naudoti tik naują vieningąją sąsają (rekomenduojama)** pasirinkite **Ne**, nes šios versijos nėra sukurtos taip, kad jas būtų galima tinkamai įkelti į UCI. Išjungę UCI, galite atidaryti ir paleisti šias „Field Service“ ir PSA versijas naudodami senąjį žiniatinklio klientą. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

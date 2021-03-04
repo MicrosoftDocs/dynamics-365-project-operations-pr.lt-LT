@@ -40,3 +40,6 @@ Ataskaitų srityje **Praktikos vadovas** praktikos vadovams pasiekiama grafinė 
 ## <a name="resource-manager"></a>„Resource Manager“ 
 
 Ataskaitų srityje **„Resource Manager“** išteklių administratoriams pasiekiama grafinė ataskaitų srities funkcija, kuria galima stebėti išteklių rezervavimą ir išteklių paklausą ir panaudojimą. Taip pat išteklių administratoriai gali dalyti stebimą informaciją pagal įvairias dimensijas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

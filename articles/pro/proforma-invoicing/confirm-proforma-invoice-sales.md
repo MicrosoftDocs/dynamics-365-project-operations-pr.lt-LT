@@ -273,3 +273,6 @@ Produkto eilutÄ—s apmokestintas faktinis pardavimo kiekis ir suma, nuskaityti iÅ
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

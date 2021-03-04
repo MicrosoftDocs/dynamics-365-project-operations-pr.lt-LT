@@ -47,3 +47,6 @@ Norėdami atidaryti puslapį **„Project Service Automation“ integravimo para
 | Atsiskaitymo tipo numatytosios reikšmės  | Atsiskaitymo tipas         | Spustelėkite **Nauja** , jei norite įtraukti eilutę, kurioje galite pasirinkti atsiskaitymo tipą ir nustatyti numatytąją eilutės ypatybę. Konfigūruojant, konkretų atsiskaitymo tipą galima pasirinkti tik vieną kartą. |
 |                        | Eilutės ypatybė        | Pažymėkite pasirinkto atsiskaitymo tipo numatytąją eilutės ypatybę. Kai nauji valandų įvertinimai, nauji išlaidų įvertinimai arba nauji faktiniai duomenys sinchronizuojami iš „Project Service Automation“, lauke **Eilutės ypatybė** nustatoma numatytoji atsiskaitymo tipo reikšmė. |
 | Funkcijų blokavimas  | Netaikoma       | Pažymėkite funkcijas, kurias norite išjungti „Finance“ projektuose ir sutartyse, kilusiuose iš „Project Service Automation“. Pavyzdžiui, galite išjungti galimybę redaguoti sutartis ir projektus, kurti darbo paskirstymo struktūras ir įvesti laiko grafikus naudojant „Finance“. Su apskaita susiję laukai liks įjungti, net jei jie taptų nepasiekiami dėl nustatyto parametro. Pagal numatytuosius nustatymus įjungtos visos funkcijos. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

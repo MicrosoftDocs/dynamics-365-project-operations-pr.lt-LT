@@ -42,3 +42,6 @@ Kalendorius nepalaiko atskirų kalendoriaus elementų veiksmų, todėl pateikimu
 ## <a name="extensibility"></a>Išplečiamumas
 
 Puslapyje **Laiko įrašai**, kuriame yra laiko įrašų tinklelis, galite pridėti pasirinktinių laukų, nustatyti peržvalgos laukus ir sukurti pasirinktinius rodinius. Taip pat galite nustatyti pasirinktinę verslo logiką, kuri pagrįsta pasirinktomis arba į pasirinktinius laukus įvestomis reikšmėmis.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

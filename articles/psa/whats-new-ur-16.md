@@ -64,3 +64,6 @@ Malonu pranešti apie naujausią „Dynamics 365“ programos „Project Service
 
     -   Ištaisyta: kai vartotojai 2.X versiją atnaujina į 3X versiją, projektai su NULINE reikšme pavadinime bus leidžiami.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ Naudojant Projektų šablonus galima sutaupyti laiko, jei jūsų įmonė regulia
   
 ### <a name="see-also"></a>Taip pat žr.  
  [Projekto vadovo vadovas](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

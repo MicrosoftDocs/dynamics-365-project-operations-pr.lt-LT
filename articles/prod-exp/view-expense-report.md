@@ -32,3 +32,6 @@ Išlaidų ataskaitose galite detalizuoti nuo operacijos iki pradinės ataskaitos
 Norėdami detalizuoti pradinę išlaidų ataskaitą, kurioje yra operacija, pasirinkite operaciją ir **Pirminis dokumentas**.
 
 Peržiūrėdami pavienes operacijas taip pat galite matyti ir papildomus prie operacijos pridėtus duomenis. Pavyzdžiui, detalizuotų viešbučio išlaidų atveju galite peržiūrėti išsamų išlaidų sąrašą, pvz., interneto prieiga, telefono skambučiai ir kambarių paslaugos.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

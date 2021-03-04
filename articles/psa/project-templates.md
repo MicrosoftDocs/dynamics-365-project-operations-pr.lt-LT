@@ -69,3 +69,6 @@ Kai kopijuojate projekto įvertinimo eilutes, kainoraščiai naujinami. Kalbant 
 ### <a name="copying-a-project-team"></a>Projekto komandos kopijavimas
 
 Kopijuojant projekto komandą iš šablono į projektą, nukopijuojami bendrieji ištekliai bei jos įgūdžiai ir kvalifikacija, nurodyti šablone. Bendrųjų išteklių priskyrimai taip pat tvarkomi kaip ir projekto šablone. Įvardyti ištekliai nepalaikomi projektų šablonuose.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

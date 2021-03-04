@@ -109,3 +109,6 @@ Informacijos apie tai, kaip naujinti į šį leidimą, ieškokite [„Project Op
 
 ### <a name="regulatory-updates"></a>Reguliavimo naujinimai
 Norėdami gauti informacijos apie „Finance and Operations” programų reguliavimo naujinimus, žr. [Reguliavimo naujinimai](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Taip pat galite prisijungti prie LCS ir peržiūrėti planuojamus reguliavimo naujinimus naudodamiesi problemų ieškos įrankiu. Problemų ieška leidžia ieškoti pagal šalį, funkcijos tipą ir leidimą.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -209,3 +209,6 @@ Jeigu pritaikėte demonstracinius duomenis „Finance“ aplinkoje, žr. [Konfig
 
 
 Jūsų „Project Operations“ aplinka dabar parengta ir sukonfigūruota. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

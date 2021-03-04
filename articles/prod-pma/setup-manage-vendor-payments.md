@@ -80,3 +80,6 @@ Kai tiekėjas baigia dirbti su projektu ir atsiunčia jums sąskaitą faktūrą,
 2. Puslapyje **Tiekėjo sąskaitos faktūros „mokėti sumokėjus“** ieškos lauke įveskite reikšmes, kad rastumėte tiekėjo sąskaitą faktūrą, kurią norite peržiūrėti, tada pasirinkite **Ieškoti**.
 3. „FastTab“ **Tiekėjo sąskaitos faktūros eilutės** pasirinkite eilutes, kurias norite pakeisti.
 4. Jei sąskaitos faktūros eilutės **Mokėti sumokėjus** sąlygos neįvykdytos, pasirinkite **Išleisti tiekėjo mokėjimą**. Parinktis **Mokėti sumokėjus** išvaloma, o lauko **Paruošta mokėti** reikšmė pakeičiama į **Taip**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

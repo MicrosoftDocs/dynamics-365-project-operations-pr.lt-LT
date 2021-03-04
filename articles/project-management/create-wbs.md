@@ -116,3 +116,6 @@ Užduočių režimas nepaveikia naujinimų, atliktų su ankstesnėmis / priklaus
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Spartieji klavišai, pritaikyti neįgaliesiems, ir klaviatūros spartieji klavišai
 
 Tinklelis **Grafikas** yra visiškai pasiekiamas ir gali būti naudojamas su ekrano skaitytuvais, pavyzdžiui, „Narrator“, „JAWS“ ar „NVDA“. Galite judėti per tinklelio sritį naudodami rodyklių klavišus (kaip programoje „Microsoft Excel“), galite naudoti tabuliavimo klavišą, kad pasiektumėte interaktyviuosius vartotojo sąsajos elementus, o norėdami pasirinkti ir atidaryti išplečiamuosius meniu galite naudoti rodyklės žemyn, „Enter“ arba tarpo klavišus.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

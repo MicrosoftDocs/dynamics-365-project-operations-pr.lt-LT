@@ -73,3 +73,6 @@ Jei norite sužinoti daugiau apie „[!INCLUDE[pn_project_service_auto](../inclu
  [Klientų vadovo vadovas](../psa/account-manager-guide.md)   
  [Projekto vadovo vadovas](../psa/project-manager-guide.md)   
  [Išteklių vadovo vadovas](../psa/resource-manager-guide.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

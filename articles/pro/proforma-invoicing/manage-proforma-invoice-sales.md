@@ -144,3 +144,6 @@ Jei turite faktinių duomenų, kurie buvo pateikti sukūrus sąskaitą faktūrą
 Naudodami projektu pagrįstas sąskaitos faktūros eilutes, programoje „Project Operations” galite kurti sąskaitos faktūros eilutes, skirtas produktams, neatitinkantiems jokių projektų, arba visiems projektams kartu. Šios sąskaitos faktūros eilutės kuriamos kaip produktu pagrįstos sutarties eilutės ir jas pažymėjus kaip parengtas išrašyti sąskaitą faktūrą, jos yra įtraukiamos kaip produktu pagrįstos sąskaitos faktūros eilutės.
 
 Įtraukus produktu pagrįstas sąskaitos faktūros eilutes, jų keisti nebegalima. Tačiau jas galima panaikinti iš „Proforma“ sąskaitos faktūros juodraščio.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -82,3 +82,6 @@ Tokiu būdu priskirti ištekliai įtraukiami į komandą neatliekant jokių reze
 
 3. Pažymėkite išteklių, kurį norite priskirti prie užduoties.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

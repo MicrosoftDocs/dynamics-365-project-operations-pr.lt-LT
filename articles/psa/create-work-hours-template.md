@@ -65,3 +65,6 @@ Prieš kuriant projektų grafikus, reikia nustatyti projekto kalendorių, apibr�
   
 ### <a name="see-also"></a>Taip pat žr.  
  [Rezervuojamų išteklių nustatymas](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

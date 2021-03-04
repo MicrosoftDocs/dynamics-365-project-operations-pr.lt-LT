@@ -53,3 +53,6 @@ Galite suformuoti savo komandą iš pagrindinės komandos arba PSA įvardintų i
 - [Įvardytų išteklių rezervavimas iš išteklių reikalavimų](book-named-resource.md)
 - [Išteklių užklausos pateikimas](submit-resource-request.md)
 - [Pasiūlyto projekto ištekliaus iš ištekliaus užklausos priėmimas arba atmetimas](accept-reject-proposed-resource.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

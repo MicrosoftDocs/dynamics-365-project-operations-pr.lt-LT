@@ -54,3 +54,6 @@ ms.locfileid: "4080893"
 22. Lauke **Kaina** įveskite skaičių. Faktinė pardavimo kaina, taikoma darbuotojui įvedus operacijas į išlaidų žurnalą, yra išsamiausia pardavimo kaina. Pavyzdžiui, jei nustatyta bendra ir konkreti darbuotojo pardavimo kaina, naudojama konkreti darbuotojo pardavimo kaina.  
 23. Pasirinkite **Įrašyti**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

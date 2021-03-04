@@ -52,3 +52,6 @@ Norėdami gauti daugiau informacijos apie PSA ataskaitų teikimą, žr. šiose t
 - [Darbas su „Project Service“ duomenų modeliu](reports-working-project-service-data-model.md)
 - [Ataskaitų sritys](reports-dashboards.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

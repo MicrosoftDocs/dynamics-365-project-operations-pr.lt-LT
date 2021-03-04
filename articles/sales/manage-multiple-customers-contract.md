@@ -47,3 +47,6 @@ Galite kurti, atnaujinti arba panaikinti sutarties klientą puslapio **Sutartis*
 Atsiskaitymo išskaidymo procentines vertes galima redaguoti tinklelyje. Jei atsiskaitymo išskaidymo procentinės vertės nesudaro 100 procentų, pateikiama klaida. Pakoregavę atsiskaitymo išskaidymo procentinę vertę, atnaujinkite puslapį **Projekto sutartis**, kad pašalintumėte klaidą.
 
 Taip pat galite pasirinkti parinktį **Paskirstyti tolygiai** projekto sutarties klientų papildomame tinklelyje. Atsiskaitymas išskaidomas tolygiai visiems projekto sutarties klientams. Jei yra koks nors apvalinimo koeficientas, jis bus įtrauktas į apvalinimo klientą. Vienam iš sutarties klientų būtina nustatyti žymę **Apvalinimas** kaip **Taip**. Tas klientas yra apvalinimo klientas. Paprastai apvalinimo klientas taip pat yra pirminis sutarties klientas, bet tai nėra privaloma.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

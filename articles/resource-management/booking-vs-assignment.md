@@ -26,3 +26,6 @@ Kitaip nei rezervacijos, priskyrimai yra išteklių projekto užduotims priskyri
 Paprastai ištekliaus rezervacijų suma sudaro išteklių paskyrimų vienai ar kelioms užduotims, sumą. Tačiau „Project Operations“ šio susitarimo laikytis neverčia. Rodinyje **Derinimas** rodomos projektų vadovo vietos, kuriose išteklių rezervacijos ir priskyrimai nesutampa.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

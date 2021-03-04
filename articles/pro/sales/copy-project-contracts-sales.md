@@ -45,3 +45,6 @@ Kai dialogo lango puslapyje pasirenkate **Gerai**, sistema sukuria sutarties kop
   - Kliento biudžeto informacija
 
 Kadangi tai yra specifinė kiekvienos sutarties informacija, šie laukai ir įrašai nebus kopijuojami. Sutarties lygyje bus kopijuojamos projektų ir produktų sutarties eilutės, sutarties eilutės informacijos įvertinimai ir „Neviršyti“ reikšmės. Kainos ir išlaidų tarifų numatytosios reikšmės priklauso lauko **Kopijuoti įkainius**, esančio dialogo lango puslapyje **Kopijuoti parametrus**, pasirinkimo.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -28,3 +28,6 @@ Produktu pagrįstos eilutės gali būti katalogo elementai arba įtraukiamieji p
 
 Kai galimybės suvestinės pajamų būdas yra **Apskaičiuota sistemos**, kliento biudžeto reikšmės galimybės eilutėse yra sumuojamos, kad būtų galima apskaičiuoti numatomas pajamas. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

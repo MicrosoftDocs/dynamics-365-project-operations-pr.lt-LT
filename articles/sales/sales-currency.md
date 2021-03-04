@@ -71,3 +71,6 @@ Prieš pradėdami šią procedūrą patikrinkite, ar jūsų saugos vaidmuo yra s
 
 > [!IMPORTANT]
 >  Kitų įrašų naudojamų valiutų panaikinti negalima, bet jas galima išjungti. Išjungus valiutos įrašus, valiutos informacija iš esamų įrašų, pvz., galimybių arba užsakymų, nepašalinama. Tačiau jūs naujose operacijose nebegalėsite pasirinkti išjungtos valiutos.  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

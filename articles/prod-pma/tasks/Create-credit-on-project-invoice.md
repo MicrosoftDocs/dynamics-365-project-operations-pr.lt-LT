@@ -39,3 +39,6 @@ ms.locfileid: "4080813"
 10. Spustelėkite Gerai. 
 
 Atlikus šį žingsnį, bus galima naudoti sąskaitos faktūros pasiūlymo kredito pažymą.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

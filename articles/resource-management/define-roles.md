@@ -20,3 +20,6 @@ ms.locfileid: "4514559"
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
 Galite naudodami „Dynamics 365 Field Service“ funkciją apibrėžti vaidmenis „Dynamics 365 Project Operations“ aplinkoje. Norėdami atlikti šią sąranką, žr. [Rezervuojamų išteklių kategorijų nustatymas](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resource-categories).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -113,3 +113,6 @@ Kadangi Dynamics 365 Project Service Automation naudoja Universal Resource Sched
 Norėdami peržiūrėti daugiau informacijos apie atskirą išteklių, spustelėkite dešiniu pelės klavišu, kad atidarytumėte išteklių kortelę.
 
 ![Išteklių kortelė](media/Resource-Management-image71.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

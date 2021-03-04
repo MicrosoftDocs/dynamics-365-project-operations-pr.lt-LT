@@ -47,3 +47,6 @@ Sukurkite paskyrą kiekvienam klientui, su kuriuo dirbate, nepriklausomai nuo to
   
 ### <a name="see-also"></a>Taip pat žr.  
  [Klientų vadovo vadovas](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ Projektų planavime vaidmenims tenka svarbus vaidmuo nustatant reikalavimus išt
   
 ### <a name="see-also"></a>Taip pat žr.  
  [Rezervuojamų išteklių nustatymas](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -102,3 +102,6 @@ Toliau pateikiama trumpa įprastų valdiklių, rastų įvairiuose projektų plan
 **Įtraukti stulpelį**: leidžia vartotojui apibrėžti matomus tinklelio stulpelius. Tik neužpildyti stulpeliai gali būti įtraukti į tinklelius formoje **Projekto planavimas**.
 
 ![Stulpelio įtraukimo mygtukas](media/navigation5.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

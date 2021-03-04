@@ -53,3 +53,6 @@ Prieš rezervuodami iš grafiko lentos, turite sukurti arba sugeneruoti ištekli
 Reikalavimas užpildomas naudojant pasirinktus išteklius. Skyde **Rezervacijos reikalavimai** atkreipkite dėmesį, kad reikalavimas buvo atnaujintas ir ištekliai projekte rodomi kaip rezervuoti.
 
 ![Projektui rezervuoti ištekliai](media/Resource-Management-image76.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

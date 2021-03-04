@@ -113,3 +113,6 @@ Mobiliųjų įrenginių programėlės „Finance and Operations“ atsisiuntimas
 11. Pažymėkite eilutės ypatybę.
 12. Pasirinktinai įveskite komentarų, skirtų naudoti įmonėje ir už jos ribų.
 13. Pasirinkite **Atlikta**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

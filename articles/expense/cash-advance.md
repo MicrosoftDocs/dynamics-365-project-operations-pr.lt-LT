@@ -63,3 +63,6 @@ Kai kuriate ir pateikiate jau gauto avansinio mokėjimo išlaidų ataskaitą, i�
 ### <a name="example"></a>Pavyzdžiui
 Planuojate keliauti iš Sietlo į Niujorką į konferenciją. Sukūriate avansinio mokėjimo užklausą 3000.00 JAV dolerių pagal numatomas konferencijos bilieto, skrydžių, viešbučio, maitinimo ir taksi išlaidas. Jums nebus sumokėta, kol jūsų vadovas nepatvirtins šios užklausos. Kai jūsų vadovas patvirtina, pageidaujamas avansinis mokėjimas bus išmokėtas kaip 3000.00 JAV dolerių į jūsų banko sąskaitą. Tada dalyvausite konferencijoje. Po kelionės pamatote, kad visos išlaidos buvo tik 2790.00 JAV dolerių. Lauke **Mokėjimo būdas** pasirinkite **Grynieji pinigai** ir pateikite išlaidų sumą, kuri yra 2790.00 JAV dolerių. Jūsų pateikta išlaidų suma automatiškai koreguojama pagal 3000.00 JAV dolerių avansinį mokėjimą, kuris buvo jums paskolintas. Dabar esate skolingi 210.00 JAV dolerių (3000.00 – 2790.00) likutį, kurį galite grąžinti įmonei naudodami išlaidų kategoriją **Gražinti pinigus**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

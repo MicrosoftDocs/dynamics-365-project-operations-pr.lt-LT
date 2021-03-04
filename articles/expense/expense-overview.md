@@ -44,3 +44,6 @@ Daugiau informacijos ieškokite [Išlaidų įrašas („lite“)](basic-expense.
 
 ## <a name="determine-your-expense-deployment"></a>Išlaidų visuotinio diegimo nustatymas
 Norėdami nustatyti, ar naudojate pagrindinį išlaidų valdymo visuotinį diegimą, patikrinkite, ar adreso URL baigiasi **.crm.dynamics.com**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

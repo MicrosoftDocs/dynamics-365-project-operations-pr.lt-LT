@@ -68,3 +68,6 @@ Atidarykite fiksuotos kainos pasiūlymo eilutę, kur norite sukurti etapą. Papi
 | Sąskaitos faktūros būsena | Spartusis kūrimas | Sukūrus etapą, ši būsena visada nustatoma į **Neparuošta išrašyti sąskaitos faktūros**. | Tai platinama į projekto sutarties eilutės etapą ir į sąskaitą faktūrą. |
 | Eilutės suma | Spartusis kūrimas | Etapo, kuriam bus išrašyta sąskaita faktūra, suma arba reikšmė. | Tai platinama į projekto sutarties eilutės etapą ir į sąskaitą faktūrą. |
 | Mokesčiai | Spartusis kūrimas | Mokesčių suma, kuri bus taikoma etapui. | Tai platinama į projekto sutarties eilutės etapą ir į sąskaitą faktūrą. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

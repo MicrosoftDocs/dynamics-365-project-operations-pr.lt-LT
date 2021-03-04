@@ -26,3 +26,6 @@ Produktų katalogo prekių kainodaros nustatymas programoje „Dynamics 365 Proj
 Programoje „Project Operations“ produktų negalima įvertinti arba naudoti projektuose, todėl nereikia nustatyti produktų katalogo kainų pasiūlymų ir sutarčių projektų kainoraščiuose.
 
 Norėdami nustatyti produktų katalogo kainas, naudokite pasiūlymo, sutarties arba sąskaitos lauką **Produkto kaina**. Projekto kainoraštyje nenustatykite produktų katalogo kainų. Projektų kainoraščiai yra nesuderinami su „Project Operations“. Konkrečios programos verslo logika nukopijuoja kainoraščius iš pasiūlymo į sutartį. Rezultatas – sutarčiai skirtas projekto kainoraštis. Kopijavimo operacija gali atidėti pasiūlymo laimėjimo procesą, jei projekto kainoraštis pasiūlyme bus per didelis. Produktų kainoraščiai nėra kopijuojami siekiant sutartyse sukurti pasirinktinius kainoraščius. Kadangi kopijavimas neįtrauktas, pasiūlymo proceso našumas nepaveikiamas.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

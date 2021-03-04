@@ -55,3 +55,6 @@ Pateikiamose temose pateikta informacija apie užduotis, kurias reikia atlikti d
 - [Projekto išteklių planavimo efektyvumas](project-scheduling-performance.md)
 - [Darbo paskirstymo struktūros šablonų vaidmenų nustatymas](set-up-roles-wbs-template.md)
 - [Suplanuotų išteklių panaudojimas](resource-fulfillment-planned-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -74,3 +74,6 @@ Fiksuotos kainos etapus galima generuoti rankiniu būdu, kai jie nėra periodiš
 | Mokesčiai | Spartusis kūrimas | Etapui taikoma mokesčių suma. | Tai įtraukta į projekto sutarties eilutės etapą ir sąskaitą faktūrą. |
 
 4. Pasirinkite **Įrašyti ir uždaryti**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -64,3 +64,6 @@ ms.locfileid: "4080895"
 32. Lauke **Kaina** įveskite skaičių.
 33. Pasirinkite **Įrašyti**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

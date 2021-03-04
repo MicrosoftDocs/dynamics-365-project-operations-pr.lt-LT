@@ -72,3 +72,6 @@ Galimas klientas į galimybės veiklos procesą palaiko šiuos etapus:
 | Kurti | Galimybė | Sukurkite galimybę, kad būtų įtraukta daugiau informacijos apie susijusį darbą, svarbiausias suinteresuotąsias šalis ir konkurenciją. |
 | Siūlyti | Galimybė | Sukurkite pasiūlymą ir gaukite vidinės peržiūros komandos patvirtinimą. |
 | Uždaryti objektą  | Galimybė | Laimėkite galimybę, kad uždarytumėte sandorį. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

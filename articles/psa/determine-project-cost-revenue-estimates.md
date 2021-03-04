@@ -81,3 +81,6 @@ Visas patirtas projekto išlaidas, kurios tiesiogiai nesusijusios su darbo išla
   
 ### <a name="see-also"></a>Taip pat žr.  
  [Projekto vadovo vadovas](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

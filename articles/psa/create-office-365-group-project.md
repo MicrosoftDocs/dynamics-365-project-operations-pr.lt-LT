@@ -43,3 +43,6 @@ Sukurkite konkretaus projekto „Office 365“ grupę ir suteikite vietą, kurio
   
 ### <a name="see-also"></a>Taip pat žr.  
  [Projekto vadovo vadovas](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

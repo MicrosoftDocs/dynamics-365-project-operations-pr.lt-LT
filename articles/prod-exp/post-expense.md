@@ -32,3 +32,6 @@ Jei išlaidų ataskaitoje išlaidos priskirtos kitai įmonei, o ne darbuotoją �
 Norėdami užregistruoti išlaidų ataskaitą puslapyje **Patvirtintos išlaidų ataskaitos** pažymėkite išlaidų ataskaitą, tada veiksmų srityje pasirinkite **Paskelbti**.
 
 Tuo pačiu metu galite paskelbti visas sąrašo išlaidų ataskaitas. Pažymėkite visas išlaidų ataskaitas, tada pasirinkite **Paskelbti**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

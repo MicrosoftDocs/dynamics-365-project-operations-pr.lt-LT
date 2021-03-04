@@ -135,3 +135,6 @@ Jei turite faktinių duomenų, kurie buvo pateikti sukūrus sąskaitą faktūrą
 2. Atidarykite „Proforma” sąskaitos faktūros juodraštį ir juostelėje **Veiksmai** spustelėkite **Atnaujinti sąskaitos faktūros eilutės operacijas**.
 
   Taip sukuriama sąskaitos faktūros eilutės išsami informacija bet kuriems faktiniams duomenims su praeities data ir pažymėtiems kaip **Parengta išrašyti sąskaitą faktūrą**, bet neįtrauktiems į sąskaitą faktūrą.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

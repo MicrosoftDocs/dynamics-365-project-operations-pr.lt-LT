@@ -53,3 +53,6 @@ Tolesnėje lentelėje pateikiamas išsamus parengtų naudoti formų ir rodinių,
 2. Puslapio **Parametrai** skirtuke **Suma pagrįstos kainodaros dimensijos** pastebėkite, kad skirtuko tinklelis rodo objekte **Kainodaros dimensijos** esančius įrašus.
 3. Į šį sąrašą įtraukite **Operacijos kategoriją** ir laukus **Taikoma savikainai** ir **Taikoma pardavimui** nustatykite į **Taip**.
 4. Lauke **Dimensijos tipas** pasirinkite **Pagrįsta suma**, tada pasirinkite su savikaina ir pardavimu susijusios **Operacijos kategorijos** pirmenybę.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

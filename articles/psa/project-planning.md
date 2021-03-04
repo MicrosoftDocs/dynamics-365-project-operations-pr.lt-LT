@@ -52,3 +52,6 @@ Toliau pateikiamose temose pateikta informacija, padedanti projektų vadovams į
 - [Projekto šablonai](project-templates.md)
 - [Projekto etapai](project-stages.md)
 - [Projekto parametrai](project-settings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

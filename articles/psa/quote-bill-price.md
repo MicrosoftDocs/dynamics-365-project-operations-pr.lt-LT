@@ -44,3 +44,6 @@ Tolesnėse temose pateikta daugiau informacijos apie PSA pasiūlymų teikimo, į
 - [Vienetų grupės ir vienetai](advanced-units.md)
 - [Valiuta keletui vienetų](advanced-currency.md)
 - [Faktinių duomenų įrašymas](advanced-actuals.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

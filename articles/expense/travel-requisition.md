@@ -56,3 +56,6 @@ Pasirinkite kelionės paraišką, kurią norite patvirtinti, ir pasirinkite **Da
 
 > [!NOTE]
 > Kai išlaidų ataskaitą susiesite su patvirtinta kelionės paraiška, operacijos suma negali viršyti įgaliotos sumos. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

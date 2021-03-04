@@ -89,3 +89,6 @@ Parametrai valdo bendrą išlaidų valdymo elgseną.
 | <strong>Antikorupcinis pranešimas peteikėjui</strong> |                                                                                             Įveskite tekstą, kuris bus rodomas darbuotojui kuriant naują išlaidų ataskaitą. Norėdami įvesti kalbai būdingą tekstą, kuris bus rodomas pagal vartotojo kalbą, spustelėkite mygtuką <strong>Vertimai</strong>.                                                                                             |
 | <strong>Antikorupcinis pranešimas tvirtintojui</strong>  |                                                                                             Įveskite tekstą, kuris bus rodomas tikrintojui kuriant naują išlaidų ataskaitą. Norėdami įvesti kalbai būdingą tekstą, kuris bus rodomas pagal vartotojo kalbą, spustelėkite mygtuką <strong>Vertimai</strong>.                                                                                             |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

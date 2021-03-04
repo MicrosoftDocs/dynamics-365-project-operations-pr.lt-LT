@@ -31,3 +31,6 @@ _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems s
 Objektas **Faktiniai duomenys** turi daug laukų, kuriuos galima naudoti kaip išteklių kainodaros dimensijas. Pavyzdžiui, vienas įprastas laukas yra **Rezervuojami ištekliai**. Mažesnėms įmonėms, turinčioms mažiau nei 20-30 apmokėtinų išteklių, gali būti paprasčiau turėti konkrečius kiekvienų išteklių sąskaitų ir savikainos tarifus. Tačiau, kaip auga apmokama darbo jėga, išteklių valdymo lygis gali tapti nerealu. Išteklių išlaidos ir vekselių tarifai pradeda skirtis, nes ištekliai yra skatinami, daugiau patirties arba įgyja kitą įgūdžių rinkinį. 
 
 Kitas pavyzdys – operacijos kategorijos. Klientai ir diegėjai naudojo operacijos kategoriją darbui klasifikuoti ir naudotų kainos ir savikainos lauką remiantis darbo kategorija.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

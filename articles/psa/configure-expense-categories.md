@@ -55,3 +55,6 @@ Kiekviena išlaidų kategorija gali turėti savo vienetų grupę ir vienetą. Ga
   
 ### <a name="see-also"></a>Taip pat žr.  
  [„Project Service Automation“ konfigūravimas](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

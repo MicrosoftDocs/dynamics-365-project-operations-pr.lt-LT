@@ -38,3 +38,6 @@ Pasirinkite **Prisijungti** > **Prisijungti prie aplinkos**, kad pereitumėte pr
 
 > [!NOTE]
 > Galite tiesiogiai pasiekti „Project Operations” programoje „Common Data Service” ir modulyje **Projektų valdymas ir apskaita**, naudodami atitinkamus URL. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

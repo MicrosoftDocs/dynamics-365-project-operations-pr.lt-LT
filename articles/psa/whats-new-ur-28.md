@@ -55,3 +55,6 @@ Buvo pataisytos šios problemos:
 - Iškvietus **GetEstimatesForProject** priedą generuojama nulinės nuorodos išimtis.
 - **Pažymėti kaip parengtą išrašyti sąskaitą faktūrą** etapo tinklelyje tik iš dalies atnaujina atributus, išskyrus atributą **InvoiceStatus**, kuris atnaujinamas.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

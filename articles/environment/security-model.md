@@ -81,3 +81,6 @@ Norėdami gauti daugiau informacijos žr. [Sauga sistemoje „Common Data Servic
 Norėdami gauti daugiau informacijos apie „Finance“ saugą žr. [Vaidmenimis pagrįsta sauga](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

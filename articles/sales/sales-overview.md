@@ -63,3 +63,6 @@ Naudodami „Project Operations“ negalite sekti atliktų pasiūlymo peržiūr�
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>Pasiūlymų ir projektų sutarčių komentarų bei patvirtinimų sekimas
 Naudodami įrašų sieną ir įrašus galite valdyti pasiūlymų ir projektų sutarčių peržiūrą bei patvirtinimą. Siekdama priskirti, peradresuoti, perskirti ir valdyti peržiūros ir patvirtinimo darbų elementų pranešimus organizacija gali kurti pasirinktines darbo eigas ir priedus.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

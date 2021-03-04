@@ -81,3 +81,6 @@ Buvo pataisytos šios problemos:
 - Kai „Dynamics 365 Field Service“ ir „Project Service Automation“ yra įdiegti, parinktys **Užrakinti įkainius** ir **Naudoti dabartinius įkainius** nėra rodomi tuo pačiu metu puslapyje **Sąskaita faktūra**.
 - Japonų kalbai yra nesuderinamas vertimas į kitus kalendoriumi pagrįstus puslapius.
 - Parinktys **Aktyvuoti** ir **Išjungti** buvo pašalintos iš „Project Service Automation“ objektų **Kainoraščio susiejimas**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

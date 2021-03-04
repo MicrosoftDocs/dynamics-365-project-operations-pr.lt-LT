@@ -52,3 +52,6 @@ Norėdami atnaujinti ir iš naujo užregistruoti priedus, atlikite toliau nurody
 7. Pasirinkite **Gerai**, kad uždarytumėte puslapį, tada pasirinkite **Atnaujinti veiksmą**.
 8. Pakartokite 2–7 veiksmus ir su antru priedu **PreOperationQuoteLineDetail**. Pasirinkus šį priedą reikia atnaujinti veiksmą **msdyn_quotelinetransaction naujinimas**.
 9. Uždarykite **PluginRegistrationTool**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

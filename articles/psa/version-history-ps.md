@@ -73,3 +73,6 @@ Norėdami gauti informacijos apie „Project Service“ naujinimus, žr. [„Dyn
 >[!Note]
 > - Datos visuose regionuose, išskyrus „Government Community Cloud“ (GCC), nurodo kito automatinio atnaujinimo datą. Datos, pateikiamos GCC, nurodo versijos pasiekiamumą; šiems regionams automatinio atnaujinimo nėra.
 > - Visuose kituose regionuose dauguma naujinimų turėtų būti baigti suplanuotą naktį, o naujinimai, reikalaujantys daugiau laiko, gali būti baigti nakties metu savaitgalį, numatytą stulpelyje **Suplanuota data**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

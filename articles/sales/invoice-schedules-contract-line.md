@@ -74,3 +74,6 @@ Fiksuotos kainos etapai gali būti generuojamos neautomatiškai, kai jie nėra p
 | Mokesčiai | Spartusis kūrimas | Etapui taikoma mokesčių suma. | Tai perkeliama į projekto sutarties eilutės etapą ir į sąskaitą faktūrą. |
 
 3. Pasirinkite **Įrašyti ir uždaryti**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

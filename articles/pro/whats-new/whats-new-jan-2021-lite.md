@@ -41,3 +41,6 @@ _Taikoma (kam): „Lite“ visuotiniam diegimui – sandoris į išankstinės s�
 | **Galimybės valdymas** | 2040713 | Išspręsta scenarijaus klaida, įvykstanti kuriant sąskaitą faktūrą iš sutarties ir kai įdiegtas „Field Service“. |
 | **Projektų planavimas ir sekimas** | 2090202 | Pažymėtos veiklos taisyklės, kurios nebenaudojamos kaip **Nerekomenduojama**. |
 | **Laikas ir išlaidos** | 2091249 | Sugriežtinti valdikliai, kad vartotojai negalėtų keisti užduoties pateiktame ar patvirtintame laiko įraše. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

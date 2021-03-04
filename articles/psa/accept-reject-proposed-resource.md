@@ -45,3 +45,6 @@ Norėdami atmesti pasiūlymą, spustelėkite **Atmesti išteklius**.
 ![Išteklių pasiūlymo priėmimas](media/RM-how-to-20.png) 
 
 Panašiai į tiesioginį bendrosios išteklių užklausos užpildymą naudojant įvardytą išteklių, bendrasis išteklius bus pakeistas, o priskirtos užduotys bus atnaujintos kartu su įvardytu komandos nariu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Naudojant ataskaitų sritis ir ataskaitas galima geriau suprasti savo verslo pad
   
 ### <a name="see-also"></a>Taip pat žr.  
  [Projekto vadovo vadovas](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

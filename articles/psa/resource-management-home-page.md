@@ -41,3 +41,6 @@ Ištekliai yra svarbiausias paslaugomis pagrįstas organizacijos turtas. Turėda
 - [Galutinės rezervacijos reikalavimai](resource-management-softbook-requirements.md)
 - [Įgūdžių ir kvalifikacijos modeliai](resource-management-skills-proficiency.md)
 - [Išteklių valdymo DUK](resource-management-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

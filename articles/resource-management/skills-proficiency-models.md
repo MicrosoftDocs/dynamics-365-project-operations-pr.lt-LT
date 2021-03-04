@@ -43,3 +43,5 @@ Charakteristikos papildo atributus, kuriais apibūdinami ištekliaus gebėjimai.
 3. Papildomame tinklelyje **Įgūdžiai** pasirinkite **+Įtraukti naują reikalavimo charakteristiką**.
 4. Sparčiojo kūrimo srityje raskite ir pasirinkite reikiamas charakteristikas ir įtraukite **Įvertinimo reikšmė**.
 5. Pasirinkite **Įrašyti ir uždaryti**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

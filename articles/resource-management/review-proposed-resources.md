@@ -62,3 +62,6 @@ Kadangi „Dynamics 365 Project Operations“ naudoja „Universal Resource Sche
 
 Norėdami peržiūrėti daugiau informacijos apie atskirą išteklių, spustelėkite dešiniu pelės klavišu, kad atidarytumėte išteklių kortelę.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

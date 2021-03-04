@@ -45,3 +45,6 @@ Kai dialogo lango puslapyje pasirenkate **Gerai**, sistema sukuria projekto pasi
 > - Projekto nuoroda projekte – pagrįstos pasiūlymo eilutės – kliento biudžeto informacija
 >
 >Kadangi tai yra specifinė kiekvieno pasiūlymo informacija, šie laukai ir įrašai nebus kopijuojami. Pasiūlymo lygyje bus kopijuojamos projektų ir produktų pasiūlymo eilutės, pasiūlymo eilutės išsamios informacijos įvertinimai ir „Neviršyti“ reikšmės. Kaios ir išlaidų tarifų numatytosios reikšmės priklauso nuo parinkties **Kopijuoti įkainius**, pasirinktos dialogo lango puslapyje **Kopijuoti parametrus**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

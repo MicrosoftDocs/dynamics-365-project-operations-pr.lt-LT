@@ -43,3 +43,6 @@ Buvo pataisytos šios problemos:
 
 - Pabaigos datos automatiškai užpildomos, kai sukuriamas laiko įrašas, jei trukmė yra neapibrėžta.
 - Vartotojai gali pakeisti užduotį laiko įraše, kuris buvo patvirtintas arba pateiktas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

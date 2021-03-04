@@ -26,3 +26,6 @@ Projektų valdymo įrankiai, esantys „Dynamics 365 Project Operations“, pade
 - Pardavimo proceso metu naudoti projekto sąmatas;
 - Prognozuoti išteklių poreikius, kol projektai yra ruošiami;
 - Sėkmingai pristatyti projektus sekant progresą ir sąnaudų suvartojimą.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

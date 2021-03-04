@@ -35,3 +35,6 @@ Jei projekto sutarties, kuri uždaryta kaip prarasta, eilutėse nurodytas projek
 
 > [!NOTE]
 > Naudojant „Dynamics 365 Project Operations“, projekto sutarties kaip prarastos uždarymas nepaveiks susietos galimybės būsenai. Galimybė liks atidaryta ir ją reikės uždaryti neautomatiškai.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

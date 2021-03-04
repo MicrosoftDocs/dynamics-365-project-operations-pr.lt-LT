@@ -96,3 +96,6 @@ Norint užtikrinti sėkmingą atnaujinimą, reikia tinkamai išlaikyti šiuos ry
 
 - Visos projekto užduočių priklausomybės turi būti susijusios su tuo pačiu projektu.
 - Užduotyje ta pati priklausomybė negali būti nurodyta daugiau nei vieną kartą.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

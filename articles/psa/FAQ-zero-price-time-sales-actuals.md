@@ -57,3 +57,6 @@ Jei faktinių pardavimo laiko duomenų kainodaros dimensijų vaidmenų kainų ti
 
 Jei atlikote visas tris anksčiau minėtas patikras ir vis dar nematote tinkamos kainos faktiniuose pardavimo laiko duomenyse, užregistruokite palaikymo kvitą. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

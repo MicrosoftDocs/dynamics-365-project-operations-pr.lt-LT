@@ -48,3 +48,6 @@ Išteklių įgūdžiai vertinami pagal kvalifikacijos modelius. Atskiri įvertin
 > ![Mažiausi ir didžiausi įvertinimai apibrėžti](media/Resource-Management-image85.png)
 
 Šios įvertinimo reikšmės rodomos filtruose **Išteklių reikalavimai**, **Grafiko lenta** ir **Planavimo pagalbinė priemonė**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

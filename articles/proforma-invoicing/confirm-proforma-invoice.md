@@ -198,3 +198,6 @@ Projekto sutarties eilutės pradinio etapo apmokestinta faktinė pardavimo suma.
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

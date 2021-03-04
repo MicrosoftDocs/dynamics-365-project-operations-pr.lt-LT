@@ -65,3 +65,6 @@ Sukūrę tiekėjo sulaikymo sąlygas, galite jas taikyti projektui.
 6. Jei projekte taip pat nustatytos tiekėjo „mokėjimo sumokėjus“ (PWP) sąlygos, įveskite ribinę projekto dalį lauke **PWP ribinės vertės procentas**.
 
 Tiekėjo saugojimo sąlygos taip pat rodomos pardavimo užsakymuose, kuriuos kuriate tiekėjui.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

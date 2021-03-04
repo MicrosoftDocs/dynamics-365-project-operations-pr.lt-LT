@@ -74,3 +74,6 @@ Išplėtus tos komandos nario įrašo eilutę, galite matyti atskiras paskirtas 
 Kai pereisite į **sąmatų** tinklelį, pastebėsite, kad abi to paties ištekliaus užduotys įkainojamos skirtingai.
 A užduoties priskyrimas ištekliui yra įkainotas naudojant **Vaidmens** **Konsultavimo vadovo** atributo reikšmę. B užduoties priskyrimas tam pačiam ištekliui yra įkainotas naudojant **Vaidmens** **Tinklo techniko** atributo reikšmę.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

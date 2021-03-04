@@ -34,3 +34,6 @@ Norėdami kurti ir naudoti laikotarpių tipus, atlikite toliau nurodytus veiksmu
 4. Pasirinkite laikotarpio tipo įrašą, tada pasirinkite **Generuoti laikotarpius**, kad sukurtumėte laikotarpius pagal laikotarpio tipą. Atsižvelgiant į jūsų pasirinktą laikotarpio dažnumą, gali būti leidžiama nurodyti pradžios datą arba laikotarpių, kuriuos reikia sugeneruoti, skaičių.
 5. Pasirinkite **Laikotarpiai**, kad peržiūrėtumėte sugeneruotus laikotarpius.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

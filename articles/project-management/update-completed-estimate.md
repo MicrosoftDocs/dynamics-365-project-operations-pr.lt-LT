@@ -36,3 +36,6 @@ Projektų vadovas gali iš naujo sukurti užduoties pastangų prognozę dviem b�
 - Perrašyti numatytuosius eigos procentais nustatymus su nauju užduoties patikslintos eigos įvertinimu.
 
 Dėl kiekvieno iš šių metodų perskaičiuojamos užduoties ETC, EAC bei eiga procentais ir prognozuojamas pastangų užduočiai nuokrypis. Taip pat perskaičiuojamos suvestinių užduočių EAC, ETC bei eiga procentais ir sukuriama nauja pastangų nuokrypio prognozė.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

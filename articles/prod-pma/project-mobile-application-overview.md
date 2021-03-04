@@ -49,3 +49,6 @@ Mobiliųjų įrenginių programėlė „Dynamics 365 Project Timesheet“ leidž
 - [Projekto laiko įvedimas]( project-time-entry-mobile-workspace.md)
 - [Projekto grafikai mobiliajame įrenginyje](Mobile-timesheets.md)
 - [Mobiliųjų įrenginių programėlės „Microsoft Dynamics 365 Project Timesheet”, skirtos „iOS“ ir „Android“, pasirinktinių laukų naudojimas](custom-fields-mobile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

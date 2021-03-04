@@ -31,3 +31,6 @@ ms.locfileid: "5144177"
 „Project Service Automation“ (PSA) objekte **Faktiniai duomenys** yra daug laukų, kuriuos galima naudoti kaip kainodaros dimensijas ištekliais grindžiamai kainodarai projekto organizacijose. Pavyzdžiui, vienas įprastas laukas yra **Rezervuojami ištekliai**. Mažesnėms įmonėms, turinčioms mažiau nei 20-30 apmokėtinų išteklių, gali būti paprasčiau turėti konkrečius kiekvienų išteklių sąskaitų ir savikainos tarifus. Tačiau, kai apmokestinama darbo jėga didėja, konkrečius tarifus gali būti nerealistiška išlaikyti, nes ištekliaus savikaina ir sąskaitų tarifas pradeda skirtis, kai ištekliai perkeliami į aukštesnį lygį, įgyja daugiau patirties arba kitokių įgūdžių rinkinį. Kadangi šis metodas vis tiek tinka tam tikro dydžio įmonėms, žr. temą [Rezervuojamų išteklių kaip kainodaros dimensijos naudojimas](bookable-resource-pricing-dimension.md), kad suprastumėte, kaip esamą „Project Service“ lauką galima naudoti kaip kainodaros dimensiją.
 
 Kitas pavyzdys – operacijos kategorijos. Klientai ir diegėjai naudojo PSA operacijos kategoriją darbui klasifikuoti ir naudotų kainos ir savikainos lauką remiantis darbo kategorija. Daugiau informacijos žr. [Operacijos kategorijos kaip kainodaros dimensijos naudojimas](transaction-category-pricing-dimension.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

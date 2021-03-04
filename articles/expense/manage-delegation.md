@@ -39,3 +39,6 @@ Jei funkcijų valdymo raktas **Įgalinti išlaidų atstovų sąrašo puslapį** 
 Atstovas gali greitai filtruoti ir ieškoti jiems perduotų esamų išlaidų ataskaitų. Atstovas taip pat gali greitai sukurti naują išlaidų ataskaitą kitiems vartotojams pasirinkdamas **Nauja išlaidų ataskaita**.
 
 Atstovai gali kurti ir valdyti kitų darbuotojų išlaidų ataskaitas nuėję į **Išlaidų valdymas** > **Mano išlaidos** > **Išlaidų ataskaitos** ir pasirinkdami **Atidaryti kito vartotojo išlaidas**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

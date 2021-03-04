@@ -131,3 +131,6 @@ Kaip ir sąskaitų tarifai, žmogiškųjų išteklių išlaidų tarifai nustatom
     1. Išlaidų kainoraštis, susietas su organizacijos vienetu.
     2. Išlaidų kainoraštis, susietas su „Project Service“ parametrais. Kadangi su „Project Service“ parametrais galima susieti išlaidų kainoraščius keliomis skirtingomis valiutomis, PSA pritaiko sutartį dėl projekto, sutarties ar pasiūlymo pasirašiusios organizacijos vieneto valiutą pagal išlaidų kainoraščio valiutą.
     3. Išlaidų kainoraščiams netaikomi kainodaros pagal savikainą ir savikainos antkainio metodai. Net jei šie kainodaros metodai naudojami išlaidų kainoraščio eilutėse siekiant nustatyti operacijų kategorijų išlaidas, sistema juos ignoruoja ir neįveda jokių numatytųjų savikainų.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

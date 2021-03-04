@@ -116,3 +116,6 @@ Bendriniams ištekliams pasirinkite **„Rezervuoti“** ir tada galėsite naudo
 Kai bendrieji ištekliai pakeičiami įvardytais ištekliais, bendrieji ištekliai yra pašalinami iš komandos, o jiems paskirtos užduotys paskiriamos įvardytiems ištekliams, kuriais pakeičiami bendrųjų išteklių išteklių reikalavimai.
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

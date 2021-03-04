@@ -37,3 +37,6 @@ Naudokite šį visuotinio diegimo tipą, jei tikitės programoje „Project Oper
 - Integruota sistema, valdanti vidinius ir apmokėtinus grafikų ir finansų projektus nuo projekto pardavimo iki sąskaitos faktūros išrašymo.
 - Trečiosios šalies įmonės išteklių planavimas (ERP / finansinės apskaitos sistema, integruojama su „Project Operations”).
 - Trečiosios šalies sistema, skirta dirbti su pardavimo mokesčiais, valiutos kursais, išlaidų kompensacijomis ir ne projekto išlaidomis.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

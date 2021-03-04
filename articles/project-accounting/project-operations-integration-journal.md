@@ -55,3 +55,6 @@ Tik toliau pateikiami apskaitos atributai gali būti atnaujinti „Project Opera
 Integravimo žurnalo eilutes galima panaikinti, tačiau iš naujo paleidus periodinį procesą **Importuoti iš paruošimo**, visos neužregistruotos eilutės bus vėl įterptos į žurnalą.
 
 Kai registruojate integravimo žurnalą, sukuriamos projekto antrinės knygos ir DK operacijos. Jos naudojamos toliau sąskaitas faktūras klientams teikti, pajamoms pripažinti ir finansinėms ataskaitoms teikti.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

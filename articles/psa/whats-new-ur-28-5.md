@@ -42,3 +42,6 @@ Buvo pataisytos šios problemos:
 
 - Grafiko pagalbos ieškos efektyvumo prastėjimas
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -66,3 +66,6 @@ Jei atlikote visas tris anksčiau minėtas patikras ir vis dar nematote tinkamos
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

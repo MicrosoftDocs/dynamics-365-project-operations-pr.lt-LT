@@ -45,3 +45,6 @@ Anksčiau šioje temoje pateiktas PDF failo saitas buvo pašalintas, o jo turiny
 
 > [!NOTE]
 > Ši tema bus pašalinta iš būsimų atnaujintų dokumentų. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

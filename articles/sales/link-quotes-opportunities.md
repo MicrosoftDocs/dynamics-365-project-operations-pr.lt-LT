@@ -56,3 +56,6 @@ Esamas pasiūlymas gali būti susietas su galimybe. Atlikite šiuos veiksmus ir 
    Kai perkeliate galimybę į šį etapą, galite pažymėti šį pasiūlymą iš pasiūlymų, susijusių su šia galimybe, sąrašo. Pažymėjus šį pasiūlymą nurodoma, kad su juo keliaujate pirmyn.
 
    Visi kiti su galimybe susieti pasiūlymai vis tiek bus pasiekiami ir būs aktyvūs tol, kol laimėsite vieną iš jų. Galite perkelti pardavimo procesą atgal į ankstesnį etapą – **Patvirtinti tinkamumą** – ir pasirinkti kitą pasiūlymą ir pereiti į priekį.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

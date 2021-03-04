@@ -44,3 +44,6 @@ Malonu pranešti apie naujausią „Dynamics 365“ programos „Project Service
 - Ištaisyta: ištaisytos 24 darbo valandų šablonų, kurie netiksliai įtraukia papildomą dieną į užduotis, klaidos.
 - Ištaisyta: ištaisytos +13 GMT darbo valandų šablonų, kurie netiksliai perkelia užduotis viena diena į priekį, klaidos.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

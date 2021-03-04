@@ -76,3 +76,6 @@ Galite naudoti vieną iš toliau pateikiamų būdų, kad sukurtumėte pirkimo u�
 
 Norėdami gauti daugiau informacijos žr. [Pirkimo užsakymo elementų gavimas iš elementų reikalavimo](tasks/receive-items-purchase-order-item-requirement.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

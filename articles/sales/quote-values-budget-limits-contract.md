@@ -43,3 +43,6 @@ Toliau nurodyti skirtukai ir KPI, kuriuos galite naudoti projekto pasiūlyme ir 
 | Pelningumo analizė | Skirtukas pasiūlyme | Skirtukas rodo toliau pateiktas metrikas.</br>- Bendra apmokestinama savikaina</br></br>- Bendra neapmokestinama savikaina</br>- Bendrosios pajamos</br>- Bendrosios pajamos (pagrindinės)</br>- Bruto marža</br>- Pakoreguota bruto marža|
 | Palyginimas su kliento lūkesčiais | Skirtukas pasiūlyme | Šis skirtukas rodo toliau pateiktas metrikas.</br>- Numatomas baigimas</br>- Pageidaujamas baigimas</br>- Kliento biudžetas</br>- Pasiūlymo vertė |
 | Pasiūlymo analizė | Skirtukas pasiūlyme | Šiame skirtuke apibendrinami šie svarbiausi projekto pasiūlymo KPI</br>- Palyginimas su kliento lūkesčiais dėl biudžeto ir grafiko</br>- Bruto marža</br>- Pakoreguota bruto marža |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

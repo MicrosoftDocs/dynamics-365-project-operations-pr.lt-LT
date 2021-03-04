@@ -88,3 +88,6 @@ Sąskaitos faktūros grafikai taikomi kiekvienai konkrečiai sutarties eilutei i
 ## <a name="changes-from-dynamics-365-sales-orders"></a>Pasikeitimai iš „Dynamics 365 Sales“ pasiūlymų
 
 „Project Operations“ sutartys kuriamos „Dynamics 365 Sales“ užsakymuose. Tačiau yra svarbių funkcijų skirtumų. Sutartys turi savus formos ir UI elementus, verslo taisykles, verslo logiką papildiniuose ir kliento scenarijus, kuriais jos ir skiriasi nuo užsakymų. Dėl šių priežasčių „Sales“ užsakymo ir „Project Operations“ sutarties apkeisti vietomis negalima.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

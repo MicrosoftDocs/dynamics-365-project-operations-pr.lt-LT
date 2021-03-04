@@ -44,3 +44,6 @@ Kai biudžetas arba biudžeto peržiūra buvo paskirta, galite peržiūrėti pas
 10. Kai paskirta taip, kaip norite, puslapyje „Projekto biudžetas“ spustelėkite „Pateikti“, kad išsiųstumėte biudžetą arba biudžeto peržiūrą į patvirtinimo darbo eigą.  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

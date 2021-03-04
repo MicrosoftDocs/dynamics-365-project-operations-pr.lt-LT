@@ -55,3 +55,6 @@ Išlaidos, kurios dar nebuvo pateiktos, gali būti panaikintos. Norėdami panaik
 ## <a name="see-also"></a>Taip pat žr.
 
 - [Tvirtinimų apžvalga](../approvals/approvals-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -82,3 +82,6 @@ Tai yra optimalesnė užduočių atsiejimo nuo sutarties eilučių patirtis. Gal
 4. Atsivėrusio dialogo puslapio išplečiamajame sąraše pasirinkite sutarties eilutę.
 5. Pažymėkite žymės langelį, kad nurodytumėte, ar susiejimas taip pat turi būti pašalintas iš visų pasirinktų užduočių antrinių užduočių. Pažymėdami šį langelį taip pat atsiesite pasirinktų užduočių antrines užduotis nuo sutarties eilutės.
 6. Pasirinkite **Gerai**. Įspėjimo pranešimas rodo, kad pašalinus šį susiejimą, gali būti atšaukti visi faktiniai duomenys, anksčiau įrašyti šioje užduotyje. Norėdami pašalinti susiejimą tarp užduoties ir projektu pagrįstos sutarties eilutės, įspėjimo dialogo lange spustelėkite **Gerai**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

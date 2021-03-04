@@ -47,3 +47,6 @@ Kai jau laimėjote projekto pasiūlymą, atėjo metas sukurti sutartį su klient
   
 ### <a name="see-also"></a>Taip pat žr.  
  [Klientų vadovo vadovas](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

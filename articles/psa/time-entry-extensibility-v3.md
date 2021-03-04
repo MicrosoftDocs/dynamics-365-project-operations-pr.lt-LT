@@ -132,3 +132,6 @@ Norėdami atlikti bet kokius tikrinimus, kuriems reikia daugiau konteksto, nei y
 
 > [!IMPORTANT] 
 > Šiuo metu žinoma problema, esanti TBX puslapiuose, neleidžia vartotojams taisyti informacijos ir iš naujo pasirinkti Atlikta, kai naujinimo priedo tikrinimas nesėkmingas. Kaip problemos sprendimą nustatykite veiklos taisyklės tikrinimus, kad, kiek įmanoma, būtų išvengta šios situacijos.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

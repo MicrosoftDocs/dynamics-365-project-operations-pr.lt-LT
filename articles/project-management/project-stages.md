@@ -63,3 +63,6 @@ Kai projekto veikla baigiama, projektų vadovas gali atnaujinti etapą į **Užb
 
 Kai visos projekto operacijos įrašytos, projektų vadovas gali atnaujinti etapą **Uždaryti**. Po to, jokių operacijų nebus galima įrašyti, o projektas nustatomas tik skaityti.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

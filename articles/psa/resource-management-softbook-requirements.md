@@ -63,3 +63,6 @@ Tą patį metodą galite naudoti, kad atšauktumėte galutinę rezervaciją arba
 Norėdami preliminariai rezervuotus išteklius pakeisti į galutinai rezervuotus projekto skirtuke **Komanda**, pažymėkite išteklius, tada pažymėkite **Patvirtinti**.
 
 ![Komanda „Patvirtinti“](media/Resource-Management-image83.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

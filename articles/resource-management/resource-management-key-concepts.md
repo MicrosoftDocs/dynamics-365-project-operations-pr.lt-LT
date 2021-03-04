@@ -35,3 +35,6 @@ Ištekliai yra svarbiausias paslaugomis pagrįstas organizacijos turtas. Turėda
 
 
 Galite suformuoti savo projekto komandą naudodami bendruosius arba įvardintus „Project Operations“ išteklius. Galite naudoti įvairius metodus, kad įtrauktumėte ir priskirtumėte komandos narius ir valdytumėte jų rezervacijas ir priskyrimus. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

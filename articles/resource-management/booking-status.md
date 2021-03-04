@@ -20,3 +20,6 @@ ms.locfileid: "4514558"
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
 Galite naudoti funkcijas, pateiktas „Universal Resource Scheduling“, skirtoje „Dynamics 365 Field Service“, jei norite nustatyti organizacijos rezervavimo būsenas. Dėl informacijos, kaip užbaigti šį nustatymą, žr. [Rezervavimo būsenų nustatymas](https://docs.microsoft.com/dynamics365/field-service/set-up-booking-statuses).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

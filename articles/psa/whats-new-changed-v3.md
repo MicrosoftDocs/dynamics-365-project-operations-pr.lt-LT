@@ -257,3 +257,6 @@ Atliekant apmokestinamų vaidmenų ir apmokestinamų kategorijų sąranką taip 
 
 > [!NOTE]
 > Spustelėjus **Kurti pasirinktines kaina** gali tekti šiek tiek palaukti, kol bus sukurtas pasirinktinis kainoraštis. Rekomenduojame atnaujinti tinklelį, o ne spustelėti kelis kartus. Pasirinktinis kainoraštis sukurtas, jei prie susieto kainoraščio pavadinimo pridėtas pasiūlymo pavadinimas arba projekto sutarties pavadinimas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

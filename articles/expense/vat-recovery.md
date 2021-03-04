@@ -66,3 +66,6 @@ Kai Arnas yra pasiruošęs nusiųsti duomenis trečiosios šalies paslaugų teik
 Arnas turi patikrinti, ar už išlaidų ataskaitoje nurodytas operacijas galima susigrąžinti PVM ir ar prie ataskaitų pridėtos skaitmeninės kvitų kopijos. Kad galėtų apdoroti išlaidas, už kurias norima susigrąžinti savo šalyje sumokėtą PVM, Arnas atidaro puslapį **Išlaidų mokesčių susigrąžinimas** ir pasirenka išlaidų ataskaitą, kurią reikia patvirtinti. Jis patikrina, ar kvitai išrašyti įmonės, o ne darbuotojo vardu. (Norint susigrąžinti PVM, kvitai turi būti išrašyti įmonės vardu.) Arnas patikrina, ar nurodyti tinkami PVM grupė ir prekės PVM kodai.
 
 Kai Arnas gauna popierinius kvitus, jis pakeičia išlaidų ataskaitos būseną į **Paruošta susigrąžinti**. Tada jis gali pateikti deklaraciją dėl susigrąžinimo atitinkamai mokesčių institucijai. Šiuo atveju atitinkama mokesčių institucija Jungtinėse Valstijose yra Mokesčių tarnyba (IRS).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

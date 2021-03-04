@@ -28,3 +28,6 @@ ms.locfileid: "4960032"
 *Dienpinigiai* yra suma, mokama darbuotojui, kuris keliauja darbo reikalais. Išlaidų valdyme galite sukurti dienpinigius skirtingoms keliavimo situacijoms. Dienpinigiai gali būti pagrįsti metų laiku, kelionės vieta arba abiem. Kai sukuriate dienpinigius, galite nurodyti, kad už dienpinigius procentinė dalis bus išskaičiuota, jei darbuotojas gaus papildomą maitinimą ar aptarnavimą. Taip pat galite nustatyti mažiausią ir didžiausią valandų skaičių, už kurias būtų skiriami dienpinigiai darbuotojui keliaujant.
 
 Bendra dienpinigių suma apskaičiuojama pagal pradžios ir pabaigos datas, kurias galite nustatyti puslapyje **Dienpinigiai**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

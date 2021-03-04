@@ -104,3 +104,6 @@ Federalinių subsidijų tyrimo išlaidų grafike yra šie stulpeliai:
 - Federalinė vietinės pagalbos katalogas
 - Kvitai
 - Išlaidos
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

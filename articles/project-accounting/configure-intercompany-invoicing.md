@@ -101,3 +101,6 @@ Toliau pateiktame pavyzdyje „Contoso Robotics USA“ (USPM) yra skolinimosi ju
           - **Išteklių paskirstymo įmonė** = **Contoso Robotics UK**
           - **Sąskaitos tarifas** = **200 USD**
       9. Eikite į **Pardavimas** > **Projekto sutartys** ir pridėkite " **„Adventure Works“ sąskaitų tarifų** kainoraštį prie „Adventure Works“ projekto sutarties projekto kainoraščio.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

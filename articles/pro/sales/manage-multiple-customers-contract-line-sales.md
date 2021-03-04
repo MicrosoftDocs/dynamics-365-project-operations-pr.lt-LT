@@ -43,3 +43,6 @@ Toliau pateikiami projektu pagrįstos sutarties eilutės **Sutartis** kliento į
 Atsiskaitymo išskaidymo procentines vertes galima redaguoti tinklelyje. Jei atsiskaitymo išskaidymo procentinės vertės nesudaro 100 procentų, pateikiama klaida. Pakoregavę atsiskaitymo išskaidymo procentines vertes, atnaujinkite puslapį, kad pašalintumėte klaidą.
 
 Taip pat galite pasirinkti parinktį **Paskirstyti tolygiai** sutarties eilutės kliento papildomame tinklelyje. Tai pasirinkus atsiskaitymas išskaidomas tolygiai visiems sutarties eilutės klientams. Jei yra koks nors apvalinimo koeficientas, jis bus įtrauktas į apvalinimo klientą. Vienam sutarties eilutės klientui visada taikoma parinktis **Apvalinimas** ir žymė **Apvalinimas** nustatoma kaip **Taip**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

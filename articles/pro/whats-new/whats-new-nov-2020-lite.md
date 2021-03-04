@@ -37,3 +37,6 @@ Toliau pateikiamoje lentelėje išvardyti naujinimai, skirti „Project Operatio
 | Laikas ir spartusis išlaidų įrašas | 2047499          | Laiko įrašo puslapyje esančiu mygtuku **Naujas** atidaromas puslapis **Naujas el. pašto parašas**.                                                                                               |
 | Laikas ir spartusis išlaidų įrašas | 2059859          | Kuriant išlaidų įrašą, atidaromas netikėtas iššokantysis langas.                                                                                                                         |
 | Kita                        | 2044181          | [Pirkimo užsakymo šalinimas] – klaida „Įrašas nepasiekiamas“ įvyksta bandant pašalinti **msdyn_ProjectServiceCore_Patch** ir msdyn „Project Service” pagrindinius sprendimus.        |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

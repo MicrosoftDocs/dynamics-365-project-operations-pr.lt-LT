@@ -48,3 +48,6 @@ Darbo eiga yra verslo procesų ir apibrėžia, kaip dokumentas teka sistema. Dar
 |       <strong>Kelionės paraiška</strong>       |          Kurkite kelionių paraiškų patvirtinimo darbo eigas.           |
 |      <strong>Avansinis mokėjimo užklausa</strong>      |         Grynųjų pinigų avanso užklausų patvirtinimo darbo eigų kūrimas.          |
 |        <strong>PVM mokesčių grąžinimas</strong>        | Kurti pridėtinės vertės mokesčio (PVM) susigrąžinimo darbo eigas.  |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

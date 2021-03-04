@@ -344,3 +344,6 @@ Per pirmą mėnesį projekto konsultantai iš viso užrašė 800 valandų. Proje
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

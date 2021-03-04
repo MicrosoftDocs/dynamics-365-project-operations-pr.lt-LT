@@ -33,3 +33,6 @@ Visų projekto pasiūlymų sąrašą galite matyti sąrašo puslapyje **Pasiūly
 2. Norėdami pasirinkti kitus pasiūlymų filtruotuosius rodinius, naudokite **Rodinio perjungiklį**. Naudodami pasirinktinius filtro kriterijus, galite konfigūruoti savo rodinius ir naršymo galimybes.
 
 Pasiūlymus galima kurti arba naikinti šiame sąrašo puslapyje arba išsamios informacijos puslapyje.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

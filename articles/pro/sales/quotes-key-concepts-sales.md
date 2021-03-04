@@ -89,3 +89,6 @@ Sąskaitos faktūros grafikas būdingas kiekvienai pasiūlymo eilutei ir yra pas
 - „Project Operations“ pasiūlymai turi savus formos ir UI elementus, verslo taisykles, verslo logiką papildiniuose ir kliento scenarijus, kuriais jie ir skiriasi nuo „Sales“ pasiūlymų.
 
 Dėl šių priežasčių nerekomenduojama naudoti „Sales“ pasiūlymo ir „Project Operations“ pasiūlymų keičiant juos vietomis.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

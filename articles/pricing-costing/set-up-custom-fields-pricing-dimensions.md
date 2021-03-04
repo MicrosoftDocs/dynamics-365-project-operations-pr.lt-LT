@@ -96,3 +96,6 @@ Dimensijos prioriteto nustatymas padeda kainodarai sukurti kainą netgi tada, ka
 
 - **Savikainos prioritetas**: dimensijos savikainos prioriteto reikšmė nurodys dimensijos įvertinimą lygindama su savikainos sąranka. **Savikainos prioriteto** reikšmė turi būti unikali visose dimensijose, kurios taikomos **Taikoma savikainai**.
 - **Pardavimo prioritetas**: dimensijos pardavimo prioriteto reikšmė nurodys dimensijos įvertinimą lygindama su pardavimo kainų arba sąskaitų tarifų sąranka. **Pardavimo prioriteto** reikšmė turi būti unikali visose dimensijose, kurios taikomos **Taikoma pardavimui**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -146,3 +146,6 @@ Toliau esančioje lentelėje pateikiamas išsamus paruoštų formų ir rodinių 
 |  Faktinis|• Informacija<br>• Aktyvieji faktiniai duomenys|• Faktinis susietasis rodinys|
 
 Pasirinktinius laukus taip pat gali reikėti įtraukti į veiklos taisykles atsižvelgiant į tai, ką nustatėte. Vienas iš paruoštų pavyzdžių yra skirtas veiklos taisyklei **„Laiko įrašo redagavimas atsižvelgiant į būseną“**. Ši taisyklė apibrėžia, kuriuos laukus reikia užrakinti, kai „Laiko įrašas“ yra neredaguojamoje būsenoje, tokioje kaip **„Patvirtinta“**. Įtraukite laukus į šią veiklos taisyklę, kad nebūtų galima laukų redaguoti, kai „Laiko įrašas“ yra bet kokioje būsenoje, išskyrus **„Juodraštis“** arba **„Grąžinta“**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

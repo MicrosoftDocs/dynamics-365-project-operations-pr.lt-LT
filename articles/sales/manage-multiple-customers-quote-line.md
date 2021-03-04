@@ -44,3 +44,6 @@ Galite kurti, atnaujinti arba panaikinti pasiūlymo eilutės klientą skirtuke *
 Galite redaguoti atsiskaitymo išskaidytą procentinę dalį eilutėje. Kai atsiskaitymo išskaudyta procentinė dalis nėra iš viso 100%, įvyksta klaida. Kai redaguojate atsiskaitymo išskaidytą procentinę dalį, atnaujinkite pasiūlymo eilutės puslapį ir pašalinkite klaidą.
 
 Naudokite tolygiai paskirstytą veiksmą pasiūlymo eilutės klientų papildomame tinklelyje, norėdami paskirstyti atsiskaitymo sumą visiems pasiūlymo eilučių klientams. Jei yra apvalinimo koeficientas, jis bus įtrauktas į apvalinimo klientą. Vienas iš pasiūlymo eilučių klientų yra visada žymimas kaip apvalinimo klientas, o tai reiškia, kad pasiūlymo eilutės kliento įraše yra apvalinimo žymė nustatyta į **Taip**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Jei klientas patvirtina projekto pasiūlymą, galite nukopijuoti projekto pasiū
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

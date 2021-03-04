@@ -57,3 +57,6 @@ Malonu pranešti apie naujausią „Dynamics 365“ programos „Project Service
 - Ištaisyta: kai operacijos klasė yra **Laikas**, visų objektų **UnitGroup** yra neredaguotina, įskaitant **QuoteLineDetails**, **JournalLine**, **InvoiceLineDetail** ir **ContractLineDetails**. Tačiau **Vienetas** negalima redaguoti tik **JournalLine** ir **InvoiceLineDetails**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

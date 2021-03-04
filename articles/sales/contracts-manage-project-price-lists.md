@@ -72,3 +72,6 @@ Konkretiems klientams taikomus kainoraščius taip pat galite nustatyti, kai su 
 ## <a name="custom-pricing-on-a-project-contract"></a>Pasirinktinė kainodara projekto sutartyje
 
 Kai turite organizacinius ir konkretiems klientams taikomus projekto kainoraščius, jūsų projekto sutartys bus sukurtos automatiškai susiejant šiuos projekto kainoraščius. Tačiau projekto kainoraščiai projekto sutartyje visada kopijuojami prie jų nurodant datą ir sutarties pavadinimą. Tada klientų ir projektų vadovai gali pradėti redaguoti šių kopijų kainas. Šios pakeistos kainos bus taikomos tik šiai projekto sutarčiai.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

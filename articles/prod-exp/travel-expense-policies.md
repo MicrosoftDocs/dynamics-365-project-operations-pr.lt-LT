@@ -51,3 +51,6 @@ Pateikiame kelis pasiūlymus, kurie gali padėti jums kuriant naujas išlaidų v
 ## <a name="when-to-evaluate-policies"></a>Kada vertinti strategijas
 
 Išlaidų valdymo parametruose yra parinktis įvertinti išlaidų valdymo strategijas įrašius eilutę arba pateikus išlaidų ataskaitą. Jei pasirinksite įvertinti įrašius eilutę, tai užtikrins, kad naudotojai galės anksčiau matyti, ką reikia daryti norint iš karto užbaigti savo išlaidų ataskaitą. Kitu atveju galite atidėti strategijos įvertinimą ir sutaupyti laiko tvirtindami pabaigoje, kai pateikiama į darbo eigą.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

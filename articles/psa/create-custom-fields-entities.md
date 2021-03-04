@@ -73,3 +73,6 @@ Objektų dimensijų duomenis galite kurti rankiniu būdu arba naudodami „Micro
 > ![Standartinio pavadinimo objekto duomenų pavyzdžiai ](media/ST-data.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

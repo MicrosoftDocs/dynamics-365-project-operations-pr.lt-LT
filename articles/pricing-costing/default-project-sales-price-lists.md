@@ -57,3 +57,6 @@ Kainoraščiai nėra numatytieji jokiame „Project Operations“ objekte. Išla
 5. Tada sistema peržiūri kainoraščių, atitinkančių gaunamo įvertinimo arba faktinės eilutės data, įsigaliojimo datą. 
 6. Jei yra keli kainoraščiai, kurie galioja gaunamo įvertinimo arba faktinės eilutės datą, pasirenkamas vėliausiai sukurtas kainoraštis.
 7. Jei savikainos kainoraščiai nėra pridėti prie projekto parametrų, atitinkančių valiutą ir įsigaliojimo datą, sistema pagal nustato numatytąjį savikainos tarifą į nulį (0) gaunamo įvertinimo arba faktinėje eilutėje.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

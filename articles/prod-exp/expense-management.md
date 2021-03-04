@@ -58,3 +58,6 @@ Papildoma pagalba teikiama kaip užduočių vadovai. Norėdami gauti prieigą pr
 ### <a name="videos"></a>Vaizdo įrašai
 
 Peržiūrėkite mokomuosius vaizdo įrašus, kurie dabar pasiekiami [„Microsoft Dynamics 365“ „YouTube“ kanale](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

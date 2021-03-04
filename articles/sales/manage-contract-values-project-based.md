@@ -57,3 +57,6 @@ Taisyklė: projektas ir tam tikra operacijų klasė gali būti įtraukti tik į 
 | C1       | CL2           | P1      | No           | Taip             | No          | Tinkama           | Projekto P1 laikas ir mokesčiai įtraukiami į CL1. P1 projekto išlaidos yra įtrauktos į CL2. </br>   Nėra persidengiančių elementų, įtrauktų į kiekvieną sutarties eilutę, todėl jie yra galiojantys.  |
 | C1       | CL1           | P1      | Taip          | Taip             | Taip         | Negalioja       | Pažeidžia taisyklę. P1 projekto laikas, išlaidos ir mokesčiai įtraukiami į dviejų sutarčių eilutes.                                                                                               |
 | CL2      | CL2           | P1      | Taip          | Taip             | Taip         | Negalioja       | Pažeidžia taisyklę. P1 projekto laikas, išlaidos ir mokesčiai įtraukiami į dviejų sutarčių eilutes.                                                                                               |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

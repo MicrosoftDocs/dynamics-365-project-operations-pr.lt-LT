@@ -200,3 +200,6 @@ Peržiūrint laiką aukštesniuose lygiuose, langeliai, esantys skirtuke **Derin
 Jei turite ištekliaus užduoties priskyrimus, bet ne rezervavimus, formoje **Projektai**, esančioje skirtuke **Derinimas**, pažymėkite rezervavimo trūkumą, o tada pasirinkite **Išplėsti rezervavimą**. Atsiranda dialogo langas **Išplėsti rezervavimą** ir rodomas rezervavimas, reikalingas ištekliaus trūkumui spręsti. Dialogo lange taip pat nurodomi esami ištekliaus rezervavimai visuose projektuose arba kituose planiniuose objektuose. Jei pasirinksite **Gerai**, kad sukurtumėte ištekliaus rezervavimą, neatsižvelgiant į ištekliaus pasiekiamumą, galite viršyti rezervavimo limitą.
 
 Projektų vadovas arba išteklių vadovas gali naudoti grafiko lentą, kad valdytų situacijas, kai išteklius rezervuojamas per daug nepaisant jo pajėgumo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

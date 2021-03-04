@@ -153,3 +153,6 @@ Jei reikia naudoti „Power Query“, vadovaukitės toliau pateikiamais nurodyma
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Projekto sutarties eilutės etapo susiejimas projektų ir sutarčių dalyje (PSA 3.x į „Dynamics”) – v2 šablonas.
 
 [![Projekto sutarties eilutės etapo susiejimas su antros versijos šablonu](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

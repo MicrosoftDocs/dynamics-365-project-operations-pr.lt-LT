@@ -65,3 +65,6 @@ Veiklos procesas nuo galimo kliento iki galimybės palaiko šiuos etapus.
 > Jei jūsų projektais pagrįstas sandoris pradėtas su galimybe, pirmenybė teikiama galimybės pardavimo procesui.
 
 Norėdami pagal poreikį sekti pardavimo procesą, galite redaguoti produkto veiklos procesų seką arba kurti savo verslo procesų sekas. Daugiau informacijos apie veiklos procesų seką žr. [Veiklos procesų sekų apžvalga](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ Vienu metu galite sukurti keletą įmonės vidaus sąskaitų faktūrų visiems s
 ## <a name="post-the-intercompany-vendor-invoice"></a>Įmonės vidaus tiekėjo sąskaitos faktūros registravimas
 
 Užregistravus atitinkamą įmonės vidaus kliento sąskaitą faktūrą, skolinimosi juridinio objekto projekto apskaitininkas gali peržiūrėti laukiančias įmonės vidaus tiekėjo sąskaitas faktūras. Finansų srityje, skolinimosi juridiniame objekte, eikite į **Mokėtinos sumos** > **Sąskaitos faktūros** > **Laukianti tiekėjo SF**. Laukiančios sąskaitos faktūros numeris sutaps su įmonės vidaus kliento sąskaitos faktūros numeriu. Patikrinkite, ar sąskaita faktūra teisinga, o tada ją užregistruokite. Įmonės vidaus tiekėjo sąskaitą faktūrą užregistravus, sukuriama projekto antrinės knygos ir didžiosios knygos operacija, atspindinti operacijos išlaidas skolinimosi juridiniame objekte.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

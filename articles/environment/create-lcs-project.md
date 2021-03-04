@@ -36,3 +36,6 @@ Naudokite „Lifecycle Services“ (LCS), kad valdytumėte jūsų „Dynamics 36
 
 Naudokite šį LCS projektą „Project Operations“ aplinkai diegti.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

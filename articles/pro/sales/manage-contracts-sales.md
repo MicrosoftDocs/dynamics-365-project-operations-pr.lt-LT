@@ -33,3 +33,6 @@ Visų projekto sutarčių sąrašą galite matyti sąrašo puslapyje **Sutartys*
 2. Norėdami pasirinkti kitus filtruotuosius rodinius, pasirinkite **rodinio perjungiklį** (šalia rodinio pavadinimo esančią išskleidžiamąją rodyklę). Galite kurti savo rodinius su pasirinktiniais filtravimo kriterijais.
 
 Sutartis galima kurti arba naikinti šiame sąrašo puslapyje arba išsamios informacijos puslapyje.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

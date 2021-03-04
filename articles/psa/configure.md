@@ -58,3 +58,6 @@ Prieš naudodami „[!INCLUDE[pn_project_service_auto](../includes/pn-project-se
  [Projekto vadovo vadovas](../psa/project-manager-guide.md)   
  [Išteklių vadovo vadovas](../psa/resource-manager-guide.md)   
  [Laiko, išlaidų ir bendradarbiavimo vadovas](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

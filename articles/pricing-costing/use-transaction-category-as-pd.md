@@ -50,3 +50,6 @@ Toliau esančioje lentelėje pateiktos visos paruoštos naudoti formos ir rodini
 2. Puslapio **Parametrai** skirtuke **Suma pagrįstos kainodaros dimensijos** įsitikinkite, kad tinklelyje rodomi objekto **Kainodaros dimensijos** įrašai.
 3. Prie šio sąrašo pridėkite **Operacijos kategorija** ir nustatykite laukus **Taikoma savikainai** ir **Taikoma pardavimui** kaip **Taip**.
 4. Lauke **Dimensijos tipas** pasirinkite **Pagrįsta suma**, tada pasirinkite lauko **Operacijos kategorija** prioritetą, nes jis susijęs su savikaina ir pardavimu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

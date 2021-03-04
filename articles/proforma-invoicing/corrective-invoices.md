@@ -36,3 +36,6 @@ Patvirtinus koreguojamąją sąskaitą faktūrą, pradinis faktinis pardavimas, 
 
 - Šešių valandų faktinis pardavimas, už kurį išrašyta sąskaita.
 - Likusių dviejų valandų faktinis pardavimas, už kurį neišrašyta sąskaita. Šiai operacijai vėliau galima išrašyti sąskaitą arba pažymėti ją kaip neapmokestinamąją, atsižvelgiant į derybas su klientu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

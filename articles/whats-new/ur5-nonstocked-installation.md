@@ -125,3 +125,6 @@ Toliau nurodyti objektų saugos teisių naujinimai būtini kaip UR5 naujinimo da
  
  ![Didžiosios knygos struktūros sinchronizavimas](media/DW6.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

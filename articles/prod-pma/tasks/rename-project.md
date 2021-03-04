@@ -35,3 +35,6 @@ Projekto etapai gali būti naudojami kaip projekto ciklo vadovas. Galite apibrė
 4. Sąraše pasirinkite iš anksto nustatytą arba vartotojo nustatytą etapą, kurį norite modifikuoti. 
 5. Lauke Projekto etapas įrašykite naują pavadinimą.
 6. Spustelėkite Įrašyti.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

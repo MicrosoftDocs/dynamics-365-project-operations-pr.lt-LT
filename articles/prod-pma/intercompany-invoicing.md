@@ -113,3 +113,6 @@ Kai skolinantis juridinis subjektas, USSI, užregistruoja vidinės įmonės klie
 Daugiau informacijos žr. [Vidinės įmonės projektų SF išrašymo konfigūravimas](tasks/configure-intercompany-project-invoicing.md).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ Naudodami elementų reikalavimą, o ne elementų operaciją, galite planuoti pri
 21. Lauke **Produktų gavimas** įveskite reikšmę.
 22. Pasirinkite **Gerai**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

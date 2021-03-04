@@ -98,3 +98,6 @@ Kai apdorojate likusias biudžeto sumas, galite sukurti perkeliamų sumų operac
 5. Pasirinkite kiekvieno projekto, kurį norite apdoroti, parinktį, esančią projekto eilutės pradžioje. 
 6. Pasirinkite **Apdoroti** , jei norite perkelti likusias pasirinktų projektų biudžetų sumas į pasirinktus finansinius metus.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

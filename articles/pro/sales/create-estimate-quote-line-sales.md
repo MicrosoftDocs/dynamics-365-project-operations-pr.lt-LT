@@ -67,3 +67,6 @@ Išlaidų pasiūlymo eilutės išsamios informacijos valiuta pagal numatytąsias
 Pelningumo skaičiavimas konvertuoja išlaidų ir pardavimų pasiūlymo eilutės išsamią informaciją į pagrindinę aplinkos valiutą, kad praneštų apie bendrą numatomą pasiūlymo maržą.
 
 Dėl šios priežasties gali atsirasti valiutos apvalinimo klaidų ir maržos pokyčių dėl datų efektyvumo keitimo kursų stokos. Šiuos skaičiavimus naudokite tik su projekto pasiūlymais kaip suderinimus, o ne faktines teisės aktų nustatytas arba kitokias ataskaitas, kurioms reikia tikslesnio apvalinimo ir didesnio datos efektyvumo valiutos kursams.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

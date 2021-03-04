@@ -144,3 +144,6 @@ Norėdami atlikti bet kokius tikrinimus, kuriems reikia daugiau konteksto, nei y
 
 ### <a name="copying-time-entries"></a>Laiko įrašų kopijavimas
 Norėdami apibrėžti laukų, kuriuos reikia kopijuoti įrašant laiką, sąrašą, naudokite rodinį **Kopijuoti laiko įrašo stulpelius**. **Data** ir **Trukmė** yra būtini laukai, todėl jų negalima pašalinti iš rodinio.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

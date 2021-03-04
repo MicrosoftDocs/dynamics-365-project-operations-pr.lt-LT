@@ -103,3 +103,6 @@ Biudžeto kategorijos naudojamos norint automatiškai apskaičiuoti sąskaitos f
 8. Pasirinktinai: atsiskaitymo taisyklę priskirkite papildomiems projektams. „FastTab“ **Projektas** skyriuje **Esami projektai** pasirinkite projektą, tada pasirinkite dešiniosios rodyklės mygtuką norėdami įtraukti projektą į skyrių **Pasirinkti projektai**.
 9. Pasirinktinai: apskaičiuokite procentinę sumą, kurią klientas atšaukia iš sąskaitos faktūros mokėjimų. „FastTab“ **Mokėjimo sulaikymo sąlygos** pasirinkite finansavimo šaltinį, tada lauke **Sulaikymo procentinė dalis** įveskite sulaikymo procentinę dalį.
 10. Norėdami sukurti papildomas projekto sutarties atsiskaitymo taisykles, pakartokite šiuos veiksmus.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

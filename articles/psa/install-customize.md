@@ -55,3 +55,6 @@ ms.locfileid: "5151488"
  [Projekto vadovo vadovas](../psa/project-manager-guide.md)   
  [Išteklių vadovo vadovas](../psa/resource-manager-guide.md)   
  [Laiko, išlaidų ir bendradarbiavimo vadovas](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

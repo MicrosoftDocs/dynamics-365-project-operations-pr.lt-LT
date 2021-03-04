@@ -61,3 +61,6 @@ Kad galėtumėte pradėti sąrankos procesą, reikia priimti toliau nurodytus sp
 
     - Ar kokioms nors subkategorijoms netaikomas mokesčių susigrąžinimas?
     - Kokia yra subkategorijų prekės PVM grupė?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

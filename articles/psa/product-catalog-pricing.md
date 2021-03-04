@@ -64,3 +64,6 @@ Galimybės, pasiūlymo ir projekto sutarties objektai naudoja toliau pateikiamą
 Pagal numatytuosius nustatymus, pasiūlymo eilutėje esančiame lauke **Produktas** pateikiamas visų aktyviųjų produktų, esančių pasiūlymo produkto kainoraštyje, sąrašas. Jei produktas nebuvo suaktyvintas arba jei tai yra juodraštinis produktas, jis nepateikiamas sąraše, net jei jis yra kainoraštyje. 
 
 Produktų katalogo eilutės įtraukiamos kaip sąskaitos faktūros eilutės pirmoje sąskaitoje faktūroje, sukurtoje projekto sutarčiai. Juodraštinėje sąskaitoje faktūroje šias sąskaitų faktūrų eilutes galima panaikinti. Tokiu atveju eilutės bus rodomos kitoje sąskaitoje faktūroje tol, kol joms nebus išrašyta sąskaita faktūra, arba kol sąskaita faktūra nebus išsiųsta klientui. Programoje PSA negalite sukurti sąskaitos faktūros daliniui produkto sąskaitos faktūros eilutės kiekiui. Kai projekto sutarties produktų eilutėms išrašoma sąskaita faktūra, sukuriami faktiniai duomenys. Tačiau šie faktiniai duomenys nesusieti su susijusio projekto objektu. Kitaip tariant, produktu pagrįsto projekto sutarties eilutės nepriklauso nuo jokio projektu pagrįsto naudojimo. PSA neseka medžiagų suvartojimo projektuose.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

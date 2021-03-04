@@ -60,3 +60,6 @@ Programoje „Dynamics 365 Project Operations“ pajamų pripažinimo principai 
 [Pajamų įvertinimų valdymas](rev-rec-completed-contract-method.md)
 
 [Užbaigimo išlaidų apskaičiavimo metodai](cost-complete-methods.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

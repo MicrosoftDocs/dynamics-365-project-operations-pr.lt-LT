@@ -38,3 +38,6 @@ ms.locfileid: "5146358"
 Eikite į susijusį išlaidų įrašą ir įsitikinkite, kad išlaidų įvesties lauke yra suma. Jei pradinio išlaidų įrašo sumos laukas neužpildytas, nustatėte problemą.
  
 Norėdami išspręsti šią problemą, iš naujo sukurkite išlaidų įrašą su tinkama suma ir patvirtinkite jį.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

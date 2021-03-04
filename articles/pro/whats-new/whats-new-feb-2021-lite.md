@@ -38,3 +38,6 @@ ms.locfileid: "5141334"
 | **Projektų planavimas ir sekimas** | 2164035 | Išspręsta funkcijos **Kopijuoti projektą** problema. |
 | **Laiko įrašas** | 2129161 | Taikomi griežtesni apribojimai, siekiant užtikrinti, kad vartotojai negalėtų keisti ir atnaujinti pateikto ar patvirtinto laiko įrašo. |
 | **Laiko įrašas** | 2103572 | Ne projekto laiko įrašų laiko patvirtinimas negali ieškoti projekto tvirtintojo vaidmens. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

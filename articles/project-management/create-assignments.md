@@ -42,3 +42,6 @@ Norėdami ieškoti visų aktyvių rezervuojamų išteklių ir juos priskirti pri
 1. Užduočių tinklelyje, lentoje arba laiko planavimo juostoje pereikite prie langelio **Priskirta (kam)**.
 2. Ieškos lauke pradėkite vesti pavadinimą. Pavadinimo ieškos rezultatai pateikiami **„Išteklių išrinkiklis“**, parinktyje **„Kiti ištekliai“**.
 3. Pažymėkite išteklių, kurį norite priskirti užduočiai arba pažymėkite ištekliaus pavadinimą parinktyje **Kiti komandos ištekliai**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

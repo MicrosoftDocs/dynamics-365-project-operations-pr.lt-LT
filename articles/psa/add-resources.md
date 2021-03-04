@@ -55,3 +55,6 @@ Išteklius galite priskirti organizaciniams vienetams, jei skirtingų įmonės p
   
 ### <a name="see-also"></a>Taip pat žr.  
  [Rezervuojamų išteklių nustatymas](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

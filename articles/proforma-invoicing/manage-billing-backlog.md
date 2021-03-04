@@ -38,3 +38,6 @@ Neapmokestinto pardavimo faktinių sumų, kurių **Neviršytina** būsena yra **
 Jei yra kelių klientų sutarties eilučių, kuriose yra laiko ir medžiagų atsiskaitymo būdas, kai laikas ir išlaidos patvirtinami, kiekvienam klientui pagal sutarties eilutę sukuriamos neapmokestinto pardavimo faktinės sumos pagal sąskaitų išrašymo procentą, nustatytą kiekvienam klientui sutarties eilutėje. Rodinyje **Laiko ir medžiagų atsiskaitymo nebaigtos užduotys** matysite šiuos individualius klientui būdingus neapmokestinto pardavimo faktines sumas. Kiekviena iš šių neapmokestinto pardavimo sumų gali būti pažymėta kaip **Parengta išrašyti sąskaitą faktūrą** atskirai nuo šio rodinio.
 
 Šiame rodinyje rodomos sąskaitos faktūros juodraščio neapmokestinto pardavimo faktinės sumos su **atsiskaitymo būsena** **Kliento sąskaita faktūra sukurta**. Patvirtinus sąskaitos faktūros juodraštį, šio įrašo atsiskaitymo būsena atnaujinama į **Kliento sąskaita faktūra užregistruota**. Atnaujinant šią būsenos reikšmę, kai ji yra šiame etape, nerekomenduojame naudoti pasirinktinio kodo. Jei šios būsenos reikšmės bus atnaujintos naudojant pasirinktinį kodą, „Project Operations“ neveiks tinkamai.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

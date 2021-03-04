@@ -440,3 +440,6 @@ Kai išrašas apskaičiuotas, įvairiuose puslapio **Projekto išrašai** skirtu
 -   **Sunaudojimas** – informacija apie valandų, prekių, išlaidų ir algalapių operacijų naudojimą.
 -   **Sąskaita faktūra** – informacija apie sąskaitas faktūras ir sąskaitų faktūrų klientams išrašymą.
 -   **Valandų įkainis** – valandų, kurios užregistruotos pajamų ir išlaidų sąskaitose, įkainiai.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

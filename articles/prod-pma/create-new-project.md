@@ -104,3 +104,6 @@ Rezervuodami išteklius, projektų vadovai gali filtruoti vaidmens išteklius, g
 
 3. Spustelėkite **Įrašyti** ir uždarykite puslapį.
 4. Skirtuke **Kompetencijos** įtraukite įgūdį **ProjectMgmt** ir sertifikatą **PMP**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

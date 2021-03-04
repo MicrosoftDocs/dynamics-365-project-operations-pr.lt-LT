@@ -55,3 +55,6 @@ Pavyzdžiui, kūrėjui iš „Fabrikam India“, dirbančios su JAV projektu, i�
     | Programų kūrėjas | „Fabrikam US“ | 150 USD |
 
 3. Pridėkite pardavimo kainoraštį **„Fabrikam US“ sąskaitų tarifai** prie projekto sutarties kainoraščio arba prie tam tikro kliento.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

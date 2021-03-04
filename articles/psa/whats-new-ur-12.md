@@ -61,3 +61,6 @@ Džiaugiamės galėdami pranešti apie naujausią Dynamics 365 Project Service A
     - Sutaisyta: dubliuoti objekto ID, randami **Sutarties pagrindinėje** formoje.
     - Sutaisyta: logika buvo atnaujinta taip, kad skirtuke **Pasiūlymo analizė** būtų rodomi skirtuko sąrankos metaduomenys.
     - Sutaisyta: apskaitos data faktiniame įraše dabar gaunama iš laiko datos / išlaidų įrašo datos, o ne patvirtinimo datos.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

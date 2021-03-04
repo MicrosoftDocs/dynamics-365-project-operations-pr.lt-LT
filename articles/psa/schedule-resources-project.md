@@ -83,3 +83,6 @@ Jei jūs naudojate senesnę versiją, dėl išteklių pasiekiamumo, žr. [Ištek
   
 ### <a name="additional-resources"></a>Papildomi ištekliai  
  [Išteklių vadovo vadovas](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -37,3 +37,6 @@ Kadangi Nensė dirbo ties dviem atskirais projektais, kol buvo Frankfurte, kai j
 |Viešbutis         |725 EUR              |557 EUR                        |168 EUR                          |
 |Maitinimas         |346 EUR              |284 EUR                        |62 EUR                           |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

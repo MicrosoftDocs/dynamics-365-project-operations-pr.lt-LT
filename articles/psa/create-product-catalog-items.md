@@ -37,3 +37,6 @@ Jei į projekto kainų pasiūlymų ir sąmatų dalį norite įtraukti produktus,
   
 ### <a name="see-also"></a>Taip pat žr.  
  [„Project Service“ konfigūravimas](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

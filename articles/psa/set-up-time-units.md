@@ -47,3 +47,6 @@ Sukonfigūruokite laiko vienetus prekių kataloge, kurį naudosite kaip pagrind�
   
 ### <a name="see-also"></a>Taip pat žr.  
  [„Project Service“ konfigūravimas](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

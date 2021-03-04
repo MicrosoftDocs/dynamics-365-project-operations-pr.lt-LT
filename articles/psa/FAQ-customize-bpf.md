@@ -107,3 +107,6 @@ Norėdami sukurti asmeninę projekto objekto veiklos procesų seką atlikite ši
 
    ![Rodinių modifikavimo projekto objekte ekrano nuotrauka](media/FAQ-Customize-BPF-8-720.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

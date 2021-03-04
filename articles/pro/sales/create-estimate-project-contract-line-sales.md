@@ -68,3 +68,6 @@ Skaičiuojant pelningumą, **kaštų** ir **pardavimo** sutarties eilutės infor
 
 > [!NOTE]
 > Dėl trūkstamų nuo datos priklausančių valiutos kursų gali įvykti valiutos apvalinimo klaidų ir pasikeisti maržos. Šiuos skaičiavimus atlikite tik su projekto sutartimis kaip apytikrį įvertinimą, o ne kaip faktinį norminį ar kitokį deklaravimą, kuriam reikia didesnio apvalinimo tikslumo ir žinoti valiutos kursų galiojimo datas.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

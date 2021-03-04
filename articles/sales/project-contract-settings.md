@@ -58,3 +58,6 @@ Nurodyti KPI pasiekiami projekto sutarties skirtuke **Sutarties efektyvumas**.
 | Taikoma savikaina | Produktu pagrįstos eilutės | Visų produktu pagrįstos sutarties eilutės faktinių užregistruotų išlaidų suma. |
 | Bruto marža | Projektu pagrįstos eilutės | Sąskaitos faktūros suma – išlaidos, patirtos iki datos / sąskaitos faktūros suma |
 | Numatoma marža | Produktu pagrįstos eilutės | (Sutarties eilutės reikšmė – apskaičiuotos sutarties eilutės išlaidos) / sutarties eilutės reikšmė |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

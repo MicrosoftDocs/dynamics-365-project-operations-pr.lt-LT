@@ -23,3 +23,6 @@ _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems s
 
   - Visos palaikančiosios eilutės sukuriamos susijusiose lentelėse, pvz., žurnaluose ir faktiniuose duomenyse.
   - Prieš tęsiant tvirtintojas projekte pažymimas **projekto tvirtintoju**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

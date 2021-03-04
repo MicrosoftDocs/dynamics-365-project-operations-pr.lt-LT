@@ -27,3 +27,6 @@ Projekto komandos nariai sukuria ir pateikia laiko įrašus patvirtinti, o proje
 
 Informacijos apie įrašo kūrimą, pateikimą arba atšaukimą ir kitus įrankius, kurie padeda gauti ataskaitas, žr. [Laiko įrašo vartotojo funkcijos](ui-behavior-time.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

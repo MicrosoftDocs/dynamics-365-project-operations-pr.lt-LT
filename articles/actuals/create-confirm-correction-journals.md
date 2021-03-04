@@ -89,3 +89,6 @@ Atlikite toliau nurodytus veiksmus norėdami pataisyti vieną ar daugiau išlaid
 8. Projekto puslapyje skirtuke **Faktiniai duomenys** peržiūrėkite **Faktinis susietasis rodinys**. Rodomi pradiniai įrašai ir pataisyti įrašai. Šiame grafike rodomos pradinės išlaidų įrašų sumos ir atitinkamos pataisytų išlaidų įrašų sumos. 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

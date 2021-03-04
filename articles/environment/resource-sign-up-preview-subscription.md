@@ -98,3 +98,6 @@ Vadovaukitės nurodymais, pateiktais temoje [Naujos aplinkos parengimas](resourc
 
 Įdiekite CDS sąrankos ir konfigūracijos duomenis, kaip aprašyta temoje [Konfigūracijos duomenų nustatymas ir taikymas sistemoje „Common Data Service“](resource-apply-pro-setup-config-data.md).
 Atlikite šį veiksmą tik tada, kai įdiegiama „Finance“ demonstracinė aplinka ir demonstraciniai duomenys yra paruošti FO.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

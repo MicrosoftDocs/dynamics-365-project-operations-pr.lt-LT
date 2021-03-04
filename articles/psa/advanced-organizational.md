@@ -167,3 +167,6 @@ Jei jūsų įmonė veikia kaip vienas vienetas, turintis vieną sąnaudų kainor
 Kai projektas kuriamas savarankiškai, numatytasis projekto sutarties vienetas priklauso nuo jį sukūrusio vartotojo. Tas vartotojas taip pat yra numatytasis projektų vadovas. Jei projektas susietas su pardavimo objektu, pvz., pasiūlymu arba projekto sutartimi, projekto sutarties vienetas įtakojamas pardavimo objekto. Tokiu atveju projektų įvertinimai gali būti perskaičiuojami, nes sąnaudų kainoraštis naudojamas apskaičiuojant išlaidų sąmatos pokyčius, jei sutarties vienetas keičiasi.  Pardavimo kainoraštis naudojamas pardavimo skaičiavimams, kurie bus pakeisti taip, kad jie būtų sinchronizuojami su projekto pasiūlymo kainoraščiu.
 
 Projekto **Sutarties vienetas** ir **Valiuta** laukai užrakinami redagavimui, nes jie turi būti sinchronizuojami su pardavimo objekto (pasiūlymo arba projekto sutarties), su kuriuo susietas projektas, reikšmėmis.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

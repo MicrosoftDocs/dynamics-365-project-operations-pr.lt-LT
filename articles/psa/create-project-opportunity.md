@@ -55,3 +55,6 @@ Galimybės yra realūs galimi klientai, kurie domisi jūsų paslaugų pirkimu. �
   
 ### <a name="see-also"></a>Taip pat žr.  
  [Klientų vadovo vadovas](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

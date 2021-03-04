@@ -42,3 +42,6 @@ Norėdami gauti daugiau informacijos žr.:
 - [„Project Operations“ apžvalga](https://dynamics.microsoft.com/en-us/project-operations/overview/)
 - [„Dynamics 365 Project Operations“ 2020 1 leidimo bangos peržiūra](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -68,3 +68,6 @@ ms.locfileid: "5144649"
 > ![Neįtraukite visų susijusių komponentų](media/Do-not-include-required.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

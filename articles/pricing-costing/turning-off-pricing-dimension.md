@@ -45,3 +45,6 @@ Tačiau, kai tai padarysite, gali būti parodytas klaidos pranešimas **Kainodar
 
 
 Kai **Standartinį pavadinimą** išjungsite kaip kainodaros dimensiją, o kainodaros modulis ieškos kainos, iš įvesties konteksto ji naudos tik reikšmę **Org. vienetas**. Jei įvesties konteksto **Org. vienetas** yra „Danys JAV“, rezultatas bus nedeterminuotas, nes abi eilutės sutaps. Kad būtų išvengta tokio scenarijaus, kai kuriate įrašus **Vaidmens kaina** sistema tikrina, ar dimensijų derinys yra unikalus. Jei sukūrus **Vaidmens kainos** įrašus dimensija išjungiama, šis apribojimas gali būti pažeistas. Todėl prieš išjungiant dimensiją reikia panaikinti visas **Vaidmens kainos** ir **Vaidmens kainos antkainio** eilutes, kuriose yra ta dimensijos reikšmė.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

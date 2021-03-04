@@ -24,3 +24,6 @@ Projekto galimybes galima uždaryti kaip laimėtas arba pralaimėtas. Dialogo la
 Jums nebus leista uždaryti galimybės, jei yra su ja susijusių aktyvių pasiūlymų. Galite uždaryti visus aktyvius ir juodraštinius pasiūlymus, susietus su galimybe tuo pačiu metu. Tada galėsite uždaryti galimybę.
 
 Daugiau bendros informacijos apie tai, kaip uždaryti galimybes, rasite [Uždaryti galimybes kaip laimėtas arba pralaimėtas](https://docs.microsoft.com/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

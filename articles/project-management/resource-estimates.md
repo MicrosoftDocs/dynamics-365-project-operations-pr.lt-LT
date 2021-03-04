@@ -34,3 +34,6 @@ Pardavimo kainos taikomos vieną kartą sandoriui. Numatytojo pardavimo kainora�
 1. Organizacija
 2. Klientas
 3. Pasiūlymas / sutartis
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

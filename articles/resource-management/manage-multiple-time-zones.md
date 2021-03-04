@@ -68,3 +68,6 @@ Po to, kai kiekvienam ištekliui buvo panaudota rezervavimo išplėtimo funkcija
 Atkreipkite dėmesį, kad išsamiau pažvelgus į rezervavimo detales, skiriasi rezervavimo pradžios laikas. Rezervavimai pradedami ne anksčiau, nei priskyrimo kontūro pradžios laikas, bet ne anksčiau nei galimas ištekliaus pradžios laikas.
 
 ![Naujos išteklių rezervacijos grafiko lentoje](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

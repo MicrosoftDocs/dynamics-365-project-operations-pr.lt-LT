@@ -140,3 +140,6 @@ Projekto faktinių duomenų naujinimo šablone turite naudoti „Power Query”,
 [![Šablonų susiejimas – faktinių duomenų atnaujinimas](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
 [![Šablonų susiejimas – operacijos atnaujinimas](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

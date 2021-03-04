@@ -51,3 +51,6 @@ Klientų vadybininkai ir projektų vadovai reguliariai teikia jų projektams rei
   
 ### <a name="see-also"></a>Taip pat žr.  
  [Išteklių vadovo vadovas](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

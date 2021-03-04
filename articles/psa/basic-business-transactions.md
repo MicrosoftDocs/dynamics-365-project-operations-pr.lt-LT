@@ -149,3 +149,6 @@ Tolesnėje lentelėje pateikiami ankstesnės darbo eigos objekto Operacijos ryš
 | Sąskaitos faktūros juodraščio koregavimas       | Sąskaitos faktūros eilutės operacijos GUID | Pakeitimas          | msdyn_invoicelinetransaction | Pardavimo, už kurį išrašyta sąskaita, GUID            | Pradinis           | msdyn_actual       |
 | Sąskaitos faktūros koregavimo patvirtinimas     | Pardavimo, už kurį išrašyta sąskaita, atšaukimo GUID    | Atšaukimas          | msdyn_actual                 | Pardavimo, už kurį išrašyta sąskaita, GUID            | Pradinis           | msdyn_actual       |
 | Naujos pardavimo, už kurį neišrašyta sąskaita, faktinės sumos GUID | Pakeitimas                     | msdyn_actual       | Pardavimo, už kurį išrašyta sąskaita, GUID            | Pradinis                     | msdyn_actual       |                    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -83,3 +83,6 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 | Rodyti antikorupcijos atestaciją   | Pažymėkite šią parinktį, jei norite, kad sukūrus išlaidų ataskaitą, būtų rodomas antikorupcinis tekstas. Tada galima įjungti tam tikras išlaidų kategorijas, kurioms esant išlaidų ataskaitoje reikės pažymėti antikorupcijos atestaciją. Pavyzdžiui, dovanų kategorijai, susijusiai su vyriausybinėmis valdžios lėšomis, gali reikėti, kad darbuotojas patvirtintų, jog išlaidos atitinka įmonės politiką, susijusią su vyriausybės pareigūnais. |
 | Antikorupcinis pranešimas peteikėjui | Įveskite tekstą, kuris turėtų būti rodomas darbuotojui, kuriančiam išlaidų ataskaitą. Norėdami įvesti kalbai būdingą tekstą, kuris bus rodomas, pagal vartotojo kalbą pasirinkite **Vertimai**. |
 | Antikorupcinis pranešimas tvirtintojui  | Įveskite tekstą, kuris turėtų būti rodomas tvirtintojui, kai sukuriama išlaidų ataskaita. Norėdami įvesti kalbai būdingą tekstą, kuris bus rodomas, pagal vartotojo kalbą pasirinkite **Vertimai**. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

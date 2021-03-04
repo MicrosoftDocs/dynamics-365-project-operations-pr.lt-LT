@@ -62,3 +62,6 @@ ms.locfileid: "4080978"
 13. Pasirinktinai: įveskite papildomas grafiko eilutes.
 
 14. Įvedę grafiko eilutes, pasirinkite veiksmą **Darbo eiga** \> **Pateikti** , kad savo grafiką pateiktumėte į darbo eigos patvirtinimo procesą.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ Savo išlaidas įveskite bent kartą per savaitę arba taip dažnai, kaip nurodo
   
 ### <a name="see-also"></a>Taip pat žr.  
  [Laiko, išlaidų ir bendradarbiavimo vadovas](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

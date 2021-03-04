@@ -55,3 +55,6 @@ Laimėję projekto sutartį, turite parinkti projekto darbuotojus. Jūsų projek
   
 ### <a name="see-also"></a>Taip pat žr.  
  [Projekto vadovo vadovas](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

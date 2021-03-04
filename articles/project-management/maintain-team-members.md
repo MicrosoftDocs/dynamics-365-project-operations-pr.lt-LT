@@ -42,3 +42,6 @@ Kai renkates, išteklius įtraukiamas į projekto komandą ir priskiriamas uždu
 Norėdami rezervuoti ištekliaus pajėgumą projektui galite naudoti skirtuko **Derinimas** rezervavimo išplėtimo pajėgumą arba **Grafiko lentą**.
 
 Užrezervavę komandos narį projektui, galite naudotis parinktimis **Išlaikyti rezervavimus** arba **Grafiko lenta**, kad tiesiogiai valdytumėte jų rezervavimus.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

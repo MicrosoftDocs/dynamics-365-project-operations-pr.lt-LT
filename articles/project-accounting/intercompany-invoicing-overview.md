@@ -43,3 +43,6 @@ Toliau pateiktoje diagramoje vaizduojamas vidinės įmonės sąskaitų faktūrų
 - [Vidinės įmonės SF išrašymo konfigūravimas](configure-intercompany-invoicing.md)
 - [Vidinės įmonės operacijų įrašymas](create-intercompany-transactions.md)
 - [Vidinės įmonės kliento ir tiekėjo sąskaitų faktūrų kūrimas](create-intercompany-customer-vendor-invoices.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

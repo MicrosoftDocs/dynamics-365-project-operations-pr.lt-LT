@@ -68,3 +68,6 @@ Toliau aprašytuose veiksmuose paaiškinta, kaip užregistruoti priedus.
 
 9. Uždarykite priedų registravimo įrankį.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

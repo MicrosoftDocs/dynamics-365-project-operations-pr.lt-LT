@@ -240,3 +240,6 @@ Atsisiųskite ir įdiekite „Dynamics 365 Unified Ops“ mobiliųjų įrengini�
 22. Pasirinkite **Pateikti**.
 23. Įveskite komentarus tvirtintojui.
 24. Pasirinkite **Atlikta**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

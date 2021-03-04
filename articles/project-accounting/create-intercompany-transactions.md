@@ -113,3 +113,6 @@ Simona Terentjeva, GBPM dirbanti kūrėja, užregistravo, kad dirbo 10 darbo val
     - Kreditas: projektas – sukauptos įplaukos 120 USD
 
     Sistema jau paruošta kurti vidinės įmonės kliento sąskaitą faktūrą.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

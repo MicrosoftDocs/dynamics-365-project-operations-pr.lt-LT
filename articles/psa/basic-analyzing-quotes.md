@@ -60,3 +60,6 @@ Jei įvedate toliau nurodytų laukų reikšmes, galite analizuoti pasiūlymus ir
 Kliento lūkesčių dėl grafiko analizė atliekama lyginant vėliausią pasiūlymo eilutės informacijos pabaigos datą su pageidaujama visų pasiūlymo eilučių pristatymo data.
 
 Klientų lūkesčių dėl biudžeto analizė atliekama lyginant visą kliento biudžeto sumą su visų pasiūlymo eilučių pasiūlyta suma.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

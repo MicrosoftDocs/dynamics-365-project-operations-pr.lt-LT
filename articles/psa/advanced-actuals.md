@@ -34,3 +34,6 @@ ms.locfileid: "5145728"
 Visos projekto metu vykdomos finansinės operacijos yra registruojamos. Šios operacijos įrašomos kaip **faktiniai duomenys**. Sekanti lentelė parodo skirtingus sukuriamų faktinių duomenų tipus, atsižvelgiant į tai, ar projektas yra laiko ir medžiagų, fiksuotos kainos ar vidinis projektas, arba yra paruošiamųjų darbų prieš parduodant etape.
 
 > ![Lentelė, rodanti, kaip įrašomi faktiniai duomenys](media/advanced-table2.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

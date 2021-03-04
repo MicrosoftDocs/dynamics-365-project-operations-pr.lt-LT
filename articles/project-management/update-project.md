@@ -48,3 +48,6 @@ Toliau pateikiama laukų, kuriuos galima atnaujinti projekte po to, kai jis buvo
 - **Bendroji projekto būsena**: bendroji projekto būsena, kurią pateikia projekto vadovas.
 - **Komentarai**: projekto vadovo pastabos apie esamą projekto būseną.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

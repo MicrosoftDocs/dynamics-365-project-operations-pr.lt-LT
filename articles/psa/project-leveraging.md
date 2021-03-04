@@ -54,3 +54,6 @@ Darbo pastangas ir grafiko sąmatas galite apibrėžti naudodami laukus, esanči
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Sąmatų importavimas iš projekto į pasiūlymą
 
 Nustatę projektų sąmatas galite importuoti jas į pasiūlymo eilutę. Puslapyje **Pasiūlymo eilutės išsami informacija**, pažymėkite juostelėje **Importuoti iš sąmatų**, kad apibendrintumėte projektų sąmatas pagal operacijos tipą, vaidmenį arba užduoties lygį.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -84,3 +84,6 @@ Nebenaudojami šie žiniatinklio ištekliai:
 > Norėdami pamatyti visą nebenaudojamų išteklių sąrašą, žr. [Nebenaudojami „Project Service Automation v3.x“ žiniatinklio ištekliai](../developer-guides/web-resources-deprecated-v3.x.md).
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -74,3 +74,6 @@ Prieš pradėdami konfigūraciją, turite turėti „Common Data Service“ (CDS
     -   Rezervuojamų išteklių charakteristika
 
     ![Importavimo užbaigimas](./media/6CompleteImport.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

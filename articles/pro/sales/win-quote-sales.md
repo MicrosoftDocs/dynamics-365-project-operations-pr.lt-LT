@@ -40,3 +40,6 @@ Jei projekto pasiūlymas, uždarytas kaip pralaimėtas, nurodo projektą bet kur
 
 > [!NOTE]
 > „Project Operations“ uždarius pasiūlymą kaip laimėtą arba pralaimėtą galimybės būsena nebus paveikta – ji bus atidaryta tol, kol nebus uždaryta rankiniu būdu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

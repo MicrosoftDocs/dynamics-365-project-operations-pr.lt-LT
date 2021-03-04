@@ -93,3 +93,6 @@ Sąskaitos faktūros grafikai taikomi kiekvienai konkrečiai sutarties eilutei i
 - „Project Operations“ sutartys turi savus formos ir UI elementus, verslo taisykles, verslo logiką papildiniuose ir kliento scenarijus, kuriais jos ir skiriasi nuo „Sales“ sutarčių.
 
 Dėl šių priežasčių „Sales“ sutarties ir projekto sutarties apkeisti vietomis negalima.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

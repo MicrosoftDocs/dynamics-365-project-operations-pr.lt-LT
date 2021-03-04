@@ -60,3 +60,6 @@ Komandos narių tinklelyje galima atlikti toliau nurodytus veiksmus:
 
 - **Naujas**: be išteklių papildymo tiesiogiai iš grafiko, projektų vadovai gali įtraukti naujų įvardytųjų arba bendrųjų komandos narių iš komandos narių tinklelio.
 - **Naikinti**: pasirinkus vieną ar kelis komandos narius, projektų vadovas gali panaikinti išteklius, kurie nebedalyvaus projekte. Panaikinus komandos narį taip pat bus panaikinti visi susieti išteklių priskyrimai ir atšaukti visi esami užsakymai.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

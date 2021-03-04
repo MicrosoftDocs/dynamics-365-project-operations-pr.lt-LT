@@ -128,3 +128,6 @@ Fiksuotos kainos pasiūlymo eilutėms galite naudoti tinklelį **Sąskaitų fakt
 - Jei norite sukurti lygiai padalytus sąskaitų išrašymo etapus, pasirinkite sąskaitų faktūrų išrašymo dažnį, į pasiūlymo eilutę įveskite atsiskaitymo pradžios datą ir pasiūlymo antraštės srityje **Suvestinė** pasirinkite pasiūlymo **Pageidaujamą užbaigimo datą**. Tada pasirinkite **Generuoti periodinį sąskaitų pateikimą etapais** ir sukurkite lygiai padalytus etapus pagal pasirinktą sąskaitų faktūrų išrašymo dažnį. 
 - Norėdami sukurti atsiskaitymo vienkartine suma etapą, sukurkite etapą ir tada kaip etapo sumą įveskite pasiūlymo eilutės vertę.
 - Norėdami sukurti konkrečiomis projekto plano užduotimis pagrįstus sąskaitų išrašymo etapus, sukurkite etapą ir atsiskaitymo etapo UI susiekite jį su projekto grafiko elementu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -81,3 +81,6 @@ Apibendrinant, toliau pateikiami paskirstymo metodai gali tapti rezervavimo perv
 - Tolygiai paskirstomų valandų metodas
 
 Naudojant vieną iš šių trijų paskirstymo metodų, jums nebus pranešama, kad pasiektas išteklių rezervavimo perviršis. Tam, kad ištaisytumėte per didelio kiekio rezervavimą, turėsite pasinaudoti grafiko lenta.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

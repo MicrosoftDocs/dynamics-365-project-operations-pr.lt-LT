@@ -48,3 +48,6 @@ Jei turite ištekliaus užduoties priskyrimus, bet ne rezervavimus, puslapio **P
 Rezervavimai, sukurti vykdant **Išplėsti rezervavimą** veiksmą, yra susieti su pirminiu projekto reikalavimu. Kai plėtinys inicijuojamas, konkretaus reikalavimo, kurį reikia išplėsti, nustatyti negalima, nes ištekliai gali būti susieti su daugiau nei vienu projekto reikalavimu.
 
 Projekto vadovas arba išteklių vadovas gali naudoti grafiko lentą, kad valdytų situacijas, kai išteklius rezervuojamas per daug nepaisant jo pajėgumo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

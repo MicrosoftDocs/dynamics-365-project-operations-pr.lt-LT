@@ -124,3 +124,6 @@ Pavyzdžiui, jei yra šios ypatybės:
 - **Produkto SKU** 
 
 Ypatybės **Vartotojų skaičius** ir **Mėnesių skaičius** gali būti pažymėtos kaip kiekio koeficientai redaguojant produkto eilutės ypatybes. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

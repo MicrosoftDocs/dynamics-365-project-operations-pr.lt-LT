@@ -26,3 +26,6 @@ _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems s
 > [!NOTE] 
 > Vartotojai į grupę įtraukiami tik tuo atveju, jei paspausite **Grupės** ir jas įtrauksite. Tai skiriasi nuo projekto žiniatinklio elgsenos. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

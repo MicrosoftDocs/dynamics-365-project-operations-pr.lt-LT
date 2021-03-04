@@ -123,3 +123,6 @@ Kai dirbate su objektu **Faktinis**, svarbu, kad suprastumėte, kokia operacija 
 Objekte **Operacijos kilmė** įrašomas **Faktinis** įrašas, o objekte **Operacijos ryšis** įrašomi susiję objekto **Faktinis** įrašo įrašai. Be to, objekto **Faktinis** įraše yra nuoroda į projektą, projekto sutartį (užsakymą), rezervuojamus išteklius ir klientą.
 
 ![Diagrama, parodanti operacijų ryšį, kilmę ir faktinius ryšius](media/PS-Reporting-image6.png "Diagrama, parodanti operacijų ryšį, kilmę ir faktinius ryšius")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

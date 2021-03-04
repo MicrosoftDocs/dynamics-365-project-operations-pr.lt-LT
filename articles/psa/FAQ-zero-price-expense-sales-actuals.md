@@ -72,3 +72,6 @@ Jeigu išlaidų kategorijos kaina yra netinkamai nustatyta, nustatėte problemą
 Jei atlikote visas tris anksčiau minėtas patikras ir vis dar nematote tinkamos kainos faktiniuose pardavimo išlaidų duomenyse, užregistruokite palaikymo kvitą.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

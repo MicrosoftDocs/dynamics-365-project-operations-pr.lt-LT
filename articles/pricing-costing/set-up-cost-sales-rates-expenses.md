@@ -55,3 +55,6 @@ Kai šis kainodaros metodas pasirenkamas kategorijos kainos eilutėje, susietoje
 
 ### <a name="markup-over-cost"></a>Antkainis prie savikainos
 Kai šis kainodaros metodas pasirenkamas kategorijos kainos eilutėje, susietoje su pardavimo kainoraščiu, nustatoma numatytoji kategorijos ir vieneto derinio kaina (tik faktinėms išlaidoms). Pavyzdžiui, išlaidų operacijos klasės faktinis pardavimas, kuriam neišrašyta sąskaita faktūra. Ši vieneto kaina nustatoma faktiniam pardavimui, kuriam neišrašyta sąskaita faktūra, naudojant pagal vieneto kainą (faktinė savikaina) apskaičiuotą vertę pritaikius nustatytą antkainį. Numatytųjų kainų nustatymas pagal savikainą nevykdomas projekto išlaidų įvertinimui arba išlaidų pasiūlymo eilutei ir sutarties eilutės duomenims.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

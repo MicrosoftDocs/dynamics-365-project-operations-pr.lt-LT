@@ -33,3 +33,6 @@ Dynamics 365 Project Service Automation 3.x versija siūlo naujas funkcijas, nau
 - [Laiko ir išlaidų pakeitimai („Project Service Automation“ 3.x versija)](../developer-guides/time-expense-changes-v3.x.md)
 - [Išteklių valdymo pakeitimai („Project Service Automation“ 3.x versija)](../developer-guides/resource-management-changes-v3.x.md)
 - [Nebenaudojami žiniatinklio ištekliai programos „Project Service Automation“ 3.x versijoje](../developer-guides/web-resources-deprecated-v3.x.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

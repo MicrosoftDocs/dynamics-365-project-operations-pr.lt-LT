@@ -73,3 +73,6 @@ Galite atlikti masinį neviršijimo būsenos įvertinimą iš naujo. Neviršijim
 Norėdami iš naujo įvertinti neviršijimo būseną, pasirinkite vieną arba kelis pardavimo faktinių duomenų elementus rodinyje **Laiko ir medžiagų atsiskaitymo nebaigtos užduotys** arba **Faktiniai duomenys** ir pasirinkite **Neviršijimo būsenos įvertinimas iš naujo**.
 
 Visi atitinkami pasirinkti faktiniai duomenys, kuriems taikomas limitas, kurio negalima viršyti, bus įvertinti remiantis limito, kurio negalima viršyti, sąranka. Faktiniai duomenys, susiję su neviršijimo būsenos įvertinimu iš naujo, yra pardavimo faktiniai duomenys, už kuriuos neišrašyta sąskaita faktūra, kurie nėra sąskaitose faktūros juodraštyje ir kurie yra pažymėti kaip apmokestinami. Visi kiti pasirinkti faktiniai duomenys.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

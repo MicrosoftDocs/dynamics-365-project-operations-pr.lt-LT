@@ -69,3 +69,6 @@ Norėdami įjungti išteklių planavimo efektyvumo didinimą atlikite toliau nur
 
 > [!NOTE]
 > Tada bendri duomenys bus paskirstyti lentelėje **ResRollup** visoms jūsų aplinkos įmonėms, kad paketinę užduotį pakaktų paleisti tik viename juridiniame subjekte. Ši paketinė užduotis reikalinga visiems **Išteklių pasiekiamumo** rodiniams. Jei ši paketinė užduotis nevykdoma, **ResRollup** duomenys nebus sugeneruoti iš karto – tai gali užtrukti.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

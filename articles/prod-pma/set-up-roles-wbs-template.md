@@ -107,3 +107,6 @@ Galite kurti naują WBS arba kopijuoti WBS iš esamo WBS šablono. Projekto vado
     > Negaunate įspėjimo, kad nurodytas išteklius dabar yra 2-as, nes išteklių skaičius lieka 1.
 
 14. Puslapyje **Darbo paskirstymo struktūra** patikrinkite ištekliaus priskyrimą WBS, tada pasirinkite **Įrašyti**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

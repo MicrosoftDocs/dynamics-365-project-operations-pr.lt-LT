@@ -46,3 +46,6 @@ Norėdami kiekio koeficientus kurti pagal produktų ypatybes, atlikite toliau nu
 7. Pakartokite 2–6 veiksmus su visomis ypatybėmis, kurios kartu sudarys su produktais susijusios sutarties eilutės kiekį.
 
 Kai, nustatęs kiekio koeficientus, vartotojas sukuria šio produkto sutarties eilutę, jos kiekis yra užrakinamas. Tada kiekis apskaičiuojamas kaip tos sutarties eilutės ypatybių reikšmių sandauga.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

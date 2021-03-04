@@ -34,3 +34,6 @@ Galite lengvai kopijuoti projekto galimybes, kad sukurtumėte naujas projekto ga
     | Kopijavimo įkainiai | Reikšmė Taip / Ne, nurodanti, ar galimybės kainodara turėtų būti kopijuojama iš šaltinio galimybės. | Jei pasirinkta **Taip**, kainoraščiai iš šaltinio kopijuojami į tikslinę galimybę. Jei pasirinkta **Ne**, kainoraščiai iš naujo nustatomi pagal naujausius nustatytus kainoraščius. |
 
 3. Pasirinkite **Gerai**. Sistema sukuria projekto galimybės kopiją, pagrįstą pažymėtais parametrais, ir atidaroma nauja projekto galimybė.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

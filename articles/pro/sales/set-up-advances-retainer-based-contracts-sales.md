@@ -37,3 +37,6 @@ Neskaitant periodiniais išankstiniais apmokėjimais pagrįsto grafiko, „Proje
 | --- | --- | --- |
 | Galima suma | Suma, kurią galima naudoti išankstinio mokėjimo arba avanso įrašui. | Kol neišrašoma avanso arba išankstinio apmokėjimo sąskaita faktūra, jų negalima naudoti; tai reiškia, kad suma yra nulis. |
 | Panaudota suma | Suma, kuri jau naudojama išankstiniam mokėjimui arba avansui. | Avansą arba išankstinį mokėjimą sąskaitoje faktūroje galima iš dalies suderinti su faktinėmis išlaidomis, kurios bus pažymėtos, kaip panaudotos. Likusi avanso arba išankstinio mokėjimo suma galės būti suderinta su faktinėmis išlaidomis būsimoje sąskaitoje faktūroje. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

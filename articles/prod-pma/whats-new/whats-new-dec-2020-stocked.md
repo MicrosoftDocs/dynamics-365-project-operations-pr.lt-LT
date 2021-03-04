@@ -142,3 +142,6 @@ _Taikoma (kam): „Project Operations“, skirta laikomų medžiagų / gamyba pa
 ## <a name="regulatory-updates"></a>Reguliavimo naujinimai
 
 Norėdami gauti informacijos apie „Dynamics 365 Finance” reguliavimo naujinimus, žr. [Reguliavimo naujinimai](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Kitas būdas sužinoti apie reguliavimo atnaujinimus – prisijungti prie „Lifecycle Services“ (LCS) ir peržiūrėti suplanuotus reguliavimo naujinimus naudojant problemų ieškos įrankį. Problemų ieška leidžia ieškoti pagal šalį, funkcijos tipą ir leidimą.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

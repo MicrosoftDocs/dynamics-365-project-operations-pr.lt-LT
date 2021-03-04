@@ -59,3 +59,6 @@ Džiaugiamės galėdami pranešti apie naujausią Dynamics 365 Project Service A
      - Ištaisyta: papildomi mygtukai **Nauja galimybė**, **Pasiūlymas**, **Užsakymo eilutė** ir **Įtraukti produktą** yra matomi komandose, skirtose galimybėms, pasiūlymams, užsakymo produktams ir projektu pagrįstų eilučių papildomam tinkleliui.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

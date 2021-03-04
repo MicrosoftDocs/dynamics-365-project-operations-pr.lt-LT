@@ -43,3 +43,6 @@ Norėdami nukopijuoti kainoraštį, atlikite toliau nurodytus veiksmus.
 1. Kainoraščio skirtukuose **Vaidmuo**, **Kategorija** ir **Kainų sąrašo elementas** galite pasirinkti **Naujinti kainas**, kad visoms papildomo tinklelio kainoms pritaikytumėte antkainį. 
 2. Atidarytame dialogo lango puslapyje įveskite antkainį. Taip pat galite įvesti neigiamą antkainį procentais, kad sumažintumėte kainas tam tikra procentine dalimi. 
 3. Dialogo lango puslapyje pasirinkite **Gerai** ir patikrinkite, ar papildomo tinklelio kainos atitinka atliktus pakeitimus.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

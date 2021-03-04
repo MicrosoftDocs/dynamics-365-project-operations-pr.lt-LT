@@ -78,3 +78,6 @@ Objekto **Projekto komandos nariai** rezervuojamų išteklių lauko pavadinimas 
 5. Pridėkite **msdyn_bookableresourceid** prie **Lauko pavadinimas**.
 
  ![Naujų kainodaros dimensijų laukų pavadinimų forma](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

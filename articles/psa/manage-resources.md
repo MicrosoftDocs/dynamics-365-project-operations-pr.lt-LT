@@ -344,3 +344,6 @@ Jei turite ištekliaus užduoties priskyrimus, bet ne rezervavimus, puslapio **P
 ![Dialogo langas „Išplėsti rezervavimą“](media/Resource-Management-image58.png)
 
 Projektų vadovas arba išteklių vadovas gali naudoti grafiko lentą, kad valdytų situacijas, kai išteklius rezervuojamas per daug nepaisant jo pajėgumo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

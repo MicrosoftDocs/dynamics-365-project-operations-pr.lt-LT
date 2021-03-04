@@ -46,3 +46,6 @@ Rodoma planavimo pagalbinė priemonė ir filtruojama pagal reikalavimus. Pažym�
 > ![Pasirinkti ištekliai](media/Resource-Management-image61.png)
 
 Bendrosios komandos narys projekto komandoje ir užduočių priskyrimuose projekto grafike pakeičiamas galutinai rezervuotu pavadinimą turinčiu ištekliumi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

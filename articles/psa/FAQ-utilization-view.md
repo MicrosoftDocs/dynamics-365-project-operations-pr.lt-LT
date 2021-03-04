@@ -101,3 +101,6 @@ Jei nematote apmokestinamo naudojimo, patikrinkite šiuos dalykus:
   - Projekto sutarties eilutės vaidmuo, kuriuo grindžiamas projektas, buvo nustatytas kaip neapmokestinamas.
   - Projektas neturi susijusios sutarties eilutės.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

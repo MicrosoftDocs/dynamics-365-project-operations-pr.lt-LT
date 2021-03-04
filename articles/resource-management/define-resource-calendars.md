@@ -43,3 +43,6 @@ Kiekvienas projekto rezervuojamasis išteklius turi turėti darbo valandų kalen
 2. Tinklelio rodinyje pažymėkite iki 25 **Rezervuojamų išteklių**, kad juos atnaujintumėte.
 3. Pažymėkite **Nustatyti kalendorių** ir dialogo langas pasiūlys galimų darbo valandų šablonų sąrašą.
 4. Pasirinkite norimą naudoti šabloną ir pažymėkite **Taikyti**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

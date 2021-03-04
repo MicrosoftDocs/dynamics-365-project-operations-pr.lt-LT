@@ -41,3 +41,6 @@ Projektu pagrįstus pardavimo užsakymus galite kurti toliau pateikiamais dviem 
 - Pereikite prie paties projekto. Veiksmų srityje pasirinkite **Valdyti > Elementų užduotys > Pardavimo užsakymas**. Projekto informacija pagal numatytuosius parametrus bus nustatyta pagal projekto pardavimo užsakymą. Jei projekto sutartyje yra daugiau nei vienas finansavimo šaltinis, turėsite pasirinkti finansavimo šaltinį, kad nustatytumėte pardavimo užsakymo klientą. Jei projekte yra tik vienas finansavimo šaltinis, klientas bus nustatytas automatiškai.
 - Įeikite į sąrašo puslapį **Visi pardavimo užsakymai** ir sukurkite naują pardavimo užsakymą. Turėsite pasirinkti pardavimo užsakymo projektą. Pasirinkus projektą, klientas bus nustatomas pagal finansavimo šaltinį, arba reikės pasirinkti finansavimo šaltinį, jei projekto sutartyje nurodyti keli finansavimo šaltiniai.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

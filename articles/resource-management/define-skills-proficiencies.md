@@ -42,3 +42,6 @@ Išteklių įgūdžiai vertinami pagal kvalifikacijos modelius. Atskiri įvertin
 
 
 Šios įvertinimo reikšmės rodomos filtruose **Išteklių reikalavimai**, **Grafiko lenta** ir **Planavimo pagalbinė priemonė**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

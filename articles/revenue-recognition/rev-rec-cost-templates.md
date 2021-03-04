@@ -79,3 +79,6 @@ Norėdami sukurti sąnaudų šabloną, atlikite toliau nurodytus veiksmus.
 7. Skirtuke **Kategorijos** pasirinkite projekto kategorijas, kurios bus įtrauktos į sąnaudų šablono eilutę.
 8. Skirtuke **Bendra** pasirinkite, ar ši eilutė bus įtraukta apskaičiuojant atlikimo procentinę vertę.
 9. Pasirinkite užbaigimo išlaidų apskaičiavimo metodą, kuris bus naudojamas atlikimo procentinei vertei apskaičiuoti.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

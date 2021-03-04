@@ -59,3 +59,6 @@ Taip pat galite spustelėti komandos tinklelyje esantį saitą **Išteklių reik
 
 ![Išteklių reikalavimas](media/RM-how-to-13.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

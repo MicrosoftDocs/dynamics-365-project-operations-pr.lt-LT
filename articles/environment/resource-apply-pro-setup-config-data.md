@@ -134,3 +134,6 @@ Prieš pradėdami konfigūruoti duomenis programoje „Common Data Service” (C
 13. Pasirinkite **Įrašyti**. 
 
 ![Projekto parametrai atnaujinti](./media/17UpdatedProjectParameters.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

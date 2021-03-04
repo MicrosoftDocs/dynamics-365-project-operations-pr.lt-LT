@@ -70,3 +70,6 @@ Galite importuoti duomenis iš projekto rezervacijų ir priskyrimų. Importuodam
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>Grupavimo pagal, rūšiavimo, ieškos ir filtravimo galimybės
 
 Galite grupuoti ir filtruoti laiko įrašus pagal dimensijas, nurodytas stulpeliuose. Lauke **Grupuoti pagal** pažymėkite dimensiją, kurią norite naudoti laiko įrašams filtruoti. Taip pat galite rikiuoti laiko įrašus didėjimo arba mažėjimo tvarka naudodami stulpelių antraščių rūšiavimo rodyklę. Be to, galite rodyti arba slėpti įrašus pažymėdami mygtuką **Filtras** stulpelių antraštėse, tada dialogo lange **Ieška** įvesdami tekstą, kuris turi būti naudojamas laiko įrašų ieškai pagal projekto pavadinimą, projekto užduotį, laiko įrašą arba išteklius.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

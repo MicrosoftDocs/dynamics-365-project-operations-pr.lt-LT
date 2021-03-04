@@ -62,3 +62,6 @@ Tolesne procedūra paaiškinama, kaip sukurti projekto komandą.
 ## <a name="monitor-project-teams"></a>Stebėkite projektų komandas
 1. Puslapyje **Visi projektai** pasirinkite projekto **XYZ Upgrade Phase 2** saitą **Projekto ID**.
 2. „FastTab” skirtuke **Projekto komanda ir planavimas** patikrinkite, ar išvardyti projekto ištekliai yra tinkami.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

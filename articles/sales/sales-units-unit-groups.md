@@ -46,3 +46,6 @@ Norėdami atlikti veiksmus šioje temoje, įsitikinkite, kad buvote priskirtas s
 3. Lauke **Kiekis** įveskite kiekį, kuris sudarys vienetą. Pavyzdžiui, jeigu dėžėje yra du vienetai, įveskite „2“. 
 4. Lauke  **Pradinis vienetas** pažymėkite pradinį vienetą žemiausiam vieneto matavimo vienetui nustatyti. Pavyzdžiui, galite pažymėti „dalis“.
 5. Pasirinkite **Įrašyti**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

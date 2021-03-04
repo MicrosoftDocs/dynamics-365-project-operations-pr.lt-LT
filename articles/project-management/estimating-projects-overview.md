@@ -79,3 +79,6 @@ Jei pridėjote pasirinktinį lauką pasiūlymo eilutės informacijos dalyje ir n
 7. Pasirinkite **Gerai**, kad uždarytumėte dialogo langą, tada pasirinkite **Veiksmo naujinimas**.
 8. Pakartokite 1–7 veiksmus ir su antru priedu.
 9. Uždarykite **PluginRegistrationTool**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
