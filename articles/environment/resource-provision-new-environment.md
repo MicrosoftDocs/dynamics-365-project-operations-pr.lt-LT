@@ -3,17 +3,18 @@ title: Naujos aplinkos parengimas
 description: Šioje temoje pateikiama informacija, kaip parengti naują „Project Operations“ aplinką.
 author: sigitac
 manager: Annbe
-ms.date: 10/26/2020
+ms.date: 12/11/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 09af2a7693c45d1d0b9c75420d018cc50d2cc0fa
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642991"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727800"
 ---
 # <a name="provision-a-new-environment"></a>Naujos aplinkos parengimas
 
@@ -60,17 +61,15 @@ Atlikite toliau nurodytus veiksmus, kad įjungtumėte automatinį „Project Ope
 
 ![Visuotinio diegimo sutikimas](./media/2DeploymentConsent.png)
 
-7. Užpildykite likusius būtinus vediklio laukus ir patvirtinkite visuotinį diegimą. Aplinkos parengimo laikas priklauso nuo aplinkos tipo. Parengimo procesas gali užtrukti iki šešių valandų.
+7. Pasirinktinai – aplinkai taikykite demonstracinius duomenis. Eikite į **Išplėstiniai parametrai**, pasirinkite **Tinkinti SQL duomenų bazės konfigūraciją** ir nustatykite parinktį **Nurodykite programos duomenų bazės duomenų rinkinį** į **Demonstracinis**.
+
+8. Užpildykite likusius būtinus vediklio laukus ir patvirtinkite visuotinį diegimą. Aplinkos rengimo laikas skiriasi atsižvelgiant į aplinkos tipą. Parengimo procesas gali užtrukti iki šešių valandų.
 
   Sėkmingai užbaigus visuotinį diegimą, bus rodoma aplinkos būsena **Įdiegta**.
 
-8. Norėdami įsitikinti, kad aplinka sėkmingai įdiegta, pasirinkite **Prisijungti** ir prisijunkite prie aplinkos, kad patvirtintumėte.
+9. Jei norite patvirtinti, kad aplinka sėkmingai įdiegta, pasirinkite **Prisijungti** ir prissijungę prie aplinkos patvirtinkite.
 
 ![Išsami „“ aplinkos informacija](./media/3EnvironmentDetails.png)
-
-## <a name="apply-project-operations-finance-demo-data-optional-step"></a>„Project Operations Finance“ demonstracinių duomenų taikymas (pasirinktinis veiksmas)
-
-Taikykite „Project Operations Finance“ demonstracinius duomenis 10.0.13 paslaugų leidimo debesyje esančiai aplinkai, kaip aprašyta [šiame straipsnyje](resource-apply-finance-demo-data.md).
 
 ## <a name="apply-updates-to-the-finance-environment"></a>Naujinimų taikymas „Finance“ aplinkai
 
@@ -151,6 +150,21 @@ Pritaikius objektus visi galimi susiejimai pateikiami aplinkoje.
 Atnaujinimas truks apie 20 minučių. Kai jis bus baigtas, gausite įspėjimą.
 
 ![Patvirtinimo atnaujinimas](./media/19RefreshConfirmation.png)
+
+## <a name="update-security-settings-on-project-operations-on-dataverse"></a>„Project Operations“ saugos parametrų naujinimas „Dataverse“ aplinkoje
+
+1. Eikite į „Project Operations“ „Dataverse“ aplinkoje. 
+2. Eikite į **Parametrai** > **Sauga** > **Saugos vaidmenys**. 
+3. Puslapio **Saugos vaidmenys** vaidmenų sąraše pasirinkite **dvigubo rašymo programos vartotoją** ir pasirinkite skirtuką **Tinkinti objektai**.  
+4. Patikrinkite, ar vaidmuo turi **Skaityti** ir **Pridėti prie** teises, skirtas:
+      
+      - **Valiutos kurso tipas**
+      - **Sąskaitų diagrama**
+      - **Finansinis kalendorius**
+      - **Didžioji knyga**
+
+5. Atnaujinus saugos vaidmenį, eikite į **Parametrai** > **Sauga** > **Komandos** ir komandos rodinyje **Vietinės įmonės savininkas** pasirinkite numatytąją komandą.
+6. Pasirinkite **Tvarkyti vaidmenis** ir patikrinkite, ar šiai komandai taikoma **dvigubo rašymo programos vartotojo** saugos teisė.
 
 ## <a name="run-project-operations-dual-write-maps"></a>„Project Operations“ dvigubo rašymo schemų vykdymas
 

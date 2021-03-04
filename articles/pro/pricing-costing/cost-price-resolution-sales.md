@@ -5,15 +5,16 @@ author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3fedf7b577e2372fb10ea85ea1e3caa9bf2f5ad0
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: d2afaa2231f4044dbcbfa24b91aec39289275a91
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176801"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764603"
 ---
 # <a name="resolve-cost-prices-on-estimates-and-actuals---lite"></a>Įvertinimų ir faktinių duomenų savikainos nustatymas – „Lite“ versija
 
@@ -25,7 +26,7 @@ Norėdama nustatyti išlaidų kainas ir įvertintų bei faktinių savikainų kai
 
 Įvertintos laiko eilutės nurodo pasiūlymo ir sutarties eilutės duomenis, skirtus projekto laikui ir ištekliams priskirti.
 
-Kai savikainų kainoraštis aprašomas, sistema naudoja laiko įvertinimo eilutės laukus **Vaidmuo** ir **Išteklių paskirstymo vienetas**, kad sugretintų su vaidmens kainų eilutėmis sudarytame kainoraštyje. Šiame gretinime laikoma, kad naudojamos paruoštos darbo savikainos kainodaros dimensijos. Jei sukonfigūravote, kad sistema atitiktų laukus vietoj arba greta laukų **Vaidmuo** ir **Išteklių paskirstymo vienetas**, tada kitoks derinys bus naudojamas gretinimo vaidmens kainos eilutei gauti. Jei programa suranda vaidmens kainos eilutę, kurios laukų **Vaidmuo** ir **Išteklių paskirstymo vienetas** derinys turi savikainos tarifą, tai yra numatytasis savikainos tarifas. Jei programa negali sugretinti laukų **Vaidmuo** ir **Išteklių paskirstymo vienetas** reikšmių, tada ji nuskaito vaidmens kainų eilutes su atitinkamu vaidmeniu, bet **Išteklių paskirstymo vieneto** reikšmės lieka neapibrėžtos. Kai jis turi atitinkantį vaidmens kainos įrašą, numatytasis savikainos tarifas nustatomas iš to įrašo. 
+Nustačius savikainų kainoraštį, laukai **Vaidmuo** ir **Išteklių paskirstymo vienetas** laiko įvertinimo eilutėje yra gretinami su vaidmens kainos eilutėmis kainoraštyje. Šis atitikmuo reiškia, kad darbo savikainai naudojate standartinės kainodaros dimensijas. Jei sukonfigūravote, kad sistema atitiktų laukus vietoj arba greta laukų **Vaidmuo** ir **Išteklių paskirstymo vienetas**, tada kitoks derinys bus naudojamas gretinimo vaidmens kainos eilutei gauti. Jei programa suranda vaidmens kainos eilutę, kurios laukų **Vaidmuo** ir **Išteklių paskirstymo vienetas** derinys turi savikainos tarifą, tai yra numatytasis savikainos tarifas. Jei programa negali sugretinti laukų **Vaidmuo** ir **Išteklių paskirstymo vienetas** reikšmių, tada ji nuskaito vaidmens kainų eilutes su atitinkamu vaidmeniu, bet **Išteklių paskirstymo vieneto** reikšmės lieka neapibrėžtos. Kai jis turi atitinkantį vaidmens kainos įrašą, numatytasis savikainos tarifas nustatomas iš to įrašo. 
 
 > [!NOTE]
 > Jei sukonfigūravote kitokį **Vaidmens** ir **Išteklių paskirstymo vieneto** pirmumą arba jei turite kitokių didesnio prioriteto dimensijų, toks veikimas atitinkamai pasikeis. Sistema nuskaito vaidmens kainų įrašus su atitinkamomis kiekvienos kainodaros dimensijos vertėmis pirmumo tvarka: eilutės su neapibrėžtomis tų dimensijų vertėmis pateikiamos paskutinės.
@@ -34,4 +35,4 @@ Kai savikainų kainoraštis aprašomas, sistema naudoja laiko įvertinimo eilut�
 
 Išlaidų įvertintos eilutės nurodo pasiūlymo ir sutarties eilutės išlaidų informaciją ir projekto išlaidų įvertintas eilutes.
 
-Kai savikainų kainoraštis aprašomas, sistema naudoja išlaidų įvertintos eilutės laukus **Kategorija** ir **Vienetas**, kad sugretintų su **kategorijos kainos** eilutėmis sudarytame kainoraštyje. Jei sistema suranda kategorijos kainos eilutę, kurios laukų **Kategorija** ir **Vienetas** derinys turi savikainos tarifą, savikainos tarifas bus numatytasis. Jei sistema nesuderina laukų **Kategorija** ir **Vienetas** reikšmių arba jei ji gali rasti gretinimo kategorijos kainos eilutę, bet kainodaros metodas nėra **Vieneto kaina**, numatytasis savikainos tarifas nustatomas į nulį (0).
+Nustačius savikainų kainoraštį, sistema naudoja laukų **Kategorija** ir **Vienetas** derinį išlaidų įvertinimo eilutėje, kad būtų atitiktos **Kategorijos kaina** eilutės nustatytame kainoraštyje. Jei sistema suranda kategorijos kainos eilutę, kurios laukų **Kategorija** ir **Vienetas** derinys turi savikainos tarifą, savikainos tarifas bus numatytasis. Jei sistema negali atitikti **Kategorija** ir **Vienetas** reikšmių, arba jei sistema randa sutampančios kategorijos kainos eilutę, tačiau kainodaros būdas nėra **Vieneto kaina**, numatytasis savikainos tarifas bus nulis (0).

@@ -16,16 +16,14 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d008ef8dd55550431fbb9e329cd7d9428a08831
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 982b7621c35547448b5d756f77f3873b9fbbcb9d
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080982"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960122"
 ---
 # <a name="post-an-expense-report"></a>Išlaidų ataskaitos publikavimas
-
-[!include [banner](../includes/banner.md)]
 
 Kai išlaidų ataskaita buvo patvirtinta ir perkelta į bendrąjį žurnalą, ją galima paskelbti DK. Kai registruojate išlaidų ataskaitą, nustatomos išlaidos, atitinkančios pridėtinės vertės mokesčio (PVM) susigrąžinimo reikalavimus. PVM mokėjimų tikrinimo ir susigrąžinimo užduotis priskiriama darbuotojui, atsakingam už išlaidų ataskaitos tikrinimą.
 

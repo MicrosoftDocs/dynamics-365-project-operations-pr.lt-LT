@@ -1,6 +1,6 @@
 ---
 title: Išlaidų perdavimo valdymas
-description: Vartotojas, kuris yra išlaidų atstovas, gali kurti ir valdyti išlaidų ataskaitas kito organizacijos darbuotojo vardu.
+description: Išlaidoms atstovaujantis vartotojas gali kurti ir valdyti kito organizacijos darbuotojo išlaidų ataskaitas.
 author: KimANelson
 manager: AnnBe
 ms.date: 01/10/2020
@@ -16,27 +16,28 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2020-01-10
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 2ce1d1cf35745ef4372258e07fd4d2b108ed4827
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ebe9a47b463498e8e79058019a0b28320590639b
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080988"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960797"
 ---
 # <a name="manage-expense-delegation"></a>Išlaidų perdavimo valdymas
 
-[!include [banner](../includes/banner.md)]
+Išlaidų atstovas gali kurti ir valdyti kito darbuotojo išlaidų ataskaitas.
 
-Vartotojas, kuris yra išlaidų atstovas, gali kurti ir valdyti išlaidų ataskaitas kito organizacijos darbuotojo vardu.
+## <a name="configure-expense-delegation"></a>Išlaidų perdavimo konfigūravimas
 
-## <a name="configuring-expense-delegation"></a>Išlaidų perdavimo konfigūravimas
+1. Norėdami nustatyti vartotoją kaip išlaidų atstovą, eikite į **Išlaidų valdymas > Sąranka > Bendra > Atstovai**.
+2. Puslapyje **Atstovai** pasirinkite **Naujas**.
+3. Pažymėkite darbuotoją, kuriam bus paskirtas atstovas. 
+4. Įveskite atstovaujančio vartotojo pseudonimą ir delegavimo laikotarpio pradžios ir pabaigos datas.
 
-Norėdami nustatyti vartotoją kaip išlaidų atstovą, pasirinkite **Išlaidų valdymas > Sąranka > Bendra > Atstovai** , kad atidarytumėte puslapį **Atstovai**. Pasirinkite **Naujas** , o tada pažymėkite darbuotoją, kuris turės nustatytą atstovą. Įveskite atstovaujančio vartotojo pseudonimą ir delegavimo laikotarpio pradžios ir pabaigos datas.
+## <a name="manage-expense-delegation-for-another-employee"></a>Išlaidų perdavimo kitam darbuotojui valdymas
 
-## <a name="managing-expense-delegation-on-behalf-of-another-employee"></a>Išlaidų perdavimo valdymas kito darbuotojo vardu
+Kai įjungtas funkcijos valdymo raktas **Įjungti išlaidų atstovų sąrašo puslapį**, bus prieinamas sąrašo puslapis **Man priskirtos išlaidos**. Eikite į **Išlaidų valdymas** > **Mano išlaidos** > **Man priskirtos išlaidos**.
 
-Jei funkcijų valdymo rakto sąrašo puslapis **Įjungti išlaidų perdavimas** įjungtas, sąrašo puslapis **Man perduotos išlaidos** bus pasiekiamas pasirinkus **Išlaidų valdymas > Mano išlaidos > Man perduotos išlaidos**.
+Atstovaujantis vartotojas gali greitai filtruoti ir ieškoti esamų išlaidų ataskaitų, kurios buvo jam priskirtos. Taip pat jie gali sukurti naują išlaidų ataskaitą kitiems vartotojams pasirinkdami **Nauja išlaidų ataskaita**.
 
-Vartotojas atstovas gali greitai filtruoti ir ieškoti jiems perduotų esamų išlaidų ataskaitų. Vartotojas taip pat gali greitai sukurti naują išlaidų ataskaitą kitų vartotojų vardu spustelėdamas **Nauja išlaidų ataskaita**.
-
-Vartotojai atstovai taip pat gali kurti ir valdyti išlaidų ataskaitas kitų darbuotojų vardu pasirinkę **Išlaidų valdymas > Mano išlaidos > Išlaidų ataskaitos** ir spustelėję mygtuką **Atidaryti kito vartotojo išlaidas**.
+Atstovaujantys vartotojai taip pat gali kurti ir valdyti kitų darbuotojų išlaidų ataskaitas nuėję į **Išlaidų valdymas** > **Mano išlaidos** > **Išlaidų ataskaitos** ir pasirinkdami **Atidaryti kitų vartotojų išlaidas**.

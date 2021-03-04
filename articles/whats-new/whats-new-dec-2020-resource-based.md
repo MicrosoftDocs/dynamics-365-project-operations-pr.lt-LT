@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f80922877f3d3d0e1149c2aa690f881bcf927b11
-ms.sourcegitcommit: 5791f6347e800fc4f6c76e7460947cb6824edebe
+ms.openlocfilehash: 3889402ab991e307bc3fe5463098dfab383a53b4
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4700690"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727890"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>2020 m. gruodžio mėn. naujienos – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams
 
@@ -24,6 +24,8 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 
 - „Project Operations“, esanti „Dataverse“ aplinkoje, 4.5.0.134 versija
 - Projektų valdymas ir apskaita „Dynamics 365 Finance” aplinkoje, 10.0.15 versija
+
+Informacijos apie tai, kaip naujinti į šį leidimą, ieškokite [„Project Operations“ naujinimas „Finance“ aplinkoje](ur5-nonstocked-installation.md).
 
 ## <a name="features-included-in-this-release"></a>Į šį leidimą įtrauktos funkcijos
 Į šį leidimą buvo įtrauktos toliau nurodytos funkcijos.

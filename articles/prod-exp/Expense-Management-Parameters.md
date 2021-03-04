@@ -16,18 +16,15 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: af49187a3ad530919376fbfdb5a0fbc288b7c28c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 454d3f6feb46b28762a6a1249df2336f1aa5e91a
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080880"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960392"
 ---
 # <a name="expense-management-parameters"></a>Išlaidų valdymo parametrai
 
-[!include [banner](../includes/banner.md)]
-
------------------------------
 
 Parametrai valdo bendrą išlaidų valdymo elgseną.
 
@@ -44,7 +41,7 @@ Parametrai valdo bendrą išlaidų valdymo elgseną.
 |**Leisti vidinės įmonės išlaidų eilutes**                         | Pažymėkite, ar kitų juridinių objektų išlaidas galima įvesti išlaidų ataskaitoje.                                                                                                          |
 |**Leisti redaguoti kredito kortelės išlaidų valiutos kursą** | Pažymėkite šią parinktį, kad leistumėte vartotojui redaguoti importuotų kredito kortelių išlaidų valiutos kursą.                                                                        |
 |**Kelių lygių hierarchijos laukų rodymas**                  | Pažymėkite, kurie tvirtintojo laukai rodomi, kai išlaidų ataskaitos darbo eigos priskyrimo tipas nustatomas į hierarchiją, o hierarchijos pasirinkimas nustatytas naudoti išlaidų kelių lygių patvirtinimo hierarchiją. Kai darbo eigoje naudojama kelių lygių patvirtinimo hierarchija, pažymėti laukai bus rodomi išlaidų ataskaitoje ir gali būti redaguojami. |
-|**Įveskite darbuotojo kredito kortelės numerį (2017 m. atnaujinimas)**     | Pažymėkite, ar galima įvesti 15 simbolių arba 16 simbolių numerį, kuris bus išsaugotas lauke **Kortelės ID** , esančiame darbuotojo puslapyje **Kreditinės kortelės**.                                                                          |
+|**Įveskite darbuotojo kredito kortelės numerį (2017 m. atnaujinimas)**     | Pažymėkite, ar galima įvesti 15 simbolių arba 16 simbolių numerį, kuris bus išsaugotas lauke **Kortelės ID**, esančiame darbuotojo puslapyje **Kreditinės kortelės**.                                                                          |
 
 ### <a name="financial"></a>Finansų
 
