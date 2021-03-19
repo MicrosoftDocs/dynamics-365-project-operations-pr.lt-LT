@@ -1,6 +1,6 @@
 ---
 title: Projektų įvertinimo apžvalga
-description: Šioje temoje pateikiama informacija apie „Dynamics 365 Project Operations“ įvertinimus.
+description: Šioje temoje pateikiama informacija apie įvertinimų teikimą programėlėje „Dynamics 365 Project Operations“.
 author: ruhercul
 manager: AnnBe
 ms.date: 10/06/2020
@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d35be82563515adbba2c22402a751ed3daca8f83
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 4ff73c6efd5b21b91a7772c3733734d8008e00a3
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131578"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286888"
 ---
 # <a name="estimate-projects-overview"></a>Projektų įvertinimo apžvalga
 
@@ -21,7 +21,7 @@ _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems s
 
 Projektu pagrįstame pasiūlyme galite naudoti objektą **Pasiūlymo eilutės informacija** ir įvertinti reikiamo pristatyti darbo dydį. Tada galite bendrinti įvertinimą su klientu.
 
-Projektu pagrįstose pasiūlymo eilutėse gali nebūti jokios arba daug pasiūlymo eilutės informacijos. Pasiūlymo eilutės informacija naudojama norint apskaičiuoti laiką, išlaidas arba mokesčius. „Microsoft Dynamics 365 Project Operations“ neleidžia atlikti medžiagų įvertinimo pagal pasiūlymo eilutės informaciją. Tai vadinama operacijų klasėmis. Įvertintas mokesčių sumas taip pat galima įvesti operacijos klasėje.
+Projektu pagrįstose pasiūlymo eilutėse gali nebūti jokios arba daug pasiūlymo eilutės informacijos. Pasiūlymo eilutės informacija naudojama norint apskaičiuoti laiką, išlaidas arba mokesčius. „Microsoft Dynamics 365 Project Operations“ programoje negalima atlikti medžiagų įvertinimo pagal pasiūlymo eilutės išsamią informaciją. Tai vadinama operacijų klasėmis. Įvertintas mokesčių sumas taip pat galima įvesti operacijos klasėje.
 
 Be operacijų klasių pasiūlymo eilutės informacijos dalyje taip pat nurodomas operacijos tipas. Palaikomi du pasiūlymo eilutės informacijos operacijų tipai: **Savikainos** ir **Projekto sutarties**.
 

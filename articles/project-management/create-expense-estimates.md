@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 10872366453985561bda0c07e50cff7f5f6d333e
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 3f0429366c69346113003355679c055cd2c74ca3
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131713"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287068"
 ---
 # <a name="expense-estimates"></a>Išlaidų sąmatos
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
-Kartu su ištekliais pagrįstais įvertinimais, „Dynamics 365 Project Operations“ leidžia projektų vadovams apibrėžti kiekvieno projekto projektu pagrįstas išlaidas. Kiekvienas išlaidų elementas gali būti susietas su konkrečia projekto užduotimi arba išlaidų kategorija. Išlaidų kategorijos paprastai apibrėžiamos organizaciniu lygiu. Kiekvienos išlaidų kategorijos kainodara paprastai apibrėžiama šioje hierarchijoje:
+Kartu su ištekliais pagrįstų įvertinimų nustatymu, programoje „Dynamics 365 Project Operations“ projekto vadovai gali apibrėžti kiekvieno projekto projektu pagrįstas išlaidas. Kiekvienas išlaidų elementas gali būti susietas su konkrečia projekto užduotimi arba išlaidų kategorija. Išlaidų kategorijos paprastai apibrėžiamos organizaciniu lygiu. Kiekvienos išlaidų kategorijos kainodara paprastai apibrėžiama šioje hierarchijoje:
 
 - Organizacija
 - Klientas

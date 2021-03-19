@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: ffe3373184c8cd776bf3705fd674bedf221d9b77
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 0021147530d1aa9f82cc54ca8c92b9977c1eea2c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4133396"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287248"
 ---
 # <a name="integration-journal-in-project-operations"></a>Integravimo žurnalas programoje „Project Operations“
 
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
-Laiko ir išlaidų įrašai sukuria operacijas **Faktinės**, kurios atitinka pagal projektą užbaigto darbo veiklos rodinį. „Dynamics 365 Project Operations” teikia buhalterius, turinčius įrankį, skirtą operacijoms peržiūrėti ir apskaitos atributams koreguoti, kai reikia. Užbaigus peržiūrą ir koregavimus, operacijos skelbiamos projekto papildomoje knygoje ir didžiojoje knygoje. Buhalteris gali vykdyti šias veiklas naudodamas **„Project Operations“ integravimo** žurnalą (**„Dynamics 365 Finance”** > **Projektų valdymas ir apskaita** > **Žurnalai** > **„Project Operations“ integravimo** žurnalas.
+Laiko ir išlaidų įrašai sukuria operacijas **Faktinės**, kurios atitinka pagal projektą užbaigto darbo veiklos rodinį. „Dynamics 365 Project Operations“ teikia apskaitininkams įrankį, skirtą operacijoms peržiūrėti ir apskaitos atributams koreguoti, kai reikia. Užbaigus peržiūrą ir koregavimus, operacijos skelbiamos projekto papildomoje knygoje ir didžiojoje knygoje. Buhalteris gali vykdyti šias veiklas naudodamas **„Project Operations“ integravimo** žurnalą (**„Dynamics 365 Finance”** > **Projektų valdymas ir apskaita** > **Žurnalai** > **„Project Operations“ integravimo** žurnalas.
 
 ![Integravimo žurnalo srautas](./media/IntegrationJournal.png)
 
@@ -28,9 +28,9 @@ Laiko ir išlaidų įrašai sukuria operacijas **Faktinės**, kurios atitinka pa
 Įrašai „Project Operations“ integravimo žurnale įrašai kuriami naudojant periodinį procesą, **Importuoti iš paruošimo lentelės**. Šį procesą galite vykdyti eidami į **„Dynamics 365 Finance”** > **Projektų valdymas ir apskaita** > **Periodinis** > **„Project Operations“ integravimas** > **Importuoti iš paruošimo lentelės**. Jeigu reikia, galite vykdyti procesą interaktyviai arba sukonfigūruoti procesą, kad veiktų fone.
 
 Vykdant periodinį procesą, randami visi faktiniai duomenys, kurie dar neįtraukti į „Project Operations“ integravimo žurnalą. Sukuriama kiekvienos faktinės operacijos žurnalo eilutė.
-Sistema grupuoja žurnalo eilutes į atskirus žurnalus pagal vertę, pažymėtą lauke **Laiko vienetas „Project Operations“ integravimo žurnale** (**„Finance”** > **Projektų valdymas ir apskaita** > **Sąranka** > **Projektų valdymo ir apskaitos parametrai**, **„Project Operations”, veikiančios „Dynamics 365 Customer Engagement”** _ skirtukas). Toliau pateikiamos galimos šio lauko reikšmės.
+Sistema grupuoja žurnalo eilutes į atskirus žurnalus pagal vertę, pažymėtą lauke **Laiko vienetas „Project Operations“ integravimo žurnale** (**„Finance”** > **Projektų valdymas ir apskaita** > **Sąranka** > **Projektų valdymo ir apskaitos parametrai**, **„Project Operations”, veikiančios „Dynamics 365 Customer Engagement”** skirtukas). Toliau pateikiamos galimos šio lauko reikšmės.
 
-  - _*Dienos**: faktiniai duomenys grupuojami pagal operacijos datą. Sukuriamas atskiras kiekvienos dienos žurnalas.
+  - **Dienos**: faktiniai duomenys grupuojami pagal operacijos datą. Sukuriamas atskiras kiekvienos dienos žurnalas.
   - **Mėnesiai**: faktiniai duomenys grupuojami pagal kalendorinį mėnesį. Sukuriamas atskiras kiekvieno mėnesio žurnalas.
   - **Metai**: faktiniai duomenys grupuojami pagal kalendorinius metus. Sukuriamas atskiras kiekvienų metų žurnalas.
   - **Visi**: visos faktinės operacijos įtraukiamos į tą patį integravimo žurnalą. Jei vykdant periodinį procesą, žurnalas nepasiekiamas, pvz., jei žurnale vykdomas operacijų skelbimo procesas, sukuriamas naujas žurnalas.

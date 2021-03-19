@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3698b68b5dd0460343d26af0fcea5b9a56be4083
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b7adf61a82714a0148d9c8b1d2b2b37fd611c1cf
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131938"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287518"
 ---
 # <a name="configure-project-categories"></a>Projekto kategorijų nustatymas
 
@@ -37,7 +37,7 @@ Operacijų kategorijos apibrėžiamos „Project Operations“ modulyje.
 
 ## <a name="shared-categories"></a>Bendrai naudojamos kategorijos
 
-„Dynamics 365“ naudoja bendrai naudojamų kategorijų sąvoką išlaidoms skirstyti į kategorijas skirtingose programose, pvz., „Dynamics 365 Finance“, „Dynamics 365 Supply Chain“ ir „Dynamics 365 Project Operations“. Kiekvienai sukurtai operacijos kategorijai „Project Operations“ automatiškai sukuria keturias susijusias bendrai naudojamas kategorijas: valandos, išlaidos, mokesčiai ir elementas. Bendrai naudojamas kategorijas galite peržiūrėti ir koreguoti nuėję į **Projektų valdymas ir apskaita**\>**Nustatymas**\>**Kategorijas**\>**Bendrai naudojamos kategorijos**.
+„Dynamics 365“ bendro naudojimo kategorijų sąvoka naudojama išlaidoms suskirstyti skirtingose programose, pvz., „Dynamics 365 Finance“ „Dynamics 365 Supply Chain“ ir „Dynamics 365 Project Operations“. Kiekvienai sukurtai operacijos kategorijai „Project Operations“ automatiškai sukuria keturias susijusias bendrai naudojamas kategorijas: valandos, išlaidos, mokesčiai ir elementas. Bendrai naudojamas kategorijas galite peržiūrėti ir koreguoti nuėję į **Projektų valdymas ir apskaita**\>**Nustatymas**\>**Kategorijas**\>**Bendrai naudojamos kategorijos**.
 
 ## <a name="project-categories"></a>Projekto kategorijos
 

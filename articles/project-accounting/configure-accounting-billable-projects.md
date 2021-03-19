@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 47bb5671c7b80c0e96f3f65e9c4d25f6da8184a5
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 4398ef44d4211a2921270bebe38fc92f18503854
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131983"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287653"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Apmokėtinų projektų apskaitos konfigūravimas
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
-„Dynamics 365 Project Operations“ palaiko įvairias apmokėtinų projektų apskaitos galimybes, įskaitant laiko ir medžiagų bei fiksuotos kainos operacijas.
+„Dynamics 365 Project Operations“ palaiko įvairias apmokėtinų projektų, į kuriuos įtrauktos laiko ir medžiagų bei fiksuotos kainos operacijos, apskaitos parinktis.
 
 - **Laiko ir medžiagų operacijos**: šioms operacijoms sąskaita faktūra išrašoma darbo eigoje pagal projekto valandų, išlaidų, elementų ir mokesčių suvartojimą. Šios operacijų išlaidos gali būti suderintos su kiekvienos operacijos pajamomis, o projekto sąskaita faktūra išrašoma darbo eigoje. Projekto pajamos taip pat gali būti sukauptos tuo metu, kai vyksta operacija. Sąskaitų faktūrų išrašymo metu pajamos atpažįstamos ir, jei taikoma, atšaukiamos sukauptos pajamos.
 - **Fiksuotos kainos operacijos**: šioms operacijoms sąskaitos faktūros išrašomos pagal apmokėjimo grafiką, kuris sudaromas pagal projekto sutartį. Fiksuotos kainos operacijų pajamos gali būti atpažįstamos sąskaitų faktūrų išrašymo metu arba periodiškai apskaičiuojamos ir paskelbiamos pagal **Užbaigtos sutarties** arba **Užbaigimo procentinės dalies** būdus.

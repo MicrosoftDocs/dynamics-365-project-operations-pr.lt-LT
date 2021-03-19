@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f159ecac53b824ef208221bb14958923fb5da63b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 14094d603be2834dc66abff2ff1faf5e940b1ffa
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127369"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286618"
 ---
 # <a name="project-tracking-overview"></a>Projekto sekimo apžvalga
 
@@ -23,7 +23,7 @@ Poreikis sekti eigą atsižvelgiant į grafiką, priklauso nuo pramonės šakos.
 
 ## <a name="effort-tracking-view"></a>Pastangų sekimo rodinys
 
-**Pastangos stebėjimas** rodinys seka užduočių eigą grafike, palygindamas faktines pastangų valandas, praleistas užduočiai, su užduoties suplanuotomis pastangų valandomis. „Dynamics 365 Project Operations“ naudoja šias formules sekimo metrikoms apskaičiuoti:
+**Pastangos stebėjimas** rodinys seka užduočių eigą grafike, palygindamas faktines pastangų valandas, praleistas užduočiai, su užduoties suplanuotomis pastangų valandomis. Stebėjimo metrikoms apskaičiuoti „Dynamics 365 Project Operations“ naudoja šias formules:
 
 - **Progreso procentas**: faktinė pastanga iki šios datos ÷ įvertinimas pabaigoje (EAC) 
 - **Įvertinimas užbaigti (ETC)**: planuojamos pastangos – iki šios datos naudotos faktinės pastangos 
