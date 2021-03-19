@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6dde924c24dcffe2a8fb690e6eb429e4c3d9fb28
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d51eb890a4744051ddd7268e1f1f11b15a23b609
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4126403"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278383"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line"></a>Įvertinimo importavimas į projektais pagrįstą sutarties eilutę
 
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
-Programoje „Dynamics 365 Project Operations“ galite importuoti įvertinimus iš projekto į projektais pagrįstą sutarties eilutę.
+Programoje „Dynamics 365 Project Operations“ galite importuoti įvertinimus iš projekto į projektu pagrįstą sutarties eilutę.
 
 1. Patikrinkite, ar laukas **Projektas** projektais pagrįstoje sutarties eilutėje yra užpildytas.
 2. Skirtuko **Sutarties eilutės informacija** papildomame tinklelyje pasirinkite **Importuoti iš projekto įvertinimo**. Atidaromas dialogo lango puslapis su santraukos parinktimis. Galimos santraukos parinktys yra **Operacijos klasė**, **Kategorija**, **Vaidmuo** ir **Projekto užduotis**. Remiantis santraukos pasirinkimais, kopijuojami visų operacijų klasių, įtrauktų į šią sutarties eilutę, projekto įvertinimai. 

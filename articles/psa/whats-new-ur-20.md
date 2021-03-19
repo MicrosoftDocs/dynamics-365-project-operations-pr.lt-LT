@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ee3be43da401af405ab329b9b5a724a2e95c0219
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: db416343ac9ac2591007e83be80493a48f9ae904
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147123"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280678"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>„Project Service Automation“ V3 20 naujinimo leidimas
 
@@ -42,7 +42,7 @@ Buvo pataisytos šios problemos:
 
 - Projekto komandos narių importavimo metu naudojant paskirstymo metodą, kuriam reikalingos valandos, pateikiamas neaiškus klaidos pranešimas, jei nurodytos valandos yra nulis.
 - Vartotojams nurodoma neteisinga klaida, kai projekto užduoties lauke **Aprašas** įvedamas didžiausias simbolių skaičius.
-- Puslapyje **„Microsoft Dynamics 365 Project Service Automation” papildinio atsisiuntimas** nukreipiama į anglišką atsisiuntimo puslapį, kai vartotojo kalbos parametrai nustatyti kaip japonų kalba.
+- Kai vartotojo kalbos parametrose kalba nustatyta į japonų, **„Microsoft Dynamics 365 Project Service Automation“ papildinio atsisiuntimo** puslapis peradresuojamas į anglų k. atsisiuntimo puslapį.
 - Įvykus serverio klaidai, kartais lieka sinchronizavimo žyma skirtuke **Grafikas**, esančiame formoje **Projektai**.
 - Kai užduotis modifikuojama, į serverį siunčiami nereikalingi užduočių naujinimai.
 

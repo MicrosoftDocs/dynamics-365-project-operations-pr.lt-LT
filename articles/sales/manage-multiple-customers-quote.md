@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67e927962feb248aa7f07a69463b433e1ec89761
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 2b57d052d6b50ee420249cf5441077b092b4e13f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4182002"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277888"
 ---
 # <a name="manage-multiple-customers-on-a-project-quote"></a>Kelių klientų tvarkymas projekto pasiūlyme
 
@@ -23,7 +23,7 @@ Projekto pasiūlymai palaiko scenarijų, kai pasiūlymas apima kelis klientus, k
 
 Visi pasiūlymo klientai, esantys projekto pasiūlymo skirtuke **Klientai** nustatomi kaip pasiūlymo eilutės klientai bet kuriose **naujo** projektu pagrįsto pasiūlyo eilutėse, sukurtose šiam pasiūlymui. Bet kokios esamos projektu pagrįsto pasiūlymo eilutės nepaveldės naujo pasiūlymo klientų įrašų, sukurtų po jų.
 
-Pasiūlymo klientai ir pasiūlymo eilutės klientai gali būti įtraukti, atnaujinti arba panaikinti bet kuriuo metu, kai pasiūlymas dar nelaimėtas. Galiojantis pasiūlymo klientas turi būti nustatytas kaip valdančiosios įmonės arba juridinio subjekto klientas puslapyje **Klientai**. Juridiniai subjektai yra nustatomi „Dynamics 365 Project Operations“ **Projektų valdymo ir apskaitos** modulyje yra yra pateikiami kaip įmonės „Project Operations“ **Projektų pardavimų ir pristatymo** modulyje.
+Pasiūlymo klientai ir pasiūlymo eilutės klientai gali būti įtraukti, atnaujinti arba panaikinti bet kuriuo metu, kai pasiūlymas dar nelaimėtas. Galiojantis pasiūlymo klientas turi būti nustatytas kaip valdančiosios įmonės arba juridinio subjekto klientas puslapyje **Klientai**. Juridiniai subjektai nustatomi „Dynamics 365 Project Operations“ modulyje **Projektų valdymas ir apskaita** ir jie pasiekiami kaip įmonės „Project Operations“ moduliuose **Projekto pardavimas ir pristatymas**.
 
 ## <a name="concept-of-a-primary-customer"></a>Pirminio kliento koncepcija
 

@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: de73dac28046ec98ed201e129be6511f894223fd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: cacf3913c3893dd09509cd02361c4a21bed59825
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121543"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280093"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>Komandos narių įtraukimas iš komandos narių tinklelio
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
-Programoje „Dynamics 365 Project Operations“ yra išteklių vadovo ataskaitų sritis, teikianti vaizdinę išteklių poreikio ir naudojimo organizacijoje apžvalgą. Šioje ataskaitų srityje galite naudoti diagramas, kad galėtumėte vizualizuoti šią informaciją:
+Į „Dynamics 365 Project Operations“ įeina išteklių vadovo ataskaitų sritis, teikianti vaizdinį išteklių poreikio ir naudojimo visoje organizacijoje apžvalgą. Šioje ataskaitų srityje galite naudoti diagramas, kad galėtumėte vizualizuoti šią informaciją:
 
 - **Išteklių poreikis**: diagramoje **Aktyvių išteklių užklausa** rodomi pateikti ištekliai. Ištekliai yra agreguojami pagal vaidmenį arba projektą.
 - **Nepateiktų išteklių poreikis**: diagramoje **Nepriskirtų išteklių poreikis** rodomi visi nepateikti išteklių reikalavimai. Ši diagrama padeda išteklių vadovams peržiūrėti poreikį, kuris nėra patvirtintas ir gali būti pateiktas naudojant išteklių užklausą.

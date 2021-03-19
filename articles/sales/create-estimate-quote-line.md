@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 97030689eddb88576ffcf9dd848f8a0776512192
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d525bd86621178761346221306dfc83e13e720d2
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122938"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278473"
 ---
 # <a name="create-estimates-on-a-quote-line"></a>Įvertinimų kūrimas pasiūlymo eilutėje
 
@@ -30,7 +30,7 @@ _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems s
 
 Projektu pagrįstame pasiūlyme galite naudoti pasiūlymo eilutės informacijos objektą ir įvertinti reikiamo pristatyti darbo dydį. Tada galite bendrinti įvertinimą su klientu.
 
-Projektu pagrįstose pasiūlymo eilutėse neturi būti pasiūlymo eilutės informacijos. Taip pat šiose eilutėse gali būti pateikta daug pasiūlymo eilutės informacijos. Pasiūlymo eilutės informacija naudojama norint apskaičiuoti laiką, išlaidas arba mokesčius. „Dynamics 365 Project Operations“ neleidžia atlikti medžiagų įvertinimo pagal pasiūlymo eilutės informaciją. Tai vadinama operacijų klasėmis. Įvertintas mokesčių sumas taip pat galima įvesti operacijos klasėje.
+Projektu pagrįstose pasiūlymo eilutėse neturi būti pasiūlymo eilutės informacijos. Taip pat šiose eilutėse gali būti pateikta daug pasiūlymo eilutės informacijos. Pasiūlymo eilutės informacija naudojama norint apskaičiuoti laiką, išlaidas arba mokesčius. „Dynamics 365 Project Operations“ programoje negalima atlikti medžiagų įvertinimo pagal pasiūlymo eilutės išsamią informaciją. Tai vadinama operacijų klasėmis. Įvertintas mokesčių sumas taip pat galima įvesti operacijos klasėje.
 
 Be operacijų klasių pasiūlymo eilutės informacijos dalyje taip pat nurodomas operacijos tipas. Egzistuoja du pasiūlymo eilutės informacijos operacijų tipai: **Savikainos** ir **Projekto sutarties**.
 

@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 24299d997074efcff3776168652809d490c81b17
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: cdc8984e080d995e3a0b667fe662291b499235b2
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180472"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278518"
 ---
 # <a name="estimate-a-projectbased-contract-line"></a>Projektu pagrįstos sutarties eilutės įvertinimas
 
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_ 
 
-Naudojant „Dynamics 365 Project Operations“, projektu pagrįstoje sutarties eilutėje pateikiama išsami informacija, kuri padeda įvertinti susijusio darbo kaštus ir potencialias pajamas sutarties eilutei pateikti.
+Naudodami „Dynamics 365 Project Operations“, projektu pagrįstoje sutarties eilutėje pateikiama išsami informacija, kuri padeda įvertinti susijusio darbo savikainą ir potencialias pajamas sutarties eilutei pateikti.
 
 Norėdami įvertinti projektu pagrįstą sutarties eilutę, nueikite į projektu pagrįstos **sutarties eilutės** skirtuką **Sutarties eilutės informacija**.  Yra du tolesni būdai, kaip įvertinti projektu pagrįstą sutarties eilutę.
 

@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a14f0ec328049d1b199201955c384df9fac61e39
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: bcdfc7296ec09421668673d8502e7103c887d667
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123883"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279508"
 ---
 # <a name="resource-management-key-concepts"></a>Išteklių valdymo pagrindinės sąvokos
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
-Ištekliai yra svarbiausias paslaugomis pagrįstas organizacijos turtas. Turėdama galimybę rasti reikiamus išteklius tinkamu laiku, rezervuoti tuos išteklius projektams bei juos panaudoti, organizacija gali siekti pajamų ir klientų pasitenkinimo tikslų. Naudodami „Dynamics 365 Project Operations“ projektų išteklių paskirstymo funkcijas galite atlikti toliau nurodytas užduotis.
+Ištekliai yra svarbiausias paslaugomis pagrįstas organizacijos turtas. Turėdama galimybę rasti reikiamus išteklius tinkamu laiku, rezervuoti tuos išteklius projektams bei juos panaudoti, organizacija gali siekti pajamų ir klientų pasitenkinimo tikslų. Naudodami projektų išteklių paskirstymo funkcijas programoje „Dynamics 365 Project Operations“, galite atlikti toliau nurodytus veiksmus:
 
 - Formuoti komandas rezervuodami galimus ir patvirtinto tinkamumo išteklius.
 - Kurti bendrosios komandos narių įrašus ir apibrėžti jų vaidmenis bei paskirstyti organizacijos vieneto išteklius.

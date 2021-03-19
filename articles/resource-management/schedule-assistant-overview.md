@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 92b12bd9272805a736286bf7e0ff926cb6361c05
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e14dbe5abb69a547e2d09ef9e6bcba48e1f89455
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4125638"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279238"
 ---
 # <a name="schedule-assistant-overview"></a>Planavimo pagalbinės priemonės apžvalga
 
@@ -25,7 +25,7 @@ Nustačius tinkamus išteklius, išteklių arba projekto vadovas gali rezervuoti
 
 ## <a name="prerequisites"></a>Būtinosios sąlygos
 
-Planavimo pagalbinė priemonė yra „Universal Resource Scheduling“ sprendimo dalis. Šis sprendimas yra įtrauktas ir įdiegiamas su „Dynamics 365 Project Operations“, „Dynamics 365 Field Service“ ir „Dynamics 365 Customer Service“.
+Planavimo pagalbinė priemonė yra „Universal Resource Scheduling“ sprendimo dalis. Šis sprendimas įtrauktas ir įdiegtas su „Dynamics 365 Project Operations“, „Dynamics 365 Field Service“ ir „Dynamics 365 Customer Service“.
 
 ## <a name="matching-requirements-and-resources"></a>Reikalavimų ir išteklių derinimas
 
