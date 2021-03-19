@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 441fbc378a423334f45bc65658811ef238515393
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 5a4357d5cf184a3c6ada3ae33631694c31bb5b00
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177341"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273215"
 ---
 # <a name="manage-project-contracts"></a>Projektų sutarčių valdymas
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
-„Dynamics 365 Project Operations“ projektų sutartyse fiksuojami ir valdomi sutartyse numatyti įsipareigojimai bei išsami projekto informacija. Programoje „Project Operations” projekto sutarties struktūra pritaikoma projektiniam darbui naudojant toliau pateikiamus komponentus.
+„Dynamics 365 Project Operations“ projektų sutartyse fiksuojami ir valdomi sutartyse numatyti įsipareigojimai bei išsami projekto atsiskaitymo informacija. Programoje „Project Operations” projekto sutarties struktūra pritaikoma projektiniam darbui naudojant toliau pateikiamus komponentus.
 
 - Sutarties eilutės, kuriose nustatomi diskretiški darbo komponentai, kurie bus pristatyti kaip aukšto lygio komponentai projekto sąskaitoje faktūroje.
 - Sutarties eilutės išsami informacija, kuria nustatomas ir įvertinamas kiekvieno aukšto lygio komponento arba sutarties eilutės darbas. Sąmata apima darbo, susieto su sutarties eilute, grafiką ir finansinius aspektus.

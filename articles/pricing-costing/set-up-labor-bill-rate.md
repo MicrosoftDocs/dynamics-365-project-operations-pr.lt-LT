@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 501458510efca6434a51577aacd1f09d1a4faa25
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b4d09f4bf6788f93c028f084965faa6aac41a22d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180713"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274828"
 ---
 # <a name="set-up-labor-bill-rates"></a>Darbo sąskaitų tarifų sąranka
 
 _ **Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams
 
-Kiekviename kainoraštyje yra galiojančių vaidmenų kainų arba darbo tarifų rinkinys ir galiojimo data, įtraukta į kainoraščio antraštę. Laiko sąskaitų tarifus naudojant „Dynamics 365 Project Operations“ galima nustatyti tik viena valiuta, kuri nurodyta kainoraščio antraštėje.
+Kiekviename kainoraštyje yra galiojančių vaidmenų kainų arba darbo tarifų rinkinys ir galiojimo data, įtraukta į kainoraščio antraštę. Sąskaitų tarifai už laiką programoje „Dynamics 365 Project Operations“ gali būti nustatyti tik viena valiuta, kuri yra nurodyta kainoraščio antraštėje.
 
 1. Jei norite nustatyti pardavimo kainoraščio darbo sąskaitų tarifus, sukurkite kainoraštį pagal kainoraščio antraštę. 
 2. Skirtuke **Vaidmenų kainos**, papildomame tinklelyje, pasirinkite **+ Naujo vaidmens kaina**. 

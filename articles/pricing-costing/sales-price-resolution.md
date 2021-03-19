@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8c18dd734312b2dd147381169f5c3dc38a68a601
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6e89e23189fa65057d7b955897924057c440ccd8
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119563"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274963"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Įvertintų ir faktinių pardavimo kainų nustatymas
 
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
-Kai įvertintos ir faktinės pardavimo kainos resolved „Dynamics 365 Project Operations“, sistema pirmiausia naudoja susijusio projekto pasiūlymo arba sutarties datą ir valiutą, kad būtų resolve pardavimo kainoraštis. Resolved pardavimo kainoraštį, sistema resolves pardavimo arba sąskaitų tarifą.
+Kai pardavimo kainos pagal vertinimus ir faktinius duomenis išsprendžiamos programoje „Dynamics 365 Project Operations“, sistema iš pradžių naudoja susijusio projekto pasiūlymo ar sutarties datą ir valiutą, kad būtų išspręstas pardavimo kainoraštis. Resolved pardavimo kainoraštį, sistema resolves pardavimo arba sąskaitų tarifą.
 
 ## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-time"></a>Pardavimo tarifų faktinėse ir įvertinimo eilutėse (skirta laikui) resolve
 

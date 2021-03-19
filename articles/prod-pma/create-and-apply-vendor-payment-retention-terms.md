@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 1970a24a5073de6af43db1f1c068332c9ba9c8fe
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e6f6424b983f76a96825d76e1b4b81b54dc84b84
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080973"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270958"
 ---
 # <a name="create-and-apply-vendor-payment-retention-terms"></a>Tiekėjo mokėjimo sulaikymo sąlygų kūrimas ir taikymas
 
@@ -38,12 +38,12 @@ Galite įvesti tiekėjo mokėjimo sulaikymo procentą ir anksčiau sulaikytų su
 Atlikite toliau nurodytus veiksmus, kad nustatytumėte ir tvarkytumėte tiekėjui atliekamų mokėjimų sulaikymo sąlygas. 
 
 1. Pasirinkite **Projektų valdymas ir apskaita** > **Sulaikymas** > **Tiekėjui atliekamų mokėjimų sulaikymo sąlygos**.
-2. Pasirinkite **Naujas** , jei norite įtraukti naują tiekėjo sulaikymo sąlygą. Naujos sąlygos lauko **Taisyklės ID** reikšmė įvedama automatiškai. 
-3. Įveskite trumpą aprašymą lauke **Aprašas** , o „FastTab“ **Sąlygos** pasirinkite **Įtraukti eilutę** ir įveskite šias sąlygų reikšmes.
+2. Pasirinkite **Naujas**, jei norite įtraukti naują tiekėjo sulaikymo sąlygą. Naujos sąlygos lauko **Taisyklės ID** reikšmė įvedama automatiškai. 
+3. Įveskite trumpą aprašymą lauke **Aprašas**, o „FastTab“ **Sąlygos** pasirinkite **Įtraukti eilutę** ir įveskite šias sąlygų reikšmes.
 
-   - **Pristatytų vienetų procentinė dalis** : įveskite sąlygos įvykdymo procentą. Sumos automatiškai sulaikomos tiekėjo sąskaitose faktūrose, kol projekto baigimo etapas sutaps su nurodyta būsena. Pavyzdžiui, jei įvesite 50,00, sumos sulaikomos tol, kol 50 % projekto bus baigta.
-   - **Sulaikymo procentas** : įveskite tiekėjo sąskaitos faktūros sumos procentinę dalį, kuri bus sulaikyta. Pavyzdžiui, jei įvesite 10,00, tada 10 procentų tiekėjo sąskaitos faktūros sumos bus sulaikyti, kol projektas pasieks baigimo procentą, nustatytą lauke **Pristatytų vienetų skaičius**.
-   - **Išleidimo procentas** : pasirinkite **Įtraukti eilutę** ir įveskite bet kurių anksčiau sulaikytų sumų, kurios bus išliestos, pasirinkto projekto baigimo lygio procentą.
+   - **Pristatytų vienetų procentinė dalis**: įveskite sąlygos įvykdymo procentą. Sumos automatiškai sulaikomos tiekėjo sąskaitose faktūrose, kol projekto baigimo etapas sutaps su nurodyta būsena. Pavyzdžiui, jei įvesite 50,00, sumos sulaikomos tol, kol 50 % projekto bus baigta.
+   - **Sulaikymo procentas**: įveskite tiekėjo sąskaitos faktūros sumos procentinę dalį, kuri bus sulaikyta. Pavyzdžiui, jei įvesite 10,00, tada 10 procentų tiekėjo sąskaitos faktūros sumos bus sulaikyti, kol projektas pasieks baigimo procentą, nustatytą lauke **Pristatytų vienetų skaičius**.
+   - **Išleidimo procentas**: pasirinkite **Įtraukti eilutę** ir įveskite bet kurių anksčiau sulaikytų sumų, kurios bus išliestos, pasirinkto projekto baigimo lygio procentą.
 
 > [!NOTE]
 > Jei skirtingiems projekto baigimo lygiams taikote daugiau nei vieną etapą, įveskite atskirą kiekvienos sulaikymo taisyklės tiekėjo sulaikymo sąlygos eilutę. Kiekviena eilutė gali nurodyti skirtingą sulaikymo procentą ir skirtingą kiekvieno skirto projekto baigimo lygio procentą.
@@ -56,11 +56,11 @@ Sukūrę tiekėjo sulaikymo sąlygas, galite jas taikyti projektui.
 2. „FastTab“ **Tiekėjų sutartys** pasirinkite **Įtraukti eilutę**.
 3. Lauke **Kliento kodas** pasirinkite vieną iš pateiktų parinkčių. 
 
-   - **Lentelė** : tiekėjo sulaikymo sąlygos taikomos vienam tiekėjui.
-   - **Grupė** : tiekėjo sulaikymo sąlygos taikomos visiems tiekėjams, priklausantiems tiekėjų grupei.
-   - **Visi** : tiekėjo sulaikymo sąlygos taikomos visiems tiekėjams.
+   - **Lentelė**: tiekėjo sulaikymo sąlygos taikomos vienam tiekėjui.
+   - **Grupė**: tiekėjo sulaikymo sąlygos taikomos visiems tiekėjams, priklausantiems tiekėjų grupei.
+   - **Visi**: tiekėjo sulaikymo sąlygos taikomos visiems tiekėjams.
 
-4. Lauke **Tiekėjas / tiekėjų grupė** pasirinkite tiekėją arba tiekėjų grupę, kuriai taikomos tiekėjo sulaikymo sąlygos. Jei ankstesniame veiksme pasirinkote **Visi** , šis laukas nepasiekiamas.
+4. Lauke **Tiekėjas / tiekėjų grupė** pasirinkite tiekėją arba tiekėjų grupę, kuriai taikomos tiekėjo sulaikymo sąlygos. Jei ankstesniame veiksme pasirinkote **Visi**, šis laukas nepasiekiamas.
 5. Lauke **Tiekėjo sulaikymo sąlygos** pasirinkite sulaikymo sąlygas, kurias sukūrėte ankstesnėje procedūroje.
 6. Jei projekte taip pat nustatytos tiekėjo „mokėjimo sumokėjus“ (PWP) sąlygos, įveskite ribinę projekto dalį lauke **PWP ribinės vertės procentas**.
 

@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cd56b99c3ed455848edbd9ff4419afa58d782a3e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: ca6c2cc8855cfed592057ca129b436450104af99
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181552"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274055"
 ---
 # <a name="manage-a-proforma-invoice---lite"></a>„Proforma“ sąskaitos faktūros valdymas – „Lite“ versija
 
 _**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
 
-Programoje „Dynamics 365 Project Operations” „Proforma“ sąskaitos faktūros kuriamos kaip „Dynamics 365 Sales” esančių sąskaitų faktūrų plėtinys. Tačiau sąskaitų faktūrų išrašymo procesas programose „Sales” ir „Project Operations” labai skiriasi. Pavyzdžiui, neįmanoma sukurti naujos sąskaitos faktūros „Project Operations” puslapyje **Sąskaitų faktūrų sąrašas**, bet tai įmanoma padaryti programoje „Sales”. Šie skirtumai ir plėtiniai naudojami projektų, kurie skiriasi nuo įprastos pardavimo užsakymo sąskaitos faktūros, sąskaitų faktūrų išrašymo procesams palaikyti.
+Programoje „Dynamics 365 Project Operations” išankstinės sąskaitos faktūros kuriamos kaip „Dynamics 365 Sales” sąskaitų faktūrų plėtinys. Tačiau sąskaitų faktūrų išrašymo procesas programose „Sales” ir „Project Operations” labai skiriasi. Pavyzdžiui, neįmanoma sukurti naujos sąskaitos faktūros „Project Operations” puslapyje **Sąskaitų faktūrų sąrašas**, bet tai įmanoma padaryti programoje „Sales”. Šie skirtumai ir plėtiniai naudojami projektų, kurie skiriasi nuo įprastos pardavimo užsakymo sąskaitos faktūros, sąskaitų faktūrų išrašymo procesams palaikyti.
 
 > [!IMPORTANT]
 > Dėl šių skirtumų nenaudokite pakaitomis sąskaitų faktūrų programose „Sales” ir „Project Operations”.

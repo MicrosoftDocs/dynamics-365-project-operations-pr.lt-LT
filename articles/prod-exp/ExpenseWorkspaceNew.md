@@ -1,6 +1,6 @@
 ---
 title: Pertvarkytos išlaidų ataskaitos
-description: Šioje temoje pateikta informacija apie išlaidų ataskaitos įrašo pertvarkytą patirtį programoje „Microsoft Dynamics 365 Finance“. Naujojoje aplinkoje supaprastinamas išlaidų ataskaitų pildymo procesas ir sumažėja būtinas laikas.
+description: Šioje temoje pateikta informacija apie išlaidų ataskaitos įrašo pertvarkytą patirtį.
 author: ryansandness
 manager: AnnBe
 ms.date: 06/14/2019
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: d076c0a596940cb08433f7ee57dea54903f6078f
-ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
+ms.openlocfilehash: 7533f8aca317bd8d72e437592b5251fd3a866ba6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4960257"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271993"
 ---
 # <a name="redesigned-expense-reports"></a>Pertvarkytos išlaidų ataskaitos
 
@@ -41,15 +41,9 @@ Norėdami įjungti naują naudojimo patirtį, naudokite darbo sritį **Funkcijų
 - Nepanaikinti jokie esami išlaidų ataskaitų (esamo puslapio) arba išlaidų ataskaitos laukų meniu elementai.
 - Darbo eigos ir bet kokie patvirtinimai vis dar pateksite į esamų išlaidų ataskaitų puslapį.
 
-## <a name="getting-started-video-for-new-users"></a>Darbo pradžios vaizdo įrašai naujiems vartotojams
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
-
-[„Dynamics 365 for Finance and Operations“ išlaidų patirties](https://youtu.be/Ocy-MsTvEE0) vaizdo įrašai (nurodytų aukščiau) įtraukti į [„Finance and Operations“ grojaraštį](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), kurį galite rasti „YouTube“.
-
 ## <a name="new-features"></a>Naujos funkcijos
 
-| Nauja funkcija | Aprašo |
+| Nauja funkcija | Aprašymas |
 |---|----|
 | Išlaidų lauko matomumas | Naujame nustatymų puslapyje galite nurodyti, kurie laukai turi būti išjungti organizacijai, kurie laukai turi būti būtini ir kurie yra rekomenduojami. |
 | Būtini laukai | Naudojant naują paprastą konfigūraciją galite kelis laukus padaryti būtinais nenaudojant strategijos sistemos. |

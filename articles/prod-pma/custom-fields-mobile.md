@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 1ea1ca002a8f68f86808831b398e452244471322
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080890"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271003"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Mobiliųjų įrenginių programėlės „Microsoft Dynamics 365 Project Timesheet“, skirtos „iOS“ ir „Android“, pasirinktinių laukų diegimas
 
@@ -45,7 +45,7 @@ ms.locfileid: "4080890"
 **TSTimesheetCustomField** klasė yra X++ duomenų sutarties klasė, kuri pateikia informaciją apie grafiko funkcijų pasirinktinį lauką. Pasirinktinio lauko objektų sąrašai perduodami į „TSTimesheetDetails“ duomenų sutartį ir „TSTimesheetEntry“ duomenų sutartį, kad būtų rodomi pasirinktiniai laukai mobiliųjų įrenginių programėlėje.
 
 - **TSTimesheetDetails** – grafiko antraštės sutartis.
-- **TSTimesheetEntry** – grafiko operacijos sutartis. Šių objektų grupės, turinčios tą pačią projekto informaciją ir **timesheetLineRecId** , sudaro eilutę.
+- **TSTimesheetEntry** – grafiko operacijos sutartis. Šių objektų grupės, turinčios tą pačią projekto informaciją ir **timesheetLineRecId**, sudaro eilutę.
 
 ### <a name="fieldbasetype-types"></a>fieldBaseType (tipai)
 
@@ -56,16 +56,16 @@ Ypatybė **FieldBaseType** objekte **TsTimesheetCustom** nustato lauko, kuris ro
 | 0           | Eilutė (ir išvardijimas) | Laukas rodomas kaip teksto laukas. |
 | 1           | Integer           | Reikšmė rodoma kaip skaičius be dešimtainių skilčių. |
 | 2           | Tikroji              | Reikšmė rodoma kaip skaičius su dešimtainėmis skiltimis.<p>Norėdami tikrąją reikšmę programėlėje rodyti kaip valiutą, naudokite ypatybę **fieldExtenededType**. Ypatybę **numberOfDecimals** galite naudoti, jei norite nustatyti rodomų dešimtainių skilčių skaičių.</p> |
-| 3           | Data              | Datos formatai nustatomi pagal vartotojo parametrą **Datos, laiko ir skaičiaus formatas** , kuris yra nustatytas **Kalbos ir šalies / regiono nuostata** dalyje **Vartotojo parinktys**. |
+| 3           | Data              | Datos formatai nustatomi pagal vartotojo parametrą **Datos, laiko ir skaičiaus formatas**, kuris yra nustatytas **Kalbos ir šalies / regiono nuostata** dalyje **Vartotojo parinktys**. |
 | 4           | Boolean           | |
 | 15          | GUID              | |
 | 16          | Int64             | |
 
-- Jei ypatybė **stringOptions** nėra pateikta objekte **TSTimesheetCustomField** , laisvos formos teksto laukas pateikiamas vartotojui.
+- Jei ypatybė **stringOptions** nėra pateikta objekte **TSTimesheetCustomField**, laisvos formos teksto laukas pateikiamas vartotojui.
 
     Ypatybė **StringLength** gali būti naudojama norint nustatyti maksimalų eilutės ilgį, kurį vartotojai gali įvesti.
 
-- Jei ypatybė **stringOptions** yra pateikta objekte **TSTimesheetCustomField** , šie sąrašo elementai yra vienintelės reikšmės, kurias vartotojai gali pažymėti naudodami parinkčių mygtukus (išrinkimo mygtukus).
+- Jei ypatybė **stringOptions** yra pateikta objekte **TSTimesheetCustomField**, šie sąrašo elementai yra vienintelės reikšmės, kurias vartotojai gali pažymėti naudodami parinkčių mygtukus (išrinkimo mygtukus).
 
     Tokiu atveju eilutės laukas gali veikti kaip išvardijimo reikšmė, skirta vartotojo įrašui. Norėdami įrašyti reikšmę į duomenų bazę kaip išvardijimą, rankiniu būdu (naudodami komandų grandinę) susiekite eilutės reikšmę prieš įrašydami į duomenų bazę (kaip pavyzdį žr. tolesnį šios temos skyrių „TSTimesheetEntryService“ klasės komandų grandinės naudojimas norint įrašyti grafiko įrašą iš programėlės į duomenų bazę“).
 
@@ -97,11 +97,11 @@ Galite naudoti šią ypatybę norėdami nurodyti, kur programėlėje turi būti 
 
 ### <a name="iseditable-noyes"></a>isEditable (NoYes)
 
-Nustatykite šią ypatybę kaip **Taip** , jei norite, kad lauką grafiko įrašo skyriuje galėtų redaguoti vartotojai. Nustatykite ypatybę kaip **Ne** , kad laukas būtų tik skaitomas.
+Nustatykite šią ypatybę kaip **Taip**, jei norite, kad lauką grafiko įrašo skyriuje galėtų redaguoti vartotojai. Nustatykite ypatybę kaip **Ne**, kad laukas būtų tik skaitomas.
 
 ### <a name="ismandatory-noyes"></a>isMandatory (NoYes)
 
-Nustatykite šią ypatybę kaip **Taip** , jei norite, kad laukas grafiko įrašo skyriuje būtų privalomas.
+Nustatykite šią ypatybę kaip **Taip**, jei norite, kad laukas grafiko įrašo skyriuje būtų privalomas.
 
 ### <a name="label-str"></a>label (str)
 
@@ -179,9 +179,9 @@ Toliau pateikiama taikomosios programos objektų medžio „Visual Studio“ ekr
 
 Šis kodas valdo lauko rodymo parametrus programėlėje. Pavyzdžiui, jis valdo lauko tipą, žymą, ar laukas yra privalomas ir kokiame skyriuje rodomas laukas.
 
-Tolimesniame pavyzdyje rodomas eilutės laukas laiko įrašuose. Šiame lauke yra dvi parinktys – **Pirmoji parinktis** ir **Antroji parinktis** , pasiekiamos parinkčių mygtukais (išrinkimo mygtukais). Programėlės laukas yra susietas su lauku **TestLineString** , kuris yra įtraukiamas į lentelę „TSTimesheetLine“.
+Tolimesniame pavyzdyje rodomas eilutės laukas laiko įrašuose. Šiame lauke yra dvi parinktys – **Pirmoji parinktis** ir **Antroji parinktis**, pasiekiamos parinkčių mygtukais (išrinkimo mygtukais). Programėlės laukas yra susietas su lauku **TestLineString**, kuris yra įtraukiamas į lentelę „TSTimesheetLine“.
 
-Atkreipkite dėmesį, kad **TSTimesheetCustomField::newFromMetatdata()** metodas naudojamas siekiant supaprastinti šių pasirinktinio lauko ypatybių inicijavimą: **fieldBaseType** , **tableName** , **fieldname** , **label** , **isEditable** , **isMandatory** , **stringLength** ir **numberOfDecimals**. Taip pat galite nustatyti šiuos parametrus rankiniu būdų, jei to pageidaujate.
+Atkreipkite dėmesį, kad **TSTimesheetCustomField::newFromMetatdata()** metodas naudojamas siekiant supaprastinti šių pasirinktinio lauko ypatybių inicijavimą: **fieldBaseType**, **tableName**, **fieldname**, **label**, **isEditable**, **isMandatory**, **stringLength** ir **numberOfDecimals**. Taip pat galite nustatyti šiuos parametrus rankiniu būdų, jei to pageidaujate.
 
 ```xpp
 ...
@@ -245,7 +245,7 @@ Norėdami vėl įrašyti pasirinktinį lauką į duomenų bazę įprasto naudoji
 
 - Metodas **timesheetLineNeedsUpdating** naudojamas norint nustatyti, ar programėlėje vartotojas pakeitė eilutės įrašą ir jis turi būti įrašytas į duomenų bazę. Jei našumo problema neaktuali, šį metodą galima supaprastinti, kad jis visada grįžtų į reikšmę **teisinga**.
 - Metodus **populateTimesheetLineFromEntryDuringCreate** ir **populateTimesheetLineFromEntryDuringUpdate** galima išplėsti, kad jie įvestų reikšmes į „TSTimesheetLine“ duomenų bazę iš pateikto „TSTimesheetEntry“ duomenų sutarties įrašo. Pateiktame pavyzdyje atkreipkite dėmesį į tai, kaip duomenų bazės lauko ir įvesties lauko susiejimas rankiniu būdu atliekamas naudojant X++ kodą.
-- Metodą **populateTimesheetWeekFromEntry** taip pat galima išplėsti, jei pasirinktinis laukas, susietas su objektu **TSTimesheetEntry** , turi būti įrašytas atgal į „TSTimesheetLineweek“ duomenų bazę.
+- Metodą **populateTimesheetWeekFromEntry** taip pat galima išplėsti, jei pasirinktinis laukas, susietas su objektu **TSTimesheetEntry**, turi būti įrašytas atgal į „TSTimesheetLineweek“ duomenų bazę.
 
 > [!NOTE]
 > Toliau pateiktame pavyzdyje įrašoma **firstOption** arba **secondOption** reikšmė, kurią vartotojas pasirenka duomenų bazėje kaip pirminę eilutės reikšmę. Jei duomenų bazės laukas yra **Išvardijimas** tipo laukas, šias reikšmes galima rankiniu būdu susieti su išvardijimo reikšme ir tada įrašyti į duomenų bazės lentelės išvardijimo lauką.
@@ -408,9 +408,9 @@ final class TSTimesheetDetails_Extension
 
 Esama grafiko funkcijų duomenų bazėje logika ir toliau veiks, kaip numatyta. Kad būtų nutrauktos įrašymo arba pateikimo operacijos ir rodomas konkretus klaidos pranešimas, į kodą naudodami komandų plėtinio grandinę galite įtraukti **rodyti klaidą („pranešimas vartotojui“)**. Toliau pateikiami trys naudingi išplečiamų metodų pavyzdžiai.
 
-- Jei grafiko eilutės įrašymo operacijos metu **validateWrite** lentelėje „TSTimesheetLine“ rodo **klaida** , mobiliųjų įrenginių programėlėje rodomas klaidos pranešimas.
-- Jei grafiko pateikimo į programėlę operacijos metu **validateSubmit** lentelėje „TSTimesheetTable“ rodo **klaida** , vartotojui rodomas klaidos pranešimas.
-- Logika, kuri užpildo laukus (pvz., **Eilutės ypatybė** ), kai lentelėje „TSTimesheetLine“ naudojamas metodas **įterpti** , vis dar veiks.
+- Jei grafiko eilutės įrašymo operacijos metu **validateWrite** lentelėje „TSTimesheetLine“ rodo **klaida**, mobiliųjų įrenginių programėlėje rodomas klaidos pranešimas.
+- Jei grafiko pateikimo į programėlę operacijos metu **validateSubmit** lentelėje „TSTimesheetTable“ rodo **klaida**, vartotojui rodomas klaidos pranešimas.
+- Logika, kuri užpildo laukus (pvz., **Eilutės ypatybė**), kai lentelėje „TSTimesheetLine“ naudojamas metodas **įterpti**, vis dar veiks.
 
 ### <a name="hiding-and-marking-out-of-box-fields-as-read-only-via-configuration"></a>Paruoštų laukų paslėpimo ir pažymėjimo tik kaip skaitomų konfigūravimas
 

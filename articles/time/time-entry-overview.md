@@ -1,6 +1,6 @@
 ---
 title: Laiko funkcijų apžvalga
-description: Šioje temoje pateikiama informacija apie „Dynamics 365 Project Operations“ esančias laiko funkcijas.
+description: Šioje temoje pateikiama informacijos apie „Dynamics 365 Project Operations“ laiko funkciją.
 author: stsporen
 manager: AnnBe
 ms.date: 10/02/2020
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 291ca3cc6d995a9722fe3cd29ded95fb606888c6
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e27311f7dda1c3c713dc3ad6c0e63f395264808d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124558"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277123"
 ---
-# <a name="time-overview"></a>Laiko funkcijų apžvalga
+# <a name="time-overview"></a>Laiko apžvalga
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
-Laiko įvedimas yra faktinio laiko, kurį išnaudojo išteklius, įrašymo procesas. Naudojant „Dynamics 365 Project Operations“ laiko įrašus sąnaudas ir pardavimo kainas galima apskaičiuoti nuosekliai vykdant užduotis. Šie įrašai padeda projekto vadovui žinoti naujausią informaciją apie projektus ir užduotis. Laiko įrašai taip pat informuoja išteklių vadovus apie galimas atostogas ar neatvykimus į darbą, kurie grafiko lentoje rodomi kaip **Nėra**. Šie pranešimai padeda išteklių vadovams atitinkamai planuoti darbą.
+Laiko įvedimas yra faktinio laiko, kurį išnaudojo išteklius, įrašymo procesas. Laiko įrašai programoje „Dynamics 365 Project Operations“ leidžia išlaidų ir pardavimo kainas skaičiuoti kaip užduoties eigas. Šie įrašai padeda projekto vadovui žinoti naujausią informaciją apie projektus ir užduotis. Laiko įrašai taip pat informuoja išteklių vadovus apie galimas atostogas ar neatvykimus į darbą, kurie grafiko lentoje rodomi kaip **Nėra**. Šie pranešimai padeda išteklių vadovams atitinkamai planuoti darbą.
 
 Įrašydami laiką „Project Operations“, vartotojai gali sekti bet kurio projekto lygio duomenis. Tai apima užduoties, suvestinės arba projekto lygį.
 

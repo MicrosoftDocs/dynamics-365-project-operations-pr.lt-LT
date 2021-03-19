@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2e79dde867833fb952349c073ce8975381029dcf
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: e6b1265e5e4d29ccc3f620da364fc9554285a176
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180734"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274378"
 ---
 # <a name="set-up-labor-cost-rates---lite"></a>Darbo savikainos tarifų sąranka – „Lite“ versija
 
@@ -38,7 +38,7 @@ Kiekviename kainoraštyje yra darbo tarifų (vaidmens kainos) rinkinys, kuris de
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>Išteklių kainodaros ir išlaidų perkėlimas už savo padalinio arba juridinio subjekto ribų
 
-Projektų įmonėse projektams vykdyti įprasta naudoti darbuotojus iš skirtingų juridinių subjektų arba padalinių. Projektą gali vykdyti vienas juridinis asmuo, tačiau su projektu dirbantys darbuotojai arba konsultantai gali būti iš to paties juridinio subjekto arba iš skirtingų – galimas ir abiejų variantų derinys. Naudojant „Dynamics 365 Project Operations“ juridinis subjektas, kuris pristato projektą, yra **Valdančioji įmonė**, o pristatantis padalinys yra **Sutartį sudarantis vienetas**. Kiti juridiniai subjektai, kurie tiekia išteklius, yra **Išteklių paskirstymo įmonės**, o padaliniai, kurie tiekia išteklius, yra **Išteklių paskirstymo vienetai**. Daugelyje šalių įmonės privalo užtikrinti, kad išteklių paskirstymo juridinis subjektas arba padalinys prašytų valdančiosios įmonės ir sutartį sudarančio vieneto sumokėti už išteklių naudojimą.
+Projektų įmonėse projektams vykdyti įprasta naudoti darbuotojus iš skirtingų juridinių subjektų arba padalinių. Projektą gali vykdyti vienas juridinis asmuo, tačiau su projektu dirbantys darbuotojai arba konsultantai gali būti iš to paties juridinio subjekto arba iš skirtingų – galimas ir abiejų variantų derinys. Programoje „Dynamics 365 Project Operations“, juridinis subjektas, kuriam priklauso projekto pristatymas, yra **Valdanti įmonė**, o padalinys, kuriam priklauso pristatymas, yra **Sutartį sudarantis subjektas**. Kiti juridiniai subjektai, kurie tiekia išteklius, yra **Išteklių paskirstymo įmonės**, o padaliniai, kurie tiekia išteklius, yra **Išteklių paskirstymo vienetai**. Daugelyje šalių įmonės privalo užtikrinti, kad išteklių paskirstymo juridinis subjektas arba padalinys prašytų valdančiosios įmonės ir sutartį sudarančio vieneto sumokėti už išteklių naudojimą.
 
 Pavyzdžiui, „Fabrikam Corporation“ turi užtikrinti, kad „Fabrikam India-Robotics“ susitarė dėl savikainos tarifo kortelės su „Fabrikam US-Robotics“ arba „Fabrikam UK-Robotics“.
 

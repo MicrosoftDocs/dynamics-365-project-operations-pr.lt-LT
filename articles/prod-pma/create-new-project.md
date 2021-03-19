@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 727d287c571b2a64bf10b2393a87567093a420d2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9b29340dc88aea888ea2f5ea975eaea59d014279
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080971"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270733"
 ---
 # <a name="create-a-new-project"></a>Kurti naują projektą
 
@@ -43,11 +43,11 @@ Atlikite šiuos veiksmus, kad sukurtumėte naują projektą.
 ## <a name="assign-a-resource-to-a-project"></a>Išteklių priskyrimas projektui
 
 1. Puslapio **Darbuotojai** sąraše **Darbuotojai** pasirinkite darbuotojo, kuriam anksčiau nustatėte kompetencijas, įrašą, ir atidarykite darbuotojo įrašą.
-2. Veiksmų srityje, skirtuke **Projektas** , grupėje **Sąranka** , pasirinkite **Priskirti projektus**.
-3. Puslapyje **Išteklių tikrinimo projekto priskyrimai** , skirtuke **Projektai** , lauke **Įtraukti projektą į pasirinktus projektus** filtruokite projektą **XYZ Upgrade Phase 2**.
+2. Veiksmų srityje, skirtuke **Projektas**, grupėje **Sąranka**, pasirinkite **Priskirti projektus**.
+3. Puslapyje **Išteklių tikrinimo projekto priskyrimai**, skirtuke **Projektai**, lauke **Įtraukti projektą į pasirinktus projektus** filtruokite projektą **XYZ Upgrade Phase 2**.
 4. Srityje **Likę projektai** pasirinkite projektą, tada pasirinkite rodyklės mygtuką, kad įtrauktumėte jį į sritį **Pasirinkti projektai**.
 
-Jeigu reikia, taip pat galite priskirti ištekliaus kategorijas. Kategorijos tipas yra arba **Išlaidos** , arba **Pajamos**. Kategorijos tipą nustato jūsų organizacija. Jeigu ištekliui nepriskirta jokių kategorijų, „Finance” ieško numatytosios kategorijos pagal išlaidų ir pajamų valandos kainą.
+Jeigu reikia, taip pat galite priskirti ištekliaus kategorijas. Kategorijos tipas yra arba **Išlaidos**, arba **Pajamos**. Kategorijos tipą nustato jūsų organizacija. Jeigu ištekliui nepriskirta jokių kategorijų, „Finance” ieško numatytosios kategorijos pagal išlaidų ir pajamų valandos kainą.
 
 ## <a name="set-up-project-resource-and-role-characteristics"></a>Projektų išteklių ir vaidmens ypatybių nustatymas
 
@@ -65,7 +65,7 @@ Toliau pateikiamais veiksmais parodoma, kaip išteklių vadovas gali nustatyti v
     - **Aprašas:** vyresnysis projekto vadovas
 
 2. Pasirinkite **Kurti**.
-3. Pasirinkite vaidmenį **Vyresnysis projekto vadovas** , tada pasirinkite **Konfigūruoti ypatybes**.
+3. Pasirinkite vaidmenį **Vyresnysis projekto vadovas**, tada pasirinkite **Konfigūruoti ypatybes**.
 4. Lauke **Charakteristikų tipas** pažymėkite **Įgūdis**.
 5. Lauke **Galimos charakteristikos** įveskite ieškomą įgūdį.
 6. Lauke **Charakteristikų tipas** pažymėkite **Sertifikatas**.

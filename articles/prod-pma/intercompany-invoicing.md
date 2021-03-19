@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4604708dbd7c835c8df1cf48f67e645952f49774
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 76eba87e7cc78dcc14510a8fb53677d626bf204f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080862"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270778"
 ---
 # <a name="intercompany-invoicing"></a>Vidinės įmonės SF išrašymas
 
@@ -31,7 +31,7 @@ ms.locfileid: "4080862"
 
 Šiame straipsnyje pateikiama informacija ir pavyzdžiai apie projektų vidinės įmonės SF išrašymą.
 
-Jūsų organizaciją gali sudaryti keli skyriai, filialai ir kiti juridiniai subjektai, kurie, vykdydami projektus, keičiasi produktais ir paslaugomis. Juridinis subjektas, kuris teikia informaciją ar produktą, vadinamas *skolinančiu juridiniu subjektu* , o juridinis subjektas, kuris gauna paslaugą ar produktą, vadinamas *besiskolinančiu juridiniu subjektu*. 
+Jūsų organizaciją gali sudaryti keli skyriai, filialai ir kiti juridiniai subjektai, kurie, vykdydami projektus, keičiasi produktais ir paslaugomis. Juridinis subjektas, kuris teikia informaciją ar produktą, vadinamas *skolinančiu juridiniu subjektu*, o juridinis subjektas, kuris gauna paslaugą ar produktą, vadinamas *besiskolinančiu juridiniu subjektu*. 
 
 Tolesnėje iliustracijoje pavaizduotas įprastas scenarijus, kai du juridiniai subjektai – SI FR (besiskolinantis juridinis subjektas) ir SI USA (skolinantis juridinis subjektas) – dalijasi ištekliais, kad įvykdytų kliento A projektą. Pagal šį scenarijų, SI FR sutartimi įpareigojamas atlikti darbą klientui A. 
 
@@ -44,12 +44,12 @@ Tikslas yra vidinių įmonių projektų operacijų išlaidų kontrolę, įplauk�
 -   Skolinančio juridinio subjekto įplaukų pripažinimo atidėjimas ir laiko, kada besiskolinantis juridinis subjektas turėtų pripažinti išlaidas, atidėjimas.
 -   Skolinančio juridinio subjekto nebaigtos gamybos (NG) įplaukų kaupimas.
 -   Perkėlimo kainų, kurios gali būti grįstos įvairiais kainodaros modeliais, nustatymas. Štai keli pavyzdžiai:
-    -   **Kiekis** – suma, įvesta lauke **Kainos** , yra faktinės kiekio arba vieneto išlaidos.
+    -   **Kiekis** – suma, įvesta lauke **Kainos**, yra faktinės kiekio arba vieneto išlaidos.
     -   **Išlaidų suma** – operacijos kaina / išlaidos ir išlaidų suma, įvesta lauke **Kainos**.
     -   **Išlaidų procentinis dydis** – perkėlimo kaina yra operacijos kaina / išlaidos, padaugintos iš išlaidų procentinio dydžio, įvesto lauke **Kainos**.
     -   **Pardavimo kainos procentinė dydis** – pardavimo kainos, perkeliamos skolinančiam juridiniam subjektui, procentinė dalis.
     -   **Suma, mažesnė už pardavimo kainą** – pardavimo kainos dalies suma, kurią besiskolinantis juridinis subjektas pasilieka prieš perkeldamas skolinančiam juridiniam subjektui.
-    -   **Įnašo koeficientas** – skaičius, įvestas lauke **Kainos** , yra įnašo koeficientas, kuris išreiškiamas kaip pardavimo kainos procentinė dalis.
+    -   **Įnašo koeficientas** – skaičius, įvestas lauke **Kainos**, yra įnašo koeficientas, kuris išreiškiamas kaip pardavimo kainos procentinė dalis.
 
 ## <a name="example-1-set-up-parameters-for-intercompany-invoicing"></a>1 pavyzdys: vidinės įmonės SF išrašymo parametrų nustatymas
 Šiame pavyzdyje USSI yra skolinantis juridinio subjektas, o jo ištekliai teikia laiko ataskaitas pagal besiskolinantį juridinį subjektą, FRSI, kuris yra sudaręs sutartį su galutiniu klientu. Valandos ir išlaidos, apie kurias praneša USSI darbuotojai, gali būti įtrauktos į projekto SF, kurią sugeneravo FRSI. Be to, yra trečias operacijų šaltinis, kuris gali kilti iš skolinančio juridinio subjekto (šiame pavyzdyje – USSI), kai jis filialams (pvz., FRSI) suteikia bendrų tiekėjų paslaugas ir tada perkelia tas išlaidas į tų filialų projektus. Visus sutampančius SF dokumentus užpildo ir mokesčius suskaičiuoja „Finance“. 
@@ -65,7 +65,7 @@ Tikslas yra vidinių įmonių projektų operacijų išlaidų kontrolę, įplauk�
    |  C   |                                  Pasirinkite FRSI ir atidarykite ką tik sukurtą tiekėjo įrašą.                                  | Veiksmų srityje, skirtuke <strong>Bendra</strong>, grupėje <strong>Nustatymas</strong> spustelėkite <strong>Vidinė įmonė</strong>. Puslapio <strong>Vidinė įmonė</strong> skirtuke <strong>Prekybiniai ryšiai</strong> nustatykite slankiklį <strong>Aktyvusis</strong> kaip <strong>Taip</strong>. Lauke <strong>Kliento įmonė</strong> pasirinkite kliento įrašą, kurį sukūrėte atlikdami A veiksmą. |
 
 
-2. Spustelėkite **Projektų valdymo ir apskaita** &gt; **Sąranka** &gt; **Projektų valdymo apskaitos parametrai** , tada spustelėkite skirtuką **Vidinė įmonė**. Parametrų nustatymas priklauso nuo to, ar esate beskolinantis juridinis subjektas, ar skolinantis juridinis subjektas.
+2. Spustelėkite **Projektų valdymo ir apskaita** &gt; **Sąranka** &gt; **Projektų valdymo apskaitos parametrai**, tada spustelėkite skirtuką **Vidinė įmonė**. Parametrų nustatymas priklauso nuo to, ar esate beskolinantis juridinis subjektas, ar skolinantis juridinis subjektas.
    -   Jei esate besiskolinantis juridinis subjektas, pasirinkite įsigijimo kategoriją, naudotiną siekiant gretinti tiekėjo SF, kurios sugeneruojamos automatiškai.
    -   Jei esate skolinantis juridinis subjektas, kiekvienam besiskolinančiam subjektui pažymėkite kiekvieno operacijos tipo numatytąją projekto kategoriją. Projekto kategorijos naudojamos mokesčių konfigūracijoje, kai vidinės įmonės operacijų SF išrašymo kategorija taikoma tik besiskolinančiam juridiniam subjektui. Galite pasirinkti, kaip kaupti vidinės įmonės operacijų įplaukas. Šis kaupimas atliekamas, kai operacijos yra registruojamos, ir jis atšaukiamas, kai vidinės įmonės SF yra užregistruota.
 
@@ -87,16 +87,16 @@ USSI, skolinantis juridinis subjektas, turi kurti ir registruoti FRSI, besiskoli
 | Veiksmas | Įvesties taškas                                                                                      | Aprašo                                                                                                                                                                                                                                                                          |
 |------|--------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | A    | **Mokėtinos sumos** &gt; **SF** &gt; **Atviros tiekėjų SF** &gt; **Nauja tiekėjo SF** | Sukurkite naują tiekėjo SF ir įveskite į paslaugas, kurios buvo įsigytos FRSI projekto vardu.                                                                                                                                                                                  |
-| B    | Puslapis **Tiekėjo SF**                                                                      | Įveskite eilutes, kuriose nurodytos FRSI vardu užsakomos paslaugos. „FatstTab“ **Eilutės išsami informacija** SF eilutės skirtuke **Projektas** , lauke **Projekto įmonė** įveskite **FRSI**. Įveskite projektą ir atitinkamą informaciją. Tada užregistruokite tiekėjo SF. |
+| B    | Puslapis **Tiekėjo SF**                                                                      | Įveskite eilutes, kuriose nurodytos FRSI vardu užsakomos paslaugos. „FatstTab“ **Eilutės išsami informacija** SF eilutės skirtuke **Projektas**, lauke **Projekto įmonė** įveskite **FRSI**. Įveskite projektą ir atitinkamą informaciją. Tada užregistruokite tiekėjo SF. |
 
 ## <a name="example-4-create-and-post-the-intercompany-invoice"></a>4 pavyzdys: vidinės įmonės SF kūrimas ir registravimas
 USSI, skolinantis juridinis subjektas, turi sukurti ir užregistruoti vidinės įmonės SF. Šios užduoties veiksmams atlikti naudojamos dvi įvesties vietos.
 
 | Veiksmas | Įvesties taškas                                                                                             | Aprašo                                                                                                                                      |
 |------|---------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-| A    | **Projektų valdymas ir apskaita** &gt; **Projekto SF** &gt; **Vidinės įmonės kliento SF**  | Spustelėkite **Naujas** , kad atidarytumėte puslapį **Kurti vidinės įmonės SF**.                                                                                  |
+| A    | **Projektų valdymas ir apskaita** &gt; **Projekto SF** &gt; **Vidinės įmonės kliento SF**  | Spustelėkite **Naujas**, kad atidarytumėte puslapį **Kurti vidinės įmonės SF**.                                                                                  |
 | B    | **Projektų valdymas ir apskaita** &gt; **Projekto SF** &gt; **Vidinės įmonės kliento SF** | Puslapyje **Kurti vidinės įmonės sąskaitą faktūrą** įveskite juridinį subjektą, nurodykite norimą įtraukti operaciją, tada spustelėkite **Ieškoti**. |
-| C    | **Projektų valdymas ir apskaita** &gt; **Projekto SF** &gt; **Vidinės įmonės kliento SF** | Pažymėkite operacijas, kurioms reikia išrašyti SF, spustelėkite **Žymėti viską** , jei norite išrašyti visų sąrašo operacijų SF, tada spustelėkite **Gerai**.                  |
+| C    | **Projektų valdymas ir apskaita** &gt; **Projekto SF** &gt; **Vidinės įmonės kliento SF** | Pažymėkite operacijas, kurioms reikia išrašyti SF, spustelėkite **Žymėti viską**, jei norite išrašyti visų sąrašo operacijų SF, tada spustelėkite **Gerai**.                  |
 | D    | Puslapis **Vidinės įmonės SF**                                                                       | Rodomas vidinės įmonės kliento SF pasiūlymas.                                                                                             |
 | E    | Puslapis **Vidinės įmonės SF**                                                                       | Spustelėkite **Registruoti**.                                                                                                                                  |
 

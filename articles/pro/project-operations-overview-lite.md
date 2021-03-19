@@ -1,6 +1,6 @@
 ---
 title: Visuotinio diegimo „Lite” versijos apžvalga
-description: Šioje temoje pateikiama informacija apie „Dynamics 365 Project Operations” „Lite” versijos visuotinį diegimą.
+description: Šioje temoje pateikiama informacijos apie „Dynamics 365 Project Operations Lite“ visuotinį diegimą.
 author: rumant
 manager: Annbe
 ms.date: 11/02/2020
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b66b3656d1ef5266ede1f62657dbe9b8a63c863a
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.openlocfilehash: c1df809ea3df3f53d5fb42d632c56c47615fec3d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365558"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273973"
 ---
-# <a name="lite-deployment-overview"></a>Visuotinio diegimo „Lite” versijos apžvalga
+# <a name="lite-deployment-overview"></a>„Lite“ visuotinio diegimo apžvalga
 
 _**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
 
-„Dynamics 365 Project Operations” „Lite” versijos visuotinio diegimo tipas turi toliau pateikiamas galimybes, skirtas projektu pagrįstoms įmonėms.
+„Dynamics 365 Project Operations Lite“ visuotinio diegimo tipas turi toliau pateikiamas galimybes, skirtas projektu pagrįstoms įmonėms:
 
 - Projekto planavimas naudojant „Microsoft Project“, skirtą žiniatinkliui
 - Kelių dimensijų kainodara ir įkainojimas, taikomi darbo ištekliams

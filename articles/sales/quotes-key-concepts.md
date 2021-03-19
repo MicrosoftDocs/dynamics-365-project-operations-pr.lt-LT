@@ -17,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8d113111f5fbf6f5d23ef02cae36d85a27beed93
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 899279b33f4fe8780d110d7c18a097407bd8d839
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121318"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277528"
 ---
 # <a name="quotes---key-concepts"></a>Pasiūlymai – pagrindinės sąvokos
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
-Programoje „Dynamics 365 Project Operations“ yra dviejų tipų pasiūlymai, projektas ir pardavimas. Šių pasiūlymų dviejų tipų skirtumai išvardyti toliau.
+Programoje „Dynamics 365 Project Operations“ naudojami dviejų tipų pasiūlymai: projekto pasiūlymai ir pardavimo pasiūlymai. Šių pasiūlymų dviejų tipų skirtumai išvardyti toliau.
 
 - **Tinkleliai eilutės elementams**: pardavimo pasiūlymuose yra tik vienas tinklelis eilutės elementams. Projekto pasiūlyme yra du eilučių elementų tinkleliai. Vienas tinklelis skirtas projektų eilutėms, o kitas – produktų eilutėms.
 - **Aktyvinimas ir peržiūrėjimas** – pardavimo pasiūlymus galima aktyvuoti ir peržiūrėti. Šie procesai nepalaikomi projekto pasiūlyme.

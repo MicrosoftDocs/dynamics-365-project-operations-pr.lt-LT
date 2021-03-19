@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8d5a49febf02310f1e6c26798fc0ba1aa3b8d1f1
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 7be5f0824bfc4a58f3caabdde70a0b5b11c6f14c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180247"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277573"
 ---
 # <a name="project-quote-settings"></a>Projekto pasiūlymo parametrai
 
@@ -22,7 +22,7 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 
 Šiame straipsnyje paaiškinama projekto pasiūlymui taikoma informacija. Į tai įeina visi parametrai, kurie turi įtakos visoms pasiūlymo eilutėms ir informacija apie pasiūlymą, apibendrintą visuose eilutės elementuose, kad būtų galima vykdyti projekto pasiūlymo KPI.
 
-Toliau esančioje lentelėje išvardyti projekto pasiūlymo suvestinės informacijos laukai, kurie yra unikalūs „Dynamics 365 Project Operations“ arba kurių veikimas iš esmės skiriasi nuo „Dynamics 365 Sales“ pasiūlymų.
+Šioje lentelėje išvardyti projekto pasiūlymo santraukos informacijos laukai, kurie yra unikalūs programoje „Dynamics 365 Project Operations“ arba kurie turi kai kurių svarbių pasiūlymų veikimo pakeitimų naudojant „Dynamics 365 Sales“.
 
 | **Laukas** | **Vieta** | **Aprašas** | **Tolesnis poveikis** |
 | --- | --- | --- | --- |

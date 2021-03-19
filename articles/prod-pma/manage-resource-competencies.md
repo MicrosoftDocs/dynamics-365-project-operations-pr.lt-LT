@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34a3ea3dda64969fe66248e295cd3dd8bbe72a05
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: db96ffc5fdd6bc759cd35fff0a39a64d9854a4f0
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080861"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270643"
 ---
 # <a name="manage-resource-competencies"></a>Išteklių kompetencijų valdymas
 
@@ -40,13 +40,13 @@ Norėdami nustatyti darbuotojo kompetencijas, galite naudoti sąrašo **Darbuoto
 ## <a name="set-up-competencies-certificates"></a>Kompetencijų nustatymas: sertifikatai
 
 1. Sąrašo **Darbuotojai** puslapyje pažymėkite darbuotojo eilutę, kad įtrauktumėte sertifikatų informaciją.
-2. Veiksmų srityje, skirtuke **Darbuotojas** , grupėje **Kompetencijos** , pasirinkite **Sertifikatai**.
-3. Pasirinkite **Naujas** , tada lauke **Sertifikato tipas** pasirinkite **PMP**.
-4. Lauke **Pradžios data** pasirinkite **2015-10-01** , tada pasirinkite **Įrašyti**.
+2. Veiksmų srityje, skirtuke **Darbuotojas**, grupėje **Kompetencijos**, pasirinkite **Sertifikatai**.
+3. Pasirinkite **Naujas**, tada lauke **Sertifikato tipas** pasirinkite **PMP**.
+4. Lauke **Pradžios data** pasirinkite **2015-10-01**, tada pasirinkite **Įrašyti**.
 
 ## <a name="set-up-competencies-skills"></a>Kompetencijų nustatymas: įgūdžiai
 
-1. Sąrašo **Darbuotojai** puslapyje įsitikinkite, kad darbuotojas, kurį naudojote ankstesnėje procedūroje, vis dar pažymėtas. Tada veiksmų srityje, skirtuke **Darbuotojas** , grupėje **Kompetencijos** , pasirinkite **Įgūdžiai**.
+1. Sąrašo **Darbuotojai** puslapyje įsitikinkite, kad darbuotojas, kurį naudojote ankstesnėje procedūroje, vis dar pažymėtas. Tada veiksmų srityje, skirtuke **Darbuotojas**, grupėje **Kompetencijos**, pasirinkite **Įgūdžiai**.
 2. Pasirinkite **Naujas**.
 3. Lauke **Įgūdis** pasirinkite **Projektų valdymas**.
 4. Lauke **Lygis** pažymėkite **5 lygis – ekspertas**.

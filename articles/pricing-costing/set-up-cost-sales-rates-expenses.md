@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b518c9eda00bef4d342dd66677344af516012749
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: ee52daae18c5f9f0b630e54359021fffe1759274
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180292"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274918"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Išlaidų savikainos ir pardavimo tarifų nustatymas
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
-Galite nustatyti operacijų kategorijų savikainą ir pardavimo kainas naudodami „Dynamics 365 Project Operations“. Kadangi savikaina ir pardavimo kainos sukurtos išlaidoms, kiekviena jų operacijos kategorija taip pat turi būti nustatyta kaip išlaidų kategorija. Šis nustatymas užtikrina tikslumą naudojant tolesnio proceso funkcijas. Operacijų kategorijų savikainą ir pardavimo kainas galima nurodyti tik viena valiuta, kuri nurodyta kainoraščio antraštėje.
+Operacijų kategorijų išlaidas ir pardavimo kainas galite nustatyti programoje „Dynamics 365 Project Operations“. Kadangi savikaina ir pardavimo kainos sukurtos išlaidoms, kiekviena jų operacijos kategorija taip pat turi būti nustatyta kaip išlaidų kategorija. Šis nustatymas užtikrina tikslumą naudojant tolesnio proceso funkcijas. Operacijų kategorijų savikainą ir pardavimo kainas galima nurodyti tik viena valiuta, kuri nurodyta kainoraščio antraštėje.
 
 Norėdami nustatyti operacijų kategorijų savikainos ir pardavimo tarifus, atlikite toliau nurodytus veiksmus. 
 

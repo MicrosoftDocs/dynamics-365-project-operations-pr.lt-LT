@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1344e21d58fbc28198468146f9cea9cf00572d7d
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: c58c3696ae03e8a33a25a9483825a4b7cbf850be
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181237"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277708"
 ---
 # <a name="opportunity-settings"></a>Galimybės parametrai
 
@@ -22,7 +22,7 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 
 Galimybės antraštėje arba suvestinėje užfiksuojama bendra informacija apie projektu pagrįstą sandorį, taikoma visoms projektu pagrįstos galimybės eilutėms.
 
-Projektais pagrįstos „Dynamics 365 Project Operations" galimybės yra „Dynamics 365 Sales“ galimybių plėtiniai. Šie plėtiniai suteikia papildomų funkcijų, būdingų ir būtinų projektu pagrįstoms galimybėms. Šiuose plėtiniuose gali būti naujų laukų ir juostelės veiksmų, galimų naudojant projektu pagrįstas galimybes. Galite rasti kelis laukus, funkcijas ir numatytą logiką, kurie yra „Sales“, bet kurių nėra „Project Operations“.
+„Dynamics 365 Project Operations“ projektu pagrįstos galimybės yra „Dynamics 365 Sales“ galimybių plėtiniai. Šie plėtiniai suteikia papildomų funkcijų, būdingų ir būtinų projektu pagrįstoms galimybėms. Šiuose plėtiniuose gali būti naujų laukų ir juostelės veiksmų, galimų naudojant projektu pagrįstas galimybes. Galite rasti kelis laukus, funkcijas ir numatytą logiką, kurie yra „Sales“, bet kurių nėra „Project Operations“.
 
 Toliau pateiktoje lentelėje yra projektu pagrįstų galimybių laukai, kurie yra unikalūs „Project Operations“ arba kuriuose gali būti kai kurių svarbių pakeitimų, atsižvelgiant į „Sales“ galimybes.
 

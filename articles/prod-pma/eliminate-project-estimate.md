@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 8bda8a7357e883b948449b2a19bea476996dde3c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 000eabdac41f30a6e7dd37e34b8fd91d7c51f6c4
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080889"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270688"
 ---
 # <a name="eliminate-a-project-estimate"></a>Projekto įvertinimo šalinimas
 
@@ -37,15 +37,15 @@ Jei norite pašalinti įvertinamo projektą, jis turi būti užbaigtas. Toliau a
 2. Skirtuke **Tvarkyti** pasirinkite **Įvertinimai** ir puslapyje **Įvertinimas** pasirinkite **Šalinti**.
 3. Puslapio **Šalinti įvertinimą** skirtuke **Bendra** nustatykite toliau nurodytas parinktis.
 
-   - **Laikotarpio kodas** : pasirinkite laikotarpio kodą, kad pasirinktumėte tinkamus įvertinimo projektus. 
-   - **Įvertinimo data** : pasirinkite tinkamą įvertinimo šalinimo datą.
-   - **Šalinti su NG įspėjimais** : įjunkite šią parinktį norėdami pateikti pranešimą, kai pašalinamas įvertinimas, susietas su nebaigta gamyba (NG). Kai ši parinktis neįjungta, pašalinimo tęsti negalima, jei yra neįvertintų operacijų. 
+   - **Laikotarpio kodas**: pasirinkite laikotarpio kodą, kad pasirinktumėte tinkamus įvertinimo projektus. 
+   - **Įvertinimo data**: pasirinkite tinkamą įvertinimo šalinimo datą.
+   - **Šalinti su NG įspėjimais**: įjunkite šią parinktį norėdami pateikti pranešimą, kai pašalinamas įvertinimas, susietas su nebaigta gamyba (NG). Kai ši parinktis neįjungta, pašalinimo tęsti negalima, jei yra neįvertintų operacijų. 
    > [!NOTE]
-   > Ši parinktis galima tik tada, kai šalinimas taikomas įvertinimo projektui. Ji nepasiekiama, jei naudojate periodinius registravimus. Šis parametras suderinamas su parametrais, esančiais puslapio **Projekto parametrai** skirtuke **Įvertinimas** , laukų grupėje **Leisti pašalinti, kai yra neįvertintų operacijų**.
-   - **Nustatyti etapą kaip baigtą** : įjunkite šią parinktį, kad atlikus šalinimą būtų nustatytas įvertinimo projekto etapas **Baigtas**.
-   - **Spausdinti įvertinimo sąrašą** : pasirinkite, kad informacija būtų įtraukta į spausdinamą įvertinimo sąrašą.
-   - **Rodyti sistemos pranešimą** : įjunkite šią parinktį, kad būtų rodomas sistemos pranešimas.
-   - **Registravimo data** : pasirinkite įvertinimo DK registravimo datą.
+   > Ši parinktis galima tik tada, kai šalinimas taikomas įvertinimo projektui. Ji nepasiekiama, jei naudojate periodinius registravimus. Šis parametras suderinamas su parametrais, esančiais puslapio **Projekto parametrai** skirtuke **Įvertinimas**, laukų grupėje **Leisti pašalinti, kai yra neįvertintų operacijų**.
+   - **Nustatyti etapą kaip baigtą**: įjunkite šią parinktį, kad atlikus šalinimą būtų nustatytas įvertinimo projekto etapas **Baigtas**.
+   - **Spausdinti įvertinimo sąrašą**: pasirinkite, kad informacija būtų įtraukta į spausdinamą įvertinimo sąrašą.
+   - **Rodyti sistemos pranešimą**: įjunkite šią parinktį, kad būtų rodomas sistemos pranešimas.
+   - **Registravimo data**: pasirinkite įvertinimo DK registravimo datą.
 
 4.  Pasirinkite **Gerai**.
 5. Baigus šalinimo procesą, pašalintas įvertinimo projektas rodomas su neigiama reikšme. 

@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e86f1a5a7b2859df5bf9569ee9ca306c6dcc6293
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 63d9fc56f47c3bb7c5477af8f3bfa1be11a09a45
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4178016"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272398"
 ---
 # <a name="quotes---key-concepts---lite"></a>Pasiūlymai – pagrindinės sąvokos – „Lite“ versija
 
 _**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
 
 
-Toliau pateikiamos pagrindinės sąvokos, kurias reikia žinoti prieš pradedant naudoti projektų pasiūlymus „Dynamics 365 Project Operations“:
+Toliau pateikiamos pagrindinės sąvokos, kurias reikia žinoti prieš pradedant naudoti projektų pasiūlymus programoje „Dynamics 365 Project Operations“:
 
 ## <a name="contracting-unit"></a>Sutartį sudarantis vienetas
 

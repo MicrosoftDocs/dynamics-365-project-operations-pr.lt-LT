@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bba555003b76e3e87412679b274f74f68ac7203b
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: cac6125abc7269ee95667ae589d5a748b3d4190c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181019"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272533"
 ---
 # <a name="project-based-opportunity-lines---lite"></a>Projektu pagrįstos galimybių eilutės – „Lite“ versija
 
@@ -27,7 +27,7 @@ Projektu pagrįstos galimybės eilutės yra eilutės elementai, kurie bus prista
 
 | **Laukas** | **Vieta** | **Aprašas** | **Tolesnis poveikis** |
 | --- | --- | --- | --- |
-| Produkto tipas | Bendros informacijos skirtukas (paslėptas) | Galite pasirinkti vieną iš šių parinkčių:</br>- Projektu pagrįsta paslauga (yra tik jei turite įsidiegę „Dynamics 365 Project Operations")</br>- Produktas (yra tik jei turite įsidiegę „Project Operations“ ir „Dynamics 365 Sales") | Šio lauko reikšmė nustatoma kaip **Projektu pagrįsta paslauga**, kai galimybėje kuriate projektu pagrįstos galimybės eilutę pagal projektu pagrįstų eilučių tinklelį. <br> Jei šią reikšmę pakeisite arba perrašysite, projekto funkcijos nebus įjungtos jūsų projektu pagrįstų eilučių elementuose. |
+| Produkto tipas | Bendros informacijos skirtukas (paslėptas) | Galite pasirinkti vieną iš šių parinkčių:</br>– Projektais pagrįsta paslauga (galima tik įdiegus „Dynamics 365 Project Operations“)</br>- Produktas (yra tik jei turite įsidiegę „Project Operations“ ir „Dynamics 365 Sales") | Šio lauko reikšmė nustatoma kaip **Projektu pagrįsta paslauga**, kai galimybėje kuriate projektu pagrįstos galimybės eilutę pagal projektu pagrįstų eilučių tinklelį. <br> Jei šią reikšmę pakeisite arba perrašysite, projekto funkcijos nebus įjungtos jūsų projektu pagrįstų eilučių elementuose. |
 | Galimybė | Bendros informacijos skirtukas | Šis laukas yra skirtas tik skaityti ir nurodo pirminį galimybės įrašą, kuriam priklauso šis eilutės elementas. | Nėra jokio tolesnio šio lauko poveikio. |
 | Pavadinimas / vardas, pavardė | Bendros informacijos skirtukas | Tai yra redaguojamas teksto laukas, kurį galima naudoti norint pateikti trumpą šio eilutės elemento identifikaciją. | Ši reikšmė perkeliama į pasiūlymo eilutę, kai kuriate pasiūlymą iš šios galimybės. |
 | Kliento biudžetas | Bendros informacijos skirtukas | Šis redaguojamas valiutos laukas gali būti naudojamas norint sekti sumą, kurią klientas nori išleisti šiam eilutės elementui. | Ši reikšmė perkeliama į atitinkamą pasiūlymo lauką, kai kuriate pasiūlymą iš šios galimybės. |
