@@ -1,9 +1,9 @@
 ---
 title: Išlaidų ataskaitų pertvarkymas
-description: Šioje temoje pateikta informacija apie išlaidų ataskaitos įrašo pertvarkytą patirtį.
+description: Šioje temoje paaiškinama, kaip pertvarkyti ir iš naujo nustatyti išlaidų ataskaitų įrašų patirtį.
 author: suvaidya
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 18d7407681906361f3f818225efb8510ac981d98
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: aaa7dd24915982cf137b5959f2f4c244b9c1e012
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122804"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499726"
 ---
 # <a name="expense-reports-reimagined"></a>Išlaidų ataskaitų pertvarkymas
 
@@ -59,25 +59,22 @@ Norėdami įjungti naują naudojimo patirtį, naudokite darbo sritį **Funkcijų
 | Mažiau pranešimų pranešimų juostoje| „Infolog“ pranešimų skaičius sumažėjo ir daugelyje atvejų nebus rodomi pasikartojantys pranešimai. |
 | Sugrupuoti bendrieji veiksmai | Sąsaja buvo išvalyta pridedant naują veiksmų mygtuką daugeliui bendrųjų eilutės lygio veiksmų ir pridedant elipsės mygtuką (...), skirtą antraštėms ir kitiems rečiau naudojamiems veiksmams. |
 | Nauja darbo sritis siekiant padidinti matomumą | Nauja darbo sritis sujungia funkcijas ir saitus, kurie vartotojams leidžia pereiti į skirtingas sritis. |
-| Esamų išlaidų ir kvitų įtraukimas atliekant išlaidų kūrimą | Kurdami išlaidų ataskaitas galite įtraukti visas arba pasirinktas išlaidas ir kvitus. |
+| Esamų išlaidų ir kvitų įtraukimas atliekant išlaidų kūrimą | Kurdami išlaidų ataskaitas galite įtraukti visas išlaidas arba pažymėti nepridėtas išlaidas. Nepridėtos išlaidos – tai išlaidos, importuotos iš įmonės kredito kortelės informacijos santraukos, arba išlaidos, kurias vartotojas sukūrė rankiniu būdu, bet nepridėtos prie išlaidų ataskaitos.|
 | Valiutos kurso skaičiuotuvas | Įtraukiamas valiutos kurso skaičiuotuvas, leidžiantis apskaičiuoti kišenės kelių valiutų operacijų valiutos kursą. |
 | Naujų išlaidų eilučių išsaugojimas ir įtraukimas | Įvesdami naujas išlaidas, galite naudoti mygtukus **Įrašyti** ir **Nauja**, kad greitai įvestumėte išlaidų eilutes. |
 | Išskaidytų ir detaliai išvardytų eilučių geresnis matomumas | Detaliai išvardytos ir išskaidytos eilutės tiesiogiai įtraukiamos į išlaidų sąrašą, kad būtų padidintas matomumas ir būtų lengviau nustatyti, ar yra klaidų. |
 | Kvitų rodymas detalizavimo metu | Galite matyti kvitus detalizavimo metu. |
+| Avanso grynaisiais pinigais pasirinkimas | Pažymėkite vieną ar daugiau avansų grynaisiais pinigais, kad būtų galima atlikti vieną išlaidų operaciją. |
+| Avanso grynaisiais pinigais balansas | Realiuoju laiku peržiūrėkite avanso grynaisiais pinigais balansą, kai kuriate išlaidų įrašą pagal patvirtintus ir apmokėtus avansus grynaisiais pinigais. |
 
 Pradinis leidimas sutelktas į išlaidų įrašų scenarijus. Bet koks išlaidų ataskaitos peržiūros arba patvirtinimo scenarijus toliau naudos esamą išlaidų įrašo puslapį.
 
-Toliau pateiktos funkcijos yra esamame puslapyje, bet dar nepateiktos naujame puslapyje. Šios funkcijos bus iš naujo įtrauktos į kitus kelis leidimus:
+Iš naujo atnaujintoje išlaidų darbo srityje nepalaikomos šios funkcijos:
 
-- Patvirtinimai
-- Mokėtinų sumų patvirtinimai ir galimybė redaguoti apskaitą
-- Keli įvesties taškai
 - Kelionės paraiškos integravimas
-- Duomenų objektas išlaidų lauko matomumui
 - Dienpinigių išlaidų įrašas
-- Eilutės lygio darbo eiga
 - Tarpinio tvirtintojo palaikymas
-- Išplėstinis detalizavimas
+- Galimybė peržiūrėti darbo eigos retrospektyvą
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

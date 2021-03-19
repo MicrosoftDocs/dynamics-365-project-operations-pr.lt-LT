@@ -1,27 +1,27 @@
 ---
 title: Kopijuoti projektą
-description: Šioje temoje pateikiama informacija apie projektų kopijavimą programoje „Dynamics 365 Project Operations“.
+description: Šioje temoje pateikiama informacija apie „Dynamics 365 Project Operations“ projektų kopijavimą.
 author: ruhercul
 manager: AnnBe
-ms.date: 10/07/2020
+ms.date: 02/22/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 53c72e5fd680eb28128644788752368705440445
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: af1942e81691d9e13fdcbbf68599c1a8a4004582
+ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131803"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5479529"
 ---
-# <a name="copy-a-project"></a>Kopijuoti projektą
+# <a name="copy-a-project"></a>Projekto kopijavimas
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
-Naudodami „Dynamics 365 Project Operations“ galite greitai kurti naujus projektus pasirinkdami **Kopijuoti projektą**, esantį formoje **Projektai**. Jei norite kopijuoti projektą, atidarykite norimą kopijuoti projektą ir pasirinkite **Kopijuoti projektą**. Veiksmas kopijuos:
+Naudodami „Dynamics 365 Project Operations“ galite greitai kurti naujus projektus formoje **Projektai** pasirinkdami **Kopijuoti projektą**. Jei norite kopijuoti projektą, atidarykite norimą kopijuoti projektą ir pasirinkite **Kopijuoti projektą**. Veiksmas kopijuos:
 
-- Projekto ypatybes
+- Projekto ypatybės (numatoma pradžios data kopijuojama iš šaltinio projekto)
 - Darbo paskirstymo struktūrą
 - Projekto komandos nariai
 - Projekto įvertinimai

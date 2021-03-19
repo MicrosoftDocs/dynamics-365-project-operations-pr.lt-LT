@@ -3,17 +3,17 @@ title: Laiko įrašo vartotojo sąsajos veikimas
 description: Šioje temoje pateikiama informacija apie laiko įrašo vartotojo sąsajos veikimą.
 author: stsporen
 manager: AnnBe
-ms.date: 10/05/2020
+ms.date: 03/03/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 8719e2f9ee4867f17ed75142eca2115f61e37999
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b552266eddc4efc1b41fc500d157239388ad219b
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124513"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499624"
 ---
 # <a name="time-entry-ui-behavior"></a>Laiko įrašo vartotojo sąsajos veikimas
 
@@ -21,6 +21,19 @@ _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems s
 
 
 Tinklelis **Savaitės laiko įrašas** yra pasirinktinis valdiklis, kuriame yra du skyriai: **Dimensijos** ir **Trukmė**.
+
+## <a name="keyboard-shortcuts"></a>Spartieji klavišai
+| Veiksmas        | Nuoroda                  |
+|------------   |------------------------   |
+| Nauji           | Alt + Shift + n           |
+| Kopijuoti eilutę      | Alt + Shift + c           |
+| Redaguoti įrašą    | Alt + Shift + e           |
+| Redaguoti eilutę      | Alt + Shift + Ctrl + e    |
+| Atidaryti įrašą    | Alt + Shift + o           |
+| Pateikti        | Alt + Shift + s           |
+| Atšaukti        | Alt + Shift + r           |
+| Delete        | Alt + Shift + d           |
+| Kopijuoti savaitę     | Alt + Shift + w           |
 
 ## <a name="dimensions"></a>Dimensijos
 Skyriuje **Dimensijos** rodomos visos dimensijos, prie kurių galima įvesti laiką. Toliau nurodytos dimensijos yra visiškai parengtos naudoti.

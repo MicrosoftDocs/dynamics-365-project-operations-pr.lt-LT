@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: e9d3a5d8e6e1daafac72a3b4c0380b679d1869bd
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
+ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401228"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5479574"
 ---
 # <a name="determine-your-deployment-type"></a>Visuotinio diegimo tipo nustatymas
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
 > [!IMPORTANT]
-> Įsigiję licenciją, pradėkite čia, kad nustatytumėte geriausią „Dynamics 365 Project Operations“ visuotinio diegimo modelį, pasitelkdami [Interaktyvųjį diegimo srautą](https://aka.ms/provisionprojectoperations).
+> Įsigę licenciją, čia nustatykite geriausią „Dynamics 365 Project Operations“ visuotinio diegimo modelį naudodamiesi [interaktyviuoju diegimo srautu](https://aka.ms/provisionprojectoperations).
 > Baigę interaktyvųjį diegimo srautą, būsite nukreipti į tinkamą valdymo portalą, kur galėsite baigti diegimą. Norėdami baigti diegimą, žr. diegimo informaciją.
 
 
@@ -31,6 +31,9 @@ _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems s
 
 Esami „Finance“ klientai, naudojantys projektų valdymo ir apskaitos funkcijas, gali ją naudoti taip, kaip dabar. Žr. [„Project Operations“, skirta laikomų medžiagų / gamybos užsakymo scenarijams](#pma).
 
+
+## <a name="deployment-regions"></a>Visuotinio diegimo regionai
+Norėdami nustatyti, kurie regionai palaikytų „Project Operations“ visuotinį diegimą, žr. [„Dynamics 365“ ir „Power Platform“ ataskaitų geografinis pasiekiamumas](https://dynamics.microsoft.com/en-us/geographic-availability/). Pasirinkite **Peržiūrėti ataskaitą** ir išplėskite **„Dynamics 365“ > „Operations“ programos > „Dynamics 365 Project Operations“** ir peržiūrėkite palaikomus regionus.
 
 ## <a name="deployment-types"></a>Visuotinio diegimo tipai
 „Project Operations“ palaiko kelias visuotinio diegimo parinktis, atitinkančias jūsų reikalavimus. Jei esate naujas ar esamas „Dynamics 365“ klientas, „Project Operations“ gali atitikti jūsų poreikius.
