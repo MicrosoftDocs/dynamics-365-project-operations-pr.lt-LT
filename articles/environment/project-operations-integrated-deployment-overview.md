@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 035ad22d2b51182c11e5c29d35f74f499fc903d5
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.openlocfilehash: 770947835af41bd06c02ca08b6ed8e810b9bdcf8
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365552"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289964"
 ---
 # <a name="project-operations-for-resourcenon-stocked-based-scenarios-deployment-overview"></a>„Project Operations“, skirtos ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams, visuotinio diegimo apžvalga
 
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
-„Dynamics 365 Project Operations”, skirtos ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams, visuotinio diegimo tipas turi toliau pateikiamas galimybes, skirtas projektu pagrįstoms įmonėms.
+„Dynamics 365 Project Operations”, skirtos ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams, visuotinio diegimo tipas turi toliau pateikiamas galimybes, skirtas projektu pagrįstoms įmonėms:
 
 - Projekto planavimas naudojant „Microsoft Project“, skirtą žiniatinkliui
 - Kelių dimensijų kainodara ir įkainojimas, taikomi darbo ištekliams

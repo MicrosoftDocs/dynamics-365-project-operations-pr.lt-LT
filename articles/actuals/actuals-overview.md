@@ -1,6 +1,6 @@
 ---
 title: Faktiniai duomenys
-description: Šioje temoje pateikta informacija, kaip dirbti su faktiniais duomenimis programoje „Microsoft Dynamics 365 Project Operations“.
+description: Šioje temoje pateikiama informacija apie tai, kaip dirbti su faktiniais duomenimis programoje „Microsoft Dynamics 365 Project Operations“.
 author: rumant
 manager: AnnBe
 ms.date: 09/16/2020
@@ -16,12 +16,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 13c429763fa805fae5324e4dcf1bf7669e842281
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6a94bd143b0d0dad2a08511a34e592a057b6d2a1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4126320"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5291809"
 ---
 # <a name="actuals"></a>Faktiniai duomenys 
 
@@ -70,7 +70,7 @@ Kategorija paremti numatytųjų vieneto kainų įrašai išlaidų įrašuose neg
 Galite naudoti įrašų žurnalus, kad įrašytumėte savikainą ar pajamas medžiagos, mokesčio, laiko, išlaidų ar mokesčių operacijų klasėms. Žurnalus galima naudoti šiems tikslams:
 
 - Įrašyti faktines projekto medžiagų ir pardavimų išlaidas.
-- Perkelti operacijų faktinius duomenis iš kitos sistemos į „Microsoft Dynamics 365 Project Operations“.
+- Operacijų faktinius duomenis perkelkite iš kitos sistemos į „Microsoft Dynamics 365 Project Operations“.
 - Įrašyti išlaidas, atsiradusias kitoje sistemoje. Šios išlaidos gali apimti viešuosius pirkimus arba subrangos išlaidas.
 
 > [!IMPORTANT]
