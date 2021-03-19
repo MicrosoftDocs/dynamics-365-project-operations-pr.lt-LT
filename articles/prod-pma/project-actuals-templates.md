@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: cff62e739e88dc45e7c3d1ea044875f0600f2bc1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11ccbd64c37341b2969e10e9a737f1aa4b4a61f9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080968"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289694"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Projekto faktinių duomenų sinchronizavimas tiesiogiai iš „Project Service Automation“ į projekto integravimo žurnalą norint paskelbti „Finance and Operations“
 
@@ -50,7 +50,7 @@ Naudojant „Project Service Automation“ į „Finance“ integravimo sprendim
 
 ### <a name="template-and-tasks"></a>Šablonas ir užduotys
 
-Norėdami pasiekti galimus šablonus, „Microsoft Power Apps“ administravimo centre pasirinkite **Projektai** , tada viršutiniame dešiniajame kampe pasirinkite **Naujas projektas** ir viešuosius šablonus.
+Norėdami pasiekti galimus šablonus, „Microsoft Power Apps“ administravimo centre pasirinkite **Projektai**, tada viršutiniame dešiniajame kampe pasirinkite **Naujas projektas** ir viešuosius šablonus.
 
 Toliau pateikiamas šablonas ir pagrindinės užduotys naudojamos norint sinchronizuoti projekto faktinius duomenis iš „Project Service Automation“ į „Finance“.
 
@@ -86,7 +86,7 @@ Projekto faktinių duomenų šablone turite naudoti „Microsoft Power Query for
 - Jei vidinės įmonės laiko arba vidinės įmonės išlaidų faktinės sumos nebus sinchronizuojamos į „Finance“, turite panaikinti paskutinį iš savo šablono įterptą sąlyginį stulpelį. Priešingu atveju gali įvykti integravimo klaida arba į „Finance“ gali būti importuotos netinkamos faktinių duomenų operacijos.
 
 #### <a name="contract-organizational-unit"></a>Sutarties organizacinis vienetas
-Norėdami atnaujinti į šabloną įterptą sąlyginį stulpelį, spustelėkite **Struktūros** rodyklę ir atidarykite susiejimą. Spustelėkite saitą **Išankstinės užklausos ir filtravimas** , kad atidarytumėte „Power Query“.
+Norėdami atnaujinti į šabloną įterptą sąlyginį stulpelį, spustelėkite **Struktūros** rodyklę ir atidarykite susiejimą. Spustelėkite saitą **Išankstinės užklausos ir filtravimas**, kad atidarytumėte „Power Query“.
 
 - Jei naudojate numatytąjį projekto faktinių duomenų šabloną (PSA į „Fin and Ops“), „Power Query” skyriuje **Taikomi veiksmai** pasirinkite naujausią **įtrauktą sąlygą**. Įraše **Funkcija** pakeiskite **USSI** juridinio subjekto pavadinimu, kuris turi būti naudojamas su šiuo integravimu. Jei reikia, įtraukite papildomų sąlygų į **Funkcija** įrašą ir atnaujinkite būsena **kitas** iš **USMF** į teisingą juridinį subjektą.
 - Jei kuriate naują šabloną, turite įtraukti stulpelį, kuriame palaikomas vidinės įmonės laikas ir išlaidos. Pasirinkite **Įtraukti sąlygos stulpelį** ir įveskite naujo stulpelio pavadinimą, pvz., **LegalEntity**. Įveskite stulpelio sąlygą, kur jei **msdyn\_contractorganizationalunitid.msdyn\_pavadinimas** yra \<organizational unit\>, tada \<enter the legal entity\>; kitu atveju neapibrėžta reikšmė.

@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: e872c4a2d35cef4cddc6851615c6c4d73b4e9d9a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f2469c8396eb4867b435f70b046aa421552d0fa1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080815"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288613"
 ---
 # <a name="set-up-and-use-pay-when-paid-vendor-payments"></a>Tiekėjo mokėjimų „mokėti sumokėjus“ nustatymas ir naudojimas
 
@@ -56,8 +56,8 @@ Nustatydami projekto PWP sąlygas turite nurodyti, kaip procentą, mažiausią s
     - **Grupė** – PWP sąlygos taikomos visiems tiekėjams, priklausantiems tiekėjų grupei.
     - **Visi** – PWP sąlygos taikomos visiems tiekėjams.
 
-4. Jei ankstesniame veiksme pasirinkote **Lentelė** arba **Grupė** , lauke **Tiekėjas / tiekėjų grupė** , pasirinkite tiekėją arba tiekėjų grupę, kuriai taikomos PWP sąlygos. Jei ankstesniame veiksme pasirinkote **Visi** , lauko **Tiekėjas / tiekėjų grupė** negalima redaguoti.
-5. Jei projekto tiekėjui nustatomos tiekėjo sulaikymo sąlygos, lauke **Tiekėjo sulaikymo sąlygos** , pasirinkite sulaikymo sąlygų taisyklės ID.
+4. Jei ankstesniame veiksme pasirinkote **Lentelė** arba **Grupė**, lauke **Tiekėjas / tiekėjų grupė**, pasirinkite tiekėją arba tiekėjų grupę, kuriai taikomos PWP sąlygos. Jei ankstesniame veiksme pasirinkote **Visi**, lauko **Tiekėjas / tiekėjų grupė** negalima redaguoti.
+5. Jei projekto tiekėjui nustatomos tiekėjo sulaikymo sąlygos, lauke **Tiekėjo sulaikymo sąlygos**, pasirinkite sulaikymo sąlygų taisyklės ID.
 6. Lauke **PWP ribinė procentinė dalis** įveskite projekto ribinę procentinę dalį. Projekte įvestas procentas apibrėžia minimalią sumą, kurią klientas turi sumokėti prieš jums mokant tiekėjui.
 
 ## <a name="create-a-po-that-has-pwp-terms"></a>Pirkimo užsakymo su PWP sąlygomis kūrimas
@@ -69,7 +69,7 @@ Kai registruojate tiekėjo sąskaitą faktūrą, jei tiekėjui taikomos PWP sąl
 
     Arba atidarykite esamą pirkimo užsakymą, esantį sąrašo puslapyje **Visi pirkimo užsakymai**.
 
-4. Puslapyje **Pirkimo užsakymas** , „FastTab“ **Pirkimo užsakymo eilutės** , peržiūrėkite tiekėjo pirkimo užsakymo eilutės duomenis. Parinktis **Mokėti sumokėjus** pasirenkama automatiškai, o lauko **PWP ribinė procentinė dalis** reikšmė automatiškai nukopijuojama iš lauko **PWP ribinė procentinė dalis** puslapyje **Projektai**.
+4. Puslapyje **Pirkimo užsakymas**, „FastTab“ **Pirkimo užsakymo eilutės**, peržiūrėkite tiekėjo pirkimo užsakymo eilutės duomenis. Parinktis **Mokėti sumokėjus** pasirenkama automatiškai, o lauko **PWP ribinė procentinė dalis** reikšmė automatiškai nukopijuojama iš lauko **PWP ribinė procentinė dalis** puslapyje **Projektai**.
 6. Jei tiekėjui nenorite taikyti PWP sąlygų (pirkimo užsakymo eilutei), išvalykite parinktį **Mokėti sumokėjus**. Tokiu atveju pirkimo užsakymo eilutės laukas **PWP ribinė procentinė dalis** bus iš naujo nustatytas į 0 (nulis).
 
 ## <a name="update-a-customer-payment-and-pay-the-vendor"></a>Kliento mokėjimo atnaujinimas ir mokėjimas tiekėjui

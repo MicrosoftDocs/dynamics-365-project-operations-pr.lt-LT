@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bec6afe04a705d4f55ac3a7de93a64b47021fbb4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c3752abd26e760d27320d2b86079d84a967d53cf
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122353"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287743"
 ---
 # <a name="manage-the-billing-backlog"></a>Atsiskaitymo nebaigtų užduočių tvarkymas
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
-„Dynamics 365 Project Operations“ yra du skirtieji rodiniai, padėsiantys jums tvarkyti ir valdyti atsiskaitymo nebaigtas užduotis. Jos yra **Fiksuoti kainų etapai** ir **Bebaigtos laiko ir medžiagų sąskaitų užduotys** Norėdami pasirinkti rodinį, „Project Operations“ srityje **Sales**, kairiajame naršymo puslapyje pasirinkite **Atsiskaitymas**. Čia saugomi nebaigtų atsiskaitymo užduočių saitai.
+„Dynamics 365 Project Operations“ programoje yra du specialieji rodiniai, kad būtų lengviau dirbti ir tvarkyti nebaigtomis atsiskaitymo užduotimis. Jos yra **Fiksuoti kainų etapai** ir **Bebaigtos laiko ir medžiagų sąskaitų užduotys** Norėdami pasirinkti rodinį, „Project Operations“ srityje **Sales**, kairiajame naršymo puslapyje pasirinkite **Atsiskaitymas**. Čia saugomi nebaigtų atsiskaitymo užduočių saitai.
 
 ## <a name="fixed-price-milestones"></a>Fiksuotos kainos gairės
 

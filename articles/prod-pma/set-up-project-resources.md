@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7eec8ad5d78019219b2e04ca75eeaa5a3c8a748f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0bf146c3bfb2fd558c471d8a9e980834cb1b87df
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081008"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288749"
 ---
 # <a name="set-up-project-resources"></a>Projekto išteklių nustatymas
 
@@ -54,7 +54,7 @@ Kai nustatote darbuotoją kaip vidinės įmonės išteklių, turite atlikti sąr
 3. Lauke **Juridinio subjekto ID** pažymėkite nuomojančią įmonę. Tinkamai užpildykite likusius laukus ir pasirinkite **Įrašyti**.
 4. Puslapyje **Perkėlimo kaina** pasirinkite **Nauja**.
 5. Lauke **Besiskolinančio juridinio subjekto ID** pažymėkite tinkamą įmonę.
-6. Jeigu norite besiskolinančiai įmonei išnuomoti tik tą išteklių, kurį sukūrėte šio skyriaus pradžioje, lauke **Ištekliai** , pasirinkite sukurto ištekliaus pavadinimą. Jeigu norite, kad besiskolinančioji įmonė galėtų pasiekti visus nuomojančios įmonės išteklius, palikite lauką **Ištekliai** tuščią.
+6. Jeigu norite besiskolinančiai įmonei išnuomoti tik tą išteklių, kurį sukūrėte šio skyriaus pradžioje, lauke **Ištekliai**, pasirinkite sukurto ištekliaus pavadinimą. Jeigu norite, kad besiskolinančioji įmonė galėtų pasiekti visus nuomojančios įmonės išteklius, palikite lauką **Ištekliai** tuščią.
 7. Puslapio **Projektų valdymo ir apskaitos parametrai** skirtuke **Vidinė įmonė** nustatykite parinktį **Įgalinti vidinės įmonės išteklių planavimą ir grafikų sudarymą** kaip **Taip**.
 
 ### <a name="in-the-borrowing-company"></a>Besiskolinančioje įmonėje

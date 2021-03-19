@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 89801696d6a2924d78c85f6e9b4281409222dbb0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: dfd91e859244cc03b9b358b057bded79eeea0182
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081017"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289379"
 ---
 # <a name="project-grants"></a>Projektų subsidijos
 
@@ -42,7 +42,7 @@ Subsidiją galite sukurti įvedę visus duomenis naujame įraše arba galite nuk
 
 1. Eikite į **Projektų valdymas ir apskaita** \> **Subsidijos** \> **Subsidijos**.
 2. Pasirinkite **Naujas** \> **Subsidija**.
-3. Subsidijų informacijos puslapyje „FastTab“ **Bendra** , lauke **Subsidijos ID** , įveskite raidinį-skaitinį subsidijos identifikatorių.
+3. Subsidijų informacijos puslapyje „FastTab“ **Bendra**, lauke **Subsidijos ID**, įveskite raidinį-skaitinį subsidijos identifikatorių.
 4. Lauke **Subsidijos pavadinimas** įveskite subsidijos pavadinimą.
 5. Lauke **Aprašymas** įtraukite informaciją apie naują subsidiją.
 
@@ -53,7 +53,7 @@ Subsidiją galite sukurti įvedę visus duomenis naujame įraše arba galite nuk
     - **Bendra** – įveskite subsidijos pavadinimą, būseną, aprašą, tikslą ir sumą.
     - **Kontaktinė informacija** – įveskite informaciją apie darbuotojus, subsidiją valdantį skyrių ir subsidijos klientą arba organizacijos šaltinį. Taip pat galite nurodyti, ar jūsų organizacija yra tarpinis subjektas, gaunantis subsidiją ir perduodantis ją kitam gavėjui. Pasirinkite **Įtraukti** norėdami įtraukti kontaktinę informaciją, pvz., subsidiją suteikiančios organizacijos telefono numerius ir el. pašto adresus.
     - **Datos ir galutiniai terminai** – įveskite datas, kurios yra susijusios su subsidija ir subsidijos paraiška. Pavyzdžiai: paraiškos terminas, pateikimo data ir subsidijos patvirtinimo arba atmetimo data.
-    - **Susiję projektai ir projektų sutartys** – galite įvesti informaciją šiame „FastTab“, tik jei laukas **Subsidijos būsena** , esantis „FastTab“ **Bendra** , nustatytas į **Aktyvus** arba **Paskirtas**. Norėdami užbaigti susijusią užduotį, pasirinkite iš šių parinkčių:
+    - **Susiję projektai ir projektų sutartys** – galite įvesti informaciją šiame „FastTab“, tik jei laukas **Subsidijos būsena**, esantis „FastTab“ **Bendra**, nustatytas į **Aktyvus** arba **Paskirtas**. Norėdami užbaigti susijusią užduotį, pasirinkite iš šių parinkčių:
 
         - **Įtraukti finansavimo šaltinį** – įtraukite naują subsidijos finansavimo šaltinį. Galite įvesti visą informaciją dabar arba galite naudoti numatytąją informaciją ir vėliau ją atnaujinti.
         - **Įtraukti projekto sutartį** – įtraukite arba atnaujinkite projekto sutarties informaciją.
@@ -77,7 +77,7 @@ Subsidiją galite sukurti įvedę visus duomenis naujame įraše arba galite nuk
 
 1. Eikite į **Projektų valdymas ir apskaita** \> **Subsidijos** \> **Subsidijos**.
 2. Pasirinkite modifikuotiną subsidiją.
-3. Veiksmų srityje, skirtuke **Subsidija** , grupėje **Tvarkyti** , pasirinkite **Redaguoti**.
+3. Veiksmų srityje, skirtuke **Subsidija**, grupėje **Tvarkyti**, pasirinkite **Redaguoti**.
 4. Peržiūrėkite subsidijos informaciją ir atlikite reikiamus pakeitimus.
 
 

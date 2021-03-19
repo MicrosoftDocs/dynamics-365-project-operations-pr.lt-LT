@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 1a83785a9db4dffc4585acf11ef971c08594f312
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b1de330df8cf85ed30c0ee4e4f2f2fe74d05dbff
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080965"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289514"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Išplėstinių atsiskaitymo sutarčių kūrimas atsižvelgiant į eigą
 [!include [banner](../includes/banner.md)]
@@ -51,7 +51,7 @@ Biudžeto tvarkytuvas sukuria projektų kategorijų biudžetą. Atlikto darbo su
 Prieš kurdami projektą, kuris naudoja atsiskaitymo taisykles, turite nustatyti atsiskaitymo taisyklių numeraciją ir mokesčių žurnalą, naudojamą registruoti vykdomus atsiskaitymus.
 
 1. Eikite į **Projektų valdymas ir apskaita** \> **Sąranka** \> **Projektų valdymo ir apskaitos parametrai**.
-2. Puslapyje **Projektų valdymo ir apskaitos parametrai** , skirtuke **Numeracijos** , nustatykite numeraciją, kurią norite naudoti, kai kuriamos atsiskaitymo taisyklės.
+2. Puslapyje **Projektų valdymo ir apskaitos parametrai**, skirtuke **Numeracijos**, nustatykite numeraciją, kurią norite naudoti, kai kuriamos atsiskaitymo taisyklės.
 3. Eikite į **Projektų valdymas ir apskaita** \> **Žurnalai** \> **Mokestis**.
 4. Puslapyje **Mokesčių žurnalas** pasirinkite **Naujas** ir įveskite žurnalo pavadinimą.
 
@@ -77,7 +77,7 @@ Atlikite šiuos veiksmus, kad sukurtumėte projektą ir bet kokius papildomus pr
 
 1. Eikite į **Projektų valdymas ir apskaita** \> **Projektai** \> **Visi projektai**.
 2. Puslapyje **Visi projektai** pasirinkite **Naujas**.
-3. Dialogo lange **Naujas projektas** , lauke **Projekto tipas** , pasirinkite **Laikas ir medžiaga**.
+3. Dialogo lange **Naujas projektas**, lauke **Projekto tipas**, pasirinkite **Laikas ir medžiaga**.
 4. Pasirinkite projekto grupę. Projektų grupė apibrėžia grupei priskirtų projektų registravimo informaciją.
 5. Pasirinkite **Kurti projektą**.
 6. Sukūrę projektą nustatykite projekto etapą į **Vykdoma**.

@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.14
 ms.search.validFrom: 2020-09-01
-ms.openlocfilehash: c3f219ce0635545976a6a4639233f166e18468af
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 34c31570778f9b64c23387112cf56fa1139cd0fd
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080819"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289019"
 ---
 # <a name="project-resource-scheduling-performance"></a>Projekto išteklių planavimo efektyvumas
 
@@ -31,10 +31,10 @@ ms.locfileid: "4080819"
 [!include [banner](../includes/preview-banner.md)]
 
 
-Kai projektų skaičius pasiekia tūkstančius, gali atsirasti su išteklių planavimu susijusių efektyvumo problemų. Norint padidinti išteklių planavimo efektyvumą yra funkcija, leidžianti naudotojams sutrumpinti laiką, kurio reikia norint paleisti išteklių pasiekiamumo formą. Tiksliau kalbant, taip pašalinamas išteklių pajėgumo sumavimo sinchronizavimo procesas ir naudojama lentelė **ResProjectResource** , kad paspartėtų išteklių peržvalga. Atkreipkite dėmesį, kad lentelė **ResRollup** nebebus naudojama.
+Kai projektų skaičius pasiekia tūkstančius, gali atsirasti su išteklių planavimu susijusių efektyvumo problemų. Norint padidinti išteklių planavimo efektyvumą yra funkcija, leidžianti naudotojams sutrumpinti laiką, kurio reikia norint paleisti išteklių pasiekiamumo formą. Tiksliau kalbant, taip pašalinamas išteklių pajėgumo sumavimo sinchronizavimo procesas ir naudojama lentelė **ResProjectResource**, kad paspartėtų išteklių peržvalga. Atkreipkite dėmesį, kad lentelė **ResRollup** nebebus naudojama.
 
 > [!IMPORTANT]
-> Jei yra priklausomybė nuo išteklių pajėgumų sumavimo sinchronizavimo proceso arba lentelės **ResProjectResource** , šios funkcijos nenaudokite.
+> Jei yra priklausomybė nuo išteklių pajėgumų sumavimo sinchronizavimo proceso arba lentelės **ResProjectResource**, šios funkcijos nenaudokite.
 
 ## <a name="enable-resource-scheduling-performance-enhancement"></a>Išteklių planavimo efektyvumo didinimo įjungimas
 Norėdami įjungti išteklių planavimo efektyvumo didinimą atlikite toliau nurodytus veiksmus.
@@ -54,7 +54,7 @@ Norėdami įjungti išteklių planavimo efektyvumo didinimą atlikite toliau nur
  > [!NOTE]
  > Tada bendri duomenys bus paskirstyti lentelėje **ResCalendarCapacity** visoms jūsų aplinkos įmonėms, kad paketinę užduotį pakaktų paleisti tik viename juridiniame subjekte. Šios paketinės užduoties duomenys yra reikalingi norint apskaičiuoti išteklių pajėgumą susietame kalendoriuje.
 
-8. Eikite į **Projektų valdymas ir apskaita** > **Periodinis** > **Projektų ištekliai** > **Užpildyti projektų išteklius visose įmonėse** ir pasirinkite **Gerai**. Tai bendrų duomenų atnaujinimo scenarijus lentelėse **ResProjectResource** , **ResCalendarDateTimeRange** ir **ResEffectiveDateTimeRange**. Lauko **PSAPRojSchedRole.RootActivity** reikšmės taip pat atnaujinamos. Jei tai nevykdoma, gausite įspėjimą, kai bandysite vykdyti išteklių planavimo operacijas.
+8. Eikite į **Projektų valdymas ir apskaita** > **Periodinis** > **Projektų ištekliai** > **Užpildyti projektų išteklius visose įmonėse** ir pasirinkite **Gerai**. Tai bendrų duomenų atnaujinimo scenarijus lentelėse **ResProjectResource**, **ResCalendarDateTimeRange** ir **ResEffectiveDateTimeRange**. Lauko **PSAPRojSchedRole.RootActivity** reikšmės taip pat atnaujinamos. Jei tai nevykdoma, gausite įspėjimą, kai bandysite vykdyti išteklių planavimo operacijas.
  
 ## <a name="turn-off-resource-scheduling-performance-enhancement"></a>Išteklių planavimo efektyvumo didinimo išjungimas
 

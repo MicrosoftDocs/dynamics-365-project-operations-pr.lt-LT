@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 732b72d9819fc149c4b2c783b3dc7f7eec3f0393
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e93d23559d1f3aca9022cd97dae3b0726bb5ca05
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080897"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289334"
 ---
 # <a name="microsoft-project-client-integration"></a>„Microsoft Project Client” integravimas
 
@@ -39,13 +39,13 @@ Siekiant įgalinti integravimą su „Microsoft Project Client”, reikalaujama 
 
 • Spustelėkite **Konfigūruoti projekto kliento papildinį** iš darbo srities skyriaus **Saitai** > **Sąranka**.
 
-• Spustelėkite **Atidaryti** , tada paraginti, spustelėkite **Vykdyti**.
+• Spustelėkite **Atidaryti**, tada paraginti, spustelėkite **Vykdyti**.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Programoje „Microsoft Project Client” atidarykite ir redaguokite darbo paskirstymo struktūros juodraštį
-Jei „Dynamics 365 Finance” esantis projektas jau turi sukurtą darbo paskirstymo struktūrą, šią darbo paskirstymo struktūrą galima atidaryti programoje „Microsoft Project Client”, jeigu darbo paskirstymo struktūra yra juodraščio būsenos. Norėdami atidaryti puslapį **Projektas** , spustelėkite skirtuke **Planas** esantį saitą **Atidaryti programoje „Microsoft Project”**. Šis puslapis taip pat gali būti atidarytas programoje „Microsoft Project Client”, skirtuke **„Microsoft Dynamics 365”** spustelint **Atidaryti**. Sąraše pasirinkite **Juridinis subjektas** ir **Projektas**.
+Jei „Dynamics 365 Finance” esantis projektas jau turi sukurtą darbo paskirstymo struktūrą, šią darbo paskirstymo struktūrą galima atidaryti programoje „Microsoft Project Client”, jeigu darbo paskirstymo struktūra yra juodraščio būsenos. Norėdami atidaryti puslapį **Projektas**, spustelėkite skirtuke **Planas** esantį saitą **Atidaryti programoje „Microsoft Project”**. Šis puslapis taip pat gali būti atidarytas programoje „Microsoft Project Client”, skirtuke **„Microsoft Dynamics 365”** spustelint **Atidaryti**. Sąraše pasirinkite **Juridinis subjektas** ir **Projektas**.
 
 > [!NOTE]
-> Jei naudojate naršyklę „Internet Explorer” jums reikės spustelėti **Įrašyti** , kad rankiniu būdu atidarytumėte iš tos vietos, į kurią atsisiųstas failas. Arba spustelėkite **Įrašyti ir atidaryti** , kad atidarytumėte failą programoje „Microsoft Project Client”. Įrašydami nepervardykite failo.
+> Jei naudojate naršyklę „Internet Explorer” jums reikės spustelėti **Įrašyti**, kad rankiniu būdu atidarytumėte iš tos vietos, į kurią atsisiųstas failas. Arba spustelėkite **Įrašyti ir atidaryti**, kad atidarytumėte failą programoje „Microsoft Project Client”. Įrašydami nepervardykite failo.
 
 Prieš redaguodami failą programoje „Microsoft Project Client”, turite jį išregistruoti. Skirtuke **„Microsoft Dynamics 365”** spustelėkite **Išregistruoti**. Taip kiti vartotojai negalės tuo pačiu metu redaguoti darbo paskirstymo struktūros programoje „Finance”. Jei atlikę redagavimą, norite publikuoti darbo paskirstymo struktūrą, skirtuke **„Microsoft Dynamics 365”** spustelėkite **Įregistruoti**.
 
@@ -122,9 +122,9 @@ Jei norite sukurti naują darbo paskirstymo struktūrą naudodami „Microsoft P
 
 6.  Įveskite **projekto pavadinimą**.
 
-7.  Pasirinkite **Projekto tipas** , **Projekto grupė** ir **Projekto sutarties ID**. Arba galite sukurti naują projekto sutartį spustelėję **Nauja**.
+7.  Pasirinkite **Projekto tipas**, **Projekto grupė** ir **Projekto sutarties ID**. Arba galite sukurti naują projekto sutartį spustelėję **Nauja**.
 
-8.  Pasirinkite **kalendorių** , kurį naudosite paskirstydami išteklius.
+8.  Pasirinkite **kalendorių**, kurį naudosite paskirstydami išteklius.
 
 11. Spustelėkite **Gerai**.
 

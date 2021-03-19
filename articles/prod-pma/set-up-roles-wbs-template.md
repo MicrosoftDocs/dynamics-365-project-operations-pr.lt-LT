@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 143f1094c653fb7ac0e026b7875aa162a3eb83f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6a8363c1f94a974881df984869ee56bfc198ac5c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080816"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288659"
 ---
 # <a name="set-up-roles-on-work-breakdown-structure-templates"></a>Darbo paskirstymo struktūros šablonų vaidmenų nustatymas
 
@@ -81,7 +81,7 @@ Galite kurti naują WBS arba kopijuoti WBS iš esamo WBS šablono. Projekto vado
 
 1. Puslapyje **Visi projektai** pasirinkite projektą **XYZ Upgrade Phase 2**.
 2. Pasirinkite **Planas** > **Veiklos rūšys** > **Darbo paskirstymo struktūra**.
-3. Pasirinkite **Naujas** , kad įtrauktumėte toliau nurodytas veiklas į WBS.
+3. Pasirinkite **Naujas**, kad įtrauktumėte toliau nurodytas veiklas į WBS.
 
     - Inicijavimas
     - Planavimas
@@ -93,11 +93,11 @@ Galite kurti naują WBS arba kopijuoti WBS iš esamo WBS šablono. Projekto vado
 
     [![Datų ir pastangų nustatymas](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
 
-5. Pasirinkite užduoties eilutę **Inicijavimas** , tada lauke **Vaidmuo** pasirinkite **Vyresnysis projekto vadovas**.
+5. Pasirinkite užduoties eilutę **Inicijavimas**, tada lauke **Vaidmuo** pasirinkite **Vyresnysis projekto vadovas**.
 6. Pasirinkite **Publikuoti**.
-7. Toje pačioje eilutėje, lauke **Ištekliai** pasirinkite **Danielis Goldschmidtas** , tada pasirinkite **Priimti**.
-8. Pasirinkite užduoties eilutę **Planavimas** , tada lauke **Vaidmuo** pasirinkite **Verslo analitikas**.
-9. Pasirinkite **Publikuoti** , tada pasirinkite **Automatiškai generuoti komandą**.
+7. Toje pačioje eilutėje, lauke **Ištekliai** pasirinkite **Danielis Goldschmidtas**, tada pasirinkite **Priimti**.
+8. Pasirinkite užduoties eilutę **Planavimas**, tada lauke **Vaidmuo** pasirinkite **Verslo analitikas**.
+9. Pasirinkite **Publikuoti**, tada pasirinkite **Automatiškai generuoti komandą**.
 10. Pasirodžiusiame pranešimo langelyje pasirinkite **Taip**.
 11. Lauke **Ištekliai** patikrinkite, ar reikšmė yra **1-as verslo analitikas**.
 12. Atidarykite ištekliaus **1-as verslo analitikas** peržvalgą ir pasirinkite **Išteklių priskyrimo paleidimas**. Tada pasirinkite užduočiai priskiriamą darbuotoją.

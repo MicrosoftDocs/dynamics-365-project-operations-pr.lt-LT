@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d0cfcc27c69695fc6fe897e798b2831528833e6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9dc4575f5b4b80e257e34e21980b0516e7c546e6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080811"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287968"
 ---
 # <a name="work-breakdown-structures-overview"></a>Darbo paskirstymo struktūros apžvalga
 
@@ -50,7 +50,7 @@ Norėdami naudoti visas WBS funkcijų planavimo galimybes, atlikite toliau apra�
 
 1.  Numatytojo kalendoriaus ir projekto kalendoriaus nustatymas
     1.  Spustelėkite **Projektų valdymas ir apskaita** &gt; **Sąranka** &gt; **Projektų valdymo ir apskaitos parametrai** &gt; **Planavimas**. Lauke **Numatytasis darbo kalendorius** nurodykite numatytąjį kalendorių. Šis numatytasis darbo kalendorius bus naudojamas kuriant visus naujus projektus.
-    2.  Galite pakeisti tam tikro projekto numatytąjį kalendorių. Spustelėkite išsamios informacijos apie projektą puslapį, tada „FastTab” **Projekto komanda ir planavimas** atnaujinkite lauką **Planavimo kalendorius** , pasirinkę kitą kalendorių.
+    2.  Galite pakeisti tam tikro projekto numatytąjį kalendorių. Spustelėkite išsamios informacijos apie projektą puslapį, tada „FastTab” **Projekto komanda ir planavimas** atnaujinkite lauką **Planavimo kalendorius**, pasirinkę kitą kalendorių.
 
 2.  Nustatykite įprastas darbo dienas ir darbo valandas. Kalendorius, kurį nustatėte kaip projekto darbo kalendorių, bus naudojamas WBS siekiant nustatyti toliau pateikiamą informaciją.
 
@@ -64,7 +64,7 @@ Jei norite nustatyti kalendoriaus darbo dienas ir darbo valandas arba sukurti na
 Norėdami naudotis visomis WBS esančiomis savikainos įvertinimo galimybėmis, turite nustatyti darbuotojų, darbo, išlaidų ir mokesčių bei elementų kategorijų savikainą ir pardavimo kainas.
 
 -   Norėdami nustatyti darbo, išlaidų ir mokesčių kategorijų savikainą ir pardavimo kainas, spustelėkite **Projektų valdymas ir apskaita** &gt; **Sąranka** &gt; **Kainos**.
--   Norėdami nustatyti elementų savikainą ir pardavimo kainą, naudokite kiekvieno elemento puslapį **Prekybos sutartys** sąrašo puslapyje **Išleisti produktai** , esančiame Produkto informacijos valdymas.
+-   Norėdami nustatyti elementų savikainą ir pardavimo kainą, naudokite kiekvieno elemento puslapį **Prekybos sutartys** sąrašo puslapyje **Išleisti produktai**, esančiame Produkto informacijos valdymas.
 
 ## <a name="creating-a-wbs"></a>WBS kūrimas
 Kuriant WBS, atliekami trys veiksmai.
@@ -98,11 +98,11 @@ Norėdami įgalinti darbo hierarchijos arba projekto skaidymo kūrimą, galite a
 
 **Atvirkštinė užduoties įtrauka** Kai atliksite atvirkštinę užduoties įtrauką, ji nebebus su pirminiu objektu susijusia užduotimi. Šios užduoties WBS skaičius automatiškai perskaičiuojamas, kad atspindėtų naują užduoties hierarchijos lygį. Užduoties ankstesnės pirminės užduoties pastangos, savikaina ir datos perskaičiuojamos taip, kad į juos nebūtų įtraukta minėta užduotis. 
 
-**Perkelti aukštyn arba perkelti žemyn** Spustelėję **Perkelti aukštyn** ir **Perkelti žemyn** , pakeičiate užduoties padėtį jos pirminio objekto hierarchijoje. Užduoties padėtis nedaro įtakos užduoties pastangoms, savikainai, datoms ar trukmei. Tačiau užduoties WBS skaičius automatiškai perskaičiuojamas, kad atspindėtų naują užduoties padėtį.
+**Perkelti aukštyn arba perkelti žemyn** Spustelėję **Perkelti aukštyn** ir **Perkelti žemyn**, pakeičiate užduoties padėtį jos pirminio objekto hierarchijoje. Užduoties padėtis nedaro įtakos užduoties pastangoms, savikainai, datoms ar trukmei. Tačiau užduoties WBS skaičius automatiškai perskaičiuojamas, kad atspindėtų naują užduoties padėtį.
 
 ### <a name="schedule-estimation"></a>Grafiko įvertinimas
 
-Grafiko įvertinimas paprastai yra antras veiksmas kuriant WBS. Sukūrus užduotis, rekomenduojama atlikti grafiko įvertinimą. „Finance“ puslapyje **Darbo paskirstymo struktūra** yra du skyriai. Viršutinė sritis skirta grafikui įvertinti, o apatinėje srityje yra skirtukas **Įvertinta savikaina ir pajamos** , kuriame galite įvertinti savikainą. 
+Grafiko įvertinimas paprastai yra antras veiksmas kuriant WBS. Sukūrus užduotis, rekomenduojama atlikti grafiko įvertinimą. „Finance“ puslapyje **Darbo paskirstymo struktūra** yra du skyriai. Viršutinė sritis skirta grafikui įvertinti, o apatinėje srityje yra skirtukas **Įvertinta savikaina ir pajamos**, kuriame galite įvertinti savikainą. 
 **Užduoties priklausomybės** WBS galite sukurti ankstesnius ryšius tarp užduočių. Užduočiai priskyrus ankstesnes užduotis, tą užduotį bus galima pradėti tik atlikus visas ankstesnes užduotis. Suplanuota užduoties pradžios data automatiškai nustatoma pagal vėliausią visų ankstesnių užduočių datą. 
 
 **Užduočių planavimas** Lapo mazgo užduočių planavimą nustato toliau pateikiami veiksniai.
@@ -142,7 +142,7 @@ Kai kuriais atvejais galite norėti nukrypti nuo šių taisyklių. Galite išjun
 
 ### <a name="cost-estimation"></a>Kainos vertinimas
 
-Kaip buvo minėta anksčiau šiame dokumente, galite įvesti kiekvieno lapo mazgo užduoties savikainos įvertinimą, naudodami skirtuką **Įvertinta savikaina ir pajamos** , esantį puslapio **Darbo paskirstymo struktūra** apatinėje srityje. 
+Kaip buvo minėta anksčiau šiame dokumente, galite įvesti kiekvieno lapo mazgo užduoties savikainos įvertinimą, naudodami skirtuką **Įvertinta savikaina ir pajamos**, esantį puslapio **Darbo paskirstymo struktūra** apatinėje srityje. 
 
 > [!NOTE] 
 > Negalima modifikuoti suvestinės arba konteinerio užduoties savikainos įvertinimo. Suvestinės užduoties savikainos įvertinimas prilygsta lapo mazgo užduočių savikainos įvertinimo sumai. Įvertinta bendra kiekvienos užduoties savikaina skaičiuojama kaip toliau pateikiamų operacijų tipų įvertintų savikainos sumų suma.
@@ -161,7 +161,7 @@ Operacijos tipas **Klientas** naudojamas sutartyje nustatytai pardavimo vertei �
 
 **Išlaidų ir medžiagų savikainos įvertinimas** Skirtuke **Įvertinta savikaina ir pajamos** taip pat galite įvertinti užduoties išlaidų ir medžiagų savikainą, jei reikia įvertinti. 
 
-Kiekvienos darbo ar išlaidų įvertinimo eilutės savikaina ir pardavimo kaina priklauso nuo sąrankos, apibrėžtos kiekvienai kategorijai kainodaros lentelėse, esančiose **Projektų valdymas ir apskaita** &gt; **Sąranka** &gt; **Kainodara**. Elementų savikaina ir pardavimo kaina pagal numatytuosius parametrus įtraukiamos iš elementų arba prekybos sutarčių sąrašo puslapyje **Išleisti produktai** , esančiame Produkto informacijos valdymas.
+Kiekvienos darbo ar išlaidų įvertinimo eilutės savikaina ir pardavimo kaina priklauso nuo sąrankos, apibrėžtos kiekvienai kategorijai kainodaros lentelėse, esančiose **Projektų valdymas ir apskaita** &gt; **Sąranka** &gt; **Kainodara**. Elementų savikaina ir pardavimo kaina pagal numatytuosius parametrus įtraukiamos iš elementų arba prekybos sutarčių sąrašo puslapyje **Išleisti produktai**, esančiame Produkto informacijos valdymas.
 
 ## <a name="tracking-progress-on-the-wbs"></a>Darbo eigos sekimas WBS
 Kai kuriose srityse projekto eiga stebima WBS labai detaliai, o kitose eiga stebima aukštesniu WBS lygiu. Šiame skyriuje aprašoma, kaip galite naudoti WBS sekimą projekto reikalavimams sekti. 

@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 26e013ab99e9a0aeafe25916715ce0ee024df3f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1f601be072e84fc04246cd55a260c8004f6fb3e5
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080969"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289739"
 ---
 # <a name="transfer-project-budgets-at-fiscal-year-end"></a>Projektų biudžetų perkėlimas finansinių metų pabaigoje
 
@@ -56,13 +56,13 @@ Kai apdorojate likusias biudžeto sumas, galite sukurti perkeliamų sumų operac
 ## <a name="carry-forward-budget-amounts-and-create-general-ledger-transactions"></a><a name="carry-forward"></a>Biudžeto sumų perkėlimas ir didžiosios knygos operacijų kūrimas
 
 1.  Pasirinkite **Projektų valdymas ir apskaita** > **Periodinis** > **Biudžetai** > **Perkelti biudžetus**. 
-2. Puslapyje **Projekto biudžeto perkėlimo procesas** pasirinkite **Metų pabaiga** , tada įjunkite **Perkelti likusias projekto biudžeto sumas** ir **Sukurti biudžeto registro įrašus didžiojoje knygoje**. 
-3. Skirtuke **Parametrai** , laukų grupėje **Projekto parametrai** , pasirinkite tai:
+2. Puslapyje **Projekto biudžeto perkėlimo procesas** pasirinkite **Metų pabaiga**, tada įjunkite **Perkelti likusias projekto biudžeto sumas** ir **Sukurti biudžeto registro įrašus didžiojoje knygoje**. 
+3. Skirtuke **Parametrai**, laukų grupėje **Projekto parametrai**, pasirinkite tai:
 
-   - **Projekto biudžeto metai** : pasirinkite finansinių metų, kurių likusias biudžeto sumas norite peržiūrėti, pradžią. 
-   - **Pelnas ir nuostolis** : sukurkite pelno ir nuostolio operacijas didžiojoje knygoje. 
-   -  **NG** : sukurkite nebaigtos gamybos (NG) operacijas didžiojoje knygoje.
-   -  **Algalapis** : sukurkite algalapio paskirstymo operacijas didžiojoje knygoje. 
+   - **Projekto biudžeto metai**: pasirinkite finansinių metų, kurių likusias biudžeto sumas norite peržiūrėti, pradžią. 
+   - **Pelnas ir nuostolis**: sukurkite pelno ir nuostolio operacijas didžiojoje knygoje. 
+   -  **NG**: sukurkite nebaigtos gamybos (NG) operacijas didžiojoje knygoje.
+   -  **Algalapis**: sukurkite algalapio paskirstymo operacijas didžiojoje knygoje. 
 
 5. Laukų grupėje **Didžioji knyga** pateikite nurodytą informaciją: 
 
@@ -74,7 +74,7 @@ Kai apdorojate likusias biudžeto sumas, galite sukurti perkeliamų sumų operac
    - Lauke **Iš prognozės modelio** pasirinkite projekto biudžeto prognozės modelį, susietą su likusiomis projektų biudžetų sumomis, kurias norite perkelti. 
    - Lauke **Į didžiosios knygos biudžeto modelį** pasirinkite didžiosios knygos biudžeto modelį, susietą su biudžetų sumomis, kurias norite perkelti į didžiąją knygą. 
    -  Pasirinkite **Perkelti pardavimo valiutą** norėdami naudoti didžiosios knygos operacijų, sukuriamų perkeliant projektų biudžetų sumas, projekto pardavimo valiutą. Kai parinktis nepažymėta, operacijose naudojama apskaitos valiuta. 
-   -  Pasirinkite **Rodyti likutinį nulį** , kad būtų įtraukti projektai, kuriuose nėra likusių biudžeto sumų, bet atitinka kitus kriterijus, kuriuos pasirinkote apatinėje srityje rodomuose projektuose.
+   -  Pasirinkite **Rodyti likutinį nulį**, kad būtų įtraukti projektai, kuriuose nėra likusių biudžeto sumų, bet atitinka kitus kriterijus, kuriuos pasirinkote apatinėje srityje rodomuose projektuose.
 
 7. Skirtuke **Pasirinkti biudžetus** pasirinkite **Nuskaityti visus biudžetus** norėdami įkelti visus biudžetus, kurie atitinka jūsų pasirinktus kriterijus. Norėdami sukurti duomenų bazės užklausą, kuri į sritį įkelia tam tikrą projektų biudžetų rinkinį, pasirinkite **Nuskaityti pasirinktus biudžetus**.
 8. Pasirinkite kiekvieno projekto, kurį norite apdoroti, parinktį, esančią projekto eilutės pradžioje.
@@ -92,11 +92,11 @@ Kai apdorojate likusias biudžeto sumas, galite sukurti perkeliamų sumų operac
 4. Grupėje **Kopijuoti iš / į** pateikite nurodytą informaciją:
 
    - Lauke **Iš prognozės modelio** pasirinkite projekto biudžeto prognozės modelį, susietą su likusiomis projektų biudžetų sumomis, kurias norite perkelti. 
-   - Pasirinkite **Rodyti nulinį likutį** , jei norite įtraukti projektus, neturinčius likusių biudžeto sumų, bet atitinkančius kitus jūsų pasirinktus kriterijus.
+   - Pasirinkite **Rodyti nulinį likutį**, jei norite įtraukti projektus, neturinčius likusių biudžeto sumų, bet atitinkančius kitus jūsų pasirinktus kriterijus.
    - Grupėje **Pasirinkti biudžetus** pasirinkite **Nuskaityti visus biudžetus** norėdami įkelti visus biudžetus, kurie atitinka jūsų pasirinktus kriterijus. Norėdami sukurti duomenų bazės užklausą, kuri į sritį įkelia tam tikrą projektų biudžetų rinkinį, pasirinkite **Nuskaityti pasirinktus biudžetus**.
 
 5. Pasirinkite kiekvieno projekto, kurį norite apdoroti, parinktį, esančią projekto eilutės pradžioje. 
-6. Pasirinkite **Apdoroti** , jei norite perkelti likusias pasirinktų projektų biudžetų sumas į pasirinktus finansinius metus.
+6. Pasirinkite **Apdoroti**, jei norite perkelti likusias pasirinktų projektų biudžetų sumas į pasirinktus finansinius metus.
 
 
 

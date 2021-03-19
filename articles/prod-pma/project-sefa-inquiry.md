@@ -20,12 +20,12 @@ ms.search.industry: public sector
 ms.author: andchoi
 ms.search.validFrom: 2020-4-01
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: eaf523ab147cbe974fed6e7eab21967404583fe6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 70dff12c106723dda801668412cfd084c462db4b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080820"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288974"
 ---
 # <a name="schedule-of-expenditures-of-federal-awards-inquiry"></a>Federalinių subsidijų tyrimo išlaidų grafikas
 
@@ -44,7 +44,7 @@ Reikia nustatyti CFDA grupes, kurios gali būti susietos su CFDA numeriais feder
 1. Eikite į **Projektų valdymas ir apskaita \> Sąranka \> Subsidijos \> Federalinės vietinės pagalbos grupių katalogas**.
 2. Pasirinkite **Naujas** norėdami sukurti CFDA grupę.
 3. Įveskite grupės pavadinimą.
-4. Pasirinkite **Įrašyti** , kad įrašytumėte keitimus.
+4. Pasirinkite **Įrašyti**, kad įrašytumėte keitimus.
 
 ## <a name="set-up-cfda-numbers"></a>CFDA numerių nustatymas
 
@@ -57,18 +57,18 @@ Reikia nustatyti CFDA numerius, kurie gali būti įtraukti į subsidijas ir į f
 5. Stulpelyje **Aprašas** įveskite CFDA pavadinimą.
 6. Paspauskite **Tabuliavimo** klavišą.
 7. Pasirinktinai: lauke **Programų grupė** įtraukite atitinkamą CFDA grupę.
-8. Pasirinkite **Įrašyti** , kad įrašytumėte keitimus.
+8. Pasirinkite **Įrašyti**, kad įrašytumėte keitimus.
 
 ## <a name="set-up-grants-to-report-for-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Federalinių subsidijų tyrimo išlaidų grafiko ataskaitos subsidijų nustatymas
 
 1. Eikite į **Projektų valdymas ir apskaita \> Subsidijos \> Subsidijos** ir pasirinkite esamą subsidiją.
-2. „FastTab“ **Sąranka** lauke **Federalinės vietinės pagalbos katalogas** priskirkite CFDA numerį. Subsidijos CFDA numeris nustato ataskaitų CFDA grupę.
+2. „FastTab“ lauke **Sąranka**, lauke **Federalinės nacionalinės paramos katalogas** priskirkite CFDA numerį. Subsidijos CFDA numeris nustato ataskaitų CFDA grupę.
 3. „FastTab“ **Kontaktinė informacija** įveskite cedento informaciją atlikdami šiuos veiksmus:
 
     1. Lauke **Subsidijos klientas** įveskite už subsidiją atsakingą klientą. Esamos subsidijos informacija jau turbūt įvesta.
     2. Nurodykite, ar subsidijos klientas yra finansuotojas. Jei subsidijos klientas yra finansuotojas, žymės langelį **Perduoti** palikite tuščią. Jei finansuotojas yra kitas klientas, o subsidijos klientas atsako už pinigų leidimą ir sekimą, pažymėkite žymės langelį **Perduoti**.
 
-4. Jei ankstesniame veiksme pažymėjote žymės langelį **Perduoti** , lauke **Cedento agentūra** įveskite subsidiją suteikusį klientą. Cedento agentūra ir subsidijos klientas negali būti tas pats klientas.
+4. Jei ankstesniame veiksme pažymėjote žymės langelį **Perduoti**, lauke **Cedento agentūra** įveskite subsidiją suteikusį klientą. Cedento agentūra ir subsidijos klientas negali būti tas pats klientas.
 
 Čia pateikiamas perduodamos subsidijos pavyzdys:
 
@@ -79,9 +79,9 @@ Federalinė vyriausybė finansavo valstijos infrastruktūros projektą. Federali
 
 ## <a name="exclude-grants-from-sefa-reporting-based-on-the-grant-type"></a>Subsidijų šalinimas iš SEFA ataskaitų remiantis subsidijų tipu
 
-1. Eikite į **Projektų valdymas ir apskaita \> Sąranka \> Subsidijos \> Subsidijų tipai**.
-2. „FastTab“ **Numatytoji informacija** pažymėkite žymės langelį **Pašalinti iš federalinių subsidijų išlaidų grafiko**.
-3. Pasirinkite **Įrašyti** , kad įrašytumėte keitimus.
+1. Eikite į **Projektų valdymas ir apskaita \> Sąranka \> Subsidijos \> Subsidijų tipai**.
+2. „FastTab“ lauke **Numatytoji informacija** pažymėkite žymės langelį **Pašalinti iš federalinių subsidijų išlaidų grafiko**.
+3. Pasirinkite **Įrašyti**, kad įrašytumėte keitimus.
 
 ## <a name="run-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Federalinių subsidijų tyrimo išlaidų grafiko vykdymas
 

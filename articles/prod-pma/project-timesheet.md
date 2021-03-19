@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: b9cbd84ecb0d71a99982e158d7e0ea1e236fb369
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: db035bfd555d724f80156d0b50df7c0d0bfaff27
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081009"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288839"
 ---
 # <a name="project-timesheet-mobile-application"></a>Mobiliųjų įrenginių programėlė „Project Timesheet“
 
@@ -53,12 +53,12 @@ Programoje „Finance“ turi būti įgalinta Mobiliųjų įrenginių programėl
 
 ## <a name="submit-a-project-timesheet"></a>Projekto grafiko pateikimas
 
-Programėlėje galite sukurti ir pateikti projekto grafiką. Naują grafiką galite sukurti, remdamiesi ankstesnio grafiko, įrašytų eilučių arba projektų priskyrimų informacija. Jei esate paskirtas atstovu, taip pat galite įvesti kito darbuotojo grafiką. Norėdami sukurti grafiką, veikdami kaip atstovas, pažymėkite mygtuką **Meniu** , paskui pažymėkite ištekliaus pavadinimą.
+Programėlėje galite sukurti ir pateikti projekto grafiką. Naują grafiką galite sukurti, remdamiesi ankstesnio grafiko, įrašytų eilučių arba projektų priskyrimų informacija. Jei esate paskirtas atstovu, taip pat galite įvesti kito darbuotojo grafiką. Norėdami sukurti grafiką, veikdami kaip atstovas, pažymėkite mygtuką **Meniu**, paskui pažymėkite ištekliaus pavadinimą.
 
 Grafikų puslapyje bus sukurtas naujas grafiko laikotarpio, pagrįsto šiandienos data, grafikas. Bus rodoma darbo savaitė. Jei grafiko laikotarpis apima kelias savaites, galite pasirinkti kitą darbo savaitę iš darbo savaičių skirtukų.
-Jei šiandienos datos grafikas jau yra, jis bus rodomas. Jei norite sukurti naują grafiką kitu grafiko laikotarpiu, pažymėkite mygtuką **Meniu** , paskui pažymėkite **Naujas grafikas**.
+Jei šiandienos datos grafikas jau yra, jis bus rodomas. Jei norite sukurti naują grafiką kitu grafiko laikotarpiu, pažymėkite mygtuką **Meniu**, paskui pažymėkite **Naujas grafikas**.
 
-Įveskite projekto informaciją, spustelėję veiksmą **Įtraukti laiką** arba veiksmą **Kopijuoti laiką iš**. Pasirinkus veiksmą **Kopijuoti laiką iš** , bus kopijuojama projekto eilutės informacija, bet ne valandos. Meniu **Kopijuoti laiką iš** yra toliau pateikiamos parinktys.
+Įveskite projekto informaciją, spustelėję veiksmą **Įtraukti laiką** arba veiksmą **Kopijuoti laiką iš**. Pasirinkus veiksmą **Kopijuoti laiką iš**, bus kopijuojama projekto eilutės informacija, bet ne valandos. Meniu **Kopijuoti laiką iš** yra toliau pateikiamos parinktys.
 
 - **Kopijuoti iš esamo grafiko** – kopijuoti grafiko eilutes iš esamo grafiko.
 
@@ -76,13 +76,13 @@ Lauke **Projektas** pasirinkite projektą, kurio laiką įvedate. Laukas **Klien
 
 Klientų ir projektų peržvalgos leidžia ieškoti ir tarp klientų, ir tarp projektų.
 
-Jei reikia, pažymėkite informaciją laukuose **Kategorija** , **Veikla** , **Eilutės ypatybė** , **PVM grupė** ir **Prekės PVM grupė**. Šiuos laukus galima perrašyti.
+Jei reikia, pažymėkite informaciją laukuose **Kategorija**, **Veikla**, **Eilutės ypatybė**, **PVM grupė** ir **Prekės PVM grupė**. Šiuos laukus galima perrašyti.
 
-Lauke **Eilutės ypatybė** bus nustatyta numatytoji reikšmė pagal projektų valdymo ir apskaitos parametrus. Įjungus projekto / kategorijos ir kategorijos / ištekliaus parametrus, bus nustatyta numatytoji reikšmė **Eilutės ypatybė** , apibrėžta šiame tikrinime. Kai projekto / kategorijos ir kategorijos / ištekliaus parametrai nėra įjungti, numatytoji reikšmė **Eilutės ypatybė** bus nustatoma pagal lauką **Įgalinti numatytąją eilutės ypatybę** puslapyje **Projektų valdymo ir apskaitos parametrai**. Reikšmę **Eilutės ypatybė** galima perrašyti.
+Lauke **Eilutės ypatybė** bus nustatyta numatytoji reikšmė pagal projektų valdymo ir apskaitos parametrus. Įjungus projekto / kategorijos ir kategorijos / ištekliaus parametrus, bus nustatyta numatytoji reikšmė **Eilutės ypatybė**, apibrėžta šiame tikrinime. Kai projekto / kategorijos ir kategorijos / ištekliaus parametrai nėra įjungti, numatytoji reikšmė **Eilutės ypatybė** bus nustatoma pagal lauką **Įgalinti numatytąją eilutės ypatybę** puslapyje **Projektų valdymo ir apskaitos parametrai**. Reikšmę **Eilutės ypatybė** galima perrašyti.
 
 Pasirinkite dieną ir įtraukite laiką. Įveskite valandų, kurias dirbote kiekvieną dieną, skaičių.
 
-Norėdami įtraukti komentarų apie įvedamas valandas, spustelėkite **Įtraukti komentarų** , tada įveskite komentarus, skirtus naudoti įmonės viduje, skirtus klientams, arba skirtus abiems auditorijoms.
+Norėdami įtraukti komentarų apie įvedamas valandas, spustelėkite **Įtraukti komentarų**, tada įveskite komentarus, skirtus naudoti įmonės viduje, skirtus klientams, arba skirtus abiems auditorijoms.
 Vidaus naudojimui skirtus komentarus gali peržiūrėti projektų vadovai. Komentarai klientams įtraukiami į sąskaitas faktūras.
 
 Norėdami įrašyti eilutę kaip parankinę, pažymėkite žymės langelį, tada spustelėkite **Įrašyti kaip parankinę**.
@@ -95,7 +95,7 @@ Spustelėkite **Pateikti** ir siųskite grafiką į patvirtinimo darbo eigą.
 
 ## <a name="review-timesheets"></a>Grafikų peržiūra
 
-Grafikų, kuriuos reikia peržiūrėti, sąrašas pateikiamas meniu. Ši parinktis galima tik tada, jei buvote paskirtas darbo eigos tvirtintoju. Palaikomas ir antraštės, ir eilutės patvirtinimas. Eilutės lygio patvirtinimas siūlo galimybę pažymėti vieną ar keletą tvirtinamų eilučių. Peržiūrėję grafiko informaciją, spustelėkite **Patvirtinti** , **Paskirti atstovą** arba **Grįžti** ir tęskite darbo eigą.
+Grafikų, kuriuos reikia peržiūrėti, sąrašas pateikiamas meniu. Ši parinktis galima tik tada, jei buvote paskirtas darbo eigos tvirtintoju. Palaikomas ir antraštės, ir eilutės patvirtinimas. Eilutės lygio patvirtinimas siūlo galimybę pažymėti vieną ar keletą tvirtinamų eilučių. Peržiūrėję grafiko informaciją, spustelėkite **Patvirtinti**, **Paskirti atstovą** arba **Grįžti** ir tęskite darbo eigą.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

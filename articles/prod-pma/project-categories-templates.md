@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: ed7ca3c85d3f99b7eefe10f4ddec822b9aeb1684
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 4abb7fe6554825b97df4cc04ee1b02d731cb4af9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080975"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289649"
 ---
 # <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Projekto išlaidų kategorijų sinchronizavimas tarp „Finance and Operations“ ir „Project Service Automation“
 
@@ -48,7 +48,7 @@ Jei projekto išlaidų kategorijos valdomos „Project Service Automation“, in
 >
 > Jei pirmą kartą sinchronizuojate iš „Project Service Automation“, prieš paleisdami sinchronizavimą turite atitikti tolesnius „Finance“ reikalavimus.
 >
-> - „Project Service Automation“ turi būti bendrai naudojama kategorija, kuri atitinka projekto kategoriją, ir ji turi būti įjungta tiek **Projektas** , tiek **Išlaidos**.
+> - „Project Service Automation“ turi būti bendrai naudojama kategorija, kuri atitinka projekto kategoriją, ir ji turi būti įjungta tiek **Projektas**, tiek **Išlaidos**.
 > - Kiekvienas „Finance“ juridinis subjektas, su kuriuo turi būti integruota, turi turėti tolesnes kategorijas.
 >
 >     - **Projekto kategorija** yra. 
@@ -64,7 +64,7 @@ Jei projekto išlaidų kategorijos valdomos „Project Service Automation“, in
 
 ### <a name="template-and-task"></a>Šablonas ir užduotis
 
-Norėdami pasiekti šabloną, „Microsoft Power Apps“ administravimo centre pasirinkite **Projektai** , tada viršutiniame dešiniajame kampe pasirinkite **Naujas projektas** ir viešuosius šablonus.
+Norėdami pasiekti šabloną, „Microsoft Power Apps“ administravimo centre pasirinkite **Projektai**, tada viršutiniame dešiniajame kampe pasirinkite **Naujas projektas** ir viešuosius šablonus.
 
 Toliau pateikiamas šablonas ir pagrindinė užduotis naudojami norint sinchronizuoti projekto išlaidų kategorijas iš „Finance“ į „Project Service Automation“.
 
@@ -86,7 +86,7 @@ Projekto išlaidų kategorijos valdomos naudojant „Finance, o sinchronizuojamo
 Kai sinchronizuojate į „Project Service Automation“, turite naudoti „ Microsoft Power Query for Excel“, kad nustatytumėte atsiskaitymo tipą transakcijos kategorijoje. Projekto išlaidų operacijų kategorijų („Fin and Ops“ į PSA) šablonas pateikia numatytąjį stulpelį ir susiejimą. Kurdami savo šabloną, turite įtraukti sąlygos stulpelį į „Power Query“. Atlikite šiuos veiksmus.
 
 1. Spustelėkite rodyklę, kad atidarytumėte projekto išlaidų kategorijų užduoties susiejimą projekto išlaidų operacijų kategorijų („Fin and Ops“ į PSA) šablone.
-2. Spustelėkite saitą **Išankstinės užklausos ir filtravimas** , kad atidarytumėte „Power Query“.
+2. Spustelėkite saitą **Išankstinės užklausos ir filtravimas**, kad atidarytumėte „Power Query“.
 2. Pažymėkite **Įtraukti sąlyginį stulpelį**.
 3. Įveskite naujo stulpelio pavadinimą, pvz., **BillingType**.
 4. Įveskite šią sąlygą: **Jei CATEGORYID nėra lygi nuliui, tada 19235001, kitaip nulis**.
