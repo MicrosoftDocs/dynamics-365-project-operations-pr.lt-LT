@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d8c212ef2c9fd9dcd6be0b8f0a31aa5a948176bc
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 25f1af15c03001a92f96689ff36a3159a5352a46
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147663"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283243"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Darbas su „Project Service Automation“ duomenų modeliu
 
@@ -87,7 +87,7 @@ Objektas **Projektai** ir jo susiję objektai priklauso tik PSA. **Projektas** y
 
 ## <a name="reporting-on-resources"></a>Ataskaitų teikimas apie išteklius
 
-Projekto ištekliai naudoja **Rezervuojamų išteklių** objektus iš Universal Resource Scheduling (URS), kurie bendrinami su kitomis programomis, pavyzdžiui, „Microsoft Dynamics 365 Field Service“. Toliau pateikiamas objektų, kuriuos gali reikėti naudoti, kai teikiate ataskaitas apie projekto išteklius, sąrašas.
+Projekto ištekliai naudoja **Rezervuojamų išteklių** objektus iš „Universal Resource Scheduling“ (URS), kurie bendrinami su kitomis programomis, pavyzdžiui, „Microsoft Dynamics 365 Field Service“. Toliau pateikiamas objektų, kuriuos gali reikėti naudoti, kai teikiate ataskaitas apie projekto išteklius, sąrašas.
 
 - **Rezervuojami ištekliai** – objektas nurodo naudotoją, kontaktą, bendruosius išteklius, klientą, grupę arba įrangą, kurią naudoja projekto komanda.
 - **Rezervuojamų išteklių charakteristikos** – šį objektą sudaro išteklių įgūdžiai, sertifikatai arba išsilavinimas. Charakteristikos gali turėti įvertinimo reikšmes, kurios apibrėžiamos pagal įvertinimo modelį.

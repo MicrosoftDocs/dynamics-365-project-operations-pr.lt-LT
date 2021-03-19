@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 25486b0c153842cab4331f27eea4872f848bea50
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 78c62f69c6529669789a461f1ded8e3ea5f8219e
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147708"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283288"
 ---
 # <a name="reporting-home-page"></a>Ataskaitų pagrindinis puslapis
 
@@ -31,7 +31,7 @@ ms.locfileid: "5147708"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-„Microsoft Dynamics 365 Project Service Automation“ suteikia galimybę projektais grįstoms organizacijoms efektyviai valdyti jų verslo operacijas. Bet kurio projekto komandos nariai turi valdyti galimybę, pasiūlymą ir planuoti veiklą, teikti išteklius projektams, valdyti darbus pagal planą, išrašyti darbo SF, tada atlikti darbus projektui užbaigti. Galimybė pranešti apie operacijas yra labai svarbi nustatant organizacijos sveikatą ir imantis reikiamų korekcinių veiksmų. PSA naudoja „Microsoft Dynamics 365“ ataskaitų teikimo metodus ir technologijas visoms ataskaitoms. Daugiau informacijos apie ataskaitų pateikimo parinktis žr. [Ataskaitų rašymo vadovas Dynamics 365 Customer Engagement (on-premises), 9 versija](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365).
+„Microsoft Dynamics 365 Project Service Automation“ suteikia galimybę projektais pagrįstoms organizacijoms efektyviai valdyti jų verslo operacijas. Bet kurio projekto komandos nariai turi valdyti galimybę, pasiūlymą ir planuoti veiklą, teikti išteklius projektams, valdyti darbus pagal planą, išrašyti darbo SF, tada atlikti darbus projektui užbaigti. Galimybė pranešti apie operacijas yra labai svarbi nustatant organizacijos sveikatą ir imantis reikiamų korekcinių veiksmų. PSA naudoja „Microsoft Dynamics 365“ ataskaitų teikimo metodus ir technologijas visoms ataskaitoms. Daugiau informacijos apie ataskaitų pateikimo parinktis žr. [Ataskaitų rašymo vadovas Dynamics 365 Customer Engagement (on-premises), 9 versija](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365).
 
 ## <a name="report-wizard"></a>Ataskaitų vedlys
 
@@ -43,7 +43,7 @@ Jei jūsų įmonei reikia specifinės ataskaitos, kurios negalima sukurti naudoj
 
 ## <a name="power-bi-insights-apps"></a>„Power BI“ įžvalgų programos
 
-„Microsoft Power BI“ ir „Dynamics 365“ kartu suteikia jums galingą darbo su duomenimis būdą, įžvalgų programų formoje. Norėdami gauti informacijos apie įžvalgų programų pasiekiamumą, žr. [„Power BI“ įžvalgų programų puslapį](https://powerbi.microsoft.com/power-bi-insights-apps/).
+„Microsoft Power BI“ ir „Dynamics 365“ suteikia jums galingą darbo su duomenimis būdą, įžvalgų programų formoje. Norėdami gauti informacijos apie įžvalgų programų pasiekiamumą, žr. [„Power BI“ įžvalgų programų puslapį](https://powerbi.microsoft.com/power-bi-insights-apps/).
 
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
