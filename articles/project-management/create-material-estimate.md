@@ -1,0 +1,48 @@
+---
+title: Projektų žaliavų finansiniai įvertinimai
+description: Šioje temoje pateikiama informacija apie tai, kaip apibrėžti arba įvertinti projektu pagrįstas medžiagas.
+author: rumant
+manager: Annbe
+ms.date: 03/30/2021
+ms.topic: article
+ms.service: project-operations
+ms.reviewer: kfend
+ms.author: rumant
+ms.openlocfilehash: 98e3611b2b3948aab09a3eadeac7b95b893812e9
+ms.sourcegitcommit: 504c09365bf404c1f1aa9b5034c1e1e5bc9d0d54
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5788877"
+---
+# <a name="financial-estimates-for-materials-on-projects"></a>Projektų žaliavų finansiniai įvertinimai
+
+_**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
+
+Programoje „Dynamics 365 Project Operations“ projektų vadovai kiekvienam projektui arba užduočiai gali nustatyti projektu pagrįstas medžiagos savikainas. Kiekvieną medžiagų įvertinimą galima susieti su konkrečia projekto užduotimi. Išlaidos skirstomos į skirtingas išlaidų kategorijas, apibrėžtas organizacijos lygiu. Kiekvienos išlaidų kategorijos kainos ir įkainojimas apibrėžiamas kainoraštyje. 
+
+Norėdami peržiūrėti, įtraukti arba panaikinti projekto medžiagos įvertinimą, atlikite toliau nurodytus veiksmus.
+
+1. Eikite į **Projektai** ir pasirinkite projektą, kurį norite atnaujinti.
+2. Skirtuke **Medžiagų įvertinimai** peržiūrėkite projekto medžiagos įvertinimų sąrašą.
+3. Pasirinkite **Naujas medžiagos įvertinimas**, kad sukurtumėte naują medžiagos įvertinimą. Arba pasirinkite naikintiną medžiagų įvertinimą, tada pasirinkite **Naikinti medžiagos įvertinimą**.
+
+Šioje lentelėje pateikiama informacija apie projekto laukus dalyje **Medžiagos įvertinimo eilutė**. 
+
+| **Laukas** | **Aprašas** | **Tolesnis poveikis** |
+| --- | --- | --- |
+| Užduotis | Projekto užduočių sąrašas. Pateikiama suvestinė ir lapo mazgo užduotys. | Pasirinkus medžiagos įvertinimo eilutės užduotį, bus paveikta užduoties įvertinta medžiagos savikaina ir įvertintas medžiagos pardavimas. Jei šis laukas bus paliktas tuščias, medžiagos įvertinimas bus sekamas ir apibendrinamas tik projekto lygiu. |
+| Pasirinkti produktą |  Galite nurodyti, ar ši įvertinimo eilutė yra skirta esamam (kataloge nurodytam) arba įtraukiamajam produktui. | Šiame lauke apibrėžiama, ar pasirenkate produktą iš katalogo, ar įtraukiamąjį produktą. |
+| Produktas | Produkto iš produktų katalogo ID. Pasirinkus produkto ID, reikšmė lauke **Pasirinkti produktą** automatiškai atnaujinama į **Esamas produktas**. ID naudojamas norint gauti kainoraščio savikainą ir pardavimo kainas. | Nėra jokio tolesnio šio lauko poveikio. |
+| Įtraukiamojo produkto aprašas | Teksto laukas, kuriame reikia įrašyti produkto pavadinimą. Šį lauką reikia naudoti pasirinkus **Įtraukiamasis** lauke **Pasirinkti produktą**.| Nėra jokio tolesnio šio lauko poveikio. |
+| Pradžios data | Prognozuojama medžiagų naudojimo data. | Nėra jokio tolesnio šio lauko poveikio. |
+| Vienetų grupė | Numatytoji šio lauko reikšmė gaunama iš numatytosios katalogo produktų vienetų grupės. Šį lauką galite atnaujinti, kad būtų galima pasirinkti kitą vienetų grupę. | Nėra jokio tolesnio šio lauko poveikio. |
+| Vienetas | Šio lauko reikšmė gaunama iš numatytojo pasirinkto produkto vieneto. Šį lauką galite atnaujinti, kad būtų galima pasirinkti kitą vienetą. | Pakeitus vienetą, nustatoma kita numatytoji vieneto kaina ir savikaina. |
+| Kiekis | Įvertintas produkto, kuris bus naudojamas projekte, kiekis. | Nėra jokio tolesnio šio lauko poveikio. |
+| Vieneto savikaina | Pasirinkto produkto vieneto savikainos ir vieneto derinys, nustatytas taikomame savikainos kainoraštyje. | Vieneto savikaina visada rodoma projekto savikainos valiuta. Jei kainoraštyje nėra produkto ir vieneto sąrankos deriniui nustatyto vieneto savikainos, vieneto savikainai bus nustatyta numatytoji reikšmė – 0,00. |
+| Vieneto kaina | Pasirinkto produkto kainos ir vieneto derinys, nustatytas taikomame pardavimo kainoraštyje. | Vieneto kaina visada rodoma projekto pardavimo valiuta. Jei kainoraštyje nėra produkto ir vieneto sąrankos deriniui nustatytos vieneto kainos, tada vieneto kainai bus nustatyta numatytoji reikšmė – 0,00.|
+| Bendroji savikaina | Savikainos suma, apskaičiuojama kaip vieneto \* kiekio savikaina.| Savikainos suma visada rodoma projekto savikainos valiuta. |
+| Bendrasis pardavimas | Pardavimo suma, apskaičiuojama kaip vieneto \* kiekio kaina. | Pardavimo suma visada rodoma projekto pardavimo valiuta. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

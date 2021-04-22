@@ -1,6 +1,6 @@
 ---
-title: Koreguojamosios projektu pagrįstos sąskaitos faktūros
-description: Šioje temoje pateikiama informacija apie tai, kaip sukurti ir patvirtinti koreguojamąsias projektu pagrįstas sąskaitas faktūras „Project Operations“.
+title: Koreguojamųjų projektu pagrįstų sąskaitų faktūrų kūrimas
+description: Šioje temoje pateikiama informacija apie koreguojamąsias sąskaitas faktūras „Project Operations“.
 author: rumant
 manager: Annbe
 ms.date: 03/29/2021
@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fc96bb40f5207efc381986d46a3e37dfc1dc111c
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
+ms.openlocfilehash: 32772d64b3fc77f0af9618edff40e3b295593454
+ms.sourcegitcommit: 504c09365bf404c1f1aa9b5034c1e1e5bc9d0d54
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5867051"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5788878"
 ---
-# <a name="corrective-project-based-invoices"></a>Koreguojamosios projektu pagrįstos sąskaitos faktūros
+# <a name="create-corrective-project-based-invoices"></a>Koreguojamųjų projektu pagrįstų sąskaitų faktūrų kūrimas 
 
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
@@ -24,18 +24,19 @@ Patvirtintą projekto sąskaitą faktūrą galima pataisyti, kad būtų apdoroti
 Norėdami redaguoti patvirtintą sąskaitą faktūrą, atidarykite patvirtintą sąskaitą faktūrą ir pasirinkite **Taisyti šią sąskaitą faktūrą**. 
 
 > [!NOTE]
-> Šį pasirinkimą galima atlikti tik tada, jei projekto sąskaita faktūra yra patvirtinta arba projektu pagrįstoje sąskaitoje faktūroje yra nurodyti avansai arba išankstiniai apmokėjimai ar avansų arba išankstinių apmokėjimų suderinimai.
+> Šis pasirinkimas nepasiekiamas, jei projekto sąskaita faktūra nepatvirtinta.
 
-Iš patvirtintos sąskaitos faktūros sukuriama naujas sąskaitos faktūros juodraštis. Visa sąskaitos faktūros eilučių informacija iš anksčiau patvirtintos sąskaitos faktūros kopijuojama į naują juodraštį. Toliau pateikiami keli svarbiausi dalykai, kuriuos reikia suprasti apie naujai pataisytos sąskaitos faktūros eilučių informaciją.
+Iš patvirtintos sąskaitos faktūros sukuriama naujas sąskaitos faktūros juodraštis. Visa sąskaitos faktūros eilučių informacija iš anksčiau patvirtintos sąskaitos faktūros kopijuojama į naują juodraštį. Toliau nurodyta keletas svarbių dalykų, kad geriau suprastumėte apie išsamią eilutės informaciją naujoje koreguotoje sąskaitoje faktūroje.
 
-- Visi kiekiai yra atnaujinti į nulį. „Dynamics 365 Project Operations“ reiškia, kad bus sukurtos visos prekės, kurioms išrašyta sąskaita faktūra. Jei reikia, galite neautomatiškai atnaujinti šiuos kiekius, kad nurodytumėte kiekį, už kurį išrašyta sąskaita faktūra, įskaitomą kiekį. Atsižvelgiant į įvestą kiekį, programa apskaičiuoja įskaitytą kiekį. Šią sumą atspindi faktiniai duomenys, sukurti patvirtinus pataisytą sąskaitą faktūrą. Jei norite pakeisti mokesčio sumą, turite įvesti teisingą mokesčio sumą, o ne mokesčio sumą, kuri yra įskaitoma.
+- Visi kiekiai yra atnaujinti į nulį. Tai reiškia, kad bus sukurtos visos prekės, kurioms išrašyta sąskaita faktūra. Jei reikia, galite neautomatiškai atnaujinti šiuos kiekius, kad nurodytumėte kiekį, už kurį išrašyta sąskaita faktūra, įskaitomą kiekį. Atsižvelgiant į įvestą kiekį, programa apskaičiuoja įskaitytą kiekį. Šią sumą atspindi faktiniai duomenys, sukurti patvirtinus pataisytą sąskaitą faktūrą. Jei norite pakeisti mokesčio sumą, turite įvesti teisingą mokesčio sumą, o ne mokesčio sumą, kuri yra įskaitoma.
 - Etapų pataisymai visada apdorojami kaip visapusiški įskaitymai.
-
+- Išankstinio apmokėjimo arba avanso sumos gali būti pataisytos, jei klientui išrašyta sąskaita faktūra už klaidingą sumą.
+- Išankstinių apmokėjimų ir avansų derinimą galima pataisyti, jei klaidinga suma buvo naudojama derinant pagal anksčiau patvirtintos sąskaitos faktūros mokesčius.
 
 > [!IMPORTANT]
-> Kai sąskaitos faktūros eilutės išsami informacija apima kitų jau apmokėtų mokesčių korekcijas, laukas **Taisymas** nustatomas kaip **Taip**. Kai sąskaitose faktūrose pateikiama pakoreguota SF eilutės išsami informacija, laukas **Yra taisymų** nustatomas kaip **Taip**.
+> Sąskaitos faktūros eilutės išsamioje informacijoje, apimančioje kitų jau apmokėtų mokesčių korekcijas, laukas **Taisymas** nustatomas kaip **Taip**. Sąskaitos faktūros, kurių eilučių informacija pataisyta, turi lauką **Yra pataisymų**, kuris taip pat nustatytas į parinktį **Taip**.
 
-## <a name="actuals-created-when-a-corrective-invoice-is-confirmed"></a>Faktiniai duomenys, kai patvirtinta koreguojamoji sąskaita faktūra
+## <a name="actuals-created-on-confirmation-of-a-corrective-invoice"></a>Faktiniai duomenys sukuriami patvirtinus koreguojamąją sąskaitą faktūrą
 
 Toliau esančioje lentelėje pateikti faktiniai duomenys, sukuriami patvirtinus koreguojamąją sąskaitą faktūrą.
 
@@ -50,6 +51,72 @@ Toliau esančioje lentelėje pateikti faktiniai duomenys, sukuriami patvirtinus 
             <td width="808" valign="top">
                 <p>
                     <strong>Faktiniai duomenys, sukurti patvirtinant</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="4" valign="top">
+                <p>
+Patvirtinkite avanso arba išankstinio apmokėjimo, už kurį išrašyta sąskaita faktūra, pataisymą.<strong></strong>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Išankstinio arba avansinio apmokėjimo pardavimo sumos, už kurią sąskaita faktūra neišrašyta, anuliavimas, sukurtas atlikti derinimą. Ši suma yra teigiama, nes ji skirta padengti neigiamą sumą, kuri sukurta išrašius sąskaitą faktūrą už išankstinį apmokėjimą arba avansą.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Pardavimo atšaukimo sąskaitos faktūros faktiniai duomenys sukuriami už išankstinio apmokėjimo arba avanso sumą, kad būtų atšauktas pradinis pardavimas, už kurį išrašyta sąskaita faktūra.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Sukuriami nauji pardavimo sąskaitos faktūros duomenys pagal išankstinio apmokėjimo arba avanso pagrindu pataisytą sąskaitos faktūros eilutę.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Neapmokestinamo faktinio pardavimo neigiama išankstinio apmokėjimo arba avanso pagrindu pataisyta sąskaitos faktūros eilutė, kuri bus naudojama derinant.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="4" valign="top">
+                <p>
+Patvirtinimas apie anksčiau suderinto išankstinio apmokėjimo arba avanso pataisymą.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Išankstinio arba avansinio apmokėjimo pardavimo sumos, už kurią sąskaita faktūra neišrašyta, anuliavimas, sukurtas atlikti derinimą. Ši suma yra teigiama ir ji skirta padengti neigiamą sumą, kuri sukurta įvykdžius ankstesnį derinimą
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Pardavimo atšaukimo sąskaitos faktūros faktiniai duomenys pagal ankstesnės sąskaitos faktūros sumą.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Nauji pardavimo sąskaitos faktūros duomenys pagal pataisytą išankstinio apmokėjimo sumą, taikomą pataisytai sąskaita faktūrai.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Neapmokestinamo faktinio pardavimo neigiama iš pataisyto likučio išankstinio apmokėjimo arba avanso, kurį naudojant bus derinamos būsimos sąskaitos faktūros.
                 </p>
             </td>
         </tr>
@@ -143,51 +210,6 @@ Nauja faktinė pardavimo suma, už kurią sąskaita faktūra neišrašyta ir kur
                 </p>
             </td>
         </tr>
-                <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
-Sąskaitos faktūros išrašymas už visą anksčiau į sąskaitą faktūrą įtrauktos medžiagos operacijos kreditą.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Pardavimo, už kurį išrašyta sąskaita, atšaukimas pagal pradinės sąskaitos faktūros medžiagos eilutės informacijos srityje nurodytą kiekį ir sumą.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Naujas faktinis pardavimas, už kurį neišrašyta sąskaita, susijęs su pradinės sąskaitos faktūros medžiagos eilutės informacijos srityje nurodytu kiekiu ir suma.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="3" valign="top">
-                <p>
-Sąskaitos faktūros išrašymas už dalinį medžiagos operacijos kreditą.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Pardavimo, už kurį išrašyta sąskaita, atšaukimas pagal pradinės sąskaitos faktūros medžiagos eilutės informacijos srityje nurodytą kiekį ir sumą, už kurią išrašyta sąskaita faktūra.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Naujas faktinis pardavimas, už kurį neišrašyta sąskaita, apmokestinamas pagal kiekį ir sumą, nurodytą redaguotos sąskaitos faktūros eilutės išsamios informacijos srityje, jo atšaukimas ir atitinkamas faktinis pardavimas, už kurį išrašyta sąskaita.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Nauja faktinė pardavimo suma, už kurią sąskaita faktūra neišrašyta ir kuri yra apmokestinama už likusius kiekį ir sumą, atėmus pakoreguotus skaičius sąskaitos faktūros eilutės informacijoje.
-                </p>
-            </td>
-        </tr>
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
@@ -249,10 +271,9 @@ Dalinio kredito sąskaitų faktūrų išrašymas už ankstesnį etapą, už kur�
             </td>
             <td width="408" valign="top">
                 <p>
-Šis scenarijus nepalaikomas.
-                </p>
+Nepalaikoma </p>
             </td>
-        </tr>       
+        </tr>        
     </tbody>
 </table>
 

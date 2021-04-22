@@ -1,21 +1,21 @@
 ---
-title: „Proforma“ sąskaitos faktūros valdymas – „Lite“ versija
-description: Šioje temoje pateikiama informacija apie darbą su „Proforma“ sąskaita faktūra.
+title: Išankstinės projekto sąskaitos faktūros valdymas
+description: Šioje temoje pateikiama informacija apie tai, kaip dirbti su išankstinėmis projektu pagrįstomis sąskaitomis faktūromis.
 author: rumant
 manager: Annbe
-ms.date: 10/27/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ca6c2cc8855cfed592057ca129b436450104af99
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2146e62bddc4a6286fa303ff2cc2c5622ea3133c
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274055"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866916"
 ---
-# <a name="manage-a-proforma-invoice---lite"></a>„Proforma“ sąskaitos faktūros valdymas – „Lite“ versija
+# <a name="manage-a-proforma-project-invoice"></a>Išankstinės projekto sąskaitos faktūros valdymas 
 
 _**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
 
@@ -69,9 +69,9 @@ Programoje „Project Operations” visada yra viena sąskaitos faktūros eilut�
 
 Kiekvienoje projekto sąskaitoje faktūroje esančios sąskaitos faktūros eilutėje yra sąskaitos faktūros eilutės informacija. Ši eilutės informacija yra susijusi su pardavimo, už kurį neišrašyta sąskaita, faktiniais elementais ir etapais, kurie yra susiję su sutarties eilute, kurią nurodo sąskaitos faktūros eilutė. Visos šios operacijos pažymėtos kaip **Parengta išrašyti sąskaitą faktūrą**.
 
-Sąskaitos faktūros eilutės informacija, skirta eilutei **Laiko ir medžiagų sąskaita faktūra**, puslapyje **Sąskaitos faktūros eilutė** grupuojama į **Apmokestinama**, **Neapmokestinama** ir **Nemokama**. **Apmokestinamos sąskaitos faktūros eilutės** išsami informacija pridedama prie sąskaitos faktūros bendrosios sumos. Laukai **Nemokama** ir **Neapmokestinami faktiniai duomenys** nepridedami prie sąskaitos faktūros eilutės bendrosios sumos.
+Eilutės **Laiko ir medžiagos sąskaita faktūra** atveju eilutės išsami informacija puslapyje **Sąskaitos faktūros eilutė** sugrupuojama į **Apmokestinama**, **Neapmokestinama** ir **Nemokama**. **Apmokestinamos sąskaitos faktūros eilutės** išsami informacija pridedama prie sąskaitos faktūros bendrosios sumos. **Nemokama** ir **Neapmokestinami faktiniai duomenys** reikšmės į bendrąją sąskaitos faktūros eilutės sumą neįtraukiamos.
 
-Sąskaitos faktūros eilutės informacija, skirta eilutei **Fiksuotos kainos sąskaita faktūra**, kuriama iš etapų, susijusioje sutarties eilutėje pažymėtų kaip **Parengta išrašyti sąskaitą faktūrą**. Sukūrus sąskaitos faktūros eilutės išsamią informaciją iš etapo, etapo atsiskaitymo būsena atnaujinama į **Kliento sąskaita faktūra sukurta**.
+Eilutei **Fiksuotos kainos sąskaita faktūra** sąskaitos faktūros eilutės išsami informacija sukuriama pagal etapus, susijusioje sutarties eilutėje pažymėtus kaip **Parengta išrašyti sąskaitą faktūrą**. Sukūrus sąskaitos faktūros eilutės išsamią informaciją iš etapo, etapo atsiskaitymo būsena atnaujinama į **Kliento sąskaita faktūra sukurta**.
 
 ### <a name="edit-invoice-line-details"></a>Sąskaitos faktūros eilutės išsamios informacijos redagavimas
 
@@ -98,8 +98,12 @@ Toliau nurodyti laukai pateikiami sąskaitos faktūros eilutės informacijoje, k
 | **Mokestis** | Nustatoma pagal numatytuosius nustatymus iš šaltinio faktinių duomenų. Lauką gali redaguoti vartotojas | Lauką gali redaguoti vartotojas, kurdamas naują sąskaitos faktūros eilutės informaciją be atsarginių kopijų kūrimo faktinių duomenų. |
 | **Išplėstinė suma** | Apskaičiuotasis laukas, apskaičiuojamas kaip **Suma + mokestis**. Tik skaitomas laukas, kurio redagavimas užrakinamas. | &nbsp; |
 | **Atsiskaitymo tipas** | Nustatoma pagal numatytuosius nustatymus iš šaltinio faktinių duomenų. Lauką gali redaguoti vartotojas. | Pasirinkus **Apmokestinama**, pridedama eilutė į sąskaitų faktūrų eilučių bendrąsias sumas. Pasirinkus **Nemokama** ir **Neapmokestinama**, ji nebus įtraukta į sąskaitų faktūrų eilučių bendrąsias sumas. |
+| **Pasirinkti produktą** | Nustatomas kaip numatytasis faktiniame šaltinyje, tai yra tik skaitomas laukas. | Sukūrus naują sąskaitos faktūros eilutės išsamią informaciją be faktinių duomenų atsarginės kopijos, šį lauką galima redaguoti. |
+| **Produktas** | Nustatomas kaip numatytasis faktiniame šaltinyje, tai yra tik skaitomas laukas. | Sukūrus naują sąskaitos faktūros eilutės išsamią informaciją be faktinių duomenų atsarginės kopijos, šį lauką galima redaguoti, jei laukas **Pasirinkti produktą** nustatytas kaip **Esamas produktas**. |
+| **Produkto pavadinimas** | Nustatomas kaip numatytasis faktiniame šaltinyje, tai yra tik skaitomas laukas. | Naujos sąskaitos faktūros eilutės išsamios informacijos dalyje, kur iš katalogo pasirenkamas produkto ID, šis laukas nustatomas kaip produkto pavadinimas. Įtraukiamojo produkto atveju šis laukas nustatomas kaip įtraukiamasis pavadinimas. |
+| **Įtraukiamasis aprašas** | Nustatomas kaip numatytasis faktiniame šaltinyje, šis laukas yra tik skaitomas. | Sukūrę naują sąskaitos faktūros eilutės išsamią informaciją be faktinių duomenų atsarginės kopijos, galite įtraukti produkto įtraukiamąjį aprašą. |
 | **Operacijos tipas** | Nustatoma pagal numatytuosius nustatymus iš šaltinio faktinių duomenų. Tik skaitomas laukas, kurio redagavimas užrakinamas. | Pagal numatytuosius nustatymus nustatoma kaip **Pardavimas, už kurį išrašyta sąskaita** ir užrakinama sukuriant naują **Sąskaitos faktūros eilutės informacija** be atsarginių kopijų kūrimo faktinių duomenų.  |
-| **Operacijos klasė** | Nustatoma pagal numatytuosius nustatymus iš šaltinio faktinių duomenų. Tik skaitomas laukas, kurio redagavimas užrakinamas. | Pagal numatytuosius nustatymus nustatomas atsižvelgiant į tai, ar vartotojas pasirenka sukurti sąskaitos faktūros eilutės informaciją **Laikas**, **Išlaidos** arba **Mokestis** taip pat kuriant naują **Sąskaitos faktūros eilutės informaciją** be faktinio atsarginių kopijų kūrimo. Užrakinta redagavimui. |
+| **Operacijos klasė** | Nustatoma pagal numatytuosius nustatymus iš šaltinio faktinių duomenų. Tik skaitomas laukas, kurio redagavimas užrakinamas. | Nustatomas pagal numatytuosius parametrus priklausomai nuo to, ar vartotojas pasirenka sukurti sąskaitos faktūros eilučių **Laikas**, **Išlaidos**, **Medžiaga** arba **Nemokama** išsamią informaciją, tuo pat metu sukuriant naują **Sąskaitos faktūros eilutės išsamią informaciją** be faktinių duomenų atsarginės kopijos. Užrakinta redagavimui. |
 
 Toliau nurodyti laukai pateikiami sąskaitos faktūros eilutės informacijoje, kuri yra paremta etapu.
 

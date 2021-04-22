@@ -1,42 +1,27 @@
 ---
-title: Neautomatinės „Proforma“ sąskaitos faktūros kūrimas
-description: Šioje temoje pateikta informacija, kaip sukurti „Proforma“ sąskaitą faktūrą.
+title: Išankstinės sąskaitos faktūros
+description: Šioje temoje pateikiama informacija apie išankstines sąskaitas faktūras „Project Operations“.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3289b8bcaddaebe1a3657b5902c1d324f9e0fd53
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: b143ba286f25ecb23fea09a85bca06543f7f55ff
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287788"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866871"
 ---
-# <a name="create-a-manual-proforma-invoice"></a>Neautomatinės „Proforma“ sąskaitos faktūros kūrimas
+# <a name="proforma-invoices"></a>Išankstinės sąskaitos faktūros
 
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
-Sąskaitų faktūrų išrašymas suteikia projektų vadovams antrą patvirtinimo lygį prieš sukuriant klientų sąskaitas faktūras. Pirmasis patvirtinimo lygis baigiamas, kai patvirtinami laiko ir išlaidų įrašai, kuriuos pateikia projekto komandos nariai.
+Išankstinių sąskaitų faktūrų išrašymas suteikia projektų vadovams antrą patvirtinimo lygį prieš sukuriant klientų sąskaitas faktūras. Pirmasis patvirtinimo lygis baigiamas, kai patvirtinami laiko, išlaidų ir medžiagos įrašai, kuriuos pateikia projekto komandos nariai. Patvirtintas išankstines sąskaitas faktūras galima rasti „Project Operations“ projekto apskaitos modulyje. Projekto buhalteriai gali atlikti papildomų naujinimų, pvz., PVM, apskaitai ir sąskaitos faktūros maketui.
 
-„Dynamics 365 Project Operations“ nėra sukurta norint generuoti klientui prieinamas sąskaitas faktūras dėl šių priežasčių:
-
-- Joje nėra mokesčių informacijos.
-- Ji negali konvertuoti kitų valiutų į sąskaitų faktūrų išrašymo valiutą naudojant tinkamai sukonfigūruotus valiutos kursus.
-- Joje negalima tinkamai formatuoti sąskaitų faktūrų, kad jas būtų galima išspausdinti.
-
-Vietoje to galite naudoti finansų arba apskaitos sistemą, kad sukurtumėte klientui prieinamas sąskaitas faktūras, kuriose naudojama sugeneruotū sąskaitos faktūros pasiūlymų informacija.
 
 ## <a name="creating-project-invoices"></a>Projekto sąskaitų faktūrų kūrimas
 
@@ -50,7 +35,7 @@ Atlikite šį žingsnį, kad sukurtumėte konkrečios projekto sutarties sąskai
 
 - **Projekto sutarčių** sąrašo puslapyje atidarykite projekto sutartį ir pažymėkite **Kurti sąskaitą faktūrą**.
 
-    Sąskaita faktūra sugeneruojama visoms pasirinktos projekto sutarties operacijoms, kurių būsena yra **Parengta išrašyti sąskaitą faktūrą**. Į šias operacijas įtrauktos laiko, išlaidų, etapų ir produktu pagrįstos sutarties eilutės.
+    Sąskaita faktūra sugeneruojama visoms pasirinktos projekto sutarties operacijoms, kurių būsena yra **Parengta išrašyti sąskaitą faktūrą**. Šios operacijos apima laiką, išlaidas, medžiagą, etapus ir kitas pardavimo, už kurį neišrašyta sąskaita faktūra, žurnalo eilutes.
 
 Atlikite šiuos veiksmus, kad sukurtumėte sąskaitas faktūras dideliais kiekiais.
 
@@ -60,7 +45,7 @@ Atlikite šiuos veiksmus, kad sukurtumėte sąskaitas faktūras dideliais kiekia
 
 2. Pasirinkite **Gerai**, kad uždarytumėte pranešimo langą.
 
-    Sąskaita faktūra sugeneruojama visoms projekto eilutės operacijoms, kurių būsena yra **Parengta išrašyti sąskaitą faktūrą**. Į šias operacijas įtrauktos laiko, išlaidų, etapų ir produktu pagrįstos sutarties eilutės.
+    Sąskaita faktūra sugeneruojama visoms projekto eilutės operacijoms, kurių būsena yra **Parengta išrašyti sąskaitą faktūrą**. Šios operacijos apima laiką, išlaidas, medžiagą, etapus ir kitas pardavimo, už kurį neišrašyta sąskaita faktūra, žurnalo eilutes.
 
 3. Norėdami peržiūrėti sugeneruotas sąskaitas faktūras, nueikite į **Pardavimai** \> **Atsiskaitymai** \> **Sąskaitos faktūros.** Kiekvienai projekto sutarčiai matysite po vieną sąskaitą faktūrą.
 
@@ -93,11 +78,10 @@ Paketinė proceso užduotis, skirta sąskaitoms faktūroms kurti, yra pasikartoj
  
 ### <a name="edit-a-draft-invoice"></a>Sąskaitos faktūros juodraščio redagavimas
 
-Sukūrus juodraštinę projekto sąskaitą faktūrą, visos pardavimo operacijos, už kurias neišrašyta sąskaita, sukurtos, kai laiko ir išlaidų įrašai buvo patvirtinti, yra įtraukiamos į sąskaitą faktūrą. Galite atlikti šiuos koregavimus, kai sąskaita faktūra vis dar yra juodraščio etape:
+Sukūrus juodraštinę projekto sąskaitą faktūrą, visos pardavimo operacijos, už kurias neišrašyta sąskaita, sukurtos, kai laiko, išlaidų ir medžiagų naudojimo įrašai buvo patvirtinti, yra įtraukiamos į sąskaitą faktūrą. Galite atlikti šiuos koregavimus, kai sąskaita faktūra vis dar yra juodraščio etape:
 
 - Naikinti arba redaguoti sąskaitos faktūros eilutės išsamią informaciją.
 - Redaguoti ir koreguoti kiekį ir atsiskaitymo tipą.
-- Į sąskaitą faktūrą tiesiogiai įtraukti laiko, išlaidų ir mokesčių operacijas. Galite naudoti šią funkciją, jei sąskaitos faktūros eilutė susieta su sutarties eilute, kurioje leidžiama atlikti šias operacijų klases.
 
 Pažymėkite **Patvirtinti**, kad patvirtintumėte sąskaitą faktūrą. Patvirtinimo veiksmas yra vienpusis veiksmas. Pasirinkus **Patvirtinti**, sąskaita faktūra sistemoje tampa tik skaitoma ir sukuriami faktiniai pardavimai, už kuriuos išrašyta sąskaita, iš kiekvienos sąskaitos faktūros eilutės išsamios informacijos kiekvienai sąskaitos faktūros eilutei. Jei sąskaitos faktūros eilutėje nurodomas faktinis pardavimas, už kurį neišrašyta sąskaita, sistema taip pat atšaukia faktinį pardavimą, už kurį neišrašyta sąskaita. (Bet kuri sąskaitos faktūros eilutės išsami informacija, sukurta naudojant laiko ar išlaidų įrašą, nurodo faktinį pardavimą, už kurį neišrašyta sąskaita). Didžiosios knygos integravimo sistemos gali naudoti šį atšaukimą, kad atšauktų projekto nebaigtą gamybą (NG) apskaitos tikslais.
 

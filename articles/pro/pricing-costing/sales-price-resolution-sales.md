@@ -1,21 +1,21 @@
 ---
-title: Įvertinimų ir faktinių duomenų pardavimo kainų nustatymas – „Lite“ versija
-description: Šioje temoje pateikta informacija apie įvertintų ir faktinių pardavimo kainų aprašymą.
+title: Projekto įvertinimų ir faktinių duomenų pardavimo kainų nustatymas
+description: Šioje temoje pateikiama informacija apie tai, kaip nustatyti projekto įvertinimų ir faktinių duomenų pardavimo kainas.
 author: rumant
 manager: Annbe
-ms.date: 10/19/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 25620704570fa702e1e5e09c83005be50f98f20a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3bf4686b414300370e6b364834b33edad98b7f39
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274513"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877366"
 ---
-# <a name="resolve-sales-prices-for-estimates-and-actuals---lite"></a>Įvertinimų ir faktinių duomenų pardavimo kainų nustatymas – „Lite“ versija
+# <a name="resolve-sales-prices-for-project-estimates-and-actuals"></a>Projekto įvertinimų ir faktinių duomenų pardavimo kainų nustatymas
 
 _**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
 
@@ -55,5 +55,14 @@ Kai sudaromas pardavimo kainoraštis, sistema atlieka toliau nurodytus veiksmus,
 
 4. Jei sistema negali sugretinti laukų **Kategorija** ir **Vienetas** reikšmių, nustatomas numatytasis nulinis (0) pardavimo tarifas.
 
+## <a name="resolving-sales-rates-on-actual-and-estimate-lines-for-material"></a>Pardavimo kainų nustatymas Medžiagos faktinių duomenų ir įvertinimo eilutėse
+
+„Project Operations“ medžiagos įvertinimo eilutės naudojamos norint nurodyti medžiagų pasiūlymo ir sutarties eilutės informaciją bei pateikti medžiagos įvertinimo eilutes projekte.
+
+Kai sudaromas pardavimo kainoraštis, sistema atlieka toliau nurodytus veiksmus, kad nustatytų numatytąją vieneto pardavimo kainą.
+
+1. Sistema medžiagos įvertinimo eilutei naudoja laukų **Produktas** ir **Vienetas** derinį, kad sugretintų kainų sąrašo elemento eilutes nustatytame kainoraštyje.
+2. Jei sistema randa kainų sąrašo elemento eilutę, kurioje nurodytos laukų **Produktas** ir **Vienetas** derinio pardavimo kainos, o įkainojimo metodas nustatytas kaip **Valiutos suma**, naudojama kainoraščio eilutėje nurodyta pardavimo kaina.
+3. Jei laukų **Produktas** ir **Vienetas** reikšmės nesutampa, pardavimo kainai nustatoma numatytoji nulinė reikšmė.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

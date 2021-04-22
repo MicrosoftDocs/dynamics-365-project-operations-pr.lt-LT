@@ -3,54 +3,58 @@ title: Projektu pagrįstos pasiūlymo eilutės įvertinimas
 description: Šioje temoje pateikta informacija apie tai, kaip sukurti įvertinimą projektu pagrįstai pasiūlymo eilutei.
 author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: dbd3876e555ee6bc70308ef11a3528a5dd8b6a32
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ef30df2921df7464aa2173161898121dc8e4f440
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273562"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858218"
 ---
 # <a name="estimating-a-project-based-quote-line"></a>Projektu pagrįstos pasiūlymo eilutės įvertinimas
 
-_**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
+_**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
 
 Projektu pagrįstoje pasiūlymo eilutėje pateikta išsami informacija, padedanti įvertinti darbo išlaidas ir potencialias pajamas, kad būtų sukurta pasiūlymo eilutė.
 
 Norėdami įvertinti projektu pagrįstą pasiūlymo eilutę, projektu pagrįstoje pasiūlymo eilutėje pažymėkite skirtuką **Pasiūlymo eilutės informacija**. Yra du būdai apskaičiuoti projektu pagrįstos pasiūlymo eilutės įvertinimą:
 
-- Rankiniu būdu sukurti įvertinimą tiesiogiai pasiūlymo eilutėje naudojant pasiūlymo eilutės išsamią informaciją 
+- Rankiniu būdu sukurti įvertinimą tiesiogiai pasiūlymo eilutėje naudojant pasiūlymo eilutės išsamią informaciją. 
 - Sukurti projektą ir projekto planą, o tada susieti projektą ir projekto užduotis su pasiūlymo eilute. Procesas, skirtas projekto plano įvertinimų importavimui į pasiūlymo eilutę pagal jūsų pateiktą informaciją, bus įjungtas.
 
 ## <a name="create-estimates-directly-on-a-project-based-quote-line"></a>Įvertinimų kūrimas tiesiogiai projektu pagrįstoje pasiūlymo eilutėje
 
 Jei norite kurti įvertinimą projektu pagrįstoje pasiūlymo eilutėje, pažymėkite skirtuką **Pasiūlymo eilutės informacija**. Šiame skirtuke sukurtas eilutės elementas apibendrins šios pasiūlymo eilutės pasiūlytą reikšmę. 
 
-Norėdami sukurti pasiūlymo eilutės išsamią informaciją, papildomame tinklelyje **Pasiūlymo eilutės informacija** pasirinkite **+ Nauja pasiūlymo eilutės informacija**. Atsidarys sparčiojo kūrimo slankiklis. Toliau nurodyti laukai, esantys formoje **Pasiūlymo eilutė**:
+Norėdami sukurti pasiūlymo eilutės išsamią informaciją, papildomame tinklelyje **Pasiūlymo eilutės informacija** pasirinkite **Nauja pasiūlymo eilutės informacija**. Atsidarys sparčiojo kūrimo slankiklis. Toliau pateiktoje lentelėje nurodyta išsami informacija apie puslapio **Pasiūlymo eilutės informacija** laukus ir tai, kaip reikšmės turi įtakos funkcijoms.
 
 | **Laukas** | **Vieta** | **Aprašas** | **Tolesnis poveikis** |
 | --- | --- | --- | --- |
-| Aprašo | Spartusis kūrimas | Konkretaus įvertinimo aprašymas. | Šio lauko numatytosios reikšmės nurodytos automatiškai sukurtoje susijusios pasiūlymo eilutės savikainos išsamioje informacijoje. |
-| Operacijos klasė | Spartusis kūrimas | Šiame išplečiamajame sąraše pateikiamos operacijų klasės, įtrauktos į projektu pagrįstos pasiūlymo eilutės skirtuke **Bendra**.  | Šio lauko numatytosios reikšmės nurodytos automatiškai sukurtoje susijusios pasiūlymo eilutės savikainos išsamioje informacijoje. |
-| Vaidmuo | Spartusis kūrimas | Asmuo, kuris atliks šį darbą arba patiriantis šias išlaidas. | Šio lauko numatytosios reikšmės nurodytos automatiškai sukurtoje susijusios pasiūlymo eilutės savikainos išsamioje informacijoje. |
-| Kategorija. | Spartusis kūrimas | Darbo arba išlaidų kategorija | Šio lauko numatytosios reikšmės nurodytos automatiškai sukurtoje susijusios pasiūlymo eilutės savikainos išsamioje informacijoje. |
-| Pradžios data | Spartusis kūrimas | Darbo pradžios data. | Šio lauko numatytosios reikšmės nurodytos automatiškai sukurtoje susijusios pasiūlymo eilutės savikainos išsamioje informacijoje. |
-| Pabaigos data | Spartusis kūrimas | Darbo pabaigos data. | Šio lauko numatytosios reikšmės nurodytos automatiškai sukurtoje susijusios pasiūlymo eilutės savikainos išsamioje informacijoje. |
-| Išteklių paskirstymo vienetas | Spartusis kūrimas | Išteklių skyrimo vienetas, kuris patirs šias išlaidas ir pateiks išteklius darbui. | Šio lauko numatytosios reikšmės nurodytos automatiškai sukurtoje susijusios pasiūlymo eilutės savikainos išsamioje informacijoje. Šis laukas taip pat naudojamas savikainai gauti. |
-| Vieneto grafikas | Spartusis kūrimas | Darbo arba išlaidų vienetų grupė. Vienetai priklauso vienetų grafikui arba vienetų grupei. Pavyzdžiui, „Miles“ ir „KMs“ yra vienetai, priklausantys vienetų grupei, kuri aprašo atstumą. | Šio lauko numatytosios reikšmės nurodytos automatiškai sukurtoje susijusios pasiūlymo eilutės savikainos išsamioje informacijoje. |
-| Vienetas | Spartusis kūrimas | Darbo arba išlaidų vienetai. | Šio lauko numatytosios reikšmės nurodytos automatiškai sukurtoje susijusios pasiūlymo eilutės savikainos išsamioje informacijoje. |
-| Kiekis | Spartusis kūrimas | Darbo arba išlaidų kiekis. | Šio lauko numatytosios reikšmės nurodytos automatiškai sukurtoje susijusios pasiūlymo eilutės savikainos išsamioje informacijoje. |
-| Vieneto kaina | Spartusis kūrimas | Darbą atliekančio vaidmens sąskaitos tarifas arba išlaidų kategorijos pardavimų kaina. Šio lauko numatytosios reikšmės laikas pagal vaidmenį ir išteklių vieneto derinį projekto kainoraštyje, kuris galioja pradžios datą. Išlaidų srityje šio lauko numatytosios reikšmės nustatytos kaip operacijos kategorijos projekto kainų sąraše, kuris galioja pradžios datą. Jei operacijos kategorijos kainodaros būdas nėra kaina už vienetą, numatytosios reikšmės nėra, o šis laukas paliekamas tuščias. | Darbą atliekančio vaidmens savikainos tarifas arba išlaidų kategorijos kainą per vienetą. Šio lauko numatytosios reikšmės laikas pagal vaidmenį ir išteklių vieneto derinį sutartį sudarančio vieneto kainos pasiūlymo kainoraštyje, kuris galioja pradžios datą. Išlaidų srityje šio lauko numatytosios reikšmės nustatytos kaip operacijos kategorijos sutartį sudarančio vieneto savikainos kainų sąraše, kuris galioja pradžios datą. Jei operacijos kategorijos kainodaros būdas nėra kaina už vienetą, numatytosios reikšmės nėra, o šis laukas paliekamas tuščias. |
+| Aprašymas | Spartusis kūrimas | Konkretaus įvertinimo aprašymas. | Šiai reikšmei pagal numatytuosius parametrus nustatoma susijusi pasiūlymo eilutės išsami informacija, taikoma automatiškai sukuriamai savikainai. |
+| Operacijos klasė | Spartusis kūrimas | Šiame išplečiamajame sąraše pateikiamos operacijos klasės, įtrauktos į projektu pagrįstos pasiūlymo eilutės skirtuką **Bendra**.  | Šiai reikšmei pagal numatytuosius parametrus nustatoma susijusi pasiūlymo eilutės išsami informacija, taikoma automatiškai sukuriamai savikainai. |
+| Pasirinkti produktą | Spartusis kūrimas | Taikoma, kai operacijos klasė yra **Medžiaga**. Galite pasirinkti nurodyti, kad ši įvertinimo eilutė būtų skirta **esamam** (kataloge nurodytam) produktui arba **įtraukiamajam** produktui. | Šiai reikšmei pagal numatytuosius parametrus nustatoma susijusi pasiūlymo eilutės išsami informacija, taikoma automatiškai sukuriamai savikainai. |
+| Produktas | Spartusis kūrimas | Produkto iš produktų katalogo ID. Šis laukas įjungiamas tik pasirinkus **Esamas** lauke **Pasirinkti produktą**. ID naudojamas norint gauti pardavimo kainą iš pasiūlymo projekto kainoraščio. | Šiai reikšmei pagal numatytuosius parametrus nustatoma susijusi pasiūlymo eilutės išsami informacija, taikoma automatiškai sukuriamai savikainai. |
+| Įtraukiamasis produktas | Spartusis kūrimas | Teksto laukas, kuriame reikia įrašyti produkto pavadinimą. Šis laukas įjungiamas tik pasirinkus **Įtraukiamasis** lauke **Pasirinkti produktą**.| Šiai reikšmei pagal numatytuosius parametrus nustatoma susijusi pasiūlymo eilutės išsami informacija, taikoma automatiškai sukuriamai savikainai. |
+| Vaidmuo | Spartusis kūrimas | Asmens, kuris atliks šį darbą arba patirs šias išlaidas, vaidmuo. | Šiai reikšmei pagal numatytuosius parametrus nustatoma susijusi pasiūlymo eilutės išsami informacija, taikoma automatiškai sukuriamai savikainai. |
+| Kategorija. | Spartusis kūrimas | Darbo arba išlaidų kategorija. | Šiai reikšmei pagal numatytuosius parametrus nustatoma susijusi pasiūlymo eilutės išsami informacija, taikoma automatiškai sukuriamai savikainai. |
+| Pradžios data | Spartusis kūrimas | Darbo pradžios data. | Šiam laukui pagal numatytuosius parametrus nustatoma pasiūlymo eilutės išsami informacija, taikoma automatiškai sukuriamai savikainai. |
+| Pabaigos data | Spartusis kūrimas | Darbo pabaigos data. | Šiam laukui pagal numatytuosius parametrus nustatoma pasiūlymo eilutės išsami informacija, taikoma automatiškai sukuriamai savikainai. |
+| Išteklių paskirstymo vienetas | Spartusis kūrimas | Išteklių skyrimo vienetas, pagal kurį bus taikoma ši savikaina ir pateikti ištekliai dirbti. | Šiai reikšmei pagal numatytuosius parametrus nustatoma susijusi pasiūlymo eilutės išsami informacija, taikoma automatiškai sukuriamai savikainai ir naudojama savikainai gauti. |
+| Vieneto grafikas | Spartusis kūrimas | Darbo, produkto arba išlaidų vienetų grupė. Vienetai priklauso vienetų grafikui arba vienetų grupei. Pavyzdžiui, mylios ir kilometrai yra vienetai, priklausantys vienetų grupei, kurioje aprašomas atstumas. | Šiai reikšmei pagal numatytuosius parametrus nustatoma susijusi pasiūlymo eilutės išsami informacija, taikoma automatiškai sukuriamai savikainai. |
+| Vienetas | Spartusis kūrimas | Darbo, produkto arba išlaidų vienetas. | Šiai reikšmei pagal numatytuosius parametrus nustatoma susijusi pasiūlymo eilutės išsami informacija, taikoma automatiškai sukuriamai savikainai. |
+| Kiekis | Spartusis kūrimas | Darbo, produkto arba išlaidų kiekis. | Šiai reikšmei pagal numatytuosius parametrus nustatoma susijusi pasiūlymo eilutės išsami informacija, taikoma automatiškai sukuriamai savikainai. |
+| Vieneto kaina | Spartusis kūrimas |Darbą atliekančio vaidmens sąskaitų tarifas, produkto vieneto kaina arba produkto ar išlaidų kategorijos pardavimo kaina. Šiam laukui taikoma numatytoji **laiko** reikšmė, pagrįsta deriniu kainodaros dimensijų reikšmių, esančių vaidmens kainos eilutėje, susijusioje su projekto kainoraščiu, galiojančiu pradžios dieną. **Išlaidų** atveju numatytoji reikšmė nustatoma pagal operacijos kategorijos kainų sąranką projekto kainoraštyje, kuris galioja pradžios dieną. Jei operacijos kategorijos kainodaros būdas nėra vieneto kaina, numatytosios reikšmės nėra ir šis laukas lieka tuščias. Produktų atveju numatytasis parametras pagrįstas eilute **Kainų sąrašo elementas**, priklausančioje kainoraščiui, kuris galioja pradžios dieną.| Darbą atliekančio vaidmens savikainos tarifas, išlaidų kategorijos vieneto savikaina arba produkto vieneto savikaina. Šiam laukui taikoma numatytoji **laiko** reikšmė, pagrįsta deriniu kainodaros dimensijų reikšmių, esančių vaidmens kainos eilutėje, susijusioje su projekto kainoraščiu, galiojančiu pradžios dieną. **Išlaidų** atveju numatytoji reikšmė nustatoma pagal operacijos kategorijos kainų sąranką projekto kainoraštyje, kuris galioja pradžios dieną. Jei operacijos kategorijos kainodaros būdas nėra vieneto kaina, numatytosios reikšmės nėra ir šis laukas lieka tuščias. Produktų atveju numatytasis parametras pagrįstas eilute **Kainų sąrašo elementas**, priklausančioje kainoraščiui, kuris galioja pradžios dieną.|
 | Įvertintas mokestis | Spartusis kūrimas | Galite rankiniu būdu įvesti numatomą šio darbo arba išlaidų mokestį. | Nėra jokio tolesnio šio lauko poveikio. |
-| Suma | Spartusis kūrimas | Galite rankiniu būdu įvesti informaciją į šį lauką, jei laukai **Kiekis** ir **Kaina** paliekami tušti. Jei šie laukai nėra tušti, šis laukas tampa tik skaitomu ir apskaičiuojamas kaip (Kiekis\*Vieneto kaina) + mokestis. | Nėra jokio tolesnio šio lauko poveikio. |
+| Suma | Spartusis kūrimas | Galite rankiniu būdu įvesti informaciją į šį lauką, jei laukai **Kiekis** ir **Kaina** paliekami tušti. Jei šie laukai nėra tušti, šis laukas tampa tik skaitomu ir apskaičiuojamas kaip (Kiekis \* Vieneto kaina) + mokestis. | Nėra jokio tolesnio šio lauko poveikio. |
+
 
 ## <a name="update-prices-on-quote-line-details"></a>Kainų atnaujinimas pasiūlymo eilutės informacijoje
 
-Jei pakeitėte kainas projekto kainoraštyje, kuris pridėtas prie pasiūlymo, arba sutartį sudarančio vieneto savikainos kainoraštyje, galite pažymėti parinktį **Perskaičiuoti**, esančią puslapyje **Pasiūlymas**, kad atnaujintumėte kainas individualios pasiūlymo eilutės išsamiojoje informacijoje. Kai pasirenkate **Perskaičiuoti**, atsiranda įspėjimas, kuris informuoja, kad kainos pasiūlymo eilutės išsamiojoje informacijoje apie visas pasiūlymo eilutes šiame pasiūlyme bus nustatyta iš naujo. Norėdami atnaujinti pardavimų ir išlaidų pasiūlymo eilutės išsamią informaciją, pasirinkite **Taip**.
+Jei keitėte prie pasiūlymo pridėto projekto kainoraščio kainas arba sutartį sudarančio vieneto kainoraščio kainas, galite pasirinkti funkciją **Perskaičiuoti**, esančią puslapyje **Pasiūlymas**, kad atnaujintumėte kainas atskiros pasiūlymo eilutės išsamios informacijos dalyje, ir šis keitimas būtų pritaikytas. Pasirinkus **Perskaičiuoti** rodomas įspėjimas, kuriame informuojama, kad bus iš naujo nustatytos pasiūlymo eilutės informacijos kainos, susijusios su visomis pasiūlymo eilutėmis, pateikiamomis šiame pasiūlyme. Norėdami atnaujinti pardavimų ir išlaidų pasiūlymo eilutės išsamią informaciją, pasirinkite **Taip**.
 
 ## <a name="access-quote-line-details-for-cost"></a>Prieiga prie išlaidų pasiūlymo eilutės išsamios informacijos
 
@@ -66,7 +70,8 @@ Išlaidų pasiūlymo eilutės išsamios informacijos valiuta pagal numatytąsias
 
 Pelningumo skaičiavimas konvertuoja išlaidų ir pardavimų pasiūlymo eilutės išsamią informaciją į pagrindinę aplinkos valiutą, kad praneštų apie bendrą numatomą pasiūlymo maržą.
 
-Dėl šios priežasties gali atsirasti valiutos apvalinimo klaidų ir maržos pokyčių dėl datų efektyvumo keitimo kursų stokos. Šiuos skaičiavimus naudokite tik su projekto pasiūlymais kaip suderinimus, o ne faktines teisės aktų nustatytas arba kitokias ataskaitas, kurioms reikia tikslesnio apvalinimo ir didesnio datos efektyvumo valiutos kursams.
+> [!PASTABA
+> > Dėl trūkstamų nuo datos priklausančių valiutos kursų gali įvykti valiutos apvalinimo klaidų ir pasikeisti maržos. Šiuos skaičiavimus naudokite tik projekto sutartyse, nes jie yra apytiksliai ir nėra skirti įstatymų nustatytoms faktinėms arba kitoms ataskaitoms, kuriose reikalaujama tiksliau apvalinti ir pateikti valiutų kursų įsigaliojimo datą.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

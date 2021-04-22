@@ -1,21 +1,21 @@
 ---
-title: Koreguotos sąskaitos faktūros – „Lite“ versija
-description: Šioje temoje pateikta informacija apie pataisytas sąskaita faktūras programoje „Project Operations“.
+title: Koreguojamosios projekto sąskaitos faktūros
+description: Šioje temoje pateikiama informacija apie tai, kaip sukurti ir patvirtinti koreguojamąsias sąskaitas faktūras „Project Operations“.
 author: rumant
 manager: Annbe
-ms.date: 10/15/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: eb949ff3a53bcba19d44e1c3d6fe08a6b368108d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ae6d881e4e68b9f467478afe9735fc3186e6b0a8
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274243"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866601"
 ---
-# <a name="corrected-invoices---lite"></a>Koreguotos sąskaitos faktūros – „Lite“ versija
+# <a name="corrective-project-invoices"></a>Koreguojamosios projekto sąskaitos faktūros
 
 _**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
 
@@ -37,9 +37,9 @@ Iš patvirtintos sąskaitos faktūros sukuriama naujas sąskaitos faktūros juod
 > [!IMPORTANT]
 > Sąskaitos faktūros eilučių informacija yra kitų išlaidų, už kurias sąskaita faktūra jau išrašyta, pataisymai ir jos laukas **Pataisymas** nustatytas į parinktį **Taip**. Sąskaitos faktūros, kurių eilučių informacija pataisyta, turi lauką **Yra pataisymų**, kuris taip pat nustatytas į parinktį **Taip**.
 
-## <a name="actuals-created-on-confirmation-of-a-corrective-invoice"></a>Faktiniai duomenys sukuriami patvirtinus pataisytą sąskaitą faktūrą
+## <a name="actuals-created-when-a-corrective-invoice-is-confirmed"></a>Faktiniai duomenys, kai patvirtinta koreguojamoji sąskaita faktūra
 
-Toliau pateikti faktiniai duomenys, kuriuos programa sukūrė patvirtinus pataisytą sąskaitą faktūrą, atsižvelgiant į operacijas, atliktas pataisytos sąskaitos faktūros juodraštyje prieš patvirtinant.
+Toliau esančioje lentelėje pateikti faktiniai duomenys, sukuriami patvirtinus koreguojamąją sąskaitą faktūrą.
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>
@@ -214,6 +214,51 @@ Nauja faktinė pardavimo suma, už kurią sąskaita faktūra neišrašyta ir kur
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
+Sąskaitos faktūros išrašymas už visą anksčiau į sąskaitą faktūrą įtrauktos medžiagos operacijos kreditą.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Pardavimo, už kurį išrašyta sąskaita, atšaukimas pagal pradinės sąskaitos faktūros medžiagos eilutės informacijos srityje nurodytą kiekį ir sumą.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Naujas faktinis pardavimas, už kurį neišrašyta sąskaita, susijęs su pradinės sąskaitos faktūros medžiagos eilutės informacijos srityje nurodytu kiekiu ir suma.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+Sąskaitos faktūros išrašymas už dalinį medžiagos operacijos kreditą.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Pardavimo, už kurį išrašyta sąskaita, atšaukimas pagal pradinės sąskaitos faktūros medžiagos eilutės informacijos srityje nurodytą kiekį ir sumą, už kurią išrašyta sąskaita faktūra.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Naujas faktinis pardavimas, už kurį neišrašyta sąskaita, apmokestinamas pagal kiekį ir sumą, nurodytą redaguotos sąskaitos faktūros eilutės išsamios informacijos srityje, jo atšaukimas ir atitinkamas faktinis pardavimas, už kurį išrašyta sąskaita.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Nauja faktinė pardavimo suma, už kurią sąskaita faktūra neišrašyta ir kuri yra apmokestinama už likusius kiekį ir sumą, atėmus pakoreguotus skaičius sąskaitos faktūros eilutės informacijoje.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
 Viso kredito sąskaitų faktūrų išrašymas už ankstesnes mokesčių operacijas, kurių sąskaita faktūra neišrašyta.
                 </p>
             </td>
@@ -260,7 +305,7 @@ Viso kredito sąskaitų faktūrų išrašymas už ankstesnį etapą, už kurį s
 Pradinės etapo sąskaitos faktūros eilutės informacijos pardavimo atšaukimo sąskaitos faktūros ir suma.
                 </p>
                 <p>
-Etapo sąskaita faktūra arba atsiskaitymo būsena projekto sutarties eilutėje atnaujinama į parinktį **Parengta išrašyti sąskaitą faktūrą**.
+Etapo sąskaitos faktūros būsena atnaujinta iš <b>Kliento sąskaita faktūra užregistruota</b> į <b>Parengta išrašyti sąskaitą faktūrą</b>.
                 </p>
             </td>
         </tr>

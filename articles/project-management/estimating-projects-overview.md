@@ -1,31 +1,41 @@
 ---
-title: Projektų įvertinimo apžvalga
-description: Šioje temoje pateikiama informacija apie įvertinimų teikimą programėlėje „Dynamics 365 Project Operations“.
-author: ruhercul
+title: Finansinio įvertinimo sąvokos
+description: Šioje temoje pateikiama informacija apie „Project Operations“ projektų finansinius įvertinimus.
+author: rumant
 manager: AnnBe
-ms.date: 10/06/2020
+ms.date: 03/22/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
-ms.author: ruhercul
-ms.openlocfilehash: 4ff73c6efd5b21b91a7772c3733734d8008e00a3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: a251be995abddba04cee689714d0a8f4e9d9e7d7
+ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286888"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "5701746"
 ---
-# <a name="estimate-projects-overview"></a>Projektų įvertinimo apžvalga
+# <a name="financial-estimation-concepts"></a>Finansinio įvertinimo sąvokos
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
+„Dynamics 365 Project Operations“ savo projektus galite finansiškai įvertinti dviem toliau nurodytais etapais. 
+1. Etape prieš parduodant, kai sandoris dar nėra laimėtas. 
+2. Vykdymo etapo metu, sukūrus projekto sutartį. 
+
+Sukurti projektu pagrįsto darbo finansinį įvertinimą galite pasinaudodami bet kuriais iš toliau nurodytų 3 puslapių.
+- Puslapyje **Pasiūlymo eilutė**, pasinaudodami pasiūlymo eilutės informacija.  
+- Puslapyje **Projekto sutarties eilutė**, pasinaudodami sutarties eilutės informacija. 
+- Puslapyje **Projektas**, pasinaudojami skirtuko **Užduotys** arba **Išlaidų įvertinimai** puslapiais.
+
+## <a name="use-a-project-quote-to-create-an-estimate"></a>Projekto pasiūlymo naudojimas įvertinimui sukurti
 Projektu pagrįstame pasiūlyme galite naudoti objektą **Pasiūlymo eilutės informacija** ir įvertinti reikiamo pristatyti darbo dydį. Tada galite bendrinti įvertinimą su klientu.
 
 Projektu pagrįstose pasiūlymo eilutėse gali nebūti jokios arba daug pasiūlymo eilutės informacijos. Pasiūlymo eilutės informacija naudojama norint apskaičiuoti laiką, išlaidas arba mokesčius. „Microsoft Dynamics 365 Project Operations“ programoje negalima atlikti medžiagų įvertinimo pagal pasiūlymo eilutės išsamią informaciją. Tai vadinama operacijų klasėmis. Įvertintas mokesčių sumas taip pat galima įvesti operacijos klasėje.
 
 Be operacijų klasių pasiūlymo eilutės informacijos dalyje taip pat nurodomas operacijos tipas. Palaikomi du pasiūlymo eilutės informacijos operacijų tipai: **Savikainos** ir **Projekto sutarties**.
 
-## <a name="estimate-by-using-a-contract"></a>Įvertinimas naudojant sutartį
+## <a name="use-a-project-contract-to-create-an-estimate"></a>Projekto sutarties naudojimas įvertinimui sukurti
 
 Jei kurdami projektu pagrįstą sutartį naudojote pasiūlymą, kiekvieno pasiūlymo eilutės įvertinimas nukopijuojamas į projekto sutartį. Projekto sutarties struktūra yra tokia pati, kaip ir projekto pasiūlymo: pateikiamos eilutės, eilučių informacija ir sąskaitų faktūrų grafikai.
 
@@ -35,25 +45,19 @@ Sutarties eilutės informaciją galima panaudoti norint apskaičiuoti laiką, i�
 
 Medžiagos įvertinimai negalimi sutarties eilutės informacijai.
 
-Projekto sutarties dalyje palaikomi procesai – sąskaitos faktūros kūrimas ir patvirtinimas. Naudojant sąskaitos faktūros procesą, sukuriamas projektu pagrįstos sąskaitos faktūros juodraštis, kuriame įtraukiami visi iki esamos datos esančių pardavimų, už kuriuos neišrašyta sąskaita, faktiniai duomenys.
+## <a name="use-a-project-to-create-an-estimate"></a>Projekto naudojimas įvertinimui sukurti 
 
-Patvirtinus sutartis tampa skirta tik skaityti ir jos būsena iš **Juodraštis** pakeičiama į **Patvirtinta**. Atlikę šį veiksmą, jo atšaukti negalite. Šis veiksmas yra nuolatinis, todėl geriausia sutartį saugoti nustačius būseną **Juodraštis**.
-
-Vieninteliai skirtumai tarp sutarčių juodraščių ir patvirtintų sutarčių yra jų būsenos, taip pat tai, kad juodraštines sutartis galima redaguoti, o patvirtintų sutarčių – ne. Sukurti sąskaitas faktūras ir sekti faktinius duomenis galima naudojant juodraštines ir patvirtintas sutartis.
-
-„Project Operations“ nepalaiko sutarčių arba projektų užsakymo keitimo galimybės.
-
-## <a name="estimating-projects"></a>Projektų vertinimas
-
-Galite įvertinti darbo su projektais laiką ir išlaidas. „Project Operations“ neleidžia įvertinti projektų medžiagų arba mokesčių.
+Galite įvertinti darbo su projektais laiką ir išlaidas. „Project Operations“ nepalaikomi projektų medžiagų ar mokesčių įvertinimai.
 
 Laiko įvertinimai generuojami kuriant užduotį ir nurodant bendrojo ištekliaus, kuris reikalingas norint atlikti užduotį, atributus. Laiko įvertinimai generuojami pagal suplanuotas užduotis. Laiko įvertinimai nekuriami, jei bendruosius komandos narius kuriate atskirai nuo grafiko.
 
-Išlaidų įvertinimus galima įvesti puslapio **Įvertinimai** tinklelyje.
+Išlaidų įvertinimus galima įvesti puslapio **Išlaidų įvertinimai** tinklelyje.
 
-## <a name="understanding-estimation"></a>Įvertinimo paaiškinimas
+Projekto įvertinimo kūrimas laikomas geriausia praktika, nes galite sukurti kiekvienos projekto plano užduoties darbo arba laiko ir išlaidų nuo smulkmenų prie bendrųjų principų vedančius įvertinimus. Tada šį išsamų įvertinimą galite naudoti norėdami sukurti kiekvienos pasiūlymo eilutės įvertinimą ir patikimesnį kliento pasiūlymą. Kai išsamų įvertinimą importuojate arba sukuriate pasiūlymo eilutėje naudodami projekto planą, į „Project Operations“ importuojamos šių įvertinimų pardavimo ir savikainos reikšmės. Importavę projekto pasiūlyme galite peržiūrėti pelningumo, maržų ir ekonominio pagrįstumo metriką.
 
-Naudokite šią lentelę kaip vadovą, kad suprastumėte verslo logiką, naudojamą vertinimo etapu.
+## <a name="understanding-estimates"></a>Įvertinimų paaiškinimas
+
+Naudokite šią lentelę kaip vadovą, kad suprastumėte verslo logiką, naudojamą vertinant.
 
 | Scenarijus                                                                                                                                                                                                                                                                                                                                          | Objekto įrašas                                                                                                                                                                                                       | Operacijos tipas | Operacijos klasė | Papildoma informacija                                                            |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|-------------|-----------------------------------------------------------------------------------|

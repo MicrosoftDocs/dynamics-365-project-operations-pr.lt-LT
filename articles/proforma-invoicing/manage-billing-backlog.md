@@ -3,41 +3,62 @@ title: Atsiskaitymo nebaigtų užduočių tvarkymas
 description: Šioje temoje pateikta informacija, kaip peržiūrėti ir tvarkyti atsiskaitymo nebaigtas užduotis naudojant „Project Operations“.
 author: rumant
 manager: Annbe
-ms.date: 10/20/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c3752abd26e760d27320d2b86079d84a967d53cf
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e428b551a755220cee67d54b2e63dd7a3c2ca393
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287743"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866787"
 ---
-# <a name="manage-the-billing-backlog"></a>Atsiskaitymo nebaigtų užduočių tvarkymas
+# <a name="manage-billing-backlog"></a>Atsiskaitymo nebaigtų užduočių tvarkymas
 
-_**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
+_ **Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams
 
-„Dynamics 365 Project Operations“ programoje yra du specialieji rodiniai, kad būtų lengviau dirbti ir tvarkyti nebaigtomis atsiskaitymo užduotimis. Jos yra **Fiksuoti kainų etapai** ir **Bebaigtos laiko ir medžiagų sąskaitų užduotys** Norėdami pasirinkti rodinį, „Project Operations“ srityje **Sales**, kairiajame naršymo puslapyje pasirinkite **Atsiskaitymas**. Čia saugomi nebaigtų atsiskaitymo užduočių saitai.
+„Dynamics 365 Project Operations“ programoje yra specialieji rodiniai, kad būtų lengviau tvarkyti nebaigtas atsiskaitymo užduotis. Norėdami tvarkyti nebaigtas atsiskaitymo užduotis, pasirinkite saitus dalies **Atsiskaitymas** srityje **Pardavimas**. 
+
+Yra tolesni rodiniai.
+
+- Išankstiniai apmokėjimai ir avansai
+- Galimi išankstiniai apmokėjimai ir avansai
+- Fiksuotos kainos gairės
+- Laiko ir medžiagų atsiskaitymo nebaigtos užduotys
+
+## <a name="retainers-and-advances"></a>Išankstiniai apmokėjimai ir avansai
+
+Rodinyje **Išankstiniai apmokėjimai ir avansai** pateikiami visų projekto sutarčių išankstiniai apmokėjimai ir avansai. Kai išrašoma sąskaita faktūra už išankstinį apmokėjimą ar avansą, avanso suma tampa pasiekiama naudoti.
+
+## <a name="available-retainers-and-advances"></a>Galimi išankstiniai apmokėjimai ir avansai
+
+Rodinyje **Galimi išankstiniai apmokėjimai ir avansai** pateikiami visų projekto sutarčių visi galimi išankstiniai apmokėjimai ir avansai. Kai išrašoma sąskaita faktūra už išankstinį apmokėjimą ar avansą, avanso suma tampa pasiekiama naudoti ir yra įtraukiama į sąrašą. Visiškai išnaudojus išankstinio apmokėjimo arba avanso kiekį, jis pašalinamas iš sąrašo.
 
 ## <a name="fixed-price-milestones"></a>Fiksuotos kainos gairės
 
-Šiame rodinyje išvardyti visi fiksuotos kainos etapai visose sistemos projekto sutarties eilutėse. Vieną ar kelis etapus galima pažymėti kaip **Parengta išrašyti sąskaitą faktūrą** arba **Neparengta išrašyti sąskaitos faktūros** iš šio rodinio. Kai pažymite etapą kaip **Parengta išrašyti sąskaitą faktūrą**, etapas tampa pasiekiamu sąskaitos faktūros juodraštyje.
+Rodinyje **Fiksuotos kainos gairės** pateikiami visų projekto sutarčių eilutėse nurodytos fiksuotos kainos gairės. Šiame rodinyje vieną arba kelis etapus galima pažymėti kaip **Parengta išrašyti sąskaitą faktūrą** arba **Neparengta išrašyti sąskaitą faktūrą**. Etapą pažymėjus **Parengta išrašyti sąskaitą faktūrą**, jį galima įdėti į sąskaitos faktūros juodraštį.
 
-Kai kelių klientų sutarties eilutėse yra fiksuotos kainos atsiskaitymo metodas, kiekvienam klientui sukuriama po vieną etapą sutarties eilutėje. Vartotojas sukuria etapą ir tas etapas suskaidomas į konkretaus kliento etapų vidinius įrašus, atsižvelgiant į atsiskaitymo procentinį suskaidymą, apibrėžtą kiekvienam klientui sutarties eilutėje. Rodinyje **Fiksuotos kainos etapai** matysite individualius konkrečiam klientui skirtus etapų įrašus. Kiekvienas iš šių etapų įrašų gali būti pažymėtas kaip **Parengta išrašyti sąskaitą faktūrą** atskirai nuo šio rodinio. Kai vienas ar daugiau susijusių etapo suskaitymų yra pažymėti kaip **Parengta išrašyti sąskaitą faktūrą**, antraštės būsena pasikeičia iš **Vykdoma** į **Nepradėta**. Kai į sąskaitą faktūrą įtraukiami visi etapo suskaitymai, antraštės etapo būsena tampa **Baigta**.
+Kai kelių klientų sutarties eilutėse taikomas fiksuotos kainos atsiskaitymo metodas, etapas sukuriamas kiekvienam sutarties eilutės klientui. Sukūrus etapą, ji galima išskaidyti į atskirus konkrečiam klientui taikomus etapų įrašus. Šis išskaidymas yra vidinis ir atitinka sąskaitų išrašymo procentinę dalį, apibrėžtą kiekvienam sutarties eilutės klientui. Rodinyje **Fiksuotos kainos etapai** matysite atskirus konkrečiam klientui skirtus etapų įrašus. Kiekvienas iš šių etapų įrašų gali būti pažymėtas kaip **Parengta išrašyti sąskaitą faktūrą** atskirai nuo šio rodinio. Vieno ar kelių susijusių etapų skaidymus pažymėjus kaip **Parengta išrašyti sąskaitą faktūrą**, antraštės būsena iš **Nepradėta** atnaujinama į **Vykdoma**. Išrašius sąskaitas faktūras už visus etapo skaidymus, antraštės etapo būsena atnaujinama į **Atlikta**.
 
-Šiame rodinyje rodomas sąskaitos faktūros juodraščio etapas su atsiskaitymo būsena **Kliento sąskaita faktūra sukurta**. Patvirtinus sąskaitos faktūros juodraštį, šio įrašo atsiskaitymo būsena atnaujinama į **Sąskaita faktūra užregistruota**. Atnaujinant šią būsenos reikšmę nerekomenduojame naudoti pasirinktinio kodo. Jei šios būsenos reikšmės bus atnaujintos naudojant pasirinktinį kodą, „Project Operations“ neveiks tinkamai.
+Šiame rodinyje rodomas sąskaitos faktūros juodraščio etapas su atsiskaitymo būsena **Kliento sąskaita faktūra sukurta**. Patvirtinus sąskaitos faktūros juodraštį, įrašo sąskaitų išrašymo būsena atnaujinama į **Kliento sąskaita faktūra užregistruota**. 
+
+> [!NOTE] 
+> Neatnaujinkite šios būsenos reikšmės naudodami pasirinktinį kodą. Kai šios būsenos reikšmės atnaujinamos naudojant pasirinktinį kodą, „Project Operations“ veikia netinkamai.
 
 ## <a name="time-and-material-billing-backlog"></a>Laiko ir medžiagų atsiskaitymo nebaigtos užduotys
 
-Šiame rodinyje pateikiamas visų neapmokestintų pardavimo faktinių sumų, kurių sąskaita faktūra neišrašyta pagal visas sistemos projekto sutartis, sąrašas. Vieną ar kelias neapmokestinto pardavimo sumas galima pažymėti kaip **Parengta išrašyti sąskaitą faktūrą** arba **Neparengta išrašyti sąskaitos faktūros** iš šio rodinio. Pažymėjus neapmokestinto pardavimo faktines sumas kaip **Parengta išrašyti sąskaitą faktūrą**, jas galima įtraukti į sąskaitą faktūrą.
+Rodinyje **Nebaigtos atsiskaitymo už laiką ir medžiagas užduotys** išvardyti visi pardavimų, už kuriuos neatsiskaityta, faktiniai duomenys, esantys visose sistemos projektų sutartyse, kurioms neišrašyta sąskaita faktūra. Vieną ar kelias neapmokestinto pardavimo sumas galima pažymėti kaip **Parengta išrašyti sąskaitą faktūrą** arba **Neparengta išrašyti sąskaitos faktūros** iš šio rodinio. Pažymėjus neapmokestinto pardavimo faktines sumas kaip **Parengta išrašyti sąskaitą faktūrą**, jas galima įtraukti į sąskaitą faktūrą.
 
-Neapmokestinto pardavimo faktinių sumų, kurių **Neviršytina** būsena yra **Nepavyko**, negalima pažymėti kaip **Parengta išrašyti sąskaitą faktūrą**. Jei šias faktines sumas reikia pažymėti kaip tokias, iš naujo nustatykite kitų patvirtintų faktinių sumų būseną sutarties eilutėje, tada įvertinkite **neviršytiną** būseną.
+Faktinių pardavimo, už kurį neatsiskaityta, duomenų, kurių **Neviršyti** būsena yra **Nepavyko**, negalima pažymėti kaip **Parengta išrašyti sąskaitą faktūrą**. Jei faktinius duomenis reikia pažymėti kaip **Parengta išrašyti sąskaitą faktūrą**, iš naujo nustatykite kitų sutarties eilutėje nurodytų faktinių duomenų, kurie jau pateikti, būseną, tada iš naujo įvertinkite būseną **Neviršyti**.
 
-Jei yra kelių klientų sutarties eilučių, kuriose yra laiko ir medžiagų atsiskaitymo būdas, kai laikas ir išlaidos patvirtinami, kiekvienam klientui pagal sutarties eilutę sukuriamos neapmokestinto pardavimo faktinės sumos pagal sąskaitų išrašymo procentą, nustatytą kiekvienam klientui sutarties eilutėje. Rodinyje **Laiko ir medžiagų atsiskaitymo nebaigtos užduotys** matysite šiuos individualius klientui būdingus neapmokestinto pardavimo faktines sumas. Kiekviena iš šių neapmokestinto pardavimo sumų gali būti pažymėta kaip **Parengta išrašyti sąskaitą faktūrą** atskirai nuo šio rodinio.
+Jei kelių klientų sutarčių eilutėse taikomas atsiskaitymo už laiką ir medžiagas metodas, patvirtinant laiką ir išlaidas, kiekvienam sutarties eilutės klientui pagal sutarties atsiskaitymo procento išskaidymą, apibrėžtą kiekvienam klientui, sukuriamas pardavimo, už kurį neatsiskaityta, duomuo. Rodinyje **Nebaigtos atsiskaitymo už laiką ir medžiagas užduotys** matysite šiuos atskirus konkretiems klientams taikomus pardavimo, už kurį neatsiskaityta, faktinius duomenis. Kiekviena iš šių neapmokestinto pardavimo sumų gali būti pažymėta kaip **Parengta išrašyti sąskaitą faktūrą** atskirai nuo šio rodinio.
 
-Šiame rodinyje rodomos sąskaitos faktūros juodraščio neapmokestinto pardavimo faktinės sumos su **atsiskaitymo būsena** **Kliento sąskaita faktūra sukurta**. Patvirtinus sąskaitos faktūros juodraštį, šio įrašo atsiskaitymo būsena atnaujinama į **Kliento sąskaita faktūra užregistruota**. Atnaujinant šią būsenos reikšmę, kai ji yra šiame etape, nerekomenduojame naudoti pasirinktinio kodo. Jei šios būsenos reikšmės bus atnaujintos naudojant pasirinktinį kodą, „Project Operations“ neveiks tinkamai.
+Šiame rodinyje į juodraštinę sąskaitą faktūrą įtrauktas faktinis pardavimas, už kurį neišrašyta sąskaita, rodomas taikant būseną **Kliento sąskaita faktūra sukurta**. Patvirtinus sąskaitos faktūros juodraštį, šio įrašo atsiskaitymo būsena atnaujinama į **Kliento sąskaita faktūra užregistruota**. 
+
+> [!NOTE] 
+> Neatnaujinkite šios būsenos reikšmės naudodami pasirinktinį kodą. Kai šios būsenos reikšmės atnaujinamos naudojant pasirinktinį kodą, „Project Operations“ veikia netinkamai.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

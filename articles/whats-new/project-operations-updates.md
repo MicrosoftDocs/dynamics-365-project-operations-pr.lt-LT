@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 07ba97377841b1a2d8f96b60a926dc7499e345f1
-ms.sourcegitcommit: 7e39fc1d50681850175428c909755204b08f0a77
+ms.openlocfilehash: 5a1ab3b506ae94bba3a6ca96b164437d3fd3a035
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "5556588"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877545"
 ---
 # <a name="project-operations-updates"></a>„Project Operations“ naujinimai
 
@@ -30,15 +30,17 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 - Projektų valdymas ir apskaita „Dynamics 365 Finance” aplinkoje apima išlaidų valdymo galimybes, projektų apskaitą ir pajamų pripažinimą. Programos „Finance and Operations” aplinka naudojama „Project Operations“, skirtos ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams ir „Project Operations“, skirtos laikomų medžiagų / gamyba pagrįstiems scenarijams.
 
 ## <a name="project-operations-release-notes"></a>„Project Operations“ leidimo pastabos
-- „Project Operations“ naujausio leidimo pastabos, skirtos [ištekliais / atsargose nelaikomomis prekėmis pagrįstiems](whats-new-mar-2021-resource-based.md) scenarijams.
-- „Project Operations“ naujausio leidimo pastabos, skirtos [„Lite“ visuotinio diegimo](../pro/whats-new/whats-new-mar-2021-lite.md) scenarijams.
-- „Project Operations“ naujausio leidimo pastabos, skirtos [išteklių /  gamybos](../prod-pma/whats-new/whats-new-jan-2021-stocked.md) scenarijams.
+- „Project Operations“ naujausio leidimo pastabos, skirtos [ištekliais / atsargose nelaikomomis prekėmis pagrįstiems](whats-new-apr-2021-resource-based.md) scenarijams.
+- „Project Operations“ naujausio leidimo pastabos, skirtos [„Lite“ visuotinio diegimo](../pro/whats-new/whats-new-apr-2021-lite.md) scenarijams.
+- „Project Operations“ naujausio leidimo pastabos, skirtos [išteklių /  gamybos](../prod-pma/whats-new/whats-new-mar-2021-stocked.md) scenarijams.
 
 ## <a name="project-operations-latest-version"></a>„Project Operations” naujausia versija
 
-| „Project Operations“ „Dataverse“ aplinkoje | Projektų valdymas ir apskaita „Finance and Operations” programų aplinkose |
+| „Project Operations“ „Dataverse“ aplinkoje | Projektų valdymas ir apskaita „Finance and Operations” programų aplinkose | 
 | --- | --- |
-| 4.8.0.91 | 10.0.16 |
+| 4.9.0.221 | 10.0.17 |
+
+Naudojant „Project Operations“ išteklių / nelaikomų medžiagų scenarijų, rekomenduojame naudoti dvigubo rašymo tvarkymo 2.2.2.50 arba naujesnę versiją.
 
 ## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>Leidimo grafikas, skirtas „Project Operations” „Dataverse“ aplinkoje
 
@@ -47,23 +49,23 @@ Naujiniai, skirti „Project Operations” „Dataverse“ aplinkoje, yra pasiek
 | Stotis   | Regiono ID        | Dabartinė versija | Kita versija | Visuotinai pasiekiama |
 |-----------|---------------|-----------------|--------------|---------------------|
 | 1 stotis |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | Pirmasis leidimas |  4.8.0.91       | TBD     | 2021 m. balandžio 2 d.           |
+|   &nbsp;  | Pirmasis leidimas |  4.9.0.221       | TBD     | 2021 m. balandžio 23 d.           |
 | 2 stotis |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | Pietų Amerika |  4.8.0.91       | TBD     | 2021 m. balandžio 2 d.           |
-|    &nbsp; | Kanada        |  4.8.0.91       | TBD     | 2021 m. balandžio 2 d.           |
-|   &nbsp;  | Indija         |  4.8.0.91       | TBD     | 2021 m. balandžio 2 d.           |
-|   &nbsp;  | Prancūzija         |  4.8.0.91       | TBD     | 2021 m. balandžio 2 d.           |
-|   &nbsp;  | Jungtiniai Arabų Emyratai         |  4.8.0.91       | TBD     | 2021 m. balandžio 2 d.           |
-|   &nbsp;  | Pietų Afrika         |  4.8.0.91       | TBD     | 2021 m. balandžio 2 d.           |
+|   &nbsp;  | Pietų Amerika |  4.9.0.221       | TBD     | 2021 m. balandžio 23 d.           |
+|    &nbsp; | Kanada        |  4.9.0.221       | TBD     | 2021 m. balandžio 23 d.           |
+|   &nbsp;  | Indija         |  4.9.0.221       | TBD     | 2021 m. balandžio 23 d.           |
+|   &nbsp;  | Prancūzija         |  4.9.0.221       | TBD     | 2021 m. balandžio 23 d.           |
+|   &nbsp;  | Jungtiniai Arabų Emyratai         |  4.9.0.221       | TBD     | 2021 m. balandžio 23 d.           |
+|   &nbsp;  | Pietų Afrika         |  4.9.0.221       | TBD     | 2021 m. balandžio 23 d.           |
 | 3 stotis  |      &nbsp;   |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Japonija         |  4.8.0.91       | TBD     | 2021 m. balandžio 9 d.           |
-|   &nbsp;  | Azijos ir Ramiojo vandenyno regionas  |  4.8.0.91       | TBD     | 2021 m. balandžio 9 d.           |
-|   &nbsp;  | Didžioji Britanija |  4.8.0.91       | TBD     | 2021 m. balandžio 9 d.           |
-|   &nbsp;  | Okeanija       |  4.8.0.91       | TBD     | 2021 m. balandžio 9 d.           |
+|   &nbsp;  | Japonija         |  4.9.0.221       | TBD     | 2021 m. balandžio 30 d.           |
+|   &nbsp;  | Azijos ir Ramiojo vandenyno regionas  |  4.9.0.221       | TBD     | 2021 m. balandžio 30 d.           |
+|   &nbsp;  | Didžioji Britanija |  4.9.0.221       | TBD     | 2021 m. balandžio 30 d.           |
+|   &nbsp;  | Okeanija       |  4.9.0.221       | TBD     | 2021 m. balandžio 30 d.           |
 | 4 stotis |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Europa        |  4.8.0.91       | TBD     | 2021 m. balandžio 16 d.           |
+|   &nbsp;  | Europa        |  4.8.0.92       | 4.9.0.221     | 2021 m. balandžio 16 d.           |
 | 5 stotis |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Šiaurės Amerika |  4.7.0.96       | 4.8.0.91     | 2021 m. kovo 12 d.           |
+|   &nbsp;  | Šiaurės Amerika |  4.8.0.92       | 4.9.0.221     | 2021 m. balandžio 23 d.           |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Projektų valdymo ir apskaitos „Finance and Operations” programų aplinkoje leidimo grafikas
 
@@ -71,16 +73,17 @@ Projektų valdymo ir apskaitos atnaujinimai išleidžiami aštuonis kartus per m
 
 | Palaikomas leidimas | Visuotinai pasiekiama (savaiminis naujinimas) |
 | --- | --- |
+| 10.0.17 | 2021 m. kovo 19 d. |
 | 10.0.16 | 2021 m. sausio 22 d. |
-| 10.0.15 | 2020 m. gruodžio 4 d. |
 
 
 Tikslinės išleidimo datos gali keistis. Daugiau informacijos žr. [Paslaugų atnaujinimo pasiekiamumas](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=/dynamics365/finance/toc.json).
 
 | Tikslinė išleidimo data | Visuotinai pasiekiama (savaiminis naujinimas) |
 | --- | --- |
-| 10.0.17 | 2021 m. kovo 19 d. |
 | 10.0.18 | 2021 m. balandžio 16 mėn. |
+| 10.0.19 | 2021 m. birželio 18 d. |
+| 10.0.20 | 2021 m. liepos 16 d. |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

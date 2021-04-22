@@ -3,17 +3,17 @@ title: Išlaidų savikainos ir pardavimo tarifų nustatymas
 description: Šioje temoje pateikta informacija, kaip nustatyti operacijų ir išlaidų kategorijų išlaidų bei pardavimo tarifus.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ee52daae18c5f9f0b630e54359021fffe1759274
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 34e3c24ae1aa999954af9b347633820d265ac0c3
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274918"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877230"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Išlaidų savikainos ir pardavimo tarifų nustatymas
 
@@ -23,9 +23,10 @@ Operacijų kategorijų išlaidas ir pardavimo kainas galite nustatyti programoje
 
 Norėdami nustatyti operacijų kategorijų savikainos ir pardavimo tarifus, atlikite toliau nurodytus veiksmus. 
 
-1. Sukurkite kainoraštį pagrįstą kainoraščio antrašte. 
-2. Dalies **Kategorijų kainos** papildomo tinklelio meniu pasirinkite **+ Naujos kategorijos kainą**. 
-3. Puslapyje **Spartusis kūrimas** įveskite operacijos kategoriją ir vienetą, kuriam kuriate naują kainą.
+1. Eikite į **Pardavimas** > **Klientai** > **Kainoraščiai**.
+2. Norėdami kurti naują kainoraštį, pasirinkite **Naujas**. 
+3. Dalies **Kategorijų kainos** papildomo tinklelio meniu pasirinkite **Naujos kategorijos kaina**. 
+4. Puslapyje **Spartusis kūrimas** įveskite operacijos kategoriją ir vienetą, kuriam kuriate naują kainą.
 
 Toliau esančioje lentelėje išvardijami laukai skirtuke **Bendra** ir kategorijos kainos eilutės puslapyje **Spartusis kūrimas**, kuriuos turite turėti omenyje kurdami kategorijų kainas pardavimo arba savikainos sąraše.
 

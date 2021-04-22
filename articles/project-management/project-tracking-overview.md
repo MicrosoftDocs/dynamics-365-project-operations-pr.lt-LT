@@ -1,21 +1,21 @@
 ---
-title: Projekto sekimo apžvalga
-description: Šioje temoje pateikta informacija apie tai, kaip sekti projekto eigą ir sąnaudas.
+title: Projekto pastangų sekimas
+description: Šioje temoje pateikta informacija apie tai, kaip sekti projekto pastangas ir darbo eigą.
 author: ruhercul
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 03/22/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 14094d603be2834dc66abff2ff1faf5e940b1ffa
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ead8821c8861ded1e7afd5c192af414f758edef9
+ms.sourcegitcommit: a1f9f92546ab5d8d8e5a4710ce4c96414ea55d14
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286618"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "5710950"
 ---
-# <a name="project-tracking-overview"></a>Projekto sekimo apžvalga
+# <a name="project-effort-tracking"></a>Projekto pastangų sekimas
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
@@ -26,50 +26,28 @@ Poreikis sekti eigą atsižvelgiant į grafiką, priklauso nuo pramonės šakos.
 **Pastangos stebėjimas** rodinys seka užduočių eigą grafike, palygindamas faktines pastangų valandas, praleistas užduočiai, su užduoties suplanuotomis pastangų valandomis. Stebėjimo metrikoms apskaičiuoti „Dynamics 365 Project Operations“ naudoja šias formules:
 
 - **Progreso procentas**: faktinė pastanga iki šios datos ÷ įvertinimas pabaigoje (EAC) 
-- **Įvertinimas užbaigti (ETC)**: planuojamos pastangos – iki šios datos naudotos faktinės pastangos 
+- **Pastangų likutis**: įvertintos pastangos pabaigoje – iki šios datos naudotos faktinės pastangos 
 - **EAC**: likusi pastanga + faktinė pastanga iki šios datos 
 - **Numatomos pastangos nuokrypis**: planuojamos pastangos – EAC
 
 „Projects Operations“ rodoma pastangų nuokrypio projekcija užduočiai. Jei EAC yra didesnis nei planuojamos pastangos, prognozuojama, kad užduotis užtruks ilgiau, nei buvo planuota iš pradžių, ir atsiliekama nuo grafiko. Jei EAC yra mažesnis nei planuojamos pastangos, prognozuojama, kad užduotis užtruks mažiau laiko, nei buvo planuota iš pradžių, ir kad ji įgyvendinama greičiau, nei nurodyta grafike.
 
-## <a name="reprojecting-effort"></a>Pastangų pakartotinė prognozė
+## <a name="reprojecting-effort-on-leaf-node-tasks"></a>Pakartotinė pastangų prognozė lapo mazgo užduotims
 
-Dažnai projektų vadovui reikia peržiūrėti pradines užduoties sąmatas. Projekto pakartotinės prognozės yra projekto vadovo numatyta sąmata, apskaičiuota pagal dabartinę projekto būseną. Tačiau nerekomenduojame, kad projektų vadovai pakeistų pradinius skaičius. Taip yra nes projekto pradinis planas yra publikuotas projekto grafiko ir savikainos įvertinimų, su kuriais sutiko visos projekto suinteresuotosios šalys, šaltinis.
+Dažnai projektų vadovui reikia peržiūrėti pradines užduoties sąmatas. Projekto pakartotinės prognozės yra projekto vadovo numatyta sąmata, apskaičiuota pagal dabartinę projekto būseną. Tačiau nerekomenduojame projektų vadovams keisti planuojamų pastangų skaičių. Taip yra dėl to, kad planuojamos projekto pastangos yra publikuotas projekto grafiko ir savikainos įvertinimų, su kuriais sutiko visos projekto suinteresuotosios šalys, šaltinis.
 
-Projektų vadovas gali iš naujo sukurti užduoties pastangų prognozę dviem būdais:
-
-- Perrašyti numatytuosius ETC nustatymus su nauju užduoties likusių pastangų įvertinimu. 
-- Perrašyti numatytuosius eigos procentais nustatymus su nauju užduoties patikslintos eigos įvertinimu.
-
-Dėl kiekvieno iš šių metodų perskaičiuojamos užduoties ETC, EAC, eiga procentais ir prognozuojamas pastangų užduočiai nuokrypis. Taip pat perskaičiuojamos suvestinių užduočių EAC, ETC bei eiga procentais ir sukuriama nauja pastangų nuokrypio prognozė.
+Projekto vadovas užduotims pakartotinę prognozę gali atlikti atnaujinęs dalies **Pastangų likutis** reikšmę, įvesdamas naują užduoties įvertinimą. Dėl šio naujinimo perskaičiuojamas užduoties įvertinimas pabaigoje (EAC), eiga procentais ir prognozuojamas pastangų užduočiai nuokrypis. Taip pat perskaičiuojamos suvestinių užduočių EAC, ETC bei eiga procentais ir sukuriama nauja pastangų nuokrypio prognozė.
 
 ## <a name="reprojection-of-effort-on-summary-tasks"></a>Pakartotinė pastangų suvestinėms užduotims prognozė
 
-Pastangas suvestinėms užduotims ar talpyklės užduotims galima dar kartą prognozuoti. Neatsižvelgiant į tai, ar vartotojas pakartotinai kurs suvestinių užduočių prognozę pagal likusiais pastangas ar eigą procentais, pradedami vykdyti šie skaičiavimo procesai:
+Pastangas suvestinėms užduotims ar talpyklės užduotims galima dar kartą prognozuoti. Projektų vadovai gali atnaujinti suvestinių užduočių pastangų likutį. Atnaujinus pastangų likutį, programoje suaktyvinamas toliau nurodytas skaičiavimų rinkinys.
 
-- Užduoties EAC, ETC bei eiga procentais apskaičiuojami.
+- Užduoties EAC ir eiga procentais apskaičiuojami.
 - Naujas EAC paskiriamas į antrines užduotis pagal tą pačią proporciją kaip ir pradinis užduoties EAC.
 - Apskaičiuojamas kiekvienos individualios užduoties iki lapo mazgo užduočių naujas EAC. 
-- Paveiktų antrinių užduočių iki lapų mazgų ETC ir eiga procentais perskaičiuojami pagal EAC reikšmę. Taip sukuriama nauja pastangų užduočiai nuokrypio prognozė. 
+- Paveiktų antrinių užduočių iki lapų mazgų pastangų likutis ir eiga procentais perskaičiuojami pagal EAC reikšmę. Taip sukuriama nauja pastangų užduočiai nuokrypio prognozė. 
 - Suvestinių užduočių iki šaknies mazgo EAC perskaičiuojamas.
 
-### <a name="cost-tracking-view"></a>Savikainos sekimo rodinys 
-
-Rodinyje **Savikainos sekimas** lyginama faktinė savikaina užduočiai atlikti su planuojama užduoties savikaina. 
-
-> [!NOTE]
-> Šiame rodinyje rodomos tik darbo savikainos ir nėra įtraukiamos savikainos iš išlaidų įvertinimų. „Project Operations“ naudoja šias formules sekimo metrikoms apskaičiuoti:
-
-- **Sąnaudų procentinė dalis**: iki šios datos išleista faktinė kaina ÷ numatyta užbaigimo kaina
-- **Savikaina užbaigti (CTC)**: planuojama savikaina – iki šios datos naudota savikaina
-- **EAC**: likusi savikaina + iki šios datos naudota faktinė savikaina
-- **Prognozuojamas savikainos nuokrypis**: planuojama savikaina – EAC
-
-Rodoma savikainos nuokrypio užduočiai prognozė. Jei EAC yra daugiau nei planuojama savikaina, užduotis prognozuojama kainuosianti daugiau nei buvo planuota iš pradžių. Todėl biudžetas viršijamas. Jei EAC yra mažiau nei planuojama savikaina, užduotis prognozuojama kainuosianti daugiau nei buvo planuota iš pradžių. Todėl biudžetas nėra viršijamas.
-
-## <a name="project-managers-reprojection-of-cost"></a>Projekto vadovo nauja išlaidų prognozė
-
-Kai pastangos yra prognozuojamos iš naujo, CTC, EAC, sąnaudų procentinė dalis ir prognozuojamas savikainos nuokrypis perskaičiuojami pagal rodinį **Savikainos sekimas**.
 
 ## <a name="project-status-summary"></a>Projekto būsenos suvestinė
 

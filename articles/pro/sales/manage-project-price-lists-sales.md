@@ -1,27 +1,27 @@
 ---
-title: Projektų kainoraščių valdymas projekto pasiūlymuose – „Lite“ versija
-description: Šioje temoje pateikta informacija, kaip dirbti su projektų kainoraščiais pasiūlymuose. („Sales“)
+title: Projektų kainoraščių valdymas projekto pasiūlymuose
+description: Šioje temoje pateikta informacija, kaip dirbti su projektų kainoraščiais pasiūlymuose.
 author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d48da44f382e329a978a8ceee59c354d009f2114
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 912d2fad33ac02c3ba980da7eeb88eef5c331230
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273028"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858618"
 ---
-# <a name="manage-project-price-lists-on-project-quotes---lite"></a>Projektų kainoraščių valdymas projekto pasiūlymuose – „Lite“ versija
+# <a name="manage-project-price-lists-on-project-quotes"></a>Projektų kainoraščių valdymas projekto pasiūlymuose 
 
 _**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
 
 Projektų pasiūlymai yra skirti kelių datų pardavimo kainoraščiams palaikyti. Naudojant „Dynamics 365 Project Operations“ įtraukiamas naujas susietas objektas pavadinimu **Projekto kainoraščiai**. Šis objektas su projekto pasiūlymu turi ryšį nuo 1 iki daugelio.
 
-Projektų kainoraščiai naudojami projekto laikui ir išlaidų operacijoms įkainoti. Kai pasiūlyme yra vienas ar daugiau projekto kainoraščių, šie kainoraščiai naudojami laikui ir išlaidų įvertinimams bei projekto faktiniams duomenims, susietiems su pasiūlymu per pasiūlymo eilutę, įkainoti.
+Projekto kainoraščiai naudojami norint nustatyti kainą už laiką, medžiagą ir išlaidų operacijas. Kai pasiūlyme yra vienas ar keli projekto kainoraščiai, šie kainoraščiai naudojami norint nustatyti kainą už laiką, medžiagą, išlaidų sąmatas ir faktinius duomenis, priklausančius projektams, susietiems su pasiūlymu pasiūlymo eilutėje.
 
 Kai projekto pasiūlyme nėra projektų kainoraščių, gausite įspėjamąjį pranešimą. Pranešime nurodoma, kad dėl to, kad nėra projektų kainoraščių, įvertintas ir faktinis projekto darbas ir išlaidos nebus įkainotos. Vietoje to, jos turės nulinę (0) pardavimo reikšmių kainą.
 

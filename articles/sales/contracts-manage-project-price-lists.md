@@ -3,17 +3,17 @@ title: Projektų kainoraščių valdymas projekto sutartyse
 description: Šioje temoje pateikiama informacija apie projekto kainoraščius projekto sutartyse.
 author: rumant
 manager: Annbe
-ms.date: 10/27/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2cfac6eda64d1d8e578115bba07942a7d786328f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ffc48782394995781535ae56142dc76afeb9a040
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278608"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858573"
 ---
 # <a name="manage-project-price-lists-on-project-contracts"></a>Projektų kainoraščių valdymas projekto sutartyse
 
@@ -21,13 +21,13 @@ _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems s
 
 Projekto sutartys programoje „Dynamics 365 Project Operations“ sukurtos siekiant palaikyti kelis nuo datos priklausančius sutarties pardavimo kainoraščius. Programoje „Project Operations“ yra naujas susietasis objektas, vadinamas **projekto kainoraščiais**. Šis objektas su projekto sutartimi yra susijęs ryšiu „vienas su daugeliu“.
 
-Projektų kainoraščiai naudojami projekto laikui ir išlaidų operacijoms įkainoti. Kai sutartyje yra vienas ar daugiau projekto kainoraščių, šie kainoraščiai naudojami norint nustatyti laiko ir išlaidų sąmatų bei faktinių duomenų projektuose, susijusiuose su sutartimi per sutarties eilutę, kainą.
+Projekto kainoraščiai naudojami norint nustatyti kainą už laiką, medžiagą ir išlaidų operacijas. Kai sutartyje yra vienas ar keli projekto kainoraščiai, šie kainoraščiai naudojami norint nustatyti kainą už laiką, medžiagą, išlaidų sąmatas ir faktinius duomenis, priklausančius projektams, susietiems su sutartimi sutarties eilutėje.
 
-Kai projekto sutartyje projekto kainoraščių nebus, bus rodomas įspėjamasis pranešimas, kad nėra projekto kainoraščių, o jūsų sąmatų, faktinio projekto darbo bei išlaidų kaina nebus nustatyta. Nebus nustatyta pardavimo verčių kaina.
+Kai projekto sutartyje projekto kainoraščių nėra, matysite įspėjamąjį pranešimą, kad nėra projekto kainoraščių, o jūsų užregistruotoms sąmatos, faktiniams projekto darbams, medžiagai ir išlaidoms kaina nebus nustatyta. Nebus nustatyta pardavimo verčių kaina.
 
 ## <a name="associate-or-unassociate-a-project-price-list-on-a-project-contract"></a>Projekto sutarties kainoraščio susiejimas arba atsiejimas
 
-### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-and-expenses"></a>Tam tikro kainoraščio kūrimas arba susiejimas norint įvertinti projektinį darbą ir išlaidas
+### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-material-and-expenses"></a>Konkretaus kainoraščio kūrimas arba susiejimas norint įvertinti projektu pagrįstą darbą, medžiagą ir išlaidas
 
 1. Projekto sutartyje pasirinkite skirtuką **Projekto kainoraščiai**.
 2. Papildomame tinklelyje pasirinkite **+ Įtraukti naują projekto kainoraštį**.
@@ -52,7 +52,7 @@ Kai projekto sutartyje projekto kainoraščių nebus, bus rodomas įspėjamasis 
 
 ## <a name="set-up-automatic-defaulting-of-project-price-lists-on-a-contract"></a>Projekto kainoraščių automatinio nustatymo numatytaisiais sąranka
 
-Projekto kainoraštį sutartyje galima nustatyti kaip numatytąjį. Toks nustatymas gali padėti užtikrinti, kad visos jūsų organizacijos sutartys visada pradėtų naudoti standartinį to kainų laikotarpio kainoraštį.
+Projekto kainoraštį galima nustatyti kaip numatytąjį projekto kainoraštį. Ši sąranka užtikrina, kad visos jūsų organizacijos sutartys visada būtų pradedamos nuo standartinio tam kainų laikotarpiui taikomo kainoraščio.
 
 ### <a name="set-up-the-organizational-default-for-project-price-lists"></a>Projekto numatytojo kainoraščio organizacijoje nustatymas
 

@@ -1,22 +1,22 @@
 ---
-title: Įvertinimų ir faktinių duomenų savikainos nustatymas – „Lite“ versija
-description: Šioje temoje pateikta informacija apie įvertintų ir faktinių savikainų aprašymą.
+title: Projekto įvertinimų ir faktinių duomenų savikainų nustatymas
+description: Šioje temoje pateikiama informacija apie tai, kaip nustatomos projekto įvertinimų ir faktinių duomenų savikainos.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bbb79fdc5c68d67530b5aa34fe6105211eff1768
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9f20631f41c560f1a4047aaaa624fa4e8651c687
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274559"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877275"
 ---
-# <a name="resolve-cost-prices-on-estimates-and-actuals---lite"></a>Įvertinimų ir faktinių duomenų savikainos nustatymas – „Lite“ versija
+# <a name="resolve-cost-prices-on-project-estimates-and-actuals"></a>Projekto įvertinimų ir faktinių duomenų savikainų nustatymas 
 
 _**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
 
@@ -36,6 +36,12 @@ Nustačius savikainų kainoraštį, laukai **Vaidmuo** ir **Išteklių paskirsty
 Išlaidų įvertintos eilutės nurodo pasiūlymo ir sutarties eilutės išlaidų informaciją ir projekto išlaidų įvertintas eilutes.
 
 Nustačius savikainų kainoraštį, sistema naudoja laukų **Kategorija** ir **Vienetas** derinį išlaidų įvertinimo eilutėje, kad būtų atitiktos **Kategorijos kaina** eilutės nustatytame kainoraštyje. Jei sistema suranda kategorijos kainos eilutę, kurios laukų **Kategorija** ir **Vienetas** derinys turi savikainos tarifą, savikainos tarifas bus numatytasis. Jei sistema negali atitikti **Kategorija** ir **Vienetas** reikšmių, arba jei sistema randa sutampančios kategorijos kainos eilutę, tačiau kainodaros būdas nėra **Vieneto kaina**, numatytasis savikainos tarifas bus nulis (0).
+
+## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-material"></a>Savikainos nustatymas Medžiagos faktinių duomenų ir įvertinimo eilutėse
+
+Medžiagos įvertinimo eilutėse nurodoma išsami medžiagos pasiūlymo ir sutarties eilutės informacija ir pateikiamos projekto medžiagos įvertinimo eilutės.
+
+Nustačius savikainos kainoraštį, sistemoje, medžiagos įvertinimo eilutėje, naudojamas laukų **Produktas** ir **Vienetas** derinys, kad **Kainų sąrašo elementai** eilutes būtų galima sugretinti su nustatytu kainoraščiu. Jei sistema aptinka produkto kainos eilutę, kurioje nurodytas laukų **Produktas** ir **Vienetas** derinio savikainos tarifas, šis savikainos tarifas nustatomas kaip numatytasis. Jei sistemoje negalima sugretinti **Produktas** ir **Vienetas** reikšmių arba joje randamas atitinkantis kainų sąrašo elementas, tačiau kainodaros būdas pagrįstas standartine arba dabartine kaina, iš kurių nė viena nėra apibrėžta produkte, vieneto savikainai nustatoma numatytoji nulinė reikšmė.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

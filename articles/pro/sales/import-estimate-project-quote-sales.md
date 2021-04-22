@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f3f18644a51d87cf3bb5b4effba2236eaf3d81a9
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 0aedaa2ec77bb54031fccd0db2872e0aa5fea5e0
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273433"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858258"
 ---
-# <a name="import-estimates-for-a-project-to-a-project-based-quote-line---lite"></a>Projekto įvertinimų importavimas į projektu pagrįstą pasiūlymo eilutę – „Lite“ versija
+# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>Projekto įvertinimų importavimas į projektu pagrįstą pasiūlymo eilutę 
 
-_**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
+_**Taikoma (kam):** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo, „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
 Jei projektas kuriamas prieš pardavimo etapą, galite pažymėti, kad į projektu pagrįstą pasiūlymo eilutę importuotumėte projekto finansinį įvertinimą.
 
@@ -30,7 +30,7 @@ Jei projektas kuriamas prieš pardavimo etapą, galite pažymėti, kad į projek
   - **Vaidmuo** 
   - **Projekto užduotis**
 
-Remiantis jūsų pasirinkimu, kopijuojami visų operacijų klasių, įtrauktų į šią pasiūlymo eilutę, projekto įvertinimai. Norėdami patikrinti, kokios operacijų klasės įtrauktos, pasirinkite skirtuką **Bendra**, esantį projektu pagrįstoje pasiūlymo eilutėje, ir patikrinkite reikšmes parinktyse **Įtraukti laiką**, **Įtraukti išlaidas** ir **Įtraukti mokesčius**.  Jei norite patikrinti, kokios užduotys įtrauktos, pasirinkite skirtuką **Apmokestinama užduotis** pasiūlymo eilutėje.
+Remiantis jūsų pasirinkimu, kopijuojami visų operacijų klasių, įtrauktų į šią pasiūlymo eilutę, projekto įvertinimai. Norėdami patikrinti, kokios operacijos klasės įtrauktos, projektu pagrįsto pasiūlymo eilutėje pasirinkite skirtuką **Bendra** ir patikrinkite **Įtraukti laiką**, **Įtraukti išlaidas**, **Įtraukti medžiagas** ir **Įtraukti mokesčius** reikšmes.  Jei norite patikrinti, kokios užduotys įtrauktos, pasirinkite skirtuką **Apmokestinama užduotis** pasiūlymo eilutėje.
 
 Atsižvelgiant į susietas užduotis ir įtrauktas operacijų klases, tų užduočių ir operacijų klasių derinių įvertinimai importuojami į pasiūlymo eilutę.
 

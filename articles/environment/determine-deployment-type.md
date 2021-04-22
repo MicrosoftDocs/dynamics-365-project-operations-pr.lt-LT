@@ -3,17 +3,17 @@ title: Visuotinio diegimo tipo nustatymas
 description: Šioje temoje pateikta informacija padės jums nustatyti teisingą visuotinio diegimo tipą, skirtą jūsų įmonės „Project Operations“.
 author: stsporen
 manager: Annbe
-ms.date: 11/05/2020
+ms.date: 03/15/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
-ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
+ms.openlocfilehash: 715b117cae5418fc743ea870772278450fff5ae9
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5479574"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5663604"
 ---
 # <a name="determine-your-deployment-type"></a>Visuotinio diegimo tipo nustatymas
 
@@ -44,9 +44,9 @@ Mūsų [Vsuotinio diegimo klausimynas](https://aka.ms/provisionprojectoperations
 - [„Project Operations“, skirta išteklių / nelaikomų medžiagų scenarijams](#integrated)
 - [„Project Operations“, skirta laikomų medžiagų / gamybos užsakymo scenarijams](#pma)
 
-„Project Operations“ palaiko laikomų medžiagų / gamybos užsakymo scenarijus ir nelaikomų medžiagų / ištekliais pagrįstus scenarijus toje pačioje aplinkoje, naudojant juridinio objekto lygio konfigūracijas. Pavyzdžiui, „Contoso“ gali naudoti savo JAV gamybos patalpų (juridinis subjektas = „Contoso Manufacturing United States“) laikomas / gamybos užsakymo galimybes. „Contoso“ gali naudoti nelaikomas / ištekliais pagrįstas galimybes savo „Contoso Robotics Arms“ techninės priežiūros patalpose JK (juridinis objektas = „Contoso Robotics United Kingdom“).
+„Project Operations“ palaiko laikomų medžiagų / gamybos užsakymo scenarijus ir nelaikomų medžiagų / ištekliais pagrįstus scenarijus toje pačioje aplinkoje, naudojant juridinio objekto lygio konfigūracijas. Pavyzdžiui, „Contoso“ gali išnaudoti laikomų / gamybos užsakymų galimybes savo JAV gamybos įstaigoje (juridinis objektas = „Contoso Manufacturing United States“). „Contoso“ gali išnaudoti ne atsargomis / ištekliais pagrįstas galimybes savo „Contoso Robotics Arms“ aptarnavimo įstaigoje, Jungtinėje Karalystėje (juridinis objektas = „Contoso Robotics United Kingdom“).
 
-### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Supaprastinta įdiegtis – sandoris į išankstinės sąskaitos faktūros formą
+### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>„Lite“ visuotinis diegimas – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo
 
 „Lite“ visuotinis diegimas turi šias galimybes:
 
@@ -56,7 +56,7 @@ Mūsų [Vsuotinio diegimo klausimynas](https://aka.ms/provisionprojectoperations
 - Vieningasis išteklių valdymas
 - Laiko sekimas
 - Pagrindinės išlaidos
-- „Proforma“ ir klientams prieinamos sąskaitos faktūros 
+- Išankstinių sąskaitų faktūrų išrašymas projektų vadovui peržiūrėti ir redaguoti 
 
 #### <a name="deployment-steps"></a>Visuotinio diegimo veiksmai
 Nustatykite geriausią „Project Operations“ visuotinio diegimo modelį naudodami [Visuotinio diegimo klausimyną](https://aka.ms/provisionprojectoperations).
@@ -91,10 +91,10 @@ Nustatykite geriausią „Project Operations“ visuotinio diegimo modelį naudo
 - Laiko sekimas
 - Visos išlaidos
 - OCR kvitas
-- Pilnas SF išrašymas
+- Visiškas SF išrašymas
 - Pajamų pripažinimas
 - Gamybos užsakymai
-- Medžiagų palaikymas
+- Sandėliuojamų medžiagų palaikymas ir atsargos
 
 #### <a name="deployment-steps"></a>Visuotinio diegimo veiksmai
 Nustatykite geriausią „Project Operations“ visuotinio diegimo modelį naudodami [Visuotinio diegimo klausimyną](https://aka.ms/provisionprojectoperations).

@@ -1,26 +1,26 @@
 ---
-title: „Proforma“ sąskaitos faktūros patvirtinimas – „Lite“ versija
-description: Šioje temoje pateikta informacija, kaip patvirtinti išankstines sąskaitas faktūras programoje „Project Operations“.
+title: Išankstinės projekto sąskaitos faktūros patvirtinimas
+description: Šioje temoje pateikiama informacija apie išankstinių projektu pagrįstų sąskaitų faktūrų patvirtinimą „Project Operations“.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3b1818f20a0d54848939b689f87986154943c57a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 144c1b6a49951af8be0c619f41808e7617e59c92
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274288"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5867096"
 ---
-# <a name="confirm-a-proforma-invoice---lite"></a>„Proforma“ sąskaitos faktūros patvirtinimas – „Lite“ versija
+# <a name="confirm-a-proforma-project-invoice"></a>Išankstinės projekto sąskaitos faktūros patvirtinimas 
 
 _**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
 
 
-Patvirtinus išankstinę sąskaitą faktūrą, projekto sąskaitos faktūros būsena atnaujinama į **Patvirtinta**. Patvirtinus sąskaitą faktūrą, ji tampa tik skaitoma. Ateityje sąskaitą faktūrą galima pataisyti tik tuo atveju, jei yra klientų inicijuotų pataisymų ar kreditų arba jei sąskaita faktūra pažymėta kaip apmokėta.
+Patvirtinus išankstinę sąskaitą faktūrą, projekto sąskaitos faktūros būsena atnaujinama į **Patvirtinta**. Patvirtinus sąskaitą faktūrą, ji tampa tik skaitoma. Ateityje sąskaitą faktūrą bus galima pakoreguoti tik tada, jei bus kliento pradėtų taisymų arba kreditų.
 
 Šioje lentelėje išvardyti sistemos sukurtos faktiniai duomenys. Šie faktiniai duomenys kuriami tuo metu, kai prieš patvirtinant atliekamos tam tikros operacijos projekto sąskaitos faktūros juodraštyje.
 
@@ -225,6 +225,70 @@ Neapmokestinto pardavimo kiekio ir sumos anuliavimas pradiniame išlaidų patvir
             <td width="408" valign="top">
                 <p>
 Nauja faktinė pardavimo suma, už kurią sąskaita faktūra neišrašyta ir kuri yra mokama už kiekį bei sumą redaguotoje sąskaitos faktūros eilučių informacijoje, taip pat – neapmokestintos faktinės pardavimo sumos anuliavimas ir lygiavertė faktinė pardavimo suma, už kurią sąskaita faktūra išrašyta. 
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Sąskaitų faktūrų už medžiagų operacijas išrašymas neredagavus juodraštinės sąskaitos faktūros.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Pardavimo, už kurį neišrašyta sąskaita, atšaukimas pagal pradiniame medžiagos naudojimo patvirtinime nurodytą kiekį ir sumą.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Faktinis pardavimas, už kurį išrašyta sąskaita, pagal pradiniame medžiagos naudojimo patvirtinime nurodytą kiekį ir sumą.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+Redaguotų siekiant sumažinti kiekį sąskaitų faktūrų už medžiagų operacijas išrašymas.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Pardavimo, už kurį neišrašyta sąskaita, atšaukimas pagal pradiniame laiko patvirtinime nurodytą kiekį ir sumą.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Nauja faktinė pardavimo suma, už kurią sąskaita faktūra neišrašyta ir kuri yra mokama už kiekį bei sumą redaguotoje sąskaitos faktūros eilučių informacijoje, taip pat – neapmokestintos faktinės pardavimo sumos anuliavimas ir lygiavertė faktinė pardavimo suma, už kurią sąskaita faktūra išrašyta.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Nauja faktinė pardavimo suma, už kurią sąskaita faktūra neišrašyta ir kuri nėra mokama už likusį kiekį bei sumą, redaguotoje sąskaitos faktūros eilučių informacijoje atėmus pataisytas sumas, taip pat – neapmokestintos faktinės pardavimo sumos anuliavimas ir lygiavertė faktinė pardavimo suma, už kurią sąskaita faktūra išrašyta.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Redaguotų siekiant padidinti kiekį sąskaitų faktūrų už medžiagų operacijas išrašymas.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Pardavimo, už kurį neišrašyta sąskaita, atšaukimas pagal pradiniame medžiagos naudojimo patvirtinime nurodytą kiekį ir sumą.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Nauja faktinė pardavimo suma, už kurią sąskaita faktūra neišrašyta ir kuri yra mokama už kiekį bei sumą redaguotoje sąskaitos faktūros eilučių informacijoje, taip pat – neapmokestintos faktinės pardavimo sumos anuliavimas ir lygiavertė faktinė pardavimo suma, už kurią sąskaita faktūra išrašyta.
                 </p>
             </td>
         </tr>

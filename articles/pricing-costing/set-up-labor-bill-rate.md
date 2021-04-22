@@ -3,17 +3,17 @@ title: Darbo sąskaitų tarifų nustatymas
 description: Šioje temoje pateikta informacija, kaip nustatyti atsiskaitymo už darbą tarifus naudojant „Project Operations“.
 author: rumant
 manager: Annbe
-ms.date: 10/16/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b4d09f4bf6788f93c028f084965faa6aac41a22d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f0267fce673bbd0080022a8abf2dd0020cc8b662
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274828"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877410"
 ---
 # <a name="set-up-labor-bill-rates"></a>Darbo sąskaitų tarifų sąranka
 
@@ -21,8 +21,8 @@ _ **Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikom
 
 Kiekviename kainoraštyje yra galiojančių vaidmenų kainų arba darbo tarifų rinkinys ir galiojimo data, įtraukta į kainoraščio antraštę. Sąskaitų tarifai už laiką programoje „Dynamics 365 Project Operations“ gali būti nustatyti tik viena valiuta, kuri yra nurodyta kainoraščio antraštėje.
 
-1. Jei norite nustatyti pardavimo kainoraščio darbo sąskaitų tarifus, sukurkite kainoraštį pagal kainoraščio antraštę. 
-2. Skirtuke **Vaidmenų kainos**, papildomame tinklelyje, pasirinkite **+ Naujo vaidmens kaina**. 
+1. Norėdami nustatyti pardavimo kainoraščio sąskaitų tarifus, eikite į **Pardavimas** > **Klientai** > **Kainoraščiai** ir pasirinkite **Naujas**, kad sukurtumėte naują kainoraštį. 
+2. Skirtuke **Vaidmenų kainos**, papildomame tinklelyje, pasirinkite **Naujo vaidmens kaina**. 
 3. **Sparčiojo kūrimo** srityje įveskite vaidmens ir organizacijos vieneto derinį, kuriam norite nustatyti sąskaitos tarifą.
 
    Toliau esančioje lentelėje yra laukai skirtuke **Bendra** ir vaidmens kainos eilutės **Sparčiojo kūrimo** sritis, kuriuos reikia turėti omenyje kuriant vaidmenų kainas pardavimo kainoraštyje:

@@ -3,19 +3,19 @@ title: Avansinis mokėjimas
 description: Šioje temoje pateikta informacija apie avansinius mokėjimus.
 author: suvaidya
 manager: AnnBe
-ms.date: 02/01/2021
+ms.date: 03/25/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6da50ac5611fcbd54aef8d8591ee112200468177
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5ac8956720deac9e9c9191cefb870a7fbbeedcca
+ms.sourcegitcommit: 9ebf7dd501898053bfa824f732adabf3f273613b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276718"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "5715570"
 ---
 # <a name="cash-advance"></a>Avansinis mokėjimas
 
@@ -60,7 +60,22 @@ Vadovai arba vartotojai, darbo eigoje sukonfigūruoti kaip tvirtintojai, galės 
 
 Kai kuriate ir pateikiate jau gauto avansinio mokėjimo išlaidų ataskaitą, išlaidos bus automatiškai pakoreguotos pagal tą avansą. Jei jūsų avansinis mokėjimas yra didesnis nei išlaidų suma, turite grąžinti likutį įmonei naudodami išlaidų kategoriją **Grąžinti mokėjimą**. Jei įmonės sumokėtas avansinis mokėjimas yra mažesnis nei sumą, kurią išleidote, įmonė turi jums kompensuoti likutį. 
 
-### <a name="example"></a>Pavyzdžiui
+### <a name="select-cash-advances-that-apply-to-your-expenses"></a>Avansinių mokėjimų, kurie taikomi jūsų išlaidoms, pasirinkimas
+Prieš pateikdami išlaidų ataskaitą, galite pasirinkti ataskaitos išlaidų operacijas atitinkantį avansinį mokėjimą. Norint naudotis šia funkcija, darbo srityje **Funkcijų valdymas** reikia įjungti dvi toliau nurodytas funkcijas.
+
+  - Išlaidų ataskaitų pertvarkymas
+  - Galimybė susieti avansinius mokėjimus su išlaidų eilutėmis
+ 
+ Įgalinę šias funkcijas galite atlikti toliau nurodytus veiksmus.
+ 
+  - Kiekvienai išlaidų eilutei galite įtraukti vieną ar daugiau avansinių mokėjimų.
+  - Įrašius išlaidų ataskaitą, galimas avansinio mokėjimo likutis rodomas realiuoju laiku. Tai leidžia vienu metu apdoroti išlaidų operacijas ir grąžinti grynųjų pinigų operaciją.
+  - Vienai išlaidų eilutei galite parinkti keletą avansinių mokėjimų.
+  - Naudojant užklausą galima peržiūrėti avansinio mokėjimo suderinimo duomenis. 
+ 
+Jei šiomis funkcijomis nesinaudosite, funkcijos išliks tokios pačios, o pateikus išlaidas esami avansiniai mokėjimai automatiškai sumažinti.
+
+### <a name="example"></a>Pavyzdžiui 
 Planuojate keliauti iš Sietlo į Niujorką į konferenciją. Sukūriate avansinio mokėjimo užklausą 3000.00 JAV dolerių pagal numatomas konferencijos bilieto, skrydžių, viešbučio, maitinimo ir taksi išlaidas. Jums nebus sumokėta, kol jūsų vadovas nepatvirtins šios užklausos. Kai jūsų vadovas patvirtina, pageidaujamas avansinis mokėjimas bus išmokėtas kaip 3000.00 JAV dolerių į jūsų banko sąskaitą. Tada dalyvausite konferencijoje. Po kelionės pamatote, kad visos išlaidos buvo tik 2790.00 JAV dolerių. Lauke **Mokėjimo būdas** pasirinkite **Grynieji pinigai** ir pateikite išlaidų sumą, kuri yra 2790.00 JAV dolerių. Jūsų pateikta išlaidų suma automatiškai koreguojama pagal 3000.00 JAV dolerių avansinį mokėjimą, kuris buvo jums paskolintas. Dabar esate skolingi 210.00 JAV dolerių (3000.00 – 2790.00) likutį, kurį galite grąžinti įmonei naudodami išlaidų kategoriją **Gražinti pinigus**.
 
 

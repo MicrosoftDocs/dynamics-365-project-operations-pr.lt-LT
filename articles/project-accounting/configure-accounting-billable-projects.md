@@ -3,17 +3,17 @@ title: Apmokėtinų projektų apskaitos konfigūravimas
 description: Šioje temoje pateikta informacija apie apmokėtinų projektų apskaitos galimybes.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4398ef44d4211a2921270bebe38fc92f18503854
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 629e3fc2f9069d104d459d0b4a6fa46c37f5c6f2
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287653"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858663"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Apmokėtinų projektų apskaitos konfigūravimas
 
@@ -58,13 +58,25 @@ Atlikite toliau nurodytus veiksmus, kad sukurtumėte naują projekto išlaidų i
 
          - **Balansas**: publikuojant „Project Operations“ integravimo žurnalą, išlaidų operacijos kaina bus nurašyta nuo DK sąskaitos tipo *NG – išlaidų reikšmė*, kaip nurodyta skirtuke **Išlaidos**, esančiame puslapyje **DK publikavimo nustatymai** ir sumokama į žurnalo eilutės korespondentinę sąskaitą. Numatytosios korespondentinės išlaidų sąskaitos apibrėžiamos **Projektų valdymas ir apskaita** > **Nustatymai**\>**Publikavimas**\>**Numatytoji korespondentinė išlaidų sąskaitą**. Apskaitininkas naudos funkciją **Publikavimo išlaidos**, kad periodiškai perkeltų šias išlaidas iš balanso sąskaitos į pelno ir nuostolių sąskaitą.
         - **Pelnas ir nuostoliai**: publikuojant „Project Operations“ integravimo žurnalą, išlaidų operacijos kaina bus nurašyta nuo DK sąskaitos tipo *Išlaidos*, kaip nurodyta skirtuke **Išlaidos**, esančiame puslapyje **DK publikavimo nustatymai** ir sumokama į žurnalo eilutės korespondentinę sąskaitą. Numatytosios korespondentinės išlaidų sąskaitos apibrėžiamos **Projektų valdymas ir apskaita**\>**Nustatymai**\>**Publikavimas**\>**Numatytoji korespondentinė išlaidų sąskaita**.
+      
+    - **Registruoti sąnaudas – prekė**:
+
+         - **Balansas**: registruojant „Project Operations“ integravimo žurnalą, operacijos už prekę savikaina bus nurašoma į didžiosios knygos sąskaitos tipą *Vykdomo projekto skaičiavimas – Savikainos reikšmė – prekė* taip, kaip apibrėžta skirtuke **Savikaina**, esančiame puslapyje **DK publikavimo sąranka**, ir sumokama taip, kaip nurodyta toliau.
+    
+              - Naudojimas pagal dokumento tipą: sąskaita **Savikaina – prekė**, esanti dalyje **DK publikavimo sąranka**.  
+              - Pirkimas pagal dokumento tipą: **Viešųjų pirkimų integravimo sąskaita**, esanti dalyje **Projektų valdymo ir apskaitos parametrai**.
+           Apskaitininkas naudos funkciją **Publikavimo išlaidos**, kad periodiškai perkeltų šias išlaidas iš balanso sąskaitos į pelno ir nuostolių sąskaitą.
+        - **Pelnas ir nuostolis**: registruojant „Project Operations“ integravimo žurnalą, operacijos už prekę savikaina bus nurašoma į didžiosios knygos sąskaitos tipą *Savikaina* taip, kaip apibrėžta skirtuke **Savikaina**, esančiame puslapyje **DK publikavimo sąranka**, ir sumokama taip, kaip nurodyta toliau.
+         
+             - Naudojimas pagal dokumento tipą: sąskaita **Savikaina – prekė**, esanti dalyje **DK publikavimo sąranka**.  
+             - Pirkimas pagal dokumento tipą: **Viešųjų pirkimų integravimo sąskaita**, esanti dalyje **Projektų valdymo ir apskaitos parametrai**.
        
     - **Kliento sąskaitų faktūrų išrašymas**:
 
         - **Balansas**: publikuojant projekto sąskaitos faktūros pasiūlymą, kliento operacija (atsiskaitymo gairė) bus sumokama į DK sąskaitos tipą *NG, už kurį išrašyta SF – klientas*, kaip nurodyta skirtuke **Pajamos**, esančiame puslapyje **DK publikavimo nustatymai** ir bus nurašyta iš Kliento balanso sąskaitos.
          - **Pelnas ir nuostoliai**: publikuojant projekto sąskaitos faktūros pasiūlymą, kliento operacija (atsiskaitymo gairė) bus sumokama į DK sąskaitos tipą *Pajamos, už kurias išrašyta SF – klientas*, kaip nurodyta skirtuke **Pajamos**, esančiame puslapyje **DK publikavimo nustatymai** ir bus nurašyta iš Kliento balanso sąskaitos. Klientų balanso sąskaitos apibrėžiamos **Gautinos sumos**\>**Nustatymai**\>**Klientų publikavimo profiliai**.
 
-   Kai apibrėžiate laiko ir medžiagų apmokėjimo būdų publikavimo profilius, galite pasirinkti sukaupti pajamų pagal operacijos tipą (valandos, išlaidų ir mokesčio). Jei parinktis **Sukaupti pajamas** nustatyta į **Taip**, „Project Operations“ integravimo žurnale esančios pardavimų operacijos, už kurias neišrašyta sąskaita, bus įrašytos į DK. Pardavimų reikšmė nurašoma iš **NG – pardavimų reikšmės sąskaita** ir sumokama į **Sukauptos pajamos – pardavimų reikšmė** sąskaitą, kuri buvo nustatyta puslapyje **DK publikavimo nustatymai**, esančiame skirtuke **Pajamos**. 
+   Apibrėžę atsiskaitymo už laiką ir medžiagą būdų skelbimo profilius, galite pasirinkti kaupti pajamas pagal operacijos tipą (valandą, išlaidas, prekę ir mokestį). Jei parinktis **Sukaupti pajamas** nustatyta į **Taip**, „Project Operations“ integravimo žurnale esančios pardavimų operacijos, už kurias neišrašyta sąskaita, bus įrašytos į DK. Pardavimų reikšmė nurašoma iš **NG – pardavimų reikšmės sąskaita** ir sumokama į **Sukauptos pajamos – pardavimo reikšmė** sąskaitą, kuri buvo nustatyta puslapyje **DK publikavimo sąranka**, esančiame skirtuke **Pajamos**. 
   
   > [!NOTE]
   > Parinktį **Kaupti pajamas** galima naudoti tik tada, kai atitinkamas operacijų tipas **Išlaidos** publikuojamos pelno ir nuostolių sąskaitoje.

@@ -3,7 +3,7 @@ title: Faktiniai duomenys
 description: Šioje temoje pateikiama informacija apie tai, kaip dirbti su faktiniais duomenimis programoje „Microsoft Dynamics 365 Project Operations“.
 author: rumant
 manager: AnnBe
-ms.date: 09/16/2020
+ms.date: 04/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -16,18 +16,18 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6a94bd143b0d0dad2a08511a34e592a057b6d2a1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 304c51a4e502ad6ecec1fd821e98d6604ddd59ba
+ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291809"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5852554"
 ---
 # <a name="actuals"></a>Faktiniai duomenys 
 
-_**Taikoma:** „Project Operations“, skirtai išteklių / ne atsargomis pagrįstiems scenarijams_
+_**Taikoma kam:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniam diegimui – išankstinėms sąskaitoms faktūroms išrašyti_
 
-Faktiniai duomenys yra projekto užbaigto darbo kiekis. Jie sukuriami pagal laiko ir išlaidų įrašų, žurnalo įrašų ir sąskaitų faktūrų rezultatus.
+Faktinių duomenų srityje pateikiama projekto peržiūrėta ir patvirtinta finansinė bei grafiko eiga. Jie kuriami patvirtinus laiką, išlaidas, medžiagos naudojimo įrašus, žurnalų įrašus ir sąskaitas faktūras.
 
 ## <a name="journal-lines-and-time-submission"></a>Žurnalo eilutės ir laiko pateikimas
 
@@ -45,7 +45,7 @@ Kai teikiamas laiko įrašas susiejamas su projektu, kuris susietas su fiksuotos
 
 Numatytųjų kainų kūrimo logika yra žurnalo eilutėje. Laiko įrašo lauko reikšmės kopijuojamos į žurnalo eilutę. Šiose reikšmėse nurodoma operacijos data, sutarties eilutė, su kuria susietas projektas, ir valiuta iš atitinkamo kainoraščio.
 
-Laukai, turintys įtakos numatytąjai kainodarai, pvz., **Vaidmuo** ir **Organizacinis vienetas**, naudojami atitinkamai žurnalo eilutės kainai nustatyti. Į laiko įrašą galite įtraukti pasirinktinį lauką. Jei norite, kad lauko reikšmė būtų perkelta į faktinius duomenis, sukurkite lauką faktinių duomenų objekte ir naudokite lauko susiejimus norėdami kopijuoti lauką iš laiko įrašo į faktinius duomenis.
+Laukai, turintys įtakos numatytajai kainodarai, pvz., **Vaidmuo** ir **Išteklių paskirstymo vienetas**, naudojami norint nustatyti atitinkamą kainą žurnalo eilutėje. Į laiko įrašą galite įtraukti pasirinktinį lauką. Jei norite, kad lauko reikšmė būtų užpildoma faktiniais duomenimis, sukurkite lauką lentelėse **Faktiniai duomenys** ir **Žurnalo eilutė**. Naudokite pasirinktinį kodą ir užpildykite pasirinktą faktinių duomenų laiko įrašą per žurnalo eilutę naudodami operacijos kilmę. Norėdami gauti daugiau informacijos apie operacijų kilmę ir ryšius, žr. [Faktinių duomenų susiejimas su pradiniais įrašais](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
 
 ## <a name="journal-lines-and-basic-expense-submission"></a>Žurnalo eilutės ir pagrindinių išlaidų pateikimas
 
@@ -57,24 +57,42 @@ Kai teikiamas pagrindinių išlaidų įrašas susiejamas su projektu, kuris susi
 
 ### <a name="fixed-price"></a>Fiksuota kaina
 
-Kai teikiamas pagrindinių išlaidų įrašas susiejamas su projektu, kuris susietas su fiksuotos kainos sutarties eilute, sistema sukuria vieną žurnalo eilutę už sąnaudas.
+Kai pateiktas pagrindinis išlaidų įrašas susiejamas su projektu, susietu su fiksuotos kainos sutarties eilute, sistemoje sukuriama viena žurnalo eilutė išlaidoms.
 
 ### <a name="default-pricing"></a>Numatytoji kainodara
 
-Numatytųjų išlaidų kainų įvedimo logika priklauso nuo išlaidų kategorijos. Operacijos data, sutarties eilutė, su kuria susietas projektas, ir valiuta kartu naudojami, kad nustatyti atitinkamą kainoraštį. Tačiau, pagal numatytuosius nustatymus, pačiai kainai įvedama suma yra nustatoma tiesiogiai ant susijusių išlaidų žurnalo eilučių, skirtų savikainai ir pardavimams.
+Numatytųjų išlaidų kainų įvedimo logika priklauso nuo išlaidų kategorijos. Operacijos data, sutarties eilutė, su kuria susietas projektas, ir valiuta kartu naudojami norint nustatyti atitinkamą kainoraštį. Laukai, turintys įtakos numatytajai kainodarai, pvz., **Operacijos kategorija** ir **Vienetas**, naudojami norint nustatyti atitinkamą kainą žurnalo eilutėje. Tačiau tai pasitarnauja tik tada, kai kainodaros būdas kainoraštyje yra **Vieneto kaina**. Jei kainodaros būdas yra **Savikaina** arba **Antkainis prie savikainos**, kaina, įvedama sukūrus išlaidų įrašą, naudojama savikainai, o kaina pardavimo žurnalo eilutėje apskaičiuojama pagal kainodaros būdą. 
 
-Kategorija paremti numatytųjų vieneto kainų įrašai išlaidų įrašuose negalimi.
+Išlaidų įrašo dalyje galite įtraukti pasirinktinį lauką. Jei norite, kad lauko reikšmė būtų užpildoma faktiniais duomenimis, sukurkite lauką lentelėse **Faktiniai duomenys** ir **Žurnalo eilutė**. Naudokite pasirinktinį kodą ir užpildykite pasirinktą faktinių duomenų laiko įrašą per žurnalo eilutę naudodami operacijos kilmę. Norėdami gauti daugiau informacijos apie operacijų kilmę ir ryšius, žr. [Faktinių duomenų susiejimas su pradiniais įrašais](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
+
+## <a name="journal-lines-and-material-usage-log-submission"></a>Žurnalo eilutės ir medžiagos naudojimo žurnalo pateikimas
+
+Daugiau informacijos apie išlaidų įrašą žr. [Medžiagos naudojimo žurnalas](../material/material-usage-log.md).
+
+### <a name="time-and-materials"></a>Laikas ir medžiagos
+
+Kai pateiktas medžiagos naudojimo žurnalo įrašas susiejamas su projektu, kuris susietas su laiko ir medžiagos sutarties eilute, sistemoje sukuriamos dvi žurnalo eilutės – viena išlaidoms, o kita – pardavimui, už kurį neišrašyta sąskaita.
+
+### <a name="fixed-price"></a>Fiksuota kaina
+
+Kai pateiktas medžiagos naudojimo žurnalo įrašas susiejamas su projektu, susietu su fiksuotos kainos sutarties eilute, sistemoje sukuriama viena žurnalo eilutė išlaidoms.
+
+### <a name="default-pricing"></a>Numatytoji kainodara
+
+Medžiagos numatytųjų kainų įvedimo logika pagrįsta produkto ir vieneto deriniu. Operacijos data, sutarties eilutė, su kuria susietas projektas, ir valiuta kartu naudojami norint nustatyti atitinkamą kainoraštį. Laukai, turintys įtakos numatytajai kainodarai, pvz., **Produkto ID** ir **Vienetas**, naudojami norint nustatyti atitinkamą kainą žurnalo eilutėje. Tačiau tai pasitarnauja tik katalogo produktų atveju. Įtraukiamųjų produktų atveju, kaina, įvesta sukūrus medžiagos naudojimo žurnalo įrašą, naudojama išlaidoms ir pardavimo kainai žurnalo eilutėse įvesti. 
+
+Išlaidų įrašo dalyje **Medžiagos naudojimo žurnalas** galite įtraukti pasirinktinį lauką. Jei norite, kad lauko reikšmė būtų užpildoma faktiniais duomenimis, sukurkite lauką lentelėse **Faktiniai duomenys** ir **Žurnalo eilutė**. Naudokite pasirinktinį kodą ir užpildykite pasirinktą faktinių duomenų laiko įrašą per žurnalo eilutę naudodami operacijos kilmę. Norėdami gauti daugiau informacijos apie operacijų kilmę ir ryšius, žr. [Faktinių duomenų susiejimas su pradiniais įrašais](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
 
 ## <a name="use-entry-journals-to-record-costs"></a>Įrašų žurnalų naudojimas išlaidoms įrašyti
 
 Galite naudoti įrašų žurnalus, kad įrašytumėte savikainą ar pajamas medžiagos, mokesčio, laiko, išlaidų ar mokesčių operacijų klasėms. Žurnalus galima naudoti šiems tikslams:
 
-- Įrašyti faktines projekto medžiagų ir pardavimų išlaidas.
 - Operacijų faktinius duomenis perkelkite iš kitos sistemos į „Microsoft Dynamics 365 Project Operations“.
 - Įrašyti išlaidas, atsiradusias kitoje sistemoje. Šios išlaidos gali apimti viešuosius pirkimus arba subrangos išlaidas.
 
 > [!IMPORTANT]
 > Programa nepatvirtina žurnalo eilutės tipo arba susijusios kainos, įvestos žurnalo eilutėje. Todėl tik vartotojas, gerai žinantis kokį apskaitos poveikį faktiniai duomenys turi projektui, gali naudoti įrašų žurnalus faktiniams duomenis kurti. Dėl šio žurnalo tipo poveikio reikia atidžiai pasirinkti, kas turi prieigą prie įrašų žurnalų kūrimo.
+
 ## <a name="record-actuals-based-on-project-events"></a>Faktinių duomenų įrašymas pagal projekto įvykius
 
 „Project Operations“ įrašo projekto metu vykdomas finansines operacijas. Šios operacijos įrašomos kaip faktiniai duomenys. Toliau pateikiamose lentelėse rodomi skirtingi faktinių duomenų tipai, kurie sukuriami, atsižvelgiant į tai, ar projektas yra laiko ir medžiagų, ar fiksuotos kainos projektas, yra paruošiamųjų darbų prieš parduodant etape, arba yra vidinis projektas.

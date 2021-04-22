@@ -1,23 +1,23 @@
 ---
-title: Pasiūlymo eilutės apmokestinamųjų komponentų konfigūravimas – „Lite“ versija
+title: Pasiūlymo eilutės apmokestinamų komponentų konfigūravimas
 description: Šioje temoje pateikta informacija apie apmokestinamų ir neapmokestinamų komponentų nustatymą projektais pagrįsto pasiūlymo eilutėje.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0e293587adf15d0523bef6b7e688fdc883aba0fa
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1a9e1851bd8c5a4070df2774c945d1f3eabaaa8a
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273883"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858303"
 ---
-# <a name="configure-the-chargeable-components-of-a-quote-line---lite"></a>Pasiūlymo eilutės apmokestinamųjų komponentų konfigūravimas – „Lite“ versija
+# <a name="configure-the-chargeable-components-of-a-quote-line"></a>Pasiūlymo eilutės apmokestinamų komponentų konfigūravimas 
 
-_**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
+_**Taikoma (kam):** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo, „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
 Projektais pagrįsto pasiūlymo eilutėje pateikiama *įtrauktų* ir *apmokestinamų* sąvoka.
 
@@ -61,22 +61,575 @@ Operacijos kategorija gali būti apmokestinama arba neapmokestinama konkrečioje
 Operacijos sąskaitų išrašymo tipą galima sukonfigūruoti pasiūlymo eilutės skirtuke **Apmokestinamosios kategorijos**, atnaujinant lauką **Atsiskaitymo tipas**, esantį papildomame tinklelyje **Apmokestinamosios kategorijos**.
 
 ### <a name="resolve-chargeability"></a>Apmokestinamumo sprendimas
-Sukurtos numatomos arba faktinės laiko reikšmės bus laikomos apmokestinamomis tik jei **Laikas** įtraukiamas į pasiūlymo eilutę ir jei **Užduotis** ir **Vaidmuo** sukonfigūruojami kaip apmokestinami pasiūlymo eilutėje.
+Įvertinimas arba faktiniai sukurti laikui duomenys bus apmokestinami tik esant toliau nurodytoms sąlygoms.
 
-Sukurtos numatomos arba faktinės išlaidų reikšmės bus laikomos apmokestinamomis tik jei **Išlaidos** įtraukiamos į pasiūlymo eilutę ir jei **Užduotis** bei **Operacijos kategorija** sukonfigūruojamos kaip apmokestinamos pasiūlymo eilutėje.
+   - Į pasiūlymo eilutę įtraukta reikšmė **Laikas**.
+   - Pasiūlymo eilutėje **Vaidmuo** yra sukonfigūruotas kaip apmokestinamas.
+   - Pasiūlymo eilutėje **Įtrauktos užduotys** yra nustatytos kaip **Pasirinktos užduotys**. 
 
-| Įtrauktas laikas | Įtrauktos išlaidos | Įtrauktos užduotys | Vaidmuo | Kategorija. | Užduotis | Sąskaitų siuntimas |
-| --- | --- | --- | --- | --- | --- | --- |
-| Taip | Taip | Visas projektas | Apmokestinama | Apmokestinama | Negalima nustatyti | Atsiskaitymas pagal faktinį laiką: Apmokestinamas </br>Atsiskaitymas pagal faktines išlaidas: Apmokestinamas |
-| Taip | Taip | Tik pasirinktos užduotys | Apmokestinama | Apmokestinama | Apmokestinama | Atsiskaitymas pagal faktinį laiką: Apmokestinamas</br>Atsiskaitymas pagal faktines išlaidas: Apmokestinamas |
-| Taip | Taip | Tik pasirinktos užduotys | Neapmokestinama | Apmokestinama | Apmokestinama | Atsiskaitymas pagal faktinį laiką: Neapmokestinamas</br>Atsiskaitymas pagal faktines išlaidas: Apmokestinamas |
-| Taip | Taip | Tik pasirinktos užduotys | Apmokestinama | Apmokestinama | Neapmokestinama | Atsiskaitymas pagal faktinį laiką: Neapmokestinamas</br> Atsiskaitymas pagal faktines išlaidas: Neapmokestinamas |
-| Taip | Taip | Tik pasirinktos užduotys | Neapmokestinama | Apmokestinama | Neapmokestinama | Atsiskaitymas pagal faktinį laiką: Neapmokestinamas</br> Atsiskaitymas pagal faktines išlaidas: Neapmokestinamas |
-| Taip | Taip | Tik pasirinktos užduotys | Neapmokestinama | Neapmokestinama | Apmokestinama | Atsiskaitymas pagal faktinį laiką: Neapmokestinamas</br> Atsiskaitymas pagal faktines išlaidas: Neapmokestinamas |
-| No | Taip | Visas projektas | Negalima nustatyti | Apmokestinama | Negalima nustatyti | Atsiskaitymas pagal faktinį laiką: Nėra </br>Atsiskaitymas pagal faktines išlaidas: Apmokestinamas |
-| No | Taip | Visas projektas | Negalima nustatyti | Neapmokestinama | Negalima nustatyti | Atsiskaitymas pagal faktinį laiką: Nėra </br>Atsiskaitymas pagal faktines išlaidas: Neapmokestinamas |
-| Taip | No | Visas projektas | Apmokestinama | Negalima nustatyti | Negalima nustatyti | Atsiskaitymas pagal faktinį laiką: Apmokestinamas</br>Atsiskaitymas pagal faktines išlaidas: Nėra |
-| Taip | No | Visas projektas | Neapmokestinama | Negalima nustatyti | Negalima nustatyti | Atsiskaitymas pagal faktinį laiką: Neapmokestinamas </br>Atsiskaitymas pagal faktines išlaidas: Nėra |
+Jei šie trys punktai atitinkami, **užduotis** taip pat sukonfigūruojama kaip apmokestinama. 
+
+Įvertinimas arba faktiniai sukurti išlaidoms duomenys apmokestinami tik esant toliau nurodytoms sąlygoms. 
+
+   - Į pasiūlymo eilutę įtraukta reikšmė **Išlaidos**.
+   - Pasiūlymo eilutėje **Operacijos kategorija** yra sukonfigūruota kaip apmokestinama.
+   - Pasiūlymo eilutėje **Įtrauktos užduotys** yra nustatytos kaip **Pasirinktos užduotys**.
+
+Jei šie trys punktai atitinkami, **užduotis** taip pat sukonfigūruojama kaip apmokestinama. 
+
+Įvertinimas arba faktiniai sukurti medžiagai duomenys bus apmokestinami tik esant toliau nurodytoms sąlygoms.
+
+   - Į pasiūlymo eilutę įtraukta reikšmė **Medžiagos**.
+   - Pasiūlymo eilutėje **Įtrauktos užduotys** yra nustatytos kaip **Pasirinktos užduotys**.
+
+Jei šie du punktai atitinkami, **užduotis** taip pat gali būti sukonfigūruota kaip apmokestinama. 
+
+
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Įtrauktas laikas</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>Įtrauktos išlaidos</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>Įtrauktos medžiagos</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+                    <strong>Įtrauktos užduotys</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Vaidmuo</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Kategorija.</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Užduotis</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+                    <strong>Poveikis apmokestinimui</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Taip </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Taip </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Taip </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Visas projektas </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Apmokestinama </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Apmokestinama </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Negalima nustatyti </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Atsiskaitymas pagal faktinį laiką: Apmokestinamas </p>
+                <p>
+Atsiskaitymas pagal faktines išlaidas: Apmokestinamas </p>
+                <p>
+Atsiskaitymas pagal faktines medžiagas: Apmokestinama </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Taip </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Taip </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Taip </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Tik pasirinktos užduotys </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Apmokestinama </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Apmokestinama </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Apmokestinama </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Atsiskaitymas pagal faktinį laiką: Apmokestinamas </p>
+                <p>
+Atsiskaitymas pagal faktines išlaidas: Apmokestinamas </p>
+                <p>
+Atsiskaitymas pagal faktines medžiagas: Apmokestinama </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Taip </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Taip </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Taip </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Tik pasirinktos užduotys </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Neapmokestinama</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Apmokestinama </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Apmokestinama </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Atsiskaitymas pagal faktinį laiką: <strong>Neapmokestinamas</strong>
+                </p>
+                <p>
+Atsiskaitymas pagal faktines išlaidas: Apmokestinamas </p>
+                <p>
+Atsiskaitymas pagal faktines medžiagas: Apmokestinama </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Taip </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Taip </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Taip </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Tik pasirinktos užduotys </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Apmokestinama </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Apmokestinama </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Neapmokestinama</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Atsiskaitymas pagal faktinį laiką: <strong>Neapmokestinamas</strong>
+                </p>
+                <p>
+Atsiskaitymas pagal faktines išlaidas: <strong>Neapmokestinamas</strong>
+                </p>
+                <p>
+Atsiskaitymas pagal faktines medžiagas: <strong>Neapmokestinamas</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Taip </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Taip </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Taip </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Tik pasirinktos užduotys </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Neapmokestinama</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Apmokestinama </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Neapmokestinama</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Atsiskaitymas pagal faktinį laiką: <strong>Neapmokestinamas</strong>
+                </p>
+                <p>
+Atsiskaitymas pagal faktines išlaidas: <strong>Neapmokestinamas</strong>
+                </p>
+                <p>
+Atsiskaitymas pagal faktines medžiagas: <strong> Neapmokestinamas</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Taip </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Taip </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Taip </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Tik pasirinktos užduotys </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Neapmokestinama</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Neapmokestinama</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Apmokestinama </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Atsiskaitymas pagal faktinį laiką: <strong>Neapmokestinamas</strong>
+                </p>
+                <p>
+Atsiskaitymas pagal faktines išlaidas: <strong> Neapmokestinamas</strong>
+                </p>
+                <p>
+Atsiskaitymas pagal faktines medžiagas: Apmokestinama </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Taip </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Taip </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Visas projektas </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Negalima nustatyti </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Apmokestinama</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Negalima nustatyti </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Atsiskaitymas pagal faktinį laiką: <strong>Nėra</strong>
+                </p>
+                <p>
+Atsiskaitymas pagal faktines išlaidas: Apmokestinamas </p>
+                <p>
+Atsiskaitymas pagal faktines medžiagas: Apmokestinama </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Taip </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Taip </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Visas projektas </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Negalima nustatyti </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Neapmokestinama</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Negalima nustatyti </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Atsiskaitymas pagal faktinį laiką: <strong>Nėra</strong>
+                </p>
+                <p>
+Atsiskaitymas pagal faktines išlaidas: <strong> Neapmokestinamas</strong>
+                </p>
+                <p>
+Atsiskaitymas pagal faktines medžiagas: Apmokestinama </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Taip </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Taip </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Visas projektas </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Apmokestinama </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Negalima nustatyti </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Negalima nustatyti </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Atsiskaitymas pagal faktinį laiką: Apmokestinamas </p>
+                <p>
+Atsiskaitymas pagal faktines išlaidas:<strong> Nėra</strong>
+                </p>
+                <p>
+Atsiskaitymas pagal faktines medžiagas: Apmokestinama </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Taip </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Taip </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Visas projektas </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Neapmokestinama</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Negalima nustatyti </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Negalima nustatyti </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Atsiskaitymas pagal faktinį laiką:<strong>Neapmokestinamas</strong>
+                </p>
+                <p>
+Atsiskaitymas pagal faktines išlaidas:<strong> Nėra</strong>
+                </p>
+                <p>
+Atsiskaitymas pagal faktines medžiagas: Apmokestinama </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Taip </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Taip </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Visas projektas </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Apmokestinama </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Apmokestinama </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Negalima nustatyti </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Atsiskaitymas pagal faktinį laiką: Apmokestinamas </p>
+                <p>
+Atsiskaitymas pagal faktines išlaidas: Apmokestinamas </p>
+                <p>
+Atsiskaitymas pagal faktinę medžiagą: <strong> Nėra</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Taip </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Taip </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Visas projektas </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Neapmokestinama</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Neapmokestinama</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Negalima nustatyti </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Atsiskaitymas pagal faktinį laiką:<strong>Neapmokestinamas</strong>
+                </p>
+                <p>
+Atsiskaitymas pagal faktines išlaidas:<strong> Neapmokestinamas</strong>
+                </p>
+                <p>
+Atsiskaitymas pagal faktinę medžiagą:<strong> Nėra</strong>
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
