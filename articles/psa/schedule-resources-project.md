@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f0a234f96419bac58cd932a082010da672e7dcb5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 329923e6d47fd36881aea8db8eba41a868829220
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282658"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951444"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>Projekto išteklių planavimas („Project Service“)
 
@@ -35,7 +35,7 @@ Galite patikrinti išteklių užimtumą, kad turėtumėte apie jį bendrą vaizd
   
 Grafiko lentoje rodomas išteklių sąrašas ir jų pasiekiamumas. Pasirinkite peržiūros režimą, kas būtų rodomas pasiekiamumas pagal **Valandas**, **Dieną**, **Savaitę** arba **Mėnesį**.  
   
-Prieš pradedant naudotis grafiko lenta, svarbu ją nustatyti. Daugiau informacijos žr. [Grafiko lentos konfigūravimas („Field Service” arba „Project Service Automation”)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).
+Prieš pradedant naudotis grafiko lenta, svarbu ją nustatyti. Daugiau informacijos žr. [Grafiko lentos konfigūravimas („Field Service” arba „Project Service Automation”)](/dynamics365/field-service/configure-schedule-board).
   
 Jei jūs naudojate senesnę versiją, dėl išteklių pasiekiamumo, žr. [Išteklių pasiekiamumo peržiūra](../psa/view-resource-availability.md).  
 

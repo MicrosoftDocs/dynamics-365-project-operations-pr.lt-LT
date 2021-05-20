@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a067521410f0fe0d8f5d4c510a35f2a3b018dce3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d31ca60b267063e9cadf544468ece501353950fa
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281758"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951354"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Darbo paskirstymo struktūros atnaujinimo aptarimas
 
@@ -34,20 +34,20 @@ ms.locfileid: "5281758"
 ## <a name="key-entities"></a>Pagrindiniai objektai
 Tiksliai darbo paskirstymo struktūrai, į kurią jau įkelta išteklių, reikia toliau nurodytų objektų:
 
-- [Projektas](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
-- [Projekto komanda](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
-- [Projekto užduotis](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
-- [Išteklių priskyrimai](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
-- [Projekto užduoties priklausomybė](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
-- [Rezervuojami ištekliai](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
+- [Projektas](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
+- [Projekto komanda](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
+- [Projekto užduotis](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
+- [Išteklių priskyrimai](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
+- [Projekto užduoties priklausomybė](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
+- [Rezervuojami ištekliai](/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
 
 Jei norite nustatyti darbo paskirstymo struktūrą, į kurią įkelti ištekliai, turite atlikti šiuos veiksmus:
 
-1. Kurti naują projektą Daugiau informacijos apie tai, kaip sukurti naują projektą, žr. [msdyn_project](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
-2. Sukurkite vieną ar kelias užduotis. Daugiau informacijos apie tai, kaip sukurti užduotį, žr. [msdyn_projecttask](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
-3. Nustatykite užduočių priklausomybes. Daugiau informacijos žr. [Projekto užduoties priklausomybė](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
-4. Priskirkite projekto komandos narius prie projekto. Daugiau informacijos žr. [msdyn_projectteam](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
-5. Priskirkite projekto komandos narius užduotims. Daugiau informacijos žr. [msdyn_resourceassignment](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
+1. Kurti naują projektą Daugiau informacijos apie tai, kaip sukurti naują projektą, žr. [msdyn_project](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
+2. Sukurkite vieną ar kelias užduotis. Daugiau informacijos apie tai, kaip sukurti užduotį, žr. [msdyn_projecttask](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
+3. Nustatykite užduočių priklausomybes. Daugiau informacijos žr. [Projekto užduoties priklausomybė](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
+4. Priskirkite projekto komandos narius prie projekto. Daugiau informacijos žr. [msdyn_projectteam](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
+5. Priskirkite projekto komandos narius užduotims. Daugiau informacijos žr. [msdyn_resourceassignment](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
 
 ## <a name="project-team-relationships"></a>Projekto komandos ryšiai
 

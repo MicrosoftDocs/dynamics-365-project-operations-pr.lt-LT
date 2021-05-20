@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 0af8067fc0673890a317ac6f4e62d74b7f4eebca
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2470d573f4537cb22de4dbd98caff148cbe0bda3
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290099"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950274"
 ---
 # <a name="deploy-project-operations---lite"></a>„Project Operations“ visuotinis diegimas – „Lite“ versija
 
@@ -34,14 +34,14 @@ Programoje „Project Operations“ palaikomi keli visuotinio diegimo modeliai. 
 
 ## <a name="install-project-operations-to-a-new-cds-environment"></a><a name="new"></a>„Project Operations“ diegimas į nauja CDS aplinką
 
-1. Kaip [visuotinis arba „Power Platform“ administratorius](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license), turintis „Project Operations“ licenciją, kurkite naują CDS aplinką [„PowerPlatform“ administravimo centre](https://admin.powerplatform.com). Įsitikinkite, kad įjungti **CDS duomenų bazė** ir **„Dynamics 365“ programos**. Norėdami gauti daugiau informacijos, žr. [Aplinkų kūrimas ir tvarkymas „Power Platform“ administravimo centre](https://docs.microsoft.com/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center).
+1. Kaip [visuotinis arba „Power Platform“ administratorius](/power-platform/admin/global-service-administrators-can-administer-without-license), turintis „Project Operations“ licenciją, kurkite naują CDS aplinką [„PowerPlatform“ administravimo centre](https://admin.powerplatform.com). Įsitikinkite, kad įjungti **CDS duomenų bazė** ir **„Dynamics 365“ programos**. Norėdami gauti daugiau informacijos, žr. [Aplinkų kūrimas ir tvarkymas „Power Platform“ administravimo centre](/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center).
 2. Pasirinkite **Microsoft Dynamics 365 Project Operations** iš „Dynamics 365“ programų visuotinio diegimo sąrašo.
 
 
 ## <a name="install-project-operations-to-an-existing-cds-environment"></a><a name="existing"></a>„Project Operations“ diegimas į esamą CDS aplinką
 
-1. Kaip [visuotinis arba „Power Platform“ administratorius](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license), turintis „Project Operations“ licenciją, raskite aplinką [„PowerPlatform“ administravimo centre](https://admin.powerplatform.com), kur norite įdiegti „Project Operations“.
-2. Įdiekite **Microsoft Dynamics 365 Project Operations** iš „Dynamics 365“ programų visuotinio diegimo sąrašo. Daugiau informacijos žr. [„Dynamics 365“ programų valdymas](https://docs.microsoft.com/power-platform/admin/manage-apps).
+1. Kaip [visuotinis arba „Power Platform“ administratorius](/power-platform/admin/global-service-administrators-can-administer-without-license), turintis „Project Operations“ licenciją, raskite aplinką [„PowerPlatform“ administravimo centre](https://admin.powerplatform.com), kur norite įdiegti „Project Operations“.
+2. Įdiekite **Microsoft Dynamics 365 Project Operations** iš „Dynamics 365“ programų visuotinio diegimo sąrašo. Daugiau informacijos žr. [„Dynamics 365“ programų valdymas](/power-platform/admin/manage-apps).
 
 
 

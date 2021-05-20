@@ -3,17 +3,17 @@ title: Grafiko API naudojimas norint atlikti operacijas su grafiko objektais
 description: Šioje temoje pateikiama informacija ir pavyzdžiai, kaip naudoti grafiko API.
 author: sigitac
 manager: Annbe
-ms.date: 04/07/2021
+ms.date: 04/27/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a50a2c6220bb49de8146d0758019827e120e0526
-ms.sourcegitcommit: 8ff9fe396db6dec581c21cd6bb9acc2691c815b0
+ms.openlocfilehash: e03f4e6c49a835206b23cade3fabe3fd26693441
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5868139"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950814"
 ---
 # <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Grafiko API naudojimas norint atlikti operacijas su grafiko objektais
 
@@ -72,6 +72,190 @@ Projekto užduotis | Taip | Taip | Taip | Nėra |
 
 ID ypatybė yra pasirinktinė. Jei ji pateikta, sistema bando ypatybę panaudoti ir, jei to padaryti negalima, pateikia išimtį. Jei ypatybė nepateikta, sistema ją sugeneruos.
 
+## <a name="restricted-fields"></a>Apriboti laukai
+
+Toliau pateikiamose lentelėse apibrėžiami laukai, kurių negalima **Kurti** ir **Redaguoti**.
+
+### <a name="project-task"></a>Projekto užduotis
+
+| **Loginis pavadinimas**                       | **Gali kurti** | **Gali redaguoti**     |
+|----------------------------------------|----------------|------------------|
+| msdyn_actualcost                       | ne             | ne               |
+| msdyn_actualcost_base                  | ne             | ne               |
+| msdyn_actualend                        | ne             | ne               |
+| msdyn_actualsales                      | ne             | ne               |
+| msdyn_actualsales_base                 | ne             | ne               |
+| msdyn_actualstart                      | ne             | ne               |
+| msdyn_costatcompleteestimate           | ne             | ne               |
+| msdyn_costatcompleteestimate_base      | ne             | ne               |
+| msdyn_costconsumptionpercentage        | ne             | ne               |
+| msdyn_effortcompleted                  | ne             | ne               |
+| msdyn_effortestimateatcomplete         | ne             | ne               |
+| msdyn_iscritical                       | ne             | ne               |
+| msdyn_iscriticalname                   | ne             | ne               |
+| msdyn_ismanual                         | ne             | ne               |
+| msdyn_ismanualname                     | ne             | ne               |
+| msdyn_ismilestone                      | ne             | ne               |
+| msdyn_ismilestonename                  | ne             | ne               |
+| msdyn_LinkStatus                       | ne             | ne               |
+| msdyn_linkstatusname                   | ne             | ne               |
+| msdyn_msprojectclientid                | ne             | ne               |
+| msdyn_plannedcost                      | ne             | ne               |
+| msdyn_plannedcost_base                 | ne             | ne               |
+| msdyn_plannedsales                     | ne             | ne               |
+| msdyn_plannedsales_base                | ne             | ne               |
+| msdyn_pluginprocessingdata             | ne             | ne               |
+| msdyn_progress                         | ne             | ne (taip, jei P4W) |
+| msdyn_remainingcost                    | ne             | ne               |
+| msdyn_remainingcost_base               | ne             | ne               |
+| msdyn_remainingsales                   | ne             | ne               |
+| msdyn_remainingsales_base              | ne             | ne               |
+| msdyn_requestedhours                   | ne             | ne               |
+| msdyn_resourcecategory                 | ne             | ne               |
+| msdyn_resourcecategoryname             | ne             | ne               |
+| msdyn_resourceorganizationalunitid     | ne             | ne               |
+| msdyn_resourceorganizationalunitidname | ne             | ne               |
+| msdyn_salesconsumptionpercentage       | ne             | ne               |
+| msdyn_salesestimateatcomplete          | ne             | ne               |
+| msdyn_salesestimateatcomplete_base     | ne             | ne               |
+| msdyn_salesvariance                    | ne             | ne               |
+| msdyn_salesvariance_base               | ne             | ne               |
+| msdyn_scheduleddurationminutes         | ne             | ne               |
+| msdyn_scheduledend                     | ne             | ne               |
+| msdyn_scheduledstart                   | ne             | ne               |
+| msdyn_schedulevariance                 | ne             | ne               |
+| msdyn_skipupdateestimateline           | ne             | ne               |
+| msdyn_skipupdateestimatelinename       | ne             | ne               |
+| msdyn_summary                          | ne             | ne               |
+| msdyn_varianceofcost                   | ne             | ne               |
+| msdyn_varianceofcost_base              | ne             | ne               |
+
+### <a name="project-task-dependency"></a>Projekto užduoties priklausomybė
+
+| **Loginis pavadinimas**              | **Gali kurti** | **Gali redaguoti** |
+|-------------------------------|----------------|--------------|
+| msdyn_linktype                | ne             | ne           |
+| msdyn_linktypename            | ne             | ne           |
+| msdyn_predecessortask         | taip            | ne           |
+| msdyn_predecessortaskname     | taip            | ne           |
+| msdyn_project                 | taip            | ne           |
+| msdyn_projectname             | taip            | ne           |
+| msdyn_projecttaskdependencyid | taip            | ne           |
+| msdyn_successortask           | taip            | ne           |
+| msdyn_successortaskname       | taip            | ne           |
+
+### <a name="resource-assignment"></a>Išteklių priskyrimas
+
+| **Loginis pavadinimas**             | **Gali kurti** | **Gali redaguoti** |
+|------------------------------|----------------|--------------|
+| msdyn_bookableresourceid     | taip            | ne           |
+| msdyn_bookableresourceidname | taip            | ne           |
+| msdyn_bookingstatusid        | ne             | ne           |
+| msdyn_bookingstatusidname    | ne             | ne           |
+| msdyn_committype             | ne             | ne           |
+| msdyn_committypename         | ne             | ne           |
+| msdyn_effort                 | ne             | ne           |
+| msdyn_effortcompleted        | ne             | ne           |
+| msdyn_effortremaining        | ne             | ne           |
+| msdyn_finish                 | ne             | ne           |
+| msdyn_plannedcost            | ne             | ne           |
+| msdyn_plannedcost_base       | ne             | ne           |
+| msdyn_plannedcostcontour     | ne             | ne           |
+| msdyn_plannedsales           | ne             | ne           |
+| msdyn_plannedsales_base      | ne             | ne           |
+| msdyn_plannedsalescontour    | ne             | ne           |
+| msdyn_plannedwork            | ne             | ne           |
+| msdyn_projectid              | taip            | ne           |
+| msdyn_projectidname          | ne             | ne           |
+| msdyn_projectteamid          | ne             | ne           |
+| msdyn_projectteamidname      | ne             | ne           |
+| msdyn_start                  | ne             | ne           |
+| msdyn_taskid                 | ne             | ne           |
+| msdyn_taskidname             | ne             | ne           |
+| msdyn_userresourceid         | ne             | ne           |
+
+### <a name="project-team-member"></a>Projekto komandos narys
+
+| **Loginis pavadinimas**                                 | **Gali kurti** | **Gali redaguoti** |
+|--------------------------------------------------|----------------|--------------|
+| msdyn_calendarid                                 | ne             | ne           |
+| msdyn_creategenericteammemberwithrequirementname | ne             | ne           |
+| msdyn_deletestatus                               | ne             | ne           |
+| msdyn_deletestatusname                           | ne             | ne           |
+| msdyn_effort                                     | ne             | ne           |
+| msdyn_effortcompleted                            | ne             | ne           |
+| msdyn_effortremaining                            | ne             | ne           |
+| msdyn_finish                                     | ne             | ne           |
+| msdyn_hardbookedhours                            | ne             | ne           |
+| msdyn_hours                                      | ne             | ne           |
+| msdyn_markedfordeletiontimer                     | ne             | ne           |
+| msdyn_markedfordeletiontimestamp                 | ne             | ne           |
+| msdyn_msprojectclientid                          | ne             | ne           |
+| msdyn_percentage                                 | ne             | ne           |
+| msdyn_requiredhours                              | ne             | ne           |
+| msdyn_softbookedhours                            | ne             | ne           |
+| msdyn_start                                      | ne             | ne           |
+
+### <a name="project"></a>Project
+
+| **Loginis pavadinimas**                       | **Gali kurti** | **Gali redaguoti** |
+|----------------------------------------|----------------|--------------|
+| msdyn_actualexpensecost                | ne             | ne           |
+| msdyn_actualexpensecost_base           | ne             | ne           |
+| msdyn_actuallaborcost                  | ne             | ne           |
+| msdyn_actuallaborcost_base             | ne             | ne           |
+| msdyn_actualsales                      | ne             | ne           |
+| msdyn_actualsales_base                 | ne             | ne           |
+| msdyn_contractlineproject              | taip            | ne           |
+| msdyn_contractorganizationalunitid     | taip            | ne           |
+| msdyn_contractorganizationalunitidname | taip            | ne           |
+| msdyn_costconsumption                  | ne             | ne           |
+| msdyn_costestimateatcomplete           | ne             | ne           |
+| msdyn_costestimateatcomplete_base      | ne             | ne           |
+| msdyn_costvariance                     | ne             | ne           |
+| msdyn_costvariance_base                | ne             | ne           |
+| msdyn_duration                         | ne             | ne           |
+| msdyn_effort                           | ne             | ne           |
+| msdyn_effortcompleted                  | ne             | ne           |
+| msdyn_effortestimateatcompleteeac      | ne             | ne           |
+| msdyn_effortremaining                  | ne             | ne           |
+| msdyn_finish                           | taip            | taip          |
+| msdyn_globalrevisiontoken              | ne             | ne           |
+| msdyn_islinkedtomsprojectclient        | ne             | ne           |
+| msdyn_islinkedtomsprojectclientname    | ne             | ne           |
+| msdyn_linkeddocumenturl                | ne             | ne           |
+| msdyn_msprojectdocument                | ne             | ne           |
+| msdyn_msprojectdocumentname            | ne             | ne           |
+| msdyn_plannedexpensecost               | ne             | ne           |
+| msdyn_plannedexpensecost_base          | ne             | ne           |
+| msdyn_plannedlaborcost                 | ne             | ne           |
+| msdyn_plannedlaborcost_base            | ne             | ne           |
+| msdyn_plannedsales                     | ne             | ne           |
+| msdyn_plannedsales_base                | ne             | ne           |
+| msdyn_progress                         | ne             | ne           |
+| msdyn_remainingcost                    | ne             | ne           |
+| msdyn_remainingcost_base               | ne             | ne           |
+| msdyn_remainingsales                   | ne             | ne           |
+| msdyn_remainingsales_base              | ne             | ne           |
+| msdyn_replaylogheader                  | ne             | ne           |
+| msdyn_salesconsumption                 | ne             | ne           |
+| msdyn_salesestimateatcompleteeac       | ne             | ne           |
+| msdyn_salesestimateatcompleteeac_base  | ne             | ne           |
+| msdyn_salesvariance                    | ne             | ne           |
+| msdyn_salesvariance_base               | ne             | ne           |
+| msdyn_scheduleperformance              | ne             | ne           |
+| msdyn_scheduleperformancename          | ne             | ne           |
+| msdyn_schedulevariance                 | ne             | ne           |
+| msdyn_taskearlieststart                | ne             | ne           |
+| msdyn_teamsize                         | ne             | ne           |
+| msdyn_teamsize_date                    | ne             | ne           |
+| msdyn_teamsize_state                   | ne             | ne           |
+| msdyn_totalactualcost                  | ne             | ne           |
+| msdyn_totalactualcost_base             | ne             | ne           |
+| msdyn_totalplannedcost                 | ne             | ne           |
+| msdyn_totalplannedcost_base            | ne             | ne           |
+
+
 ## <a name="limitations-and-known-issues"></a>Apribojimai ir žinomos problemos
 Toliau pateikiamas apribojimų ir žinomų problemų sąrašas.
 
@@ -85,12 +269,18 @@ Toliau pateikiamas apribojimų ir žinomų problemų sąrašas.
 - „Project Operations“ šiuo metu palaikoma ne daugiau kaip 500 projekto užduočių iš viso.
 - **OperationSet** trikties būsena ir trikties žurnalai šiuo metu negalimi.
 - Grafiko API yra viešosios priežiūros versijos. „Microsoft“ nepalaiko šių API naudojimo gamybos aplinkoje.
+- [Projektų ir užduočių limitai bei ribos](/project-for-the-web/project-for-the-web-limits-and-boundaries)
+
+## <a name="error-handling"></a>Klaidų apdorojimas
+
+   - Norėdami peržiūrėti iš operacijų rinkinių sugeneruotas klaidas, eikite į **Parametrai** \> **Grafiko integravimas** \> **Operacijų rinkiniai**.
+   - Norėdami peržiūrėti iš projektų planavimo tarnybos sugeneruotas klaidas, eikite į **Parametrai** \> **Grafiko integravimas** \> **PSS klaidų žurnalai**.
 
 ## <a name="sample-scenario"></a>Scenarijaus pavyzdys
 
 Pagal šį scenarijų sukursite projektą, komandos narį, keturias užduotis ir du išteklių priskyrimus. Tada atnaujinsite vieną užduotį, atnaujinsite projektą, panaikinsite vieną užduotį, panaikinsite vieną išteklių priskyrimą ir sukursite užduoties priklausomybę.
 
-```C#
+```csharp
 Entity project = CreateProject();
 project.Id = CallCreateProjectAction(project);
 var projectReference = project.ToEntityReference();
@@ -106,18 +296,18 @@ var operationSetId = CallCreateOperationSetAction(project.Id, description);
 var task1 = GetTask("1WW", projectReference);
 var task2 = GetTask("2XX", projectReference, task1.ToEntityReference());
 var task3 = GetTask("3YY", projectReference);
-var task4 = GetTask("4ZZ";, projectReference);
+var task4 = GetTask("4ZZ", projectReference);
 
 var assignment1 = GetResourceAssignment("R1", teamMember, task2, project);
-var assignment2 = GetResourceAssignment"R2", teamMember, task3, project);
+var assignment2 = GetResourceAssignment("R2", teamMember, task3, project);
 
 var task1Response = CallPssCreateAction(task1, operationSetId);
 var task2Response = CallPssCreateAction(task2, operationSetId);
 var task3Response = CallPssCreateAction(task3, operationSetId);
 var task4Response = CallPssCreateAction(task4, operationSetId);
 
-varassignment1Response = CallPssCreateAction(assignment1, operationSetId);
-varassignment2Response = CallPssCreateAction(assignment2, operationSetId);
+var assignment1Response = CallPssCreateAction(assignment1, operationSetId);
+var assignment2Response = CallPssCreateAction(assignment2, operationSetId);
 
 task2["msdyn_subject"] = "Updated Task";
 var task2UpdateResponse = CallPssUpdateAction(task2, operationSetId);
@@ -127,7 +317,7 @@ var projectUpdateResponse = CallPssUpdateAction(project, operationSetId);
 
 var task4DeleteResponse = CallPssDeleteAction(task4.Id.ToString(), task4.LogicalName, operationSetId);
 
-varassignment2DeleteResponse = CallPssDeleteAction(assignment2.Id.ToString(), assignment2.LogicalName, operationSetId);
+var assignment2DeleteResponse = CallPssDeleteAction(assignment2.Id.ToString(), assignment2.LogicalName, operationSetId);
 
 var dependency1 = GetTaskDependency(project, task2, task3);
 var dependency1Response = CallPssCreateAction(dependency1, operationSetId);
@@ -138,16 +328,16 @@ Console.WriteLine("Done....");
 
 ## <a name="additional-samples"></a>Papildomi pavyzdžiai
 
-```C#
-#region Call actions 
+```csharp
+#region Call actions --- Sample code ----
 
-///<summary>
+/// <summary>
 /// Calls the action to create an operationSet
 /// </summary>
-/// <paramname="projectId">project id for the operations to be included in this operationSet>/param>
-/// <paramname="description">description of this operationSet</param>
+/// <param name="projectId">project id for the operations to be included in this operationSet</param>
+/// <param name="description">description of this operationSet</param>
 /// <returns>operationSet id</returns>
-privatestring CallCreateOperationSetAction(Guid projectId, string description)
+private string CallCreateOperationSetAction(Guid projectId, string description)
 {
     OrganizationRequest operationSetRequest = new OrganizationRequest("msdyn_CreateOperationSetV1");
     operationSetRequest["ProjectId"] = projectId.ToString();
@@ -159,9 +349,10 @@ privatestring CallCreateOperationSetAction(Guid projectId, string description)
 /// <summary>
 /// Calls the action to create an entity, only Task and Resource Assignment for now
 /// </summary>
-/// <paramname="entity">Task or Resource Assignment</param>
-/// <paramname="operationSetId">operationSet id</param>
+/// <param name="entity">Task or Resource Assignment</param>
+/// <param name="operationSetId">operationSet id</param>
 /// <returns>OperationSetResponse</returns>
+
 private OperationSetResponse CallPssCreateAction(Entity entity, string operationSetId)
 {
     OrganizationRequest operationSetRequest = new OrganizationRequest("msdyn_PssCreateV1");
@@ -170,11 +361,11 @@ private OperationSetResponse CallPssCreateAction(Entity entity, string operation
     return GetOperationSetResponseFromOrgResponse(organizationService.Execute(operationSetRequest));
 }
 
-/// <summary<
+/// <summary>
 /// Calls the action to update an entity, only Task for now
 /// </summary>
-/// <paramname="entity">Task or Resource Assignment</param>
-/// <paramname="operationSetId">operationSet Id</param>
+/// <param name="entity">Task or Resource Assignment</param>
+/// <param name="operationSetId">operationSet Id</param>
 /// <returns>OperationSetResponse</returns>
 private OperationSetResponse CallPssUpdateAction(Entity entity, string operationSetId)
 {
@@ -186,10 +377,10 @@ private OperationSetResponse CallPssUpdateAction(Entity entity, string operation
 
 /// <summary>
 /// Calls the action to update an entity, only Task and Resource Assignment for now
-/// <summary>
-/// <paramname="recordId">Id of the record to be deleted</param>
-/// <paramname="entityLogicalName">Entity logical name of the record</param>
-/// <paramname="operationSetId">OperationSet Id</param>
+/// </summary>
+/// <param name="recordId">Id of the record to be deleted</param>
+/// <param name="entityLogicalName">Entity logical name of the record</param>
+/// <param name="operationSetId">OperationSet Id</param>
 /// <returns>OperationSetResponse</returns>
 private OperationSetResponse CallPssDeleteAction(string recordId, string entityLogicalName, string operationSetId)
 {
@@ -202,8 +393,8 @@ private OperationSetResponse CallPssDeleteAction(string recordId, string entityL
 
 /// <summary>
 /// Calls the action to execute requests in an operationSet
-/// <summary>
-/// <paramname="operationSetId">operationSet id</param>
+/// </summary>
+/// <param name="operationSetId">operationSet id</param>
 /// <returns>OperationSetResponse</returns>
 private OperationSetResponse CallExecuteOperationSetAction(string operationSetId)
 {
@@ -215,7 +406,7 @@ private OperationSetResponse CallExecuteOperationSetAction(string operationSetId
 /// <summary>
 /// This can be used to abandon an operationSet that is no longer needed
 /// </summary>
-/// <paramname="operationSetId">operationSet id</param>
+/// <param name="operationSetId">operationSet id</param>
 /// <returns>OperationSetResponse</returns>
 protected OperationSetResponse CallAbandonOperationSetAction(Guid operationSetId)
 {
@@ -224,27 +415,27 @@ protected OperationSetResponse CallAbandonOperationSetAction(Guid operationSetId
     return GetOperationSetResponseFromOrgResponse(organizationService.Execute(operationSetRequest));
 }
 
+
 /// <summary>
 /// Calls the action to create a new project
 /// </summary>
-/// <paramname="project">Project</param>
+/// <param name="project">Project</param>
 /// <returns>project Id</returns>
 private Guid CallCreateProjectAction(Entity project)
 {
-    OrganizationRequest createProjectRequest = new OrganizationRequest("msdyn_CreateProjectV1";
+    OrganizationRequest createProjectRequest = new OrganizationRequest("msdyn_CreateProjectV1");
     createProjectRequest["Project"] = project;
     OrganizationResponse response = organizationService.Execute(createProjectRequest);
     var projectId = Guid.Parse((string)response["ProjectId"]);
-
     return projectId;
 }
 
 /// <summary>
 /// Calls the action to create a new project team member
 /// </summary>
-/// <paramname="teamMember">Project team member</param>
+/// <param name="teamMember">Project team member</param>
 /// <returns>project team member Id</returns>
-privatestring CallCreateTeamMemberAction(Entity teamMember)
+private string CallCreateTeamMemberAction(Entity teamMember)
 {
     OrganizationRequest request = new OrganizationRequest("msdyn_CreateTeamMemberV1");
     request["TeamMember"] = teamMember;
@@ -254,13 +445,12 @@ privatestring CallCreateTeamMemberAction(Entity teamMember)
 
 private OperationSetResponse GetOperationSetResponseFromOrgResponse(OrganizationResponse orgResponse)
 {
-    return JsonConvert.DeserializeObject><OperationSetResponse>
-    ((string)orgResponse.Results["OperationSetResponse";]);
+    return JsonConvert.DeserializeObject<OperationSetResponse>((string)orgResponse.Results["OperationSetResponse"]);
 }
 
 private EntityCollection GetDefaultBucket(EntityReference projectReference)
 {
-    var columnsToFetch = new ColumnSet(";msdyn_project", "msdyn_name");
+    var columnsToFetch = new ColumnSet("msdyn_project", "msdyn_name");
     var getDefaultBucket = new QueryExpression("msdyn_projectbucket")
     {
         ColumnSet = columnsToFetch,
@@ -273,6 +463,7 @@ private EntityCollection GetDefaultBucket(EntityReference projectReference)
             }
         }
     };
+
     return organizationService.RetrieveMultiple(getDefaultBucket);
 }
 
@@ -281,7 +472,7 @@ private Entity GetBucket(EntityReference projectReference)
     var bucketCollection = GetDefaultBucket(projectReference);
     if (bucketCollection.Entities.Count > 0)
     {
-    return bucketCollection[0].ToEntity<Entity>();
+        return bucketCollection[0].ToEntity<Entity>();
     }
 
     throw new Exception($"Please open project with id {projectReference.Id} in the Dynamics UI and navigate to the Tasks tab");
@@ -291,15 +482,18 @@ private Entity CreateProject()
 {
     var project = new Entity("msdyn_project", Guid.NewGuid());
     project["msdyn_subject"] = $"Proj {DateTime.Now.ToShortTimeString()}";
+
     return project;
 }
+
+
 
 private Entity GetTask(string name, EntityReference projectReference, EntityReference parentReference = null)
 {
     var task = new Entity("msdyn_projecttask", Guid.NewGuid());
     task["msdyn_project"] = projectReference;
     task["msdyn_subject"] = name;
-    task["msdyn_effort";] = 4d;
+    task["msdyn_effort"] = 4d;
     task["msdyn_scheduledstart"] = DateTime.Today;
     task["msdyn_scheduledend"] = DateTime.Today.AddDays(5);
     task["msdyn_progress"] = 0.34m;
@@ -309,10 +503,10 @@ private Entity GetTask(string name, EntityReference projectReference, EntityRefe
 
     //Custom field handling
     /*
-        task["new_custom1"] = "Just my test";
-        task[";new_age"] = 98;
-        task["new_amount"] = 591.34m;
-        task["new_isready"] = new OptionSetValue(100000000);
+    task["new_custom1"] = "Just my test";
+    task["new_age"] = 98;
+    task["new_amount"] = 591.34m;
+    task["new_isready"] = new OptionSetValue(100000000);
     */
 
     if (parentReference == null)
@@ -323,6 +517,7 @@ private Entity GetTask(string name, EntityReference projectReference, EntityRefe
     {
         task["msdyn_parenttask"] = parentReference;
     }
+
     return task;
 }
 
@@ -335,6 +530,7 @@ private Entity GetResourceAssignment(string name, Entity teamMember, Entity task
     assignment["msdyn_name"] = name;
     assignment["msdyn_start"] = DateTime.Now;
     assignment["msdyn_finish"] = DateTime.Now;
+
     return assignment;
 }
 
@@ -345,30 +541,32 @@ protected Entity GetTaskDependency(Entity project, Entity predecessor, Entity su
     taskDependency["msdyn_predecessortask"] = predecessor.ToEntityReference();
     taskDependency["msdyn_successortask"] = successor.ToEntityReference();
     taskDependency["msdyn_linktype"] = new OptionSetValue(192350000);
+
     return taskDependency;
 }
 
 #endregion
 
+
 #region OperationSetResponse DataContract --- Sample code ----
 
 [DataContract]
-publicclassOperationSetResponse
+public class OperationSetResponse
 {
-    [DataMember(Name = "operationSetId")]
-    public Guid OperationSetId { get; set; }
+[DataMember(Name = "operationSetId")]
+public Guid OperationSetId { get; set; }
 
-    [DataMember(Name = "operationSetDetailId")]
-    public Guid OperationSetDetailId { get; set; }
+[DataMember(Name = "operationSetDetailId")]
+public Guid OperationSetDetailId { get; set; }
 
-    [DataMember(Name = "operationType")]
-    publicstring OperationType { get; set; }
+[DataMember(Name = "operationType")]
+public string OperationType { get; set; }
 
-    [DataMember(Name = "recordId")]
-    publicstring RecordId { get; set; }
+[DataMember(Name = "recordId")]
+public string RecordId { get; set; }
 
-    [DataMember(Name = "correlationId")]
-    publicstring CorrelationId { get; set; }
+[DataMember(Name = "correlationId")]
+public string CorrelationId { get; set; }
 }
 
 #endregion

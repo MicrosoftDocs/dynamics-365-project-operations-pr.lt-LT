@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 50e623d3716c9dd03ce34ec293ba57b5d966d39e
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9ee9e4c31d1972e3a75ad214071b31527f0ca826
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276898"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950544"
 ---
 # <a name="provision-a-new-environment"></a>Naujos aplinkos parengimas
 
@@ -36,7 +36,7 @@ Atlikite toliau nurodytus veiksmus, kad įjungtumėte automatinį „Project Ope
 
 ## <a name="provision-a-project-operations-environment"></a>„Project Operations“ aplinkos parengimas
 
-1. Atidarykite naują „Dynamics 365 Finance“ [demonstracinės aplinkos](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) arba [smėlio dėžės / gamybos aplinkos](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) visuotinio diegimo paketą. 
+1. Atidarykite naują „Dynamics 365 Finance“ [demonstracinės aplinkos](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) arba [smėlio dėžės / gamybos aplinkos](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) visuotinio diegimo paketą. 
 2. Atlikite vediklio **Aplinkos parengimas** veiksmus. 
 
 > [!IMPORTANT]

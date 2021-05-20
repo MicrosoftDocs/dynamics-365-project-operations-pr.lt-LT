@@ -11,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 377e50fc5772c4dc146ccee098bf2806bbc8c6b7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c521fb4000b4856fc5c2fbf3275bf3b3e0dfa458
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275098"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950589"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Duomenų pavyzdžių diegimas programoje „Project Service“
 
@@ -136,7 +136,7 @@ Demonstraciniam duomenų paketui būtini šeši vartotojai. Norėdami tinkamai �
     - User Fullname="Molly Clark" kaip klientų vadovė   
     - User Fullname="Spencer Low" kaip praktikos ir projektų vadovas  
     - User Fullname="Veronica Quek" kaip komandos narė   
-    - User Fullname="William Danys"
+    - User Fullname="William Contoso"
   
 2. Importuodami demonstracinius duomenis, priskirkite šešiems pirmiau nurodytiems vartotojams administratoriaus vaidmenį, kad įrašų pavyzdžiai būti tinkamai importuoti. 
 
@@ -149,7 +149,7 @@ Demonstraciniam duomenų paketui būtini šeši vartotojai. Norėdami tinkamai �
 
 5. Pirmojo vartotojo kalendorius (žymėje **userstocreateandconfigure**) naudojamas užpildant visų užsakomų išteklių darbo valandas demonstracinių duomenų importavimo metu. Pasirinkite **Parametrai** > **Sauga** > **Vartotojai**, raskite vartotoją „Spencer Low“ ir atidarykite parinktį „Darbo valandas“. Redaguokite esamas darbo valandas, pasirinkdami parinktį **Visas pasikartojantis savaitės grafikas nuo pradžios iki galo**. Užtikrinkite, kad **lauke Darbo valandos nustatyta reikšmė į 8:00–17:00 val. (9 valandos), pirmadienis–penktadienis, o lauke Laiko juosta – reikšmė Ramiojo vandenyno laikas (JAV ir Kanada)**. Tai reikia atlikti siekiant užtikrinti, kad projekto ir grafiko lentos duomenys būtų rodomi tinkamai.
 
-**Rekomendacija:** galite dabar sukurti organizacijos duomenų atsarginę kopiją, jei duomenų pavyzdžių diegimo metu kils problemų ir norėsite juos atkurti. Daugiau informacijos rasite [Egzempliorių atsarginių kopijų kūrimas ir atkūrimas](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
+**Rekomendacija:** galite dabar sukurti organizacijos duomenų atsarginę kopiją, jei duomenų pavyzdžių diegimo metu kils problemų ir norėsite juos atkurti. Daugiau informacijos rasite [Egzempliorių atsarginių kopijų kūrimas ir atkūrimas](/dynamics365/customer-engagement/admin/backup-restore-instances).
 
 ## <a name="run-the-package-deployer"></a>Paleiskite Package Deployer
 

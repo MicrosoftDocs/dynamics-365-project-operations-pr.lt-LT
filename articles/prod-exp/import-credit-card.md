@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: df5c6bce8a534f4f8b1872e2bd5cc8a58ef11189
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c434356c08e8490931bd60ea5b10fe2706cb0f51
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271588"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951084"
 ---
 # <a name="import-and-maintain-credit-card-transactions"></a>Kredito kortelių operacijų importavimas ir tvarkymas
 
 Su išlaidomis susijusios kredito kortelių operacijos gali būti nustatytos taip, kad automatiškai būtų importuojamos pagal pasikartojantį grafiką. Arba operacijas galima importuoti neautomatiniu būdu, nes jos būtinos. Naudojant kredito kortelių operacijas duomenų objektas importuojamas.
 
-Daugiau informacijos apie duomenų objektus žr. [Duomenų objektai](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities).
+Daugiau informacijos apie duomenų objektus žr. [Duomenų objektai](/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities).
 
 ## <a name="import-credit-card-transactions"></a>Importuoti kredito kortelių operacijas
 

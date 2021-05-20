@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 371cfc5bc04ac0fe780400247dc1c1762ade9e21
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a1aa7a5529ef23476523f2c00882da30bb3a3e97
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284188"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949644"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>Kas yra „Dynamics 365 Project Service Automation“?
 
@@ -47,10 +47,10 @@ Be to, kad galėtumėte lengviau stebėti ir kontroliuoti projektinio darbo išl
 ## <a name="whats-new-in-psa"></a>Kas naujo programoje PSA?
 Komanda džiaugiasi galėdama pranešti apie naujausias funkcijas! Nuo vartotojo sąsajos patobulinimų, klaidų ištaisymų iki naujų funkcijų ir galimybių įtraukimo. Jūs klausėte, mes tai išgirdome.
 
-Peržiūrėkite [2019 m. spalio mėn. leidimo pastabas](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index), kad sužinotumėte apie naujausius patobulinimus bei papildymus.
+Peržiūrėkite [2019 m. spalio mėn. leidimo pastabas](/dynamics365-release-plan/2019wave2/index), kad sužinotumėte apie naujausius patobulinimus bei papildymus.
 
 ### <a name="in-development"></a>Kuriama
-Norėdami sužinoti, kokias funkcijas kursime ateityje, žr. [„Dynamics 365“: 2020 m. leidimo banga 1 planas](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index).
+Norėdami sužinoti, kokias funkcijas kursime ateityje, žr. [„Dynamics 365“: 2020 m. leidimo banga 1 planas](/dynamics365-release-plan/2020wave1/index).
 
 ## <a name="get-help-with-psa-version-3x"></a>Gaukite pagalbos PSA programos 3.x versijoje
 Ieškote išteklių, kurie padėtų suplanuoti diegimą? Peržiūrėkite šiuos atsisiunčiamus vadovus.

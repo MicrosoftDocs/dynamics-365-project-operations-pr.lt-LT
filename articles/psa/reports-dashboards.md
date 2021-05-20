@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1e66177e92e701c2dc09bed005f748ca19ae980d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ad5c5deca1964d57f22459c129f9936be0c30fde
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283378"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951534"
 ---
 # <a name="dashboards"></a>Ataskaitų sritys
 
@@ -35,7 +35,7 @@ ms.locfileid: "5283378"
 
 ## <a name="practice-manager"></a>Praktikos vadovas 
 
-Ataskaitų srityje **Praktikos vadovas** praktikos vadovams pasiekiama grafinė ataskaitų srities funkcija, kuria būtų galima sekti savikainas, pardavimą ir bruto maržą bei panaudojimą. Taip pat praktikos vadovai gali dalyti informaciją pagal įvairias dimensijas, pvz., klientų, projektų arba išteklių vaidmenį. Daugiau informacijos apie tai, kaip kurti ir tinkinti ataskaitų sritis, žr. [Ataskaitų sričių kūrimas ir redagavimas](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards).
+Ataskaitų srityje **Praktikos vadovas** praktikos vadovams pasiekiama grafinė ataskaitų srities funkcija, kuria būtų galima sekti savikainas, pardavimą ir bruto maržą bei panaudojimą. Taip pat praktikos vadovai gali dalyti informaciją pagal įvairias dimensijas, pvz., klientų, projektų arba išteklių vaidmenį. Daugiau informacijos apie tai, kaip kurti ir tinkinti ataskaitų sritis, žr. [Ataskaitų sričių kūrimas ir redagavimas](/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards).
 
 ## <a name="resource-manager"></a>„Resource Manager“ 
 

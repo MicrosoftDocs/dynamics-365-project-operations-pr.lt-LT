@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 319000e6a826580049e8575def5790ab595a3165
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 85722f61a672cc55cd2b511dc80ebfbe4807b957
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289604"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950409"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Projektų sutarčių ir projektų sinchronizavimas tiesiogiai iš „Project Service Automation“ į „Finance“ 
 
@@ -109,8 +109,8 @@ Taikant „Project Service Automation” į „Finance” integravimo sprendimą
 ## <a name="prerequisites-and-mapping-setup"></a>Būtinosios sąlygos ir susiejimo sąranka
 
 - Prieš atliekant projekto sutarčių ir projektų sinchronizavimą, reikia sinchronizuoti klientus.
-- Savo ryšių rinkinyje įtraukite integravimo rakto lauko susiejimą **msdyn\_organizationalunits** į **msdyn\_name \[pavadinimas\]**. Galbūt pirma reikės įtraukti projektą į ryšių rinkinį. Norėdami gauti daugiau informacijos žr. [Duomenų integravimas į „Common Data Service”, skirta programoms](https://docs.microsoft.com/powerapps/administrator/data-integrator).
-- Savo ryšių rinkinyje įtraukite integravimo rakto lauko susiejimą **msdyn\_projects** į **msdynce\_projectnumber \[projekto numeris\]**. Galbūt pirma reikės įtraukti projektą į ryšių rinkinį. Norėdami gauti daugiau informacijos žr. [Duomenų integravimas į „Common Data Service”, skirta programoms](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+- Savo ryšių rinkinyje įtraukite integravimo rakto lauko susiejimą **msdyn\_organizationalunits** į **msdyn\_name \[pavadinimas\]**. Galbūt pirma reikės įtraukti projektą į ryšių rinkinį. Norėdami gauti daugiau informacijos žr. [Duomenų integravimas į „Common Data Service”, skirta programoms](/powerapps/administrator/data-integrator).
+- Savo ryšių rinkinyje įtraukite integravimo rakto lauko susiejimą **msdyn\_projects** į **msdynce\_projectnumber \[projekto numeris\]**. Galbūt pirma reikės įtraukti projektą į ryšių rinkinį. Norėdami gauti daugiau informacijos žr. [Duomenų integravimas į „Common Data Service”, skirta programoms](/powerapps/administrator/data-integrator).
 - Projektų sutarčių ir projektų **SourceDataID** gali būti atnaujintas į kitą reikšmę arba pašalintas iš susiejimo. Numatytoji šablono reikšmė yra **„Project Service Automation”**.
 - Susiejimas **PaymentTerms** turi būti atnaujintas, kad atspindėtų galiojančias mokėjimo sąlygas programoje „Finance”. Taip pat galite pašalinti susiejimą iš projekto užduoties. Numatytosios reikšmės struktūroje yra numatytosios demonstracinių duomenų reikšmės. Šioje lentelėje pateikiamos „Project Service Automation” esančios reikšmės.
 
@@ -131,7 +131,7 @@ Naudokite „Microsoft Power Query for Excel“ duomenims filtruoti, jei laikoma
 Jei reikia naudoti „Power Query“, vadovaukitės toliau pateikiamais nurodymais.
 
 - Projektų ir sutarčių (PSA į „Fin and Ops“) šablone yra numatytasis filtras, kuriame yra tik **Darbo elemento (msdyn\_ordertype = 192350001)** tipo pardavimo užsakymai. Šis filtras padeda užtikrinti, kad nebūtų kuriamos projektų sutartys, skirtos pardavimo užsakymams programoje „Finance”. Kurdami savo šabloną, turite įtraukti šį filtrą.
-- Sukurkite „Power Query“ filtrą, kuriame yra tik sutarties organizacijos, kurias reikia sinchronizuoti su integravimo ryšio rinkinio juridiniu subjektu. Pavyzdžiui, projektų sutartys, kurias turite sudarę su sutarčių organizacijos vienetu „Contoso“, JAV, turi būti sinchronizuojamos su USSI juridiniu subjektu, o projektų sutartys, kurias turite sudarę su sutarčių organizacijos vienetu „Contoso Global“, turi būti sinchronizuojamos su USMF juridiniu subjektu. Jei neįtrauksite šio filtro į užduočių susiejimą, visos projektų sutartys bus sinchronizuojamos su juridiniu subjektu, nustatytu ryšio rinkiniui, neatsižvelgiant į sutarties organizacijos vienetą.
+- Sukurkite „Power Query“ filtrą, kuriame yra tik sutarties organizacijos, kurias reikia sinchronizuoti su integravimo ryšio rinkinio juridiniu subjektu. Pavyzdžiui, projektų sutartys, kurias esate sudarę su sutarties organizaciniu vienetu „Contoso US“, turi būti sinchronizuojamos su juridiniu subjektu USSI, tačiau projektų sutartys, kurias esate sudarę su sutarties organizaciniu vienetu „Contoso Global“, turi būti sinchronizuojamos su juridiniu subjektu USMF. Jei neįtrauksite šio filtro į užduočių susiejimą, visos projektų sutartys bus sinchronizuojamos su juridiniu subjektu, nustatytu ryšio rinkiniui, neatsižvelgiant į sutarties organizacijos vienetą.
 
 ## <a name="template-mapping-in-data-integration"></a>Šablonų susiejimas pasirinkus Duomenų integravimas
 

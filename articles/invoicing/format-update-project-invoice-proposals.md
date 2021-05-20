@@ -3,17 +3,17 @@ title: Projekto sąskaitos faktūros pasiūlymų valdymas
 description: Šioje temoje pateikiama išsami informacija apie klientų sąskaitų faktūrų apdorojimą naudojant „Project Operations“, skirtą išteklių / nelaikomų medžiagų scenarijams.
 author: sigitac
 manager: Annbe
-ms.date: 01/29/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4e663a9a0ca5b197e556d8c36233ab25affda876
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6b8eacf2b43219a9adad897637b78a9c94351554
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275863"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950724"
 ---
 # <a name="manage-project-invoice-proposals"></a>Projekto sąskaitos faktūros pasiūlymų valdymas
 
@@ -80,7 +80,8 @@ Reikšmės **PVM grupė** ir **Prekės PVM grupė** nustatomos iš parametrų, k
     - **Klientas** pagal numatytuosius nustatymus visada nustatys atsiskaitymo PVM grupę iš kliento.
     - **Ieška** ieškos tarp visų šiame sąraše esančių objektų ir pažymės pirmą prieinamą reikšmę. Ieška pradedama nuo objekto **Projektas**, tada seka objektas **Projekto sutartis**, o tada – objektas **Klientas**.
 
-- **Fiksuotos kainos etapo prekės PVM grupė** naudojama nustatyti reikšmę laukui **Prekės PVM grupė**.
+- Atsiskaitymo etapo lauke **Prekės PVM grupė** **Fiksuotos kainos gairių prekės PVM grupė** naudojama kaip numatytoji reikšmė. Buhalteris šią reikšmę gali peržiūrėti ir modifikuoti puslapyje **Operacijos pagal sąskaitą**. Sistema operacijos pagal sąskaitą reikšmę naudoja kurdama projekto sąskaitos faktūros pasiūlymo eilutę.
+ 
 
 ### <a name="financial-dimensions"></a>Finansinės dimensijos
 
@@ -132,7 +133,7 @@ Puslapyje **Formatuoti SF pasiūlymus** pasirinktinio grupavimo operacijas galim
 
 Spausdinimo valdymas naudoja skirtingus ataskaitų failus sąskaitoms faktūroms spausdinti, paskirties vietai nurodyti ir poraštės tekstui tinkinti. Spausdinimo valdymą galima nustatyti modulio lygiu, tačiau šiuos parametrus galima perrašyti konkrečiam klientui, sutarčiai arba sąskaitos faktūros pasiūlymui. Norėdami pasiekti šią funkciją, puslapyje **Projekto SF pasiūlymas** pasirinkite **Spausdinti** > **Spausdinimo valdymas**.
 
-Spausdinimo valdymo sąranka rodoma kaip medžio rodinys, kuriame kiekviename mazgo lygyje rodomi galimi koreguoti dokumentai. Pasirinktinius spaudinius galite priskirti modulio, kliento, sutarties arba sąskaitos faktūros dokumentų lygiu. Norėdami modifikuoti originalaus dokumento spaudinį, išplėskite norimą mazgą ir pasirinkite **Pradinis elementas**. Lauke **Ataskaitos formatas** pažymėkite ataskaitos formatą, kurį norite naudoti spausdinant. Pasirinktinius ataskaitų formatus galite naudoti naudodami [Verslo dokumentų valdymo sistemą](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
+Spausdinimo valdymo sąranka rodoma kaip medžio rodinys, kuriame kiekviename mazgo lygyje rodomi galimi koreguoti dokumentai. Pasirinktinius spaudinius galite priskirti modulio, kliento, sutarties arba sąskaitos faktūros dokumentų lygiu. Norėdami modifikuoti originalaus dokumento spaudinį, išplėskite norimą mazgą ir pasirinkite **Pradinis elementas**. Lauke **Ataskaitos formatas** pažymėkite ataskaitos formatą, kurį norite naudoti spausdinant. Pasirinktinius ataskaitų formatus galite naudoti naudodami [Verslo dokumentų valdymo sistemą](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
 
 ## <a name="post-invoice-proposals"></a>Sąskaitų faktūrų pasiūlymų registravimas
 

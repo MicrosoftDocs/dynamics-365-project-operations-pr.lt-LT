@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 2d257ced3dadb320c501bfd5f64dcd8f21c1a4d3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cc19297131937949fe6f7eed00ee66fb5e3bff13
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272038"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950489"
 ---
 # <a name="expense-management-mobile-workspace"></a>Išlaidų valdymo mobilioji darbo sritis
 
@@ -58,7 +58,7 @@ Taip pat galite naudoti šias funkcijas:
 Būtinosios sąlygos skiriasi atsižvelgiant į versiją, įdiegtą organizacijoje.
 
 ### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Būtinosios sąlygos, jei naudojama „Dynamics 365 Finance“ 
-Jei organizacijoje įdiegta „Finance“, sistemos administratorius turi publikuoti mobiliąją darbo sritį **Išlaidų valdymas**. Instrukcijų ieškokite skyriuje [Mobiliųjų darbo sričių publikavimas](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
+Jei organizacijoje įdiegta „Finance“, sistemos administratorius turi publikuoti mobiliąją darbo sritį **Išlaidų valdymas**. Instrukcijų ieškokite skyriuje [Mobiliųjų darbo sričių publikavimas](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Būtinosios sąlygos, jei naudojama 1611 versija su 3 arba naujesnės versijos platforma
 Jei organizacijoje įdiegta 1611 versija su 3 arba naujesnės versijos platforma, sistemos administratorius turi įvykdyti toliau pateikiamas būtinąsias sąlygas. 
@@ -77,16 +77,16 @@ Jei organizacijoje įdiegta 1611 versija su 3 arba naujesnės versijos platforma
 <td>Sistemos administratorius</td>
 <td>KB 4019015 yra X++ naujinimas arba metaduomenų karštosios pataisos, kuriose yra <strong>Išlaidš valdymas</strong> mobilioji darbo sritis. Norėdamas įdiegti KB 4019015, sistemos administratorius turi atlikti toliau pateikiamus veiksmus.
 <ol>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#download-the-hotfix-from-lcs">Atsisiųsti metaduomenų karštąsias pataisas iš „Microsoft Dynamics“ „Lifecycle Services“ (LCS)</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#install-the-metadata-hotfix-package">Įdiegti metaduomenų karštąsias pataisas</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Sukurkite įdiegiamą paketą,</a> kuriame yra modeliai <strong>„ApplicationSuite“</strong> ir <strong>„ExpenseMobile“</strong>, ir įkelkite įdiegiamą paketą į LCS.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Pritaikyti įdiegiamą paketą</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#download-the-hotfix-from-lcs">Atsisiųsti metaduomenų karštąsias pataisas iš „Microsoft Dynamics“ „Lifecycle Services“ (LCS)</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#install-the-metadata-hotfix-package">Įdiegti metaduomenų karštąsias pataisas</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Sukurkite įdiegiamą paketą,</a> kuriame yra modeliai <strong>„ApplicationSuite“</strong> ir <strong>„ExpenseMobile“</strong>, ir įkelkite įdiegiamą paketą į LCS.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Pritaikyti įdiegiamą paketą</a>.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Publikuokite <strong>Išlaidų valdymo</strong> mobiliąja darbo sritį.</td>
 <td>Sistemos administratorius</td>
-<td>Žr. <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Mobiliosios darbo srities publikavimas</a>.</td>
+<td>Žr. <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Mobiliosios darbo srities publikavimas</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -128,11 +128,11 @@ Atsisiųskite ir įdiekite „Dynamics 365 Unified Ops“ mobiliųjų įrengini�
 ## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a>Sparčiai įveskite išlaidas naudojant mobiliąsias išlaidų valdymo darbo sritis
 1. Mobiliajame įrenginyje atidarykite **išlaidų valdymo** darbo sritį.
 2. Pasirinkite **Spartus išlaidų įvedimas**.
-3. Pažymėkite išlaidų kategoriją. Matysite išlaidų kategorijų, kurios įkeltos į programėlę ir skirtos naudoti neprisijungus, sąrašą. Pagal numatytuosius parametrus įkeliama 50 elementų, bet kūrėjas gali šį skaičių pakeisti. Daugiau informacijos kūrėjai gali rasti skyriuje [Mobilioji platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jei jūsų kategorijos sąraše nėra, pasirinkite **Ieskoti**, kad atliktumėte iešką internete. Ieškokite pagal išlaidų kategoriją arba pereikite prie ieškos pagal išlaidų tipą.
+3. Pažymėkite išlaidų kategoriją. Matysite išlaidų kategorijų, kurios įkeltos į programėlę ir skirtos naudoti neprisijungus, sąrašą. Pagal numatytuosius parametrus įkeliama 50 elementų, bet kūrėjas gali šį skaičių pakeisti. Daugiau informacijos kūrėjai gali rasti skyriuje [Mobilioji platforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jei jūsų kategorijos sąraše nėra, pasirinkite **Ieskoti**, kad atliktumėte iešką internete. Ieškokite pagal išlaidų kategoriją arba pereikite prie ieškos pagal išlaidų tipą.
 4. Įveskite išlaidų operacijos datą.
 5. Pasirinktinai: įveskite prekybininko sąskaitą.
 6. Įveskite išlaidos sumą.
-7. Pasirinkite išlaidų valiutą. Matysite valiutos kodų, kurie įkelti į programėlę ir skirti naudoti neprisijungus, sąrašą. Pagal numatytuosius parametrus įkeliama 400 valiutų, bet kūrėjas gali šį skaičių pakeisti. Daugiau informacijos kūrėjai gali rasti skyriuje [Mobilioji platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jei jūsų valiutos sąraše nėra, pasirinkite **Ieskoti**, kad atliktumėte iešką internete. Ieškokite pagal valiutą arba pereikite prie ieškos pagal pavadinimą.
+7. Pasirinkite išlaidų valiutą. Matysite valiutos kodų, kurie įkelti į programėlę ir skirti naudoti neprisijungus, sąrašą. Pagal numatytuosius parametrus įkeliama 400 valiutų, bet kūrėjas gali šį skaičių pakeisti. Daugiau informacijos kūrėjai gali rasti skyriuje [Mobilioji platforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jei jūsų valiutos sąraše nėra, pasirinkite **Ieskoti**, kad atliktumėte iešką internete. Ieškokite pagal valiutą arba pereikite prie ieškos pagal pavadinimą.
 8. Pasirinkite **Fotografuoti** arba **Pasirinkti vaizdą**.
 9. Atlikite vieną iš šių veiksmų:
 
@@ -163,11 +163,11 @@ Atsisiųskite ir įdiekite „Dynamics 365 Unified Ops“ mobiliųjų įrengini�
 7. Sąraše pažymėkite vieną arba kelias išlaidas.
 8. Pasirinkite **Atlikta**.
 9. Jei norite įtraukti naują išlaidų ataskaitą, pažymėkite **Naujos išlaidos**.
-10. Pažymėkite išlaidų kategoriją. Matysite išlaidų kategorijų, kurios įkeltos į programėlę ir skirtos naudoti neprisijungus, sąrašą. Pagal numatytuosius parametrus įkeliama 50 elementų, bet kūrėjas gali šį skaičių pakeisti. Daugiau informacijos kūrėjai gali rasti skyriuje [Mobilioji platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jei jūsų kategorijos sąraše nėra, pasirinkite **Ieskoti**, kad atliktumėte iešką internete. Ieškokite pagal išlaidų kategoriją arba pereikite prie ieškos pagal išlaidų tipą.
+10. Pažymėkite išlaidų kategoriją. Matysite išlaidų kategorijų, kurios įkeltos į programėlę ir skirtos naudoti neprisijungus, sąrašą. Pagal numatytuosius parametrus įkeliama 50 elementų, bet kūrėjas gali šį skaičių pakeisti. Daugiau informacijos kūrėjai gali rasti skyriuje [Mobilioji platforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jei jūsų kategorijos sąraše nėra, pasirinkite **Ieskoti**, kad atliktumėte iešką internete. Ieškokite pagal išlaidų kategoriją arba pereikite prie ieškos pagal išlaidų tipą.
 11. Pasirinktinai: įveskite prekybininko sąskaitą.
 12. Įveskite išlaidų operacijos datą.
 13. Įveskite išlaidos sumą.
-14. Pasirinkite išlaidų valiutą. Matysite valiutos kodų, kurie įkelti į programėlę ir skirti naudoti neprisijungus, sąrašą. Pagal numatytuosius parametrus įkeliama 400 valiutų, bet kūrėjas gali šį skaičių pakeisti. Daugiau informacijos kūrėjai gali rasti skyriuje [Mobilioji platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jei jūsų valiutos sąraše nėra, pasirinkite **Ieskoti**, kad atliktumėte iešką internete. Ieškokite pagal valiutą arba pereikite prie ieškos pagal pavadinimą.
+14. Pasirinkite išlaidų valiutą. Matysite valiutos kodų, kurie įkelti į programėlę ir skirti naudoti neprisijungus, sąrašą. Pagal numatytuosius parametrus įkeliama 400 valiutų, bet kūrėjas gali šį skaičių pakeisti. Daugiau informacijos kūrėjai gali rasti skyriuje [Mobilioji platforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jei jūsų valiutos sąraše nėra, pasirinkite **Ieskoti**, kad atliktumėte iešką internete. Ieškokite pagal valiutą arba pereikite prie ieškos pagal pavadinimą.
 15. Pasirinkite **Atlikta**.
 16. Norėdami įtraukti daugiau informacijos į išlaidas, pažymėkite **Įtraukti daugiau informacijos**. Galimi laukai priklauso nuo jūsų įmonės išlaidų valdymo konfigūracijos.
 17. Jei įmonės strategijoje reikia išlaidų gavimo, pasirinkite **Kvitai** ir atlikite šiuos veiksmus:
@@ -213,12 +213,12 @@ Atsisiųskite ir įdiekite „Dynamics 365 Unified Ops“ mobiliųjų įrengini�
 
         - Jei pažymėjote **Ankstesnis svečias**, atlikite šiuos veiksmus:
 
-            1. Sąraše pažymėkite vieną arba kelis ankstesnius svečius. Matote ankstesnių Svečių, kuriuos įtraukėte į ankstesnes išlaidų ataskaitas, įkeliamas į programą, kad būtų galima naudoti neprisijungus, sąrašą. Pagal numatytuosius parametrus įkeliama 50 elementų, bet kūrėjas gali šį skaičių pakeisti. Daugiau informacijos kūrėjai gali rasti skyriuje [Mobilioji platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jei jūsų ankstesnio svečio sąraše nėra, pasirinkite **Ieskoti**, kad atliktumėte iešką internete. Ieškokite pagal pavadinimą arba pereikite prie ieškos pagal organizaciją, šalį ar titulą.
+            1. Sąraše pažymėkite vieną arba kelis ankstesnius svečius. Matote ankstesnių Svečių, kuriuos įtraukėte į ankstesnes išlaidų ataskaitas, įkeliamas į programą, kad būtų galima naudoti neprisijungus, sąrašą. Pagal numatytuosius parametrus įkeliama 50 elementų, bet kūrėjas gali šį skaičių pakeisti. Daugiau informacijos kūrėjai gali rasti skyriuje [Mobilioji platforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jei jūsų ankstesnio svečio sąraše nėra, pasirinkite **Ieskoti**, kad atliktumėte iešką internete. Ieškokite pagal pavadinimą arba pereikite prie ieškos pagal organizaciją, šalį ar titulą.
             2. Pasirinkite **Atlikta**.
 
         - Jei pažymėjote **Bendradarbiai**, atlikite šiuos veiksmus:
 
-            1. Sąraše pažymėkite vieną arba kelis bendradarbius. Matysite bendradarbių, kurie įkelti į programėlę naudoti neprisijungus, sąrašą. Pagal numatytuosius parametrus įkeliama 50 elementų, bet kūrėjas gali šį skaičių pakeisti. Daugiau informacijos kūrėjai gali rasti skyriuje [Mobilioji platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jei jūsų bendradarbio sąraše nėra, pasirinkite **Ieskoti**, kad atliktumėte iešką internete. Ieškokite pagal pavadinimą arba pereikite prie ieškos pagal įmonę ar titulą.
+            1. Sąraše pažymėkite vieną arba kelis bendradarbius. Matysite bendradarbių, kurie įkelti į programėlę naudoti neprisijungus, sąrašą. Pagal numatytuosius parametrus įkeliama 50 elementų, bet kūrėjas gali šį skaičių pakeisti. Daugiau informacijos kūrėjai gali rasti skyriuje [Mobilioji platforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jei jūsų bendradarbio sąraše nėra, pasirinkite **Ieskoti**, kad atliktumėte iešką internete. Ieškokite pagal pavadinimą arba pereikite prie ieškos pagal įmonę ar titulą.
             2. Pasirinkite **Atlikta**.
 
     3. Norėdami grįžti prie išlaidų išsamios informacijos, spustelėkite mygtuką **Atgal**.
@@ -227,7 +227,7 @@ Atsisiųskite ir įdiekite „Dynamics 365 Unified Ops“ mobiliųjų įrengini�
 
     1. Pažymėkite pirmąją datą, kad ją detalizuotumėte.
     2. Pažymėkite **Įtraukti detalizavimą**.
-    3. Pažymėkite išlaidų detalizavimo papildomą kategoriją. Matysite išlaidų papildomų kategorijų, kurios įkeltos į programėlę ir skirtos naudoti neprisijungus, sąrašą. Pagal numatytuosius parametrus įkeliama 50 elementų, bet kūrėjas gali šį skaičių pakeisti. Daugiau informacijos kūrėjai gali rasti skyriuje [Mobilioji platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jei jūsų papildomos kategorijos sąraše nėra, pasirinkite **Ieskoti**, kad atliktumėte iešką internete. Ieškoti pagal išlaidų papildomos kategorijos pavadinimą.
+    3. Pažymėkite išlaidų detalizavimo papildomą kategoriją. Matysite išlaidų papildomų kategorijų, kurios įkeltos į programėlę ir skirtos naudoti neprisijungus, sąrašą. Pagal numatytuosius parametrus įkeliama 50 elementų, bet kūrėjas gali šį skaičių pakeisti. Daugiau informacijos kūrėjai gali rasti skyriuje [Mobilioji platforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jei jūsų papildomos kategorijos sąraše nėra, pasirinkite **Ieskoti**, kad atliktumėte iešką internete. Ieškoti pagal išlaidų papildomos kategorijos pavadinimą.
     4. Įveskite operacijos sumą, skirtą detalizavimui.
     5. Jei reikia, redaguokite operacijos datą.
     6. Pasirinkite **Atlikta**.

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6631e136572b958ca616d708a5e3c3c2d9f2675c
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: ed82cb511337d9f6286e13b244d049022a184eef
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663829"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950634"
 ---
 # <a name="header-details-for-project-opportunities"></a>Projekto galimybių antraštės išsami informacija
 
@@ -33,7 +33,7 @@ Toliau pateiktoje lentelėje yra projektu pagrįstų galimybių laukai, kurie yr
 | Klientų tvarkytuvas | Bendros informacijos skirtukas | Šios projektu pagrįstos galimybės klientų vadybininko vardas. | Klientų vadybininkas yra atsakingas už ryšių su klientu viso projekto metu valdymą. Remiantis rezervuojamų išteklių įrašo susiejimu su klientų vadybininku, sutartį sudarantis vienetas laikomas numatytuoju. |
 | Sutartį sudarantis vienetas | Bendros informacijos skirtukas | Organizacijos vienetas, atsakingas už su šiuo sandoriu susijusio projekto arba projektų pristatymą. | Sutartį sudarantis vienetas yra įmonės padalinys, kuris vykdys projektus po to, kai sandoris bus uždarytas. Kiekvienas sutartį sudarantis vienetas turi valiutą, o ši valiuta naudojama projekto metu padarytoms sąmatinėms ir faktinėms išlaidoms. |
 
-Jei naudojate visus kitus galimybės skirtuko **Suvestinė** laukus ir skyrius, žr. [Galimybių kūrimas arba redagavimas („Sales“ ir „Sales“ telkinys)](https://docs.microsoft.com/dynamics365/sales-enterprise/create-edit-opportunity-sales)
+Jei naudojate visus kitus galimybės skirtuko **Suvestinė** laukus ir skyrius, žr. [Galimybių kūrimas arba redagavimas („Sales“ ir „Sales“ telkinys)](/dynamics365/sales-enterprise/create-edit-opportunity-sales)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

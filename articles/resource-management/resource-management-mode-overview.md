@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 872f4f2878f474e16674932f23fe192c6a8de6eb
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4d132bcbef5421202d2f4899091f0dc75166dd66
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279463"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949959"
 ---
 # <a name="resource-management-modes-overview"></a>Išteklių valdymo režimų apžvalga
 
@@ -29,11 +29,11 @@ Organizacijoms, kuriose išteklių priskyrimas projektams yra centralizuotas, ce
 
 Jei norite valdyti išteklius naudodami centralizuotą režimą, žr.:
 
-- [Bendrųjų rezervuojamų išteklių priskyrimas užduočiai ir išteklių reikalavimų generavimas](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
-- [Įvardytų išteklių rezervavimas iš išteklių reikalavimų](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
-- [Išteklių užklausos pateikimas](https://docs.microsoft.com/dynamics365/project-service/submit-resource-request)
-- [Išteklių užklausos vykdymas](https://docs.microsoft.com/dynamics365/project-service/resource-management-fulfill-requests)
-- [Pasiūlyto projekto ištekliaus iš ištekliaus užklausos priėmimas arba atmetimas](https://docs.microsoft.com/dynamics365/project-service/accept-reject-proposed-resource)
+- [Bendrųjų rezervuojamų išteklių priskyrimas užduočiai ir išteklių reikalavimų generavimas](/dynamics365/project-service/assign-generic-bookable-resource)
+- [Įvardytų išteklių rezervavimas iš išteklių reikalavimų](/dynamics365/project-service/book-named-resource)
+- [Išteklių užklausos pateikimas](/dynamics365/project-service/submit-resource-request)
+- [Išteklių užklausos vykdymas](/dynamics365/project-service/resource-management-fulfill-requests)
+- [Pasiūlyto projekto ištekliaus iš ištekliaus užklausos priėmimas arba atmetimas](/dynamics365/project-service/accept-reject-proposed-resource)
 
 ## <a name="hybrid-mode"></a>Hibridinis režimas
 Organizacijoms, kurioms reikia lankstumo priskiriant išteklius, hibridinis režimas suteikia projektų vadovams ir išteklių vadovams galimybę rezervuoti išteklius.
@@ -43,11 +43,11 @@ Organizacijoms, kurioms reikia lankstumo priskiriant išteklius, hibridinis rež
 Be palaikomo centralizuoto režimo proceso, peržiūrėkite toliau pateiktas temas, kad galėtumėte valdyti visas kitas palaikomas hibridinio režimo rezervavimo eigas:
 
 Tiesioginis ištekliaus rezervavimas projekte:
-- [Įvardytų rezervuojamų išteklių rezervavimas projekto komandai ir užduočių priskyrimas](https://docs.microsoft.com/dynamics365/project-service/assign-named-bookable-resource)
+- [Įvardytų rezervuojamų išteklių rezervavimas projekto komandai ir užduočių priskyrimas](/dynamics365/project-service/assign-named-bookable-resource)
 
 Ištekliaus rezervavimas iš ištekliaus reikalavimo:
-- [Bendrųjų rezervuojamų išteklių priskyrimas užduočiai ir išteklių reikalavimų generavimas](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
-- [Įvardytų išteklių rezervavimas iš išteklių reikalavimų](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+- [Bendrųjų rezervuojamų išteklių priskyrimas užduočiai ir išteklių reikalavimų generavimas](/dynamics365/project-service/assign-generic-bookable-resource)
+- [Įvardytų išteklių rezervavimas iš išteklių reikalavimų](/dynamics365/project-service/book-named-resource)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
