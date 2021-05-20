@@ -1,9 +1,9 @@
 ---
 title: Projekto kalendorių apibrėžimas
-description: Šioje temoje pateikta informacija apie projekto kalendoriaus naudojimą projekto grafike sekti.
+description: Šioje temoje pateikiama informacijos apie tai, kaip projektui taikyti kalendoriaus šabloną projekto grafikui sekti.
 author: ruhercul
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -17,38 +17,49 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e25b11b6b947627ca2ac88952e74aecccc346c89
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1d5642d7a2246dc878b2bc4f504f138b71d29a69
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286978"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981310"
 ---
-# <a name="define-project-calendars"></a><span data-ttu-id="89bfd-103">Projekto kalendorių apibrėžimas</span><span class="sxs-lookup"><span data-stu-id="89bfd-103">Define project calendars</span></span>
+# <a name="define-project-calendars"></a><span data-ttu-id="3432c-103">Projekto kalendorių apibrėžimas</span><span class="sxs-lookup"><span data-stu-id="3432c-103">Define project calendars</span></span>
 
-<span data-ttu-id="89bfd-104">_**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_</span><span class="sxs-lookup"><span data-stu-id="89bfd-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="3432c-104">_**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_</span><span class="sxs-lookup"><span data-stu-id="3432c-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-<span data-ttu-id="89bfd-105">Norėdami sukurti projekto grafiką, sukuriate projekto kalendoriaus šabloną, nurodydami dienos darbo valandų skaičių ir kada įmonės nedirba.</span><span class="sxs-lookup"><span data-stu-id="89bfd-105">To create a project schedule, you create a project calendar template that defines the number of working hours per day and any business closures.</span></span> <span data-ttu-id="89bfd-106">Norėdami sukurti projekto kalendoriaus šabloną, susiejate darbo šabloną su projekto **Kalendoriaus šablonas** lauku.</span><span class="sxs-lookup"><span data-stu-id="89bfd-106">To create a project calendar template, you associate a work template with the **Calendar template** field for the project.</span></span> <span data-ttu-id="89bfd-107">Norėdami sukurti darbo šabloną, atlikite šiuos veiksmus.</span><span class="sxs-lookup"><span data-stu-id="89bfd-107">Follow these steps to create a work template.</span></span>
+<span data-ttu-id="3432c-105">Norėdami sukurti ir tvarkyti projektą, projektui turite pritaikyti kalendoriaus šabloną.</span><span class="sxs-lookup"><span data-stu-id="3432c-105">To create and manage a project, you must apply a calendar template to the project.</span></span> <span data-ttu-id="3432c-106">Kalendoriaus šablonas apibrėžia toliau nurodytus projekto atributus.</span><span class="sxs-lookup"><span data-stu-id="3432c-106">The calendar template defines the following project attributes:</span></span>
 
-1. <span data-ttu-id="89bfd-108">Kairėje naršymo srityje pasirinkite **Ištekliai**.</span><span class="sxs-lookup"><span data-stu-id="89bfd-108">In the left navigation pane, select **Resources**.</span></span> 
-2. <span data-ttu-id="89bfd-109">Sąrašo puslapyje **Ištekliai** atidarykite vartotojo įrašą, tada pažymėkite **Rodyti darbo valandas**.</span><span class="sxs-lookup"><span data-stu-id="89bfd-109">On the **Resources** list page, open a user record, and then select **Show Work Hours**.</span></span>
+- <span data-ttu-id="3432c-107">Darbo valandos, įskaitant pradžios ir pabaigos laiką</span><span class="sxs-lookup"><span data-stu-id="3432c-107">Working hours, including start and end time</span></span>
+- <span data-ttu-id="3432c-108">Darbo dienos</span><span class="sxs-lookup"><span data-stu-id="3432c-108">Working days</span></span>
+- <span data-ttu-id="3432c-109">Kalendoriaus išimtys, pvz., ne darbo dienos</span><span class="sxs-lookup"><span data-stu-id="3432c-109">Calendar exceptions such as non-working days</span></span>
 
-  > [!NOTE]
-  > <span data-ttu-id="89bfd-110">Įsitikinkite, kad naršyklėje leidžiami iššokantieji langai.</span><span class="sxs-lookup"><span data-stu-id="89bfd-110">Make sure that you allow pop-ups on the browser page.</span></span> <span data-ttu-id="89bfd-111">Taip galėsite matyti ištekliui nustatytas darbo valandas.</span><span class="sxs-lookup"><span data-stu-id="89bfd-111">This lets you see the work hours set for the resource.</span></span>
-  
-3. <span data-ttu-id="89bfd-112">Skirtuke **Mėnesio rodinys** spustelėkite **Nustatyti**.</span><span class="sxs-lookup"><span data-stu-id="89bfd-112">On the **Monthly View** tab, select **Set Up**.</span></span> <span data-ttu-id="89bfd-113">Bus rodomas trijų parinkčių sąrašas:</span><span class="sxs-lookup"><span data-stu-id="89bfd-113">A list of three options appears:</span></span> 
+<span data-ttu-id="3432c-110">Projektui taikomas kalendoriaus šablonas yra kalendoriaus šablono, apibrėžto organizacijos parametruose, kopija.</span><span class="sxs-lookup"><span data-stu-id="3432c-110">The calendar template that's applied to a project is a copy of the calendar template defined in your organization’s settings.</span></span>
 
-  - <span data-ttu-id="89bfd-114">Naujas savaitės grafikas</span><span class="sxs-lookup"><span data-stu-id="89bfd-114">New Weekly Schedule</span></span>
-  - <span data-ttu-id="89bfd-115">Vienos dienos darbo grafikas</span><span class="sxs-lookup"><span data-stu-id="89bfd-115">Work Schedule for One Day</span></span>
-  - <span data-ttu-id="89bfd-116">Ne darbo laikas</span><span class="sxs-lookup"><span data-stu-id="89bfd-116">Time Off</span></span>
+> [!NOTE]
+> <span data-ttu-id="3432c-111">Jei kalendoriaus šabloną pakeičiate, šie pakeitimai neišplatinami į projekto darbo valandas.</span><span class="sxs-lookup"><span data-stu-id="3432c-111">If you change the calendar template, those changes don't propagate to the working hours of the project.</span></span> <span data-ttu-id="3432c-112">Norint pakeisti projekto darbo valandas, reikia pritaikyti naują šabloną.</span><span class="sxs-lookup"><span data-stu-id="3432c-112">To change the working hours of the project, a new template must be applied.</span></span>
 
-4. <span data-ttu-id="89bfd-117">Pažymėkite **Naujas savaitės grafikas** ir nustatykite šio išteklių grafiko parinktis.</span><span class="sxs-lookup"><span data-stu-id="89bfd-117">Select **New Weekly Schedule**, and then set the options for this resource schedule.</span></span> <span data-ttu-id="89bfd-118">Galite nustatyti pasikartojantį savaitinį grafiką, dienos darbo valandų parametrus, įmonės ne darbo laiką ir kt.</span><span class="sxs-lookup"><span data-stu-id="89bfd-118">You can set a recurring weekly schedule, daily hour parameters, business closures, and more.</span></span>
-5. <span data-ttu-id="89bfd-119">Nustatykite datų intervalą pasirinkdami **Įrašyti**, tada spustelėkite **Uždaryti**.</span><span class="sxs-lookup"><span data-stu-id="89bfd-119">Set the date range, select **Save**, and then select **Close**.</span></span> 
-6. <span data-ttu-id="89bfd-120">Grįžkite į sąrašo puslapį **Ištekliai** ir pažymėkite išteklių, kuriam nustatėte darbo valandas.</span><span class="sxs-lookup"><span data-stu-id="89bfd-120">Go back to the **Resources** list page, and select the resource that you set the work hours for.</span></span> 
-7. <span data-ttu-id="89bfd-121">Pažymėkite **Nustatyti kalendorių kaip** nustatyti darbo šabloną.</span><span class="sxs-lookup"><span data-stu-id="89bfd-121">Select **Set Calendar As** to set the work template.</span></span> 
-8. <span data-ttu-id="89bfd-122">Dialogo lange **Darbo šablonas** įveskite darbo šablono pavadinimą, tada pasirinkite **Taikyti**.</span><span class="sxs-lookup"><span data-stu-id="89bfd-122">In the **Work Template** dialog box, enter a name for the work template, and then select **Apply**.</span></span> 
+<span data-ttu-id="3432c-113">Norint sukurti savo organizacijos kalendoriaus šabloną, taikomi du pagrindiniai toliau nurodyti reikalavimai.</span><span class="sxs-lookup"><span data-stu-id="3432c-113">To create a calendar template for your organization, there are two key requirements:</span></span>
 
-<span data-ttu-id="89bfd-123">Dabar galite susieti darbo šabloną su projekto kalendoriaus šablonu.</span><span class="sxs-lookup"><span data-stu-id="89bfd-123">You can now associate the work template with a project calendar template.</span></span>
+- <span data-ttu-id="3432c-114">Apibrėžkite norimas šablono darbo valandas naudodami naują arba esamą rezervuojamąjį išteklių.</span><span class="sxs-lookup"><span data-stu-id="3432c-114">Define the desired working hours of the template using a new or existing bookable resource.</span></span>
+- <span data-ttu-id="3432c-115">Sukurkite naują kalendoriaus šabloną ir jį susiekite su rezervuojamuoju ištekliumi.</span><span class="sxs-lookup"><span data-stu-id="3432c-115">Create a new calendar template and associate the template with the bookable resource.</span></span>
+
+<span data-ttu-id="3432c-116">**Šablono darbo valandų apibrėžimas**</span><span class="sxs-lookup"><span data-stu-id="3432c-116">**Define the working hours of the template**</span></span>
+
+1. <span data-ttu-id="3432c-117">Eikite į **Ištekliai** \> **Ištekliai**.</span><span class="sxs-lookup"><span data-stu-id="3432c-117">Go to **Resources** \> **Resources**.</span></span>
+2. <span data-ttu-id="3432c-118">Sukurkite naują išteklių, kurį norite nurodyti kalendoriaus šablone, arba pasirinkite esamą išteklių.</span><span class="sxs-lookup"><span data-stu-id="3432c-118">Create a new resource to reference in the calendar template, or select an existing resource.</span></span>
+3. <span data-ttu-id="3432c-119">Pasirinkite ištekliaus skirtuką **Darbo valandos** ir vykdykite nurodymus, pateiktus dalyje [Ištekliaus darbo valandų nustatymas](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource), kad būtų sukonfigūruotos kalendoriaus taisyklės.</span><span class="sxs-lookup"><span data-stu-id="3432c-119">Select the **Work Hours** tab of the resource and complete the instructions in [Set work hours for a resource](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) to configure the calendar rules.</span></span>
+
+<span data-ttu-id="3432c-120">**Naujo kalendoriaus šablono sukūrimas**</span><span class="sxs-lookup"><span data-stu-id="3432c-120">**Create a new calendar template**</span></span>
+
+1. <span data-ttu-id="3432c-121">Nueikite į **Parametrai** \> **Kalendoriaus šablonas**.</span><span class="sxs-lookup"><span data-stu-id="3432c-121">Go to **Settings** \> **Calendar Template**.</span></span>
+2. <span data-ttu-id="3432c-122">Pasirinkite **Naujas** ir įveskite pavadinimą, aprašą bei šablono išteklių.</span><span class="sxs-lookup"><span data-stu-id="3432c-122">Select **New**, and enter a name, description, and template resource.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="3432c-123">Kai išteklius yra nurodomas kalendoriaus šablone, ištekliaus kalendoriaus kopija susiejama su kalendoriaus šablonu.</span><span class="sxs-lookup"><span data-stu-id="3432c-123">When a resource is referenced in a calendar template, a copy of the resource’s calendar is associated with the calendar template.</span></span> <span data-ttu-id="3432c-124">Jei nukopijuoto šablono darbo valandos pasikeičia, šie pakeitimai neišplatinami į kalendoriaus šabloną.</span><span class="sxs-lookup"><span data-stu-id="3432c-124">If the working hours of the copied template change, those changes will not propagate to the calendar template.</span></span>
+
+<span data-ttu-id="3432c-125">Dabar galite susieti darbo šabloną su projekto kalendoriaus šablonu.</span><span class="sxs-lookup"><span data-stu-id="3432c-125">You can now associate the work template with a project calendar template.</span></span>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+
