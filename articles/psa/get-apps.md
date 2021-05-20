@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 059409398d7dc3074f0ec852a8e295b2c3d5504f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cea18b38a69be518bf072cd11ee8757034c0479c
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284458"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947979"
 ---
 # <a name="get-the-apps-project-service"></a>Programų gavimas („Project Service“)
 
@@ -30,7 +30,7 @@ ms.locfileid: "5284458"
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Jei savo laiko sąnaudas ir išlaidas norite įvesti mobiliajame įrenginyje, žr. [„Dynamics 365 for phones and tablets“ gavimas ir diegimas](https://docs.microsoft.com/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).  
+Jei savo laiko sąnaudas ir išlaidas norite įvesti mobiliajame įrenginyje, žr. [„Dynamics 365 for phones and tablets“ gavimas ir diegimas](/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).  
   
  Be to, naudodamiesi „Project Finder Mobile“ telefone, galite susirasti naują darbo projektą ir kreiptis dėl jo skyrimo jums. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Raskite savo kitą projektą naudodami „Project Finder Mobile“ programėlę](../psa/find-next-project-finder-mobile-app.md) 
   

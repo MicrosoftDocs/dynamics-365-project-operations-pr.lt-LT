@@ -3,17 +3,17 @@ title: „Azure“ prenumeratos įtraukimas į LCS projektą
 description: Šioje temoje pateikta informacija apie tai, kaip prijungti „Azure“ prenumeratą prie LCS projekto.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: ad1ddd69cbb8db7780b8277a7ed7533d3ea3d053
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a80c926ba67a1620e39d8c7677a05678454e6340
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289919"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880548"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>„Azure“ prenumeratos įtraukimas į LCS projektą
 
@@ -62,7 +62,7 @@ Dabar autorizavimas baigtas.
 3. Lauke **Konfigūruoti naudoti „Azure Resource Manager“** pasirinkite **Taip**.
 4. Įsitikinkite, kad „Azure“ prenumeratos AAD nuomotojo domenas atitinka domeno „Azure“ prenumeratą, kurią naudojate, ir pažymėkite **Kitas**.
 5. Ekrane **„Microsoft Azure“ sąranka** pasirinkite **Kitas**, kad patvirtintumėte. Jei šiame ekrane įvyksta klaida, grįžkite į skyrių [„Dynamics Deployment Services“ prieigos prie jūsų „Azure“ prenumeratos suteikimas](#provide)ir įsitikinkite, kad atlikote visus veiksmus.
-6. Atsisiųskite „Azure Management Certificate“ į vietinį aplanką savo kompiuteryje, tada įkelkite jį į „Azure Management Portal“ įėję į **Parametrai** > **Valdymo sertifikatai**. Šis sertifikatas leis LCS užmegzti ryšį su „Azure“ jūsų vardu. Šį veiksmą galite praleisti, jei jūsų vartotojas turi prieigą prie prenumeratos.
+6. Į vietinį aplanką savo kompiuteryje atsisiųskite „Azure“ tvarkymo sertifikatą. Paprašykite savo „Azure“ prenumeratos administratoriaus sertifikatą nusiųsti į „Azure“ tvarkymo portalą (reikia pasirinkti prenumeratą ir nueiti į **Parametrai** > **Tvarkymo sertifikatai**). Šis sertifikatas leidžia LCS palaikyti ryšį su „Azure“ jūsų vardu. Šį veiksmą galite praleisti, jei jūsų vartotojas turi prieigą prie prenumeratos.
 7. Pasirinkite **Toliau**.
 8. Pažymėkite „Azure“ regioną, skirtą visuotinai diegti, ir pasirinkite duomenų centrą, esantį netoli tos sistemos, kurią ketinate naudoti.
 9.  Pasirinkite **Prisijungti**.

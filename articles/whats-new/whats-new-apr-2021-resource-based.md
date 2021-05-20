@@ -3,18 +3,18 @@ title: Kas nauja 2021 m. balandžio mėn. – „Project Operations“, skirtai 
 description: Šioje temoje pateikiama informacija apie kokybės naujinimus, pasiekiamus 2021 m. balandžio mėn. „Project Operations“, skirtoje ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams.
 author: sigitac
 manager: tfehr
-ms.date: 04/05/2021
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 359d39898ed60c7253b122cb884465fbd9605e0c
-ms.sourcegitcommit: 8ff9fe396db6dec581c21cd6bb9acc2691c815b0
+ms.openlocfilehash: 339a488908add09c5e4f62568bb83b78450e7082
+ms.sourcegitcommit: 69fadd3ce475d6aed2e1ed81a15becb28f020eb9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5868003"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935484"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Kas nauja 2021 m. balandžio mėn. – „Project Operations“, skirtai ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams
 
@@ -33,8 +33,26 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
   - Nelaikomų medžiagų įvertinimas ir įkainojimas projekto pardavimo ciklo metu. Norėdami gauti daugiau informacijos, žr. [Katalogo produktų savikainos ir pardavimo kainų sąranka – „Lite“ versija](../pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md).
   - Nelaikomų medžiagų naudojimo sekimas projekto pristatymo metu. Norėdami gauti daugiau informacijos, žr. [Medžiagos naudojimo projektuose ir projekto užduotyse įrašymas](../material/material-usage-log.md).
   - Sąskaitų faktūrų išrašymas už nelaikomų medžiagų savikainas. Norėdami gauti daugiau informacijos, žr. [Atsiskaitymo nebaigtų užduočių tvarkymas](../proforma-invoicing/manage-billing-backlog.md).
+  - Norėdami sužinoti, kaip konfigūruoti šią funkciją, žr. [Atsargose nelaikomų medžiagų ir laukiančių tiekėjo sąskaitų faktūrų konfigūravimas](../procurement/configure-materials-nonstocked.md)
 - Užduotimi pagrįstas atsiskaitymas: įtraukta galimybė susieti projekto užduotis su projekto sutarties eilutėmis ir taip pritaikyti jas pagal tą patį atsiskaitymo būdą, sąskaitų faktūrų išrašymo dažnumą ir klientus, kurie nurodyti sutarties eilutėje. Šis susiejimas užtikrina tikslų sąskaitų faktūrų išrašymą, apskaitą, pajamų įvertinimą ir pripažinimą dirbti pagal šią projekto užduočių sąranką.
 - Naujos API programoje „Dynamics 365 Dataverse“ leidžia kurti, naujinti ir naikinti operacijas naudojant **grafiko objektus**. Norėdami gauti daugiau informacijos, žr. [Grafiko API naudojimas norint atlikti operacijas su grafiko objektais](../project-management/schedule-api-preview.md).
+
+## <a name="project-operations-dual-write-maps-updates"></a>„Project Operations“ dvigubo rašymo schemų naujinimai
+
+Toliau pateiktame sąraše parodytos dvigubo rašymo schemos, modifikuotos arba įtrauktos „Project Operations“ 2021 m. balandžio mėn. leidime.
+
+| **Objekto schema** | **Atnaujinta versija** | **Komentarai** |
+| --- | --- | --- |
+| „Project Operations“ integravimo faktiniai duomenys (msdyn\_actuals) | 1.0.0.14 | Schema modifikuota norint sinchronizuoti medžiagų projektų faktinius duomenis. |
+| „Project Operations“ integravimo objektas, skirtas išlaidų įvertinimams (msdyn\_estimateslines) | 1.0.0.2 | Į „Finance and Operations“ programas įtraukta projekto sutarčių eilučių sinchronizavimo galimybė, kad būtų palaikomas užduotimis pagrįstas atsiskaitymas. |
+| „Project Operations“ integravimo objektas, skirtas valandų įvertinimams (msdyn\_resourceassignments) | 1.0.0.5 | Į „Finance and Operations“ programas įtraukta projekto sutarčių eilučių sinchronizavimo galimybė, kad būtų palaikomas užduotimis pagrįstas atsiskaitymas. |
+| „Project Operations“ integravimo lentelė, skirta medžiagų įvertinimams (msdyn\_estimatelines) | 1.0.0.0 | Nauja lentelės schema, naudojama medžiagų įvertinimus sinchronizuojant iš „Dataverse“ su „Finance and Operations“ programomis. |
+| „Project Operations“ integravimo projekto tiekėjų sąskaitų faktūrų eksportavimo objektas (msdyn\_projectvendorinvoices) | 1.0.0.0 | Nauja lentelės schema, naudojama tiekėjų sąskaitų faktūrų antraštes sinchronizuojant iš „Finance and Operations“ programų su „Dataverse“. |
+| „Project Operations“ integravimo projekto tiekėjų sąskaitų eilučių eksportavimo objektas (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Nauja lentelės schema, naudojama tiekėjų sąskaitų faktūrų eilutes sinchronizuojant iš „Finance and Operations“ programų su „Dataverse“. |
+
+Savo aplinkoje visada turėtumėte naudoti naujausią schemos versiją, o, naujindami „Project Operations“ „Dataverse“ sprendimo ir „Finance and Operations“ sprendimo versiją, turėtumėte įjungti visas susijusias lentelių schemas. Jei nesuaktyvinama naujausia schemos versija, kai kurios funkcijos ir galimybės gali veikti netinkamai. Aktyvią schemos versiją galite matyti puslapio **Dvigubas rašymas** stulpelyje **Versija**. Suaktyvinti naują schemos versiją galite pasirinkdami **Lentelės schemos versijos**, tada – naujausią versiją, tada pasirinktą versiją įrašydami. Jei tinkinote parengtą naudoti lentelės schemą, pakeitimus pritaikykite iš naujo. Norėdami sužinoti daugiau, žr. [Programų ciklo valdymas](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+
+Jei paleidžiant schemą kyla kokia nors problema, vykdykite nurodymus, pateikiamus dvigubo rašymo trikčių šalinimo vadovo skyriuje [Trūkstamų lentelių stulpelių problema schemose](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps).
 
 ## <a name="quality-updates"></a>Kokybės naujinimai
 
@@ -67,7 +85,7 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 
 | **Funkcijų sritis** | **Nuorodos numeris** | **Kokybės naujinimas** |
 | --- | --- | --- |
-| Projektų valdymas ir apskaita | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | Dalyje **Periodinis** neveikia įvertinimo atšaukimo pašalinimas.  |
+| Projektų valdymas ir apskaita | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | Atvirkštinio įvertinimo pašalinimas neveikia skyriuje **Periodinis**.  |
 | Projektų valdymas ir apskaita | [509773](https://fix.lcs.dynamics.com/Issue/Details/?bugId=509773) | Naudojant funkciją **Apskaitos koregavimas** kyla problema dėl didžiosios knygos sąskaitų, kuriose pasirinkta **Neleisti įvesti neautomatiniu būdu**. |
 | Projektų valdymas ir apskaita | [510728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=5109728) | Įtraukta verslo logika, kad būtų apdorojamos taisytos sąskaitos faktūros, įskaitant išankstinio apmokėjimo sumą arba pritaikytą išankstinio apmokėjimo sumą. |
 | Projektų valdymas ir apskaita | [514364](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514364) | NG pardavimų reikšmę registruojant vidinės įmonės projekto SF, pasirenkamas netikėtas klientas. |

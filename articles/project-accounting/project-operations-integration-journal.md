@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 0021147530d1aa9f82cc54ca8c92b9977c1eea2c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4a5f4d524530594bd3118f9b320acf4033c5d503
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287248"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948340"
 ---
 # <a name="integration-journal-in-project-operations"></a>Integravimo žurnalas programoje „Project Operations“
 
@@ -38,7 +38,7 @@ Sistema grupuoja žurnalo eilutes į atskirus žurnalus pagal vertę, pažymėt�
 Žurnalo eilutės kuriamos pagal projekto faktinius duomenis. Toliau pateiktame sąraše nurodytos kelios svarbios numatytųjų nustatymų ir transformacijos taisyklės.
 
   - Kiekvieno projekto faktinė operacija turi eilutę „Project Operations“ integravimo žurnale. Išlaidų operacijos ir pardavimo operacijos, kurioms neišrašyta sąskaita, priklausančios laiko ir medžiagų atsiskaitymo tipui, rodomos atskirose eilutėse.
-  - Lauke **Data** nurodoma operacijos data. Lauke **Apskaitos data** nurodoma data, kai operacija buvo įrašyta į knygą. Jei apskaitos data yra [uždarytame finansiniame laikotarpyje](https://docs.microsoft.com/dynamics365/finance/general-ledger/close-general-ledger-at-period-end), o parametras **Automatiškai nustatyti apskaitos datą, siekiant atidaryti knygos laikotarpį** nustatytas skirtuke **Finansų**, esančiame puslapyje **Projektų valdymo ir apskaitos parametrai**, sistema koreguos operacijos apskaitos datą į pirmą kito atidaryto knygos laikotarpio datą.
+  - Lauke **Data** nurodoma operacijos data. Lauke **Apskaitos data** nurodoma data, kai operacija buvo įrašyta į knygą. Jei apskaitos data yra [uždarytame finansiniame laikotarpyje](/dynamics365/finance/general-ledger/close-general-ledger-at-period-end), o parametras **Automatiškai nustatyti apskaitos datą, siekiant atidaryti knygos laikotarpį** nustatytas skirtuke **Finansų**, esančiame puslapyje **Projektų valdymo ir apskaitos parametrai**, sistema koreguos operacijos apskaitos datą į pirmą kito atidaryto knygos laikotarpio datą.
   - Lauke **Kvitas** rodomas kiekvienos faktinės operacijos kvito numeris. Kvitų numerių seka yra nurodyta puslapio **Projektų valdymo ir apskaitos parametrai** skirtuke **Numerių sekos**. Kiekvienai eilutei priskiriamas naujas numeris. Paskelbę kvitą, galite peržiūrėti, kaip yra susijusios išlaidų operacijos ir pardavimo operacijos, kurioms neišrašyta sąskaita, pasirinkdami **Susiję kvitai** puslapyje **Kvito operacija**.
   - Laukas **Kategorija** atitinka projekto operaciją ir numatytąsias reikšmes pagal susijusio projekto faktinių duomenų operacijos kategoriją.
     - Jei **Operacijos kategorija** nustatyta projekto faktiniuose duomenyse, o susijusi **Projekto kategorija** yra nurodytame juridiniame subjekte, pagal numatytuosius nustatymus kategorija priskiriama šiai projekto kategorijai.

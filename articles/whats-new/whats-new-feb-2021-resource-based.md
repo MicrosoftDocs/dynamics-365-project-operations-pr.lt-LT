@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 12708a9b847f1f87ee0f5f45688adf48638d709f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 8270214d47f712cdb0942991b0ffb5baff64cbfb
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291899"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948024"
 ---
 # <a name="whats-new-february-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021 m. vasario mėn. naujienos – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams
 
@@ -53,7 +53,7 @@ Daugiau informacijos apie projektų valdymą ir apskaitą „Dynamics 365 Financ
 
 ## <a name="regulatory-updates"></a>Reguliavimo naujinimai
 
-Norėdami gauti informacijos apie „Finance and Operations” programų reguliavimo naujinimus, žr. [Reguliavimo naujinimai](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Kitas būdas sužinoti apie reguliavimo atnaujinimus – prisijungti prie „Lifecycle Services“ (LCS) ir peržiūrėti suplanuotus reguliavimo naujinimus naudojant problemų ieškos įrankį. Problemų ieška leidžia ieškoti pagal šalį, funkcijos tipą ir leidimą.
+Norėdami gauti informacijos apie „Finance and Operations” programų reguliavimo naujinimus, žr. [Reguliavimo naujinimai](/dynamics365/finance/localizations/regulatory-updates). Kitas būdas sužinoti apie reguliavimo atnaujinimus – prisijungti prie „Lifecycle Services“ (LCS) ir peržiūrėti suplanuotus reguliavimo naujinimus naudojant problemų ieškos įrankį. Problemų ieška leidžia ieškoti pagal šalį, funkcijos tipą ir leidimą.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

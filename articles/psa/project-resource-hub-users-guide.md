@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e27cc0919272784a030374f457d1ab1dccc1f9f1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2450c00bae9eeb31d3b4bb14e6255e0681997672
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283783"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948158"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Projekto išteklių telkinio vartotojo vadovas
 
@@ -48,7 +48,7 @@ Projekto išteklių telkinio programa suteikia galimybę iš bet kurios vietos �
 ## <a name="install-the-mobile-app"></a>Mobiliųjų įrenginių programėlės diegimas
 Prieš naudodami projekto išteklių telkinio programą turite įdiegti mobiliųjų įrenginių programėlę savo įrenginyje. 
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [„Dynamics 365 for phones and tablets“ diegimas](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [„Dynamics 365 for phones and tablets“ diegimas](/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets)
 
 ## <a name="basic-navigation"></a>Pagrindiniai naršymo veiksmai
 1.  Kai prisijungsite prie mobiliosios programėlės, pamatysite puslapį Mano programos, kuriame pateiktas galimų naudoti programų sąrašas. 
@@ -99,7 +99,7 @@ Savo išlaidas įveskite bent kartą per savaitę arba taip dažnai, kaip nurodo
 5. Tęskite įvesdami savaitės išlaidas. Baigę, jei viskas atrodo teisingai, bakstelėkite **Pateikti**. Išlaidas peržiūri ir tvirtina jūsų vadovas.
 
 ## <a name="general-information-on-how-to-use-the-mobile-app"></a>Bendra informacija apie tai, kaip naudoti mobiliųjų įrenginių programą 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [„Mobile“ pagrindinis vadovas](https://docs.microsoft.com/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [„Mobile“ pagrindinis vadovas](/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).
 
 ### <a name="see-also"></a>Taip pat žr.  
  [„Project Service“ apžvalga](../psa/overview.md)   

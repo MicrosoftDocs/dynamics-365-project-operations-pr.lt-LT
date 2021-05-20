@@ -3,17 +3,17 @@ title: Įmonės vidaus kliento ir tiekėjo sąskaitų faktūrų kūrimas
 description: Šioje temoje pateikiama informacija, kaip kurti įmonės vidaus klientų ir tiekėjų sąskaitas faktūras.
 author: sigitac
 manager: tfehr
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dd9aa1a4d167d556206a487e79983090b3f4592a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 92d08537fe0c2a1deba486974db53e7ebe1ff2d8
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287473"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948405"
 ---
 # <a name="create-intercompany-customer-and-vendor-invoices"></a>Įmonės vidaus kliento ir tiekėjo sąskaitų faktūrų kūrimas
 
@@ -25,7 +25,9 @@ Skolinimo juridinio objekto projekto apskaitininkas gali nustatyti paketinį pro
 
 ## <a name="manually-create-an-intercompany-customer-invoice-for-project-transactions"></a>Neautomatinis įmonės vidaus klientų sąskaitų faktūrų, skirtų projekto operacijoms, kūrimas 
 
-Šią procedūrą naudokite, jei norite neautomatiškai kurti įmonės vidaus klientų sąskaitas faktūras, skirtas projekto operacijoms. Ieškokite valandų, kurias užregistravo su projektais dirbantys darbuotojai skolinimosi juridiniuose objektuose, ir išlaidų, kurias patyrė jūsų juridinis objektas dėl skolinimosi juridinių objektų. Galite ieškoti pagal juridinio objekto pavadinimą, projekto sutarties numerį, projekto numerį, datos diapazoną arba pagal bet kokį šių parinkčių derinį. Ieškos rezultatuose pasirinkite operacijas, kurias norite įtraukti į įmonės vidaus sąskaitą faktūrą.
+Šią procedūrą naudokite, jei norite neautomatiškai kurti įmonės vidaus klientų sąskaitas faktūras, skirtas projekto operacijoms. Ieškokite valandų, kurias užregistravo su projektais dirbantys darbuotojai skolinimosi juridiniuose objektuose, ir išlaidų, kurias patyrė jūsų juridinis objektas dėl skolinimosi juridinių objektų. Galite ieškoti pagal juridinio objekto pavadinimą, projekto sutarties numerį, projekto numerį, datos diapazoną arba pagal bet kokį šių parinkčių derinį. Ieškos rezultatuose pasirinkite operacijas, kurias norite įtraukti į įmonės vidaus sąskaitą faktūrą. 
+
+Skolinančiajame juridiniame subjekte reikia atlikti toliau nurodytus veiksmus. 
 
 1. Programoje „Dynamics 365 Finance“ eikite į **Projektų valdymas ir apskaita** > **Projekto sąskaitos faktūros** > **Vidinių įmonių klientų SF**. **Vidinių įmonių klientų SF** sąrašo puslapyje esančioje veiksmų srityje pasirinkite **Naujas.**
 2. Puslapyje **Kurti vidinės įmonės SF**, lauke **Juridinis objektas**, pasirinkite skolinimosi juridinį objektą.
@@ -35,9 +37,9 @@ Skolinimo juridinio objekto projekto apskaitininkas gali nustatyti paketinį pro
 6. Ieškos rezultatuose pasirinkite operacijas, kurias norite įtraukti į įmonės vidaus sąskaitos faktūros pasiūlymą, tada pasirinkite **Gerai**.
 7. **Vidinių įmonių klientų SF** puslapyje rodomos iš ieškos rezultatų pasirinktos įmonės vidaus projekto operacijos. Jei norite modifikuoti operacijas prieš išsiųsdami sąskaitą faktūrą skolinimosi juridiniam objektui, atlikite toliau nurodytus veiksmus:
   
-    1. Atidarykite puslapį **Kurti SF pasiūlymą**. Pasirinkite papildomas šios sąskaitos faktūros įmonės vidaus operacijas, o tada pasirinkite **Įtraukti eilutę**.
+    1. Puslapyje **Vidinės įmonės kliento sąskaita faktūra** atidarykite sąskaitos faktūros išsamią informaciją ir pasirinkite **Įtraukti eilutę**.
     2. Jei norite eilutę pašalinti, pažymėkite ją, tada pasirinkite **Šalinti**.
-    3. Peržiūrėkite komentarus, priežastis, finansines dimensijas ir kitą informaciją apie pasirinktą eilutę, naudodami **Sąskaitos faktūros eilutės**  „FastTab“.
+    3. Peržiūrėdami sąskaitos faktūros eilutės išsamią informaciją, galite matyti komentarus, priežastis, finansines dimensijas ir kitą informaciją.
     
 8. Jei įmonės vidaus kliento sąskaitą faktūrą norite užregistruoti, veiksmų srityje pasirinkite **Registruoti**.
 
@@ -52,7 +54,7 @@ Vienu metu galite sukurti keletą įmonės vidaus sąskaitų faktūrų visiems s
 2. Puslapyje **Kurti vidinių įmonių klientų SF**, lauke **Įmonė**, pasirinkite juridinį objektą, kuriam kurti sąskaitą faktūrą. Jei nepasirinksite įmonės, bus rodomos visų skolinimosi juridinių objektų visos operacijos, atitinkančios ieškos kriterijus.
 3. Dalyje **Kurti po vieną SF** pasirinkite, ar kurti įmonės vidaus operacijų sąskaitą faktūrą pagal projektą ar pagal skolinimosi juridinį objektą.
 4. Pasirinktinai: jei norite pasirinkti konkretų projektą ir projekto sutartį, kad būtų sukurtos įmonės vidaus sąskaitos faktūros, spustelėkite **Pasirinkti**. Puslapyje **Užklausa**, lauke **Kriterijai**, pasirinkite projekto sutartį, projekto numerį (arba abu), o tada pasirinkite **Gerai**.
-5. Skirtuke **Paketas** nustatykite paketinį procesą, kad įmonės vidaus sąskaitos faktūros būtų kuriamos reguliariai. Daugiau informacijos žr. [Paketinio apdorojimo užduoties pateikimas naudojant formą](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/submit-a-batch-processing-job-from-a-form).
+5. Skirtuke **Paketas** nustatykite paketinį procesą, kad įmonės vidaus sąskaitos faktūros būtų kuriamos reguliariai. Daugiau informacijos žr. [Paketinio apdorojimo užduoties pateikimas naudojant formą](/dynamicsax-2012/appuser-itpro/submit-a-batch-processing-job-from-a-form).
 6. Jei įmonės vidaus sąskaitas faktūras norite užregistruoti, veiksmų srityje pasirinkite **Registruoti**.
 
 > [!NOTE]
