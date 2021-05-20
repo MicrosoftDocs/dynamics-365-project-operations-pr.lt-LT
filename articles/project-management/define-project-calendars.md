@@ -1,9 +1,9 @@
 ---
 title: Projekto kalendorių apibrėžimas
-description: Šioje temoje pateikta informacija apie projekto kalendoriaus naudojimą projekto grafike sekti.
+description: Šioje temoje pateikiama informacijos apie tai, kaip projektui taikyti kalendoriaus šabloną projekto grafikui sekti.
 author: ruhercul
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -17,38 +17,49 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e25b11b6b947627ca2ac88952e74aecccc346c89
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1d5642d7a2246dc878b2bc4f504f138b71d29a69
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286978"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981310"
 ---
 # <a name="define-project-calendars"></a>Projekto kalendorių apibrėžimas
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
-Norėdami sukurti projekto grafiką, sukuriate projekto kalendoriaus šabloną, nurodydami dienos darbo valandų skaičių ir kada įmonės nedirba. Norėdami sukurti projekto kalendoriaus šabloną, susiejate darbo šabloną su projekto **Kalendoriaus šablonas** lauku. Norėdami sukurti darbo šabloną, atlikite šiuos veiksmus.
+Norėdami sukurti ir tvarkyti projektą, projektui turite pritaikyti kalendoriaus šabloną. Kalendoriaus šablonas apibrėžia toliau nurodytus projekto atributus.
 
-1. Kairėje naršymo srityje pasirinkite **Ištekliai**. 
-2. Sąrašo puslapyje **Ištekliai** atidarykite vartotojo įrašą, tada pažymėkite **Rodyti darbo valandas**.
+- Darbo valandos, įskaitant pradžios ir pabaigos laiką
+- Darbo dienos
+- Kalendoriaus išimtys, pvz., ne darbo dienos
 
-  > [!NOTE]
-  > Įsitikinkite, kad naršyklėje leidžiami iššokantieji langai. Taip galėsite matyti ištekliui nustatytas darbo valandas.
-  
-3. Skirtuke **Mėnesio rodinys** spustelėkite **Nustatyti**. Bus rodomas trijų parinkčių sąrašas: 
+Projektui taikomas kalendoriaus šablonas yra kalendoriaus šablono, apibrėžto organizacijos parametruose, kopija.
 
-  - Naujas savaitės grafikas
-  - Vienos dienos darbo grafikas
-  - Ne darbo laikas
+> [!NOTE]
+> Jei kalendoriaus šabloną pakeičiate, šie pakeitimai neišplatinami į projekto darbo valandas. Norint pakeisti projekto darbo valandas, reikia pritaikyti naują šabloną.
 
-4. Pažymėkite **Naujas savaitės grafikas** ir nustatykite šio išteklių grafiko parinktis. Galite nustatyti pasikartojantį savaitinį grafiką, dienos darbo valandų parametrus, įmonės ne darbo laiką ir kt.
-5. Nustatykite datų intervalą pasirinkdami **Įrašyti**, tada spustelėkite **Uždaryti**. 
-6. Grįžkite į sąrašo puslapį **Ištekliai** ir pažymėkite išteklių, kuriam nustatėte darbo valandas. 
-7. Pažymėkite **Nustatyti kalendorių kaip** nustatyti darbo šabloną. 
-8. Dialogo lange **Darbo šablonas** įveskite darbo šablono pavadinimą, tada pasirinkite **Taikyti**. 
+Norint sukurti savo organizacijos kalendoriaus šabloną, taikomi du pagrindiniai toliau nurodyti reikalavimai.
+
+- Apibrėžkite norimas šablono darbo valandas naudodami naują arba esamą rezervuojamąjį išteklių.
+- Sukurkite naują kalendoriaus šabloną ir jį susiekite su rezervuojamuoju ištekliumi.
+
+**Šablono darbo valandų apibrėžimas**
+
+1. Eikite į **Ištekliai** \> **Ištekliai**.
+2. Sukurkite naują išteklių, kurį norite nurodyti kalendoriaus šablone, arba pasirinkite esamą išteklių.
+3. Pasirinkite ištekliaus skirtuką **Darbo valandos** ir vykdykite nurodymus, pateiktus dalyje [Ištekliaus darbo valandų nustatymas](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource), kad būtų sukonfigūruotos kalendoriaus taisyklės.
+
+**Naujo kalendoriaus šablono sukūrimas**
+
+1. Nueikite į **Parametrai** \> **Kalendoriaus šablonas**.
+2. Pasirinkite **Naujas** ir įveskite pavadinimą, aprašą bei šablono išteklių.
+
+> [!NOTE]
+> Kai išteklius yra nurodomas kalendoriaus šablone, ištekliaus kalendoriaus kopija susiejama su kalendoriaus šablonu. Jei nukopijuoto šablono darbo valandos pasikeičia, šie pakeitimai neišplatinami į kalendoriaus šabloną.
 
 Dabar galite susieti darbo šabloną su projekto kalendoriaus šablonu.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+
