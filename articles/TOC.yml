@@ -52,6 +52,8 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Kas nauja
       items:
+        - name: '2021 m. gegužės mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
+          href: whats-new/whats-new-may-2021-resource-based.md
         - name: '2021 m. balandžio mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
           href: whats-new/whats-new-apr-2021-resource-based.md
         - name: '2021 m. kovo mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
@@ -374,6 +376,8 @@
               href: expense/set-up-credit-card-integration.md
             - name: Išlaidų kategorijų nustatymas
               href: expense/set-up-expense-categories.md
+            - name: Kilometražo nustatymas naudojant kilometražo tarifo pakopas
+              href: expense/set-up-mileage.md
         - name: Asmeninės išlaidos
           href: expense/personal-expenses-expense-report.md
         - name: Vidinės įmonės išlaidos
@@ -508,6 +512,8 @@
           href: environment/security-model.md
     - name: Kas nauja
       items:
+        - name: Kas nauja – 2021 m. gegužės mėn. – „Lite“ visuotinis diegimas
+          href: pro/whats-new/whats-new-may-2021-lite.md
         - name: Kas nauja – 2021 m. balandžio mėn. – „Lite“ visuotinis diegimas
           href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: Kas nauja – 2021 m. kovo mėn. – „Lite“ visuotinis diegimas
@@ -1026,8 +1032,10 @@
       href: psa/overview.md
     - name: Kas nauja
       items:
-        - name: „Project Service“ 3.x versijos naujinimo leidimo grafikas
+        - name: „Project Service“ 3.x versijos naujinimų leidimo grafikas
           href: psa/version-history-ps.md
+        - name: 'Kas nauja arba pakeista 32 naujinimo leidime, V3'
+          href: psa/whats-new-ur-32.md
         - name: 'Kas nauja arba pakeista 31 naujinimo leidime, V3'
           href: psa/whats-new-ur-31.md
         - name: 'Kas nauja arba pakeista 30 naujinimo leidime, V3'
@@ -1266,6 +1274,8 @@
               href: psa/time-entry-calendar.md
             - name: Savaitės laiko įrašo tinkinimas
               href: psa/time-entry-extensibility-v3.md
+            - name: Patvirtinimo rinkiniai
+              href: psa/approval-set.md
     - name: DUK ir trikčių diagnostika (3.x versija)
       items:
         - name: Kodėl numatytoji faktinių duomenų išlaidų savikaina nustatoma kaip nulis?
