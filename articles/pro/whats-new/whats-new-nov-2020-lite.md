@@ -2,18 +2,16 @@
 title: Kas nauja 2020 m. lapkričio mėn. – „Project Operations Lite“ diegimas – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo
 description: Šioje temoje pateikiama informacija apie kokybės naujinimus, pasiekiamus 2020 m. lapkričio mėn. „Project Operations Lite” visuotinio diegimo leidime – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo.
 author: sigitac
-manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: eb7c15fa937d508fa30ed2c04a6aa9cb117ef011
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 99539c378748f40df330841dbc52814a7841837a
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272083"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993812"
 ---
 # <a name="whats-new-november-2020---project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Kas nauja 2020 m. lapkričio mėn. – „Project Operations Lite“ diegimas – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo
 

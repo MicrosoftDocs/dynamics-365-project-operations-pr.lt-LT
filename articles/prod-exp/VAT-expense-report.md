@@ -2,11 +2,9 @@
 title: PVM grąžinimas
 description: Šioje temoje paaiškinama, kaip susigrąžinti lėšas už pridėtinės vertės mokesčio (PVM) operacijas.
 author: saraschi2
-manager: AnnBe
 ms.date: 02/26/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvPerDiems
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 187532281f6aba3cc3fb03428d93c8ebc4cf4a3d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 20e29a47d73d28c0bf8dbb3495ad301481c529cd
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271934"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993606"
 ---
 # <a name="vat-recovery"></a>PVM grąžinimas 
 
@@ -41,25 +39,25 @@ Norint susigrąžinti PVM naudojant išlaidų valdymą, turi būti įgyvendintos
 4. Nusiųskite PVM susigrąžinimo duomenis trečiosios šalies paslaugų teikėjui, kad būtų galima pateikti deklaraciją dėl užsienyje sumokėto PVM susigrąžinimo.
 5. Apdorokite išlaidas, už kurias norite susigrąžinti savo šalyje sumokėtą PVM.
 
-Tolesniuose skyriuose pateikti pavyzdžiai, kaip „Contoso“ darbuotojai atlieka kiekvieną žingsnį.
+Toliau skyriuose pateikiami pavyzdžiai, kaip Contoso darbuotojai atlieka kiekvieną veiksmą.
 
 ## <a name="on-an-expense-report-enter-tax-information-about-credit-card-transactions-to-identify-eligible-vat-refunds"></a>Išlaidų ataskaitoje įveskite mokesčių informaciją apie kredito kortelių operacijas, kad identifikuotumėte tinkamas operacijas, už kurias norite susigrąžinti PVM
 
-JAV įsikūrusios įmonės „Contoso“ pardavimo atstovė Greta neseniai grįžo iš verslo kelionės Jungtinėje Karalystėje. Per kelionę ji savo asmenine kredito kortele mokėjo už maistą. Greta dabar turi sukurti išlaidų ataskaitą, kad suderintų išlaidas.
+Greta, Contoso pardavimo atstovė, įsikūrusi JAV, neseniai grįžo iš pardavimo komandiruotės į Jungtinę Karalystę. Per kelionę ji savo asmenine kredito kortele mokėjo už maistą. Greta dabar turi sukurti išlaidų ataskaitą, kad suderintų išlaidas.
 
 Greta vesdama informaciją išlaidų ataskaitoje puslapio **Redaguoti išlaidų ataskaitą** lauke **Šalis / regionas** pasirenka **Jungtinė Karalystė**. Tada filtruojamas PVM grupių sąrašas, kad jame būtų rodomos tik Jungtinei Karalystei taikomos grupės. Greta pasirenka PVM grupę **Jungtinė Karalystė 001** ir pasirenka prekės PVM grupę **Maitinimo išlaidos**. Paskui Greta įtraukia naują apgyvendinimo paslaugų operaciją. Kadangi Jungtinėje Karalystėje apgyvendinimo paslaugoms taikoma tik viena PVM grupė ir prekės PVM grupė, ši informacija automatiškai užpildoma Gretos išlaidų ataskaitoje.
 
-Pagal „Contoso“ politiką visos išlaidos turi būti pagrįstos atitinkamu kvitu. Todėl, kai Greta įrašo savo išlaidų ataskaitą, ji gauna pranešimą, kad reikia pridėti kiekvienos išlaidų ataskaitoje nurodytos operacijos kvitą. Greta įsitikina, kad pridėjo kiekvienos operacijos kvito skaitmeninį vaizdą prie savo išlaidų ataskaitos, ir pateikia savo ataskaitą patvirtinti. Tada ji nusiunčia popierinius kvitus operacijų skyriaus komandai. Ši komanda nusiųs PVM susigrąžinimo duomenis trečiosios šalies paslaugų teikėjui, kuris „Contoso“ vardu pateikia deklaraciją dėl užsienyje sumokėto PVM susigrąžinimo.
+Pagal Contoso strategiją visos išlaidos turi turėti sutampantį kvitą. Todėl, kai Greta įrašo savo išlaidų ataskaitą, ji gauna pranešimą, kad reikia pridėti kiekvienos išlaidų ataskaitoje nurodytos operacijos kvitą. Greta įsitikina, kad pridėjo kiekvienos operacijos kvito skaitmeninį vaizdą prie savo išlaidų ataskaitos, ir pateikia savo ataskaitą patvirtinti. Tada ji nusiunčia popierinius kvitus operacijų skyriaus komandai. Ši komanda nusiųs PVM susigrąžinimo duomenis trečiosios šalies tiekėjui, kuris pateikia grąžintiną tarptautinį PVM Contoso.
 
 ## <a name="make-sure-that-all-tax-information-is-complete-and-then-post-the-expense-report"></a>Įsitikinkite, ar įvesta visa mokesčių informacija, tada užregistruokite išlaidų ataskaitą
 
-Kad „Contoso“ mokėtinų sumų koordinatorė Akvilė galėtų užregistruoti išlaidų ataskaitą, ji turi įvesti visą trūkstamą mokesčių informaciją. Ji atidaro puslapį **Išsami išlaidų ataskaitos informacija** ir mato Gretos patvirtintą išlaidų ataskaitą. Tada Akvilė atidaro išlaidų ataskaitą, kad peržiūrėtų išsamią informaciją apie operacijas. Ji pastebi, kad Greta nenurodė vienos operacijos prekės PVM grupės. Akvilė negali užregistruoti išlaidų ataskaitos, nes trūksta šios informacijos. Todėl Akvilė eina į modulio Išlaidų valdymas puslapį **Mokesčių konfigūracijos** ir randa atitinkamą prekės PVM grupę pagal šalį / regioną ir operacijos tipą. Akvilė dabar gali užregistruoti išlaidų ataskaitą didžiojoje knygoje.
+Akvilė, Contoso mokėtinų sumų koordinatorė, turi įvesti visą mokesčių informaciją, kurios nėra išlaidų ataskaitoje prieš užregistruodama ataskaitą. Ji atidaro puslapį **Išsami išlaidų ataskaitos informacija** ir mato Gretos patvirtintą išlaidų ataskaitą. Tada Akvilė atidaro išlaidų ataskaitą, kad peržiūrėtų išsamią informaciją apie operacijas. Ji pastebi, kad Greta nenurodė vienos operacijos prekės PVM grupės. Akvilė negali užregistruoti išlaidų ataskaitos, nes trūksta šios informacijos. Todėl Akvilė eina į modulio Išlaidų valdymas puslapį **Mokesčių konfigūracijos** ir randa atitinkamą prekės PVM grupę pagal šalį / regioną ir operacijos tipą. Akvilė dabar gali užregistruoti išlaidų ataskaitą didžiojoje knygoje.
 
 Kai Akvilė užregistruoja išlaidų ataskaitą, sukuriamas susigrąžinamo PVM darbo elementas. Šis darbo elementas priskiriamas operacijų skyriaus komandos nariui. Akvilė gauna pranešimą, patvirtinantį, kad užregistruota sėkmingai. Šiame pranešime taip pat pateikiamas PVM operacijų, už kurias susigrąžinamas PVM, skaičius.
 
 ## <a name="process-expenses-that-are-eligible-for-international-vat-recovery"></a>Išlaidų, atitinkančių užsienyje sumokėto PVM susigrąžinimo reikalavimus, apdorojimas
 
-„Contoso“ operacijų skyriaus komandos narys Arnas turi patvirtinti, ar išlaidų ataskaitose nurodyta visa reikalinga informacija, susijusi su PVM susigrąžinimu. Jis atidaro puslapį **Išlaidų mokesčių susigrąžinimas** ir pasirenka Gretos pateiktą išlaidų ataskaitą. Arnas patikrina, ar pridėti visi reikiami kvitai ir ar nurodyta tinkama PVM grupė ir prekės PVM kodai.
+Arnas, Contoso operacijų skyriaus komandos narys, yra atsakingas už tai, kad į išlaidų ataskaitas bus įtraukta visa reikiama PVM informacija. Jis atidaro puslapį **Išlaidų mokesčių susigrąžinimas** ir pasirenka Gretos pateiktą išlaidų ataskaitą. Arnas patikrina, ar pridėti visi reikiami kvitai ir ar nurodyta tinkama PVM grupė ir prekės PVM kodai.
 
 Kai Arnas gauna popierinius kvitus iš Gretos, jis palygina juos su skaitmeninėmis kvitų kopijomis ir pakeičia išlaidų ataskaitos būseną į **Paruošta susigrąžinti**.
 

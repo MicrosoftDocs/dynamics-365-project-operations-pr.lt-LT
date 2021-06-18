@@ -2,19 +2,17 @@
 title: Atsargose nelaikomų medžiagų ir laukiančių tiekėjo sąskaitų faktūrų konfigūravimas
 description: Šioje temoje paaiškinta, kaip įjungti atsargose nelaikomų medžiagų ir laukiančių tiekėjo sąskaitų faktūrų naudojimo galimybę.
 author: sigitac
-manager: tfehr
 ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a84245a246f49ab69466aba0fec332f0489eec6c
-ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
+ms.openlocfilehash: 24418f3aad8356bd209eef7487a47a3870bce10f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5880667"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993921"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Atsargose nelaikomų medžiagų ir laukiančių tiekėjo sąskaitų faktūrų konfigūravimas
 
@@ -61,11 +59,11 @@ Jei naudojate standartinius demonstracinius duomenis, taip pat gali reikėti sus
 
 ### <a name="activate-workflow-to-create-accounts-based-on-vendor-entity"></a>Darbo eigos suaktyvinimas norint kurti klientus pagal tiekėjo objektą
 
-Sprendimas Dvigubo rašymo tvarkymas suteikia [pagrindinio tiekėjų integravimo funkciją](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping). Norint naudoti šią funkciją, objekte **Klientai** būtina sukurti klientų duomenų. Suaktyvinkite šablono darbo eigos procesą, kad lentelėje **Klientai** būtų sukurti tiekėjai, kaip aprašyta dalyje [Vieno tiekėjo dizaino perjungimas į kitą](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
+Sprendimas Dvigubo rašymo tvarkymas suteikia [pagrindinio tiekėjų integravimo funkciją](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping.md). Norint naudoti šią funkciją, objekte **Klientai** būtina sukurti klientų duomenų. Suaktyvinkite šablono darbo eigos procesą, kad lentelėje **Klientai** būtų sukurti tiekėjai, kaip aprašyta dalyje [Vieno tiekėjo dizaino perjungimas į kitą](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch.md#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
 
 ### <a name="set-products-to-be-created-as-active"></a>Nustatymas, kad produktai būtų kuriami kaip aktyvūs
 
-Atsargose nelaikomos medžiagos sprendime „Finance“ turi būti sukonfigūruotos kaip **Išleisti produktai**. Sprendimas Dvigubo rašymo tvarkymas suteikia parengtą naudoti [išleistų produktų integravimo į „Dataverse“ produktų katalogą funkciją](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping). Numatyta, kad „Finance“ produktai su „Dataverse“ sinchronizuojami juodraščio būsenos. Norėdami produktą sinchronizuoti aktyvios būsenos, kad jį būtų galima tiesiogiai naudoti medžiagų naudojimo dokumentuose arba laukiančiose tiekėjų sąskaitose faktūrose, nueikite į **Sistema** > **Administravimas** > **Sistemos administravimas** > **Sistemos parametrai** ir skirtuke **Pardavimas** parinktį **Kurti aktyvios būsenos produktus** nustatykite kaip **Taip**.
+Atsargose nelaikomos medžiagos sprendime „Finance“ turi būti sukonfigūruotos kaip **Išleisti produktai**. Sprendimas Dvigubo rašymo tvarkymas suteikia parengtą naudoti [išleistų produktų integravimo į „Dataverse“ produktų katalogą funkciją](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping.md). Numatyta, kad „Finance“ produktai su „Dataverse“ sinchronizuojami juodraščio būsenos. Norėdami produktą sinchronizuoti aktyvios būsenos, kad jį būtų galima tiesiogiai naudoti medžiagų naudojimo dokumentuose arba laukiančiose tiekėjų sąskaitose faktūrose, nueikite į **Sistema** > **Administravimas** > **Sistemos administravimas** > **Sistemos parametrai** ir skirtuke **Pardavimas** parinktį **Kurti aktyvios būsenos produktus** nustatykite kaip **Taip**.
 
 ## <a name="configure-prerequisites-in-finance"></a>Būtinųjų „Finance“ komponentų konfigūravimas
 
