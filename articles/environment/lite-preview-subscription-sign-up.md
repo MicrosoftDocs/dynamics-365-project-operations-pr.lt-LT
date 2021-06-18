@@ -2,95 +2,93 @@
 title: Registracija norint gauti peržiūros versijos prenumeratą – „Lite“ versija
 description: Šioje temoje pateikta informacija apie tai, kaip prenumeruoti ir diegti „Project Operations Lite“ visuotinį diegimą – sandoris į išankstinės sąskaitos faktūros formą.
 author: sigitac
-manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 44edf2613ea4b26dadbd9edc47c784c488c577de
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4de51277e5a08690cc16497e3916f40498b39fb8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290054"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997431"
 ---
-# <a name="sign-up-for-a-preview-subscription---lite"></a><span data-ttu-id="a167b-103">Registracija norint gauti peržiūros versijos prenumeratą – „Lite“ versija</span><span class="sxs-lookup"><span data-stu-id="a167b-103">Sign up for a preview subscription - lite</span></span> 
+# <a name="sign-up-for-a-preview-subscription---lite"></a><span data-ttu-id="f22b5-103">Registracija norint gauti peržiūros versijos prenumeratą – „Lite“ versija</span><span class="sxs-lookup"><span data-stu-id="f22b5-103">Sign up for a preview subscription - lite</span></span> 
 
-<span data-ttu-id="a167b-104">Šioje temoje paaiškinamaa, kaip užsiprenumeruoti peržiūros versijos partnerio pasiūlymą ir įdiegti „Dynamics 365 Project Operations Lite“ visuotinį diegimą – sandoris į išankstinės sąskaitos faktūros formą.</span><span class="sxs-lookup"><span data-stu-id="a167b-104">This topic explains how to subscribe to the preview partner offer and deploy Dynamics 365 Project Operations lite deployment - deal to proforma invoicing.</span></span>
+<span data-ttu-id="f22b5-104">Šioje temoje paaiškinamaa, kaip užsiprenumeruoti peržiūros versijos partnerio pasiūlymą ir įdiegti „Dynamics 365 Project Operations Lite“ visuotinį diegimą – sandoris į išankstinės sąskaitos faktūros formą.</span><span class="sxs-lookup"><span data-stu-id="f22b5-104">This topic explains how to subscribe to the preview partner offer and deploy Dynamics 365 Project Operations lite deployment - deal to proforma invoicing.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="a167b-105">Šis procesas pasikeis būsimuose „Project Operations“ leidimuose.</span><span class="sxs-lookup"><span data-stu-id="a167b-105">This process will change in upcoming releases of Project Operations.</span></span>
+> <span data-ttu-id="f22b5-105">Šis procesas pasikeis būsimuose „Project Operations“ leidimuose.</span><span class="sxs-lookup"><span data-stu-id="f22b5-105">This process will change in upcoming releases of Project Operations.</span></span>
 
-## <a name="prerequisites"></a><span data-ttu-id="a167b-106">Būtinosios sąlygos</span><span class="sxs-lookup"><span data-stu-id="a167b-106">Prerequisites</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="f22b5-106">Būtinosios sąlygos</span><span class="sxs-lookup"><span data-stu-id="f22b5-106">Prerequisites</span></span>
 
-- <span data-ttu-id="a167b-107">Gausite el. laišką, kviečiantį išbandyti peržiūros versiją.</span><span class="sxs-lookup"><span data-stu-id="a167b-107">You'll receive an email inviting you to participate in the preview.</span></span> <span data-ttu-id="a167b-108">Galite pateikti užklausą dėl peržiūros versijos [„Project Operations“ svetainėje](https://dynamics.microsoft.com/en-us/project-operations/overview/).</span><span class="sxs-lookup"><span data-stu-id="a167b-108">You can request a preview on the [Project Operations website](https://dynamics.microsoft.com/en-us/project-operations/overview/).</span></span>
-- <span data-ttu-id="a167b-109">Vartotojas, kuris įdiegia peržiūros versiją, turi turėti „Azure“ kliento visuotinio administratoriaus teises.</span><span class="sxs-lookup"><span data-stu-id="a167b-109">The user who deploys the preview must have Azure tenant global administrator rights.</span></span>
-- <span data-ttu-id="a167b-110">Peržiūrėkite visus terminus ir sąlygas.</span><span class="sxs-lookup"><span data-stu-id="a167b-110">Review all terms and conditions.</span></span>
+- <span data-ttu-id="f22b5-107">Gausite el. laišką, kviečiantį išbandyti peržiūros versiją.</span><span class="sxs-lookup"><span data-stu-id="f22b5-107">You'll receive an email inviting you to participate in the preview.</span></span> <span data-ttu-id="f22b5-108">Galite pateikti užklausą dėl peržiūros versijos [„Project Operations“ svetainėje](https://dynamics.microsoft.com/en-us/project-operations/overview/).</span><span class="sxs-lookup"><span data-stu-id="f22b5-108">You can request a preview on the [Project Operations website](https://dynamics.microsoft.com/en-us/project-operations/overview/).</span></span>
+- <span data-ttu-id="f22b5-109">Vartotojas, kuris įdiegia peržiūros versiją, turi turėti „Azure“ kliento visuotinio administratoriaus teises.</span><span class="sxs-lookup"><span data-stu-id="f22b5-109">The user who deploys the preview must have Azure tenant global administrator rights.</span></span>
+- <span data-ttu-id="f22b5-110">Peržiūrėkite visus terminus ir sąlygas.</span><span class="sxs-lookup"><span data-stu-id="f22b5-110">Review all terms and conditions.</span></span>
 
-## <a name="subscribe"></a><span data-ttu-id="a167b-111">Prenumeruoti</span><span class="sxs-lookup"><span data-stu-id="a167b-111">Subscribe</span></span>
+## <a name="subscribe"></a><span data-ttu-id="f22b5-111">Prenumeruoti</span><span class="sxs-lookup"><span data-stu-id="f22b5-111">Subscribe</span></span>
 
-<span data-ttu-id="a167b-112">Gavę [peržiūros versijos užklausos](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) patvirtinimą, el. paštu iš „Microsoft“ gausite du pasiūlymus.</span><span class="sxs-lookup"><span data-stu-id="a167b-112">When you receive a [preview request](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) approval, you'll receive two offers from Microsoft by email.</span></span> <span data-ttu-id="a167b-113">Šie pasiūlymai leidžia visuotinai įdiegti „Project Operations“ peržiūros versiją:</span><span class="sxs-lookup"><span data-stu-id="a167b-113">These offers allow you to deploy the Project Operations Preview:</span></span>
+<span data-ttu-id="f22b5-112">Gavę [peržiūros versijos užklausos](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) patvirtinimą, el. paštu iš „Microsoft“ gausite du pasiūlymus.</span><span class="sxs-lookup"><span data-stu-id="f22b5-112">When you receive a [preview request](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) approval, you'll receive two offers from Microsoft by email.</span></span> <span data-ttu-id="f22b5-113">Šie pasiūlymai leidžia visuotinai įdiegti „Project Operations“ peržiūros versiją:</span><span class="sxs-lookup"><span data-stu-id="f22b5-113">These offers allow you to deploy the Project Operations Preview:</span></span>
 
-- <span data-ttu-id="a167b-114">„Dynamics 365 Project Operations“ (CRM) – bandomoji peržiūros versija</span><span class="sxs-lookup"><span data-stu-id="a167b-114">Dynamics 365 Project Operations (CRM) - Preview Trial</span></span>
-- <span data-ttu-id="a167b-115">„Office 365 Project Operations“ – bandomoji peržiūros versija</span><span class="sxs-lookup"><span data-stu-id="a167b-115">Office 365 Project Operations - Preview Trial</span></span>
+- <span data-ttu-id="f22b5-114">„Dynamics 365 Project Operations“ (CRM) – bandomoji peržiūros versija</span><span class="sxs-lookup"><span data-stu-id="f22b5-114">Dynamics 365 Project Operations (CRM) - Preview Trial</span></span>
+- <span data-ttu-id="f22b5-115">„Office 365 Project Operations“ – bandomoji peržiūros versija</span><span class="sxs-lookup"><span data-stu-id="f22b5-115">Office 365 Project Operations - Preview Trial</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="a167b-116">Tik vienas asmuo, nuomotojo administratorius, organizacijoje turi atlikti šią užduotį.</span><span class="sxs-lookup"><span data-stu-id="a167b-116">Only one person, the tenant administrator, in an organization needs to perform this task.</span></span> <span data-ttu-id="a167b-117">Jei nesate šio leidimo prenumeratorius, palaukite, kol jūsų organizacija bus užregistruota ir gausite vartotojo kredencialus.</span><span class="sxs-lookup"><span data-stu-id="a167b-117">If you aren't the subscriber to this release, wait until your organization has been signed up and you've received your user credentials.</span></span>
+> <span data-ttu-id="f22b5-116">Tik vienas asmuo, nuomotojo administratorius, organizacijoje turi atlikti šią užduotį.</span><span class="sxs-lookup"><span data-stu-id="f22b5-116">Only one person, the tenant administrator, in an organization needs to perform this task.</span></span> <span data-ttu-id="f22b5-117">Jei nesate šio leidimo prenumeratorius, palaukite, kol jūsų organizacija bus užregistruota ir gausite vartotojo kredencialus.</span><span class="sxs-lookup"><span data-stu-id="f22b5-117">If you aren't the subscriber to this release, wait until your organization has been signed up and you've received your user credentials.</span></span>
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a><span data-ttu-id="a167b-118">„Dynamics 365 Project Operations“ (CRM) – bandomoji peržiūros versija</span><span class="sxs-lookup"><span data-stu-id="a167b-118">Dynamics 365 Project Operations (CRM) - Preview Trial</span></span> 
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a><span data-ttu-id="f22b5-118">„Dynamics 365 Project Operations“ (CRM) – bandomoji peržiūros versija</span><span class="sxs-lookup"><span data-stu-id="f22b5-118">Dynamics 365 Project Operations (CRM) - Preview Trial</span></span> 
 
-<span data-ttu-id="a167b-119">Prieš pradėdami įsitikinkite, kad esate prisijungę prie naršyklės naudodami vartotojo darbo klientą nuomotojuje, kuriame norite atlikti „Project Operations“ peržiūrą.</span><span class="sxs-lookup"><span data-stu-id="a167b-119">Before you begin, make sure you are logged in to a browser with the user work account in the tenant where you want the Project Operations preview.</span></span>
+<span data-ttu-id="f22b5-119">Prieš pradėdami įsitikinkite, kad esate prisijungę prie naršyklės naudodami vartotojo darbo klientą nuomotojuje, kuriame norite atlikti „Project Operations“ peržiūrą.</span><span class="sxs-lookup"><span data-stu-id="f22b5-119">Before you begin, make sure you are logged in to a browser with the user work account in the tenant where you want the Project Operations preview.</span></span>
 
-1. <span data-ttu-id="a167b-120">Panaudokite pirmąjį pasiūlymo kodą, skirtą **„Dynamics 365 Project Operations“ (CRM) – bandomajai peržiūros versijai**, įklijuodami jį į naršyklės URL.</span><span class="sxs-lookup"><span data-stu-id="a167b-120">Redeem the first offer code, **Dynamics 365 Project Operations (CRM) - Preview Trial** by pasting it into the browser URL.</span></span>
+1. <span data-ttu-id="f22b5-120">Panaudokite pirmąjį pasiūlymo kodą, skirtą **„Dynamics 365 Project Operations“ (CRM) – bandomajai peržiūros versijai**, įklijuodami jį į naršyklės URL.</span><span class="sxs-lookup"><span data-stu-id="f22b5-120">Redeem the first offer code, **Dynamics 365 Project Operations (CRM) - Preview Trial** by pasting it into the browser URL.</span></span>
 
 ![Pasinaudoti pasiūlymu](./media/16RedeemFirstOfferNew.png)
 
-2. <span data-ttu-id="a167b-122">Patvirtinkite užsakymą.</span><span class="sxs-lookup"><span data-stu-id="a167b-122">Confirm your order.</span></span>
-<span data-ttu-id="a167b-123">![Patvirtinkite užsakymą](./media/17ConfirmOrderNew.png)</span><span class="sxs-lookup"><span data-stu-id="a167b-123">![Confirm the order](./media/17ConfirmOrderNew.png)</span></span>
+2. <span data-ttu-id="f22b5-122">Patvirtinkite užsakymą.</span><span class="sxs-lookup"><span data-stu-id="f22b5-122">Confirm your order.</span></span>
+<span data-ttu-id="f22b5-123">![Patvirtinkite užsakymą](./media/17ConfirmOrderNew.png)</span><span class="sxs-lookup"><span data-stu-id="f22b5-123">![Confirm the order](./media/17ConfirmOrderNew.png)</span></span>
 
-<span data-ttu-id="a167b-124">Pamatysite sėkmingai panaudotą patvirtinimo pasiūlymą.</span><span class="sxs-lookup"><span data-stu-id="a167b-124">You'll see confirmation offer was successfully redeemed.</span></span>
+<span data-ttu-id="f22b5-124">Pamatysite sėkmingai panaudotą patvirtinimo pasiūlymą.</span><span class="sxs-lookup"><span data-stu-id="f22b5-124">You'll see confirmation offer was successfully redeemed.</span></span>
 
 ![Patvirtinimas](./media/18OrderConfirmationNew.png)
 
-### <a name="office-365-project-operations---preview-trial"></a><span data-ttu-id="a167b-126">„Office 365 Project Operations“ – bandomoji peržiūros versija</span><span class="sxs-lookup"><span data-stu-id="a167b-126">Office 365 Project Operations - Preview Trial</span></span>
+### <a name="office-365-project-operations---preview-trial"></a><span data-ttu-id="f22b5-126">„Office 365 Project Operations“ – bandomoji peržiūros versija</span><span class="sxs-lookup"><span data-stu-id="f22b5-126">Office 365 Project Operations - Preview Trial</span></span>
 
-<span data-ttu-id="a167b-127">Pakartokite veiksmus, kaip ir taikydami pirmąjį pasiūlymo kodą.</span><span class="sxs-lookup"><span data-stu-id="a167b-127">Repeat the same steps as with the first offer code.</span></span> <span data-ttu-id="a167b-128">Būtinai įtraukite antrą pasiūlymo kodą, naudodami tą patį vartotojo klientą, kuris buvo naudojamas su pirmuoju pasiūlymo kodu.</span><span class="sxs-lookup"><span data-stu-id="a167b-128">Make sure to add the second offer code using the same user account that was used with the first offer code.</span></span>
+<span data-ttu-id="f22b5-127">Pakartokite veiksmus, kaip ir taikydami pirmąjį pasiūlymo kodą.</span><span class="sxs-lookup"><span data-stu-id="f22b5-127">Repeat the same steps as with the first offer code.</span></span> <span data-ttu-id="f22b5-128">Būtinai įtraukite antrą pasiūlymo kodą, naudodami tą patį vartotojo klientą, kuris buvo naudojamas su pirmuoju pasiūlymo kodu.</span><span class="sxs-lookup"><span data-stu-id="f22b5-128">Make sure to add the second offer code using the same user account that was used with the first offer code.</span></span>
 
-## <a name="assign-licenses"></a><span data-ttu-id="a167b-129">Licencijų priskyrimas</span><span class="sxs-lookup"><span data-stu-id="a167b-129">Assign licenses</span></span>
+## <a name="assign-licenses"></a><span data-ttu-id="f22b5-129">Licencijų priskyrimas</span><span class="sxs-lookup"><span data-stu-id="f22b5-129">Assign licenses</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="a167b-130">Norint atlikti toliau nurodytus veiksmus jums reikės administratoriaus prieigos prie organizacijos „Microsoft 365 Portal“.</span><span class="sxs-lookup"><span data-stu-id="a167b-130">You will need administrative access to your organization's Microsoft 365 Portal to complete the following steps.</span></span>
+> <span data-ttu-id="f22b5-130">Norint atlikti toliau nurodytus veiksmus jums reikės administratoriaus prieigos prie organizacijos „Microsoft 365 Portal“.</span><span class="sxs-lookup"><span data-stu-id="f22b5-130">You will need administrative access to your organization's Microsoft 365 Portal to complete the following steps.</span></span>
 
 
-1. <span data-ttu-id="a167b-131">Eikite į [„Microsoft 365“ administravimo centrą](https://portal.office.com/), kad priskirtumėte licencijas vartotojams.</span><span class="sxs-lookup"><span data-stu-id="a167b-131">Go to [Microsoft 365 admin center](https://portal.office.com/) to assign the licenses to your users.</span></span>
+1. <span data-ttu-id="f22b5-131">Eikite į [„Microsoft 365“ administravimo centrą](https://portal.office.com/), kad priskirtumėte licencijas vartotojams.</span><span class="sxs-lookup"><span data-stu-id="f22b5-131">Go to [Microsoft 365 admin center](https://portal.office.com/) to assign the licenses to your users.</span></span>
 
 ![Administravimo centro pagrindinis puslapis](./media/14AdminPortal.png)
 
-2. <span data-ttu-id="a167b-133">Puslapyje **Aktyvūs vartotojai** pasirinkite vartotojus, kuriems norite priskirti licenciją.</span><span class="sxs-lookup"><span data-stu-id="a167b-133">On the **Active users** page, select the users that you want to assign a license to.</span></span>
+2. <span data-ttu-id="f22b5-133">Puslapyje **Aktyvūs vartotojai** pasirinkite vartotojus, kuriems norite priskirti licenciją.</span><span class="sxs-lookup"><span data-stu-id="f22b5-133">On the **Active users** page, select the users that you want to assign a license to.</span></span>
 
 ![Licencijų priskyrimas](./media/15AssignLicenses.png)
 
-3. <span data-ttu-id="a167b-135">Patikrinkite, ar pažymėtos **„Dynamics 365 Project Operations“ (CRM) peržiūros versija** ir **„Office 365 Project Operations“ – peržiūros versija** licencijos.</span><span class="sxs-lookup"><span data-stu-id="a167b-135">Verify that the **Dynamics 365 Project Operations (CRM) Preview** and **Office 365 Project Operations - Preview** licenses are selected.</span></span> 
-4. <span data-ttu-id="a167b-136">Pasirinkite **Įrašyti pakeitimus**.</span><span class="sxs-lookup"><span data-stu-id="a167b-136">Select **Save changes**.</span></span>
+3. <span data-ttu-id="f22b5-135">Patikrinkite, ar pažymėtos **„Dynamics 365 Project Operations“ (CRM) peržiūros versija** ir **„Office 365 Project Operations“ – peržiūros versija** licencijos.</span><span class="sxs-lookup"><span data-stu-id="f22b5-135">Verify that the **Dynamics 365 Project Operations (CRM) Preview** and **Office 365 Project Operations - Preview** licenses are selected.</span></span> 
+4. <span data-ttu-id="f22b5-136">Pasirinkite **Įrašyti pakeitimus**.</span><span class="sxs-lookup"><span data-stu-id="f22b5-136">Select **Save changes**.</span></span>
 
-## <a name="create-a-new-cds-environment"></a><span data-ttu-id="a167b-137">Naujos CDS aplinkos kūrimas</span><span class="sxs-lookup"><span data-stu-id="a167b-137">Create a new CDS environment</span></span>
+## <a name="create-a-new-cds-environment"></a><span data-ttu-id="f22b5-137">Naujos CDS aplinkos kūrimas</span><span class="sxs-lookup"><span data-stu-id="f22b5-137">Create a new CDS environment</span></span>
 
-1. <span data-ttu-id="a167b-138">Parenkite naują „Project Operations“ CDS visuotinio diegimo aplinką sekdami šioje temoje pateiktas instrukcijas – [CDS visuotinio diegimo modelis](lite-deployment.md).</span><span class="sxs-lookup"><span data-stu-id="a167b-138">Provision a new Project Operations CDS deployment environment by following instructions in the topic, [CDS deployment model](lite-deployment.md).</span></span> <span data-ttu-id="a167b-139">Pasirinkę aplinkos tipą įsitikinkite, kad naudojate **bandomąją versiją (prenumeratos pagrindu)**.</span><span class="sxs-lookup"><span data-stu-id="a167b-139">When you select the environment type, make sure to use **Trial (Subscription based)**.</span></span>
-<span data-ttu-id="a167b-140">![Nauja aplinka](./media/19CreateEnvironment.png)</span><span class="sxs-lookup"><span data-stu-id="a167b-140">![New environment](./media/19CreateEnvironment.png)</span></span>
+1. <span data-ttu-id="f22b5-138">Parenkite naują „Project Operations“ CDS visuotinio diegimo aplinką sekdami šioje temoje pateiktas instrukcijas – [CDS visuotinio diegimo modelis](lite-deployment.md).</span><span class="sxs-lookup"><span data-stu-id="f22b5-138">Provision a new Project Operations CDS deployment environment by following instructions in the topic, [CDS deployment model](lite-deployment.md).</span></span> <span data-ttu-id="f22b5-139">Pasirinkę aplinkos tipą įsitikinkite, kad naudojate **bandomąją versiją (prenumeratos pagrindu)**.</span><span class="sxs-lookup"><span data-stu-id="f22b5-139">When you select the environment type, make sure to use **Trial (Subscription based)**.</span></span>
+<span data-ttu-id="f22b5-140">![Nauja aplinka](./media/19CreateEnvironment.png)</span><span class="sxs-lookup"><span data-stu-id="f22b5-140">![New environment](./media/19CreateEnvironment.png)</span></span>
 
-2. <span data-ttu-id="a167b-141">Pasirinkite nustatymą **Įjungti „Dynamics 365“ programėles** ir palikite lauką **Automatiškai diegti šias programėles** tuščią.</span><span class="sxs-lookup"><span data-stu-id="a167b-141">Select the **Enable Dynamics 365 apps** setting, and leave **Automatically deploy these apps** blank.</span></span>  
-3. <span data-ttu-id="a167b-142">Norėdami sukurti aplinką, pasirinkite **Įrašyti**.</span><span class="sxs-lookup"><span data-stu-id="a167b-142">Select **Save** to create the environment.</span></span>
+2. <span data-ttu-id="f22b5-141">Pasirinkite nustatymą **Įjungti „Dynamics 365“ programėles** ir palikite lauką **Automatiškai diegti šias programėles** tuščią.</span><span class="sxs-lookup"><span data-stu-id="f22b5-141">Select the **Enable Dynamics 365 apps** setting, and leave **Automatically deploy these apps** blank.</span></span>  
+3. <span data-ttu-id="f22b5-142">Norėdami sukurti aplinką, pasirinkite **Įrašyti**.</span><span class="sxs-lookup"><span data-stu-id="f22b5-142">Select **Save** to create the environment.</span></span>
 
 ![Įtraukti duomenų bazę](./media/20CreateEnvironment1.png)
 
-4. <span data-ttu-id="a167b-144">Sukūrę aplinką įdiekite **„Microsoft Dynamics 365 Project Operations“** sprendimą.</span><span class="sxs-lookup"><span data-stu-id="a167b-144">After the environment is created, install **Microsoft Dynamics 365 Project Operations** solution.</span></span> 
+4. <span data-ttu-id="f22b5-144">Sukūrę aplinką įdiekite **„Microsoft Dynamics 365 Project Operations“** sprendimą.</span><span class="sxs-lookup"><span data-stu-id="f22b5-144">After the environment is created, install **Microsoft Dynamics 365 Project Operations** solution.</span></span> 
 
 ![Sprendimo diegimas](./media/21InstallSolution.png)
 
-## <a name="install-a-cds-configuration-and-setup-demo-data"></a><span data-ttu-id="a167b-146">CDS konfigūracijos ir sąrankos demonstracinių duomenų diegimas</span><span class="sxs-lookup"><span data-stu-id="a167b-146">Install a CDS configuration and setup demo data</span></span>
+## <a name="install-a-cds-configuration-and-setup-demo-data"></a><span data-ttu-id="f22b5-146">CDS konfigūracijos ir sąrankos demonstracinių duomenų diegimas</span><span class="sxs-lookup"><span data-stu-id="f22b5-146">Install a CDS configuration and setup demo data</span></span>
 
-<span data-ttu-id="a167b-147">Įdiekite CDS konfigūraciją ir nustatykite demonstracinius duomenis vadovaudamiesi šioje temoje pateikiamomis instrukcijomis – [Demonstracinės sąrankos ir konfigūravimo duomenų taikymas](lite-apply-demo-setup-config-data.md).</span><span class="sxs-lookup"><span data-stu-id="a167b-147">Install the CDS configuration and set up demo data by following instructions in the topic, [Apply demo setup and configuration data](lite-apply-demo-setup-config-data.md).</span></span>
+<span data-ttu-id="f22b5-147">Įdiekite CDS konfigūraciją ir nustatykite demonstracinius duomenis vadovaudamiesi šioje temoje pateikiamomis instrukcijomis – [Demonstracinės sąrankos ir konfigūravimo duomenų taikymas](lite-apply-demo-setup-config-data.md).</span><span class="sxs-lookup"><span data-stu-id="f22b5-147">Install the CDS configuration and set up demo data by following instructions in the topic, [Apply demo setup and configuration data](lite-apply-demo-setup-config-data.md).</span></span>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
