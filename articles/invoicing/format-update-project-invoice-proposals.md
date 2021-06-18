@@ -2,18 +2,16 @@
 title: Projekto sąskaitos faktūros pasiūlymų valdymas
 description: Šioje temoje pateikiama išsami informacija apie klientų sąskaitų faktūrų apdorojimą naudojant „Project Operations“, skirtą išteklių / nelaikomų medžiagų scenarijams.
 author: sigitac
-manager: Annbe
 ms.date: 04/12/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6b8eacf2b43219a9adad897637b78a9c94351554
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 7e6d060c1cca08f86e2d04ca96c9315a17316d11
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950724"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001481"
 ---
 # <a name="manage-project-invoice-proposals"></a>Projekto sąskaitos faktūros pasiūlymų valdymas
 

@@ -2,18 +2,16 @@
 title: Konfigūracijos duomenų nustatymas ir taikymas programoje „Common Data Service”
 description: Šioje temoje pateikta informacija apie konfigūracijos duomenų nustatymą ir taikymą dalyje „Project Operations“.
 author: sigitac
-manager: Annbe
-ms.date: 11/04/2020
+ms.date: 05/10/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 1651d3b3b85d3dc581bf61976fada249bafd6b7b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2ea00df6112fb69b61f1889463424fdfee79aec9
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289829"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001301"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Konfigūracijos duomenų nustatymas ir taikymas programoje „Common Data Service” 
 
@@ -23,7 +21,7 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 
 ## <a name="prerequisites"></a>Būtinosios sąlygos
 
-Prieš pradėdami konfigūruoti duomenis programoje „Common Data Service” (CDS), turite atitikti toliau pateikiamas būtinąsias sąlygas.
+Prieš pradedant konfigūruoti duomenis Common Data Service (CDS), reikia įvykdyti šias būtinąsias sąlygas:
 
 1.  CDS aplinkos ir „Dynamics 365 Finance” aplinkos parengimas, skirtas „Project Operations”.
 2.  Juridinio objekto informacija iš „Dynamics 365 Finance” bendrinama su CDS aplinka. Tai reiškia, kad CDS esančiame objekte **Įmonė** yra toliau pateikiami įmonės įrašai.
@@ -33,7 +31,7 @@ Prieš pradėdami konfigūruoti duomenis programoje „Common Data Service” (C
 
 ## <a name="install-setup-and-configuration-data"></a>Sąrankos ir konfigūracijos duomenų diegimas
 
-1. Atsisiųskite, atblokuokite ir išskleiskite [sąrankos ir konfigūracijos duomenų paketą](https://download.microsoft.com/download/1/3/4/1349369c-6209-42b7-b3b4-5be0e67cacd8/ProjOpsSampleSetupData-%20Integrated%20UR1.zip).
+1. Atsisiųskite, atblokuokite ir išskleiskite [sąrankos ir konfigūracijos duomenų paketą](https://download.microsoft.com/download/e/2/d/e2da6c98-d5dd-450c-aabe-fd6bf2ba374b/ProjOpsSampleSetupData-%20Integrated%20Latest.zip).
 2. Nueikite į neišskleistą aplanką ir vykdykite vykdomąjį failą *DataMigrationUtility*.
 3. „Common Data Service“ konfigūravimo perkėlimo (CMT) vedlio 1 puslapyje pasirinkite **Importuoti duomenis**, o tada pasirinkite **Tęsti**.
 
@@ -57,13 +55,20 @@ Prieš pradėdami konfigūruoti duomenis programoje „Common Data Service” (C
 ![Importuoti duomenis](./media/5ImportData.png)
 
 10. Priklausomai nuo jūsų tinklo spartos, importavimas užims apie 2-10 minučių. Baigus importuoti uždarykite CMT vediklį. 
-11. Patikrinkite savo organizacijos duomenis šiuose 19 objektų:
+11. Patikrinkite savo organizacijos duomenis šiuose 26 objektų:
 
   - Valiuta
+  - Sąskaitų diagrama
+  - Finansinis kalendorius
+  - Valiutos kurso tipai
+  - Mokėjimo diena
+  - Mokėjimo grafikas
+  - Mokėjimo sąlyga
   - Organizacijos vienetas
   - Susisiekite
   - Mokesčių grupė
   - Klientų grupė
+  - Tiekėjų grupė
   - Vienetas
   - Vienetų grupė
   - Kainoraštis
@@ -127,7 +132,7 @@ Prieš pradėdami konfigūruoti duomenis programoje „Common Data Service” (C
 12. Atnaujinkite toliau nurodytus laukus:
 
  - **Numatytoji įmonė**: USPM
- - **Numatytasis organizacinis vienetas**: „Contoso Robotics Global“
+ - **Numatytasis organizacijos vienetas**: Contoso Robotics Global
  - **Sąskaitų faktūrų dažnumas**: septintoji diena ir paskutinė diena
  - **Darbo valandų šablonas**: pakeiskite į savo sukurtą šabloną.
 
