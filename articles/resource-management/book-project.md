@@ -2,70 +2,68 @@
 title: Rezervacija į projektą
 description: Šioje temoje pateikiama informacija apie projekto išteklių rezervavimą.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: dff8107864f95c87d25a421dfeeafe9081e98e25
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 15de5735ba6d25994a68192ebdf80aefec772d6e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5280004"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998826"
 ---
-# <a name="book-to-a-project"></a><span data-ttu-id="c33c2-103">Rezervacija į projektą</span><span class="sxs-lookup"><span data-stu-id="c33c2-103">Book to a project</span></span>
+# <a name="book-to-a-project"></a><span data-ttu-id="7af22-103">Rezervacija į projektą</span><span class="sxs-lookup"><span data-stu-id="7af22-103">Book to a project</span></span>
 
-<span data-ttu-id="c33c2-104">_**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_</span><span class="sxs-lookup"><span data-stu-id="c33c2-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="7af22-104">_**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_</span><span class="sxs-lookup"><span data-stu-id="7af22-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-<span data-ttu-id="c33c2-105">Yra atvejų, kai projekto vadovas arba išteklių vadovas turės priskirti išteklių projektui be konkretaus reikalavimo, apibrėžto bendrosios komandos nario.</span><span class="sxs-lookup"><span data-stu-id="c33c2-105">There are times where a Project manager or Resource manager will need to allocate a resource to project without a specific requirement being defined from a generic team member.</span></span> <span data-ttu-id="c33c2-106">Tai galima pasiekti vienu iš trijų būdu.</span><span class="sxs-lookup"><span data-stu-id="c33c2-106">This can be achieved in one of three ways.</span></span>
+<span data-ttu-id="7af22-105">Yra atvejų, kai projekto vadovas arba išteklių vadovas turės priskirti išteklių projektui be konkretaus reikalavimo, apibrėžto bendrosios komandos nario.</span><span class="sxs-lookup"><span data-stu-id="7af22-105">There are times where a Project manager or Resource manager will need to allocate a resource to project without a specific requirement being defined from a generic team member.</span></span> <span data-ttu-id="7af22-106">Tai galima pasiekti vienu iš trijų būdu.</span><span class="sxs-lookup"><span data-stu-id="7af22-106">This can be achieved in one of three ways.</span></span>
 
-- <span data-ttu-id="c33c2-107">Rezervavimas iš komados nario tinklelio</span><span class="sxs-lookup"><span data-stu-id="c33c2-107">Book from the team member grid</span></span>
-- <span data-ttu-id="c33c2-108">Rezervavimas iš grafiko lentos</span><span class="sxs-lookup"><span data-stu-id="c33c2-108">Book from the schedule board</span></span>
-- <span data-ttu-id="c33c2-109">Rezervavimas iš formos **Projektas**</span><span class="sxs-lookup"><span data-stu-id="c33c2-109">Book from the **Project** form</span></span>
+- <span data-ttu-id="7af22-107">Rezervavimas iš komados nario tinklelio</span><span class="sxs-lookup"><span data-stu-id="7af22-107">Book from the team member grid</span></span>
+- <span data-ttu-id="7af22-108">Rezervavimas iš grafiko lentos</span><span class="sxs-lookup"><span data-stu-id="7af22-108">Book from the schedule board</span></span>
+- <span data-ttu-id="7af22-109">Rezervavimas iš formos **Projektas**</span><span class="sxs-lookup"><span data-stu-id="7af22-109">Book from the **Project** form</span></span>
 
-## <a name="book-from-the-team-member-grid"></a><span data-ttu-id="c33c2-110">Rezervavimas iš komados nario tinklelio</span><span class="sxs-lookup"><span data-stu-id="c33c2-110">Book from the team member grid</span></span>
+## <a name="book-from-the-team-member-grid"></a><span data-ttu-id="7af22-110">Rezervavimas iš komados nario tinklelio</span><span class="sxs-lookup"><span data-stu-id="7af22-110">Book from the team member grid</span></span>
 
-<span data-ttu-id="c33c2-111">Jei jūsų organizacija veikia hibridiniame išteklių paskirstymo režime, projektų vadovas gali užsakyti išteklių tiesiogiai projektui atlikdamas toliau nurodytus žingsnius.</span><span class="sxs-lookup"><span data-stu-id="c33c2-111">If your organization is operating in hybrid Resource allocation mode, the Project manager can book a resource directly to the project by completing the following steps.</span></span>
+<span data-ttu-id="7af22-111">Jei jūsų organizacija veikia hibridiniame išteklių paskirstymo režime, projektų vadovas gali užsakyti išteklių tiesiogiai projektui atlikdamas toliau nurodytus žingsnius.</span><span class="sxs-lookup"><span data-stu-id="7af22-111">If your organization is operating in hybrid Resource allocation mode, the Project manager can book a resource directly to the project by completing the following steps.</span></span>
 
-1. <span data-ttu-id="c33c2-112">Iš projekto eikite į komandos narių tinklelį ir pasirinkite **Naujas**.</span><span class="sxs-lookup"><span data-stu-id="c33c2-112">From the project, go to the team member grid and select **New**.</span></span>
-2. <span data-ttu-id="c33c2-113">Apibrėžkite ištekliaus pozicijos pavadinimą ir vaidmenį.</span><span class="sxs-lookup"><span data-stu-id="c33c2-113">Define the position name and the role of the resource.</span></span>
-3. <span data-ttu-id="c33c2-114">Pažymėkite rezervuojamą išteklių iš galimos peržvalgos.</span><span class="sxs-lookup"><span data-stu-id="c33c2-114">Select the bookable resource from the available lookup.</span></span>
-4. <span data-ttu-id="c33c2-115">Pasirinkę išteklių apibrėžkite šią lauko informaciją, kad užrezervuotumėte išteklių:</span><span class="sxs-lookup"><span data-stu-id="c33c2-115">After you select the resource, define the following field information to book the resource:</span></span>
+1. <span data-ttu-id="7af22-112">Iš projekto eikite į komandos narių tinklelį ir pasirinkite **Naujas**.</span><span class="sxs-lookup"><span data-stu-id="7af22-112">From the project, go to the team member grid and select **New**.</span></span>
+2. <span data-ttu-id="7af22-113">Apibrėžkite ištekliaus pozicijos pavadinimą ir vaidmenį.</span><span class="sxs-lookup"><span data-stu-id="7af22-113">Define the position name and the role of the resource.</span></span>
+3. <span data-ttu-id="7af22-114">Pažymėkite rezervuojamą išteklių iš galimos peržvalgos.</span><span class="sxs-lookup"><span data-stu-id="7af22-114">Select the bookable resource from the available lookup.</span></span>
+4. <span data-ttu-id="7af22-115">Pasirinkę išteklių apibrėžkite šią lauko informaciją, kad užrezervuotumėte išteklių:</span><span class="sxs-lookup"><span data-stu-id="7af22-115">After you select the resource, define the following field information to book the resource:</span></span>
 
-    - <span data-ttu-id="c33c2-116">Pradžios data</span><span class="sxs-lookup"><span data-stu-id="c33c2-116">Start date</span></span>
-    - <span data-ttu-id="c33c2-117">Pabaigos data</span><span class="sxs-lookup"><span data-stu-id="c33c2-117">Finish date</span></span>
-    - <span data-ttu-id="c33c2-118">Paskirstymo metodas</span><span class="sxs-lookup"><span data-stu-id="c33c2-118">Allocation method</span></span>
-    - <span data-ttu-id="c33c2-119">Valandos, jei taikoma</span><span class="sxs-lookup"><span data-stu-id="c33c2-119">Hours, if applicable</span></span>
-    - <span data-ttu-id="c33c2-120">Projekto tvirtintojas</span><span class="sxs-lookup"><span data-stu-id="c33c2-120">Project approver</span></span>
+    - <span data-ttu-id="7af22-116">Pradžios data</span><span class="sxs-lookup"><span data-stu-id="7af22-116">Start date</span></span>
+    - <span data-ttu-id="7af22-117">Pabaigos data</span><span class="sxs-lookup"><span data-stu-id="7af22-117">Finish date</span></span>
+    - <span data-ttu-id="7af22-118">Paskirstymo metodas</span><span class="sxs-lookup"><span data-stu-id="7af22-118">Allocation method</span></span>
+    - <span data-ttu-id="7af22-119">Valandos, jei taikoma</span><span class="sxs-lookup"><span data-stu-id="7af22-119">Hours, if applicable</span></span>
+    - <span data-ttu-id="7af22-120">Projekto tvirtintojas</span><span class="sxs-lookup"><span data-stu-id="7af22-120">Project approver</span></span>
 
-6. <span data-ttu-id="c33c2-121">Pasirinkite **Įrašyti ir uždaryti**</span><span class="sxs-lookup"><span data-stu-id="c33c2-121">Select **Save and Close**</span></span>
+6. <span data-ttu-id="7af22-121">Pasirinkite **Įrašyti ir uždaryti**</span><span class="sxs-lookup"><span data-stu-id="7af22-121">Select **Save and Close**</span></span>
 
-## <a name="book-from-the-schedule-board"></a><span data-ttu-id="c33c2-122">Rezervavimas iš grafiko lentos</span><span class="sxs-lookup"><span data-stu-id="c33c2-122">Book from the schedule board</span></span>
+## <a name="book-from-the-schedule-board"></a><span data-ttu-id="7af22-122">Rezervavimas iš grafiko lentos</span><span class="sxs-lookup"><span data-stu-id="7af22-122">Book from the schedule board</span></span>
 
-<span data-ttu-id="c33c2-123">Kai išteklių vadovas turi užsakyti išteklių tiesiogiai projektui, jis gali naudoti grafiko lentą ir projekto reikalavimą.</span><span class="sxs-lookup"><span data-stu-id="c33c2-123">When a Resource manager needs to book a resource directly to a project, they can use the schedule board and the project requirement.</span></span> <span data-ttu-id="c33c2-124">Projekto reikalavimas – tai išteklių reikalavimas, kurį visada galima rezervuoti.</span><span class="sxs-lookup"><span data-stu-id="c33c2-124">The project requirement is a resource requirement that is always available to be booked against.</span></span> <span data-ttu-id="c33c2-125">Norėdami užsakyti tiesiogiai projektui iš grafiko lentos, atlikite šiuos veiksmus.</span><span class="sxs-lookup"><span data-stu-id="c33c2-125">To book directly to a project form the schedule board, complete the following steps.</span></span>
+<span data-ttu-id="7af22-123">Kai išteklių vadovas turi užsakyti išteklių tiesiogiai projektui, jis gali naudoti grafiko lentą ir projekto reikalavimą.</span><span class="sxs-lookup"><span data-stu-id="7af22-123">When a Resource manager needs to book a resource directly to a project, they can use the schedule board and the project requirement.</span></span> <span data-ttu-id="7af22-124">Projekto reikalavimas – tai išteklių reikalavimas, kurį visada galima rezervuoti.</span><span class="sxs-lookup"><span data-stu-id="7af22-124">The project requirement is a resource requirement that is always available to be booked against.</span></span> <span data-ttu-id="7af22-125">Norėdami užsakyti tiesiogiai projektui iš grafiko lentos, atlikite šiuos veiksmus.</span><span class="sxs-lookup"><span data-stu-id="7af22-125">To book directly to a project form the schedule board, complete the following steps.</span></span>
 
-1. <span data-ttu-id="c33c2-126">Nueikite į grafiko lentą ir kairiajame puslapyje filtruokite išteklius, kuriuos svarstote reikalavimui.</span><span class="sxs-lookup"><span data-stu-id="c33c2-126">Navigate to the schedule board and on the left page, filter for the resources you are considering for the requirement.</span></span>
-2. <span data-ttu-id="c33c2-127">Apatinėje srityje pasirinkite skirtuką **Projektas** ir peržiūrėkite projekto reikalavimų sąrašą.</span><span class="sxs-lookup"><span data-stu-id="c33c2-127">In the bottom pane, select the **Project** tab to view a list of project requirements.</span></span>
-3. <span data-ttu-id="c33c2-128">Vilkite reikalavimą į išteklių ir apibrėžkite šią informaciją:</span><span class="sxs-lookup"><span data-stu-id="c33c2-128">Drag the requirement onto a resource and define the following information:</span></span>
+1. <span data-ttu-id="7af22-126">Nueikite į grafiko lentą ir kairiajame puslapyje filtruokite išteklius, kuriuos svarstote reikalavimui.</span><span class="sxs-lookup"><span data-stu-id="7af22-126">Navigate to the schedule board and on the left page, filter for the resources you are considering for the requirement.</span></span>
+2. <span data-ttu-id="7af22-127">Apatinėje srityje pasirinkite skirtuką **Projektas** ir peržiūrėkite projekto reikalavimų sąrašą.</span><span class="sxs-lookup"><span data-stu-id="7af22-127">In the bottom pane, select the **Project** tab to view a list of project requirements.</span></span>
+3. <span data-ttu-id="7af22-128">Vilkite reikalavimą į išteklių ir apibrėžkite šią informaciją:</span><span class="sxs-lookup"><span data-stu-id="7af22-128">Drag the requirement onto a resource and define the following information:</span></span>
 
-    - <span data-ttu-id="c33c2-129">Pradžios data</span><span class="sxs-lookup"><span data-stu-id="c33c2-129">Start date</span></span>
-    - <span data-ttu-id="c33c2-130">Pabaigos data</span><span class="sxs-lookup"><span data-stu-id="c33c2-130">Finish date</span></span>
-    - <span data-ttu-id="c33c2-131">Rezervavimo būsena</span><span class="sxs-lookup"><span data-stu-id="c33c2-131">Booking status</span></span>
-    - <span data-ttu-id="c33c2-132">Rezervavimo metodas</span><span class="sxs-lookup"><span data-stu-id="c33c2-132">Booking method</span></span>
-    - <span data-ttu-id="c33c2-133">Trukmė</span><span class="sxs-lookup"><span data-stu-id="c33c2-133">Duration</span></span>
+    - <span data-ttu-id="7af22-129">Pradžios data</span><span class="sxs-lookup"><span data-stu-id="7af22-129">Start date</span></span>
+    - <span data-ttu-id="7af22-130">Pabaigos data</span><span class="sxs-lookup"><span data-stu-id="7af22-130">Finish date</span></span>
+    - <span data-ttu-id="7af22-131">Rezervavimo būsena</span><span class="sxs-lookup"><span data-stu-id="7af22-131">Booking status</span></span>
+    - <span data-ttu-id="7af22-132">Rezervavimo metodas</span><span class="sxs-lookup"><span data-stu-id="7af22-132">Booking method</span></span>
+    - <span data-ttu-id="7af22-133">Trukmė</span><span class="sxs-lookup"><span data-stu-id="7af22-133">Duration</span></span>
 
-## <a name="book-from-the-project-form"></a><span data-ttu-id="c33c2-134">Rezervavimas iš Projekto formos</span><span class="sxs-lookup"><span data-stu-id="c33c2-134">Book from the Project form</span></span>
+## <a name="book-from-the-project-form"></a><span data-ttu-id="7af22-134">Rezervavimas iš Projekto formos</span><span class="sxs-lookup"><span data-stu-id="7af22-134">Book from the Project form</span></span>
 
-<span data-ttu-id="c33c2-135">Kaip projektų vadovui, jums gali tekti rezervuoti išteklių projektui, tačiau tik žinant kriterijus, o ne ištekliaus pavadinimą.</span><span class="sxs-lookup"><span data-stu-id="c33c2-135">As a Project manager, you might need to book a resource to a project, but only know the criteria rather than the name of the resource.</span></span> <span data-ttu-id="c33c2-136">Atlikite šiuos veiksmus, kad naudodami pagalbinę planavimo priemonę rastumėte išteklių, pagrįstą bet kuriais galimais ištekliaus atributais.</span><span class="sxs-lookup"><span data-stu-id="c33c2-136">Complete the following steps to use the schedule assistant to find a resource based on any available attributes of the resource.</span></span> 
+<span data-ttu-id="7af22-135">Kaip projektų vadovui, jums gali tekti rezervuoti išteklių projektui, tačiau tik žinant kriterijus, o ne ištekliaus pavadinimą.</span><span class="sxs-lookup"><span data-stu-id="7af22-135">As a Project manager, you might need to book a resource to a project, but only know the criteria rather than the name of the resource.</span></span> <span data-ttu-id="7af22-136">Atlikite šiuos veiksmus, kad naudodami pagalbinę planavimo priemonę rastumėte išteklių, pagrįstą bet kuriais galimais ištekliaus atributais.</span><span class="sxs-lookup"><span data-stu-id="7af22-136">Complete the following steps to use the schedule assistant to find a resource based on any available attributes of the resource.</span></span> 
 
-1. <span data-ttu-id="c33c2-137">Pereikite prie projekto ir pasirinkite **Rezervuoti**, kad atidarytumėte planavimo pagalbinę priemonę.</span><span class="sxs-lookup"><span data-stu-id="c33c2-137">Navigate to the project and select **Book** to open the Schedule Assistant.</span></span>
-2. <span data-ttu-id="c33c2-138">Naudodami filtrus, esančius kairėje planavimo pagalbinės priemonės pusėje, susiaurinkite kriterijus ir pažymėkite **Ieškoti.**</span><span class="sxs-lookup"><span data-stu-id="c33c2-138">Using the filters on the left side of the Schedule Assistant, narrow the criteria and select **Search.**</span></span>
-3. <span data-ttu-id="c33c2-139">Pagal rezultatuose grąžintus išteklius galite užsakyti išteklių.</span><span class="sxs-lookup"><span data-stu-id="c33c2-139">Based on resources returned in the results, you can book a resource.</span></span>
+1. <span data-ttu-id="7af22-137">Pereikite prie projekto ir pasirinkite **Rezervuoti**, kad atidarytumėte planavimo pagalbinę priemonę.</span><span class="sxs-lookup"><span data-stu-id="7af22-137">Navigate to the project and select **Book** to open the Schedule Assistant.</span></span>
+2. <span data-ttu-id="7af22-138">Naudodami filtrus, esančius kairėje planavimo pagalbinės priemonės pusėje, susiaurinkite kriterijus ir pažymėkite **Ieškoti.**</span><span class="sxs-lookup"><span data-stu-id="7af22-138">Using the filters on the left side of the Schedule Assistant, narrow the criteria and select **Search.**</span></span>
+3. <span data-ttu-id="7af22-139">Pagal rezultatuose grąžintus išteklius galite užsakyti išteklių.</span><span class="sxs-lookup"><span data-stu-id="7af22-139">Based on resources returned in the results, you can book a resource.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="c33c2-140">Šis metodas nesukuria jokių išteklių rezervavimų.</span><span class="sxs-lookup"><span data-stu-id="c33c2-140">This method doesn't create any bookings for the resource.</span></span> <span data-ttu-id="c33c2-141">Šis metodas įtraukia išteklių į komandą.</span><span class="sxs-lookup"><span data-stu-id="c33c2-141">Instead, it adds the resource to the team.</span></span> <span data-ttu-id="c33c2-142">Įtraukę komandos narį į projektą, projektų vadovas gali naudoti išlaikytus rezervavimus arba išplėstus rezervavimus, kad įtrauktų reikiamus rezervavimus į išteklius.</span><span class="sxs-lookup"><span data-stu-id="c33c2-142">After the team member has been added to the project, the project manager can use maintain bookings or extend bookings to add the required bookings to the resource.</span></span>
+> <span data-ttu-id="7af22-140">Šis metodas nesukuria jokių išteklių rezervavimų.</span><span class="sxs-lookup"><span data-stu-id="7af22-140">This method doesn't create any bookings for the resource.</span></span> <span data-ttu-id="7af22-141">Šis metodas įtraukia išteklių į komandą.</span><span class="sxs-lookup"><span data-stu-id="7af22-141">Instead, it adds the resource to the team.</span></span> <span data-ttu-id="7af22-142">Įtraukę komandos narį į projektą, projektų vadovas gali naudoti išlaikytus rezervavimus arba išplėstus rezervavimus, kad įtrauktų reikiamus rezervavimus į išteklius.</span><span class="sxs-lookup"><span data-stu-id="7af22-142">After the team member has been added to the project, the project manager can use maintain bookings or extend bookings to add the required bookings to the resource.</span></span>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
