@@ -2,18 +2,16 @@
 title: Grafiko API naudojimas norint atlikti operacijas su grafiko objektais
 description: Šioje temoje pateikiama informacija ir pavyzdžiai, kaip naudoti grafiko API.
 author: sigitac
-manager: Annbe
 ms.date: 04/27/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e03f4e6c49a835206b23cade3fabe3fd26693441
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 4a032dc7bcbdf23fce3c3b2ca63c51d473bd8e26
+ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950814"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6116807"
 ---
 # <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Grafiko API naudojimas norint atlikti operacijas su grafiko objektais
 
@@ -268,7 +266,6 @@ Toliau pateikiamas apribojimų ir žinomų problemų sąrašas.
 - Kiekvienas vartotojas gali turėti ne daugiau kaip 10 atvirų **OperationSet**.
 - „Project Operations“ šiuo metu palaikoma ne daugiau kaip 500 projekto užduočių iš viso.
 - **OperationSet** trikties būsena ir trikties žurnalai šiuo metu negalimi.
-- Grafiko API yra viešosios priežiūros versijos. „Microsoft“ nepalaiko šių API naudojimo gamybos aplinkoje.
 - [Projektų ir užduočių limitai bei ribos](/project-for-the-web/project-for-the-web-limits-and-boundaries)
 
 ## <a name="error-handling"></a>Klaidų apdorojimas
