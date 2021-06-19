@@ -2,11 +2,9 @@
 title: Kurti naują projektą
 description: Šioje temoje pateikta informacija apie tai, kaip sukurti naują projektą.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b29340dc88aea888ea2f5ea975eaea59d014279
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 8218747366be8536601cb007318c642ac122536b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270733"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6006251"
 ---
 # <a name="create-a-new-project"></a>Kurti naują projektą
 
@@ -55,7 +53,7 @@ Projektų vadovas gali naudoti projekto išteklių paskirstymo funkcijas, kad su
 
 [![Vaidmens pavyzdys](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
 
-**Scenarijus:** įmonė „Contoso” buvo pasamdyta užbaigti laiko ir medžiagų projektą, turintį patvirtintą projekto chartiją. Jaunesnysis projekto vadovas vis dar nustato projekto aprėptį. Išteklių vadovas dabar nustato konkrečius išteklius, kurie bus rezervuojami darbui naujame projekte. Projektas yra svarbus, todėl projekto rėmėjas paprašė nustatyti vyresniojo projekto vadovo vaidmenį kaip vieną iš vaidmenų. Išteklių vadovas turi gauti naują išteklių ir apibrėžti vaidmenį sistemoje, nes jaunesniajam projekto vadovui planuojant projektą gali prireikti ištekliaus informacijos.
+**Scenarijus:** Contoso buvo pasamdyta užbaigti laiko ir medžiagų projektą, kuriame yra patvirtinta projekto diagrama. Jaunesnysis projekto vadovas vis dar nustato projekto aprėptį. Išteklių vadovas dabar nustato konkrečius išteklius, kurie bus rezervuojami darbui naujame projekte. Projektas yra svarbus, todėl projekto rėmėjas paprašė nustatyti vyresniojo projekto vadovo vaidmenį kaip vieną iš vaidmenų. Išteklių vadovas turi gauti naują išteklių ir apibrėžti vaidmenį sistemoje, nes jaunesniajam projekto vadovui planuojant projektą gali prireikti ištekliaus informacijos.
 
 Toliau pateikiamais veiksmais parodoma, kaip išteklių vadovas gali nustatyti vyresniojo projekto vadovo vaidmenį ir susieti su juo ištekliaus charakteristikas. Vėliau vaidmenį galima naudoti norint ieškoti galimų išteklių, atitinkančių reikiamas išteklių kompetencijas.
 
