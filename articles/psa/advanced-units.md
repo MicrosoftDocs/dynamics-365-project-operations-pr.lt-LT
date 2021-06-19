@@ -2,8 +2,6 @@
 title: Vienetų grupės ir vienetai
 description: Šioje temoje pateikiama informacija apie vienetų grupes ir vienetus.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 45e4a95b429cd9d1f174653bd28cf567f690676d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e981f39bbb6ca4277778382a5816952df2a8a1fb
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291629"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009581"
 ---
 # <a name="unit-groups-and-units"></a>Vienetų grupės ir vienetai
 
@@ -86,9 +84,9 @@ Tolesniame pavyzdyje parodyta, kaip PSA naudoja vienetų grupę, vienetus ir kon
     - **Numatytasis laiko vienetas**: diena 
     - **Valiuta**: GBP
 
-| Vaidmuo      | Vienetų grupė | Vienetas | Organizacijos vienetas | Kaina   |
+| Vaidmuo      | Vienetų grupė | Vienetas | Organizacinis vienetas | Kainos   |
 |-----------|------------|------|---------------------|---------|
-| Kūrėjas | Time       | Day  | Danys          | 800 GBP |
+| Developer | Laikas       | Diena  | Contoso JK          | 800 GBP |
 
 ### <a name="time-entry"></a>Laiko įrašas
 

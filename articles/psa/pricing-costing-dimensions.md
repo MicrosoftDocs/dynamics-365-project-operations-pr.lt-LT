@@ -2,12 +2,10 @@
 title: Kainodaros ir įkainojimo dimensijų pagrindinis puslapis
 description: Šioje temoje pateikta kainodaros dimensijų apžvalga.
 author: rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 137fee27dd2302d47ae12faccde1682cff43db93
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9a2e2f7ed394229bbc553af9e616a6f322857195
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284143"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009266"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Kainodaros ir įkainojimo dimensijų pagrindinis puslapis
 
@@ -65,18 +63,18 @@ Toliau pateiktame pavyzdyje pateikiami sąskaitų tarifai, nustatyti pagal vaidm
 
 **Pavyzdiniai sąskaitų tarifai**
 
-| Vaidmuo        | Organizacijos vienetas    |Vienetas      |Kaina      |Valiuta  |
+| Vaidmuo        | Org. vienetai    |Vienetas      |Kainos      |Valiuta  |
 | ------------|-------------|----------|----------:|----------|
-| Kūrėjas   | „Danys“, JAV  |Hour | 200|USD     |
-| Kūrėjas   | „Danys India“ |Hour|   112|USD     |
+| Developer   | „Contoso“ JAV  |Valanda | 200|USD     |
+| Developer   | Contoso India |Valanda|   112|USD     |
 
 
 **Pavyzdiniai savikainos tarifai**
 
-| Atlyginimų juosta     | Organizacijos vienetas    |Vienetas      |Kaina      |Valiuta  |
+| Atlyginimų juosta     | Org. vienetai    |Vienetas      |Kainos      |Valiuta  |
 | ----------------|-------------|----------|----------:|----------|
-| „My company_Band1“ | „Danys“, JAV  |Hour | 145|USD     |
-| „My company_Band2“ | „Danys India“ |Hour|   67|USD     |
+| „My company_Band1“ | „Contoso“ JAV  |Valanda | 145|USD     |
+| „My company_Band2“ | Contoso India |Valanda|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

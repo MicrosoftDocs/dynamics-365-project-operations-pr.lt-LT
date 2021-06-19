@@ -2,8 +2,6 @@
 title: Įvardytų rezervuojamų išteklių rezervavimas projekto komandai ir užduočių priskyrimas
 description: Šioje temoje pateikiama informacija apie įvardytų išteklių rezervavimą projektų komandoms ir jų priskyrimą užduotims.
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6169f2bdc107e63d666fb32d34f531fd5d472c2f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e0f3957936e699fb2a9f570b9789924c55e12cc2
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291449"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009356"
 ---
 # <a name="book-named-bookable-resources-to-a-project-team-and-assign-tasks"></a>Įvardytų rezervuojamų išteklių rezervavimas projekto komandai ir užduočių priskyrimas 
 

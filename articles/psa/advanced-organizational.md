@@ -2,8 +2,6 @@
 title: Organizacinius vienetus
 description: Šioje temoje pateikta informacija apie organizacijos vienetus Dynamics 365 Project Service Automation.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 89ff652e186601ccdf75d99dc08a4f082e576cb0
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3be18adfa1d346bdabae7e89375ca2c5a2dbda95
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291674"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009626"
 ---
 # <a name="organizational-units"></a>Organizaciniai vienetai 
 
@@ -79,7 +77,7 @@ Kai įdiegiate Dynamics 365, optimizuokite saugos leidimus verslo vienetų hiera
 
 #### <a name="example-of-organizational-units-and-business-units"></a>Organizaciinių vienetų ir verslo vienetų pavyzdys
 
-Contoso turi klestinčią Microsoft technologijos praktiką. Darius ir Diana yra C\# kūrėjai, bet Diana yra Jungtinėse Valstijose, o Darius yra Indijoje. Daugeliui projekto užduočių reikia išteklių iš Contoso Indija ir Contoso JAV, o Dariui ir Dianai reikia turėti tokį patį saugos prieigos lygį į šios praktikos srities projektus. Tačiau Contoso Indija kūrėjų samdymo kaštai gerokai skiriasi nuo Contoso JAV kūrėjų kaštų.
+Contoso Ltd. turi klestinčią Microsoft technologijos praktiką. Darius ir Diana yra C\# kūrėjai, bet Diana yra Jungtinėse Valstijose, o Darius yra Indijoje. Daugeliui projekto užduočių reikia išteklių iš Contoso Indija ir Contoso JAV, o Dariui ir Dianai reikia turėti tokį patį saugos prieigos lygį į šios praktikos srities projektus. Tačiau Contoso Indija kūrėjų samdymo kaštai gerokai skiriasi nuo Contoso JAV kūrėjų kaštų.
 
 Čia pateikiamas optimalus būdas kurti šį scenarijų naudojant Dynamics 365 ir PSA.
 
@@ -124,7 +122,7 @@ Ne. Dabartiniame PSA leidime organizaciniai vienetai neskirstomi pagal hierarchi
 Kai turite sudėtingą sąnaudų centrų, skyrių, atsiskaitymo biurų ir kt. hierarchiją, nustatykite tos hierarchijos baigtinius mazgus kaip atskirus organizacinius vienetus.
 Toliau pateiktame pavyzdyje pavaizduotą įprastą hierarchiją:
 
-**Contoso Indija**
+**ContosoIndija**
 
   - SAP Praktika 
 
@@ -136,7 +134,7 @@ Toliau pateiktame pavyzdyje pavaizduotą įprastą hierarchiją:
     - Techniniai Konsultantai
     - Funkciniai Konsultantai 
     
-**Contoso, JAV**
+**Contoso JAV**
 
  - SAP Praktika 
 
@@ -154,9 +152,9 @@ Jei jūsų hierarchija yra panaši, turite ją nustatyti kaip plokščią sąra�
 - Contoso Indija - Microsoft technologijos praktikos funkciniai konsultantai 
 - Contoso Indija - Microsoft technologijos praktikos funkciniai konsultantai 
 - Contoso JAV - SAP Praktika - Techniniai konsultantai  
-- Contoso JAV – SAP Praktika – Funkciniai konsultantai  
-- Contoso JAV - Microsoft technologijos praktika - Techniniai konsultatai 
-- Contoso JAV - Microsoft technologijos praktika - Funkciniai konsultantai
+- Contoso JAV - SAP Praktika - Funkciniai konsultantai  
+- Contoso JAV - Microsoft technologijos praktika - Techniniai konsultantai 
+- Contoso JAV - Microsoft technologijos praktikos funkciniai konsultantai
 
 ### <a name="were-a-small-professional-services-company-that-operates-as-only-one-division-how-can-we-best-use-the-organizational-unit-concept-in-the-current-version-of-psa"></a>Esame nedidelė profesionalių paslaugų įmonė, veikianti kaip vienas skyrius. Kaip galime geriausiai naudoti organizacinio vieneto koncepciją dabartinėje PSA versijoje?
 

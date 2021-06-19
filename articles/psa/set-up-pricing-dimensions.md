@@ -2,12 +2,10 @@
 title: Pasirinktinių laukų kaip kainodaros dimensijų nustatymas
 description: Šioje temoje pateikiama informacija apie tai, kaip nustatyti pasirinktines kainodaros dimensijas.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/20/2018
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 81f926e0aa209dd83f9b850c2342bd35a4f236c3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cce3a3fe6aef247380f6284f58d49337f969c38c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282478"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008321"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Pasirinktinių laukų kaip kainodaros dimensijų nustatymas 
 
@@ -75,10 +73,10 @@ Yra dviejų tipų kainodaros dimensijos:
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso India|Vietoje            |                    |Viršvalandžiai                 |15     |
 |             | Contoso India|Vietinis             |                    |Viršvalandžiai                 |10     |
-|             | „Danys“, JAV   |Vietinis             |                    |Viršvalandžiai                 |20     |
+|             | „Contoso“ JAV   |Vietinis             |                    |Viršvalandžiai                 |20     |
 
 
-Jei ištekliai iš „Danys India“, kurių bazinis tarifas yra 100 USD, dirba internetu, ir jie laiko įraše užregistruoja 8 reguliaraus laiko valandas ir 2 valandas viršvalandžių, „Project Service“ kainodaros variklis naudos 100 bazinį tarifą už 8 valandas įrašui 800 USD. Už 2 valandas viršvalandžių 100 baziniam tarifui bus taikomas 15 % antkainis, kad būtų gauta 115 USD vieneto kaina, ir įrašys bendrą savikainą, lygią 230 USD.
+Jei ištekliai iš „Contoso India“, kurių bazinis tarifas yra 100 USD, dirba internetu, ir jie laiko įraše užregistruoja 8 reguliaraus laiko valandas ir 2 valandas viršvalandžių, „Project Service“ kainodaros variklis naudos 100 bazinį tarifą už 8 valandas įrašui 800 USD. Už 2 valandas viršvalandžių 100 baziniam tarifui bus taikomas 15 % antkainis, kad būtų gauta 115 USD vieneto kaina, ir įrašys bendrą savikainą, lygią 230 USD.
 
 ### <a name="applicable-to-cost"></a>Taikoma savikainai 
 Jei tai nustatyta kaip **Taip**, tai nurodo, kad dimensijos reikšmė iš įvesties konteksto turi būti naudojama, siekiant suderinti **Vaidmens kaina** ir **Vaidmens kainos antkainis**, kai gaunami savikainos ir antkainio tarifai.
