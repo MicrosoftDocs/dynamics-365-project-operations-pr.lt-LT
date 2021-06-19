@@ -2,18 +2,16 @@
 title: Vidinės įmonės sąskaitų faktūrų išrašymo apžvalga
 description: Šioje temoje pateikiama informacijos ir pavyzdžių apie vidinės įmonės SF išrašymą už projektus.
 author: sigitac
-manager: tfehr
 ms.date: 11/19/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3ad75089de1a2f99646f7aba213e199a2bec347d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 42af89105f8325f1c94df6d2133d2c329facf2b3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287338"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002651"
 ---
 # <a name="intercompany-invoicing-overview"></a>Vidinės įmonės sąskaitų faktūrų išrašymo apžvalga
 
@@ -21,7 +19,7 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 
 Jūsų organizaciją gali sudaryti keli skyriai, filialai ir kiti juridiniai subjektai, kurie, vykdydami projektus, keičiasi produktais ir paslaugomis. Juridinis subjektas, kuris teikia paslaugą arba produktą, vadinamas *skolinančiu juridiniu subjektu*. Juridinis subjektas, kuris gauna paslaugą arba produktą, vadinamas *besiskolinančiu juridiniu subjektu*.
 
-Toliau pateikiamas tipiško scenarijaus pavyzdys: du juridiniai subjektai „Contoso Robotics USA“ (besiskolinantis juridinis subjektas) ir „Contoso Robotics UK“ (skolinantis juridinis subjektas) dalijasi ištekliais, kad pateiktų projektą klientui „Adventure Works“. Šiuo atveju su „Contoso Robotics USA“ sudaryta sutartis, pagal kurią ji turi pateikti darbą įmonei „Adventure Works“.
+Šioje iliustracijoje pavaizduotas įprastas scenarijus, kai du juridiniai objektai Contoso Robotics USA (besiskolinantis juridinis subjektas) ir Contoso Robotics UK (skolinantis juridinis subjektas) bendrina išteklius, kad klientui „Adventure works“ būtų galima vykdyti projektą. Pagal šį scenarijų Contoso Robotics USA sudarė sutartį teikti darbus „Adventure Works“.
 
 ![Vidinės įmonės sąskaitų faktūrų išrašymas](./media/IntercompanyScenario.png) 
 
