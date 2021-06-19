@@ -2,8 +2,6 @@
 title: Kelių valiutų scenarijai (versija 3.x)
 description: Šioje temoje pateikta informacija apie kelių valiutų scenarijus.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 33e44297dc80801c3e4416cd9fc3bedae5f3c4ba
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 70f27d29c74a82f0307bd0724347960e5755e3a8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291719"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014801"
 ---
 # <a name="multiple-currency-scenarios"></a>Kelių valiutų scenarijai
 
@@ -36,7 +34,7 @@ Microsoft Dynamics 365 yra dvi valiutų sąvokos:
 - **Operacijos valiuta** – valiuta, kuria vykdomas operacija. 
 - **Pagrindinė valiuta** – Dynamics 365 egzemplioriaus valiuta. Ši valiuta nustatoma, Dynamics 365 egzemplioriaus aptarnavimo metu. Jos keisti negalima.
 
-Pavyzdžiui, Danys JAV pardavė 100 marškinėlių klientui Jungtinėje Karalystėje po 15 svarų sterlingų (GBP) už vienetą. Sekančioje lentelėje parodoma, kaip ši operacija įrašoma Produkto Užsakymas objekte.
+Pavyzdžiui, Contoso JAV pardavė 100 marškinėlių klientui Jungtinėje Karalystėje po 15 svarų sterlingų (GBP) už vienetą. Sekančioje lentelėje parodoma, kaip ši operacija įrašoma Produkto Užsakymas objekte.
 
 | Produktas | Kiekis | Vieneto kaina | Valiuta | Kiekis | Valiutos kursas | Pradinė vieneto kaina| Suma (pagrindinė)|
 |---------|----------|----------------|----------|--------|---------------|----------------------|--------------|
@@ -68,14 +66,14 @@ PSA išplečia išlaidų ir pardavimo operacijų valiutos sampratą sekančiais 
 
 ## <a name="multiple-currency-scenario"></a>Kelių valiutų scenarijus
 
-Šiame skyriuje aprašomas projekto, kurį Danys JK pristato klientui, kuris pavadintas Fabrikam, Japonija, pavyzdys. Štai kaip scenarijus buvo sudarytas:
+Šiame skyriuje aprašomas projekto, kurį Contoso JK pristato klientui, kuris pavadintas Fabrikam, Japonija, pavyzdys. Štai kaip scenarijus buvo sudarytas:
 
 1. GBP ir Japonijos jena (JPY) nustatomos **Parametrai** \> **Verslo Valdymas** \> **Valiutos**. 
 2. Kliento sąskaita, pavadinta **Fabrikam-Japonija**, sukuriama, o JPY nustatoma kaip sąskaitos valiuta.
-3. Nustatomas organizacijos vienetas, pavadintas **Danys JK**, o GBP nustatoma kaip valiuta.
-4. Sukuriama projekto sutartis, kurioje **Danys** yra nurodytas kaip sutarties vienetas, o **Fabrikam – Japonija** nurodytas kaip klientas.
+3. Nustatomas organizacijos vienetas, pavadintas **Contoso JK**, o GBP nustatoma kaip valiuta.
+4. Sukuriama projekto sutartis, kurioje **Contoso JK** yra nurodyta kaip sutarties vienetas, o **Fabrikam – Japonija** nurodyta kaip klientas.
 5. Sukuriamos projekto sutarties eilutės, remiantis įvairių projekto operacijų klasių atsiskaitymo tvarka, pvz., atsiskaitymas už laiką lyginant su atsiskaitymu už išlaidas.
-6. Projektas sukurtas, kai **Danys** yra nurodytas kaip sutarties vienetas. Šis projektas sukurtas ir susietas su projekto sutarties eilutėmis.
+6. Projektas sukurtas, kai **Contoso JK** yra nurodyta kaip sutarties vienetas. Šis projektas sukurtas ir susietas su projekto sutarties eilutėmis.
 
 
 Atliekant vertinimą, naudojant pasiūlymo eilutės duomenis, projekto sutarties eilutės duomenis arba tvarkaraščio įvertinimo eilutėje, visada sukuriami du įrašai objekte. Viena eilutė skirta išlaidoms, o kita eilutė skirta pardavimams.

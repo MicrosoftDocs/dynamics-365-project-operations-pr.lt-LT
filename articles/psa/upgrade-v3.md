@@ -1,9 +1,7 @@
 ---
 title: Atnaujinimo aptarimas – „Microsoft Dynamics 365 Project Service Automation“  iš 2.x arba 1.x versijos į 3 versiją
 description: Šioje temoje pateikta informacija apie dalykus, į kuriuos reikia atsižvelgti atnaujinant iš „Project Service Automation“ 2.x arba 1.x versijos į 3 versiją.
-manager: kfend
 ms.prod: ''
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/13/2018
@@ -18,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ff0777705c6d0e2c0d8aa4ed191f4ae6b1786100
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 04ae6aa3ef6a14a6f85dce3eaa5af01e0adce9ba
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281668"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014893"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Atnaujinimo aptarimas - iš PSA 2.x arba 1.x versijos į 3 versiją
 
@@ -83,15 +81,15 @@ Prieš pradedant naujinti, rekomenduojame iš naujo sugeneruoti kiekvieno projek
 
 Užduotims, priskirtoms bendriesiems komandos nariams, kurie buvo sugeneruoti naudojant funkciją **Generuoti komandą**, atnaujinus bendrasis išteklius bus paliktas komandoje, o priskyrimas bus paliktas tam bendrajam komandos nariui. Rekomenduojame sugeneruoti bendrojo komandos nario išteklių reikalavimą po atnaujinimo, bet prieš rezervuojant arba pateikiant išteklių užklausą. Taip bus išsaugoti bet kokie organizacijos vienetų priskyrimai bendriesiems komandos nariams, kurie skiriasi nuo projekto sutartį sudarančios organizacijos vieneto.
 
-Pavyzdžiui, projekte „Projektas Z“ sutartį sudarančios organizacijos vienetas yra „Danys US“. Projekto plane testavimo užduotims diegimo fazėje buvo priskirtas vaidmuo „techninis konsultantas“, o priskirtas organizacijos vienetas yra „Danys India“.
+Pavyzdžiui, projekte „Projektas Z“ sutartį sudarančios organizacijos vienetas yra „Contoso US“. Projekto plane testavimo užduotims diegimo fazėje buvo priskirtas vaidmuo „techninis konsultantas“, o priskirtas organizacijos vienetas yra „Contoso India“.
 
 ![Diegimo etapo organizacijos priskyrimas](media/org-unit-assignment-09.png)
 
-Po diegimo etapo integravimo testavimo užduotis priskiriama vaidmeniui „techninis konsultantas“, tačiau organizacija nustatoma į „Danys US“.  
+Po diegimo etapo integravimo testavimo užduotis priskiriama vaidmeniui „techninis konsultantas“, tačiau organizacija nustatoma į „Contoso US“.  
 
 ![Integravimo testavimo užduočių organizacijos priskyrimas](media/org-unit-generate-team-10.png)
 
-Generuojant projekto komandą sukuriami du bendrieji komandos nariai dėl skirtingų organizacijos vienetų užduotyse. „Techninis konsultantas 1“ bus priskirtas „Danys India“ užduotims, o „techninis konsultantas 2“ turės „Danys US“ užduotis  
+Generuojant projekto komandą sukuriami du bendrieji komandos nariai dėl skirtingų organizacijos vienetų užduotyse. „Techninis konsultantas 1“ bus priskirtas „Contoso India“ užduotims, o „techninis konsultantas 2“ turės „Contoso US“ užduotis  
 
 ![Sugeneruoti bendrieji komandos nariai](media/org-unit-assignments-multiple-resources-11.png)
 
@@ -106,7 +104,7 @@ Organizacijos vienetą galite matyti įvertinimų rodinyje.
  
 Baigus naujinti, organizacijos vienetas eilutės užduotyje, atitinkantis bendrąjį komandos narį, įtraukiamas prie bendrojo komandos nario, o eilutės užduotis pašalinama. Todėl rekomenduojame prieš naujinant sugeneruoti arba iš naujo generuoti kiekvieno projekto, kuriame yra bendrųjų išteklių, komandą.
 
-Dėl užduočių, kurioms priskirtas vaidmuo su organizacijos vienetu, kuris skiriasi nuo sutarties sudarymo projekto organizacijos vieneto, o komanda nebuvo sugeneruota, atnaujinus vaidmeniui bus sukurtas bendrasis komandos narys, tačiau kaip komandos nario organizacijos vienetas bus naudojamas projekto sutartį sudarantis vienetas. Grįžtant prie „Projekto Z“ pavyzdžio, tai reiškia, kad sutartį sudarančios organizacijos vienetui „Contoso US“ ir projekto plano testavimo užduotims diegimo fazėje buvo priskirtas vaidmuo „Techninis konsultantas“, kurio organizacijos vienetas priskirtas „Contoso India“. Integravimo testavimo užduočiai, kuri buvo baigta po diegimo etapo, buvo priskirtas vaidmuo „Techninis konsultantas“. Organizacijos vienetas yra „Danys US“, o komanda nebuvo sugeneruota. Atnaujinus bus sukurtas vienas bendrasis komandos narys, techninis konsultantas, kuriam priskirtos visų trijų užduočių valandos ir organizacijos vienetas „Danys US“, projekto sutartį sudarančios organizacijos vienetas.   
+Dėl užduočių, kurioms priskirtas vaidmuo su organizacijos vienetu, kuris skiriasi nuo sutarties sudarymo projekto organizacijos vieneto, o komanda nebuvo sugeneruota, atnaujinus vaidmeniui bus sukurtas bendrasis komandos narys, tačiau kaip komandos nario organizacijos vienetas bus naudojamas projekto sutartį sudarantis vienetas. Grįžtant prie „Projekto Z“ pavyzdžio, tai reiškia, kad sutartį sudarančios organizacijos vienetui „Contoso US“ ir projekto plano testavimo užduotims diegimo fazėje buvo priskirtas vaidmuo „Techninis konsultantas“, kurio organizacijos vienetas priskirtas „Contoso India“. Integravimo testavimo užduočiai, kuri buvo baigta po diegimo etapo, buvo priskirtas vaidmuo „Techninis konsultantas“. Organizacijos vienetas yra „Contoso US“, o komanda nebuvo sugeneruota. Atnaujinus bus sukurtas vienas bendrasis komandos narys, techninis konsultantas, kuriam priskirtos visų trijų užduočių valandos ir organizacijos vienetas „Contoso US“, projekto sutartį sudarančios organizacijos vienetas.   
  
 Nesugeneruotų komandos narių skirtingų išteklių paskyrimo organizacijos vienetų numatytosios reikšmės pakeitimas yra priežasties, dėl kurios rekomenduojame prieš atnaujinant sugeneruoti arba iš naujo generuoti kiekvieno projekto, kuriame yra bendrųjų išteklių, komandą, kad nebūtų prarasti organizacijos vienetų priskyrimai.
 
