@@ -6,12 +6,12 @@ ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3ebdb543560027d223715d0e5c70c864b706cb2c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f4428bac8e82bdfc848c199b0e294486b9fde82e
+ms.sourcegitcommit: 639ec8a41fda15dedfd6918702d33ea406999ba6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007151"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6304266"
 ---
 # <a name="integration-journal-in-project-operations"></a>Integravimo žurnalas programoje „Project Operations“
 
@@ -26,7 +26,7 @@ Laiko ir išlaidų įrašai sukuria operacijas **Faktinės**, kurios atitinka pa
 Įrašai „Project Operations“ integravimo žurnale įrašai kuriami naudojant periodinį procesą, **Importuoti iš paruošimo lentelės**. Šį procesą galite vykdyti eidami į **„Dynamics 365 Finance”** > **Projektų valdymas ir apskaita** > **Periodinis** > **„Project Operations“ integravimas** > **Importuoti iš paruošimo lentelės**. Jeigu reikia, galite vykdyti procesą interaktyviai arba sukonfigūruoti procesą, kad veiktų fone.
 
 Vykdant periodinį procesą, randami visi faktiniai duomenys, kurie dar neįtraukti į „Project Operations“ integravimo žurnalą. Sukuriama kiekvienos faktinės operacijos žurnalo eilutė.
-Sistema grupuoja žurnalo eilutes į atskirus žurnalus pagal vertę, pažymėtą lauke **Laiko vienetas „Project Operations“ integravimo žurnale** (**„Finance”** > **Projektų valdymas ir apskaita** > **Sąranka** > **Projektų valdymo ir apskaitos parametrai**, **„Project Operations”, veikiančios „Dynamics 365 Customer Engagement”** skirtukas). Toliau pateikiamos galimos šio lauko reikšmės.
+Sistema grupuoja žurnalo eilutes į atskirus žurnalus pagal reikšmę, pasirinktą lauke **Laiko vienetas „Project Operations“ integravimo žurnale** (**„Finance”** > **Projektų valdymas ir apskaita** > **Sąranka** > **Projektų valdymo ir apskaitos parametrai**, **„Project Operations”, veikiančios „Dynamics 365 Customer Engagement”** skirtuke). Toliau pateikiamos galimos šio lauko reikšmės.
 
   - **Dienos**: faktiniai duomenys grupuojami pagal operacijos datą. Sukuriamas atskiras kiekvienos dienos žurnalas.
   - **Mėnesiai**: faktiniai duomenys grupuojami pagal kalendorinį mėnesį. Sukuriamas atskiras kiekvieno mėnesio žurnalas.

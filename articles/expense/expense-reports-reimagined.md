@@ -2,7 +2,7 @@
 title: Išlaidų ataskaitų pertvarkymas
 description: Šioje temoje paaiškinama, kaip pertvarkyti ir iš naujo nustatyti išlaidų ataskaitų įrašų patirtį.
 author: suvaidya
-ms.date: 03/26/2021
+ms.date: 06/14/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 76073d5c58398b2c296fdca05ba7bdf7f01951bb
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f8c44f86ff7c00e2d5b927bbe6878be7ab6d7758
+ms.sourcegitcommit: e93f436afbb92a312fc71b6371866f01927e49d5
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995361"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "6251014"
 ---
 # <a name="expense-reports-reimagined"></a>Išlaidų ataskaitų pertvarkymas
 
@@ -26,13 +26,13 @@ Išlaidų ataskaitos įrašas buvo perkurtas, kad procesas būtų paprastesnis i
 
 - Nauja išlaidų valdymo darbo sritis, leidžianti pasiekti atstovo išlaidas.
 - Nauja kvitą atitinkanti patirtis, siekiant geriau rodyti antraščių lygio kvitus ir supaprastinti kvitų įtraukimą į išlaidų eilutes procesą.
-- Naujas tik skaitomas tinklelis, leidžiantis peržiūrėti daugiau išlaidų eilučių ir papildomų duomenų stulpelių. Dabar galite matyti visas detalizuotas ir išskaidytas eilutes ir jų pirmines išlaidas.
+- Naujas tik skaityti skirtas tinklelis, kuriame galite peržiūrėti daug daugiau išlaidų eilučių ir kitų duomenų stulpelių. Dabar galite matyti visas detalizuotas ir išskaidytas eilutes ir jų pirmines išlaidas.
 - Supaprastinta išlaidų redagavimo sritis.
 - Pertvarkyti klaidų, įspėjimų ir strategijų pranešimai, kad būtų perteiktas teisingas kontekstas ir problemos supratimas ir kaip ją išspręsti. Pašalinome kelis pranešimus, kurie atsirasdavo prieš vartotojams atlikus užduotis ir sprendžiant problemas.
 - Naujas puslapis, kuriame galima nurodyti būtinus laukus, pasirinktinius laukus ir laukus, kurie neturėtų būti įtraukiami. Šis puslapis padeda sumažinti laukų, kuriuos reikia nustatyti, skaičių.
 - Nauja išlaidų ataskaitų išvaizda, kad ataskaitos nebeatrodytų lyg būtų skirtos tik apskaitą suprantantiems asmenims.
 
-Norėdami įjungti naują naudojimo patirtį, naudokite darbo sritį **Funkcijų valdymas**, kad įjungtumėte funkciją **Išlaidų ataskaitų pertvarkymas**. Įjungus šią funkciją atliekami šie veiksmai:
+Norėdami įjungti naująsias funkcijas, darbo srityje **Funkcijų valdymas** įjunkite funkciją **Pertvarkytų išlaidų ataskaitų darbo sritis**. Įjungus šią funkciją atliekami šie veiksmai:
 
 - Esama išlaidų darbo sritis pakeičiama nauja darbo sritimi.
 - Įtraukiamas naujas išlaidų lauko matomumo meniu elementas.
@@ -45,7 +45,7 @@ Norėdami įjungti naują naudojimo patirtį, naudokite darbo sritį **Funkcijų
 
 | Nauja funkcija | Aprašymas |
 |---|----|
-| Išlaidų lauko matomumas | Naujame nustatymų puslapyje galite nurodyti, kurie laukai turi būti išjungti organizacijai, kurie laukai turi būti būtini ir kurie yra rekomenduojami. |
+| Išlaidų lauko matomumas | Naujame sąrankos puslapyje galite nurodyti, kurie organizacijos laukai turi būti išjungti. Taip pat galite nurodyti, kurie laukai turi būti būtini, o kurie – rekomenduojami. |
 | Būtini laukai | Naudojant naują paprastą konfigūraciją galite kelis laukus padaryti būtinais nenaudojant strategijos sistemos. |
 | Pasirinktiniai laukai | Pridedamas antras pasirinktinių laukų puslapis. Tokiu būdu darbuotojai nesijaus, lyg turi nustatyti laukus, tačiau laukai vis dar lengvai pasiekiami. |
 | Nepridėtų kvitų įtraukimas | Galimybė įtraukti nepridėtus kvitus į išlaidų ataskaitą labiau matoma iš darbo srities ir išlaidų ataskaitos. |
@@ -57,13 +57,14 @@ Norėdami įjungti naują naudojimo patirtį, naudokite darbo sritį **Funkcijų
 | Valiutos kurso skaičiuotuvas | Įtraukiamas valiutos kurso skaičiuotuvas, leidžiantis apskaičiuoti kišenės kelių valiutų operacijų valiutos kursą. |
 | Naujų išlaidų eilučių išsaugojimas ir įtraukimas | Įvesdami naujas išlaidas, galite naudoti mygtukus **Įrašyti** ir **Nauja**, kad greitai įvestumėte išlaidų eilutes. |
 | Išskaidytų ir detaliai išvardytų eilučių geresnis matomumas | Detaliai išvardytos ir išskaidytos eilutės tiesiogiai įtraukiamos į išlaidų sąrašą, kad būtų padidintas matomumas ir būtų lengviau nustatyti, ar yra klaidų. |
+| Subkategorijų duomenų peržiūra detalizuotose eilutėse | Detalizuotose pirminių išlaidų eilutėse rodomos išlaidų ataskaitos subkategorijų žymos, kurios padeda greitai peržiūrėti detalią informaciją.|
 | Kvitų rodymas detalizavimo metu | Galite matyti kvitus detalizavimo metu. |
 | Avanso grynaisiais pinigais pasirinkimas | Pažymėkite vieną ar daugiau avansų grynaisiais pinigais, kad būtų galima atlikti vieną išlaidų operaciją. |
 | Avanso grynaisiais pinigais balansas | Realiuoju laiku peržiūrėkite avanso grynaisiais pinigais balansą, kai kuriate išlaidų įrašą pagal patvirtintus ir apmokėtus avansus grynaisiais pinigais. |
 
 Pradinis leidimas sutelktas į išlaidų įrašų scenarijus. Bet koks išlaidų ataskaitos peržiūros arba patvirtinimo scenarijus toliau naudos esamą išlaidų įrašo puslapį.
 
-Iš naujo atnaujintoje išlaidų darbo srityje nepalaikomos šios funkcijos:
+Toliau nurodytos funkcijos darbo srityje Pertvarkytos išlaidų ataskaitos nepalaikomos, bet jas planuojama palaikyti būsimuose leidimuose. 
 
 - Kelionės paraiškos integravimas
 - Dienpinigių išlaidų įrašas

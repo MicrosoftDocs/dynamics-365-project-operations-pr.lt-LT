@@ -1,19 +1,19 @@
 ---
-title: Grafiko API naudojimas norint atlikti operacijas su grafiko objektais
-description: Šioje temoje pateikiama informacija ir pavyzdžiai, kaip naudoti grafiko API.
+title: Projekto grafiko API sąsajų naudojimas operacijoms su planavimo objektais atlikti
+description: Šioje temoje pateikiama informacija apie projekto grafiko API sąsajų naudojimą ir jo pavyzdžiai.
 author: sigitac
-ms.date: 04/27/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4a032dc7bcbdf23fce3c3b2ca63c51d473bd8e26
-ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
+ms.openlocfilehash: 4915261c08a3271a919e04084e92a14b297c1b35
+ms.sourcegitcommit: 2f16c2bc7c8350676a6a380c61fffa9958db6a0b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6116807"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "6293237"
 ---
-# <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Grafiko API naudojimas norint atlikti operacijas su grafiko objektais
+# <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Projekto grafiko API sąsajų naudojimas operacijoms su planavimo objektais atlikti
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
@@ -22,9 +22,9 @@ _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems s
 
 ## <a name="scheduling-entities"></a>Grafiko objektai
 
-Grafiko API suteikia galimybę atlikti kūrimo, naujinimo ir naikinimo operacijas naudojant **grafiko objektus**. Šie objektai valdomi naudojant „Project for the Web“ planavimo variklį. Ankstesniuose „Dynamics 365 Project Operations“ leidimuose operacijų kūrimas, naujinimas ir naikinimas naudojant **planavimo objektus** buvo apribotas.
+Projekto grafiko API sąsajos suteikia galimybę atlikti kūrimo, naujinimo ir naikinimo operacijas su **planavimo objektais**. Šie objektai valdomi naudojant „Project for the Web“ planavimo variklį. Ankstesniuose „Dynamics 365 Project Operations“ leidimuose operacijų kūrimas, naujinimas ir naikinimas naudojant **planavimo objektus** buvo apribotas.
 
-Toliau esančioje lentelėje pateikiamas visas **planavimo objektų** sąrašas.
+Toliau esančioje lentelėje pateikiamas visas projekto grafiko objektų sąrašas.
 
 | Objekto pavadinimas  | Loginis objekto pavadinimas |
 | --- | --- |
@@ -39,19 +39,19 @@ Toliau esančioje lentelėje pateikiamas visas **planavimo objektų** sąrašas.
 
 OperationSet yra darbo vieneto modelis, kurį galima naudoti, kai operacijoje reikia apdoroti keletą grafikui poveikį darančių užklausų.
 
-## <a name="schedule-apis"></a>Grafiko API
+## <a name="project-schedule-apis"></a>Projekto grafiko API sąsajos
 
-Toliau pateikiamas dabartinių grafiko API sąrašas.
+Toliau pateikiamas dabartinių projekto grafiko API sąrašas.
 
 - **msdyn_CreateProjectV1**: šį API galima naudoti norint sukurti projektą. Projektas ir numatytoji projekto talpykla sukuriami nedelsiant.
 - **msdyn_CreateTeamMemberV1**:šį API galima naudoti norint sukurti projekto komandos narį. Komandos nario įrašas sukuriamas nedelsiant.
 - **msdyn_CreateOperationSetV1**: šį API galima naudoti norint suplanuoti keletą užklausų, kurias reikia atlikti operacijoje.
-- **msdyn_PSSCreateV1**: šį API galima naudoti norint sukurti objektą. Objektu gali būti bet kuris iš planavimo objektų, palaikančių kūrimo operaciją.
-- **msdyn_PSSUpdateV1**: šį API galima naudoti norint atnaujinti objektą. Objektu gali būti bet kuris iš planavimo objektų, palaikančių naujinimo operaciją.
-- **msdyn_PSSDeleteV1**: šį API galima naudoti norint panaikinti objektą. Objektu gali būti bet kuris iš planavimo objektų, palaikančių naikinimo operaciją.
+- **msdyn_PSSCreateV1**: šį API galima naudoti norint sukurti objektą. Toks objektas gali būti bet kuris projekto planavimo objektas, kuris palaiko kūrimo operaciją.
+- **msdyn_PSSUpdateV1**: šį API galima naudoti norint atnaujinti objektą. Toks objektas gali būti bet kuris projekto planavimo objektas, kuris palaiko naujinimo operaciją.
+- **msdyn_PSSDeleteV1**: šį API galima naudoti norint panaikinti objektą. Toks objektas gali būti bet kuris projekto planavimo objektas, kuris palaiko naikinimo operaciją.
 - **msdyn_ExecuteOperationSetV1**: šis API naudojamas norint vykdyti visas nurodyto operacijų rinkinio operacijas.
 
-## <a name="using-schedule-apis-with-operationset"></a>Grafiko API naudojimas kartu su OperationSet
+## <a name="using-project-schedule-apis-with-operationset"></a>Projekto grafiko API sąsajų naudojimas su OperationSet
 
 Kadangi įrašai, naudojant **CreateProjectV1** ir **CreateTeamMemberV1**, sukuriami nedelsiant, šių API negalima naudoti tiesiai **OperationSet**. Tačiau API galite naudoti norėdami sukurti reikiamus įrašus, **OperationSet**, tada šiuos iš anksto sukurtus įrašus panaudoti **OperationSet**.
 
@@ -257,7 +257,7 @@ Toliau pateikiamose lentelėse apibrėžiami laukai, kurių negalima **Kurti** i
 ## <a name="limitations-and-known-issues"></a>Apribojimai ir žinomos problemos
 Toliau pateikiamas apribojimų ir žinomų problemų sąrašas.
 
-- Grafiko API gali naudoti tik **vartotojai, turintys „Microsoft Project“ licenciją.** Jų negali toliau nurodyti vartotojai.
+- Projekto grafiko API sąsajas gali naudoti tik **vartotojai, turintys „Microsoft Project“ licenciją**. Jų negali toliau nurodyti vartotojai.
     - Programų vartotojai
     - Sistemos vartotojai
     - Integravimo vartotojai
@@ -271,7 +271,7 @@ Toliau pateikiamas apribojimų ir žinomų problemų sąrašas.
 ## <a name="error-handling"></a>Klaidų apdorojimas
 
    - Norėdami peržiūrėti iš operacijų rinkinių sugeneruotas klaidas, eikite į **Parametrai** \> **Grafiko integravimas** \> **Operacijų rinkiniai**.
-   - Norėdami peržiūrėti iš projektų planavimo tarnybos sugeneruotas klaidas, eikite į **Parametrai** \> **Grafiko integravimas** \> **PSS klaidų žurnalai**.
+   - Norėdami peržiūrėti klaidas, sugeneruotas projekto grafiko tarnyboje, eikite į **Parametrai** \> **Grafiko integracija** \> **PSS klaidų žurnalai**.
 
 ## <a name="sample-scenario"></a>Scenarijaus pavyzdys
 
