@@ -4,6 +4,7 @@ description: Šioje temoje pateikta informacija apie projektų planavimą.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 03/01/2019
 ms.topic: article
 ms.author: rumant
@@ -16,40 +17,40 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d2e41925153122d16c3bccf812afa84921df5a12
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 2505a831d18e882c0fd8fa9059a6fff84b0dadb1
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998376"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6368846"
 ---
-# <a name="project-planning-home-page"></a><span data-ttu-id="abc00-103">Projekto planavimo pradinis puslapis</span><span class="sxs-lookup"><span data-stu-id="abc00-103">Project planning home page</span></span>
+# <a name="project-planning-home-page"></a><span data-ttu-id="61a85-103">Projekto planavimo pradinis puslapis</span><span class="sxs-lookup"><span data-stu-id="61a85-103">Project planning home page</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="abc00-104">„Dynamics 365 Project Service Automation“ teikia nenutrūkstamą palaikymą, skirtą aptarnavimo organizacijoms, teikdama pardavimo ir pristatymo proceso valdymo įrankius.</span><span class="sxs-lookup"><span data-stu-id="abc00-104">Dynamics 365 Project Service Automation offers end-to-end support for service organizations by providing tools for managing the sales and delivery process.</span></span> <span data-ttu-id="abc00-105">Ji padeda šioms organizacijoms identifikuoti galimybes, pateikti kainos pasiūlymus, pasiekti sutartinius susitarimus, valdyti išteklius, teikti projektus laiku ir pagal biudžetą, įrašyti laiką ir išlaidas bei išrašyti sąskaitą faktūrą klientui.</span><span class="sxs-lookup"><span data-stu-id="abc00-105">It helps these organizations identify opportunities, submit bids, reach contractual agreements, manage resources, deliver projects on time and within budget, record time and expenses, and invoice the customer.</span></span> <span data-ttu-id="abc00-106">Komandos nariai gali bendradarbiauti vykdydami projektus ir gali išlaikyti esamą ir tikslią projekto būsenos informaciją, kad projektų vadovai galėtų identifikuoti ir valdyti projekto rizikas.</span><span class="sxs-lookup"><span data-stu-id="abc00-106">Team members can collaborate on projects, and they can maintain current, accurate project status information so that project managers can identify and manage project risks.</span></span> <span data-ttu-id="abc00-107">Šios išplėstinės užduotys paprastai atliekamos didesnėse organizacijose, kurios turi atskirus padalinius, kurie veikia kartu.</span><span class="sxs-lookup"><span data-stu-id="abc00-107">These advanced tasks are typically performed in larger organizations that have separate divisions that work together.</span></span>
+<span data-ttu-id="61a85-104">„Dynamics 365 Project Service Automation“ teikia nenutrūkstamą palaikymą, skirtą aptarnavimo organizacijoms, teikdama pardavimo ir pristatymo proceso valdymo įrankius.</span><span class="sxs-lookup"><span data-stu-id="61a85-104">Dynamics 365 Project Service Automation offers end-to-end support for service organizations by providing tools for managing the sales and delivery process.</span></span> <span data-ttu-id="61a85-105">Ji padeda šioms organizacijoms identifikuoti galimybes, pateikti kainos pasiūlymus, pasiekti sutartinius susitarimus, valdyti išteklius, teikti projektus laiku ir pagal biudžetą, įrašyti laiką ir išlaidas bei išrašyti sąskaitą faktūrą klientui.</span><span class="sxs-lookup"><span data-stu-id="61a85-105">It helps these organizations identify opportunities, submit bids, reach contractual agreements, manage resources, deliver projects on time and within budget, record time and expenses, and invoice the customer.</span></span> <span data-ttu-id="61a85-106">Komandos nariai gali bendradarbiauti vykdydami projektus ir gali išlaikyti esamą ir tikslią projekto būsenos informaciją, kad projektų vadovai galėtų identifikuoti ir valdyti projekto rizikas.</span><span class="sxs-lookup"><span data-stu-id="61a85-106">Team members can collaborate on projects, and they can maintain current, accurate project status information so that project managers can identify and manage project risks.</span></span> <span data-ttu-id="61a85-107">Šios išplėstinės užduotys paprastai atliekamos didesnėse organizacijose, kurios turi atskirus padalinius, kurie veikia kartu.</span><span class="sxs-lookup"><span data-stu-id="61a85-107">These advanced tasks are typically performed in larger organizations that have separate divisions that work together.</span></span>
 
-## <a name="project-management-tools"></a><span data-ttu-id="abc00-108">Projektų valdymo įrankiai</span><span class="sxs-lookup"><span data-stu-id="abc00-108">Project management tools</span></span>
+## <a name="project-management-tools"></a><span data-ttu-id="61a85-108">Projektų valdymo įrankiai</span><span class="sxs-lookup"><span data-stu-id="61a85-108">Project management tools</span></span>
 
-<span data-ttu-id="abc00-109">Projektų valdymo įrankiai, esantys „Project Service Automation“ (santr. PSA), padeda lengvai vykdyti projektus.</span><span class="sxs-lookup"><span data-stu-id="abc00-109">The project management tools in PSA help you easily run projects.</span></span> <span data-ttu-id="abc00-110">Įtaisytieji šablonai ir planavimo įrankiai padeda projektų vadovams ir komandoms dirbti produktyviau.</span><span class="sxs-lookup"><span data-stu-id="abc00-110">Built-in templates and scheduling tools help project managers and teams stay productive.</span></span> <span data-ttu-id="abc00-111">Čia pateikiamos kelios užduotys, kurias atliekant įrankiai padeda:</span><span class="sxs-lookup"><span data-stu-id="abc00-111">Here are some of the tasks that the tools help with:</span></span>
+<span data-ttu-id="61a85-109">Projektų valdymo įrankiai, esantys „Project Service Automation“ (santr. PSA), padeda lengvai vykdyti projektus.</span><span class="sxs-lookup"><span data-stu-id="61a85-109">The project management tools in PSA help you easily run projects.</span></span> <span data-ttu-id="61a85-110">Įtaisytieji šablonai ir planavimo įrankiai padeda projektų vadovams ir komandoms dirbti produktyviau.</span><span class="sxs-lookup"><span data-stu-id="61a85-110">Built-in templates and scheduling tools help project managers and teams stay productive.</span></span> <span data-ttu-id="61a85-111">Čia pateikiamos kelios užduotys, kurias atliekant įrankiai padeda:</span><span class="sxs-lookup"><span data-stu-id="61a85-111">Here are some of the tasks that the tools help with:</span></span>
 
-- <span data-ttu-id="abc00-112">Planuoti projektus ir kurti sąmatas bei darbo grafikus;</span><span class="sxs-lookup"><span data-stu-id="abc00-112">Plan projects by using a work schedule and estimates.</span></span>
-- <span data-ttu-id="abc00-113">Planuoti ir sekti projekto savikainas bei pajamas;</span><span class="sxs-lookup"><span data-stu-id="abc00-113">Estimate and track project costs and revenue.</span></span>
-- <span data-ttu-id="abc00-114">Pardavimo proceso metu naudoti projekto sąmatas;</span><span class="sxs-lookup"><span data-stu-id="abc00-114">Use project estimates during the sales process.</span></span>
-- <span data-ttu-id="abc00-115">Prognozuoti išteklių poreikius, kol projektai yra ruošiami;</span><span class="sxs-lookup"><span data-stu-id="abc00-115">Forecast resource requirements for projects that are in the pipeline.</span></span>
-- <span data-ttu-id="abc00-116">Sėkmingai pristatyti projektus sekant progresą ir sąnaudų suvartojimą.</span><span class="sxs-lookup"><span data-stu-id="abc00-116">Successfully deliver projects by tracking progress and cost consumption.</span></span>
+- <span data-ttu-id="61a85-112">Planuoti projektus ir kurti sąmatas bei darbo grafikus;</span><span class="sxs-lookup"><span data-stu-id="61a85-112">Plan projects by using a work schedule and estimates.</span></span>
+- <span data-ttu-id="61a85-113">Planuoti ir sekti projekto savikainas bei pajamas;</span><span class="sxs-lookup"><span data-stu-id="61a85-113">Estimate and track project costs and revenue.</span></span>
+- <span data-ttu-id="61a85-114">Pardavimo proceso metu naudoti projekto sąmatas;</span><span class="sxs-lookup"><span data-stu-id="61a85-114">Use project estimates during the sales process.</span></span>
+- <span data-ttu-id="61a85-115">Prognozuoti išteklių poreikius, kol projektai yra ruošiami;</span><span class="sxs-lookup"><span data-stu-id="61a85-115">Forecast resource requirements for projects that are in the pipeline.</span></span>
+- <span data-ttu-id="61a85-116">Sėkmingai pristatyti projektus sekant progresą ir sąnaudų suvartojimą.</span><span class="sxs-lookup"><span data-stu-id="61a85-116">Successfully deliver projects by tracking progress and cost consumption.</span></span>
 
-<span data-ttu-id="abc00-117">Toliau pateikiamose temose pateikta informacija, padedanti projektų vadovams įvertinti darbus, įvertinti projekto išlaidas ir prognozuoti išteklių poreikius naudojant PSA palaikomus įrankius:</span><span class="sxs-lookup"><span data-stu-id="abc00-117">The following topics provide information that will help project managers estimate work, estimate project costs, and forecast resource requirements by using the tools that are supported in PSA:</span></span>
+<span data-ttu-id="61a85-117">Toliau pateikiamose temose pateikta informacija, padedanti projektų vadovams įvertinti darbus, įvertinti projekto išlaidas ir prognozuoti išteklių poreikius naudojant PSA palaikomus įrankius:</span><span class="sxs-lookup"><span data-stu-id="61a85-117">The following topics provide information that will help project managers estimate work, estimate project costs, and forecast resource requirements by using the tools that are supported in PSA:</span></span>
 
-- [<span data-ttu-id="abc00-118">Grafiko kūrimas</span><span class="sxs-lookup"><span data-stu-id="abc00-118">Creating a schedule</span></span>](project-creating.md)
-- [<span data-ttu-id="abc00-119">Projekto savikainos ir įplaukų įvertinimas</span><span class="sxs-lookup"><span data-stu-id="abc00-119">Estimating project cost and revenue</span></span>](project-estimating.md)
-- [<span data-ttu-id="abc00-120">Grafiko ir sąmatų panaudojimas</span><span class="sxs-lookup"><span data-stu-id="abc00-120">Leveraging the schedule and estimates</span></span>](project-leveraging.md)
-- [<span data-ttu-id="abc00-121">Projekto eigos sekimas ir sąnaudų suvartojimas</span><span class="sxs-lookup"><span data-stu-id="abc00-121">Tracking project progress and cost consumption</span></span>](project-tracking.md)
-- [<span data-ttu-id="abc00-122">Projekto šablonai</span><span class="sxs-lookup"><span data-stu-id="abc00-122">Project templates</span></span>](project-templates.md)
-- [<span data-ttu-id="abc00-123">Projekto etapai</span><span class="sxs-lookup"><span data-stu-id="abc00-123">Project stages</span></span>](project-stages.md)
-- [<span data-ttu-id="abc00-124">Projekto parametrai</span><span class="sxs-lookup"><span data-stu-id="abc00-124">Project settings</span></span>](project-settings.md)
+- [<span data-ttu-id="61a85-118">Grafiko kūrimas</span><span class="sxs-lookup"><span data-stu-id="61a85-118">Creating a schedule</span></span>](project-creating.md)
+- [<span data-ttu-id="61a85-119">Projekto savikainos ir įplaukų įvertinimas</span><span class="sxs-lookup"><span data-stu-id="61a85-119">Estimating project cost and revenue</span></span>](project-estimating.md)
+- [<span data-ttu-id="61a85-120">Grafiko ir sąmatų panaudojimas</span><span class="sxs-lookup"><span data-stu-id="61a85-120">Leveraging the schedule and estimates</span></span>](project-leveraging.md)
+- [<span data-ttu-id="61a85-121">Projekto eigos sekimas ir sąnaudų suvartojimas</span><span class="sxs-lookup"><span data-stu-id="61a85-121">Tracking project progress and cost consumption</span></span>](project-tracking.md)
+- [<span data-ttu-id="61a85-122">Projekto šablonai</span><span class="sxs-lookup"><span data-stu-id="61a85-122">Project templates</span></span>](project-templates.md)
+- [<span data-ttu-id="61a85-123">Projekto etapai</span><span class="sxs-lookup"><span data-stu-id="61a85-123">Project stages</span></span>](project-stages.md)
+- [<span data-ttu-id="61a85-124">Projekto parametrai</span><span class="sxs-lookup"><span data-stu-id="61a85-124">Project settings</span></span>](project-settings.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

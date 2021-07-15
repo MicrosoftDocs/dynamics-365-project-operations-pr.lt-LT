@@ -1,0 +1,65 @@
+---
+title: Visuotinis „Project Operations“ „Dataverse“ programos su dvigubo rašymo palaikymu diegimas rankiniu būdu
+description: Šioje temoje paaiškinta, kaip rankiniu būdu visuotinai įdiegti „Project Operations“ „Dataverse“ programą, kad ji palaikytų dvigubą rašymą.
+author: stsporen
+ms.date: 06/18/2021
+ms.topic: article
+ms.reviewer: kfend
+ms.author: stsporen
+ms.openlocfilehash: 2ad147da542fc9e7a2705da7a834d1a6512907e5
+ms.sourcegitcommit: 205a94ab4168de25b102f31d00a691c8205ba63e
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 06/18/2021
+ms.locfileid: "6274018"
+---
+# <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a><span data-ttu-id="e5b97-103">Visuotinis „Project Operations“ „Dataverse“ programos su dvigubo rašymo palaikymu diegimas rankiniu būdu</span><span class="sxs-lookup"><span data-stu-id="e5b97-103">Manually deploy the Project Operations Dataverse app with dual-write support</span></span>
+
+<span data-ttu-id="e5b97-104">_**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_</span><span class="sxs-lookup"><span data-stu-id="e5b97-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
+
+<span data-ttu-id="e5b97-105">Šioje temoje paaiškinta, kaip rankiniu būdu į „Microsoft Dataverse“ visuotinai įdiegti „Microsoft Dynamics 365 Project Operations“, kad ji palaikytų dvigubą rašymą.</span><span class="sxs-lookup"><span data-stu-id="e5b97-105">This topic explains how to manually deploy Microsoft Dynamics 365 Project Operations in Microsoft Dataverse so that it supports dual-write.</span></span> <span data-ttu-id="e5b97-106">„Project Operations“ aptinka aplinkos konfigūraciją ir įtraukia papildomą dvigubo rašymo palaikymą, jei tenkinamos būtinosios sąlygos.</span><span class="sxs-lookup"><span data-stu-id="e5b97-106">Project Operations detects the environment's configuration and adds additional support for dual-write if the prerequisites are met.</span></span>
+
+<span data-ttu-id="e5b97-107">Jei, visuotinai diegdami per „Microsoft Dynamics“ „Lifecycle Services“ (LCS), vadovavotės šioje temoje pateiktais nurodymais, galite praleisti visuotinį „Microsoft Power Platform“ integracijos (anksčiau vadintos „Common Data Service“ aplinka) diegimą.</span><span class="sxs-lookup"><span data-stu-id="e5b97-107">During deployment through Microsoft Dynamics Lifecycle Services (LCS), if you've followed the instructions in this topic, you can skip the deployment of the Microsoft Power Platform integration (previously known as the Common Data Service environment).</span></span>
+
+<span data-ttu-id="e5b97-108">„Project Operations“ visuotinio diegimo į „Dataverse“ procesas, kad ji palaikytų dvigubą rašymą, apima keturis pagrindinius veiksmus, nurodytus toliau.</span><span class="sxs-lookup"><span data-stu-id="e5b97-108">The process of deploying Project Operations in Dataverse so that it supports dual-write has four main steps:</span></span>
+
+1. <span data-ttu-id="e5b97-109">[Naujos „Dataverse“ aplinkos, palaikančios dvigubą rašymą, sukūrimas](#create).</span><span class="sxs-lookup"><span data-stu-id="e5b97-109">[Create a new environment in Dataverse that supports dual-write](#create).</span></span>
+2. <span data-ttu-id="e5b97-110">[Dvigubo rašymo būtinųjų sąlygų įraukimas į aplinką](#prerequisites).</span><span class="sxs-lookup"><span data-stu-id="e5b97-110">[Add dual-write prerequisites to the environment](#prerequisites).</span></span>
+3. <span data-ttu-id="e5b97-111">[„Project Operations“ „Dataverse“ programos įtraukimas](#dataverse).</span><span class="sxs-lookup"><span data-stu-id="e5b97-111">[Add the Project Operations Dataverse app](#dataverse).</span></span>
+4. <span data-ttu-id="e5b97-112">[Aplinkų susiejimas](#link).</span><span class="sxs-lookup"><span data-stu-id="e5b97-112">[Link your environments](#link).</span></span>
+
+## <a name="create-a-new-environment-in-dataverse-that-supports-dual-write"></a><a name="create"></a><span data-ttu-id="e5b97-113">Naujos „Dataverse“ aplinkos, palaikančios dvigubą rašymą, sukūrimas</span><span class="sxs-lookup"><span data-stu-id="e5b97-113">Create a new environment in Dataverse that supports dual-write</span></span>
+
+<span data-ttu-id="e5b97-114">Norėdami atlikti šią procedūrą, turite prisijungti kaip administratorius.</span><span class="sxs-lookup"><span data-stu-id="e5b97-114">To complete this procedure, you must sign in as an administrator.</span></span>
+
+1. <span data-ttu-id="e5b97-115">Atidarykite [„Power Platform“ administravimo centrą](https://admin.powerplatform.com) ir prisijunkite kaip administratorius.</span><span class="sxs-lookup"><span data-stu-id="e5b97-115">Open the [Power Platform admin center](https://admin.powerplatform.com), and sign in as an administrator.</span></span>
+2. <span data-ttu-id="e5b97-116">Sukurkite naują aplinką ir ją pavadinkite.</span><span class="sxs-lookup"><span data-stu-id="e5b97-116">Create a new environment, and name it.</span></span>
+3. <span data-ttu-id="e5b97-117">Pasirinkite aplinkos tipą.</span><span class="sxs-lookup"><span data-stu-id="e5b97-117">Select the environment type.</span></span> <span data-ttu-id="e5b97-118">Jei užsiregistravote naudoti bandomosios versijos pasiūlymą, pasirinkite **Bandomoji versija (pagrįsta prenumerata)**.</span><span class="sxs-lookup"><span data-stu-id="e5b97-118">If you signed up for the trial offer, select **Trial (subscription-based)**.</span></span>
+4. <span data-ttu-id="e5b97-119">Patvirtinkite visuotinio diegimo regioną.</span><span class="sxs-lookup"><span data-stu-id="e5b97-119">Confirm the deployment region.</span></span>
+5. <span data-ttu-id="e5b97-120">Įjunkite parinktį **Kurti duomenų bazę šiai aplinkai**.</span><span class="sxs-lookup"><span data-stu-id="e5b97-120">Enable the **Create a database for this environment** option.</span></span> 
+6. <span data-ttu-id="e5b97-121">Patvirtinkite kalbą, tada patvirtinkite, kad valiuta atitinka jūsų „Finance and Operations“ programų valiutą.</span><span class="sxs-lookup"><span data-stu-id="e5b97-121">Confirm the language, and then confirm that the currency matches the currency for your Finance and Operations apps.</span></span>
+7. <span data-ttu-id="e5b97-122">Įjunkite parinktį **„Dynamics 365“ programos** ir patvirtinkite, kad laukas **Automatiškai visuotinai diegti šias programas** nustatytas kaip **Nėra**.</span><span class="sxs-lookup"><span data-stu-id="e5b97-122">Enable the **Dynamics 365 apps** option, and confirm that the **Automatically deploy these apps** field is set to **None**.</span></span>
+8. <span data-ttu-id="e5b97-123">Jei reikia saugos grupės, ją įtraukite.</span><span class="sxs-lookup"><span data-stu-id="e5b97-123">Add a security group, if a security group is required.</span></span>
+9. <span data-ttu-id="e5b97-124">Norėdami sukurti aplinką, pasirinkite **Įrašyti**.</span><span class="sxs-lookup"><span data-stu-id="e5b97-124">Select **Save** to create the environment.</span></span>
+10. <span data-ttu-id="e5b97-125">Palaukite, kol visuotinis diegimas bus baigtas, o aplinka pasieks būseną **Paruošta**.</span><span class="sxs-lookup"><span data-stu-id="e5b97-125">Wait until the deployment is completed and the environment reaches the **Ready** state.</span></span>
+
+## <a name="add-dual-write-prerequisites-to-the-environment"></a><a name="prerequisites"></a><span data-ttu-id="e5b97-126">Dvigubo rašymo būtinųjų sąlygų įraukimas į aplinką</span><span class="sxs-lookup"><span data-stu-id="e5b97-126">Add dual-write prerequisites to the environment</span></span>
+
+<span data-ttu-id="e5b97-127">Dvigubo rašymo palaikymas apima papildomus laukus, įtrauktus į pagrindinius objektus, pvz., objektą **Įmonė**.</span><span class="sxs-lookup"><span data-stu-id="e5b97-127">Dual-write support includes additional fields that are added to key entities, such as the **Company** entity.</span></span> <span data-ttu-id="e5b97-128">Jei dvigubo rašymo palaikymą įtraukiate į esamą aplinką, gali reikėti atnaujinti duomenis, kad būtų galimas palaikymas.</span><span class="sxs-lookup"><span data-stu-id="e5b97-128">If you're adding dual-write support to an existing environment, you might have to update the data to enable the support.</span></span> <span data-ttu-id="e5b97-129">Informacijos apie tai, kaip perkrauti duomenis, ieškokite dalyje [Įmonės duomenų perkrovimas](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/bootstrap-company-data).</span><span class="sxs-lookup"><span data-stu-id="e5b97-129">For information about how to bootstrap the data, see [Bootstrap company data](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/bootstrap-company-data).</span></span> <span data-ttu-id="e5b97-130">Daugiau informacijos apie dvigubą rašymą žr. dalyje [Dvigubo rašymo sistemos reikalavimai](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-system-req).</span><span class="sxs-lookup"><span data-stu-id="e5b97-130">For more information about dual-write, see [Dual-write system requirements](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-system-req).</span></span>
+
+<span data-ttu-id="e5b97-131">Atlikite šią procedūrą norėdami į savo aplinką įtraukti dvigubo rašymo būtinąsias sąlygas.</span><span class="sxs-lookup"><span data-stu-id="e5b97-131">Complete this procedure to add the dual-write prerequisites to your environment.</span></span>
+
+1. <span data-ttu-id="e5b97-132">Atidarykite ką tik sukurtą aplinką, tada eikite į **Išteklius** \> **„Dynamics 365“ programos**.</span><span class="sxs-lookup"><span data-stu-id="e5b97-132">Open the environment that you just created, and then go to **Resource** \> **Dynamics 365 apps**.</span></span>
+2. <span data-ttu-id="e5b97-133">Programų sąraše pasirinkite **Pagrindinis dvigubo rašymo sprendimas** ir jį įdiekite.</span><span class="sxs-lookup"><span data-stu-id="e5b97-133">Select **Dual-write core solution** in the app list, and install it.</span></span>
+3. <span data-ttu-id="e5b97-134">Palaukite, kol diegimas bus baigtas.</span><span class="sxs-lookup"><span data-stu-id="e5b97-134">Wait until the installation is completed.</span></span> <span data-ttu-id="e5b97-135">Tada programų sąraše pasirinkite **Dvigubo rašymo programos tvarkymo sprendimas** ir jį įdiekite.</span><span class="sxs-lookup"><span data-stu-id="e5b97-135">Then select **Dual-write application orchestration solution** in the app list, and install it.</span></span>
+
+## <a name="add-the-project-operations-dataverse-app"></a><a name="dataverse"></a><span data-ttu-id="e5b97-136">„Project Operations“ „Dataverse“ programos įtraukimas</span><span class="sxs-lookup"><span data-stu-id="e5b97-136">Add the Project Operations Dataverse app</span></span>
+
+<span data-ttu-id="e5b97-137">Šią procedūrą galite atlikti, tik jei prieš diegdami „Project Operations“ atlikote ankstesnes procedūras.</span><span class="sxs-lookup"><span data-stu-id="e5b97-137">You can complete this procedure only if you completed the previous procedures before you installed Project Operations.</span></span> <span data-ttu-id="e5b97-138">Vykstant diegimui sistema analizuoja aplinkos konfigūraciją ir įtraukia dvigubo rašymo palaikymą, jei to reikia.</span><span class="sxs-lookup"><span data-stu-id="e5b97-138">During installation, the system analyzes the environment configuration and adds support for dual-write if it's required.</span></span>
+
+1. <span data-ttu-id="e5b97-139">Atidarykite anksčiau sukurtą aplinką, tada eikite į **Išteklius** \> **„Dynamics 365“ programos**.</span><span class="sxs-lookup"><span data-stu-id="e5b97-139">Open the environment that you created earlier, and then go to **Resource** \> **Dynamics 365 apps**.</span></span>
+2. <span data-ttu-id="e5b97-140">Programų sąraše pasirinkite **„Microsoft Dynamics 365 Project Operations“** ir ją įdiekite.</span><span class="sxs-lookup"><span data-stu-id="e5b97-140">Select **Microsoft Dynamics 365 Project Operations** in the app list, and install it.</span></span>
+
+## <a name="link-your-environments"></a><a name="link"></a><span data-ttu-id="e5b97-141">Aplinkų susiejimas</span><span class="sxs-lookup"><span data-stu-id="e5b97-141">Link your environments</span></span>
+
+<span data-ttu-id="e5b97-142">Įdiegę „Dataverse“ aplinką, galite nustatyti saitą savo „Finance and Operations“ programose.</span><span class="sxs-lookup"><span data-stu-id="e5b97-142">After the Dataverse environment is deployed, you can set up the link in your Finance and Operations apps.</span></span> <span data-ttu-id="e5b97-143">Atlikite veiksmus, nurodytus dalyje [Aplinkų susiejimas naudojant dvigubo rašymo vedlį](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).</span><span class="sxs-lookup"><span data-stu-id="e5b97-143">Follow the steps in [Use the dual-write wizard to link your environments](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).</span></span>

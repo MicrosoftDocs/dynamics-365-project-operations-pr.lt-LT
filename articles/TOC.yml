@@ -24,15 +24,17 @@
               href: environment/resource-add-azure-subscription-lcs-project.md
         - name: Demonstracinių duomenų taikymas
           items:
-            - name: Konfigūracijos duomenų taikymas tarnyboje „Common Data Service“
+            - name: Konfigūracijos duomenų taikymas „Common Data Service“
               href: environment/resource-apply-pro-setup-config-data.md
         - name: Visuotinis aplinkų diegimas
           items:
+            - name: Visuotinis „Project Operations Dataverse“ programos su dvigubo rašymo palaikymu diegimas rankiniu būdu
+              href: environment/resource-manual-deploy-dataverse-dualwrite.md
             - name: Naujos aplinkos konfigūravimas
               href: environment/resource-provision-new-environment.md
             - name: Saugos modelis
               href: environment/security-model.md
-            - name: „Project Operations“ integravimo konfigūravimas pagal juridinį objektą
+            - name: „Project Operations“ integravimo konfigūravimas juridiniam subjektui
               href: environment/resource-configure-integration-per-legal-entity.md
         - name: Dvigubo rašymo integracijos konfigūravimas
           items:
@@ -52,6 +54,10 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Kas nauja
       items:
+        - name: '2021 m. liepos mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
+          href: whats-new/whats-new-july-2021-resource-based.md
+        - name: '2021 m. birželio mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
+          href: whats-new/whats-new-june-2021-resource-based.md
         - name: '2021 m. gegužės mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
           href: whats-new/whats-new-may-2021-resource-based.md
         - name: '2021 m. balandžio mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
@@ -282,7 +288,7 @@
           items:
             - name: Projekto šablonų kūrimas naudojant projekto kopijavimo funkciją
               href: project-management/dev-copy-project.md
-            - name: API grafiko naudojimas (viešoji peržiūra)
+            - name: Projekto grafiko API naudojimas (viešoji peržiūros versija)
               href: project-management/schedule-api-preview.md
     - name: Išteklių valdymas
       items:
@@ -436,11 +442,9 @@
       items:
         - name: SF išrašymo proceso apžvalga
           href: invoicing/post-project-invoices.md
-        - name: Projekto sąskaitų faktūrų pasiūlymų valdymas
-          href: invoicing/format-update-project-invoice-proposals.md
         - name: Išankstinių sąskaitų faktūrų išrašymas
           items:
-            - name: Projektu pagrįstų vilkinamų sąskaitų valdymas
+            - name: Projektu pagrįstų atsiskaitymo nebaigtų užduočių valdymas
               href: proforma-invoicing/manage-billing-backlog.md
             - name: Būsenos „neviršyti“ ir tikrinimų valdymas
               href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
@@ -456,20 +460,12 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: Projektu pagrįstos sąskaitos faktūros automatizavimo konfigūravimas
               href: proforma-invoicing/configure-automated-invoice-creation.md
-        - name: Projekto sąskaitų faktūrų pasiūlymų valdymas
-          href: invoicing/format-update-project-invoice-proposals.md
-    - name: Projekto apskaita
-      items:
-        - name: Finansinės dimensijos numatytosios reikšmės
-          href: project-accounting/financial-dimension-defaults.md
-        - name: Projekto kategorijų konfigūravimas
-          href: project-accounting/configure-project-categories.md
-        - name: Vidinių projektų apskaitos konfigūravimas
-          href: project-accounting/configure-accounting-internal-projects.md
-        - name: Apmokėtinų projektų apskaitos konfigūravimas
-          href: project-accounting/configure-accounting-billable-projects.md
-        - name: „Project Operations“ integravimo žurnalas
-          href: project-accounting/project-operations-integration-journal.md
+        - name: SF išrašymas klientams
+          items:
+            - name: Projekto sąskaitų faktūrų pasiūlymų valdymas
+              href: invoicing/format-update-project-invoice-proposals.md
+            - name: Juodraštinių projekto sąskaitų faktūrų pasiūlymų apskaitos koregavimas
+              href: invoicing/correct-project-invoice-proposals.md
         - name: Vidinės įmonės sąskaitų faktūrų išrašymas
           items:
             - name: Vidinės įmonės sąskaitų faktūrų išrašymo apžvalga
@@ -480,6 +476,18 @@
               href: project-accounting/create-intercompany-transactions.md
             - name: Vidinės įmonės kliento ir tiekėjo sąskaitų faktūrų kūrimas
               href: project-accounting/create-intercompany-customer-vendor-invoices.md
+    - name: Projekto apskaita
+      items:
+        - name: Finansinės dimensijos numatytosios reikšmės
+          href: project-accounting/financial-dimension-defaults.md
+        - name: Projekto kategorijų nustatymas
+          href: project-accounting/configure-project-categories.md
+        - name: Vidinių projektų apskaitos konfigūravimas
+          href: project-accounting/configure-accounting-internal-projects.md
+        - name: Apmokėtinų projektų apskaitos konfigūravimas
+          href: project-accounting/configure-accounting-billable-projects.md
+        - name: „Project Operations“ integravimo žurnalas
+          href: project-accounting/project-operations-integration-journal.md
     - name: Pajamų pripažinimas
       items:
         - name: Pajamų pripažinimo apžvalga
@@ -512,6 +520,10 @@
           href: environment/security-model.md
     - name: Kas nauja
       items:
+        - name: Kas nauja – 2021 m. liepos mėn. – „Lite“ visuotinis diegimas
+          href: pro/whats-new/whats-new-july-2021-lite.md
+        - name: Kas nauja – 2021 m. birželio mėn. – „Lite“ visuotinis diegimas
+          href: pro/whats-new/whats-new-june-2021-lite.md
         - name: Kas nauja – 2021 m. gegužės mėn. – „Lite“ visuotinis diegimas
           href: pro/whats-new/whats-new-may-2021-lite.md
         - name: Kas nauja – 2021 m. balandžio mėn. – „Lite“ visuotinis diegimas
@@ -762,7 +774,7 @@
           items:
             - name: Projekto šablonų kūrimas naudojant projekto kopijavimo funkciją
               href: project-management/dev-copy-project.md
-            - name: API grafiko naudojimas (viešoji peržiūra)
+            - name: Projekto grafiko API naudojimas (viešoji peržiūros versija)
               href: project-management/schedule-api-preview.md
     - name: Išteklių valdymas
       items:
@@ -882,6 +894,10 @@
   items:
     - name: Kas nauja
       items:
+        - name: 'Kas nauja – 2021 m. liepos mėn. – „Project Operations“, skirta laikomų medžiagų / gamyba pagrįstiems scenarijams'
+          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
+        - name: 'Kas nauja – 2021 m. gegužės mėn. – „Project Operations“, skirta laikomų medžiagų / gamyba pagrįstiems scenarijams'
+          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
         - name: 'Kas nauja – 2021 m. balandžio mėn. – „Project Operations“, skirta laikomų medžiagų / gamyba pagrįstiems scenarijams'
           href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: 'Kas nauja – 2021 m. kovo mėn. – „Project Operations“, skirta laikomų medžiagų / gamyba pagrįstiems scenarijams'
@@ -1034,6 +1050,10 @@
       items:
         - name: „Project Service“ 3.x versijos naujinimų leidimo grafikas
           href: psa/version-history-ps.md
+        - name: 'Kas nauja arba pakeista 33 naujinimo leidime, V3'
+          href: psa/whats-new-ur-33.md
+        - name: 'Kas nauja arba pakeista 32.5 naujinimo leidime, V3'
+          href: psa/whats-new-ur-32-5.md
         - name: 'Kas nauja arba pakeista 32 naujinimo leidime, V3'
           href: psa/whats-new-ur-32.md
         - name: 'Kas nauja arba pakeista 31 naujinimo leidime, V3'
