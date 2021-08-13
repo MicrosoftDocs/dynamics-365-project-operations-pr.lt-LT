@@ -832,6 +832,16 @@
           items:
             - name: Išteklių naudingumo apžvalga
               href: resource-management/resource-utilization-overview.md
+    - name: „Project Operations“ valdymas pagal subrangos sutartį
+      items:
+        - name: Subrangos sutarčių valdymo apžvalga
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Svarbiausios subrangos sutarties sąvokos
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: Tiekėjų ir projektų kainoraščių valdymas
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: Subrangos sutartys kaip rezervuotini ištekliai
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
     - name: Laikas
       items:
         - name: Laiko apžvalga
@@ -1050,6 +1060,8 @@
       items:
         - name: „Project Service“ 3.x versijos naujinimų leidimo grafikas
           href: psa/version-history-ps.md
+        - name: 'Kas nauja arba pakeista 34 naujinimo leidime, V3'
+          href: psa/whats-new-ur-34.md
         - name: 'Kas nauja arba pakeista 33 naujinimo leidime, V3'
           href: psa/whats-new-ur-33.md
         - name: 'Kas nauja arba pakeista 32.5 naujinimo leidime, V3'
