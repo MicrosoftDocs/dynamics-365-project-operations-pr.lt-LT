@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a1e22337d3fd3e7ff4147a9547fd3c272f4185d3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: d9a81d7242e78dafad871bb07c03459f1de21884d196c6ee7dd9619b2c410404
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009401"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007111"
 ---
 # <a name="assign-generic-bookable-resources-to-a-task-and-generate-resource-requirements"></a>Bendrųjų rezervuojamų išteklių priskyrimas užduočiai ir išteklių reikalavimų generavimas 
 
@@ -33,21 +33,21 @@ Savo projektui galite ne tik rezervuoti ir priskirti įvardytus arba realius iš
 
 1. Naudodami „Project Service Automation“ (PSA), atidarykite puslapį **Projektas** ir skirtuko **Grafikas** grafiko langelyje **Išteklius** įveskite bendrojo ištekliaus padėties pavadinimą. Arba spustelėkite langelyje esančią piktogramą **Išteklius** ir atidarykite išteklių parinkiklį, tada įveskite bendrojo ištekliaus, kurį norite sukurti, pavadinimą.
 
-![Bendrojo komandos nario sukūrimas ir priskyrimas](media/RM-how-to-9.png)
+![Bendrojo komandos nario sukūrimas ir priskyrimas.](media/RM-how-to-9.png)
 
 Atsidarys sritis **Spartusis kūrimas: projekto komandos narys**. 
 
 2. Įveskite bendrojo išteklių komandos nario vaidmenį ir organizacijos vienetą, tada spustelėkite **Įrašyti**.
 
-![Spartusis bendrojo komandos nario kūrimas](media/RM-how-to-10.png)
+![Spartusis bendrojo komandos nario kūrimas.](media/RM-how-to-10.png)
 
 3. Sukūrus naują bendrąjį išteklių komandos narį, jis priskiriamas užduočiai. Galite tęsti ir priskirti tą bendrąjį išteklių kitoms užduočių grafiko užduotims.
 
-![Esamo bendrojo komandos nario priskyrimas užduotims](media/RM-how-to-11.png)
+![Esamo bendrojo komandos nario priskyrimas užduotims.](media/RM-how-to-11.png)
 
 4. Priskyrę bendrąjį išteklių, galite generuoti ištekliaus reikalavimą ir jį įvykdyti tiesiogiai rezervuodami arba pateikdami ištekliaus užklausą išteklių vadovui.
 
-![Bendrojo komandos nario reikalavimo generavimas](media/RM-how-to-12.png)
+![Bendrojo komandos nario reikalavimo generavimas.](media/RM-how-to-12.png)
 
 Komandos narių tinklelyje galite naudoti ne tik išteklių parinkiklį, kaip paminėta pirmiau, bet ir tiesiogiai įtraukti bendruosius išteklius. Ištekliai įtraukiami nurodant išteklių reikalavimą, pagrįstą pradžios / pabaigos datomis ir paskirstymo metodu, nurodytu srityje **Spartusis kūrimas: projekto komandos narys**.
 
@@ -55,7 +55,7 @@ Skirtumą galite pamatyti tiesiogiai įtraukę bendrąjį komandos narį ir tada
 
 Taip pat galite spustelėti komandos tinklelyje esantį saitą **Išteklių reikalavimas**, kad atidarytumėte reikalavimą, įtrauktumėte įgūdžių, pageidaujamų išteklių ir pan.
 
-![Išteklių reikalavimas](media/RM-how-to-13.png)
+![Išteklių reikalavimas.](media/RM-how-to-13.png)
 
 
 

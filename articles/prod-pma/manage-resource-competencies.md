@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 21721a9b0af820df10c4fa965d000e85098e0dea
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f93fbda0ad6435c627eb7e580f92fd90481034cae2236b9a636195883470ca5c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999051"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007426"
 ---
 # <a name="manage-resource-competencies"></a>Išteklių kompetencijų valdymas
 
@@ -29,7 +29,7 @@ ms.locfileid: "5999051"
 
 Išteklių kompetencijos yra esminė išteklių valdymo dalis. Kompetencijas galima naudoti kaip bazinį planą, skirtą nustatyti, ar išteklius turi tinkamų įgūdžių, išsilavinimą, sertifikavimą ir darbo projektuose patirties. Turite nustatyti šią informaciją kiekvienam ištekliui ir reguliariai ją atnaujinti. Tokiu būdu, maksimizuojate galimybes, kai konkretaus ištekliaus kompetencijos atitinka reikalavimus projekto ištekliaus priskyrimo metu.
 
-[![Įgūdžių, sertifikavimo, išsilavinimo ir darbo projektuose patirties pavyzdžiai](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
+[![Įgūdžių, sertifikavimo, išsilavinimo ir darbo projektuose patirties pavyzdžiai.](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
 
 Toliau pateikiamose procedūrose paaiškinama, kaip nustatyti kai kurias išteklių kompetencijas.
 

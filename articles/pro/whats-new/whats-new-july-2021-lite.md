@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6992498df5beb97d4e7197e301f093320dc28a23
-ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
+ms.openlocfilehash: 8cff4c37e1c2df29041ef86cdcf05afa6093f890565a855024202e87fd533ea5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6433663"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009226"
 ---
 # <a name="whats-new-july-2021---project-operations-lite-deployment"></a>Kas nauja 2021 m. liepos mėn. „Project Operations“ „Lite“ visuotinėje įdiegtyje
 
@@ -20,7 +20,7 @@ _Taikoma (kam): „Lite“ visuotiniam diegimui – sandoris į išankstinės s�
 
 Ši tema taikoma toliau nurodytiems „Dynamics 365 Project Operations“ komponentams ir versijoms:
 
-  - „Project Operations“ „Dataverse“ aplinkoje, 4.12.0.148 versija.
+  - „Project Operations“ 4.12.0.148 arba 4.12.0.152 versijos „Dataverse“ aplinkoje.
 
 ## <a name="quality-updates"></a>Kokybės naujinimai
 | **Funkcijų sritis**              | **Nuorodos numeris** | **Kokybės naujinimas**                                                                                                                                                                                             |
@@ -59,3 +59,4 @@ _Taikoma (kam): „Lite“ visuotiniam diegimui – sandoris į išankstinės s�
 | Bendroji informacija                       | 2296857              | Ilgai vykdomų užduočių eigos sekimas.                                                                                                                                                                        |
 | Bendroji informacija                       | 2253682              | „Project Operations“ dvigubo rašymo sprendimas neturi būti diegiamas, kai pagrindinis dvigubo rašymo sprendimas įdiegtas aplinkoje be dvigubo rašymo tvarkymo sprendimo.                                                |
 | Bendroji informacija                       | 2316420              | Jei programos vartotojo verslo vienetas pakeičiamas, įvyksta projektų vykdymo paslaugų pagrindinio sprendimo parengimo triktis.                                                                                                                     |
+| Bendroji informacija                       | 2376405              | Išspręsta leidėjo valdoma naujinimo problema (Kokybiškas naujinys pasiekiamas 4.12.0.152 versijoje)                                                                                                                     |

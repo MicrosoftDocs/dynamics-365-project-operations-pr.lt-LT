@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d8aa1541a3560db175acead1d000895312b299db
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c558ab1eb5070f6d1a2db06b630e8807cc67819f9bdd57c15ec346f484e04fe9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000041"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006301"
 ---
 # <a name="project-estimates-and-actuals-integration"></a>Projektų įvertinimų ir faktinių duomenų integravimas
 
@@ -30,7 +30,7 @@ Norint kurti įvertinimus, reikia tinkamos projekto apskaitos konfigūracijos. S
 
 Darbo įvertinimus sukuria projekto vadovas arba išteklių vadovas, kuris taip pat projekto užduočiai priskiria bendrąjį arba įvardytąjį išteklių. Išteklių priskyrimo įrašus galima peržiūrėti „Dataverse“ skirtuko **Išteklių priskyrimai** puslapyje **Išsami projekto informacija**. Naudodami **„Project Operations“ integravimo objektą, skirtą valandų įvertinimams (msdyn\_resourceassignments)**, „Dataverse“ išteklių priskyrimo įrašai „Finance and Operations“ programose sukuria valandų prognozių įrašus.
 
-   ![Darbo įvertinimų integravimas](./Media/DW4LaborEstimates.png)
+   ![Darbo įvertinimų integravimas.](./Media/DW4LaborEstimates.png)
 
 Dvigubo rašymo funkcija sinchronizuoja išteklių priskyrimo įrašus su eilučių paruošimo lentele (**ProjCDSKurdsKurdIngSImport**), o tada naudoja verslo logiką valandų prognozių įrašams kurti ir naujinti (**ProjForecastEmpl**).
 
@@ -40,7 +40,7 @@ Projektų buhalteris peržiūri „Finance and Operations“ programose sukurtus
 
 Išlaidų įvertinimus projekto vadovas sukuria „Dataverse“ puslapio **Išsami projekto informacija** skirtuke **Išlaidų įvertinimai**. Išlaidų įvertinimų įrašai saugomi „Dataverse“ objekte **Įvertinimo eilutė**. Šiems įvertinimų įrašams priskirta operacijų klasė **Išlaidos** ir jie sinchronizuojami su išlaidų prognozių įrašais „Finance and Operations“ programose naudojant **„Project Operations“ integravimo objektą, skirtą išlaidų įvertinimams (msdyn \_estimatelines)**.
 
-   ![Išlaidų įvertinimų integravimas](./Media/DW4ExpenseEstimates.png)
+   ![Išlaidų įvertinimų integravimas.](./Media/DW4ExpenseEstimates.png)
 
 Dvigubo rašymo funkcija sinchronizuoja išlaidų įvertinimų įrašus su eilučių paruošimo lentele (**ProjCDSEstimateExpenseImport**), o tada naudoja verslo logiką išlaidų prognozių įrašams kurti ir naujinti (**ProjForecastCost**). Įvertinimo eilutėse pardavimo įvertinimų ir kaštų įvertinimų įrašai saugomi atskirai. „Finance and Operations“ programų verslo logika automatiškai įveda vieną išlaidų prognozės įrašą naudodama šią išsamią informaciją eilučių paruošimo lentelėje.
 
@@ -50,7 +50,7 @@ Projektų buhalteris gali peržiūrėti išlaidų prognozių įrašus „Finance
 
 Medžiagų įvertinimus projekto vadovas sukuria „Dataverse“ puslapio **Išsami projekto informacija** skirtuke **Medžiagų įvertinimai**. Medžiagų įvertinimų įrašai saugomi „Dataverse“ objekte **Įvertinimo eilutė**. Šiems įvertinimų įrašams priskirta operacijų klasė **Medžiaga** ir jie sinchronizuojami su prekių prognozių įrašais „Finance and Operations“ programose naudojant **„Project Operations“ integravimo lentelę, skirtą medžiagų įvertinimams (msdyn \_estimatelines)**.
 
-   ![Medžiagų įvertinimų integravimas](./Media/DW4MaterialEstimates.png)
+   ![Medžiagų įvertinimų integravimas.](./Media/DW4MaterialEstimates.png)
 
 Dvigubo rašymo funkcija sinchronizuoja medžiagų įvertinimų įrašus su eilučių paruošimo lentele (**ProjForecastSalesImpor**), o tada naudoja verslo logiką prekių prognozių įrašams kurti ir naujinti (**ForecastSales**). Įvertinimo eilutėse pardavimo įvertinimų ir kaštų įvertinimų įrašai saugomi atskirai. „Finance and Operations“ programų verslo logika automatiškai įveda vieną prekės prognozės įrašą naudodama šią išsamią informaciją eilučių paruošimo lentelėje.
 
@@ -60,7 +60,7 @@ Projektų buhalteris gali peržiūrėti prekių prognozių įrašus „Finance a
 
 Projekto faktiniai duomenys sprendime „Dataverse“ kuriami pagal laiką, išlaidas, medžiagą ir atsiskaitymo veiklą. Šiame „Dataverse“ objekte užfiksuojami visi šių operacijų atributai, įskaitant kiekį, savikainą, pardavimo kainą ir projektą. Norėdami gauti daugiau informacijos, žr. [Faktiniai duomenys](../actuals/actuals-overview.md). Faktiniai įrašai sinchronizuojami su „Finance and Operations“ programomis naudojant dvigubo rašymo lentelės schemą **„Project Operations“ integravimo faktiniai duomenys (msdyn\_actuals)**, skirtą tolimesnei apskaitai.
 
-   ![Faktinių duomenų integravimas](./Media/DW4Actuals.png)
+   ![Faktinių duomenų integravimas.](./Media/DW4Actuals.png)
 
 Lentelės schema **„Project Operations“ integravimo faktiniai duomenys** sinchronizuoja visus „Dataverse“ objekto **Faktiniai duomenys** įrašus, kai atributas **Praleisti sinchronizavimą (naudoti tik viduje)** nustatytas kaip **Klaidinga**. Ši atributo reikšmė sprendime „Dataverse“ nustatoma automatiškai, kuriant įrašą. Toliau pateikti pavyzdžiai, kai šis atributas nustatytas kaip **Teisinga**.
 

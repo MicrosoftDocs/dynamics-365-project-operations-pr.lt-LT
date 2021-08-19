@@ -16,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 23b002559dcbb9118ccb2b36d70707ccb37b19ad
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9f19a6d069c4f825be8515a6d26739c50d3b064698fc1872ede07a4e74ee4dcb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6003052"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005761"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Mobiliųjų įrenginių programėlės „Microsoft Dynamics 365 Project Timesheet“, skirtos „iOS“ ir „Android“, pasirinktinių laukų diegimas
 
@@ -153,13 +153,13 @@ Nustatykite šią ypatybę kaip **Taip**, jei norite, kad laukas grafiko įrašo
 
 Toliau pateikiama grafiko įrašo kūrimo mobiliųjų įrenginių programėlėje ekrano kopija. Joje rodomi paruošti laukai ir pasirinktinis laukas skyriuje „Laiko įrašas“, pavadinimu „Testavimo eilutė“, su jau nustatyta „Antroji parinktis“ reikšme.
 
-![Testavimo eilutės pasirinktinis laukas programėlėje](media/timesheet-entry.jpg)
+![Testavimo eilutės pasirinktinis laukas programėlėje.](media/timesheet-entry.jpg)
 
 
 
 Toliau pateikiama mobiliųjų įrenginių programėlės ekrano kopija, kurioje vartotojas pasirenka vieną iš išvardijimo parinkčių, pasiekiamų pasirinktiniam laukui „Testavimo eilutė“.  Dvi parinktys – „Pirmoji parinktis“ ir „Antroji parinktis“ – yra rodomos kaip išrinkimo mygtukai. Šiuo metu pasirinkta antroji parinktis.
 
-![Parinkčių mygtukai (išrinkimo mygtukai), skirti testavimo eilutės pasirinktiniam laukui](media/enum-option.jpg)
+![Parinkčių mygtukai (išrinkimo mygtukai), skirti testavimo eilutės pasirinktiniam laukui.](media/enum-option.jpg)
 
 
 
@@ -171,7 +171,7 @@ Atkreipkite dėmesį, kad pasirinktiniai laukai neturi jokio atsarginio duomenų
 
 Toliau pateikiama taikomosios programos objektų medžio „Visual Studio“ ekrano kopija. Joje rodomas lentelės „TSTimesheetLine“ plėtinys su „TestLineString“ lauku, įtrauktu kaip pasirinktinis laukas.
 
-![Atskira eilutė](media/b6756b4a3fc5298093327a088a7710fd.png)
+![Atskira eilutė.](media/b6756b4a3fc5298093327a088a7710fd.png)
 
 ### <a name="use-chain-of-command-on-the-buildcustomfieldlist-method-of-the-tstimesheetsettings-class-to-show-a-field-in-the-timesheet-entry-section"></a>Naudokite komandų grandinę, esančią metode „buildCustomFieldList“ klasėje „TSTimesheetSettings“, kad galėtumėte rodyti lauką grafiko įrašo skyriuje
 
@@ -317,11 +317,11 @@ final class TSTimesheetEntryService_Extension
 
 Toliau pateikiama mobiliųjų įrenginių programėlės ekrano kopija, kurioje vartotojas peržiūri grafiką. Mygtukas „Daugiau informacijos“ buvo pažymėtas viršutiniame dešiniajame kampe, kad būtų rodoma parinktis „Žiūrėti daugiau informacijos“.  
 
-![Komanda „Žiūrėti daugiau informacijos“](media/show-more.png)
+![Komanda „Žiūrėti daugiau informacijos“.](media/show-more.png)
 
 Toliau pateikiama mobiliųjų įrenginių programėlės grafiko skyriaus „Daugiau“ ekrano kopija. Pasirinktinis laukas, vadinamas „Šio grafiko naudingumo koeficientas (apskaičiuotas pasirinktinis laukas)“, įtrauktas į grafiko antraštės skyrių. Pasirinktiniam laukui nustatoma tik skaitymo reikšmė „0,667“.
 
-![Daugiau skyrių](media/more-section.jpg)
+![Daugiau skyrių.](media/more-section.jpg)
 
 ### <a name="extend-the-tstimesheettable-table-so-that-it-has-a-custom-field"></a>Išplėskite lentelę „TSTimesheetTable“, kad joje būtų pasirinktinis laukas
 
@@ -414,7 +414,7 @@ Esama grafiko funkcijų duomenų bazėje logika ir toliau veiks, kaip numatyta. 
 
 Projekto parametruose galite nustatyti, kad paruošti laukai mobiliųjų įrenginių programėlėje būtų tik skaitomi arba paslėpti. Nustatykite parinktis puslapio **Projektų valdymo ir apskaitos parametrai** skyriaus **Mobiliųjų įrenginių grafikai** skirtuke **Grafikas**.
 
-![Projekto parametrai](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
+![Projekto parametrai.](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
 
 ### <a name="changing-the-activities-that-are-available-for-selection-via-extensions"></a>Veiklų, kurias galima pasirinkti naudojant plėtinius, keitimas
 
