@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 48f313b15f788645b88a4d878e3bece419d63126
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009176"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002566"
 ---
 # <a name="project-costs-and-revenue"></a>Projekto savikaina ir pajamos
 
@@ -31,7 +31,7 @@ ms.locfileid: "6009176"
 
 Projekto įvertinimai nurodomi finansiniame rodinyje to darbo, kuris įvertintas ir suplanuotas projektų grafike. Skirtuke **Sąmatos**, esančiame puslapyje **Projektai**, rodomas suplanuotų darbo savikainos ir pajamų poveikis. Taip pat pateikiama informacija apie daugelį iš anksto nustatytų dimensijų. 
 
-> ![Sąmatų skirtukas](media/project-5.png)
+> ![Sąmatų skirtukas.](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>Projekto savikainos ir pardavimo vertės
 
@@ -66,13 +66,13 @@ Jei sistema vaidmens savikainos neranda, sąmatų eilutėje pardavimo savikaina 
 
 Skirtuke **Sąmatos** yra tinklelio rodinys, kuriame rodomos sąmatų eilutės. Tinklelyje yra vienetų, bendrosios savikainos ir bendrosios pardavimo kainos stulpeliai, kaip pavaizduota šioje iliustracijoje. 
 
-> ![Tinklelio rodinys skirtuke Sąmatos](media/project-6.png)
+> ![Tinklelio rodinys skirtuke Sąmatos.](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>Laipsniškai laike išdėstytas projekto sąmatų rodinys
 
 Laipsniškai laike išdėstyto projekto sąmatų rodinyje nurodyti sąmatos duomenys iš tinklelio rodinio pagal laiko planavimo juostą, jūsų pasirinkta laiko skale. Pagal numatytuosius nustatymus sąmatos duomenys yra rikiuojami greitojo rikiavimo būdu į dimensiją **Vaidmuo**.
 
-> ![Laipsniškai laike išdėstytas rodinys projekto sąmatoms](media/project-7.png)
+> ![Laipsniškai laike išdėstytas rodinys projekto sąmatoms.](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>Apskaičiuotų pastangų paskirstymas pagal užduoties režimą
 

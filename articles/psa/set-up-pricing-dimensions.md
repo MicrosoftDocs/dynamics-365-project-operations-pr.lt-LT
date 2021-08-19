@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cce3a3fe6aef247380f6284f58d49337f969c38c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008321"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002341"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Pasirinktinių laukų kaip kainodaros dimensijų nustatymas 
 
@@ -41,11 +41,11 @@ Kad laukas taptų kainodaros dimensija, jis turi:
 - Būti sukurtas kaip laukas objektuose **Vaidmens kaina** ir **Vaidmens kainos antkainis**. Daugiau informacijos apie tai, kaip tai padaryti, žr. [Pasirinktinių laukų įtraukimas į kainos sąranką ir operacijų objektus](field-references.md).
 - Būti sukurtas kaip eilutė lentelėje **Kainodaros dimensija**. Pavyzdžiui, įtraukite kainodaros dimensijos eilutes kaip parodyta toliau pateiktame paveiksle. 
 
-![Suma pagrįstos kainodaros dimensijos eilutės](media/Amt-based-PD.png)
+![Suma pagrįstos kainodaros dimensijos eilutės.](media/Amt-based-PD.png)
 
 Atkreipkite dėmesį, kad išteklių darbo valandos (**msdyn_resourceworkhours**) įtrauktos kaip antkainiu pagrįsta dimensija ir įtrauktos į tinklelį skirtuke **Antkainiu pagrįsta kainodaros dimensija**.
 
-![Antkainiu pagrįstos kainodaros dimensijos eilutės](media/Markup-based-PD.png)
+![Antkainiu pagrįstos kainodaros dimensijos eilutės.](media/Markup-based-PD.png)
 
 > [!IMPORTANT]
 > Bet koks esamas arba naujas kainodaros dimensijos duomenų pakeitimas šioje eilutėje yra perkeliamas į „Project Service“ kainodaros verslo logiką, tik kai atnaujinama talpykla. Talpyklos atnaujinimo laikas gali užtrukti iki 10 minučių. Leiskite šį laiką, kad matytumėte pakeitimus kainos numatytoje logikoje, kurie turi būti kainodaros dimensijos duomenų pakeitimų rezultatas.

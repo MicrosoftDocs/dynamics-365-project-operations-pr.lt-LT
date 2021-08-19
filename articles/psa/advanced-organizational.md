@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3be18adfa1d346bdabae7e89375ca2c5a2dbda95
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009626"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005086"
 ---
 # <a name="organizational-units"></a>Organizaciniai vienetai 
 
@@ -53,7 +53,7 @@ Organizacinis vienetas atlieka du vaidmenis PSA:
 - **Sutarties vienetas** – organizacinis vienetas, atstovaujantis įmonių grupę arba padalinį, kuris yra atsakingas už laimėtą pardavimą ir darbo bei paslaugų pristatymą klientui. Sutarties vienetas atpažįstamas iš lauko **Sutarties vienetas** puslapių **Galimybė**, **Pasiūlymas**, **Projekto sutartis** ir **Projektai** antraštės skyriuje.
 - **Išteklių vienetas** – organizacinis vienetas, kuriam ištekliai priklauso arba yra priskirti. Šis organizacijos vienetas gali pateikti savo išteklius kai kuriems vaidmenims, susijusiems su darbo ataskaitomis (SOW), ir projektams, priklausantiems sutarties vienetui.
 
-> ![Sutartiniai vienetai ir išteklių skyriai](media/advanced-1.png)
+> ![Sutartiniai vienetai ir išteklių skyriai.](media/advanced-1.png)
 
 ## <a name="organizational-unit-faqs"></a>Organizacinio vieneto DUK
 

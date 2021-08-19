@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b24a20d47eefa43b2e4e184a377decdb280d436d
-ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
+ms.openlocfilehash: c8bc389c83eaf2a7720ef3fa969c677eed11e7959199b5f0083df5bf3b43ea43
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025784"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003826"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>„Project Operations“ dvigubo rašymo schemos versijos
 
@@ -32,7 +32,7 @@ Toliau nurodytos schemos yra būtinieji sprendimo „Project Operations“ kompo
 
 1. Schemų sąraše pasirinkite Didžioji knyga **(msdyn\_ledgers)** schemą su visomis būtinosiomis sąlygomis ir pažymėkite žymės langelį **Pradinis sinchronizavimas**. Tiek didžiosios knygos schemos, tiek visų būtinųjų schemų lauke **Pradinio sinchronizavimo šablonas** pasirinkite **„Finance and Operations“ programos**. Pasirinkite **Vykdyti**.
 
-![Didžiosios knygos struktūros sinchronizavimas](media/DW6.png)
+![Didžiosios knygos struktūros sinchronizavimas.](media/DW6.png)
 
 2. Tuos pačius veiksmus atlikite su visomis likusiomis lentelių schemomis, išvardytomis pirmiau pateiktoje lentelėje. Paleisdami šias schemas nepažymėkite žymės langelio **Pradinis sinchronizavimas**.
 
@@ -65,7 +65,7 @@ Norėdami paleisti išvardytas schemas, atlikite toliau nurodytus veiksmus.
 
 1. Įjunkite **visų įmonių (bookableresourcecategories)** lentelės schemos projekto išteklių vaidmenis, nes šią schemą reikia iš pradžių sinchronizuoti. Lauke **Pradinio sinchronizavimo šablonas** pasirinkite **„Common Data Service“**. 
 
- ![Išteklių vaidmenų lentelės schemos sinchronizavimas](media/6ResourceInitialSync.jpg)
+ ![Išteklių vaidmenų lentelės schemos sinchronizavimas.](media/6ResourceInitialSync.jpg)
 
  Prieš pereidami prie kito veiksmo palaukite, kol schemos būsena bus **Vykdoma**.
 

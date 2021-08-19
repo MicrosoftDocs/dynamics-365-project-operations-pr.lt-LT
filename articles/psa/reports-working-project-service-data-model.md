@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 37c7b15daa75cc3ba53ff6a3bcc0ab54717aa62d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 375850b893b7afead8371824606b422d3f36c36de4da908fdf76666bd1b415ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008816"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002431"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Darbas su „Project Service Automation“ duomenų modeliu
 
@@ -53,7 +53,7 @@ PSA į „Dynamics 365“ duomenų modelį taip pat įtraukia naujus su pasiūly
 
 Kiti objektai, kuriuo PSA įtraukia į pasiūlymus, yra **Pasiūlymo eilutės projekto kainoraštis**, **Pasiūlymo eilutės išteklių kategorija** ir **Pasiūlymo eilutės operacijų kategorija**.
 
-![Diagrama, parodanti pasiūlymą, pasiūlymo eilutę ir projektų ryšius](media/PS-Reporting-image2.png "Diagrama, parodanti pasiūlymą, pasiūlymo eilutę ir projektų ryšius")
+![Diagrama, parodanti pasiūlymą, pasiūlymo eilutę ir projektų ryšius.](media/PS-Reporting-image2.png "Diagrama, parodanti pasiūlymą, pasiūlymo eilutę ir projektų ryšius")
 
 ## <a name="reporting-on-project-contracts"></a>Ataskaitų teikimas apie projektų sutartis
 
@@ -69,7 +69,7 @@ PSA taip pat įtraukia naujus objektus, kurie sukurti projekto sutartims. Štai 
 
 Kiti objektai, kuriuos PSA įtraukia į sutartis yra **Projekto sutarties eilutės projekto kainoraštis**, **Projekto sutarties eilutės išteklių kategorija** ir **Projektų sutarties eilutės operacijų kategorija**.
 
-![Diagrama, parodanti užsakymą, užsakymo eilutę ir projektų ryšius](media/PS-Reporting-image3.png "Diagrama, parodanti užsakymą, užsakymo eilutę ir projektų ryšius")
+![Diagrama, parodanti užsakymą, užsakymo eilutę ir projektų ryšius.](media/PS-Reporting-image3.png "Diagrama, parodanti užsakymą, užsakymo eilutę ir projektų ryšius")
 
 ## <a name="reporting-on-projects"></a>Ataskaitų apie projektus teikimas
 
@@ -81,7 +81,7 @@ Objektas **Projektai** ir jo susiję objektai priklauso tik PSA. **Projektas** y
 - **Išteklių reikalavimas** – šiame objekte yra bendrųjų išteklių komandos nariams skirti reikalavimai.
 - **Įvertinimas** ir **Įvertinimo eilutė** – šie objektai turi antraštės / eilutės ryšį ir projektui apskaičiuotas išlaidas. Užduočių įvertinimai saugomi objekte **Išteklių įvertinimas**.
 
-![Diagrama, parodanti išteklių reikalavimą ir projektų ryšius](media/PS-Reporting-image4.png "Diagrama, parodanti išteklių reikalavimą ir projektų ryšius")
+![Diagrama, parodanti išteklių reikalavimą ir projektų ryšius.](media/PS-Reporting-image4.png "Diagrama, parodanti išteklių reikalavimą ir projektų ryšius")
 
 ## <a name="reporting-on-resources"></a>Ataskaitų teikimas apie išteklius
 
@@ -92,7 +92,7 @@ Projekto ištekliai naudoja **Rezervuojamų išteklių** objektus iš „Univers
 - **Rezervuojamų išteklių kategorija** – šis objektas nurodo rezervuojamų išteklių vaidmenį.
 - **Rezervuoti išteklių rezervacijos** – šis objektas nurodo laiką, kuris rezervuotas projektų ištekliams. Kiekviena rezervacija turi antraštės objektą ir eilutės objektus, o kiekviena eilutė turi būseną, kuri rodo rezervacijos būseną.
 
-![Diagrama, parodanti rezervuojamų išteklių charakteristikų ryšius](media/PS-Reporting-image5.png "Diagrama, parodanti rezervuojamų išteklių charakteristikų ryšius")
+![Diagrama, parodanti rezervuojamų išteklių charakteristikų ryšius.](media/PS-Reporting-image5.png "Diagrama, parodanti rezervuojamų išteklių charakteristikų ryšius")
 
 ## <a name="reporting-on-actual-transactions"></a>Ataskaitų teikimas apie faktines operacijas
 
@@ -120,7 +120,7 @@ Kai dirbate su objektu **Faktinis**, svarbu, kad suprastumėte, kokia operacija 
 
 Objekte **Operacijos kilmė** įrašomas **Faktinis** įrašas, o objekte **Operacijos ryšis** įrašomi susiję objekto **Faktinis** įrašo įrašai. Be to, objekto **Faktinis** įraše yra nuoroda į projektą, projekto sutartį (užsakymą), rezervuojamus išteklius ir klientą.
 
-![Diagrama, parodanti operacijų ryšį, kilmę ir faktinius ryšius](media/PS-Reporting-image6.png "Diagrama, parodanti operacijų ryšį, kilmę ir faktinius ryšius")
+![Diagrama, parodanti operacijų ryšį, kilmę ir faktinius ryšius.](media/PS-Reporting-image6.png "Diagrama, parodanti operacijų ryšį, kilmę ir faktinius ryšius")
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

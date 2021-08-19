@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
 ms.custom: intro-internal
-ms.openlocfilehash: c1dcf642f79ce64cb83285ac6dc6d7eaf815145c
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369386"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005401"
 ---
 # <a name="intercompany-invoicing-overview"></a>Vidinės įmonės sąskaitų faktūrų išrašymo apžvalga
 
@@ -22,7 +22,7 @@ Jūsų organizaciją gali sudaryti keli skyriai, filialai ir kiti juridiniai sub
 
 Šioje iliustracijoje pavaizduotas įprastas scenarijus, kai du juridiniai objektai Contoso Robotics USA (besiskolinantis juridinis subjektas) ir Contoso Robotics UK (skolinantis juridinis subjektas) bendrina išteklius, kad klientui „Adventure works“ būtų galima vykdyti projektą. Pagal šį scenarijų Contoso Robotics USA sudarė sutartį teikti darbus „Adventure Works“.
 
-![Vidinės įmonės sąskaitų faktūrų išrašymas](./media/IntercompanyScenario.png) 
+![Vidinės įmonės sąskaitų faktūrų išrašymas.](./media/IntercompanyScenario.png) 
 
 „Dynamics 365 Project Operations“ naudoja toliau pateiktą srautą, kad apdorotų vidinės įmonės operacijas.
 
@@ -35,7 +35,7 @@ Jūsų organizaciją gali sudaryti keli skyriai, filialai ir kiti juridiniai sub
 
 Toliau pateiktoje diagramoje vaizduojamas vidinės įmonės sąskaitų faktūrų išrašymas, kaip jis susijęs su apskaitos įvykiais ir numatomais registravimais didžiojoje knygoje.
 
-![Vidinės įmonės srautas](./media/IntercompanyFlow.png)
+![Vidinės įmonės srautas.](./media/IntercompanyFlow.png)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
