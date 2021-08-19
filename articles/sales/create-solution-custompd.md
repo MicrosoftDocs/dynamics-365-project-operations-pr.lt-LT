@@ -6,12 +6,12 @@ ms.date: 11/09/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 86f4cd2c26ebfca621d1b226b571d220d3b2441e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 753f0c4496bafd43d7e4a399cedeb355c2163c7ce56d932b2c786d5f2e672b6b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6010346"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992216"
 ---
 # <a name="create-a-solution-for-custom-pricing-dimensions"></a>Sprendimo pasirinktinėms kainodaros dimensijoms kūrimas
 
@@ -26,7 +26,7 @@ ms.locfileid: "6010346"
 2.  Sukurkite sprendimo pavadinimą: *<your organization name> kainodaros dimensijos*.
 3. Įveskite trūkstamą reikiamą informaciją ir spustelėkite **Įrašyti**.
 
-  ![Pasirinktinių kainodaros dimensijų sprendimo kūrimas](./media/Creation-of-custom-pricing-dimension-solution.png)
+  ![Pasirinktinių kainodaros dimensijų sprendimo kūrimas.](./media/Creation-of-custom-pricing-dimension-solution.png)
  
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Pridėkite visus reikalingus objektus ir susijusius komponentus į kainodaros dimensijos sprendimą
 
@@ -49,19 +49,19 @@ Pridėkite toliau nurodytus „Project Service“ objektus prie savo kainodaros 
    - **Vaidmens kaina**
    - **Laiko įrašas**
  
-   ![Esamų objektų įtraukimas į pasirinktinių kainodaros dimensijų sprendimą](./media/Existing-entities-to-PD-solution.png)
+   ![Esamų objektų įtraukimas į pasirinktinių kainodaros dimensijų sprendimą.](./media/Existing-entities-to-PD-solution.png)
  
  4. Peržiūrėkite kiekvieno objekto pridedamus komponentus ir kiekvieno objekto galutinį objekto išteklių sąrašą. 
 
    >[!NOTE]
    > Įtraukite visas kiekvieno pasirinkto objekto formas ir rodinius.
 
-  ![Pridėti objektai](./media/solution-component-selection.png)
+  ![Pridėti objektai.](./media/solution-component-selection.png)
 
 
 5.  Kai būsite paraginti įtraukti bet kokius pasirinktų objektų priklausomuosius objektus, pasirinkite **Ne, būtinųjų komponentų įtraukti nereikia.**
 
-    ![Priklausomųjų objektų įtraukimas](./media/Do-not-include-required.png)
+    ![Priklausomųjų objektų įtraukimas.](./media/Do-not-include-required.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

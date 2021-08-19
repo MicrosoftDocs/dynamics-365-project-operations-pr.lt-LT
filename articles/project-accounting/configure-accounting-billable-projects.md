@@ -6,12 +6,12 @@ ms.date: 04/05/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 413c9821f251fa37f5cfa082281be662d6be670a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: cbc6bcbfa527486df4c740c52cec8c4be1dabe0478783fb7d2e71a65f18c050f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012596"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991045"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Apmokėtinų projektų apskaitos konfigūravimas
 
@@ -101,23 +101,23 @@ Atlikite toliau nurodytus veiksmus, kad sukurtumėte naują projekto išlaidų i
 
 Laikas ir medžiagos – be NG
 
-![Išlaidų ir pajamų profilis: laikas ir medžiagos – be NG](media/time-material-no-wip.png)
+![Išlaidų ir pajamų profilis: laikas ir medžiagos – be NG.](media/time-material-no-wip.png)
 
 Laikas ir medžiagos – NG (pajamos)
 
-![Išlaidų ir pajamų profilis: laikas ir medžiagos – NG](media/time-material-with-wip.png)
+![Išlaidų ir pajamų profilis: laikas ir medžiagos – NG.](media/time-material-with-wip.png)
 
 Fiksuota kaina – be NG
 
-![Išlaidų ir pajamų profilis: fiksuota kaina – be NG](media/fixed-price-no-wip.png)
+![Išlaidų ir pajamų profilis: fiksuota kaina – be NG.](media/fixed-price-no-wip.png)
 
 Fiksuota kaina – baigta sutartis
 
-![Išlaidų ir pajamų profilis: fiksuota kaina – baigta sutartis](media/fixed-price-completed-contract.png)
+![Išlaidų ir pajamų profilis: fiksuota kaina – baigta sutartis.](media/fixed-price-completed-contract.png)
 
 Fiksuota kaina – procentinė dalis
 
-![Išlaidų ir pajamų profilis: fiksuota kaina – procentinė dalis](media/fixed-price-completed-percentage.png)
+![Išlaidų ir pajamų profilis: fiksuota kaina – procentinė dalis.](media/fixed-price-completed-percentage.png)
 
 
 ## <a name="accounting-event-examples-for-sample-project-cost-and-revenue-profiles"></a>Apskaitos įvykių pavyzdžiai, skirti pavyzdinių projektų išlaidų ir pajamų profiliams.

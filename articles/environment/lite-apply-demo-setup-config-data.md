@@ -6,12 +6,12 @@ ms.date: 01/27/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7729b4a9ef5f498b78af298f7233d7dd45434bb3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e25d358f1fd7705d580855d372d85690f6a5e265d3ba2b60fc26742bf3edc86f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997161"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993296"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Demonstracinės sąrankos ir konfigūracijos duomenų taikymas naudojant „Project Operations“ – „Lite“ versija 
 
@@ -30,24 +30,24 @@ Prieš pradėdami konfigūraciją, turite turėti „Common Data Service“ (CDS
 2. Eikite į aplanką *ProjOpsSampleSetupData - CE only CMT* ir paleiskite vykdomą failą *DataMigrationUtility*.
 3. „Common Data Service“ konfigūravimo perkėlimo (CMT) vedlio 1 puslapyje pasirinkite **Importuoti duomenis**, o tada pasirinkite **Tęsti**.
 
-    ![Konfigūravimo perkėlimas](./media/1ConfigurationMigration.png)
+    ![Konfigūravimo perkėlimas.](./media/1ConfigurationMigration.png)
 
 4. CMT vedlio 2 puslapyje pažymėkite **Microsoft 365** kaip **Visuotinio diegimo tipą**.
 5. Pažymėkite žymės langelius **Rodyti galimų organizacijų sąrašą** ir **Rodyti išsamiau**.
 6. Pasirinkite savo nuomotojo regioną, įveskite savo kredencialus, o tada pasirinkite **Prisijungti**.
 
-   ![Prisijungimas prie konfigūracijos](./media/2ConfigurationSignin.png)
+   ![Prisijungimas prie konfigūracijos.](./media/2ConfigurationSignin.png)
 
 7. 3 puslapyje iš nuomotojo organizacijų sąrašo pasirinkite į kurią organizaciją norite importuoti demonstracinius duomenis, o tada pasirinkite **Prisijungti**.
 8. 4 puslapyje pasirinkite zip. failą *SampleSetupAndConfigData* nesupakuotame aplanke *ProjOpsSampleSetupData - CE only CMT*.
 
-   ![Suglaudintas failas](./media/3ZipFile.png)
+   ![Suglaudintas failas.](./media/3ZipFile.png)
 
-   ![Pasirinkti failą](./media/4SelectAFile.png)
+   ![Pasirinkti failą.](./media/4SelectAFile.png)
 
 9. Pasirinkę suglaudintą failą, pasirinkite **Importuoti duomenis**.
 
-   ![Importuoti duomenis](./media/5ImportData.png)
+   ![Importuoti duomenis.](./media/5ImportData.png)
 
 10. Priklausomai nuo jūsų tinklo spartos, importavimas užims apie 2-10 minučių. Baigę importuoti uždarykite CMT vediklį. 
 11. Patikrinkite savo organizacijos duomenis šiuose 18 objektų:
@@ -71,7 +71,7 @@ Prieš pradėdami konfigūraciją, turite turėti „Common Data Service“ (CDS
     -   Rezervuojamų išteklių kategorijos sąsaja
     -   Rezervuojamų išteklių charakteristika
 
-    ![Importavimo užbaigimas](./media/6CompleteImport.png)
+    ![Importavimo užbaigimas.](./media/6CompleteImport.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

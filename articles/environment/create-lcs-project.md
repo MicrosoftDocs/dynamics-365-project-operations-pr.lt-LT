@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d348515f8bd64df8aaab3a8a6dbee09237973f11
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 425cd38c204a67cda9ce03bdc96b728e03499c87aeddd6f62924b57e16b21167
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995586"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989966"
 ---
 # <a name="start-a-new-lcs-project"></a>Naujo LCS projekto pradėjimas
 
@@ -24,13 +24,13 @@ Naudokite „Lifecycle Services“ (LCS), kad valdytumėte „Dynamics 365 Proje
 3. Norėdami sukurti naują projektą, pasirinkite pliuso ženklą (**+**).
 4. Peržiūros tikslais pažymėkite projekto tipą **Perkelti, kurti sprendimus ir išmokite**.
 
-  ![LCS projekto tipo pasirinkimas](./media/create-lcs-1.png)
+  ![LCS projekto tipo pasirinkimas.](./media/create-lcs-1.png)
 
 5. Įveskite projekto pavadinimą. 
 6. Pažymėkite **„Finance and Operations“** kaip produkto pavadinimą ir pasirinkite pramonės šaką bei metodiką. 
 7. Pasirinkite **Kurti**.
 
-![LCS projekto kūrimas](./media/create-lcs-2.png)
+![Kurti LCS projektą.](./media/create-lcs-2.png)
 
 Naudokite šį LCS projektą „Project Operations“ aplinkai diegti.
 

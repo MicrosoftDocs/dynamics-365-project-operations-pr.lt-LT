@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f686c8329c3965ab98b7de9909dc3567b6cb5094
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b5b6c4d608ae083d01be24258af35ed8f64e67a897690f1a2678f76b8befdcb1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007511"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990794"
 ---
 # <a name="find-your-next-project-with-the-project-finder-mobile-app-project-service"></a>Raskite savo kitą projektą naudodami „Project Finder Mobile“ programėlę („Project Service“)
 
@@ -38,12 +38,12 @@ Naudodami „Project Finder Mobile“ programėlę „[!INCLUDE[tn_iphone](../in
   
  Bakstelėkite rodyklę, esančią dešinėje jus dominančio projekto pusėje, norėdami pamatyti daugiau informacijos ir užsiregistruoti.  
   
- ![Projektų, atitinkančių įgūdžius projektų ieškiklio mobiliojoje programėlėje, sąrašas](../psa/media/project-service-project-finder-list.png "Projektų, atitinkančių įgūdžius projektų ieškiklio mobiliojoje programėlėje, sąrašas")  
+ ![Projektų, atitinkančių įgūdžius programoje „Project Finder Mobile”, sąrašas.](../psa/media/project-service-project-finder-list.png "Projektų, atitinkančių įgūdžius projektų ieškiklio mobiliojoje programėlėje, sąrašas")  
   
 ## <a name="update-your-skills"></a>Įgūdžių naujinimas  
  Bakstelėkite profilio mygtuką ekrano apatiniame dešiniajame kampe, kad atnaujintumėte savo įgūdžių ir kvalifikacijos lygį.  
   
- ![Mygtukas Profilis projektų ieškiklio mobiliojoje programėlėje](../psa/media/project-service-project-finder-profile.png "Mygtukas Profilis projektų ieškiklio mobiliojoje programėlėje")  
+ ![Mygtukas Profilis programoje „Project Finder Mobile”.](../psa/media/project-service-project-finder-profile.png "Mygtukas Profilis projektų ieškiklio mobiliojoje programėlėje")  
   
 ### <a name="see-also"></a>Taip pat žr.  
  [Laiko, išlaidų ir bendradarbiavimo vadovas](../psa/time-expense-collaboration-guide.md)

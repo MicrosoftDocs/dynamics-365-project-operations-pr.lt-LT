@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7407c98aad79806dcbaf25e81ff3e08397b41ffe
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 37549080d76e3bffd7cb002aee8e3c46b9eeb18e3cec915cd971881b69747534
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5996576"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993251"
 ---
 # <a name="project-invoice-integration"></a>Projekto sąskaitų faktūrų integravimas
 
@@ -20,7 +20,7 @@ ms.locfileid: "5996576"
 
 Naudodamas „Project Operations“ projektų vadovas tvarko nebaigtas projektų atsiskaitymo užduotis ir sprendime „Microsoft Dataverse“ klientui sukuria išankstinę sąskaitą faktūrą. Pagal šią išankstinę sąskaitą faktūrą gautinų sumų klerkas arba projekto buhalteris sukuria klientui skirtą sąskaitą faktūrą. Dvigubo rašymo integravimo funkcija užtikrina, kad išsami informacija apie išankstinę sąskaitą faktūrą būtų sinchronizuojama su „Finance and Operations“ programomis. Kai klientui skirta sąskaita faktūra užregistruojama, sistema atitinkamo projekto faktinius duomenis sprendime „Dataverse“ atnaujina išsamia apskaitos informacija. Toliau pateiktame grafiniame elemente pateikiama aukšto lygio konceptuali šio integravimo apžvalga.
 
-   ![Projekto sąskaitų faktūrų integravimas](./media/DW5Invoicing.png)
+   ![Projekto sąskaitų faktūrų integravimas.](./media/DW5Invoicing.png)
 
 Kai projekto vadovas patvirtina išankstinę sąskaitą faktūrą naudodamas „Dataverse“, išankstinės sąskaitos faktūros antraštės informacija sinchronizuojama su „Finance and Operations“ programomis naudojant dvigubo rašymo lentelės schemą **Projekto sąskaitos faktūros pasiūlymas V2 (sąskaitos faktūros)**. Tai – vienkryptis integravimas iš „Dataverse“ į „Finance and Operations“ programas. Projektų sąskaitų faktūrų pasiūlymų tiesioginio kūrimo arba naikinimo naudojant „Finance and Operations“ programas galimybė nėra palaikoma.
 

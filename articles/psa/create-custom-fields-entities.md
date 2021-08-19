@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3d838bde8a3d7cbc15e06fb3289924468c284a8a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f501bcc106a296f35bba996b6ab3a8b758cefb1926033faf04ee23c42bc94d39
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998961"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992441"
 ---
 # <a name="create-custom-fields-and-entities"></a>Pasirinktinių laukų ir objektų kūrimas 
 
@@ -43,7 +43,7 @@ Kainodaros dimensija gali būti parinkčių rinkinys arba objektas. Abu turi bū
 2. Sprendimų naršyklėje, kairiojoje naršymo srities pusėje, pasirinkite **Objektai**.
 3. Spustelėkite **Naujas**, kad sukurtumėte naują objektą pavadinimu **Standartinis pavadinimas**. Įveskite trūkstamą reikiamą informaciją ir spustelėkite **Įrašyti**.
 
-> ![Standartinio pavadinimo objekto apibrėžtis](media/Standard-Title-entity-definition.png)
+> ![Standartinio pavadinimo objekto apibrėžtis.](media/Standard-Title-entity-definition.png)
 
 
 ### <a name="option-set-based-dimensions"></a>Parinkčių rinkinio matmenys 
@@ -54,9 +54,9 @@ Galite sukurti du parinkčių rinkinio matmenis. Pasinaudokite lauku **Ištekli�
 2. Sprendimų naršyklėje, kairiojoje naršymo srities pusėje, pasirinkite **Parinkčių rinkiniai**. 
 3. Spustelėkite **Naujas**, kad sukurtumėte naują parinkčių rinkinį, įveskite trūkstamą būtiną informaciją, tada spustelėkite **Įrašyti**.
 
-> ![Kainodaros dimensijos parinkčių rinkinys „Išteklių darbo vieta“ ](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Kainodaros dimensijos parinkčių rinkinys „Išteklių darbo vieta“.](media/Option-set-PD-called-Resource-Work-Location.png)
 
-> ![Kainodaros dimensijos parinkčių rinkinys „Išteklių darbo valandos“ ](media/Option-set-PD-called-Resource-Work-Hours.PNG)
+> ![Kainodaros dimensijos parinkčių rinkinys „Išteklių darbo valandos“.](media/Option-set-PD-called-Resource-Work-Hours.PNG)
 
 
 ## <a name="create-data-for-entity-based-dimensions"></a>Objekto dimensijų duomenų kūrimas
@@ -68,7 +68,7 @@ Objektų dimensijų duomenis galite kurti rankiniu būdu arba naudodami „Micro
 3. Uždarykite formą. 
 4. Pakartokite 1–3 veiksmus, kad sukurtumėte kitą standartinį vyresniojo sistemų inžinieriaus pavadinimą.
 
-> ![Standartinio pavadinimo objekto duomenų pavyzdžiai ](media/ST-data.png)
+> ![Standartinio pavadinimo objekto duomenų pavyzdžiai.](media/ST-data.png)
 
 
 
