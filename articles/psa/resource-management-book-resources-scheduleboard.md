@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bbd6e8c711f6c15221143514efdd43a388ef4e7f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5e4516d13a30ddfb5763fe600b0c1fc675ba6cf980730912e1795cc3d6f4991f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998061"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998246"
 ---
 # <a name="use-the-schedule-board-to-book-project-resources"></a>Grafiko lentos naudojimas projekto išteklių rezervavimui
 
@@ -34,23 +34,23 @@ Prieš rezervuodami iš grafiko lentos, turite sukurti arba sugeneruoti ištekli
 1. Jei skydas **Rezervacijos reikalavimai** puslapio apačioje yra sutrauktas, pažymėkite plėstuvo valdiklį, kad jį išplėstumėte.
 2. Skydo **Rezervacijos reikalavimai** skirtuke **Projektas** pažymėkite rezervuotiną reikalavimą.
 
-    ![Projekto skirtuke pasirinktas reikalavimas](media/Resource-Management-image73.png)
+    ![Projekto skirtuke pasirinktas reikalavimas.](media/Resource-Management-image73.png)
 
 3. Pažymėkite **Rasti pasiekiamumą**, kad filtruotumėte rezervuojamus išteklius ir peržiūrėtumėte pasiekiamus išteklius. 
 4. Grafiko lentoje pažymėkite vieną arba daugiau išteklių. 
 5. Skyde **Kurti išteklių rezervaciją** puslapio dešinėje įveskite rezervacijos informaciją, tada pažymėkite **Rezervuoti ir išeiti**.
 
-    ![Išteklių rezervacijos kūrimas pasirinktiems rezervuojamiems ištekliams](media/Resource-Management-image74.png)
+    ![Išteklių rezervacijos kūrimas pasirinktiems rezervuojamiems ištekliams.](media/Resource-Management-image74.png)
 
 6. Kai reikalavimas skyde **Kurti išteklių rezervaciją** pažymėtas, pasirinkite vieną arba kelis išteklių langelius, kad sukurtumėte rezervaciją.
 
-    ![Keli pasirinkti išteklių langeliai](media/Resource-Management-image75.png)
+    ![Keli pasirinkti išteklių langeliai.](media/Resource-Management-image75.png)
 
 7. Pažymėkite **Rezervuoti**.
 
 Reikalavimas užpildomas naudojant pasirinktus išteklius. Skyde **Rezervacijos reikalavimai** atkreipkite dėmesį, kad reikalavimas buvo atnaujintas ir ištekliai projekte rodomi kaip rezervuoti.
 
-![Projektui rezervuoti ištekliai](media/Resource-Management-image76.png)
+![Projektui rezervuoti ištekliai.](media/Resource-Management-image76.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

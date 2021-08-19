@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d1debf8f67b7dbe7752075c6f8e5f2cdd37a3ae
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 7c201ccec2069869707409ff6a9236e81e125f06b391c67202927f5c038787d8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002786"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995816"
 ---
 # <a name="intercompany-invoicing"></a>Vidinės įmonės SF išrašymas
 
@@ -33,7 +33,7 @@ Jūsų organizaciją gali sudaryti keli skyriai, filialai ir kiti juridiniai sub
 
 Tolesnėje iliustracijoje pavaizduotas įprastas scenarijus, kai du juridiniai subjektai – SI FR (besiskolinantis juridinis subjektas) ir SI USA (skolinantis juridinis subjektas) – dalijasi ištekliais, kad įvykdytų kliento A projektą. Pagal šį scenarijų, SI FR sutartimi įpareigojamas atlikti darbą klientui A. 
 
-[![Vidinės įmonės SF išrašymo pavyzdys](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
+[![Vidinės įmonės SF išrašymo pavyzdys.](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
 
 Tikslas yra vidinių įmonių projektų operacijų išlaidų kontrolę, įplaukų pripažinimą, mokesčius ir perdavimo kainą padaryti lankstesnius ir veiksmingesnius. Be to, suteikiamos tolesnės galimybės.
 

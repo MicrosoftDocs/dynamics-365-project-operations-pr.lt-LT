@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5c8c28839f5e7b3259afbea4ab400d0c4fca95fd
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368891"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998471"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Kainodaros ir įkainojimo dimensijų pagrindinis puslapis
 
@@ -41,7 +41,7 @@ Atsižvelgiant į įprastą šių darbo atributų ir žmonių, reikalingų atlik
 
 PSA pateikiamas su numatytuoju kainodaros dimensijų rinkiniu. Jas galite peržiūrėti apsilankę **„Project Service“** > **Parametrai**. Parametrų įraše, esančiame skirtuke **Suma pagrįstos kainodaros dimensijos**, patvirtinkite, kad vaidmuo **msdyn_resourcecategory** ir išteklių organizacinio vieneto **msdyn_organizationalunit** laukai **Taikoma pardavimui** ir **Taikoma savikainai** nustatyti į **Taip**. Taip galėsite nustatyti kiekvieno vaidmens ir organizacinio vieneto derinio kainą ir savikainą.
 
-![„Project Service“ parametrų ekrano kopija su pažymėtu lauku „Taikoma pardavimui“](media/PS-OOB-parameters.png)
+![„Project Service“ parametrų ekrano kopija su pažymėtu lauku „Taikoma pardavimui“.](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > Jei naudojote visiškai parengtus vaidmens ir organizacinio vieneto laukus kaip kainodaros dimensijas prieš 3 PSA versiją, jokių pastebimų pakeitimų nebus. Galite toliau naudoti „Project Service“ kaip įprasta. 

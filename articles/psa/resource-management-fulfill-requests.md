@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1814d3a48611a76ee957967fc6da0b66e821ce5d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1b9c19438effff5901426c904fa905afb3e2c09c35aff8559f491c06401806e0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998016"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996851"
 ---
 # <a name="fulfilling-resource-requests"></a>Išteklių užklausų įvykdymas
 
@@ -33,15 +33,15 @@ Išteklių reikalavimus galima siųsti kaip išteklių užklausas išteklių val
 
 Išteklių užklausos rodomas kaip sąrašas rodinyje **Aktyvios išteklių užklausos**.
 
-> ![Išteklių užklausų sąrašas](media/Resource-Management-image59.png)
+> ![Išteklių užklausų sąrašas.](media/Resource-Management-image59.png)
 
 Norėdami įvykdyti užklausą, pažymėkite ją sąraše, tada pažymėkite **Rasti išteklius**. Arba du kartus spustelėkite eilutę, kad atidarytumėte išteklius. Tada galite pažymėti skirtuką **Išteklių reikalavimas**, kad peržiūrėtumėte reikalavimus šiai užklausai. Norėdami pradėti vykdyti užklausą, pažymėkite **Rasti išteklius.**
 
-> ![Išteklių užklausos informacija](media/Resource-Management-image60.png)
+> ![Išteklių užklausos informacija.](media/Resource-Management-image60.png)
 
 Rodoma planavimo pagalbinė priemonė ir filtruojama pagal reikalavimus. Pažymėkite išteklius, tada pažymėkite **Rezervuoti**.
 
-> ![Pasirinkti ištekliai](media/Resource-Management-image61.png)
+> ![Pasirinkti ištekliai.](media/Resource-Management-image61.png)
 
 Bendrosios komandos narys projekto komandoje ir užduočių priskyrimuose projekto grafike pakeičiamas galutinai rezervuotu pavadinimą turinčiu ištekliumi.
 

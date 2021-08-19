@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e0f3957936e699fb2a9f570b9789924c55e12cc2
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 8568921dd16472f10a7043c5fe3f58b9f5cd3989ad39e3a3bdf269b0c7203ae2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009356"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998651"
 ---
 # <a name="book-named-bookable-resources-to-a-project-team-and-assign-tasks"></a>Įvardytų rezervuojamų išteklių rezervavimas projekto komandai ir užduočių priskyrimas 
 
@@ -34,36 +34,36 @@ Galite įtraukti įvardytąjį išteklių į savo projekto komandą rezervuodami
 1. Programoje „Project Service Automation“ eikite į sritį **Projektai** ir pasirinkite atidaryti projektą, kuriam rezervuojate.
 2. Puslapio **Projektas** skirtuke **Komanda** spustelėkite **Naujas**. 
 
-![Komandos nario įtraukimas naudojant komandos skirtuką](media/RM-how-to-1.png)
+![Komandos nario įtraukimas naudojant komandos skirtuką.](media/RM-how-to-1.png)
 
 3. Dialogo lange **Spartusis projekto komandos nario kūrimas** pasirinkite rezervuojamą išteklių. Jei ištekliui yra priskirtas numatytasis ištekliaus vaidmuo, jis bus automatiškai įvestas į lauką **Vaidmuo**. Jei reikia, vaidmenį galite keisti. 
 4. Pasirinkite pradžios ir pabaigos datas, kada išteklius bus reikalingas, ir pasirinkite ištekliaus pajėgumo paskirstymo metodą. 
 5. Jei norite, kad komandos narys būtų projekto tvirtintojas, lauke **Projekto tvirtintojas** pasirinkite reikšmę **Taip**. Tai reikš, kad komandos narys galės tvirtinti pateiktus šio projekto laiko ir išlaidų įrašus. 
 6. Spustelėkite **Įrašyti**.
 
-![Komandos nario įtraukimas į sparčiojo kūrimo formą](media/RM-how-to-2.png)
+![Komandos nario įtraukimas į sparčiojo kūrimo formą.](media/RM-how-to-2.png)
 
 
 Dabar galite rezervuotą išteklių priskirti projekto užduotims. Puslapyje **Projektas** spustelėkite skirtuką **Grafikas** ir priskirkite užduotis naujam ištekliui. Išteklių parinkiklis, paleidžiamas naudojant užduočių tinklelio lauką **Ištekliai**, parodys komandos narius, kuriuos galite pasirinkti.
 
-![Komandos nario priskyrimas užduočiai naudojant skirtuką Grafikas](media/RM-how-to-3.png)
+![Komandos nario priskyrimas užduočiai naudojant skirtuką Grafikas.](media/RM-how-to-3.png)
 
 Programos „Project Service Automation“ (PSA) 3 versijoje išteklių rezervavimas ir užduočių priskyrimai nėra tvirtai susieti. Tai reiškia, kad naudodamiesi grafike esančiu išteklių parinkikliu komandos nariams galite priskirti daugiau užduočių valandų, nei jiems yra priskirta rezervuotų projekto valandų.
 Skirtuke **Komanda** arba **Išteklių suderinimas** galite matyti skirtumus tarp komandos narių rezervavimų ir priskyrimų. Be to, išteklių rezervavimų ir priskyrimų skirtumus galite suderinti išsamesniu lygiu.
 
-![Išteklių suderinimo skirtukas](media/RM-how-to-4.png)
+![Išteklių suderinimo skirtukas.](media/RM-how-to-4.png)
 
 Norėdami ieškoti rezervuojamų išteklių, kurie dar nėra įtraukti į jūsų projekto komandą, ir juos pasirinkti taip pat galite skirtuke **Grafikas** esantį išteklių parinkiklį. Išteklių parinkiklyje jie yra rodomi kaip **Kiti ištekliai**.
 
-![Ne komandos nario ištekliaus priskyrimas užduočiai](media/RM-how-to-5.png)
+![Ne komandos nario ištekliaus priskyrimas užduočiai.](media/RM-how-to-5.png)
 
 Kai naudojate šį veiksmą, išteklius įtraukiamas į projekto komandą ir priskiriamas užduočiai, tačiau rezervavimas negeneruojamas.
 
-![Priskyrimai komandos nariams nerezervuojant](media/RM-how-to-6.png)
+![Priskyrimai komandos nariams nerezervuojant.](media/RM-how-to-6.png)
 
 Norėdami rezervuoti ištekliaus pajėgumą projektui galite naudoti skirtuko **Derinimas** rezervavimo išplėtimo pajėgumą arba **Grafiko lentą**.
 
-![Komandos nario rezervavimų išplėtimas skirtuke Išteklių derinimas](media/RM-how-to-7.png)
+![Komandos nario rezervavimų išplėtimas skirtuke Išteklių derinimas.](media/RM-how-to-7.png)
 
 Rezervavę komandos narį savo projektui, jo rezervavimus galite tvarkyti naudodami funkciją Prižiūrėti rezervavimus arba tiesiogiai naudodamiesi Grafiko lenta.
 

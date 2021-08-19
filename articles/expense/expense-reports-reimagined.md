@@ -2,7 +2,7 @@
 title: Išlaidų ataskaitų pertvarkymas
 description: Šioje temoje paaiškinama, kaip pertvarkyti ir iš naujo nustatyti išlaidų ataskaitų įrašų patirtį.
 author: suvaidya
-ms.date: 06/14/2021
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f8c44f86ff7c00e2d5b927bbe6878be7ab6d7758
-ms.sourcegitcommit: e93f436afbb92a312fc71b6371866f01927e49d5
+ms.openlocfilehash: dba30d16283d820d04d3a1b2fec0acbf30252e87b86c899686ef4df0985ae6ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "6251014"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997841"
 ---
 # <a name="expense-reports-reimagined"></a>Išlaidų ataskaitų pertvarkymas
 
@@ -57,12 +57,13 @@ Norėdami įjungti naująsias funkcijas, darbo srityje **Funkcijų valdymas** į
 | Valiutos kurso skaičiuotuvas | Įtraukiamas valiutos kurso skaičiuotuvas, leidžiantis apskaičiuoti kišenės kelių valiutų operacijų valiutos kursą. |
 | Naujų išlaidų eilučių išsaugojimas ir įtraukimas | Įvesdami naujas išlaidas, galite naudoti mygtukus **Įrašyti** ir **Nauja**, kad greitai įvestumėte išlaidų eilutes. |
 | Išskaidytų ir detaliai išvardytų eilučių geresnis matomumas | Detaliai išvardytos ir išskaidytos eilutės tiesiogiai įtraukiamos į išlaidų sąrašą, kad būtų padidintas matomumas ir būtų lengviau nustatyti, ar yra klaidų. |
-| Subkategorijų duomenų peržiūra detalizuotose eilutėse | Detalizuotose pirminių išlaidų eilutėse rodomos išlaidų ataskaitos subkategorijų žymos, kurios padeda greitai peržiūrėti detalią informaciją.|
+| Subkategorijų duomenų peržiūra detalizuotose eilutėse | Detalizuotose pirminių išlaidų eilutėse rodomos išlaidų ataskaitos subkategorijų žymos. Naudojant detalizavimo funkciją galima greitai peržiūrėti detalią informaciją.|
 | Kvitų rodymas detalizavimo metu | Galite matyti kvitus detalizavimo metu. |
 | Avanso grynaisiais pinigais pasirinkimas | Pažymėkite vieną ar daugiau avansų grynaisiais pinigais, kad būtų galima atlikti vieną išlaidų operaciją. |
 | Avanso grynaisiais pinigais balansas | Realiuoju laiku peržiūrėkite avanso grynaisiais pinigais balansą, kai kuriate išlaidų įrašą pagal patvirtintus ir apmokėtus avansus grynaisiais pinigais. |
 
 Pradinis leidimas sutelktas į išlaidų įrašų scenarijus. Bet koks išlaidų ataskaitos peržiūros arba patvirtinimo scenarijus toliau naudos esamą išlaidų įrašo puslapį.
+
 
 Toliau nurodytos funkcijos darbo srityje Pertvarkytos išlaidų ataskaitos nepalaikomos, bet jas planuojama palaikyti būsimuose leidimuose. 
 
