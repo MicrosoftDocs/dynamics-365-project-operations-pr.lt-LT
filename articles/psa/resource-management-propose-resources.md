@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 02e47338e34a37e05455e2bc6e6a175210ed6bc7
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9fe63f424735f22dc6b525631287e7ff36db17f37aad8e14e926f5cc9be39136
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997971"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995051"
 ---
 # <a name="propose-project-resources"></a>Projektų išteklių siūlymas
 
@@ -32,21 +32,21 @@ Išteklių valdytojai projektų vadovui gali pasiūlyti išteklius naudodami iš
 1. Išteklių užklausos tinklelyje pažymėkite **Rasti išteklius**.
 2. Puslapyje **Planavimo pagalbinė priemonė** pažymėkite išteklius, tada skyde **Kurti išteklių rezervaciją** lauke **Rezervacijos būsena** pažymėkite **Rezervuoti**.
 
-    ![Pasirinktas pasiūlytas išteklius](media/Resource-Management-image62.png)
+    ![Pasirinktas pasiūlytas išteklius.](media/Resource-Management-image62.png)
 
 Galimi šie būsenos naujinimai:
 
 - Puslapyje **Planavimo pagalbinė priemonė** būsenos indikatoriai atnaujinami, kad rodytų, kad rezervacija yra pasiūlyta, o ne galutinai rezervuota.
 
-    ![Pasiūlytos rezervacijos būsenos indikatoriai planavimo pagalbinės priemonės puslapyje](media/Resource-Management-image63.png)
+    ![Pasiūlytos rezervacijos būsenos indikatoriai planavimo pagalbinės priemonės puslapyje.](media/Resource-Management-image63.png)
 
 - Išteklių užklausoje būsena pakeičiama į **Reikia peržiūrėti**.
 
-    ![Išteklių užklausos būsena pakeista į „Reikia peržiūrėti“](media/Resource-Management-image64.png)
+    ![Išteklių užklausos būsena pakeista į „Reikia peržiūrėti“.](media/Resource-Management-image64.png)
 
 - Projekto skirtuke **Komanda** bendrosios komandos nario reikšmė **Pageidauti būsenos** pakeičiama į **Reikia peržiūrėti**.
 
-    ![Bendrosios komandos nario užklausos būsena komandos skirtuke pakeičiama į „Reikia peržiūrėti“](media/Resource-Management-image48.png)
+    ![Bendrosios komandos nario užklausos būsena komandos skirtuke pakeičiama į „Reikia peržiūrėti“.](media/Resource-Management-image48.png)
 
 Projekto vadovas gali priimti arba atmesti pasiūlymą.
 
@@ -70,7 +70,7 @@ Naudojimo skaičiavimui naudojamos toliau nurodytos formulės.
 
 Rodinį **Išteklių naudojimas** galite rasti skyde **Ištekliai**.
 
-![Išteklių naudojimo rodinys](media/Resource-Management-image65.png)
+![Išteklių naudojimo peržiūra.](media/Resource-Management-image65.png)
 
 Kiekvienas tinklelio langelis nurodo išteklių apmokėtiną naudojimą pagal laiką, pavyzdžiui, dieną, savaitę arba mėnesį. Langeliams naudojamos toliau nurodytos spalvos.
 
@@ -84,7 +84,7 @@ Reikia, kad tinkleliui nustatytumėte tikslinį naudojimą arba pagal vaidmenį,
 
 Be to, kiekvienam rezervuojamam ištekliui reikia priskirti numatytąjį vaidmenį. Eikite į **Ištekliai** \> **Ištekliai**. Skirtuke **Project Service** patikrinkite, kad nustatytas išteklių vaidmuo ir kad laukas **Yra numatytasis** nustatytas kaip **Taip**. Galite įtraukti papildomų vaidmenų, kai **Kaip numatytasis = ne**. Vaidmuo, kai **Yra numatytasis = taip**, naudojamas išteklių naudojimui įvertinti pagal to vaidmens tikslą.
 
-![Numatytojo vaidmens nustatymas](media/Resource-Management-image67.png)
+![Numatytojo vaidmens nustatymas.](media/Resource-Management-image67.png)
 
 Skirtuke **Project Service** taip pat galite ištekliui nustatyti individualų tikslinį naudojimą. Tada naudojimo skaičiavimui naudojamas šis tikslinis naudojamas, kad būtų įvertintas išteklių tikslas, o ne išteklių numatytojo vaidmens tikslas.
 
@@ -96,21 +96,21 @@ Labai svarbu, kad išteklių valdytojai galėtų peržiūrėti išteklių pasiek
 
 Išteklių darbo valandos naudojamos kaip išteklių pasiekiamumo skaičiavimo pagrindas. Išteklių rezervacijos naudoja išteklių pajėgumą.
 
-![Grafiko lenta](media/Resource-Management-image68.png)
+![Grafiko lenta.](media/Resource-Management-image68.png)
 
 Grafiko lentoje naudojamos spalvos ir atspalviai, kurie rodo rezervacijas, pasiekiamumą ir per daug rezervacijų, taip pat rezervacijų būseną. Grafiko lentos parametrai leidžia rodyti legendą.
 
 Jei grafiko lentoje šalia atskiro rezervuojamo ištekliaus atsiranda į dešinę rodanti rodyklė, išteklių galima išplėsti, kad būtų rodoma darbo, kuriam rezervuotas išteklius, informacija.
 
-![Rezervuojamas išteklius, išplėstas grafiko lentoje](media/Resource-Management-image69.png)
+![Rezervuojamas išteklius, išplėstas grafiko lentoje.](media/Resource-Management-image69.png)
 
 Kadangi Dynamics 365 Project Service Automation naudoja Universal Resource Scheduling variklį, jei taip pat įdiegėte Dynamics 365 Field Service, galite peržiūrėti projektams, darbo užsakymams ir objektams, kuriuos išplėtėte planavimui, išteklių rezervacijų informaciją.
 
-![Išteklių rezervacijų projektams ir darbo užsakymams informacija](media/Resource-Management-image70.png)
+![Išteklių rezervacijų projektams ir darbo užsakymams informacija.](media/Resource-Management-image70.png)
 
 Norėdami peržiūrėti daugiau informacijos apie atskirą išteklių, spustelėkite dešiniu pelės klavišu, kad atidarytumėte išteklių kortelę.
 
-![Išteklių kortelė](media/Resource-Management-image71.png)
+![Išteklių kortelė.](media/Resource-Management-image71.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a46ec93744067205e1aa8c99dba52967a1780957
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c98708cf91f9c5d078f3a1d3d619c9ca93cffa3e6bbca34511947b602a1c678a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014935"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995456"
 ---
 # <a name="quotes-and-quote-lines"></a>Pasiūlymai ir pasiūlymo eilutės
 
@@ -84,7 +84,7 @@ Profesionalių paslaugų organizacijos paprastai teikia klientams pasiūlymus ir
 
 Su kiekviena pasiūlymo eilute galima susieti vieną arba kelias iš šių operacijų klasifikacijų. Laimėjus pasiūlymą, operacijų klasifikacijos susiejimas ir pasiūlymo eilutė perkeliami į sutarties eilutę.
  
-> ![Operacijų tipų susiejimo su pasiūlymo ir sutarties eilutėmis ekrano kopija](media/basic-guide-5.png)
+> ![Operacijų tipų susiejimo su pasiūlymo ir sutarties eilutėmis ekrano kopija.](media/basic-guide-5.png)
   
 Pavyzdžiui, pasiūlyme gali būti šios dvi pasiūlymo eilutės: 
 - konsultavimo darbas, už kurį atsiskaitoma naudojant laiko ir medžiagų atsiskaitymo metodą, taikant operacijų klasifikacijas Laikas ir Mokestis. Pavyzdžiui, klientui išrašoma sąskaita faktūra už visas pavyzdinio projekto **Visuotinis „Dynamics AX“ diegimas** laiko ir mokesčio klasifikacijų operacijas, atsižvelgiant į laiko ir medžiagų sąnaudas; 
