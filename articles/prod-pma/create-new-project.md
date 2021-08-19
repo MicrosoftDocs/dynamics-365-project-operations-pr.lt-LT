@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8218747366be8536601cb007318c642ac122536b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5aa5e00252697f91a585eaaa83a0c8a39b315cc1b25fcbf6343fdf2ce31a824e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6006251"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985961"
 ---
 # <a name="create-a-new-project"></a>Kurti naują projektą
 
@@ -51,7 +51,7 @@ Jeigu reikia, taip pat galite priskirti ištekliaus kategorijas. Kategorijos tip
 
 Projektų vadovas gali naudoti projekto išteklių paskirstymo funkcijas, kad sukurtų projektui reikiamus vaidmenis. Vaidmenys gali būti naudojami, kai rezervuojant išteklius, patvirtinti ištekliai vis dar nėra žinomi. Vaidmenys gali būti laikinai rezervuojami kaip planuojami ištekliai, kad galėtumėte toliau vykdyti projekto planavimo etapus.
 
-[![Vaidmens pavyzdys](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
+[![Vaidmens pavyzdys.](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
 
 **Scenarijus:** Contoso buvo pasamdyta užbaigti laiko ir medžiagų projektą, kuriame yra patvirtinta projekto diagrama. Jaunesnysis projekto vadovas vis dar nustato projekto aprėptį. Išteklių vadovas dabar nustato konkrečius išteklius, kurie bus rezervuojami darbui naujame projekte. Projektas yra svarbus, todėl projekto rėmėjas paprašė nustatyti vyresniojo projekto vadovo vaidmenį kaip vieną iš vaidmenų. Išteklių vadovas turi gauti naują išteklių ir apibrėžti vaidmenį sistemoje, nes jaunesniajam projekto vadovui planuojant projektą gali prireikti ištekliaus informacijos.
 

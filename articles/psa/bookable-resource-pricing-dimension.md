@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0ffbb1f7aa25e723c7842259f1c0127b3d2e26d6
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c551673708ae2d965979136e92326be98252304a601964c1fbc52a329c592712
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012101"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988976"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Rezervuojamų išteklių naudojimas kaip kainodaros dimensijos
 
@@ -62,18 +62,18 @@ Rezervuojamo ištekliaus lauko pavadinimas (**msdyn_bookableresourceid**), esant
 1. Norėdami tai atlikti, dukart spustelėkite tinklelyje **Kainodaros dimensijos** esančią eilutę ir kad atidarykite dimensijos **msdyn_bookableresource** puslapį.
 2. Dimensijos puslapio skirtuke **Susiję** spustelėkite **Kainodaros dimensijų laukų pavadinimai**.
 
- ![Skirtukas Kainodaros dimensijos laukų pavadinimai](media/PD-fieldname.png)
+ ![Skirtukas Kainodaros dimensijos laukų pavadinimai.](media/PD-fieldname.png)
 
 4. Atsidariusiame susietajame rodinyje spustelėkite **Įtraukti naują kainodaros dimensijos lauko pavadinimą**.
 
- ![Naujų kainodaros dimensijų laukų pavadinimį įtraukimas](media/Add-NewPD-fieldname.png)
+ ![Naujų kainodaros dimensijų laukų pavadinimų įtraukimas.](media/Add-NewPD-fieldname.png)
 
 
 Bus atidarytas dimensijos **msdyn_bookableresource** puslapis **Naujas kainodaros dimensijos lauko pavadinimas**. 
 
 5. Į lauką **Objekto loginis pavadinimas** įtraukite **msdyn_projectteam**, o į lauką **Lauko pavadinimas** – **msdyn_bookableresourceid**. Išsaugokite įrašą.
 
- ![Naujų kainodaros dimensijų laukų pavadinimų forma](media/PD-fieldname-Added.png)
+ ![Naujų kainodaros dimensijų laukų pavadinimų forma.](media/PD-fieldname-Added.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

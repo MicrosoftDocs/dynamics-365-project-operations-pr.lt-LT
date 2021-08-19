@@ -2,17 +2,17 @@
 title: Trikčių diagnostika dirbant su užduoties tinkleliu
 description: Šioje temoje pateikta trikčių diagnostikos informacija, būtina dirbant su užduočių tinkleliu.
 author: ruhercul
-ms.date: 01/19/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.product: ''
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a15a4752de7537b3f60d5ee3269c846257a1fe4a
-ms.sourcegitcommit: 72fa1f09fe406805f7009fc68e2f3eeeb9b7d5fc
+ms.openlocfilehash: 07e7bd42db48842edee17fdfdd22fdcd8207644c1751f453ec29c3194aac625e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6213410"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989111"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Trikčių diagnostika dirbant su užduoties tinkleliu 
 
@@ -24,7 +24,7 @@ _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems s
 
 Programoje „Project Operations“ reikia įgalinti trečiųjų šalių slapukus, kad būtų galima sukurti darbo paskirstymo struktūrą. Kai trečiųjų šalių slapukai nėra įgalinti, užuot matę užduotis, matysite tuščią puslapį, kai puslapyje **Projektas** pasirinksite skirtuką **Užduotys**.
 
-![Tuščias skirtukas, kai neįgalinti trečiųjų šalių slapukai](media/blankschedule.png)
+![Tuščias skirtukas, kai neįgalinti trečiųjų šalių slapukai.](media/blankschedule.png)
 
 
 ### <a name="workaround"></a>Alternatyvus sprendimas
@@ -52,11 +52,22 @@ Toliau nurodytose procedūrose, skirtose „Microsoft Edge“ arba „Google Chr
 Programoje „Project Operations“ reikia, kad projekto parametras nurodytų PEX galinį punktą. Šis galinis punktas būtinas tam, kad galėtų palaikyti ryšį su paslauga, naudojama darbo paskirstymo struktūrai generuoti. Jei parametras neįjungtas, matysite klaidą „Projekto parametras negalioja“. 
 
 ### <a name="workaround"></a>Alternatyvus sprendimas
- ![Projekto parametro PEX galinio punkto laukas](media/projectparameter.png)
 
 1. Įtraukite lauką **PEX galinis punktas** į puslapį **Projekto parametrai**.
-2. Atnaujinkite lauką naudodami šią reikšmę: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=/<id>&type=2`
-3. Pašalinkite lauką iš puslapio **Projekto parametrai**.
+2. Nustatykite naudojamo produkto tipą. Ši reikšmė naudojama nustačius PEX galinį punktą. Gaunant, produkto tipas jau apibrėžtas PEX galiniame punkto. Išlaikykite šią vertę. 
+   
+    ![Projekto parametro PEX galinio punkto laukas.](media/pex-endpoint.png)
+
+3. Atnaujinkite lauką naudodami šią reikšmę: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`.
+
+   
+   | Produkto tipas                         | Parametras Tipas |
+   |--------------------------------------|----------------|
+   | Numatytosios organizacijos „Project for the Web”   | type=0         |
+   | CDS pavadintos organizacijos „Project for the Web” | type=1         |
+   | „Project Operations“                   | type=2         |
+   
+4. Pašalinkite lauką iš puslapio **Projekto parametrai**.
 
 ## <a name="privileges-for-project-for-the-web"></a>Žiniatinklio projekto teisės
 
@@ -67,7 +78,7 @@ Programoje „Project Operations“ reikia, kad projekto parametras nurodytų PE
 
 1. Eikite į **Parametras > Sauga > Vartotojai > Programos vartotojai**.  
 
-   ![Programos skaitytuvas](media/applicationuser.jpg)
+   ![Programos skaitytuvas.](media/applicationuser.jpg)
    
 2. Dukart spustelėkite programos vartotojo įrašą ir patikrinkite, ar:
 
@@ -76,7 +87,7 @@ Programoje „Project Operations“ reikia, kad projekto parametras nurodytų PE
  
 3. Jei šis vartotojas neegzistuoja, galite sukurti naują vartotojo įrašą. Pasirinkite **Nauji vartotojai**. Pakeiskite įrašo formą į **Programos vartotojas**, o tada įtraukite **Programos ID**.
 
-   ![Programos vartotojo išsami informacija](media/applicationuserdetails.jpg)
+   ![Programos vartotojo išsami informacija.](media/applicationuserdetails.jpg)
 
 4. Patikrinkite, ar vartotojui priskirta tinkama licencija ir ar paslauga įgalinta paslaugos plano licencijos išsamioje informacijoje.
 5. Patikrinkite, ar vartotojas gali atidaryti project.microsoft.com.

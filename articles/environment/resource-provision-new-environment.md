@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d0712d9d5dfc6c35ccd07142ff5948f50e6a254c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fd98ec360cbd89c9fb7e49bfa11cfffeffca541441e641c973a23c141c922cd2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995496"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988571"
 ---
 # <a name="provision-a-new-environment"></a>Naujos aplinkos parengimas
 
@@ -52,12 +52,12 @@ Atlikite toliau nurodytus veiksmus, kad įjungtumėte automatinį „Project Ope
 
 6. Pasirinkite visuotinio diegimo aplinkos tipą. Jei naudojate prenumeruojamą bandomąją versiją, CDS aplinka galės būti įdiegta 30 dienų. 
 
-![Visuotinio diegimo parametrai](./media/1DeploymentSettings.png)
+![Visuotinio diegimo parametrai.](./media/1DeploymentSettings.png)
 
 > [!IMPORTANT]
 > Pasirinkite **Sutinku**, kad sutiktumėte su paslaugos teikimo sąlygomis, tada pasirinkite **Atlikta**, kad grįžtumėte į visuotinio diegimo parametrus.
 
-![Visuotinio diegimo sutikimas](./media/2DeploymentConsent.png)
+![Visuotinio diegimo sutikimas.](./media/2DeploymentConsent.png)
 
 7. Pasirinktinai – aplinkai taikykite demonstracinius duomenis. Eikite į **Išplėstiniai parametrai**, pasirinkite **Tinkinti SQL duomenų bazės konfigūraciją** ir nustatykite parinktį **Nurodykite programos duomenų bazės duomenų rinkinį** į **Demonstracinis**.
 
@@ -67,7 +67,7 @@ Atlikite toliau nurodytus veiksmus, kad įjungtumėte automatinį „Project Ope
 
 9. Jei norite patvirtinti, kad aplinka sėkmingai įdiegta, pasirinkite **Prisijungti** ir prissijungę prie aplinkos patvirtinkite.
 
-![Išsami „“ aplinkos informacija](./media/3EnvironmentDetails.png)
+![Išsami aplinkos informacija.](./media/3EnvironmentDetails.png)
 
 ## <a name="apply-updates-to-the-finance-environment"></a>Naujinimų taikymas „Finance“ aplinkai
 
@@ -77,19 +77,19 @@ Kad galėtumėte gauti šią versiją, gali reikėti „Finance“ aplinkai taik
 
 1. LCS puslapio **Išsami aplinkos informacija** skyriuje **Pasiekimai naujiniai** pasirinkite **Peržiūrėti naujinį**.
 
-![Peržiūrėti naujinius](./media/5ViewUpdates.png)
+![Peržiūrėti naujinius.](./media/5ViewUpdates.png)
 
 2. Puslapyje **Dvejetainiai naujinimai** pasirinkite **Įrašyti paketą**.
 
-![Įrašyti paketą](./media/6SavePackage.png)
+![Įrašyti paketą.](./media/6SavePackage.png)
 
 3. Spustelėkite **Pasirinkti viską** ir pasirinkite **Įrašyti paketą**.
 
-![Peržiūrėti ir įrašyti naujinius](./media/7ReviewAndSaveUpdates.png)
+![Peržiūrėti ir įrašyti naujinius.](./media/7ReviewAndSaveUpdates.png)
 
 4. Įveskite paketo pavadinimą ir aprašą, tada pasirinkite **Įrašyti**. Atsižvelgiant į interneto ryšį, šis procesas gali šiek tiek užtrukti.
 
-![Paketo nusiuntimas į išteklių biblioteką](./media/8UploadPackageToAssetsLibrary.png)
+![Paketo nusiuntimas į išteklių biblioteką.](./media/8UploadPackageToAssetsLibrary.png)
 
 5. Įrašę paketą pasirinkite **Atlikta** ir įrašykite šį paketą LCS projekto išteklių bibliotekoje.
 
@@ -97,15 +97,15 @@ Paketo įrašymo ir tikrinimo procesas gali užtrukti maždaug 15 minučių.
 
 6. Norėdami taikyti naujinį, eikite į LCS puslapį **Išsami aplinkos informacija** ir pasirinkite **Tvarkyti** > **Taikyti naujinius**.
 
-![Aplinkų tvarkymas](./media/9MaintainEnvironment.png)
+![Aplinkų tvarkymas.](./media/9MaintainEnvironment.png)
 
 7. Naujinių sąraše pasirinkite sukurtą paketą ir pasirinkite **Taikyti**.
 
-![Naujinių taikymas](./media/10ApplyUpdates.png)
+![Naujinių taikymas.](./media/10ApplyUpdates.png)
 
 Aplinkos paruošimas gali šiek tiek užtrukti. Baigus vėl bus nustatyta aplinkos būsena Įdiegta.
 
-![Aplinka įdiegta](./media/11EnvironmentDeployed.png)
+![Aplinka įdiegta.](./media/11EnvironmentDeployed.png)
 
 ## <a name="establish-a-dual-write-connection"></a>Dvigubo rašymo ryšio nustatymas 
 
@@ -113,41 +113,41 @@ Aplinkos paruošimas gali šiek tiek užtrukti. Baigus vėl bus nustatyta aplink
 2. Dalyje **„Common Data Service“ aplinkos informacija** pasirinkite **Susieti su CDS programoms**.
 3. Susiejus dar kartą pasirinkite **Susieti su CDS programoms**. Būsite nukreipti į dvigubo rašymo sistemą modulyje „Finance“.
 
-![Susiejimas su CDS](./media/12LinktoCDS.png)
+![Susiejimas su CDS.](./media/12LinktoCDS.png)
 
 4. Pasirinkite **Taikyti sprendimą**, kad pasiektumėte objektus, kurie bus susieti atliekant integravimą.
 
-![Taikyti sprendimus](./media/13ApplySolutions.png)
+![Taikyti sprendimus.](./media/13ApplySolutions.png)
 
 5. Pasirinkite abu sprendimus **Dynamics 365 Finance and Operations“ dvigubo rašymo objektų schema** ir **„Dynamics 365 Project Operations“ dvigubo rašymo objektų schemos**, tada pasirinkite **Taikyti**.
 
-![Sprendimų patvirtinimas](./media/14ConfirmSolutions.png)
+![Sprendimų patvirtinimas.](./media/14ConfirmSolutions.png)
 
 Pritaikius sprendimus, į aplinką įtraukiami dvigubo rašymo objektai.
 
-![Sprendimų taikymas](./media/15ApplyingSolutions.png)
+![Sprendimų taikymas.](./media/15ApplyingSolutions.png)
 
 Pritaikius objektus visi galimi susiejimai pateikiami aplinkoje.
 
-![Dvigubo rašymo schemos](./media/15DWMappings.png)
+![Dvigubo rašymo schemos.](./media/15DWMappings.png)
 
 ## <a name="refresh-the-data-entities-after-the-update"></a>Duomenų objektų atnaujinimas atlikus naujinimą
 
 1. Modulyje „Finance“ eikite į darbo sritį **Duomenų valdymas**.
 
-![Duomenų valdymo darbo sritis](./media/16DataManagement.png)
+![Duomenų valdymo darbo sritis.](./media/16DataManagement.png)
 
 2. Pasirinkite plytelę **Sistemos parametrai**.
 
-![Sistemos parametrai](./media/17FrameworkParameters.png)
+![Sistemos parametrai.](./media/17FrameworkParameters.png)
 
 3. Puslapyje **Objektų parametrai** pasirinkite **Atnaujinti objektų sąrašą**.
 
-![Objektų sąrašo atnaujinimas](./media/18RefreshEntityList.png)
+![Objektų sąrašo atnaujinimas.](./media/18RefreshEntityList.png)
 
 Atnaujinimas truks apie 20 minučių. Kai jis bus baigtas, gausite įspėjimą.
 
-![Patvirtinimo atnaujinimas](./media/19RefreshConfirmation.png)
+![Patvirtinimo atnaujinimas.](./media/19RefreshConfirmation.png)
 
 ## <a name="update-security-settings-on-project-operations-on-dataverse"></a>„Project Operations“ saugos parametrų naujinimas „Dataverse“ aplinkoje
 
@@ -188,17 +188,17 @@ Atnaujinimas truks apie 20 minučių. Kai jis bus baigtas, gausite įspėjimą.
 4. Norėdami atnaujinti objektą, pasirinkite schemos pavadinimą ir pasirinkite **Atnaujinti objektus**. 
 
 
-![Schemos atnaujinimas](./media/20RefreshMapping.png)
+![Schemos atnaujinimas.](./media/20RefreshMapping.png)
 
 5. Atnaujinę paleiskite schemą. Prieš įjungdami kitą schemą patikrinkite, ar lentelėje schemos būsena yra **Vykdoma**. Gali šiek tiek užtrukti, kol bus paleistos schemos, turinčios daug būtinųjų sąlygų.
 
 Norėdami paleisti schemą su būtinosiomis sąlygomis, įjunkite perjungiklį **Rodyti susijusias objektų schemas**. Jei lentelėje nurodyta **Būtinas pradinis sinchronizavimas** reikšmė **Ne**, įsitikinkite, kad žymės **Pradinis sinchronizavimas** būklė yra **Išjungta** visose būtinosiose schemose prieš ją vykdydami.
 
-![Schemos vykdymas](./media/21RunMap.png)
+![Schemos vykdymas.](./media/21RunMap.png)
 
 6. Įsitikinkite, kad visos su projektu susijusios schemos yra vykdomos.
 
-![Visos schemos yra vykdomos](./media/22AllMapsRunning.png)
+![Visos schemos yra vykdomos.](./media/22AllMapsRunning.png)
 
 
 ## <a name="apply-configuration-data-in-cds-for-project-operations-optional"></a>Konfigūracijos duomenų taikymas CDS, skirtoje „Project Operations“ (pasirenkama)

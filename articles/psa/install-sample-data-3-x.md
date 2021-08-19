@@ -10,12 +10,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 19fae15bf309936cab415c2a71a414ab37837fce
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 01e2f1f6b29e040d5c72af402031e13a867736405c4ee161e49b74a30e4b506e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007286"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985556"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Duomenų pavyzdžių diegimas programoje „Project Service“
 
@@ -86,7 +86,7 @@ Turėtumėte pasirengti palikti kompiuterį prijungtą prie tinklo; **sąrankos 
 Kompiuterio ekrano užsklandos funkcija turi būti išjungta. Kitu atveju diegimo seanso kredencialai gali būti prarasti, kai įjungiama ekrano užsklanda (nebent seansas liks aktyvus).
 
 > [!div class="mx-imgBorder"]
-> ![Ekrano užsklandos parametrų ekrano kopija; ekrano užsklanda išjungta](media/sample-data-1.png)
+> ![Ekrano užsklandos parametrų ekrano kopija; ekrano užsklanda išjungta.](media/sample-data-1.png)
 
 ## <a name="download-and-unpack"></a>Atsisiuntimas ir išpakavimas
 
@@ -142,7 +142,7 @@ Demonstraciniam duomenų paketui būtini šeši vartotojai. Norėdami tinkamai �
 3. Atidarykite **PkgFolder** ir raskite bei atidarykite **ImportUserMapFile.xml**. Atnaujinkite laukus **New=** nurodydami el. pašto adresus, kurie atitinka vartotojus jūsų sistemoje.
 
    > [!div class="mx-imgBorder"]
-   > ![„UserMapFile“ ekrano kopija](media/sample-data-7.png)
+   > ![„UserMapFile“ ekrano kopija.](media/sample-data-7.png)
 
 4. Jei vartotojui, kurio vardas ir pavardė „Spencer Low“, priskirtas vartotojo ID nėra **spencerl**, turite atnaujinti papildomą failą. Atidarykite **DemoDataPreImportConfig.xml** ir raskite žymę **userstocreateandconfigure**. Atnaujinkite **\<login\>** žymę nurodydami „loginId“ (skiriamos didžiosios ir mažosios raidės). 
 
@@ -172,7 +172,7 @@ Demonstraciniam duomenų paketui būtini šeši vartotojai. Norėdami tinkamai �
 5. Pasirinkite **Toliau**, kol pamatysite dialogo langą **Demonstracinių duomenų sąranka**.
 
    > [!div class="mx-imgBorder"]
-   > ![Demonstracinių duomenų diegimo būsenos lango ekrano kopija](media/sample-data-3.png)
+   > ![Demonstracinių duomenų diegimo būsenos lango ekrano kopija.](media/sample-data-3.png)
 
 6. Prieš tęsdami atkreipkite dėmesį, kad duomenų pavyzdžių diegimas gali užtrukti iki vienos valandos (paprastai – apie 10 minučių). Kompiuteris privalo būti įjungtas ir prijungtas prie tinklo diegimo proceso metu, o seansas turi būti aktyvus.   
 
@@ -191,10 +191,10 @@ Visiškai įkėlus duomenų pavyzdžius, prisijunkite kaip vartotojas Spencer Lo
 - Jei įdiegta programa „Field Service“, pasirinkite **Project Service** > **Parametrai** > **Kainoraščiai**. Įsitikinkite, kad nurodyti sąskaitos tarifai ir išlaidų tarifai. Pasirinkite **Field Service** > **Parametrai** > **Kainoraščiai** ir patikrinkite, ar sąskaitos tarifai ir išlaidų tarifai yra nurodyti naudojant tinkamą valiutą, skirtą kiekvienai šaliai / regionui duomenų rinkinyje.
 
   > [!div class="mx-imgBorder"]
-  > ![Aktyviųjų kainoraščių ekrano kopija](media/sample-data-4.png)
+  > ![Aktyviųjų kainoraščių ekrano kopija.](media/sample-data-4.png)
 
   > [!div class="mx-imgBorder"]
-  > ![Aktyviųjų organizacijos vienetų ekrano kopija](media/sample-data-5.png)
+  > ![Aktyviųjų organizacijos vienetų ekrano kopija.](media/sample-data-5.png)
 
 ## <a name="technical-notes"></a>Techninės pastabos
 
@@ -295,7 +295,7 @@ Jei norite pakeisti rezervuojamų išteklių pavyzdžių darbo valandas, pasirin
 Pasirinkite vartotoją (pvz., Spencer Low) ir pakeiskite Spenserio darbo valandas į valandas, kurias norite taikyti keliems vartotojams. Pasirinkite **Universal Resource Scheduling** > **Parametrai** > **Darbo valandų šablonai** ir redaguokite įrašą **Numatytasis darbo šablonas**. Lauke **Šablono išteklius** pasirinkite vartotoją, kurio darbo valandas norite taikyti kitiems ištekliams. Norėdami planuoti **Universal Resource Scheduling** > **Planavimas** > **Ištekliai** > **Aktyvūs rezervuojami ištekliai**. Pasirinkite išteklius, kuruos norite keisti, ir pasirinkite **Nustatyti kalendorių**. Išplečiamajame sąraše **Darbo šablonas** pasirinkite šabloną **Numatytosios darbo valandos** arba kitą šabloną su tinkamu šablono ištekliumi. Atidarę grafiko lentą turėtumėte matyti atnaujintas išteklių darbo valandas.
 
 > [!div class="mx-imgBorder"]
-> ![Aktyviųjų užsakomų išteklių ekrano kopija](media/sample-data-6.png)
+> ![Aktyviųjų rezervuojamųjų išteklių ekrano kopija.](media/sample-data-6.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

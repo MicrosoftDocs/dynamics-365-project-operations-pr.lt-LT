@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7fff69f062bf09fe7ceca61d951b535d2e010bfd
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 06471532d2e41bb80ebf92f0a8b93c324b3f6d3e845cea8033d85d291ea237eb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999996"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986591"
 ---
 # <a name="expense-management-integration"></a>Išlaidų tvarkymo integravimas
 
@@ -28,7 +28,7 @@ Visų išlaidų įdiegtyje išlaidų kategorijos kuriamos ir tvarkomos „Financ
 2. Sprendime „Finance“ nueikite į **Išlaidų tvarkymas** > **Sąranka** > **Bendrai naudojamos kategorijos** ir pasirinkite bendrai naudojamą kategoriją, kurios operacijų klasė yra **Išlaidos**. Parametrą **Galima naudoti išlaidose** nustatykite kaip **Teisinga** ir apibrėžkite norimą naudoti išlaidų tipą.
 3. Naudodami šį bendrai naudojamos kategorijos įrašą, sukurkite naują išlaidų kategoriją nuėję į **Išlaidų tvarkymas** > **Sąranka** > **Išlaidų kategorijos** ir pasirinkę **Nauja**. Kai įrašas įrašomas, dvigubo rašymo funkcija naudoja lentelės schemą **„Project Operations“ integravimo projekto išlaidų kategorijų eksportavimo objektas (msdyn \_expensecategories)** šiam įrašui su „Dataverse“ sinchronizuoti.
 
-  ![Išlaidų kategorijų integravimas](./media/DW6ExpenseCategories.png)
+  ![Išlaidų kategorijų integravimas.](./media/DW6ExpenseCategories.png)
 
 Išlaidų kategorijos „Finance and Operations“ programose skiriasi atsižvelgiant į konkrečią įmonę ar juridinį subjektą. Sprendime „Dataverse“ naudojami atskiri atitinkami konkretiems juridiniams subjektams skirti įrašai. Kai projekto vadovas įvertina išlaidas, jis negali pasirinkti išlaidų kategorijų, sukurtų projektui, kuris priklauso kitai įmonei nei ta įmonė, kuriai priklauso projektas, su kuriuo projekto vadovas dirba. 
 
@@ -40,7 +40,7 @@ Išlaidų ataskaitos kuriamos ir tvirtinamos „Finance and Operations“ progra
   - Dvigubo rašymo funkcija su „Dataverse“ sinchronizuoja naudodama lentelės schemą **„Project Operations“ integravimo projekto išlaidų eksportavimo objektas (msdyn \_expenses)**.
   - Papildomos mokesčių knygos, papildomos tiekėjų knygos ir kiti finansiniai registravimai pagal poreikį įrašomi registruojant išlaidų ataskaitas.
 
-  ![Išlaidų ataskaitų integravimas](./media/DW6ExpenseReports.png)
+  ![Išlaidų ataskaitų integravimas.](./media/DW6ExpenseReports.png)
 
 Kai į „Dataverse“ objektą **Išlaidos** įrašomas koks nors įrašas, sistema paleidžia automatizuotą to įrašo patvirtinimo procesą. Jei reikia, automatizuoto patvirtinimo proceso būseną galima peržiūrėti sprendime „Dataverse“ nuėjus į **Išplėstiniai parametrai** > **Sistema** > **Sistemos užduotys**. Patvirtinus įrašą, objekte **Faktiniai duomenys** sukuriami išlaidų operacijų klasės įrašai.
 

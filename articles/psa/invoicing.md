@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e0dc911bb0ca72af547262a5716ef1091ea81c81
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 58259c05939cfe870ce5e36b4a0221cd93b8e8d2b4be582efc9167e82579699e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015071"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985511"
 ---
 # <a name="invoicing-in-project-service-automation"></a>SF išrašymas programoje „Project Service Automation“
 
@@ -50,7 +50,7 @@ Atlikite šį žingsnį, kad sukurtumėte konkrečios projekto sutarties sąskai
 
 - **Projekto sutarčių** sąrašo puslapyje atidarykite projekto sutartį ir pažymėkite **Kurti sąskaitą faktūrą**.
 
-    ![Projekto sąskaitų faktūrų kūrimas konkrečiai projekto sutarčiai](media/CreateProjectInvoicesOneByOne.png)
+    ![Projekto sąskaitų faktūrų kūrimas konkrečiai projekto sutarčiai.](media/CreateProjectInvoicesOneByOne.png)
 
     Sąskaita faktūra sugeneruojama visoms pasirinktos projekto sutarties operacijoms, kurių būsena yra **Parengta išrašyti sąskaitą faktūrą**. Į šias operacijas įtrauktos laiko, išlaidų, etapų ir produktu pagrįstos sutarties eilutės.
 
@@ -58,7 +58,7 @@ Atlikite šiuos veiksmus, kad sukurtumėte sąskaitas faktūras dideliais kiekia
 
 1. **Projekto sutarčių** sąrašo puslapyje pažymėkite vieną ar kelias projekto sutartis, kurioms turite sukurti sąskaitą faktūrą, o tada pažymėkite **Kurti projekto sąskaitas faktūras**.
 
-    ![Projekto sąskaitų faktūrų kūrimas dideliais kiekiais](media/CreateProjectInvoicesBulk.png)
+    ![Projekto sąskaitų faktūrų kūrimas dideliais kiekiais.](media/CreateProjectInvoicesBulk.png)
 
     Įspėjamasis pranešimas informuoja, kad sąskaitų faktūrų sukūrimas gali užimti laiko. Taip pat rodomas procesas.
 

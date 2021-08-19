@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: db63413456e4b91d308af9c1103000d5cdc693f7
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999906"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988121"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Projekto faktinių duomenų sinchronizavimas tiesiogiai iš „Project Service Automation“ į projekto integravimo žurnalą norint paskelbti „Finance and Operations“
 
@@ -42,7 +42,7 @@ Naudojant „Project Service Automation“ į „Finance“ integravimo sprendim
 
 Šioje iliustracijoje pavaizduota, kaip duomenys sinchronizuojami tarp „Project Service Automation“ ir „Finance“.
 
-[![„Project Service Automation“ integravimas su „Finance and Operations“](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![„Project Service Automation“ integravimas su „Finance and Operations“.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Projekto faktiniai duomenys iš „Project Service Automation“
 
@@ -93,9 +93,9 @@ Norėdami atnaujinti į šabloną įterptą sąlyginį stulpelį, spustelėkite 
 
 Šioje iliustracijoje pateikiamas duomenų integravimo šablonų užduočių susiejimo pavyzdys. Susiejime rodoma lauko informacija, kuri bus sinchronizuojama iš „Project Service Automation“ į „Finance“.
 
-[![Šablonų susiejimas – faktiniai duomenys](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
+[![Šablonų susiejimas – faktiniai duomenys.](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
 
-[![Šablonų susiejimas – operacijų ryšiai](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
+[![Šablonų susiejimas – operacijų ryšiai.](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
 
 ## <a name="import-from-staging-table-after-integration-from-project-service-automation"></a>Importavimas iš paruošimo lentelės po integravimo iš „Project Service Automation“
 
@@ -135,9 +135,9 @@ Projekto faktinių duomenų naujinimo šablone turite naudoti „Power Query”,
 
 Šiose iliustracijose pateikiami duomenų integravimo šablonų užduočių susiejimų pavyzdžiai. Susiejime rodoma lauko informacija, kuri bus sinchronizuojama iš „Finance“ į „Project Service Automation“.
 
-[![Šablonų susiejimas – faktinių duomenų atnaujinimas](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
+[![Šablonų susiejimas – faktinių duomenų atnaujinimas.](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
-[![Šablonų susiejimas – operacijos atnaujinimas](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+[![Šablonų susiejimas – operacijos atnaujinimas.](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

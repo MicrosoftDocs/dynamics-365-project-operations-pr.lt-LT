@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: acdd228a9eb9d6c6c56f126ccca416613332a838
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: da3e2798079816409ffbcfed911c05f3d51307fef22c48d112802927828faeb2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6013181"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985016"
 ---
 # <a name="submitting-a-resource-request"></a>Išteklių užklausos pateikimas
 
@@ -34,7 +34,7 @@ Kaip išteklių užklausą galite pateikti sugeneruotus išteklių reikalavimus.
 1. „Project Service Automation“ (PSA) lange **Projektai** spustelėkite skirtuką **Komanda**, kad peržiūrėtumėte rezervuojamų išteklių sąrašą. 
 2. Sąraše pažymėkite bendruosius išteklius, kuriems taikomas išteklių reikalavimas, tada spustelėkite **Pateikti užklausą.**
 
-![Išteklių užklausos pateikimas](media/RM-how-to-18.png)
+![Išteklių užklausos pateikimas.](media/RM-how-to-18.png)
 
 Bendrosios komandos nario užklausos būsena bus pakeista į **Pateikta**.
 

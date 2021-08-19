@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f4f93ee0c0bdb9fc6a9a3c6a75f6c3d178766d0b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: ac815eb82114c00af712a7ae76e43f28841ac5023be81f97718dc7ce529e1d34
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009086"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987266"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Projekto išteklių telkinio vartotojo vadovas
 
@@ -49,31 +49,31 @@ Prieš naudodami projekto išteklių telkinio programą turite įdiegti mobilių
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [„Dynamics 365 for phones and tablets“ diegimas](/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets)
 
 ## <a name="basic-navigation"></a>Pagrindiniai naršymo veiksmai
-1.  Kai prisijungsite prie mobiliosios programėlės, pamatysite puslapį Mano programos, kuriame pateiktas galimų naudoti programų sąrašas. 
+1.  Kai prisijungsite prie mobiliosios programėlės, pamatysite puslapį „MyApps”, kuriame pateiktas galimų naudoti programų sąrašas. 
 2.  Pasirinkite **Projekto išteklių telkinys**.
 
-![Pasirinkti programą](media/chooseApp_1.png "Pasirinkti programą")
+![Pasirinkite programą.](media/chooseApp_1.png "Pasirinkti programą")
 
 **Naršymo juosta**
 
-Naudokite naršymo juostą, norėdami atidaryti savo darbo sritį, kurti naują įrašą, ieškoti arba atlikti kitas užduotis. Norėdami pasiekti daugiau komandų, bakstelėkite ![Mygtukas Daugiau](media/MoreButton.png "Mygtukas Daugiau")
+Naudokite naršymo juostą, norėdami atidaryti savo darbo sritį, kurti naują įrašą, ieškoti arba atlikti kitas užduotis. Norėdami pasiekti daugiau komandų, bakstelėkite ![Mygtukas Daugiau.](media/MoreButton.png "Mygtukas Daugiau")
 
-![Naršymo juosta](media/NavBar_2.png "Naršymo juosta")
+![Naršymo juosta.](media/NavBar_2.png "Naršymo juosta")
 
 **Parankiniai ir vėliausiai naudoti įrašai**
 
 Sritys Parankiniai ir Vėliausiai naudoti įrašai suteikia sparčia prieigą prie jūsų įrašų, rodinių ir ataskaitų sričių. 
 
-- Norėdami pasiekti šias sritis, naršymo juostoje bakstelėkite mygtuką **Meniu** ![Mygtukas Meniu](media/MenuButton.png "Mygtukas Meniu"), tada bakstelėkite mygtuką **Parankiniai ir naujausi** ![Mygtukas Parankiniai](media/FavButton.png "Mygtukas Parankiniai").
+- Norėdami pasiekti šiuos skyrius, bakstelėkite **Meniu**![meniu mygtukas](media/MenuButton.png "Mygtukas Meniu") mygtuką naršymo juostoje, tada bakstelėkite mygtuką **Parankiniai ir naujausi**![Mygtukas Parankiniai](media/FavButton.png "Mygtukas Parankiniai").
 
 - Norėdami elementą prisegti kaip parankinį, sąraše **Vėliausiai naudoti elementai** bakstelėkite smeigtuką. Elementas bus prisegtas ir perkeltas į parankinius.
 
-  ![Elementai Parankiniai ir Naujausi](media/Favs_3.png "Elementai Parankiniai ir Naujausi")
+  ![Elementai Parankiniai ir Naujausi.](media/Favs_3.png "Elementai Parankiniai ir Naujausi")
  
 ## <a name="enter-time"></a>Laiko įvedimas
 Savo valandas įveskite bent kartą per savaitę arba taip dažnai, kaip nurodo jūsų vadovai, kad užtikrintumėte sąskaitų faktūrų išrašymą klientams ir savalaikį klientų atsiskaitymą.
 
-1. Bakstelėkite meniu mygtuką ![Mygtukas Meniu](media/MenuButton.png "Mygtukas Meniu"), tada bakstelėkite **Laiko įrašai**. Atsidarys kalendorius.
+1. Bakstelėkite meniu ![Mygtukas Meniu.](media/MenuButton.png "Mygtukas Meniu") mygtuką, tada – **Laiko įrašai**. Atsidarys kalendorius.
 
 2. Jei norite matyti ankstesnės arba kitos savaitės kalendorių, bakstelėkite mygtuką **Atgal** arba **Toliau**. Bakstelėkite **Šiandien**, kad grįžtumėte į šios dienos savaitę.
 

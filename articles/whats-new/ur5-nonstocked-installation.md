@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d85a180aa094a048b4422605b25151d10785f67d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011066"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986771"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>„Project Operations“ naujinimas „Finance“ aplinkoje
 
@@ -33,7 +33,7 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 4. Patikrinkite, ar veikia aplinka. Jei ji nevykdoma, paleiskite aplinką.
 5. Dalies **Galimi naujinimai** skyriuje **Naujas leidimas** pasirinkite **Peržiūrėti naujinimą**, skirtą 10.0.15.
 
-![Naujinimo peržiūros mygtukas](media/view-update.png)
+![Naujinimo peržiūros mygtukas.](media/view-update.png)
 
 6. Puslapyje **Dvejetainiai naujinimai** pasirinkite **Įrašyti paketą**.
 7. Puslapyje **Peržiūrėti ir įrašyti naujinimus** pasirinkite **Įrašyti paketą**.
@@ -47,11 +47,11 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 2. Sąraše pažymėkite anksčiau įrašytą paketą, o tada pasirinkite **Taikyti**.
 3. Pasirinkite **Taip**, kad patvirtintumėte, jog norite visuotinai įdiegti paketą.
 
-![Paketo visuotinio diegimo dialogo lango patvirtinimas](media/confirm-package-deployment.png)
+![Paketo visuotinio diegimo dialogo lango patvirtinimas.](media/confirm-package-deployment.png)
 
 4. Pasirinkite **Taip**, kad patvirtintumėte, jog norite atnaujinti programą.
 
-![Programos naujinimo dialogo lango patvirtinimas](media/confirm-application-update.png)
+![Programos naujinimo dialogo lango patvirtinimas.](media/confirm-application-update.png)
 
 Bus pradėta diegti ir naujinti programą. 
 
@@ -84,7 +84,7 @@ Toliau nurodyti objektų saugos teisių naujinimai būtini kaip UR5 naujinimo da
 
 1. Savo „Dataverse“ aplinkoje eikite į **Parametrai**, o grupėje **Sistema** pasirinkite **Sauga**.
 
-![„Dataverse“ aplinkos nustatymai](media/Picture21.png)
+![„Dataverse” aplinkos parametrai.](media/Picture21.png)
 
 2. Pasirinkite **Saugos vaidmenys**.
 3. Vaidmenų sąraše pasirinkite **dvigubo rašymo programos vartotoją** ir pasirinkite skirtuką **Tinkinti objektai**. 
@@ -121,7 +121,7 @@ Toliau nurodyti objektų saugos teisių naujinimai būtini kaip UR5 naujinimo da
 6. Struktūrų sąraše pažymėkite **Didžioji knyga (msdyn_ledgers)** struktūrą su visomis būtinosiomis sąlygomis ir pasirinkite žymės langelį **Pradinis sinchronizavimas**. 
 7. Lauke **Pradinio sinchronizavimo šablonas** pasirinkite **„Finance and Operations“ programos**, o tada pasirinkite **Vykdyti**.
  
- ![Didžiosios knygos struktūros sinchronizavimas](media/DW6.png)
+ ![Didžiosios knygos struktūros sinchronizavimas.](media/DW6.png)
  
 
 

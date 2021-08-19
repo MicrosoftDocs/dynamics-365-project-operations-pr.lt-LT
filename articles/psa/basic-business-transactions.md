@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 33c27acc6747c94d76892f41031adc46150da0e0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 28555f29e65c11255c8966f3d4b900512aa01c30fef0a9cef3a3794edaf92a0b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011561"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987536"
 ---
 # <a name="business-transactions"></a>Verslo operacijos
 
@@ -88,7 +88,7 @@ Kartu naudodami operacijos kilmę ir operacijos ryšį galite sekti ryšius tarp
 
 Toliau pateiktame pavyzdyje parodytas tipinis PSA projekto ciklo laiko įrašų apdorojimas.
 
-> ![„Project Service“ ciklo laiko įrašų apdorojimas](media/basic-guide-17.png)
+> ![„Project Service“ ciklo laiko įrašų apdorojimas.](media/basic-guide-17.png)
  
 1. Pateikus laiko įrašą, sukuriamos dvi žurnalo eilutės: viena išlaidų eilutė ir viena pardavimo, už kurį neišrašyta sąskaita, eilutė.
 2. Galiausiai patvirtinus laiko įrašą, sukuriamos dvi faktinės sumos: viena išlaidų suma ir viena pardavimo, už kurį neišrašyta sąskaita, suma.
