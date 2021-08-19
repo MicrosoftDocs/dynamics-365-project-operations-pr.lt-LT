@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 04ae6aa3ef6a14a6f85dce3eaa5af01e0adce9ba
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b29ef5d6d2c1c97658d79bbbe82e5893adeafe4d20354e90058dde79b67cb716
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014893"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000091"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Atnaujinimo aptarimas - iš PSA 2.x arba 1.x versijos į 3 versiją
 
@@ -35,7 +35,7 @@ Dynamics 365 Project Service Automation ir Dynamics 365 Field Service išteklių
 ## <a name="resource-assignments"></a>Išteklių priskyrimai
 Naudojant „Project Service Automation“ 2 versiją ir 1 versiją, užduočių priskyrimai buvo saugomi kaip antrinės užduotys (taip pat vadinamos eilutės užduotimis) **Užduoties objekte**, ir buvo netiesiogiai susiję su objektu **Išteklių priskyrimas**. Eilutės užduotis buvo matoma priskyrimo iššokančiajame lange darbo paskirstymo struktūroje (WBS).
 
-![Eilutės užduotys WBS „Project Service Automation“ 2 versijoje ir 1 versijoje](media/upgrade-line-task-01.png)
+![Eilutės užduotys WBS „Project Service Automation“ 2 versijoje ir 1 versijoje.](media/upgrade-line-task-01.png)
 
 „Project Service Automation“ 3 versijoje pasikeitė rezervuojamų išteklių priskyrimo užduotims schema. Eilutės užduotis nebenaudojama, o tarp užduoties **Užduoties objekte** ir komandos nario objekte **Išteklių priskyrimas** yra tiesioginis 1:1 ryšys. Projekto komandos nariui priskiriamos užduotys dabar saugomos tiesiogiai išteklių priskyrimo objekte.  
 
@@ -46,26 +46,26 @@ Naudojant esamą užduoties objektą, 2 versijos ir 1 versijos užduotys leido k
 
 Jei naudodami 2 versiją ir 1 versiją priskyrėte išteklių užduočiai už jo numatytojo vaidmens ribų, atnaujinę, įvardytam ištekliui bus priskirtas numatytasis vaidmuo visuose užduočių priskyrimuose, neatsižvelgiant į vaidmens priskyrimą 2 versijoje. Šis priskyrimas lemia apskaičiuotų įvertinimų iš 2 versijos arba 1 versijos į 3 versiją skirtumų, nes įvertinimai apskaičiuojami atsižvelgiant į išteklių vaidmenį, o ne į eilutės užduoties priskyrimą. Pavyzdžiui, 2 versijoje dvi užduotys priskirtos Brigitai Bortkevičienei. 1 užduoties eilutės užduoties vaidmuo yra kūrėjas, o 2 užduoties programos vadovas. Brigitos Bortkevičienės numatytasis vaidmuo yra programos vadovas.
 
-![Vienam ištekliui priskirti keli vaidmenys](media/upgrade-multiple-roles-02.png)
+![Vienam ištekliui priskirti keli vaidmenys.](media/upgrade-multiple-roles-02.png)
 
 Kadangi kūrėjo ir programų vadovo vaidmenys skiriasi, savikainos ir pardavimo įvertinimai yra tokie:
 
-![Išteklių vaidmenų savikainos įvertinimai](media/upggrade-cost-estimates-03.png)
+![Išteklių vaidmenų savikainos įvertinimai.](media/upggrade-cost-estimates-03.png)
 
-![Išteklių vaidmenų pardavimo įvertinimai](media/upgrade-sales-estimates-04.png)
+![Išteklių vaidmenų pardavimo įvertinimai.](media/upgrade-sales-estimates-04.png)
 
 Atnaujinus į 3 versiją, eilutės užduotys pakeičiamos išteklių priskyrimais rezervuojamų išteklių komandos nario užduočiai. Priskyrimas naudos numatytąjį rezervuojamų išteklių vaidmenį. Šioje iliustracijoje Brigita Bortkevičienė, kurios vaidmuo yra programos vadovas, yra išteklius.
 
-![Išteklių priskyrimai](media/resource-assignment-v2-05.png)
+![Išteklių priskyrimai.](media/resource-assignment-v2-05.png)
 
 Kadangi įvertinimai apskaičiuojami pagal numatytąjį išteklių vaidmenį, pardavimo ir savikainos įvertinimai gali pasikeisti. Toliau pateiktoje iliustracijoje neberodomas vaidmuo **Kūrėjas**, nes vaidmuo dabar gaunamas iš rezervuojamų išteklių numatytojo vaidmens.
 
-![Numatytųjų vaidmenų savikainos įvertinimai](media/resource-assignment-cost-estimate-06.png)
-![Numatytųjų vaidmenų pardavimo įvertinimai](media/resource-assignment-sales-estimate-07.png)
+![Numatytųjų vaidmenų savikainos įvertinimai.](media/resource-assignment-cost-estimate-06.png)
+![Numatytųjų vaidmenų pardavimo įvertinimai.](media/resource-assignment-sales-estimate-07.png)
 
 Kai naujinimas bus baigtas, galėsite redaguoti komandos nario vaidmenį, kad jis būtų kitoks nei priskirtasis numatytasis vaidmuo. Tačiau, jei pakeisite komandos nario vaidmenį, jis bus pakeistas visose jam priskirtose užduotyse, nes 3 versijoje komandos nariams negalima priskirti kelių vaidmenų.
 
-![Išteklių vaidmens naujinimas](media/resource-role-assignment-08.png)
+![Išteklių vaidmens naujinimas.](media/resource-role-assignment-08.png)
 
 Tai taikoma ir eilutės užduotims, kurios buvo priskirtos įvardytiems ištekliams, kai pakeičiate išteklių organizacijos vienetą iš numatytojo į kitą organizacijos vienetą. Baigus naujinimą į 3 versiją, priskyrimas naudos išteklių numatytąjį organizacijos vienetą, o ne tą, kuris nustatytas eilutės užduotyje.
 
@@ -83,24 +83,24 @@ Užduotims, priskirtoms bendriesiems komandos nariams, kurie buvo sugeneruoti na
 
 Pavyzdžiui, projekte „Projektas Z“ sutartį sudarančios organizacijos vienetas yra „Contoso US“. Projekto plane testavimo užduotims diegimo fazėje buvo priskirtas vaidmuo „techninis konsultantas“, o priskirtas organizacijos vienetas yra „Contoso India“.
 
-![Diegimo etapo organizacijos priskyrimas](media/org-unit-assignment-09.png)
+![Diegimo etapo organizacijos priskyrimas.](media/org-unit-assignment-09.png)
 
 Po diegimo etapo integravimo testavimo užduotis priskiriama vaidmeniui „techninis konsultantas“, tačiau organizacija nustatoma į „Contoso US“.  
 
-![Integravimo testavimo užduočių organizacijos priskyrimas](media/org-unit-generate-team-10.png)
+![Integravimo testavimo užduočių organizacijos priskyrimas.](media/org-unit-generate-team-10.png)
 
 Generuojant projekto komandą sukuriami du bendrieji komandos nariai dėl skirtingų organizacijos vienetų užduotyse. „Techninis konsultantas 1“ bus priskirtas „Contoso India“ užduotims, o „techninis konsultantas 2“ turės „Contoso US“ užduotis  
 
-![Sugeneruoti bendrieji komandos nariai](media/org-unit-assignments-multiple-resources-11.png)
+![Sugeneruoti bendrieji komandos nariai.](media/org-unit-assignments-multiple-resources-11.png)
 
 > [!NOTE]
 > „Project Service Automation“ 2 versijoje ir 1 versijoje komandos narys neturi organizacijos vieneto, jis laikomas eilutės užduotyje.
 
-![2 versijos ir 1 versijos eilutės užduotys „Project Service Automation“](media/line-tasks-12.png)
+![2 versijos ir 1 versijos eilutės užduotys „Project Service Automation“.](media/line-tasks-12.png)
 
 Organizacijos vienetą galite matyti įvertinimų rodinyje. 
 
-![Organizacijos vieneto įvertinimai](media/org-unit-estimates-view-13.png)
+![Organizacijos vieneto įvertinimai.](media/org-unit-estimates-view-13.png)
  
 Baigus naujinti, organizacijos vienetas eilutės užduotyje, atitinkantis bendrąjį komandos narį, įtraukiamas prie bendrojo komandos nario, o eilutės užduotis pašalinama. Todėl rekomenduojame prieš naujinant sugeneruoti arba iš naujo generuoti kiekvieno projekto, kuriame yra bendrųjų išteklių, komandą.
 

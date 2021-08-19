@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 148f52f74ee64c2ee218dda3b09e1188e70217b0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 59e05a55d41573b96785a2f41a7d5d822f6b515fb55edddea5ef1862b7694a1b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009221"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000181"
 ---
 # <a name="product-catalog-pricing"></a>Produktų katalogo kainodara 
 
@@ -44,7 +44,7 @@ Galite įtraukti produktus iš produktų katalogo į skirtingus kainoraščius. 
 
 Programoje PSA palaikomos įvairios apvalinimo parinktys, kai kainos konfigūruojamos kaip kainų sąrašo, standartinės kainos arba dabartinės kainos funkcija. Be to, kad galite pasinaudoti kelių kainodaros metodų ir apvalinimo parinkčių privalumais, jūs taip pat galite susieti nuolaidų sąrašus su kainoraščio elementais. 
 
-> ![Produktų įtraukimas iš katalogų į skirtingus kainoraščius](media/basic-guide-16.png)
+> ![Produktų įtraukimas iš katalogų į skirtingus kainoraščius.](media/basic-guide-16.png)
 
 Kai pasiūlymui kuriate naują pasirinktinį kainoraštį pasirinkdami parinktį **Kurti pasirinktinį kainoraštį** puslapyje **Projekto pasiūlymas**, PSA sukuria kainoraščio kopiją, o laukas **Objektas**, esantis naujo kainoraščio antraštėje, nustatomas į **Pardavimo objektas**. Naujo kainoraščio pavadinimas sujungiamas su pasiūlymo pavadinimu ir laiko žyma. Taip pat galite naudoti naujo kainoraščio pavadinimą ir pasiūlymo pavadinimą pasirinktinėse darbo eigose, kad suaktyvintumėte papildomą peržiūrą ir pasiūlymų, naudojančių pasirinktinę kainodarą, patvirtinimą.
 

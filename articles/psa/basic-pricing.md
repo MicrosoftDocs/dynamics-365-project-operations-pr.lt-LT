@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f7f116877340e9efec1aa7b3af875920f38fcdce
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: dfbfb59547f295e5fb275264b9222bfa20517f6278144ca013e14a99454b6840
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014981"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000586"
 ---
 # <a name="project-pricing"></a>Projekto kainodara 
 
@@ -46,7 +46,7 @@ Objektą Kainoraštis sudaro trys toliau nurodytos susijusios lentelės, kuriose
   - **Operacijų kategorijų kaina** – šioje lentelėje kainos nustatomos pagal operacijų kategoriją ir naudojamos išlaidų kategorijų kainoms nustatyti.
   - **Kainoraščio elementai** – šioje lentelėje saugomos katalogo produktų kainos.
 
-> ![Kainų konfigūravimas naudojant kainoraštį](media/basic-guide-12.png)
+> ![Kainų konfigūravimas naudojant kainoraštį.](media/basic-guide-12.png)
  
 Kainoraštis – tai tarifų kortelė. Tarifų kortelė – tai objekto Kainoraštis ir susijusių lentelių Vaidmenų kaina, Operacijų kategorijų kaina bei Kainoraščio elementai eilučių derinys.
 
@@ -58,7 +58,7 @@ Terminas *išteklių vaidmuo* nurodo įgūdžių, kompetencijų ir sertifikatų 
 
 Įdiegus PSA, sukuriama vienetų grupė **Laikas**. Jos numatytasis vienetas yra **Valanda**. Vienetų grupės **Laikas** ir vieneto **Valanda** atributų negalima panaikinti, pervardyti arba redaguoti. Tačiau į vienetų grupę **Laikas** galima įtraukti kitų vienetų. Jei bandysite panaikinti vienetų grupę **Laikas** arba vienetą **Valanda**, PSA verslo logika gali sutrikti.
 
-> ![Kainų konfigūravimas pagal vaidmenį](media/basic-guide-13.png)
+> ![Kainų konfigūravimas pagal vaidmenį.](media/basic-guide-13.png)
  
 ## <a name="transaction-categories-and-expense-categories"></a>Operacijų kategorijos ir išlaidų kategorijos
 
@@ -68,7 +68,7 @@ Sąskaitos už projekto konsultantų keliones ir kitas išlaidas paprastai išra
 - **Antkainio procentas** – klientui išrašoma sąskaita prie faktinių išlaidų pridedant procentinę dalį. 
 - **Vieneto kaina** – nustatoma kiekvienos išlaidų kategorijos atsiskaitymo vieneto kaina. Klientui išrašomos sąskaitos suma apskaičiuojama pagal konsultanto praneštų išlaidų vienetų skaičių. Kilometražui naudojamas kainos už vienetą kainodaros metodas. Pavyzdžiui, kilometražo išlaidų kategoriją galima sukonfigūruoti nustatant 30 JAV dolerių (USD) už dieną arba 2 USD už mylią. Kai konsultantas praneša projekto kilometražą, sąskaitos suma apskaičiuojama pagal konsultanto praneštą mylių skaičių.
 
-> ![Išlaidų kategorijų kainos konfigūravimas](media/basic-guide-14.png)
+> ![Išlaidų kategorijų kainos konfigūravimas.](media/basic-guide-14.png)
  
 ## <a name="project-sales-pricing-and-overrides"></a>Projekto pardavimo kainodara ir keitimai
 
@@ -114,7 +114,7 @@ Tačiau pasiūlyme galite naudoti pagrindinį kainoraštį. Taip pat galite nuko
 
 Kai kuriate pasirinktinį projekto kainoraštį, iš kainoraščio nukopijuojami tik projekto komponentai. Kitaip tariant, naujas kainoraštis sukuriamas kaip esamo projekto kainoraščio, kuris pridedamas prie pasiūlymo, kopija ir šiame naujame kainoraštyje pateikiamos tik su vaidmenimis susijusios kainos ir operacijų kategorijų kainos.
 
-> ![Projekto sutarties pasirinktinių kainų peržiūra ir konfigūravimas](media/basic-guide-15.png)
+> ![Projekto sutarties pasirinktinių kainų peržiūra ir konfigūravimas.](media/basic-guide-15.png)
   
 ## <a name="tracking-costs"></a>Išlaidų sekimas
 
