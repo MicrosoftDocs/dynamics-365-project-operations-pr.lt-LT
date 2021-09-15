@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a7b398bae07956f4c3de15ec53a860fca15422dd9f2a977086669ebf2fcdb240
-ms.sourcegitcommit: 17353ff3f4aeb42a64bac5e1db000ac6def91d07
+ms.openlocfilehash: aef0a7f7c143cc144257397e5223c0efd4b297ee
+ms.sourcegitcommit: c2d57a8cd6638c08dbf1aa53e3819e6a736ad118
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/09/2021
-ms.locfileid: "7024793"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474503"
 ---
 # <a name="project-operations-updates"></a>„Project Operations“ naujinimai
 
@@ -28,15 +28,15 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 - Projektų valdymas ir apskaita „Dynamics 365 Finance” aplinkoje apima išlaidų valdymo galimybes, projektų apskaitą ir pajamų pripažinimą. Programos „Finance and Operations” aplinka naudojama „Project Operations“, skirtos ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams ir „Project Operations“, skirtos laikomų medžiagų / gamyba pagrįstiems scenarijams.
 
 ## <a name="project-operations-release-notes"></a>„Project Operations“ leidimo pastabos
-- „Project Operations“ naujausio leidimo pastabos, skirtos [ištekliais / atsargose nelaikomomis prekėmis pagrįstiems](whats-new-july-2021-resource-based.md) scenarijams.
-- „Project Operations“ naujausio leidimo pastabos, skirtos [„Lite“ visuotinio diegimo](../pro/whats-new/whats-new-july-2021-lite.md) scenarijams.
+- „Project Operations“ naujausio leidimo pastabos, skirtos [ištekliais / atsargose nelaikomomis prekėmis pagrįstiems](whats-new-august-2021-resource-based.md) scenarijams.
+- „Project Operations“ naujausio leidimo pastabos, skirtos [„Lite“ visuotinio diegimo](../pro/whats-new/whats-new-august-2021-lite.md) scenarijams.
 - „Project Operations“ naujausio leidimo pastabos, skirtos [išteklių /  gamybos](../prod-pma/whats-new/whats-new-jul-2021-stocked.md) scenarijams.
 
 ## <a name="project-operations-latest-version"></a>„Project Operations” naujausia versija
 
 | „Project Operations“ „Dataverse“ aplinkoje | Projektų valdymas ir apskaita „Finance and Operations” programų aplinkose | 
 | --- | --- |
-| 4.13.0.152 | 10.0.20 |
+| 4.14.0.99 | 10.0.20 |
 
 Naudojant „Project Operations“ išteklių / nelaikomų medžiagų scenarijų, rekomenduojame naudoti dvigubo rašymo tvarkymo 2.2.2.83 arba naujesnę versiją.
 
@@ -47,27 +47,24 @@ Naujiniai, skirti „Project Operations” „Dataverse“ aplinkoje, yra pasiek
 | Stotis | Regiono ID | Dabartinės versijos numeris | „Lite“ visuotinio diegimo automatiniai naujinimai | Ištekliaus / ne atsargų visuotinio diegimo automatiniai naujinimai | Kitas versijos numeris | Kita visuotinai pasiekiama versija |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | 1 stotis |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Pirmasis leidimas         |  4.13.0.152     | Užbaigti           | 2021 m. rugpjūčio 13 d.     | TBD                 | 2021 m. rugpjūčio 27 d.     |
+|   &nbsp;  | Pirmasis leidimas         |  4.14.0.99      | Užbaigti           | 2021 m. rugsėjo mėn. 10 d.  | TBD                 | 2021 m. spalio 01 d.    |
 | 2 stotis |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Pietų Amerika         |  4.13.0.152     | 2021 m. rugpjūčio 13 d.    | 2021 m. rugpjūčio 20 d.     | TBD                 | 2021 m. rugpjūčio 27 d.     |
-|    &nbsp; | Kanada                |  4.13.0.152     | 2021 m. rugpjūčio 13 d.    | 2021 m. rugpjūčio 20 d.     | TBD                 | 2021 m. rugpjūčio 27 d.     |
-|   &nbsp;  | Indija                 |  4.13.0.152     | 2021 m. rugpjūčio 13 d.    | 2021 m. rugpjūčio 20 d.     | TBD                 | 2021 m. rugpjūčio 27 d.     |
-|   &nbsp;  | Prancūzija                |  4.13.0.152     | 2021 m. rugpjūčio 13 d.    | 2021 m. rugpjūčio 20 d.     | TBD                 | 2021 m. rugpjūčio 27 d.     |
-|   &nbsp;  | Jungtiniai Arabų Emyratai  |  4.13.0.152     | 2021 m. rugpjūčio 13 d.    | 2021 m. rugpjūčio 20 d.     | TBD                 | 2021 m. rugpjūčio 27 d.     |
-|   &nbsp;  | Pietų Afrika          |  4.13.0.152     | 2021 m. rugpjūčio 13 d.    | 2021 m. rugpjūčio 20 d.     | TBD                 | 2021 m. rugpjūčio 27 d.     |
+|   &nbsp;  | Pietų Amerika         |  4.14.0.152     | 2021 m. rugsėjo mėn. 10 d. | 2021 m. rugsėjo mėn. 17 d.  | TBD                 | 2021 m. spalio 01 d.    |
+|    &nbsp; | Kanada                |  4.14.0.152     | 2021 m. rugsėjo mėn. 10 d. | 2021 m. rugsėjo mėn. 17 d.  | TBD                 | 2021 m. spalio 01 d.    |
+|   &nbsp;  | Indija                 |  4.14.0.152     | 2021 m. rugsėjo mėn. 10 d. | 2021 m. rugsėjo mėn. 17 d.  | TBD                 | 2021 m. spalio 01 d.    |
+|   &nbsp;  | Prancūzija                |  4.14.0.152     | 2021 m. rugsėjo mėn. 10 d. | 2021 m. rugsėjo mėn. 17 d.  | TBD                 | 2021 m. spalio 01 d.    |
+|   &nbsp;  | Jungtiniai Arabų Emyratai  |  4.14.0.152     | 2021 m. rugsėjo mėn. 10 d. | 2021 m. rugsėjo mėn. 17 d.  | TBD                 | 2021 m. spalio 01 d.    |
+|   &nbsp;  | Pietų Afrika          |  4.14.0.152     | 2021 m. rugsėjo mėn. 10 d. | 2021 m. rugsėjo mėn. 17 d.  | TBD                 | 2021 m. spalio 01 d.    |
 | 3 stotis |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japonija                 |  4.12.0.152     | Užbaigti*          | Užbaigti            | 4.13.0.152          | 2021 m. rugpjūčio 13 d.     |
-|   &nbsp;  | Azijos ir Ramiojo vandenyno regionas          |  4.12.0.152     | Užbaigti*          | Užbaigti            | 4.13.0.152          | 2021 m. rugpjūčio 13 d.     |
-|   &nbsp;  | Didžioji Britanija         |  4.12.0.152     | Užbaigti*          | Užbaigti            | 4.13.0.152          | 2021 m. rugpjūčio 13 d.     |
-|   &nbsp;  | Okeanija               |  4.12.0.152     | Užbaigti*          | Užbaigti            | 4.13.0.152          | 2021 m. rugpjūčio 13 d.     |
+|   &nbsp;  | Japonija                 |  4.13.0.152     | Užbaigti           | Užbaigti            | 4.14.0.152          | 2021 m. rugsėjo mėn. 10 d.  |
+|   &nbsp;  | Azijos ir Ramiojo vandenyno regionas          |  4.13.0.152     | Užbaigti           | Užbaigti            | 4.14.0.152          | 2021 m. rugsėjo mėn. 10 d.  |
+|   &nbsp;  | Didžioji Britanija         |  4.13.0.152     | Užbaigti           | Užbaigti            | 4.14.0.152          | 2021 m. rugsėjo mėn. 10 d.  |
+|   &nbsp;  | Okeanija               |  4.13.0.152     | Užbaigti           | Užbaigti            | 4.14.0.152          | 2021 m. rugsėjo mėn. 10 d.  |
 | 4 stotis |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europa                |  4.12.0.152     | Užbaigti           | Užbaigti            | 4.13.0.152          | 2021 m. rugpjūčio 20 d.     |
+|   &nbsp;  | Europa                |  4.13.0.152     | Užbaigti           | 2021 m. rugsėjo mėn. 03 d.  | 4.14.0.152          | 2021 m. rugsėjo mėn. 17 d.  |
 | 5 stotis |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Šiaurės Amerika         |  4.12.0.152     | 2021 m. rugpjūčio 13 d.    | 2021 m. rugpjūčio 20 d.     | 4.13.0.152          | 2021 m. rugpjūčio 27 d.     |
+|   &nbsp;  | Šiaurės Amerika         |  4.13.0.152     | 2021 m. rugsėjo mėn. 03 d. | 2021 m. rugsėjo mėn. 10 d.  | 4.14.0.152          | 2021 m. rugsėjo mėn. 24 d.  |
 
-
-> [!NOTE]
-> 4.12.0.148 versijos automatinis visuotinis diegimas užbaigtas. Neautomatinį visuotinį diegimą planuojama pateikti 2021 m. liepos mėn. atnaujintos versijos leidime.
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Projektų valdymo ir apskaitos „Finance and Operations” programų aplinkoje leidimo grafikas
 
