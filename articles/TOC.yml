@@ -4,6 +4,8 @@
   items:
     - name: Visuotinio diegimo tipo nustatymas
       href: environment/determine-deployment-type.md
+    - name: Užsiregistruokite naudoti „Project Operations“ bandomąsias versijas
+      href: environment/admin-trials.md
     - name: „Project Operations“ naujinimai
       href: whats-new/project-operations-updates.md
 - name: '„Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
@@ -54,6 +56,8 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Kas nauja
       items:
+        - name: '2021 m. rugpjūčio mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
+          href: whats-new/whats-new-august-2021-resource-based.md
         - name: '2021 m. liepos mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
           href: whats-new/whats-new-july-2021-resource-based.md
         - name: '2021 m. birželio mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
@@ -418,6 +422,8 @@
       items:
         - name: Patvirtinimų apžvalga
           href: approvals/approvals-overview.md
+        - name: Patvirtinimo rinkiniai
+          href: approvals/approval-sets.md
         - name: Kūrėjų pastabos
           items:
             - name: Kūrėjų pastabos dėl patvirtinimų
@@ -520,6 +526,10 @@
           href: environment/security-model.md
     - name: Kas nauja
       items:
+        - name: Kas nauja 2021 m. 2 leidimo bangos ankstyvojoje prieigoje – „Lite“ visuotinis diegimas
+          href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Kas nauja – 2021 m. rugpjūčio mėn. – „Lite“ visuotinis diegimas
+          href: pro/whats-new/whats-new-august-2021-lite.md
         - name: Kas nauja – 2021 m. liepos mėn. – „Lite“ visuotinis diegimas
           href: pro/whats-new/whats-new-july-2021-lite.md
         - name: Kas nauja – 2021 m. birželio mėn. – „Lite“ visuotinis diegimas
@@ -834,14 +844,28 @@
               href: resource-management/resource-utilization-overview.md
     - name: „Project Operations“ valdymas pagal subrangos sutartį
       items:
-        - name: Subrangos sutarčių valdymo apžvalga
+        - name: „Project Operations“ valdymas pagal subrangos sutartį
           href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Subrangos sutarties sudarymas dėl 2021 m. spalio mėn. ankstyvosios prieigos
+          href: pro/subcontracting/Subcontracting_EA_scope.md
         - name: Svarbiausios subrangos sutarties sąvokos
           href: pro/subcontracting/key-concepts-subcontracting.md
         - name: Tiekėjų ir projektų kainoraščių valdymas
           href: pro/subcontracting/vendors-purchase-price-lists.md
         - name: Subrangos sutartys kaip rezervuotini ištekliai
           href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Subrangos sutarčių antraščių informacija
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: 'Subrangos sutarties eilutės, skirtos laikui'
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: 'Subrangos sutarties eilutės, skirtos išlaidoms'
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: 'Subrangos sutarties eilutės, skirtos produktams'
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: Subrangos sutarties eilučių ištekliai
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: Subrangos sutarties eilutės gairės
+          href: pro/subcontracting/subcontract-line-milestones.md
     - name: Laikas
       items:
         - name: Laiko apžvalga
@@ -868,6 +892,8 @@
       items:
         - name: Patvirtinimų apžvalga
           href: approvals/approvals-overview.md
+        - name: Patvirtinimo rinkiniai
+          href: approvals/approval-sets.md
         - name: Kūrėjų pastabos
           items:
             - name: Kūrėjų pastabos dėl patvirtinimų
@@ -1060,6 +1086,8 @@
       items:
         - name: „Project Service“ 3.x versijos naujinimų leidimo grafikas
           href: psa/version-history-ps.md
+        - name: 'Kas nauja arba pakeista 35 naujinimo leidime, V3'
+          href: psa/whats-new-ur-35.md
         - name: 'Kas nauja arba pakeista 34 naujinimo leidime, V3'
           href: psa/whats-new-ur-34.md
         - name: 'Kas nauja arba pakeista 33 naujinimo leidime, V3'
@@ -1306,7 +1334,7 @@
               href: psa/time-entry-calendar.md
             - name: Savaitės laiko įrašo tinkinimas
               href: psa/time-entry-extensibility-v3.md
-            - name: Patvirtinimo rinkiniai
+            - name: „Project Service Automation“ patvirtinimo rinkiniai
               href: psa/approval-set.md
     - name: DUK ir trikčių diagnostika (3.x versija)
       items:
