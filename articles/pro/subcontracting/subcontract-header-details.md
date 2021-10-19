@@ -2,16 +2,16 @@
 title: Subrangos sutarčių antraščių informacija
 description: Šioje temoje aiškinamos „Project Operations“ subrangos sutarties eilutės funkcijos.
 author: rumant
-ms.date: 08/05/2021
+ms.date: 09/14/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 49158af1a430033db3a5db57a840512c45bc17e2
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: ee863d31b45e7de962488fe804202ddfe580eb04
+ms.sourcegitcommit: 083e3d219cd5126eecb74debb1b70b361680b1f6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323651"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7501336"
 ---
 # <a name="header-details-for-subcontracts"></a>Subrangos sutarčių antraščių informacija
 
@@ -28,26 +28,24 @@ Norėdami sukurti subrangos sutartį, atlikite toliau nurodytus veiksmus.
 1. Naršymo srityje pasirinkite **Subrangos sutartys**, o puslapyje **Subrangos sutartis** pasirinkite **Nauja**.
 2. Įveskite reikiamą informaciją ir pasirinkite **„Įrašyti“**.
 
-    Toliau esančioje lentelėje pateikiama informacija apie laukus subrangos sutarties antraštės puslapyje.
+    Toliau esančioje lentelėje pateikiama informacija apie laukus **Subrangos sutarties antraštės** puslapyje.
 
-    | **Laukas** | **Aprašas** |
-    | --- | --- | 
-    | Pavadinimas / vardas ir pavardė | Subrangos sutarties pavadinimas. |
-    | Aprašymas | Trumpas paslaugų arba produktų, perkamų pagal subrangos sutartį, aprašas. |
-    | Tiekėjas | Įmonės, iš kurios perkami produktai ir paslaugos, pavadinimas. Šios paskyros įrašo tipas yra **Tiekėjas** arba **Pristatytojas**. |
-    | Subrangos sutarties data | Subrangos sutarties sukūrimo data. |
-    | Būsenos tipas | Subrangos sutarties būsena. |
-    | Valiuta | Valiuta, kuria perkami produktai ir paslaugos. Šio lauko vertė pagal numatytuosius parametrus perkeliama iš tiekėjo kliento, tačiau tai galima pakeisti. Projektų kainoraščiai, naudojami produktams ir paslaugoms šioje subrangos sutartyje įkainoti, turi būti šia valiuta. Kita valiuta sukurtų kainoraščių su šia subrangos sutartimi susieti negalima. Produktų ir paslaugų išlaidos, patirtos pagal šią subrangos sutartį, projekte bus įrašytos šia valiuta. |
-    | Sutartį sudarantis vienetas | Pirkimo arba subrangos sutartį su tiekėju sudarančios įmonės padalinys. |
-    | Mokėjimo sąlygos | Tiekėjo sąskaitų faktūrų, išrašomų pagal šią subrangos sutartį, apmokėjimo sąlygos. Šio lauko vertė pagal numatytuosius parametrus perkeliama iš tiekėjo kliento įrašo. |
-    | Mokėjimo adresas | Adresas, kuriuo siunčiamas apmokėjimas už tiekėjo išrašytas sąskaitas faktūras. Šio lauko vertė pagal numatytuosius parametrus perkeliama iš tiekėjo kliento įrašo. |
-    | Sąskaitų gavėjo vardas | Tiekėjo įmonės asmens, kuris išsiųs sąskaitą faktūrą, vardas ir pavardė arba skyrius, išsiųsiantis sąskaitą faktūrą. Šio lauko vertė pagal numatytuosius nustatymus yra perkeliama iš tiekėjo kliento įrašo ir bus naudojama kaip pagal šią subrangos sutartį tiekėjo sukurtų sąskaitų faktūrų pirminio kontakto vardas ir pavardė. |
-    | Sąskaitų siuntimo adresas | Šio tiekėjo sąskaitose faktūrose naudojamas adresas. Šio lauko vertė pagal numatytuosius parametrus perkeliama iš tiekėjo kliento įrašo. Šis adresas tiekėjo sąskaitose faktūrose, sukurtose pagal šią subrangos sutartį, taip pat naudojamas kaip sąskaitos faktūros siuntimo adresas. |
-    | Tarpinė suma | Jei subrangos sutartyje eilučių nėra, šiame lauke įveskite vertę, nurodančią užsakymo tarpinę sumą iki mokesčių. Jei subrangos sutartyje eilučių yra, šis laukas yra skirtas tik skaityti. Rodoma suma yra tarpinė visų šios subrangos sutarties eilučių suma. |
-    | Bendra mokesčių suma | Jei subrangos sutartyje eilučių nėra, šiame lauke įveskite vertę, nurodančią mokesčius pagal šią subrangos sutartį. Jei subrangos sutartyje eilučių yra, šis laukas yra skirtas tik skaityti. Rodoma suma yra visų šios subrangos sutarties eilučių PVM suma. |
-    | Bendra suma |  Šiame apskaičiuotajame lauke pateikiama bendra subrangos sutarties suma įtraukus mokesčius.  |
-    | Patvirtinimo data | Subrangos sutarties patvirtinimo data.  |
-    | Užklausą pateikė | Šio lauko vertė pagal numatytuosius parametrus yra tokia pati, kaip ir vartotojo, sukūrusio šią subrangos sutartį. Šią vertę gali pakeisti subrangos sutarties kūrėjas, norintis nurodyti asmenį, kurio vardu subrangos sutartis yra kuriama.  |
-    | Tiekėjo klientų vadovas | Tiekėjo kliento pirminio kontakto vardas ir pavardė. Šio lauko vertė pagal numatytuosius parametrus perkeliama iš tiekėjo kliento įrašo. Šią lauko vertę gali pakeisti vartotojas, norintis subrangos sutarties tiekėjo kliento vadovu pasirinkti kitą kontaktą. El. pašto įspėjimus ir derybas dėl kainų gali sukonfigūruoti ir išsiųsti šis kontaktas. |
-
-
+    | Laukas | Aprašymas |Funkcinis poveikis |
+    |---|------|---| 
+    | Pavadinimas / vardas ir pavardė | Subrangos sutarties pavadinimas. | Visuose subrangos sutarties išskleidžiamuosiuose sąrašuose subrangos sutarties pavadinimas pateikiamas pirmajame stulpelyje, kad būtų lengviau nustatyti subrangos sutartį. | 
+    | Aprašymas | Trumpas paslaugų arba produktų, perkamų pagal subrangos sutartį, aprašas. | Nėra |
+    | Tiekėjas | Įmonės, iš kurios perkami produktai ir paslaugos, pavadinimas. Šios paskyros įrašo tipas yra **Tiekėjas** arba **Pristatytojas**. | Atsižvelgiant į pasirinktą tiekėją, automatiškai įvedamos numatytosios šių laukų reikšmės:<br/> **• Valiuta** </br> **• Kainoraščiai** </br> **• Mokėjimo sąlygos**</br> **• Mokėjimo adresas**</br> **• Sąskaitų siuntimo adresas**</br> **• Sąskaitų gavėjo vardas** </br>**• Tiekėjo klientų vadovas**|
+    | Subrangos sutarties data | Subrangos sutarties sukūrimo data. | Subrangos sutarties data naudojama norint pasirinkti tinkamą pirkimo kainoraštį iš kainoraščių, pridėtų prie susijusio tiekėjo, arba iš projekto parametrų. |
+    | Būsenos tipas | Subrangos sutarties būsena. | Būsena nustato, kurioje veiklos proceso vietoje subrangos sutartis yra ir ar galima ją redaguoti. <br/>Reikšmės apima:<br>• **Juodraštis**: subrangos sutartį galima redaguoti. Galite redaguoti tik subrangos sutartis, kurių būsena yra **Juodraštis**.<br/>• **Patvirtinta**: derybos su tiekėju baigtos ir subrangos sutartis patvirtinta pristatyti. <br/>• **Uždaryta**: subrangos sutarties pristatymas baigtas.<br/>• **Atšaukta**: subrangos sutartis buvo atšaukta ir nesuplanuota jokio pristatymo.  | 
+    | Valiuta | Valiuta, kuria sumokama už perkamus produktus ir paslaugas. Numatytoji reikšmė automatiškai įvedama iš tiekėjo sąskaitos, tačiau ją galima pakeisti. | Subrangos sutarties valiuta naudojama norint pasirinkti pirkimo kainoraštį iš kainoraščių, pridėtų prie susijusio tiekėjo, arba iš projekto parametrų. Kainoraščių kita valiuta negalima susieti su subrangos sutartimi. Laiko sąnaudos, išlaidos ir medžiagos, kurias tiekėjo ištekliai pateikia iš šios subrangos sutarties, projekte įrašomi šia valiuta. Kai įrašomas subrangos sutarties įrašas, negalima pakeisti subrangos sutarties valiutos.|
+    | Sutartį sudarantis vienetas | Pirkimo arba subrangos sutartį su tiekėju sudarančios įmonės padalinys. | Nėra |
+    | Mokėjimo sąlygos | Mokėjimo sąlygos pagal tiekėjo sąskaitas faktūras, išrašytas dėl šios subrangos sutarties. Numatytoji reikšmė automatiškai įvedama iš tiekėjo sąskaitos įrašo. | Apmokėjimo sąlygos iš subrangos sutarties nukopijuojamos į visas tiekėjo sąskaitas faktūras, susijusias su šia subrangos sutartimi. Mokėjimo sąlygas galima atnaujinti, jeigu subrangos sutarties būsena yra **Juodraštis**. | 
+    | Mokėjimo adresas | Tiekėjo, kuriam turi būti siunčiami mokėjimai, adresas. Numatytoji reikšmė automatiškai įvedama iš tiekėjo sąskaitos įrašo. | Mokėjimo adresas iš subrangos sutarties nukopijuojamas kaip mokėjimo adresas į visas tiekėjo sąskaitas faktūras, sukuriamas šiai subrangos sutarčiai. Mokėjimo adresą galima atnaujinti, jeigu subrangos sutarties būsena yra **Juodraštis**.|
+    | Sąskaitų gavėjo vardas | Tiekėjo įmonės asmens, kuris išsiųs sąskaitą faktūrą, vardas ir pavardė arba skyrius, išsiųsiantis sąskaitą faktūrą. Numatytoji reikšmė automatiškai įvedama iš tiekėjo sąskaitos įrašo. | **Sąskaitų gavėjo vardas** reikšmė iš subrangos sutarties nukopijuojama į visas tiekėjo sąskaitas faktūras, susijusias su šia subrangos sutartimi. Šį lauką galima atnaujinti, jeigu subrangos sutarties būsena yra **Juodraštis**.|
+    | Sąskaitų siuntimo adresas | Adresas, naudojamas tiekėjo sąskaitose faktūrose. Numatytoji reikšmė automatiškai įvedama iš tiekėjo sąskaitos įrašo. | Šis adresas yra „sąskaita faktūra iš“ adresas tiekėjo sąskaitose faktūrose, sukurtose šiai subrangos sutarčiai. |
+    | Tarpinė suma | Jei subrangos sutartyje nėra eilučių, įveskite tarpinę užsakymo sumą prieš apskaičiuojant mokesčius. Jei subrangos sutartyje eilučių yra, šis laukas yra skirtas tik skaityti. Rodoma suma yra tarpinė suma iš visų subrangos sutarties eilučių. | Nėra |
+    | Bendra mokesčių suma | Jei subrangos sutartyje nėra eilučių, įveskite bendruosius šios subrangos sutarties mokesčius. Jei subrangos sutartyje eilučių yra, šis laukas yra skirtas tik skaityti. Rodoma suma yra mokesčių suma iš visų subrangos sutarties eilučių. | Nėra |
+    | Bendra suma | Šiame apskaičiuotajame lauke pateikiama bendra subrangos sutarties suma įtraukus mokesčius. | Nėra |
+    | Patvirtinimo data | Subrangos sutarties patvirtinimo data. | Nėra |
+    | Užklausą pateikė | Pagal numatytuosius nustatymus šis laukas nustatomas kaip vartotojo, kuris sukuria subrangos sutartį, vardas. Tačiau subrangos sutarties kūrėjas gali pakeisti reikšmę ir nurodyti asmenį, kurio vardu sukuria subrangos sutartį. | Nėra |
+    | Tiekėjo klientų vadovas | Tiekėjo kliento pirminio kontakto vardas ir pavardė. Numatytoji reikšmė automatiškai įvedama iš tiekėjo sąskaitos įrašo. Kitą kontaktą galite pažymėti kaip subrangos sutarties tiekėjo klientų vadovą. | Galite nustatyti el. pašto įspėjimus, kurie praneš kontaktui apie subrangos sutarties pokyčius dėl kainų derybų. |

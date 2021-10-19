@@ -6,12 +6,12 @@ ms.date: 08/05/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 10ebe0fcc86b4652ac01e28108361df1f768b61d
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 29b38ec9124502e4283b71d13434b1e0420bc413
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323876"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547254"
 ---
 # <a name="subcontract-lines-for-time"></a>Subrangos sutarties laiko eilutės
 
@@ -30,23 +30,22 @@ Norėdami programoje „Project Operations“ sukurti subrangos sutarties laiko 
 
   Toliau esančioje lentelėje pateikiama informacija apie laukus, esančius puslapyje **Subrangos sutarties eilutė** ir puslapyje **Spartusis kūrimas**.
 
-| **Laukas** | **Aprašas** |
-| --- | --- |
-| Pavadinimas / vardas ir pavardė | Subrangos sutarties eilutės pavadinimas. |
-| Aprašymas | Glaustas paslaugų, įsigyjamų pagal subrangos sutarties eilutę, aprašas. | 
-| Eilutės tipas | Šis laukas yra numatytoji reikšmė.  |
-| Atsiskaitymo metodas | Pasirinkite atsiskaitymo metodą. Atsižvelgiant į nurodytos subrangos sutarties eilutės atsiskaitymo metodą, fiksuotos kainos atsiskaitymo metodui galima pasirinkti etapu pagrįstos sąskaitos faktūros grafiką. |
-| Operacijos klasė | Šis laukas yra numatytoji reikšmė, nurodanti, ar subrangos sutarties eilutė naudojama subrangovo laikui įsigyti. |
-| Vaidmuo | Subrangos sutarties išteklių, kurių laikas įsigyjamas, vaidmuo. Subrangos sutarties ištekliams priskirtas vaidmuo lemia įsigijimo kainą. |
-| Pageidaujama pradžia | Data, kai subrangovo ištekliai turi pradėti dirbti. Pageidaujama pradžia naudojama norint pasirinkti projekto kainoraštį iš prie subrangos sutarties pridėtų projekto kainoraščių. Tada vaidmens savikaina subrangos sutarties eilutėje nustatoma pagal numatytuosius atitinkamo kainoraščio parametrus. |
-| Prašoma pabaiga | Data, kai baigiasi subrangos sutarties išteklių priskyrimas. Ši data naudojama įspėjimams rodyti, kai projektų vadovas šį pajėgumą naudoja išteklių reikalavimams po šios datos vykdyti. |
-| Užsakytas kiekis | Iš tiekėjo įsigyjamų vaidmens valandų skaičius. Ši reikšmė naudojama įspėjimams rodyti, kai projektų vadovas naudoja per daug šio pajėgumo išteklių reikalavimams vykdyti. |
-| Vienetų grupė | Numatyta, kad ši lauko reikšmė nustatoma kaip laiko vienetų grupė, kurios keisti negalima.  |
-| Vienetas | Numatyta, kad šis laukas nustatomas kaip pradinis valandų vienetas iš laiko vienetų grupės. Šią reikšmę galite pakeisti, jei norite įsigyti bet kurį laiko vienetų grupės vienetą, pvz., dieną arba savaitę. Vaidmens ir vieneto derinys naudojamas vieneto kainai subrangos sutarties eilutėje apskaičiuoti. |
-| Vieneto kaina | Vieneto kainos reikšmė pagal numatytuosius parametrus nustatoma atsižvelgiant į projekto kainoraščio, taikomo pageidaujamai pradžios datai subrangos sutarties eilutėje, vaidmens ir vieneto derinį. Kai taikomame projekto kainoraštyje kaina nustatyta skirtingu vienetu nei subrangos sutarties vienetas, sistema vieneto kainai apskaičiuoti naudoja vienetų konvertavimo funkciją. |
-| Tarpinė suma | Šis laukas skirtas tik skaityti ir jis automatiškai apskaičiuojamas kaip **Kiekis x vieneto kaina**, jei įvestos kiekio ir vieneto kainos reikšmės. Jei kiekis, vieneto kaina arba jie abu yra tušti, reikšmę galite įvesti lauke. |
-| PVM |  Įveskite PVM sumą. |
-| Bendra suma | Bendroji subrangos sutarties eilutės suma įtraukus mokesčius. |
-
+| **Laukas** | **Aprašas** | **Funkcinis poveikis** |
+| --- | --- | --- |
+| Pavadinimas / vardas ir pavardė | Subrangos sutarties eilutės pavadinimas, kuris padeda identifikuoti. | Jis bus rodomas kaip pirmasis visų peržvalgų stulpelis, remiantis subrangos sutarties eilutėmis. |
+| Aprašymas | Glaustas paslaugų, įsigyjamų pagal subrangos sutarties eilutę, aprašas. |Nėra |
+| Eilutės tipas |   Šio lauko numatytoji vertė yra **Pagrįsta kiekiu**.| Nėra |
+| Atsiskaitymo metodas | Tai yra parinkčių rinkinys, atitinkantis du pagrindinius sutarčių modelius, kuriuos palaiko „Project Operations“: **Fiksuota kaina** ir **Laikas ir medžiaga**. | Remiantis pasirinktu atsiskaitymo metodu, subrangos sutarčių eilutėms su fiksuotos kainos atsiskaitymo metodu galima naudoti etapais pagrįstą sąskaitų faktūrų grafiką. |
+| Operacijos klasė | Numatytoji reikšmė yra **Laikas**. | Tai reiškia, kad subrangos sutarties eilutė yra naudojama subrangovo laiko pirkimui įrašyti. |
+| Vaidmuo | Pažymėkite subrangos sutarties išteklių, kurių laikas perkamas, vaidmenį. | Vaidmuo, kurį atlieka subrangos sutarties ištekliai, lemia pirkimo savikainą. |
+| Pageidaujama pradžia | Įveskite datą, kada turi būti pradėti naudoti subrangovo ištekliai. | Tai naudojama norint pasirinkti projekto kainoraštį iš projekto kainoraščių, pridėtų prie subrangos sutarties. Vaidmens savikaina, pateikta subrangos sutarties eilutėje, gaunama iš to kainoraščio. |
+| Prašoma pabaiga | Įveskite datą, kada baigiasi subrangovo ištekliaus priskyrimas. | Tai bus naudojama įspėjimams rodyti, kai projekto vadovas siekia naudoti išteklių pajėgumus po šios datos. |
+| Užsakytas kiekis | Įveskite vaidmens, kuris perkamas iš tiekėjo, valandų skaičių. | Tai bus naudojama įspėjimams rodyti, kai projekto vadovas viršija šiuos išteklių poreikių pajėgumus. |
+| Vienetų grupė | Numatytoji reikšmė yra **Laiko vienetų grupė**, kurios negalima pakeisti. | Nėra|
+| Vienetas | Šio lauko numatytoji reikšmė yra pradinis valandų vienetas iš **Laiko vienetų grupės**. Šią reikšmę galite pakeisti, jei norite įsigyti bet kurį **Laiko vienetų grupės** vienetą, pvz., dieną arba savaitę. | **Vaidmens** ir **Vieneto** derinys bus naudojamas kaip numatytasis arba apskaičiuotas subrangos sutarties eilutės vieneto kainai. |
+| Vieneto kaina | Numatytoji vieneto kaina naudoja **Vaidmens** ir **Vieneto** derinį iš projekto kainoraščio, taikomo subrangos sutarties eilutės **Pageidaujamai pradžios** datai. | Kai taikomame projekto kainoraštyje kaina nustatyta skirtingu vienetu nei subrangos sutarties vienetas, sistema vieneto kainai apskaičiuoti naudoja vienetų konvertavimo funkciją. |
+| Tarpinė suma |    Tai yra tik skaitomas laukas, apskaičiuojamas kaip x kiekio vieneto kaina, jei įvedamos kiekio ir vieneto kainų reikšmės. Jei kiekis, vieneto kaina arba jie abu yra tušti, reikšmę galite įvesti lauke. | Nėra|
+| PVM |   Įveskite PVM sumą. |Nėra |
+| Bendra suma | Bendra subrangos sutarties eilutės suma įskaitant mokesčius. Šis laukas apskaičiuojamas kaip tarpinė suma + PVM.|Nėra |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

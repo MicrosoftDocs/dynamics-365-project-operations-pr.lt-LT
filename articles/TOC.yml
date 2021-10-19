@@ -56,6 +56,10 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Kas nauja
       items:
+        - name: '2021 m. spalio mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
+          href: whats-new/whats-new-oct-2021-resource-based.md
+        - name: '2021 m. rugsėjo mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
+          href: whats-new/whats-new-sept-2021-resource-based.md
         - name: '2021 m. rugpjūčio mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
           href: whats-new/whats-new-august-2021-resource-based.md
         - name: '2021 m. liepos mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
@@ -292,7 +296,7 @@
           items:
             - name: Projekto šablonų kūrimas naudojant projekto kopijavimo funkciją
               href: project-management/dev-copy-project.md
-            - name: Projekto grafiko API naudojimas (viešoji peržiūros versija)
+            - name: Projekto grafiko API naudojimas
               href: project-management/schedule-api-preview.md
     - name: Išteklių valdymas
       items:
@@ -444,6 +448,14 @@
           href: procurement/configure-materials-nonstocked.md
         - name: Projektams skirtų atsargose nelaikomų medžiagų įsigijimas naudojant laukiančias tiekėjo sąskaitas faktūras
           href: procurement/pending-vendor-invoices.md
+        - name: Atsargose nelaikomų medžiagų užsakymas pateikiant projekto pirkimo užsakymus
+          href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Tiekėjo saugojimas
+          items:
+            - name: Tiekėjo saugojimo apžvalga
+              href: procurement/vendor-retention-overview.md
+            - name: Tiekėjo saugojimo nustatymas
+              href: procurement/set-up-vendor-retention.md
     - name: SF išrašymas
       items:
         - name: SF išrašymo proceso apžvalga
@@ -528,6 +540,10 @@
       items:
         - name: Kas nauja 2021 m. 2 leidimo bangos ankstyvojoje prieigoje – „Lite“ visuotinis diegimas
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Kas nauja – 2021 m. spalio mėn. – „Lite“ visuotinis diegimas
+          href: pro/whats-new/whats-new-oct-2021-lite.md
+        - name: Kas nauja – 2021 m. rugsėjo mėn. – „Lite“ visuotinis diegimas
+          href: pro/whats-new/whats-new-sept-2021-lite.md
         - name: Kas nauja – 2021 m. rugpjūčio mėn. – „Lite“ visuotinis diegimas
           href: pro/whats-new/whats-new-august-2021-lite.md
         - name: Kas nauja – 2021 m. liepos mėn. – „Lite“ visuotinis diegimas
@@ -784,7 +800,7 @@
           items:
             - name: Projekto šablonų kūrimas naudojant projekto kopijavimo funkciją
               href: project-management/dev-copy-project.md
-            - name: Projekto grafiko API naudojimas (viešoji peržiūros versija)
+            - name: Projekto grafiko API naudojimas
               href: project-management/schedule-api-preview.md
     - name: Išteklių valdymas
       items:
@@ -858,7 +874,7 @@
           href: pro/subcontracting/subcontract-header-details.md
         - name: 'Subrangos sutarties eilutės, skirtos laikui'
           href: pro/subcontracting/subcontract-line-time.md
-        - name: 'Subrangos sutarties eilutės, skirtos išlaidoms'
+        - name: 'Subrangos sutarties eilutės, skirtos išlaidų kategorijoms'
           href: pro/subcontracting/subcontract-line-expense.md
         - name: 'Subrangos sutarties eilutės, skirtos produktams'
           href: pro/subcontracting/subcontract-line-products.md
@@ -1086,6 +1102,8 @@
       items:
         - name: „Project Service“ 3.x versijos naujinimų leidimo grafikas
           href: psa/version-history-ps.md
+        - name: 'Kas nauja arba pakeista 36 naujinimo leidime, V3'
+          href: psa/whats-new-ur-36.md
         - name: 'Kas nauja arba pakeista 35 naujinimo leidime, V3'
           href: psa/whats-new-ur-35.md
         - name: 'Kas nauja arba pakeista 34 naujinimo leidime, V3'

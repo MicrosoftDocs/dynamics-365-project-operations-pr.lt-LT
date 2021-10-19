@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9e8e7bb66063dab6db1ac8da1753913aee0ef3fc
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 0c32bf2ac54de98a921d338e436ecd089e68a759
+ms.sourcegitcommit: cd4e81f129681a12f2efe63ec2bb14e611cf88ba
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323831"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "7506109"
 ---
 #  <a name="subcontract-lines-for-expense-categories"></a>Išlaidų kategorijų subrangos sutarties eilutės
 
@@ -29,23 +29,23 @@ Norėdami „Project Operations“ sukurti išlaidų kategorijų subrangos sutar
 
 Toliau esančioje lentelėje pateikiama informacija apie laukus, esančius išsamios informacijos puslapyje **Subrangos sutarties eilutė** ir puslapyje **Spartusis kūrimas**.
 
-| **Laukas** |  **Aprašas** |
-| ----------| ---------------- |
-| Pavadinimas / vardas ir pavardė | Subrangos sutarties eilutės pavadinimas. |
-| Aprašymas | Trumpas paslaugos arba produkto kategorijų, kurios perkamos subrangos sutarties eilutėje, aprašas. |
-| Eilutės tipas | Šio lauko numatytoji vertė yra **Pagrįsta kiekiu**.  |
-| Atsiskaitymo metodas | Subrangos sutarties eilutės atsiskaitymo metodas. Priklausomai nuo eilutės atsiskaitymo metodo, fiksuotos kainos atsiskaitymo metodui galima pasirinkti etapu pagrįstos sąskaitos faktūros grafiką.  |
-| Operacijos klasė | Šio lauko numatytoji vertė yra **Laikas**. Norėdami sukurti produktų pirkimo subrangos sutarties eilučių, lauką **Operacijos klasė** nustatykite kaip **Išlaidos**. Šio lauko verte nurodoma, kad subrangos sutarties eilutė naudojama projekte naudotinų produktų arba paslaugų kategorijos pirkimo faktui įrašyti. |
-| Operacijos kategorija | Pasirinkite operacijos kategoriją. |
-| Pageidaujama pradžia | Data, kai iš tiekėjo turi būti galima įsigyti pirkimo kategorijas. Pageidaujama pradžia naudojama norint pasirinkti projekto kainoraštį iš prie subrangos sutarties pridėtų projekto kainoraščių. Kategorijos savikaina subrangos sutarties eilutėje nustatoma pagal numatytuosius atitinkamo kainoraščio parametrus. |
-| Prašoma pabaiga | Data, kai pirkimo kategorijų nebereikia. Kai projekto vadovas šią subrangos sutarties eilutę susieja su konkrečiais išlaidų įvertinimais, priklausančiais projektams, vėlesniems nei ši data, šią dieną pateikiamas įspėjimas. |
-| Užsakytas kiekis | Iš tiekėjo perkamas kategorijos kiekis. Projekto vadovui viršijus sigytą kiekį, bus rodomas įspėjimas.  |
-| Vienetų grupė | Ši lauko vertė nustatoma pagal numatytuosius parametrus remiantis numatytąja vienetų grupe, nustatyta pasirinktai kategorijai. |
-| Vienetas | Ši lauko vertė nustatoma pagal numatytuosius parametrus remiantis numatytuoju vienetu, nustatytu pasirinktai kategorijai. Kategorijos ir vieneto derinys naudojamas numatytajai vieneto kainai subrangos sutarties eilutėje nustatyti. |
-| Vieneto kaina | Vieneto kainos lauko vertė nustatoma pagal numatytuosius parametrus, atsižvelgiant į kategorijos kainų, susijusių su projekto kainoraščiu, taikomu pageidaujamai pradžiai subrangos sutarties eilutėje, kategorijos ir vieneto derinį.  |
-| Tarpinė suma | Šis tik skaityti skirtas laukas kaip kiekio vieneto kaina automatiškai apskaičiuojamas tada, jei įvestos kiekio ir vieneto kainos vertės. Jei kuris nors arba abu laukai yra tušti, šiame lauke vertę galite įvesti rankiniu būdu.  |
-| PVM | Įveskite PVM sumą.  |
-| Bendra suma | Bendra subrangos sutarties eilutės suma įskaitant mokesčius. Šis laukas apskaičiuojamas taip: tarpinė suma + PVM kodas.  |
+| **Laukas** | **Aprašas** | **Funkcinis poveikis** |
+| --- | --- | --- |
+| Pavadinimas / vardas ir pavardė | Subrangos sutarties eilutės pavadinimas, kuris padeda identifikuoti. | Jis bus rodomas kaip pirmasis visų peržvalgų stulpelis, remiantis subrangos sutarties eilutėmis. |
+| Aprašymas | Trumpas išlaidų kategorijų, susijusių su subrangos sutarties eilutės pirkimu, apibūdinimas. | Nėra |
+|Eilutės tipas | Šio lauko numatytoji vertė yra **Pagrįsta kiekiu**. |Nėra |
+| Atsiskaitymo metodas | Tai yra parinkčių rinkinys, atitinkantis du pagrindinius sutarčių modelius, kuriuos palaiko „Project Operations“: **Fiksuota kaina** ir **Laikas ir medžiaga**. | Jei pasirinktas fiksuotos kainos sąskaitų išrašymo metodas, subrangos sutarčių eilutėms galima naudoti etapais pagrįstą sąskaitų faktūrų grafiką. |
+| Operacijos klasė | Šio lauko numatytoji vertė yra **Laikas**. Norėdami sukurti produktų pirkimo subrangos sutarties eilučių, lauką **Operacijos klasė** nustatykite į **Išlaidos**.  | Tai reiškia, kad projektų išlaidų kategorijos pirkiniui įrašyti naudojama subrangos sutarties eilutė. |
+| Operacijos kategorija | Rodomas sistemoje aktyvių operacijų kategorijų sąrašas. |Nėra |
+| Pageidaujama pradžia | Įveskite datą, kada turi būti pasiekiamos tiekėjo pirkimo kategorijos. | Pageidaujama pradžia naudojama norint pasirinkti projekto kainoraštį iš projekto kainoraščių, pridėtų prie subrangos sutarties. Kategorijos savikaina, pateikta subrangos sutarties eilutėje, gaunama iš to kainoraščio. |
+| Prašoma pabaiga | Įveskite datą, nuo kurios nebereikės pirkimo kategorijų. | Tai bus naudojama įspėjimams rodyti, kai projekto vadovas šią subrangos sutarties eilutę susies su konkrečiais projekto išlaidų įvertinimais, reikalingais po šios datos. |
+| Užsakytas kiekis | Iš tiekėjo įsigytos kategorijos kiekis. | Tai bus naudojama įspėjimams rodyti, kai projekto vadovas šį kiekį viršys.|
+| Vienetų grupė | Numatytoji reikšmė yra pagrįsta numatytąja vienetų grupe, nustatyta pažymėtai kategorijai. |Nėra |
+| Vienetas | Numatytoji reikšmė yra pagrįsta numatytuoju vienetu, nustatytu pažymėtai kategorijai.  | **Kategorijos** ir **Vieneto** derinys bus naudojamas kaip numatytasis arba apskaičiuotas subrangos sutarties eilutės vieneto kainai.  |
+| Vieneto kaina | Numatytoji reikšmė naudoja **Kategoriją** ir **Vienetą** iš kategorijų kainų, susijusių su projekto kainoraščiu, kuris taikomas prašomai subrangos sutarties eilutės pradžiai. |Nėra |
+| Tarpinė suma | Tai yra tik skaitomas laukas, apskaičiuojamas kaip X kiekio vieneto kaina, jei įvedamos kiekio ir vieneto kainų reikšmės. Jei kuris nors arba abu laukai yra tušti, šiame lauke galite įvesti reikšmę. |Nėra |
+| PVM | Įveskite PVM sumą. |Nėra |
+| Bendra suma | Bendra subrangos sutarties eilutės suma įskaitant mokesčius. Šis laukas apskaičiuojamas kaip tarpinė suma + PVM. |Nėra |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

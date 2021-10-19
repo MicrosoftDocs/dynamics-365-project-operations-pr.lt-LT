@@ -2,16 +2,16 @@
 title: Užsiregistravimas norint naudotis „Project Operations“ bandomosiomis versijomis
 description: Šioje temoje pateikiama informacija apie tai, kaip įdiegti „Dynamics 365 Project Operations“ bandomąją versiją.
 author: ruhercul
-ms.date: 08/19/2021
+ms.date: 10/04/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e9c0d81591061f0ff01200dd5fd634a4a9ff31e4
-ms.sourcegitcommit: 0e5de344f2040075ba431918a4499a80510458d9
+ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
+ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "7418467"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "7599223"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Užsiregistravimas norint naudotis „Project Operations“ bandomosiomis versijomis 
 
@@ -85,15 +85,9 @@ Prieš pradėdami prisijunkite prie naršyklės naudodami vartotojo darbo paskyr
 
    Prasidėjus parengimui būsite nukreipti į „Power Platform“ administravimo centro aplinkų sąrašą. Vykstant parengimui jūsų aplinkos būsena bus **PreparingInstance**.
  
-  Parengimui pasibaigus jūsų aplinkos būsena bus **Parengta**.
+  Kai parengimas baigtas, jūsų aplinkos būsena yra **Paruošta**. Aplinkos parengimas apima demonstracinių duomenų diegimą.
  
-4.  Kai parengimas bus baigtas, pasirinkite atitinkamą „Microsoft Dataverse“ URL ir „Finance and Operations“ programų URL, kad patikrintumėte visuotinį diegimą.
-
-## <a name="demo-data-installation"></a>Demonstracinių duomenų įdiegimas
-
-Pasinaudodami toliau pateiktais saitais, pasiekite nelaikomų medžiagų ir „Lite“ visuotinio diegimo scenarijų demonstracinių duomenų paketus. 
-- [Nelaikomų medžiagų demonstraciniai duomenys](resource-apply-pro-setup-config-data.md)
-- [„Lite“ demonstraciniai duomenys](lite-apply-demo-setup-config-data.md)
+4.  Norėdami patikrinti visuotinį diegimą, pasirinkite atitinkamus „Microsoft Dataverse“ URL ir „Finance and Operations“ programėlių URL.
 
 ## <a name="configuring-dual-write"></a>Dvigubo rašymo konfigūravimas
 Naudodami tik nelaikomų medžiagų visuotinį diegimą, sukonfigūruokite dvigubo rašymo susiejimus. Daugiau informacijos žr. [„Project Operations“ dvigubo rašymo schemų versijas](resource-dual-write-maps.md).

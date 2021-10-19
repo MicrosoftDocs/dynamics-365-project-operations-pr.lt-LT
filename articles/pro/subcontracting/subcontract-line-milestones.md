@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3301e5a627e4842009fcd5e352f1b76fd3053ee3
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 7f99853f5f649f96225b7d72580db97bb92de7c5
+ms.sourcegitcommit: d507a75a19c992a9421e4f3605162a2faa84a445
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323786"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "7558512"
 ---
 # <a name="subcontract-line-milestones"></a>Subrangos sutarties eilutės etapai
 
@@ -50,15 +50,15 @@ Fiksuotos kainos etapus subrangos sutarties eilutėje rankiniu būdu galima suge
 3. Skirtuko **Subrangos sutarties eilutės etapai** antriniame tinklelyje pasirinkite **+ Naujas subrangos sutarties eilutės etapas**.
 4. Puslapyje **Naujas subrangos sutarties eilutės etapas** įveskite reikiamą informaciją remdamiesi toliau pateikta lentele.
 
-    | Laukas | Aprašymas |
-    | --- | --- |
-    | Etapo pavadinimas | Etapo pavadinimas. |
-    | Aprašymas | Etapo aprašas.  |
-    | Gairės data | Data, kai automatinio sąskaitų faktūrų kūrimo procesas turi ieškoti šio etapo būsenos ir nustatyti, ar jį įtraukti išrašant sąskaitą faktūrą. Ši vertė įtraukiama į tiekėjo sąskaitos faktūros eilutę išrašant šios subrangos sutarties sąskaitą faktūrą. |
-    | Suma | Etapo suma ar vertė, kuriai bus išrašyta klientui skirta sąskaita faktūra. Ši vertė įtraukiama į tiekėjo sąskaitos faktūros eilutę išrašant šios subrangos sutarties sąskaitą faktūrą. |
-    | Mokestis | Etapui taikoma mokesčių suma. Ši vertė įtraukiama į tiekėjo sąskaitos faktūros eilutę išrašant šios subrangos sutarties sąskaitą faktūrą. |
-    | Suma atskaičius mokestį | Tai tik skaityti skirtas laukas, kurio vertė apskaičiuojama taip: suma + mokestis. Ši vertė įtraukiama į tiekėjo sąskaitos faktūros eilutę išrašant šios subrangos sutarties sąskaitą faktūrą. |
-    | Sąskaitos faktūros būsena | Sukūrus etapą, ši būsena visada nustatoma kaip **Neparengta išrašyti sąskaitos faktūros**.  Kai būsena yra **Parengta išrašyti sąskaitą faktūrą**, tiekėjo sąskaitos faktūros kūrimo procesas šį etapą įtrauka į tiekėjo sąskaitą faktūrą. |
+    | Laukas | Aprašymas |Funkcinis poveikis|
+    | --- | --- |----------------------|
+    | Etapo pavadinimas | Etapo pavadinimas. |Jis bus rodomas kaip pirmasis visų peržvalgų stulpelis, remiantis subrangos sutarties eilučių etapais. Pagal šį etapą sukurta tiekėjo sąskaitos faktūros eilutė taip pat kaip numatytąjį tiekėjo sąskaitos faktūros eilutės pavadinimą naudos subrangos sutarties eilutės etapo pavadinimą.|
+    | Aprašymas | Etapo aprašas. |Pagal šį etapą sukurta tiekėjo sąskaitos faktūros eilutė taip pat kaip numatytąjį tiekėjo sąskaitos faktūros eilutės aprašą naudos subrangos sutarties eilutės etapo aprašą.|
+    | Gairės data | Data, kai automatinio sąskaitų faktūrų kūrimo procesas turi ieškoti šio etapo būsenos ir nustatyti, ar jį įtraukti išrašant sąskaitą faktūrą.| Ši reikšmė bus naudojama kaip numatytoji tiekėjo sąskaitos faktūros eilutės data išrašant šios subrangos sutarties eilutės sąskaitą faktūrą. |
+    | Suma | Etapo suma ar vertė, kuriai bus išrašyta klientui skirta sąskaita faktūra. |Ši reikšmė naudojama kaip numatytoji tiekėjo sąskaitos faktūros eilutės suma išrašant šios subrangos sutarties eilutės sąskaitą faktūrą. |
+    | Mokestis | Etapui taikoma mokesčių suma.| Ši reikšmė naudojama kaip numatytoji tiekėjo sąskaitos faktūros eilutės mokesčių suma išrašant šios subrangos sutarties eilutės sąskaitą faktūrą. |
+    | Suma atskaičius mokestį | Šis tik skaitomas laukas apskaičiuojamas kaip Suma + Mokestis.|Ši reikšmė naudojama kaip numatytoji tiekėjo sąskaitos faktūros eilutės reikšmė išrašant šios subrangos sutarties eilutės sąskaitą faktūrą. |
+    | Sąskaitos faktūros būsena | Sukūrus etapą, ši būsena visada nustatoma kaip **Neparengta išrašyti sąskaitos faktūros**.|  Kai būsena yra **Parengta išrašyti sąskaitą faktūrą**, tiekėjo sąskaitos faktūros kūrimo procesas šį etapą įtrauka į tiekėjo sąskaitą faktūrą. |
 
 5. Pasirinkite **Įrašyti ir uždaryti**.
 
