@@ -54,6 +54,8 @@
               href: environment/resource-dual-write-expense.md
             - name: Tiekėjo sąskaitų faktūrų integravimas
               href: environment/resource-dual-write-vendor-invoice.md
+        - name: Pašalinti Dynamics 365 Project Operations
+          href: environment/uninstall-project-operations.md
     - name: Kas nauja
       items:
         - name: '2021 m. spalio mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
@@ -298,6 +300,8 @@
               href: project-management/dev-copy-project.md
             - name: Projekto grafiko API naudojimas
               href: project-management/schedule-api-preview.md
+            - name: Projekto grafiko API efektyvumas
+              href: project-management/project-schedule-api-performance.md
     - name: Išteklių valdymas
       items:
         - name: Pagrindinės sąvokos
@@ -802,6 +806,8 @@
               href: project-management/dev-copy-project.md
             - name: Projekto grafiko API naudojimas
               href: project-management/schedule-api-preview.md
+            - name: Projekto grafiko API efektyvumas
+              href: project-management/project-schedule-api-performance.md
     - name: Išteklių valdymas
       items:
         - name: Pagrindinės sąvokos
@@ -1102,6 +1108,8 @@
       items:
         - name: „Project Service“ 3.x versijos naujinimų leidimo grafikas
           href: psa/version-history-ps.md
+        - name: 'Kas nauja arba pakeista 37 naujinimo leidime, V3'
+          href: psa/whats-new-ur-37.md
         - name: 'Kas nauja arba pakeista 36 naujinimo leidime, V3'
           href: psa/whats-new-ur-36.md
         - name: 'Kas nauja arba pakeista 35 naujinimo leidime, V3'

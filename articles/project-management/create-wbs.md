@@ -2,16 +2,16 @@
 title: Darbo paskirstymo struktūros kūrimas
 description: Šioje temoje paaiškinta, kaip kurti darbo paskirstymo struktūrą (WBS), įskaitant naujos planavimo sąsajos pagrindinius valdiklius.
 author: ruhercul
-ms.date: 01/07/2021
+ms.date: 06/30/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 701c386af8a227308d6868deda27a63e6101e85f667b0392501bb0490329f484
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: f77450d0d754606dd336072248012fea462510a4
+ms.sourcegitcommit: a12d21c7cab296f5b6a3181d76a06f57dee1267c
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998741"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "7655427"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Darbo paskirstymo struktūros (WBS) kūrimas
 
@@ -117,5 +117,26 @@ Užduočių režimas nepaveikia naujinimų, atliktų su ankstesnėmis / priklaus
 
 Tinklelis **Grafikas** yra visiškai pasiekiamas ir gali būti naudojamas su ekrano skaitytuvais, pavyzdžiui, „Narrator“, „JAWS“ ar „NVDA“. Galite judėti per tinklelio sritį naudodami rodyklių klavišus (kaip programoje „Microsoft Excel“), galite naudoti tabuliavimo klavišą, kad pasiektumėte interaktyviuosius vartotojo sąsajos elementus, o norėdami pasirinkti ir atidaryti išplečiamuosius meniu galite naudoti rodyklės žemyn, „Enter“ arba tarpo klavišus.
 
+## <a name="project-limitations"></a>Projekto apribojimai 
+Jei „Project Operations” naudojate darbo paskirstymo struktūrą, turite žinoti apie toliau nurodytus apribojimus. Šie apribojimai taikomi projektams ir užduotims. Daugiau informacijos žr. [„Project for the Web” apribojimai ir ribos](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+
+| **Laukas**                                          |  **Riba**           |
+|----------------------------------------------------|----------------------|
+| Maksimalus bendras projekto užduočių skaičius                  | 500                  |
+| Maksimali bendra projekto trukmė               | 3650 dienų (10 metų) |
+| Maksimalus bendras projekto išteklių skaičius              | 150                  |
+| Maksimalus bendras projekto saitų skaičius (tik vėlesnės veiklos) | 600                  |
+| Maksimalus bendras projekto pasirinktinių laukų skaičius          | 10                   |
+
+**Užduoties apribojimai**
+
+| **Laukas**                               |   **Riba**           |
+|-----------------------------------------|-----------------------|
+| Maksimalus hierarchijos lygis                 | 10 lygių             |
+| Maksimalus nuorodų skaičius (vėlesnės veiklos ir ankstesnės veiklos) | 20                    |
+| Maksimali lapo užduoties trukmė           | 1250 d.             |
+| Maksimali suvestinės užduoties trukmė      | 3650 dienų (10 metų)  |
+| Maksimalus užduočiai priskirtų išteklių skaičius    | 20 išteklių          |
+| Palaikomas užduoties datų diapazonas         | 2000-01-01–2149-12-31 |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

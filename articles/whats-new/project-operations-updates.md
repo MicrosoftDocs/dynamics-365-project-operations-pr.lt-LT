@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 970fcc71b3ebe1489c676727598ebbb296e9c989
-ms.sourcegitcommit: 23f68542fb5913534f0f76529b843cd268dbd7f6
+ms.openlocfilehash: 493218d53075f3044adce47bed8ecdc031cca8e7
+ms.sourcegitcommit: b8b7a59eee7d93638446e93726d270316e45ab3d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/11/2021
-ms.locfileid: "7623353"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7783433"
 ---
 # <a name="project-operations-updates"></a>„Project Operations“ naujinimai
 
@@ -36,7 +36,7 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 
 | „Project Operations“ „Dataverse“ aplinkoje | Projektų valdymas ir apskaita „Finance and Operations” programų aplinkose | 
 | --- | --- |
-| 4.25.0.91 | 10.0.20 |
+| 4.26.0.145 | 10.0.21 |
 
 Naudojant „Project Operations“ išteklių / nelaikomų medžiagų scenarijų, rekomenduojame naudoti dvigubo rašymo tvarkymo 2.2.2.83 arba naujesnę versiją.
 
@@ -47,23 +47,23 @@ Naujiniai, skirti „Project Operations” „Dataverse“ aplinkoje, yra pasiek
 | Stotis | Regiono ID | Dabartinės versijos numeris | „Lite“ visuotinio diegimo automatiniai naujinimai | Ištekliaus / ne atsargų visuotinio diegimo automatiniai naujinimai | Kitas versijos numeris | Kita visuotinai pasiekiama versija |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | 1 stotis |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Pirmasis leidimas         |  4.25.0.91      | Užbaigti           | Užbaigti            | TBD                 | 2021 m. spalio 29 d.    |
+|   &nbsp;  | Pirmasis leidimas         |  4.26.0.145     | 2021 m. lapkričio 12 d.  | 2021 m. lapkričio 19 d.   | TBD                 | 2021 m. gruodžio 03 d.   |
 | 2 stotis |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Pietų Amerika         |  4.25.0.91      | Užbaigti           | 2021 m. spalio 15 d.    | TBD                 | 2021 m. spalio 29 d.    |
-|   &nbsp;  | Kanada                |  4.25.0.91      | Užbaigti           | 2021 m. spalio 15 d.    | TBD                 | 2021 m. spalio 29 d.    |
-|   &nbsp;  | Indija                 |  4.25.0.91      | Užbaigti           | 2021 m. spalio 15 d.    | TBD                 | 2021 m. spalio 29 d.    |
-|   &nbsp;  | Prancūzija                |  4.25.0.91      | Užbaigti           | 2021 m. spalio 15 d.    | TBD                 | 2021 m. spalio 29 d.    |
-|   &nbsp;  | Pietų Afrika          |  4.25.0.91      | Užbaigti           | 2021 m. spalio 15 d.    | TBD                 | 2021 m. spalio 29 d.    |
+|   &nbsp;  | Pietų Amerika         |  4.26.0.145     | 2021 m. lapkričio 12 d.  | 2021 m. lapkričio 19 d.   | TBD                 | 2021 m. gruodžio 03 d.   |
+|   &nbsp;  | Kanada                |  4.26.0.145     | 2021 m. lapkričio 12 d.  | 2021 m. lapkričio 19 d.   | TBD                 | 2021 m. gruodžio 03 d.   |
+|   &nbsp;  | Indija                 |  4.26.0.145     | 2021 m. lapkričio 12 d.  | 2021 m. lapkričio 19 d.   | TBD                 | 2021 m. gruodžio 03 d.   |
+|   &nbsp;  | Prancūzija                |  4.26.0.145     | 2021 m. lapkričio 12 d.  | 2021 m. lapkričio 19 d.   | TBD                 | 2021 m. gruodžio 03 d.   |
+|   &nbsp;  | Pietų Afrika          |  4.26.0.145     | 2021 m. lapkričio 12 d.  | 2021 m. lapkričio 19 d.   | TBD                 | 2021 m. gruodžio 03 d.   |
 | 3 stotis |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japonija                 |  4.25.0.91      | 2021 m. spalio 15 d.   | 2021 m. spalio 22 d.    | TBD                 | 2021 m. lapkričio 05 d.   |
-|   &nbsp;  | Azijos ir Ramiojo vandenyno regionas          |  4.25.0.91      | 2021 m. spalio 15 d.   | 2021 m. spalio 22 d.    | TBD                 | 2021 m. lapkričio 05 d.   |
-|   &nbsp;  | Didžioji Britanija         |  4.25.0.91      | 2021 m. spalio 15 d.   | 2021 m. spalio 22 d.    | TBD                 | 2021 m. lapkričio 05 d.   |
-|   &nbsp;  | Okeanija               |  4.25.0.91      | 2021 m. spalio 15 d.   | 2021 m. spalio 22 d.    | TBD                 | 2021 m. lapkričio 05 d.   |
-|   &nbsp;  | Jungtiniai Arabų Emyratai  |  4.25.0.91      | 2021 m. spalio 15 d.   | 2021 m. spalio 22 d.    | TBD                 | 2021 m. lapkričio 05 d.   |
+|   &nbsp;  | Japonija                 |  4.26.0.145     | 2021 m. lapkričio 12 d.  | 2021 m. lapkričio 19 d.   | TBD                 | 2021 m. gruodžio 10 d.   |
+|   &nbsp;  | Azijos ir Ramiojo vandenyno regionas          |  4.26.0.145     | 2021 m. lapkričio 12 d.  | 2021 m. lapkričio 19 d.   | TBD                 | 2021 m. gruodžio 10 d.   |
+|   &nbsp;  | Didžioji Britanija         |  4.26.0.145     | 2021 m. lapkričio 12 d.  | 2021 m. lapkričio 19 d.   | TBD                 | 2021 m. gruodžio 10 d.   |
+|   &nbsp;  | Okeanija               |  4.26.0.145     | 2021 m. lapkričio 12 d.  | 2021 m. lapkričio 19 d.   | TBD                 | 2021 m. gruodžio 10 d.   |
+|   &nbsp;  | Jungtiniai Arabų Emyratai  |  4.26.0.145     | 2021 m. lapkričio 12 d.  | 2021 m. lapkričio 19 d.   | TBD                 | 2021 m. gruodžio 10 d.   |
 | 4 stotis |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europa                |  4.14.0.99      | Užbaigti           | Užbaigti            | 4.25.0.91           | 2021 m. spalio 15 d.    |
+|   &nbsp;  | Europa                |  4.25.0.91      | Užbaigti           | Užbaigti            | 4.26.0.145          | 2021 m. lapkričio 12 d.   |
 | 5 stotis |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Šiaurės Amerika         |  4.14.0.99      | Užbaigti           | 2021 m. spalio 08 d.    | 4.25.0.91           | 2021 m. spalio 22 d.    |
+|   &nbsp;  | Šiaurės Amerika         |  4.25.0.91      | Užbaigti           | Užbaigti            | 4.26.0.145          | 2021 m. lapkričio 19 d.   |
 
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Projektų valdymo ir apskaitos „Finance and Operations” programų aplinkoje leidimo grafikas
@@ -72,14 +72,15 @@ Projektų valdymo ir apskaitos atnaujinimai išleidžiami aštuonis kartus per m
 
 |Palaikoma versija| Peržiūros versijos pasiekiamumas (PEAP) | Visuotinai pasiekiama (savaiminis naujinimas) | Automatinio naujinimo grafiko (per LCS naujinimo parametrus) gamybos pradžios data |   Paslaugų teikimo pabaiga   |
 |:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
+|     10.0.22     |      2021 m. rugsėjo mėn. 3 d.      |        2021 m. spalio 22 d.           |                          2021 m. lapkričio 5 d.                            | 2022 m. sausio 14 d.   |
 |    10.0.21      |         2021 m. rugpjūčio 02 d.     |           2021 m. rugsėjo mėn. 17 d.      |                             2021 m. spalio 1 d.                          |  2021 m. gruodžio 10 d. |
-|    10.0.20      |         2021 m. gegužės 28 d.        |           2021 m. liepos 16 d.           |                             2021 m. liepos 30 d.                            |  2021 m. spalio 22 d.  |
+
 
 Tikslinės išleidimo datos gali keistis. Daugiau informacijos žr. [Paslaugų atnaujinimo pasiekiamumas](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
 |Paskirties versija | Peržiūros versijos pasiekiamumas (PEAP) | Visuotinai pasiekiama (savaiminis naujinimas) | Automatinio naujinimo grafiko (per LCS naujinimo parametrus) gamybos pradžios data |   Paslaugų teikimo pabaiga   |
 |:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|     10.0.22     |      2021 m. rugsėjo mėn. 3 d.      |          2021 m. spalio 22 d.         |                           2021 m. lapkričio 5 d.                           |  2022 m. sausio 14 d.  |
 |     10.0.23     |      2021 m. spalio 15 d.       |        2021 m. gruodžio 10 d.          |                          2021 m. gruodžio 31 d.                           | 2022 m. kovo 18 d.     |
+|     10.0.24     |      2021 m. gruodžio 3 d.       |        2022 m. sausio 14 d.           |                          2022 m. vasario 4 d.                            | 2022 m. balandžio 15 mėn.     |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

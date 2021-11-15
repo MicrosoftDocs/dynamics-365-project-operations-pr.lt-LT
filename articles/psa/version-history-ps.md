@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9ed9cb4615ba45c6b42154caffbd16806d30a8e7
-ms.sourcegitcommit: 23f68542fb5913534f0f76529b843cd268dbd7f6
-ms.translationtype: HT
+ms.openlocfilehash: 71cb8d0d9111e84bbd85dd116ce39465081f1653
+ms.sourcegitcommit: 95c0a30142fbacfd0c2ef63f42066f3a3534b832
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/11/2021
-ms.locfileid: "7623348"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "7773605"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>„Project Service” 3.x versijos naujinimo leidimo grafikas
 
@@ -37,7 +37,7 @@ ms.locfileid: "7623348"
 
 | Sprendimas  | Naujausia versija |
 |-------|----|
-| Project Service Automation    | 3.10.57.152 |
+| Project Service Automation    | 3.10.58.120 |
 | „Project Service Automation“ darbalaukio papildinys                | 3.15          |
 
 Norėdami gauti informacijos apie „Project Service“ naujinimus, žr. [„Dynamics 365“ leidimo planai](/dynamics365/release-plans/). 
@@ -45,28 +45,29 @@ Norėdami gauti informacijos apie „Project Service“ naujinimus, žr. [„Dyn
 | Stotis  | Regiono ID | Dabartinė versija | Kita versija |  Suplanuota data
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>1 stotis</strong> | |  |  | |
-| | <i>Pirmasis leidimas</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | 2021 m. spalio 29 d.
+| | <i>Pirmasis leidimas</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021 m. gruodžio 03 d.
 |<strong>2 stotis</strong> | |  |  | |
-| | <i>Pietų Amerika</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | 2021 m. lapkričio 05 d.
-| | <i>Kanada</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | 2021 m. lapkričio 05 d.
-| | <i>Indija</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | 2021 m. lapkričio 05 d.
-| | <i>Prancūzija</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | 2021 m. lapkričio 05 d.
-| | <i>Pietų Afrika</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | 2021 m. lapkričio 05 d.
-| | <i>Vokietija</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | 2021 m. lapkričio 05 d.
-| | <i>Šveicarija</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | 2021 m. lapkričio 05 d.
+| | <i>Pietų Amerika</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021 m. gruodžio 10 d.
+| | <i>Kanada</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021 m. gruodžio 10 d.
+| | <i>Indija</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021 m. gruodžio 10 d.
+| | <i>Prancūzija</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021 m. gruodžio 10 d.
+| | <i>Pietų Afrika</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021 m. gruodžio 10 d.
+| | <i>Vokietija</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021 m. gruodžio 10 d.
+| | <i>Šveicarija</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021 m. gruodžio 10 d.
 |<strong>3 stotis</strong> | |  |  | |
-| | <i>Japonija</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 2021 m. spalio 15 d.
-| | <i>Azijos / Ramiojo vandenyno regionas</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 2021 m. spalio 15 d.
-| | <i>Didžioji Britanija</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 2021 m. spalio 15 d.
-| | <i>Okeanija</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 2021 m. spalio 15 d.
-| | <i>Jungtiniai Arabų Emyratai</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 2021 m. spalio 15 d.
+| | <i>Japonija</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 2021 m. lapkričio 12 d.
+| | <i>Azijos / Ramiojo vandenyno regionas</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 2021 m. lapkričio 12 d.
+| | <i>Didžioji Britanija</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 2021 m. lapkričio 12 d.
+| | <i>Okeanija</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 2021 m. lapkričio 12 d.
+| | <i>Jungtiniai Arabų Emyratai</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 2021 m. lapkričio 12 d.
 |<strong>4 stotis</strong> | |  |  | |
-| | <i>Europa</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 2021 m. spalio 22 d.
+| | <i>Europa</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 2021 m. lapkričio 19 d.
 |<strong>5 stotis</strong> | |  |  | |
-| | <i>Šiaurės Amerika</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 2021 m. spalio 29 d.
+| | <i>Šiaurės Amerika</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 2021 m. gruodžio 03 d.
 |<strong>6 stotis</strong> | |  |  | |
-| | <i>„Government Community Cloud“</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 2021 m. spalio 29 d.
-| | <i>Priskirtos skalės grupės</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 2021 m. lapkričio 05 d.
+| | <i>„Government Community Cloud“</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 2021 m. gruodžio 03 d.
+| | <i>Priskirtos skalės grupės</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 2021 m. gruodžio 10 d.
+
 
 
 >[!Note]
