@@ -54,10 +54,12 @@
               href: environment/resource-dual-write-expense.md
             - name: Tiekėjo sąskaitų faktūrų integravimas
               href: environment/resource-dual-write-vendor-invoice.md
-        - name: Pašalinti Dynamics 365 Project Operations
+        - name: „Dynamics 365 Project Operations“ pašalinimas
           href: environment/uninstall-project-operations.md
     - name: Kas nauja
       items:
+        - name: '2021 m. lapkričio mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
+          href: whats-new/whats-new-nov-2021-resource-based.md
         - name: '2021 m. spalio mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
           href: whats-new/whats-new-oct-2021-resource-based.md
         - name: '2021 m. rugsėjo mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
@@ -302,6 +304,8 @@
               href: project-management/schedule-api-preview.md
             - name: Projekto grafiko API efektyvumas
               href: project-management/project-schedule-api-performance.md
+            - name: Projektų planavimo žurnalai
+              href: project-management/schedule-api-logs.md
     - name: Išteklių valdymas
       items:
         - name: Pagrindinės sąvokos
@@ -544,6 +548,8 @@
       items:
         - name: Kas nauja 2021 m. 2 leidimo bangos ankstyvojoje prieigoje – „Lite“ visuotinis diegimas
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Kas nauja – 2021 m. lapkričio mėn. – „Lite“ visuotinis diegimas
+          href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: Kas nauja – 2021 m. spalio mėn. – „Lite“ visuotinis diegimas
           href: pro/whats-new/whats-new-oct-2021-lite.md
         - name: Kas nauja – 2021 m. rugsėjo mėn. – „Lite“ visuotinis diegimas
@@ -952,6 +958,10 @@
   items:
     - name: Kas nauja
       items:
+        - name: 'Kas nauja – 2021 m. spalio mėn. – „Project Operations“, skirta laikomų medžiagų / gamyba pagrįstiems scenarijams'
+          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
+        - name: 'Kas nauja – 2021 m. rugsėjo mėn. – „Project Operations“, skirta laikomų medžiagų / gamyba pagrįstiems scenarijams'
+          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
         - name: 'Kas nauja – 2021 m. liepos mėn. – „Project Operations“, skirta laikomų medžiagų / gamyba pagrįstiems scenarijams'
           href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
         - name: 'Kas nauja – 2021 m. gegužės mėn. – „Project Operations“, skirta laikomų medžiagų / gamyba pagrįstiems scenarijams'
@@ -1106,8 +1116,10 @@
       href: psa/overview.md
     - name: Kas nauja
       items:
-        - name: „Project Service“ 3.x versijos naujinimų leidimo grafikas
+        - name: „Project Service“ 3.x versijos naujinimo leidimo grafikas
           href: psa/version-history-ps.md
+        - name: 'Kas nauja arba pakeista 37.5 naujinimo leidime, V3'
+          href: psa/whats-new-ur-37-5.md
         - name: 'Kas nauja arba pakeista 37 naujinimo leidime, V3'
           href: psa/whats-new-ur-37.md
         - name: 'Kas nauja arba pakeista 36 naujinimo leidime, V3'

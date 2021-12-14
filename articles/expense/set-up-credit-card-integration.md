@@ -2,7 +2,7 @@
 title: Kredito kortelės integravimo nustatymas
 description: Šioje temoje aiškinama, kaip dirbti naudojant su išlaidomis susijusias kredito kortelės operacijas.
 author: suvaidya
-ms.date: 04/02/2021
+ms.date: 11/17/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 51c364dff41d856e493581e1b87fd29571f641c70e7233bdebb910efbc64b983
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 49c8f2369a8be41fbc04c74bdb6b565b4f4b7b79
+ms.sourcegitcommit: 9f26cf8bb640af1eb9f7f0872805965d7ffcb9d3
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996221"
+ms.lasthandoff: 11/19/2021
+ms.locfileid: "7826266"
 ---
 # <a name="set-up-credit-card-integration"></a>Kredito kortelės integravimo nustatymas
 
@@ -30,7 +30,7 @@ Su išlaidomis susijusios kredito kortelių operacijos gali būti nustatytos tai
 
 Norėdami importuoti kredito kortelės operacijas, atlikite toliau nurodytus veiksmus.
 
-1. Puslapyje **Kredito kortelių operacijos** pažymėkite **Importavimo operacijos**. Jei pirmą kartą atidarote duomenų valdymą, sistema turi atnaujinti duomenų objektų sąrašą, kad galėtumėte tęsti.
+1. Puslapyje **Kredito kortelių operacijos** pažymėkite **Importavimo operacijos**. Jei duomenų valdymą atidarote pirmą kartą, sistema turi atnaujinti duomenų objektų sąrašą, kad galėtumėte tęsti.
 2. Lauke **Pavadinimas** įveskite unikalų importavimo užduoties aprašą.
 3. Lauke **Šaltinio duomenų formatas** pažymėkite failo, kuriame yra importuotos kredito kortelių operacijos, formatą.
 4. Pažymėkite **Įkelti**, tada raskite ir pažymėkite failą, kurį norite importuoti.
@@ -44,16 +44,24 @@ Norėdami importuoti kredito kortelės operacijas, atlikite toliau nurodytus vei
 
 ## <a name="reassign-the-credit-card-transactions-for-terminated-employees"></a>Iš naujo priskirti nutrauktų darbuotojų kredito kortelių operacijas
 
-Nutraukus darbuotojo įrašą, darbuotojo „Active Directory Domain Services“ (AD DS) abonementas išjungiamas. Tačiau gali būti aktyvios kredito kortelių operacijos, kurios turi būti apmokamos ir kompensuojamos. Puslapyje **Kredito kortelės operacijos** galite iš naujo priskirti darbuotoją bet kuriai kredito kortelės operacijai, kurios susietasis darbuotojas atleistas.
+Nutraukus darbuotojo įrašą, darbuotojo "Active Directory" domenų tarnybos (AD DS) abonementas išjungtas. Tačiau gali būti aktyvios kredito kortelių operacijos, kurios turi būti apmokamos ir kompensuojamos. Puslapyje **Kredito kortelės operacijos** galite iš naujo priskirti darbuotoją bet kuriai kredito kortelės operacijai, kurios susietasis darbuotojas atleistas.
 
 Pažymėkite vieną arba kelias kredito kortelės operacijas, tada pažymėkite **Iš naujo priskirti operacijas**. Tada galite pasirinkti kitą darbuotoją, kad galėtumėte priskirti operacijas su kortelėmis. Iš naujo pristačius operacijas su kreditinėmis kortelėmis, jas galima pažymėti išlaidų ataskaitai ir apmokėtu įprastu išlaidų ataskaitos kompensavimo procesu.
 
 ## <a name="delete-credit-card-transactions"></a>Kredito kortelių operacijų panaikinimas 
 
-Kartais importavus kredito kortelės operacijas, tam tikras operacijas gali tekti panaikinti. Taip gali nutikti dėl to, kad operacijos yra dublikatai, arba duomenys gali būti netikslūs. Administratoriai gali naudoti funkciją **Kredito kortelių operacijų panaikinimas** ir pasirinkti bei panaikinti kredito kortelių operacijas, kurios **nepridėtos** prie išlaidų ataskaitos. 
+Kartais importavus kredito kortelės operacijas, tam tikras operacijas gali tekti panaikinti. Taip gali būti dėl to, kad operacijos yra dublikatai arba dėl to, kad duomenys nėra tikslūs. Administratoriai gali naudoti funkciją **Kredito kortelių operacijų panaikinimas** ir pasirinkti bei panaikinti kredito kortelių operacijas, kurios **nepridėtos** prie išlaidų ataskaitos. 
 
 1. Eikite į **Periodinės užduotys** > **Kredito kortelių operacijų panaikinimas**.
 2. Pasirinkite **Filtruoti** ir pateikite informaciją, pagal kurią norite identifikuoti norimus įtraukti įrašus.
 3. Norėdami panaikinti įrašus, pasirinkite **Gerai**. 
+
+## <a name="storing-credit-card-numbers"></a>Kredito kortelių numerių saugojimas
+
+Galimi trys kredito kortelių numerių saugojimo variantai. Kredito kortelių numeriai saugomi **puslapyje Išlaidų valdymo** parametrai.
+
+- **Neleisti įvesti kortelės numerio** – kredito kortelių numeriai nesaugomi.
+- **Maišos kortelių numeriai (saugoti paskutinius keturis skaitmenis)** – paskutiniai keturi kredito kortelių numerių skaitmenys saugomi užšifruotu formatu.
+- **Parduotuvės kortelių numeriai** – kredito kortelių numeriai saugomi nešifruotu formatu. Ši parinktis neatitinka mokėjimo kortelių pramonės (PCI) duomenų saugos standarto (DSS). Todėl, kad jų organizacija atitiktų PCI DSS taisykles, organizacijos administratoriai turėtų pasirinkti ne saugoti kredito kortelių numerius arba saugoti maišos kortelių numerius.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
