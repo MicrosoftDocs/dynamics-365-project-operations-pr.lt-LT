@@ -2,16 +2,16 @@
 title: Finansinės dimensijos numatytosios reikšmės
 description: Šioje temoje pateikta informacija apie tai, kaip nustatyti finansinių dimensijų numatytąsias reikšmes.
 author: sigitac
-ms.date: 10/26/2020
+ms.date: 12/14/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 8a7845b7f6b7256edad6efc7b20872078f8c5ab0b60477d2a42b5b9d61104bff
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 8c1eb71d13ca7fc59118d15fef7ac914577b3b0e
+ms.sourcegitcommit: fe5610464fdb5be756aa6a6a5b3c9a991dea0ed8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005446"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "7922948"
 ---
 # <a name="financial-dimension-defaults"></a>Finansinės dimensijos numatytosios reikšmės
 
@@ -60,6 +60,15 @@ Projektai kuriami ir tvarkomi naudojant (CDS). Projektų apskaitos atributai nus
 4. Nustatykite numatytąsias finansinių dimensijų reikšmes. Atkreipkite dėmesį, kad numatytosios finansinių dimensijų reikšmės gaunamos iš kliento paskyros. Jei projektas yra susietas su sutarties eilute, turinčia kelis projektų sutarčių klientus, numatytosioms finansinių dimensijų reikšmėms nustatyti naudojamas pirminis klientas.
 
 Projekto numatytosios finansinės dimensijos naudojamos norint nustatyti laiko, išlaidų ir mokesčių operacijų žurnalų eilučių numatytąsias reikšmes **„Project Operations“ integravimo žurnale** ir susijusiose projekto sąskaitų faktūrų eilutėse.
+
+## <a name="apply-financial-dimensions-for-project-time-entries"></a>Gretinti projekto laiko įrašų finansines dimensijas
+Norėdami gretinti finansines dimensijas projekto laiko įrašams, atkreipkite dėmesį, kad numatytoji dimensijos vertė yra pagrįsta šiuo užsakymu:
+
+1. Išteklius
+2. Project
+3. Finansavimo šaltinis
+
+Pavyzdžiui, jei numatytoji dimensija nurodyta ištekliuje, ji bus taikoma pagal projekte nurodytą numatytąjį. Panašiai numatytoji projekto dimensija bus taikoma pagal numatytąjį, nurodytą finansavimo šaltinyje.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

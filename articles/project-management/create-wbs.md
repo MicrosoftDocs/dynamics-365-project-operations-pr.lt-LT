@@ -2,16 +2,16 @@
 title: Darbo paskirstymo struktūros kūrimas
 description: Šioje temoje paaiškinta, kaip kurti darbo paskirstymo struktūrą (WBS), įskaitant naujos planavimo sąsajos pagrindinius valdiklius.
 author: ruhercul
-ms.date: 06/30/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f77450d0d754606dd336072248012fea462510a4
-ms.sourcegitcommit: a12d21c7cab296f5b6a3181d76a06f57dee1267c
+ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
+ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "7655427"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7928625"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Darbo paskirstymo struktūros (WBS) kūrimas
 
@@ -95,11 +95,11 @@ Kaip administratorius galite apibrėžti užduoties objekto pasirinktinius lauku
 
 ## <a name="staffing-attributes"></a>Darbuotojų atributai
 
-Personalo atributai pasiekiami grafiko lauke **Ištekliai**. Galite ieškoti esamų išteklių arba pasirinkti **Kurti** ir skyde **Spartusis kūrimas** pridėti projekto komandos narį kaip naują išteklių.
+Personalo atributai pasiekiami grafiko lauke **Ištekliai**. Galite ieškoti esamų išteklių arba pasirinkti **Kurti** ir skyde **Spartusis kūrimas** pridėti projekto komandos narį kaip naują išteklių.  Kai ieškote ištekliaus naudodami išteklių parinkiklį užduočių tinklelyje, lentos rodinyje arba gante, ieška pateikia esamus projekto komandos narius arba aktyvius rezervuojamus išteklius.
 
 Laukai **Vaidmuo**, **Išteklių paskirstymo vienetas** ir **Padėties pavadinimas** yra naudojami apibūdinti užduoties personalo reikalavimus. Šie personalo atributai su užduočių grafiku naudojami pasiekiamiems ištekliams rasti, kad būtų galima atlikti šią užduotį.
 
-   - **Vaidmuo**: nurodykite ištekliaus, kurio reikia užduočiai atlikti, tipą.
+   - **Vaidmuo** : nurodykite ištekliaus, reikalingo užduočiai atlikti, tipą.,
    - **Išteklių paskirstymo vienetas**: nurodykite vienetą, iš kurio turėtų būti skiriami užduoties ištekliai. Šis atributas paveikia užduoties savikainos ir pardavimo įvertinimą, jei ištekliaus savikaina ir sąskaitos tarifas nustatyti pagal išteklių paskirstymo vienetus.
    - **Padėties pavadinimas**: įveskite bendrojo ištekliaus pavadinimą, kuris tarnaus kaip ištekliaus, kuris galiausiai atliks darbą, vietos rezervavimo ženklas.
 
@@ -127,6 +127,7 @@ Jei „Project Operations” naudojate darbo paskirstymo struktūrą, turite ži
 | Maksimalus bendras projekto išteklių skaičius              | 150                  |
 | Maksimalus bendras projekto saitų skaičius (tik vėlesnės veiklos) | 600                  |
 | Maksimalus bendras projekto pasirinktinių laukų skaičius          | 10                   |
+| Maksimalus kontrolinio sąrašo elementai pagal užduotį                   | 20                   |
 
 **Užduoties apribojimai**
 

@@ -2,16 +2,16 @@
 title: Užsiregistravimas norint naudotis „Project Operations“ bandomosiomis versijomis
 description: Šioje temoje pateikiama informacija apie tai, kaip įdiegti „Dynamics 365 Project Operations“ bandomąją versiją.
 author: ruhercul
-ms.date: 10/04/2021
+ms.date: 12/08/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
-ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
+ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
+ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/04/2021
-ms.locfileid: "7599223"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7901627"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Užsiregistravimas norint naudotis „Project Operations“ bandomosiomis versijomis 
 
@@ -90,7 +90,8 @@ Prieš pradėdami prisijunkite prie naršyklės naudodami vartotojo darbo paskyr
 4.  Norėdami patikrinti visuotinį diegimą, pasirinkite atitinkamus „Microsoft Dataverse“ URL ir „Finance and Operations“ programėlių URL.
 
 ## <a name="configuring-dual-write"></a>Dvigubo rašymo konfigūravimas
-Naudodami tik nelaikomų medžiagų visuotinį diegimą, sukonfigūruokite dvigubo rašymo susiejimus. Daugiau informacijos žr. [„Project Operations“ dvigubo rašymo schemų versijas](resource-dual-write-maps.md).
+- Norėdami konfigūruoti dvigubo rašymo saugos vaidmenis, [žr Dataverse](resource-provision-new-environment.md).
+- Norėdami konfigūruoti dviejų rašymo žemėlapių, [žr](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Licencijų priskyrimas
 
