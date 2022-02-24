@@ -2,16 +2,18 @@
 title: Apmokėtinų projektų apskaitos konfigūravimas
 description: Šioje temoje pateikta informacija apie apmokėtinų projektų apskaitos galimybes.
 author: sigitac
+manager: Annbe
 ms.date: 04/05/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: cbc6bcbfa527486df4c740c52cec8c4be1dabe0478783fb7d2e71a65f18c050f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 629e3fc2f9069d104d459d0b4a6fa46c37f5c6f2
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991045"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858663"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Apmokėtinų projektų apskaitos konfigūravimas
 
@@ -101,23 +103,23 @@ Atlikite toliau nurodytus veiksmus, kad sukurtumėte naują projekto išlaidų i
 
 Laikas ir medžiagos – be NG
 
-![Išlaidų ir pajamų profilis: laikas ir medžiagos – be NG.](media/time-material-no-wip.png)
+![Išlaidų ir pajamų profilis: laikas ir medžiagos – be NG](media/time-material-no-wip.png)
 
 Laikas ir medžiagos – NG (pajamos)
 
-![Išlaidų ir pajamų profilis: laikas ir medžiagos – NG.](media/time-material-with-wip.png)
+![Išlaidų ir pajamų profilis: laikas ir medžiagos – NG](media/time-material-with-wip.png)
 
 Fiksuota kaina – be NG
 
-![Išlaidų ir pajamų profilis: fiksuota kaina – be NG.](media/fixed-price-no-wip.png)
+![Išlaidų ir pajamų profilis: fiksuota kaina – be NG](media/fixed-price-no-wip.png)
 
 Fiksuota kaina – baigta sutartis
 
-![Išlaidų ir pajamų profilis: fiksuota kaina – baigta sutartis.](media/fixed-price-completed-contract.png)
+![Išlaidų ir pajamų profilis: fiksuota kaina – baigta sutartis](media/fixed-price-completed-contract.png)
 
 Fiksuota kaina – procentinė dalis
 
-![Išlaidų ir pajamų profilis: fiksuota kaina – procentinė dalis.](media/fixed-price-completed-percentage.png)
+![Išlaidų ir pajamų profilis: fiksuota kaina – procentinė dalis](media/fixed-price-completed-percentage.png)
 
 
 ## <a name="accounting-event-examples-for-sample-project-cost-and-revenue-profiles"></a>Apskaitos įvykių pavyzdžiai, skirti pavyzdinių projektų išlaidų ir pajamų profiliams.

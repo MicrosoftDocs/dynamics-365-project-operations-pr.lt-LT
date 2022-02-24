@@ -2,16 +2,18 @@
 title: Įmonės vidaus SF išrašymo konfigūravimas
 description: Šioje temoje pateikta informacija ir pavyzdžiai apie įmonės vidaus SF išrašymo už projektus konfigūravimą.
 author: sigitac
-ms.date: 04/12/2021
+manager: tfehr
+ms.date: 11/20/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 09bbd1bf640cc86b16afb8c2b824329b92f833df836e9313491d57a2f1646440
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bdb6122d8aba84d2b449f9f17a4093388b585614
+ms.sourcegitcommit: addbe0647619413e85e7cde80f6a21db95ab623e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994061"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4595518"
 ---
 # <a name="configure-intercompany-invoicing"></a>Įmonės vidaus SF išrašymo konfigūravimas
 
@@ -21,9 +23,9 @@ Norėdami nustatyti įmonės vidaus SF išrašymą už projektus programoje „D
 
 ## <a name="example-configure-intercompany-invoicing"></a>Pavyzdys: įmonės vidaus SF išrašymo konfigūravimas
 
-Toliau pateiktame pavyzdyje „Contoso Robotics USA“ (USPM) yra besiskolinantysis juridinis subjektas, o „Contoso Robotics UK“ (GBPM) – skolinantysis juridinis subjektas. 
+Toliau pateiktame pavyzdyje „Contoso Robotics USA“ (USPM) yra skolinimosi juridinis objektas, o „Contoso Robotics UK“ (GBPM) yra skolinimo juridinis objektas. 
 
-1. **Įmonės vidaus apskaitos skirtinguose juridiniuose subjektuose konfigūravimas**. Kiekviena skolinimosi ir skolinimo juridinių objektų pora turi būti konfigūruota didžiosios knygos [įmonės vidaus apskaitos](/dynamics365/finance/general-ledger/intercompany-accounting-setup) puslapyje.
+1. **Įmonės vidaus apskaitos skirtinguose juridiniuose subjektuose konfigūravimas**. Kiekviena skolinimosi ir skolinimo juridinių objektų pora turi būti konfigūruota didžiosios knygos [įmonės vidaus apskaitos](https://docs.microsoft.com/dynamics365/finance/general-ledger/intercompany-accounting-setup) puslapyje.
     
     1. Programoje „Dynamics 365 Finance“ eikite į **Didžioji knyga** > **Registravimo nustatymas** > **Vidinių įmonių apskaita**. Sukurkite įrašą nurodydami toliau pateiktą informaciją:
 
@@ -35,17 +37,17 @@ Toliau pateiktame pavyzdyje „Contoso Robotics USA“ (USPM) yra besiskolinanty
      1. Finansų srityje pasirinkite juridinį objektą **GBPM**.
      2. Eikite į **Gautinos sumos** > **Klientas** > **Visi klientai**. Sukurkite naują juridinio objekto įrašą **USPM**.
      3. Išplėskite **pavadinimą**, filtruokite įrašus pagal **tipą** ir pasirinkite **juridinius objektus**. 
-     4. Raskite ir pasirinkite kliento įrašą **„Contoso Robotics USA“ (USPM)**.
+     4. Raskite ir pasirinkite **„Contoso Robotics USA“ (USPM)** kliento įrašą.
      5. Pasirinkite **Naudoti atitikmenį**. 
-     6. Pasirinkite klientų grupę **50 – vidinės įmonės klientai** ir įrašykite įrašą.
+     6. Pasirinkite klientų grupę ir tada įrašykite įrašą.
      7. Pasirinkite juridinį objektą **USPM**.
      8. Eikite į **Mokėtinos sumos** > **Tiekėjai** > **Visi tiekėjai**. Sukurkite naują juridinio objekto įrašą **GBPM**.
      9. Išplėskite **pavadinimą**, filtruokite įrašus pagal **tipą** ir pasirinkite **juridinius objektus**. 
-     10. Raskite ir pasirinkite kliento įrašą **„Contoso Robotics UK“ (GBPM)**.
+     10. Raskite ir pasirinkite **„Contoso Robotics UK“ (GBPM)** kliento įrašą.
      11. Pasirinkite **Naudoti atitikmenį**, tiekėjų grupę, o tada įrašykite įrašą.
      12. Tiekėjo įraše pasirinkite **Bendra** > **Nustatyti** > **Įmonės vidaus**.
      13. Skirtuke **Prekybiniai ryšiai** parinktį **Aktyvus** nustatykite į **Taip**.
-     14. Lauką **Kliento įmonė** nustatykite kaip **GBPM**, o lauke **Mano kliento įrašas** pasirinkite kliento įrašą, kurį sukūrėte anksčiau, atlikdami procedūrą.
+     14. Pasirinkite tiekėjo įmonę **GBPM**, o dalyje **Mano kliento įrašas** pasirinkite kliento įrašą, kurį sukūrėte anksčiau atlikdami procedūros veiksmus.
 
 3. **Įmonės vidaus parametrų konfigūravimas projektų valdymo ir apskaitos parametruose**. 
 
@@ -57,7 +59,7 @@ Toliau pateiktame pavyzdyje „Contoso Robotics USA“ (USPM) yra besiskolinanty
     6. **Skolinant išteklius** grupėje pasirinkite **...** > **Naujas**. 
     7. Tinklelyje pasirinkite toliau nurodytą informaciją:
 
-          - **Skolinimosi juridinis objektas** = **USPM**
+          - **Skolinimosi juridinis objektas** = **GBPM**
           - **Kaupti įplaukas** = **Taip**
           - **Numatytoji grafiko kategorija** = **Numatytoji – valanda**
           - **Numatytoji išlaidų kategorija** = **Numatytoji – išlaidos**
@@ -69,36 +71,33 @@ Toliau pateiktame pavyzdyje „Contoso Robotics USA“ (USPM) yra besiskolinanty
      3. Skirtuko **Išlaidų sąskaitos** lauke **DK sąskaitos tipas** pasirinkite **Vidinės įmonės išlaidos**. Sukurkite naują įrašą nurodydami toliau pateiktą informaciją:
       
         - **Skolinimo juridinis objektas** = **GBPM**
-        - **Pagrindinė sąskaita** = pasirinkite įmonės vidaus išlaidų pagrindinę sąskaitą. Ši sąranka yra būtina. Ši sąranka naudojama „Finance“ vidinės įmonės srautams, bet ne su projektais susijusiems vidinės įmonės srautams. Ši pasirinktis tolimesniems procesams įtakos neturi. 
+        - **Pagrindinė sąskaita** = pasirinkite įmonės vidaus išlaidų pagrindinę sąskaitą
         
      4. Pasirinkite skolinimo juridinį objektą **GBPM**. 
      5. Eikite į **Projektų valdymas ir apskaita** > **Nustatyti** > **Registravimas** > **Registravimo DK nustatymai**. 
      6. Skirtuko **Įplaukų sąskaitos** lauke **DK sąskaitos tipas** pasirinkite **Vidinės įmonės įplaukos**. Sukurkite naują įrašą nurodydami toliau pateiktą informaciją:
 
         - **Skolinimosi juridinis objektas** = **USPM**
-        - **Pagrindinė sąskaita** = pasirinkite įmonės vidaus įplaukų pagrindinę sąskaitą. Ši sąranka yra būtina. Ši sąranka naudojama „Finance“ vidinės įmonės srautams, bet ne su projektais susijusiems vidinės įmonės srautams. Ši pasirinktis tolimesniems procesams įtakos neturi. 
+        - **Pagrindinė sąskaita** = pasirinkite įmonės vidaus įplaukų pagrindinę sąskaitą 
 
 5. **Perdavimo kainodaros už darbą nustatymas**. Įmonės vidaus perdavimo kainodara konfigūruojama „Project Operations“ „Dataverse“ aplinkoje. Konfigūruokite įmonės vidaus SF išrašymo [darbo savikainos tarifus](../pricing-costing/set-up-labor-cost-rate.md#transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity) ir [darbo sąskaitų tarifus](../pricing-costing/set-up-labor-bill-rate.md#transfer-pricing-or-set-up-bill-rates-for-resources-from-other-organizational-units-or-divisions). Perdavimo kainodara nepalaikoma atliekant įmonės vidaus išlaidų operacijas. Pardavimo tarp organizacijų kaina visada bus nustatyta tokia pati, kaip ir išteklių skyrimo vieneto savikaina.
 
-      „Contoso“ Robotics UK kūrėjų išteklių kaštai yra 88 GBP per valandą. „Contoso Robotics UK“ už kiekvieną valandą, kai šis išteklius dirba su JAV projektais, „Contoso Robotics USA“ apmokestina 120 USD. „Contoso Robotics USA“ už „Contoso Robotics UK“ kūrėjų ištekliaus atliktą darbą klientą „Adventure Works“ apmokestins 200 USD.
+      „Contoso Robotics UK“ kūrėjo išteklių savikaina yra 88 GBP už vieną valandą. „Contoso Robotics UK“ išrašys „Contoso Robotics USA“ 120 USD sąskaitą už kiekvieną valandą, kai šie ištekliai dirbo su US projektais. „Contoso Robotics USA“ išrašys klientui „Adventure Works“ 200 USD sąskaitą už darbą, kurį atliko „Contoso Robotics UK“ kūrėjo ištekliai.
 
-      1. „Project Operations“ „Dataverse“ aplinkoje eikite į **Pardavimas** > **Kainoraščiai**. Sukurkite naują savikainos kainoraštį pavadinimu **„Contoso Robotics UK“ savikainos tarifai**. 
+      1. „Project Operations“ „Dataverse“ aplinkoje eikite į **Pardavimas** > **Kainoraščiai**. Sukurkite naują savikainos kainoraštį, pavadintą **„Contoso Robotics UK“ savikainos tarifai.** 
       2. Savikainos kainoraštyje sukurkite įrašą nurodydami toliau pateiktą informaciją:
          - **Vaidmuo** = **Kūrėjas**
          - **Savikaina** = **88 GBP**
-      3. Nueikite į **Parametrai** > **Organizaciniai vienetai** ir šį savikainos kainoraštį pridėkite prie organizacinio vieneto **„Contoso Robotics UK“**.
-      4. Eikite į **Pardavimas** > **Kainoraščiai**. Sukurkite savikainos kainoraštį pavadinimu **„Contoso Robotics USA“ savikainos tarifai**. 
+      3. Eikite į **Parametrai** > **Organizacijos vienetai** ir pridėkite šį savikainos kainoraštį prie **Contoso Robotics UK** organizacijos vieneto.
+      4. Eikite į **Pardavimas** > **Kainoraščiai**. Sukurkite savikainos kainoraštį, pavadintą **„Contoso Robotics USA“ savikainos tarifai.** 
       5. Savikainos kainoraštyje sukurkite įrašą nurodydami toliau pateiktą informaciją:
           - **Vaidmuo** = **Kūrėjas**
-          - **Išteklių paskirstymo įmonė** = **„Contoso Robotics UK“**
+          - **Išteklių paskirstymo įmonė** = **Contoso Robotics UK**
           - **Savikaina** = **120 USD**
-      6. Nueikite į **Parametrai** > **Organizaciniai vienetai** ir savikainos kainoraštį **„Contoso Robotics USA“ savikainos tarifai** pridėkite prie organizacinio vieneto **„Contoso Robotics USA“**.
+      6. Eikite į **Parametrai** > **Organizacijos vienetai** ir pridėkite **„Contoso Robotics USA“ savikainos tarifų** kainoraštį prie **Contoso Robotics UK** organizacijos vieneto.
       7. Eikite į **Pardavimas** > **Kainoraščiai**. Sukurkite pardavimo kainoraštį, pavadintą **„Adventure Works“ sąskaitų tarifai**. 
       8. Pardavimo kainoraštyje sukurkite įrašą nurodydami toliau pateiktą informaciją:
           - **Vaidmuo** = **Kūrėjas**
-          - **Išteklių paskirstymo įmonė** = **„Contoso Robotics UK“**
+          - **Išteklių paskirstymo įmonė** = **Contoso Robotics UK**
           - **Sąskaitos tarifas** = **200 USD**
       9. Eikite į **Pardavimas** > **Projekto sutartys** ir pridėkite " **„Adventure Works“ sąskaitų tarifų** kainoraštį prie „Adventure Works“ projekto sutarties projekto kainoraščio.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,17 +2,17 @@
 title: Atsargose nelaikomų medžiagų įsigijimas naudojant laukiančią tiekėjo sąskaitą faktūrą
 description: Šioje temoje paaiškinama, kaip įrašyti laukiančias tiekėjų sąskaitas faktūras.
 author: sigitac
-ms.date: 09/13/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e95f7dabe597968707fdd2dead40bfb93d7f1f95
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: b5e6632d73c8a211b1f0d568be8e10ef47be77e2
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547299"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993813"
 ---
 # <a name="purchase-non-stocked-materials-using-a-pending-vendor-invoice"></a>Atsargose nelaikomų medžiagų įsigijimas naudojant laukiančią tiekėjo sąskaitą faktūrą
 
@@ -20,7 +20,7 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 
 Kai įmonė projektui įsigyja atsargose nelaikomų medžiagų, galima iš karto įrašyti projekto kaštus. 
 
-Pvz., „Contoso Robotics US“ vykdo įrangos atnaujinimo projektą ir nori programinės įrangos licencijų. Šios licencijos įsigyjamos iš trečiosios šalies tiekėjo.  Naudodamas „Dynamics 365 Finance“, mokėtinų sumų klerkas įrašo laukiančios tiekėjo sąskaitos faktūros dokumentą, o licencijos kaštus tiesiogiai priskiria įrangos atnaujinimo projektui. 
+Pavyzdžiui, „Contoso Robotics US“ vykdo įrangos atnaujinimo projektą ir turi gauti programinės įrangos licencijų. Šios licencijos įsigyjamos iš trečiosios šalies tiekėjo.  Naudodamas „Dynamics 365 Finance“, mokėtinų sumų klerkas įrašo laukiančios tiekėjo sąskaitos faktūros dokumentą, o licencijos kaštus tiesiogiai priskiria įrangos atnaujinimo projektui. 
 
 > [!IMPORTANT]
 > Prieš naudodami šioje temoje aprašytas funkcijas, peržiūrėkite ir pritaikykite reikiamas konfigūracijas. Norėdami sužinoti daugiau, žr. [Galimybės naudoti atsargose nelaikomas medžiagas ir laukiančias tiekėjų sąskaitas faktūras įjungimas](configure-materials-nonstocked.md). 
@@ -45,5 +45,4 @@ Laukiančias tiekėjų sąskaitas faktūras galima įrašyti puslapyje **Laukian
     - Tiekėjo balanso suma.
     - PVM suma.
     - Projekto kaštai įrašomi į viešųjų pirkimų integravimo sąskaitą.
-    - Projekto faktinės savikainos operacija, pateikta „Dataverse“.  Ši operacija toliau apdorojama naudojant [„Project Operations“ integravimo žurnalą](../project-accounting/project-operations-integration-journal.md). Užregistravus šį žurnalą, suma iš viešųjų pirkimų integravimo sąskaitos perkeliama į projekto kaštų sąskaitą. 
-    - Pirkiniai, už kuriuos projekto klientui išrašomos sąskaitos naudojant sąskaitų išrašymo pagal laiką ir medžiagas būdą. Be to, pirkiniams „Dataverse“ sukuriamos pardavimo operacijos, kurioms neišrašyta sąskaita. Pardavimo kainoms ir pardavimo operacijoms, kurioms neišrašytos sąskaitos, naudojamas „Dataverse“ produktų kainoraštis.
+    - Projekto faktinė operacija sprendime „Dataverse“. Ši operacija toliau apdorojama naudojant [„Project Operations“ integravimo žurnalą](../project-accounting/project-operations-integration-journal.md). Užregistravus šį žurnalą, suma iš viešųjų pirkimų integravimo sąskaitos perkeliama į projekto kaštų sąskaitą.

@@ -2,9 +2,11 @@
 title: Projektų sutarčių ir projektų sinchronizavimas tiesiogiai iš „Project Service Automation“ į „Finance“
 description: Šioje temoje aprašomi šablonas ir pagrindinės užduotys, kurie naudojami norint sinchronizuoti projekto sutartis ir projektus tiesiogiai iš „Microsoft Dynamics 365 Project Service Automation“ į „Dynamics 365 Finance“.
 author: Yowelle
+manager: AnnBe
 ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: acb87be977cc009f89ceac5b01c9028d6741b552a441ef49e024b6b078a188d4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1a470fd86ceccd7b6058da6972399a6d6be2a991
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001081"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764829"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Projektų sutarčių ir projektų sinchronizavimas tiesiogiai iš „Project Service Automation“ į „Finance“ 
 
@@ -42,7 +44,7 @@ Naudojant „Project Service Automation“ į „Finance“ integravimo sprendim
 
 Šioje iliustracijoje pavaizduota, kaip duomenys sinchronizuojami tarp „Project Service Automation“ ir „Finance“.
 
-[![„Project Service Automation“ ir „Finance“ integravimo duomenų srautas.](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
+[![„Project Service Automation“ ir „Finance“ integravimo duomenų srautas](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
 
 ## <a name="templates-and-tasks"></a>Šablonai ir užduotys
 
@@ -107,8 +109,8 @@ Taikant „Project Service Automation” į „Finance” integravimo sprendimą
 ## <a name="prerequisites-and-mapping-setup"></a>Būtinosios sąlygos ir susiejimo sąranka
 
 - Prieš atliekant projekto sutarčių ir projektų sinchronizavimą, reikia sinchronizuoti klientus.
-- Savo ryšių rinkinyje įtraukite integravimo rakto lauko susiejimą **msdyn\_organizationalunits** į **msdyn\_name \[pavadinimas\]**. Galbūt pirma reikės įtraukti projektą į ryšių rinkinį. Norėdami gauti daugiau informacijos žr. [Duomenų integravimas į „Common Data Service”, skirta programoms](/powerapps/administrator/data-integrator).
-- Savo ryšių rinkinyje įtraukite integravimo rakto lauko susiejimą **msdyn\_projects** į **msdynce\_projectnumber \[projekto numeris\]**. Galbūt pirma reikės įtraukti projektą į ryšių rinkinį. Norėdami gauti daugiau informacijos žr. [Duomenų integravimas į „Common Data Service”, skirta programoms](/powerapps/administrator/data-integrator).
+- Savo ryšių rinkinyje įtraukite integravimo rakto lauko susiejimą **msdyn\_organizationalunits** į **msdyn\_name \[pavadinimas\]**. Galbūt pirma reikės įtraukti projektą į ryšių rinkinį. Norėdami gauti daugiau informacijos žr. [Duomenų integravimas į „Common Data Service”, skirta programoms](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+- Savo ryšių rinkinyje įtraukite integravimo rakto lauko susiejimą **msdyn\_projects** į **msdynce\_projectnumber \[projekto numeris\]**. Galbūt pirma reikės įtraukti projektą į ryšių rinkinį. Norėdami gauti daugiau informacijos žr. [Duomenų integravimas į „Common Data Service”, skirta programoms](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 - Projektų sutarčių ir projektų **SourceDataID** gali būti atnaujintas į kitą reikšmę arba pašalintas iš susiejimo. Numatytoji šablono reikšmė yra **„Project Service Automation”**.
 - Susiejimas **PaymentTerms** turi būti atnaujintas, kad atspindėtų galiojančias mokėjimo sąlygas programoje „Finance”. Taip pat galite pašalinti susiejimą iš projekto užduoties. Numatytosios reikšmės struktūroje yra numatytosios demonstracinių duomenų reikšmės. Šioje lentelėje pateikiamos „Project Service Automation” esančios reikšmės.
 
@@ -129,7 +131,7 @@ Naudokite „Microsoft Power Query for Excel“ duomenims filtruoti, jei laikoma
 Jei reikia naudoti „Power Query“, vadovaukitės toliau pateikiamais nurodymais.
 
 - Projektų ir sutarčių (PSA į „Fin and Ops“) šablone yra numatytasis filtras, kuriame yra tik **Darbo elemento (msdyn\_ordertype = 192350001)** tipo pardavimo užsakymai. Šis filtras padeda užtikrinti, kad nebūtų kuriamos projektų sutartys, skirtos pardavimo užsakymams programoje „Finance”. Kurdami savo šabloną, turite įtraukti šį filtrą.
-- Sukurkite „Power Query“ filtrą, kuriame yra tik sutarties organizacijos, kurias reikia sinchronizuoti su integravimo ryšio rinkinio juridiniu subjektu. Pavyzdžiui, projektų sutartys, kurias esate sudarę su sutarties organizaciniu vienetu „Contoso US“, turi būti sinchronizuojamos su juridiniu subjektu USSI, tačiau projektų sutartys, kurias esate sudarę su sutarties organizaciniu vienetu „Contoso Global“, turi būti sinchronizuojamos su juridiniu subjektu USMF. Jei neįtrauksite šio filtro į užduočių susiejimą, visos projektų sutartys bus sinchronizuojamos su juridiniu subjektu, nustatytu ryšio rinkiniui, neatsižvelgiant į sutarties organizacijos vienetą.
+- Sukurkite „Power Query“ filtrą, kuriame yra tik sutarties organizacijos, kurias reikia sinchronizuoti su integravimo ryšio rinkinio juridiniu subjektu. Pavyzdžiui, projektų sutartys, kurias turite sudarę su sutarčių organizacijos vienetu „Contoso“, JAV, turi būti sinchronizuojamos su USSI juridiniu subjektu, o projektų sutartys, kurias turite sudarę su sutarčių organizacijos vienetu „Contoso Global“, turi būti sinchronizuojamos su USMF juridiniu subjektu. Jei neįtrauksite šio filtro į užduočių susiejimą, visos projektų sutartys bus sinchronizuojamos su juridiniu subjektu, nustatytu ryšio rinkiniui, neatsižvelgiant į sutarties organizacijos vienetą.
 
 ## <a name="template-mapping-in-data-integration"></a>Šablonų susiejimas pasirinkus Duomenų integravimas
 
@@ -140,17 +142,14 @@ Jei reikia naudoti „Power Query“, vadovaukitės toliau pateikiamais nurodyma
 
 Šiose iliustracijose pateikiami duomenų integravimo šablonų užduočių susiejimų pavyzdžiai. Susiejime rodoma lauko informacija, kuri bus sinchronizuojama iš „Project Service Automation“ į „Finance“.
 
-[![Projekto sutarties šablono susiejimas.](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
+[![Projekto sutarties šablono susiejimas](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
 
-[![Projekto šablono susiejimas.](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
+[![Projekto šablono susiejimas](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
 
-[![Projekto sutarties eilučių šablono susiejimas.](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
+[![Projekto sutarties eilučių šablono susiejimas](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
 
-[![Projekto sutarties eilutės etapo šablono susiejimas.](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
+[![Projekto sutarties eilutės etapo šablono susiejimas](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
 
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Projekto sutarties eilutės etapo susiejimas projektų ir sutarčių dalyje (PSA 3.x į „Dynamics”) – v2 šablonas.
 
-[![Projekto sutarties eilutės etapo susiejimas su antros versijos šablonu.](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[![Projekto sutarties eilutės etapo susiejimas su antros versijos šablonu](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)

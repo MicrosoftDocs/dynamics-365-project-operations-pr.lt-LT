@@ -2,17 +2,17 @@
 title: Atsargose nelaikomų medžiagų ir laukiančių tiekėjo sąskaitų faktūrų konfigūravimas
 description: Šioje temoje paaiškinta, kaip įjungti atsargose nelaikomų medžiagų ir laukiančių tiekėjo sąskaitų faktūrų naudojimo galimybę.
 author: sigitac
-ms.date: 06/22/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9b55d959228062fc3577cf7f12d8926f51e9791f98c73fdc4b78251312a8a77a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 24418f3aad8356bd209eef7487a47a3870bce10f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003241"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993921"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Atsargose nelaikomų medžiagų ir laukiančių tiekėjo sąskaitų faktūrų konfigūravimas
 
@@ -59,11 +59,11 @@ Jei naudojate standartinius demonstracinius duomenis, taip pat gali reikėti sus
 
 ### <a name="activate-workflow-to-create-accounts-based-on-vendor-entity"></a>Darbo eigos suaktyvinimas norint kurti klientus pagal tiekėjo objektą
 
-Sprendimas Dvigubo rašymo tvarkymas suteikia [pagrindinio tiekėjų integravimo funkciją](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping). Norint naudoti šią funkciją, objekte **Klientai** būtina sukurti klientų duomenų. Suaktyvinkite šablono darbo eigos procesą, kad lentelėje **Klientai** būtų sukurti tiekėjai, kaip aprašyta dalyje [Vieno tiekėjo dizaino perjungimas į kitą](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch).
+Sprendimas Dvigubo rašymo tvarkymas suteikia [pagrindinio tiekėjų integravimo funkciją](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping.md). Norint naudoti šią funkciją, objekte **Klientai** būtina sukurti klientų duomenų. Suaktyvinkite šablono darbo eigos procesą, kad lentelėje **Klientai** būtų sukurti tiekėjai, kaip aprašyta dalyje [Vieno tiekėjo dizaino perjungimas į kitą](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch.md#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
 
 ### <a name="set-products-to-be-created-as-active"></a>Nustatymas, kad produktai būtų kuriami kaip aktyvūs
 
-Atsargose nelaikomos medžiagos sprendime „Finance“ turi būti sukonfigūruotos kaip **Išleisti produktai**. Sprendimas Dvigubo rašymo tvarkymas suteikia parengtą naudoti [išleistų produktų integravimo į „Dataverse“ produktų katalogą funkciją](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping). Numatyta, kad „Finance“ produktai su „Dataverse“ sinchronizuojami juodraščio būsenos. Norėdami produktą sinchronizuoti aktyvios būsenos, kad jį būtų galima tiesiogiai naudoti medžiagų naudojimo dokumentuose arba laukiančiose tiekėjų sąskaitose faktūrose, nueikite į **Sistema** > **Administravimas** > **Sistemos administravimas** > **Sistemos parametrai** ir skirtuke **Pardavimas** parinktį **Kurti aktyvios būsenos produktus** nustatykite kaip **Taip**.
+Atsargose nelaikomos medžiagos sprendime „Finance“ turi būti sukonfigūruotos kaip **Išleisti produktai**. Sprendimas Dvigubo rašymo tvarkymas suteikia parengtą naudoti [išleistų produktų integravimo į „Dataverse“ produktų katalogą funkciją](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping.md). Numatyta, kad „Finance“ produktai su „Dataverse“ sinchronizuojami juodraščio būsenos. Norėdami produktą sinchronizuoti aktyvios būsenos, kad jį būtų galima tiesiogiai naudoti medžiagų naudojimo dokumentuose arba laukiančiose tiekėjų sąskaitose faktūrose, nueikite į **Sistema** > **Administravimas** > **Sistemos administravimas** > **Sistemos parametrai** ir skirtuke **Pardavimas** parinktį **Kurti aktyvios būsenos produktus** nustatykite kaip **Taip**.
 
 ## <a name="configure-prerequisites-in-finance"></a>Būtinųjų „Finance“ komponentų konfigūravimas
 
@@ -88,7 +88,7 @@ Naudodami „Project Operations“, galite įrašyti išleistame produktų katal
 2. Lauke **Produkto tipas** pasirinkite **Prekė**, o lauke **Produkto potipis** – **Produktas**.
 3. Įveskite produkto numerį (WRITEIN) ir produkto pavadinimą (Įtraukiamasis produktas).
 4. Pasirinkite prekės modelių grupę. Įsitikinkite, kad jūsų pasirinktos prekės modelių grupės laukas **Atsargų strategija, atsargose laikomas produktas** nustatytas kaip **Klaidinga**.
-5. Pasirinkite reikšmes laukuose **Prekių grupė**, **Saugyklos dimensijų grupė** ir **Sekimo dimensijų grupė**. Elementą **Saugojimo dimensija** naudokite tik su elementu **Vieta**, o lauke **Sekimo dimensijos** pasirinkite **Nėra**.
+5. Pasirinkite reikšmes laukuose **Prekių grupė**, **Saugyklos dimensijų grupė** ir **Sekimo dimensijų grupė**. **Saugyklos dimensiją** naudokite tik su **vieta** ir nenustatykite jokių sekimo dimensijų.
 6. Pasirinkite reikšmes laukuose **Atsargų vienetas**, **Pirkimo vienetas** ir **Pardavimo vienetas**, tada įrašykite pakeitimus.
 7. Skirtuke **Planas** nustatykite numatytuosius užsakymų parametrus, o skirtuke **Atsargos** – numatytąją vietą ir sandėlį.
 8. Nueikite į **Projektų tvarkymas ir apskaita** > **Sąranka** > **Projektų tvarkymo ir apskaitos parametrai** bei atidarykite **„Project Operations“ naudojant „Dynamics 365 Dataverse“**. 

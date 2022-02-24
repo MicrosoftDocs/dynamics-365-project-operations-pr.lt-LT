@@ -2,26 +2,28 @@
 title: Projektų valdymo ir apskaitos apžvalga
 description: Projektų valdymo ir apskaitos funkcijas galima naudoti keliose pramonės šakose, siekiant teikti paslaugas, gaminti produktą arba pasiekti rezultatą.
 author: Yowelle
+manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 634e35f7bd399d3d97659b4bd6f2f3a6dbd5839f
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007516"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080979"
 ---
 # <a name="project-management-and-accounting-overview"></a>Projektų valdymo ir apskaitos apžvalga
 
@@ -34,14 +36,14 @@ Projektas yra veiklų, sukurtų norint teikti paslaugą, gaminti produktą arba 
 ## <a name="projects-across-industries"></a>Projektai visose pramonės šakose
 Projektų valdymo ir apskaitos funkcijas galima naudoti keliose pramonės šakose, kaip pavaizduota tolesnėje iliustracijoje.
 
-[![Projektai visose pramonės šakose.](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+[![Projektai visose pramonės šakose](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 Skambučių centre bilietą galima naudoti norint aprašyti veiksmų, kurių reikia norint išspręsti problemą, rinkinį. Konsultavimo įmonės, pvz., valdymo, techninio konsultavimo organizacijos arba reklamavimo agentūros, savo veiklą vadina projektais. Rinkodaros kampanija yra darbo, kurį reikia pristatyti, rinkinys. Projektu grįstoje gamyboje gamybos užsakymas susieja įvairius darbus, kuriuos reikia atlikti tam tikrų gatavų prekių gamybai. Kad ir koks jų pavadinimas būtų naudojamas, šie projektai apima išteklius, grafikus ir išlaidas, o projektų valdymo ir apskaitos funkcijos gali padėti planuoti, vykdyti ir analizuoti šiuos projektus.
 
 ## <a name="project-phases"></a>Projekto etapai
 Nors šis procesų srautas skirtas išoriniams projektams arba projektui, kuris užbaigtas vienam ar keliems klientams, funkcijos taip pat taikomos vidiniams, tik išlaidų projektams. 
 
-![3 projekto etapai.](./media/3-stages-of-a-project.png) 
+![3 projekto etapai](./media/3-stages-of-a-project.png) 
 
 Kaip pavaizduota pirmesnėje iliustracijoje, projektų valdymą ir apskaitą galima suskirstyti į tris etapus:
 
@@ -50,7 +52,7 @@ Kaip pavaizduota pirmesnėje iliustracijoje, projektų valdymą ir apskaitą gal
 3.  Analizuoti
 
 ## <a name="initiate-the-project"></a>Projekto inicijavimas
-Projekto inicijavimo metu vyksta keli pagrindiniai procesai. Galite naudoti projekto pasiūlymą, kad praneštumėte klientui apie numatomus darbus, išlaidas ir medžiagas. Galite įrašyti sąskaitos išrašymo sąlygas, limitus ir susitarimus projekto sutartyje. Galite naudoti darbo paskirstymo struktūrą (WBS) darbui planuoti ir įvertinti. Galite nustatyti prognozes ir sąmatas, skirtas projekto vykdymui vesti. Šioje iliustracijoje parodyta projekto struktūra.[![projekto struktūra.](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+Projekto inicijavimo metu vyksta keli pagrindiniai procesai. Galite naudoti projekto pasiūlymą, kad praneštumėte klientui apie numatomus darbus, išlaidas ir medžiagas. Galite įrašyti sąskaitos išrašymo sąlygas, limitus ir susitarimus projekto sutartyje. Galite naudoti darbo paskirstymo struktūrą (WBS) darbui planuoti ir įvertinti. Galite nustatyti prognozes ir sąmatas, skirtas projekto vykdymui vesti. Šioje iliustracijoje parodyta projekto struktūra.[![projekto struktūra](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
 ### <a name="create-project-quotations"></a>Projekto pasiūlymų kūrimas
 
@@ -126,7 +128,7 @@ Toliau pateikiami keli būdai, kaip galite naudoti išteklių planavimo funkcij�
 -   Modifikuokite išteklių priskyrimus skirtingiems laiko vienetams, pvz., dienai, savaitei ar mėnesiui, ir optimizuokite darbuotojų naudojimo būdą.
 
 ## <a name="execute-the-project"></a>Projekto vykdymas
-Projekto vykdymo metu, komandos nariai arba vadovai įrašo darbą ir patirtas išlaidas naudodami grafikus, išlaidų ataskaitas ir kitus verslo dokumentus. Projektų vadovai turi įrankius, kurie leidžia stebėti projekto biudžeto sumų naudojimą. Projektų vadovai taip pat gali užsakyti, paimti arba įsigyti projektui reikalingų medžiagų naudodami pirkimo užsakymus ir kitus verslo dokumentus. Sąskaitos faktūros parengiamos ir patvirtinamos, kad klientui būtų išrašyta sąskaita už vykdomą veiklą. Galiausiai, šio proceso metu pajamos pripažįstamos, kad turėtų poveikį organizacijos finansams.
+Projektų vykdymo metu, komandos nariai arba administratoriai įrašo darbą ir patirtas išlaidas naudodami grafikus, išlaidų ataskaitas ir kitus dokumentus. Projektų vadovai turi įrankius, kurie leidžia stebėti projekto biudžeto sumų naudojimą. Projektų vadovai taip pat gali užsakyti, paimti arba įsigyti projektui reikalingų medžiagų naudodami pirkimo užsakymus ir kitus verslo dokumentus. Sąskaitos faktūros parengiamos ir patvirtinamos, kad klientui būtų išrašyta sąskaita už vykdomą veiklą. Galiausiai, šio proceso metu pajamos pripažįstamos, kad turėtų poveikį organizacijos finansams.
 
 ### <a name="manage-work-breakdown-structures"></a>Darbo paskirstymo struktūrų valdymas
 
@@ -203,7 +205,7 @@ Užsakyti prekių, skirtų sunaudoti projekte, galite iš įmonės atsargų.. Ar
 
 Prekių užsakymo būdas priklauso nuo to, kur jas užsakote.
 
--   Norėdami užsakyti prekių iš įmonės atsargų, turite įvesti užsakymą kaip prekės poreikį. Jei naudojate puslapį **Prekės poreikis**, galite nustatyti poreikį taip, kad gautumėte prekes kaip dalinius pristatymus. Todėl galite atidėti prekių kiekio sunaudojimą, kol prekės bus būtinos.
+-   Norėdami užsakyti prekių iš įmonės atsargų, turite įvesti užsakymą kaip prekės poreikį. Jei naudojate puslapį **Prekės poreikis**, galite nustatyti poreikį taip, kad gautumėte prekes kaip dalinius pristatymus.Todėl galite atidėti prekių kiekio sunaudojimą, kol prekės bus būtinos.
 -   Norėdami užsakyti prekes iš išorinio tiekėjo, turite sukurti užsakymą kaip pirkimo užsakymo puslapyje **Pirkimo užsakymas**.
 
 > [!NOTE] 
@@ -225,12 +227,12 @@ Projekto tipas apibrėžia, kurią SF išrašymo procedūrą reikia taikyti. SF 
 Prieš kurdami projekto kliento SF, galite sukurti preliminarią SF arba SF pasiūlymą. SF pasiūlyme galite pasirinkti projekto operacijas, kurias norite įtraukti į projekto SF. Tada galite peržiūrėti SF informaciją ir projekto SF registruoti bei išsiųsti klientui ar kitam lėšų skyrimo šaltiniui. 
 
 
-Daugiau informacijos apie tai, kaip apdoroti projekto SF, žr. [Projekto SF išrašymas](/dynamics365/finance/accounts-payable/project-invoicing).
+Daugiau informacijos apie tai, kaip apdoroti projekto SF, žr. [Projekto SF išrašymas](https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing).
 
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Projekto baigimo sąnaudų skaičiavimas
 
-Kai kuriate įvertinimą, galite pasirinkti metodą, naudojamą skaičiuoti projekto baigimo sąnaudoms. Metodą galite pasirinkti puslapio **Kurti įvertinimą** lauke **Baigimo sąnaudų metodas**.  Jūsų pasirinktas metodas taikomas atskirai kiekvienai sąnaudų eilutei. Kai eilutės būsena yra **Sukurta**, galite pakeisti jai taikomą metodą puslapyje **Sąnaudų įvertinimas**. 
+Kai kuriate įvertinimą, galite pasirinkti metodą, naudojamą skaičiuoti projekto baigimo sąnaudoms. Metodą galite pasirinkti puslapio **Kurti įvertinimą** lauke **Baigimo sąnaudų metodas**.  Jūsų pasirinktas metodas taikomas atskirai kiekvienai sąnaudų eilutei. Nors eilutės būsena yra **Sukurta**, galite pakeisti taikomą metodą puslapyje **Sąnaudų įvertinimas**. 
 
 Tolesnėje lentelėje aprašyti projekto baigimo sąnaudų apskaičiavimo metodai.
 
@@ -298,7 +300,7 @@ Pagal savo sąranką, galite prognozuoti pasirinkto projekto grynųjų pinigų �
 -   **Projekto data:** 2012 m. kovo 5 d.
 -   **SF išrašymo data:** 2012 m. kovo 31 d. Ši data nustatoma pagal SF dažnumą. Šiame pavyzdyje SF dažnumą nustatote iki einamojo mėnesio. Todėl visoms kovo mėnesį užregistruotoms operacijoms SF išrašomos paskutinę mėnesio dieną.
 -   **Terminas:** 2012 m. balandžio 14 d. Ši data nustatoma pagal mokėjimo, nustatyto projektui, sąlygas. Šiame pavyzdyje pasirinkote 14 dienų mokėjimo sąlygas. Todėl į SF pridedamos 14 dienų, ir SF pristatymo terminas yra 2012 m. balandžio 14 d.
--   **Numatyta pardavimo mokėjimo data:** 2012 m. balandžio 27 d. Ši data apskaičiuojama dienų skaičių, nurodytą puslapio **Projekto valdymo ir apskaitos parametrai** lauke **Bendros papildomos dienos**, pridėjus prie dienų skaičiaus, nurodyto puslapio **Projekto sutartys** lauke **Atskiros papildomos dienos**, o tada šią bendrąją sumą pridėjus prie dienų skaičiaus, nburodyto lauke **Terminas**. Šiame pavyzdyje lauke **Bendros papildomos dienos** įvedėte **3**, o lauke **Atskiros papildomos dienos** – **10**. Todėl prie termino pridedamos 13 dienų, ir numatoma pardavimo mokėjimo data yra 2012 m. balandžio 27 d.
+-   **Numatyta pardavimo mokėjimo data:** 2012 m. balandžio 27 d. Ši data apskaičiuojama dienų skaičių, nurodytą puslapio **Projektų valdymo ir apskaitos parametrai**  lauke **Bendros papildomos dienos**, pridėjus prie dienų skaičiaus, nurodyto puslapio **Projekto sutartys** lauke **Atskiros papildomos dienos**, ir tada šią bendrąją sumą pridėjus prie dienų skaičiaus lauke **Terminas**. Šiame pavyzdyje lauke **Bendros papildomos dienos** įvedėte **3**, o lauke **Atskiros papildomos dienos** – **10**. Todėl prie termino pridedamos 13 dienų, ir numatoma pardavimo mokėjimo data yra 2012 m. balandžio 27 d.
 
 Bendros papildomos dienos gali pakeisti atskiras papildomas dienas arba jas prie atskirų papildomų dienų galima pridėti.
 
@@ -309,7 +311,7 @@ Projekto sutartyje nustatykite atskiras papildomas dienas. Dienos apskaičiuojam
 
 #### <a name="actual-cash-inflow"></a>Faktiniai grynųjų pinigų srautai
 
-Faktinės grynųjų pinigų įplaukos panašios į prognozavimą, tačiau galite pradėti skaičiavimus nuo pirmosios SF datos. Štai pavyzdys:
+Faktinis grynųjų pinigų srautas panašus į prognozavimą, tačiau galite pradėti skaičiavimus nuo pirmosios SF datos. Štai pavyzdys:
 
 -   **SF išrašymo data:** 2012 m. kovo 2 d.
 -   **Terminas:** 2012 m. kovo 16 d. Nustatomas 14 dienų trukmės mokėjimo terminas.
@@ -369,7 +371,7 @@ Jei puslapyje **Projektų valdymo ir apskaitos parametrai** kaip išlaidų valdy
 -   **Likęs biudžetas** – pradinio biudžeto sumos dalis, kurią vis dar galima naudoti pasirinktoje sąnaudų eilutėje. Likusio biudžeto suma apskaičiuojama puslapyje **DK peržiūra**.
 -   **Bendrosios išlaidos** – bendrųjų išlaidų, fiksuotų išlaidų ir likusio biudžeto sumų suma.
 
-Puslapio **Išlaidų valdymas** skirtuke **Nuokrypis** galite peržiūrėti visų numatytų išlaidų palyginimą su pradiniu biudžetu. Šis palyginimas parodo visus šių sumų skirtumus. Todėl galite matyti, kur duomenys nesutampa. Nuokrypio sumos apskaičiuojamos tolesniais būdais.
+Puslapio **Išlaidų valdymas** skirtuke **Nuokrypis** galite peržiūrėti visų prognozuotų išlaidų palyginimą su pradiniu biudžetu. Šis palyginimas parodo visus šių sumų skirtumus. Todėl galite matyti, kur duomenys nesutampa. Nuokrypio sumos apskaičiuojamos tolesniais būdais.
 
 -   **Pradinis biudžetas** – suma, kuri pradžioje buvo įtraukta į pasirinktą sąnaudų eilutę. Pradinio biudžeto suma apskaičiuojama puslapyje **DK peržiūra**.
 -   **Bendrosios išlaidos** – bendrųjų išlaidų, fiksuotų išlaidų ir likusio biudžeto sumų suma, kaip rodoma skirtuke **Bendra**.
@@ -379,7 +381,7 @@ Puslapio **Išlaidų valdymas** skirtuke **Nuokrypis** galite peržiūrėti vis�
 
 #### <a name="viewing-the-total-budgeted-amounts"></a>Bendrojo biudžeto sumų peržiūra
 
-Jei puslapyje **Projektų valdymo ir apskaitos parametrai** kaip išlaidų valdymo metodas pasirinktas **Visas biudžetas**, puslapyje **Išlaidų valdymas** skaičiuojamos projekto faktinės išlaidos ir visos išlaidos, kad būtų lengviau aptikti bet kokius jų skirtumus.  T. y. puslapyje **Išlaidų valdymas**, sumos, esančios skirtuko **Bendra** apatinės srities stulpeliuose, skaičiuojamos šiais būdais:
+Jei puslapyje **Projektų valdymo ir apskaitos parametrai** kaip išlaidų valdymo metodas pasirinktas **Visas biudžetas**, puslapyje **Išlaidų valdymas** skaičiuojamos projekto faktinės išlaidos ir visos išlaidos, kad būtų lengviau aptikti bet kokius jų skirtumus.  T. y. puslapyje **Išlaidų valdymas**, sumos, esančios skirtuko **Bendra** apatinės srities stulpeliuose, skaičiuojamos tolesniais būdais.
 
 -   **Visos biudžeto išlaidos** – visa pasirinktos sąnaudų eilutės biudžeto suma.
 -   **Faktinės išlaidos** – visa pasirinktų sąnaudų eilučių suma, iki šiol patirta vykdant projektą.
@@ -412,11 +414,11 @@ Naudingumo koeficientai skaičiuojami **Valandų sunaudojimas**. Skaičiavimai g
 -   **Pagal eilutės ypatybę** – ar, skaičiuojant apmokėtiną ar efektyvumo koeficientą, atsižvelgiama į valandas, nustatoma pagal konkrečios valandinės operacijos eilutės ypatybes.
 -   **Neįtraukta** – valandos nėra įskaičiuojamos į apmokėtiną ar efektyvumo koeficientą.
 
-Puslapyje **Valandų efektyvumas** be bendro darbuotojo ar projekto naudingumo koeficiento procento galite peržiūrėti kiekvienų iš tolesnių valandų tipų skaičių, kuris buvo naudojamas skaičiuoti naudingumo koeficientui.
+Puslapyje **Valandų naudojimas** be bendro darbuotojo ar projekto naudingumo koeficiento procento galite peržiūrėti kiekvienų iš tolesnių valandų tipų skaičių, kuris buvo naudojamas skaičiuoti naudingumo koeficientui.
 
 -   **Neįtrauktos valandos** – šios valandos neįtrauktos į valandų naudingumo koeficientą.
 -   **Įtrauktos valandos** – šios valandos apskaičiuojamos sudėjus efektyvias valandas ir neefektyvias valandas. Šios valandos įtraukiamos į naudingumo koeficientą.
--   **Neefektyvios valandos** – jei skaičiuojate apmokėjimo koeficientą, šios valandos yra tokios pat kaip neapmokestinamos valandos. Jei skaičiuojate efektyvumo koeficientą, šios valandos yra tokios pat kaip neproduktyvios valandos.
+-   **Neefektyvios valandos** – jei skaičiuojate apmokėtiną koeficientą, šios valandos yra tokios pat kaip neapmokestinamos valandos. Jei skaičiuojate efektyvumo koeficientą, šios valandos yra tokios pat kaip neproduktyvios valandos.
 -   **Efektyvios valandos** – jei skaičiuojate apmokėtiną koeficientą, šios valandos yra tokios pat kaip apmokestinamos valandos. Jei skaičiuojate efektyvumo koeficientą, šios valandos yra tokios pat kaip produktyvios valandos.
 
 Skaičiuodami darbuotojo naudingumo koeficientą, galite naudoti standartines valandas arba įtrauktas valandas. Jei naudojate įtrauktas valandas, turite užtikrinti, kad darbuotojai įrašytų visą savo grafiko laikotarpių darbo laiką, nes skaičiavimas išreiškiamas kaip įvestų valandų procentas. Kai skaičiuojate projekto, projekto sutarties, kliento įrašo arba kategorijos valandų efektyvumo koeficientą, skaičiavimams turite naudoti įtrauktas valandas.
@@ -438,6 +440,3 @@ Kai išrašas apskaičiuotas, įvairiuose puslapio **Projekto išrašai** skirtu
 -   **Sunaudojimas** – informacija apie valandų, prekių, išlaidų ir algalapių operacijų naudojimą.
 -   **Sąskaita faktūra** – informacija apie sąskaitas faktūras ir sąskaitų faktūrų klientams išrašymą.
 -   **Valandų įkainis** – valandų, kurios užregistruotos pajamų ir išlaidų sąskaitose, įkainiai.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

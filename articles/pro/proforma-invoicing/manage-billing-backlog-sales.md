@@ -1,23 +1,25 @@
 ---
-title: Projekto atsiskaitymo nebaigtų užduočių valdymas
-description: Šioje temoje pateikiama informacija apie įvairius galimus naudoti rodinius valdant projektų nebaigtas užduotis.
+title: Nebaigtų atsiskaitymo užduočių tvarkymas – „Lite“ versija
+description: Šioje temoje pateikta informacija apie įvairius rodinius, kuriuos galima naudoti tvarkant nebaigtas atsiskaitymo užduotis.
 author: rumant
+manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 27ef2ae90778394d15b979a13215c8f5af483cda0312682e9fc7256b8282b999
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0e3ca167fa53a6923727eff3e7c34c8706dc7455
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988301"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176981"
 ---
-# <a name="manage-project-billing-backlog"></a>Projekto atsiskaitymo nebaigtų užduočių valdymas 
+# <a name="manage-the-billing-backlog---lite"></a>Nebaigtų atsiskaitymo užduočių tvarkymas – „Lite“ versija
 
 _**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
 
-„Dynamics 365 Project Operations“ programoje yra specialieji rodiniai, kad būtų lengviau tvarkyti nebaigtas atsiskaitymo užduotis. Norėdami tvarkyti nebaigtas atsiskaitymo užduotis, pasirinkite saitus dalies **Atsiskaitymas** srityje **Pardavimas**. 
+„Dynamics 365 Project Operations“ turi specialių rodinių, kad būtų lengviau tvarkyti nebaigtas atsiskaitymo užduotis. Norėdami tvarkyti nebaigtas atsiskaitymo užduotis, pasirinkite saitus dalies **Atsiskaitymas** srityje **Pardavimas**. 
 
 Yra tolesni rodiniai.
 
@@ -58,6 +60,3 @@ Faktinių pardavimo, už kurį neatsiskaityta, duomenų, kurių **Neviršyti** b
 Jei kelių klientų sutarčių eilutėse taikomas atsiskaitymo už laiką ir medžiagas metodas, patvirtinant laiką ir išlaidas, kiekvienam sutarties eilutės klientui pagal sutarties atsiskaitymo procento išskaidymą, apibrėžtą kiekvienam klientui, sukuriamas pardavimo, už kurį neatsiskaityta, duomuo. Rodinyje **Nebaigtos atsiskaitymo už laiką ir medžiagas užduotys** matysite šiuos atskirus konkretiems klientams taikomus pardavimo, už kurį neatsiskaityta, faktinius duomenis. Kiekviena iš šių neapmokestinto pardavimo sumų gali būti pažymėta kaip **Parengta išrašyti sąskaitą faktūrą** atskirai nuo šio rodinio.
 
 Pardavimo, už kurį neatsiskaityta, faktinis duomuo, esantis sąskaitos faktūros juodraštyje, šiame rodinyje rodomas nustačius būseną **Kliento sąskaita faktūra sukurta**. Patvirtinus sąskaitos faktūros juodraštį, šio įrašo atsiskaitymo būsena atnaujinama į **Kliento sąskaita faktūra užregistruota**. Neatnaujinkite šios būsenos reikšmės naudodami pasirinktinį kodą. Kai šios būsenos reikšmės atnaujinamos naudojant pasirinktinį kodą, „Project Operations“ veikia netinkamai.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

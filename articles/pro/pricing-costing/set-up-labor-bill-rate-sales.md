@@ -2,22 +2,24 @@
 title: Darbo sąskaitų tarifų sąranka – „Lite“ versija
 description: Šioje temoje pateikta informacija apie atsiskaitymo už darbą tarifų nustatymą naudojant „Project Operations“.
 author: rumant
+manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9b8c4a19260156480e40f2cc26afa83df3ec9fe9de53edc0ad0ca8c7b78bf352
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cf53f6909ed5fb9b143197118c799b9803699171
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007606"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181192"
 ---
 # <a name="set-up-labor-bill-rates---lite"></a>Darbo sąskaitų tarifų sąranka – „Lite“ versija
 
 _**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
 
-Kiekviename kainoraštyje yra galiojančių vaidmenų kainų arba darbo tarifų rinkinys ir galiojimo data, įtraukta į kainoraščio antraštę. Sąskaitų tarifai už laiką programoje „Dynamics 365 Project Operations“ gali būti nustatyti tik viena valiuta, kuri yra nurodyta kainoraščio antraštėje.
+Kiekviename kainoraštyje yra galiojančių vaidmenų kainų arba darbo tarifų rinkinys ir galiojimo data, įtraukta į kainoraščio antraštę. Laiko sąskaitų tarifus naudojant „Dynamics 365 Project Operations“ galima nustatyti tik viena valiuta, kuri nurodyta kainoraščio antraštėje.
 
 1. Jei norite nustatyti pardavimo kainoraščio darbo sąskaitų tarifus, sukurkite kainoraštį pagal kainoraščio antraštę. 
 2. Skirtuke **Vaidmenų kainos**, papildomame tinklelyje, pasirinkite **+ Naujo vaidmens kaina**. 
@@ -53,6 +55,3 @@ Pavyzdžiui, kūrėjui iš „Fabrikam India“, dirbančios su JAV projektu, i�
     | Programų kūrėjas | „Fabrikam US“ | 150 USD |
 
 3. Pridėkite pardavimo kainoraštį **„Fabrikam US“ sąskaitų tarifai** prie projekto sutarties kainoraščio arba prie tam tikro kliento.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

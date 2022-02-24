@@ -2,16 +2,18 @@
 title: Planavimo režimai
 description: Šioje temoje pateikta informacijos apie planavimo režimus.
 author: ruhercul
-ms.date: 05/28/2021
+manager: AnnBe
+ms.date: 05/04/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 41e56d01c3cfa62558b10e178085a4408a0aadb023f3f7347a61d121f542bb08
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: fe54944999617b248ff925148a78601dd4be7aca
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987761"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981445"
 ---
 # <a name="scheduling-modes"></a>Planavimo režimai
 
@@ -23,12 +25,12 @@ _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems s
 Sprendime „Project Operations“ galimi trys toliau nurodyti planavimo režimai.
 
   - Fiksuota trukmė (tai yra numatytasis režimas)
-  - Fiksuotos pastangos (*Darbas*)
+  - Fiksuotas darbas
   - Fiksuoti vienetai
 
 Reikšmės, kurioms turi įtakos konkretaus planavimo režimo apibrėžimas, nustatomos pagal toliau nurodytą formulę.
 
-  Pastangos = trukmė x vienetai
+  Pastangos (*darbas*) = trukmė x vienetai
 
 Kai nustatote projekto planavimo režimą, nustatote vieną iš šių reikšmių, kurių keisti negalima. Laikant šią reikšmę vienodą, jai suteikiama pirmenybė, o sistemai pranešama jos nekeisti pasikeitus kitoms dviem reikšmėms. Toliau pateiktoje lentelėje pateikiama informacija apie konkretaus režimo pasirinkimo poveikį.
 

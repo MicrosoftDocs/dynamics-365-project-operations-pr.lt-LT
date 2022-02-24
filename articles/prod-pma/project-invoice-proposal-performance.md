@@ -2,9 +2,11 @@
 title: Projekto sąskaitų faktūrų pasiūlymų efektyvumas
 description: Šioje temoje pateikiama informacija apie projekto projekto sąskaitų faktūrų pasiūlymų efektyvumo patobulinimus.
 author: Yowelle
-ms.date: 06/16/2021
+manager: AnnBe
+ms.date: 04/20/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 20121-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8b6df8baf1013720778308ce536b037dec4775f040d2925a47508fb373900f81
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1641d5f731029fdbdc16c4b652cc752a583058c6
+ms.sourcegitcommit: 68d52fc983861114e654ffc8d2472b4db9b48981
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005716"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920312"
 ---
 # <a name="project-invoice-proposal-performance"></a>Projekto sąskaitų faktūrų pasiūlymų efektyvumas
 
@@ -44,6 +46,4 @@ Atlikite toliau nurodytus veiksmus ir išjunkite projekto sąskaitos faktūros p
 3.  Atnaujinkite naršyklę.
 
 > [!NOTE]
-> SF pasiūlymo efektyvumo negalima taikyti įjungus atsiskaitymo taisykles.
-> 
-> Paketinio SF pasiūlymų kūrimo proceso metu pagal antrinių užduočių skaičių užduotys bus išskaidytos į maksimalų užduočių skaičių pagal sutarčių su operacijomis, kurioms išrašoma SF, skaičių, neatsižvelgiant į tai, ką įvedėte. Pavyzdžiui, jei kaip antrinių užduočių skaičių paketiniu būdu kurdami SF pasiūlymus įvedate **3**, bet yra tik dvi sutartys su operacijomis, kurioms išrašoma SF, sukuriamos tik dvi antrinės užduotys.
+> Sąskaitų faktūrų pasiūlymo efektyvumo pritaikyti negalima įjungus atsiskaitymo taisykles arba vykstant paketiniams procesams.

@@ -2,16 +2,18 @@
 title: Išteklių priskyrimų kūrimas
 description: Šioje temoje pateikta informacija apie bendrųjų ir įvardytųjų išteklių priskyrimų kūrimą.
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d2e7c9a340a482a62afc0c9f0aa46c24fda27ca6ef56fdc0160f06af846c0b53
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 829c1d1de7270e7cafbb98ef80235ae6404f77f7
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987896"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131758"
 ---
 # <a name="create-resource-assignments"></a>Išteklių priskyrimų kūrimas
 
@@ -40,6 +42,3 @@ Norėdami ieškoti visų aktyvių rezervuojamų išteklių ir juos priskirti pri
 1. Užduočių tinklelyje, lentoje arba laiko planavimo juostoje pereikite prie langelio **Priskirta (kam)**.
 2. Ieškos lauke pradėkite vesti pavadinimą. Pavadinimo ieškos rezultatai pateikiami **„Išteklių išrinkiklis“**, parinktyje **„Kiti ištekliai“**.
 3. Pažymėkite išteklių, kurį norite priskirti užduočiai arba pažymėkite ištekliaus pavadinimą parinktyje **Kiti komandos ištekliai**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

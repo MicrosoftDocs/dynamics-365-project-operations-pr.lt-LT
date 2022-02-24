@@ -2,6 +2,8 @@
 title: Raskite savo kitą projektą naudodami „Project Finder Mobile“ programėlę
 description: Raskite savo kitą projektą naudodami „Project Finder Mobile“ programėlę „Project Service“
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b5b6c4d608ae083d01be24258af35ed8f64e67a897690f1a2678f76b8befdcb1
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 58e6970dbe902deeef144e563bcfcd09046c70ce
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990794"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149283"
 ---
 # <a name="find-your-next-project-with-the-project-finder-mobile-app-project-service"></a>Raskite savo kitą projektą naudodami „Project Finder Mobile“ programėlę („Project Service“)
 
@@ -38,15 +40,12 @@ Naudodami „Project Finder Mobile“ programėlę „[!INCLUDE[tn_iphone](../in
   
  Bakstelėkite rodyklę, esančią dešinėje jus dominančio projekto pusėje, norėdami pamatyti daugiau informacijos ir užsiregistruoti.  
   
- ![Projektų, atitinkančių įgūdžius programoje „Project Finder Mobile”, sąrašas.](../psa/media/project-service-project-finder-list.png "Projektų, atitinkančių įgūdžius projektų ieškiklio mobiliojoje programėlėje, sąrašas")  
+ ![Projektų, atitinkančių įgūdžius projektų ieškiklio mobiliojoje programėlėje, sąrašas](../psa/media/project-service-project-finder-list.png "Projektų, atitinkančių įgūdžius projektų ieškiklio mobiliojoje programėlėje, sąrašas")  
   
 ## <a name="update-your-skills"></a>Įgūdžių naujinimas  
  Bakstelėkite profilio mygtuką ekrano apatiniame dešiniajame kampe, kad atnaujintumėte savo įgūdžių ir kvalifikacijos lygį.  
   
- ![Mygtukas Profilis programoje „Project Finder Mobile”.](../psa/media/project-service-project-finder-profile.png "Mygtukas Profilis projektų ieškiklio mobiliojoje programėlėje")  
+ ![Mygtukas Profilis projektų ieškiklio mobiliojoje programėlėje](../psa/media/project-service-project-finder-profile.png "Mygtukas Profilis projektų ieškiklio mobiliojoje programėlėje")  
   
 ### <a name="see-also"></a>Taip pat žr.  
  [Laiko, išlaidų ir bendradarbiavimo vadovas](../psa/time-expense-collaboration-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

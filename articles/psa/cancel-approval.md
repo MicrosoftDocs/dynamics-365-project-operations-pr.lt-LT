@@ -2,6 +2,8 @@
 title: Anksčiau patvirtintų laiko ir išlaidų įrašų atšaukimas
 description: Šioje temoje pateikta informacija apie tai, kaip atšaukti anksčiau patvirtintą projekto laiko ir išlaidų operaciją.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 09b85ea302ac46171afbd531a551aa5fbf5492a3644cba3448be03009840228c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ea42c6755b4b48d986e385879607d659c57f483d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987446"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150588"
 ---
 # <a name="cancel-previously-approved-time-or-expense-entries"></a>Anksčiau patvirtintų laiko ar išlaidų įrašų atšaukimas
 
@@ -60,6 +62,3 @@ Atšaukus patvirtinimą, projektas taip pat paveikiamas finansiškai. Pirmiausia
 Toliau faktinių duomenų lentelėje sukuriami atšaukimo įrašai. Tam, kad būtų sukurti atšaukimo įrašai, sistema iš pirminių faktinių duomenų nukopijuoja lauko vertes. Vienintelės vertės, kurios nenukopijuojamos, yra kiekio vertės. Vietoj to, šios reikšmės yra atšaukiamos. Sukuriami atšaukti **savikainos** ir **pardavimo, už kurį neišrašyta sąskaita** faktiniai duomenys. Laukui **Koregavimo būsena**, esančiam atvirkštinių faktinių duomenų srityje, nustatoma būsena **Nekoreguojama**, o atsiskaitymo būsenai nustatoma būsena **Atšaukta**.
 
 Atlikus šiuos pakeitimus, suma, kuri įrašoma kaip išleista vykdant projektą, ir nepanaudotos projekto pajamos nebelems sumų, kurias šie faktiniai duomenys iš tikrųjų reiškia.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

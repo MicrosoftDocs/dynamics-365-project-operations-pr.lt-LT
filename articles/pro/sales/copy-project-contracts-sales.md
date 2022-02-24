@@ -2,16 +2,18 @@
 title: Projekto sutarčių kopijavimas – „Lite“ versija
 description: Šioje temoje pateikiama informacija apie projekto sutarčių kopijavimą programoje „Dynamics Project Operations“.
 author: rumant
+manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d5c45c6f1631d9e20bd0416410c7fe24a11623da425c8e2a633b085fbfabdd79
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4137fc400c7fdd8fecd9d8349bf7f57f3470b51f
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006031"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181417"
 ---
 # <a name="copy-project-contracts---lite"></a>Projekto sutarčių kopijavimas – „Lite“ versija
 
@@ -43,6 +45,3 @@ Kai dialogo lango puslapyje pasirenkate **Gerai**, sistema sukuria sutarties kop
   - Kliento biudžeto informacija
 
 Kadangi tai yra specifinė kiekvienos sutarties informacija, šie laukai ir įrašai nebus kopijuojami. Sutarties lygyje bus kopijuojamos projektų ir produktų sutarties eilutės, sutarties eilutės informacijos įvertinimai ir „Neviršyti“ reikšmės. Kainos ir išlaidų tarifų numatytosios reikšmės priklauso lauko **Kopijuoti įkainius**, esančio dialogo lango puslapyje **Kopijuoti parametrus**, pasirinkimo.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

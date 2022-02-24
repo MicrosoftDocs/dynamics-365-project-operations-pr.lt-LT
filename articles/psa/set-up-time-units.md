@@ -2,6 +2,8 @@
 title: Laiko vienetų nustatymas
 description: „Project Service“ laiko vienetų nustatymas
 author: revathimuthiah
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 348dbe3e660eaad28f4f8f1c4d15b7cebf6540cb358d013724088f099f0b6a95
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b7e70c92ed29b20b02fd672665cf20199a2110b3
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008551"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149778"
 ---
 # <a name="set-up-time-units-project-service"></a>Laiko vienetų nustatymas („Project Service“)
 
@@ -45,6 +47,3 @@ Sukonfigūruokite laiko vienetus prekių kataloge, kurį naudosite kaip pagrind�
   
 ### <a name="see-also"></a>Taip pat žr.  
  [„Project Service“ konfigūravimas](../psa/configure.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

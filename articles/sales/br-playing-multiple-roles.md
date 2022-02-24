@@ -2,16 +2,18 @@
 title: Projekto pardavimo ir išlaidų įvertinimas, kai rezervuojami ištekliai projekte atlieka kelis vaidmenis
 description: Šioje temoje aiškinama, kaip naudoti kainodaros dimensijas, skirtas išteklių, kurie projekte atlieka kelis vaidmenis, kainodaros ir įkainojimo įvertinimams palaikyti.
 author: rumant
+manager: tfehr
 ms.date: 11/16/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 28a67e79b03dfbc38e9786350c931838ef27891a3d26787fc0334e0572528228
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: da17f0f58623128d51fda0f5529182cd37ea41b9
+ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990146"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4531499"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-on-a-project"></a>Projekto pardavimo ir išlaidų įvertinimas, kai rezervuojami ištekliai projekte atlieka kelis vaidmenis 
 
@@ -104,6 +106,3 @@ Išplėtę to komandos nario įrašo eilutę, komandos nario įraše galite maty
 ### <a name="estimates-grid"></a>Įvertinimo tinklelis 
 
 **Įvertinimų** tinklelyje abu to paties ištekliaus priskyrimai įkainoti skirtingai. **A užduoties** priskyrimas ištekliui yra įkainotas naudojant **vaidmens** **Konsultavimo vadovas** atributo reikšmę. **B užduoties** priskyrimas tam pačiam ištekliui yra įkainotas naudojant **vaidmens** **Tinklo technikas** atributo reikšmę.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,6 +2,8 @@
 title: Projekto kainodara
 description: Šioje temoje pateikiama informacija apie „Dynamics 365 Project Service Automation“ kainodarą.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/11/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dfbfb59547f295e5fb275264b9222bfa20517f6278144ca013e14a99454b6840
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 176b84671ca0b5b998c44be4f306d1f8f5200c72
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000586"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148923"
 ---
 # <a name="project-pricing"></a>Projekto kainodara 
 
@@ -46,7 +48,7 @@ Objektą Kainoraštis sudaro trys toliau nurodytos susijusios lentelės, kuriose
   - **Operacijų kategorijų kaina** – šioje lentelėje kainos nustatomos pagal operacijų kategoriją ir naudojamos išlaidų kategorijų kainoms nustatyti.
   - **Kainoraščio elementai** – šioje lentelėje saugomos katalogo produktų kainos.
 
-> ![Kainų konfigūravimas naudojant kainoraštį.](media/basic-guide-12.png)
+> ![Kainų konfigūravimas naudojant kainoraštį](media/basic-guide-12.png)
  
 Kainoraštis – tai tarifų kortelė. Tarifų kortelė – tai objekto Kainoraštis ir susijusių lentelių Vaidmenų kaina, Operacijų kategorijų kaina bei Kainoraščio elementai eilučių derinys.
 
@@ -58,7 +60,7 @@ Terminas *išteklių vaidmuo* nurodo įgūdžių, kompetencijų ir sertifikatų 
 
 Įdiegus PSA, sukuriama vienetų grupė **Laikas**. Jos numatytasis vienetas yra **Valanda**. Vienetų grupės **Laikas** ir vieneto **Valanda** atributų negalima panaikinti, pervardyti arba redaguoti. Tačiau į vienetų grupę **Laikas** galima įtraukti kitų vienetų. Jei bandysite panaikinti vienetų grupę **Laikas** arba vienetą **Valanda**, PSA verslo logika gali sutrikti.
 
-> ![Kainų konfigūravimas pagal vaidmenį.](media/basic-guide-13.png)
+> ![Kainų konfigūravimas pagal vaidmenį](media/basic-guide-13.png)
  
 ## <a name="transaction-categories-and-expense-categories"></a>Operacijų kategorijos ir išlaidų kategorijos
 
@@ -68,7 +70,7 @@ Sąskaitos už projekto konsultantų keliones ir kitas išlaidas paprastai išra
 - **Antkainio procentas** – klientui išrašoma sąskaita prie faktinių išlaidų pridedant procentinę dalį. 
 - **Vieneto kaina** – nustatoma kiekvienos išlaidų kategorijos atsiskaitymo vieneto kaina. Klientui išrašomos sąskaitos suma apskaičiuojama pagal konsultanto praneštų išlaidų vienetų skaičių. Kilometražui naudojamas kainos už vienetą kainodaros metodas. Pavyzdžiui, kilometražo išlaidų kategoriją galima sukonfigūruoti nustatant 30 JAV dolerių (USD) už dieną arba 2 USD už mylią. Kai konsultantas praneša projekto kilometražą, sąskaitos suma apskaičiuojama pagal konsultanto praneštą mylių skaičių.
 
-> ![Išlaidų kategorijų kainos konfigūravimas.](media/basic-guide-14.png)
+> ![Išlaidų kategorijų kainos konfigūravimas](media/basic-guide-14.png)
  
 ## <a name="project-sales-pricing-and-overrides"></a>Projekto pardavimo kainodara ir keitimai
 
@@ -114,7 +116,7 @@ Tačiau pasiūlyme galite naudoti pagrindinį kainoraštį. Taip pat galite nuko
 
 Kai kuriate pasirinktinį projekto kainoraštį, iš kainoraščio nukopijuojami tik projekto komponentai. Kitaip tariant, naujas kainoraštis sukuriamas kaip esamo projekto kainoraščio, kuris pridedamas prie pasiūlymo, kopija ir šiame naujame kainoraštyje pateikiamos tik su vaidmenimis susijusios kainos ir operacijų kategorijų kainos.
 
-> ![Projekto sutarties pasirinktinių kainų peržiūra ir konfigūravimas.](media/basic-guide-15.png)
+> ![Projekto sutarties pasirinktinių kainų peržiūra ir konfigūravimas](media/basic-guide-15.png)
   
 ## <a name="tracking-costs"></a>Išlaidų sekimas
 
@@ -129,6 +131,3 @@ Kaip ir sąskaitų tarifai, žmogiškųjų išteklių išlaidų tarifai nustatom
     1. Išlaidų kainoraštis, susietas su organizacijos vienetu.
     2. Išlaidų kainoraštis, susietas su „Project Service“ parametrais. Kadangi su „Project Service“ parametrais galima susieti išlaidų kainoraščius keliomis skirtingomis valiutomis, PSA pritaiko sutartį dėl projekto, sutarties ar pasiūlymo pasirašiusios organizacijos vieneto valiutą pagal išlaidų kainoraščio valiutą.
     3. Išlaidų kainoraščiams netaikomi kainodaros pagal savikainą ir savikainos antkainio metodai. Net jei šie kainodaros metodai naudojami išlaidų kainoraščio eilutėse siekiant nustatyti operacijų kategorijų išlaidas, sistema juos ignoruoja ir neįveda jokių numatytųjų savikainų.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

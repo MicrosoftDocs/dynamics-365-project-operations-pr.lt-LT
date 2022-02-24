@@ -2,16 +2,18 @@
 title: Kelių klientų tvarkymas projektu pagrįstose pasiūlymo eilutėse – „Lite“ versija
 description: Šioje temoje paaiškinama, kaip valdyti kelis klientus projektu pagrįsto pasiūlymo eilutėse.
 author: rumant
+manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d015e9107741fd496f7d3639731f33fcdcc9b9bdd5f501c9ad2617e37a707f35
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7cab29693fc1447beba74dc6266367f13e48634d
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001711"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176486"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>Kelių klientų tvarkymas projektu pagrįstose pasiūlymo eilutėse – „Lite“ versija
 
@@ -41,6 +43,3 @@ Galite kurti, atnaujinti arba panaikinti pasiūlymo eilutės klientą skirtuke *
 Galite redaguoti atsiskaitymo išskaidytą procentinę dalį eilutėje. Kai atsiskaitymo išskaudyta procentinė dalis nėra iš viso 100%, įvyksta klaida. Kai redaguojate atsiskaitymo išskaidytą procentinę dalį, atnaujinkite pasiūlymo eilutės puslapį ir pašalinkite klaidą.
 
 Naudokite tolygiai paskirstytą veiksmą pasiūlymo eilutės klientų papildomame tinklelyje, norėdami paskirstyti atsiskaitymo sumą visiems pasiūlymo eilučių klientams. Jei yra apvalinimo koeficientas, jis bus įtrauktas į apvalinimo klientą. Vienas iš pasiūlymo eilučių klientų yra visada žymimas kaip apvalinimo klientas, o tai reiškia, kad pasiūlymo eilutės kliento įraše yra apvalinimo žymė nustatyta į **Taip**. 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

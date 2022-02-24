@@ -2,6 +2,8 @@
 title: Projekto šablonai
 description: Šioje temoje pateikta informacija apie tai, kaip naudoti projektų šablonus, skirtus greitam projektų nustatymui.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 34df8ed9a8baff949097af1b95da56bfe9a4240c213896fafd5c7dcfcf580b6c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db42c9ea7280274cdc9cc90f1487f27e08f892e5
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002521"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148068"
 ---
 # <a name="project-templates"></a>Projekto šablonai 
 
@@ -47,7 +49,7 @@ Yra keli būdai kurti projektą iš projekto šablono:
 
 - Kurdami projektą pagal pasiūlymą, projekto šabloną galite pasirinkti dialogo lange **Spartusis kūrimas: Projektas**.
 
-> ![Dialogo langas „Spartusis kūrimas: Projektas“.](media/project-11.png)
+> ![Dialogo langas „Spartusis kūrimas: Projektas“](media/project-11.png)
 
 - Kai kuriate projektą pasirinkdami **Naujas projektas**, puslapis **Projektas** bus rodomas prieš įrašant įrašą. Lauke **išrinkti šabloną** pasirinkite vieną iš anksto nustatytų projekto šablonų organizacijoje.
 - Naudokite **Kurti projektą pagal šabloną** puslapyje **Šablono objektas**.
@@ -67,6 +69,3 @@ Kai kopijuojate projekto įvertinimo eilutes, kainoraščiai naujinami. Kalbant 
 ### <a name="copying-a-project-team"></a>Projekto komandos kopijavimas
 
 Kopijuojant projekto komandą iš šablono į projektą, nukopijuojami bendrieji ištekliai bei jos įgūdžiai ir kvalifikacija, nurodyti šablone. Bendrųjų išteklių priskyrimai taip pat tvarkomi kaip ir projekto šablone. Įvardyti ištekliai nepalaikomi projektų šablonuose.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

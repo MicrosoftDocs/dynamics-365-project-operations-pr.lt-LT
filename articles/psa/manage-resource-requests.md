@@ -2,6 +2,8 @@
 title: Išteklių užklausų valdymas
 description: Išteklių užklausų valdymas „Project Service“
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 518edcb210e33a7922e8920f896479a79d264ab62742641cc66b7c3a33b6c6e8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4fa7db6ab96cd4e93ba973b3c9466fe12ed57c7f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985151"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149868"
 ---
 # <a name="manage-resource-requests-project-service"></a>Išteklių užklausų valdymas („Project Service“)
 
@@ -43,12 +45,9 @@ Klientų vadybininkai ir projektų vadovai reguliariai teikia jų projektams rei
   
    -   Spustelėkite **Filtras**, jei norite pereiti į sritį **Filtras**, kurioje galite filtruoti rezultatus pagal organizacijos skyrius, vaidmenis, įgūdžius ar kitus atributus.  
   
-       ![„Project Service“ išteklių užklausos ekranas.](../psa/media/project-service-resource-request-screen.png "„Project Service“ išteklių užklausos ekranas")  
+       ![„Project Service“ išteklių užklausos ekranas](../psa/media/project-service-resource-request-screen.png "„Project Service“ išteklių užklausos ekranas")  
   
 3. Norimo rezervuoti ištekliaus kalendoriuje pasirinkite laikotarpį, kuriam norite rezervuoti išteklių, ir tada arba spustelėkite **Užsakyti**, taip išteklių rezervuodami, arba **Pasiūlyti užsakyti**, taip pasiūlydami ištekliui rezervaciją, kad jis ją patvirtintų. Kai rezervuojate išteklių, galite pasirinkti preliminarią arba galutinę rezervaciją.  
   
 ### <a name="see-also"></a>Taip pat žr.  
  [Išteklių vadovo vadovas](../psa/resource-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

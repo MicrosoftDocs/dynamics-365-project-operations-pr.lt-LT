@@ -2,22 +2,24 @@
 title: Produktu pagrįstų sutarties eilučių sudėtinių vienetų valdymas – „Lite“ versija
 description: Šioje temoje pateikta informacija apie tai, kaip palaikomas prenumeruojamų produktų pardavimas.
 author: rumant
+manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6bd4e11bf96d9f7d77c77fe081fde02b421c3139915150480a8d1a4d812887f6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a58a13c8186f36e6031fe3c6f3c3a57ea920ac9e
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003376"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177386"
 ---
 # <a name="manage-complex-units-for-product-based-contract-lines---lite"></a>Produktu pagrįstų sutarties eilučių sudėtinių vienetų valdymas – „Lite“ versija
 
 _**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
 
-„Dynamics 365 Project Operations“ programoje naudojami kiekio koeficientai, kad būtų palaikomas prenumerata pagrįstų produktų pardavimas. Prenumerata pagrįstiems produktams sutarties arba projekto sutarties eilutėje kiekis išreiškiamas kaip vartotojo mėnesių skaičius.
+Programoje „Dynamics 365 Project Operations“ naudojami kiekio koeficientai, kad būtų palaikomas prenumerata pagrįstų produktų pardavimas. Prenumerata pagrįstiems produktams sutarties arba projekto sutarties eilutėje kiekis išreiškiamas kaip vartotojo mėnesių skaičius.
 
 Prenumeruojamos programinės įrangos kaina kataloge saugoma kaip kaina vienam vartotojui per mėnesį. Pardavimo proceso metu sutarties eilutėje nurodyta kaina paprastai yra vienam vartotojui per mėnesį, dėl kurios susitarė ir kuriai nuolaidą pritaikė pardavimo agentas. Kiekvienas sandoris turi skirtingą vartotojų skaičių ir skirtingą prenumeratos mėnesių skaičių. Kiekis, naudojamas sutarties eilutės sumai apskaičiuoti, yra vartotojų skaičiaus ir prenumeratos mėnesių skaičiaus sandauga.
 
@@ -44,6 +46,3 @@ Norėdami kiekio koeficientus kurti pagal produktų ypatybes, atlikite toliau nu
 7. Pakartokite 2–6 veiksmus su visomis ypatybėmis, kurios kartu sudarys su produktais susijusios sutarties eilutės kiekį.
 
 Kai, nustatęs kiekio koeficientus, vartotojas sukuria šio produkto sutarties eilutę, jos kiekis yra užrakinamas. Tada kiekis apskaičiuojamas kaip tos sutarties eilutės ypatybių reikšmių sandauga.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

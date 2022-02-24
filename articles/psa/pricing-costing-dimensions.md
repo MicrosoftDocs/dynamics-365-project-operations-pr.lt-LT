@@ -2,11 +2,12 @@
 title: Kainodaros ir įkainojimo dimensijų pagrindinis puslapis
 description: Šioje temoje pateikta kainodaros dimensijų apžvalga.
 author: rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -16,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 65516784c6787fa5f3c08297f4d161d52c2ea4a9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998471"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151308"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Kainodaros ir įkainojimo dimensijų pagrindinis puslapis
 
@@ -41,7 +42,7 @@ Atsižvelgiant į įprastą šių darbo atributų ir žmonių, reikalingų atlik
 
 PSA pateikiamas su numatytuoju kainodaros dimensijų rinkiniu. Jas galite peržiūrėti apsilankę **„Project Service“** > **Parametrai**. Parametrų įraše, esančiame skirtuke **Suma pagrįstos kainodaros dimensijos**, patvirtinkite, kad vaidmuo **msdyn_resourcecategory** ir išteklių organizacinio vieneto **msdyn_organizationalunit** laukai **Taikoma pardavimui** ir **Taikoma savikainai** nustatyti į **Taip**. Taip galėsite nustatyti kiekvieno vaidmens ir organizacinio vieneto derinio kainą ir savikainą.
 
-![„Project Service“ parametrų ekrano kopija su pažymėtu lauku „Taikoma pardavimui“.](media/PS-OOB-parameters.png)
+![„Project Service“ parametrų ekrano kopija su pažymėtu lauku „Taikoma pardavimui“](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > Jei naudojote visiškai parengtus vaidmens ir organizacinio vieneto laukus kaip kainodaros dimensijas prieš 3 PSA versiją, jokių pastebimų pakeitimų nebus. Galite toliau naudoti „Project Service“ kaip įprasta. 
@@ -64,18 +65,15 @@ Toliau pateiktame pavyzdyje pateikiami sąskaitų tarifai, nustatyti pagal vaidm
 
 **Pavyzdiniai sąskaitų tarifai**
 
-| Vaidmuo        | Org. vienetai    |Vienetas      |Kainos      |Valiuta  |
+| Vaidmuo        | Organizacijos vienetas    |Vienetas      |Kaina      |Valiuta  |
 | ------------|-------------|----------|----------:|----------|
-| Developer   | „Contoso“ JAV  |Valanda | 200|USD     |
-| Developer   | Contoso India |Valanda|   112|USD     |
+| Kūrėjas   | „Danys“, JAV  |Hour | 200|USD     |
+| Kūrėjas   | „Danys India“ |Hour|   112|USD     |
 
 
 **Pavyzdiniai savikainos tarifai**
 
-| Atlyginimų juosta     | Org. vienetai    |Vienetas      |Kainos      |Valiuta  |
+| Atlyginimų juosta     | Organizacijos vienetas    |Vienetas      |Kaina      |Valiuta  |
 | ----------------|-------------|----------|----------:|----------|
-| „My company_Band1“ | „Contoso“ JAV  |Valanda | 145|USD     |
-| „My company_Band2“ | Contoso India |Valanda|   67|USD     |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+| „My company_Band1“ | „Danys“, JAV  |Hour | 145|USD     |
+| „My company_Band2“ | „Danys India“ |Hour|   67|USD     |

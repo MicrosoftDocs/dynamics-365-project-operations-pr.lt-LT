@@ -2,17 +2,19 @@
 title: Faktinių duomenų susiejimas su pradiniais įrašais
 description: Šioje temoje aiškinama, kaip susieti faktinius duomenis su originaliais įrašais, pvz., laiko ir išlaidų įrašais arba medžiagos naudojimo žurnalais.
 author: rumant
+manager: tfehr
 ms.date: 03/25/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b5a70d2c2b3f98028b4e4998ed25ab73a275c66e4b8137eb573b943658a1a41e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 545775c4eae6c3dc689f264e7f662471c17b2340
+ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991766"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5852599"
 ---
 # <a name="link-actuals-to-original-records"></a>Faktinių duomenų susiejimas su pradiniais įrašais
 
@@ -77,7 +79,7 @@ Kartu naudojant **operacijos kilmę** ir **operacijos ryšį**, galima sekti ry�
 
 Toliau pateiktame pavyzdyje parodytas tipinis „Project Operations“ projekto ciklo laiko įrašų apdorojimas.
 
-> ![„Project Service“ ciklo laiko įrašų apdorojimas.](media/basic-guide-17.png)
+> ![„Project Service“ ciklo laiko įrašų apdorojimas](media/basic-guide-17.png)
  
 1. Pateikus laiko įrašą, sukuriamos dvi žurnalo eilutės: viena, skirta išlaidoms, o kita – pardavimui, už kurį neišrašyta sąskaita.
 2. Galiausiai patvirtinus laiko įrašą, sukuriamos dvi faktinės sumos: viena faktinė išlaidų suma ir viena faktinė pardavimo, už kurį neišrašyta sąskaita, suma.

@@ -2,6 +2,8 @@
 title: Projekto grafikai
 description: Šioje temoje pateikta informacija apie tai, kaip sukurti grafiką.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 192fbe7f26a2bd060ffe9bc0b1eea50b9431bca4696e3da1d94bf53158e026a6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2877f12a9ea3d288c4cf41f406cd8ca3e6cee821
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998426"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148428"
 ---
 # <a name="project-schedules"></a>Projekto grafikai 
 
@@ -94,7 +96,7 @@ Tinklelis **Grafikas** yra visiškai pasiekiamas ir gali būti naudojamas su ekr
 
 Užduoties pavadinimas apibūdina darbą, kurį reikia atlikti. Programoje PSA atributai, susieti su užduotimi, apibūdina užduoties grafiką ir personalo reikalavimus.
 
-> ![Užduoties atributai.](media/project-2.png)
+> ![Užduoties atributai](media/project-2.png)
  
 ### <a name="schedule-attributes"></a>Grafiko atributai
 
@@ -147,6 +149,3 @@ Pagal numatytuosius nustatymus, jei lapo mazgo užduotis neturi ankstesnės veik
 ### <a name="manual-scheduling"></a>Neautomatinis planavimas
 
 Jei automatinio planavimo taisyklės neatitinka jūsų reikalavimų, galite nustatyti užduoties režimą užduočiai į **Suplanuota rankiniu būdu**. Šis parametras neleidžia planavimo moduliui skaičiuoti kitų planavimo atributų reikšmių. Neatsižvelgiant į užduoties režimą, jei nustatysite užduotims ankstesnę veiklą, tai visada paveiks priklausomos užduoties pradžios datą.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: Rezervacija į projektą
 description: Šioje temoje pateikiama informacija apie projekto išteklių rezervavimą.
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 719892a37f381fc0ad6c3ccaca5c4d87c9947a4d7a39dca96aef464d04a71af0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c87b0c32ef081f601ed79c11687f008bb454dd45
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994916"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131083"
 ---
 # <a name="book-to-a-project"></a>Rezervacija į projektą
 
@@ -64,6 +66,3 @@ Kaip projektų vadovui, jums gali tekti rezervuoti išteklių projektui, tačiau
 
 > [!NOTE]
 > Šis metodas nesukuria jokių išteklių rezervavimų. Šis metodas įtraukia išteklių į komandą. Įtraukę komandos narį į projektą, projektų vadovas gali naudoti išlaikytus rezervavimus arba išplėstus rezervavimus, kad įtrauktų reikiamus rezervavimus į išteklius.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

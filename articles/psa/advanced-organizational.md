@@ -2,6 +2,8 @@
 title: Organizacinius vienetus
 description: Šioje temoje pateikta informacija apie organizacijos vienetus Dynamics 365 Project Service Automation.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c1c86ce98213fba54fd2b477d4df6f8dc5409d55
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005086"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145639"
 ---
 # <a name="organizational-units"></a>Organizaciniai vienetai 
 
@@ -53,7 +55,7 @@ Organizacinis vienetas atlieka du vaidmenis PSA:
 - **Sutarties vienetas** – organizacinis vienetas, atstovaujantis įmonių grupę arba padalinį, kuris yra atsakingas už laimėtą pardavimą ir darbo bei paslaugų pristatymą klientui. Sutarties vienetas atpažįstamas iš lauko **Sutarties vienetas** puslapių **Galimybė**, **Pasiūlymas**, **Projekto sutartis** ir **Projektai** antraštės skyriuje.
 - **Išteklių vienetas** – organizacinis vienetas, kuriam ištekliai priklauso arba yra priskirti. Šis organizacijos vienetas gali pateikti savo išteklius kai kuriems vaidmenims, susijusiems su darbo ataskaitomis (SOW), ir projektams, priklausantiems sutarties vienetui.
 
-> ![Sutartiniai vienetai ir išteklių skyriai.](media/advanced-1.png)
+> ![Sutartiniai vienetai ir išteklių skyriai](media/advanced-1.png)
 
 ## <a name="organizational-unit-faqs"></a>Organizacinio vieneto DUK
 
@@ -77,7 +79,7 @@ Kai įdiegiate Dynamics 365, optimizuokite saugos leidimus verslo vienetų hiera
 
 #### <a name="example-of-organizational-units-and-business-units"></a>Organizaciinių vienetų ir verslo vienetų pavyzdys
 
-Contoso Ltd. turi klestinčią Microsoft technologijos praktiką. Darius ir Diana yra C\# kūrėjai, bet Diana yra Jungtinėse Valstijose, o Darius yra Indijoje. Daugeliui projekto užduočių reikia išteklių iš Contoso Indija ir Contoso JAV, o Dariui ir Dianai reikia turėti tokį patį saugos prieigos lygį į šios praktikos srities projektus. Tačiau Contoso Indija kūrėjų samdymo kaštai gerokai skiriasi nuo Contoso JAV kūrėjų kaštų.
+Contoso turi klestinčią Microsoft technologijos praktiką. Darius ir Diana yra C\# kūrėjai, bet Diana yra Jungtinėse Valstijose, o Darius yra Indijoje. Daugeliui projekto užduočių reikia išteklių iš Contoso Indija ir Contoso JAV, o Dariui ir Dianai reikia turėti tokį patį saugos prieigos lygį į šios praktikos srities projektus. Tačiau Contoso Indija kūrėjų samdymo kaštai gerokai skiriasi nuo Contoso JAV kūrėjų kaštų.
 
 Čia pateikiamas optimalus būdas kurti šį scenarijų naudojant Dynamics 365 ir PSA.
 
@@ -122,7 +124,7 @@ Ne. Dabartiniame PSA leidime organizaciniai vienetai neskirstomi pagal hierarchi
 Kai turite sudėtingą sąnaudų centrų, skyrių, atsiskaitymo biurų ir kt. hierarchiją, nustatykite tos hierarchijos baigtinius mazgus kaip atskirus organizacinius vienetus.
 Toliau pateiktame pavyzdyje pavaizduotą įprastą hierarchiją:
 
-**ContosoIndija**
+**Contoso Indija**
 
   - SAP Praktika 
 
@@ -134,7 +136,7 @@ Toliau pateiktame pavyzdyje pavaizduotą įprastą hierarchiją:
     - Techniniai Konsultantai
     - Funkciniai Konsultantai 
     
-**Contoso JAV**
+**Contoso, JAV**
 
  - SAP Praktika 
 
@@ -152,9 +154,9 @@ Jei jūsų hierarchija yra panaši, turite ją nustatyti kaip plokščią sąra�
 - Contoso Indija - Microsoft technologijos praktikos funkciniai konsultantai 
 - Contoso Indija - Microsoft technologijos praktikos funkciniai konsultantai 
 - Contoso JAV - SAP Praktika - Techniniai konsultantai  
-- Contoso JAV - SAP Praktika - Funkciniai konsultantai  
-- Contoso JAV - Microsoft technologijos praktika - Techniniai konsultantai 
-- Contoso JAV - Microsoft technologijos praktikos funkciniai konsultantai
+- Contoso JAV – SAP Praktika – Funkciniai konsultantai  
+- Contoso JAV - Microsoft technologijos praktika - Techniniai konsultatai 
+- Contoso JAV - Microsoft technologijos praktika - Funkciniai konsultantai
 
 ### <a name="were-a-small-professional-services-company-that-operates-as-only-one-division-how-can-we-best-use-the-organizational-unit-concept-in-the-current-version-of-psa"></a>Esame nedidelė profesionalių paslaugų įmonė, veikianti kaip vienas skyrius. Kaip galime geriausiai naudoti organizacinio vieneto koncepciją dabartinėje PSA versijoje?
 
@@ -165,6 +167,3 @@ Jei jūsų įmonė veikia kaip vienas vienetas, turintis vieną sąnaudų kainor
 Kai projektas kuriamas savarankiškai, numatytasis projekto sutarties vienetas priklauso nuo jį sukūrusio vartotojo. Tas vartotojas taip pat yra numatytasis projektų vadovas. Jei projektas susietas su pardavimo objektu, pvz., pasiūlymu arba projekto sutartimi, projekto sutarties vienetas įtakojamas pardavimo objekto. Tokiu atveju projektų įvertinimai gali būti perskaičiuojami, nes sąnaudų kainoraštis naudojamas apskaičiuojant išlaidų sąmatos pokyčius, jei sutarties vienetas keičiasi.  Pardavimo kainoraštis naudojamas pardavimo skaičiavimams, kurie bus pakeisti taip, kad jie būtų sinchronizuojami su projekto pasiūlymo kainoraščiu.
 
 Projekto **Sutarties vienetas** ir **Valiuta** laukai užrakinami redagavimui, nes jie turi būti sinchronizuojami su pardavimo objekto (pasiūlymo arba projekto sutarties), su kuriuo susietas projektas, reikšmėmis.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

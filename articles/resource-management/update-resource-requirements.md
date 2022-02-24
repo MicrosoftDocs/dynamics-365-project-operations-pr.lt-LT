@@ -2,16 +2,18 @@
 title: Redaguoti ištekliaus reikalavimą
 description: Šioje temoje pateikiama informacija apie ištekliaus reikalavimo informacijos naujinimą.
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 8c80c7148df972e542ea1952ef333b3c7c2709b4409ffaf0508f8f617d5f9894
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 988d3338f19443f1d8bcb7cf77e69aa3c1cff155
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999776"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128788"
 ---
 # <a name="edit-a-resource-requirement"></a>Redaguoti ištekliaus reikalavimą
 
@@ -35,5 +37,3 @@ Kaip projekto vadovas, atlikite toliau nurodytus veiksmus, kad galėtumėte reda
 ## <a name="edit-resource-assignment-contours"></a>Išteklių priskyrimo kontūrų redagavimas
 
 Be išteklių reikalavimų informacijos redagavimo, projekto vadovas gali atnaujinti atskirus ištekliaus reikalavimo kontūrus naudodamas funkciją **Nurodyti modelį**. Pasirinkus **Nurodyti modelį**, atidaromas puslapis, kuriame galite peržiūrėti kontūrus dienos, savaitės ar mėnesio laiko skalėje. Galima koreguoti kiekvieno kontūro pradžios laiką, pabaigos laiką ir bendras nurodyto laikotarpio pastangas.
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: Sąnaudų šablonų nustatymas
 description: Šioje temoje pateikiama informacijos apie tai, kaip kurti ir naudoti sąnaudų šablonus programoje „Project Operations”.
 author: sigitac
+manager: tfehr
 ms.date: 11/18/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b3a9f1e4f5ea0abe34dc860db87ef349daa46c487b03d271bfe207868c521f39
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 786b2b9b140f82d406044c2ed05761d7f46ee9e0
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993566"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642733"
 ---
 # <a name="set-up-cost-templates"></a>Sąnaudų šablonų nustatymas
 
@@ -77,6 +79,3 @@ Norėdami sukurti sąnaudų šabloną, atlikite toliau nurodytus veiksmus.
 7. Skirtuke **Kategorijos** pasirinkite projekto kategorijas, kurios bus įtrauktos į sąnaudų šablono eilutę.
 8. Skirtuke **Bendra** pasirinkite, ar ši eilutė bus įtraukta apskaičiuojant atlikimo procentinę vertę.
 9. Pasirinkite užbaigimo išlaidų apskaičiavimo metodą, kuris bus naudojamas atlikimo procentinei vertei apskaičiuoti.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

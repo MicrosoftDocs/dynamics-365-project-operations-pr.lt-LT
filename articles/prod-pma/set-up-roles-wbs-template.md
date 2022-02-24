@@ -2,9 +2,11 @@
 title: Darbo paskirstymo struktūros šablonų vaidmenų nustatymas
 description: Šioje temoje pateikta informacija apie vaidmens informacijos nustatymą darbo paskirstymo struktūros šablonuose.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c84015c46f0a8c9d3d48be1b995d4bdd7fd8ee25b240f455bbe2031f42adc0f5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 143f1094c653fb7ac0e026b7875aa162a3eb83f7
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008911"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080816"
 ---
 # <a name="set-up-roles-on-work-breakdown-structure-templates"></a>Darbo paskirstymo struktūros šablonų vaidmenų nustatymas
 
@@ -89,7 +91,7 @@ Galite kurti naują WBS arba kopijuoti WBS iš esamo WBS šablono. Projekto vado
 
 4. Nustatykite datas ir pastangas (valandas), kaip pavaizduota tolesnėje iliustracijoje.
 
-    [![Datų ir pastangų nustatymas.](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
+    [![Datų ir pastangų nustatymas](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
 
 5. Pasirinkite užduoties eilutę **Inicijavimas**, tada lauke **Vaidmuo** pasirinkite **Vyresnysis projekto vadovas**.
 6. Pasirinkite **Publikuoti**.
@@ -105,6 +107,3 @@ Galite kurti naują WBS arba kopijuoti WBS iš esamo WBS šablono. Projekto vado
     > Negaunate įspėjimo, kad nurodytas išteklius dabar yra 2-as, nes išteklių skaičius lieka 1.
 
 14. Puslapyje **Darbo paskirstymo struktūra** patikrinkite ištekliaus priskyrimą WBS, tada pasirinkite **Įrašyti**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

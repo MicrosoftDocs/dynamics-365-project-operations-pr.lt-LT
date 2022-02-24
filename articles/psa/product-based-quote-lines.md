@@ -2,6 +2,8 @@
 title: Produktu pagrįstos pasiūlymo eilutės
 description: Šioje temoje pateikta informacija apie produktu pagrįstas pasiūlymo eilutes.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/06/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3cc2e8788ea699b57ef75903ec3771f2e66fe867a9b8b6328a55b484eb13ede4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a5b52e74994a40b20353d85d1d9bcd59d435cd0b
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008596"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151263"
 ---
 # <a name="product-based-quote-lines"></a>Produktu pagrįstos pasiūlymo eilutės
 
@@ -58,7 +60,7 @@ Jei šį lauką nustatysite į **Perrašyti kainodarą**, „Dynamics 365“ nen
 
 Įdiegus PSA numatytąsias pardavimo kainas galima įvesti pasiūlymo produktu pagrįstose eilutėse. Tada laukas **Kainodara** nustatomas į **Perrašyti kainodarą**, kad galėtumėte redaguoti numatytąją kainą pasiūlymo eilutėse.
 
-> ![Kainodaros perrašymo nustatymas.](media/basic-guide-10.png)
+> ![Kainodaros perrašymo nustatymas](media/basic-guide-10.png)
  
 ## <a name="quantity-factors-for-products"></a>Produktų kiekio koeficientai
 
@@ -78,8 +80,5 @@ Pavyzdžiui, „Dynamics 365“ gali turėti šias ypatybes:
 
 Ypatybės **Vartotojų skaičius** ir **Mėnesių skaičius** gali būti pažymėtos kaip kiekio koeficientai redaguojant produkto eilutės ypatybes. 
 
-> ![Vartotojų ir mėnesių skaičių žymėjimas kaip kiekio koeficientai.](media/basic-guide-11.png)
+> ![Vartotojų ir mėnesių skaičių žymėjimas kaip kiekio koeficientai](media/basic-guide-11.png)
  
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

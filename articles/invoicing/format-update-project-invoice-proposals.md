@@ -2,16 +2,18 @@
 title: Projekto sąskaitos faktūros pasiūlymų valdymas
 description: Šioje temoje pateikiama išsami informacija apie klientų sąskaitų faktūrų apdorojimą naudojant „Project Operations“, skirtą išteklių / nelaikomų medžiagų scenarijams.
 author: sigitac
-ms.date: 04/12/2021
+manager: Annbe
+ms.date: 01/29/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 61b43e05eb179e2b00189076290433dd72f89a6bc7ef72140fc1efd752149d43
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 83e5af60d0a3baf0b59da2a97c6b156ef5b2b7ed
+ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989921"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "5089275"
 ---
 # <a name="manage-project-invoice-proposals"></a>Projekto sąskaitos faktūros pasiūlymų valdymas
 
@@ -78,8 +80,7 @@ Reikšmės **PVM grupė** ir **Prekės PVM grupė** nustatomos iš parametrų, k
     - **Klientas** pagal numatytuosius nustatymus visada nustatys atsiskaitymo PVM grupę iš kliento.
     - **Ieška** ieškos tarp visų šiame sąraše esančių objektų ir pažymės pirmą prieinamą reikšmę. Ieška pradedama nuo objekto **Projektas**, tada seka objektas **Projekto sutartis**, o tada – objektas **Klientas**.
 
-- Atsiskaitymo etapo lauke **Prekės PVM grupė** **Fiksuotos kainos gairių prekės PVM grupė** naudojama kaip numatytoji reikšmė. Buhalteris šią reikšmę gali peržiūrėti ir modifikuoti puslapyje **Operacijos pagal sąskaitą**. Sistema operacijos pagal sąskaitą reikšmę naudoja kurdama projekto sąskaitos faktūros pasiūlymo eilutę.
- 
+- **Fiksuotos kainos etapo prekės PVM grupė** naudojama nustatyti reikšmę laukui **Prekės PVM grupė**.
 
 ### <a name="financial-dimensions"></a>Finansinės dimensijos
 
@@ -131,7 +132,7 @@ Puslapyje **Formatuoti SF pasiūlymus** pasirinktinio grupavimo operacijas galim
 
 Spausdinimo valdymas naudoja skirtingus ataskaitų failus sąskaitoms faktūroms spausdinti, paskirties vietai nurodyti ir poraštės tekstui tinkinti. Spausdinimo valdymą galima nustatyti modulio lygiu, tačiau šiuos parametrus galima perrašyti konkrečiam klientui, sutarčiai arba sąskaitos faktūros pasiūlymui. Norėdami pasiekti šią funkciją, puslapyje **Projekto SF pasiūlymas** pasirinkite **Spausdinti** > **Spausdinimo valdymas**.
 
-Spausdinimo valdymo sąranka rodoma kaip medžio rodinys, kuriame kiekviename mazgo lygyje rodomi galimi koreguoti dokumentai. Pasirinktinius spaudinius galite priskirti modulio, kliento, sutarties arba sąskaitos faktūros dokumentų lygiu. Norėdami modifikuoti originalaus dokumento spaudinį, išplėskite norimą mazgą ir pasirinkite **Pradinis elementas**. Lauke **Ataskaitos formatas** pažymėkite ataskaitos formatą, kurį norite naudoti spausdinant. Pasirinktinius ataskaitų formatus galite naudoti naudodami [Verslo dokumentų valdymo sistemą](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
+Spausdinimo valdymo sąranka rodoma kaip medžio rodinys, kuriame kiekviename mazgo lygyje rodomi galimi koreguoti dokumentai. Pasirinktinius spaudinius galite priskirti modulio, kliento, sutarties arba sąskaitos faktūros dokumentų lygiu. Norėdami modifikuoti originalaus dokumento spaudinį, išplėskite norimą mazgą ir pasirinkite **Pradinis elementas**. Lauke **Ataskaitos formatas** pažymėkite ataskaitos formatą, kurį norite naudoti spausdinant. Pasirinktinius ataskaitų formatus galite naudoti naudodami [Verslo dokumentų valdymo sistemą](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
 
 ## <a name="post-invoice-proposals"></a>Sąskaitų faktūrų pasiūlymų registravimas
 
@@ -142,6 +143,3 @@ Norėdami peržiūrėti sąskaitą faktūrą prieš registravimą, išvalykite �
 Be puslapio **SF pasiūlymas**, sąskaitų faktūrų pasiūlymai taip pat gali būti registruojami vykdant periodinę užduotį **Registruoti SF pasiūlymus**. Norėdami rasti šią užduotį, eikite į **Projekto valdymas ir apskaita** > **Periodinis** > **Projekto SF** > **Registruoti SF pasiūlymus**.
 
 Šiame puslapyje pateikiami visi sąskaitų faktūrų, kurios yra paruoštos registruoti, pasiūlymai. Galite planuoti sąskaitų faktūrų registravimą pažymėdami **Paketas**. Nustatykite **Paketo apdorojimo parametrą** į **Taip** ir nustatykite paketo apdorojimo pasikartojimą pasirinkdami **Pasikartojimas**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

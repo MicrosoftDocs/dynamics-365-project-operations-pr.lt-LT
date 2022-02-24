@@ -2,16 +2,18 @@
 title: Komandos narių išlaikymas
 description: Šioje temoje pateikiama informacija apie įvardytų išteklių rezervavimą projektų komandoms ir jų priskyrimą užduotims.
 author: ruhercul
+manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 851d63510a2e8e7917fa432988a7c4d74597adacbb64ebea646f23f958e3e131
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: abab21ff98481166517be0c74a2c14c36d5e9d1d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997076"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131533"
 ---
 # <a name="maintain-team-members"></a>Komandos narių išlaikymas
 
@@ -40,6 +42,3 @@ Kai renkates, išteklius įtraukiamas į projekto komandą ir priskiriamas uždu
 Norėdami rezervuoti ištekliaus pajėgumą projektui galite naudoti skirtuko **Derinimas** rezervavimo išplėtimo pajėgumą arba **Grafiko lentą**.
 
 Užrezervavę komandos narį projektui, galite naudotis parinktimis **Išlaikyti rezervavimus** arba **Grafiko lenta**, kad tiesiogiai valdytumėte jų rezervavimus.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

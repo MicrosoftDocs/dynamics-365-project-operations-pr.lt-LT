@@ -2,6 +2,8 @@
 title: Projekto savikaina ir pajamos
 description: Šioje temoje pateikiama informacija apie projektų savikainų ir pajamų įvertinimą.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 279c1119d334a7f60906e33b3fc7ca22ff9a360d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002566"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148338"
 ---
 # <a name="project-costs-and-revenue"></a>Projekto savikaina ir pajamos
 
@@ -31,7 +33,7 @@ ms.locfileid: "7002566"
 
 Projekto įvertinimai nurodomi finansiniame rodinyje to darbo, kuris įvertintas ir suplanuotas projektų grafike. Skirtuke **Sąmatos**, esančiame puslapyje **Projektai**, rodomas suplanuotų darbo savikainos ir pajamų poveikis. Taip pat pateikiama informacija apie daugelį iš anksto nustatytų dimensijų. 
 
-> ![Sąmatų skirtukas.](media/project-5.png)
+> ![Sąmatų skirtukas](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>Projekto savikainos ir pardavimo vertės
 
@@ -66,13 +68,13 @@ Jei sistema vaidmens savikainos neranda, sąmatų eilutėje pardavimo savikaina 
 
 Skirtuke **Sąmatos** yra tinklelio rodinys, kuriame rodomos sąmatų eilutės. Tinklelyje yra vienetų, bendrosios savikainos ir bendrosios pardavimo kainos stulpeliai, kaip pavaizduota šioje iliustracijoje. 
 
-> ![Tinklelio rodinys skirtuke Sąmatos.](media/project-6.png)
+> ![Tinklelio rodinys skirtuke Sąmatos](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>Laipsniškai laike išdėstytas projekto sąmatų rodinys
 
 Laipsniškai laike išdėstyto projekto sąmatų rodinyje nurodyti sąmatos duomenys iš tinklelio rodinio pagal laiko planavimo juostą, jūsų pasirinkta laiko skale. Pagal numatytuosius nustatymus sąmatos duomenys yra rikiuojami greitojo rikiavimo būdu į dimensiją **Vaidmuo**.
 
-> ![Laipsniškai laike išdėstytas rodinys projekto sąmatoms.](media/project-7.png)
+> ![Laipsniškai laike išdėstytas rodinys projekto sąmatoms](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>Apskaičiuotų pastangų paskirstymas pagal užduoties režimą
 
@@ -95,6 +97,3 @@ Tinklelio ir laipsniškai laike išdėstytame rodiniuose galite pažymėti, kuri
 ## <a name="expense-estimates"></a>Išlaidų sąmatos
 
 Mygtukas **Įtraukti naują išlaidų sąmatą** tinklelio rodinyje leidžia įrašyti visas projekte patirtas išlaidas, tačiau tai nėra tiesiogiai susiję su darbu. Galite įrašyti specifinės užduoties arba viso projekto išlaidų sąmatas. Pasirinkite išlaidų kategorijas ir preliminarią datą, kai tikitės patirti išlaidų. Jei susietuose savikainos ir pardavimo savikainos kainoraščiuose yra numatytųjų savikainų (ar apibrėžtų išlaidų kategorijų antkainių procentų), susiejant, sąmatų eilutėje jos įvedamos automatiškai.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

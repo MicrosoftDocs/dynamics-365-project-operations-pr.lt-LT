@@ -2,16 +2,18 @@
 title: Integravimo žurnalas programoje „Project Operations“
 description: Šioje temoje pateikiama informacija apie darbą su integravimo žurnalu programoje „Project Operations”.
 author: sigitac
+manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c5cc3254c52750b35be2c66137b6c57bbd9acbfbc89dedc6559059a89c8e2393
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4a5f4d524530594bd3118f9b320acf4033c5d503
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987941"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948340"
 ---
 # <a name="integration-journal-in-project-operations"></a>Integravimo žurnalas programoje „Project Operations“
 
@@ -19,14 +21,14 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 
 Laiko ir išlaidų įrašai sukuria operacijas **Faktinės**, kurios atitinka pagal projektą užbaigto darbo veiklos rodinį. „Dynamics 365 Project Operations“ teikia apskaitininkams įrankį, skirtą operacijoms peržiūrėti ir apskaitos atributams koreguoti, kai reikia. Užbaigus peržiūrą ir koregavimus, operacijos skelbiamos projekto papildomoje knygoje ir didžiojoje knygoje. Buhalteris gali vykdyti šias veiklas naudodamas **„Project Operations“ integravimo** žurnalą (**„Dynamics 365 Finance”** > **Projektų valdymas ir apskaita** > **Žurnalai** > **„Project Operations“ integravimo** žurnalas.
 
-![Integravimo žurnalo srautas.](./media/IntegrationJournal.png)
+![Integravimo žurnalo srautas](./media/IntegrationJournal.png)
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>Įrašų kūrimas „Project Operations“ integravimo žurnale
 
 Įrašai „Project Operations“ integravimo žurnale įrašai kuriami naudojant periodinį procesą, **Importuoti iš paruošimo lentelės**. Šį procesą galite vykdyti eidami į **„Dynamics 365 Finance”** > **Projektų valdymas ir apskaita** > **Periodinis** > **„Project Operations“ integravimas** > **Importuoti iš paruošimo lentelės**. Jeigu reikia, galite vykdyti procesą interaktyviai arba sukonfigūruoti procesą, kad veiktų fone.
 
 Vykdant periodinį procesą, randami visi faktiniai duomenys, kurie dar neįtraukti į „Project Operations“ integravimo žurnalą. Sukuriama kiekvienos faktinės operacijos žurnalo eilutė.
-Sistema grupuoja žurnalo eilutes į atskirus žurnalus pagal reikšmę, pasirinktą lauke **Laiko vienetas „Project Operations“ integravimo žurnale** (**„Finance”** > **Projektų valdymas ir apskaita** > **Sąranka** > **Projektų valdymo ir apskaitos parametrai**, **„Project Operations”, veikiančios „Dynamics 365 Customer Engagement”** skirtuke). Toliau pateikiamos galimos šio lauko reikšmės.
+Sistema grupuoja žurnalo eilutes į atskirus žurnalus pagal vertę, pažymėtą lauke **Laiko vienetas „Project Operations“ integravimo žurnale** (**„Finance”** > **Projektų valdymas ir apskaita** > **Sąranka** > **Projektų valdymo ir apskaitos parametrai**, **„Project Operations”, veikiančios „Dynamics 365 Customer Engagement”** skirtukas). Toliau pateikiamos galimos šio lauko reikšmės.
 
   - **Dienos**: faktiniai duomenys grupuojami pagal operacijos datą. Sukuriamas atskiras kiekvienos dienos žurnalas.
   - **Mėnesiai**: faktiniai duomenys grupuojami pagal kalendorinį mėnesį. Sukuriamas atskiras kiekvieno mėnesio žurnalas.

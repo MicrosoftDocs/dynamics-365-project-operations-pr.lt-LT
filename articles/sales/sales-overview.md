@@ -2,23 +2,24 @@
 title: Pardavimo proceso apžvalga
 description: Šioje temoje pateikiama informacija apie pagrindinius pardavimo procesus.
 author: rumant
+manager: Annbe
 ms.date: 10/29/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 3bda8a11d0cb6fe97a3daa640bf95717ef9913000e6b1a28a0a27a35527dbf6f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5da29d2959a6e49defa185630f45d280dba283c4
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991856"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177611"
 ---
 # <a name="sales-process-overview"></a>Pardavimo proceso apžvalga
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
-Organizacijoje, kurios veikla pagrįsta projektu, naudojami pardavimo procesai skiriasi nuo pardavimų procesų, naudojamų organizacijoje, kurios veikla pagrįsta produktais. Taip yra todėl, kad organizacijų, kurių veikla pagrįsta projektu, pardavimo ciklai yra ilgesni ir jiems reikia tinkintų įvertinimo technologijų, kad galėtų išanalizuoti ir kurti visų sandorių pasiūlymus. „Dynamics 365 Project Operations“ naudoja kai kurias iš šių funkcijų, naudojamų pardavimo procese:
+Organizacijoje, kurios veikla pagrįsta projektu, naudojami pardavimo procesai skiriasi nuo pardavimų procesų, naudojamų organizacijoje, kurios veikla pagrįsta produktais. Taip yra todėl, kad organizacijų, kurių veikla pagrįsta projektu, pardavimo ciklai yra ilgesni ir jiems reikia tinkintų įvertinimo technologijų, kad galėtų išanalizuoti ir kurti visų sandorių pasiūlymus. „Dynamics 365 Project Operations“ naudoja kai kurias iš toliau pateiktų funkcijų, kurios naudojamos pardavimo procese:
 
 - Pardavimo procesas sekamas naudojant įrašą „Galimas klientas“.
 - Tinkami galimi klientai sekami kaip galimybės.
@@ -62,6 +63,3 @@ Naudodami „Project Operations“ negalite sekti atliktų pasiūlymo peržiūr�
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>Pasiūlymų ir projektų sutarčių komentarų bei patvirtinimų sekimas
 Naudodami įrašų sieną ir įrašus galite valdyti pasiūlymų ir projektų sutarčių peržiūrą bei patvirtinimą. Siekdama priskirti, peradresuoti, perskirti ir valdyti peržiūros ir patvirtinimo darbų elementų pranešimus organizacija gali kurti pasirinktines darbo eigas ir priedus.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

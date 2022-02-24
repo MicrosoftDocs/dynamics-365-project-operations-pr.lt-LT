@@ -3,6 +3,7 @@ title: Duomenų pavyzdžių įdiegimas
 description: Šioje temoje pateikta informacija apie „Project Service Automation“ duomenų pavyzdžio diegimą.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
+ms.service: project-operations
 ms.reviewer: kfend
 ms.suite: ''
 applies_to: Dynamics 365 Project Service Automation
@@ -10,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 01e2f1f6b29e040d5c72af402031e13a867736405c4ee161e49b74a30e4b506e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: aaeb4163c7ace1c3bf4db61f1a10a13cfbdc4fc2
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985556"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144513"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Duomenų pavyzdžių diegimas programoje „Project Service“
 
@@ -86,7 +87,7 @@ Turėtumėte pasirengti palikti kompiuterį prijungtą prie tinklo; **sąrankos 
 Kompiuterio ekrano užsklandos funkcija turi būti išjungta. Kitu atveju diegimo seanso kredencialai gali būti prarasti, kai įjungiama ekrano užsklanda (nebent seansas liks aktyvus).
 
 > [!div class="mx-imgBorder"]
-> ![Ekrano užsklandos parametrų ekrano kopija; ekrano užsklanda išjungta.](media/sample-data-1.png)
+> ![Ekrano užsklandos parametrų ekrano kopija; ekrano užsklanda išjungta](media/sample-data-1.png)
 
 ## <a name="download-and-unpack"></a>Atsisiuntimas ir išpakavimas
 
@@ -135,20 +136,20 @@ Demonstraciniam duomenų paketui būtini šeši vartotojai. Norėdami tinkamai �
     - User Fullname="Molly Clark" kaip klientų vadovė   
     - User Fullname="Spencer Low" kaip praktikos ir projektų vadovas  
     - User Fullname="Veronica Quek" kaip komandos narė   
-    - User Fullname="William Contoso"
+    - User Fullname="William Danys"
   
 2. Importuodami demonstracinius duomenis, priskirkite šešiems pirmiau nurodytiems vartotojams administratoriaus vaidmenį, kad įrašų pavyzdžiai būti tinkamai importuoti. 
 
 3. Atidarykite **PkgFolder** ir raskite bei atidarykite **ImportUserMapFile.xml**. Atnaujinkite laukus **New=** nurodydami el. pašto adresus, kurie atitinka vartotojus jūsų sistemoje.
 
    > [!div class="mx-imgBorder"]
-   > ![„UserMapFile“ ekrano kopija.](media/sample-data-7.png)
+   > ![„UserMapFile“ ekrano kopija](media/sample-data-7.png)
 
 4. Jei vartotojui, kurio vardas ir pavardė „Spencer Low“, priskirtas vartotojo ID nėra **spencerl**, turite atnaujinti papildomą failą. Atidarykite **DemoDataPreImportConfig.xml** ir raskite žymę **userstocreateandconfigure**. Atnaujinkite **\<login\>** žymę nurodydami „loginId“ (skiriamos didžiosios ir mažosios raidės). 
 
 5. Pirmojo vartotojo kalendorius (žymėje **userstocreateandconfigure**) naudojamas užpildant visų užsakomų išteklių darbo valandas demonstracinių duomenų importavimo metu. Pasirinkite **Parametrai** > **Sauga** > **Vartotojai**, raskite vartotoją „Spencer Low“ ir atidarykite parinktį „Darbo valandas“. Redaguokite esamas darbo valandas, pasirinkdami parinktį **Visas pasikartojantis savaitės grafikas nuo pradžios iki galo**. Užtikrinkite, kad **lauke Darbo valandos nustatyta reikšmė į 8:00–17:00 val. (9 valandos), pirmadienis–penktadienis, o lauke Laiko juosta – reikšmė Ramiojo vandenyno laikas (JAV ir Kanada)**. Tai reikia atlikti siekiant užtikrinti, kad projekto ir grafiko lentos duomenys būtų rodomi tinkamai.
 
-**Rekomendacija:** galite dabar sukurti organizacijos duomenų atsarginę kopiją, jei duomenų pavyzdžių diegimo metu kils problemų ir norėsite juos atkurti. Daugiau informacijos rasite [Egzempliorių atsarginių kopijų kūrimas ir atkūrimas](/dynamics365/customer-engagement/admin/backup-restore-instances).
+**Rekomendacija:** galite dabar sukurti organizacijos duomenų atsarginę kopiją, jei duomenų pavyzdžių diegimo metu kils problemų ir norėsite juos atkurti. Daugiau informacijos rasite [Egzempliorių atsarginių kopijų kūrimas ir atkūrimas](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
 
 ## <a name="run-the-package-deployer"></a>Paleiskite Package Deployer
 
@@ -172,7 +173,7 @@ Demonstraciniam duomenų paketui būtini šeši vartotojai. Norėdami tinkamai �
 5. Pasirinkite **Toliau**, kol pamatysite dialogo langą **Demonstracinių duomenų sąranka**.
 
    > [!div class="mx-imgBorder"]
-   > ![Demonstracinių duomenų diegimo būsenos lango ekrano kopija.](media/sample-data-3.png)
+   > ![Demonstracinių duomenų diegimo būsenos lango ekrano kopija](media/sample-data-3.png)
 
 6. Prieš tęsdami atkreipkite dėmesį, kad duomenų pavyzdžių diegimas gali užtrukti iki vienos valandos (paprastai – apie 10 minučių). Kompiuteris privalo būti įjungtas ir prijungtas prie tinklo diegimo proceso metu, o seansas turi būti aktyvus.   
 
@@ -191,10 +192,10 @@ Visiškai įkėlus duomenų pavyzdžius, prisijunkite kaip vartotojas Spencer Lo
 - Jei įdiegta programa „Field Service“, pasirinkite **Project Service** > **Parametrai** > **Kainoraščiai**. Įsitikinkite, kad nurodyti sąskaitos tarifai ir išlaidų tarifai. Pasirinkite **Field Service** > **Parametrai** > **Kainoraščiai** ir patikrinkite, ar sąskaitos tarifai ir išlaidų tarifai yra nurodyti naudojant tinkamą valiutą, skirtą kiekvienai šaliai / regionui duomenų rinkinyje.
 
   > [!div class="mx-imgBorder"]
-  > ![Aktyviųjų kainoraščių ekrano kopija.](media/sample-data-4.png)
+  > ![Aktyviųjų kainoraščių ekrano kopija](media/sample-data-4.png)
 
   > [!div class="mx-imgBorder"]
-  > ![Aktyviųjų organizacijos vienetų ekrano kopija.](media/sample-data-5.png)
+  > ![Aktyviųjų organizacijos vienetų ekrano kopija](media/sample-data-5.png)
 
 ## <a name="technical-notes"></a>Techninės pastabos
 
@@ -295,7 +296,4 @@ Jei norite pakeisti rezervuojamų išteklių pavyzdžių darbo valandas, pasirin
 Pasirinkite vartotoją (pvz., Spencer Low) ir pakeiskite Spenserio darbo valandas į valandas, kurias norite taikyti keliems vartotojams. Pasirinkite **Universal Resource Scheduling** > **Parametrai** > **Darbo valandų šablonai** ir redaguokite įrašą **Numatytasis darbo šablonas**. Lauke **Šablono išteklius** pasirinkite vartotoją, kurio darbo valandas norite taikyti kitiems ištekliams. Norėdami planuoti **Universal Resource Scheduling** > **Planavimas** > **Ištekliai** > **Aktyvūs rezervuojami ištekliai**. Pasirinkite išteklius, kuruos norite keisti, ir pasirinkite **Nustatyti kalendorių**. Išplečiamajame sąraše **Darbo šablonas** pasirinkite šabloną **Numatytosios darbo valandos** arba kitą šabloną su tinkamu šablono ištekliumi. Atidarę grafiko lentą turėtumėte matyti atnaujintas išteklių darbo valandas.
 
 > [!div class="mx-imgBorder"]
-> ![Aktyviųjų rezervuojamųjų išteklių ekrano kopija.](media/sample-data-6.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+> ![Aktyviųjų užsakomų išteklių ekrano kopija](media/sample-data-6.png)

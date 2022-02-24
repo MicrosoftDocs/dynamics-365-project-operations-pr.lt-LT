@@ -2,9 +2,11 @@
 title: Mobilioji išlaidų programėlė
 description: Šioje temoje pateikiama informacija apie išlaidų valdymą mobiliojoje darbo srityje.
 author: suvaidya
-ms.date: 11/15/2021
+manager: AnnBe
+ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5ab5959fa5c9c5463826a9a792112a93e469de5f
-ms.sourcegitcommit: 2e4483d5b88213a9f33109f7adb989108521327d
-ms.translationtype: MT
+ms.openlocfilehash: 01df30bf48fa9118771b87363d0418eb6b49ecea
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "7818193"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499906"
 ---
 # <a name="mobile-expense-app"></a>Mobilioji išlaidų programėlė
 
@@ -47,14 +49,47 @@ Taip pat galite naudoti šias funkcijas:
 - Pateikite patvirtinimo ir kompensavimo išlaidų ataskaitą.
 - Patvirtinkite arba atmeskite išlaidų ataskaitas, kurioms esate priskirtas tvirtintojas.
 
-## <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Būtinosios sąlygos, jei naudojate Dynamics 365 Finance
+## <a name="prerequisites"></a>Būtinosios sąlygos
+Būtinosios sąlygos skiriasi atsižvelgiant į versiją, įdiegtą organizacijoje.
 
+### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Būtinosios sąlygos, jei naudojama „Dynamics 365 Finance“ 
 Jei organizacijoje įdiegta „Finance“, sistemos administratorius turi publikuoti mobiliąją darbo sritį **Išlaidų valdymas**. 
+
+### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Būtinosios sąlygos, jei naudojama 1611 versija su 3 arba naujesnės versijos platforma
+Jei organizacijoje įdiegta 1611 versija su 3 arba naujesnės versijos platforma, sistemos administratorius turi įvykdyti toliau pateikiamas būtinąsias sąlygas. 
+
+<table>
+<thead>
+<tr class="header">
+<th>Būtinoji sąlyga</th>
+<th>Vaidmuo</th>
+<th>Aprašo</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Įdiegti KB 4019015.</td>
+<td>Sistemos administratorius</td>
+<td>KB 4019015 yra X++ naujinimas arba metaduomenų karštosios pataisos, kuriose yra <strong>Išlaidš valdymas</strong> mobilioji darbo sritis. Norėdamas įdiegti KB 4019015, sistemos administratorius turi atlikti toliau pateikiamus veiksmus.
+<ol>
+<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Atsisiųsti atnaujinimus iš „Lifecycle Services“</a>.</li>
+<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Įdiegti metaduomenų karštąsias pataisas</a>.</li>
+<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Sukurkite įdiegiamą paketą,</a> kuriame yra modeliai <strong>„ApplicationSuite“</strong> ir <strong>„ExpenseMobile“</strong>, ir įkelkite įdiegiamą paketą į LCS.</li>
+<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Pritaikyti įdiegiamą paketą</a>.</li>
+</ol></td>
+</tr>
+<tr class="even">
+<td>Publikuokite <strong>Išlaidų valdymo</strong> mobiliąja darbo sritį.</td>
+<td>Sistemos administratorius</td>
+<td>Žr. <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Mobiliosios darbo srities publikavimas</a>.</td>
+</tr>
+</tbody>
+</table>
 
 ## <a name="download-and-install-the-dynamics-365-unified-ops-mobile-app"></a>Atsisiųskite ir įdiekite „Dynamics 365 Unified Ops“ mobiliųjų įrenginių programėlę
 Atsisiųskite ir įdiekite „Dynamics 365 Unified Ops“ mobiliųjų įrenginių programėlę:
 
-- [Android telefonams](https://go.microsoft.com/fwlink/?linkid=850662)
+- [Skirta telefonams „Android“](https://go.microsoft.com/fwlink/?linkid=850662)
 - [Skirta telefonams „iPhone“](https://go.microsoft.com/fwlink/?linkid=850663)
 
 ## <a name="sign-in-to-the-mobile-app"></a>Prisijungimas prie mobiliųjų įrenginių programėlės
@@ -70,11 +105,11 @@ Atsisiųskite ir įdiekite „Dynamics 365 Unified Ops“ mobiliųjų įrengini�
 3. Pasirinkite **Fotografuoti** arba **Pasirinkti vaizdą**.
 4. Atlikite vieną iš šių veiksmų:
 
-    - Jei pažymėjote **Fotografuoti**, atlikite šiuos veiksmus:
+   - Jei pažymėjote **Fotografuoti**, atlikite šiuos veiksmus:
 
-        1. Mobiliajame įrenginyje atsidarys kamera, kad galėtumėte nufotografuoti kvito nuotrauką. 
-        2. Nufotografavę pasirinkite **Gerai**, kad patvirtintumėte nuotrauką.
-        3. Pasirinktinai: įveskite nuotraukos pavadinimą ir įveskite visas pastabas.
+      1. Mobiliajame įrenginyje atsidarys kamera, kad galėtumėte nufotografuoti kvito nuotrauką. 
+      2. Nufotografavę pasirinkite **Gerai**, kad patvirtintumėte nuotrauką.
+      3. Pasirinktinai: įveskite nuotraukos pavadinimą ir įveskite visas pastabas.
 
     - Jei pažymėjote **Pasirinkti vaizdą**, atlikite šiuos veiksmus:
 
@@ -87,11 +122,11 @@ Atsisiųskite ir įdiekite „Dynamics 365 Unified Ops“ mobiliųjų įrengini�
 
 1. Mobiliajame įrenginyje atidarykite **išlaidų valdymo** darbo sritį.
 2. Pasirinkite **Spartus išlaidų įvedimas**.
-3. Pažymėkite išlaidų kategoriją. Matysite išlaidų kategorijų, kurios įkeltos į programėlę ir skirtos naudoti neprisijungus, sąrašą. Pagal numatytuosius parametrus įkeliama 50 elementų, bet kūrėjas gali šį skaičių pakeisti. Daugiau informacijos kūrėjai gali rasti skyriuje [Mobilioji platforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Jei jūsų kategorijos sąraše nėra, pasirinkite **Ieskoti**, kad atliktumėte iešką internete. Ieškokite pagal išlaidų kategoriją arba pereikite prie ieškos pagal išlaidų tipą.
+3. Pažymėkite išlaidų kategoriją. Matysite išlaidų kategorijų, kurios įkeltos į programėlę ir skirtos naudoti neprisijungus, sąrašą. Pagal numatytuosius parametrus įkeliama 50 elementų, bet kūrėjas gali šį skaičių pakeisti. Daugiau informacijos kūrėjai gali rasti skyriuje [Mobilioji platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Jei jūsų kategorijos sąraše nėra, pasirinkite **Ieskoti**, kad atliktumėte iešką internete. Ieškokite pagal išlaidų kategoriją arba pereikite prie ieškos pagal išlaidų tipą.
 4. Įveskite išlaidų operacijos datą.
 5. Pasirinktinai: įveskite prekybininko sąskaitą.
 6. Įveskite išlaidos sumą.
-7. Pasirinkite išlaidų valiutą. Matysite valiutos kodų, kurie įkelti į programėlę ir skirti naudoti neprisijungus, sąrašą. Pagal numatytuosius parametrus įkeliama 400 valiutų, bet kūrėjas gali šį skaičių pakeisti. Daugiau informacijos kūrėjai gali rasti skyriuje [Mobilioji platforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Jei jūsų valiutos sąraše nėra, pasirinkite **Ieskoti**, kad atliktumėte iešką internete. Ieškokite pagal valiutą arba pereikite prie ieškos pagal pavadinimą.
+7. Pasirinkite išlaidų valiutą. Matysite valiutos kodų, kurie įkelti į programėlę ir skirti naudoti neprisijungus, sąrašą. Pagal numatytuosius parametrus įkeliama 400 valiutų, bet kūrėjas gali šį skaičių pakeisti. Daugiau informacijos kūrėjai gali rasti skyriuje [Mobilioji platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Jei jūsų valiutos sąraše nėra, pasirinkite **Ieskoti**, kad atliktumėte iešką internete. Ieškokite pagal valiutą arba pereikite prie ieškos pagal pavadinimą.
 8. Pasirinkite **Fotografuoti** arba **Pasirinkti vaizdą**.
 9. Atlikite vieną iš šių veiksmų:
 
@@ -100,20 +135,20 @@ Atsisiųskite ir įdiekite „Dynamics 365 Unified Ops“ mobiliųjų įrengini�
 
 10. Pasirinkite **Atlikta**.
 
-## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace"></a>Išlaidų ataskaitos patvirtinimas naudojant darbo sritį Išlaidų valdymas mobiliajame įrenginyje
+## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Išlaidų ataskaitos patvirtinimas naudojant išlaidų valdymo mobiliąją darbo sritį (jei naudojate liepos 2017 naujinimą)
 
 1. Mobiliajame įrenginyje atidarykite **išlaidų valdymo** darbo sritį.
 2. **Išlaidų patvirtinimuose** pateikiamas jums priskirtų išlaidų ataskaitų skaičius patvirtinimui. Numeris atnaujinamas maždaug kas 30 minučių. Pažymėkite **išlaidų patvirtinimai**.
 
     Rodomas išlaidų ataskaitų, kurios priskirtos jums patvirtinimui, sąrašas.
-
+    
 3. Pažymėkite išlaidų ataskaitą ir peržiūrėkite jos išsamią informaciją.
 4. Pažymėkite išlaidas ir peržiūrėkite jų išsamią informaciją. Informacijoje, kuri rodoma kaip sąskaita, yra bet koks kvitas, svečias ir išsami informacija.
 5. Puslapio **Išlaidų ataskaita** gale pažymėkite, kad patvirtintumėte arba atmestumėte išlaidų ataskaitą.
 6. Įveskite visus patvirtinimo veiksmo komentarus.
 7. Pasirinkite **Atlikta**.
 
-## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace"></a>Sukurkite naują išlaidų ataskaitą ir pateikite ją tvirtinti naudodami darbo sritį Išlaidų valdymas mobiliuoju telefonu
+## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Naujos išlaidų ataskaitos kūrimas ir jos pateikimas patvirtinimui naudojant išlaidų valdymo mobiliąją darbo sritį (jei naudojate liepos 2017 naujinimą)
 
 1. Mobiliajame įrenginyje atidarykite **išlaidų valdymo** darbo sritį.
 2. Pasirinkite **Išlaidų įvedimas**.
@@ -124,11 +159,11 @@ Atsisiųskite ir įdiekite „Dynamics 365 Unified Ops“ mobiliųjų įrengini�
 7. Sąraše pažymėkite vieną arba kelias išlaidas.
 8. Pasirinkite **Atlikta**.
 9. Jei norite įtraukti naują išlaidų ataskaitą, pažymėkite **Naujos išlaidos**.
-10. Pažymėkite išlaidų kategoriją. Matysite išlaidų kategorijų, kurios įkeltos į programėlę ir skirtos naudoti neprisijungus, sąrašą. Pagal numatytuosius parametrus įkeliama 50 elementų, bet kūrėjas gali šį skaičių pakeisti. Daugiau informacijos kūrėjai gali rasti skyriuje [Mobilioji platforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Jei jūsų kategorijos sąraše nėra, pasirinkite **Ieskoti**, kad atliktumėte iešką internete. Ieškokite pagal išlaidų kategoriją arba pereikite prie ieškos pagal išlaidų tipą.
+10. Pažymėkite išlaidų kategoriją. Matysite išlaidų kategorijų, kurios įkeltos į programėlę ir skirtos naudoti neprisijungus, sąrašą. Pagal numatytuosius parametrus įkeliama 50 elementų, bet kūrėjas gali šį skaičių pakeisti. Daugiau informacijos kūrėjai gali rasti skyriuje [Mobilioji platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Jei jūsų kategorijos sąraše nėra, pasirinkite **Ieskoti**, kad atliktumėte iešką internete. Ieškokite pagal išlaidų kategoriją arba pereikite prie ieškos pagal išlaidų tipą.
 11. Pasirinktinai: įveskite prekybininko sąskaitą.
 12. Įveskite išlaidų operacijos datą.
 13. Įveskite išlaidos sumą.
-14. Pasirinkite išlaidų valiutą. Matysite valiutos kodų, kurie įkelti į programėlę ir skirti naudoti neprisijungus, sąrašą. Pagal numatytuosius parametrus įkeliama 400 valiutų, bet kūrėjas gali šį skaičių pakeisti. Daugiau informacijos kūrėjai gali rasti skyriuje [Mobilioji platforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Jei jūsų valiutos sąraše nėra, pasirinkite **Ieskoti**, kad atliktumėte iešką internete. Ieškokite pagal valiutą arba pereikite prie ieškos pagal pavadinimą.
+14. Pasirinkite išlaidų valiutą. Matysite valiutos kodų, kurie įkelti į programėlę ir skirti naudoti neprisijungus, sąrašą. Pagal numatytuosius parametrus įkeliama 400 valiutų, bet kūrėjas gali šį skaičių pakeisti. Daugiau informacijos kūrėjai gali rasti skyriuje [Mobilioji platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Jei jūsų valiutos sąraše nėra, pasirinkite **Ieskoti**, kad atliktumėte iešką internete. Ieškokite pagal valiutą arba pereikite prie ieškos pagal pavadinimą.
 15. Pasirinkite **Atlikta**.
 16. Norėdami įtraukti daugiau informacijos į išlaidas, pažymėkite **Įtraukti daugiau informacijos**. Galimi laukai priklauso nuo jūsų įmonės išlaidų valdymo konfigūracijos.
 17. Jei įmonės strategijoje reikia išlaidų gavimo, pasirinkite **Kvitai** ir atlikite šiuos veiksmus:
@@ -151,12 +186,12 @@ Atsisiųskite ir įdiekite „Dynamics 365 Unified Ops“ mobiliųjų įrengini�
                     1. Sąraše pasirinkite vaizdą.
                     2. Pasirinktinai: įveskite vaizdo pavadinimą ir įveskite visas pastabas.
 
-            3. Pasirinkite **Atlikta**.
+            3.  Pasirinkite **Atlikta**.
 
         - Jei pažymėjote **Pridėti kvitą**, atlikite šiuos veiksmus:
 
-            1. Sąraše pažymėkite vieną arba kelis vaizdus.
-            2. Pasirinkite **Atlikta**.
+            1.  Sąraše pažymėkite vieną arba kelis vaizdus.
+            2.  Pasirinkite **Atlikta**.
 
     3. Norėdami grįžti prie išlaidų išsamios informacijos, spustelėkite mygtuką **Atgal**.
 
@@ -174,12 +209,12 @@ Atsisiųskite ir įdiekite „Dynamics 365 Unified Ops“ mobiliųjų įrengini�
 
         - Jei pažymėjote **Ankstesnis svečias**, atlikite šiuos veiksmus:
 
-            1. Sąraše pažymėkite vieną arba kelis ankstesnius svečius. Matote ankstesnių Svečių, kuriuos įtraukėte į ankstesnes išlaidų ataskaitas, įkeliamas į programą, kad būtų galima naudoti neprisijungus, sąrašą. Pagal numatytuosius parametrus įkeliama 50 elementų, bet kūrėjas gali šį skaičių pakeisti. Daugiau informacijos kūrėjai gali rasti skyriuje [Mobilioji platforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Jei jūsų ankstesnio svečio sąraše nėra, pasirinkite **Ieskoti**, kad atliktumėte iešką internete. Ieškokite pagal pavadinimą arba pereikite prie ieškos pagal organizaciją, šalį ar titulą.
+            1. Sąraše pažymėkite vieną arba kelis ankstesnius svečius. Matote ankstesnių Svečių, kuriuos įtraukėte į ankstesnes išlaidų ataskaitas, įkeliamas į programą, kad būtų galima naudoti neprisijungus, sąrašą. Pagal numatytuosius parametrus įkeliama 50 elementų, bet kūrėjas gali šį skaičių pakeisti. Daugiau informacijos kūrėjai gali rasti skyriuje [Mobilioji platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Jei jūsų ankstesnio svečio sąraše nėra, pasirinkite **Ieskoti**, kad atliktumėte iešką internete. Ieškokite pagal pavadinimą arba pereikite prie ieškos pagal organizaciją, šalį ar titulą.
             2. Pasirinkite **Atlikta**.
 
         - Jei pažymėjote **Bendradarbiai**, atlikite šiuos veiksmus:
 
-            1. Sąraše pažymėkite vieną arba kelis bendradarbius. Matysite bendradarbių, kurie įkelti į programėlę naudoti neprisijungus, sąrašą. Pagal numatytuosius parametrus įkeliama 50 elementų, bet kūrėjas gali šį skaičių pakeisti. Daugiau informacijos kūrėjai gali rasti skyriuje [Mobilioji platforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Jei jūsų bendradarbio sąraše nėra, pasirinkite **Ieskoti**, kad atliktumėte iešką internete. Ieškokite pagal pavadinimą arba pereikite prie ieškos pagal įmonę ar titulą.
+            1. Sąraše pažymėkite vieną arba kelis bendradarbius. Matysite bendradarbių, kurie įkelti į programėlę naudoti neprisijungus, sąrašą. Pagal numatytuosius parametrus įkeliama 50 elementų, bet kūrėjas gali šį skaičių pakeisti. Daugiau informacijos kūrėjai gali rasti skyriuje [Mobilioji platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Jei jūsų bendradarbio sąraše nėra, pasirinkite **Ieskoti**, kad atliktumėte iešką internete. Ieškokite pagal pavadinimą arba pereikite prie ieškos pagal įmonę ar titulą.
             2. Pasirinkite **Atlikta**.
 
     3. Norėdami grįžti prie išlaidų išsamios informacijos, spustelėkite mygtuką **Atgal**.
@@ -188,7 +223,7 @@ Atsisiųskite ir įdiekite „Dynamics 365 Unified Ops“ mobiliųjų įrengini�
 
     1. Pažymėkite pirmąją datą, kad ją detalizuotumėte.
     2. Pažymėkite **Įtraukti detalizavimą**.
-    3. Pažymėkite išlaidų detalizavimo papildomą kategoriją. Matysite išlaidų papildomų kategorijų, kurios įkeltos į programėlę ir skirtos naudoti neprisijungus, sąrašą. Pagal numatytuosius parametrus įkeliama 50 elementų, bet kūrėjas gali šį skaičių pakeisti. Daugiau informacijos kūrėjai gali rasti skyriuje [Mobilioji platforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Jei jūsų papildomos kategorijos sąraše nėra, pasirinkite **Ieskoti**, kad atliktumėte iešką internete. Ieškoti pagal išlaidų papildomos kategorijos pavadinimą.
+    3. Pažymėkite išlaidų detalizavimo papildomą kategoriją. Matysite išlaidų papildomų kategorijų, kurios įkeltos į programėlę ir skirtos naudoti neprisijungus, sąrašą. Pagal numatytuosius parametrus įkeliama 50 elementų, bet kūrėjas gali šį skaičių pakeisti. Daugiau informacijos kūrėjai gali rasti skyriuje [Mobilioji platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Jei jūsų papildomos kategorijos sąraše nėra, pasirinkite **Ieskoti**, kad atliktumėte iešką internete. Ieškoti pagal išlaidų papildomos kategorijos pavadinimą.
     4. Įveskite operacijos sumą, skirtą detalizavimui.
     5. Jei reikia, redaguokite operacijos datą.
     6. Pasirinkite **Atlikta**.
@@ -202,30 +237,5 @@ Atsisiųskite ir įdiekite „Dynamics 365 Unified Ops“ mobiliųjų įrengini�
 23. Įveskite komentarus tvirtintojui.
 24. Pasirinkite **Atlikta**.
 
-## <a name="frequently-asked-questions"></a>Dažnai užduodami klausimai
-
-### <a name="why-doesnt-the-expense-mobile-app-enter-the-payment-method-by-default"></a>Kodėl pagal numatytuosius nustatymus programėlė "Expense mobile" neįveža mokėjimo metodo?
-
-Organizacijos gali tinkinti **kiekvienos sukurtos išlaidų kategorijos parametrą Numatytasis mokėjimo** metodas. Be to, nustatydami mokėjimo metodus, galite nustatyti **lauką Numatytasis mokėjimo metodas** kaip Importuoti **tik**.
-
-Kai **įgalintas tik** mokėjimo būdo importavimas, mokėjimo metodas neįvedamas pagal numatytuosius nustatymus. Jis bus tuščias išlaidų kategorijose, kuriose nustatytas šis mokėjimo metodas. Ši elgsena yra nuosekli tiek žiniatinklio patirtį ir mobiliojo ryšio patirtį.
-    
-Kai **tik** importavimas neįgalintas mokėjimo metodui, nustatyta vertė įvedama pagal numatytuosius nustatymus išlaidų kategorijoms, kuriose nustatytas šis mokėjimo metodas. Tačiau yra žinoma problema, kai numatytoji reikšmė neįvesta į programą "Expense mobile". Norėdami išspręsti šią problemą, prieš įrašydami išlaidų ataskaitą neautomatiniu būdu pasirinkite mokėjimo metodą. 
-
-### <a name="why-cant-i-add-or-edit-financial-dimensions-in-the-expense-mobile-app"></a>Kodėl negaliu įtraukti arba redaguoti finansinių dimensijų programėlėje "Išlaidos mobiliesiems"?
-
-Dimensijų ir paskirstymų įvedimas nepalaikomas. Norėdami apeiti šį apribojimą, galite nustatyti šiuos laukus pagal numatytuosius nustatymus mobiliojoje programėlėje nustatydami numatytąsias finansines dimensijas pagal projektą arba darbuotoją.
-
-### <a name="why-do-i-sometimes-see-a-synchronization-error-in-the-expense-mobile-app"></a>Kodėl kartais programoje "Expense mobile" matau sinchronizavimo klaidą?
-
-Jei išlaidų eilutės neatitinka strategijos reikalavimų ir vartotojas pateikia išlaidų ataskaitą nesprendžiant strategijos įspėjimo, mobiliojo ryšio duomenys nesinchronizuojami su serveriu ir įvyksta sinchronizavimo klaida. Visos išlaidų ataskaitos, pateiktos įvykus sinchronizavimo trikčiai, liks nepavykusios būsenos ir sukels daugiau sinchronizavimo trikčių. Vienintelis būdas išspręsti šią situaciją yra neautomatiniu būdu panaikinti sinchronizavimo pranešimus. Ši problema buvo išspręsta sustabdant išlaidų ataskaitų pateikimą, kai strategijos įspėjimai nebuvo pašalinti, kad būtų išvengta sinchronizavimo klaidų.
-
-### <a name="why-isnt-project-and-category-validation-correctly-reflected-in-the-expense-mobile-app"></a>Kodėl projekto ir kategorijos tikrinimas tinkamai neatsispindi programėlėje "Expense mobile"?
-
-Šis tikrinimas šiuo metu nepalaikomas. Tačiau ateityje parama gali būti pridėta. 
-
-### <a name="what-document-types-are-supported-in-the-expense-mobile-app"></a>Kokie dokumentų tipai palaikomi programėlėje "Expense mobile"?
-
-Mobilioji programėlė "Expense" palaiko tik vaizdus. Šiuo metu ji nepalaiko PDF rinkmenų ar kitų dokumentų.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

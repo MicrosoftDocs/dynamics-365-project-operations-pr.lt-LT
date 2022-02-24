@@ -2,9 +2,11 @@
 title: Įgūdžių ir kvalifikacijų apibrėžimas
 description: Šioje temoje pateikiama informacija apie tai, kaip nustatyti įgūdžių ir kvalifikacijos modelius ištekliams vertinti.
 author: ruhercul
+manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-customerservice
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e120f8c5a3d2dfaeb577652afcc1feac4cdc9e22f2f274e94bb674ea3fa52fed
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 24538ed1d610a0cae4c2badc0fd33c2f738a8338
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988751"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080780"
 ---
 # <a name="define-skills-and-proficiencies"></a>Įgūdžių ir kvalifikacijų apibrėžimas
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
-Įgūdžiai yra išteklių charakteristikos, kurios bendrinamos tarp Dynamics 365 Project Operations ir, jei yra, Dynamics 365 Field Service. 
+Įgūdžiai yra išteklių charakteristikos, kurios bendrinamos tarp „Dynamics 365 Project Operations“ ir, jei yra, „Dynamics 365 Field Service“. 
 
 - Norėdami tvarkyti įgūdžių saugyklą „Project Operations“, pereikite į **Ištekliai** \> **Išteklių įgūdžiai**. 
 
@@ -40,6 +42,3 @@ Išteklių įgūdžiai vertinami pagal kvalifikacijos modelius. Atskiri įvertin
 
 
 Šios įvertinimo reikšmės rodomos filtruose **Išteklių reikalavimai**, **Grafiko lenta** ir **Planavimo pagalbinė priemonė**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

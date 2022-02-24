@@ -2,9 +2,11 @@
 title: Tiekėjo mokėjimų „mokėti sumokėjus“ nustatymas ir naudojimas
 description: Šioje temoje paaiškinama, kaip sukurti „mokėjimo sumokėjus“ (PWP) sąlygas, kad būtų galima atlikti dalinius tiekėjo mokėjimus remiantis kliento mokėjimais.
 author: RadhikaRS
+manager: AnnBe
 ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 9976dadf57f1c84bf3f295ff3c8359c16e4849a3bf887f8bd33e46a04e2a5952
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e872c4a2d35cef4cddc6851615c6c4d73b4e9d9a
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008866"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080815"
 ---
 # <a name="set-up-and-use-pay-when-paid-vendor-payments"></a>Tiekėjo mokėjimų „mokėti sumokėjus“ nustatymas ir naudojimas
 
@@ -78,6 +80,3 @@ Kai tiekėjas baigia dirbti su projektu ir atsiunčia jums sąskaitą faktūrą,
 2. Puslapyje **Tiekėjo sąskaitos faktūros „mokėti sumokėjus“** ieškos lauke įveskite reikšmes, kad rastumėte tiekėjo sąskaitą faktūrą, kurią norite peržiūrėti, tada pasirinkite **Ieškoti**.
 3. „FastTab“ **Tiekėjo sąskaitos faktūros eilutės** pasirinkite eilutes, kurias norite pakeisti.
 4. Jei sąskaitos faktūros eilutės **Mokėti sumokėjus** sąlygos neįvykdytos, pasirinkite **Išleisti tiekėjo mokėjimą**. Parinktis **Mokėti sumokėjus** išvaloma, o lauko **Paruošta mokėti** reikšmė pakeičiama į **Taip**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

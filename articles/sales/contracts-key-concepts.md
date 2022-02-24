@@ -2,16 +2,18 @@
 title: Projekto sutartys – pagrindinės sąvokos
 description: Šioje temoje pateikta informacija apie pagrindines projekto sutarčių sąvokas programoje „Project Operations“.
 author: rumant
+manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ce84984f873e6336a6d065f0aa7a72f1474404a84d3dbb614c09d58bff66d83d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b0e0280cb94e6f0186f59024c233e8fcb9e86abf
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986951"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5663732"
 ---
 # <a name="concepts-unique-to-project-based-contracts"></a>Unikalios projektu pagrįstų sutarčių sąvokos
 

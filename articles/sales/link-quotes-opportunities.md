@@ -2,16 +2,18 @@
 title: Projektų pasiūlymų kūrimas iš galimybių
 description: Šioje temoje pateikta informacija apie projekto pasiūlymo kūrimą iš galimybės.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: acc7c6d0d3162163f071a9ab56950e4876aa711c94d36b3c9149cd46d76c57bd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4d2cc35e3205332d2941bf17fb8c7d8c9d9f310c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999641"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4118123"
 ---
 # <a name="create-project-quotes-from-opportunities"></a>Projektų pasiūlymų kūrimas iš galimybių
 
@@ -54,6 +56,3 @@ Esamas pasiūlymas gali būti susietas su galimybe. Atlikite šiuos veiksmus ir 
    Kai perkeliate galimybę į šį etapą, galite pažymėti šį pasiūlymą iš pasiūlymų, susijusių su šia galimybe, sąrašo. Pažymėjus šį pasiūlymą nurodoma, kad su juo keliaujate pirmyn.
 
    Visi kiti su galimybe susieti pasiūlymai vis tiek bus pasiekiami ir būs aktyvūs tol, kol laimėsite vieną iš jų. Galite perkelti pardavimo procesą atgal į ankstesnį etapą – **Patvirtinti tinkamumą** – ir pasirinkti kitą pasiūlymą ir pereiti į priekį.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

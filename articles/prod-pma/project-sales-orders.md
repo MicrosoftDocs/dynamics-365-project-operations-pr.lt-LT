@@ -2,9 +2,11 @@
 title: Laiko ir medžiagų projektų pardavimo užsakymai
 description: Šioje temoje paaiškinama, kaip kurti laiko ir medžiagų projektų projektu pagrįstus pardavimo užsakymus.
 author: Yowelle
+manager: AnnBe
 ms.date: 04/05/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2019-04-05
 ms.dyn365.ops.version: AX 10.0.2
-ms.openlocfilehash: bec39790b0a41e72b4cc9798d37a01e87029e18335f77d895680aafbb74fac3b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3653a6869dab323be88f1fd0f9fd0f2cb35c456f
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992846"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080821"
 ---
 # <a name="project-sales-orders-for-time-and-material-projects"></a>Laiko ir medžiagų projektų pardavimo užsakymai
 
@@ -39,6 +41,3 @@ Projektu pagrįstus pardavimo užsakymus galite kurti toliau pateikiamais dviem 
 - Pereikite prie paties projekto. Veiksmų srityje pasirinkite **Valdyti > Elementų užduotys > Pardavimo užsakymas**. Projekto informacija pagal numatytuosius parametrus bus nustatyta pagal projekto pardavimo užsakymą. Jei projekto sutartyje yra daugiau nei vienas finansavimo šaltinis, turėsite pasirinkti finansavimo šaltinį, kad nustatytumėte pardavimo užsakymo klientą. Jei projekte yra tik vienas finansavimo šaltinis, klientas bus nustatytas automatiškai.
 - Įeikite į sąrašo puslapį **Visi pardavimo užsakymai** ir sukurkite naują pardavimo užsakymą. Turėsite pasirinkti pardavimo užsakymo projektą. Pasirinkus projektą, klientas bus nustatomas pagal finansavimo šaltinį, arba reikės pasirinkti finansavimo šaltinį, jei projekto sutartyje nurodyti keli finansavimo šaltiniai.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

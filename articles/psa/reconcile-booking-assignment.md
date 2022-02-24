@@ -2,6 +2,8 @@
 title: Užsakymų ir priskyrimų derinimas
 description: Šioje temoje pateikta informacija apie faktinius duomenis.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/27/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 264271a5be63cb2e51f175595a48bef5fbff0a42a37795c85dd5b4725deec35e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9528bd983e6e18197138f0720abccdc6d6fa1ed5
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995141"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147933"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>Užsakymų ir priskyrimų derinimas
 
@@ -51,11 +53,11 @@ Kai kuriais atvejais, kai laukas **Laiko skalė** nustatomas kaip lygis, kuris y
 
 Kai peržiūrite stambesnius laiko lygius, skirtuke **Derinimas** rodomas langelio indikatorius, kuris jums praneš, kad yra skirtumų esant smulkesniems laiko lygiams. Pavyzdžiui, šioje iliustracijoje rodomas langelio indikatorius, esantis 2018 m. spalio mėnesio langelyje, skirtame ištekliams, pavadintame Margarita Ambrazaitytė. Todėl galite matyti, kad net jei išteklių užsakymai ir priskyrimai lygūs lygiu **Mėnesis**, jie nesutampa su smulkesniais lygiais.
 
-![Nesuderinti užsakymai ir prieskyros mėnesio lygiu.](media/reconcile-assignments-01.JPG)
+![Nesuderinti užsakymai ir prieskyros mėnesio lygiu](media/reconcile-assignments-01.JPG)
 
 Dukart spustelėkite langelį, jei norite priartinti kitą apatinį lygį ir peržiūrėti skirtumą. Pavyzdžiui, jei dukart spustelėjate 2018 m. spalio mėnesio skirtumą, langelyje Margarita Ambrazaitytė, galite detalizuoti lygį **Savaitė**. Tada galite matyti, kad ištekliai yra rezervuoti 16 valandų, bet jokių priskyrimų, esančių pirmąsias dvi spalio mėnesio savaites, ir 16 valandų priskyrimų, tačiau jokių užsakymų trečią spalio savaitę.
 
-![Nesuderinti užsakymai ir prieskyros savaitės lygiu.](media/reconcile-assignments-02.JPG)
+![Nesuderinti užsakymai ir prieskyros savaitės lygiu](media/reconcile-assignments-02.JPG)
 
 Galite dešiniuoju pelės mygtuku spustelėti langelį ir sumažinti tolimesnį stambesnį lygį. Taip pat galite išjungti langelio indikatorių pažymėdami mygtuką **Parametrai**. 
 
@@ -68,13 +70,13 @@ Norint užtikrinti tikslius ir prognozuojamus rezultatus naudojat rezervavimo i�
 
 - Naudotojas turi nustatyti savo įrenginio laiko juostą, kad ji atitiktų laiko juostą, apibrėžtą sistemos personalizavimo parametruose.
  
-  ![Laiko juostos parametrai „Windows 10“.](media/reconcile-assignments-03.png)
+  ![Laiko juostos parametrai „Windows 10“](media/reconcile-assignments-03.png)
 
-  ![Laiko juostos parametrai personalizavimo parametruose.](media/reconcile-assignments-04.png)
+  ![Laiko juostos parametrai personalizavimo parametruose](media/reconcile-assignments-04.png)
  
 - Rezervuojami ištekliai turi turėti bent vieną minutę darbo laiko, kuri sutampa su kontūrais, kurie naudojami pageidaujamo išplėtimo apibrėžimui. Pavyzdžiui, toliau pateiktame pavyzdyje rodomi peržiūros ištekliai su darbo valandomis, kurios yra intervale nuo 9.00 iki 19.00. 
 
-  ![Išteklių kontūrų palyginimas.](media/reconcile-assignments-05.png)
+  ![Išteklių kontūrų palyginimas](media/reconcile-assignments-05.png)
 
 Toliau esančioje lentelėje pateikiama:
 
@@ -83,22 +85,19 @@ Toliau esančioje lentelėje pateikiama:
 - B išteklius: šis išteklius yra kitoje nei projektas laiko zonoje, todėl jo pradžia yra 7.00 jo laiko juostoje. Tačiau rezervavimai prasidės 9.00, nes tai yra anksčiausias priskyrimo kontūro pradžios laikas.
 - C ir D ištekliai: šie ištekliai taip pat yra skirtingose laiko juostose, kurios abi skiriasi tarpusavyje ir nuo projekto, todėl jų rezervavimai prasidės ne anksčiau nei atitinkami galimi pradžios laikai.
 
-|Entity  |Kalendorius  |
+|Objektas  |Kalendorius  |
 |-|-|
-|Projekto kalendoriaus šablonas   | ![Projekto kalendorius.](media/reconcile-assignments-06.png) |
-|A išteklius  | ![A ištekliaus kalendorius.](media/reconcile-assignments-06.png) |
-|B išteklius  |  ![B ištekliaus kalendorius.](media/reconcile-assignments-07.png) |
-|C išteklius  |  ![C ištekliaus kalendorius.](media/reconcile-assignments-08.png) |
-|D išteklius  | ![D ištekliaus kalendorius.](media/reconcile-assignments-09.png)  |
+|Projekto kalendoriaus šablonas   | ![Projekto kalendorius](media/reconcile-assignments-06.png) |
+|A išteklius  | ![A ištekliaus kalendorius](media/reconcile-assignments-06.png) |
+|B išteklius  |  ![B ištekliaus kalendorius](media/reconcile-assignments-07.png) |
+|C išteklius  |  ![C ištekliaus kalendorius](media/reconcile-assignments-08.png) |
+|D išteklius  | ![D ištekliaus kalendorius](media/reconcile-assignments-09.png)  |
  
 Kai pereisite į suderinimo rodinį, bus rodomi išteklių priskyrimai ir susiję rezervavimo trūkumai.
- ![Suderinimo rodinys prieš išplėtimą.](media/reconcile-assignments-10.png)
+ ![Suderinimo rodinys prieš išplėtimą](media/reconcile-assignments-10.png)
 
 Po to, kai buvo įvykdyta kiekvieno ištekliaus rezervavimo pratęsimo funkcija, sėkmingai pratęsiamos kiekvieno ištekliaus rezervacijos. Taip yra todėl, kad kiekvieno ištekliaus darbo valandos sutapo su trūkumo kontūrais.
- ![Suderinimo rodinys po rezervavimo išplėtimo.](media/reconcile-assignments-11.png) 
+ ![Suderinimo rodinys po rezervavimo išplėtimo](media/reconcile-assignments-11.png) 
 
 Tačiau atidžiau apžvelgus rezervacijų išsamią informacija, matomi rezervacijų laiko pradžios skirtumai. Rezervavimai prasidės ne anksčiau nei priskyrimo kontūro pradžios laikas ir ne anksčiau nei galimas ištekliaus pradžios laikas.
- ![Naujos išteklių rezervacijos grafiko lentoje.](media/reconcile-assignments-12.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+ ![Naujos išteklių rezervacijos grafiko lentoje](media/reconcile-assignments-12.png)

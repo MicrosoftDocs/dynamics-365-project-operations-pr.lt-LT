@@ -2,16 +2,18 @@
 title: 2020 m. lapkričio mėn. naujienos – „Project Operations“, skirta laikomų medžiagų / gamyba pagrįstiems scenarijams
 description: Šioje temoje pateikiama informacija apie kokybės naujinimus, pasiekiamus 2020 m. lapkričio mėn. „Project Operations Lite”, skirta laikomų medžiagų / gamyba pagrįstiems scenarijams.
 author: sigitac
+manager: Annbe
 ms.date: 10/15/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7ffbca7929133e7828d08ad4b4e7bd6b702c15e39726421a35241d23d1123f48
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b671f314ddae9a59167bb9059dc7b076df95cb9d
+ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003196"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4365554"
 ---
 # <a name="whats-new-november-2020---project-operations-for-stockedproduction-based-scenarios"></a>2020 m. lapkričio mėn. naujienos – „Project Operations“, skirta laikomų medžiagų / gamyba pagrįstiems scenarijams
 
@@ -23,7 +25,4 @@ Norėdami gauti informacijos apie į šį naujinimą įtrauktus taisymus, prisij
 
 ## <a name="regulatory-updates"></a>Reguliavimo naujinimai
 
-Norėdami gauti informacijos apie „Dynamics 365 Finance and Operations” programų reguliavimo naujinimus, žr. [Reguliavimo naujinimai](/dynamics365/finance/localizations/regulatory-updates). Taip pat galite prisijungti prie LCS ir peržiūrėti planuojamus reguliavimo naujinimus naudodamiesi problemų ieškos įrankiu. Problemų ieška leidžia ieškoti pagal šalį, funkcijos tipą ir leidimą.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+Norėdami gauti informacijos apie „Dynamics 365 Finance and Operations” programų reguliavimo naujinimus, žr. [Reguliavimo naujinimai](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Taip pat galite prisijungti prie LCS ir peržiūrėti planuojamus reguliavimo naujinimus naudodamiesi problemų ieškos įrankiu. Problemų ieška leidžia ieškoti pagal šalį, funkcijos tipą ir leidimą.

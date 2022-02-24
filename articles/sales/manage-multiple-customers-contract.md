@@ -2,16 +2,18 @@
 title: Kelių klientų valdymas projekto sutartyse
 description: Šioje temoje pateikiama informacijos, kaip tvarkyti kelis klientus projekto sutartyje.
 author: rumant
+manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1adb786c36d43a148e8c5a8b25ded5a997557119f7e6e9e2248935ad4ed211d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5554cb062710c3587d81b1a29771a7af84d2d05f
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992081"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4643182"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>Kelių klientų valdymas projekto sutartyse
 
@@ -45,6 +47,3 @@ Galite kurti, atnaujinti arba panaikinti sutarties klientą puslapio **Sutartis*
 Atsiskaitymo išskaidymo procentines vertes galima redaguoti tinklelyje. Jei atsiskaitymo išskaidymo procentinės vertės nesudaro 100 procentų, pateikiama klaida. Pakoregavę atsiskaitymo išskaidymo procentinę vertę, atnaujinkite puslapį **Projekto sutartis**, kad pašalintumėte klaidą.
 
 Taip pat galite pasirinkti parinktį **Paskirstyti tolygiai** projekto sutarties klientų papildomame tinklelyje. Atsiskaitymas išskaidomas tolygiai visiems projekto sutarties klientams. Jei yra koks nors apvalinimo koeficientas, jis bus įtrauktas į apvalinimo klientą. Vienam iš sutarties klientų būtina nustatyti žymę **Apvalinimas** kaip **Taip**. Tas klientas yra apvalinimo klientas. Paprastai apvalinimo klientas taip pat yra pirminis sutarties klientas, bet tai nėra privaloma.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

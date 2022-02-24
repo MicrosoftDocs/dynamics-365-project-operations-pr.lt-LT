@@ -2,6 +2,8 @@
 title: Kas nauja arba pakeista „Project Service Automation“ V3 15 atnaujintame leidime
 description: Šioje temoje pateikiama informacijos apie tai, kas nauja ir pakeista „Project Service Automation“ 15 atnaujintame leidime V3.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 01/27/2020
 ms.topic: article
@@ -15,18 +17,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d052dd670ac31fae57a71cb71682da86a237b3487482a9548f3fb9e52516c407
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0ec6746c0d3a1a03ee56440c73d044df844046f8
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7004456"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5143973"
 ---
 # <a name="project-service-automation-update-release-15-v3"></a>„Project Service Automation“ V3 15 naujinimo leidimas
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Džiaugiamės galėdami pranešti apie naujausią Dynamics 365 Project Service Automation (PSA) programos naujinimą. Šiame leidime yra kai kurių svarbių kokybės, veikimo ir naudojimo patobulinimų. Šis leidimas suderinamas su „Dynamics 365“ 9.x versija. Norėdami naujinti šį leidimą, eikite į „Dynamics 365“ administravimo centrą, tada eikite į sprendimų puslapį, iš kurio galite įdiegti naujinimą. Daugiau informacijos žr. [Pageidaujamo sprendimo diegimas, naujinimas arba šalinimas](/power-platform/admin/install-remove-preferred-solution).
+Džiaugiamės galėdami pranešti apie naujausią Dynamics 365 Project Service Automation (PSA) programos naujinimą. Šiame leidime yra kai kurių svarbių kokybės, veikimo ir naudojimo patobulinimų. Šis leidimas suderinamas su „Dynamics 365“ 9.x versija. Norėdami naujinti šį leidimą, eikite į „Dynamics 365“ administravimo centrą, tada eikite į sprendimų puslapį, iš kurio galite įdiegti naujinimą. Daugiau informacijos žr. [Pageidaujamo sprendimo diegimas, naujinimas arba šalinimas](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
 
 Šioje temoje išvardytos funkcijos ir pataisymai, kurie yra nauji arba pakeisti PSA V3 15 atnaujintame leidime. Ši versija turi naują komponavimo versijos numerį V3.10.5.28 ir ją galima pasiekti per 2020 m. sausio mėn. automatinį naujinimą.
 
@@ -61,6 +63,3 @@ Džiaugiamės galėdami pranešti apie naujausią Dynamics 365 Project Service A
   - Sutaisyta: daugiau negaunamas klaidos pranešimas **Projekto apžvalgos** **Pasiūlymo eilutės** formoje, kai yra daugiau nei 1000 projektų.
   - Sutaisyta: **Skaičiavimų** tinklelyje, skirtame darbo įverčiams ir išlaidų sąmatoms, dabar rodomas teisingas valiutos simbolis.
   - Sutaisyta: kai organizacija atnaujina PSA iš 14 atnaujinto leidimo į 15 atnaujintą leidimą, skirtukas **Grafikas** formoje **Projektas** daugiau nerodomas kaip tuščias.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

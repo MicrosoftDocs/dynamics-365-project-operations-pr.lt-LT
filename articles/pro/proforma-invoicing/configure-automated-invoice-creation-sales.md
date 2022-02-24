@@ -1,25 +1,29 @@
 ---
-title: Automatinių sąskaitų faktūrų kūrimo nustatymas
-description: Šioje temoje pateikiama informacija apie automatinių išankstinių sąskaitų faktūrų kūrimą ir konfigūravimą.
+title: Automatinio sąskaitų faktūrų kūrimo konfigūravimas – „Lite“ versija
+description: Šioje temoje pateikta informacija, kaip konfigūruoti automatinį išankstinių sąskaitų faktūrų kūrimą.
 author: rumant
-ms.date: 04/05/2021
+manager: Annbe
+ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1cce457fbc04ba9d3890d73439e6e7fd3db44d84a4498d5dc68ed82d362158b5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997526"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176576"
 ---
-# <a name="set-up-automatic-invoice-creation"></a>Automatinių sąskaitų faktūrų kūrimo nustatymas 
+# <a name="configure-automatic-invoice-creation---lite"></a>Automatinio sąskaitų faktūrų kūrimo konfigūravimas – „Lite“ versija
  
-_**Taikoma (kam):** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo, „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
+_**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
 
-Programoje „Dynamics 365 Project Operations“ galite konfigūruoti automatinių sąskaitų faktūrų kūrimą. Sistema sukuria išankstinės sąskaitos faktūros juodraštį pagal kiekvienos projekto sutarties ir sutarties eilutės sąskaitos faktūros grafiką. Sąskaitų faktūrų grafikai konfigūruojami sutarties eilutės lygyje. Kiekvienoje sutarties eilutėje gali būti atskiras sąskaitų faktūrų grafikas arba tą patį sąskaitos faktūros grafiką galima nurodyti kiekvienoje sutarties eilutėje.
+Galite konfigūruoti automatinį sąskaitų faktūrų kūrimą naudodami „Dynamics 365 Project Operations“. Sistema sukuria išankstinės sąskaitos faktūros juodraštį pagal kiekvienos projekto sutarties ir sutarties eilutės sąskaitos faktūros grafiką. Sąskaitų faktūrų grafikai konfigūruojami sutarties eilutės lygyje. Kiekvienoje sutarties eilutėje gali būti atskiras sąskaitų faktūrų grafikas arba tą patį sąskaitos faktūros grafiką galima nurodyti kiekvienoje sutarties eilutėje.
 
-Sukūrus sąskaitą faktūrą, sistema visada sukuria bent vieną sąskaitą faktūrą vienai projekto sutarčiai. Kai kuriais atvejais gali būti sukurtos kelios sąskaitos faktūros. Pavyzdžiui, jei sutartyje yra keli klientai, bus sukurta tiek sąskaitų faktūrų, kiek yra klientų, kurie turi apmokėtinų operacijų tame projekte.
+Sukūrus sąskaitą faktūrą, sistema visada sukuria bent vieną sąskaitą faktūrą vienai projekto sutarčiai. Kai kuriais atvejais gali būti sukurtos kelios sąskaitos faktūros.
+
+Pavyzdžiui, jei sutartyje yra keli klientai, bus sukurta tiek sąskaitų faktūrų, kiek yra klientų, kurie turi apmokėtinų operacijų tame projekte.
 
 ## <a name="understand-how-transactions-are-included-on-an-invoice"></a>Supraskite, kaip sąskaitoje faktūroje įtraukiamos operacijos 
 
@@ -87,6 +91,3 @@ Paketinė proceso užduotis, skirta sąskaitoms faktūroms kurti, yra pasikartoj
 
 > [!NOTE]
 > „Project Operations“ paketinių sąskaitų faktūrų išrašymas vykdomas tik projekto sutarties eilutėse, sukonfigūruotose sąskaitų faktūrų grafike. Sutarties eilutė su fiksuotos kainos atsiskaitymų metodu turi turėti sukonfigūruotus etapus. Norint naudoti projekto sutarties eilutę su laiko ir medžiagų atsiskaitymo metodu, reikės nustatyti data pagrįstą sąskaitos faktūros grafiką.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

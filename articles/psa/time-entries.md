@@ -2,6 +2,8 @@
 title: Laiko įrašų kūrimas
 description: Šioje temoje pateikiama informacija apie tai, kaip kurti laiko įrašus.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0d0e21d0964788564d3db9173c3a0b3378cd0049b4455a23ccc1bccd1c21d9e7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 520d3a6e6cc3d486d778c66c2ef7fd3ff20cd582
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990416"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149688"
 ---
 # <a name="create-time-entries"></a>Laiko įrašų kūrimas
 
@@ -68,6 +70,3 @@ Galite importuoti duomenis iš projekto rezervacijų ir priskyrimų. Importuodam
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>Grupavimo pagal, rūšiavimo, ieškos ir filtravimo galimybės
 
 Galite grupuoti ir filtruoti laiko įrašus pagal dimensijas, nurodytas stulpeliuose. Lauke **Grupuoti pagal** pažymėkite dimensiją, kurią norite naudoti laiko įrašams filtruoti. Taip pat galite rikiuoti laiko įrašus didėjimo arba mažėjimo tvarka naudodami stulpelių antraščių rūšiavimo rodyklę. Be to, galite rodyti arba slėpti įrašus pažymėdami mygtuką **Filtras** stulpelių antraštėse, tada dialogo lange **Ieška** įvesdami tekstą, kuris turi būti naudojamas laiko įrašų ieškai pagal projekto pavadinimą, projekto užduotį, laiko įrašą arba išteklius.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

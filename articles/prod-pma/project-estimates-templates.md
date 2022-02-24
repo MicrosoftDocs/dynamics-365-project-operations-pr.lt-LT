@@ -2,9 +2,11 @@
 title: Projekto įvertinimų sinchronizavimas tiesiogiai iš „Project Service Automation“ į „Finance and Operations“
 description: Šioje temoje aprašomi šablonai ir pagrindinės užduotys, kurie naudojami norint sinchronizuoti projekto valandų įvertinimus ir projekto išlaidų įvertinimus tiesiogiai iš „Microsoft Dynamics 365 Project Service Automation“ į „Dynamics 365 Finance“.
 author: Yowelle
+manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 6696449d80e0915a0c878dbe75cfdf6e268b98ad9f6453bcfc4b424db68021e4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 336de474c859d30d1ec07ae34bf0c3d578faeef1
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988211"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080964"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Projekto įvertinimų sinchronizavimas tiesiogiai iš „Project Service Automation“ į „Finance and Operations“
 
@@ -38,7 +40,7 @@ Naudojant „Project Service Automation“ į „Finance“ integravimo sprendim
 
 Šioje iliustracijoje pavaizduota, kaip duomenys sinchronizuojami tarp „Project Service Automation“ ir „Finance“.
 
-[![„Project Service Automation“ ir „Finance“ integravimo duomenų srautas.](./media/ProjectEstimatesFlow.png)](./media/ProjectEstimatesFlow.png)
+[![„Project Service Automation“ ir „Finance“ integravimo duomenų srautas](./media/ProjectEstimatesFlow.png)](./media/ProjectEstimatesFlow.png)
 
 ## <a name="project-hour-estimates"></a>Projekto valandų įvertinimai
 
@@ -95,7 +97,7 @@ Reikia įtraukti filtrą, kad būtų pašalintos visos eilutės, kuriose yra tu�
 
 Šioje iliustracijoje pateikiamas duomenų integravimo šablonų užduočių susiejimo pavyzdys. Susiejime rodoma lauko informacija, kuri bus sinchronizuojama iš „Project Service Automation“ į „Finance“.
 
-[![Šablono užduoties susiejimas duomenų integravime.](./media/ProjectHourEstimatesMapping.jpg)](./media/ProjectHourEstimatesMapping.jpg)
+[![Šablono užduoties susiejimas duomenų integravime](./media/ProjectHourEstimatesMapping.jpg)](./media/ProjectHourEstimatesMapping.jpg)
 
 ## <a name="project-expense-estimates"></a>Projekto išlaidų įvertinimai
 
@@ -165,9 +167,6 @@ kitaip **null**
 
 Šiose iliustracijose pateikiami duomenų integravimo šablonų užduočių susiejimų pavyzdžiai. Susiejime rodoma lauko informacija, kuri bus sinchronizuojama iš „Project Service Automation“ į „Finance“.
 
-[![Išlaidų įvertinimo operacijų šablono susiejimas.](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
+[![Išlaidų įvertinimo operacijų šablono susiejimas](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
 
-[![Išlaidų įvertinimo šablono susiejimas.](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[![Išlaidų įvertinimo šablono susiejimas](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)

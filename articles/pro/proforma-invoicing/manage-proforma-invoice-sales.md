@@ -1,23 +1,25 @@
 ---
-title: Išankstinės projekto sąskaitos faktūros valdymas
-description: Šioje temoje pateikiama informacija apie tai, kaip dirbti su išankstinėmis projektu pagrįstomis sąskaitomis faktūromis.
+title: „Proforma“ sąskaitos faktūros valdymas – „Lite“ versija
+description: Šioje temoje pateikiama informacija apie darbą su „Proforma“ sąskaita faktūra.
 author: rumant
-ms.date: 04/05/2021
+manager: Annbe
+ms.date: 10/27/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f14cf9d5ee25247500180081b8f407ee311db481a5ef5eac330e75d45baba54a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cd56b99c3ed455848edbd9ff4419afa58d782a3e
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997436"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181552"
 ---
-# <a name="manage-a-proforma-project-invoice"></a>Išankstinės projekto sąskaitos faktūros valdymas 
+# <a name="manage-a-proforma-invoice---lite"></a>„Proforma“ sąskaitos faktūros valdymas – „Lite“ versija
 
 _**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
 
-Programoje „Dynamics 365 Project Operations” išankstinės sąskaitos faktūros kuriamos kaip „Dynamics 365 Sales” sąskaitų faktūrų plėtinys. Tačiau sąskaitų faktūrų išrašymo procesas programose „Sales” ir „Project Operations” labai skiriasi. Pavyzdžiui, neįmanoma sukurti naujos sąskaitos faktūros „Project Operations” puslapyje **Sąskaitų faktūrų sąrašas**, bet tai įmanoma padaryti programoje „Sales”. Šie skirtumai ir plėtiniai naudojami projektų, kurie skiriasi nuo įprastos pardavimo užsakymo sąskaitos faktūros, sąskaitų faktūrų išrašymo procesams palaikyti.
+Programoje „Dynamics 365 Project Operations” „Proforma“ sąskaitos faktūros kuriamos kaip „Dynamics 365 Sales” esančių sąskaitų faktūrų plėtinys. Tačiau sąskaitų faktūrų išrašymo procesas programose „Sales” ir „Project Operations” labai skiriasi. Pavyzdžiui, neįmanoma sukurti naujos sąskaitos faktūros „Project Operations” puslapyje **Sąskaitų faktūrų sąrašas**, bet tai įmanoma padaryti programoje „Sales”. Šie skirtumai ir plėtiniai naudojami projektų, kurie skiriasi nuo įprastos pardavimo užsakymo sąskaitos faktūros, sąskaitų faktūrų išrašymo procesams palaikyti.
 
 > [!IMPORTANT]
 > Dėl šių skirtumų nenaudokite pakaitomis sąskaitų faktūrų programose „Sales” ir „Project Operations”.
@@ -67,9 +69,9 @@ Programoje „Project Operations” visada yra viena sąskaitos faktūros eilut�
 
 Kiekvienoje projekto sąskaitoje faktūroje esančios sąskaitos faktūros eilutėje yra sąskaitos faktūros eilutės informacija. Ši eilutės informacija yra susijusi su pardavimo, už kurį neišrašyta sąskaita, faktiniais elementais ir etapais, kurie yra susiję su sutarties eilute, kurią nurodo sąskaitos faktūros eilutė. Visos šios operacijos pažymėtos kaip **Parengta išrašyti sąskaitą faktūrą**.
 
-Eilutės **Laiko ir medžiagos sąskaita faktūra** atveju eilutės išsami informacija puslapyje **Sąskaitos faktūros eilutė** sugrupuojama į **Apmokestinama**, **Neapmokestinama** ir **Nemokama**. **Apmokestinamos sąskaitos faktūros eilutės** išsami informacija pridedama prie sąskaitos faktūros bendrosios sumos. **Nemokama** ir **Neapmokestinami faktiniai duomenys** reikšmės į bendrąją sąskaitos faktūros eilutės sumą neįtraukiamos.
+Sąskaitos faktūros eilutės informacija, skirta eilutei **Laiko ir medžiagų sąskaita faktūra**, puslapyje **Sąskaitos faktūros eilutė** grupuojama į **Apmokestinama**, **Neapmokestinama** ir **Nemokama**. **Apmokestinamos sąskaitos faktūros eilutės** išsami informacija pridedama prie sąskaitos faktūros bendrosios sumos. Laukai **Nemokama** ir **Neapmokestinami faktiniai duomenys** nepridedami prie sąskaitos faktūros eilutės bendrosios sumos.
 
-Eilutei **Fiksuotos kainos sąskaita faktūra** sąskaitos faktūros eilutės išsami informacija sukuriama pagal etapus, susijusioje sutarties eilutėje pažymėtus kaip **Parengta išrašyti sąskaitą faktūrą**. Sukūrus sąskaitos faktūros eilutės išsamią informaciją iš etapo, etapo atsiskaitymo būsena atnaujinama į **Kliento sąskaita faktūra sukurta**.
+Sąskaitos faktūros eilutės informacija, skirta eilutei **Fiksuotos kainos sąskaita faktūra**, kuriama iš etapų, susijusioje sutarties eilutėje pažymėtų kaip **Parengta išrašyti sąskaitą faktūrą**. Sukūrus sąskaitos faktūros eilutės išsamią informaciją iš etapo, etapo atsiskaitymo būsena atnaujinama į **Kliento sąskaita faktūra sukurta**.
 
 ### <a name="edit-invoice-line-details"></a>Sąskaitos faktūros eilutės išsamios informacijos redagavimas
 
@@ -96,12 +98,8 @@ Toliau nurodyti laukai pateikiami sąskaitos faktūros eilutės informacijoje, k
 | **Mokestis** | Nustatoma pagal numatytuosius nustatymus iš šaltinio faktinių duomenų. Lauką gali redaguoti vartotojas | Lauką gali redaguoti vartotojas, kurdamas naują sąskaitos faktūros eilutės informaciją be atsarginių kopijų kūrimo faktinių duomenų. |
 | **Išplėstinė suma** | Apskaičiuotasis laukas, apskaičiuojamas kaip **Suma + mokestis**. Tik skaitomas laukas, kurio redagavimas užrakinamas. | &nbsp; |
 | **Atsiskaitymo tipas** | Nustatoma pagal numatytuosius nustatymus iš šaltinio faktinių duomenų. Lauką gali redaguoti vartotojas. | Pasirinkus **Apmokestinama**, pridedama eilutė į sąskaitų faktūrų eilučių bendrąsias sumas. Pasirinkus **Nemokama** ir **Neapmokestinama**, ji nebus įtraukta į sąskaitų faktūrų eilučių bendrąsias sumas. |
-| **Pasirinkti produktą** | Nustatomas kaip numatytasis faktiniame šaltinyje, tai yra tik skaitomas laukas. | Sukūrus naują sąskaitos faktūros eilutės išsamią informaciją be faktinių duomenų atsarginės kopijos, šį lauką galima redaguoti. |
-| **Produktas** | Nustatomas kaip numatytasis faktiniame šaltinyje, tai yra tik skaitomas laukas. | Sukūrus naują sąskaitos faktūros eilutės išsamią informaciją be faktinių duomenų atsarginės kopijos, šį lauką galima redaguoti, jei laukas **Pasirinkti produktą** nustatytas kaip **Esamas produktas**. |
-| **Produkto pavadinimas** | Nustatomas kaip numatytasis faktiniame šaltinyje, tai yra tik skaitomas laukas. | Naujos sąskaitos faktūros eilutės išsamios informacijos dalyje, kur iš katalogo pasirenkamas produkto ID, šis laukas nustatomas kaip produkto pavadinimas. Įtraukiamojo produkto atveju šis laukas nustatomas kaip įtraukiamasis pavadinimas. |
-| **Įtraukiamasis aprašas** | Nustatomas kaip numatytasis faktiniame šaltinyje, šis laukas yra tik skaitomas. | Sukūrę naują sąskaitos faktūros eilutės išsamią informaciją be faktinių duomenų atsarginės kopijos, galite įtraukti produkto įtraukiamąjį aprašą. |
 | **Operacijos tipas** | Nustatoma pagal numatytuosius nustatymus iš šaltinio faktinių duomenų. Tik skaitomas laukas, kurio redagavimas užrakinamas. | Pagal numatytuosius nustatymus nustatoma kaip **Pardavimas, už kurį išrašyta sąskaita** ir užrakinama sukuriant naują **Sąskaitos faktūros eilutės informacija** be atsarginių kopijų kūrimo faktinių duomenų.  |
-| **Operacijos klasė** | Nustatoma pagal numatytuosius nustatymus iš šaltinio faktinių duomenų. Tik skaitomas laukas, kurio redagavimas užrakinamas. | Nustatomas pagal numatytuosius parametrus priklausomai nuo to, ar vartotojas pasirenka sukurti sąskaitos faktūros eilučių **Laikas**, **Išlaidos**, **Medžiaga** arba **Nemokama** išsamią informaciją, tuo pat metu sukuriant naują **Sąskaitos faktūros eilutės išsamią informaciją** be faktinių duomenų atsarginės kopijos. Užrakinta redagavimui. |
+| **Operacijos klasė** | Nustatoma pagal numatytuosius nustatymus iš šaltinio faktinių duomenų. Tik skaitomas laukas, kurio redagavimas užrakinamas. | Pagal numatytuosius nustatymus nustatomas atsižvelgiant į tai, ar vartotojas pasirenka sukurti sąskaitos faktūros eilutės informaciją **Laikas**, **Išlaidos** arba **Mokestis** taip pat kuriant naują **Sąskaitos faktūros eilutės informaciją** be faktinio atsarginių kopijų kūrimo. Užrakinta redagavimui. |
 
 Toliau nurodyti laukai pateikiami sąskaitos faktūros eilutės informacijoje, kuri yra paremta etapu.
 
@@ -146,6 +144,3 @@ Jei turite faktinių duomenų, kurie buvo pateikti sukūrus sąskaitą faktūrą
 Naudodami projektu pagrįstas sąskaitos faktūros eilutes, programoje „Project Operations” galite kurti sąskaitos faktūros eilutes, skirtas produktams, neatitinkantiems jokių projektų, arba visiems projektams kartu. Šios sąskaitos faktūros eilutės kuriamos kaip produktu pagrįstos sutarties eilutės ir jas pažymėjus kaip parengtas išrašyti sąskaitą faktūrą, jos yra įtraukiamos kaip produktu pagrįstos sąskaitos faktūros eilutės.
 
 Įtraukus produktu pagrįstas sąskaitos faktūros eilutes, jų keisti nebegalima. Tačiau jas galima panaikinti iš „Proforma“ sąskaitos faktūros juodraščio.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

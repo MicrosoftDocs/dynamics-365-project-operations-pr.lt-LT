@@ -2,16 +2,18 @@
 title: Projektu pagrįstų galimybių kopijavimas
 description: Šioje temoje pateikta informacija apie tai, kaip kopijuoti projektu pagrįstas galimybes programoje „Project Operations“.
 author: rumant
+manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 83fe41cb16be6bdd91219fc59e517ae0e5848afec5f771edde575bb5c24f9865
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 26ae5cc267bb06f958bbf9cdce2d80ccde9d3d24
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999731"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181677"
 ---
 # <a name="copy-project-based-opportunities"></a>Projektu pagrįstų galimybių kopijavimas
 
@@ -32,6 +34,3 @@ Galite lengvai kopijuoti projekto galimybes, kad sukurtumėte naujas projekto ga
     | Kopijavimo įkainiai | Reikšmė Taip / Ne, nurodanti, ar galimybės kainodara turėtų būti kopijuojama iš šaltinio galimybės. | Jei pasirinkta **Taip**, kainoraščiai iš šaltinio kopijuojami į tikslinę galimybę. Jei pasirinkta **Ne**, kainoraščiai iš naujo nustatomi pagal naujausius nustatytus kainoraščius. |
 
 3. Pasirinkite **Gerai**. Sistema sukuria projekto galimybės kopiją, pagrįstą pažymėtais parametrais, ir atidaroma nauja projekto galimybė.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

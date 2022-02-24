@@ -2,6 +2,8 @@
 title: Papildomų parametrų nuostatų konfigūravimas
 description: Papildomų parametrų nuostatų konfigūravimas „Project Service“
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fb23569db5136cd1b8b7d2f5735de8a91b441b76ab7e027d27087b3785f4636e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 73264845808e12950a48eea2b79e54c393d9c024
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000451"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151578"
 ---
 # <a name="configure-additional-parameter-settings-project-service"></a>Papildomų parametrų nuostatų konfigūravimas („Project Service“)
 
@@ -65,6 +67,3 @@ Norėdami nustatyti projekto parametrus, atlikite tolesnius veiksmus.
 
 ### <a name="see-also"></a>Taip pat žr.  
  [Rezervuojamų išteklių nustatymas](../psa/set-up-resources.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,29 +2,30 @@
 title: Kopijuoti projektą
 description: Šioje temoje pateikiama informacija apie „Dynamics 365 Project Operations“ projektų kopijavimą.
 author: ruhercul
-ms.date: 05/21/2021
+manager: AnnBe
+ms.date: 02/22/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: fe76f59b315fd0f46b25e1d116acde1f6b2864d1753e01d6311ea93ae7d116fc
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: af1942e81691d9e13fdcbbf68599c1a8a4004582
+ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007201"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5479529"
 ---
 # <a name="copy-a-project"></a>Projekto kopijavimas
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
-Naudodami „Dynamics 365 Project Operations“ galite greitai kurti naujus projektus formoje **Projektai** pasirinkdami **Kopijuoti projektą**. Jei norite kopijuoti projektą, atidarykite norimą kopijuoti projektą ir pasirinkite **Kopijuoti projektą**. Veiksmas nukopijuos šiuos duomenis:
+Naudodami „Dynamics 365 Project Operations“ galite greitai kurti naujus projektus formoje **Projektai** pasirinkdami **Kopijuoti projektą**. Jei norite kopijuoti projektą, atidarykite norimą kopijuoti projektą ir pasirinkite **Kopijuoti projektą**. Veiksmas kopijuos:
 
-- Projekto ypatybes 
-- Darbo paskirstymo struktūra
+- Projekto ypatybės (numatoma pradžios data kopijuojama iš šaltinio projekto)
+- Darbo paskirstymo struktūrą
 - Projekto komandos nariai
 - Projekto įvertinimai
 - Projekto išlaidų įvertinimai
-- Projekto medžiagų įvertinimai
 
 ## <a name="project-properties"></a>Projekto ypatybes
 
@@ -41,15 +42,11 @@ Kai projektas kopijuojamas, kopijuojamos šių laukų reikšmės:
 - Bendroji projekto būsena
 - Komentarai
 - Įvertinimai
-- Numatoma pradžios data: tai yra data, kai projektas kuriamas iš kopijos.
-- Numatoma pabaigos data: ši data tikslinama pagal naujo projekto, sukurto iš kopijos, pradžios datą.
+- Numatoma pradžios data
+- Pabaigos data
 - Pastangos (valandos)
 - Įvertintos darbo sąnaudos
 - Įvertinta išlaidų savikaina
-- Įvertinta medžiagos savikaina
-
-> [!NOTE]
-> Projekto kopijavimas yra ilgo veikimo operacija. Nukopijuojami projekto įrašai, jų atitinkami atributai ir daug susijusių objektų. Dėl ilgo operacijos veikimo pobūdžio, paleidus kopijavimą paskirties projekto puslapis užrakinamas ir jo redaguoti negalima, kol atliekama kopijavimo operacija.
 
 ## <a name="work-breakdown-structure"></a>Darbo paskirstymo struktūra
 
@@ -61,7 +58,7 @@ Kai projekto komanda kopijuojama iš šaltinio projekto, kopijuojami bendrieji i
 
 ## <a name="estimates"></a>Įvertinimai
 
-Nukopijavus projektą, iš šaltinio projekto kopijuojamos išteklių, išlaidų ir medžiagų sąmatos eilutės. 
+Kai projektas kopijuojamas, iš šaltinio projekto kopijuojamos ir išteklių, ir išlaidų įvertinimo eilutės. 
 
 Norėdami gauti informacijos apie tai, kaip programiškai pasiekti funkciją Kopijuoti projektą, žr. [Projektų šablonų kūrimas naudojant funkciją Kopijuoti projektą](dev-copy-project.md).
 

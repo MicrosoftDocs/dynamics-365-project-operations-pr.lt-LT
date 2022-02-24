@@ -2,16 +2,18 @@
 title: Projektu pagrįstų pasiūlymų kopijavimas
 description: Šioje temoje pateikta informacija apie tai, kaip kopijuoti projektu pagrįstus pasiūlymus programoje „Project Operations“.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 247f9d33bc2e7b0bcbeae8114bb436ed237efce660d0840e58d536d2a290639e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e4e70ed1451c1076f72ef5d7200b918c626ab23c
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992171"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181822"
 ---
 # <a name="copy-project-based-quotes"></a>Projektu pagrįstų pasiūlymų kopijavimas
 
@@ -43,6 +45,3 @@ Kai dialogo lango puslapyje pasirenkate **Gerai**, sistema sukuria projekto pasi
 > - Projekto nuoroda projekte – pagrįstos pasiūlymo eilutės – kliento biudžeto informacija
 >
 >Kadangi tai yra specifinė kiekvieno pasiūlymo informacija, šie laukai ir įrašai nebus kopijuojami. Pasiūlymo lygyje bus kopijuojamos projektų ir produktų pasiūlymo eilutės, pasiūlymo eilutės išsamios informacijos įvertinimai ir „Neviršyti“ reikšmės. Kaios ir išlaidų tarifų numatytosios reikšmės priklauso nuo parinkties **Kopijuoti įkainius**, pasirinktos dialogo lango puslapyje **Kopijuoti parametrus**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

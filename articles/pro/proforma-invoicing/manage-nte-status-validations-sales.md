@@ -2,16 +2,18 @@
 title: Būsenos Neviršyti ir tikrinimų valdymas
 description: Šioje temoje pateikiama informacija apie limito, kurio negalima viršyti, patikras, atliekamas sistemoje „Project Operations“.
 author: rumant
-ms.date: 04/05/2021
+manager: Annbe
+ms.date: 10/22/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b08a6834fa0bc5254f4baab15b40c7f733d0dc6ec7e6c4fceea2836e5e4c656a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 09dea414e91a365f33bd23089c427b5f63f55c8e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003511"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130003"
 ---
 # <a name="manage-not-to-exceed-status-and-validations"></a>Būsenos Neviršyti ir tikrinimų valdymas 
 
@@ -19,7 +21,7 @@ _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems s
 
 ## <a name="not-to-exceed-on-approvals"></a>Limito, kurio negalima viršyti, patikra patvirtinimuose
 
-Pateikus įrašą apie sugaištą laiką, panaudotas išlaidas arba medžiagą, sukuriamas patvirtinimo įrašas. Jei patvirtinimas yra apmokestinamas ir susietas su laiko ir medžiagų sutarties eilute, sistema atlieka limito, kurio negalima viršyti, patikrą toliau nurodytais lygmenimis.
+Pateikus laiko arba išlaidų įrašą, sukuriamas patvirtinimo įrašas. Jei patvirtinimas yra apmokestinamas ir susietas su laiko ir medžiagų sutarties eilute, sistema atlieka limito, kurio negalima viršyti, patikrą toliau nurodytais lygmenimis.
 
   - Patikra pagal projekto sutarties eilutėje nustatytą klientui taikomą limitą
   - Patikra pagal sutarties eilutėje nustatytą limitą
@@ -32,11 +34,11 @@ Jei patikra atliekama sėkmingai, patvirtinimui suteikiama tikrinimo būsena **P
 
 Jei patikra atliekama nesėkmingai, patvirtinimui suteikiama tikrinimo būsena **Nepavyko**. Išsamioje limito, kurio negalima viršyti, patikros informacijoje vartotojui nurodoma, kokiu lygmeniu patikra atlikta nesėkmingai.
 
-Kai pateiktas įrašas apie sugaištą laiką, panaudotas išlaidas arba medžiagą laikomas neapmokestinamu, tikrinimo būsena „Neviršyti“ nustatoma kaip **Netaikoma**, o tikrinimo informacijai taip pat taikoma būsena **Netaikoma**.
+Kai pateiktas laiko ar išlaidų įrašas nėra apmokestinamas, nustatoma limito, kurio negalima viršyti, tikrinimo būsena **Netaikoma** ir išsamios tikrinimo informacijos vertė yra **Netaikoma**.
 
 ## <a name="not-to-exceed-on-unbilled-sales-actuals"></a>Limito, kurio negalima viršyti, patikra pardavimo faktiniuose duomenyse, už kuriuos neišrašyta sąskaita faktūra
 
-Kai įrašas apie sugaištą laiką, panaudotas išlaidas arba medžiagą patvirtinamas, sukuriami savikainos ir pardavimo faktinių duomenų, kuriems neišrašyta sąskaita faktūra, įrašai. Jei kuriami pardavimo faktiniai duomenys, už kuriuos neišrašyta sąskaita faktūra, yra apmokestinami ir susieti su laiko ir medžiagų sutarties eilute, programa atlieka limito, kurio negalima viršyti, patikrą toliau nurodytais lygmenimis.
+Patvirtinus laiko arba išlaidų įrašą, sukuriami išlaidų ir pardavimo faktinių duomenų, už kuriuos neišrašyta sąskaita faktūra, įrašai. Jei kuriami pardavimo faktiniai duomenys, už kuriuos neišrašyta sąskaita faktūra, yra apmokestinami ir susieti su laiko ir medžiagų sutarties eilute, programa atlieka limito, kurio negalima viršyti, patikrą toliau nurodytais lygmenimis.
 
   - Patikra pagal projekto sutarties eilutėje nustatytą klientui taikomą limitą
   - Patikra pagal sutarties eilutėje nustatytą limitą
@@ -53,9 +55,9 @@ Kai pardavimo faktiniai duomenys, už kuriuos neišrašyta sąskaita faktūra, y
 
 ## <a name="reset-the-not-to-exceed-status"></a>Neviršijimo būsenos nustatymas iš naujo
 
-Galite atlikti masinį neviršijimo būsenos nustatymą iš naujo. Projektų vadovai gali pakoreguoti tikrinimą „Neviršyti“ taip, kad prioritetas išrašant sąskaitas faktūras būtų teikiamas sąskaitoms faktūroms pagal konkretų atliktą darbą, sugaištą laiką, panaudotas išlaidas arba medžiagą išrašyti, o ne prioritetams, jau įtrauktiems į negalimą viršyti sumą.
+Galite atlikti masinį neviršijimo būsenos nustatymą iš naujo. Tai leidžia projektų vadovams pakoreguoti neviršijimo tikrinimą, kad pirmenybė būtų teikiama sąskaitos išrašymui už vieną konkretų darbo, laiko ar išlaidų elementą, o ne kitiems elementams, kurie jau patvirtinti, atsižvelgiant į esamą sumą, kurios negalima viršyti.
 
-Iš naujo nustačius neviršijimo būseną pardavimo faktiniuose duomenyse, už kuriuos neišrašyta sąskaita faktūra, paskirta suma sumažinama. Projekto vadovas gali pasirinkti kitą įrašo apie atliktą darbą, sugaištą laiką, panaudotas išlaidas arba medžiagas tipą, kuriam anksčiau nepavyko atlikti tikrinimo „Neviršyti“, ir įvertinti iš naujo. Sumažinus paskirtą sumą, šie faktiniai duomenys dabar atitinka tikrinimą, o tai projekto vadovui leidžia daryti didesnę įtaką atitinkamo laikotarpio operacijoms, kurioms išrašytina sąskaita faktūra, ir jas valdyti.
+Iš naujo nustačius neviršijimo būseną pardavimo faktiniuose duomenyse, už kuriuos neišrašyta sąskaita faktūra, paskirta suma sumažinama. Projekto vadovas gali pasirinkti kitą darbo, laiko ar išlaidų elementą, kurio neviršijimo būsena prieš tai neatitiko reikalavimų, ir jį įvertinti iš naujo. Sumažinus paskirtą sumą, šie faktiniai duomenys dabar atitiks tikrinimo reikalavimus. Tai padeda projekto vadovui daryti didesnę įtaką ir kontroliuoti to laikotarpio operacijas, už kurias išrašoma sąskaita faktūra.
 
 Norėdami iš naujo nustatyti neviršijimo būseną, pasirinkite vieną arba kelis pardavimo faktinių duomenų elementus rodinyje **Laiko ir medžiagų atsiskaitymo nebaigtos užduotys** arba **Faktiniai duomenys** ir pasirinkite **Iš naujo nustatyti neviršijimo būseną**.
 
@@ -71,6 +73,3 @@ Galite atlikti masinį neviršijimo būsenos įvertinimą iš naujo. Neviršijim
 Norėdami iš naujo įvertinti neviršijimo būseną, pasirinkite vieną arba kelis pardavimo faktinių duomenų elementus rodinyje **Laiko ir medžiagų atsiskaitymo nebaigtos užduotys** arba **Faktiniai duomenys** ir pasirinkite **Neviršijimo būsenos įvertinimas iš naujo**.
 
 Visi atitinkami pasirinkti faktiniai duomenys, kuriems taikomas limitas, kurio negalima viršyti, bus įvertinti remiantis limito, kurio negalima viršyti, sąranka. Faktiniai duomenys, susiję su neviršijimo būsenos įvertinimu iš naujo, yra pardavimo faktiniai duomenys, už kuriuos neišrašyta sąskaita faktūra, kurie nėra sąskaitose faktūros juodraštyje ir kurie yra pažymėti kaip apmokestinami. Visi kiti pasirinkti faktiniai duomenys.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

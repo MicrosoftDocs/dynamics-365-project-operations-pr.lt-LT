@@ -2,16 +2,18 @@
 title: Išteklių kalendorių apibrėžimas
 description: Šioje temoje pateikta informacija apie tai, kaip apibrėžti darbo valandų kalendorius, skirtus „Project Operations“ ištekliams.
 author: ruhercul
+manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: ff10da57fd0767b00282537b241d5d16d95feca8741a620a277306bd8aa53ce5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: daa49cf8ba9ba005a16777f590c4c06d024de529
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990326"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123928"
 ---
 # <a name="define-resource-calendars"></a>Išteklių kalendorių apibrėžimas
 
@@ -41,6 +43,3 @@ Kiekvienas projekto rezervuojamasis išteklius turi turėti darbo valandų kalen
 2. Tinklelio rodinyje pažymėkite iki 25 **Rezervuojamų išteklių**, kad juos atnaujintumėte.
 3. Pažymėkite **Nustatyti kalendorių** ir dialogo langas pasiūlys galimų darbo valandų šablonų sąrašą.
 4. Pasirinkite norimą naudoti šabloną ir pažymėkite **Taikyti**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

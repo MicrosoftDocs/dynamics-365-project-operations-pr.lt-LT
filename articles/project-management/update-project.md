@@ -1,23 +1,23 @@
 ---
-title: Projekto kūrimas ir naujinimas
+title: Naujinti projektą
 description: Šioje temoje pateikta informacija apie „Project Operations“ projektų naujinimą.
 author: ruhercul
-ms.date: 10/20/2021
+ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d0847b5343cf3e353b91eae04c94509f14213ba5
-ms.sourcegitcommit: 51224cb3bf7cdeae6614d39fc8d899c83dbad5f2
-ms.translationtype: MT
+ms.openlocfilehash: c07542444b970430d8143a60aad6970305769b22
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7678359"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993381"
 ---
-# <a name="create-and-update-a-project"></a>Projekto kūrimas ir naujinimas
+# <a name="update-a-project"></a>Naujinti projektą
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
-Toliau pateikiama laukų, kuriuos galima atnaujinti projekte po to, kai jis buvo sukurtas, suvestinė. Be to, joje pateikiamos visos taikytinos pasekmės, susijusios su šiais naujinimais.
+Toliau pateikiama laukų, kuriuos galima atnaujinti projekte po to, kai jis buvo sukurtas, suvestinė ir bet kokios galimos naujinimų pasekmės.
 
 ## <a name="project-detail-fields"></a>Projekto išsamios informacijos laukai
 
@@ -25,8 +25,8 @@ Toliau pateikiama laukų, kuriuos galima atnaujinti projekte po to, kai jis buvo
 - **Aprašas**: projekto apžvalga.
 - **Klientas**: įmonė, kuriai daromas projektas.
 - **Kalendoriaus šablonas**: projekto darbo valandos. Kai laukas pakeičiamas, perskaičiuojamas visas grafikas.
-- **Valiuta**: projekto valiuta. Numatytoji šio lauko reikšmė priklauso nuo valiutos, apibrėžtos sutartį sudarančiame vienete. Atnaujinus sutartį sudarantį vienetą, laukas taip pat atnaujinamas.
-- **Sutartį sudarantis vienetas**: organizacinis vienetas, atstovaujantis įmonių grupę arba padalinį, kuris yra atsakingas už laimėtą pardavimą ir darbo bei paslaugų pristatymą klientui.  Nustačius projekto vadovo organizacijos vienetą, nustatoma šio lauko numatytoji reikšmė, apibrėžta projekto parametruose.
+- **Valiuta**: projekto valiuta. Šio lauko numatytosios reikšmės nustatomos pagal valiutą, apibrėžtą sutartį sudarančiame vienete. Atnaujinus sutartį sudarantį vienetą, laukas taip pat atnaujinamas.
+- **Sutartį sudarantis vienetas**: organizacinis vienetas, atstovaujantis įmonių grupę arba padalinį, kuris yra atsakingas už laimėtą pardavimą ir darbo bei paslaugų pristatymą klientui. 
 - **Projekto vadovas**: projekto komandos narys, turintis įgaliojimus peržiūrėti ir patvirtinti laiko įrašus ir išlaidas.
 
 ## <a name="estimate-fields"></a>Įvertinimo laukai

@@ -2,6 +2,8 @@
 title: Darbas su „Project Service Automation“ duomenų modeliu
 description: Šioje temoje pateikiama informacija apie tai, kaip dirbti su duomenų modeliu.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 375850b893b7afead8371824606b422d3f36c36de4da908fdf76666bd1b415ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d8c212ef2c9fd9dcd6be0b8f0a31aa5a948176bc
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002431"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147663"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Darbas su „Project Service Automation“ duomenų modeliu
 
@@ -53,7 +55,7 @@ PSA į „Dynamics 365“ duomenų modelį taip pat įtraukia naujus su pasiūly
 
 Kiti objektai, kuriuo PSA įtraukia į pasiūlymus, yra **Pasiūlymo eilutės projekto kainoraštis**, **Pasiūlymo eilutės išteklių kategorija** ir **Pasiūlymo eilutės operacijų kategorija**.
 
-![Diagrama, parodanti pasiūlymą, pasiūlymo eilutę ir projektų ryšius.](media/PS-Reporting-image2.png "Diagrama, parodanti pasiūlymą, pasiūlymo eilutę ir projektų ryšius")
+![Diagrama, parodanti pasiūlymą, pasiūlymo eilutę ir projektų ryšius](media/PS-Reporting-image2.png "Diagrama, parodanti pasiūlymą, pasiūlymo eilutę ir projektų ryšius")
 
 ## <a name="reporting-on-project-contracts"></a>Ataskaitų teikimas apie projektų sutartis
 
@@ -69,7 +71,7 @@ PSA taip pat įtraukia naujus objektus, kurie sukurti projekto sutartims. Štai 
 
 Kiti objektai, kuriuos PSA įtraukia į sutartis yra **Projekto sutarties eilutės projekto kainoraštis**, **Projekto sutarties eilutės išteklių kategorija** ir **Projektų sutarties eilutės operacijų kategorija**.
 
-![Diagrama, parodanti užsakymą, užsakymo eilutę ir projektų ryšius.](media/PS-Reporting-image3.png "Diagrama, parodanti užsakymą, užsakymo eilutę ir projektų ryšius")
+![Diagrama, parodanti užsakymą, užsakymo eilutę ir projektų ryšius](media/PS-Reporting-image3.png "Diagrama, parodanti užsakymą, užsakymo eilutę ir projektų ryšius")
 
 ## <a name="reporting-on-projects"></a>Ataskaitų apie projektus teikimas
 
@@ -81,18 +83,18 @@ Objektas **Projektai** ir jo susiję objektai priklauso tik PSA. **Projektas** y
 - **Išteklių reikalavimas** – šiame objekte yra bendrųjų išteklių komandos nariams skirti reikalavimai.
 - **Įvertinimas** ir **Įvertinimo eilutė** – šie objektai turi antraštės / eilutės ryšį ir projektui apskaičiuotas išlaidas. Užduočių įvertinimai saugomi objekte **Išteklių įvertinimas**.
 
-![Diagrama, parodanti išteklių reikalavimą ir projektų ryšius.](media/PS-Reporting-image4.png "Diagrama, parodanti išteklių reikalavimą ir projektų ryšius")
+![Diagrama, parodanti išteklių reikalavimą ir projektų ryšius](media/PS-Reporting-image4.png "Diagrama, parodanti išteklių reikalavimą ir projektų ryšius")
 
 ## <a name="reporting-on-resources"></a>Ataskaitų teikimas apie išteklius
 
-Projekto ištekliai naudoja **Rezervuojamų išteklių** objektus iš „Universal Resource Scheduling“ (URS), kurie bendrinami su kitomis programomis, pavyzdžiui, „Microsoft Dynamics 365 Field Service“. Toliau pateikiamas objektų, kuriuos gali reikėti naudoti, kai teikiate ataskaitas apie projekto išteklius, sąrašas.
+Projekto ištekliai naudoja **Rezervuojamų išteklių** objektus iš Universal Resource Scheduling (URS), kurie bendrinami su kitomis programomis, pavyzdžiui, „Microsoft Dynamics 365 Field Service“. Toliau pateikiamas objektų, kuriuos gali reikėti naudoti, kai teikiate ataskaitas apie projekto išteklius, sąrašas.
 
 - **Rezervuojami ištekliai** – objektas nurodo naudotoją, kontaktą, bendruosius išteklius, klientą, grupę arba įrangą, kurią naudoja projekto komanda.
 - **Rezervuojamų išteklių charakteristikos** – šį objektą sudaro išteklių įgūdžiai, sertifikatai arba išsilavinimas. Charakteristikos gali turėti įvertinimo reikšmes, kurios apibrėžiamos pagal įvertinimo modelį.
 - **Rezervuojamų išteklių kategorija** – šis objektas nurodo rezervuojamų išteklių vaidmenį.
 - **Rezervuoti išteklių rezervacijos** – šis objektas nurodo laiką, kuris rezervuotas projektų ištekliams. Kiekviena rezervacija turi antraštės objektą ir eilutės objektus, o kiekviena eilutė turi būseną, kuri rodo rezervacijos būseną.
 
-![Diagrama, parodanti rezervuojamų išteklių charakteristikų ryšius.](media/PS-Reporting-image5.png "Diagrama, parodanti rezervuojamų išteklių charakteristikų ryšius")
+![Diagrama, parodanti rezervuojamų išteklių charakteristikų ryšius](media/PS-Reporting-image5.png "Diagrama, parodanti rezervuojamų išteklių charakteristikų ryšius")
 
 ## <a name="reporting-on-actual-transactions"></a>Ataskaitų teikimas apie faktines operacijas
 
@@ -120,7 +122,4 @@ Kai dirbate su objektu **Faktinis**, svarbu, kad suprastumėte, kokia operacija 
 
 Objekte **Operacijos kilmė** įrašomas **Faktinis** įrašas, o objekte **Operacijos ryšis** įrašomi susiję objekto **Faktinis** įrašo įrašai. Be to, objekto **Faktinis** įraše yra nuoroda į projektą, projekto sutartį (užsakymą), rezervuojamus išteklius ir klientą.
 
-![Diagrama, parodanti operacijų ryšį, kilmę ir faktinius ryšius.](media/PS-Reporting-image6.png "Diagrama, parodanti operacijų ryšį, kilmę ir faktinius ryšius")
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Diagrama, parodanti operacijų ryšį, kilmę ir faktinius ryšius](media/PS-Reporting-image6.png "Diagrama, parodanti operacijų ryšį, kilmę ir faktinius ryšius")
