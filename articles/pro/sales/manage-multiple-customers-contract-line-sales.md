@@ -2,18 +2,16 @@
 title: Kelių klientų tvarkymas projektu pagrįstose sutarties eilutėse – „Lite“ versija
 description: Šioje temoje pateikiama informacija apie kelių klientų tvarkymą projektu pagrįstose sutarties eilutėse.
 author: rumant
-manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f28e7d1363647621f7bd23504aa6d4ea3fc95fc9
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: a7e29b1a92a5fefcf4812931383d03e5f81a27001f0e6525bb4eeb8dc93b18b9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181644"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001801"
 ---
 # <a name="manage-multiple-customers-on-project-based-contract-lines---lite"></a>Kelių klientų tvarkymas projektu pagrįstose sutarties eilutėse – „Lite“ versija
 
@@ -43,3 +41,6 @@ Toliau pateikiami projektu pagrįstos sutarties eilutės **Sutartis** kliento į
 Atsiskaitymo išskaidymo procentines vertes galima redaguoti tinklelyje. Jei atsiskaitymo išskaidymo procentinės vertės nesudaro 100 procentų, pateikiama klaida. Pakoregavę atsiskaitymo išskaidymo procentines vertes, atnaujinkite puslapį, kad pašalintumėte klaidą.
 
 Taip pat galite pasirinkti parinktį **Paskirstyti tolygiai** sutarties eilutės kliento papildomame tinklelyje. Tai pasirinkus atsiskaitymas išskaidomas tolygiai visiems sutarties eilutės klientams. Jei yra koks nors apvalinimo koeficientas, jis bus įtrauktas į apvalinimo klientą. Vienam sutarties eilutės klientui visada taikoma parinktis **Apvalinimas** ir žymė **Apvalinimas** nustatoma kaip **Taip**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

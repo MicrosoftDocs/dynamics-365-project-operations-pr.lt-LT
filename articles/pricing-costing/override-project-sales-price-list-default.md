@@ -2,19 +2,17 @@
 title: Pardavimo kainoraščio projekto perrašymas
 description: Šioje temoje pateikiama informacija apie pasirinktinių pardavimo kainoraščių kūrimą.
 author: rumant
-manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: af9baca540d89f4e5e616bdfdd6111bef29abe28
-ms.sourcegitcommit: 656a9d03f260c29e988e2ff05b6e07ae0365d6d0
-ms.translationtype: HT
+ms.openlocfilehash: b26947822eb8e87b3b36fcde9c99c6ee69375aa942a5641112b9b1109dcaa26c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4672241"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009586"
 ---
 # <a name="override-project-sales-price-lists"></a>Pardavimo kainoraščio projekto perrašymas
 
@@ -52,3 +50,6 @@ Galite naudoti visus šiuos kainoraščius ir atnaujinti darbo (vaidmens kaina) 
 Projekto sutartyje numatytoji projekto kainodara visada yra pasirinktinis kainoraštis, kuriame nurodytas sutarties pavadinimas ir prie pavadinimo pridėta sukūrimo datos ir laiko žyma. Tai taikytina ir kai sutartis buvo sukurta laimėjus pasiūlymą, ir kai sutartis buvo sukurta nuo pradžių. Jei reikia, galite pašalinti šį susiejimą su pasirinktiniu kainoraščiu ir vietoj to susieti standartinį kainoraštį su projekto sutartimi.
 
 Kai susiejate standartinį kainoraštį su projekto kainoraščiu pasiūlyme ar sutartyje, visi kainoraščio kainų pakeitimai turės įtakos visiems pasiūlymams ir sutartims, kurie naudoja šį kainoraštį.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

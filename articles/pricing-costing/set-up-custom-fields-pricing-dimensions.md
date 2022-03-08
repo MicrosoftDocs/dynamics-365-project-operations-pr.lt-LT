@@ -2,11 +2,9 @@
 title: Pasirinktinių laukų kaip kainodaros dimensijų nustatymas
 description: Šioje temoje pateikiama informacija apie tai, kaip nustatyti kainodaros dimensijas naudojant pasirinktinius laukus.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 744c561d023d7ef5ed79947e69f2de8a3902fb41
-ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
-ms.translationtype: HT
+ms.openlocfilehash: e40f0336d98cd8452642eb582c4d9daf2304ceb2532ef75ce9d03a0fa4bd8e8b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "4650230"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003601"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Pasirinktinių laukų kaip kainodaros dimensijų nustatymas
 
@@ -44,11 +42,11 @@ Kad laukas taptų kainodaros dimensija, jis turi:
 
 - Būti sukurtas kaip eilutė lentelėje **Kainodaros dimensija**. Pavyzdžiui, įtraukite kainodaros dimensijos eilutes kaip parodyta toliau pateiktame paveiksle. 
 
-![Suma pagrįstos kainodaros dimensijos eilutės](media/Amt-based-PD.png)
+![Suma pagrįstos kainodaros dimensijos eilutės.](media/Amt-based-PD.png)
 
 Išteklių darbo valandos (**msdyn_resourceworkhours**) įtrauktos kaip antkainiu pagrįsta dimensija ir įtrauktos į tinklelį skirtuke **Antkainiu pagrįsta kainodaros dimensija**.
 
-![Antkainiu pagrįstos kainodaros dimensijos eilutės](media/Markup-based-PD.png)
+![Antkainiu pagrįstos kainodaros dimensijos eilutės.](media/Markup-based-PD.png)
 
 
 > [!IMPORTANT]
@@ -77,10 +75,10 @@ Yra dviejų tipų kainodaros dimensijos:
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso India|Vietoje            |                    |Viršvalandžiai                 |15     |
 |             | Contoso India|Vietinis             |                    |Viršvalandžiai                 |10     |
-|             | „Danys“, JAV   |Vietinis             |                    |Viršvalandžiai                 |20     |
+|             | „Contoso“ JAV   |Vietinis             |                    |Viršvalandžiai                 |20     |
 
 
-Jei ištekliai iš „Contoso India“, kurių bazinis tarifas yra 100 USD, dirba internetu, ir jie laiko įraše užregistruoja 8 reguliaraus laiko valandas ir 2 valandas viršvalandžių, kainodaros modulis naudos 100 bazinį tarifą už 8 valandas įrašui 800 USD. Už 2 valandas viršvalandžių 100 baziniam tarifui bus taikomas 15 % antkainis, kad būtų gauta 115 USD vieneto kaina, ir įrašys bendrą savikainą, lygią 230 USD.
+Jei ištekliai iš „Contoso India“, kurių bazinis tarifas yra 100 USD, dirba internetu, ir jie laiko įraše užregistruoja 8 reguliaraus laiko valandas ir 2 valandas viršvalandžių, kainodaros variklis naudos 100 bazinį tarifą už 8 valandas įrašui 800 USD. Už 2 valandas viršvalandžių 100 baziniam tarifui bus taikomas 15 % antkainis, kad būtų gauta 115 USD vieneto kaina, ir įrašys bendrą savikainą, lygią 230 USD.
 
 ### <a name="applicable-to-cost"></a>Taikoma savikainai 
 Jei tai nustatyta kaip **Taip**, tai nurodo, kad dimensijos reikšmė iš įvesties konteksto turi būti naudojama, siekiant suderinti **Vaidmens kaina** ir **Vaidmens kainos antkainis**, kai gaunami savikainos ir antkainio tarifai.
@@ -96,3 +94,6 @@ Dimensijos prioriteto nustatymas padeda kainodarai sukurti kainą netgi tada, ka
 
 - **Savikainos prioritetas**: dimensijos savikainos prioriteto reikšmė nurodys dimensijos įvertinimą lygindama su savikainos sąranka. **Savikainos prioriteto** reikšmė turi būti unikali visose dimensijose, kurios taikomos **Taikoma savikainai**.
 - **Pardavimo prioritetas**: dimensijos pardavimo prioriteto reikšmė nurodys dimensijos įvertinimą lygindama su pardavimo kainų arba sąskaitų tarifų sąranka. **Pardavimo prioriteto** reikšmė turi būti unikali visose dimensijose, kurios taikomos **Taikoma pardavimui**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

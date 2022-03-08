@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76eba87e7cc78dcc14510a8fb53677d626bf204f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4604708dbd7c835c8df1cf48f67e645952f49774
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270778"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080862"
 ---
 # <a name="intercompany-invoicing"></a>Vidinės įmonės SF išrašymas
 
@@ -113,6 +113,3 @@ Kai skolinantis juridinis subjektas, USSI, užregistruoja vidinės įmonės klie
 Daugiau informacijos žr. [Vidinės įmonės projektų SF išrašymo konfigūravimas](tasks/configure-intercompany-project-invoicing.md).
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

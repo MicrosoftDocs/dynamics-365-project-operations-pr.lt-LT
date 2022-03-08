@@ -2,10 +2,9 @@
 title: Projekto planavimo pradinis puslapis
 description: Šioje temoje pateikta informacija apie projektų planavimą.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 03/01/2019
 ms.topic: article
 ms.author: rumant
@@ -18,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1439cc1543adbd304d984cdc268d3e5623adc309
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 17745ffacbfdcf50b44b0c3f04ecacab8905d15be9ef675a72ae47a858cb9abe
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148248"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990596"
 ---
 # <a name="project-planning-home-page"></a>Projekto planavimo pradinis puslapis
 
@@ -52,3 +51,6 @@ Toliau pateikiamose temose pateikta informacija, padedanti projektų vadovams į
 - [Projekto šablonai](project-templates.md)
 - [Projekto etapai](project-stages.md)
 - [Projekto parametrai](project-settings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

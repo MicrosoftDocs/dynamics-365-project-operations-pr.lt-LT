@@ -3,30 +3,29 @@ title: Išlaidų savikainos ir pardavimo tarifų nustatymas
 description: Šioje temoje pateikta informacija, kaip nustatyti operacijų ir išlaidų kategorijų išlaidų bei pardavimo tarifus.
 author: rumant
 manager: Annbe
-ms.date: 04/07/2021
+ms.date: 10/13/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 34e3c24ae1aa999954af9b347633820d265ac0c3
-ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
+ms.openlocfilehash: b518c9eda00bef4d342dd66677344af516012749
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "5877230"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180292"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Išlaidų savikainos ir pardavimo tarifų nustatymas
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
-Operacijų kategorijų išlaidas ir pardavimo kainas galite nustatyti programoje „Dynamics 365 Project Operations“. Kadangi savikaina ir pardavimo kainos sukurtos išlaidoms, kiekviena jų operacijos kategorija taip pat turi būti nustatyta kaip išlaidų kategorija. Šis nustatymas užtikrina tikslumą naudojant tolesnio proceso funkcijas. Operacijų kategorijų savikainą ir pardavimo kainas galima nurodyti tik viena valiuta, kuri nurodyta kainoraščio antraštėje.
+Galite nustatyti operacijų kategorijų savikainą ir pardavimo kainas naudodami „Dynamics 365 Project Operations“. Kadangi savikaina ir pardavimo kainos sukurtos išlaidoms, kiekviena jų operacijos kategorija taip pat turi būti nustatyta kaip išlaidų kategorija. Šis nustatymas užtikrina tikslumą naudojant tolesnio proceso funkcijas. Operacijų kategorijų savikainą ir pardavimo kainas galima nurodyti tik viena valiuta, kuri nurodyta kainoraščio antraštėje.
 
 Norėdami nustatyti operacijų kategorijų savikainos ir pardavimo tarifus, atlikite toliau nurodytus veiksmus. 
 
-1. Eikite į **Pardavimas** > **Klientai** > **Kainoraščiai**.
-2. Norėdami kurti naują kainoraštį, pasirinkite **Naujas**. 
-3. Dalies **Kategorijų kainos** papildomo tinklelio meniu pasirinkite **Naujos kategorijos kaina**. 
-4. Puslapyje **Spartusis kūrimas** įveskite operacijos kategoriją ir vienetą, kuriam kuriate naują kainą.
+1. Sukurkite kainoraštį pagrįstą kainoraščio antrašte. 
+2. Dalies **Kategorijų kainos** papildomo tinklelio meniu pasirinkite **+ Naujos kategorijos kainą**. 
+3. Puslapyje **Spartusis kūrimas** įveskite operacijos kategoriją ir vienetą, kuriam kuriate naują kainą.
 
 Toliau esančioje lentelėje išvardijami laukai skirtuke **Bendra** ir kategorijos kainos eilutės puslapyje **Spartusis kūrimas**, kuriuos turite turėti omenyje kurdami kategorijų kainas pardavimo arba savikainos sąraše.
 
@@ -56,6 +55,3 @@ Kai šis kainodaros metodas pasirenkamas kategorijos kainos eilutėje, susietoje
 
 ### <a name="markup-over-cost"></a>Antkainis prie savikainos
 Kai šis kainodaros metodas pasirenkamas kategorijos kainos eilutėje, susietoje su pardavimo kainoraščiu, nustatoma numatytoji kategorijos ir vieneto derinio kaina (tik faktinėms išlaidoms). Pavyzdžiui, išlaidų operacijos klasės faktinis pardavimas, kuriam neišrašyta sąskaita faktūra. Ši vieneto kaina nustatoma faktiniam pardavimui, kuriam neišrašyta sąskaita faktūra, naudojant pagal vieneto kainą (faktinė savikaina) apskaičiuotą vertę pritaikius nustatytą antkainį. Numatytųjų kainų nustatymas pagal savikainą nevykdomas projekto išlaidų įvertinimui arba išlaidų pasiūlymo eilutei ir sutarties eilutės duomenims.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

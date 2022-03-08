@@ -2,18 +2,16 @@
 title: Projektu pagrįsto pasiūlymo eilutės apmokestinamų komponentų konfigūravimas
 description: Šioje temoje pateikiama informacija apie įtrauktus, apmokestinamus ir neapmokestinamus komponentus projektu pagrįsto pasiūlymo eilutėse.
 author: rumant
-manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 36765ab3687a8aaf3ae4a631516a1d61c14e981e
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
-ms.translationtype: HT
+ms.openlocfilehash: 251d0013b445d2f7d17fbe1908f0db2e05cfc2670ac667deb363c98f608a2aef
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642553"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004006"
 ---
 # <a name="configure-the-chargeable-components-of-a-project-based-quote-line"></a>Projektu pagrįsto pasiūlymo eilutės apmokestinamų komponentų konfigūravimas
 
@@ -53,3 +51,6 @@ Numatomi arba faktiniai duomenys, sukurti pagal išlaidas, yra apmokestinami tik
 | No | Taip | Negalima nustatyti | Neapmokestinama | Atsiskaitymas pagal faktinį laiką: Nėra </br>Atsiskaitymas pagal faktines išlaidas: Neapmokestinamas |
 | Taip | No | Apmokestinama | Negalima nustatyti | Atsiskaitymas pagal faktinį laiką: Apmokestinamas </br>Atsiskaitymas pagal faktines išlaidas: Nėra |
 | Taip | No | Neapmokestinama | Negalima nustatyti | Atsiskaitymas pagal faktinį laiką: Neapmokestinamas </br> Atsiskaitymas pagal faktines išlaidas: Nėra |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

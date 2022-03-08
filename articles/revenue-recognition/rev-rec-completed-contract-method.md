@@ -2,18 +2,16 @@
 title: Pajamų įvertinimų valdymas
 description: Šioje temoje pateikiama informacijos, kaip tvarkyti projektų pajamų įvertinimus.
 author: sigitac
-manager: Annbe
 ms.date: 11/04/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 98df0301eaa8e9f8e9cd51fc5714254ae3bbc83d
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
-ms.translationtype: HT
+ms.openlocfilehash: 8d118826f8c63b9540435e320924d4562ab191ba126088560f5def1c1ff0b908
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531495"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996536"
 ---
 # <a name="manage-revenue-estimates"></a>Pajamų įvertinimų valdymas
 
@@ -90,3 +88,6 @@ Vykdant pašalinimo veiksmą atliekami toliau nurodyti veiksmai.
 Naudodami šį puslapį, galite atšaukti visus pašalinimus su nurodyta įvertinimo data ir įvertinimo būsena **Pašalinta**. Operacijos būsena pasikeičia pasirinkus atitinkamus laukus.
 
 Taip pat automatiškai pakeičiama projekto būsena į **Apdorojama**, jei projekto etapas nustatytas kaip baigtas. Projekto laikotarpio įvertinimo būsena pakeičiama į **Užregistruota**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

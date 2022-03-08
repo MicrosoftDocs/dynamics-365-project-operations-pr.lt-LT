@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8723cfad1e7cd07774e37023c5427b0a5833a554
-ms.sourcegitcommit: cffc84187007b34211c90babef8af5152d4d92ea
+ms.openlocfilehash: 0416e93944e7b6686a0e4da1d633188dd51e590b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "4849634"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279373"
 ---
 # <a name="resource-reconciliation-overview"></a>Išteklių suderinimo apžvalga
 
@@ -48,3 +48,6 @@ Jei turite ištekliaus užduoties priskyrimus, bet ne rezervavimus, puslapio **P
 Rezervavimai, sukurti vykdant **Išplėsti rezervavimą** veiksmą, yra susieti su pirminiu projekto reikalavimu. Kai plėtinys inicijuojamas, konkretaus reikalavimo, kurį reikia išplėsti, nustatyti negalima, nes ištekliai gali būti susieti su daugiau nei vienu projekto reikalavimu.
 
 Projekto vadovas arba išteklių vadovas gali naudoti grafiko lentą, kad valdytų situacijas, kai išteklius rezervuojamas per daug nepaisant jo pajėgumo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

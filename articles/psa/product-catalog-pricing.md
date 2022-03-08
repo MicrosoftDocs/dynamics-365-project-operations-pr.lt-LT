@@ -2,8 +2,6 @@
 title: Produktų katalogo kainodara
 description: Šioje temoje pateikta informacija apie tai, kaip veikia produktų katalogo kainodara programoje Dynamics 365 Project Service Automation (PSA).
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3fb9b51d58cbe3b0db6dad902461b90ac04cc42f
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 59e05a55d41573b96785a2f41a7d5d822f6b515fb55edddea5ef1862b7694a1b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151218"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000181"
 ---
 # <a name="product-catalog-pricing"></a>Produktų katalogo kainodara 
 
@@ -46,7 +44,7 @@ Galite įtraukti produktus iš produktų katalogo į skirtingus kainoraščius. 
 
 Programoje PSA palaikomos įvairios apvalinimo parinktys, kai kainos konfigūruojamos kaip kainų sąrašo, standartinės kainos arba dabartinės kainos funkcija. Be to, kad galite pasinaudoti kelių kainodaros metodų ir apvalinimo parinkčių privalumais, jūs taip pat galite susieti nuolaidų sąrašus su kainoraščio elementais. 
 
-> ![Produktų įtraukimas iš katalogų į skirtingus kainoraščius](media/basic-guide-16.png)
+> ![Produktų įtraukimas iš katalogų į skirtingus kainoraščius.](media/basic-guide-16.png)
 
 Kai pasiūlymui kuriate naują pasirinktinį kainoraštį pasirinkdami parinktį **Kurti pasirinktinį kainoraštį** puslapyje **Projekto pasiūlymas**, PSA sukuria kainoraščio kopiją, o laukas **Objektas**, esantis naujo kainoraščio antraštėje, nustatomas į **Pardavimo objektas**. Naujo kainoraščio pavadinimas sujungiamas su pasiūlymo pavadinimu ir laiko žyma. Taip pat galite naudoti naujo kainoraščio pavadinimą ir pasiūlymo pavadinimą pasirinktinėse darbo eigose, kad suaktyvintumėte papildomą peržiūrą ir pasiūlymų, naudojančių pasirinktinę kainodarą, patvirtinimą.
 
@@ -64,3 +62,6 @@ Galimybės, pasiūlymo ir projekto sutarties objektai naudoja toliau pateikiamą
 Pagal numatytuosius nustatymus, pasiūlymo eilutėje esančiame lauke **Produktas** pateikiamas visų aktyviųjų produktų, esančių pasiūlymo produkto kainoraštyje, sąrašas. Jei produktas nebuvo suaktyvintas arba jei tai yra juodraštinis produktas, jis nepateikiamas sąraše, net jei jis yra kainoraštyje. 
 
 Produktų katalogo eilutės įtraukiamos kaip sąskaitos faktūros eilutės pirmoje sąskaitoje faktūroje, sukurtoje projekto sutarčiai. Juodraštinėje sąskaitoje faktūroje šias sąskaitų faktūrų eilutes galima panaikinti. Tokiu atveju eilutės bus rodomos kitoje sąskaitoje faktūroje tol, kol joms nebus išrašyta sąskaita faktūra, arba kol sąskaita faktūra nebus išsiųsta klientui. Programoje PSA negalite sukurti sąskaitos faktūros daliniui produkto sąskaitos faktūros eilutės kiekiui. Kai projekto sutarties produktų eilutėms išrašoma sąskaita faktūra, sukuriami faktiniai duomenys. Tačiau šie faktiniai duomenys nesusieti su susijusio projekto objektu. Kitaip tariant, produktu pagrįsto projekto sutarties eilutės nepriklauso nuo jokio projektu pagrįsto naudojimo. PSA neseka medžiagų suvartojimo projektuose.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

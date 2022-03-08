@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d33786a5d0a2485a06d174eb7afcbaaa2f337cf6
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
-ms.translationtype: HT
+ms.openlocfilehash: 513f7fe75cfb7b1658b4be71ed0a17da7b64a1023992e1dada9adca8f0dbf21e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5992976"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987626"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>Projekto rezervavimo kūrimas i iš Grafiko lentos
 
@@ -43,7 +43,7 @@ Galite sukurti bendrąjį išteklių ir projekte jam priskirti vieną ar kelias 
 
 1.  Grafiko lentoje šie ištekliai bus matomi skirtuke **„Atidaryti reikalavimus“**. Jei turite daug atidarytų reikalavimų, jums gali tekti panaudoti stulpelio filtrus, esančius tinklelyje. 
 
-    ![Reikalavimų skirtuko atidarymas grafiko lentoje](media/FAQ-Project-Booking-Schedule-Board-1.png "Rezervavimo ir užduočių lentelės ekrano nuotrauka")
+    ![Reikalavimų skirtuko atidarymas grafiko lentoje.](media/FAQ-Project-Booking-Schedule-Board-1.png "Rezervavimo ir užduočių lentelės ekrano nuotrauka")
 
 2. Pasirinkite reikalavimą. Skirtukas **„Rasti pasiekiamumą“** matomas pasirinktos eilutės viršuje.
  
@@ -53,7 +53,7 @@ Galite sukurti bendrąjį išteklių ir projekte jam priskirti vieną ar kelias 
 
     Pasirinkus **„Rezervuoti“** rezervuojami ištekliai projekto komandai.
 
-![Kurti išteklių rezervavimo sritį](media/FAQ-Project-Booking-Schedule-Board-6.png "")
+![Kurti išteklių rezervavimo sritį.](media/FAQ-Project-Booking-Schedule-Board-6.png "")
  
 
 ## <a name="book-from-the-primary-requirement"></a>Rezervavimas iš pirminio reikalavimo
@@ -62,7 +62,7 @@ Sukūrus projektą „Project Service“ programoje, automatiškai sukuriamas i�
 
 1. Norėdami rezervuoti išteklius iš pagrindinio reikalavimo Grafiko lentoje, pasirinkite skirtuką **„Projektas“**. Jei turite daug projektų, gali tekti stulpelyje **„Projektas“** panaudoti stulpelio filtrą.
 
-   ![Stulpelio filtrai grafiko lentoje](media/FAQ-Project-Booking-Schedule-Board-2.png "Rezervavimo ir užduočių lentelės ekrano nuotrauka")
+   ![Stulpelio filtrai grafiko lentoje.](media/FAQ-Project-Booking-Schedule-Board-2.png "Rezervavimo ir užduočių lentelės ekrano nuotrauka")
 
 2. Pasirinkite reikalavimą, kurio pavadinimo laukelyje įrašytas projekto pavadinimas, o trukmė – 0.
 

@@ -2,19 +2,17 @@
 title: Trikčių diagnostika dirbant su užduoties tinkleliu
 description: Šioje temoje pateikta trikčių diagnostikos informacija, būtina dirbant su užduočių tinkleliu.
 author: ruhercul
-manager: tfehr
 ms.date: 01/19/2021
 ms.topic: article
 ms.product: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 89bbad62c2a0a5693a57cf5c9a812ab644486469
-ms.sourcegitcommit: c9edb4fc3042d97cb1245be627841e0a984dbdea
+ms.openlocfilehash: a15a4752de7537b3f60d5ee3269c846257a1fe4a
+ms.sourcegitcommit: 72fa1f09fe406805f7009fc68e2f3eeeb9b7d5fc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "5031547"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6213410"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Trikčių diagnostika dirbant su užduoties tinkleliu 
 
@@ -57,7 +55,7 @@ Programoje „Project Operations“ reikia, kad projekto parametras nurodytų PE
  ![Projekto parametro PEX galinio punkto laukas](media/projectparameter.png)
 
 1. Įtraukite lauką **PEX galinis punktas** į puslapį **Projekto parametrai**.
-2. Atnaujinkite lauką naudodami šią reikšmę: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=\<id>&type=2`
+2. Atnaujinkite lauką naudodami šią reikšmę: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=/<id>&type=2`
 3. Pašalinkite lauką iš puslapio **Projekto parametrai**.
 
 ## <a name="privileges-for-project-for-the-web"></a>Žiniatinklio projekto teisės
@@ -106,3 +104,6 @@ Darbo paskirstymo struktūroje atliekant vieną ar daugiau naujinimų, pakeitima
   - „Project Operations“ sistema
   - „Project“ sistema
   - „Project Operations“ dvigubo rašymo sistema (šis vaidmuo būtinas, jei diegiate „Project Operations“, skirtą ištekliais / nelaikomomis medžiagomis pagrįstiems scenarijams).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

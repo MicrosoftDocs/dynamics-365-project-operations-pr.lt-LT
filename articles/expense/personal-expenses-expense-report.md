@@ -2,19 +2,17 @@
 title: Darbas su asmeninėmis išlaidomis išlaidų ataskaitoje
 description: Šioje temoje pateikiama informacija apie tai, kaip dirbti su asmeninėmis išlaidomis, kurias darbuotojai patiria keliaudami verslo tikslais.
 author: suvaidya
-manager: tfehr
-ms.date: 11/18/2020
+ms.date: 05/11/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 68dc91db331c5214b5d0ad1109fa4e9bd9d0918e
-ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
+ms.openlocfilehash: ae25eca08089d224f1e17e95eeb571054de8a5c0
+ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "4727991"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6025694"
 ---
 # <a name="work-with-personal-expenses-on-an-expense-report"></a>Darbas su asmeninėmis išlaidomis išlaidų ataskaitoje
 
@@ -28,3 +26,15 @@ Yra du būdai, kuriuos galite naudoti norėdami dirbti su darbuotojo asmeninėmi
   - **Apmokėta įmonės**: jūsų organizacija apmoka visą sąskaitą už įmonės kredito kortelę, o tada nurašo nuo darbuotojo sąskaitos asmeninėms išlaidoms.
 
 Būdą, kurį jūsų organizacija naudoja, galite pasirinkti puslapyje **Išlaidų valdymo parametrai**.
+
+
+## <a name="enable-split-expense-function-when-personal-amount-field-has-value-defined"></a>Įjungti išlaidų skaidymo funkciją, kai asmeninės sumos lauke yra nustatyta reikšmė
+
+Funkcija **Įjungti išlaidų skaidymo funkciją, kai asmeninės sumos lauke yra nustatyta reikšmė** taikoma tik išlaidų ataskaitoms, kurios yra patvirtintos naudojant eilutės lygio darbo eigą. Ataskaitos yra patvirtinamos įėjus į **Išlaidų ataskaitų apdorojimas** > **Išlaidų ataskaitos, priskirtos man** > **Atidaryti išlaidų ataskaitą**. 
+
+Norėdami įjungti šią funkciją, eikite į **Darbo sritys** > **Funkcijų tvarkymas**, pasirinkite **Įjungti išlaidų skaidymo funkciją, kai asmeninės sumos lauke yra nustatyta reikšmė**, tada pažymėkite **Įjungti dabar**. 
+
+Kai ši funkcija įjungta, išlaidų eilutės, kurios naudoja šią funkciją, pateikia dvi eilutes, kai pateikiama ataskaita. Dvi eilutės generuojamos taip, kad tvirtinantojas galėtų patvirtinti kiekvieną eilutę atskirai.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

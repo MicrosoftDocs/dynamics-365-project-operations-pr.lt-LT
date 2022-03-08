@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c97488f8be003099210ed58dd5b609c8416474cd
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: e86f1a5a7b2859df5bf9569ee9ca306c6dcc6293
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663966"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4178016"
 ---
-# <a name="concepts-unique-to-project-quotes"></a>Unikalios projekto pasiūlymų sąvokos
+# <a name="quotes---key-concepts---lite"></a>Pasiūlymai – pagrindinės sąvokos – „Lite“ versija
 
 _**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
 
 
-Toliau pateikiamos pagrindinės sąvokos, kurias reikia žinoti prieš pradedant naudoti projektų pasiūlymus programoje „Dynamics 365 Project Operations“:
+Toliau pateikiamos pagrindinės sąvokos, kurias reikia žinoti prieš pradedant naudoti projektų pasiūlymus „Dynamics 365 Project Operations“:
 
 ## <a name="contracting-unit"></a>Sutartį sudarantis vienetas
 
@@ -89,6 +89,3 @@ Sąskaitos faktūros grafikas būdingas kiekvienai pasiūlymo eilutei ir yra pas
 - „Project Operations“ pasiūlymai turi savus formos ir UI elementus, verslo taisykles, verslo logiką papildiniuose ir kliento scenarijus, kuriais jie ir skiriasi nuo „Sales“ pasiūlymų.
 
 Dėl šių priežasčių nerekomenduojama naudoti „Sales“ pasiūlymo ir „Project Operations“ pasiūlymų keičiant juos vietomis.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

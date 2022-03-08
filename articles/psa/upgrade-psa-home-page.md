@@ -1,11 +1,10 @@
 ---
 title: Pagrindinio puslapio atnaujinimas
 description: Šioje temoje nurodoma, kur rasti svarbią informaciją apie naujas ir pakeistas „Dynamics 365 Project Service Automation“ funkcijas bei naujinimo į naujausią versiją procesą.
-manager: kfend
 ms.prod: ''
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 05/30/2019
 ms.topic: article
 author: rumant
@@ -19,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e30da3a5ade6d8bafcdc45801b830196841997bf
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 2b9b14d72157ae0046e1ca6abdc604b8dbc30377b5b24f5d79617a7201b1bf10
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150093"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006751"
 ---
 # <a name="upgrade-home-page"></a>Pagrindinio puslapio atnaujinimas
 
@@ -65,3 +64,6 @@ Nuo 2020 m. kovo 1 d. „Dynamics PSA“ klientai nebegalės kurti naujos aplink
 
 > [!NOTE]
 > Norėdami gauti geriausią patirtį, kai naudojatės senesnėmis „Field Service“ ir PSA programomis, eikite į puslapį **Sistemos parametrai** ir lauke **Naudoti tik naują vieningąją sąsają (rekomenduojama)** pasirinkite **Ne**, nes šios versijos nėra sukurtos taip, kad jas būtų galima tinkamai įkelti į UCI. Išjungę UCI, galite atidaryti ir paleisti šias „Field Service“ ir PSA versijas naudodami senąjį žiniatinklio klientą. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

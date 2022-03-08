@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2561a54af6bdb9764a318f012fdc53f7b3298893
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: ad32757821a4cf966abd0b98cc4632dece613bc4
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145188"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5291089"
 ---
 # <a name="sales-processes"></a>Pardavimų procesai
 
@@ -93,3 +93,6 @@ Naudodami PSA negalite sekti atliktų pasiūlymo peržiūrų. Turite pažymėti 
 
 ## <a name="tracking-comments-and-approvals-of-quotes-and-project-contracts"></a>Pasiūlymų ir projektų sutarčių komentarų bei patvirtinimų sekimas
 Naudodami įrašų sieną ir įrašus galite valdyti pasiūlymų ir projektų sutarčių peržiūrą bei patvirtinimą. Siekdama priskirti, peradresuoti, perskirti ir valdyti peržiūros ir patvirtinimo darbų elementų pranešimus organizacija gali kurti pasirinktines darbo eigas ir priedus.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Numatytieji kainoraščiai
 description: Šioje temoje pateikta informacija apie numatytuosius pardavimo ir savikainos kainoraščius programoje „Project Operations“.
 author: rumant
-manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fd29a3fc9c873d46dd66a05ad100c7515177d6cd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: a5e38e2f0b553b789956c6d73d481ab0ed2ce3a77815e7cf8c058a0b4666c558
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130948"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989876"
 ---
 # <a name="default-price-lists"></a>Numatytieji kainoraščiai
 
@@ -21,7 +19,7 @@ _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems s
 
 ## <a name="sales-price-lists"></a>Pardavimo kainoraščiai
 
-Kiekviename projekto pasiūlyme ir sutartyje programoje „Dynamics 365 Project Operations“ yra numatytasis pardavimo savikainų kainoraštis. 
+Kiekviename „Dynamics 365 Project Operations“ projekto pasiūlyme ir sutartyje yra numatytasis pardavimo kainoraštis. 
 
 ### <a name="price-list-default-on-project-quotes"></a>Numatytasis projekto pasiūlymų kainoraštis
 Sistema baigia toliau nurodytą procesą, kad nustatytų, kokį kainoraštį pasirinkti kaip numatytąjį projekto pasiūlymo kainoraštį.
@@ -57,3 +55,6 @@ Kainoraščiai nėra numatytieji jokiame „Project Operations“ objekte. Išla
 5. Tada sistema peržiūri kainoraščių, atitinkančių gaunamo įvertinimo arba faktinės eilutės data, įsigaliojimo datą. 
 6. Jei yra keli kainoraščiai, kurie galioja gaunamo įvertinimo arba faktinės eilutės datą, pasirenkamas vėliausiai sukurtas kainoraštis.
 7. Jei savikainos kainoraščiai nėra pridėti prie projekto parametrų, atitinkančių valiutą ir įsigaliojimo datą, sistema pagal nustato numatytąjį savikainos tarifą į nulį (0) gaunamo įvertinimo arba faktinėje eilutėje.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

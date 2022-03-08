@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4d2cc35e3205332d2941bf17fb8c7d8c9d9f310c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: f0327a2823490081b3718caf6530461dadf20bf4
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118123"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278203"
 ---
 # <a name="create-project-quotes-from-opportunities"></a>Projektų pasiūlymų kūrimas iš galimybių
 
@@ -56,3 +56,6 @@ Esamas pasiūlymas gali būti susietas su galimybe. Atlikite šiuos veiksmus ir 
    Kai perkeliate galimybę į šį etapą, galite pažymėti šį pasiūlymą iš pasiūlymų, susijusių su šia galimybe, sąrašo. Pažymėjus šį pasiūlymą nurodoma, kad su juo keliaujate pirmyn.
 
    Visi kiti su galimybe susieti pasiūlymai vis tiek bus pasiekiami ir būs aktyvūs tol, kol laimėsite vieną iš jų. Galite perkelti pardavimo procesą atgal į ankstesnį etapą – **Patvirtinti tinkamumą** – ir pasirinkti kitą pasiūlymą ir pereiti į priekį.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

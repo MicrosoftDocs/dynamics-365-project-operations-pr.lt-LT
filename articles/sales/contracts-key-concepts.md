@@ -8,20 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b0e0280cb94e6f0186f59024c233e8fcb9e86abf
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: 24b3fcd74e4167ba419e12c890a119d22c54c99a
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663732"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175541"
 ---
-# <a name="concepts-unique-to-project-based-contracts"></a>Unikalios projektu pagrįstų sutarčių sąvokos
+# <a name="project-contracts---key-concepts"></a>Projekto sutartys – pagrindinės sąvokos
 
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
-
-Šioje temoje pateikiamos pagrindinės sąvokos, kurias reikia žinoti prieš pradedant naudoti projektų sutartis programoje „Dynamics 365 Project Operations“:
+Šioje temoje pateikiamos pagrindinės sąvokos, kurias reikia žinoti prieš pradedant naudoti projekto sutartis programoje „Dynamics 365 Project Operations“.
 
 ## <a name="owning-company"></a>Įmonė, kuriai priklauso
 
@@ -88,6 +86,3 @@ Sąskaitos faktūros grafikai taikomi kiekvienai konkrečiai sutarties eilutei i
 ## <a name="changes-from-dynamics-365-sales-orders"></a>Pasikeitimai iš „Dynamics 365 Sales“ pasiūlymų
 
 „Project Operations“ sutartys kuriamos „Dynamics 365 Sales“ užsakymuose. Tačiau yra svarbių funkcijų skirtumų. Sutartys turi savus formos ir UI elementus, verslo taisykles, verslo logiką papildiniuose ir kliento scenarijus, kuriais jos ir skiriasi nuo užsakymų. Dėl šių priežasčių „Sales“ užsakymo ir „Project Operations“ sutarties apkeisti vietomis negalima.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

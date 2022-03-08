@@ -2,18 +2,16 @@
 title: Finansinės dimensijos numatytosios reikšmės
 description: Šioje temoje pateikta informacija apie tai, kaip nustatyti finansinių dimensijų numatytąsias reikšmes.
 author: sigitac
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 03b9a9028c1610b191db9c1bfb0163adc88bdf3e
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: d2509f74d34ac3dce4c6915ca860283750eb50b1
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642373"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013316"
 ---
 # <a name="financial-dimension-defaults"></a>Finansinės dimensijos numatytosios reikšmės
 
@@ -21,7 +19,7 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-„Dynamics 365 Project Operations“ naudoja [finansinių dimensijų](https://docs.microsoft.com/dynamics365/finance/general-ledger/financial-dimensions) sistemą programoje „Dynamics 365 Finance“, kad teiktų papildomų įžvalgų apie projekto papildomos knygos ir DK operacijas.
+„Dynamics 365 Project Operations“ naudoja [finansinių dimensijų](/dynamics365/finance/general-ledger/financial-dimensions) sistemą programoje „Dynamics 365 Finance“, kad teiktų papildomų įžvalgų apie projekto papildomos knygos ir DK operacijas.
 
 Numatytąsias finansines dimensijas galima nustatyti klientui, projekto finansavimo šaltiniui, etapui, projekto sutarties eilutei arba projektui.
 
@@ -62,3 +60,6 @@ Projektai kuriami ir tvarkomi naudojant (CDS). Projektų apskaitos atributai nus
 4. Nustatykite numatytąsias finansinių dimensijų reikšmes. Atkreipkite dėmesį, kad numatytosios finansinių dimensijų reikšmės gaunamos iš kliento paskyros. Jei projektas yra susietas su sutarties eilute, turinčia kelis projektų sutarčių klientus, numatytosioms finansinių dimensijų reikšmėms nustatyti naudojamas pirminis klientas.
 
 Projekto numatytosios finansinės dimensijos naudojamos norint nustatyti laiko, išlaidų ir mokesčių operacijų žurnalų eilučių numatytąsias reikšmes **„Project Operations“ integravimo žurnale** ir susijusiose projekto sąskaitų faktūrų eilutėse.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

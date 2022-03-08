@@ -2,11 +2,9 @@
 title: Išteklių kompetencijų valdymas
 description: Šioje temoje pateikiama informacija, kaip nustatyti projekto išteklių kompetencijas.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: db96ffc5fdd6bc759cd35fff0a39a64d9854a4f0
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: f93fbda0ad6435c627eb7e580f92fd90481034cae2236b9a636195883470ca5c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270643"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007426"
 ---
 # <a name="manage-resource-competencies"></a>Išteklių kompetencijų valdymas
 
@@ -31,7 +29,7 @@ ms.locfileid: "5270643"
 
 Išteklių kompetencijos yra esminė išteklių valdymo dalis. Kompetencijas galima naudoti kaip bazinį planą, skirtą nustatyti, ar išteklius turi tinkamų įgūdžių, išsilavinimą, sertifikavimą ir darbo projektuose patirties. Turite nustatyti šią informaciją kiekvienam ištekliui ir reguliariai ją atnaujinti. Tokiu būdu, maksimizuojate galimybes, kai konkretaus ištekliaus kompetencijos atitinka reikalavimus projekto ištekliaus priskyrimo metu.
 
-[![Įgūdžių, sertifikavimo, išsilavinimo ir darbo projektuose patirties pavyzdžiai](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
+[![Įgūdžių, sertifikavimo, išsilavinimo ir darbo projektuose patirties pavyzdžiai.](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
 
 Toliau pateikiamose procedūrose paaiškinama, kaip nustatyti kai kurias išteklių kompetencijas.
 

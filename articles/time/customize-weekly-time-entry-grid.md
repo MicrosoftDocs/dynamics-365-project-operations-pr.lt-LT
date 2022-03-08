@@ -2,24 +2,22 @@
 title: Laiko įrašų išplėtimas
 description: Šioje temoje pateikta informacija apie tai, kaip kūrėjai gali išplėsti laiko įrašų valdiklį.
 author: stsporen
-manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c36a47b09e6012925a047f81318e89167d5c506facaae8d72b0bb6e8e267a7d5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124648"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993341"
 ---
 # <a name="extending-time-entries"></a>Laiko įrašų išplėtimas
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
-„Dynamics 365 Project Operations“ yra išskleidžiamas laiko įrašo pasirinktinis valdiklis. Šiame valdiklyje yra tokių funkcijų:
+„Dynamics 365 Project Operations“ turi išplečiamąjį laiko įrašo pasirinktinį valdiklį. Šiame valdiklyje yra tokių funkcijų:
 
 - Įveskite laiką horizontaliai per savaitę
 - Bendrosios sumos pagal dieną, eilutę arba savaitę
@@ -144,3 +142,6 @@ Norėdami atlikti bet kokius tikrinimus, kuriems reikia daugiau konteksto, nei y
 
 ### <a name="copying-time-entries"></a>Laiko įrašų kopijavimas
 Norėdami apibrėžti laukų, kuriuos reikia kopijuoti įrašant laiką, sąrašą, naudokite rodinį **Kopijuoti laiko įrašo stulpelius**. **Data** ir **Trukmė** yra būtini laukai, todėl jų negalima pašalinti iš rodinio.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

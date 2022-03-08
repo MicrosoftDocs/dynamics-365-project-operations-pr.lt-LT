@@ -2,8 +2,6 @@
 title: Kas nauja arba pakeista „Project Service Automation“ V3 26 atnaujintame leidime
 description: Šioje temoje išvardytos funkcijos ir pataisymai, kurie yra pasiekiami „Project Service Automation“ V3 26 atnaujintame leidime.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 01/12/2021
 ms.topic: article
@@ -17,18 +15,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 14fcccf5804e5da0926dbc69bdfa040229a7f068
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: fa526e97a366c01dae2547d79d0eda2fb204e07d0f6383b991165b9eecd836e9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5143568"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004276"
 ---
 # <a name="project-service-automation-update-release-26-v3"></a>„Project Service Automation“ V3 26 naujinimo leidimas
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Malonu pranešti apie naujausią „Dynamics 365“ programos „Project Service Automation“ naujinimą. Šiame leidime yra kai kurių svarbių kokybės, veikimo ir naudojimo patobulinimų. Šis leidimas suderinamas su „Dynamics 365“ 9.x versija. Norėdami naujinti šį leidimą, eikite į „Dynamics 365“ internetinių sprendimų puslapio administravimo centrą, iš kurio galite įdiegti naujinimą. Daugiau informacijos žr. [Pageidaujamo sprendimo diegimas, naujinimas arba šalinimas](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
+Malonu pranešti apie naujausią „Dynamics 365“ programos „Project Service Automation“ naujinimą. Šiame leidime yra kai kurių svarbių kokybės, veikimo ir naudojimo patobulinimų. Šis leidimas suderinamas su „Dynamics 365“ 9.x versija. Norėdami naujinti šį leidimą, eikite į „Dynamics 365“ internetinių sprendimų puslapio administravimo centrą, iš kurio galite įdiegti naujinimą. Daugiau informacijos žr. [Pageidaujamo sprendimo diegimas, naujinimas arba šalinimas](/power-platform/admin/install-remove-preferred-solution).
 
 Šioje temoje išvardytos naujos arba pakeistos funkcijos ir pataisos, susijusios su 3 versijos „Project Service Automation“ 26 atnaujintu leidimu. Šios versijos komponavimo versijos numeris yra V3.10.44.59 ir ji visuotinai pasiekiama įdiegiant savaiminį 2020 m. gruodžio mėn. naujinimą.
 
@@ -74,3 +72,6 @@ Buvo pataisytos šios problemos:
 - Pasiūlyme arba sutartyje pasirinkus projektu pagrįstą eilutę, mygtukas **Pasiūlymas** turėtų būti rodomas tik tada, kai pasirenkam produktu pagrįsta eilutė, susieta su esamu produktu.
 - Teisė **Create_Product** atskirta nuo teisės **Create_ProjectContract**.
 - Panaikinus sąskaitos faktūros eilutę pateikiama „null“ nuorodos klaida dėl **MarkReadyToInvoiceForProductContractLineAfterDeletingInvoice**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

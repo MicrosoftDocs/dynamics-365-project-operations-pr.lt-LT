@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 14d880eccd5547c122ebe37b63022e64fa2fb6fe
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 2b856e280ac56c1cedd7d4966aca7e7f234bc520
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181731"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278113"
 ---
 # <a name="work-with-projectbased-contract-lines"></a>Darbas su projektu pagrįstomis sutarčių eilutėmis
 
-Projektu pagrįstos sutarčių eilutės programoje „Dynamics 365 Project Operations“ sukurtos tam tikriems projekto darbo su aktyvu komponentams įvertinti ir atsiskaitymo už juos sąskaitoms pateikti. Projektu pagrįstos sutarties eilutės struktūra išplečiama projektų sąmatų ir sąskaitų išrašymo scenarijams, taikant tolesnes koncepcijas.
+Projektu pagrįstos sutarčių eilutės programoje „Dynamics 365 Project Operations“ sukurtos tam tikriems projekto darbo komponentams įvertinti ir atsiskaitymo sutartims pateikti. Projektu pagrįstos sutarties eilutės struktūra išplečiama projektų sąmatų ir sąskaitų išrašymo scenarijams, taikant tolesnes koncepcijas.
 
 - Atsiskaitymo metodas
 - Projektų ir užduočių susiejimas
@@ -57,3 +57,6 @@ Taisyklė: projektas ir tam tikra operacijų klasė gali būti įtraukti tik į 
 | C1       | CL2           | P1      | No           | Taip             | No          | Tinkama           | Projekto P1 laikas ir mokesčiai įtraukiami į CL1. P1 projekto išlaidos yra įtrauktos į CL2. </br>   Nėra persidengiančių elementų, įtrauktų į kiekvieną sutarties eilutę, todėl jie yra galiojantys.  |
 | C1       | CL1           | P1      | Taip          | Taip             | Taip         | Negalioja       | Pažeidžia taisyklę. P1 projekto laikas, išlaidos ir mokesčiai įtraukiami į dviejų sutarčių eilutes.                                                                                               |
 | CL2      | CL2           | P1      | Taip          | Taip             | Taip         | Negalioja       | Pažeidžia taisyklę. P1 projekto laikas, išlaidos ir mokesčiai įtraukiami į dviejų sutarčių eilutes.                                                                                               |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

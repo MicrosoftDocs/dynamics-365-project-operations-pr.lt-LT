@@ -2,18 +2,16 @@
 title: Kelių klientų tvarkymas projekto pasiūlyme
 description: Šioje temoje pateikta informacija apie darbą su pasiūlymais, apimančiais kelis klientus, kurie finansuos projektą.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67e927962feb248aa7f07a69463b433e1ec89761
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 62bd8e3539102229c79126397cf60287747b187d
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4182002"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6011426"
 ---
 # <a name="manage-multiple-customers-on-a-project-quote"></a>Kelių klientų tvarkymas projekto pasiūlyme
 
@@ -23,7 +21,7 @@ Projekto pasiūlymai palaiko scenarijų, kai pasiūlymas apima kelis klientus, k
 
 Visi pasiūlymo klientai, esantys projekto pasiūlymo skirtuke **Klientai** nustatomi kaip pasiūlymo eilutės klientai bet kuriose **naujo** projektu pagrįsto pasiūlyo eilutėse, sukurtose šiam pasiūlymui. Bet kokios esamos projektu pagrįsto pasiūlymo eilutės nepaveldės naujo pasiūlymo klientų įrašų, sukurtų po jų.
 
-Pasiūlymo klientai ir pasiūlymo eilutės klientai gali būti įtraukti, atnaujinti arba panaikinti bet kuriuo metu, kai pasiūlymas dar nelaimėtas. Galiojantis pasiūlymo klientas turi būti nustatytas kaip valdančiosios įmonės arba juridinio subjekto klientas puslapyje **Klientai**. Juridiniai subjektai yra nustatomi „Dynamics 365 Project Operations“ **Projektų valdymo ir apskaitos** modulyje yra yra pateikiami kaip įmonės „Project Operations“ **Projektų pardavimų ir pristatymo** modulyje.
+Pasiūlymo klientai ir pasiūlymo eilutės klientai gali būti įtraukti, atnaujinti arba panaikinti bet kuriuo metu, kai pasiūlymas dar nelaimėtas. Galiojantis pasiūlymo klientas turi būti nustatytas kaip valdančiosios įmonės arba juridinio subjekto klientas puslapyje **Klientai**. Juridiniai subjektai nustatomi „Dynamics 365 Project Operations“ modulyje **Projektų valdymas ir apskaita** ir jie pasiekiami kaip įmonės „Project Operations“ moduliuose **Projekto pardavimas ir pristatymas**.
 
 ## <a name="concept-of-a-primary-customer"></a>Pirminio kliento koncepcija
 
@@ -51,3 +49,6 @@ Pasiūlymo klientą galima sukurti, atnaujinti arba panaikinti skirtuke **Pasiū
 Galite redaguoti atsiskaitymo išskaidytą procentinę dalį naudodami eilutės tinklelio redagavimą. Kai atsiskaitymo išskaidyta procentinė dalis nėra iš viso 100%, įvyksta klaida. Kai atnaujinate atsiskaitymo išskaidytą procentinę dalį, atnaujinkite pasiūlymo eilutės puslapį ir pašalinkite klaidą.
 
 Taip pat galite pabandyti pasirinkti parinktį **Paskirstyti tolygiai** pasiūlymo klientų papildomame tinklelyje. Šis veiksmas išskaido atsiskaitymą visiems pasiūlymo klientams. Jei yra apvalinimo koeficientas, jis bus įtrauktas į apvalinimo klientą. Vienas iš pasiūlymo klientų yra visada žymimas kaip apvalinimo klientas. Tai reiškia, kad pasiūlymo kliento įraše yra **apvalinimo** žymė nustatyta į **Taip**. Paprastai tai yra pirminis pasiūlymo klientas, tačiau jį galima keisti.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

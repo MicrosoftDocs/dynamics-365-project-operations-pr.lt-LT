@@ -2,11 +2,9 @@
 title: Projekto išlaidų kategorijų sinchronizavimas tarp „Finance and Operations“ ir „Project Service Automation“
 description: Šioje temoje aprašomi šablonai ir pagrindinės užduotys, kurios naudojami norint sinchronizuoti projekto išlaidų kategorijas tarp „Microsoft Dynamics 365 Finance“ ir „Dynamics 365 Project Service Automation“.
 author: Yowelle
-manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: ed7ca3c85d3f99b7eefe10f4ddec822b9aeb1684
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 52c79f8b641d4b2df3b30964331633f2487402f8f8d229b540f9544c0f848557
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080975"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001126"
 ---
 # <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Projekto išlaidų kategorijų sinchronizavimas tarp „Finance and Operations“ ir „Project Service Automation“
 
@@ -58,7 +56,7 @@ Jei projekto išlaidų kategorijos valdomos „Project Service Automation“, in
 
 Šioje iliustracijoje pavaizduota, kaip duomenys sinchronizuojami tarp „Project Service Automation“ ir „Finance“.
 
-[![„Project Service Automation“ ir „Finance“ integravimo duomenų srautas](./media/ProjectExpenseCategoriesFlow.png)](./media/ProjectExpenseCategoriesFlow.png)
+[![„Project Service Automation“ ir „Finance“ integravimo duomenų srautas.](./media/ProjectExpenseCategoriesFlow.png)](./media/ProjectExpenseCategoriesFlow.png)
 
 ## <a name="project-expense-category-synchronization-from-finance-to-project-service-automation"></a>Projekto išlaidų kategorijos sinchronizavimas iš „Finance“ į „Project Service Automation“
 
@@ -95,7 +93,7 @@ Kai sinchronizuojate į „Project Service Automation“, turite naudoti „ Mic
 
 Šioje iliustracijoje pateikiamas duomenų integravimo šablonų užduočių susiejimo pavyzdys. Susiejime rodoma lauko informacija, kuri bus sinchronizuojama iš „Finance“ į „Project Service Automation“.
 
-[![Projekto išlaidų kategorijos ir „Project Service Automation“ šablonų susiejimas](./media/ProjectExpenseCategoriesToPSAMapping.jpg)](./media/ProjectExpenseCategoriesToPSAMapping.jpg)
+[![Projekto išlaidų kategorijos ir „Project Service Automation“ šablonų susiejimas.](./media/ProjectExpenseCategoriesToPSAMapping.jpg)](./media/ProjectExpenseCategoriesToPSAMapping.jpg)
 
 ## <a name="project-expense-category-synchronization-from-project-service-automation-to-finance"></a>Projekto išlaidų kategorijos sinchronizavimas iš „Project Service Automation“ į „Finance“.
 
@@ -123,4 +121,7 @@ Projekto išlaidų kategorijos valdomos naudojant „Finance, o sinchronizuojamo
 > [!NOTE]
 > Susiejime rodoma lauko informacija, kuri bus sinchronizuojama iš „Project Service Automation“ į „Finance“.
 
-[![„Project Service Automation“ ir „Finance“ šablonų susiejimas](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+[![„Project Service Automation“ ir „Finance“ šablonų susiejimas.](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: af2256e77c3ceeee9638f57d971137df1658687b
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: e1a8d6319788ee73e0e2837a47cba89108c32572
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148473"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275323"
 ---
 # <a name="add-custom-fields-to-price-setup-and-transactional-entities"></a>Pasirinktinių laukų įtraukimas į kainų sąranką ir operacinius objektus 
 
@@ -150,3 +150,6 @@ Toliau esančioje lentelėje pateikiamas išsamus paruoštų formų ir rodinių 
 |  Faktinis|• Informacija<br>• Aktyvieji faktiniai duomenys|• Faktinis susietasis rodinys|
 
 Pasirinktinius laukus taip pat gali reikėti įtraukti į veiklos taisykles atsižvelgiant į tai, ką nustatėte. Vienas iš paruoštų pavyzdžių yra skirtas veiklos taisyklei **„Laiko įrašo redagavimas atsižvelgiant į būseną“**. Ši taisyklė apibrėžia, kuriuos laukus reikia užrakinti, kai „Laiko įrašas“ yra neredaguojamoje būsenoje, tokioje kaip **„Patvirtinta“**. Įtraukite laukus į šią veiklos taisyklę, kad nebūtų galima laukų redaguoti, kai „Laiko įrašas“ yra bet kokioje būsenoje, išskyrus **„Juodraštis“** arba **„Grąžinta“**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

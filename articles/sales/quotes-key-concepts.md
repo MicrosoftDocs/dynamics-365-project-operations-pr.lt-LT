@@ -17,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 488c57527e6cc153093014438453001170f311dc
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: 8d113111f5fbf6f5d23ef02cae36d85a27beed93
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663709"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121318"
 ---
-# <a name="concepts-unique-to-project-based-quotes"></a>Unikalios projektu pagrįstų pasiūlymų sąvokos
+# <a name="quotes---key-concepts"></a>Pasiūlymai – pagrindinės sąvokos
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
-Programoje „Dynamics 365 Project Operations“ naudojami dviejų tipų pasiūlymai: projekto pasiūlymai ir pardavimo pasiūlymai. Šių pasiūlymų dviejų tipų skirtumai išvardyti toliau.
+Programoje „Dynamics 365 Project Operations“ yra dviejų tipų pasiūlymai, projektas ir pardavimas. Šių pasiūlymų dviejų tipų skirtumai išvardyti toliau.
 
 - **Tinkleliai eilutės elementams**: pardavimo pasiūlymuose yra tik vienas tinklelis eilutės elementams. Projekto pasiūlyme yra du eilučių elementų tinkleliai. Vienas tinklelis skirtas projektų eilutėms, o kitas – produktų eilutėms.
 - **Aktyvinimas ir peržiūrėjimas** – pardavimo pasiūlymus galima aktyvuoti ir peržiūrėti. Šie procesai nepalaikomi projekto pasiūlyme.
@@ -128,6 +128,3 @@ Fiksuotos kainos pasiūlymo eilutėms galite naudoti tinklelį **Sąskaitų fakt
 - Jei norite sukurti lygiai padalytus sąskaitų išrašymo etapus, pasirinkite sąskaitų faktūrų išrašymo dažnį, į pasiūlymo eilutę įveskite atsiskaitymo pradžios datą ir pasiūlymo antraštės srityje **Suvestinė** pasirinkite pasiūlymo **Pageidaujamą užbaigimo datą**. Tada pasirinkite **Generuoti periodinį sąskaitų pateikimą etapais** ir sukurkite lygiai padalytus etapus pagal pasirinktą sąskaitų faktūrų išrašymo dažnį. 
 - Norėdami sukurti atsiskaitymo vienkartine suma etapą, sukurkite etapą ir tada kaip etapo sumą įveskite pasiūlymo eilutės vertę.
 - Norėdami sukurti konkrečiomis projekto plano užduotimis pagrįstus sąskaitų išrašymo etapus, sukurkite etapą ir atsiskaitymo etapo UI susiekite jį su projekto grafiko elementu.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

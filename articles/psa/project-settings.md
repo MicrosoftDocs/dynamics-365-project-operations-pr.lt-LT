@@ -2,8 +2,6 @@
 title: Projekto parametrai
 description: Šioje temoje pateikta informacija apie projektų valdymo parametrus.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ca5fc63d56ddd84871949e38f421bcdfe38d478e
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 5f6fec091c50f35589e333fce4b3a296dd736d10dd2f56b6c11209a55b493836
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148158"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996941"
 ---
 # <a name="project-settings"></a>Projekto parametrai
 
@@ -47,9 +45,9 @@ Norėdami sukurti projekto grafiką, sukuriate projekto kalendoriaus šabloną, 
 
   - Naujas savaitės grafikas
   - Vienos dienos darbo grafikas
-  - Laisvas laikas
+  - Ne darbo laikas
 
-> ![Nustatymų parinktys](media/project-13.png)
+> ![Nustatymų parinktys.](media/project-13.png)
 
 4. Pažymėkite **Naujas savaitės grafikas** ir nustatykite šio išteklių grafiko parinktis. Galite nustatyti pasikartojantį savaitinį grafiką, dienos darbo valandų parametrus, įmonės ne darbo laiką ir kt.
 5. Nustatykite datų intervalą pasirinkdami **Įrašyti**, tada spustelėkite **Uždaryti**. 
@@ -68,3 +66,6 @@ Kiekviena organizacija turi nustatyti šiuos vaidmenis puslapyje **Aktyvių išt
 ## <a name="price-lists"></a>Kainoraščiai
 
 Kainoraščiais galima nustatyti išteklių vaidmenų, išlaidų kategorijų, produktų ir kitų organizacijos elementų savikainą ir pardavimo kainas. Norėdami sukurti finansines sąmatas už darbą, kuris bus atliekamas vykdant projektą, įsitikinkite, kad yra sudarytas atsarginis savikainos ir pardavimo kainoraštis. Parametrų skyriuje taip pat turite nustatyti numatytąją savikainos ir pardavimo kainoraštį, taikomą visiems organizacijoje sukurtiems projektams. Puslapyje **Aktyvieji projekto parametrai** įsitikinkite, kad nustatėte numatytąjį savikainos ir pardavimo kainoraštį.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

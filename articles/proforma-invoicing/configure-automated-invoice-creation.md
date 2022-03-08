@@ -2,18 +2,16 @@
 title: Automatizuotų sąskaitų faktūrų kūrimo konfigūravimas
 description: Šioje temoje pateikta informacija apie tai, kaip konfigūruojant sistemą automatiškai generuoti sąskaitas faktūras.
 author: rumant
-manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 295c3b099c9670c930fb2ba2fd208be63a77217f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 894e8f6e4ffbb5f003cdd1f69594e2a1e043b514923de5673d7ba9afaa6894e8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122443"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992666"
 ---
 # <a name="configure-automatic-invoice-creation"></a>Automatizuotų sąskaitų faktūrų kūrimo konfigūravimas
 
@@ -45,3 +43,6 @@ Paketinė proceso užduotis, skirta sąskaitoms faktūroms kurti, yra pasikartoj
 
 > [!NOTE]
 > Paketinių sąskaitų faktūrų išrašymas vykdomas tik projekto sutarties eilutėse, sukonfigūruotose sąskaitų faktūrų grafike. Sutarties eilutė su fiksuotos kainos atsiskaitymų metodu turi turėti sukonfigūruotus etapus. Norint naudoti projekto sutarties eilutę su laiko ir medžiagų atsiskaitymo metodu, reikės nustatyti data pagrįstą sąskaitos faktūros grafiką. Tokia pati tvarka galioja ir projektu pagrįstai sutarties eilutei.     
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7576f73240a7366175d7be39815583a5c9cf7187
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 81f926e0aa209dd83f9b850c2342bd35a4f236c3
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150363"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5282478"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Pasirinktinių laukų kaip kainodaros dimensijų nustatymas 
 
@@ -94,3 +94,6 @@ Dimensijos prioriteto nustatymas padeda „Project Service“ kainodarai sukurti
 
 - **Savikainos prioritetas**: dimensijos savikainos prioriteto reikšmė nurodys dimensijos įvertinimą lygindama su savikainos sąranka. **Savikainos prioriteto** reikšmė turi būti unikali visose dimensijose, kurios taikomos **Taikoma savikainai**.
 - **Pardavimo prioritetas**: dimensijos pardavimo prioriteto reikšmė nurodys dimensijos įvertinimą lygindama su pardavimo kainų arba sąskaitų tarifų sąranka. **Pardavimo prioriteto** reikšmė turi būti unikali visose dimensijose, kurios taikomos **Taikoma pardavimui**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

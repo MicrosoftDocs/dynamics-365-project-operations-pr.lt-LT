@@ -2,17 +2,19 @@
 title: Tiekėjo sąskaitų faktūrų integravimas
 description: Šioje temoje pateikiama informacijos apie tiekėjų sąskaitų faktūrų integravimą naudojant „Project Operations“.
 author: sigitac
+manager: Annbe
 ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 538a2694591f1d0d368ee0ffeed9bdf12cb47420c3d0571f75185fe433f23436
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 07839436c3777b0554e0721d250bff643e38c088
+ms.sourcegitcommit: 02f00960198cc78a5e96955a9e4390c2c6393bbf
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986501"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5955798"
 ---
 # <a name="vendor-invoice-integration"></a>Tiekėjo sąskaitų faktūrų integravimas
 
@@ -36,7 +38,7 @@ Sprendime „Project Operations“ su projektais susijusios tiekėjų sąskaitos
 
 Registruojant tiekėjo sąskaitą faktūrą, sprendime „Dynamics 365 Finance“ pagal poreikį įrašomos papildomos mokesčių knygos, papildomos tiekėjų knygos ir kiti finansiniai registravimai.
 
-![Tiekėjo sąskaitų faktūrų integravimas.](media/DW7VendorInvoice.png)
+![Tiekėjo sąskaitų faktūrų integravimas](media/DW7VendorInvoice.png)
 
 Kai įrašai rašomi „Dataverse“ objekte **Tiekėjo sąskaita faktūra**, pradedamas automatizuotas įrašų patvirtinimo procesas. Jei reikia, automatizuoto patvirtinimo proceso būseną galima peržiūrėti sprendime „Dataverse“ nuėjus į **Išplėstiniai parametrai** > **Sistema** > **Sistemos užduotys**. Baigusi patvirtinimą, sistema objekte **Faktiniai duomenys** sukuria medžiagų operacijų klasės įrašus.
 

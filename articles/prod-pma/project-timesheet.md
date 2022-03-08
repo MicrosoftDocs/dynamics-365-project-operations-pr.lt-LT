@@ -2,11 +2,9 @@
 title: Mobiliųjų įrenginių programėlė „Project Timesheet“
 description: Šioje temoje pateikiama informacija apie mobiliųjų įrenginių programėlę „Microsoft Dynamics 365 Project Timesheet“. Mobiliųjų įrenginių programėlė „Project Timesheet“ leidžia vartotojams pateikti ir tvirtinti projektų grafikus mobiliuosiuose įrenginiuose.
 author: abruer
-manager: AnnBe
 ms.date: 04/08/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: b9cbd84ecb0d71a99982e158d7e0ea1e236fb369
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: df6d286b6d5716fb0ea908ed71c2257b4db21ecfd35148fea65dfd96e058ac9a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081009"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997211"
 ---
 # <a name="project-timesheet-mobile-application"></a>Mobiliųjų įrenginių programėlė „Project Timesheet“
 
@@ -96,3 +94,6 @@ Spustelėkite **Pateikti** ir siųskite grafiką į patvirtinimo darbo eigą.
 ## <a name="review-timesheets"></a>Grafikų peržiūra
 
 Grafikų, kuriuos reikia peržiūrėti, sąrašas pateikiamas meniu. Ši parinktis galima tik tada, jei buvote paskirtas darbo eigos tvirtintoju. Palaikomas ir antraštės, ir eilutės patvirtinimas. Eilutės lygio patvirtinimas siūlo galimybę pažymėti vieną ar keletą tvirtinamų eilučių. Peržiūrėję grafiko informaciją, spustelėkite **Patvirtinti**, **Paskirti atstovą** arba **Grįžti** ir tęskite darbo eigą.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

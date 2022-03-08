@@ -2,11 +2,9 @@
 title: Kvito įrašymas naudojant OCR
 description: Šioje temoje pateikiama informacija apie optinio simbolių atpažinimo (OCR) apdorojimą kvitams.
 author: suvaidya
-manager: AnnBe
-ms.date: 09/23/2020
+ms.date: 11/10/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fd0cb0fb094260fa3e82d7a2f200f328a39dd7a1
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
-ms.translationtype: HT
+ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
+ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499861"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "7798050"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>Kvito įrašymas naudojant OCR
 
@@ -54,7 +52,7 @@ Jei norite kurti išlaidas arba sugretinti išlaidas iš kvito, atlikite toliau 
 
 ## <a name="installation"></a>Diegimas
 
-Norėdami naudoti šias išplėstinių išlaidų galimybes, įdiekite „Expense Management Service“ papildinį, skirtą „Microsoft Dynamics 365 Finance“ ir įgalinkite savo egzempliorių funkcijas. Galite pasiekti papildinį iš savo projekto programoje „Microsoft Dynamics Lifecycle Services“ (LCS).
+Norėdami naudoti šias išplėstines išlaidų galimybes, įdiekite "Microsoft Dynamics 365 Finance" išlaidų valdymo tarnybos priedą ir įjunkite savo egzemplioriaus funkcijas. Priedą iš savo projekto galite pasiekti Microsoft Dynamics gyvavimo ciklo paslaugose (LCS).
 
 1. Prisijunkite prie LCS ir atidarykite pageidaujamą aplinką.
 2. Eikite į **Pilna išsami informacija**.
@@ -75,7 +73,7 @@ Norėdami naudoti šias išplėstinių išlaidų galimybes, įdiekite „Expense
 - Įtraukiamas naujas išlaidų lauko matomumo meniu elementas.
 - Dar galite atidaryti buvusių **Išlaidų ataskaitų** puslapį nuėję į **Išlaidų valdymas > Mano išlaidos > Išlaidų ataskaitos**.
 - Darbo eigos ir bet kokie patvirtinimai vis dar pateksite į esamų išlaidų ataskaitų puslapį.
-- Kvitai bus apdorojami per „Microsoft Azure Cognitive Services“, o metaduomenys bus išskleisti ir įtraukti.
+- Kvitai bus apdorojami naudojant Microsoft Azure kognityvines paslaugas, o metaduomenys bus išskleisti ir pridėti.
 - Įtraukiama parinktis, leidžianti kurti išlaidų ataskaitą, kurioje yra suderintų nepridėtų kvitų.
 - Prie išlaidų ataskaitų pridėta parinktis leidžia sukurti išlaidų eilutę iš kvito arba bando sugretinti esamą kvitą su esama išlaidų eilute.
 
@@ -87,7 +85,18 @@ Ne, „Microsoft“ sukūrė bendrąjį mašininio mokymo modelį, skirtą kvito
 
 **Kur ši funkciją prieinama ir apdorojama?**
 
-Šiuo metu funkcija palaikoma Jungtinėse Valstijose.
+Šios funkcijos pasiekiamumas skirtinguose regionuose pateikiamas šioje lentelėje. Jei jūsų regionas šiuo metu nepalaikomas, pateikite užklausą, kad jūsų regione būtų teikiama pirmenybė OCR tarnybos pasiekiamumui. 
+
+| Regiono ID | Palaikomas                         |
+|--------|-----------------------------------|
+| JAV    | Taip                               |
+| CAN    | Taip                               |
+| JK     | Taip                               |
+| AUS    | Taip                               |
+| ES     | Dalinai. Tik angliški kvitai. |
+| Azija   | No                                |
+| Japonija  | No                                |
+| Afrika | No                                |
 
 **Kur yra mano kvitai?**
 

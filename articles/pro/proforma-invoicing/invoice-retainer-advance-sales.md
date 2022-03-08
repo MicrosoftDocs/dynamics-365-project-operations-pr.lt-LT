@@ -2,18 +2,16 @@
 title: Avansinio arba išankstinio apmokėjimo sąskaitos faktūros išrašymas
 description: Šioje temoje pateikta informacija apie išankstinio arba avansinio apmokėjimo sąskaitų faktūrų išrašymą naudojant „Project Operations“.
 author: rumant
-manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
-ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
-ms.translationtype: HT
+ms.openlocfilehash: 25c0c979056d89d44a1bd67dbfdcb180d897de65eaf3374cec0a2dc73c4e3568
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "4596202"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997481"
 ---
 # <a name="invoice-a-retainer-or-an-advance"></a>Išankstinio apmokėjimo arba išankstiniu mokėjimu pagrįsto mokėjimo sąskaita faktūra
 
@@ -51,3 +49,6 @@ Tai galima matyti puslapio **Sąskaita faktūra** tinklelyje **Taikomi išanksti
 | Panaudota suma | Puslapio **Projekto sąskaita faktūra** tinklelis **Taikomi išankstiniai ir avansiniai apmokėjimai**  | Šiame tik skaitomame lauke pateikiama apskaičiuota reikšmė, kuri apibendrina, kiek išankstinio ir avansinio apmokėjimo sumos panaudota. | Šį lauką galima rodyti išspausdintoje sąskaitoje faktūroje klientui, kad būtų nurodyta anksčiau panaudota išankstinio ir avansinio apmokėjimo suma. |
 | Išplėstinė suma | Puslapio **Projekto sąskaita faktūra** tinklelis **Taikomi išankstiniai ir avansiniai apmokėjimai**  | Šiame redaguojamame lauke pateikiama išankstinio ir avansinio apmokėjimo, naudojamo šioje projekto sąskaitoje faktūroje, suma. Ši suma negali būti didesnė už galimą avansinio mokėjimo sumą. Sistema ją automatiškai apskaičiuoja kaip skirtumą tarp tinklelio laukų **Suma** ir **Panaudota suma** reikšmių. Galite sumažinti šią sumą, kad būtų naudojama mažesnė suma, tačiau negalima padidinti sumos ir naudoti daugiau pinigų, nei yra. | Šį lauką galima rodyti išspausdintoje sąskaitoje faktūroje klientui, kad būtų nurodyta sąskaitoje faktūroje naudojama išankstinio ir avansinio apmokėjimo suma. |
 | Balanso išankstinio apmokėjimo suma. | Puslapio **Projekto sąskaita faktūra** tinklelis **Taikomi išankstiniai ir avansiniai apmokėjimai**  | Šis tik skaitomas laukas pateikia reikšmę, kaip ilgai išankstinis ir avansinis apmokėjimas bus paliktas, kai patvirtinama sąskaita faktūra. | Šį lauką galima rodyti išspausdintoje sąskaitoje faktūroje klientui, kad būtų nurodyta suma, kuri liks atlikus išankstinį arba avansinį apmokėjimą, kai sąskaita faktūra bus patvirtinta ir apmokėta. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 36be76c0c9f25cb93921acee36a820e276cad625
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2d008ef8dd55550431fbb9e329cd7d9428a08831
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271318"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080982"
 ---
 # <a name="post-an-expense-report"></a>Išlaidų ataskaitos publikavimas
+
+[!include [banner](../includes/banner.md)]
 
 Kai išlaidų ataskaita buvo patvirtinta ir perkelta į bendrąjį žurnalą, ją galima paskelbti DK. Kai registruojate išlaidų ataskaitą, nustatomos išlaidos, atitinkančios pridėtinės vertės mokesčio (PVM) susigrąžinimo reikalavimus. PVM mokėjimų tikrinimo ir susigrąžinimo užduotis priskiriama darbuotojui, atsakingam už išlaidų ataskaitos tikrinimą.
 
@@ -32,6 +34,3 @@ Jei išlaidų ataskaitoje išlaidos priskirtos kitai įmonei, o ne darbuotoją �
 Norėdami užregistruoti išlaidų ataskaitą puslapyje **Patvirtintos išlaidų ataskaitos** pažymėkite išlaidų ataskaitą, tada veiksmų srityje pasirinkite **Paskelbti**.
 
 Tuo pačiu metu galite paskelbti visas sąrašo išlaidų ataskaitas. Pažymėkite visas išlaidų ataskaitas, tada pasirinkite **Paskelbti**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

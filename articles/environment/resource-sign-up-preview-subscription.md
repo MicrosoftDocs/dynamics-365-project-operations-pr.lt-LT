@@ -2,18 +2,16 @@
 title: Prisiregistravimas norint gauti „Project Operations“ peržiūros versijos prenumeratą, skirtą ištekliais / ne atsargomis pagrįstiems scenarijams
 description: Šioje temoje pateikiama informacijos, kaip užsiprenumeruoti ir įdiegti „Project Operations“, skirtą ištekliais / ne atsargomis pagrįstiems scenarijams.
 author: sigitac
-manager: Annbe
-ms.date: 10/07/2020
+ms.date: 07/02/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 917ead8ff6d9d3ef8374f8ccde608b6cebd50c8c
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: da93fcf23ee3f255812842e31cb22b5d39daa963
+ms.sourcegitcommit: 52b26950bb3b1596ad81aa4ff91745ee9615d1b0
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948474"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "6334837"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Prisiregistravimas norint gauti „Project Operations“ peržiūros versijos prenumeratą, skirtą ištekliais / ne atsargomis pagrįstiems scenarijams
 
@@ -21,48 +19,30 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Šioje temoje aiškinama, kaip užsiprenumeruoti peržiūros versijos / partnerio pasiūlymą ir visuotinai įdiegti „Project Operations“ aplinką, skirtą ištekliais / ne atsargomis pagrįstiems scenarijams.
+Šioje temoje paaiškinama, kaip užsiprenumeruoti bandomosios versijos pasiūlymą ir įdiegti „Project Operations“ aplinką, skirtą ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams.
 
 ## <a name="prerequisites"></a>Būtinosios sąlygos
-
-- Gausite el. laišką, kviečiantį išbandyti peržiūros versiją. Galite pateikti užklausą dėl peržiūros versijos [„Project Operations“ svetainėje](https://dynamics.microsoft.com/en-us/project-operations/overview/).
-- Vartotojas, kuris įdiegia peržiūros versiją, turi turėti „Azure“ kliento visuotinio administratoriaus teises.
+- Vartotojas, kuris įdiegia peržiūros versiją, turi turėti „Azure“ kliento visuotinio administratoriaus teises. Pasinaudodami pirmuoju pasiūlymu, galite sukurti nuomotoją. 
 - Norint diegti „Finance“ aplinką, reikia tinkamos „Azure“ prenumeratos, pagal kurią mokama už aplinką. Norėdami pradėti, galite naudoti esamą organizacijos prenumeratą arba naudoti [„Azure“ bandomąją versiją](https://azure.microsoft.com/en-us/free/). CDS aplinka bus pasiekiama nemokamai 30 dienų.
-
-## <a name="subscribe"></a>Prenumeruoti
-
-Patvirtinus jūsų [peržiūros versijos užklausą](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u), el. paštu gausite iš „Microsoft“ tris pasiūlymus. Šie pasiūlymai leidžia visuotinai įdiegti „Project Operations“ peržiūros versiją:
-
-- „Dynamics 365 Project Operations“ (CRM) – bandomoji peržiūros versija
-- „Office 365 Project Operations“ – bandomoji peržiūros versija
-- „Dynamics 365 Finance“ – bandomoji peržiūros versija
 
 > [!IMPORTANT]
 > Tik vienas asmuo, nuomotojo administratorius, organizacijoje turi atlikti šią užduotį. Jei nesate šio leidimo prenumeratorius, palaukite, kol jūsų organizacija bus užregistruota ir gausite vartotojo kredencialus.
+> 
+> Bandomosios versijos nuomotojuje yra vienkartinės. Bandomąją versiją galite paleisti tik vieną kartą. Bandomajai versijai rekomenduojame sukurti naują nuomotoją.
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a>„Dynamics 365 Project Operations“ (CRM) – bandomoji peržiūros versija 
+
+### <a name="dynamics-365-project-operations-ce---preview-trial"></a>„Dynamics 365 Project Operations“ (CE) – peržiūros bandomoji versija 
 
 Prieš pradėdami įsitikinkite, kad esate prisijungę prie naršyklės naudodami vartotojo darbo klientą nuomotojuje, kuriame norite atlikti „Project Operations“ peržiūrą.
 
-1. Panaudokite pirmąjį pasiūlymo kodą, skirtą **„Dynamics 365 Project Operations“ (CRM) – bandomajai peržiūros versijai**, įklijuodami jį į naršyklės URL.
-
-![Pasinaudoti pasiūlymu](./media/16RedeemFirstOfferNew.png)
-
+1. Pirmąjį pasiūlymo kodą – **„Dynamics 365 Project Operations“** – panaudokite čia: [„Project Operations“ bandomoji versija](https://aka.ms/try-po).
 2. Patvirtinkite užsakymą.
 
-![Patvirtinkite užsakymą](./media/17ConfirmOrderNew.png)
-
-Pamatysite sėkmingai panaudotą patvirtinimo pasiūlymą.
-
-![Patvirtinimas](./media/18OrderConfirmationNew.png)
-
-### <a name="office-365-project-operations---preview-trial"></a>„Office 365 Project Operations“ – bandomoji peržiūros versija
-
-Pakartokite veiksmus, kaip ir taikydami pirmąjį pasiūlymo kodą. Būtinai įtraukite antrą pasiūlymo kodą, naudodami tą patį vartotojo klientą, kuris buvo naudojamas su pirmuoju pasiūlymo kodu.
+  Pamatysite sėkmingai panaudotą patvirtinimo pasiūlymą.
 
 ### <a name="dynamics-365-finance-preview-trial"></a>„Dynamics 365 Finance“ bandomoji peržiūros versija
 
-Pakartokite tuos pačius veiksmus su paskutiniu pasiūlymu, esančiu pasveikinimo el. laiške.
+Eikite į [„Dynamics 365 for Finance“ peržiūros bandomoji versija](https://aka.ms/trypoche) ir pakartokite ankstesnio skyriaus veiksmus su pasiūlymu Registracija norint naudoti debesyje esančią aplinką.  
 
 ## <a name="assign-licenses"></a>Licencijų priskyrimas
 
@@ -71,13 +51,9 @@ Pakartokite tuos pačius veiksmus su paskutiniu pasiūlymu, esančiu pasveikinim
 
 1. Eikite į [„Microsoft 365“ administravimo centrą](https://portal.office.com/), kad priskirtumėte licencijas vartotojams.
 
-![Administravimo centro pagrindinis puslapis](./media/14AdminPortal.png)
-
 2. Puslapyje **Aktyvūs vartotojai** pasirinkite vartotojus, kuriems norite priskirti licenciją.
 
-![Licencijų priskyrimas](./media/15AssignLicenses.png)
-
-3. Įsitikinkite, kad pasirinktos **„Dynamics 365 Project Operations“ (CRM) peržiūros versija** ir **„Office 365 Project Operations“ – peržiūros versija** licencijos, ir pasirinkite **Įrašyti keitimus**.
+3. Patikrinkite, ar pasirinkta **„Dynamics 365 Project Operations“** licencija, ir pasirinkite **Įrašyti keitimus**.
 
 > [!NOTE]
 > „Finance“ bandomosios versijos pasiūlymo nereikia priskirti vartotojui.
@@ -97,7 +73,7 @@ Vadovaukitės nurodymais, pateiktais temoje [Naujos aplinkos parengimas](resourc
 ## <a name="install-cds-setup-and-configuration-data"></a>CDS sąrankos ir konfigūracijos duomenų diegimas
 
 Įdiekite CDS sąrankos ir konfigūracijos duomenis, kaip aprašyta temoje [Konfigūracijos duomenų nustatymas ir taikymas sistemoje „Common Data Service“](resource-apply-pro-setup-config-data.md).
-Atlikite šį veiksmą tik tada, kai įdiegiama „Finance“ demonstracinė aplinka ir demonstraciniai duomenys yra paruošti FO.
+Šį veiksmą atlikite tik įdiegę „Finance“ demonstracinę aplinką ir parengę demonstracinius duomenis.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

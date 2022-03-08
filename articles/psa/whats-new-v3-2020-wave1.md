@@ -1,8 +1,6 @@
 ---
 title: Kas naujo arba pakeista programos „Project Service Automation“ 3.x wave 1 2020 versijoje
 description: Šioje temoje pateikiama informacijos apie tai, kas nauja ir pakeista „Project Service Automation“ 3 wave 1 2020 versijoje.
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/15/2020
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5110679038ae7ed1e21a3e7dc80a4657e0752b49
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: a88b777c54ce54935d5483f616f3a24724ee192d40fbfd5d514f990e958dd5ea
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150948"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002116"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3-wave-1-2020"></a>Kas naujo arba pakeista programos „Project Service Automation“ 3 wave 1 2020 versijoje
 
@@ -43,3 +41,6 @@ Be to, jei turite pasirinktinių programų modulių, kuriuose yra visos laiko į
 
 ### <a name="currently-extended-time-entry-changes"></a>Neseniai išplėstų laiko įrašų pakeitimai
 Kad būtų sumažintas poveikis esamiems vartotojo laiko įrašams, šis vaidmens pakeitimas yra vienintelis pagrindinis reikalavimas, būtinas norint naudoti laiko įrašą. Jei sukūrėte pasirinktinius rodinius arba atskiras laiko įrašo patirtis, laukus **Laiko įrašo parametras** turite nustatyti į teisingą PSA reikšmę.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

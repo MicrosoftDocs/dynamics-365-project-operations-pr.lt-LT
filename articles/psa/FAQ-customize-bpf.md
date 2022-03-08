@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2e6c60fe67aea908013077bde40c2faeabc2f39e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
-ms.translationtype: HT
+ms.openlocfilehash: 15540f524fb8fca8f69a2249f783289ba683cad7dabbf58ecbf620d147e5d491
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993156"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002971"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>Kaip tinkinti projekto etapų veiklos procesų sekas?
 
@@ -60,11 +60,11 @@ Jei atnaujinti programos negalite, galimi du projekto objekto projekto etapų ve
 1. Galite prie numatytosios konfigūracijos pridėti papildomus etapus, tuo pat metu palikdami angliškus etapų .**Quote**, **Plan** ir **Close** pavadinimus.
 
 
-![Etapų pridėjimo prie numatytosios konfigūracijos ekrano nuotrauka](media/FAQ-Customize-BPF-1.png)
+![Etapų pridėjimo prie numatytosios konfigūracijos ekrano nuotrauka.](media/FAQ-Customize-BPF-1.png)
  
 2. Galite sukurti savąją veiklos procesų seką bei ją paversti pirmine projekto objekto veiklos procesų seka, kas leistų jums etapus vadinti taip, kaip norite. Tačiau jei norite naudoti tuos pačius standartinių projektų etapus **Quote**, **Plan** ir **Close**, turėsite atlikti keletą tinkinimų, po kurių bus pašalinti jūsų pasirinktiniai etapų pavadinimai. Dar sudėtingesnė yra projekto uždarymo logika, kurią vis vien galite sužadinti tiesiog išjungdami projekto įrašą.
 
-![BPF tinkinimas](media/FAQ-Customize-BPF-2.png)
+![BPF tinkinimas.](media/FAQ-Customize-BPF-2.png)
 
 ### <a name="additional-considerations-for-project-service-app-version-24430-or-earlier-on-platform-90"></a>Kitos pastabos dėl „Project Service“ programos 2.4.4.30 arba ankstesnės versijos 9.0 platformoje
 
@@ -80,11 +80,11 @@ Norėdami sukurti asmeninę projekto objekto veiklos procesų seką atlikite ši
 
 1. Eikite į **„Parametrai“** > **„Procesų centras“**. Nekopijuokite projekto etapų veiklos procesų eilės, nes tuomet bus nukopijuota ir „Project Service“ verslo logika.
 
-  ![Proceso kūrimas](media/FAQ-Customize-BPF-3.png)
+  ![Proceso kūrimas.](media/FAQ-Customize-BPF-3.png)
 
 2. Naudodami procesų kūrimo įrankį sukurkite norimus etapų pavadinimus. Jei norite, kad jūsų etapo funkcionalumas būtų toks pat kaip ir numatytųjų etapų **Quote**, **Plan** ir **Close**, kurti etapą turėsite remdamiesi savo pasirinktinės veiklos procesų eilės etapų pavadinimais.
 
-   ![Procesų kūrimo įrankio, naudojamo veiklos procesų sekai tinkinti, ekrano nuotrauka](media/FAQ-Customize-BPF-4.png) 
+   ![Procesų kūrimo įrankio, naudojamo veiklos procesų sekai tinkinti, ekrano nuotrauka.](media/FAQ-Customize-BPF-4.png) 
 
 3. Įėję į procesų kūrimo įrankį, spustelėkite **„Užsakymo proceso seka“** tam, kad pasirinktinę veiklos procesų seką padarytumėte pirmine projekto objekto veiklos procesų seka, ką atliksite ją perkėlę į sąrašo viršų, virš projekto etapų veiklos procesų sekos.
 
@@ -95,15 +95,15 @@ Norėdami sukurti asmeninę projekto objekto veiklos procesų seką atlikite ši
 
 4. Įtraukite naują pasirinktinį lauką į projekto objektą, kad užfiksuotumėte jūsų pasirinktinės veiklos procesų sekos pasirinktinius etapus. Jums reikės pridėti verslo logiką (priedas/darbo eiga) tam, kad šis laukas būtų atnaujinamas, kada atnaujinamas ir pasirinktinės veiklos procesų sekos etapas.
 
-   ![Projekto objekto tinkinimo ekrano nuotrauka](media/FAQ-Customize-BPF-6-720.png)
+   ![Projekto objekto tinkinimo ekrano nuotrauka.](media/FAQ-Customize-BPF-6-720.png)
 
 5. Modifikuokite diagramą **„Projektas pagal etapą“** ir galėsite naudoti savo naujuosius pasirinktinius laukus etapams.
 
-   ![Diagramos Projektas pagal etapą naudojimo ekrano nuotrauka](media/FAQ-Customize-BPF-7-720.png)
+   ![Diagramos Projektas pagal etapą naudojimo ekrano nuotrauka.](media/FAQ-Customize-BPF-7-720.png)
 
 6. Modifikuokite visus projekto objekto rodinius kad etapams galėtumėte įtraukti savo naujuosius pasirinktinius laukus.
 
-   ![Rodinių modifikavimo projekto objekte ekrano nuotrauka](media/FAQ-Customize-BPF-8-720.png)
+   ![Rodinių modifikavimo projekto objekte ekrano nuotrauka.](media/FAQ-Customize-BPF-8-720.png)
 
 
 

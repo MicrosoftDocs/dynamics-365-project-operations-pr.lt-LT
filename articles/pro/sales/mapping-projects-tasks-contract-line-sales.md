@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4737f9870904bfc7adac11b8e2aa13bb8c610ca3
-ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
+ms.openlocfilehash: c5c29872ef3d62780eea3c0eda48c8fd2a9af4b1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5858106"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272803"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>Projektų ir užduočių susiejimas su projektu pagrįstos sutarties eilute 
+# <a name="map-projects-and-tasks-to-a-project-based-contract-line---lite"></a>Projektų ir užduočių susiejimas su projektu pagrįstos sutarties eilute – „Lite“ versija
 
-_**Taikoma (kam):** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo, „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
+_**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
 
 Projektu pagrįstose sutarties eilutėse galite susieti konkrečias projekto užduotis su sutarties eilute.
 

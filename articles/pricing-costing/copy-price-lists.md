@@ -2,24 +2,22 @@
 title: Kainoraščių kopijavimas
 description: Šioje temoje pateikta informacija apie kainoraščių kopijavimą programoje „Project operations“.
 author: rumant
-manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67a69d521ac0a5632371138bd4fbb9dd00fe34ee
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: ad09bdce563a48843b3ed96e7aaabd9c0d5960336b9e1c74fddb9b61f760f4cd
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181507"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003736"
 ---
 # <a name="copy-price-lists"></a>Kainoraščių kopijavimas
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
-Galite kurti kainoraščių kopijas programoje "Dynamics 365 Project Operations“. Pavyzdžiui, galite kurti būsimų metų kainoraščius naudodami kainoraštį iš esamų metų.  Arba galite kopijuoti sąskaitų tarifų ir pardavimo kainų kainoraštį iš išlaidų kainoraščių. 
+Programoje „Dynamics 365 Project Operations“ galite kurti kainoraščių kopijas. Pavyzdžiui, galite kurti būsimų metų kainoraščius naudodami kainoraštį iš esamų metų.  Arba galite kopijuoti sąskaitų tarifų ir pardavimo kainų kainoraštį iš išlaidų kainoraščių. 
 
 Norėdami nukopijuoti kainoraštį, atlikite toliau nurodytus veiksmus.
 
@@ -43,3 +41,6 @@ Norėdami nukopijuoti kainoraštį, atlikite toliau nurodytus veiksmus.
 1. Kainoraščio skirtukuose **Vaidmuo**, **Kategorija** ir **Kainų sąrašo elementas** galite pasirinkti **Naujinti kainas**, kad visoms papildomo tinklelio kainoms pritaikytumėte antkainį. 
 2. Atidarytame dialogo lango puslapyje įveskite antkainį. Taip pat galite įvesti neigiamą antkainį procentais, kad sumažintumėte kainas tam tikra procentine dalimi. 
 3. Dialogo lango puslapyje pasirinkite **Gerai** ir patikrinkite, ar papildomo tinklelio kainos atitinka atliktus pakeitimus.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

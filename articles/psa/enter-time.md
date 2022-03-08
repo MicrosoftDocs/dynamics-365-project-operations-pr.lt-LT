@@ -2,8 +2,6 @@
 title: Laiko įvedimas
 description: Laiko įvedimas „Project Service“
 author: revathimuthiah
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 222488f9ec52e07f1fb17d8dba3c3b0e5342b58d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 272e83b1f53d25b16ca95f642e4aadb304658a53
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149328"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6007646"
 ---
 # <a name="enter-time-project-service"></a>Laiko įvedimas („Project Service“)
 
@@ -61,3 +59,6 @@ Savo valandas įveskite bent kartą per savaitę arba taip dažnai, kaip nurodo 
   
 ### <a name="see-also"></a>Taip pat žr.  
  [Laiko, išlaidų ir bendradarbiavimo vadovas](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

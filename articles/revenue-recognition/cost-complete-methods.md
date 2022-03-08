@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 790b5c98182acdc0a37e3741a40baf7152f0bf66
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
+ms.openlocfilehash: 837cb3abe33e6e74087b8aae8b072bf4a21dc933
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531496"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279058"
 ---
 # <a name="cost-to-complete-methods"></a>Užbaigimo išlaidų apskaičiavimo metodai
 
@@ -30,3 +30,6 @@ Kurdami projekto įvertinimą, puslapyje **Kurti įvertinimą**, lauke **Baigimo
 | Kaip ankstesnis įvertinimas         | Šiuo atveju naudojami tie patys įvertinimo metodai, kurie buvo naudojami ankstesniu laikotarpiu. Šiam metodui reikia prognozės modelio, jei ankstesniam modeliui reikėjo prognozės modelio.                                                                                                                                                                                                                                                                                                                           |
 | Nustatyti, kad sąnaudos baigtųsi nuliu | Paprastai naudojamas prieš pašalinant įvertinamą projektą, šis metodas suderina bendrus įvertinimus su užregistruotomis faktinėmis operacijomis ir išvalo stulpelį **Užbaigimo išlaidos**. Baigus rezultatas visada yra 100 procentų. Kiekvienos jūsų sukurtos sąnaudų eilutės žymės langelis **Prognozavimas** išvalomas, o bendras įvertinimas nukopijuojamas iš ankstesnio sąnaudų įvertinimo. Faktinis įvertinimo laikotarpio suvartojimas atskaitomas iš projekto sąnaudų.              |
 | Iš sąnaudų šablono           | Užbaigimo sąnaudų apskaičiavimo metodas, nustatomos sąnaudų šablone, susietame su pasirinktu įvertinamu projektu.                                                                                                                                                                                                                                                                                                                                                                          |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32a04ddef901515cd77262b5ae6be2458cb6b00c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
-ms.translationtype: HT
+ms.openlocfilehash: 25cf017c53d7db23e467b3b610e2990e56e95cb56bdf9820e427dfeeeb979637
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993313"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987716"
 ---
 # <a name="how-do-i-assign-a-bookable-resource-to-a-task-in-the-web-app-project-service-app-v2x"></a>Kaip žiniatinklio programoje užduočiai priskirti rezervuotinus išteklius („Project Service“ programa v2.x)?
 
@@ -43,7 +43,7 @@ Naudodami šį metodą prie projekto komandos pridedate išteklius ir tada proje
 3.  Pasirinkite **„Nuo“** ir **„Iki“** datas.
 
     > [!div class="mx-imgBorder"] 
-    > ![Komandos nario įtraukimo ekrano kopija](media/FAQ-Resources-to-Tasks2-1.png "Komandos nario įtraukimo ekrano kopija")
+    > ![Komandos nario įtraukimo ekrano kopija.](media/FAQ-Resources-to-Tasks2-1.png "Komandos nario įtraukimo ekrano kopija")
  
 4.  Pasirinkite vieną iš šių išteklių rezervavimo paskirstymo metodų:
     - **Visas pajėgumo metodas** – rezervuojamas visas išteklių pajėgumas tarp nurodytų pradžios ir pabaigos datų esančiam laikotarpiui.
@@ -63,12 +63,12 @@ Naudodami šį metodą prie projekto komandos pridedate išteklius ir tada proje
     3. Pasirinkite **Gerai**. Dabar komandos nariui yra priskirta užduotis.
 
     > [!div class="mx-imgBorder"] 
-    > ![Išteklių su WBS įtraukimo ekrano kopija](media/FAQ-Resources-to-Tasks2-2.png "Išteklių su WBS įtraukimo ekrano kopija")
+    > ![Išteklių su WBS įtraukimo ekrano kopija.](media/FAQ-Resources-to-Tasks2-2.png "Išteklių su WBS įtraukimo ekrano kopija")
  
 Komandos nario tinklelyje, po parinktimi „Paskirtos valandos“ matysite visas paskirtas valandas. Ši reikšmė bus mažesnė arba lygi rezervuotoms išteklių valandoms. 
 
 > [!div class="mx-imgBorder"] 
-> ![Ištekliams priskirtų valandų ekrano kopija](media/FAQ-Resources-to-Tasks2-3.png "Ištekliams priskirtų valandų ekrano kopija")
+> ![Ištekliams priskirtų valandų ekrano kopija.](media/FAQ-Resources-to-Tasks2-3.png "Ištekliams priskirtų valandų ekrano kopija")
  
 Ištekliai nebus matomi išplečiamajame meniu, jei užduotis, kurią bandote priskirti ištekliams, prasidės po išteklių rezervavimo pabaigos datos.
 
@@ -92,22 +92,22 @@ Jei norite priskirti šiuos išteklius, turite juos pašalinti iš komandos ir t
 4. Pasirinkite **Gerai**.
 
     > [!div class="mx-imgBorder"] 
-    > ![IWBS naudojimo išteklių įtraukimui ekrano kopija](media/FAQ-Resources-to-Tasks2-4.png "IWBS naudojimo išteklių įtraukimui ekrano kopija")
+    > ![IWBS naudojimo išteklių įtraukimui ekrano kopija.](media/FAQ-Resources-to-Tasks2-4.png "IWBS naudojimo išteklių įtraukimui ekrano kopija")
  
 Baigę vaidmenų priskyrimą užduotims WBS, pasirinkite **„Generuoti projekto komandą“**. Agreguojant užduoties paskyrimus, „Project Service“ programoje sukuriamas mažiausias galimas bendrųjų komandos narių skaičius, remiantis jų vaidmenimis, išteklių paskirstymo organizacijos vienetais ir projekto kalendoriumi.
 
 > [!div class="mx-imgBorder"] 
-> ![Projekto komandos generavimo ekrano kopija](media/FAQ-Resources-to-Tasks2-5.png "Projekto komandos generavimo ekrano kopija")
+> ![Projekto komandos generavimo ekrano kopija.](media/FAQ-Resources-to-Tasks2-5.png "Projekto komandos generavimo ekrano kopija")
  
 Komandos nario tinklelyje matysite bendrųjų išteklių tipo išteklius, kur bus nurodytas jų vaidmuo ir pareigų pavadinimas. Jei norint pabaigti darbą vaidmeniui reikia dviejų išteklių, naudojantis funkcija „Generuoti komandą“ galima sukurti du komandos narius ir, naudojant pareigų pavadinimą, juos atskirti.
 
 > [!div class="mx-imgBorder"] 
-> ![Dviejų bendrųjų išteklių įtraukimo ekrano kopija](media/FAQ-Resources-to-Tasks2-6.png "Dviejų bendrųjų išteklių įtraukimo ekrano kopija")
+> ![Dviejų bendrųjų išteklių įtraukimo ekrano kopija.](media/FAQ-Resources-to-Tasks2-6.png "Dviejų bendrųjų išteklių įtraukimo ekrano kopija")
  
 Galite atidaryti atsarginių išteklių reikalavimus bendrajam komandos nariui, paspausdami nuorodą po parinktimi „Išteklių reikalavimai“.
 
 > [!div class="mx-imgBorder"] 
-> ![Atsarginės išteklių įrangos atidarymo ekrano kopija](media/FAQ-Resources-to-Tasks2-7.png "Atsarginės išteklių įrangos atidarymo ekrano kopija")
+> ![Atsarginės išteklių įrangos atidarymo ekrano kopija.](media/FAQ-Resources-to-Tasks2-7.png "Atsarginės išteklių įrangos atidarymo ekrano kopija")
 
 Bendriniams ištekliams pasirinkite **„Rezervuoti“** ir tada galėsite naudoti grafiko lentą tam, kad rastumėte ir rezervuotumėte tikrus išteklius. Taip pat galite išteklių vadovui pateikti reikalavimą, kad jis būtų įvykdytas. pasirinkdami **„Pateikti prašymą“**.
 

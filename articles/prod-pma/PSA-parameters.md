@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: b8faba1d799e360e58d47a02dc8b46e09fa0d393
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1a0cee090e0ecb306aa3bda62c79a57dfade93c0
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270913"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080976"
 ---
 # <a name="project-service-automation-integration-parameters"></a>„Project Service Automation“ integravimo parametrai
 
@@ -47,6 +47,3 @@ Norėdami atidaryti puslapį **„Project Service Automation“ integravimo para
 | Atsiskaitymo tipo numatytosios reikšmės  | Atsiskaitymo tipas         | Spustelėkite **Nauja**, jei norite įtraukti eilutę, kurioje galite pasirinkti atsiskaitymo tipą ir nustatyti numatytąją eilutės ypatybę. Konfigūruojant, konkretų atsiskaitymo tipą galima pasirinkti tik vieną kartą. |
 |                        | Eilutės ypatybė        | Pažymėkite pasirinkto atsiskaitymo tipo numatytąją eilutės ypatybę. Kai nauji valandų įvertinimai, nauji išlaidų įvertinimai arba nauji faktiniai duomenys sinchronizuojami iš „Project Service Automation“, lauke **Eilutės ypatybė** nustatoma numatytoji atsiskaitymo tipo reikšmė. |
 | Funkcijų blokavimas  | Netaikoma       | Pažymėkite funkcijas, kurias norite išjungti „Finance“ projektuose ir sutartyse, kilusiuose iš „Project Service Automation“. Pavyzdžiui, galite išjungti galimybę redaguoti sutartis ir projektus, kurti darbo paskirstymo struktūras ir įvesti laiko grafikus naudojant „Finance“. Su apskaita susiję laukai liks įjungti, net jei jie taptų nepasiekiami dėl nustatyto parametro. Pagal numatytuosius nustatymus įjungtos visos funkcijos. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

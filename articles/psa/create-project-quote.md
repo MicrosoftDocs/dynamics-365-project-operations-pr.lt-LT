@@ -2,8 +2,6 @@
 title: Projekto pasiūlymo kūrimas
 description: Projekto pasiūlymo kūrimas „Project Service“
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cdf3a9cbc1df0b2c4630f142fb1643b35919b21e
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 40c57aa5e80416659e620ca016631a32d2d81b8d
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149418"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997296"
 ---
 # <a name="create-a-project-quote-project-service"></a>Projekto pasiūlymo kūrimas („Project Service“)
 
@@ -55,3 +53,6 @@ Pasiūlymas kuriamas panašiai, kaip ir galimybė. Tačiau galimybė – tai inf
   
 ### <a name="see-also"></a>Taip pat žr.  
  [Klientų vadovo vadovas](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

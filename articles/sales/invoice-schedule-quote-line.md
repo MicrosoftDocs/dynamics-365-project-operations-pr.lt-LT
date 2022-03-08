@@ -2,18 +2,16 @@
 title: Projektu pagrįstų pasiūlymo eilučių sąskaitų faktūrų grafikai
 description: Šioje temoje pateikta informacija apie sąskaitų faktūrų grafikų ir pasiūlymo eilučių etapų kūrimą.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2b69742915fe79ee59e7fdcf317000cea79c5929
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 0a8e94bf7ff807028cec05380ac8c9bc22094d82
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180832"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6010166"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Projektu pagrįstų pasiūlymo eilučių sąskaitų faktūrų grafikai
 
@@ -68,3 +66,6 @@ Atidarykite fiksuotos kainos pasiūlymo eilutę, kur norite sukurti etapą. Papi
 | Sąskaitos faktūros būsena | Spartusis kūrimas | Sukūrus etapą, ši būsena visada nustatoma į **Neparuošta išrašyti sąskaitos faktūros**. | Tai platinama į projekto sutarties eilutės etapą ir į sąskaitą faktūrą. |
 | Eilutės suma | Spartusis kūrimas | Etapo, kuriam bus išrašyta sąskaita faktūra, suma arba reikšmė. | Tai platinama į projekto sutarties eilutės etapą ir į sąskaitą faktūrą. |
 | Mokesčiai | Spartusis kūrimas | Mokesčių suma, kuri bus taikoma etapui. | Tai platinama į projekto sutarties eilutės etapą ir į sąskaitą faktūrą. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

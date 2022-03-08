@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bec6afe04a705d4f55ac3a7de93a64b47021fbb4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: ec77f3911a460b96414a61bc44ea254f1b7da660
+ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122353"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "4088020"
 ---
 # <a name="manage-the-billing-backlog"></a>Atsiskaitymo nebaigtų užduočių tvarkymas
 

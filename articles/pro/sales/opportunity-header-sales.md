@@ -1,31 +1,31 @@
 ---
-title: Galimybės parametrai – „Lite“ versija
-description: Šioje temoje pateikiama informacija apie projektu pagrįstų sandorių ir projektu pagrįstų galimybių eilutes.
+title: Galimybės antraštė
+description: Šioje temoje pateikta bendra informacija apie projektu pagrįstų sandorių ir projektu pagrįstų galimybių eilutes.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6631e136572b958ca616d708a5e3c3c2d9f2675c
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: 2f08de54767f49c308d0ccc7f2e1c6ef880b7f99
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663829"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080764"
 ---
-# <a name="header-details-for-project-opportunities"></a>Projekto galimybių antraštės išsami informacija
+# <a name="opportunity-header"></a>Galimybės antraštė
 
 _**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
 
 Galimybės antraštėje užfiksuojama bendra informacija apie projektu pagrįstą sandorį, taikoma visoms projektu pagrįstos galimybės eilutėms.
 
-„Dynamics 365 Project Operations“ projektu pagrįstos galimybės yra „Dynamics 365 Sales“ galimybių plėtiniai. Šie plėtiniai suteikia papildomų funkcijų, būdingų ir būtinų projektu pagrįstoms galimybėms. Šiuose plėtiniuose gali būti naujų laukų ir juostelės veiksmų, galimų naudojant projektu pagrįstas galimybes. Galite rasti kelis laukus, funkcijas ir numatytą logiką, kurie yra „Sales“, bet kurių nėra „Project Operations“.
+Projektais pagrįstos „Dynamics 365 Project Operations" galimybės yra „Dynamics 365 Sales“ galimybių plėtiniai. Šie plėtiniai suteikia papildomų funkcijų, būdingų ir būtinų projektu pagrįstoms galimybėms. Šiuose plėtiniuose gali būti naujų laukų ir juostelės veiksmų, galimų naudojant projektu pagrįstas galimybes. Galite rasti kelis laukus, funkcijas ir numatytą logiką, kurie yra „Sales“, bet kurių nėra „Project Operations“.
 
 Toliau pateiktoje lentelėje yra projektu pagrįstų galimybių laukai, kurie yra unikalūs „Project Operations“ arba kuriuose gali būti kai kurių svarbių pakeitimų, atsižvelgiant į „Sales“ galimybes.
 
-| **Laukas** | **Vieta** | **Aprašas** | **Tolesnis poveikis** |
+| **Laukas** | **Vieta** | **Atitiktis, tikslas ir gairės** | **Tolesnis poveikis** |
 | --- | --- | --- | --- |
 | Tipas | Bendros informacijos skirtukas (paslėptas) | Šis parinkčių rinkinio laukas turi šias parinktis:</br>- Darbu pagrįsta (veikia tik su „Project Operations“)</br>- Elementu pagrįsta (yra tik jei turite įsidiegę „Project Operations“ ir „Sales")</br>- Pagrįstas aptarnavimo priežiūra (yra, kai įdiegta „Field Service“) | Kai naudojate „Project Operations“, ši lauko reikšmė automatiškai nustatoma kaip **Darbu pagrįsta**, kuri galimybę suklasifikuoja kaip projektu pagrįstą. Galimybė turi būti pagrįsta projektu, kad būtų galima įjungti visus su projektu susijusius išplėtimus ir funkcijas tolesniuose šio sandorio procesuose. |
 | Susisiekite | Bendros informacijos skirtukas | Nuoroda į kliento pirminį šio sandorio kontaktą. | |
@@ -34,6 +34,3 @@ Toliau pateiktoje lentelėje yra projektu pagrįstų galimybių laukai, kurie yr
 | Sutartį sudarantis vienetas | Bendros informacijos skirtukas | Organizacijos vienetas, atsakingas už su šiuo sandoriu susijusio projekto arba projektų pristatymą. | Sutartį sudarantis vienetas yra įmonės padalinys, kuris vykdys projektus po to, kai sandoris bus uždarytas. Kiekvienas sutartį sudarantis vienetas turi valiutą, o ši valiuta naudojama projekto metu padarytoms sąmatinėms ir faktinėms išlaidoms. |
 
 Jei naudojate visus kitus galimybės skirtuko **Suvestinė** laukus ir skyrius, žr. [Galimybių kūrimas arba redagavimas („Sales“ ir „Sales“ telkinys)](https://docs.microsoft.com/dynamics365/sales-enterprise/create-edit-opportunity-sales)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

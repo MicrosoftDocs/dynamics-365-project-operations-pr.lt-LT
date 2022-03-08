@@ -2,11 +2,9 @@
 title: Pasirinktinių laukų ir objektų kūrimas kaip kainodaros dimensijų
 description: Šioje temoje pateikta informacija apie tai, kaip kurti pasirinktinių parinkčių rinkinius arba objektus.
 author: rumant
-manager: AnnBe
 ms.date: 11/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: fc5917856b8f28d36dc55593a68eba7823a00b36
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
-ms.translationtype: HT
+ms.openlocfilehash: 40a6a4173cb0e4d7ea5bcf24c8954fe9d7e079d1e9ecf4aac252b5133f12d3ff
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642823"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003646"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>Pasirinktinių laukų ir objektų kūrimas kaip kainodaros dimensijų
 
@@ -46,7 +44,7 @@ Jei norite kurti objekto dimensijas, atlikite toliau nurodytus veiksmus:
 3. Pasirinkite **Naujas**, kad sukurtumėte naują objektą pavadinimu **Standartinis pavadinimas**. 
 4. Įveskite trūkstamą reikiamą informaciją ir spustelėkite **Įrašyti**.
 
-> ![Standartinio pavadinimo objekto apibrėžtis](media/Standard-Title-entity-definition.png)
+> ![Standartinio pavadinimo objekto apibrėžtis.](media/Standard-Title-entity-definition.png)
 
 ### <a name="option-set-based-dimensions"></a>Parinkčių rinkinio matmenys 
 Galite sukurti du parinkčių rinkinio matmenis. 
@@ -56,11 +54,11 @@ Galite sukurti du parinkčių rinkinio matmenis.
 
 Toliau esančiame grafiniame vaizde pateikiamas **išteklių darbo vietos** dimensijos rodinys. 
 
-> ![Kainodaros dimensijos parinkčių rinkinys „Išteklių darbo vieta“](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Kainodaros dimensijos parinkčių rinkinys „Išteklių darbo vieta“.](media/Option-set-PD-called-Resource-Work-Location.png)
 
 Toliau esančiame grafiniame vaizde pateikiamas **išteklių darbo valandų** dimensijos rodinys. 
 
-> ![Kainodaros dimensijos parinkčių rinkinys „Išteklių darbo valandos“](media/Option-set-PD-called-Resource-Work-Hours.png)
+> ![Kainodaros dimensijos parinkčių rinkinys „Išteklių darbo valandos“.](media/Option-set-PD-called-Resource-Work-Hours.png)
 
 1. Eikite į **Parametrai** > **Sprendimai**, o tada dukart spustelėkite **\<your organization name> kainodaros dimensijos**. 
 2. Sprendimų naršyklėje, kairiojoje naršymo srities pusėje, pasirinkite **Parinkčių rinkiniai**. 
@@ -76,4 +74,7 @@ Objektų dimensijų duomenis galite kurti rankiniu būdu arba naudodami „Micro
 4. Uždarykite puslapį. 
 5. Pakartokite 1–3 veiksmus, kad sukurtumėte kitą standartinį vyresniojo sistemų inžinieriaus pavadinimą.
 
-> ![Standartinio pavadinimo objekto duomenų pavyzdžiai](media/ST-data.png)
+> ![Standartinio pavadinimo objekto duomenų pavyzdžiai.](media/ST-data.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

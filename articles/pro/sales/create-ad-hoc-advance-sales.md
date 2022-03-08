@@ -2,18 +2,16 @@
 title: Ad hoc avanso kūrimas sutartyje
 description: Šioje temoje pateikta informacija apie tai, kaip prireikus sutartyje sukurti avansą.
 author: rumant
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 790a0281f72eff5f241d11da025b5b4af643a567
-ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
+ms.openlocfilehash: 51e3b0ac8e111be70fe6ad0f9c162dfaec3339ad
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "4596012"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6003506"
 ---
 # <a name="creating-an-ad-hoc-advance-on-a-contract"></a>Ad hoc avanso kūrimas sutartyje
 
@@ -39,3 +37,6 @@ Norėdami klientui išrašyti sąskaitą faktūrą už avansą, atlikite tolesni
     | **Sąskaitos faktūros būsena** | Tai yra parinkčių parametras, nurodantis, ar šis avansas įtraukiamas į šio kliento sąskaitos faktūros juodraštį. Galimos tolesnės reikšmės.</br>- **Neparengta išrašyti sąskaitos faktūros**</br>- **Parengta išrašyti sąskaitą faktūrą** | Kai avansas arba išankstinis mokėjimas pažymimas kaip **Parengta išrašyti sąskaitą faktūrą**, jis kaip eilutės laikas įtraukiamas į sąskaitos faktūros juodraštį. Tik toks avansas, kuriam visam išrašyta sąskaita faktūra, gali būti naudojamas norint derinti projekto kaštus kitam sąskaitos faktūros laikotarpiui. |
 
 4. Norėdami įrašyti avansą arba išankstinį mokėjimą, sparčiojo kūrimo dialogo lange pasirinkite **Įrašyti ir uždaryti**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

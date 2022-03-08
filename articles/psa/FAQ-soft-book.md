@@ -2,6 +2,8 @@
 title: Preliminarus išteklių rezervavimas
 description: Šioje temoje pateikiama informacija apie tai, kaip preliminariai planuoti arba preliminariai rezervuoti projekto komandos narius.
 author: ruhercul
+manager: kfend
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/25/2019
@@ -10,16 +12,14 @@ ms.author: ruhercul
 audience: Admin
 search.app:
 - ProjectOperations
-ms.openlocfilehash: 36246dadb1c4ba0234ae1042ba9e78c96f9d2bd8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: cb506a519dbc490ecdd579edf1e3fa5dd0153bdb
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5992926"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080961"
 ---
 # <a name="soft-book-a-resource"></a>Preliminarus išteklių rezervavimas
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -65,6 +65,3 @@ Kai būsite pasiruošę pakeisti preliminariai rezervuotus komandos nario ištek
 2. Dešiniuoju pelės mygtuku spustelėti **Keisti būseną** ir pasirinkite **Galutinės rezervacijos** \> **Galutinė**. Dabar rezervavimo būsena yra **„Galutinė”**.
 3. Uždarę Grafiko lentą, grįžę į projektą ir atidarę skirtuką **„Komanda”**, pamatysite, kad išteklių naudojimo valandos buvo perkeltos iš stulpelio **„Preliminariai rezervuotos valandos”**, į stulpelį **„Galutinai rezervuotos valandos”**, esantį skirtuke **„Komanda”**, kai žiūrėsite į rodinį **„Įvardytieji komandos nariai”**. Jei ištekliams buvo priskirtos užduotys, išteklių skirtuke **„Derinimas“** nebebus matomas rezervavimo deficitas, nes rezervavimai jau yra galutiniai.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

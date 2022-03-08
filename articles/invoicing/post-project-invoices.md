@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fbc1519b6cbcf231cfa89df8b7843d11a8904e49
-ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
+ms.openlocfilehash: 9dc424cf69abfccc10bf551272a14e5cefb3dff0
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "5089274"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275817"
 ---
 # <a name="invoicing-process-overview"></a>SF išrašymo proceso apžvalga
 
@@ -30,3 +30,6 @@ Projekto vadovas gali peržiūrėti pardavimų, už kuriuos neišrašyta sąskai
 Galite [rankiniu būdu sukurti išankstinę sąskaitą faktūrą](../proforma-invoicing/create-manual-proforma-invoice.md) arba naudoti [periodinį procesą](../proforma-invoicing/configure-automated-invoice-creation.md). Projekto vadovas gali prireikus [koreguoti juodraščio sąskaitos faktūros juodraštį](../proforma-invoicing/manage-proforma-invoice.md), o tada ją patvirtinti.
 
 Patvirtinta išankstinė sąskaita faktūra nusiunčiama į „Finansų“ modulį **Projekto valdymas ir apskaita**. Projekto apskaitininkas formatuoja ir atnaujina projekto SF pasiūlymą, o tada užregistruoja ir spausdina dokumentą. Užregistruotos projekto sąskaitos faktūros įrašomos didžiojoje knygoje, taip pat papildomose klientų ir projektų knygose.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

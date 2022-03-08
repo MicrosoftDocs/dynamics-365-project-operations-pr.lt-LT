@@ -2,8 +2,6 @@
 title: Projekto išteklių planavimas
 description: Projekto išteklių planavimas „Project Service“
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e39c95386eb2dd31fb54878bc203bd94931274de
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 7beb1f86795a909a1266b2a2c97421e1f04ef3c4cf2f9b49413cd1382b0f2011
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150453"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998156"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>Projekto išteklių planavimas („Project Service“)
 
@@ -35,7 +33,7 @@ Galite patikrinti išteklių užimtumą, kad turėtumėte apie jį bendrą vaizd
   
 Grafiko lentoje rodomas išteklių sąrašas ir jų pasiekiamumas. Pasirinkite peržiūros režimą, kas būtų rodomas pasiekiamumas pagal **Valandas**, **Dieną**, **Savaitę** arba **Mėnesį**.  
   
-Prieš pradedant naudotis grafiko lenta, svarbu ją nustatyti. Daugiau informacijos žr. [Grafiko lentos konfigūravimas („Field Service” arba „Project Service Automation”)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).
+Prieš pradedant naudotis grafiko lenta, svarbu ją nustatyti. Daugiau informacijos žr. [Grafiko lentos konfigūravimas („Field Service” arba „Project Service Automation”)](/dynamics365/field-service/configure-schedule-board).
   
 Jei jūs naudojate senesnę versiją, dėl išteklių pasiekiamumo, žr. [Išteklių pasiekiamumo peržiūra](../psa/view-resource-availability.md).  
 
@@ -83,3 +81,6 @@ Jei jūs naudojate senesnę versiją, dėl išteklių pasiekiamumo, žr. [Ištek
   
 ### <a name="additional-resources"></a>Papildomi ištekliai  
  [Išteklių vadovo vadovas](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

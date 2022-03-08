@@ -2,19 +2,17 @@
 title: Kas nauja 2020 m. gruodžio mėn. – „Project Operations“, skirta laikomų medžiagų / gamyba pagrįstiems scenarijams
 description: Šioje temoje pateikiama informacija apie kokybės naujinimus, pasiekiamus 2020 m. gruodžio mėn. „Project Operations”, skirtos laikomų medžiagų / gamyba pagrįstiems scenarijams, leidime.
 author: Yowelle
-manager: Annbe
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 5aac6b77b0d07a090a071b075711e3dd915e6be4
-ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
-ms.translationtype: HT
+ms.openlocfilehash: 14c31f27c0d8871063b3c6689a70f32201958002b50ac4c721c4e26c3359b631
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "4727993"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008821"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>Kas nauja ar pakeista 2020 m. gruodžio mėn. „Project Operations“, skirtos laikomų medžiagų / gamyba pagrįstiems scenarijams
 
@@ -141,4 +139,7 @@ _Taikoma (kam): „Project Operations“, skirta laikomų medžiagų / gamyba pa
 
 ## <a name="regulatory-updates"></a>Reguliavimo naujinimai
 
-Norėdami gauti informacijos apie „Dynamics 365 Finance” reguliavimo naujinimus, žr. [Reguliavimo naujinimai](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Kitas būdas sužinoti apie reguliavimo atnaujinimus – prisijungti prie „Lifecycle Services“ (LCS) ir peržiūrėti suplanuotus reguliavimo naujinimus naudojant problemų ieškos įrankį. Problemų ieška leidžia ieškoti pagal šalį, funkcijos tipą ir leidimą.
+Norėdami gauti informacijos apie „Dynamics 365 Finance” reguliavimo naujinimus, žr. [Reguliavimo naujinimai](/dynamics365/finance/localizations/regulatory-updates). Kitas būdas sužinoti apie reguliavimo atnaujinimus – prisijungti prie „Lifecycle Services“ (LCS) ir peržiūrėti suplanuotus reguliavimo naujinimus naudojant problemų ieškos įrankį. Problemų ieška leidžia ieškoti pagal šalį, funkcijos tipą ir leidimą.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

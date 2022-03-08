@@ -2,18 +2,16 @@
 title: Galimybės uždarymas
 description: Šioje temoje pateikta informacija apie projekto galimybės uždarymą.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 59a4cd96a4fd24987179f0ab17f1379efc22bbbe
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: da388c19fb32a1dc62a0273a4de1203a45345dfb0c0a56e76b73cccc751e9545
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128742"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006391"
 ---
 # <a name="close-an-opportunity"></a>Galimybės uždarymas
 
@@ -23,4 +21,7 @@ Projekto galimybes galima uždaryti kaip laimėtas arba pralaimėtas. Dialogo la
 
 Jums nebus leista uždaryti galimybės, jei yra su ja susijusių aktyvių pasiūlymų. Galite uždaryti visus aktyvius ir juodraštinius pasiūlymus, susietus su galimybe tuo pačiu metu. Tada galėsite uždaryti galimybę.
 
-Daugiau bendros informacijos apie tai, kaip uždaryti galimybes, rasite [Uždaryti galimybes kaip laimėtas arba pralaimėtas](https://docs.microsoft.com/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).
+Daugiau bendros informacijos apie tai, kaip uždaryti galimybes, rasite [Uždaryti galimybes kaip laimėtas arba pralaimėtas](/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

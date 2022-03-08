@@ -1,21 +1,21 @@
 ---
-title: Projekto sutarties eilutės apmokestinamų komponentų konfigūravimas
+title: Projektais pagrįstos sutarties eilutės apmokestinamų komponentų konfigūravimas
 description: Šioje temoje pateikta informacija apie įtrauktus, apmokestinamus ir neapmokestinamus komponentus sutarties eilutėse.
 author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 60a2792f7783053a288303e1dcc01a986e948300
-ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
+ms.openlocfilehash: af97904b0171618cb15d060da9bc87fcf6bbabeb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5858348"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080773"
 ---
-# <a name="configure-chargeable-components-of-a-project-contract-line"></a>Projekto sutarties eilutės apmokestinamų komponentų konfigūravimas
+# <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>Projektais pagrįstos sutarties eilutės apmokestinamų komponentų konfigūravimas
 
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
@@ -35,13 +35,13 @@ Projekto sutarties eilutės apmokestinamumas, apibrėžtas operacijų kategorijo
 
 Vaidmuo gali būti apmokestinamas arba neapmokestinamas konkrečioje projektais pagrįstojesutarties eilutėje.
 
-Projektu pagrįstos sutarties eilutės skirtuke **Apmokestinamieji vaidmenys**, papildomo tinklelio **Apmokestinamosios kategorijos** lauke **Atsiskaitymo tipas** atnaujinkite vaidmens atsiskaitymo tipą.
+Projektais pagrįstos sutarties eilutės skirtuke **Apmokestinami vaidmenys**, papildomame tinklelyje **Apmokestinamos kategorijos**, lauke atnaujinkite vaidmens **atsiskaitymo tipą**.
 
 ### <a name="update-a-transaction-category-to-be-chargeable-or-non-chargeable"></a>Operacijos kategorijos atnaujinimas į apmokestinamą arba neapmokestinamą
 
 Operacijos kategorija gali būti apmokestinama arba neapmokestinama konkrečioje projektais pagrįstoje sutarties eilutėje.
 
-Projektu pagrįstos sutarties eilutės skirtuke **Apmokestinamosios kategorijos**, papildomo tinklelio **Apmokestinamosios kategorijos** lauke **Atsiskaitymo tipas** atnaujinkite operacijos atsiskaitymo tipą.
+Projektais pagrįstos sutarties eilutės skirtuke **Apmokestinami kategorijos**, papildomame tinklelyje **Apmokestinamos kategorijos**, lauke atnaujinkite operacijos **atsiskaitymo tipą**.
 
 ### <a name="resolve-chargeability"></a>Apmokestinamumo sprendimas
 
@@ -58,6 +58,3 @@ Sukurtos numatomos arba faktinės išlaidų reikšmės bus laikomos apmokestinam
 | No | Taip | Negalima nustatyti | Neapmokestinama | Atsiskaitymas pagal faktinį laiką: Nėra </br>Atsiskaitymas pagal faktines išlaidas: Neapmokestinamas |
 | Taip | No | Apmokestinama | Negalima nustatyti | Atsiskaitymas pagal faktinį laiką: Apmokestinamas </br>Atsiskaitymas pagal faktines išlaidas: Nėra |
 | Taip | No | Neapmokestinama | Negalima nustatyti | Atsiskaitymas pagal faktinį laiką: Neapmokestinamas </br> Atsiskaitymas pagal faktines išlaidas: Nėra |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

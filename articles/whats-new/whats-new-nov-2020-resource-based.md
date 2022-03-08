@@ -2,24 +2,22 @@
 title: 2020 m. lapkričio mėn. naujienos – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams
 description: Šioje temoje pateikiama informacija apie kokybės naujinimus, pasiekiamus 2020 m. lapkričio mėn. „Project Operations Lite”, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams.
 author: sigitac
-manager: Annbe
 ms.date: 10/30/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c7ec9360401bf214ae867769b0e48e545a6bad48
-ms.sourcegitcommit: 64d0de964a9b66c015ffcf1db62cbb6216cb3187
-ms.translationtype: HT
+ms.openlocfilehash: 9eda9d75f5a4d71e6e4b8bd22dce973270639db3f927ac6a76be5b3c4303fc31
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4367276"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007966"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>2020 m. lapkričio mėn. naujienos – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams
 
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
-Ši tema taikoma toliau nurodytiems „Dynamics 365 Project Operations” komponentams ir versijoms.
+Ši tema taikoma toliau nurodytiems „Dynamics 365 Project Operations“ komponentams ir versijoms:
 
 - „Project Operations” CDS aplinkoje, 4.4.0.70 versija
 - Projektų valdymas ir apskaita „Dynamics 365 Finance” aplinkoje, 10.0.14 versija
@@ -67,4 +65,7 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 | Projekto apskaita  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Įjungus šią funkciją, kelios sutarties eilutės negalimos be CDS integravimo.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Reguliavimo naujinimai
-Norėdami gauti informacijos apie „Finance and Operations” programų reguliavimo naujinimus, žr. [Reguliavimo naujinimai](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Taip pat galite prisijungti prie LCS ir peržiūrėti planuojamus reguliavimo naujinimus naudodamiesi problemų ieškos įrankiu. Problemų ieška leidžia ieškoti pagal šalį, funkcijos tipą ir leidimą.
+Norėdami gauti informacijos apie „Finance and Operations” programų reguliavimo naujinimus, žr. [Reguliavimo naujinimai](/dynamics365/finance/localizations/regulatory-updates). Taip pat galite prisijungti prie LCS ir peržiūrėti planuojamus reguliavimo naujinimus naudodamiesi problemų ieškos įrankiu. Problemų ieška leidžia ieškoti pagal šalį, funkcijos tipą ir leidimą.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

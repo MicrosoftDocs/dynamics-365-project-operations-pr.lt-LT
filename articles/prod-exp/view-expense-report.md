@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d86185b414a559694077783d1f89dc863112a252
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 35a76cad8c6ddaa84038746ace6a7e1e5623388f
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271183"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960077"
 ---
 # <a name="view-an-expense-report-from-general-ledger-or-procurement-and-sourcing"></a>Išlaidų ataskaitos iš didžiosios knygos arba įsigijimo ir šaltinio pasirinkimo peržiūra
 
@@ -32,6 +32,3 @@ Išlaidų ataskaitose galite detalizuoti nuo operacijos iki pradinės ataskaitos
 Norėdami detalizuoti pradinę išlaidų ataskaitą, kurioje yra operacija, pasirinkite operaciją ir **Pirminis dokumentas**.
 
 Peržiūrėdami pavienes operacijas taip pat galite matyti ir papildomus prie operacijos pridėtus duomenis. Pavyzdžiui, detalizuotų viešbučio išlaidų atveju galite peržiūrėti išsamų išlaidų sąrašą, pvz., interneto prieiga, telefono skambučiai ir kambarių paslaugos.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

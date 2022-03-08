@@ -2,24 +2,22 @@
 title: Išteklių valdymo pagrindinės sąvokos
 description: Šioje temoje pateikiama informacija apie „Microsoft Dynamics Project Operations“ išteklių valdymo funkcijas.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a14f0ec328049d1b199201955c384df9fac61e39
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: c76fb297fc1832284d488f28e552ded2c1c27cf88d3a9352f2a31e667aac746e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123883"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994826"
 ---
 # <a name="resource-management-key-concepts"></a>Išteklių valdymo pagrindinės sąvokos
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
-Ištekliai yra svarbiausias paslaugomis pagrįstas organizacijos turtas. Turėdama galimybę rasti reikiamus išteklius tinkamu laiku, rezervuoti tuos išteklius projektams bei juos panaudoti, organizacija gali siekti pajamų ir klientų pasitenkinimo tikslų. Naudodami „Dynamics 365 Project Operations“ projektų išteklių paskirstymo funkcijas galite atlikti toliau nurodytas užduotis.
+Ištekliai yra svarbiausias paslaugomis pagrįstas organizacijos turtas. Turėdama galimybę rasti reikiamus išteklius tinkamu laiku, rezervuoti tuos išteklius projektams bei juos panaudoti, organizacija gali siekti pajamų ir klientų pasitenkinimo tikslų. Naudodami projektų išteklių paskirstymo funkcijas programoje „Dynamics 365 Project Operations“, galite atlikti toliau nurodytus veiksmus:
 
 - Formuoti komandas rezervuodami galimus ir patvirtinto tinkamumo išteklius.
 - Kurti bendrosios komandos narių įrašus ir apibrėžti jų vaidmenis bei paskirstyti organizacijos vieneto išteklius.
@@ -35,3 +33,6 @@ Ištekliai yra svarbiausias paslaugomis pagrįstas organizacijos turtas. Turėda
 
 
 Galite suformuoti savo projekto komandą naudodami bendruosius arba įvardintus „Project Operations“ išteklius. Galite naudoti įvairius metodus, kad įtrauktumėte ir priskirtumėte komandos narius ir valdytumėte jų rezervacijas ir priskyrimus. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

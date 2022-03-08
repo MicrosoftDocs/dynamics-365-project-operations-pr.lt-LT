@@ -2,24 +2,22 @@
 title: Pasiūlymo uždarymas
 description: Šioje temoje pateikta informacija apie „Project Operations“ pasiūlymų uždarymą.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 47804db0144c2b0f9dee2c60518e8aba6fb27473
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 2314444dfdbd4d1a2f38c7de55e2070011e51a86f1e074dd6667d54393c641fe
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124693"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993431"
 ---
 # <a name="close-a-quote"></a>Pasiūlymo uždarymas
 
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
-Projekto pasiūlymą galima uždaryti kaip laimėtą arba pralaimėtą. Pasiūlymų aktyvinimo ir peržiūros funkcijos nepalaikomos „Microsoft Dynamics 365 Project Operations“, todėl juodraštinį pasiūlymą galima uždaryti.
+Projekto pasiūlymą galima uždaryti kaip laimėtą arba pralaimėtą. Kadangi funkcijos „Aktyvinti“ ir „Peržiūrėti“ nepalaikomi „Microsoft Dynamics 365 Project Operations“ pasiūlymuose, galite uždaryti juodraštinį pasiūlymą.
 
 ## <a name="close-a-quote-as-won"></a>Pasiūlymo uždarymas kaip laimėto
 
@@ -43,3 +41,6 @@ Jei projekto pasiūlymo, kuris uždarytas kaip pralaimėtas, bet kuri eilutė nu
 
 > [!NOTE]
 > „Project Operations“ uždarius pasiūlymą kaip laimėtą arba pralaimėtą galimybės būsena nebus paveikta – ji bus atidaryta tol, kol nebus uždaryta rankiniu būdu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

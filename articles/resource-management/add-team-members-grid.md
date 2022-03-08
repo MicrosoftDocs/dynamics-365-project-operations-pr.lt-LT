@@ -2,24 +2,22 @@
 title: Komandos narių įtraukimas iš komandos narių tinklelio
 description: Šioje temoje pateikiama informacija apie tai, kaip galite tvarkyti komandos nario išteklius.
 author: ruhercul
-manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: de73dac28046ec98ed201e129be6511f894223fd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 95f9e1d836e49672cfb51ace59aa77ea9da65b35
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121543"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998871"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>Komandos narių įtraukimas iš komandos narių tinklelio
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
-Programoje „Dynamics 365 Project Operations“ yra išteklių vadovo ataskaitų sritis, teikianti vaizdinę išteklių poreikio ir naudojimo organizacijoje apžvalgą. Šioje ataskaitų srityje galite naudoti diagramas, kad galėtumėte vizualizuoti šią informaciją:
+Į „Dynamics 365 Project Operations“ įeina išteklių vadovo ataskaitų sritis, teikianti vaizdinį išteklių poreikio ir naudojimo visoje organizacijoje apžvalgą. Šioje ataskaitų srityje galite naudoti diagramas, kad galėtumėte vizualizuoti šią informaciją:
 
 - **Išteklių poreikis**: diagramoje **Aktyvių išteklių užklausa** rodomi pateikti ištekliai. Ištekliai yra agreguojami pagal vaidmenį arba projektą.
 - **Nepateiktų išteklių poreikis**: diagramoje **Nepriskirtų išteklių poreikis** rodomi visi nepateikti išteklių reikalavimai. Ši diagrama padeda išteklių vadovams peržiūrėti poreikį, kuris nėra patvirtintas ir gali būti pateiktas naudojant išteklių užklausą.
@@ -200,3 +198,6 @@ Peržiūrint laiką aukštesniuose lygiuose, langeliai, esantys skirtuke **Derin
 Jei turite ištekliaus užduoties priskyrimus, bet ne rezervavimus, formoje **Projektai**, esančioje skirtuke **Derinimas**, pažymėkite rezervavimo trūkumą, o tada pasirinkite **Išplėsti rezervavimą**. Atsiranda dialogo langas **Išplėsti rezervavimą** ir rodomas rezervavimas, reikalingas ištekliaus trūkumui spręsti. Dialogo lange taip pat nurodomi esami ištekliaus rezervavimai visuose projektuose arba kituose planiniuose objektuose. Jei pasirinksite **Gerai**, kad sukurtumėte ištekliaus rezervavimą, neatsižvelgiant į ištekliaus pasiekiamumą, galite viršyti rezervavimo limitą.
 
 Projektų vadovas arba išteklių vadovas gali naudoti grafiko lentą, kad valdytų situacijas, kai išteklius rezervuojamas per daug nepaisant jo pajėgumo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

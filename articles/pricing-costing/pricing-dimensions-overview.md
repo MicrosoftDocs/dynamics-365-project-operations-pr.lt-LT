@@ -2,19 +2,18 @@
 title: Kainodaros dimensijų apžvalga
 description: Šioje temoje pateikiama informacijos apie „Dynamics 365 Project Operations“ kainodaros dimensijas.
 author: rumant
-manager: AnnBe
 ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
-ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
+ms.custom: intro-internal
+ms.openlocfilehash: e8d62dcf9975e5427926210a881dec2c256f1b8b
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "4650211"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6368486"
 ---
 # <a name="pricing-dimensions-overview"></a>Kainodaros dimensijų apžvalga
 
@@ -59,15 +58,18 @@ Toliau pateiktame pavyzdyje pateikiami sąskaitų tarifai, nustatyti pagal vaidm
 
 **Pavyzdiniai sąskaitų tarifai**
 
-| Vaidmuo        | Organizacijos vienetas    |Vienetas      |Kaina      |Valiuta  |
+| Vaidmuo        | Org. vienetai    |Vienetas      |Kainos      |Valiuta  |
 | ------------|-------------|----------|----------:|----------|
-| Kūrėjas   | „Danys“, JAV  |Hour | 200|USD     |
-| Kūrėjas   | „Danys India“ |Hour|   112|USD     |
+| Developer   | „Contoso“ JAV  |Valanda | 200|USD     |
+| Developer   | Contoso India |Valanda|   112|USD     |
 
 
 **Pavyzdiniai savikainos tarifai**
 
-| Atlyginimų juosta     | Organizacijos vienetas    |Vienetas      |Kaina      |Valiuta  |
+| Atlyginimų juosta     | Org. vienetai    |Vienetas      |Kainos      |Valiuta  |
 | ----------------|-------------|----------|----------:|----------|
-| „My company_Band1“ | „Danys“, JAV  |Hour | 145|USD     |
-| „My company_Band2“ | „Danys India“ |Hour|   67|USD     |
+| „My company_Band1“ | „Contoso“ JAV  |Valanda | 145|USD     |
+| „My company_Band2“ | Contoso India |Valanda|   67|USD     |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

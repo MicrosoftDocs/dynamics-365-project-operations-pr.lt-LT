@@ -18,12 +18,12 @@ ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
 search.app:
 - ProjectOperations
-ms.openlocfilehash: 063c4d017f5904f09c3c239bfa432a128872e4d7
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 17d6648840e27a4e573985af2cdd74c4adf878e1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144963"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290909"
 ---
 # <a name="bulk-corrections-of-actuals-created-by-approved-time-and-expense-entries"></a>Faktinių duomenų masiniai pataisymai pagal patvirtintus laiko ir išlaidų įrašus
 
@@ -90,3 +90,6 @@ Atlikite toliau nurodytus veiksmus norėdami pataisyti vieną ar daugiau išlaid
 8. Projekto puslapyje skirtuke **Faktiniai duomenys** peržiūrėkite **Faktinis susietasis rodinys**. Rodomi pradiniai įrašai ir pataisyti įrašai. Šiame grafike rodomos pradinės išlaidų įrašų sumos ir atitinkamos pataisytų išlaidų įrašų sumos. 
 
 ![Faktiniai išlaidų duomenys](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

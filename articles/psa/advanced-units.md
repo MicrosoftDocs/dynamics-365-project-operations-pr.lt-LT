@@ -2,8 +2,6 @@
 title: Vienetų grupės ir vienetai
 description: Šioje temoje pateikiama informacija apie vienetų grupes ir vienetus.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6620c99563394d1f3881d6bfdb72d01c1c4e8d6f
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 55696b32b7b37048ba4c292b33d93b7b12614f2186fb972a2c3f3732e5512c82
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145593"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987581"
 ---
 # <a name="unit-groups-and-units"></a>Vienetų grupės ir vienetai
 
@@ -46,7 +44,7 @@ Pavyzdžiui, jei vienetų grupėje **Laikas** nustatysite parinktį **Valanda** 
 
 Tolesniame paveiksle pateikiamas vieneto **Diena**, kurio lauke **Kiekis** rodomas dienos valandų skaičius, ir vieneto **Savaitė**, kurio lauke **Kiekis** rodomas, savaitės dienų skaičius, sąrankos pavyzdys.
 
-> ![Vienetų grupė: informacijos puslapis](media/advanced-2.png)
+> ![Vienetų grupė: informacijos puslapis.](media/advanced-2.png)
 
 ## <a name="using-units-and-unit-groups"></a>Vienetų ir vienetų grupių naudojimas
 
@@ -86,9 +84,9 @@ Tolesniame pavyzdyje parodyta, kaip PSA naudoja vienetų grupę, vienetus ir kon
     - **Numatytasis laiko vienetas**: diena 
     - **Valiuta**: GBP
 
-| Vaidmuo      | Vienetų grupė | Vienetas | Organizacijos vienetas | Kaina   |
+| Vaidmuo      | Vienetų grupė | Vienetas | Organizacinis vienetas | Kainos   |
 |-----------|------------|------|---------------------|---------|
-| Kūrėjas | Time       | Day  | Danys          | 800 GBP |
+| Developer | Laikas       | Diena  | Contoso JK          | 800 GBP |
 
 ### <a name="time-entry"></a>Laiko įrašas
 
@@ -112,3 +110,6 @@ Ne. Grafiko įvertinimas šiuo metu apribotas naudoti tik valandas ir jo keisti 
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Ar galima redaguoti, naikinti ir įtraukti vienetus bei vienetų grupes?
 Taip. Išskyrus vienetų grupę **Laikas** ir vienetą **Valanda**, visus vienetus galima panaikinti arba redaguoti bei įtraukti naujų vienetų. PSA negalima panaikinti vienetų grupės **Laikas** ir vieneto **Valanda**. Tačiau juos galima atnaujinti įvedant vertimo tekstą lauke **Pavadinimas**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

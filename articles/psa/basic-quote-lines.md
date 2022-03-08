@@ -2,8 +2,6 @@
 title: Pasiūlymai ir pasiūlymo eilutės
 description: Šioje temoje pateikiama informacija apie pasiūlymus ir pasiūlymo eilutes.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 024a7cdb81340a077e839d92c4321c8b0051404b
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: c98708cf91f9c5d078f3a1d3d619c9ca93cffa3e6bbca34511947b602a1c678a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145143"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995456"
 ---
 # <a name="quotes-and-quote-lines"></a>Pasiūlymai ir pasiūlymo eilutės
 
@@ -86,7 +84,7 @@ Profesionalių paslaugų organizacijos paprastai teikia klientams pasiūlymus ir
 
 Su kiekviena pasiūlymo eilute galima susieti vieną arba kelias iš šių operacijų klasifikacijų. Laimėjus pasiūlymą, operacijų klasifikacijos susiejimas ir pasiūlymo eilutė perkeliami į sutarties eilutę.
  
-> ![Operacijų tipų susiejimo su pasiūlymo ir sutarties eilutėmis ekrano kopija](media/basic-guide-5.png)
+> ![Operacijų tipų susiejimo su pasiūlymo ir sutarties eilutėmis ekrano kopija.](media/basic-guide-5.png)
   
 Pavyzdžiui, pasiūlyme gali būti šios dvi pasiūlymo eilutės: 
 - konsultavimo darbas, už kurį atsiskaitoma naudojant laiko ir medžiagų atsiskaitymo metodą, taikant operacijų klasifikacijas Laikas ir Mokestis. Pavyzdžiui, klientui išrašoma sąskaita faktūra už visas pavyzdinio projekto **Visuotinis „Dynamics AX“ diegimas** laiko ir mokesčio klasifikacijų operacijas, atsižvelgiant į laiko ir medžiagų sąnaudas; 
@@ -131,3 +129,6 @@ Fiksuotos kainos pasiūlymo eilutėms galite naudoti tinklelį **Sąskaitų fakt
 - Jei norite sukurti lygiai padalytus sąskaitų išrašymo etapus, pasirinkite sąskaitų faktūrų išrašymo dažnį, į pasiūlymo eilutę įveskite atsiskaitymo pradžios datą ir pasiūlymo antraštės srityje **Suvestinė** pasirinkite pasiūlymo **Pageidaujamą užbaigimo datą**. Tada pasirinkite **Generuoti periodinį sąskaitų pateikimą etapais** ir sukurkite lygiai padalytus etapus pagal pasirinktą sąskaitų faktūrų išrašymo dažnį. 
 - Norėdami sukurti atsiskaitymo vienkartine suma etapą, sukurkite etapą ir tada kaip etapo sumą įveskite pasiūlymo eilutės vertę.
 - Norėdami sukurti konkrečiomis projekto plano užduotimis pagrįstus sąskaitų išrašymo etapus, sukurkite etapą ir atsiskaitymo etapo UI susiekite jį su projekto grafiko elementu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Federalinių subsidijų tyrimo išlaidų grafikas
 description: Šioje temoje pateikta informacija apie federalinių subsidijų tyrimo išlaidų grafiką.
 author: velofog
-manager: Ann Beebe
 ms.date: 04/2/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PSNProjSEFAinquiry
 audience: Application User
@@ -20,12 +18,12 @@ ms.search.industry: public sector
 ms.author: andchoi
 ms.search.validFrom: 2020-4-01
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: eaf523ab147cbe974fed6e7eab21967404583fe6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: d0cc3db3fd05fa809f707b15a50380753ac8f9f779f45c13f707321d2b0e0841
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080820"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007246"
 ---
 # <a name="schedule-of-expenditures-of-federal-awards-inquiry"></a>Federalinių subsidijų tyrimo išlaidų grafikas
 
@@ -62,7 +60,7 @@ Reikia nustatyti CFDA numerius, kurie gali būti įtraukti į subsidijas ir į f
 ## <a name="set-up-grants-to-report-for-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Federalinių subsidijų tyrimo išlaidų grafiko ataskaitos subsidijų nustatymas
 
 1. Eikite į **Projektų valdymas ir apskaita \> Subsidijos \> Subsidijos** ir pasirinkite esamą subsidiją.
-2. „FastTab“ **Sąranka** lauke **Federalinės vietinės pagalbos katalogas** priskirkite CFDA numerį. Subsidijos CFDA numeris nustato ataskaitų CFDA grupę.
+2. „FastTab“ lauke **Sąranka**, lauke **Federalinės nacionalinės paramos katalogas** priskirkite CFDA numerį. Subsidijos CFDA numeris nustato ataskaitų CFDA grupę.
 3. „FastTab“ **Kontaktinė informacija** įveskite cedento informaciją atlikdami šiuos veiksmus:
 
     1. Lauke **Subsidijos klientas** įveskite už subsidiją atsakingą klientą. Esamos subsidijos informacija jau turbūt įvesta.
@@ -79,8 +77,8 @@ Federalinė vyriausybė finansavo valstijos infrastruktūros projektą. Federali
 
 ## <a name="exclude-grants-from-sefa-reporting-based-on-the-grant-type"></a>Subsidijų šalinimas iš SEFA ataskaitų remiantis subsidijų tipu
 
-1. Eikite į **Projektų valdymas ir apskaita \> Sąranka \> Subsidijos \> Subsidijų tipai**.
-2. „FastTab“ **Numatytoji informacija** pažymėkite žymės langelį **Pašalinti iš federalinių subsidijų išlaidų grafiko**.
+1. Eikite į **Projektų valdymas ir apskaita \> Sąranka \> Subsidijos \> Subsidijų tipai**.
+2. „FastTab“ lauke **Numatytoji informacija** pažymėkite žymės langelį **Pašalinti iš federalinių subsidijų išlaidų grafiko**.
 3. Pasirinkite **Įrašyti**, kad įrašytumėte keitimus.
 
 ## <a name="run-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Federalinių subsidijų tyrimo išlaidų grafiko vykdymas
@@ -104,3 +102,6 @@ Federalinių subsidijų tyrimo išlaidų grafike yra šie stulpeliai:
 - Federalinė vietinės pagalbos katalogas
 - Kvitai
 - Išlaidos
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,7 +2,8 @@
 title: Kodėl numatytoji faktinių duomenų pardavimo išlaidų kaina nustatoma kaip nulis?
 description: Šios trys patikros padės jums diagnozuoti triktis, susijusias su klausimu, kodėl numatytoji faktinių duomenų pardavimo išlaidų kaina nustatoma kaip 0.
 author: rumant
-ms.prod: ''
+manager: kfend
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -17,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 92b507d8e5605c01f1a9235233b3cd2885070749
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5840bda4f74c720bfcdc7f4e84c8f22e0c6163ec
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993021"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080856"
 ---
 # <a name="why-is-the-price-defaulting-to-zero-on-expense-sales-actuals"></a>Kodėl numatytoji faktinių duomenų pardavimo išlaidų kaina nustatoma kaip nulis?
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -36,7 +35,7 @@ ms.locfileid: "5993021"
 
 Raskite projektą faktinių duomenų projekto lauke ir eikite į projekto puslapį. Tada eikite į skirtuką „Pardavimas“. Projekto sutarties eilučių tinklelyje spustelėkite saitą, esantį projekto sutarties lauke. Projekto sutarties puslapis bus atidarytas. Projekto sutarties puslapyje eikite į skirtuką „Projekto kainoraščiai“. Patikrinkite, ar čia pridėtas bent vienas kainoraštis.
 
-Jeigu prie projekto sutarties projekto kainoraščio tinklelio nepridėta kainoraščių, atlikite šiuos veiksmus:
+Jeigu prie projekto sutarties projekto kainoraščio tinklelio nepridėta kainoraščių, atilkite šiuos veiksmus:
 
 - Pridėkite kainoraštį prie projekto kainoraščių tinklelio. Kainoraščių, kuriuos galima pridėti čia, konteksto laukas turi būti nustatytas kaip „Pardavimas“, o valiutos laukas kainoraštyje turi atitikti valiutos lauką, esantį projekto sutartyje. Atlikę reikiamus taisymus, iš naujo sukurkite išlaidų įrašą, patvirtinkite jį ir patikrinkite, kad faktiniai pardavimo, už kurį neišrašyta sąskaita, duomenyse rodoma tinkama kaina.
 - Jeigu prie projekto sutarties projekto kainoraščių tinklelio pridėtas vienas ar daugiau kainoraščių, atlikite 2 patikrą.
@@ -48,7 +47,7 @@ Tam, kad „Project Service“ atsižvelgtų į kainoraštį, kai nustatoma numa
 - Pirma patikrinkite, ar pradžios ir pabaigos datos įvestos pridėtų kainoraščių skirtuke „Bendra“. Jei pradžios ir pabaigos datos anksčiau nurodytuose kainoraščiuose neįvestos, nustatėte problemą. 
 - Užsirašykite pradžios datą, esančią faktinių išlaidų pardavimo duomenų lauke ir patikrinkite, ar nors vienas nurodytų kainoraščių tinka šiai datai. Pavyzdžiui, faktinių duomenų išlaidų data turėtų atitikti laikotarpį nuo pradžios datos iki pabaigos datos, nurodytų kainoraštyje. 
     - Jei nėra kainoraščio, atitinkančio datą, nurodytą faktiniuose pardavimo išlaidų duomenyse, nustatėte problemą. Pakeiskite kainoraščio pradžios ir pabaigos datas, užtikrindami, kad kainoraštis atitinka faktinių išlaidų duomenų datą. 
-    - Jei yra daugiau nei vienas kainoraštis, atitinkantis išlaidų pardavimo faktinių duomenų datą, nustatėte problemą. Redaguokite kainoraščio (-ių) pradžios ir pabaigos datas, kad būtų tik vienas kainoraštis, atitinkantis išlaidų faktinių duomenų datą. 
+    - Jei yra daugiau nei vienas kainoraštis, atitinkantis išlaidų pardavimo faktinių duomenų datą, nustatėte problemą. Galite ją išspręsti pakeitę kainoraščio (-ių) pradžios ir pabaigos datas, kad būtų tik vienas kainoraštis, atitinkantis išlaidų faktinių duomenų datą. 
     - Jei yra tik vienas kainoraštis, atitinkantis faktinių išlaidų duomenų datą, atlikite 3 patikrą.
 Atlikę reikiamus taisymus, iš naujo sukurkite išlaidų įrašą, patvirtinkite jį ir patikrinkite, kad faktiniuose pardavimo, už kurį neišrašyta sąskaita, duomenyse rodoma tinkama kaina.
 
@@ -56,7 +55,7 @@ Atlikę reikiamus taisymus, iš naujo sukurkite išlaidų įrašą, patvirtinkit
 
 Jei sėkmingai atlikote 1 ir 2 patikras, dabar turite tik vieną projekto kainoraštį, taikytiną faktinių pardavimo išlaidų duomenų datai. Atidarykite šio projekto kainoraštį ir eikite į skirtuką „Kategorijos kainos“. Įsitikinkite, kad tinklelyje yra eilutė, skirta specialiai išlaidų kategorijai, esančiai faktiniuose išlaidų duomenyse.
  
-- Jei eilutės nėra, nustatėte problemą. Sukurkite eilutę kategorijos kainų tinklelyje, skirtame faktinių išlaidų duomenų kategorijai. Tada iš naujo sukurkite išlaidų įrašą, patvirtinkite jį ir patikrinkite, kad faktiniuose pardavimo, už kurį neišrašyta sąskaita, duomenyse rodoma tinkama kaina. 
+- Jei eilutės nėra, nustatėte problemą. Sukurkite eilutę kategorijos kainų tinklelyje, skirtame faktinių išlaidų duomenų kategorijai. Atlikę šiuos veiksmus, iš naujo sukurkite išlaidų įrašą, patvirtinkite jį ir patikrinkite, kad faktiniuose pardavimo, už kurį neišrašyta sąskaita, duomenyse rodoma tinkama kaina. 
 - Jei kategorijos kainų tinklelyje yra išlaidų kategorijos eilutė, patikrinkite, ar joje nurodyta tinkama kaina.
 
 Tam, kad suprastumėte, kokia kaina yra tinkama, pasinaudokite šiais būdais:
@@ -70,6 +69,3 @@ Jeigu išlaidų kategorijos kaina yra netinkamai nustatyta, nustatėte problemą
 Jei atlikote visas tris anksčiau minėtas patikras ir vis dar nematote tinkamos kainos faktiniuose pardavimo išlaidų duomenyse, užregistruokite palaikymo kvitą.
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
