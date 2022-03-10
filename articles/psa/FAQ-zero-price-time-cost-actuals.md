@@ -2,8 +2,6 @@
 title: Kodėl numatytoji faktinių duomenų laiko savikaina nustatoma kaip nulis?
 description: Trikčių šalinimas klausimu kodėl numatytoji faktinių duomenų laiko savikaina nustatoma kaip 0.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 635fe6dfb547e8b9f96ca1786912309a770e24c2
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: e1f81268c894e2ff5d607d8008876c84f7eafdf05f8b1f3212263a5dfa89b69d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146268"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996986"
 ---
 # <a name="why-is-the-price-defaulting-to-zero-on-time-cost-actuals"></a>Kodėl numatytoji faktinių duomenų laiko savikaina nustatoma kaip nulis?
 
@@ -66,3 +64,6 @@ Jei atlikote visas tris anksčiau minėtas patikras ir vis dar nematote tinkamos
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

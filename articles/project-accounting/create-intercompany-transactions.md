@@ -2,18 +2,16 @@
 title: Vidinės įmonės operacijų kūrimas
 description: Šioje temoje pateikiama informacijos, kaip kurti vidinės įmonės operacijas.
 author: sigitac
-manager: tfehr
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6d23e45d99be61e93d98a8377ff5fa05b3febb6b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 4ce3a45e5a09b7ac5b5663cf9983e3bed7bf7e0d3fedede2e4524c51069a800b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287428"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005491"
 ---
 # <a name="create-intercompany-transactions"></a>Vidinės įmonės operacijų kūrimas
 
@@ -62,7 +60,7 @@ Simona Terentjeva, GBPM dirbanti kūrėja, užregistravo, kad dirbo 10 darbo val
     4. Nustatykite valiutą **USD**.
     5. Įrašykite įrašą.
 3. Eikite į **Pardavimas** > **Projekto sutartys** ir sukurkite naują projekto sutartį, skirtą „Adventure Works“.
-    1. Nustatykite įmonė, kuriai priklauso, kaip **USPM**, o sutartį sudarantį vienetą – kaip **Contoso Robotics US**.
+    1. Valdančią įmonę nustatykite kaip **USPM**, o sutartį sudarantį vienetą – kaip **„Contoso Robotics US“**.
     2. Pasirinkite „Adventure Works“ kaip klientą.
     3. Pasirinkite produkto kainoraštį ir įrašykite įrašą.
     4. Skirtuke **Sutarties eilutės** sukurkite naują sutarties eilutę. Nustatykite bet kokį pavadinimą ir pasirinkite **Laikas ir medžiagos** kaip atsiskaitymo metodą.
@@ -94,7 +92,7 @@ Simona Terentjeva, GBPM dirbanti kūrėja, užregistravo, kad dirbo 10 darbo val
     Šis pardavimas, už kurį neišrašyta sąskaita, jau paruoštas SF išrašyti. Prireikus galima finansiškai užregistruoti klientui „Adventure Works“ skirtą sąskaitą faktūrą.
 
 10. Prisijunkite kaip **GBPM** buhalteris. Atidarykite „Project Operations“ egzempliorių „Finance“ ir atidarykite įmonę **GBPM**. 
-11. Eikite į **Projektų valdymas ir apskaita** > **Periodiniai** > **„Project Operations“ ir „Customer Engagement“** > **Importuoti iš paruošimo** ir pasirinkite vykdyti periodinį procesą, kad užpildytumėte „Project Operations“ integravimo žurnalą.
+11. Nueikite į **Projektų tvarkymas ir apskaita** > **Periodinis** > **„Project Operations“ integravimas** > **Importuoti iš eilučių paruošimo lentelės** ir vykdykite procesą, kad užpildytumėte „Project Operations“ integravimo žurnalą.
 12. Eikite į **Projektų valdymas ir apskaita** > **Žurnalai** > **„Project Operations“ integravimo žurnalas** ir peržiūrėkite eilutes. Sistema sukuria toliau nurodytas eilutes.
 
     | **Operacijos tipas** | **Kainos** | **Operacijos valiuta** | **Suma** |

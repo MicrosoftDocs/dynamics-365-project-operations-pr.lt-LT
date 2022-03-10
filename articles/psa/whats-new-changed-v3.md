@@ -1,8 +1,6 @@
 ---
 title: Kas nauja arba pakeista programos „Project Service Automation“ 3 versijoje
 description: Šioje temoje pateikiama informacijos apie tai, kas nauja ir pakeista „Project Service Automation“ 3 versijoje.
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2388aedec25915b3d364001fed11ca537b0f5507
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: afce9cd2d4b3920dc5de5d3deab8920a7f51f275a73918a84db300739b1b4feb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281128"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987086"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Kas nauja arba pakeista programos „Project Service Automation“ 3 versijoje
 
@@ -38,7 +36,7 @@ ms.locfileid: "5281128"
 ## <a name="project-scheduling"></a>Projektų planavimas
 Projekto grafikas, kuris ankstesnėse versijose buvo vadinamas darbo paskirstymo struktūra (WBS), buvo pervadintas pasirenkant pavadinimą Grafikas ir pasiekiamas spustelint skirtuką **Grafikas**. 
 
-![Projekto grafikas](media/psa-schedule-01.png)
+![Projekto grafikas.](media/psa-schedule-01.png)
 
 Grafikas dabar turi naują interaktyvumo paviršių, kuris yra modernus ir prieinamas. Tačiau pagrindinis „Project Service Automation“ planavimo modulis nepasikeitė. Naudodamiesi grafiko tinklelio juostelės valdymo mygtukais galite pasiekti grafiką, panašiai kaip ir naudodamiesi ankstesne programos „Project Service Automation“ versija. Toliau išvardijami papildomi grafiko pakeitimai.
 
@@ -97,22 +95,22 @@ Perkėlus esamo projekto grafiką, įvyksta tai, kas nurodyta toliau.
 ## <a name="estimates"></a>Įvertinimai
 Išskiriami du įvertinimų skirtukai, **Išteklių priskyrimas** ir **Įvertinimai**. Skirtuke **Išteklių priskyrimas** pateikiami pastangų įvertinimai ir rodomi užduočių išteklių priskyrimai pagal laiko etapus. Galite redaguoti įvertinimus atsižvelgdami į tai, ką sukūrė planavimo mechanizmas.
 
-![Išteklių priskyrimų skirtukas, kuriame rodomi pastangų įvertinimai ir užduočių išteklių priskyrimai](media/resource-assignments-tab-02.png)
+![Išteklių priskyrimų skirtukas, kuriame rodomi pastangų įvertinimai ir užduočių išteklių priskyrimai.](media/resource-assignments-tab-02.png)
 
 Skirtuke **Įvertinimai** rodomos išteklių priskyrimų išlaidų ir pardavimo sumos. Sumos yra tik skaitomos. Išlaidų ir pardavimo įkainiai dabar kuriami pagal komandos nario priskyrimus grafike. Tai reiškia, kad jokių priskyrimų neturinti užduotis rodoma nepriskirtų užduočių talpykloje. Tai taip pat reiškia, kad neturint numatytosios įkainių dimensijos **vaidmuo**, jei turite su projektu susietą klientą arba sutartį / pasiūlymą, nenumatomos išlaidos arba pardavimai. 
 
-![Skirtukas Įvertinimai, kuriame rodomos išlaidų ir pardavimo sumos](media/estimates-tab-03.png)
+![Skirtukas Įvertinimai, kuriame rodomos išlaidų ir pardavimo sumos.](media/estimates-tab-03.png)
   
 Grafiko rodinyje taip pat palaikoma užduočių kategorija. Įvertinimų rodiniuose pagal laiko etapus grupuojant pagal kategoriją užtikrinamos geresnės galimybės, ypač ypač jei jūsų projekte taip pat numatyti išlaidų įvertinimai. Išlaidų įvertinimai įvedami naudojantis atskiro skirtuko tinkleliu. 
 
 Išlaidų įvertinimus galima įvesti skirtuko **Išlaidų įvertinimai** tinklelyje. 
 
-![Skirtukas Išlaidų įvertinimai, kuriame rodomas išlaidų įvertinimų tinklelis](media/expense-estimates-tab-04.png)
+![Skirtukas Išlaidų įvertinimai, kuriame rodomas išlaidų įvertinimų tinklelis.](media/expense-estimates-tab-04.png)
 
 ## <a name="resource-management"></a>Išteklių valdymas
 „Project Service Automation“ 3 versijoje, kurioje naudojama nauja vieningoji kliento vartotojo sąsaja ir esama ryšių tarp rezervavimų ir priskyrimų pakeitimų, itin pasikeitė personalo priskyrimo projektui tvarka naudojantis bendraisiais arba realiais ištekliais (lyginant su 2 ir 1 versija). Tačiau tiek **realių**, tiek **bendrųjų** rezervuojamų išteklių sąvokos išlieka nepakitusios, taip pat nekinta komandos nariai, reikalavimai, priskyrimai ir rezervavimai.   
 
-![Išteklių parinkiklio naudojimas](media/resource-management-05.png)
+![Išteklių parinkiklio naudojimas.](media/resource-management-05.png)
 
 ### <a name="assign-a-real-bookable-resource"></a>Realių rezervuojamų išteklių priskyrimas 
 „Project Service Automation“ 3 versijoje rezervacijos ir užduočių priskyrimai nėra taip glaudžiai persipynę kaip ankstesnėse „Project Service Automation“ versijose. Naudodamiesi komandos tinkleliu galite rezervuoti panašų į rinkoje esantį **realų** komandos narį.
@@ -138,7 +136,7 @@ Kai reikalavimas vykdomas naudojantis keliais ištekliais, bendrieji ištekliai 
 ### <a name="reconciliation"></a>Suderinimas
 Skirtuke **Suderinimas** rodomi visi kiekvieno projekto komandos nario rezervavimai ir priskyrimai. Rodinio langeliuose rodomos valandos, kuriomis gali būti nurodomi nuo kelių mėnesių iki kelių dienų trukmės laikotarpiai. Naudodamiesi šiuo rodiniu projektų vadovai gali suderinti komandos narių rezervavimus su jų projekto komandos priskyrimais. Tai naudinga, kadangi rezervavimai ir užduočių priskyrimai nėra artimai susieti, todėl planuojant projektą galima elgtis lanksčiau. 
 
-![Skirtukas Suderinimas, kuriame rodomi projekto komandos narių rezervavimai ir priskyrimai](media/resource-reconciliation-tab-06.png)
+![Skirtukas Suderinimas, kuriame rodomi projekto komandos narių rezervavimai ir priskyrimai.](media/resource-reconciliation-tab-06.png)
 
 Kiekvieno ištekliaus rodinyje atsižvelgiama į skirtumą tarp komandos nario rezervavimų ir jam priskirtų užduočių apibendrinamosios reikšmės ir rodomi du toliau minimi galimi projekto rezervavimų ir priskyrimų skirtumai. 
 
@@ -153,19 +151,19 @@ Jei esama užduočių, kurios priskirtos ištekliams be rezervavimų (rezervavim
 ### <a name="landing-page"></a>Nukreipimo puslapis
 Nepratęsiamo pasirinktinio laiko įrašo funkcija 3 versijoje nebenaudojama. Dabar galima naudotis pratęsiamo ir prieinamo vietinio tinklelio funkcija. Laiko įrašo funkcija pasiekiama naudojantis kairėje pusėje esančia svetainės struktūra. Kadangi buvo atliktas šis pakeitimas, nebegalėsite vienu metu įvesti vienos savaitės trukmės laiko. Tinklelyje atskirai turėsite sukurti kiekvienos dienos laiko įrašą. Sukūrę keletą laiko įrašų, naudodamiesi toliau šioje temoje paaiškinta funkcija **Kopijuoti**, vartotojai vienu metu gali kurti kelis laiko įrašus. 
 
-![Laiko įrašo nukreipimo puslapis](media/time-entry-landing-page-07.png)
+![Laiko įrašo nukreipimo puslapis.](media/time-entry-landing-page-07.png)
  
 ### <a name="create-new-time-entries"></a>Naujų laiko įrašų kūrimas 
 Juostelėje spustelėję **Naujas** atidarykite laiko įrašo sparčiojo kūrimo puslapį, kuriame įveskite trukmę minutėmis, valandomis arba dienomis. Norėdami tai padaryti, tiesiog pradėkite vesti h, m arba d, nurodydami ir kiekį.  
 
-![Laiko įrašo spartusis kūrimas](media/quick-create-time-entry-08.png)
+![Laiko įrašo spartusis kūrimas.](media/quick-create-time-entry-08.png)
 
 Peržvalgos laukai susiejami su sistemos rodiniais. Pavyzdžiui, įvedus projekto informaciją, pagal numatytuosius nustatymus nustatomas lauko **Projekto užduotis** rodinys **Mano atidarytos projekto užduotys** Norėdami kurti vartotojui nepriskirtų užduočių laiko įrašus, peržvalgoje spustelėkite **Keisti rodinį** ir pažymėkite **Visos aktyvios projekto užduotys**. Sukūrę laiko įrašą, kuris rodomas tinklelyje, tiesiogiai tinklelyje galite redaguoti bet kurias eilutės reikšmes.  
 
 ### <a name="bulk-createcopy"></a>Masinis kūrimas / kopijavimas 
 Sukūrę keletą laiko įrašų, naudodamiesi kopijavimo funkcija, vienu metu galite kurti kelis papildomus laiko įrašus. Spustelėję **Kopijuoti** atidarykite dialogo langą **Kopijuoti**. Laukelyje **Iš laikotarpio: pradžios data** nustatykite datą, iš kurios turi būti kopijuojami laikotarpiai. Laukelyje **Į laikotarpį: pradžios data** nurodykite datą, kurioje turi būti kuriami laiko įrašai. Spustelėję **Kopijuoti** nukopijuokite laiko įrašus į atitinkamą laukelyje **Į laikotarpį** nurodytą savaitės dieną. Pavyzdžiui, praėjusios savaitės pirmadienio laiko įrašas kopijuojamas į laukelyje **Į laikotarpį** nurodytos savaitės pirmadienį. 
 
-![Kelių laiko įrašų kopijavimas vienu metu](media/bulk-copy-time-entry-09.png)
+![Kelių laiko įrašų kopijavimas vienu metu.](media/bulk-copy-time-entry-09.png)
  
 ### <a name="import-data"></a>Importuoti duomenis 
 Atliekant priskyrimus ir keitimus taikomas tas pats vartotojo sąsajos modelis, kai vartotojai gali nurodyti datą, iš kurios reikia importuoti rezervavimus. Tada turite pasirinkti konkrečius rezervavimus, kuriuos reikia kopijuoti į laiko įrašus **Juodraštis**. Naudodamiesi 3 versija, tinklelyje ir kalendoriuje nebegalėsite matyti laiko įrašų **Siūloma** modelio.  
@@ -181,7 +179,7 @@ Atliekant priskyrimus ir keitimus taikomas tas pats vartotojo sąsajos modelis, 
 
 **Duomenų įrašymas laiko ir išlaidų įrašų pasirinktiniuose laukuose ir jų platinimas pateikimo ir patvirtinimo srautą palaikančiuose objektuose** – tipinis laiko įrašų apdorojimas pavaizduotas toliau pateikiamoje diagramoje.
 
-![Laiko įrašo srauto apdorojimas](media/process-time-entries-10.png)
+![Laiko įrašo srauto apdorojimas.](media/process-time-entries-10.png)
 
 Jei verslo reikalavimuose nurodoma, kad laiko ir išlaidų objektai turi fiksuoti pasirinktinių kainų dimensijas ir platinti reikšmes (kurias laiko ir įrašo ištekliai nustato pasirinktinių kainų dimensijoje) visuose ankstesnio grafiko objektuose, žr. [Pasirinktinių laukų nustatymas kaip kainų dimensijų](set-up-pricing-dimensions.md)
 
@@ -238,7 +236,7 @@ Siekiant užtikrinti maksimalų lankstumą ir patenkinti įvairius verslo reikal
 
 3 versijoje ir naujesnėse versijose apmokestinimo parinktys pagal vaidmenį ir išlaidų kategoriją bus nustatomos pasiūlymo arba sutarties eilutės lygiu. Įkainių sąranka skiriasi nuo apmokestinimo sąrankos. Puslapiuose **Pasiūlymo eilutė** ir **Sutarties eilutė** rasite skirtukus **Apmokestinami vaidmenys** ir **Apmokestinamos kategorijos** ir nereikės naudotis viršutine naršymo juosta.
 
-![Apmokestinami vaidmenys](media/chargeable-12.png)
+![Apmokestinami vaidmenys.](media/chargeable-12.png)
  
 Atliekant apmokestinamų vaidmenų ir apmokestinamų kategorijų sąranką taip pat naudojamasi iš anksto nustatytu redaguojamu tinklelio valdikliu. Kiekvieno vaidmens ir kategorijos atsiskaitymo tipo palaikomos parinktys teikiant pasiūlymą ir sudarant sutartį išlieka nepakitusios, t. y., kaip ir ankstesnėse versijose (**Apmokestinama** ir **Neapmokestinama**). Tipas **Nemokama** teikiant pasiūlymą ar sudarant sutartį nepalaikomas. Tipas **Nemokama** palaikomas tik tvirtinant laiką ir išlaidas.  
  
@@ -249,11 +247,11 @@ Atliekant apmokestinamų vaidmenų ir apmokestinamų kategorijų sąranką taip 
   
 Šioje iliustracijoje pavaizduotas rodinys prieš sukuriant pasirinktinius kainoraščius.
 
-![Prieš pasirinktinius kainoraščius](media/before-custom-price-lists-13.png)
+![Prieš pasirinktinius kainoraščius.](media/before-custom-price-lists-13.png)
 
 Šioje iliustracijoje pavaizduotas rodinys sukūrus pasirinktinius kainoraščius.
 
-![Po pasirinktinių kainoraščių](media/after-custom-price-lists-14.png)
+![Po pasirinktinių kainoraščių.](media/after-custom-price-lists-14.png)
 
 > [!NOTE]
 > Spustelėjus **Kurti pasirinktines kaina** gali tekti šiek tiek palaukti, kol bus sukurtas pasirinktinis kainoraštis. Rekomenduojame atnaujinti tinklelį, o ne spustelėti kelis kartus. Pasirinktinis kainoraštis sukurtas, jei prie susieto kainoraščio pavadinimo pridėtas pasiūlymo pavadinimas arba projekto sutarties pavadinimas.

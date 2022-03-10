@@ -2,11 +2,9 @@
 title: Išplėstinių atsiskaitymo sutarčių kūrimas atsižvelgiant į eigą
 description: Šioje temoje paaiškinama, kaip kurti projektų sutartis, kad galėtumėte generuoti klientų sąskaitas faktūras remdamiesi atlikto darbo procentine dalimi.
 author: RadhikaRS
-manager: AnnBe
 ms.date: 03/26/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 1a83785a9db4dffc4585acf11ef971c08594f312
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 661e8aa0be70e9c8aadcb3a3d9dd6d39d1bcb2fd55d198b3c9af19fc2d0ae9d3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080965"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000991"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Išplėstinių atsiskaitymo sutarčių kūrimas atsižvelgiant į eigą
 [!include [banner](../includes/banner.md)]
@@ -103,3 +101,6 @@ Biudžeto kategorijos naudojamos norint automatiškai apskaičiuoti sąskaitos f
 8. Pasirinktinai: atsiskaitymo taisyklę priskirkite papildomiems projektams. „FastTab“ **Projektas** skyriuje **Esami projektai** pasirinkite projektą, tada pasirinkite dešiniosios rodyklės mygtuką norėdami įtraukti projektą į skyrių **Pasirinkti projektai**.
 9. Pasirinktinai: apskaičiuokite procentinę sumą, kurią klientas atšaukia iš sąskaitos faktūros mokėjimų. „FastTab“ **Mokėjimo sulaikymo sąlygos** pasirinkite finansavimo šaltinį, tada lauke **Sulaikymo procentinė dalis** įveskite sulaikymo procentinę dalį.
 10. Norėdami sukurti papildomas projekto sutarties atsiskaitymo taisykles, pakartokite šiuos veiksmus.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

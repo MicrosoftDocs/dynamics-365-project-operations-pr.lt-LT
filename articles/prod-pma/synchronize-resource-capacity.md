@@ -2,11 +2,9 @@
 title: Išteklių pajėgumo sinchronizavimas
 description: Šioje temoje pateikta informacija, kaip sinchronizuoti ištekliaus pajėgumą kalendoriuose ir projektuose.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e6b63ccb5b0f04dedb8a942e22d6e1993204dc20
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 5f2e9b8e189be0594569e14ebc41c6ed452afd10aba34ea1397b3e3f66cd2e96
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288575"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005626"
 ---
 # <a name="synchronize-resource-capacity"></a>Išteklių pajėgumo sinchronizavimas
 
@@ -31,7 +29,7 @@ ms.locfileid: "5288575"
 
 Išteklių sinchronizavimo procesai padeda užtikrinti, kad kalendoriaus ir pagrindinio kalendoriaus informacija naudojama planuojant projekto išteklius. Jei pakeičiamas kalendorius, procesai atlieka reikiamus projekto išteklių planavimo atnaujinimus. Procesai taip pat padeda gerinti efektyvumą, nes kalendoriaus išteklių informacija sinchronizuojama iš anksto. Todėl išteklių planavimo informacija atnaujinama greičiau. Rekomenduojame planuoti procesus kaip paketą, o ne po vieną. Priešingu atveju kyla pavojus, kad kas nors pamirš įtraukti paskutinį kartą sinchronizuotos informacijos datas. Jei paskutinį kartą nurodytos datos nebus naudojamos, sinchronizuojant datas gali atsirasti tarpų.
 
-![Kalendoriaus sinchronizavimas](./media/projectresourcing04-1024x471.jpg)
+![Kalendoriaus sinchronizavimas.](./media/projectresourcing04-1024x471.jpg)
 
 ## <a name="synchronize-resource-capacity-roll-ups"></a>Išteklių pajėgumų sumavimų sinchronizavimas
 
@@ -48,7 +46,7 @@ Rekomenduojame naudoti paketą. Šios parinktys yra pasiekiamos pajėgumų rezer
     | Pradžios data  | Įveskite išteklių pajėgumų sumavimų sinchronizavimo proceso pradžios datą. |
     | Pabaigos data    | Įveskite išteklių pajėgumų sumavimų sinchronizavimo proceso pabaigos datą. |
 
-[![Sinchronizavimo procesas](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+[![Sinchronizavimo procesas.](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

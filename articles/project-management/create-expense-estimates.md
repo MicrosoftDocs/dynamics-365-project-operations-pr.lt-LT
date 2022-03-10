@@ -1,28 +1,22 @@
 ---
-title: Išlaidų sąmatos
+title: Projektų finansiniai išlaidų įvertinimai
 description: Šioje temoje pateikta informacija apie projektu pagrįstų išlaidų nustatymą arba vertinimą.
-author: ruhercul
-manager: Annbe
-ms.date: 10/01/2020
+author: rumant
+ms.date: 03/19/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
-ms.author: ruhercul
-ms.openlocfilehash: 3f0429366c69346113003355679c055cd2c74ca3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.author: rumant
+ms.openlocfilehash: f4d42724af61aa241671e8dacacbe2be5a7d531f55c2025a89ff777ac41e9b67
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287068"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987851"
 ---
-# <a name="expense-estimates"></a>Išlaidų sąmatos
+# <a name="financial-estimates-for-expenses-on-projects"></a>Projektų finansiniai išlaidų įvertinimai
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
-Kartu su ištekliais pagrįstų įvertinimų nustatymu, programoje „Dynamics 365 Project Operations“ projekto vadovai gali apibrėžti kiekvieno projekto projektu pagrįstas išlaidas. Kiekvienas išlaidų elementas gali būti susietas su konkrečia projekto užduotimi arba išlaidų kategorija. Išlaidų kategorijos paprastai apibrėžiamos organizaciniu lygiu. Kiekvienos išlaidų kategorijos kainodara paprastai apibrėžiama šioje hierarchijoje:
-
-- Organizacija
-- Klientas
-- Pasiūlymas / sutartis
+Programoje „Dynamics 365 Project Operations“ projektų vadovai kiekvienam projektui arba užduočiai gali nustatyti projektu pagrįstas išlaidas. Kiekvieną išlaidų elementą galima susieti su konkrečia projekto užduotimi. Išlaidos skirstomos į skirtingas išlaidų kategorijas, apibrėžtas organizacijos lygiu. Kiekvienos išlaidų kategorijos kainos ir įkainojimas apibrėžiamas kainoraštyje. 
 
 Atlikite šiuos veiksmus norėdami peržiūrėti, įtraukti arba panaikinti projekto išlaidas.
 
@@ -30,14 +24,20 @@ Atlikite šiuos veiksmus norėdami peržiūrėti, įtraukti arba panaikinti proj
 2. Pažymėkite skirtuką **Projektų sąmatos** ir peržiūrėkite projekto išlaidų sąrašą.
 3. Pažymėkite **Naujos išlaidos** ir įtraukite išlaidas. Arba pažymėkite išlaidas, kurias norite panaikinti, o tada pasirinkite **Naikinti išlaidas**.
 
-Kiekvienam išlaidų eilutės elementui nustatomi šie atributai:
+Šioje lentelėje pateikiama informacija apie projekto laukus dalyje **Išlaidų įvertinimo eilutė**. 
 
-- **Kategorija**: bendrosios grupės, naudojamos visoms išlaidoms, patirtoms projekto metu, aprašyti.
-- **Pradžios data**: data, kada išlaidas numatoma patirti.
-- **Kiekis**: numatomas tam tikros kategorijos išlaidų elementų skaičius.
-- **Vieneto savikaina**: vieneto kaina, naudojama išlaidų kainai apskaičiuoti.
-- **Vieneto pardavimų kaina**: vieneto kaina, naudojama išlaidų pardavimų kainoms apskaičiuoti.
-
+| **Laukas** | **Aprašas** | **Tolesnis poveikis** |
+| --- | --- | --- |
+| Užduotis | Projekto užduočių sąrašas. Pateikiama suvestinė ir lapo mazgo užduotys. | Pasirinkus išlaidų įvertinimo eilutės užduotį, bus paveikta užduoties įvertintų išlaidų savikaina ir įvertintas išlaidų pardavimas. Jei šis laukas bus paliktas tuščias, išlaidų įvertinimas bus sekamas ir apibendrinamas tik projekto lygiu. |
+| Kategorija. | Sąrašas operacijos kategorijų, kurių išlaidų kategorijos susietos programoje. | Pasirinkus kategoriją, išlaidų įvertinimo eilutėje kuriama kainodara ir įkainojimas. |
+| Pradžios data | Prognozuojama išlaidų atsiradimo data. | Nėra jokio tolesnio šio lauko poveikio. |
+| Vienetų grupė | Numatytoji šio lauko reikšmė gaunama iš vienetų grupės, pasirinktoje kategorijoje nustatytos numatytąja. Šį lauką galite atnaujinti, kad būtų galima pasirinkti kitą vienetų grupę. | Nėra jokio tolesnio šio lauko poveikio. |
+| Vienetas | Šio lauko reikšmei nustatomas pasirinktos kategorijos numatytasis vienetas. Šį lauką galite atnaujinti, kad būtų galima pasirinkti kitą vienetą. | Pakeitus vienetą, nustatoma kita numatytoji vieneto kaina ir savikaina. |
+| Kiekis | Įvertintų išlaidų, kurių bus patirta, kiekis. | Nėra jokio tolesnio šio lauko poveikio. |
+| Vieneto savikaina | Pasirinktos kategorijos savikainos ir vieneto derinys, nustatytas taikomame savikainos kainoraštyje | Vieneto savikaina visada rodoma projekto savikainos valiuta. |
+| Vieneto kaina | Pasirinktos kategorijos kainos ir vieneto derinys, nustatytas taikomame pardavimo kainoraštyje. | Vieneto kaina visada rodoma projekto pardavimo valiuta. |
+| Bendroji savikaina | Savikainos suma, apskaičiuojama kaip vieneto \* kiekio savikaina.| Savikainos suma visada rodoma projekto savikainos valiuta. |
+| Bendrasis pardavimas | Pardavimo suma, apskaičiuojama kaip vieneto \* kiekio kaina. | Pardavimo suma visada rodoma projekto pardavimo valiuta. |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

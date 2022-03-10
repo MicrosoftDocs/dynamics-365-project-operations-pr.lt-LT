@@ -2,12 +2,10 @@
 title: „Project Service Automation“ 3.x nebenaudojami žiniatinklio ištekliai
 description: Šioje temoje aprašomi žiniatinklio ištekliai, kurie nebenaudojami „Dynamics 365 Project Service Automation“ 3.0 versijoje.
 author: makk
-manager: rchawla
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/14/2018
 ms.topic: article
-ms.service: business-applications
 ms.author: makk
 audience: admin
 search.audienceType:
@@ -16,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b60c5cf8d5b7cd891218faf71de6187a3b8ea85e
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: e0ec1e01094ad4ec9deebc9bf0e9d3e197c16e2b03e6393f9dda7df97e7f1921
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284728"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988931"
 ---
 # <a name="deprecated-web-resources-in-project-service-automation-3x"></a>„Project Service Automation“ 3.x nebenaudojami žiniatinklio ištekliai
 

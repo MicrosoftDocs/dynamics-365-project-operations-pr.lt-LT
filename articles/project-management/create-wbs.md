@@ -2,18 +2,16 @@
 title: Darbo paskirstymo struktūros kūrimas
 description: Šioje temoje paaiškinta, kaip kurti darbo paskirstymo struktūrą (WBS), įskaitant naujos planavimo sąsajos pagrindinius valdiklius.
 author: ruhercul
-manager: tfehr
-ms.date: 01/07/2021
+ms.date: 12/16/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d7fa645e78d2206e333d9f85fcec0f7a9c213c23
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
+ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841373"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7928625"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Darbo paskirstymo struktūros (WBS) kūrimas
 
@@ -93,13 +91,15 @@ Atributai **Pastangos**, **Pradžios data**, **Pabaigos data** ir **Trukmė** ap
 | Pavadinimas / vardas ir pavardė | Užduoties pavadinimas. |
 | ID | Darbo paskirstymo struktūroje esančios užduoties ID. |
 
+Kaip administratorius galite apibrėžti užduoties objekto pasirinktinius laukus. Tačiau laukų grafiko tinklelyje rodyti negalima. Norėdami peržiūrėti pasirinktinius laukus, juos įtraukite į **Projekto užduotis** išsamios informacijos puslapį.
+
 ## <a name="staffing-attributes"></a>Darbuotojų atributai
 
-Personalo atributai pasiekiami grafiko lauke **Ištekliai**. Galite ieškoti esamų išteklių arba pasirinkti **Kurti** ir skyde **Spartusis kūrimas** pridėti projekto komandos narį kaip naują išteklių.
+Personalo atributai pasiekiami grafiko lauke **Ištekliai**. Galite ieškoti esamų išteklių arba pasirinkti **Kurti** ir skyde **Spartusis kūrimas** pridėti projekto komandos narį kaip naują išteklių.  Kai ieškote ištekliaus naudodami išteklių parinkiklį užduočių tinklelyje, lentos rodinyje arba gante, ieška pateikia esamus projekto komandos narius arba aktyvius rezervuojamus išteklius.
 
 Laukai **Vaidmuo**, **Išteklių paskirstymo vienetas** ir **Padėties pavadinimas** yra naudojami apibūdinti užduoties personalo reikalavimus. Šie personalo atributai su užduočių grafiku naudojami pasiekiamiems ištekliams rasti, kad būtų galima atlikti šią užduotį.
 
-   - **Vaidmuo**: nurodykite ištekliaus, kurio reikia užduočiai atlikti, tipą.
+   - **Vaidmuo** : nurodykite ištekliaus, reikalingo užduočiai atlikti, tipą.,
    - **Išteklių paskirstymo vienetas**: nurodykite vienetą, iš kurio turėtų būti skiriami užduoties ištekliai. Šis atributas paveikia užduoties savikainos ir pardavimo įvertinimą, jei ištekliaus savikaina ir sąskaitos tarifas nustatyti pagal išteklių paskirstymo vienetus.
    - **Padėties pavadinimas**: įveskite bendrojo ištekliaus pavadinimą, kuris tarnaus kaip ištekliaus, kuris galiausiai atliks darbą, vietos rezervavimo ženklas.
 
@@ -116,3 +116,28 @@ Užduočių režimas nepaveikia naujinimų, atliktų su ankstesnėmis / priklaus
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Spartieji klavišai, pritaikyti neįgaliesiems, ir klaviatūros spartieji klavišai
 
 Tinklelis **Grafikas** yra visiškai pasiekiamas ir gali būti naudojamas su ekrano skaitytuvais, pavyzdžiui, „Narrator“, „JAWS“ ar „NVDA“. Galite judėti per tinklelio sritį naudodami rodyklių klavišus (kaip programoje „Microsoft Excel“), galite naudoti tabuliavimo klavišą, kad pasiektumėte interaktyviuosius vartotojo sąsajos elementus, o norėdami pasirinkti ir atidaryti išplečiamuosius meniu galite naudoti rodyklės žemyn, „Enter“ arba tarpo klavišus.
+
+## <a name="project-limitations"></a>Projekto apribojimai 
+Jei „Project Operations” naudojate darbo paskirstymo struktūrą, turite žinoti apie toliau nurodytus apribojimus. Šie apribojimai taikomi projektams ir užduotims. Daugiau informacijos žr. [„Project for the Web” apribojimai ir ribos](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+
+| **Laukas**                                          |  **Riba**           |
+|----------------------------------------------------|----------------------|
+| Maksimalus bendras projekto užduočių skaičius                  | 500                  |
+| Maksimali bendra projekto trukmė               | 3650 dienų (10 metų) |
+| Maksimalus bendras projekto išteklių skaičius              | 150                  |
+| Maksimalus bendras projekto saitų skaičius (tik vėlesnės veiklos) | 600                  |
+| Maksimalus bendras projekto pasirinktinių laukų skaičius          | 10                   |
+| Maksimalus kontrolinio sąrašo elementai pagal užduotį                   | 20                   |
+
+**Užduoties apribojimai**
+
+| **Laukas**                               |   **Riba**           |
+|-----------------------------------------|-----------------------|
+| Maksimalus hierarchijos lygis                 | 10 lygių             |
+| Maksimalus nuorodų skaičius (vėlesnės veiklos ir ankstesnės veiklos) | 20                    |
+| Maksimali lapo užduoties trukmė           | 1250 d.             |
+| Maksimali suvestinės užduoties trukmė      | 3650 dienų (10 metų)  |
+| Maksimalus užduočiai priskirtų išteklių skaičius    | 20 išteklių          |
+| Palaikomas užduoties datų diapazonas         | 2000-01-01–2149-12-31 |
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

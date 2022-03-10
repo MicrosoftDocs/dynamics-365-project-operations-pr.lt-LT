@@ -2,18 +2,17 @@
 title: SF išrašymo proceso apžvalga
 description: Šioje temoje pateikiama SF išrašymo proceso apžvalga naudojant „Project Operations“, skirtą išteklių / nelaikomų medžiagų scenarijams.
 author: sigitac
-manager: Annbe
 ms.date: 01/29/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9dc424cf69abfccc10bf551272a14e5cefb3dff0
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.custom: intro-internal
+ms.openlocfilehash: 804d42f7e8bfd103b9143dc0f5c7ddecdee9e66e6072c3e7bf76b2a8c549cf55
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275817"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003781"
 ---
 # <a name="invoicing-process-overview"></a>SF išrašymo proceso apžvalga
 
@@ -21,7 +20,7 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 
 „Project Operations“, skirtas išteklių / nelaikomų medžiagų scenarijams, teikia išsamių galimybių, pritaikytų projekto vadovo ir gautinų sumų tarnautojo / projekto apskaitininko poreikiams. SF išrašymo proceso atveju projekto vadovas valdo projektų atsiskaitymo nebaigtas užduotis, o gautinų sumų tarnautojas / projekto apskaitininkas sukuria suderinamą ir tikslų kliento sąskaitų faktūrų dokumentą.
 
-![SF išrašymo srauto diagrama](./media/invoicing-flow.png)
+![SF išrašymo srauto diagrama.](./media/invoicing-flow.png)
 
 Projekto sutarties eilutė apibrėžia susietų projekto operacijų sąskaitų išrašymo būdą. Kai projekto vadovas patvirtina laiko ir išlaidų operacijas, sistema įrašo operacijas objekte **Projekto faktiniai duomenys** ir siunčia informaciją į „Dynamics 365 Finance“ modulį **Projekto valdymas ir apskaita**. Tada projekto apskaitininkas peržiūri ir užregistruoja įrašus naudodamas [„Project Operations“ integravimo žurnalą](../project-accounting/project-operations-integration-journal.md). Šiame žurnale pateikiama svarbi projekto faktinių duomenų apskaitos informacija, pvz., atsiskaitymas, PVM grupė, atsiskaitymo prekių PVM grupė ir finansinės dimensijos.
 

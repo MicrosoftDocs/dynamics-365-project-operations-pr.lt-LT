@@ -2,12 +2,10 @@
 title: SF išrašymas programoje „Project Service Automation“
 description: Šioje temoje pateikta informacija apie sąskaitų faktūrų išrašymą.
 author: rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/03/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0855e85c1f09d29d3ecb49ba517fd3043ae11140
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 58259c05939cfe870ce5e36b4a0221cd93b8e8d2b4be582efc9167e82579699e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151398"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985511"
 ---
 # <a name="invoicing-in-project-service-automation"></a>SF išrašymas programoje „Project Service Automation“
 
@@ -52,7 +50,7 @@ Atlikite šį žingsnį, kad sukurtumėte konkrečios projekto sutarties sąskai
 
 - **Projekto sutarčių** sąrašo puslapyje atidarykite projekto sutartį ir pažymėkite **Kurti sąskaitą faktūrą**.
 
-    ![Projekto sąskaitų faktūrų kūrimas konkrečiai projekto sutarčiai](media/CreateProjectInvoicesOneByOne.png)
+    ![Projekto sąskaitų faktūrų kūrimas konkrečiai projekto sutarčiai.](media/CreateProjectInvoicesOneByOne.png)
 
     Sąskaita faktūra sugeneruojama visoms pasirinktos projekto sutarties operacijoms, kurių būsena yra **Parengta išrašyti sąskaitą faktūrą**. Į šias operacijas įtrauktos laiko, išlaidų, etapų ir produktu pagrįstos sutarties eilutės.
 
@@ -60,7 +58,7 @@ Atlikite šiuos veiksmus, kad sukurtumėte sąskaitas faktūras dideliais kiekia
 
 1. **Projekto sutarčių** sąrašo puslapyje pažymėkite vieną ar kelias projekto sutartis, kurioms turite sukurti sąskaitą faktūrą, o tada pažymėkite **Kurti projekto sąskaitas faktūras**.
 
-    ![Projekto sąskaitų faktūrų kūrimas dideliais kiekiais](media/CreateProjectInvoicesBulk.png)
+    ![Projekto sąskaitų faktūrų kūrimas dideliais kiekiais.](media/CreateProjectInvoicesBulk.png)
 
     Įspėjamasis pranešimas informuoja, kad sąskaitų faktūrų sukūrimas gali užimti laiko. Taip pat rodomas procesas.
 
@@ -117,3 +115,6 @@ Patvirtinus koreguojamąją sąskaitą faktūrą, pradinis faktinis pardavimas, 
 
 - Šešių valandų faktinis pardavimas, už kurį išrašyta sąskaita.
 - Likusių dviejų valandų faktinis pardavimas, už kurį neišrašyta sąskaita. Šiai operacijai vėliau galima išrašyti sąskaitą arba pažymėti ją kaip neapmokestinamąją, atsižvelgiant į derybas su klientu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Užbaigimo išlaidų apskaičiavimo metodai
 description: Šioje temoje pateikta informacija apie metodus, naudojamus norint apskaičiuoti išlaidas projektui užbaigti.
 author: sigitac
-manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 837cb3abe33e6e74087b8aae8b072bf4a21dc933
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: fe42ea0e1a5c562ec648fbf2a2924648af80381b9db8ffe0c209cb5247bb2ba2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279058"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997976"
 ---
 # <a name="cost-to-complete-methods"></a>Užbaigimo išlaidų apskaičiavimo metodai
 

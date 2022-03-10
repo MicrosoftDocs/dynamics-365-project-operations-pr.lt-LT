@@ -2,18 +2,16 @@
 title: Kainoraščių nustatymas
 description: Šioje temoje pateikta informacija, kaip nustatyti savikainos ir pardavimo kainoraščius.
 author: rumant
-manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 34ee7bb157426507ec7ca8c031f5cb552e85099b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 227e9a6f0ce6fd3fa1c2b0bd9afa014a3ec4f9758ead0dfb408156535692575c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275503"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009496"
 ---
 # <a name="set-up-price-lists"></a>Kainoraščių nustatymas
 

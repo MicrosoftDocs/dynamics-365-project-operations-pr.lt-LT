@@ -2,11 +2,9 @@
 title: Išlaidų ataskaitos publikavimas
 description: Šioje temoje aiškinama, kaip paskelbti išlaidų ataskaitą DK.
 author: saraschi2
-manager: AnnBe
 ms.date: 02/26/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvPerDiems
 audience: Application User
@@ -16,16 +14,14 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d008ef8dd55550431fbb9e329cd7d9428a08831
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: e6df49bb6831b08611b05e02bbb1a5a2a80a34193497e3020ccddd5370cf37a4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080982"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993026"
 ---
 # <a name="post-an-expense-report"></a>Išlaidų ataskaitos publikavimas
-
-[!include [banner](../includes/banner.md)]
 
 Kai išlaidų ataskaita buvo patvirtinta ir perkelta į bendrąjį žurnalą, ją galima paskelbti DK. Kai registruojate išlaidų ataskaitą, nustatomos išlaidos, atitinkančios pridėtinės vertės mokesčio (PVM) susigrąžinimo reikalavimus. PVM mokėjimų tikrinimo ir susigrąžinimo užduotis priskiriama darbuotojui, atsakingam už išlaidų ataskaitos tikrinimą.
 
@@ -34,3 +30,6 @@ Jei išlaidų ataskaitoje išlaidos priskirtos kitai įmonei, o ne darbuotoją �
 Norėdami užregistruoti išlaidų ataskaitą puslapyje **Patvirtintos išlaidų ataskaitos** pažymėkite išlaidų ataskaitą, tada veiksmų srityje pasirinkite **Paskelbti**.
 
 Tuo pačiu metu galite paskelbti visas sąrašo išlaidų ataskaitas. Pažymėkite visas išlaidų ataskaitas, tada pasirinkite **Paskelbti**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

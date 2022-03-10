@@ -2,8 +2,6 @@
 title: Pridėti išteklius
 description: Išteklių įtraukimas „Project Service“
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e7b088ce2718901ab5af953f5fa1094188a4c954
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: ea45dad7917df21081e777b2a88f33d85b63d18cb86749ba62a24dfdf48bd939
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129509"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005266"
 ---
 # <a name="add-resources-project-service"></a>Išteklių įtraukimas („Project Service“)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -53,3 +53,6 @@ Išteklius galite priskirti organizaciniams vienetams, jei skirtingų įmonės p
   
 ### <a name="see-also"></a>Taip pat žr.  
  [Rezervuojamų išteklių nustatymas](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

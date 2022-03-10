@@ -2,18 +2,16 @@
 title: Saugos modelis
 description: Šioje temoje pateikiama informacijos apie „Dynamics 365 Project Operations“ saugos modelį.
 author: stsporen
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 3f65d13809fef342be8bec682c11d95c4d9e9b19
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2f283771921504dc29ddcc26ca659d4e151598840339bd8c1a857e8bf5dde9ed
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276808"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991496"
 ---
 # <a name="security-model"></a>Saugos modelis
 
@@ -58,9 +56,9 @@ Naudojant grupes galima bendrai dirbti su projekto teisėmis ir palaikomais bend
 
 „Project Operations“ grupė nesukuriama atliekant netiesioginį veiksmą – grupė sukuriama tiesiogiai paspaudus grupes.
 
-Dialogo lange **Grupės valdymas** galima ieškoti tik grupės narių, kurie nustatyti kaip priklausantys aplinkos saugos grupei. Daugiau informacijos žr. [Vartotojų prieigos prie aplinkos valdymas: saugos grupės ir licencijos](https://docs.microsoft.com/power-platform/admin/control-user-access).
+Dialogo lange **Grupės valdymas** galima ieškoti tik grupės narių, kurie nustatyti kaip priklausantys aplinkos saugos grupei. Daugiau informacijos žr. [Vartotojų prieigos prie aplinkos valdymas: saugos grupės ir licencijos](/power-platform/admin/control-user-access).
 
-![Grupės režimas](./media/groupsmode.png)
+![Grupės režimas.](./media/groupsmode.png)
 
 1. Projektą sukuria vartotojas ir jis priklauso projektą sukūrusiam vartotojui.
 2. Projekto savininkas atnaujinamas komandoje.
@@ -70,7 +68,7 @@ Dialogo lange **Grupės valdymas** galima ieškoti tik grupės narių, kurie nus
 ## <a name="deployment-recommendation"></a>Visuotinio diegimo rekomendacija
 „Office“ grupių bendradarbiavimo modelis nuolat tobulinamas, todėl laikui bėgant bus įtraukta naujų funkcijų, užtikrinančių tikslesnę kontrolę. Klientai, kurie diegia „Project Operations“ šiandien, skatinami sutelkti dėmesį į įprastą „Microsoft Dynamics 365“ saugos modelį.
 
-Norėdami gauti daugiau informacijos žr. [Sauga sistemoje „Common Data Service“](https://docs.microsoft.com/power-platform/admin/wp-security).
+Norėdami gauti daugiau informacijos žr. [Sauga sistemoje „Common Data Service“](/power-platform/admin/wp-security).
 
 ## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>„Project Operations“ ir „Microsoft Dynamics 365 Finance“ sauga
 „Project Operations“ apima toliau nurodytus vaidmenis:
@@ -78,7 +76,7 @@ Norėdami gauti daugiau informacijos žr. [Sauga sistemoje „Common Data Servic
 - Projekto vadovas
 - Projekto apskaitininkas
 
-Norėdami gauti daugiau informacijos apie „Finance“ saugą žr. [Vaidmenimis pagrįsta sauga](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
+Norėdami gauti daugiau informacijos apie „Finance“ saugą žr. [Vaidmenimis pagrįsta sauga](/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
 
 
 

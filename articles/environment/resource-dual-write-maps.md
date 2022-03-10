@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b24a20d47eefa43b2e4e184a377decdb280d436d
-ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
+ms.openlocfilehash: 452f9f16bfbae2d547afb9fcf4fc51595ea49890
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025784"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547119"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>„Project Operations“ dvigubo rašymo schemos versijos
 
@@ -32,7 +32,7 @@ Toliau nurodytos schemos yra būtinieji sprendimo „Project Operations“ kompo
 
 1. Schemų sąraše pasirinkite Didžioji knyga **(msdyn\_ledgers)** schemą su visomis būtinosiomis sąlygomis ir pažymėkite žymės langelį **Pradinis sinchronizavimas**. Tiek didžiosios knygos schemos, tiek visų būtinųjų schemų lauke **Pradinio sinchronizavimo šablonas** pasirinkite **„Finance and Operations“ programos**. Pasirinkite **Vykdyti**.
 
-![Didžiosios knygos struktūros sinchronizavimas](media/DW6.png)
+![Didžiosios knygos struktūros sinchronizavimas.](media/DW6.png)
 
 2. Tuos pačius veiksmus atlikite su visomis likusiomis lentelių schemomis, išvardytomis pirmiau pateiktoje lentelėje. Paleisdami šias schemas nepažymėkite žymės langelio **Pradinis sinchronizavimas**.
 
@@ -49,8 +49,8 @@ Toliau nurodytos schemos yra reikalingos naudojant sprendimą „Project Operati
 | „Project Operations“ integravimo lentelė, skirta medžiagų įvertinimams (msdyn\_estimatelines) | 1.0.0.0 | Konfigūruojant naudoti nebūtina. |
 | Projekto sąskaitų faktūrų pasiūlymai V2 (sąskaitos faktūros) | 1.0.0.3 | Konfigūruojant naudoti nebūtina. |
 | „Project Operations“ integravimo faktiniai duomenys (msdyn_actuals) | 1.0.0.14 | Konfigūruojant naudoti nebūtina. |
-| „Project Operations“ integravimo sutarties eilučių etapai (msdyn_contractlinesscheduleofvalues) | 1.0.0.4 | Konfigūruojant naudoti nebūtina. |
-| „Project Operations“ integravimo objektas, skirtas išlaidų įvertinimams (msdyn_estimateslines) | 1.0.0.2 | Konfigūruojant naudoti nebūtina. |
+| „Project Operations“ integracijos sutarties eilučių etapai (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Konfigūruojant naudoti nebūtina. |
+| „Project Operations“ integracijos objektas, skirtas išlaidoms įvertinti (msdyn_estimatelines) | 1.0.0.2 | Konfigūruojant naudoti nebūtina. |
 | „Project Operations“ integravimo objektas, skirtas valandų įvertinimams (msdyn_resourceassignments) | 1.0.0.5 | Konfigūruojant naudoti nebūtina. |
 | „Project Operations“ integracijos projekto išlaidų kategorijų eksportavimo objektas (msdyn_expensecategories) | 1.0.0.1 | Konfigūruojant naudoti nebūtina. |
 | „Project Operations“ integravimo projekto išlaidų eksportavimo objektas (msdyn_expenses) | 1.0.0.2 | Konfigūruojant naudoti nebūtina. |
@@ -65,7 +65,7 @@ Norėdami paleisti išvardytas schemas, atlikite toliau nurodytus veiksmus.
 
 1. Įjunkite **visų įmonių (bookableresourcecategories)** lentelės schemos projekto išteklių vaidmenis, nes šią schemą reikia iš pradžių sinchronizuoti. Lauke **Pradinio sinchronizavimo šablonas** pasirinkite **„Common Data Service“**. 
 
- ![Išteklių vaidmenų lentelės schemos sinchronizavimas](media/6ResourceInitialSync.jpg)
+ ![Išteklių vaidmenų lentelės schemos sinchronizavimas.](media/6ResourceInitialSync.jpg)
 
  Prieš pereidami prie kito veiksmo palaukite, kol schemos būsena bus **Vykdoma**.
 

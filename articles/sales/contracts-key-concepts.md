@@ -2,24 +2,24 @@
 title: Projekto sutartys – pagrindinės sąvokos
 description: Šioje temoje pateikta informacija apie pagrindines projekto sutarčių sąvokas programoje „Project Operations“.
 author: rumant
-manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 24b3fcd74e4167ba419e12c890a119d22c54c99a
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: ce84984f873e6336a6d065f0aa7a72f1474404a84d3dbb614c09d58bff66d83d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175541"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986951"
 ---
-# <a name="project-contracts---key-concepts"></a>Projekto sutartys – pagrindinės sąvokos
+# <a name="concepts-unique-to-project-based-contracts"></a>Unikalios projektu pagrįstų sutarčių sąvokos
 
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
-Šioje temoje pateikiamos pagrindinės sąvokos, kurias reikia žinoti prieš pradedant naudoti projekto sutartis programoje „Dynamics 365 Project Operations“.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Šioje temoje pateikiamos pagrindinės sąvokos, kurias reikia žinoti prieš pradedant naudoti projektų sutartis programoje „Dynamics 365 Project Operations“:
 
 ## <a name="owning-company"></a>Įmonė, kuriai priklauso
 
@@ -86,3 +86,6 @@ Sąskaitos faktūros grafikai taikomi kiekvienai konkrečiai sutarties eilutei i
 ## <a name="changes-from-dynamics-365-sales-orders"></a>Pasikeitimai iš „Dynamics 365 Sales“ pasiūlymų
 
 „Project Operations“ sutartys kuriamos „Dynamics 365 Sales“ užsakymuose. Tačiau yra svarbių funkcijų skirtumų. Sutartys turi savus formos ir UI elementus, verslo taisykles, verslo logiką papildiniuose ir kliento scenarijus, kuriais jos ir skiriasi nuo užsakymų. Dėl šių priežasčių „Sales“ užsakymo ir „Project Operations“ sutarties apkeisti vietomis negalima.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

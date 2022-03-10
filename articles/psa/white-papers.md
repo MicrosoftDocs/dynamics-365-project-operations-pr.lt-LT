@@ -2,8 +2,6 @@
 title: „Project Service Automation“ techninė dokumentacija
 description: „Project Service“ techninės dokumentacijos rinkinys
 author: kfend
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 34018fb918b3d97d4f44b2f9b6f4296f38afa0ac
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: b8940313d122ac8c47488b08a28b38b6744bf33cdfaf1b904ba184bd9956c369
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118618"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004186"
 ---
 # <a name="white-papers-for-project-service"></a>„Project Service“ techninė dokumentacija
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Ši techninė dokumentacija skirta teikti išsamią informaciją apie [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] project service automation.
 
@@ -43,3 +43,6 @@ ms.locfileid: "4118618"
 
 ### <a name="see-also"></a>Taip pat žr.
  [„Project Service“ apžvalga](../psa/overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

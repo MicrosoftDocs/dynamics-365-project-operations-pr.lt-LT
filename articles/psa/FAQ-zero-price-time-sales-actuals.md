@@ -2,8 +2,6 @@
 title: Kodėl numatytoji faktinių pardavimo laiko duomenų kaina nustatoma kaip nulis?
 description: Trikčių šalinimas klausimu kodėl numatytoji faktinių pardavimo laiko duomenų kaina nustatoma kaip 0.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cfb359b4ebd7c1a7a70ffdc2c47cf6291c797566
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 2df4ce2d6391e70fea8e8f15c1b5774c9a9bfbe5f5ef2e6d8da8668afd34d4c9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285763"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992576"
 ---
 # <a name="why-is-price-defaulting-to-zero-on-time-sales-actuals"></a>Kodėl numatytoji faktinių pardavimo laiko duomenų kaina nustatoma kaip nulis?
 

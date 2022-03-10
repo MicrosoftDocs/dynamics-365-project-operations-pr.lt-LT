@@ -2,11 +2,9 @@
 title: „Project Service Automation“ integravimo parametrai
 description: Šioje temoje paaiškinama, kaip konfigūruoti numatytųjų duomenų įvedimą, kai integruojate „Microsoft Dynamics 365 for Project Service Automation“ į „Microsoft Dynamics 365 Finance“.
 author: ruhercul
-manager: AnnBe
 ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 1a0cee090e0ecb306aa3bda62c79a57dfade93c0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: b58f34cb74be531a98518100158f39d74f136afc34444468d666cd4e9394af6f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080976"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005851"
 ---
 # <a name="project-service-automation-integration-parameters"></a>„Project Service Automation“ integravimo parametrai
 
@@ -47,3 +45,6 @@ Norėdami atidaryti puslapį **„Project Service Automation“ integravimo para
 | Atsiskaitymo tipo numatytosios reikšmės  | Atsiskaitymo tipas         | Spustelėkite **Nauja**, jei norite įtraukti eilutę, kurioje galite pasirinkti atsiskaitymo tipą ir nustatyti numatytąją eilutės ypatybę. Konfigūruojant, konkretų atsiskaitymo tipą galima pasirinkti tik vieną kartą. |
 |                        | Eilutės ypatybė        | Pažymėkite pasirinkto atsiskaitymo tipo numatytąją eilutės ypatybę. Kai nauji valandų įvertinimai, nauji išlaidų įvertinimai arba nauji faktiniai duomenys sinchronizuojami iš „Project Service Automation“, lauke **Eilutės ypatybė** nustatoma numatytoji atsiskaitymo tipo reikšmė. |
 | Funkcijų blokavimas  | Netaikoma       | Pažymėkite funkcijas, kurias norite išjungti „Finance“ projektuose ir sutartyse, kilusiuose iš „Project Service Automation“. Pavyzdžiui, galite išjungti galimybę redaguoti sutartis ir projektus, kurti darbo paskirstymo struktūras ir įvesti laiko grafikus naudojant „Finance“. Su apskaita susiję laukai liks įjungti, net jei jie taptų nepasiekiami dėl nustatyto parametro. Pagal numatytuosius nustatymus įjungtos visos funkcijos. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

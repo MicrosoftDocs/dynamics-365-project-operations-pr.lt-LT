@@ -1,36 +1,50 @@
 ---
-title: Išteklių įvertinimai
-description: Šioje temoje pateikta informacija apie tai, kaip „Project Operations“ nustatomi išteklių įvertinimai.
-author: ruhercul
-manager: Annbe
-ms.date: 10/01/2020
+title: Projektų išteklių laiko finansiniai įvertinimai
+description: Šioje temoje pateikiama informacija apie tai, kaip apskaičiuojami finansiniai laiko įvertinimai.
+author: rumant
+ms.date: 03/19/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
-ms.author: ruhercul
-ms.openlocfilehash: 454b8931db53739a7bc19364911109802a1ed087
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.author: rumant
+ms.openlocfilehash: e4be4c8087005ae66a54d40ac88017df591c56eca64f04b00cf34b0e5a8a09ce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127380"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998696"
 ---
-# <a name="resource-estimates"></a>Išteklių įvertinimai
+# <a name="financial-estimates-for-resource-time-on-projects"></a>Projektų išteklių laiko finansiniai įvertinimai
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
-Išteklių įvertinimai pateikiami remiantis laikotarpių pastangomis, apibrėžtomis darbo paskirstymo struktūroje, ir atitinkamomis kainų dimensijomis. Paprastai skaičiuojama pagal tokią formulę: **kiekvieno vaidmens valandinis įkainis x val.** Kiekvienos ištekliaus laikotarpio pastangų duomenys įrašomi ištekliaus priskyrimo įraše. Kainų duomenys laikomi iš anksto apibrėžtame kainoraštyje. Vienetų konvertavimas atliekamas pagal taikomą kainoraštį.
+Finansiniai laiko įvertinimai apskaičiuojami remiantis trimis toliau nurodytais veiksniais. 
 
-![Išteklių įvertinimai](./media/navigation12.png)
+- Bendrojo arba įvardytojo komandos nario, priskirto kiekvienam projekto plano lapo mazgui, tipas. 
+- Darbo tipas arba sudėtingumas.
+- Užduoties išteklių priskyrimo pastangų paskirstymas. 
+
+Nuo pirmųjų dviejų veiksnių priklauso vieneto savikaina arba ištekliaus priskyrimo sąskaitų tarifas. Išteklių priskyrimo vieneto savikaina arba sąskaitos tarifas nustatomas remiantis priskirtų išteklių atributais. Šie atributai apima organizacinį vienetą, kuriam išteklius priklauso, ir standartinį išteklių vaidmenį. Taip pat galite įtraukti pasirinktinių atributų, susijusių su jūsų verslu dėl išteklių, pvz., standartinį pavadinimą ar patirties lygį, ir nustatyti, kad jie darytų įtaką priskyrimo vieneto savikainai arba pardavimo tarifui.
+Be išteklių atributų, darbo atributai, pvz., užduotis, taip pat gali turėti įtakos priskyrimo vieneto pardavimo tarifui arba savikainos tarifui. Pavyzdžiui, kai tam tikros užduotys yra sudėtingesnės, priskyrus išteklių prie konkrečių užduočių vieneto savikaina arba pardavimo tarifas tampa didesnis už ne tokių sudėtingų užduočių vieneto savikainą arba pardavimo tarifą.   
+
+Trečias veiksnys susijęs su valandų pagal tam tikrą tarifą kiekiu. Tais atvejais, kai užduotis apima du kainų laikotarpius, greičiausiai bus įkainota pirma tos užduoties išteklių priskyrimo dalis, o jos kaina skirsis nuo antros užduoties dalies. Kiekvieno išteklių priskyrimo pastangų įvertinimas yra sudėtinė reikšmė, išsaugoma kartu su pastangų paskirstymo kiekvienai dienai rodikliu.
+
+Išsamias instrukcijas, kaip pasirinktinius darbo ir išteklių atributus nustatyti kaip kainodaros ir įkainojimo dimensijas, žr. [Kainodaros dimensijų apžvalga](../pricing-costing/pricing-dimensions-overview.md).
+
+Kiekvieno išteklių priskyrimo finansinis įvertinimas apskaičiuojamas kaip **tarifas/val., o priskyrimas padaugintas iš valandų skaičiaus.**  Nors ir panašus į pastangų įvertinimą, finansinis kiekvieno išteklių priskyrimo savikainos ir pajamų įvertinimas yra sudėtinė reikšmė, išsaugoma kartu su piniginės sumos paskirstymo kiekvienai dienai rodikliu. 
+
+## <a name="summarizing-financial-estimates-for-time"></a>Laiko finansinių reikšmių apibendrinimas
+Finansinis laiko įvertinimas lapo mazgo užduotyje – tai visų išteklių priskyrimų tai užduočiai finansinių įvertinimų suma.
+
+Finansinis laiko įvertinimas apibendrinimo arba pirminėje užduotyje – tai visų antrinių užduočių finansinių įvertinimų suma. Tai numatoma projekto darbo savikaina. 
+
+![Išteklių įvertinimai.](./media/navigation12.png)
 
 ## <a name="default-cost-price-and-cost-currency"></a>Numatytoji savikainos ir sąnaudų valiuta
 
-Numatytosios savikainos reikšmės pateikiamos remiantis organizaciniu vienetu.
+Numatytoji savikaina gaunama iš kainoraščių, pridėtų prie projekto sutarties vieneto. Projekto savikainos valiuta visada yra projekto sutarties vieneto valiuta. Išteklių priskyrime savikainos finansinis įvertinimas išsaugomas projekto savikainos valiuta. Kartais valiuta, kuria kainoraštyje nustatytas savikainos tarifas, skiriasi nuo projekto savikainos valiutos. Tokiais atvejais programoje valiuta, kuria nustatyta savikaina, konvertuojama į projekto valiutą. Tinklelyje **Įvertinimai** visi išlaidų įvertinimai rodomi ir apibendrinami projekto savikainos valiuta. 
 
 ## <a name="default-bill-rate-and-sales-currency"></a>Numatytasis sąskaitų tarifas ir pardavimo valiuta
 
-Pardavimo kainos taikomos vieną kartą sandoriui. Numatytojo pardavimo kainoraščio sąrašo hierarchija:
+Numatytoji pardavimo kaina gaunama iš projekto kainoraščių, pridėtų prie susijusios projekto sutarties laimėjus sandorį, arba iš susijusio projekto pasiūlymo, jei sandoris vis dar yra etape prieš parduodant. Projekto pardavimo valiuta visada yra projekto pasiūlymo arba projekto sutarties valiuta. Išteklių priskyrime pardavimo finansinis įvertinimas išsaugomas projekto pardavimo valiuta. Skirtingai nei savikaina, kainoraštyje nustatyta pardavimo kaina niekada negali skirtis nuo projekto pardavimo valiutos. Nėra scenarijaus, kuriam esant valiutą reikėtų konvertuoti. Tinklelyje **Įvertinimai** visi pardavimo įvertinimai rodomi ir apibendrinami projekto pardavimo valiuta. 
 
-1. Organizacija
-2. Klientas
-3. Pasiūlymas / sutartis
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

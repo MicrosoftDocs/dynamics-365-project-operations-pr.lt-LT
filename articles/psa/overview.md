@@ -2,10 +2,9 @@
 title: Kas yra „Dynamics 365 Project Service Automation“?
 description: „Project Service“ pristatymas ir apžvalga
 author: stsporen
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 9/23/2019
 ms.topic: article
 ms.author: ruhercul
@@ -18,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 371cfc5bc04ac0fe780400247dc1c1762ade9e21
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 06894a64e4d96ec14799b528ff17b92fbb0d36ba8fdbc9b58abb892563e822b5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284188"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000271"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>Kas yra „Dynamics 365 Project Service Automation“?
 
@@ -47,10 +46,10 @@ Be to, kad galėtumėte lengviau stebėti ir kontroliuoti projektinio darbo išl
 ## <a name="whats-new-in-psa"></a>Kas naujo programoje PSA?
 Komanda džiaugiasi galėdama pranešti apie naujausias funkcijas! Nuo vartotojo sąsajos patobulinimų, klaidų ištaisymų iki naujų funkcijų ir galimybių įtraukimo. Jūs klausėte, mes tai išgirdome.
 
-Peržiūrėkite [2019 m. spalio mėn. leidimo pastabas](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index), kad sužinotumėte apie naujausius patobulinimus bei papildymus.
+Peržiūrėkite [2019 m. spalio mėn. leidimo pastabas](/dynamics365-release-plan/2019wave2/index), kad sužinotumėte apie naujausius patobulinimus bei papildymus.
 
 ### <a name="in-development"></a>Kuriama
-Norėdami sužinoti, kokias funkcijas kursime ateityje, žr. [„Dynamics 365“: 2020 m. leidimo banga 1 planas](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index).
+Norėdami sužinoti, kokias funkcijas kursime ateityje, žr. [„Dynamics 365“: 2020 m. leidimo banga 1 planas](/dynamics365-release-plan/2020wave1/index).
 
 ## <a name="get-help-with-psa-version-3x"></a>Gaukite pagalbos PSA programos 3.x versijoje
 Ieškote išteklių, kurie padėtų suplanuoti diegimą? Peržiūrėkite šiuos atsisiunčiamus vadovus.
@@ -80,10 +79,10 @@ Ieškote išteklių, kurie padėtų suplanuoti diegimą? Peržiūrėkite šiuos 
 
  [Techninė dokumentacija (2.x arba 1.x programos versija)](../psa/white-papers.md)
 
- [Pastabos kūrėjams (2.x programos versija)](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
+ [Pastabos kūrėjams (programos 2.x versija)](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
 
  ## <a name="watch-a-2-minute-overview-video"></a>Peržiūrėkite 2 minučių apžvalgos vaizdo įrašą
- <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo")](https://go.microsoft.com/fwlink/p/?LinkId=799457)
+ <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo."](https://go.microsoft.com/fwlink/p/?LinkId=799457)
 
 
 

@@ -2,11 +2,9 @@
 title: Produktai
 description: Šioje temoje pateikta informacija apie produktų katalogą, kurį galite naudoti norėdami klientams pateikti informaciją apie produktus ir kainodarą jūsų organizacijoje.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 7116659c646b323667e3c92cb3f6de99184f5ae6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 085b7e4d9274f8c8d94d7a84109cfa782acf3dbb9241bfd25ecb8c2f329e1bb8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080933"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986861"
 ---
 # <a name="products"></a>Produktai
 
@@ -124,3 +122,6 @@ Pavyzdžiui, jei yra šios ypatybės:
 - **Produkto SKU** 
 
 Ypatybės **Vartotojų skaičius** ir **Mėnesių skaičius** gali būti pažymėtos kaip kiekio koeficientai redaguojant produkto eilutės ypatybes. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Kurti projekto galimybę
 description: Projekto galimybės kūrimas „Project Service“
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5eb9c2bdc9274edbc55e730fd844d46477cd19f4
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: fc24b0f3f6091f1a81b83d5bea61dfd2fd5a4ff6e4fdc6ec206f15460f364db1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285223"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002701"
 ---
 # <a name="create-a-project-opportunity-project-service"></a>Projekto galimybės kūrimas („Project Service“)
 
@@ -39,7 +37,7 @@ Galimybės yra realūs galimi klientai, kurie domisi jūsų paslaugų pirkimu. �
   
 3.  Srityje **Santrauka** įveskite savo galimybės įmonę ir kitą informaciją.  
   
-4.  Įtraukite kitų su šiuo galimu klientu susijusių pastabų ir veiklų (pvz., telefono skambučiai arba el. laiškai). Norėdami sužinoti daugiau apie pastabų ir veiklos įtraukimą, žr. [Pastabų, užduočių, skambučių arba el. pašto veiklos stebėjimas](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/work-with-activities).  
+4.  Įtraukite kitų su šiuo galimu klientu susijusių pastabų ir veiklų (pvz., telefono skambučiai arba el. laiškai). Norėdami sužinoti daugiau apie pastabų ir veiklos įtraukimą, žr. [Pastabų, užduočių, skambučių arba el. pašto veiklos stebėjimas](/dynamics365/customerengagement/on-premises/basics/work-with-activities).  
   
 5.  Norėdami įtraukti suinteresuotąsias šalis, srityje **Suinteresuotosios šalys** spustelėkite **+**.  
   

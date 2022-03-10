@@ -2,19 +2,17 @@
 title: „Project Operations“ naujiniai
 description: Šioje temoje pateikiama informacijos apie išleistas „Dynamics 365 Project Operations“ versijas.
 author: sigitac
-manager: Annbe
-ms.date: 12/07/2020
+ms.date: 11/15/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b90de169bd9ed2c408f1fded20a6fe95f55ce230
-ms.sourcegitcommit: 625b5244aaadff5a24a79d9addff91f87c6b015a
+ms.openlocfilehash: f5e37bc90a74e6bc9f1bf3d3820a34c3f4c3496d
+ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "5141217"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7942849"
 ---
 # <a name="project-operations-updates"></a>„Project Operations“ naujinimai
 
@@ -29,51 +27,63 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 - „Project Operations“ „Dataverse” aplinkoje apima galimybes pradedant galimybėmis ir baigiant išankstinių sąskaitų faktūrų išrašymu. „Dataverse“ yra naudojama atliekant „Project Operations“ „Lite“ versijos visuotinį diegimą ir „Project Operations”, skirtos ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams, visuotinį diegimą.
 - Projektų valdymas ir apskaita „Dynamics 365 Finance” aplinkoje apima išlaidų valdymo galimybes, projektų apskaitą ir pajamų pripažinimą. Programos „Finance and Operations” aplinka naudojama „Project Operations“, skirtos ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams ir „Project Operations“, skirtos laikomų medžiagų / gamyba pagrįstiems scenarijams.
 
+## <a name="project-operations-release-notes"></a>„Project Operations“ leidimo pastabos
+- „Project Operations“ naujausio leidimo pastabos, skirtos [ištekliais / atsargose nelaikomomis prekėmis pagrįstiems](whats-new-dec-2021-resource-based.md) scenarijams.
+- „Project Operations“ naujausio leidimo pastabos, skirtos [„Lite“ visuotinio diegimo](../pro/whats-new/whats-new-dec-2021-lite.md) scenarijams.
+- „Project Operations“ naujausio leidimo pastabos, skirtos [išteklių /  gamybos](../prod-pma/whats-new/whats-new-oct-2021-stocked.md) scenarijams.
+
 ## <a name="project-operations-latest-version"></a>„Project Operations” naujausia versija
 
-| „Project Operations“ „Dataverse“ aplinkoje | Projektų valdymas ir apskaita „Finance and Operations” programų aplinkose |
+| „Project Operations“ „Dataverse“ aplinkoje | Projektų valdymas ir apskaita „Finance and Operations” programų aplinkose | 
 | --- | --- |
-| 4.7.0.95 | 10.0.16 |
+| 4.27.0.242 | 10.0.23 |
 
-„Project Operations“ 2021 m. sausio mėn. leidimo pastabosos, skirtos [išteklių / nelaikomų medžiagų](whats-new-feb-2021-resource-based.md), [„Lite“ visuotinio diegimo](../pro/whats-new/whats-new-feb-2021-lite.md) ir [laikomų medžiagų / gamyba pagrįstiems](../prod-pma/whats-new/whats-new-jan-2021-stocked.md) scenarijams.
+Projekto operacijų išteklių / ne atsargų scenarijui rekomenduojame naudoti dvigubo rašymo "Orchestration" versiją 2.3.1.15 ar naujesnėje versijoje.
 
 ## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>Leidimo grafikas, skirtas „Project Operations” „Dataverse“ aplinkoje
 
 Naujiniai, skirti „Project Operations” „Dataverse“ aplinkoje, yra pasiekiami kas mėnesį. 
 
-| Stotis   | Regiono ID        | Dabartinė versija | Kita versija | Visuotinai pasiekiama |
-|-----------|---------------|-----------------|--------------|---------------------|
-| 1 stotis |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | Pirmasis leidimas |  4.7.0.95       | TBD     | 2021 m. vasario 19 d.           |
-| 2 stotis |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | Pietų Amerika |  4.7.0.95       | TBD     | 2021 m. vasario 19 d.           |
-|    &nbsp; | Kanada        |  4.7.0.95       | TBD     | 2021 m. vasario 19 d.           |
-|   &nbsp;  | Indija         |  4.7.0.95       | TBD     | 2021 m. vasario 19 d.           |
-|   &nbsp;  | Prancūzija         |  4.7.0.95       | TBD     | 2021 m. vasario 19 d.           |
-|   &nbsp;  | Jungtiniai Arabų Emyratai         |  4.7.0.95       | TBD     | 2021 m. vasario 19 d.           |
-| 3 stotis  |      &nbsp;   |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Japonija         |  4.7.0.95       | TBD     | 2021 m. vasario 26 d.           |
-|   &nbsp;  | Azijos ir Ramiojo vandenyno regionas  |  4.7.0.95       | TBD     | 2021 m. vasario 26 d.           |
-|   &nbsp;  | Didžioji Britanija |  4.7.0.95       | TBD     | 2021 m. vasario 26 d.           |
-|   &nbsp;  | Okeanija       |  4.7.0.95       | TBD     | 2021 m. vasario 26 d.           |
-| 4 stotis |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Europa        |  4.6.0.161       | 4.7.0.95     | 2021 m. vasario 12 d.           |
-| 5 stotis |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Šiaurės Amerika |  4.6.0.161       | 4.7.0.95     | 2021 m. vasario 19 d.           |
+| Stotis | Regiono ID | Dabartinės versijos numeris | „Lite“ visuotinio diegimo automatiniai naujinimai | Ištekliaus / ne atsargų visuotinio diegimo automatiniai naujinimai | Kitas versijos numeris | Kita visuotinai pasiekiama versija |
+|-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
+| 1 stotis |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Pirmasis leidimas         |  4.27.0.242     | Užbaigti*          | Užbaigti*           | TBD                 | 2022 m. sausio 14 d.    |
+| 2 stotis |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Pietų Amerika         |  4.27.0.242     | Užbaigta           | 2022 m. sausio 07 d.    | TBD                 | 2022 m. sausio 14 d.    |
+|   &nbsp;  | Kanada                |  4.27.0.242     | Užbaigta           | 2022 m. sausio 07 d.    | TBD                 | 2022 m. sausio 14 d.    |
+|   &nbsp;  | Indija                 |  4.27.0.242     | Užbaigta           | 2022 m. sausio 07 d.    | TBD                 | 2022 m. sausio 14 d.    |
+|   &nbsp;  | Prancūzija                |  4.27.0.242     | Užbaigta           | 2022 m. sausio 07 d.    | TBD                 | 2022 m. sausio 14 d.    |
+|   &nbsp;  | Pietų Afrika          |  4.27.0.242     | Užbaigta           | 2022 m. sausio 07 d.    | TBD                 | 2022 m. sausio 14 d.    |
+| 3 stotis |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Japonija                 |  4.27.0.242     | Užbaigta           | 2022 m. sausio 07 d.    | TBD                 | 2022 m. sausio 21 d.    |
+|   &nbsp;  | Azijos ir Ramiojo vandenyno regionas          |  4.27.0.242     | Užbaigta           | 2022 m. sausio 07 d.    | TBD                 | 2022 m. sausio 21 d.    |
+|   &nbsp;  | Didžioji Britanija         |  4.27.0.242     | Užbaigta           | 2022 m. sausio 07 d.    | TBD                 | 2022 m. sausio 21 d.    |
+|   &nbsp;  | Okeanija               |  4.27.0.242     | Užbaigta           | 2022 m. sausio 07 d.    | TBD                 | 2022 m. sausio 21 d.    |
+|   &nbsp;  | Jungtiniai Arabų Emyratai  |  4.27.0.242     | Užbaigta           | 2022 m. sausio 07 d.    | TBD                 | 2022 m. sausio 21 d.    |
+| 4 stotis |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Europa                |  4.26.0.155     | Užbaigta           | 2022 m. sausio 07 d.    | 4.27.0.242          | 2022 m. sausio 10 d.    |
+| 5 stotis |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Šiaurės Amerika         |  4.26.0.155     | 2022 m. sausio 07 d.   | 2022 m. sausio 14 d.    | 4.27.0.242          | 2022 m. sausio 17 d.    |
+
+>[!Note]
+> - Baigti* – automatiniai naujinimai, baigti 4.27.0.195 versijos naujinimais.
+
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Projektų valdymo ir apskaitos „Finance and Operations” programų aplinkoje leidimo grafikas
 
 Projektų valdymo ir apskaitos atnaujinimai išleidžiami aštuonis kartus per metus.
 
-| Palaikomas leidimas | Visuotinai pasiekiama (savaiminis naujinimas) |
-| --- | --- |
-| 10.0.16 | 2021 m. sausio 22 d. |
-| 10.0.15 | 2020 m. gruodžio 4 d. |
+|Palaikoma versija| Peržiūros versijos pasiekiamumas (PEAP) | Visuotinai pasiekiama (savaiminis naujinimas) | Automatinio naujinimo grafiko (per LCS naujinimo parametrus) gamybos pradžios data |   Paslaugų teikimo pabaiga   |
+|:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
+|     10.0.23     |      2021 m. spalio 15 d.       |        2021 m. gruodžio 10 d.          |                          2021 m. gruodžio 31 d.                           | 2022 m. kovo 18 d.     |
+|     10.0.22     |      2021 m. rugsėjo mėn. 3 d.      |        2021 m. spalio 22 d.           |                          2021 m. lapkričio 5 d.                            | 2022 m. sausio 14 d.   |
 
 
-Tikslinės išleidimo datos gali keistis. Daugiau informacijos žr. [Paslaugų atnaujinimo pasiekiamumas](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=/dynamics365/finance/toc.json).
+Tikslinės išleidimo datos gali keistis. Daugiau informacijos žr. [Paslaugų atnaujinimo pasiekiamumas](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
-| Tikslinė išleidimo data | Visuotinai pasiekiama (savaiminis naujinimas) |
-| --- | --- |
-| 10.0.17 | 2021 m. kovo 19 d. |
-| 10.0.18 | 2021 m. balandžio 16 mėn. |
+|Paskirties versija | Peržiūros versijos pasiekiamumas (PEAP) | Visuotinai pasiekiama (savaiminis naujinimas) | Automatinio naujinimo grafiko (per LCS naujinimo parametrus) gamybos pradžios data |   Paslaugų teikimo pabaiga   |
+|:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
+|     10.0.24     |      2021 m. gruodžio 3 d.       |        2022 m. sausio 14 d.           |                          2022 m. vasario 4 d.                            | 2022 m. balandžio 15 mėn.     |
+|     10.0.25     |      2022 m. sausio 31 d.       |        2022 m. kovo 18 d.             |                          2022 m. balandžio 1 mėn.                               | 2022 m. birželio 10 d.      |
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

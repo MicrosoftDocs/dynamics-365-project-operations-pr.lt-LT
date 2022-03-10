@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da7add25634cd1d7ff36c7a9b57b1efa6ad765d7
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369701"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007516"
 ---
 # <a name="project-management-and-accounting-overview"></a>Projektų valdymo ir apskaitos apžvalga
 
@@ -34,14 +34,14 @@ Projektas yra veiklų, sukurtų norint teikti paslaugą, gaminti produktą arba 
 ## <a name="projects-across-industries"></a>Projektai visose pramonės šakose
 Projektų valdymo ir apskaitos funkcijas galima naudoti keliose pramonės šakose, kaip pavaizduota tolesnėje iliustracijoje.
 
-[![Projektai visose pramonės šakose](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+[![Projektai visose pramonės šakose.](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 Skambučių centre bilietą galima naudoti norint aprašyti veiksmų, kurių reikia norint išspręsti problemą, rinkinį. Konsultavimo įmonės, pvz., valdymo, techninio konsultavimo organizacijos arba reklamavimo agentūros, savo veiklą vadina projektais. Rinkodaros kampanija yra darbo, kurį reikia pristatyti, rinkinys. Projektu grįstoje gamyboje gamybos užsakymas susieja įvairius darbus, kuriuos reikia atlikti tam tikrų gatavų prekių gamybai. Kad ir koks jų pavadinimas būtų naudojamas, šie projektai apima išteklius, grafikus ir išlaidas, o projektų valdymo ir apskaitos funkcijos gali padėti planuoti, vykdyti ir analizuoti šiuos projektus.
 
 ## <a name="project-phases"></a>Projekto etapai
 Nors šis procesų srautas skirtas išoriniams projektams arba projektui, kuris užbaigtas vienam ar keliems klientams, funkcijos taip pat taikomos vidiniams, tik išlaidų projektams. 
 
-![3 projekto etapai](./media/3-stages-of-a-project.png) 
+![3 projekto etapai.](./media/3-stages-of-a-project.png) 
 
 Kaip pavaizduota pirmesnėje iliustracijoje, projektų valdymą ir apskaitą galima suskirstyti į tris etapus:
 
@@ -50,7 +50,7 @@ Kaip pavaizduota pirmesnėje iliustracijoje, projektų valdymą ir apskaitą gal
 3.  Analizuoti
 
 ## <a name="initiate-the-project"></a>Projekto inicijavimas
-Projekto inicijavimo metu vyksta keli pagrindiniai procesai. Galite naudoti projekto pasiūlymą, kad praneštumėte klientui apie numatomus darbus, išlaidas ir medžiagas. Galite įrašyti sąskaitos išrašymo sąlygas, limitus ir susitarimus projekto sutartyje. Galite naudoti darbo paskirstymo struktūrą (WBS) darbui planuoti ir įvertinti. Galite nustatyti prognozes ir sąmatas, skirtas projekto vykdymui vesti. Šioje iliustracijoje parodyta projekto struktūra.[![projekto struktūra](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+Projekto inicijavimo metu vyksta keli pagrindiniai procesai. Galite naudoti projekto pasiūlymą, kad praneštumėte klientui apie numatomus darbus, išlaidas ir medžiagas. Galite įrašyti sąskaitos išrašymo sąlygas, limitus ir susitarimus projekto sutartyje. Galite naudoti darbo paskirstymo struktūrą (WBS) darbui planuoti ir įvertinti. Galite nustatyti prognozes ir sąmatas, skirtas projekto vykdymui vesti. Šioje iliustracijoje parodyta projekto struktūra.[![projekto struktūra.](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
 ### <a name="create-project-quotations"></a>Projekto pasiūlymų kūrimas
 

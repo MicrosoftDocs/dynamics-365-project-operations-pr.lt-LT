@@ -2,18 +2,16 @@
 title: Fiksuotos kainos pajamų įvertinimo projektai
 description: Šioje temoje pateikiama informacijos apie fiksuotos kainos pajamų naudojimą projektuose.
 author: sigitac
-manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 80fe1d4171d80ca39e8b7ebb1eefaa524a4f2b07
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
-ms.translationtype: HT
+ms.openlocfilehash: 451f0403f0111b5ea4de6c91b54eae157830e413d3a21f23bd841a66905e147b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531498"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006436"
 ---
 # <a name="fixed-price-revenue-estimate-projects"></a>Fiksuotos kainos pajamų įvertinimo projektai 
 
@@ -35,3 +33,6 @@ Norėdami peržiūrėti fiksuotos kainos pajamų įvertinimo projektus, atlikite
 
   Projekto išlaidas, pajamų profilį, sąnaudų šabloną ir laikotarpio kodą galima nustatyti rankiniu būdu. Jei jie nenustatomi rankiniu būdu, nustatomos numatytosios reikšmės atliekant pirmąjį įvertinimo skaičiavimą remiantis sukonfigūruotomis projekto išlaidų ir pajamų profilių taisyklėmis.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

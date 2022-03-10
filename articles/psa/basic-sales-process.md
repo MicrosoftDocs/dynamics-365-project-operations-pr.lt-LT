@@ -2,8 +2,6 @@
 title: Pardavimų procesai
 description: Šioje temoje pateikiama informacija apie pagrindinius pardavimo procesus.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ad32757821a4cf966abd0b98cc4632dece613bc4
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 58d5aa68dd5af7fc2b39caac429948e55bbc94c39dfb7fc9ae15a37cc3c92ce6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291089"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000541"
 ---
 # <a name="sales-processes"></a>Pardavimų procesai
 
@@ -41,7 +39,7 @@ Organizacijoje, kurios veikla pagrįsta projektu, naudojami pardavimo procesai s
 
 Tolesnėje iliustracijoje parodytas tipinis organizacijos, kurios veikla pagrįsta projektu, pardavimo procesas.
 
-> ![Pardavimo procesas organizacijoje, kurios veikla pagrįsta projektu](media/basic-guide-1.png)
+> ![Pardavimo procesas organizacijoje, kurios veikla pagrįsta projektu.](media/basic-guide-1.png)
 
 ## <a name="estimating-a-sale"></a>Pardavimo įvertinimas
 Pardavimo vertę galima apskaičiuoti pagal anksčiau pristatytus projektus ir projektų sudėtingumą. Jei projektas yra ankstesnių projektų tęsinys arba projektą vykdo labai patyręs tiekėjas, naudojantis gerai žinomus darbo šablonus, galite naudoti paprastesnį įvertinimo procesą. Sudėtingesnių projektų pirkimo procesas paprastai būna ilgesnis. Todėl pardavimo įvertinimo procesą sudaro daugiau etapų. Proceso pradžioje pardavimo komanda, naudodama klientų vadybininkų ir srities ekspertų įvestis, pradeda kurti aukšto lygio kiekvieno atskiro pasiūlyto darbų komponento įvertinimą. Šie darbų komponentai nurodomi pasiūlymo eilutėse. 
@@ -52,7 +50,7 @@ Galite sukurti kelis projekto pasiūlymus ir sugrupuoti juos į vieną objekto t
 
 Be to, galite sukurti alternatyvių pasiūlymų naudodami vieną objekto tipą Galimybė arba nustatyti sistemą, kad projekto sutartis būtų sukurta laimėjus pasiūlymą. Šiuo atveju prie projekto sutarties įrašo galite pridėti SOW „„Word““ dokumentą.
 
-![Pasiūlymo uždarymas siekiant sukurti projekto sutartį](media/basic-guide-2.png)
+![Pasiūlymo uždarymas siekiant sukurti projekto sutartį.](media/basic-guide-2.png)
 
 ## <a name="configuring-the-sales-process"></a>Pardavimo proceso konfigūravimas
 Norėdami sukonfigūruoti pardavimo procesą, programoje „Microsoft Dynamics 365“ galite naudoti veiklos procesų sekas. Veiklos procesų eigos teikia pardavimo darbuotojams interaktyviąją vaizdinę sąsają, kuria naudodamiesi jie gali perduoti sandorius iš vieno tipinio įmonės etapo į kitą.
@@ -68,7 +66,7 @@ Pavyzdžiui, jūsų įmonės pardavimo procesą gali sudaryti šeši toliau išv
 
 Šiuos šešis etapus nurodo ševronai (\>), kuriuos galite pasirinkti išplėsti kiekviename sukurtame objekto Galimybė tipe.
 
-![Veiklos procesų konfigūravimas programoje „Dynamics 365“](media/basic-guide-3.png)
+![Veiklos procesų konfigūravimas programoje „Dynamics 365“.](media/basic-guide-3.png)
  
 Vykdydama tą patį sandorį organizacija gali naudoti įvairius objektus jam nurodyti. Pardavimo proceso pradžioje sandorį nurodo objektas Galimybė. Laikui bėgant gavę daugiau informacijos galite naudoti aukšto lygio įvertinimus ir sukurti vieną ar kelis pasiūlymus. Jei vieną iš šių pasiūlymų peržiūri vidaus ir kliento suinteresuotosios šalys, sandoris nurodomas kaip objektas Pasiūlymas. Klientui priėmus pasiūlymą, sandorį nurodo projekto sutartis arba SOW. Siekiant palaikyti šį veikimo principą veiklos procesų eigos yra sudarytos taip, kad kiekvienas proceso etapas būtų susietas su skirtinga duomenų bazės lentele.
 
@@ -79,7 +77,7 @@ Vykdydami sandorio etapus būsite paraginti sukurti atitinkamą objekto įrašą
 > [!NOTE]
 > PSA yra specialūs objektų Galimybė, Pasiūlymas, Užsakymas ir Sąskaita faktūra puslapiai. „Project Service“ galimybes, pasiūlymus, užsakymus ir sąskaitas faktūras reikia kurti naudojant šių objektų projekto informacijos puslapius. Jei kurdami įrašą naudosite kitą puslapį, negalėsite atidaryti įrašo puslapyje **Projekto informacija**. Norėdami atidaryti įrašą iš puslapio **Projekto informacija**, turėsite panaikinti įrašą ir iš naujo jį sukurti naudodami puslapį **Projekto informacija**. Puslapyje **Projekto informacija** kiekvieno iš šių objektų verslo logika užtikrina, kad įrašo laukas **Tipas** būtų tinkamai nustatytas ir visos privalomos koncepcijos būtų tinkamai inicijuotos.
 
-> ![Naujo užsakymo projekto informacija](media/basic-guide-4.png)
+> ![Naujo užsakymo projekto informacija.](media/basic-guide-4.png)
  
 ## <a name="differences-between-project-service-automation-and-sales"></a>Skirtumai tarp „Project Service Automation“ ir „Sales“
 Nors PSA pardavimo procesui naudojamos pagrindines „Sales“ pardavimo proceso funkcijos, jis iš esmės skiriasi, nes organizacijų, kurių veikla pagrįsta projektu, verslo veiklos yra skirtingos. Štai keli pavyzdžiai:

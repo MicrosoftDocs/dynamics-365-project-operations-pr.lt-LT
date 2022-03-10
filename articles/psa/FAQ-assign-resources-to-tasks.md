@@ -2,8 +2,6 @@
 title: Išteklių priskyrimas užduočiai
 description: Šioje temoje pateikiama informacija apie tai, kaip priskirti išteklius užduotims.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/27/2019
@@ -18,18 +16,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b1ad011b2d78dd85023be7cf380ce19c3b2b8441
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 3f96344b917f088f1d5782c5cee1d84f1aff47bc1bad7c8f6b33307d1df340fa
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150003"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987671"
 ---
 # <a name="assign-a-resource-to-a-task"></a>Išteklių priskyrimas užduočiai
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Ištekliui priskirti užduotį programoje Microsoft Dynamics 365 Project Service Automation galima trimis būdais.
+Ištekliui priskirti užduotį programoje „Microsoft Dynamics 365 Project Service Automation“ galima trimis būdais.
 
 ## <a name="book-a-resource-as-a-team-member-and-then-assign-the-resource-to-a-task"></a>Rezervuokite išteklius kaip komandos narys, o tada priskirkite išteklių užduočiai
 
@@ -82,3 +80,6 @@ Tokiu būdu priskirti ištekliai įtraukiami į komandą neatliekant jokių reze
 
 3. Pažymėkite išteklių, kurį norite priskirti prie užduoties.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

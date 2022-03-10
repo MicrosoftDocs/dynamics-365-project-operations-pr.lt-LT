@@ -2,8 +2,6 @@
 title: Kelių valiutų scenarijai (versija 3.x)
 description: Šioje temoje pateikta informacija apie kelių valiutų scenarijus.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bdb9ccad84e0f510118502d4253f5c83a760f8bb
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 89a91cf3dbbcf81dbb089ee88c8c177c73afb694914ca7d95eae96776d38abed
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145683"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005131"
 ---
 # <a name="multiple-currency-scenarios"></a>Kelių valiutų scenarijai
 
@@ -36,7 +34,7 @@ Microsoft Dynamics 365 yra dvi valiutų sąvokos:
 - **Operacijos valiuta** – valiuta, kuria vykdomas operacija. 
 - **Pagrindinė valiuta** – Dynamics 365 egzemplioriaus valiuta. Ši valiuta nustatoma, Dynamics 365 egzemplioriaus aptarnavimo metu. Jos keisti negalima.
 
-Pavyzdžiui, Danys JAV pardavė 100 marškinėlių klientui Jungtinėje Karalystėje po 15 svarų sterlingų (GBP) už vienetą. Sekančioje lentelėje parodoma, kaip ši operacija įrašoma Produkto Užsakymas objekte.
+Pavyzdžiui, Contoso JAV pardavė 100 marškinėlių klientui Jungtinėje Karalystėje po 15 svarų sterlingų (GBP) už vienetą. Sekančioje lentelėje parodoma, kaip ši operacija įrašoma Produkto Užsakymas objekte.
 
 | Produktas | Kiekis | Vieneto kaina | Valiuta | Kiekis | Valiutos kursas | Pradinė vieneto kaina| Suma (pagrindinė)|
 |---------|----------|----------------|----------|--------|---------------|----------------------|--------------|
@@ -68,14 +66,14 @@ PSA išplečia išlaidų ir pardavimo operacijų valiutos sampratą sekančiais 
 
 ## <a name="multiple-currency-scenario"></a>Kelių valiutų scenarijus
 
-Šiame skyriuje aprašomas projekto, kurį Danys JK pristato klientui, kuris pavadintas Fabrikam, Japonija, pavyzdys. Štai kaip scenarijus buvo sudarytas:
+Šiame skyriuje aprašomas projekto, kurį Contoso JK pristato klientui, kuris pavadintas Fabrikam, Japonija, pavyzdys. Štai kaip scenarijus buvo sudarytas:
 
 1. GBP ir Japonijos jena (JPY) nustatomos **Parametrai** \> **Verslo Valdymas** \> **Valiutos**. 
 2. Kliento sąskaita, pavadinta **Fabrikam-Japonija**, sukuriama, o JPY nustatoma kaip sąskaitos valiuta.
-3. Nustatomas organizacijos vienetas, pavadintas **Danys JK**, o GBP nustatoma kaip valiuta.
-4. Sukuriama projekto sutartis, kurioje **Danys** yra nurodytas kaip sutarties vienetas, o **Fabrikam – Japonija** nurodytas kaip klientas.
+3. Nustatomas organizacijos vienetas, pavadintas **Contoso JK**, o GBP nustatoma kaip valiuta.
+4. Sukuriama projekto sutartis, kurioje **Contoso JK** yra nurodyta kaip sutarties vienetas, o **Fabrikam – Japonija** nurodyta kaip klientas.
 5. Sukuriamos projekto sutarties eilutės, remiantis įvairių projekto operacijų klasių atsiskaitymo tvarka, pvz., atsiskaitymas už laiką lyginant su atsiskaitymu už išlaidas.
-6. Projektas sukurtas, kai **Danys** yra nurodytas kaip sutarties vienetas. Šis projektas sukurtas ir susietas su projekto sutarties eilutėmis.
+6. Projektas sukurtas, kai **Contoso JK** yra nurodyta kaip sutarties vienetas. Šis projektas sukurtas ir susietas su projekto sutarties eilutėmis.
 
 
 Atliekant vertinimą, naudojant pasiūlymo eilutės duomenis, projekto sutarties eilutės duomenis arba tvarkaraščio įvertinimo eilutėje, visada sukuriami du įrašai objekte. Viena eilutė skirta išlaidoms, o kita eilutė skirta pardavimams.
@@ -105,3 +103,6 @@ Dynamics 365 automatiškai apdoroja kaupiamas sumas skirtingomis valiutomis. Št
 | Išlaidos           | Neišrašytas pardavimas   | Birželio 17 d. | Darius  | Automobilio nuoma           | 1 ea     | 150 EUR      | 150 EUR     | 0.94          | 159,57 USD     |
 
 Norėdami apskaičiuoti bendrąją neišrašytą projekto vertę, galite sukurti kaupiamą lauką laukui **Suma** visiems susijusiems neišrašytų pardavimų faktiniams duomenims. Kaupiamas laukas yra Dynamics 365 konstruktas, leidžiantis sparčiąsias formules su susijusiais įrašais.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

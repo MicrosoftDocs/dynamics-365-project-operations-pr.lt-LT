@@ -2,22 +2,20 @@
 title: Projektų ir užduočių susiejimas su projektu pagrįstos sutarties eilute – „Lite“ versija
 description: Šioje temoje pateikiama informacija apie projektų ir užduočių įtraukimą į sutarties eilutę ir šalinimą iš jos.
 author: rumant
-manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c5c29872ef3d62780eea3c0eda48c8fd2a9af4b1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 6ce99e6f770c5eb39e5f2740a861721cf3d210ac9743bbd9d2a1e1a7236f368c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272803"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989741"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-contract-line---lite"></a>Projektų ir užduočių susiejimas su projektu pagrįstos sutarties eilute – „Lite“ versija
+# <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>Projektų ir užduočių susiejimas su projektu pagrįstos sutarties eilute 
 
-_**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
+_**Taikoma (kam):** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo, „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
 Projektu pagrįstose sutarties eilutėse galite susieti konkrečias projekto užduotis su sutarties eilute.
 

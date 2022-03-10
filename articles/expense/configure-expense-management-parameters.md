@@ -2,18 +2,16 @@
 title: Išlaidų valdymo parametrų konfigūravimas
 description: Šioje temoje aprašomi parametrai, kontroliuojantys bendrą išlaidų valdymo elgseną.
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 09da0f4e0c6aec97c93c10eb686513e782189f77
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 1cabb0be624f7f6c12761e4fb6d5a095396a5940a37616bb3a304798e1f97808
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121048"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007786"
 ---
 # <a name="configure-expense-management-parameters"></a>Išlaidų valdymo parametrų konfigūravimas
 
@@ -83,3 +81,6 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 | Rodyti antikorupcijos atestaciją   | Pažymėkite šią parinktį, jei norite, kad sukūrus išlaidų ataskaitą, būtų rodomas antikorupcinis tekstas. Tada galima įjungti tam tikras išlaidų kategorijas, kurioms esant išlaidų ataskaitoje reikės pažymėti antikorupcijos atestaciją. Pavyzdžiui, dovanų kategorijai, susijusiai su vyriausybinėmis valdžios lėšomis, gali reikėti, kad darbuotojas patvirtintų, jog išlaidos atitinka įmonės politiką, susijusią su vyriausybės pareigūnais. |
 | Antikorupcinis pranešimas peteikėjui | Įveskite tekstą, kuris turėtų būti rodomas darbuotojui, kuriančiam išlaidų ataskaitą. Norėdami įvesti kalbai būdingą tekstą, kuris bus rodomas, pagal vartotojo kalbą pasirinkite **Vertimai**. |
 | Antikorupcinis pranešimas tvirtintojui  | Įveskite tekstą, kuris turėtų būti rodomas tvirtintojui, kai sukuriama išlaidų ataskaita. Norėdami įvesti kalbai būdingą tekstą, kuris bus rodomas, pagal vartotojo kalbą pasirinkite **Vertimai**. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
