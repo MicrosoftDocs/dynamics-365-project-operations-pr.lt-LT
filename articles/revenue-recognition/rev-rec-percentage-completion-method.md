@@ -4,14 +4,14 @@ description: Šioje temoje pateikiama informacijos apie fiksuotos kainos pajamų
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 451f0403f0111b5ea4de6c91b54eae157830e413d3a21f23bd841a66905e147b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 290608e5663f9c953212c156771bbf1ad6b1e901
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006436"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8578718"
 ---
 # <a name="fixed-price-revenue-estimate-projects"></a>Fiksuotos kainos pajamų įvertinimo projektai 
 
@@ -26,7 +26,7 @@ Kai kuriate projekto sutarties eilutę naudodami toliau nurodytus atributus prog
 ## <a name="review-fixed-price-revenue-estimates-projects"></a>Fiksuotos kainos pajamų įvertinimo projektų peržiūra
 Norėdami peržiūrėti fiksuotos kainos pajamų įvertinimo projektus, atlikite toliau nurodytus veiksmus.
 
-1. „Dynamics 365 Finance“ aplinkoje eikite į **Projektų valdymas ir apskaita** > **Projektai** > **Fiksuotos kainos pajamų įvertinimo projektai**.
+1. Dynamics 365 Finance aplinkoje eikite į **Projektų valdymo ir apskaitos** > **projektai** > **Fiksuotos kainos pajamų sąmatos projektai**.
 2. Pasirinkite projektą, kurį norite peržiūrėti, ir dukart spustelėkite **Vertinamo projekto ID**, kad atidarytumėte įrašą ir peržiūrėtumėte projekto informaciją.
 3. Išplėskite skirtuką **Projektas**. Matysite vieną projektą tinklelyje **Pasirinkti projektai**. Sistema naudoja jį kaip numatytąjį projektą, nes tai yra projektas, susietas su projekto sutarties eilute. 
 4. Norėdami pakeisti susiejimą, pasirinkite papildomus projektus ir pridėkite juos prie tinklelio **Pasirinkti projektai**. Jei šiame tinklelyje pasirenkami keli projektai, projekto įvykdymo procentinė vertė ir pajamų įvertinimai apskaičiuojami kartu visiems pasirinktiems projektams.

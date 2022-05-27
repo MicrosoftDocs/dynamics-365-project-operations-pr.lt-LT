@@ -2,16 +2,16 @@
 title: Juodraštinių projekto sąskaitų faktūrų pasiūlymų apskaitos koregavimas
 description: Šioje temoje paaiškinta, kaip koreguoti su apskaita susijusią informaciją juodraštiniame sąskaitos faktūros pasiūlyme.
 author: sigitac
-ms.date: 06/07/2021
+ms.date: 01/05/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 153a239d4b88906909ee0bfae8a18cabebc3766399290d83bb79f5d6375a942c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: bf0a3d6b97880920b133cb3b30389adf0c83111c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999326"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575084"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>Juodraštinių projekto sąskaitų faktūrų pasiūlymų apskaitos koregavimas
 
@@ -27,12 +27,21 @@ Numatytąsias atsiskaitymo PVM grupes ir prekių PVM grupes galima koreguoti tie
 
 ## <a name="adjust-financial-dimensions"></a>Finansinių dimensijų koregavimas
 
+### <a name="header-dimensions"></a>Antraštės dimensijos
+
+Pagal numatytuosius nustatymus SF finansinės dimensijos gaunamos iš neapmokėtų projekto operacijų įrašų, kuriems išrašyta SF. Tačiau sistemos parametrai leidžia naudoti finansines dimensijas projekto SF pasiūlymų antraštėje, kad užregistruotumėte klientų balansus. Norėdami įgalinti šią funkciją, puslapio Projektų valdymas ir apskaitos parametrai skirtuke Finansai pasirinkite **Leisti gautinų sumų** projekto dimensijų **naujinimus.** **·**
+
+Finansines dimensijas SF antraštėse galima redaguoti prieš registruojant SF. **Puslapyje Projekto SF pasiūlymas** perjunkite į **antraštės** rodinį, tada redaguokite vertes skirtuke **Finansinės dimensijos**.
+
+Antraštės rodinys **galimas tik po to, kai sistemos administratorius** įgalina formas Naudoti projekto SF pasiūlymą ir SF žurnalo formas su rodinio **Antrašte** ir Eilutė funkcija darbo srityje Funkcijų valdymas **.** Šiai funkcijai reikia "Finance" naujinimo 10.0.25 arba naujesnės versijos.
+
+### <a name="line-dimensions"></a>Eilutės dimensijos
+
 Projekto sąskaitos faktūros pasiūlymo eilutėje finansinių dimensijų tiesiogiai redaguoti negalima. Vietoj to atlikite toliau nurodytus veiksmus, kad pakoreguotumėte finansines dimensijas projekto sąskaitos faktūros pasiūlyme.
 
 1. Projekto sąskaitos faktūros pasiūlyme pasirinkite **Naikinti viską**, kad pašalintumėte projekto sąskaitos faktūros pasiūlymo eilutes.
 
-    > [!NOTE]
-    > Mygtukas **Naikinti viską** pasiekiamas tik tada, kai sistemos administratorius darbo srityje **Funkcijų valdymas** įjungia funkciją **Naudojant „Project Operations“, skirtą ištekliais / ne atsargose laikomomis prekėmis pagrįstiems scenarijams, naikinti sąskaitų faktūrų pasiūlymų eilutes**.
+    Mygtukas **Naikinti viską** pasiekiamas tik tada, kai sistemos administratorius darbo srityje **Funkcijų valdymas** įjungia funkciją **Naudojant „Project Operations“, skirtą ištekliais / ne atsargose laikomomis prekėmis pagrįstiems scenarijams, naikinti sąskaitų faktūrų pasiūlymų eilutes**.
 
 2. Finansinių dimensijų koregavimas
 

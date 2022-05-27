@@ -1,25 +1,25 @@
 ---
 title: „Project Operations“ naujinimas „Finance“ aplinkoje
-description: Šioje temoje pateikiama informacija apie tai, kaip atnaujinti „Project Operations” „Dynamics 365 Finance“ aplinkoje.
+description: Šioje temoje pateikiama informacija apie tai, kaip atnaujinti "Project Operations" Dynamics 365 Finance aplinkoje.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9cd562ac3360298796fbe34dbe2ac8708b00150f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986771"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579944"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>„Project Operations“ naujinimas „Finance“ aplinkoje
 
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
 
-Šioje temoje pateikiama informacija apie tai, kaip atnaujinti „Dynamics 365 Project Operations“ „Dynamics 365 Finance“ aplinkoje. Yra trys procedūros, kurių reikia norint atnaujinti „Project Operations“ į 5 naujinimą (UR5):
+Šioje temoje pateikiama informacija apie tai, kaip atnaujinti Dynamics 365 Project Operations Dynamics 365 Finance aplinkoje. Yra trys procedūros, kurių reikia norint atnaujinti „Project Operations“ į 5 naujinimą (UR5):
 
 - [Importuokite paketą į savo peržiūros projektą](#import)
 - [Taikykite naujinimą](#apply)
@@ -119,7 +119,7 @@ Toliau nurodyti objektų saugos teisių naujinimai būtini kaip UR5 naujinimo da
 4. Puslapyje **Lentelės struktūros versija** taikykite naują struktūros versiją kiekvienam iš trijų objektų.
 5. Puslapyje **Dvigubas rašymas** pasirinkite vykdyti ir iš naujo paleisti struktūras.
 6. Struktūrų sąraše pažymėkite **Didžioji knyga (msdyn_ledgers)** struktūrą su visomis būtinosiomis sąlygomis ir pasirinkite žymės langelį **Pradinis sinchronizavimas**. 
-7. Lauke **Pradinio sinchronizavimo šablonas** pasirinkite **„Finance and Operations“ programos**, o tada pasirinkite **Vykdyti**.
+7. Pradinio sinchronizavimo **lauke** Pagrindinis pasirinkite **"Finance and Operations" programos**, tada pasirinkite **Vykdyti**.
  
  ![Didžiosios knygos struktūros sinchronizavimas.](media/DW6.png)
  

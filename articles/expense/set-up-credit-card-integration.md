@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 49c8f2369a8be41fbc04c74bdb6b565b4f4b7b79
-ms.sourcegitcommit: 9f26cf8bb640af1eb9f7f0872805965d7ffcb9d3
+ms.openlocfilehash: 2c9d993f1999b0be24794bbe828afa8eb74744e9
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/19/2021
-ms.locfileid: "7826266"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8577063"
 ---
 # <a name="set-up-credit-card-integration"></a>Kredito kortelės integravimo nustatymas
 
@@ -44,7 +44,7 @@ Norėdami importuoti kredito kortelės operacijas, atlikite toliau nurodytus vei
 
 ## <a name="reassign-the-credit-card-transactions-for-terminated-employees"></a>Iš naujo priskirti nutrauktų darbuotojų kredito kortelių operacijas
 
-Nutraukus darbuotojo įrašą, darbuotojo "Active Directory" domenų tarnybos (AD DS) abonementas išjungtas. Tačiau gali būti aktyvios kredito kortelių operacijos, kurios turi būti apmokamos ir kompensuojamos. Puslapyje **Kredito kortelės operacijos** galite iš naujo priskirti darbuotoją bet kuriai kredito kortelės operacijai, kurios susietasis darbuotojas atleistas.
+Nutraukus darbuotojo įrašą, darbuotojo Active Directory domenų tarnybų (AD DS) abonementas išjungiamas. Tačiau gali būti aktyvios kredito kortelių operacijos, kurios turi būti apmokamos ir kompensuojamos. Puslapyje **Kredito kortelės operacijos** galite iš naujo priskirti darbuotoją bet kuriai kredito kortelės operacijai, kurios susietasis darbuotojas atleistas.
 
 Pažymėkite vieną arba kelias kredito kortelės operacijas, tada pažymėkite **Iš naujo priskirti operacijas**. Tada galite pasirinkti kitą darbuotoją, kad galėtumėte priskirti operacijas su kortelėmis. Iš naujo pristačius operacijas su kreditinėmis kortelėmis, jas galima pažymėti išlaidų ataskaitai ir apmokėtu įprastu išlaidų ataskaitos kompensavimo procesu.
 
@@ -58,10 +58,10 @@ Kartais importavus kredito kortelės operacijas, tam tikras operacijas gali tekt
 
 ## <a name="storing-credit-card-numbers"></a>Kredito kortelių numerių saugojimas
 
-Galimi trys kredito kortelių numerių saugojimo variantai. Kredito kortelių numeriai saugomi **puslapyje Išlaidų valdymo** parametrai.
+Yra trys galimybės saugoti kredito kortelių numerius. Kredito kortelių numeriai saugomi **puslapyje Išlaidų valdymo parametrai**.
 
-- **Neleisti įvesti kortelės numerio** – kredito kortelių numeriai nesaugomi.
-- **Maišos kortelių numeriai (saugoti paskutinius keturis skaitmenis)** – paskutiniai keturi kredito kortelių numerių skaitmenys saugomi užšifruotu formatu.
-- **Parduotuvės kortelių numeriai** – kredito kortelių numeriai saugomi nešifruotu formatu. Ši parinktis neatitinka mokėjimo kortelių pramonės (PCI) duomenų saugos standarto (DSS). Todėl, kad jų organizacija atitiktų PCI DSS taisykles, organizacijos administratoriai turėtų pasirinkti ne saugoti kredito kortelių numerius arba saugoti maišos kortelių numerius.
+- **Užkirsti kelią kortelės numerio įvedimui** – kredito kortelių numeriai nesaugomi.
+- **Maišos kortelių numeriai (saugokite paskutinius keturis skaitmenis)** - Paskutiniai keturi kredito kortelių numerių skaitmenys saugomi šifruotu formatu.
+- **Parduotuvės kortelių numeriai** – kredito kortelių numeriai saugomi nešifruotu formatu. Ši parinktis neatitinka mokėjimo kortelių pramonės (PCI) duomenų saugumo standarto (DSS). Todėl, kad jų organizacija atitiktų PCI DSS taisykles, organizacijos administratoriai turėtų pasirinkti arba nesaugoti kredito kortelių numerių, arba saugoti maišos kortelių numerius.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

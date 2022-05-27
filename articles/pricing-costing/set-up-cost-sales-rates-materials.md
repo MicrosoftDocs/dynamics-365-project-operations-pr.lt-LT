@@ -2,16 +2,16 @@
 title: Medžiagų savikainos ir pardavimo kainų sąranka
 description: Šioje temoje pateikiama informacija apie tai, kaip nustatyti projektuose naudojamų medžiagų savikainą ir pardavimo kainas.
 author: rumant
-ms.date: 04/07/2021
+ms.date: 03/21/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c80317ac56c4e1ed465273ea6d0a7c65f1f5830c349a9b8d5b6f7f8d92424c7b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 1b1b679f15662d922804deefb6372adcdf4d4839
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999191"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576878"
 ---
 # <a name="set-up-cost-and-sales-rates-for-materials"></a>Medžiagų savikainos ir pardavimo kainų sąranka
 
@@ -25,6 +25,9 @@ Norėdami nustatyti produktų savikainą ir pardavimo kainas, atlikite toliau nu
 2. Dalies **Kainų sąrašo elementai** papildomo tinklelio meniu pasirinkite **Naujas kainų sąrašo elementas**. 
 3. Puslapyje **Spartusis kūrimas** įveskite produktą ir vienetą, kuriam kuriate naują kainą.
 
-Norėdami gauti daugiau informacijos apie tai, kaip nustatyti katalogo prekių kainas, žr. [Produktų kainodaros sąranka](/dynamics365/sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md) ir [Valiutos tikslumas po kablelio ir kainodara](/dynamics365/sales-enterprise/decimal-precision-currency-pricing.md).
+Daugiau informacijos apie tai, kaip nustatyti katalogo prekių kainas, ieškokite [Define product pricing with price lists and price list items](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products) and [decimal precision in currency and pricing](/dynamics365/sales/decimal-precision-currency-pricing).
+> [!NOTE]
+> Dynamics 365 Project Operations nepalaiko visų produktų kainodaros metodų, kaip "Dynamics 365 Sales". Vienintelis palaikomas produktų, kurie bus naudojami projektuose, kainodaros metodas yra *valiutos suma*.
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

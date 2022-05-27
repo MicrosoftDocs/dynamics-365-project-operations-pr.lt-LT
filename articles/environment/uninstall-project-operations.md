@@ -4,14 +4,14 @@ description: Šioje temoje pateikiama informacija apie „Dynamics 365 Project O
 author: stsporen
 ms.date: 11/09/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b87c9324b1c95c10ef1e18b0fbf4572bdbe76827
-ms.sourcegitcommit: b8b7a59eee7d93638446e93726d270316e45ab3d
+ms.openlocfilehash: e2600c770477ad32cebb66f33a8ca31502a6da3d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7783653"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575866"
 ---
 # <a name="uninstall-dynamics-365-project-operations"></a>„Dynamics 365 Project Operations“ šalinimas 
 
@@ -35,8 +35,8 @@ Jeigu norite pašalinti „Dynamics 365 Project Operations”, jums turi būti p
     | 6 | ProjectServiceCore_Patch                           | Papildomų pastabų nėra.                                                                         |
     | 7 | ProjectServiceCore                                 | Papildomų pastabų nėra.                                                                         |
     | 8 | ProjectServiceDeprecatedComponents                 | Jeigu neradote šio sprendimo, jį praleiskite.                                                            |
-    | 9 | Field Service Common                                 | Privaloma, norint naudoti dvigubo rašymo funkciją programose „Dynamics 365 Finance” arba „Dynamics 365 Supply Chain Management”.   |
-    | 10 | msdyn_AssetCommon                                  | Privaloma, norint naudoti dvigubo rašymo funkciją programose „Dynamics 365 Finance” arba „Dynamics 365 Supply Chain Management”.   |
+    | 9 | Field Service Common                                 | Reikalingas dvigubam rašymui su Dynamics 365 Finance arba Dynamics 365 Supply Chain Management.   |
+    | 10 | msdyn_AssetCommon                                  | Reikalingas dvigubam rašymui su Dynamics 365 Finance arba Dynamics 365 Supply Chain Management.   |
     | 11 | msdyn_TESA_Anchor                                  | Privaloma „Dynamics 365 Field Service”.                                                     |
     | 12 | msdyn_TESA_Patch                                   | Privaloma „Dynamics 365 Field Service”.                                                     |
     | 13 | msdyn_TESA                                         | Privaloma „Dynamics 365 Field Service”.                                                     |

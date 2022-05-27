@@ -1,56 +1,56 @@
 ---
-title: Projekto personalas su sutartininkais ir subrangos pajėgumais
-description: Šioje temoje paaiškinama, kaip projekto reikalavimai gali būti įdarbinti naudojant sutartinius darbuotojus arba subrangos pajėgumus Microsoft Dynamics 365 Project Operations.
+title: Projekto su sutarties darbuotojais ir subrangos pajėgumo personalas
+description: Šioje temoje paaiškinama, kaip projekto reikalavimus galima įdarbinti naudojant sutartininkus arba subrangos pajėgumus programoje "Microsoft"Dynamics 365 Project Operations.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
-ms.reviewer: tonyafehr
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7e9a0ca08f472999138589f31ca820b733b6303e
-ms.sourcegitcommit: 04dc8d952e6da3ab3eb2a20131c6f7cee6040876
+ms.openlocfilehash: a0efea80484dfca0a9dae8404837c3376dfecaed
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "7903728"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8574652"
 ---
-# <a name="staffing-a-project-with-contract-workers-and-subcontracted-capacity"></a>Projekto personalas su sutartininkais ir subrangos pajėgumais
+# <a name="staffing-a-project-with-contract-workers-and-subcontracted-capacity"></a>Projekto su sutarties darbuotojais ir subrangos pajėgumo personalas
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
 _**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
 
-Bendrieji projekto komandos nariai gali būti įdarbinti su darbuotojais arba sutartininkais. Įdarbindami projektą su sutartininkais, galite apriboti savo personalo parinktis tik konkretiems sutartininkams, priskirtiems subrangos linijai. 
+Bendrieji projekto komandos nariai gali būti darbuotojai su darbuotojais arba sutartininkais. Dirbdami projekte su sutartininkais, galite apriboti savo personalo galimybes tik konkretiems sutartininkams, priskirtiems subrangos eilutei. 
 
-## <a name="search-for-staff-resource-requirements-with-contract-workers-that-belong-to-a-specific-subcontract-line"></a>Ieškoti personalo išteklių reikalavimų su sutartininkais, priklausančius konkrečiai subrangos eilutei
+## <a name="search-for-staff-resource-requirements-with-contract-workers-that-belong-to-a-specific-subcontract-line"></a>Ieškoti personalo išteklių reikalavimų su sutartininkais, priklausančiais konkrečiai subrangos eilutei
 
-Norėdami ieškoti ir personalo išteklių poreikių su sutartininkais, priklausančius konkrečiai subrangos linijai, atlikite šiuos veiksmus:
+Norėdami ieškoti ir darbuotojų išteklių reikalavimų su sutartininkais, priklausančiais konkrečiai subrangos eilutei, atlikite šiuos veiksmus:
 
-1. Sukurkite generinį projekto komandos narį, nurodantį subrangos ir subrangos eilutę.
-2. Generuoti šio bendrojo projekto komandos nario išteklių poreikį naudojant **projekto** komandos narių antrinio tinklelio mygtuką Generuoti poreikį.
-3. Pasirinkite komandos nario eilutę, tada **antrinio** tinklelio mygtuką Užsakyti. 
-4. Taip atidaroma grafiko lenta su poreikio kontekstu. Kartu su kitais atributais, pvz., datų, vaidmenų ir organizacinių vienetų laukais, grafiko lentos filtrai taip pat automatiškai užpildomi tiekėjo, subrangos ir subrangos eilutės laukais iš išteklių poreikio.
-5. Sistema ieško filtro kriterijus atitinkančių išteklių ir juos išvardija. 
-6. Pasirinkite vieną iš filtruotų išteklių ir rezervuokite poreikio išteklius. 
-7. Projekto komandos narys sukuriamas ir atnaujinamas naudojant subrangos ir subrangos eilučių nuorodas. Eikite į **Projekto įvertinimai** ir pasirinkite **Naujinti** kainas, kad pamatytumėte atnaujintą išteklių priskyrimo savikainą. 
-
-> [!NOTE]
-> Projekto komandos nario atnaujinimas su subrangos ir subrangos eilutės nuoroda ne visada gali būti įmanomas rezervuojant, jei išteklius priskiriamas kelioms subrangos eilutėms. Jei sistema negali atnaujinti projekto komandos nario subrangos ir subrangos eilute, atidarykite projekto komandos nario įrašą ir neautomatiniu būdu atnaujinkite šiuos laukus, kad finansinių išlaidų įvertinimas tiksliai atspindėtų subrangovo išlaidas.
-
-## <a name="search-for-and-staff-resource-requirements-with-any-contract-worker"></a>Ieškoti ir personalo išteklių reikalavimų su bet kuriuo sutartiniu darbuotoju
-
-Norėdami ieškoti ir personalo išteklių reikalavimų su bet kuriuo sutartiniu darbuotoju, atlikite šiuos veiksmus:
-
-1. Sukurkite generinį projekto komandos narį.
-2. Generuoti šio bendrojo projekto komandos nario išteklių poreikį naudojant **projekto** komandos narių antrinio tinklelio mygtuką Generuoti poreikį.
-3. Pasirinkite komandos nario eilutę, tada **antrinio** tinklelio mygtuką Užsakyti. 
-4. Taip atidaroma grafiko lenta su poreikio kontekstu. Kartu su kitais atributais, pvz., datų, vaidmenų ir organizacinių vienetų laukais, grafiko lentos filtrai taip pat automatiškai užpildomi tiekėjo, subrangos ir subrangos eilutės laukais iš išteklių poreikio. Kadangi reikalavimas neturėjo užpildytų subrangos ar subrangos eilučių verčių, filtro srityje šie atributai bus tušti.
-5. Sistema ieško filtro kriterijus atitinkančių išteklių ir juos išvardija.
-6. Atnaujinti **filtro srities lauką Darbuotojo tipas** į **Sutarties** darbuotojas, kad ieška būtų apribota iki sutartininkų. Atnaujinti **tiekėją** filtravimo srityje, kad pasirinktumėte tiekėją, kuris apribotų iešką, kad būtų rodomi tik sutartiniai darbuotojai, priklausantys konkrečiai tiekėjo įmonei.
-7. Sąraše pasirinkite sutarties darbuotoją ir rezervuokite poreikio išteklius.
-8. Sukuriamas projekto komandos narys. Tačiau projekto komandos narys neatnaujinamas jokia subrangos ar subrangos linija, todėl išteklių priskyrimas nebus įkainotas naudojant subrangos kainodarą. Neautomatiniu būdu atnaujinkite projekto komandos narį subrangos eilute ir eikite į **Projekto įvertinimus** ir pasirinkite **Naujinti** kainas, kad pamatytumėte atnaujintą išteklių priskyrimo kainą.
+1. Sukurkite bendrąjį projekto komandos narį, kuris nurodo subrangos ir subrangos eilutę.
+2. Generuoti išteklių poreikį šiam bendram projekto komandos nariui naudojant **projekto komandos narių potinklio mygtuką Generuoti poreikį**.
+3. Pasirinkite komandos nario eilutę, tada apatiniame **tinklelyje pasirinkite mygtuką Užsakyti**. 
+4. Taip atidaroma grafiko lenta su reikalavimų kontekstu. Kartu su kitais atributais, pvz., datomis, vaidmeniu ir organizacinių vienetų laukais, grafiko lentos filtrai taip pat automatiškai užpildomi tiekėjo, subrangos ir subrangos eilutės laukais iš išteklių poreikio.
+5. Sistema ieško išteklių, atitinkančių filtro kriterijus, ir juos išvardija. 
+6. Pasirinkite vieną iš filtruotų išteklių ir užsisakykite reikalavimo išteklius. 
+7. Projekto komandos narys sukuriamas ir atnaujinamas subrangos sutarčių ir subrangos eilučių nuorodomis. Eikite į **Projekto įvertinimai** ir pasirinkite **Naujinti kainas**, kad pamatytumėte atnaujintą išteklių priskyrimo kainą. 
 
 > [!NOTE]
-> Projekto komandos nariai, kurių **darbuotojo tipas yra sutarties** **darbuotojas**, bet neturi subrangos nuorodos, **projekto komandos narių** **tinklelyje pažymėti kaip** neleistini. Jei yra projekto komandos narių, turinčių šią būseną, atidarykite projekto komandos nario įrašą ir neautomatiniu būdu atnaujinkite subrangos ir subrangos eilučių laukus, kad finansinių išlaidų įvertinimas tiksliai atspindėtų subrangovo išlaidas **skirtuke** Sąmatos. 
+> Užsakymo metu ne visada galima atnaujinti projekto komandos narį subrangos ir subrangos eilutės nuoroda, jei išteklius priskiriamas kelioms subrangos eilutėms. Jei sistema negali atnaujinti projekto komandos nario subrangos ir subrangos eilute, atidarykite projekto komandos nario įrašą ir rankiniu būdu atnaujinkite šiuos laukus, kad finansinių išlaidų įvertinimas tiksliai atspindėtų subrangovo savikainą.
+
+## <a name="search-for-and-staff-resource-requirements-with-any-contract-worker"></a>Ieškoti ir personalo išteklių reikalavimų su bet kuriuo sutartininku
+
+Norėdami ieškoti ir personalo išteklių reikalavimų su bet kuriuo sutartininku, atlikite šiuos veiksmus:
+
+1. Sukurkite bendrąjį projekto komandos narį.
+2. Generuoti išteklių poreikį šiam bendram projekto komandos nariui naudojant **projekto komandos narių potinklio mygtuką Generuoti poreikį**.
+3. Pasirinkite komandos nario eilutę, tada apatiniame **tinklelyje pasirinkite mygtuką Užsakyti**. 
+4. Taip atidaroma grafiko lenta su reikalavimų kontekstu. Kartu su kitais atributais, pvz., datomis, vaidmeniu ir organizacinių vienetų laukais, grafiko lentos filtrai taip pat automatiškai užpildomi tiekėjo, subrangos ir subrangos eilutės laukais iš išteklių poreikio. Kadangi reikalavimas nebuvo užpildytas jokiomis subrangos ar subrangos eilučių vertėmis, šie atributai filtro srityje bus tušti.
+5. Sistema ieško išteklių, atitinkančių filtro kriterijus, ir juos išvardija.
+6. **Atnaujinkite filtro srities lauką Darbuotojo tipas** į **Sutartininkas,** kad iešką apribotumėte sutartininkais. Atnaujinti **tiekėją** filtro srityje, kad pasirinktumėte tiekėją, kad apribotumėte iešką, kad būtų rodomi tik sutartininkai, priklausantys konkrečiai tiekėjo įmonei.
+7. Iš sąrašo pasirinkite sutarties darbuotoją ir užsisakykite reikalavimo išteklius.
+8. Sukuriamas projekto komandos narys. Tačiau projekto komandos narys neatnaujinamas jokia subrangos ar subrangos eilute, todėl išteklių priskyrimas nebus įkainotas naudojant subrangos kainą. Neautomatiniu būdu atnaujinkite projekto komandos narį subrangos eilute ir eikite į **Projekto įvertinimai** ir pasirinkite Atnaujinti kainas **, kad pamatytumėte** atnaujintą išteklių priskyrimo savikainą.
+
+> [!NOTE]
+> Projekto komandos nariai, kurių **darbuotojo tipas** **yra Sutartininkas**, bet neturi subrangos nuorodos, projekto komandos narių **tinklelyje pažymėti kaip** Neleistini **·**. Jei yra projekto komandos narių, turinčių šią būseną, atidarykite projekto komandos nario įrašą ir rankiniu būdu atnaujinkite subrangos ir subrangos eilučių laukus, kad finansinių išlaidų įvertinimas tiksliai atspindėtų subrangovo savikainą **skirtuke Įvertinimai**. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

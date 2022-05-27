@@ -2,18 +2,16 @@
 title: Patvirtinimo rinkiniai
 description: Šioje temoje aiškinama, kaip dirbti su patvirtinimo rinkiniais, užklausomis ir šių operacijų antriniais rinkiniais.
 author: stsporen
-manager: tfehr
-ms.date: 08/10/2021
+ms.date: 02/01/2022
 ms.topic: article
-ms.service: project-operations
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 1d9333033eb2b03966c6531d0fd6ad5b878acd93
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
-ms.translationtype: HT
+ms.openlocfilehash: 6809e01d8c3c93841125d0100d898dc208577019
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323246"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576234"
 ---
 # <a name="approval-sets"></a>Patvirtinimo rinkiniai
 
@@ -27,6 +25,18 @@ Patvirtinimo rinkiniuose nurodoma bendra su jais susijusių įrašų apdorojimo 
 Į eilę įtraukti apdorojimo patvirtinimai matomi rodinyje **Apdorojimo patvirtinimai**. Sistema visus įrašus keletą kartų apdoroja asinchroniškai, taip pat ir patvirtina pakartotinai, jei ankstesni bandymai buvo atlikti nesėkmingai.
 
 Lauke **Patvirtinimo rinkinio galiojimo laikas** įrašomas bandymų apdoroti rinkinį skaičius, tik tada pažymimas kaip nepavykęs.
+
+Patvirtinimo rinkiniai apdorojami periodiškai aktyvuojant pagal debesies srautą **, pavadintą** **"Project Service" – periodiškai planuoti projektų patvirtinimo rinkinius**. Tai yra sprendime **,** pavadintame **"Project Operations"**. 
+
+Įsitikinkite, kad srautas suaktyvintas, atlikdami šiuos veiksmus.
+
+1. Kaip administratorius, prisijunkite prie [flow.microsoft.com](https://powerautomate.microsoft.com).
+2. Viršutiniame dešiniajame kampe perjunkite aplinką, kurioje naudojate Dynamics 365 Project Operations.
+3. Pasirinkite **Sprendimai**, kad išvardytumėte aplinkoje įdiegtus sprendimus.
+4. Sprendimų sąraše pasirinkite **Projekto operacijos**.
+5. Pakeiskite filtrą iš **Visi** į **Debesies srautus**.
+6. Patikrinkite, **ar projekto tarnyba – periodiškai planuoti projekto patvirtinimo rinkinių** srautą nustatyta kaip **Įjungta**. Jei ne, pasirinkite srautą, tada pasirinkite **Įjungti**.
+7. Patikrinkite, ar apdorojimas vyksta kas penkias minutes, peržiūrėdami **sistemos užduočių** sąrašą, esantį **"Project Operations**" aplinkos srityje Parametrai Dataverse.
 
 ## <a name="failed-approvals-and-approval-sets"></a>Patvirtinimų ir patvirtinimo rinkinių pažymėjimas kaip nepavykusių
 Rodinyje **Nesėkmingai atlikti patvirtinimai** pateikiami visi patvirtinimai, kuriems reikalingas vartotojo įsikišimas. Atidarykite susijusių patvirtinimo rinkinių žurnalus, kad būtų galima nustatyti nesėkmės priežastį.
