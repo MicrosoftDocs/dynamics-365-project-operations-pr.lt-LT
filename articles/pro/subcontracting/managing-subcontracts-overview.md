@@ -3,15 +3,15 @@ title: „Project Operations“ valdymas pagal subrangos sutartį
 description: Šioje temoje pateikta tiesioginio subrangos valdymo proceso, paprastai atliekamo projektu pagrįstose oranizacijose, apžvalga.
 author: rumant
 ms.date: 08/02/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 993edfd064279a970d7c42d5fcefd794e949a931
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
-ms.translationtype: HT
+ms.openlocfilehash: d595e948b7be9a6822827f4841e737d3c0e1476b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323606"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593024"
 ---
 # <a name="subcontract-management-in-project-operations"></a>„Project Operations“ valdymas pagal subrangos sutartį
 
@@ -46,7 +46,7 @@ Subrangos sutarties eilutė gali būti pagrįsta kiekiu arba darbu.
 
 Kai subrangos sutarties eilutė yra **pagrįsta kiekiu**, kiekį, perkamą laiko, išlaidų arba medžiagos subrangos sutarties eilutėje, galima naudoti kiekvienam projektui.
 
-Kai subrangos sutarties eilutė yra **pagrįsta darbu**, subrangos sutarties eilutė susiejama su darbo struktūra, kurią nurodo projekto plano mazgas. Subrangos sutarties eilutės vertė yra visų komponentų, reikalingų tai darbo struktūrai pateikti, suma. Šie modeliuojami kaip išsamūs subrangos sutarties eilutės duomenys ir gali būti laiko, išlaidų ar medžiagų rinkinys. Darbu pagrįstos subrangos sutarties eilutės atveju subrangos sutarties eilutė taip pat yra skiriama tik vienam projektui.
+Kai subrangos sutarties eilutė yra **pagrįsta darbu**, subrangos sutarties eilutė susiejama su darbo struktūra, kurią nurodo projekto plano mazgas. Subrangos sutarties eilutės vertė yra visų komponentų, reikalingų tai darbo struktūrai pateikti, suma. Šie modeliuojami kaip išsamūs subrangos sutarties eilutės duomenys ir gali būti laiko, išlaidų ar medžiagų rinkinys. Darbu pagrįstos subrangos sutarties eilutės atveju subrangos sutarties eilutė taip pat yra skiriama tik vienam projektui. Šių tipų subrangos sutartys yra currenlty nepalaiko projekto operacijos.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

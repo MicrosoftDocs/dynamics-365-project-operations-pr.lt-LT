@@ -4,25 +4,25 @@ description: Šioje temoje pateikiama informacija apie tai, kaip pasiekti „Pro
 author: sigitac
 ms.date: 10/28/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 15533febe12f970bb35ccb4cdceedce251d1f837bfb59ffcd10e633eec1a3a92
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 50afe2c0e247cb9d9c5f970810fa917d002ae1d0
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994601"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591874"
 ---
 # <a name="navigate-project-operations"></a>Pereiti į „Project Operations“
 
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 „Dynamics 365 Project Operations“, skirtą ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams, sudaro du komponentai: 
 
  - **„Project Operations“ „Common Data Service” (CDS) aplinkoje**. Šis komponentas apima galimybes ir procesus, pradedant galimybėmis ir baigiant „Proforma” sąskaitų faktūrų išrašymu. 
- - **Projektų valdymas ir apskaita „Dynamics 365 Finance” aplinkoje**. Šis komponentas apima išlaidų valdymo galimybes, projektų apskaitą ir pajamų pripažinimą. 
+ - **Projektų valdymas ir apskaita Dynamics 365 Finance aplinkoje**: šis komponentas apima išlaidų valdymo galimybes, projektų apskaitą ir pajamų pripažinimą. 
 
 Parengus „Project Operations” kaip aprašyta šioje temoje, „Lifecycle Services” (LCS) puslapis **Išsami aplinkos informacija** teikia lengvą prieigą prie abiejų „Project Operations” komponentų.  
 

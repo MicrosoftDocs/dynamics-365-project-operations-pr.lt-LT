@@ -4,14 +4,14 @@ description: Šioje temoje pateikta informacija apie projektų kategorijų nusta
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: cea43422469adf12f336f7686814a8199717090c18804d3d0a7509452349566e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 94b66feef4164f3cd52d5fe917071647f731b047
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997121"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591552"
 ---
 # <a name="configure-project-categories"></a>Projekto kategorijų nustatymas
 
@@ -27,7 +27,7 @@ Operacijų kategorijos yra pagrindinis projektų operacijų grupavimas. Šiame g
 
 ## <a name="transaction-categories"></a>Operacijų kategorijos
 
-Operacijų kategorijos atitinka pagrindinį projektų operacijų grupavimą ir jos nėra specifinis įmonės ar operacijos tipas. Pavyzdžiui, Contoso naudoja kategorijas Dizainas, Kelionė, Diegimas ir Aptarnavimo operacija projekto operacijoms grupuoti.
+Operacijų kategorijos atitinka pagrindinį projektų operacijų grupavimą ir jos nėra specifinis įmonės ar operacijos tipas. Pavyzdžiui, „Contoso Robotics“ naudoja dizaino, kelionių, diegimo ir aptarnavimo operacijų kategorijas projektų operacijoms grupuoti.
 
 Operacijų kategorijos apibrėžiamos „Project Operations“ modulyje. 
 1. Eikite į **Nustatymai**\>**Operacijų kategorijos**, kad atidarytumėte formą. 
@@ -35,7 +35,7 @@ Operacijų kategorijos apibrėžiamos „Project Operations“ modulyje.
 
 ## <a name="shared-categories"></a>Bendrai naudojamos kategorijos
 
-„Dynamics 365“ bendro naudojimo kategorijų sąvoka naudojama išlaidoms suskirstyti skirtingose programose, pvz., „Dynamics 365 Finance“ „Dynamics 365 Supply Chain“ ir „Dynamics 365 Project Operations“. Kiekvienai sukurtai operacijos kategorijai „Project Operations“ automatiškai sukuria keturias susijusias bendrai naudojamas kategorijas: valandos, išlaidos, mokesčiai ir elementas. Bendrai naudojamas kategorijas galite peržiūrėti ir koreguoti nuėję į **Projektų valdymas ir apskaita**\>**Nustatymas**\>**Kategorijas**\>**Bendrai naudojamos kategorijos**.
+"Dynamics 365" naudoja bendrinamų kategorijų koncepciją, kad suskirstytų išlaidas į kategorijas skirtingose programose, pvz., Dynamics 365 Finance,"5", "Dynamics 365 Supply Chain" ir Dynamics 365 Project Operations. Kiekvienai sukurtai operacijos kategorijai „Project Operations“ automatiškai sukuria keturias susijusias bendrai naudojamas kategorijas: valandos, išlaidos, mokesčiai ir elementas. Bendrai naudojamas kategorijas galite peržiūrėti ir koreguoti nuėję į **Projektų valdymas ir apskaita**\>**Nustatymas**\>**Kategorijas**\>**Bendrai naudojamos kategorijos**.
 
 ## <a name="project-categories"></a>Projekto kategorijos
 

@@ -2,76 +2,80 @@
 title: Projektų šablonų kūrimas naudojant veiksmą Kopijuoti projektą
 description: Šioje temoje pateikta informacija apie tai, kaip kurti projektų šablonus naudojant pasirinktinį veiksmą Kopijuoti projektą.
 author: stsporen
-ms.date: 01/21/2021
+ms.date: 03/10/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: d12301b4e7baabeb0f045f9a11d4695fc026339af3fa7650db7177c495c71e90
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 72aa2db7c717eeab85ada448c673bf702087baeb
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989273"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8590908"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>Projektų šablonų kūrimas naudojant veiksmą Kopijuoti projektą
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
-
 „Dynamics 365 Project Operations“ palaiko galimybę nukopijuoti projektą ir atšaukti bet kokius priskyrimus, kad būtų naudojami bendrieji ištekliai, atspindintys vaidmenį. Naudodami šią funkciją klientai gali kurti pagrindinių projektų šablonus.
 
 Pasirinkus **Kopijuoti projektą**, tikslinio projekto būsena atnaujinama. Naudokite **būsenos tipą**, kad nustatytumėte, kada kopijavimo veiksmas yra baigtas. Pasirinkus **Kopijuoti projektą** taip pat projekto pradžios data atnaujinama į dabartinę pradžios datą, jei tikslinio projekto objekte neaptikta tikslinė data.
 
-## <a name="copy-project-custom-action"></a>Pasirinktinis veiksmas Kopijuoti projektą 
+## <a name="copy-project-custom-action"></a>Pasirinktinis veiksmas Kopijuoti projektą
 
-### <a name="name"></a>Pavadinimas / vardas, pavardė 
+### <a name="name"></a>Pavadinimą 
 
-**msdyn_CopyProjectV2**
+msdyn\_ CopyProjectV3
 
 ### <a name="input-parameters"></a>Įvesties parametrai
+
 Yra trys įvesties parametrai.
 
-| Parametras          | Tipas   | Reikšmės                                                   | 
-|--------------------|--------|----------------------------------------------------------|
-| ProjectCopyOption  | String | **{"removeNamedResources":true}** arba **{"clearTeamsAndAssignments":true}** |
-| SourceProject      | Objekto nuoroda | Šaltinio projektas |
-| Tikslinis objektas             | Objekto nuoroda | Tikslinis projektas |
+- **ReplaceNamedResources** arba **ClearTeamsAndAssignments** – nustatykite tik vieną iš parinkčių. Nenustatykite abiejų.
 
+    - **\{"ReplaceNamedResources":true\}** – numatytasis "Project Operations" veikimo būdas. Visi pavadinti ištekliai pakeičiami bendraisiais ištekliais.
+    - **\{"ClearTeamsAndAssignments":true\}** – numatytasis "Project for the Web" veikimo būdas. Visos užduotys ir komandos nariai pašalinami.
 
-- **{"clearTeamsAndAssignments":true}**: numatytas „Project“, skirto žiniatinkliui, veikimas, bus pašalinti visi priskyrimai ir komandos nariai.
-- **{"removeNamedResources":true}**: numatytasis „Project Operations“ veikimas, priskyrimai bus atkurti į bendruosius išteklius.
+- **SourceProject** – šaltinio projekto, iš kurio kopijuojama, objekto nuoroda. Šis parametras negali būti neapibrėžtas.
+- **Tikslas** – tikslinio projekto, į kurį norite kopijuoti, objekto nuoroda. Šis parametras negali būti neapibrėžtas.
 
-Daugiau informacijos apie veiksmus žr. [Žiniatinklio API veiksmai](/powerapps/developer/common-data-service/webapi/use-web-api-actions).
+Šioje lentelėje pateikiama trijų parametrų santrauka.
 
-## <a name="specify-fields-to-copy"></a>Kopijuotinų laukų nurodymas 
+| Parametras                | Tipas             | Vertė                 |
+|--------------------------|------------------|-----------------------|
+| ReplaceNamedResources    | Bulio logikos          | **Teisinga** arba **klaidinga** |
+| ClearTeamsAndAssignments | Bulio logikos          | **Teisinga** arba **klaidinga** |
+| SourceProject            | Objekto nuoroda | Šaltinio projektas    |
+| Vertimas                   | Objekto nuoroda | Tikslinis projektas    |
+
+Daugiau numatytųjų veiksmų ypatybių ieškokite [Use Web API actions](/powerapps/developer/common-data-service/webapi/use-web-api-actions).
+
+### <a name="validations"></a>Tikrinimą
+
+Atliekami šie patvirtinimai.
+
+1. Null tikrina ir nuskaito šaltinio ir tikslinius projektus, kad patvirtintų abiejų projektų buvimą organizacijoje.
+2. Sistema patvirtina, kad tikslinis projektas galioja kopijavimui, patikrinusi šias sąlygas:
+
+    - Projekte nėra ankstesnės veiklos (įskaitant skirtuko **Užduotys** pasirinkimą) ir projektas kuriamas naujai.
+    - Nėra ankstesnės kopijos, šiame projekte nebuvo pareikalauta importuoti, o projekto būsena **nepavyko**.
+
+3. Operacija neiškviečiama naudojant HTTP.
+
+## <a name="specify-fields-to-copy"></a>Kopijuotinų laukų nurodymas
+
 Kai veiksmas iškviečiamas, funkcija **Kopijuoti projektą** ieškos projekto rodinyje **Kopijuoti projekto stulpelius** ir nustatys, kuriuos laukus kopijuoti, kai projektas kopijuojamas.
 
-
 ### <a name="example"></a>Pavyzdžiui
-Toliau pateiktame pavyzdyje parodyta, kaip iškviesti pasirinktinį veiksmą **CopyProject** naudojant parametrų rinkinį **removeNamedResources**.
+
+Toliau pateiktame pavyzdyje parodyta, kaip iškviesti pasirinktinį veiksmą **CopyProjectV3** su **parametrų rinkiniu RemoveNamedResources**.
+
 ```C#
 {
     using System;
     using System.Runtime.Serialization;
     using Microsoft.Xrm.Sdk;
     using Newtonsoft.Json;
-
-    [DataContract]
-    public class ProjectCopyOption
-    {
-        /// <summary>
-        /// Clear teams and assignments.
-        /// </summary>
-        [DataMember(Name = "clearTeamsAndAssignments")]
-        public bool ClearTeamsAndAssignments { get; set; }
-
-        /// <summary>
-        /// Replace named resource with generic resource.
-        /// </summary>
-        [DataMember(Name = "removeNamedResources")]
-        public bool ReplaceNamedResources { get; set; }
-    }
 
     public class CopyProjectSample
     {
@@ -89,27 +93,32 @@ Toliau pateiktame pavyzdyje parodyta, kaip iškviesti pasirinktinį veiksmą **C
             var sourceProject = new Entity("msdyn_project", sourceProjectId);
 
             Entity targetProject = new Entity("msdyn_project");
-            targetProject["msdyn_subject"] = "Example Project";
+            targetProject["msdyn_subject"] = "Example Project - Copy";
             targetProject.Id = organizationService.Create(targetProject);
 
-            ProjectCopyOption copyOption = new ProjectCopyOption();
-            copyOption.ReplaceNamedResources = true;
-
-            CallCopyProjectAPI(sourceProject.ToEntityReference(), targetProject.ToEntityReference(), copyOption);
+            CallCopyProjectAPI(sourceProject.ToEntityReference(), targetProject.ToEntityReference(), copyOption, true, false);
             Console.WriteLine("Done ...");
         }
 
-        private void CallCopyProjectAPI(EntityReference sourceProject, EntityReference TargetProject, ProjectCopyOption projectCopyOption)
+        private void CallCopyProjectAPI(EntityReference sourceProject, EntityReference TargetProject, bool replaceNamedResources = true, bool clearTeamsAndAssignments = false)
         {
-            OrganizationRequest req = new OrganizationRequest("msdyn_CopyProjectV2");
+            OrganizationRequest req = new OrganizationRequest("msdyn_CopyProjectV3");
             req["SourceProject"] = sourceProject;
             req["Target"] = TargetProject;
-            req["ProjectCopyOption"] = JsonConvert.SerializeObject(projectCopyOption);
+
+            if (replaceNamedResources)
+            {
+                req["ReplaceNamedResources"] = true;
+            }
+            else
+            {
+                req["ClearTeamsAndAssignments"] = true;
+            }
+
             OrganizationResponse response = organizationService.Execute(req);
         }
     }
 }
 ```
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5ab5959fa5c9c5463826a9a792112a93e469de5f
-ms.sourcegitcommit: 2e4483d5b88213a9f33109f7adb989108521327d
+ms.openlocfilehash: 14bd76df5f058d2af9f77990471a0a173fe8c15d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "7818193"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588930"
 ---
 # <a name="mobile-expense-app"></a>Mobilioji išlaidų programėlė
 
@@ -54,7 +54,7 @@ Jei organizacijoje įdiegta „Finance“, sistemos administratorius turi publik
 ## <a name="download-and-install-the-dynamics-365-unified-ops-mobile-app"></a>Atsisiųskite ir įdiekite „Dynamics 365 Unified Ops“ mobiliųjų įrenginių programėlę
 Atsisiųskite ir įdiekite „Dynamics 365 Unified Ops“ mobiliųjų įrenginių programėlę:
 
-- [Android telefonams](https://go.microsoft.com/fwlink/?linkid=850662)
+- [Skirta telefonams „Android“](https://go.microsoft.com/fwlink/?linkid=850662)
 - [Skirta telefonams „iPhone“](https://go.microsoft.com/fwlink/?linkid=850663)
 
 ## <a name="sign-in-to-the-mobile-app"></a>Prisijungimas prie mobiliųjų įrenginių programėlės
@@ -100,7 +100,7 @@ Atsisiųskite ir įdiekite „Dynamics 365 Unified Ops“ mobiliųjų įrengini�
 
 10. Pasirinkite **Atlikta**.
 
-## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace"></a>Išlaidų ataskaitos patvirtinimas naudojant darbo sritį Išlaidų valdymas mobiliajame įrenginyje
+## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace"></a>Patvirtinti išlaidų ataskaitą naudojant mobiliąją darbo sritį Išlaidų valdymas
 
 1. Mobiliajame įrenginyje atidarykite **išlaidų valdymo** darbo sritį.
 2. **Išlaidų patvirtinimuose** pateikiamas jums priskirtų išlaidų ataskaitų skaičius patvirtinimui. Numeris atnaujinamas maždaug kas 30 minučių. Pažymėkite **išlaidų patvirtinimai**.
@@ -113,7 +113,7 @@ Atsisiųskite ir įdiekite „Dynamics 365 Unified Ops“ mobiliųjų įrengini�
 6. Įveskite visus patvirtinimo veiksmo komentarus.
 7. Pasirinkite **Atlikta**.
 
-## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace"></a>Sukurkite naują išlaidų ataskaitą ir pateikite ją tvirtinti naudodami darbo sritį Išlaidų valdymas mobiliuoju telefonu
+## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace"></a>Sukurkite naują išlaidų ataskaitą ir pateikite ją tvirtinti naudodami mobiliąją darbo sritį Išlaidų valdymas
 
 1. Mobiliajame įrenginyje atidarykite **išlaidų valdymo** darbo sritį.
 2. Pasirinkite **Išlaidų įvedimas**.
@@ -204,28 +204,28 @@ Atsisiųskite ir įdiekite „Dynamics 365 Unified Ops“ mobiliųjų įrengini�
 
 ## <a name="frequently-asked-questions"></a>Dažnai užduodami klausimai
 
-### <a name="why-doesnt-the-expense-mobile-app-enter-the-payment-method-by-default"></a>Kodėl pagal numatytuosius nustatymus programėlė "Expense mobile" neįveža mokėjimo metodo?
+### <a name="why-doesnt-the-expense-mobile-app-enter-the-payment-method-by-default"></a>Kodėl mobilioji programėlė "Expense" pagal numatytuosius nustatymus neįveda mokėjimo metodo?
 
-Organizacijos gali tinkinti **kiekvienos sukurtos išlaidų kategorijos parametrą Numatytasis mokėjimo** metodas. Be to, nustatydami mokėjimo metodus, galite nustatyti **lauką Numatytasis mokėjimo metodas** kaip Importuoti **tik**.
+Organizacijos gali tinkinti **kiekvienos sukurtos išlaidų kategorijos numatytojo mokėjimo metodo** parametrą. Be to, kai nustatote mokėjimo būdus, lauką Numatytasis mokėjimo būdas galite nustatyti **tik importuoti**.**·**
 
-Kai **įgalintas tik** mokėjimo būdo importavimas, mokėjimo metodas neįvedamas pagal numatytuosius nustatymus. Jis bus tuščias išlaidų kategorijose, kuriose nustatytas šis mokėjimo metodas. Ši elgsena yra nuosekli tiek žiniatinklio patirtį ir mobiliojo ryšio patirtį.
+Kai **leidžiama importuoti tik** mokėjimo metodą, mokėjimo metodas pagal numatytuosius nustatymus neįvedamas. Jis bus tuščias išlaidų kategorijose, kuriose nustatytas šis mokėjimo būdas. Šis elgesys yra nuoseklus tiek žiniatinklio patirtyje, tiek mobiliojo ryšio patirtyje.
     
-Kai **tik** importavimas neįgalintas mokėjimo metodui, nustatyta vertė įvedama pagal numatytuosius nustatymus išlaidų kategorijoms, kuriose nustatytas šis mokėjimo metodas. Tačiau yra žinoma problema, kai numatytoji reikšmė neįvesta į programą "Expense mobile". Norėdami išspręsti šią problemą, prieš įrašydami išlaidų ataskaitą neautomatiniu būdu pasirinkite mokėjimo metodą. 
+Kai **importavimas neįgalintas tik** mokėjimo metodui, nustatyta vertė pagal numatytuosius nustatymus įvedama išlaidų kategorijoms, kuriose nustatytas šis mokėjimo metodas. Tačiau yra žinoma problema, kai numatytoji reikšmė neįvesta į mobiliųjų įrenginių programėlę "Expense". Norėdami išspręsti šią problemą, prieš įrašydami išlaidų ataskaitą rankiniu būdu pasirinkite mokėjimo būdą. 
 
-### <a name="why-cant-i-add-or-edit-financial-dimensions-in-the-expense-mobile-app"></a>Kodėl negaliu įtraukti arba redaguoti finansinių dimensijų programėlėje "Išlaidos mobiliesiems"?
+### <a name="why-cant-i-add-or-edit-financial-dimensions-in-the-expense-mobile-app"></a>Kodėl negaliu įtraukti arba redaguoti finansinių aspektų mobiliųjų įrenginių programėlėje Išlaidos?
 
-Dimensijų ir paskirstymų įvedimas nepalaikomas. Norėdami apeiti šį apribojimą, galite nustatyti šiuos laukus pagal numatytuosius nustatymus mobiliojoje programėlėje nustatydami numatytąsias finansines dimensijas pagal projektą arba darbuotoją.
+Dimensijų ir paskirstymų įvedimas nepalaikomas. Norėdami apeiti šį apribojimą, galite nustatyti šiuos laukus pagal numatytuosius nustatymus mobiliojoje programėlėje nustatydami numatytąsias finansines dimensijas vienam projektui ar darbuotojui.
 
-### <a name="why-do-i-sometimes-see-a-synchronization-error-in-the-expense-mobile-app"></a>Kodėl kartais programoje "Expense mobile" matau sinchronizavimo klaidą?
+### <a name="why-do-i-sometimes-see-a-synchronization-error-in-the-expense-mobile-app"></a>Kodėl kartais matau sinchronizavimo klaidą mobiliųjų įrenginių programėlėje Išlaidos?
 
-Jei išlaidų eilutės neatitinka strategijos reikalavimų ir vartotojas pateikia išlaidų ataskaitą nesprendžiant strategijos įspėjimo, mobiliojo ryšio duomenys nesinchronizuojami su serveriu ir įvyksta sinchronizavimo klaida. Visos išlaidų ataskaitos, pateiktos įvykus sinchronizavimo trikčiai, liks nepavykusios būsenos ir sukels daugiau sinchronizavimo trikčių. Vienintelis būdas išspręsti šią situaciją yra neautomatiniu būdu panaikinti sinchronizavimo pranešimus. Ši problema buvo išspręsta sustabdant išlaidų ataskaitų pateikimą, kai strategijos įspėjimai nebuvo pašalinti, kad būtų išvengta sinchronizavimo klaidų.
+Jei išlaidų eilutės neatitinka strategijos reikalavimų, o vartotojas pateikia išlaidų ataskaitą nesikreipdamas į strategijos įspėjimą, mobilieji duomenys nesinchronizuojami su serveriu ir įvyksta sinchronizavimo klaida. Visos išlaidų ataskaitos, pateiktos įvykus sinchronizavimo gedimui, liks nepavykusioje būsenoje ir sukels daugiau sinchronizavimo gedimų. Vienintelis būdas išspręsti šią situaciją yra rankiniu būdu ištrinti sinchronizavimo pranešimus. Ši problema buvo išspręsta sustabdant išlaidų ataskaitų pateikimą, kai strategijos įspėjimai nebuvo pašalinti, kad būtų išvengta sinchronizavimo klaidų.
 
-### <a name="why-isnt-project-and-category-validation-correctly-reflected-in-the-expense-mobile-app"></a>Kodėl projekto ir kategorijos tikrinimas tinkamai neatsispindi programėlėje "Expense mobile"?
+### <a name="why-isnt-project-and-category-validation-correctly-reflected-in-the-expense-mobile-app"></a>Kodėl projekto ir kategorijos patvirtinimas tinkamai neatsispindi mobiliųjų įrenginių programėlėje Išlaidos?
 
-Šis tikrinimas šiuo metu nepalaikomas. Tačiau ateityje parama gali būti pridėta. 
+Šis tikrinimas šiuo metu nepalaikomas. Tačiau parama gali būti pridėta ateityje. 
 
-### <a name="what-document-types-are-supported-in-the-expense-mobile-app"></a>Kokie dokumentų tipai palaikomi programėlėje "Expense mobile"?
+### <a name="what-document-types-are-supported-in-the-expense-mobile-app"></a>Kokie dokumentų tipai palaikomi mobiliųjų įrenginių programėlėje Išlaidos?
 
-Mobilioji programėlė "Expense" palaiko tik vaizdus. Šiuo metu ji nepalaiko PDF rinkmenų ar kitų dokumentų.
+"Cost" mobilioji programa palaiko tik vaizdus. Šiuo metu ji nepalaiko PDF rinkmenų ar kitų dokumentų.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

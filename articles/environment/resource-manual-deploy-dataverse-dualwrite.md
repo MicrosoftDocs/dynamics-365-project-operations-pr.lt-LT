@@ -4,14 +4,14 @@ description: Šioje temoje paaiškinta, kaip rankiniu būdu visuotinai įdiegti 
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 06325a9a9f9084d1f506f2493c32565fe7b7c52ae6fe22c81339b9c1d632e688
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b82eef7b5f64705f37f224172c14f6734612329e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986456"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591230"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>Visuotinis „Project Operations“ „Dataverse“ programos su dvigubo rašymo palaikymu diegimas rankiniu būdu
 
@@ -37,7 +37,7 @@ Norėdami atlikti šią procedūrą, turite prisijungti kaip administratorius.
 3. Pasirinkite aplinkos tipą. Jei užsiregistravote naudoti bandomosios versijos pasiūlymą, pasirinkite **Bandomoji versija (pagrįsta prenumerata)**.
 4. Patvirtinkite visuotinio diegimo regioną.
 5. Įjunkite parinktį **Kurti duomenų bazę šiai aplinkai**. 
-6. Patvirtinkite kalbą, tada patvirtinkite, kad valiuta atitinka jūsų „Finance and Operations“ programų valiutą.
+6. Patvirtinkite kalbą ir patvirtinkite, kad valiuta atitinka jūsų "Finance and Operations" programų valiutą.
 7. Įjunkite parinktį **„Dynamics 365“ programos** ir patvirtinkite, kad laukas **Automatiškai visuotinai diegti šias programas** nustatytas kaip **Nėra**.
 8. Jei reikia saugos grupės, ją įtraukite.
 9. Norėdami sukurti aplinką, pasirinkite **Įrašyti**.
@@ -62,4 +62,4 @@ Atlikite šią procedūrą norėdami į savo aplinką įtraukti dvigubo rašymo 
 
 ## <a name="link-your-environments"></a><a name="link"></a>Aplinkų susiejimas
 
-Įdiegę „Dataverse“ aplinką, galite nustatyti saitą savo „Finance and Operations“ programose. Atlikite veiksmus, nurodytus dalyje [Aplinkų susiejimas naudojant dvigubo rašymo vedlį](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).
+Įdiegę Dataverse aplinką, saitą galite nustatyti savo "Finance and Operations" programose. Atlikite veiksmus, nurodytus dalyje [Aplinkų susiejimas naudojant dvigubo rašymo vedlį](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).

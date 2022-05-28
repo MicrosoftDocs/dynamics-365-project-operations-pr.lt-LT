@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 41d7d7133652069ca3899db7f12e67e9ba531bcd3e36d67c3686a6b637b077d3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cb6ab1337652d18a30fba56560ffe50f78dd4eb4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986816"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589022"
 ---
 # <a name="whats-new-february-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021 m. vasario mėn. naujienos – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams
 
@@ -21,7 +21,7 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 Ši tema taikoma toliau nurodytiems „Dynamics 365 Project Operations“ komponentams ir versijoms:
 
 - „Project Operations“ „Dataverse“ aplinkoje 4.7.0.95
-- Projektų valdymas ir apskaita „Dynamics 365 Finance” aplinkoje, 10.0.16 versija 
+- Projektų valdymas ir apskaita Dynamics 365 Finance aplinkoje 10.0.16 versija 
 
 ## <a name="quality-updates"></a>Kokybės naujinimai
 
@@ -44,14 +44,14 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 | **Laiko įrašas** | 2129161 | Taikomi griežtesni apribojimai, siekiant užtikrinti, kad vartotojai negalėtų keisti ir atnaujinti pateikto ar patvirtinto laiko įrašo. |
 | **Laiko įrašas** | 2103572 | Ne projekto laiko įrašų laiko patvirtinimas negali ieškoti projekto tvirtintojo vaidmens. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektų valdymas ir apskaita programoje „Dynamics 365 Finance” 
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektų valdymas ir apskaita Dynamics 365 Finance 
 
-Daugiau informacijos apie projektų valdymą ir apskaitą „Dynamics 365 Finance“ programoje žr. [2021 m. sausio mėn. naujienos – „Project Operations“, skirtos ištekliais / nelaikomomis medžiagomis pagrįstiems scenarijams](whats-new-jan-2021-resource-based.md).
+Daugiau informacijos apie projektų valdymą ir apskaitą Dynamics 365 Finance m. ieškokite [What's new January 2021 - Project Operations for resource/non-stocked based scenarios](whats-new-jan-2021-resource-based.md).
 
 
 ## <a name="regulatory-updates"></a>Reguliavimo naujinimai
 
-Norėdami gauti informacijos apie „Finance and Operations” programų reguliavimo naujinimus, žr. [Reguliavimo naujinimai](/dynamics365/finance/localizations/regulatory-updates). Kitas būdas sužinoti apie reguliavimo atnaujinimus – prisijungti prie „Lifecycle Services“ (LCS) ir peržiūrėti suplanuotus reguliavimo naujinimus naudojant problemų ieškos įrankį. Problemų ieška leidžia ieškoti pagal šalį, funkcijos tipą ir leidimą.
+Informacijos apie "Finance and Operations" programų reguliavimo naujinimus ieškokite [reguliavimo naujinimai](/dynamics365/finance/localizations/regulatory-updates). Kitas būdas sužinoti apie reguliavimo atnaujinimus – prisijungti prie „Lifecycle Services“ (LCS) ir peržiūrėti suplanuotus reguliavimo naujinimus naudojant problemų ieškos įrankį. Problemų ieška leidžia ieškoti pagal šalį, funkcijos tipą ir leidimą.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

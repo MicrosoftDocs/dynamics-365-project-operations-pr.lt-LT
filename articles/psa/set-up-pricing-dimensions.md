@@ -15,12 +15,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 91ec6d502a44771e7e03b67cc2be40c527fff355
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002341"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591920"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Pasirinktinių laukų kaip kainodaros dimensijų nustatymas 
 
@@ -73,10 +74,10 @@ Yra dviejų tipų kainodaros dimensijos:
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso India|Vietoje            |                    |Viršvalandžiai                 |15     |
 |             | Contoso India|Vietinis             |                    |Viršvalandžiai                 |10     |
-|             | „Contoso“ JAV   |Vietinis             |                    |Viršvalandžiai                 |20     |
+|             | „Danys“, JAV   |Vietinis             |                    |Viršvalandžiai                 |20     |
 
 
-Jei ištekliai iš „Contoso India“, kurių bazinis tarifas yra 100 USD, dirba internetu, ir jie laiko įraše užregistruoja 8 reguliaraus laiko valandas ir 2 valandas viršvalandžių, „Project Service“ kainodaros variklis naudos 100 bazinį tarifą už 8 valandas įrašui 800 USD. Už 2 valandas viršvalandžių 100 baziniam tarifui bus taikomas 15 % antkainis, kad būtų gauta 115 USD vieneto kaina, ir įrašys bendrą savikainą, lygią 230 USD.
+Jei ištekliai iš „Danys India“, kurių bazinis tarifas yra 100 USD, dirba internetu, ir jie laiko įraše užregistruoja 8 reguliaraus laiko valandas ir 2 valandas viršvalandžių, „Project Service“ kainodaros variklis naudos 100 bazinį tarifą už 8 valandas įrašui 800 USD. Už 2 valandas viršvalandžių 100 baziniam tarifui bus taikomas 15 % antkainis, kad būtų gauta 115 USD vieneto kaina, ir įrašys bendrą savikainą, lygią 230 USD.
 
 ### <a name="applicable-to-cost"></a>Taikoma savikainai 
 Jei tai nustatyta kaip **Taip**, tai nurodo, kad dimensijos reikšmė iš įvesties konteksto turi būti naudojama, siekiant suderinti **Vaidmens kaina** ir **Vaidmens kainos antkainis**, kai gaunami savikainos ir antkainio tarifai.

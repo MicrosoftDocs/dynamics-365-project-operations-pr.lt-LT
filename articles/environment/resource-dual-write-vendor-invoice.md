@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 538a2694591f1d0d368ee0ffeed9bdf12cb47420c3d0571f75185fe433f23436
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8650eed2230b99b821c1635fdc88252bb65c5583
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986501"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591185"
 ---
 # <a name="vendor-invoice-integration"></a>Tiekėjo sąskaitų faktūrų integravimas
 
@@ -34,7 +34,7 @@ Sprendime „Project Operations“ su projektais susijusios tiekėjų sąskaitos
      > [!NOTE]
      > Tiekėjų sąskaitų faktūrų išsamios informacijos sprendime „Dataverse“ redaguoti negalima.
 
-Registruojant tiekėjo sąskaitą faktūrą, sprendime „Dynamics 365 Finance“ pagal poreikį įrašomos papildomos mokesčių knygos, papildomos tiekėjų knygos ir kiti finansiniai registravimai.
+Mokesčių subklasteris, tiekėjo subklasteris ir kiti finansiniai registravimai įrašomi kaip taikytina Dynamics 365 Finance, kai registruojama tiekėjo SF.
 
 ![Tiekėjo sąskaitų faktūrų integravimas.](media/DW7VendorInvoice.png)
 

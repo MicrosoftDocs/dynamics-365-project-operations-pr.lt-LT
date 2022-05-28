@@ -1,24 +1,24 @@
 ---
 title: Demonstracinių duomenų taikymas debesyje esančioje „Finance“ aplinkoje
-description: Šioje temoje aiškinama, kaip taikyti demonstracinius „Project Operations“ duomenis „Dynamics 365 Finance“ debesyje esančioje aplinkoje.
+description: Šioje temoje paaiškinama, kaip taikyti demonstracinius duomenis iš "Project Operations" Dynamics 365 Finance debesyje talpinamoje aplinkoje.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c04aab6ffb332a3095ca2a7890deb73f15a8b5e3713021c60eec02eb13dbd0cb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e4ccc7eb02fabdc0476fe454f33bff637ab8b835
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009676"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588976"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Demonstracinių duomenų taikymas debesyje esančioje „Finance“ aplinkoje
 
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
 > [!IMPORTANT]
-> Ši tema taikoma tik 10.0.13 versijos „Microsoft Dynamics 365 Finance“ ir veiksmus galima atlikti tik debesyje esančiai aplinkai. Atlikite šioje temoje aprašytus veiksmus **PRIEŠ** taikydami kokybinius naujinimus aplinkoje.
+> Ši tema taikoma Microsoft Dynamics tik "365 Finance" 10.0.13 versijai ir gali būti vykdoma tik debesyje talpinamoje aplinkoje. Atlikite šioje temoje aprašytus veiksmus **PRIEŠ** taikydami kokybinius naujinimus aplinkoje.
 
 1. LCS projekte atidarykite puslapį **Išsami aplinkos informacija**. Atkreipkite dėmesį, kad jame yra išsami informacija, kurios reikia norint prisijungti prie aplinkos naudojant nuotolinio darbalaukio protokolą (RDP).
 
@@ -76,7 +76,7 @@ Tai užtruks keletą minučių. Turėtumėte gauti patvirtinimo pranešimą, kad
 
 18. Uždarykite nuotolinio darbalaukio seansą ir naudokite LCS puslapį **Išsami aplinkos informacija**, kad prisijungtumėte prie aplinkos ir įsitikintumėte, kad ji veikia taip, kaip tikimasi.
 
-![„Finance and Operations”.](./media/10FinanceAndOperations.png)
+![Finansai ir operacijos.](./media/10FinanceAndOperations.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

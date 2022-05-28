@@ -1,17 +1,17 @@
 ---
 title: Subrangos projekto komandos nariai
-description: Šioje temoje paaiškinama, kaip subrangos projekto komandos narius Microsoft Dynamics 365 Project Operations.
+description: Šioje temoje paaiškinama, kaip sudaryti subrangos sutartis su projekto komandos nariais programoje "Microsoft"Dynamics 365 Project Operations.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
-ms.reviewer: tonyafehr
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b98fc356d7de77fa7f05667acaa5569a7053e4d1
-ms.sourcegitcommit: 04dc8d952e6da3ab3eb2a20131c6f7cee6040876
+ms.openlocfilehash: f43f817e59ef83fbf4dda6267327080f7c56e0f7
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "7903720"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8587856"
 ---
 # <a name="subcontracting-project-team-members"></a>Subrangos projekto komandos nariai
 
@@ -19,41 +19,41 @@ ms.locfileid: "7903720"
 
 _**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
 
-Programoje Microsoft Dynamics 365 Project Operations galite pasirinkti subrangos sutartis su neįjungus arba darbuotojų komanda.
+Programoje "Microsoft" Dynamics 365 Project Operations galite pasirinkti sudaryti subrangos sutartis su darbuotojais arba projekto komandos nariais, kuriuose nėra darbuotojų.
 
-- Nepriskirti projekto komandos nariai turi priskirtą bendrąjį išteklių.
-- Darbuotojai komandos nariai turi priskirtą pavadintą išteklių.
+- Nekvalifikuotiems projekto komandos nariams priskirtas bendrasis išteklius.
+- Personalo komandos nariams priskirtas pavadintas išteklius.
 
-Kai susiejate projekto komandos narį su subrangos eilute, visi komandos nario priskyrimai užduotims bus atkuriami pagal pirkimo kainoraštį, pridėtą prie subrangos.  Puslapio **Išsami projekto informacija skirtuke Sąmatos** **pasirinkite** **mygtuką Naujinti kainas,** kad pamatytumėte atnaujintą kainodarą ir (arba) įkainojimas, atsirandančius dėl sprendimo subrangos sutartis. 
+Kai susiejate projekto komandos narį su subrangos eilute, visi priskyrimai užduotims, kurias turi komandos narys, bus perskaičiuoti pagal pirkimo kainoraštį, pridėtą prie subrangos sutarties.  **Puslapio Išsami projekto informacija** skirtuke **Įvertinimai** pasirinkite mygtuką Atnaujinti kainas **, kad pamatytumėte** atnaujintą kainodarą ir (arba) įkainojimą, atsirandančius dėl sprendimo sudaryti subrangos sutartis. 
 
-## <a name="subcontracting-an-unstaffed-project-team-member"></a>Subrangos sutartis su neįjungtu projekto komandos nariu
-**Komandos nario išsamios informacijos puslapyje yra** subrangos ir subrangos eilučių laukai, leidžiantys projekto vadovui išreikšti, kaip jie norėtų pasinaudoti subrangos pajėgumais. Norėdami subrangos sutartis projekto komandos narį laikyti bendruoju ištekliumi, atlikite šiuos veiksmus:
+## <a name="subcontracting-an-unstaffed-project-team-member"></a>Subrangos sutartis su nekvalifikuotu projekto komandos nariu
+Puslapyje **Komandos nario išsami informacija** yra subrangos ir subrangos eilučių laukai, leidžiantys projekto vadovui išreikšti, kaip jie norėtų pasinaudoti pajėgumais, reikalingais iš subrangos sutarties. Norėdami sudaryti subrangos sutartį su projekto komandos nariu kaip bendruoju ištekliumi, atlikite šiuos veiksmus:
 
-1.  Komandos nario išsamios informacijos puslapyje pasirinkite **subrangą.**
+1.  Puslapyje Komandos nario išsami informacija **pasirinkite subrangos** sutartį.
 
-2.  Galite pasirinkti tik subrangovus, kurių **būsena Juodraštis** arba **Patvirtinta**. **Negalima** **pasirinkti uždarytų arba atšauktų** subrangovų. 
+2.  Galite pasirinkti tik subrangos sutartis, kurių **būsena Yra Juodraštis** arba **Patvirtinta**. **Negalima pasirinkti uždarytų** arba **atšauktų** subrangos sutarčių. 
 
-3.  **Subrangos eilutės** laukas tampa matomas pasirinkus subrangos sutartis.
+3.  Antrinės sutarties eilutės **laukas** tampa matomas pasirinkus subrangos sutartį.
 
-4.  Lauke **Subrangos** eilutėje galite pasirinkti tik laiko subrangos eilutes. Negalite pasirinkti išlaidų ar medžiagų subrangos eilučių.
+4.  Lauke **Subrangos eilutė** galite pasirinkti tik laiko subrangos eilutes. Negalite pasirinkti išlaidų ar medžiagų subrangos eilučių.
 
-5.  Projekto komandos nario įrašo vaidmuo turi atitikti subrangos eilutės vaidmenį. Tai užtikrina, kad projekto metu atliekamas vaidmuo yra tas pats vaidmuo, kuris perkamas subrangos linijoje. 
+5.  Projekto komandos nario įrašo vaidmuo turi atitikti subrangos eilutės vaidmenį. Tai užtikrina, kad laikas vaidmeniui, kuris vertinamas projekte, yra tas pats vaidmuo, kuris perkamas subrangos eilutėje. 
 
-Kai bendrosios komandos narys susietas su subrangos ir subrangos eilute, **bendrosios komandos nario eilutės laukas Darbuotojo tipas bus** atnaujintas į Sutarties darbuotojo **ir** **subrangos galiojimas** bus nustatytas kaip **Galiojantis**.
+Kai generinis komandos narys yra susietas su subrangos ir subrangos eilute, **bendrosios komandos nario eilutės laukas Darbuotojo tipas** bus atnaujintas į **Sutartininkas**, o **subrangos galiojimas** bus nustatytas kaip **Galiojantis**.
 
-## <a name="subcontracting-a-staffed-project-team-member"></a>Subrangos sutartis su projekto komandos nariu
-Kaip ir bendrieji ar ne darbuotojai, projekte reikalingi komandos narių gebėjimai taip pat gali būti susieti su subrangos sutartis. Norėdami subrangos sutartis su įvardytu projekto komandos nariu, atlikite šiuos veiksmus:
+## <a name="subcontracting-a-staffed-project-team-member"></a>Subrangos sutartis su personalo projekto komandos nariu
+Kaip ir bendrieji ar ne darbuotojai komandos nariai, projekte reikalingi personalo komandos narių pajėgumai taip pat gali būti susieti su subrangos sutartimi. Norėdami sudaryti subrangos sutartis su įvardytu projekto komandos nariu, atlikite šiuos veiksmus:
 
-1.  Įsitikinkite, kad nurodytas išteklius nustatytas kaip rezervuojamų išteklių sutarties darbuotojo tipas. Be to, įsitikinkite, kad **rezervuojamo** ištekliaus laukas Tiekėjas atitinka pasirinktinos subrangos tiekėją. 
+1.  Įsitikinkite, kad įvardytas išteklius nustatytas kaip užsakomųjų ištekliaus darbuotojo pagal sutartį tipas. Be to, įsitikinkite, kad **rezervuoto ištekliaus laukas Tiekėjas** atitinka pasirinktą subrangos sutarties tiekėją. 
 
-2.  Subrangos sutartis galite pasirinkti tik **būsenoje Juodraštis** arba **Patvirtinta**. **Negalima** **pasirinkti uždarytų arba atšauktų** subrangovų. 
+2.  Subrangos sutartis galite pasirinkti tik būsenos Juodraštis **arba** **Patvirtinta** būsena. **Negalima pasirinkti uždarytų** arba **atšauktų** subrangos sutarčių. 
 
-3.  **Subrangos eilutės** laukas tampa matomas pasirinkus subrangos sutartis.
+3.  Antrinės sutarties eilutės **laukas** tampa matomas pasirinkus subrangos sutartį.
 
-4.  Lauke **Subrangos** eilutėje galite pasirinkti tik laiko subrangos eilutes. Negalite pasirinkti išlaidų ar medžiagų subrangos eilučių.
+4.  Lauke **Subrangos eilutė** galite pasirinkti tik laiko subrangos eilutes. Negalite pasirinkti išlaidų ar medžiagų subrangos eilučių.
 
-5.  Projekto komandos nario įrašo vaidmuo turi atitikti subrangos eilutės vaidmenį. Tai užtikrina, kad projekto metu atliekamas vaidmuo yra tas pats vaidmuo, kuris perkamas subrangos linijoje. 
+5.  Projekto komandos nario įrašo vaidmuo turi atitikti subrangos eilutės vaidmenį. Tai užtikrina, kad laikas vaidmeniui, kuris vertinamas projekte, yra tas pats vaidmuo, kuris perkamas subrangos eilutėje. 
 
-Įvardyti projekto komandos nariai, nustatyti kaip užsakytų išteklių sutarties darbuotojo **tipas**, bus rodomi su subrangos galiojimo būsena, kuri **negalioja**, jei jie nėra susieti su subrangos sutartimi. Kai nurodytas projekto komandos narys susietas su subrangos ir subrangos eilute, **komandos nario eilutės laukas Darbuotojo tipas bus** atnaujintas į Sutarties darbuotojas **ir** **subrangos galiojimas** bus nustatytas kaip **Galiojantis**.
+Pavadinti projekto komandos nariai, nustatyti kaip užsakomųjų išteklių **sutartininko** tipas, bus rodomi su subrangos galiojimo būsena Neleistina, **jei** jie nėra susieti su subrangos sutartimi. Kai įvardytas projekto komandos narys yra susietas su subrangos ir subrangos eilute, **komandos nario eilutės laukas Darbuotojo tipas** bus atnaujintas į **Sutartininkas**, o **subrangos galiojimas** bus nustatytas kaip **Galiojantis**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

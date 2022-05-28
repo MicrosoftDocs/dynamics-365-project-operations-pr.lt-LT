@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 896f19746bde1ba6cf2acd6d558137f4271a5cd99424043053eefe128d3b4250
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 24e13642ac1fb9e90daab6d8aa9b16ed9c2defbf
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996806"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8587366"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>Projekto planavimas su darbo paskirstymo struktūra („Project Service“)
 
@@ -63,7 +64,7 @@ Projekto grafikas nurodo, kokius darbus reikės atlikti, kurie ištekliai darbą
 ## <a name="task-types"></a>Užduočių tipai  
 Kuriant darbo paskirstymo struktūrą, naudojamos šių tipų užduotys:  
 
-| | | 
+| Užduotis | Aprašą | 
 |---------------------------------------|-----------------------------------------------------------------| 
 | **Projekto šakninis mazgas** | Tai projekto aukščiausio lygio suvestinė užduotis. Joje yra kuriamos visos kitos projekto užduotys. Šakninei užduočiai suteikiamas projekto pavadinimas. Šakninio mazgo pastangos, datos ir trukmė yra pagrįstos žemiau jos esančios hierarchijos reikšmėmis. Negalite nei redaguoti šakninio mazgo ypatybių, nei panaikinti paties šakninio mazgo. | 
 | **Suvestinės arba konteinerio užduotys** | Suvestinė užduotis yra užduotis, turinti papildomų užduočių. Pati suvestinė užduotis neturi jokių darbo pastangų nei savikainos. Jos darbo pastangos ir savikaina yra jos papildomų užduočių apibendrinamoji reikšmė. Galite keisti suvestinės užduoties pavadinimą, bet negalite keisti pastangų, datų ar trukmės, nes jos apskaičiuojamos automatiškai. Panaikinus suvestinę užduotį, panaikinama pati užduotis ir visos jos papildomos užduotys.|  

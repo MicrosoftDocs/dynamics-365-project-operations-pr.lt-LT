@@ -1,5 +1,5 @@
 ---
-title: Iš naujo įsivaizduojamos išlaidų ataskaitos (yra vaizdo įrašas)
+title: Iš naujo parengtos išlaidų ataskaitos (yra vaizdo įrašas)
 description: Šioje temoje paaiškinama, kaip pertvarkyti ir iš naujo nustatyti išlaidų ataskaitų įrašų patirtį.
 author: suvaidya
 ms.date: 12/16/2021
@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: db5812ebf5a96afee53144efb231093f6af85b68
-ms.sourcegitcommit: 1186e9822e06a13fde89b67ea89427eddfe23cee
+ms.openlocfilehash: 562ec3701a607ed95f663f3e0846d044b3bf504e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7941055"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586952"
 ---
 # <a name="expense-reports-reimagined"></a>Išlaidų ataskaitų pertvarkymas
 
@@ -58,7 +58,7 @@ Norėdami įjungti naująsias funkcijas, darbo srityje **Funkcijų valdymas** į
 | Naujų išlaidų eilučių išsaugojimas ir įtraukimas | Įvesdami naujas išlaidas, galite naudoti mygtukus **Įrašyti** ir **Nauja**, kad greitai įvestumėte išlaidų eilutes. |
 | Išskaidytų ir detaliai išvardytų eilučių geresnis matomumas | Detaliai išvardytos ir išskaidytos eilutės tiesiogiai įtraukiamos į išlaidų sąrašą, kad būtų padidintas matomumas ir būtų lengviau nustatyti, ar yra klaidų. |
 | Subkategorijų duomenų peržiūra detalizuotose eilutėse | Detalizuotose pirminių išlaidų eilutėse rodomos išlaidų ataskaitos subkategorijų žymos. Naudojant detalizavimo funkciją galima greitai peržiūrėti detalią informaciją.|
-|Greitai detalizuoti pasikartojančias išlaidas | Iš naujo įsivaizduojama išlaidų darbo sritis suteikia galimybę greitai detalizuoti pasikartojančias išlaidas pridedant subkategorijos, pradžios datos ir kiekio. Kiekis nurodo, kiek kartų mokestis kartojamas per nepertraukiamą laikotarpį. |
+|Greitai išvardykite pasikartojančias išlaidas | Iš naujo nustatyta išlaidų darbo sritis suteikia galimybę greitai detalizuoti pasikartojančias išlaidas, pridedant subkategoriją, pradžios datą ir kiekį. Kiekis nurodo, kiek kartų mokestis kartojamas per nepertraukiamą laikotarpį. |
 | Kvitų rodymas detalizavimo metu | Galite matyti kvitus detalizavimo metu. |
 | Avanso grynaisiais pinigais pasirinkimas | Pažymėkite vieną ar daugiau avansų grynaisiais pinigais, kad būtų galima atlikti vieną išlaidų operaciją. |
 | Avanso grynaisiais pinigais balansas | Realiuoju laiku peržiūrėkite avanso grynaisiais pinigais balansą, kai kuriate išlaidų įrašą pagal patvirtintus ir apmokėtus avansus grynaisiais pinigais. |

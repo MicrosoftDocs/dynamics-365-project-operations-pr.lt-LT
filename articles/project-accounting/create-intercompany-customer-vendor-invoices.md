@@ -4,14 +4,14 @@ description: Šioje temoje pateikiama informacija, kaip kurti įmonės vidaus kl
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7d32d7a0b96daf9a2a48e16d62de8319636737740601481b85ee887948e31110
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9448cb29adb4206efaabe3f313a1f619cd32b9be
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989272"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591506"
 ---
 # <a name="create-intercompany-customer-and-vendor-invoices"></a>Įmonės vidaus kliento ir tiekėjo sąskaitų faktūrų kūrimas
 
@@ -27,7 +27,7 @@ Skolinimo juridinio objekto projekto apskaitininkas gali nustatyti paketinį pro
 
 Skolinančiajame juridiniame subjekte reikia atlikti toliau nurodytus veiksmus. 
 
-1. Programoje „Dynamics 365 Finance“ eikite į **Projektų valdymas ir apskaita** > **Projekto sąskaitos faktūros** > **Vidinių įmonių klientų SF**. **Vidinių įmonių klientų SF** sąrašo puslapyje esančioje veiksmų srityje pasirinkite **Naujas.**
+1. Dalyje Dynamics 365 Finance eikite į **Projektų valdymas ir apskaita** > **Projekto SF** > **Vidinės įmonės kliento SF**. **Vidinių įmonių klientų SF** sąrašo puslapyje esančioje veiksmų srityje pasirinkite **Naujas.**
 2. Puslapyje **Kurti vidinės įmonės SF**, lauke **Juridinis objektas**, pasirinkite skolinimosi juridinį objektą.
 3. Pasirinktinai: įveskite konkrečios projekto sutarties ir projekto numerius.
 4. Susiaurinkite iešką pasirinkdami datų diapazoną. Laukuose **Pradžios data** ir **Pabaigos data** įveskite konkrečias datas. Ieškos rezultatuose rodomos tik tos įmonės vidaus operacijos, kurios užregistruotos šio datų diapazono ribose.
