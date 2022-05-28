@@ -16,12 +16,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 7dbee508cea074a8c443506d280a1b52eb698202
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998471"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593622"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Kainodaros ir įkainojimo dimensijų pagrindinis puslapis
 
@@ -64,18 +65,18 @@ Toliau pateiktame pavyzdyje pateikiami sąskaitų tarifai, nustatyti pagal vaidm
 
 **Pavyzdiniai sąskaitų tarifai**
 
-| Vaidmuo        | Org. vienetai    |Vienetas      |Kainos      |Valiuta  |
+| Vaidmuo        | Organizacijos vienetas    |Vienetas      |Kaina      |Valiuta  |
 | ------------|-------------|----------|----------:|----------|
-| Developer   | „Contoso“ JAV  |Valanda | 200|USD     |
-| Developer   | Contoso India |Valanda|   112|USD     |
+| Kūrėjas   | „Danys“, JAV  |Hour | 200|USD     |
+| Kūrėjas   | „Danys India“ |Hour|   112|USD     |
 
 
 **Pavyzdiniai savikainos tarifai**
 
-| Atlyginimų juosta     | Org. vienetai    |Vienetas      |Kainos      |Valiuta  |
+| Atlyginimų juosta     | Organizacijos vienetas    |Vienetas      |Kaina      |Valiuta  |
 | ----------------|-------------|----------|----------:|----------|
-| „My company_Band1“ | „Contoso“ JAV  |Valanda | 145|USD     |
-| „My company_Band2“ | Contoso India |Valanda|   67|USD     |
+| „My company_Band1“ | „Danys“, JAV  |Hour | 145|USD     |
+| „My company_Band2“ | „Danys India“ |Hour|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -4,27 +4,27 @@ description: Šioje temoje pateikta informacija apie konfigūracijos duomenų nu
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 26f49ad3b9fb08824071699128f8b907ec98bb54505c6fea3c97288cbaf31633
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 6fb91de30a2414fa7dd8dba47b28cf4824948565
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986636"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594726"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Konfigūracijos duomenų nustatymas ir taikymas programoje „Common Data Service” 
 
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 ## <a name="prerequisites"></a>Būtinosios sąlygos
 
 Prieš pradedant konfigūruoti duomenis Common Data Service (CDS), reikia įvykdyti šias būtinąsias sąlygas:
 
-1.  CDS aplinkos ir „Dynamics 365 Finance” aplinkos parengimas, skirtas „Project Operations”.
-2.  Juridinio objekto informacija iš „Dynamics 365 Finance” bendrinama su CDS aplinka. Tai reiškia, kad CDS esančiame objekte **Įmonė** yra toliau pateikiami įmonės įrašai.
+1.  Pateikti CDS aplinką ir Dynamics 365 Finance aplinką projekto operacijoms.
+2.  Juridinio subjekto informacija iš Dynamics 365 Finance bendrinama su CDS aplinka. Tai reiškia, kad CDS esančiame objekte **Įmonė** yra toliau pateikiami įmonės įrašai.
   - THPM
   - USPM
   - GBPM
@@ -37,7 +37,7 @@ Prieš pradedant konfigūruoti duomenis Common Data Service (CDS), reikia įvykd
 
 ![Konfigūravimo perkėlimas.](./media/1ConfigurationMigration.png)
 
-4. CMT vedlio 2 puslapyje pažymėkite **Microsoft 365** kaip **Visuotinio diegimo tipą**.
+4. CMT vedlio 2 puslapyje pažymėkite **„Microsoft 365“** kaip **Visuotinio diegimo tipą**.
 5. Pažymėkite žymės langelius **Rodyti galimų organizacijų sąrašą** ir **Rodyti išsamiau**.
 6. Pasirinkite savo nuomotojo regioną, įveskite savo kredencialus ir pasirinkite **Prisijungti**.
 
@@ -132,7 +132,7 @@ Prieš pradedant konfigūruoti duomenis Common Data Service (CDS), reikia įvykd
 12. Atnaujinkite toliau nurodytus laukus:
 
  - **Numatytoji įmonė**: USPM
- - **Numatytasis organizacijos vienetas**: Contoso Robotics Global
+ - **Numatytasis organizacinis vienetas**: „Contoso Robotics Global“
  - **Sąskaitų faktūrų dažnumas**: septintoji diena ir paskutinė diena
  - **Darbo valandų šablonas**: pakeiskite į savo sukurtą šabloną.
 

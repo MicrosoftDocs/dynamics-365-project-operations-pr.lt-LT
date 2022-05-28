@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 03/03/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b11a57ae152be154fd6a7d330c8520f3b295ce3ef5cc7051ac9b343e3bcdbe12
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a59aa5591dd5f5ed129ce710196eea572e66ea0b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006346"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599464"
 ---
 # <a name="whats-new-march-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021 m. kovo mėn. naujienos – „Project Operations“, skirtos ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams
 
@@ -21,7 +21,7 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 Ši tema taikoma toliau nurodytiems „Dynamics 365 Project Operations“ komponentams ir versijoms:
 
 - „Project Operations“, esanti „Dataverse“ aplinkoje, 4.8.0.91 versija 
-- Projektų valdymas ir apskaita „Dynamics 365 Finance” aplinkoje, 10.0.16 versija 
+- Projektų valdymas ir apskaita Dynamics 365 Finance aplinkoje 10.0.16 versija 
 
 ## <a name="quality-updates"></a>Kokybės naujinimai
 
@@ -42,13 +42,13 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 | Laikas ir išlaidos | 2148910 | Išspręsta puslapio **Redaguokite įrašą**, esančio tinklelyje **Laiko įrašas**, rodymo problema. |
 | Laikas ir išlaidos | 2159798 | Pagerinti valdikliai, siekiant užtikrinti, kad patvirtintų išlaidų įrašų nebus galima redaguoti. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektų valdymas ir apskaita programoje „Dynamics 365 Finance”
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektų valdymas ir apskaita pagal Dynamics 365 Finance
 
 Daugiau informacijos žr. [2021 m. sausio mėn. naujienos – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams](whats-new-jan-2021-resource-based.md).
 
 ## <a name="regulatory-updates"></a>Reguliavimo naujinimai
 
-Norėdami gauti informacijos apie „Finance and Operations” programų reguliavimo naujinimus, žr. [Reguliavimo naujinimai](/dynamics365/finance/localizations/regulatory-updates). Kitas būdas sužinoti apie reguliavimo atnaujinimus – prisijungti prie LCS ir peržiūrėti suplanuotus reguliavimo naujinimus naudojant problemų ieškos įrankį. Problemų ieška leidžia ieškoti pagal šalį, funkcijos tipą ir leidimą.
+Informacijos apie "Finance and Operations" programų reguliavimo naujinimus ieškokite [reguliavimo naujinimai](/dynamics365/finance/localizations/regulatory-updates). Kitas būdas sužinoti apie reguliavimo atnaujinimus – prisijungti prie LCS ir peržiūrėti suplanuotus reguliavimo naujinimus naudojant problemų ieškos įrankį. Problemų ieška leidžia ieškoti pagal šalį, funkcijos tipą ir leidimą.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -5,14 +5,14 @@ author: rumant
 ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2050a313fe530065341410d60801b13eb958cb32ae24eb4a0a71ab7ea5061881
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: e20ea17691c592493a790fb38451b35db03416be
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995636"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600062"
 ---
 # <a name="proforma-invoices"></a>Išankstinės sąskaitos faktūros
 
@@ -82,6 +82,9 @@ Sukūrus juodraštinę projekto sąskaitą faktūrą, visos pardavimo operacijos
 - Redaguoti ir koreguoti kiekį ir atsiskaitymo tipą.
 
 Pažymėkite **Patvirtinti**, kad patvirtintumėte sąskaitą faktūrą. Patvirtinimo veiksmas yra vienpusis veiksmas. Pasirinkus **Patvirtinti**, sąskaita faktūra sistemoje tampa tik skaitoma ir sukuriami faktiniai pardavimai, už kuriuos išrašyta sąskaita, iš kiekvienos sąskaitos faktūros eilutės išsamios informacijos kiekvienai sąskaitos faktūros eilutei. Jei sąskaitos faktūros eilutėje nurodomas faktinis pardavimas, už kurį neišrašyta sąskaita, sistema taip pat atšaukia faktinį pardavimą, už kurį neišrašyta sąskaita. (Bet kuri sąskaitos faktūros eilutės išsami informacija, sukurta naudojant laiko ar išlaidų įrašą, nurodo faktinį pardavimą, už kurį neišrašyta sąskaita). Didžiosios knygos integravimo sistemos gali naudoti šį atšaukimą, kad atšauktų projekto nebaigtą gamybą (NG) apskaitos tikslais.
+
+> [!NOTE]
+> Patvirtintų proformos SF ir susijusių įrašų, pvz., SF eilučių ir SF eilutės informacijos, redaguoti arba panaikinti negalima. 
 
 ### <a name="correct-a-confirmed-invoice"></a>Patvirtintos sąskaitos faktūros taisymas
 

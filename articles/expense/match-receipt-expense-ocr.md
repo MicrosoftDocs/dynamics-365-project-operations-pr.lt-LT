@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
-ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
+ms.openlocfilehash: 1d4c2cce88514e7822515fc407fc7cf31cb34924
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798050"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8596290"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>Kvito įrašymas naudojant OCR
 
@@ -52,7 +52,7 @@ Jei norite kurti išlaidas arba sugretinti išlaidas iš kvito, atlikite toliau 
 
 ## <a name="installation"></a>Diegimas
 
-Norėdami naudoti šias išplėstines išlaidų galimybes, įdiekite "Microsoft Dynamics 365 Finance" išlaidų valdymo tarnybos priedą ir įjunkite savo egzemplioriaus funkcijas. Priedą iš savo projekto galite pasiekti Microsoft Dynamics gyvavimo ciklo paslaugose (LCS).
+Norėdami naudoti šias išplėstines išlaidų galimybes, įdiekite "365 Finance" Microsoft Dynamics išlaidų valdymo tarnybos priedą ir įjunkite savo egzemplioriaus funkcijas. Galite pasiekti papildinį iš savo projekto programoje „Microsoft Dynamics Lifecycle Services“ (LCS).
 
 1. Prisijunkite prie LCS ir atidarykite pageidaujamą aplinką.
 2. Eikite į **Pilna išsami informacija**.
@@ -73,7 +73,7 @@ Norėdami naudoti šias išplėstines išlaidų galimybes, įdiekite "Microsoft 
 - Įtraukiamas naujas išlaidų lauko matomumo meniu elementas.
 - Dar galite atidaryti buvusių **Išlaidų ataskaitų** puslapį nuėję į **Išlaidų valdymas > Mano išlaidos > Išlaidų ataskaitos**.
 - Darbo eigos ir bet kokie patvirtinimai vis dar pateksite į esamų išlaidų ataskaitų puslapį.
-- Kvitai bus apdorojami naudojant Microsoft Azure kognityvines paslaugas, o metaduomenys bus išskleisti ir pridėti.
+- Kvitai bus apdorojami per „Microsoft Azure Cognitive Services“, o metaduomenys bus išskleisti ir įtraukti.
 - Įtraukiama parinktis, leidžianti kurti išlaidų ataskaitą, kurioje yra suderintų nepridėtų kvitų.
 - Prie išlaidų ataskaitų pridėta parinktis leidžia sukurti išlaidų eilutę iš kvito arba bando sugretinti esamą kvitą su esama išlaidų eilute.
 
@@ -85,7 +85,7 @@ Ne, „Microsoft“ sukūrė bendrąjį mašininio mokymo modelį, skirtą kvito
 
 **Kur ši funkciją prieinama ir apdorojama?**
 
-Šios funkcijos pasiekiamumas skirtinguose regionuose pateikiamas šioje lentelėje. Jei jūsų regionas šiuo metu nepalaikomas, pateikite užklausą, kad jūsų regione būtų teikiama pirmenybė OCR tarnybos pasiekiamumui. 
+Šios funkcijos prieinamumas skirtinguose regionuose pateikiamas šioje lentelėje. Jei jūsų regionas šiuo metu nepalaikomas, pateikite užklausą, kad pirmenybė būtų teikiama OCR paslaugos prieinamumui jūsų regione. 
 
 | Regiono ID | Palaikomas                         |
 |--------|-----------------------------------|

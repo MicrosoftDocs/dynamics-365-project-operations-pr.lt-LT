@@ -5,20 +5,20 @@ author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a00426678d23000dc19386792d346318eab74ed9
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
-ms.translationtype: HT
+ms.openlocfilehash: 03626cb1579fad7f8d8eb501905056cd13092754
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928671"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594864"
 ---
 # <a name="provision-a-new-environment"></a>Naujos aplinkos parengimas
 
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Šioje temoje pateikiama informacijos, kaip sukonfigūruoti naują „Dynamics 365 Project Operations“ aplinką, skirtą ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams.
 
@@ -34,7 +34,7 @@ Atlikite toliau nurodytus veiksmus, kad įjungtumėte automatinį „Project Ope
 
 ## <a name="provision-a-project-operations-environment"></a>„Project Operations“ aplinkos parengimas
 
-1. Atidarykite naują „Dynamics 365 Finance“ [demonstracinės aplinkos](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) arba [smėlio dėžės / gamybos aplinkos](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) visuotinio diegimo paketą. 
+1. Atidarykite naują Dynamics 365 Finance [demonstracinę aplinką](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) arba [smėlio dėžės / gamybos aplinkos](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) diegimą. 
 2. Atlikite vediklio **Aplinkos parengimas** veiksmus. 
 
    > [!IMPORTANT]
@@ -117,7 +117,7 @@ Kad galėtumėte gauti šią versiją, gali reikėti „Finance“ aplinkai taik
 
     ![Taikyti sprendimus.](./media/13ApplySolutions.png)
 
-5. Pasirinkite abu sprendimus **Dynamics 365 Finance and Operations“ dvigubo rašymo objektų schema** ir **„Dynamics 365 Project Operations“ dvigubo rašymo objektų schemos**, tada pasirinkite **Taikyti**.
+5. Pasirinkite abu sprendimus, **Dynamics 365 Finance and Operations Dvigubo rašymo objekto žemėlapį** ir **Dynamics 365 Project Operations Dvigubo rašymo objektų žemėlapius**, tada pasirinkite **Taikyti**.
 
     ![Sprendimų patvirtinimas.](./media/14ConfirmSolutions.png)
 

@@ -4,14 +4,14 @@ description: Šioje temoje pateikiama informacijos, kaip kurti vidinės įmonės
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 4ce3a45e5a09b7ac5b5663cf9983e3bed7bf7e0d3fedede2e4524c51069a800b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 88e5658c9087fdb19adce1c23bc5cad0ad0fa434
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005491"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599987"
 ---
 # <a name="create-intercompany-transactions"></a>Vidinės įmonės operacijų kūrimas
 
@@ -30,14 +30,14 @@ Patvirtinus vidinės įmonės operaciją, sukuriamos toliau nurodytos faktinės 
 
 Savikainą, išteklių paskirstymo vieneto savikainą ir tarp organizacijų vykdomo pardavimo operacijos kainą ir valiutą valdo **organizacinis vienetas**. Tai svarbu prisiminti priimant sprendimą, kaip diegimo aplinkoje struktūrizuoti įmones ir organizacinius vienetus.
 
-Kai kuriate galimybę, pasiūlymą, projekto sutartį ir projekto įrašus, sistema patikrina, ar sutartį sudarančio vieneto valiuta atitinka sutartį sudarančios įmonės apskaitos valiutą. Jei jos nesutampa, šių įrašo sukurti nepavyks. Organizacinio vieneto valiutą galima apibrėžti „Dynamics 365 Project Operations“ dalyje **„Dataverse“** > **Parametrai** > **Organizaciniai vienetai**. Įmonės apskaitos valiutą galima nurodyti „Dynamics 365 Finance“ dalyje **Didžioji knyga** > **DK nustatymas** > **Didžioji knyga**. Valiuta sinchronizuojama su jūsų „Dataverse“ aplinka naudojant didžiųjų knygų dvigubo rašymo struktūrą.
+Kai kuriate galimybę, pasiūlymą, projekto sutartį ir projekto įrašus, sistema patikrina, ar sutartį sudarančio vieneto valiuta atitinka sutartį sudarančios įmonės apskaitos valiutą. Jei jos nesutampa, šių įrašo sukurti nepavyks. Organizacinio vieneto valiutą galima apibrėžti „Dynamics 365 Project Operations“ dalyje **„Dataverse“** > **Parametrai** > **Organizaciniai vienetai**. Įmonės apskaitos valiuta Dynamics 365 Finance nurodyta einant į **DK** > **nustatymą** > **DK**. Valiuta sinchronizuojama su jūsų „Dataverse“ aplinka naudojant didžiųjų knygų dvigubo rašymo struktūrą.
 
 Sistema sukuria išteklių paskirstymo vieneto savikainą ir tarp organizacijų vykdomo pardavimo faktinius duomenis toliau nurodytais atvejais.
 
   - Kai išteklių paskirstymo vienetas skiriasi nuo sutartį sudarančio vieneto
   - Kai išteklių paskirstymo įmonė skiriasi nuo sutartį sudarančios įmonės
 
-Tačiau tik operacijos, kurių išteklių paskirstymo įmonė skiriasi nuo sutartį sudarančios įmonės, bus perkeltos į „Dynamics 365 Finance“ aplinką papildomos apskaitos tikslais.
+Tačiau tik tie sandoriai, kurių tiekimo įmonė skiriasi nuo perkančiosios bendrovės, bus perkelti į Dynamics 365 Finance aplinką papildomai apskaitai.
 
 Projekto faktinių duomenų apskaita įrašoma į „Project Operations“integravimo žurnalą dalyje „Finance“. Sistema sukuria toliau nurodytas žurnalo eilutes.
 
@@ -60,7 +60,7 @@ Simona Terentjeva, GBPM dirbanti kūrėja, užregistravo, kad dirbo 10 darbo val
     4. Nustatykite valiutą **USD**.
     5. Įrašykite įrašą.
 3. Eikite į **Pardavimas** > **Projekto sutartys** ir sukurkite naują projekto sutartį, skirtą „Adventure Works“.
-    1. Valdančią įmonę nustatykite kaip **USPM**, o sutartį sudarantį vienetą – kaip **„Contoso Robotics US“**.
+    1. Nustatykite įmonė, kuriai priklauso, kaip **USPM**, o sutartį sudarantį vienetą – kaip **Contoso Robotics US**.
     2. Pasirinkite „Adventure Works“ kaip klientą.
     3. Pasirinkite produkto kainoraštį ir įrašykite įrašą.
     4. Skirtuke **Sutarties eilutės** sukurkite naują sutarties eilutę. Nustatykite bet kokį pavadinimą ir pasirinkite **Laikas ir medžiagos** kaip atsiskaitymo metodą.

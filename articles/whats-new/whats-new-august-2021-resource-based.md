@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 26861472d3af20c58b3d01142b834d535cf99715
-ms.sourcegitcommit: 083e3d219cd5126eecb74debb1b70b361680b1f6
+ms.openlocfilehash: 144a8c0d5ac47ad6fee54850c149a349f1698049
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7501381"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594174"
 ---
 # <a name="whats-new-august-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Kas nauja – 2021 m. rugpjūčio mėn. – „Project Operations“, skirta išteklių / nelaikomų medžiagų scenarijams
 
@@ -21,7 +21,7 @@ ms.locfileid: "7501381"
 Ši tema taikoma toliau nurodytiems „Dynamics 365 Project Operations“ komponentams ir versijoms:
 
    - „Project Operations“ 4.13.0.152 versijos „Microsoft Dataverse“ aplinkoje.
-   - Projektų valdymas ir apskaita 10.0.20 versijos „Dynamics 365 Finance” aplinkoje.
+   - Projektų valdymas ir apskaita Dynamics 365 Finance aplinkoje 10.0.20 versija.
 
 ## <a name="features-included-in-this-release"></a>Į šį leidimą įtrauktos funkcijos
 
@@ -54,7 +54,7 @@ Jei paleisdami schemą susiduriate su problema, vykdykite nurodymus, pateikiamus
 | Laikas ir išlaidos | 2336884 | Laiko įrašo mygtukas **Kopijuoti savaitę** turi veikti ne tik dabartiniam vartotojui. |
 
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektų valdymas ir apskaita programoje „Dynamics 365 Finance”
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektų valdymas ir apskaita pagal Dynamics 365 Finance
 
 | Funkcijų sritis | Nuorodos numeris | Kokybės naujinimas |
 | --- | --- | --- |

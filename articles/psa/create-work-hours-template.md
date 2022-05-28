@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 90525cf1e7cd487a03b064466ad1b13f8afb7819443fc4bacf9c7d3eee86f0b6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 5788378c7e015c4b11182aaf427aca7d1da48b40
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987401"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598958"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>Darbo valandų šablono kūrimas („Project Service“)
 
@@ -49,7 +50,7 @@ Norint sukurti savo organizacijos kalendoriaus šabloną, taikomi du pagrindinia
 
 1. Eikite į **Ištekliai** \> **Ištekliai**.
 2. Sukurkite naują išteklių, kurį norite nurodyti kalendoriaus šablone, arba pasirinkite esamą išteklių.
-3. Pasirinkite ištekliaus skirtuką **Darbo valandos** ir vykdykite nurodymus, pateiktus dalyje [Ištekliaus darbo valandų nustatymas](/dynamics365/field-service/set-work-hours-resource.md), kad būtų sukonfigūruotos kalendoriaus taisyklės.
+3. Pasirinkite ištekliaus skirtuką **Darbo valandos** ir vykdykite nurodymus, pateiktus dalyje [Ištekliaus darbo valandų nustatymas](/dynamics365/field-service/set-work-hours-resource), kad būtų sukonfigūruotos kalendoriaus taisyklės.
 
 **Naujo kalendoriaus šablono sukūrimas**
 

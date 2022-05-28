@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9d54d5fed6e8ec1535ad798073ac8a1eec36e87d1dbba4cc4acd94d8bbdc5157
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 50874d771afe03b08bd95b670f7095bc2d61509d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008101"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599556"
 ---
 # <a name="whats-new-january-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021 m. sausio mėn. naujienos – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams
 
@@ -22,7 +22,7 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 Ši tema taikoma toliau nurodytiems „Dynamics 365 Project Operations“ komponentams ir versijoms:
 
   - „Project Operations“, esanti „Dataverse“ aplinkoje, 4.6.0.154 versija
-  - Projektų valdymas ir apskaita „Dynamics 365 Finance” aplinkoje, 10.0.16 versija
+  - Projektų valdymas ir apskaita Dynamics 365 Finance aplinkoje 10.0.16 versija
 
 ## <a name="quality-updates"></a>Kokybės naujinimai
 
@@ -43,7 +43,7 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 | **Projektų planavimas ir sekimas** | 2090202 | Pažymėtos veiklos taisyklės, kurios nebenaudojamos kaip **Nerekomenduojama**. |
 | **Laikas ir išlaidos** | 2091249 | Sugriežtinti valdikliai, kad vartotojai negalėtų keisti užduoties pateiktame ar patvirtintame laiko įraše. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektų valdymas ir apskaita programoje „Dynamics 365 Finance”
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektų valdymas ir apskaita Dynamics 365 Finance
 
 | **Funkcijų sritis** | **Nuorodos numeris** | **Kokybės naujinimas** |
 | --- | --- | --- |
@@ -86,7 +86,7 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 
 ## <a name="regulatory-updates"></a>Reguliavimo naujinimai
 
-Norėdami gauti informacijos apie „Finance and Operations” programų reguliavimo naujinimus, žr. [Reguliavimo naujinimai](/dynamics365/finance/localizations/regulatory-updates). Taip pat galite prisijungti prie LCS ir peržiūrėti planuojamus reguliavimo naujinimus naudodamiesi problemų ieškos įrankiu. Problemų ieška leidžia ieškoti pagal šalį, funkcijos tipą ir leidimą.
+Informacijos apie "Finance and Operations" programų reguliavimo naujinimus ieškokite [reguliavimo naujinimai](/dynamics365/finance/localizations/regulatory-updates). Taip pat galite prisijungti prie LCS ir peržiūrėti planuojamus reguliavimo naujinimus naudodamiesi problemų ieškos įrankiu. Problemų ieška leidžia ieškoti pagal šalį, funkcijos tipą ir leidimą.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -4,14 +4,14 @@ description: Šioje temoje pateikiama informacijos apie tai, kaip kurti ir naudo
 author: sigitac
 ms.date: 11/18/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b3a9f1e4f5ea0abe34dc860db87ef349daa46c487b03d271bfe207868c521f39
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9e163dc3180d2b35ddf9b15aa0577bf51e3b72ce
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993566"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594220"
 ---
 # <a name="set-up-cost-templates"></a>Sąnaudų šablonų nustatymas
 
@@ -56,7 +56,7 @@ Sprendimas, kokį sąnaudų šabloną kurti, priklauso nuo įvairių aspektų.
 ## <a name="create-cost-templates"></a>Sąnaudų šablonų kūrimas
 Norėdami sukurti sąnaudų šabloną, atlikite toliau nurodytus veiksmus.
 
-1. Norėdami pasiekti sąnaudų šablonus, „Dynamics 365 Finance“ aplinkoje eikite į **Projektų valdymas ir apskaita** > **Sąranka** > **Įvertinimai** > **Sąnaudų šablonas**.
+1. Norėdami pasiekti išlaidų šablonus, Dynamics 365 Finance aplinkoje eikite į **Projektų valdymo ir apskaitos** > **nustatymo sąmatų** > **išlaidų šabloną** > **·**.
 2. Norėdami sukurti naują sąnaudų šabloną, pasirinkite **Naujas**. Įveskite pavadinimą ir aprašą.
 3. Nurodykite kiekvieno tipo operacijos sąnaudų eilutės ID.
 4. Pasirinkite numatytąjį atlikimo skaičiavimo metodą:

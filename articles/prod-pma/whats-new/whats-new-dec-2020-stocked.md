@@ -5,14 +5,14 @@ author: Yowelle
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 14c31f27c0d8871063b3c6689a70f32201958002b50ac4c721c4e26c3359b631
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9550cf8fd594585b70d373ecf9eea1b32285e47f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008821"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594956"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>Kas nauja ar pakeista 2020 m. gruodžio mėn. „Project Operations“, skirtos laikomų medžiagų / gamyba pagrįstiems scenarijams
 
@@ -20,7 +20,7 @@ _Taikoma (kam): „Project Operations“, skirta laikomų medžiagų / gamyba pa
 
 Ši tema taikoma toliau nurodytiems „Dynamics 365 Project Operations“ komponentams ir versijoms:
 
-  - Projektų valdymas ir apskaita „Dynamics 365 Finance” aplinkoje, 10.0.15 versija
+  - Projektų valdymas ir apskaita Dynamics 365 Finance aplinkoje 10.0.15 versija
 
 ## <a name="quality-updates"></a>Kokybės naujinimai
 
@@ -139,7 +139,7 @@ _Taikoma (kam): „Project Operations“, skirta laikomų medžiagų / gamyba pa
 
 ## <a name="regulatory-updates"></a>Reguliavimo naujinimai
 
-Norėdami gauti informacijos apie „Dynamics 365 Finance” reguliavimo naujinimus, žr. [Reguliavimo naujinimai](/dynamics365/finance/localizations/regulatory-updates). Kitas būdas sužinoti apie reguliavimo atnaujinimus – prisijungti prie „Lifecycle Services“ (LCS) ir peržiūrėti suplanuotus reguliavimo naujinimus naudojant problemų ieškos įrankį. Problemų ieška leidžia ieškoti pagal šalį, funkcijos tipą ir leidimą.
+Informacijos apie Dynamics 365 Finance reguliavimo naujinimus ieškokite [Reguliavimo naujinimai](/dynamics365/finance/localizations/regulatory-updates). Kitas būdas sužinoti apie reguliavimo atnaujinimus – prisijungti prie „Lifecycle Services“ (LCS) ir peržiūrėti suplanuotus reguliavimo naujinimus naudojant problemų ieškos įrankį. Problemų ieška leidžia ieškoti pagal šalį, funkcijos tipą ir leidimą.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

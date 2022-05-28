@@ -6,7 +6,7 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e40f0336d98cd8452642eb582c4d9daf2304ceb2532ef75ce9d03a0fa4bd8e8b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 41c65d6bf64d8a81759239f2a31f3a68953181c8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003601"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599418"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Pasirinktinių laukų kaip kainodaros dimensijų nustatymas
 
@@ -75,10 +75,10 @@ Yra dviejų tipų kainodaros dimensijos:
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso India|Vietoje            |                    |Viršvalandžiai                 |15     |
 |             | Contoso India|Vietinis             |                    |Viršvalandžiai                 |10     |
-|             | „Contoso“ JAV   |Vietinis             |                    |Viršvalandžiai                 |20     |
+|             | „Danys“, JAV   |Vietinis             |                    |Viršvalandžiai                 |20     |
 
 
-Jei ištekliai iš „Contoso India“, kurių bazinis tarifas yra 100 USD, dirba internetu, ir jie laiko įraše užregistruoja 8 reguliaraus laiko valandas ir 2 valandas viršvalandžių, kainodaros variklis naudos 100 bazinį tarifą už 8 valandas įrašui 800 USD. Už 2 valandas viršvalandžių 100 baziniam tarifui bus taikomas 15 % antkainis, kad būtų gauta 115 USD vieneto kaina, ir įrašys bendrą savikainą, lygią 230 USD.
+Jei ištekliai iš „Contoso India“, kurių bazinis tarifas yra 100 USD, dirba internetu, ir jie laiko įraše užregistruoja 8 reguliaraus laiko valandas ir 2 valandas viršvalandžių, kainodaros modulis naudos 100 bazinį tarifą už 8 valandas įrašui 800 USD. Už 2 valandas viršvalandžių 100 baziniam tarifui bus taikomas 15 % antkainis, kad būtų gauta 115 USD vieneto kaina, ir įrašys bendrą savikainą, lygią 230 USD.
 
 ### <a name="applicable-to-cost"></a>Taikoma savikainai 
 Jei tai nustatyta kaip **Taip**, tai nurodo, kad dimensijos reikšmė iš įvesties konteksto turi būti naudojama, siekiant suderinti **Vaidmens kaina** ir **Vaidmens kainos antkainis**, kai gaunami savikainos ir antkainio tarifai.

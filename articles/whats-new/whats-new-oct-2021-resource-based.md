@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 10/06/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 078869ad01a23bac1108629c5f532ba57a2967e9
-ms.sourcegitcommit: f37502a50cabdaf736aeba149feb5f8288e23df7
+ms.openlocfilehash: c64ef1e2ba9e33b2ca7575a40cc51e0ae987a9f8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7753302"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598498"
 ---
 # <a name="whats-new-october-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Kas nauja 2021 m. spalio mėn. – „Project Operations“, skirta išteklių / atsargose nelaikomų medžiagų scenarijams
 
@@ -21,7 +21,7 @@ ms.locfileid: "7753302"
 Ši tema taikoma toliau nurodytiems „Dynamics 365 Project Operations“ komponentams ir versijoms:
 
    - „Project Operations“ 4.25.0.91 versijos „Microsoft Dataverse“ aplinkoje
-   - Projektų valdymas ir apskaita „Dynamics 365 Finance” aplinkoje, 10.0.21 versija
+   - Projektų valdymas ir apskaita Dynamics 365 Finance aplinkoje 10.0.21 versija
 
 ## <a name="features-included-in-this-release"></a>Į šį leidimą įtrauktos funkcijos
 
@@ -49,7 +49,7 @@ Jei paleidžiant schemą iškyla problema, vykdykite instrukcijas, pateikiamas D
 | Sąskaitų siuntimas ir kainodara | 2338357 | Kai pasirenkamas projektas, valiuta medžiagų naudojimo žurnale turi pagal numatytuosius nustatymus sutapti su projekto valiuta. |
 | Laikas ir išlaidos | 2414777 | Turi būti įmanomas patvirtinimo atšaukimas, kai išlaidų arba laiko įrašas turi daugiau nei vieną susietą projekto patvirtinimą. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektų valdymas ir apskaita programoje „Dynamics 365 Finance”
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektų valdymas ir apskaita pagal Dynamics 365 Finance
 
 | Funkcijų sritis | Nuorodos numeris | Kokybės naujinimas |
 | --- | --- | --- |
