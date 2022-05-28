@@ -7,8 +7,7 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 272101
 ms.assetid: 4505f021-b9bb-4b87-be24-6bf0bd88ee60
 ms.search.region: Global
@@ -16,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 04024cc005b67b8f4e5821b22be65cfd1822b2414c85e1fbb75c3b2ac4339dc4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 64a80d931332a4d6edfcd175d7168a7815ddca38
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989561"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683962"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Mobilioji darbo sritis Projekto laiko įvedimas
 
@@ -45,7 +44,7 @@ Tiksliau sakant, mobiliojoje darbo srityje **Projekto laiko įvedimas** vartotoj
 ## <a name="prerequisites"></a>Būtinosios sąlygos
 Būtinosios sąlygos skiriasi atsižvelgiant į „Microsoft Dynamics 365“ versiją, įdiegtą organizacijoje.
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Būtinosios sąlygos, jei naudojama „Dynamics 365 Finance“
+### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Būtinosios sąlygos, jei naudojate Dynamics 365 Finance
 Jei organizacijoje įdiegta „Finance“, sistemos administratorius turi publikuoti mobiliąją darbo sritį **Projekto laiko įvedimas**. Instrukcijų ieškokite skyriuje [Mobiliosios darbo srities publikavimas](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Būtinosios sąlygos, jei naudojama 1611 versija su 3 arba naujesnės versijos platforma
@@ -83,7 +82,7 @@ Jei organizacijoje įdiegta 1611 versija su 3 arba naujesnės versijos platforma
 
 ## <a name="download-and-install-the-mobile-app"></a>Mobiliųjų įrenginių programėlės atsisiuntimas ir įdiegimas
 
-Mobiliųjų įrenginių programėlės „Finance and Operations“ atsisiuntimas ir įdiegimas.
+Atsisiųskite ir įdiekite mobiliąją programėlę "Finance and Operations":
 
 -   [Skirta telefonams „Android“](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Skirta telefonams „iPhone“](https://go.microsoft.com/fwlink/?linkid=850663)

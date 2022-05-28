@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 07/07/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 69507427521466335df9cbbaba79db1cfc7be91386b8b2ded5b1c384555946ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1c88f3b4747005bee0d68d0e8a4314c01ffdaf34
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008056"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600890"
 ---
 # <a name="whats-new-july-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Kas nauja – 2021 m. liepos mėn. – „Project Operations“, skirta išteklių / nelaikomų medžiagų scenarijams
 
@@ -21,7 +21,7 @@ ms.locfileid: "7008056"
 Ši tema taikoma toliau nurodytiems „Dynamics 365 Project Operations“ komponentams ir versijoms:
 
    - „Project Operations“ 4.12.0.148 arba 4.12.0.152 versijos „Microsoft Dataverse“ aplinkoje.
-   - Projektų valdymas ir apskaita 10.0.20 versijos „Dynamics 365 Finance” aplinkoje.
+   - Projektų valdymas ir apskaita Dynamics 365 Finance aplinkoje 10.0.20 versija.
 
 ## <a name="features-included-in-this-release"></a>Į šį leidimą įtrauktos funkcijos
 
@@ -80,7 +80,7 @@ Jei paleisdami schemą susiduriate su problema, vykdykite nurodymus, pateikiamus
 | Bendroji informacija                       | 2253682              | „Project Operations“ dvigubo rašymo sprendimas neturi būti diegiamas, kai pagrindinis dvigubo rašymo sprendimas įdiegtas aplinkoje be dvigubo rašymo tvarkymo sprendimo.                                                |
 | Bendroji informacija                       | 2316420              | Jei programos vartotojo verslo vienetas pakeičiamas, įvyksta projektų vykdymo paslaugų pagrindinio sprendimo parengimo triktis.                                                                                                                     |
 | Bendroji informacija                       | 2376405              | Išspręsta leidėjo valdoma naujinimo problema (Kokybiškas naujinys pasiekiamas 4.12.0.152 versijoje)                                                                                                                     |
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektų valdymas ir apskaita programoje „Dynamics 365 Finance”
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektų valdymas ir apskaita pagal Dynamics 365 Finance
 
 | Funkcijų sritis                      | Nuorodos numeris | Kokybės naujinimas                                                                                                                                                                                                                                                                                                                |
 |-----------------------------------|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

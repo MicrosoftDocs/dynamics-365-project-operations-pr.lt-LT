@@ -8,20 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: intro-internal
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea2a34ed9e0bf5b28649a53db88976ec56aaf10d1c80af99cb0856250873a2ab
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 38793c4b9fc6cd2c1999661cb2acc587086b0143
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007336"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684882"
 ---
 # <a name="project-resourcing-home-page"></a>Projektų išteklių paskirstymo pagrindinis puslapis
 
@@ -29,7 +28,7 @@ ms.locfileid: "7007336"
 
 Šioje temoje pateikta informacija apie projektų išteklių paskirstymą.
 
-Projekto planavimo etape projektų vadovams ir išteklių vadovams gali būti sudėtinga paskirstyti išteklus. Jie turi nustatyti ir rezervuoti tinkamus išteklius, kurie bus naudojami darbo su projektu metu. Programoje „Dynamics 365 Finance” projektų išteklių paskirstymo galimybės leidžia nustatyti laikinais ištekliais laikomus vaidmenis, kuriuos galima rezervuoti konkrečiam įtraukimui arba įtraukimo daliai. Šis išteklių paskirstymo tipas leidžia projektų vadovams ir išteklių vadovams atlikti tolesnes užduotis.
+Projekto planavimo etape projektų vadovams ir išteklių vadovams gali būti sudėtinga paskirstyti išteklus. Jie turi nustatyti ir rezervuoti tinkamus išteklius, kurie bus naudojami darbo su projektu metu. Dynamics 365 Finance projektų išteklių paskirstymo galimybės leidžia apibrėžti vaidmenis, kurie laikomi laikinais ištekliais, kuriuos galima rezervuoti konkrečiam įsipareigojimui ar įtraukimo daliai. Šis išteklių paskirstymo tipas leidžia projektų vadovams ir išteklių vadovams atlikti tolesnes užduotis.
 
 - Apibrėžti reikiamas kompetencijas turintį vaidmenį, kad jis lengvai atitiktų išteklius.
 - Naudoti vaidmenis, siekiant apibrėžti pradinio įtraukimo grafiką, kuris yra pagrįstas rezervuotais ištekliais.

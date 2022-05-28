@@ -7,8 +7,7 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: df6d286b6d5716fb0ea908ed71c2257b4db21ecfd35148fea65dfd96e058ac9a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cd5ea257472ef8dfa0d7181223a518c677c6d77b
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997211"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683197"
 ---
 # <a name="project-timesheet-mobile-application"></a>Mobiliųjų įrenginių programėlė „Project Timesheet“
 
@@ -29,7 +28,7 @@ ms.locfileid: "6997211"
 
 ## <a name="overview"></a>Apžvalga
 
-Mobiliųjų įrenginių programėlė „Microsoft Dynamics 365 Project Timesheet“ leidžia vartotojams pateikti ir tvirtinti projektų grafikus mobiliuosiuose įrenginiuose („iPhone“ arba „Android“). Šioje mobiliųjų įrenginių programėlėje pateikiamos grafiko funkcijos, esančios „Dynamics 365 Finance“ projektų valdymo ir apskaitos srityje, pagerinant vartotojų produktyvumą ir efektyvumą; joje taip pat galima laiku įvesti ir patvirtinti projektų grafikus.
+Mobiliųjų įrenginių programėlė „Microsoft Dynamics 365 Project Timesheet“ leidžia vartotojams pateikti ir tvirtinti projektų grafikus mobiliuosiuose įrenginiuose („iPhone“ arba „Android“). Ši mobilioji programa pateikia tabelio funkciją, kuri yra Dynamics 365 Finance projektų valdymo ir apskaitos srityje, taip pat padidina naudotojų produktyvumą ir efektyvumą, taip pat leidžia laiku įvesti ir patvirtinti projekto tabelius.
 
 ## <a name="download-and-install-the-mobile-app"></a>Mobiliųjų įrenginių programėlės atsisiuntimas ir įdiegimas
 

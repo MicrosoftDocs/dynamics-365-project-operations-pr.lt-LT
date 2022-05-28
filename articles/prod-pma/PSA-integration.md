@@ -1,33 +1,31 @@
 ---
 title: „Project Service Automation“ apžvalga
-description: Šioje temoje pateikiama informacija apie „Dynamics 365 Project Service Automation“ į „Dynamics 365 Finance“ integravimo sprendimą.
+description: Šioje temoje Dynamics 365 Project Service Automation pateikiama informacija apie Dynamics 365 Finance integracijos sprendimą.
 author: ruhercul
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: ruhercul
-ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.reviewer: johnmichalak
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 551d511fda83857459a0488cfb48a9c7829171d2e4bd526ab27b4ee74b21910d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 1b8588e664f140ca1b0dd740d27fe6a5137da595
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005896"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685526"
 ---
 # <a name="project-service-automation-overview"></a>„Project Service Automation“ apžvalga
 
 [!include[banner](../includes/banner.md)]
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Naudojant „Project Service Automation“ į „Finance“ integravimo sprendimą, naudojama duomenų integravimo funkcija, sinchronizuojant duomenis „Dynamics 365 Finance“ ir „Dynamics 365 Project Service Automation“ egzemplioriuose per „Common Data Service“. Integravimo šablonai, kuriuos galima naudoti su duomenų integravimo funkcija, leidžia vykdyti projektų, projektų sutarčių, projektų sutarčių eilučių, projektų sutarčių eilučių etapų, projektų užduočių, išlaidų operacijų kategorijų, valandų įvertinimo ir išlaidų įvertinimo srautą iš „Project Service Automation“ į „Finance“.
+
+"Project Service Automation to Finance" integravimo sprendimas naudoja duomenų integravimo funkciją, kad sinchronizuotų duomenis įvairiuose Dynamics 365 Finance egzemplioriuose ir Dynamics 365 Project Service Automation per Common Data Service. Integravimo šablonai, kuriuos galima naudoti su duomenų integravimo funkcija, leidžia vykdyti projektų, projektų sutarčių, projektų sutarčių eilučių, projektų sutarčių eilučių etapų, projektų užduočių, išlaidų operacijų kategorijų, valandų įvertinimo ir išlaidų įvertinimo srautą iš „Project Service Automation“ į „Finance“.
 
 > [!NOTE]
 > - Jei naudojate 7.3.0 versiją, turite įdiegti KB 4074835. Tada galėsite integruoti fiksuotos kainos projektus.

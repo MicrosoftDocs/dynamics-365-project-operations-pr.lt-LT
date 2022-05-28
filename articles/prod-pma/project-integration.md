@@ -8,26 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 8ef34bc984510f23ab77cc1710c06abbcf80f721703685d696fea28eeaddd732
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d2994195ba916ac7a128e8bdd53bea6acb7bd0ba
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988031"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684988"
 ---
 # <a name="microsoft-project-client-integration"></a>„Microsoft Project Client” integravimas
 
 [!include [banner](../includes/banner.md)]
 
-Gali būti sudėtinga planuoti ir laikytis projekto grafiko, todėl projektų vadovai turi naudoti įrankius, padedančius susitvarkyti su šia užduotimi. Integravimas su „Microsoft Project Client” padeda atidaryti ir valdyti projekto darbo paskirstymo struktūrą. Projektų vadovas gali bet kokius keitimus publikuoti „Dynamics 365 Finance” projekto darbo paskirstymo struktūroje.
+Gali būti sudėtinga planuoti ir laikytis projekto grafiko, todėl projektų vadovai turi naudoti įrankius, padedančius susitvarkyti su šia užduotimi. Integravimas su „Microsoft Project Client” padeda atidaryti ir valdyti projekto darbo paskirstymo struktūrą. Projekto vadovas gali paskelbti bet kokius Dynamics 365 Finance projekto darbo paskirstymo struktūros pakeitimus.
 
 > [!NOTE]
 > Jei naudojate liepos mėn. naujinimą (10.0.4 versija), turite įdiegti KB 4054797 ir 4055884.
@@ -40,7 +39,7 @@ Siekiant įgalinti integravimą su „Microsoft Project Client”, reikalaujama 
 • Spustelėkite **Atidaryti**, tada paraginti, spustelėkite **Vykdyti**.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Programoje „Microsoft Project Client” atidarykite ir redaguokite darbo paskirstymo struktūros juodraštį
-Jei „Dynamics 365 Finance” esantis projektas jau turi sukurtą darbo paskirstymo struktūrą, šią darbo paskirstymo struktūrą galima atidaryti programoje „Microsoft Project Client”, jeigu darbo paskirstymo struktūra yra juodraščio būsenos. Norėdami atidaryti puslapį **Projektas**, spustelėkite skirtuke **Planas** esantį saitą **Atidaryti programoje „Microsoft Project”**. Šis puslapis taip pat gali būti atidarytas programoje „Microsoft Project Client”, skirtuke **„Microsoft Dynamics 365”** spustelint **Atidaryti**. Sąraše pasirinkite **Juridinis subjektas** ir **Projektas**.
+Jei Dynamics 365 Finance projekte jau sukurta darbo paskirstymo struktūra, darbo paskirstymo struktūrą galima atidaryti "Microsoft Project Client" taikomojoje programoje, jei darbo paskirstymo struktūra yra juodraščio būsenos. Norėdami atidaryti puslapį **Projektas**, spustelėkite skirtuke **Planas** esantį saitą **Atidaryti programoje „Microsoft Project”**. Šis puslapis taip pat gali būti atidarytas programoje „Microsoft Project Client”, skirtuke **„Microsoft Dynamics 365”** spustelint **Atidaryti**. Sąraše pasirinkite **Juridinis subjektas** ir **Projektas**.
 
 > [!NOTE]
 > Jei naudojate naršyklę „Internet Explorer” jums reikės spustelėti **Įrašyti**, kad rankiniu būdu atidarytumėte iš tos vietos, į kurią atsisiųstas failas. Arba spustelėkite **Įrašyti ir atidaryti**, kad atidarytumėte failą programoje „Microsoft Project Client”. Įrašydami nepervardykite failo.

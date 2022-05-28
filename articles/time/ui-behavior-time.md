@@ -4,14 +4,14 @@ description: Šioje temoje pateikiama informacija apie laiko įrašo vartotojo s
 author: stsporen
 ms.date: 03/03/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: ef99f220e9ff207a7620a900aa0630e2803f4f7261eccfbf73ed79717648bf92
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5b7bd3e9145673268907e749decdd728dcfb533f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999461"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8601350"
 ---
 # <a name="time-entry-ui-behavior"></a>Laiko įrašo vartotojo sąsajos veikimas
 

@@ -5,20 +5,19 @@ author: suvaidya
 ms.date: 12/01/2017
 ms.topic: article
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 274023
 ms.assetid: 3605eda1-a7ed-4675-8031-5279c5a8f5e4
 ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 0559f881aba2d0a9c65ad123a40803743fc7407bb0d87ac6e8280ee8e30d36b7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d5309b55ed146d21d7a42e0b40add9ee346d48aa
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001486"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8682812"
 ---
 # <a name="expense-management-mobile-workspace"></a>Išlaidų valdymo mobilioji darbo sritis
 
@@ -35,7 +34,7 @@ Daugeliui organizacijų reikia pridėti kvito kopiją prie su kelionėmis susiju
 
 Tiksliau sakant, **išlaidų valdymo** mobilioji darbo sritis leidžia vartotojams atlikti šias užduotis:
 
-- Nufotografuokite kvitą ir įkelkite ją į „Dynamics 365 Finance“. Tada galite pridėti tą nuotrauką prie išlaidų ataskaitos vėliau.
+- Nufotografuokite kvitą ir įkelkite jį į Dynamics 365 Finance. Tada galite pridėti tą nuotrauką prie išlaidų ataskaitos vėliau.
 - Įkelkite failą kaip užfiksuotą kvitą. Tada galite pridėti tą failą prie išlaidų ataskaitos vėliau.
 - Sukurkite naują išlaidų eilutę naudodami pridėtą kvitą. Tada galite įtraukti eilutės elementą į išlaidų ataskaitą vėliau ir pateikti jį tvirtinti ir kompensuoti.
 
@@ -53,7 +52,7 @@ Taip pat galite naudoti šias funkcijas:
 ## <a name="prerequisites"></a>Būtinosios sąlygos
 Būtinosios sąlygos skiriasi atsižvelgiant į versiją, įdiegtą organizacijoje.
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Būtinosios sąlygos, jei naudojama „Dynamics 365 Finance“ 
+### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Būtinosios sąlygos, jei naudojate Dynamics 365 Finance 
 Jei organizacijoje įdiegta „Finance“, sistemos administratorius turi publikuoti mobiliąją darbo sritį **Išlaidų valdymas**. Instrukcijų ieškokite skyriuje [Mobiliųjų darbo sričių publikavimas](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Būtinosios sąlygos, jei naudojama 1611 versija su 3 arba naujesnės versijos platforma

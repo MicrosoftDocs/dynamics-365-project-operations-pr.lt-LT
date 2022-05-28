@@ -1,46 +1,42 @@
 ---
-title: Atsargose nelaikomų medžiagų įsigijimas naudojant laukiančią tiekėjo sąskaitą faktūrą
+title: Nelaikomų medžiagų arba įsigijimo kategorijų pirkimas naudojant laukiančią tiekėjo SF
 description: Šioje temoje paaiškinama, kaip įrašyti laukiančias tiekėjų sąskaitas faktūras.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e95f7dabe597968707fdd2dead40bfb93d7f1f95
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: e81f7a54e304ae6fc9a9f2637124579b6e7b54e9
+ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547299"
+ms.lasthandoff: 04/18/2022
+ms.locfileid: "8612667"
 ---
-# <a name="purchase-non-stocked-materials-using-a-pending-vendor-invoice"></a>Atsargose nelaikomų medžiagų įsigijimas naudojant laukiančią tiekėjo sąskaitą faktūrą
+# <a name="purchase-non-stocked-materials-or-procurement-categories-using-a-pending-vendor-invoice"></a>Nelaikomų medžiagų arba įsigijimo kategorijų pirkimas naudojant laukiančią tiekėjo SF
 
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
-Kai įmonė projektui įsigyja atsargose nelaikomų medžiagų, galima iš karto įrašyti projekto kaštus. 
+Kadangi įmonė įsigyja projekto nelaikomas medžiagas ar pirkimo kategorijas, išlaidos gali būti nedelsiant užregistruotos pagal projektą. 
 
-Pvz., „Contoso Robotics US“ vykdo įrangos atnaujinimo projektą ir nori programinės įrangos licencijų. Šios licencijos įsigyjamos iš trečiosios šalies tiekėjo.  Naudodamas „Dynamics 365 Finance“, mokėtinų sumų klerkas įrašo laukiančios tiekėjo sąskaitos faktūros dokumentą, o licencijos kaštus tiesiogiai priskiria įrangos atnaujinimo projektui. 
+Pvz., „Contoso Robotics US“ vykdo įrangos atnaujinimo projektą ir nori programinės įrangos licencijų. Šios licencijos įsigyjamos iš trečiosios šalies tiekėjo.  Naudodamasis Dynamics 365 Finance, mokėtinų sumų tarnautojas įrašo laukiantį tiekėjo SF dokumentą ir priskiria licencijos išlaidas tiesiogiai įrangos atnaujinimo projektui. 
 
 > [!IMPORTANT]
-> Prieš naudodami šioje temoje aprašytas funkcijas, peržiūrėkite ir pritaikykite reikiamas konfigūracijas. Norėdami sužinoti daugiau, žr. [Galimybės naudoti atsargose nelaikomas medžiagas ir laukiančias tiekėjų sąskaitas faktūras įjungimas](configure-materials-nonstocked.md). 
+> Prieš naudodami šioje temoje aprašytas funkcijas, peržiūrėkite ir pritaikykite reikiamas konfigūracijas. Daugiau informacijos ieškokite [Enable non-stocked materials and waiting waiting vendor SF](configure-materials-nonstocked.md) ir [Use procurement categories with project purchase orders and waiting vendor SF](configure-procurement-categories.md)
 
 ## <a name="post-a-project-related-pending-vendor-invoice"></a>Su projektu susijusios laukiančios tiekėjo sąskaitos faktūros registravimas 
 
 Laukiančias tiekėjų sąskaitas faktūras galima įrašyti puslapyje **Laukiančios tiekėjų sąskaitos faktūros** (**Mokėtinos sumos** > **Sąskaitos faktūros** > **Laukiančios tiekėjų sąskaitos faktūros**). Norėdami registruoti su projektu susijusią laukiančią tiekėjo sąskaitą faktūrą, atlikite toliau nurodytus veiksmus.
 
-1. Nueikite į **Mokėtinos sumos** > **Sąskaitos faktūros** ir pasirinkite **Nauja**. 
-2. Lauke **Sąskaitos faktūros klientas** pasirinkite tiekėją, o lauke **Numeris** įveskite tiekėjo sąskaitos faktūros identifikavimo duomenis.
-3. Į tiekėjo sąskaitą faktūrą įtraukite eilutę, o lauke **Prekės numeris** pasirinkite iš tiekėjo įsigytą atsargose nelaikomą prekę. 
-
-    > [!NOTE]
-    > Tiekėjų sąskaitų faktūrų eilučių, pagrįstų viešųjų pirkimų kategorija, pagal projektą įrašyti negalima. 
-    
-5. Įtraukite įsigytą kiekį. Sistema automatiškai įves vieneto kainą pagal ne atsargose laikomos prekės kainos konfigūraciją. 
-6. Patikrinkite bendrąją sumą ir kitą reikiamą informaciją eilutėje.
-7. Eilutės išsamios informacijos srities skirtuke **Projektas** pasirinkite projekto, į kurį bus įrašoma ši prekė, ID.
-8. Arba pasirinkite veiklos numerį ir atnaujinkite projekto kategoriją bei eilutės ypatybę.
-9. Užregistruokite laukiančią tiekėjo sąskaitą faktūrą. Kai sąskaita faktūra užregistruojama, sistema įrašo toliau nurodytus dalykus.
+1. Eikite į **Mokėtinų sumų** > **SF** ir pasirinkite **Naujas**. 
+1. Lauke **SF sąskaita** pasirinkite tiekėją, tada lauke Numeris **įveskite** tiekėjo SF identifikavimo duomenis.
+1. Įtraukite eilutę į tiekėjo SF, tada lauke Prekės numeris **pasirinkite** nelaikomą prekę, įsigytą iš tiekėjo. Arba lauke Įsigijimo kategorija **pasirinkite** įsigijimo kategoriją, įsigytą iš tiekėjo.   
+1. Įtraukite įsigytą kiekį. Sistema užpildo vieneto kainą, pagrįstą nelaikomos prekės kainos konfigūracija. 
+1. Patikrinkite bendrąją sumą ir kitą reikiamą informaciją eilutėje.
+1. Eilutės išsamios informacijos **skirtuke Projektas** pasirinkite projekto, į kurį bus įrašytas šis elementas, ID.
+1. Pasirinktinai: pasirinkite veiklos numerį ir atnaujinkite projekto kategoriją bei eilutės ypatybę.
+1. Registruoti laukiančią tiekėjo SF. Užregistravus SF, sistema įrašo šią informaciją:
     
     - Tiekėjo balanso suma.
     - PVM suma.

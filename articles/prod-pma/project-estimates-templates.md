@@ -1,32 +1,31 @@
 ---
-title: Projekto įvertinimų sinchronizavimas tiesiogiai iš „Project Service Automation“ į „Finance and Operations“
-description: Šioje temoje aprašomi šablonai ir pagrindinės užduotys, kurie naudojami norint sinchronizuoti projekto valandų įvertinimus ir projekto išlaidų įvertinimus tiesiogiai iš „Microsoft Dynamics 365 Project Service Automation“ į „Dynamics 365 Finance“.
+title: Sinchronizuoti projekto vertinimus tiesiogiai iš "Project Service Automation" į finansus ir operacijas
+description: Šioje temoje aprašomi šablonai ir pagrindinės užduotys, naudojamos sinchronizuoti projekto valandų įvertinimus ir projekto išlaidų įvertinimus tiesiogiai iš Microsoft Dynamics 365 Project Service Automation Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 6696449d80e0915a0c878dbe75cfdf6e268b98ad9f6453bcfc4b424db68021e4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 47de3556034227e072d14dc93908edec42cec93c
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988211"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684606"
 ---
-# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Projekto įvertinimų sinchronizavimas tiesiogiai iš „Project Service Automation“ į „Finance and Operations“
+# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Sinchronizuoti projekto vertinimus tiesiogiai iš "Project Service Automation" į finansus ir operacijas
 
 [!include[banner](../includes/banner.md)]
 
-Šioje temoje aprašomi šablonai ir pagrindinės užduotys, kurie naudojami norint sinchronizuoti projekto valandų įvertinimus ir projekto išlaidų įvertinimus tiesiogiai iš „Dynamics 365 Project Service Automation“ į „Dynamics 365 Finance“.
+Šioje temoje aprašomi šablonai ir pagrindinės užduotys, naudojamos sinchronizuoti projekto valandų įvertinimus ir projekto išlaidų įvertinimus tiesiogiai iš Dynamics 365 Project Service Automation Dynamics 365 Finance.
 
 > [!NOTE]
 > - Projekto užduočių integravimas, išlaidų operacijų kategorijos, valandų įvertinimas, išlaidų įvertinimas ir funkcijų blokavimas prieinami 8.0 versijoje.
@@ -68,9 +67,9 @@ Projekto valandų įvertinimai valdomi naudojant „Project Service Automation�
 
 Prieš atliekant projekto valandų įvertinimų sinchronizavimą, reikia sinchronizuoti projektus, projekto užduotis ir projekto išlaidų operacijų kategorijas.
 
-### <a name="power-query"></a>„Power Query“
+### <a name="power-query"></a>Power Query
 
-Projekto valandų įvertinimo šablone turite naudoti „Microsoft Power Query for Excel”, kad atliktumėte tolesnes užduotis.
+Projekto valandų įvertinimų šablone šioms užduotims atlikti turite naudoti "Microsoft Power Query for Excel":
 
 - Nustatykite numatytojo prognozės modelio ID, kuris bus naudojamas, kai integruojant bus kuriamos naujos valandų prognozės.
 - Filtruokite visus konkretiems ištekliams būdingus užduoties įrašus, kuriuos nepavyks integruoti į valandų prognozes.
@@ -81,7 +80,7 @@ Projekto valandų įvertinimo šablone turite naudoti „Microsoft Power Query f
 Norėdami šablone atnaujinti numatytojo prognozės modelio ID, spustelėkite **struktūros** rodyklę ir atidarykite susiejimą. Tada pasirinkite saitą **Išplėstinė užklausa ir filtravimas**.
 
 - Jei naudojate numatytąjį projekto valandų įvertinimų šabloną (PSA į „Fin and Ops“), sąraše **Taikomi veiksmai** pažymėkite **Įtraukta sąlyga**. Įraše **Funkcija** pakeiskite **O\_prognozė** prognozės modelio ID pavadinimu, kuris turi būti naudojamas su šiuo integravimu. Numatytajame šablone naudojamas demonstracinių duomenų prognozės modelio ID.
-- Jei kuriate naują šabloną, turite įtraukti šį stulpelį. „Power Query” pasirinkite **Įtraukti sąlygos stulpelį** ir įveskite naujo stulpelio pavadinimą, pvz., **ModelID**. Įveskite stulpelio sąlygą, kur, jei projekto užduotis apibrėžta, tada \<enter the forecast model ID\>; kitu atveju neapibrėžta reikšmė.
+- Jei kuriate naują šabloną, turite įtraukti šį stulpelį. Dalyje Power Query pasirinkite **Įtraukti sąlyginį stulpelį** ir įveskite naujo stulpelio, pvz **., ModelID, pavadinimą**. Įveskite stulpelio sąlygą, kur, jei projekto užduotis apibrėžta, tada \<enter the forecast model ID\>; kitu atveju neapibrėžta reikšmė.
 
 #### <a name="filter-out-resource-specific-records"></a>Filtruokite konkretiems ištekliams būdingus įrašus
 
@@ -124,9 +123,9 @@ Projekto išlaidų įvertinimai valdomi naudojant „Project Service Automation�
 
 Prieš atliekant projekto išlaidų įvertinimų sinchronizavimą, reikia sinchronizuoti projektus, projekto užduotis ir projekto išlaidų operacijų kategorijas.
 
-### <a name="power-query"></a>„Power Query“
+### <a name="power-query"></a>Power Query
 
-Projekto išlaidų įvertinimo šablone turite naudoti „Power Query”, kad atliktumėte tolesnes užduotis.
+Projekto išlaidų sąmatų šablone turite naudoti Power Query šioms užduotims atlikti:
 
 - Filtruokite, kad įtrauktumėte tik išlaidų įvertinimų eilučių įrašus.
 - Nustatykite numatytojo prognozės modelio ID, kuris bus naudojamas, kai integruojant bus kuriamos naujos valandų prognozės.
@@ -141,8 +140,8 @@ Projekto išlaidų įvertinimų (PSA į „Fin and Ops“) šablone yra numatyta
 
 Norėdami šablone atnaujinti numatytojo prognozės modelio ID, pasirinkite užduotį **Išlaidų įvertinimai**, tada spustelėkite **struktūros** rodyklę ir atidarykite susiejimą. Pasirinkite saitą **Išplėstinė užklausa ir filtravimas**.
 
-- Jei naudojate numatytąjį projekto išlaidų įvertinimų šabloną (PSA į „Fin and Ops“), „Power Query” skyriuje **Taikomi veiksmai** pasirinkite pirmą **įtrauktą sąlygą**. Įraše **Funkcija** pakeiskite **O\_prognozė** prognozės modelio ID pavadinimu, kuris turi būti naudojamas su šiuo integravimu. Numatytajame šablone naudojamas demonstracinių duomenų prognozės modelio ID.
-- Jei kuriate naują šabloną, turite įtraukti šį stulpelį. „Power Query” pasirinkite **Įtraukti sąlygos stulpelį** ir įveskite naujo stulpelio pavadinimą, pvz., **ModelID**. Įveskite stulpelio sąlygą, kur, jei įvertinimo eilutės ID apibrėžta, tada \<enter the forecast model ID\>; kitu atveju neapibrėžta reikšmė.
+- Jei naudojate numatytąjį projekto išlaidų įvertinimų (PSA į fin ir ops) šabloną, skyriuje Taikomi veiksmai pasirinkite Power Query pirmąją **įterptą sąlygą** **.** Įraše **Funkcija** pakeiskite **O\_prognozė** prognozės modelio ID pavadinimu, kuris turi būti naudojamas su šiuo integravimu. Numatytajame šablone naudojamas demonstracinių duomenų prognozės modelio ID.
+- Jei kuriate naują šabloną, turite įtraukti šį stulpelį. Dalyje Power Query pasirinkite **Įtraukti sąlyginį stulpelį** ir įveskite naujo stulpelio, pvz **., ModelID, pavadinimą**. Įveskite stulpelio sąlygą, kur, jei įvertinimo eilutės ID apibrėžta, tada \<enter the forecast model ID\>; kitu atveju neapibrėžta reikšmė.
 
 #### <a name="transform-the-billing-types"></a>Atsiskaitymo tipų keitimas
 

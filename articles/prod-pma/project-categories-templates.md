@@ -1,32 +1,31 @@
 ---
-title: Projekto išlaidų kategorijų sinchronizavimas tarp „Finance and Operations“ ir „Project Service Automation“
-description: Šioje temoje aprašomi šablonai ir pagrindinės užduotys, kurios naudojami norint sinchronizuoti projekto išlaidų kategorijas tarp „Microsoft Dynamics 365 Finance“ ir „Dynamics 365 Project Service Automation“.
+title: Sinchronizuoti projekto išlaidų kategorijas tarp "Finance and Operations" ir "Project Service Automation"
+description: Šioje temoje aprašomi šablonai ir pagrindinės užduotys, naudojamos sinchronizuoti projekto išlaidų kategorijas nuo Microsoft Dynamics 365 Finance iki Dynamics 365 Project Service Automation.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 52c79f8b641d4b2df3b30964331633f2487402f8f8d229b540f9544c0f848557
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c5513285c8beb96e2aa8b9c67ebde38b3c938edd
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001126"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685480"
 ---
-# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Projekto išlaidų kategorijų sinchronizavimas tarp „Finance and Operations“ ir „Project Service Automation“
+# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Sinchronizuoti projekto išlaidų kategorijas tarp "Finance and Operations" ir "Project Service Automation"
 
 [!include[banner](../includes/banner.md)]
 
-Šioje temoje aprašomi šablonai ir pagrindinės užduotys, kurios naudojami norint sinchronizuoti projekto išlaidų kategorijas tarp „Dynamics 365 Finance“ ir „Dynamics 365 Project Service Automation“.
+Šioje temoje aprašomi šablonai ir pagrindinės užduotys, naudojamos sinchronizuoti projekto išlaidų kategorijas tarp Dynamics 365 Finance ir Dynamics 365 Project Service Automation.
 
 > [!NOTE]
 > - Projekto užduočių integravimas, išlaidų operacijų kategorijos, valandų įvertinimas, išlaidų įvertinimas ir funkcijų blokavimas prieinami 8.0 versijoje.
@@ -79,12 +78,12 @@ Toliau pateikiamas šablonas ir pagrindinė užduotis naudojami norint sinchroni
 
 Projekto išlaidų kategorijos valdomos naudojant „Finance, o sinchronizuojamos su „Project Service Automation“ kaip operacijų kategorijos.
 
-### <a name="power-query"></a>„Power Query“
+### <a name="power-query"></a>Power Query
 
-Kai sinchronizuojate į „Project Service Automation“, turite naudoti „ Microsoft Power Query for Excel“, kad nustatytumėte atsiskaitymo tipą transakcijos kategorijoje. Projekto išlaidų operacijų kategorijų („Fin and Ops“ į PSA) šablonas pateikia numatytąjį stulpelį ir susiejimą. Kurdami savo šabloną, turite įtraukti sąlygos stulpelį į „Power Query“. Atlikite šiuos veiksmus.
+Kai sinchronizuojate su "Project Service Automation", turite naudoti "Microsoft Power Query for Excel", kad nustatytumėte atsiskaitymo tipą operacijų kategorijoje. Projekto išlaidų operacijų kategorijų („Fin and Ops“ į PSA) šablonas pateikia numatytąjį stulpelį ir susiejimą. Jei kuriate savo šabloną, turite įtraukti sąlyginį stulpelį į Power Query. Atlikite šiuos veiksmus.
 
 1. Spustelėkite rodyklę, kad atidarytumėte projekto išlaidų kategorijų užduoties susiejimą projekto išlaidų operacijų kategorijų („Fin and Ops“ į PSA) šablone.
-2. Spustelėkite saitą **Išankstinės užklausos ir filtravimas**, kad atidarytumėte „Power Query“.
+2. Spustelėkite saitą **Išankstinė užklausa ir Filtravimas**, kad atidarytumėte Power Query.
 2. Pažymėkite **Įtraukti sąlyginį stulpelį**.
 3. Įveskite naujo stulpelio pavadinimą, pvz., **BillingType**.
 4. Įveskite šią sąlygą: **Jei CATEGORYID nėra lygi nuliui, tada 19235001, kitaip nulis**.

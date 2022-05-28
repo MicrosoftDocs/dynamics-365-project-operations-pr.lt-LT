@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ccebf1439f49092b23da5b4fc2ebb4fc484de4dd17c870eea9fe37b00fbb3689
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 460b5bb7baabcb804b9745f5fddae9bcc3fc7541
+ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005311"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8727968"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Planuodami savo darbą „Microsoft Project“, naudokite „Project Service Automation“ papildinį
 
@@ -40,7 +41,7 @@ ms.locfileid: "7005311"
 ## <a name="download-and-install-the-add-in"></a>Papildinio atsisiuntimas ir įdiegimas  
  Paruoškite savo [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] prisijungimo informaciją. Šios informacijos jums reikės, kad iš „[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]“ prisijungtumėte prie „[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]“.  
 
-1.  Iš atsisiuntimo centro galite atsisiųsti priedą, skirtą jūsų palaikomai Project Service versijai, arba [V2.X](https://go.microsoft.com/fwlink/?linkid=828268) arba [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
+1.  Iš atsisiuntimo centro galite atsisiųsti priedą, skirtą jūsų palaikomai Project Service versijai, arba [V2.X](/dynamics365/project-operations/psa/overview#guidance-for-earlier-versions-app-version-2x-or-1x) arba [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
 
 2.  Spustelėkite atsisiuntimo saitą.  
 
@@ -87,9 +88,8 @@ Baigus projekto planavimą, kitas veiksmas yra importuoti ir publikuoti projekt�
 
 Projektas bus importuotas į [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Taikomas kainodaros ir komandos formavimo procesas. Atidarykite projektą [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], kad pamatytumėte, jog komanda, projekto įvertinimai ir darbo paskirstymo struktūra buvo sugeneruoti. Tolesnėje lentelėje parodyta, kur rasti rezultatus.
 
-
-|                                                                                          |                                                                                                                                   |
-|------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| Project | Informacija |
+| ---- | --- |
 |  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Ganto diagrama**   | Importuojama į „[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]“ ekraną **Darbo paskirstymo struktūra**. |
 | [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Išteklių aprašas** |   Importuojama į „[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]“ ekraną **Project Team Members**.   |
 |   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Naudojimas**    |    Importuojama į „[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]“ ekraną **Projekto įvertinimai**.     |

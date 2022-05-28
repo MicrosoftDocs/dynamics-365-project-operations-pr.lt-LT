@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a201e3e4333b8892eea72387222d64e18b74d71b
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
-ms.translationtype: HT
+ms.openlocfilehash: 7b5f3528e4b4e615b8e7f24bfd3702746fd584c9
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323921"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723686"
 ---
 # <a name="whats-new-2021-wave-2-early-access---project-operations-lite-deployment"></a>Kas nauja „Project Operations“ „Lite“ visuotinio diegimo 2021 m. 2 bangos išankstinės prieigos leidime
 
@@ -26,7 +26,7 @@ Leidimas taikomas tik tada, kai aplinkai pasirenkama [išankstinė prieiga](/pow
 
 ## <a name="features-included-in-this-release"></a>Į šį leidimą įtrauktos funkcijos
 
-[Subrangos valdymas](../subcontracting/subcontracting_EA_scope.md) – ši funkcija suteikia galimybę geriau matyti ir valdyti visus projekto darbo aspektus. Į subrangos valdymo peržiūros versiją įtrauktos tolesnės galimybės.
+[Subrangos valdymas](/dynamics365/project-operations/pro/subcontracting/managing-subcontracts-overview) – ši funkcija suteikia galimybę geriau matyti ir valdyti visus projekto darbo aspektus. Į subrangos valdymo peržiūros versiją įtrauktos tolesnės galimybės.
 
   - Projekto vadovas gali sudaryti subrangos sutartį su tiekėju. Pagal numatytuosius nustatymus prie tiekėjo įrašo pridėti kainoraščiai yra naudojami sudarant subrangos sutartį. Tiekėjo kliento ryšio tipas yra **Tiekėjas** arba **Pristatytojas**.
   - Projekto vadovas gali detalizuoti visus pirkimus kaip subrangos sutarties eilutės elementus. Gali būti laiko, išlaidų arba produktų subrangos sutarties eilutės. Subrangos sutarties eilutėje pasirinkta operacijos klasė nurodo, kam skirta eilutė.

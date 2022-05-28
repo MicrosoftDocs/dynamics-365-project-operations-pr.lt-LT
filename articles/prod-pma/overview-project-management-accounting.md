@@ -3,25 +3,23 @@ title: Projektų valdymo ir apskaitos apžvalga
 description: Projektų valdymo ir apskaitos funkcijas galima naudoti keliose pramonės šakose, siekiant teikti paslaugas, gaminti produktą arba pasiekti rezultatą.
 author: Yowelle
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.reviewer: johnmichalak
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: be384b19781e605255a24506e94e0852076b9ca9
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007516"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683594"
 ---
 # <a name="project-management-and-accounting-overview"></a>Projektų valdymo ir apskaitos apžvalga
 
@@ -248,7 +246,7 @@ Tolesnėje lentelėje aprašyti projekto baigimo sąnaudų apskaičiavimo metoda
 <tbody>
 <tr class="odd">
 <td>Bendrosios sąnaudos – faktinės</td>
-<td>Apskaičiuotas sąnaudas reikia įvesti rankiniu būdu. Kai stulpelis <strong>Bendrosios sąnaudos</strong> arba <strong>Bendrasis kiekis</strong> puslapyje <strong>Sąnaudų apskaičiavimas</strong> užpildytas, faktinės sąnaudos gaunamos iš naudotojo įvestų bendrųjų sumų. Rezultatas yra projekto baigimo sąnaudos. Paprastai, sąnaudų eiga nesekama pagal, pvz., apsistojimų viešbučiuose ar valgių skaičių, kurie įrašyti kiekviename laikotarpyje. Vietoj to. Paprastai sekama pagal lyginimą su bendrąja įvertintų valandų suma. Šiam metodui nereikia prognozės modelio, o bendrąsias sąnaudas arba bendrąjį kiekį galima pakeisti rankiniu būdu. Kai reikšmė įvedama lauke <strong>Bendrosios sąnaudos</strong> arba <strong>Bendrasis kiekis</strong>, „Finance‟ ją lygina su faktinėmis operacijomis, kurios užregistruotos šiuo laikotarpiu, ir tada sumažina reikšmę stulpelyje <strong>Baigimo kiekis</strong> ar <strong>Baigimo sąnaudos</strong>.</td>
+<td>Apskaičiuotas sąnaudas reikia įvesti rankiniu būdu. Kai stulpelis <strong>Bendrosios sąnaudos</strong> arba <strong>Bendrasis kiekis</strong> puslapyje <strong>Sąnaudų apskaičiavimas</strong> užpildytas, faktinės sąnaudos gaunamos iš naudotojo įvestų bendrųjų sumų. Rezultatas yra projekto baigimo sąnaudos. Paprastai išlaidų&#39; pažanga nėra stebima remiantis, pavyzdžiui, viešbučių viešnagių ir patiekalų, kurie registruojami kiekvienu laikotarpiu, skaičiumi. Vietoj to. Paprastai sekama pagal lyginimą su bendrąja įvertintų valandų suma. Šiam metodui nereikia&#39; prognozės modelio, o bendrą savikainą arba bendrą kiekį galima keisti neautomatiniu būdu. Kai reikšmė įvedama lauke <strong>Bendrosios sąnaudos</strong> arba <strong>Bendrasis kiekis</strong>, „Finance‟ ją lygina su faktinėmis operacijomis, kurios užregistruotos šiuo laikotarpiu, ir tada sumažina reikšmę stulpelyje <strong>Baigimo kiekis</strong> ar <strong>Baigimo sąnaudos</strong>.</td>
 </tr>
 <tr class="even">
 <td>Visas biudžetas – faktinis</td>

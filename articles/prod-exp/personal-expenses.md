@@ -1,6 +1,6 @@
 ---
 title: Išlaidų ataskaitos asmeninės išlaidos
-description: Šioje temoje paaiškinami du darbuotojo asmeninių išlaidų tvarkymo būdai naudojant „Microsoft Dynamics 365 Finance“.
+description: Šioje temoje paaiškinami du darbuotojo asmeninių išlaidų tvarkymo būdai " Microsoft Dynamics 365 Finance".
 author: saraschi2
 ms.date: 02/23/2018
 ms.topic: article
@@ -8,18 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: TrvParameters
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 32674bc7987ae9b77a9dce89525d647b6e84b8c50e6035488aafdb6a5dec1642
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1c3c382f822673baccee526569402f3ecb400491
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991316"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685204"
 ---
 # <a name="personal-expenses-on-an-expense-report"></a>Išlaidų ataskaitos asmeninės išlaidos
 

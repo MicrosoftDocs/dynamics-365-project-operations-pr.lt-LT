@@ -1,24 +1,23 @@
 ---
 title: Išlaidų kvito apdorojimas
-description: Šioje temoje pateikiama informacija apie optinio simbolių atpažinimo (OCR) apdorojimą kvitams. Ši funkcija skirta pagerinti vartotojų aplinką kuriant išlaidų ataskaitas programoje „Microsoft Dynamics 365 Finance“.
+description: Šioje temoje pateikiama informacija apie optinio simbolių atpažinimo (OCR) apdorojimą kvitams. Ši funkcija skirta pagerinti vartotojo patirtį, kai išlaidų ataskaitos kuriamos programoje " Microsoft Dynamics 365 Finance".
 author: stsporen
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Operations, Core
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 0d43c44bf4f2a58e3249d6cc1028353555cfd836580a802ad6e1878dc9b2e263
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 067432106742447d2b8fa215ec05bf05f4b41e70
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001396"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684330"
 ---
 # <a name="expense-receipt-processing"></a>Išlaidų kvito apdorojimas
 
@@ -51,7 +50,7 @@ Jei norite kurti išlaidas arba sugretinti išlaidas iš kvito, atlikite toliau 
 
 Ši funkcija veikia kartu su funkcija **Išlaidų ataskaitų pertvarkymas**, kad išlaidų tvarkymas būtų paprastesnis. Ši funkcija pasiekiama tik 2 pakopos ir aplinkose, kurios yra smėlio dėžė ir gamyba.
 
-Norėdami naudoti šias išplėstinių išlaidų galimybes, įdiekite „Expense Management Service“ papildinį, skirtą „Microsoft Dynamics 365 Finance“ ir įgalinkite savo egzempliorių funkcijas. Galite pasiekti papildinį iš savo projekto programoje „Microsoft Dynamics Lifecycle Services“ (LCS).
+Norėdami naudoti šias išplėstines išlaidų galimybes, įdiekite "365 Finance" Microsoft Dynamics išlaidų valdymo tarnybos priedą ir įjunkite savo egzemplioriaus funkcijas. Galite pasiekti papildinį iš savo projekto programoje „Microsoft Dynamics Lifecycle Services“ (LCS).
 
 1. Prisijunkite prie LCS ir atidarykite pageidaujamą aplinką.
 2. Eikite į **Pilna išsami informacija**.

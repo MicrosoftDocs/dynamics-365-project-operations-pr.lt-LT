@@ -4,14 +4,14 @@ description: Šioje temoje pateikta informacijos, kaip kurti sprendimus, skirtus
 author: Rumant
 ms.date: 11/09/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 753f0c4496bafd43d7e4a399cedeb355c2163c7ce56d932b2c786d5f2e672b6b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 82593d3d00b008c1922d70c508bc77624aeb46b3
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992216"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8601120"
 ---
 # <a name="create-a-solution-for-custom-pricing-dimensions"></a>Sprendimo pasirinktinėms kainodaros dimensijoms kūrimas
 
@@ -23,7 +23,7 @@ ms.locfileid: "6992216"
 ## <a name="create-a-solution-for-custom-pricing-dimensions"></a>Sprendimo pasirinktinėms kainodaros dimensijoms kūrimas
 
 1.  Pasirinkite **Nustatymai** > **Sprendimai** ir spauskite **Naujas**.
-2.  Sukurkite sprendimo pavadinimą: *<your organization name> kainodaros dimensijos*.
+2.  Sukurkite sprendimo pavadinimą: *\<your organization name\> kainodaros dimensijos*.
 3. Įveskite trūkstamą reikiamą informaciją ir spustelėkite **Įrašyti**.
 
   ![Pasirinktinių kainodaros dimensijų sprendimo kūrimas.](./media/Creation-of-custom-pricing-dimension-solution.png)
