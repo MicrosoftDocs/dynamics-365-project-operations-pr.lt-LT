@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 55696b32b7b37048ba4c292b33d93b7b12614f2186fb972a2c3f3732e5512c82
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 06490148d0f245ac49d5599e0e23bc1a59976204
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987581"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8580374"
 ---
 # <a name="unit-groups-and-units"></a>Vienetų grupės ir vienetai
 
@@ -84,9 +85,9 @@ Tolesniame pavyzdyje parodyta, kaip PSA naudoja vienetų grupę, vienetus ir kon
     - **Numatytasis laiko vienetas**: diena 
     - **Valiuta**: GBP
 
-| Vaidmuo      | Vienetų grupė | Vienetas | Organizacinis vienetas | Kainos   |
+| Vaidmuo      | Vienetų grupė | Vienetas | Organizacijos vienetas | Kaina   |
 |-----------|------------|------|---------------------|---------|
-| Developer | Laikas       | Diena  | Contoso JK          | 800 GBP |
+| Kūrėjas | Time       | Day  | Danys          | 800 GBP |
 
 ### <a name="time-entry"></a>Laiko įrašas
 

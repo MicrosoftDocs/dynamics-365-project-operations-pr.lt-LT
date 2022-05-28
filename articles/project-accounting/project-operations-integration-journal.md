@@ -4,29 +4,29 @@ description: Šioje temoje pateikiama informacija apie darbą su integravimo žu
 author: sigitac
 ms.date: 10/27/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c5cc3254c52750b35be2c66137b6c57bbd9acbfbc89dedc6559059a89c8e2393
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5e1a455d055fe562a1946cc3b90c8274ef1a4b12
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987941"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582444"
 ---
 # <a name="integration-journal-in-project-operations"></a>Integravimo žurnalas programoje „Project Operations“
 
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
-Laiko ir išlaidų įrašai sukuria operacijas **Faktinės**, kurios atitinka pagal projektą užbaigto darbo veiklos rodinį. „Dynamics 365 Project Operations“ teikia apskaitininkams įrankį, skirtą operacijoms peržiūrėti ir apskaitos atributams koreguoti, kai reikia. Užbaigus peržiūrą ir koregavimus, operacijos skelbiamos projekto papildomoje knygoje ir didžiojoje knygoje. Buhalteris gali vykdyti šias veiklas naudodamas **„Project Operations“ integravimo** žurnalą (**„Dynamics 365 Finance”** > **Projektų valdymas ir apskaita** > **Žurnalai** > **„Project Operations“ integravimo** žurnalas.
+Laiko ir išlaidų įrašai sukuria operacijas **Faktinės**, kurios atitinka pagal projektą užbaigto darbo veiklos rodinį. „Dynamics 365 Project Operations“ teikia apskaitininkams įrankį, skirtą operacijoms peržiūrėti ir apskaitos atributams koreguoti, kai reikia. Užbaigus peržiūrą ir koregavimus, operacijos skelbiamos projekto papildomoje knygoje ir didžiojoje knygoje. Buhalteris gali atlikti šias veiklas naudodamas žurnalą **"Project Operations Integration**" (**Dynamics 365 Finance** > **Projektų valdymas ir apskaita** > **Žurnalai** > **Projektų operacijų integravimas**.
 
 ![Integravimo žurnalo srautas.](./media/IntegrationJournal.png)
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>Įrašų kūrimas „Project Operations“ integravimo žurnale
 
-Įrašai „Project Operations“ integravimo žurnale įrašai kuriami naudojant periodinį procesą, **Importuoti iš paruošimo lentelės**. Šį procesą galite vykdyti eidami į **„Dynamics 365 Finance”** > **Projektų valdymas ir apskaita** > **Periodinis** > **„Project Operations“ integravimas** > **Importuoti iš paruošimo lentelės**. Jeigu reikia, galite vykdyti procesą interaktyviai arba sukonfigūruoti procesą, kad veiktų fone.
+Įrašai „Project Operations“ integravimo žurnale įrašai kuriami naudojant periodinį procesą, **Importuoti iš paruošimo lentelės**. Šį procesą galite vykdyti nuėję į **Dynamics 365 Finance** > **Projekto valdymas ir apskaita** > **Periodinių** > **projekto operacijų integravimo importavimas** > **iš išdėstymo lentelės**. Jeigu reikia, galite vykdyti procesą interaktyviai arba sukonfigūruoti procesą, kad veiktų fone.
 
 Vykdant periodinį procesą, randami visi faktiniai duomenys, kurie dar neįtraukti į „Project Operations“ integravimo žurnalą. Sukuriama kiekvienos faktinės operacijos žurnalo eilutė.
-Sistema grupuoja žurnalo eilutes į atskirus žurnalus pagal reikšmę, pasirinktą lauke **Laiko vienetas „Project Operations“ integravimo žurnale** (**„Finance”** > **Projektų valdymas ir apskaita** > **Sąranka** > **Projektų valdymo ir apskaitos parametrai**, **„Project Operations”, veikiančios „Dynamics 365 Customer Engagement”** skirtuke). Toliau pateikiamos galimos šio lauko reikšmės.
+Sistema grupuoja žurnalo eilutes į atskirus žurnalus pagal vertę, pasirinktą **projekto operacijų integravimo žurnalo** lauke Laikotarpio vienetas (**Finansų** > **projektų valdymas ir apskaitos** > **nustatymas** > **Projektų valdymas ir apskaitos parametrai**, **skirtukas Projekto operacijos Dynamics 365 Customer Engagement**). Toliau pateikiamos galimos šio lauko reikšmės.
 
   - **Dienos**: faktiniai duomenys grupuojami pagal operacijos datą. Sukuriamas atskiras kiekvienos dienos žurnalas.
   - **Mėnesiai**: faktiniai duomenys grupuojami pagal kalendorinį mėnesį. Sukuriamas atskiras kiekvieno mėnesio žurnalas.
@@ -40,10 +40,10 @@ Sistema grupuoja žurnalo eilutes į atskirus žurnalus pagal reikšmę, pasirin
   - Lauke **Kvitas** rodomas kiekvienos faktinės operacijos kvito numeris. Kvitų numerių seka yra nurodyta puslapio **Projektų valdymo ir apskaitos parametrai** skirtuke **Numerių sekos**. Kiekvienai eilutei priskiriamas naujas numeris. Paskelbę kvitą, galite peržiūrėti, kaip yra susijusios išlaidų operacijos ir pardavimo operacijos, kurioms neišrašyta sąskaita, pasirinkdami **Susiję kvitai** puslapyje **Kvito operacija**.
   - Laukas **Kategorija** atitinka projekto operaciją ir numatytąsias reikšmes pagal susijusio projekto faktinių duomenų operacijos kategoriją.
     - Jei **Operacijos kategorija** nustatyta projekto faktiniuose duomenyse, o susijusi **Projekto kategorija** yra nurodytame juridiniame subjekte, pagal numatytuosius nustatymus kategorija priskiriama šiai projekto kategorijai.
-    - Jeigu **Operacijos kategorija** nenustatyta projekto faktiniuose duomenyse, sistema naudoja reikšmę, esančią puslapio **Projektų valdymo ir apskaitos parametrai** skirtuko **„Project Operations” programoje „Dynamics 365 Customer Engagement”** lauke **Projekto kategorijos numatytieji nustatymai**.
+    - Jei **operacijos kategorija** nenustatyta faktiniame projekte, sistema naudoja vertę **, esančią puslapio** Projektų valdymo ir apskaitos parametrų **skirtuko** Projekto operacijos skirtuke Projekto operacijos Dynamics 365 Customer Engagement **.**
   - Laukas **Ištekliai** atitinka projekto išteklius, susijusius su šia operacija. Šie ištekliai naudojami kaip nuoroda projekto sąskaitų faktūrų pasiūlymuose klientams.
-  - Laukas **Valiutos kursas** nustatomas pagal numatytuosius nustatymus iš **Valiutos kurso**, nustatyto „Dynamics 365 Finance”. Jeigu valiutos kurso sąrankos nėra, periodinis procesas **Importuoti iš paruošimo** neįtrauks įrašo į žurnalą ir klaidos pranešimas bus įtrauktas į užduoties vykdymo žurnalą.
-  - Laukas **Eilutės ypatybės** atitinka atsiskaitymo tipą projekto faktiniuose duomenyse. Eilutės ypatybės ir atsiskaitymo tipo susiejimas apibrėžiami puslapio **Projektų valdymo ir apskaitos parametrai** skirtuke **„Project Operations” programoje „Dynamics 365 Customer Engagement”**.
+  - Laukas **Valiutos kursas** numatytasis pagal **valiutos kursą**, nustatytą Dynamics 365 Finance. Jeigu valiutos kurso sąrankos nėra, periodinis procesas **Importuoti iš paruošimo** neįtrauks įrašo į žurnalą ir klaidos pranešimas bus įtrauktas į užduoties vykdymo žurnalą.
+  - Laukas **Eilutės ypatybės** atitinka atsiskaitymo tipą projekto faktiniuose duomenyse. Eilutės ypatybių ir atsiskaitymo tipo susiejimas yra nurodyti **puslapio Projektų valdymo ir apskaitos parametrai** skirtuke **Projekto operacijos Dynamics 365 Customer Engagement**.
 
 Tik toliau pateikiami apskaitos atributai gali būti atnaujinti „Project Operations” integravimo žurnalo eilutėse.
 

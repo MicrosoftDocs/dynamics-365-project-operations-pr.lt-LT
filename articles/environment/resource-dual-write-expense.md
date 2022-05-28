@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 04/28/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 06471532d2e41bb80ebf92f0a8b93c324b3f6d3e845cea8033d85d291ea237eb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b41be519dbfa89668712bc28ccb1888cd08c38a2
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986591"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585802"
 ---
 # <a name="expense-management-integration"></a>Išlaidų tvarkymo integravimas
 
@@ -22,19 +22,19 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 
 ## <a name="expense-categories"></a>Išlaidų kategorijos
 
-Visų išlaidų įdiegtyje išlaidų kategorijos kuriamos ir tvarkomos „Finance and Operations“ programose. Norėdami sukurti naują išlaidų kategoriją, atlikite toliau nurodytus veiksmus.
+Visiškai diegiant išlaidas, išlaidų kategorijos sukuriamos ir prižiūrimos "Finance and Operations" programose. Norėdami sukurti naują išlaidų kategoriją, atlikite toliau nurodytus veiksmus.
 
-1. Sprendime „Microsoft Dataverse“ sukurkite kategoriją **Operacija**. Dvigubo rašymo integravimo funkcija šią operacijų kategoriją sinchronizuos su „Finance and Operations“ programomis. Norėdami sužinoti daugiau, žr. [Projektų kategorijų konfigūravimas](/dynamics365/project-operations/project-accounting/configure-project-categories) ir [„Project Operations“ sąrankos ir konfigūracijos duomenų integravimas](resource-dual-write-setup-integration.md). Dėl šio integravimo sistema „Finance and Operations“ programose sukuria keturis bendrai naudojamus kategorijų įrašus.
+1. Sprendime „Microsoft Dataverse“ sukurkite kategoriją **Operacija**. Dvigubo rašymo integravimas sinchronizuos šią operacijų kategoriją su "Finance and Operations" programomis. Norėdami sužinoti daugiau, žr. [Projektų kategorijų konfigūravimas](/dynamics365/project-operations/project-accounting/configure-project-categories) ir [„Project Operations“ sąrankos ir konfigūracijos duomenų integravimas](resource-dual-write-setup-integration.md). Dėl šios integracijos sistema sukuria keturis bendrinamus kategorijų įrašus "Finance and Operations" programose.
 2. Sprendime „Finance“ nueikite į **Išlaidų tvarkymas** > **Sąranka** > **Bendrai naudojamos kategorijos** ir pasirinkite bendrai naudojamą kategoriją, kurios operacijų klasė yra **Išlaidos**. Parametrą **Galima naudoti išlaidose** nustatykite kaip **Teisinga** ir apibrėžkite norimą naudoti išlaidų tipą.
 3. Naudodami šį bendrai naudojamos kategorijos įrašą, sukurkite naują išlaidų kategoriją nuėję į **Išlaidų tvarkymas** > **Sąranka** > **Išlaidų kategorijos** ir pasirinkę **Nauja**. Kai įrašas įrašomas, dvigubo rašymo funkcija naudoja lentelės schemą **„Project Operations“ integravimo projekto išlaidų kategorijų eksportavimo objektas (msdyn \_expensecategories)** šiam įrašui su „Dataverse“ sinchronizuoti.
 
   ![Išlaidų kategorijų integravimas.](./media/DW6ExpenseCategories.png)
 
-Išlaidų kategorijos „Finance and Operations“ programose skiriasi atsižvelgiant į konkrečią įmonę ar juridinį subjektą. Sprendime „Dataverse“ naudojami atskiri atitinkami konkretiems juridiniams subjektams skirti įrašai. Kai projekto vadovas įvertina išlaidas, jis negali pasirinkti išlaidų kategorijų, sukurtų projektui, kuris priklauso kitai įmonei nei ta įmonė, kuriai priklauso projektas, su kuriuo projekto vadovas dirba. 
+Išlaidų kategorijos "Finance and Operations" programose yra susijusios su įmone arba juridiniu asmeniu. Sprendime „Dataverse“ naudojami atskiri atitinkami konkretiems juridiniams subjektams skirti įrašai. Kai projekto vadovas įvertina išlaidas, jis negali pasirinkti išlaidų kategorijų, sukurtų projektui, kuris priklauso kitai įmonei nei ta įmonė, kuriai priklauso projektas, su kuriuo projekto vadovas dirba. 
 
 ## <a name="expense-reports"></a>Išlaidų ataskaitos
 
-Išlaidų ataskaitos kuriamos ir tvirtinamos „Finance and Operations“ programose. Norėdami sužinoti daugiau, žr. [Išlaidų ataskaitų kūrimas ir apdorojimas sprendime „Dynamics 365 Project Operations“](/learn/modules/create-process-expense-reports/). Kai išlaidų ataskaitą patvirtina projekto vadovas, ji užregistruojama didžiojoje knygoje. Sprendime „Project Operations“ su projektais susijusios išlaidų ataskaitų eilutės registruojamos naudojant specialias toliau nurodytas registravimo taisykles.
+Išlaidų ataskaitos kuriamos ir patvirtinamos "Finance and Operations" programose. Norėdami sužinoti daugiau, žr. [Išlaidų ataskaitų kūrimas ir apdorojimas sprendime „Dynamics 365 Project Operations“](/learn/modules/create-process-expense-reports/). Kai išlaidų ataskaitą patvirtina projekto vadovas, ji užregistruojama didžiojoje knygoje. Sprendime „Project Operations“ su projektais susijusios išlaidų ataskaitų eilutės registruojamos naudojant specialias toliau nurodytas registravimo taisykles.
 
   - Su projektais susiję kaštai (įskaitant nesusigrąžinamus mokesčius) nėra iš karto registruojami didžiosios knygos projekto kaštų sąskaitoje – jie registruojami išlaidų integravimo sąskaitoje. Ši sąskaita konfigūruojama nuėjus į **Projektų tvarkymas ir apskaita** > **Sąranka** > **Projektų tvarkymo ir apskaitos parametrai**, skirtuke **„Project Operations“ naudojant „Dynamics 365 Customer Engagement“**.
   - Dvigubo rašymo funkcija su „Dataverse“ sinchronizuoja naudodama lentelės schemą **„Project Operations“ integravimo projekto išlaidų eksportavimo objektas (msdyn \_expenses)**.

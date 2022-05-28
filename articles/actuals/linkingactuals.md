@@ -1,94 +1,39 @@
 ---
-title: Faktinių duomenų susiejimas su pradiniais įrašais
-description: Šioje temoje aiškinama, kaip susieti faktinius duomenis su originaliais įrašais, pvz., laiko ir išlaidų įrašais arba medžiagos naudojimo žurnalais.
+title: Operacijos kilmė – faktinių duomenų susiejimas su jų šaltiniu
+description: Šioje temoje paaiškinama, kaip operacijų kilmės sąvoka naudojama faktiniams duomenims susieti su pradiniais šaltinio įrašais, pvz., laiko įrašu, išlaidų įrašu arba medžiagų naudojimo žurnalais.
 author: rumant
 ms.date: 03/25/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b5a70d2c2b3f98028b4e4998ed25ab73a275c66e4b8137eb573b943658a1a41e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 908f78f7d58ec4b18f37d03b6fa7c4e2295491fa
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991766"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584836"
 ---
-# <a name="link-actuals-to-original-records"></a>Faktinių duomenų susiejimas su pradiniais įrašais
+# <a name="transaction-origins---link-actuals-to-their-source"></a>Operacijos kilmė – faktinių duomenų susiejimas su jų šaltiniu
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
-
-Programoje „Dynamics 365 Project Operations“ *verslo operacija* yra abstrakti sąvoka, nereiškianti objekto. Tačiau kai kuriems bendriesiems objektų laukams ir procesams gali būti naudojama verslo operacijų koncepcija. Ši abstrakti sąvoka naudojama toliau nurodytiems objektams.
-
-- Pasiūlymo eilučių informacija
-- Sutarties eilučių informacija
-- Įvertinimo eilutės
-- Žurnalo eilutės
-- Faktinės
-
-Iš visų šių objektų, **Pasiūlymo eilučių informacija**, **Sutarties eilučių informacija** ir **Įvertinimo eilutės** siejamos su projekto ciklo įvertinimo etapu. **Žurnalo eilutės** ir **Faktinių duomenų objektai** siejami su projekto ciklo vykdymo etapu.
-
-„Project Operations“ atpažįsta šių penkių objektų įrašus kaip laiko verslo operacijas. Vienintelis skirtumas yra tas, kad objektų, susietų su įvertinimo etapu, įrašai yra laikomi finansinėmis prognozėmis, o objektų, susietų su vykdymo etapu, įrašai – jau įvykusiais finansiniais faktais.
-
-## <a name="concepts-that-are-unique-to-business-transactions"></a>Unikalios verslo operacijų koncepcijos
-Toliau nurodytos koncepcijos yra unikalios verslo operacijų koncepcijos:
-
-- Operacijos tipas
-- Operacijos klasė
-- Operacijos kilmė
-- Operacijos ryšys
-
-### <a name="transaction-type"></a>Operacijos tipas
-
-Operacijos tipas reiškia finansinio poveikio projektui laiką ir kontekstą. Tai nurodo parinkčių rinkinys, kuris programoje „Project Operations“ turi toliau nurodytas palaikomas reikšmes.
-
-  - Savikaina
-  - Projekto sutartis
-  - Neišrašytas pardavimas
-  - Išrašytas pardavimas
-  - Pardavimas tarp organizacijų
-  - Išteklių paskirstymo vieneto savikaina
-
-### <a name="transaction-class"></a>Operacijos klasė
-
-Operacijos klasė nurodo skirtingus projekto išlaidų tipus. Tai nurodo parinkčių rinkinys, kuris programoje „Project Operations“ turi toliau nurodytas palaikomas reikšmes.
-
-  - Laikas
-  - Išlaidos
-  - Medžiaga
-  - Rinkliava
-  - Etapas
-  - Mokestis
-
-Verslo logikoje reikšmė **Etapas** paprastai naudojama „Project Operations“ fiksuotos kainos atsiskaitymams.
-
-### <a name="transaction-origin"></a>Operacijos kilmė
-
-**Operacijos kilmė** yra objektas, kuris išsaugo kiekvienos verslo operacijos kilmę. Pradėjus vykdyti projektą, sulig kiekviena verslo operacija pradedama kita verslo operacija, o sulig šia, savo ruožtu, dar viena ir t. t. Operacijos kilmės objektas skirtas duomenims apie kiekvienos operacijos kilmę saugoti, kad būtų galima lengviau teikti ataskaitas ir naudotis atsekamumo funkcija. 
-
-### <a name="transaction-connection"></a>Operacijos ryšys
-
-**Operacijos ryšys** – tai objektas, nusakantis ryšį tarp dviejų panašių verslo operacijų, pvz., savikainos ir susijusių pardavimo faktinių duomenų arba operacijų atšaukimų, suaktyvinamų atsiskaitymo veiklomis, pvz., sąskaitos faktūros patvirtinimu arba sąskaitos faktūros koregavimu.
-
-Kartu naudojant **operacijos kilmę** ir **operacijos ryšį**, galima sekti ryšius tarp verslo operacijų ir veiksmų, dėl kurių buvo atlikta konkreti verslo operacija.
-
-### <a name="example-how-transaction-origin-works-with-transaction-connection"></a>Pavyzdys: operacijos kilmės ir operacijos ryšio sąveika
+Operacijos kilmės įrašai sukuriami siekiant susieti faktinius duomenis su jų šaltiniu, tokiais laiko įrašais, išlaidų įrašais, medžiagų naudojimo žurnalais ir projekto SF.
 
 Toliau pateiktame pavyzdyje parodytas tipinis „Project Operations“ projekto ciklo laiko įrašų apdorojimas.
 
-> ![„Project Service“ ciklo laiko įrašų apdorojimas.](media/basic-guide-17.png)
+> ![Visas apdorojimo laikas projekto operacijose.](media/basic-guide-17.png)
  
-1. Pateikus laiko įrašą, sukuriamos dvi žurnalo eilutės: viena, skirta išlaidoms, o kita – pardavimui, už kurį neišrašyta sąskaita.
-2. Galiausiai patvirtinus laiko įrašą, sukuriamos dvi faktinės sumos: viena faktinė išlaidų suma ir viena faktinė pardavimo, už kurį neišrašyta sąskaita, suma.
-3. Sukūrus naują projekto sąskaitą faktūrą, sąskaitos faktūros eilutės operacija sukuriama naudojant faktinės pardavimo, už kurį neišrašyta sąskaita, sumos duomenis. 
-4. Patvirtinus sąskaitą faktūrą, sukuriamos dvi naujos faktinės sumos: pardavimo, už kurį neišrašyta sąskaita, faktinio atšaukimo suma ir faktinė pardavimo, už kurį išrašyta sąskaita, suma.
+1. Pateikus laiko įrašą, sukuriamos dvi žurnalo eilutės: viena savikainai ir viena neapmokėtiems pardavimams.
+2. Patvirtinus laiko įrašą, sukuriami du faktiniai duomenys: vienas savikainai ir vienas neapmokėtiems pardavimams.
+3. Vartotojui kuriant projekto sąskaitą faktūrą, sąskaitos faktūros eilutės operacija sukuriama naudojant faktinės pardavimo, už kurį neišrašyta sąskaita, sumos duomenis.
+4. Patvirtinus sąskaitą faktūrą, sukuriamos dvi naujos faktinės sumos: pardavimo, už kurį neišrašyta sąskaita, atšaukimo suma ir faktinė pardavimo, už kurį išrašyta sąskaita, suma.
 
-Kiekvienam iš šių įvykių objektuose **Operacijos kilmė** ir **Operacijos ryšys** sukuriamas įrašas. Šie nauji įrašai padeda sukurti ryšių tarp įrašų, sukurtų laiko įrašuose, žurnalo eilutėse, faktiniuose duomenyse ir sąskaitos faktūros eilutės informacijos dalyje, retrospektyvą.
+Kiekvienas šios apdorojimo darbo eigos įvykis suaktyvina įrašų kūrimą operacijos kilmės objekte, kad padėtų sukurti ryšius tarp šių įrašų, sukurtų pagal laiko įrašą, žurnalo eilutę, faktinę ir SF eilutės informaciją.
 
-Tolesnėje lentelėje pateikiami darbo eigos objekto **Operacijos kilmė** įrašai.
+Tolesnėje lentelėje pateikiami ankstesnės darbo eigos objekto Operacijos kilmė įrašai.
 
-| Renginys                        | Kilmė                   | Kilmės tipas                       | Operacija                       | Operacijos tipas         |
+| Įvykis                        | Kilmė                   | Kilmės tipas                       | Operacija                       | Operacijos tipas         |
 |------------------------------|--------------------------|-----------------------------------|-----------------------------------|--------------------------|
 | Laiko įrašo pateikimas        | Laiko įrašo GUID   | Laiko įrašas                        | Žurnalo eilutės įrašo GUID (išlaidos)   | Žurnalo eilutė             |
 | Laiko įrašo GUID       | Laiko įrašas               | Žurnalo eilutės įrašo GUID (pardavimas)  | Žurnalo eilutė                      |                          |
@@ -124,18 +69,9 @@ Tolesnėje lentelėje pateikiami darbo eigos objekto **Operacijos kilmė** įra�
 | Koregavimo sąskaitos faktūros eilutės GUID           | Sąskaitos faktūros eilutė             | Naujos pardavimo, už kurį neišrašyta sąskaita, faktinės sumos GUID    | Faktinis                            |                          |
 | Koregavimo sąskaitos faktūros GUID      | Sąskaita faktūra                  | Naujos pardavimo, už kurį neišrašyta sąskaita, faktinės sumos GUID    | Faktinis                            |                          |
 
-Tolesnėje lentelėje pateikiami darbo eigos objekto **Operacijos ryšys** įrašai.
 
-| Renginys                          | 1 operacija                 | 1 operacijos vaidmuo | 1 operacijos tipas           | 2 operacija                | 2 operacijos vaidmuo | 2 operacijos tipas |
-|--------------------------------|-------------------------------|--------------------|------------------------------|------------------------------|--------------------|--------------------|
-| Laiko įrašo pateikimas          | Žurnalo eilutės (pardavimo) GUID     | Pardavimas, už kurį neišrašyta sąskaita     | msdyn_journalline            | Žurnalo eilutės (išlaidų) GUID     | Išlaidos               | msdyn_journalline  |
-| Laiko patvirtinimas                  | Faktinės sumos, už kurią neišrašyta sąskaita, GUID (pardavimas)  | Pardavimas, už kurį neišrašyta sąskaita     | msdyn_actual                 | Faktinių išlaidų GUID (išlaidos)       | Išlaidos               | msdyn_actual       |
-| Sąskaitos faktūros kūrimas               | Sąskaitos faktūros eilutės informacijos GUID      | Pardavimas, už kurį išrašyta sąskaita       | msdyn_invoicelinetransaction | Pardavimo, už kurį neišrašyta sąskaita, faktinės sumos GUID   | Pardavimas, už kurį neišrašyta sąskaita     | msdyn_actual       |
-| Sąskaitos faktūros patvirtinimas           | Faktinės sumos atšaukimo GUID         | Atšaukimas          | msdyn_actual                 | Pradinio pardavimo, už kurį neišrašyta sąskaita, GUID | Pradinis           | msdyn_actual       |
-| Pardavimo, už kurį išrašyta sąskaita, GUID              | Pardavimas, už kurį išrašyta sąskaita                  | msdyn_actual       | Pardavimo, už kurį neišrašyta sąskaita, faktinės sumos GUID   | Pardavimas, už kurį neišrašyta sąskaita               | msdyn_actual       |                    |
-| Sąskaitos faktūros juodraščio koregavimas       | Sąskaitos faktūros eilutės operacijos GUID | Pakeitimas          | msdyn_invoicelinetransaction | Pardavimo, už kurį išrašyta sąskaita, GUID            | Pradinis           | msdyn_actual       |
-| Sąskaitos faktūros koregavimo patvirtinimas     | Pardavimo, už kurį išrašyta sąskaita, atšaukimo GUID    | Atšaukimas          | msdyn_actual                 | Pardavimo, už kurį išrašyta sąskaita, GUID            | Pradinis           | msdyn_actual       |
-| Naujos pardavimo, už kurį neišrašyta sąskaita, faktinės sumos GUID | Pakeitimas                     | msdyn_actual       | Pardavimo, už kurį išrašyta sąskaita, GUID            | Pradinis                     | msdyn_actual       |                    |
+Toliau pateiktoje iliustracijoje rodomi saitai, sukurti tarp faktinių ir jų šaltinių įvairiuose renginiuose, naudojant laiko įrašų pavyzdį projekto operacijose.
 
+> ![Kaip faktiniai duomenys yra susieti su šaltinio įrašais "Project Operations".](media/TransactionOrigins.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

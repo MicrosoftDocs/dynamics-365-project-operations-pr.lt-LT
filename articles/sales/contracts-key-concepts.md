@@ -4,26 +4,26 @@ description: Šioje temoje pateikta informacija apie pagrindines projekto sutar�
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ce84984f873e6336a6d065f0aa7a72f1474404a84d3dbb614c09d58bff66d83d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: f87a29893ca3d9bec6fbd07dded66a282ff597c3
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986951"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582950"
 ---
 # <a name="concepts-unique-to-project-based-contracts"></a>Unikalios projektu pagrįstų sutarčių sąvokos
 
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Šioje temoje pateikiamos pagrindinės sąvokos, kurias reikia žinoti prieš pradedant naudoti projektų sutartis programoje „Dynamics 365 Project Operations“:
 
 ## <a name="owning-company"></a>Įmonė, kuriai priklauso
 
-Valdančioji įmonė yra juridinis subjektas iš „Project Operations“ modulis **Projekto valdymas ir apskaita** iš „Dynamics 365 Finance“. Valdanti įmonė yra juridinis subjektas, kuris bus atsakingas už išlaidas ir pajamas, susidariusias iš sandorio.
+Valdanti įmonė yra juridinis asmuo iš projekto valdymo ir apskaitos **modulio** projekto operacijoms nuo Dynamics 365 Finance. Valdanti įmonė yra juridinis subjektas, kuris bus atsakingas už išlaidas ir pajamas, susidariusias iš sandorio.
 
 ## <a name="contracting-unit"></a>Sutartį sudarantis vienetas
 

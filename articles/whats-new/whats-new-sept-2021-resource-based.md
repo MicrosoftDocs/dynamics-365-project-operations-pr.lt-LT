@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 09/12/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 842ea95892fa4f7a29a778cfd2c33a66e84f676c
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: 06f23630ef0205394f376e5bb93a29ae8a9eab15
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547164"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582904"
 ---
 # <a name="whats-new-september-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Kas nauja 2021 m. rugsėjo mėn. – „Project Operations“, skirta išteklių / atsargose nelaikomų medžiagų scenarijams
 
@@ -21,7 +21,7 @@ ms.locfileid: "7547164"
 Ši tema taikoma toliau nurodytiems „Dynamics 365 Project Operations“ komponentams ir versijoms:
 
    - „Project Operations“ 4.14.0.99 versijos „Microsoft Dataverse“ aplinkoje.
-   - Projektų valdymas ir apskaita 10.0.20 versijos „Dynamics 365 Finance” aplinkoje.
+   - Projektų valdymas ir apskaita Dynamics 365 Finance aplinkoje 10.0.20 versija.
 
 ## <a name="project-operations-dual-write-maps-updates"></a>„Project Operations“ dvigubo rašymo schemų naujinimai
 
@@ -45,7 +45,7 @@ Jei paleidžiant schemą iškyla problema, vykdykite instrukcijas, pateikiamas D
 | Sąskaitų pateikimas ir kainodara | 2385802 | Ištaisyta klaida, įvykstanti atnaujinus projekto bendrąsias sumas su neigiamomis faktinėmis valandomis. |
 | Sąskaitų pateikimas ir kainodara | 2389675 | Patobulintas išankstinių sąskaitų faktūrų patvirtinimo veikimas. Ilgai vykdomų užduočių objektas turi atsižvelgti į veiklą, reikalingą norint rašyti apskaitos patvirtinimo rezultatus. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektų valdymas ir apskaita programoje „Dynamics 365 Finance”
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektų valdymas ir apskaita Dynamics 365 Finance
 
 | Funkcijų sritis | Nuorodos numeris | Kokybės naujinimas |
 | --- | --- | --- |

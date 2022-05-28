@@ -4,14 +4,14 @@ description: Šioje temoje pateikta informacija padės jums nustatyti teisingą 
 author: stsporen
 ms.date: 03/15/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 4be8e69c5b6ff1ed65e9484a9b427bb428f7ff3e6dc597c615d5586da52867ef
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 280578b2710a0bccd1973b51b062fef7a2997780
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994646"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584146"
 ---
 # <a name="determine-your-deployment-type"></a>Visuotinio diegimo tipo nustatymas
 
@@ -25,7 +25,7 @@ _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems s
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Esami „Dynamics“ klientai, naudojantys „Dynamics 365 Project Service Automation“
 „Project Operations“ pateikiamos galimybės, pristatytos su „Project Service Automation“. Naujovinimo kelias šiems klientams bus išleistas 2021 m. 1-osios leidimų bangos metu.
 
-## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Esami „Dynamics 365 Finance“ klientai, naudojantys projektų valdymą ir apskaitą 
+## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Esami Dynamics 365 Finance klientai, naudojantys projektų valdymą ir apskaitą 
 
 Esami „Finance“ klientai, naudojantys projektų valdymo ir apskaitos funkcijas, gali ją naudoti taip, kaip dabar. Žr. [„Project Operations“, skirta laikomų medžiagų / gamybos užsakymo scenarijams](#pma).
 
@@ -42,9 +42,9 @@ Mūsų [Vsuotinio diegimo klausimynas](https://aka.ms/provisionprojectoperations
 - [„Project Operations“, skirta išteklių / nelaikomų medžiagų scenarijams](#integrated)
 - [„Project Operations“, skirta laikomų medžiagų / gamybos užsakymo scenarijams](#pma)
 
-„Project Operations“ palaiko laikomų medžiagų / gamybos užsakymo scenarijus ir nelaikomų medžiagų / ištekliais pagrįstus scenarijus toje pačioje aplinkoje, naudojant juridinio objekto lygio konfigūracijas. Pavyzdžiui, „Contoso“ gali išnaudoti laikomų / gamybos užsakymų galimybes savo JAV gamybos įstaigoje (juridinis objektas = „Contoso Manufacturing United States“). „Contoso“ gali išnaudoti ne atsargomis / ištekliais pagrįstas galimybes savo „Contoso Robotics Arms“ aptarnavimo įstaigoje, Jungtinėje Karalystėje (juridinis objektas = „Contoso Robotics United Kingdom“).
+„Project Operations“ palaiko laikomų medžiagų / gamybos užsakymo scenarijus ir nelaikomų medžiagų / ištekliais pagrįstus scenarijus toje pačioje aplinkoje, naudojant juridinio objekto lygio konfigūracijas. Pavyzdžiui, „Contoso“ gali naudoti savo JAV gamybos patalpų (juridinis subjektas = „Contoso Manufacturing United States“) laikomas / gamybos užsakymo galimybes. „Contoso“ gali naudoti nelaikomas / ištekliais pagrįstas galimybes savo „Contoso Robotics Arms“ techninės priežiūros patalpose JK (juridinis objektas = „Contoso Robotics United Kingdom“).
 
-### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>„Lite“ visuotinis diegimas – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo
+### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Supaprastinta įdiegtis – sandoris į išankstinės sąskaitos faktūros formą
 
 „Lite“ visuotinis diegimas turi šias galimybes:
 

@@ -2,16 +2,16 @@
 title: Projekto sutarties parametrai – „Lite“ versija
 description: Šioje temoje pateikta informacija apie laukus, kurie veikia sutarties eilutes, ir informacija apie sutartį, apibendrinančią visų eilučių elementus.
 author: rumant
-ms.date: 10/20/2020
+ms.date: 03/08/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7ade6c122827274f926803140f5db32442114c7aefd18d410da65270f345fde4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 638bd11926c2b470c0da92d67350e8da56cb1997
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995951"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586400"
 ---
 # <a name="header-details-for-project-contracts"></a>Projekto sutarčių antraštės išsami informacija
 
@@ -32,12 +32,15 @@ _**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės
 | Limitas, kurio negalima viršyti | Skirtukas **Suvestinė** | Šis laukas nurodo sutartinę viršutinę galutinės vertės ribą, su kuria klientas sutiko sudarydamas šį sandorį. | Viršutinė riba įvertinama vykdant ir taikoma visiems eilutės elementams bei su šiuo sandoriu susijusiems projektams. |
 | Pageidaujama pristatymo data | Skirtukas **Suvestinė** | Kai sutartis sukuriama iš projekto pasiūlymo, šis laukas nukopijuojamas iš atitinkamo projekto pasiūlymo lauko. | Ši data naudojama kaip sąskaitų faktūrų generavimo grafikų pabaigos data. |
 
-Nurodyti KPI pasiekiami projekto sutarties skirtuke **Sutarties efektyvumas**.
+Nurodyti KPI pasiekiami projekto sutarties skirtuke **Sutarties efektyvumas**. 
 
-| Laukas | Vieta | Aprašo |
+>[!NOTE]
+>Visos sumos skirtuke **Sutarties vykdymas** išreiškiamos numatytąja aplinkos valiuta.
+
+| Laukas | Vieta | Aprašą |
 | --- | --- | --- |
-| Sutarties vertė | Bendra sutartis | Bendra projekto sutarties vertė. |
-| Išrašytos sąskaitos suma | Bendra sutartis | Visų šios sutarties sąskaitų faktūrų sumų suma. |
+| Sutarties vertė | Bendra sutartis | Bendra projekto sutarties vertė.|
+| Išrašytos sąskaitos suma | Bendra sutartis | Visų šios sutarties sąskaitų faktūrų sumų suma.|
 | Taikoma savikaina | Bendra sutartis | Visų su sutartimi susietų projektų visų faktinių užregistruotų išlaidų suma. |
 | Bruto marža | Bendra sutartis | Sąskaitos faktūros suma – išlaidos, patirtos iki datos / sąskaitos faktūros suma |
 | Numatoma marža | Bendra sutartis | (Sutarties vertė – numatomos išlaidos) / sutarties valueEstimated išlaidos = Visų su sutartimi susietų projektų apskaičiuotų išlaidų suma.|

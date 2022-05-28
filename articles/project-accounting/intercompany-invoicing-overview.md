@@ -3,16 +3,15 @@ title: Vidinės įmonės sąskaitų faktūrų išrašymo apžvalga
 description: Šioje temoje pateikiama informacijos ir pavyzdžių apie vidinės įmonės SF išrašymą už projektus.
 author: sigitac
 ms.date: 11/19/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: b7bb4384657c71552390bbc3d60f3c5d0e4136b4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005401"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586262"
 ---
 # <a name="intercompany-invoicing-overview"></a>Vidinės įmonės sąskaitų faktūrų išrašymo apžvalga
 
@@ -20,7 +19,7 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 
 Jūsų organizaciją gali sudaryti keli skyriai, filialai ir kiti juridiniai subjektai, kurie, vykdydami projektus, keičiasi produktais ir paslaugomis. Juridinis subjektas, kuris teikia paslaugą arba produktą, vadinamas *skolinančiu juridiniu subjektu*. Juridinis subjektas, kuris gauna paslaugą arba produktą, vadinamas *besiskolinančiu juridiniu subjektu*.
 
-Šioje iliustracijoje pavaizduotas įprastas scenarijus, kai du juridiniai objektai Contoso Robotics USA (besiskolinantis juridinis subjektas) ir Contoso Robotics UK (skolinantis juridinis subjektas) bendrina išteklius, kad klientui „Adventure works“ būtų galima vykdyti projektą. Pagal šį scenarijų Contoso Robotics USA sudarė sutartį teikti darbus „Adventure Works“.
+Toliau pateikiamas tipiško scenarijaus pavyzdys: du juridiniai subjektai „Contoso Robotics USA“ (besiskolinantis juridinis subjektas) ir „Contoso Robotics UK“ (skolinantis juridinis subjektas) dalijasi ištekliais, kad pateiktų projektą klientui „Adventure Works“. Šiuo atveju su „Contoso Robotics USA“ sudaryta sutartis, pagal kurią ji turi pateikti darbą įmonei „Adventure Works“.
 
 ![Vidinės įmonės sąskaitų faktūrų išrašymas.](./media/IntercompanyScenario.png) 
 

@@ -2,22 +2,22 @@
 title: Užsiregistravimas norint naudotis „Project Operations“ bandomosiomis versijomis
 description: Šioje temoje pateikiama informacija apie tai, kaip įdiegti „Dynamics 365 Project Operations“ bandomąją versiją.
 author: ruhercul
-ms.date: 12/08/2021
+ms.date: 01/10/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
-ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
-ms.translationtype: HT
+ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901627"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584284"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Užsiregistravimas norint naudotis „Project Operations“ bandomosiomis versijomis 
 
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams, „Lite” versijos visuotinis diegimas – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo, „Project Operations“, skirta laikomų medžiagų / gamyba pagrįstiems scenarijams_ 
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Šioje temoje aiškinama, kaip užsiprenumeruoti peržiūros partnerio pasiūlymą ir įdiegti „Dynamics 365 Project Operations“ aplinką.
 
@@ -36,7 +36,6 @@ Toliau esančioje lentelėje pateikta naujo bandomosios versijos pasiūlymo išs
 | Pasinaudojimas pasiūlymu                    | Vieną kartą vienam nuomotojui                          |
 | Pasiūlymo trukmė               | 30 kalendorinių dienų                             |
 | Vieno nuomotojo priėmimai       | 1                                            |
-| Vartotojų skaičius              | 25                                           |
 | Plėtinys                    | 1 plėtinys, 30 kalendorių dienų               |
 | Bandomųjų aplinkų skaičius | 3                                            |
 
@@ -87,17 +86,17 @@ Prieš pradėdami prisijunkite prie naršyklės naudodami vartotojo darbo paskyr
  
   Kai parengimas baigtas, jūsų aplinkos būsena yra **Paruošta**. Aplinkos parengimas apima demonstracinių duomenų diegimą.
  
-4.  Norėdami patikrinti visuotinį diegimą, pasirinkite atitinkamus „Microsoft Dataverse“ URL ir „Finance and Operations“ programėlių URL.
+4.  Pasirinkite atitinkamą Microsoft Dataverse URL ir "Finance and Operations" programų URL, kad patvirtintumėte diegimą.
 
 ## <a name="configuring-dual-write"></a>Dvigubo rašymo konfigūravimas
-- Norėdami konfigūruoti dvigubo rašymo saugos vaidmenis, [žr Dataverse](resource-provision-new-environment.md).
-- Norėdami konfigūruoti dviejų rašymo žemėlapių, [žr](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
+- Norėdami konfigūruoti dvigubo rašymo saugos vaidmenis, žr [Dataverse](resource-provision-new-environment.md).
+- Norėdami konfigūruoti dvigubo rašymo žemėlapius, žr [...](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Licencijų priskyrimas
 
-Norint atlikti toliau nurodytus veiksmus jums reikės administratoriaus prieigos prie organizacijos „Microsoft 365 Portal“.
+Norint atlikti toliau nurodytus veiksmus jums reikės administratoriaus prieigos prie organizacijos „Microsoft 365“ portalo.
 
-1. Eikite į [„Microsoft 365“ administravimo centrą](https://portal.office.com/) ir priskirkite licencijas vartotojams.
+1. Eikite į [Microsoft 365 administravimo centrą](https://portal.office.com/), kad priskirtumėte licencijas savo vartotojams.
 
    ![Administravimo centro pagrindinis puslapis](./media/14AdminPortal.png)
 
@@ -117,7 +116,7 @@ Toliau nurodytuose ištekliuose pateiktos naudingos gairės pradėjus veiklos ci
 
 ## <a name="frequently-asked-questions"></a>Dažnai užduodami klausimai
 
-### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Ką daryti, jei savo „Finance and Operations“ programų aplinkoje reikalauju ALM arba ELM?
+### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Ką daryti, jei mano "Finance and Operations" programų aplinkai reikia ALM arba ELM?
 
 - Partnerius, reikalaujančius visų aplinkos ciklo valdymo galimybių, žr. temoje [Partnerio smėlio dėžės licencijos užklausa](https://experience.dynamics.com/requestlicense) ir peržiūrėkite naują partnerio pasiūlymą. 
 - Partnerius, kuriems reikalinga daugiau informacijos apie vidines naudojimo teises, žr. straipsnyje [Vidinių naudojimo teisių debesies ir programinės įrangos pranašumas (microsoft.com](https://partner.microsoft.com/membership/internal-use-software).
@@ -125,7 +124,7 @@ Toliau nurodytuose ištekliuose pateiktos naudingos gairės pradėjus veiklos ci
 ### <a name="can-i-extend-my-trial-beyond-30-days"></a>Ar galiu bandomąja versija naudotis ilgiau nei 30 dienų?
 Norėdami prailginti bandomosios versijos laikotarpį, atlikite toliau nurodytus veiksmus.
 
-1. **„Microsoft 365“ administravimo centre** eikite į **Atsiskaitymas** > **Jūsų produktai**.
+1. **Microsoft 365 Administravimo centre** eikite į **Produktų** > **atsiskaitymas**.
 2. Pasirinkite **„Dynamics 365 Project Operations (CE)“ – peržiūros versijos bandomąją versiją**.
 3. Dalyje **Galiojimo pabaigos data** pasirinkite **Nustatyti vėlesnę datą**.
 
