@@ -4,20 +4,20 @@ description: Šioje temoje pateikiama informacija apie tai, kaip apibrėžti arb
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 1717abb8f37acb7ab5f4e24b9323b3d958b40b13d7da44c0bbfa88eea28b99ef
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 089158666dc8fd09cd5d2b615715ed8aaff5575a
+ms.sourcegitcommit: e6090e1fef5f475a3cd56b78b6abca29f90da8f5
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992621"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8737312"
 ---
 # <a name="financial-estimates-for-materials-on-projects"></a>Projektų žaliavų finansiniai įvertinimai
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
-Programoje „Dynamics 365 Project Operations“ projektų vadovai kiekvienam projektui arba užduočiai gali nustatyti projektu pagrįstas medžiagos savikainas. Kiekvieną medžiagų įvertinimą galima susieti su konkrečia projekto užduotimi. Išlaidos skirstomos į skirtingas išlaidų kategorijas, apibrėžtas organizacijos lygiu. Kiekvienos išlaidų kategorijos kainos ir įkainojimas apibrėžiamas kainoraštyje. 
+Programoje „Dynamics 365 Project Operations“ projektų vadovai kiekvienam projektui arba užduočiai gali nustatyti projektu pagrįstas medžiagos savikainas. Kiekvieną medžiagų įvertinimą galima susieti su konkrečia projekto užduotimi. Medžiagos, naudojamos projektuose, gali būti įrašymo produktai arba produktai iš produktų katalogo. Kiekvieno produkto ir vieneto derinio kainą galima nustatyti pardavimo projektų kainoraščiuose ir projekto išlaidų kainoraščiuose.  
 
 Norėdami peržiūrėti, įtraukti arba panaikinti projekto medžiagos įvertinimą, atlikite toliau nurodytus veiksmus.
 
