@@ -1,24 +1,24 @@
 ---
 title: Kas nauja – 2021 m. gegužės mėn. „Project Operations Lite“ visuotinis diegimas
-description: Šioje temoje pateikiama informacija apie kokybės naujinimus, pasiekiamus 2021 m. gegužės mėn. „Project Operations Lite“ visuotinio diegimo versijoje.
+description: Šiame straipsnyje pateikiama informacija apie kokybės atnaujinimus, kuriuos galima rasti 2021 m. gegužės mėn.
 author: sigitac
 ms.date: 05/17/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 854a8c2290281b4d11a045321a334d8866806041
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a5d67159b732e0309e03c64fb6dadcc7b8cbff51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583686"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934192"
 ---
 # <a name="whats-new-may-2021---project-operations-lite-deployment"></a>Kas nauja – 2021 m. gegužės mėn. „Project Operations Lite“ visuotinis diegimas
 
 _Taikoma (kam): „Lite“ visuotiniam diegimui – sandoris į išankstinės sąskaitos faktūros kūrimą_
 
-Ši tema taikoma toliau nurodytiems „Dynamics 365 Project Operations“ komponentams ir versijoms:
+Šis straipsnis taikomas šiems Dynamics 365 Project Operations komponentams ir versijoms:
 
    - „Project Operations“ „Dataverse“ aplinkoje, 4.10.0.186 versija.
 

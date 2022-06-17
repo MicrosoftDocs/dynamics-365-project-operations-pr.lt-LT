@@ -1,6 +1,6 @@
 ---
 title: Sinchronizuoti projekto užduotis tiesiogiai iš "Project Service Automation" į "Finance and Operations"
-description: Šioje temoje aprašomas šablonas ir pagrindinė užduotis, naudojama projekto užduotims sinchronizuoti tiesiai iš Microsoft Dynamics 365 Project Service Automation į Dynamics 365 Finance.
+description: Šiame straipsnyje aprašomas šablonas ir pagrindinė užduotis, naudojama projekto užduotims sinchronizuoti tiesiogiai iš Microsoft Dynamics 365 Project Service Automation Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 666e0d757969b32f16e08128d9f78a2ffe1e8357
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 7b8ba77bbb08052952a8a557bb71300652dca3b2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683320"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931156"
 ---
 # <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Sinchronizuoti projekto užduotis tiesiogiai iš "Project Service Automation" į "Finance and Operations"
 
 [!include[banner](../includes/banner.md)]
 
-Šioje temoje aprašomas šablonas ir pagrindinė užduotis, naudojama projekto užduotims sinchronizuoti tiesiai iš Dynamics 365 Project Service Automation į Dynamics 365 Finance.
+Šiame straipsnyje aprašomas šablonas ir pagrindinė užduotis, naudojama projekto užduotims sinchronizuoti tiesiogiai iš Dynamics 365 Project Service Automation Dynamics 365 Finance.
 
 > [!NOTE]
 > - Projekto užduočių integravimas, išlaidų operacijų kategorijos, valandų įvertinimas, išlaidų įvertinimas ir funkcijų blokavimas prieinami 8.0 versijoje.

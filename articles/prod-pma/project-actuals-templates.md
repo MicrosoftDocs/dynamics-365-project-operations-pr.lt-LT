@@ -1,6 +1,6 @@
 ---
 title: Sinchronizuoti projekto faktinius duomenis tiesiogiai iš "Project Service Automation" į projekto integravimo žurnalą, kad būtų galima registruoti "Finance and Operations"
-description: Šioje temoje aprašomi šablonai ir pagrindinės užduotys, naudojamos projekto faktams sinchronizuoti tiesiogiai iš Microsoft Dynamics 365 Project Service Automation "Finance and Operations".
+description: Šiame straipsnyje aprašomi šablonai ir pagrindinės užduotys, naudojamos projekto faktiniams duomenims sinchronizuoti tiesiogiai iš Microsoft Dynamics 365 Project Service Automation "Finance and Operations".
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 12929c324bb3a7c344edc9be2e3a8f4941ff9ea4
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 7d912a11d9c7bc66ed43911ee32f25092d551cd6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683548"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929500"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Sinchronizuoti projekto faktinius duomenis tiesiogiai iš "Project Service Automation" į projekto integravimo žurnalą, kad būtų galima registruoti "Finance and Operations"
 
 [!include[banner](../includes/banner.md)]
 
-Šioje temoje aprašomi šablonai ir pagrindinės užduotys, naudojamos projekto faktiniams duomenims sinchronizuoti tiesiogiai iš Dynamics 365 Project Service Automation Dynamics 365 Finance į Dynamics 365 Finance.
+Šiame straipsnyje aprašomi šablonai ir pagrindinės užduotys, naudojamos projekto faktiniams duomenims sinchronizuoti tiesiogiai iš Dynamics 365 Project Service Automation Dynamics 365 Finance į Dynamics 365 Finance.
 
 Šablonas sinchronizuoja operacijas iš „Project Service Automation“ į paruošimo lenteles „Finance“. Baigę sinchronizuoti, **turite** importuoti duomenis iš paruošimo lentelės į integravimo žurnalą.
 

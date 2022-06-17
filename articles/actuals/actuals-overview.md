@@ -1,6 +1,6 @@
 ---
-title: Faktiniai duomenys
-description: Šioje temoje pateikiama informacija apie tai, kaip dirbti su faktiniais duomenimis programoje „Microsoft Dynamics 365 Project Operations“.
+title: Faktiniai
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip dirbti su faktiniais duomenimis programoje "Microsoft"Dynamics 365 Project Operations.
 author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3f0cb8c478e2ce6fba589d51d95649f53f62e883
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2551b7d6d20df170c913e302e734583135265529
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581294"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924808"
 ---
 # <a name="actuals"></a>Faktiniai duomenys
 
@@ -33,7 +33,7 @@ Faktinių duomenų srityje pateikiama projekto peržiūrėta ir patvirtinta fina
 
 Projekto operacijos įrašo finansines operacijas, kurios įvyksta projekto įtraukimo ciklo metu, kaip faktines. Faktinių duomenų kūrimas įvairiuose gyvavimo ciklo įvykiuose skiriasi priklausomai nuo to, ar projekto įtraukime naudojamas laiko ir medžiagų atsiskaitymo modelis, ar fiksuotos kainos atsiskaitymo modelis, ir ar tai yra prieš pardavimą, ar tai yra vidinis projektas.
 
-Toliau pateiktose temose paaiškinamas poveikis faktinių duomenų lentelei įvairiuose renginiuose dėl skirtingų variantų:
+Tolesniuose straipsniuose paaiškinamas poveikis faktinių duomenų lentelei įvairiuose renginiuose dėl skirtingų variantų:
 
 - [Faktinis poveikis laikui bėgant ir medžiagų įtraukimui](ActualsonTM.md)
 - [Faktinis poveikis fiksuotos kainos įtraukimui](ActualonFP.md)

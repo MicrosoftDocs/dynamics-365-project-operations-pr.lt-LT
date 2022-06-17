@@ -1,24 +1,24 @@
 ---
 title: Kas nauja – 2022 m. balandžio mėn. „Project Operations Lite“ visuotinis diegimas
-description: Šioje temoje pateikiama informacija apie kokybės naujinimus, kuriuos galima rasti 2022 m. balandžio Dynamics 365 Project Operations mėn.
+description: Šiame straipsnyje pateikiama informacija apie kokybės naujinimus, kuriuos galima rasti 2022 m. balandžio Dynamics 365 Project Operations mėn.
 author: sigitac
 ms.date: 04/08/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6f75d75e57d6a6396b0148f0449899735089b06a
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: 6d6fc52d535244b339e43f88e85797a957d98b89
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8613339"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927476"
 ---
 # <a name="whats-new-april-2022---project-operations-lite-deployment"></a>Kas nauja – 2022 m. balandžio mėn. „Project Operations Lite“ visuotinis diegimas
 
 _**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
 
-Ši tema taikoma šiems "Microsoft" Dynamics 365 Project Operations komponentams ir versijoms:
+Šis straipsnis taikomas šiems "Microsoft" Dynamics 365 Project Operations komponentams ir versijoms:
 
 - Projekto operacijos aplinkos versijoje Dataverse 4.41.0.45
 

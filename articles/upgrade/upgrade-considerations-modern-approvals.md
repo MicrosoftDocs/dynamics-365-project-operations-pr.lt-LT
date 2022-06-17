@@ -1,17 +1,17 @@
 ---
 title: Šiuolaikinių patvirtinimų atnaujinimo aspektai
-description: Ši tema apima dalykus, į kuriuos administratoriai turėtų atsižvelgti, kai įgalina šiuolaikinių patvirtinimų funkciją.
+description: Straipsnyje aptariami klausimai, į kuriuos administratoriai turėtų atsižvelgti, kai įjungia šiuolaikinių patvirtinimų funkciją.
 author: stsporen
 ms.date: 01/31/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: a3757f057a801318feccde9be3e49c7b40fa8fcb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 44a933c92d4ef8dff40f20200d74c4bbdf8caa76
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578396"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931754"
 ---
 # <a name="upgrade-considerations-for-modern-approvals"></a>Šiuolaikinių patvirtinimų atnaujinimo aspektai 
 

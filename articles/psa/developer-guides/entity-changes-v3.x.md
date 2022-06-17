@@ -1,6 +1,6 @@
 ---
 title: Objekto, valdiklio ir vartotojo sąsajos pakeitimai („Project Service Automation 3.x“)
-description: Šioje temoje aprašomi „Microsoft Dynamics Project Service Automation 3.x“ skirti sprendimo pakeitimai.
+description: Šiame straipsnyje aprašomi "Project Service Automation 3.x" sprendimų pakeitimai Microsoft Dynamics.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -15,19 +15,19 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: da43e0d15e655977c0c1be7348192a0189a56a6c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8f54d263666c4fb999464f98c0138fc008dbbbd2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597578"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926878"
 ---
 # <a name="entity-control-and-user-interface-changes-project-service-automation-3x"></a>Objekto, valdiklio ir vartotojo sąsajos pakeitimai („Project Service Automation 3.x“)
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
 
-Išleidus „Microsoft Dynamics Project Service Automation (PSA), 3.x“, buvo pristatyta daug objektų, valdiklių, rodinių ir vartotojo sąsajos pakeitimų. Šioje temoje pateikiama informacija, susijusi su šiais svarbiais pakeitimais.
+Išleidus „Microsoft Dynamics Project Service Automation (PSA), 3.x“, buvo pristatyta daug objektų, valdiklių, rodinių ir vartotojo sąsajos pakeitimų. Šiame straipsnyje pateikiama informacija apie šiuos svarbius pokyčius.
 
 ## <a name="parent-child-relationships-for-sales-document-sales-document-line-sales-document-line-detail-entities"></a>Pardavimo dokumento, pardavimo dokumento eilutės, pardavimo dokumento eilutės informacijos objektų pirminių ir antrinių elementų ryšiai
 Naudojant „Dynamics 365 Project Service Automation“ (PSA) versijas, išleistas iki versijos 3.0, kai kurie ryšiai tarp pardavimo dokumentų, pardavimo dokumento eilučių ir pardavimo dokumento eilutės informacijos objektų būdavo įdiegiami naudojant eilutės laukus, kuriuose būdavo susijusio objekto GUID eilutės atvaizdavimas. Taip vykdavo dėl platformos apribojimų, o norint juos pašalinti reikėdavo atlikti nemažai pasirinktinio programavimo darbų serveryje ir iš kliento sprendimo pusės, kad šie ryšiai veiktų panašiai, kaip įprasti „Dynamics CRM“ objekto ryšiai, o eilučių laukai veiktų kaip peržvalgos laukai.

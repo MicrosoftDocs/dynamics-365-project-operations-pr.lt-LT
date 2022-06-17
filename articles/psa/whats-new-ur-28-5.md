@@ -1,6 +1,6 @@
 ---
 title: Kas nauja arba pakeista „Project Service Automation“ V3 28.5 atnaujintame leidime, karštoji pataisa
-description: Šioje temoje išvardytos funkcijos ir pataisos, galimos „Project Service Automation“ V3 28.5 atnaujintame leidime, karštojoje pataisoje.
+description: Šiame straipsnyje išvardijamos funkcijos ir pataisymai, kuriuos galima rasti "Project Service Automation Update Release 28.5 Hot pataisos", V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/03/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 8c10e626094a229f2adf2137e847537becf29b55
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7d232150445091e64ca0ec804994050757b159df
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595324"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928718"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-285-v3"></a>Kas nauja arba pakeista „Project Service Automation“ V3 28.5 atnaujintame leidime
 
@@ -29,7 +29,7 @@ ms.locfileid: "8595324"
 
 Malonu pranešti apie naujausią „Dynamics 365“ programos „Project Service Automation“ naujinimą. Šiame leidime yra kai kurių svarbių kokybės, veikimo ir naudojimo patobulinimų. Šis leidimas suderinamas su „Dynamics 365“ 9.x versija. Norėdami naujinti šį leidimą, eikite į „Dynamics 365“ internetinių sprendimų puslapio administravimo centrą, iš kurio galite įdiegti naujinimą. Daugiau informacijos žr. [Pageidaujamo sprendimo diegimas, naujinimas arba šalinimas](/power-platform/admin/install-remove-preferred-solution).
 
-Šioje temoje išvardytos naujos ar pakeistos „Project Service Automation“ V3, atnaujinto 28.5 leidimo funkcijos ir taisymai. Šios komponavimo versijos numeris yra V3.10.46.87 ir ji yra visuotinai pasiekiama 2021 m. sausio mėn. savaiminiame naujinime.
+Šiame straipsnyje išvardijamos funkcijos ir pataisymai, kurie yra nauji arba pakeisti "Project Service Automation V3", "Update Release 28.5" Ši versija turi komponavimo numerį V 3.10.46.87 ir paprastai yra prieinama atnaujinant save 2021 m. Sausio mėn.
 
 ## <a name="update-release-285-hotfix"></a>28.5 atnaujintas leidimas, karštoji pataisa
 

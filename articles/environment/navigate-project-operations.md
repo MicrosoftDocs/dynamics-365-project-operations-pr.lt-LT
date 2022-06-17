@@ -1,17 +1,17 @@
 ---
 title: Pereiti į „Project Operations“
-description: Šioje temoje pateikiama informacija apie tai, kaip pasiekti „Project Operations” iš „Lifecycle Services”.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip pasiekti "Project Operations" iš gyvavimo ciklo tarnybų.
 author: sigitac
 ms.date: 10/28/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 50afe2c0e247cb9d9c5f970810fa917d002ae1d0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d8573b65373fe88c5b0617be585e2d3c77f1ca6e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591874"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931662"
 ---
 # <a name="navigate-project-operations"></a>Pereiti į „Project Operations“
 
@@ -24,7 +24,7 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
  - **„Project Operations“ „Common Data Service” (CDS) aplinkoje**. Šis komponentas apima galimybes ir procesus, pradedant galimybėmis ir baigiant „Proforma” sąskaitų faktūrų išrašymu. 
  - **Projektų valdymas ir apskaita Dynamics 365 Finance aplinkoje**: šis komponentas apima išlaidų valdymo galimybes, projektų apskaitą ir pajamų pripažinimą. 
 
-Parengus „Project Operations” kaip aprašyta šioje temoje, „Lifecycle Services” (LCS) puslapis **Išsami aplinkos informacija** teikia lengvą prieigą prie abiejų „Project Operations” komponentų.  
+Kai pateikiate projekto operacijas, kaip aprašyta šiame straipsnyje, puslapis Gyvavimo ciklo tarnybų (LCS) **aplinkos informacija** suteikia lengvą prieigą prie abiejų projekto operacijų komponentų.  
 
 Naudokite aplinkos pavadinimą skyriuje **„Common Data Service” aplinkos pavadinimas**, kad pereitumėte prie „Project Operations” CDS aplinkoje. 
 

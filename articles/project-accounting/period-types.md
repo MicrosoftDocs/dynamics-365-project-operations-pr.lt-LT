@@ -1,23 +1,23 @@
 ---
 title: Laikotarpių tipai
-description: Šioje temoje pateikiama informacijos, kaip tvarkyti pajamų įvertinimo laikotarpių tipus.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip nustatyti įplaukų įvertinimo laikotarpių tipus.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 83cf88bafbc7fc97fba664e278b232c24db53391
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5bbf2dcb4758611aa9d0591ddfec42869f4438c0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580466"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930972"
 ---
 # <a name="period-types"></a>Laikotarpių tipai
 
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
-Laikotarpio tipas apibrėžia, kaip dažnai apskaičiuojamos projekto pajamos. Šioje temoje pateikiama informacijos, kaip tvarkyti pajamų įvertinimo laikotarpių tipus. 
+Laikotarpio tipas apibrėžia, kaip dažnai apskaičiuojamos projekto pajamos. Šiame straipsnyje pateikiama informacija apie tai, kaip nustatyti įplaukų įvertinimo laikotarpių tipus. 
 
 ## <a name="create-and-work-with-period-types"></a>Laikotarpių tipų kūrimas ir naudojimas
 Norėdami kurti ir naudoti laikotarpių tipus, atlikite toliau nurodytus veiksmus.

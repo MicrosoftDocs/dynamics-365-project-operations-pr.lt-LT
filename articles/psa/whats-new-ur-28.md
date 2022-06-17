@@ -1,6 +1,6 @@
 ---
 title: Kas nauja arba pakeista „Project Service Automation“ V3 28 atnaujintame leidime
-description: Šioje temoje išvardytos funkcijos ir pataisymai, kurie yra pasiekiami „Project Service Automation“ V3 28 atnaujintame leidime.
+description: Šiame straipsnyje išvardijamos funkcijos ir pataisymai, kuriuos galima rasti "Project Service Automation Update Release 28", V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/26/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: b3afeaf131c8bab25e1ed3a9eb3b41cb3059f711
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 56a87bce55c560e541e20709b10d38b9512ffcee
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586814"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930604"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-28-v3"></a>Kas nauja arba pakeista „Project Service Automation“ V3 28 atnaujintame leidime
 
@@ -29,7 +29,7 @@ ms.locfileid: "8586814"
 
 Malonu pranešti apie naujausią „Dynamics 365“ programos „Project Service Automation“ naujinimą. Šiame leidime yra kai kurių svarbių kokybės, veikimo ir naudojimo patobulinimų. Šis leidimas suderinamas su „Dynamics 365“ 9.x versija. Norėdami naujinti šį leidimą, eikite į „Dynamics 365“ internetinių sprendimų puslapio administravimo centrą, iš kurio galite įdiegti naujinimą. Daugiau informacijos žr. [Pageidaujamo sprendimo diegimas, naujinimas arba šalinimas](/power-platform/admin/install-remove-preferred-solution).
 
-Šioje temoje išvardytos naujos ar pakeistos „Project Service Automation“ V3, atnaujinto 28 leidimo funkcijos ir taisymai. Šios komponavimo versijos numeris yra V3.10.46.32 ir ji yra visuotinai pasiekiama 2021 m. sausio mėn. savaiminiame naujinime.
+Šiame straipsnyje išvardijamos funkcijos ir pataisymai, kurie yra nauji arba pakeisti "Project Service Automation V3", "Update Release 28" Ši versija turi komponavimo numerį V 3.10.46.32 ir paprastai yra prieinama atnaujinant save 2021 m. Sausio mėn.
 
 ## <a name="update-release-28"></a>28 atnaujintas leidimas
 

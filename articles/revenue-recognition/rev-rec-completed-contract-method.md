@@ -1,23 +1,23 @@
 ---
 title: Pajamų įvertinimų valdymas
-description: Šioje temoje pateikiama informacijos, kaip tvarkyti projektų pajamų įvertinimus.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip dirbti su projektų pajamų įvertinimais.
 author: sigitac
 ms.date: 11/04/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6f91a0eb6fa0d13ebe8dfb6e837dae0bbff3eb5e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 051535ce8dd4997a923b1511d242638361076979
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595876"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928488"
 ---
 # <a name="manage-revenue-estimates"></a>Pajamų įvertinimų valdymas
 
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
-Galite kurti, apskaičiuoti, užregistruoti, atšaukti arba pašalinti pajamų įvertinimus. Tai galite padaryti rankiniu būdu arba naudodami periodinį procesą. Šioje temoje pateikiama informacijos, kaip tvarkyti projektų pajamų įvertinimus.
+Galite kurti, apskaičiuoti, užregistruoti, atšaukti arba pašalinti pajamų įvertinimus. Tai galite padaryti rankiniu būdu arba naudodami periodinį procesą. Šiame straipsnyje pateikiama informacija apie tai, kaip dirbti su projektų pajamų įvertinimais.
 
 ### <a name="manage-revenue-estimates-manually"></a>Pajamų įvertinimų valdymas rankiniu būdu
 

@@ -1,24 +1,24 @@
 ---
 title: Kas naujo 2022 m. kovo mėn. – „Project Operations“ „Lite“ visuotinis diegimas
-description: Šioje temoje pateikiama informacija apie kokybės atnaujinimus, kuriuos galima rasti 2022 m. kovo mėn.
+description: Šiame straipsnyje pateikiama informacija apie kokybės atnaujinimus, kuriuos galima rasti 2022 m. kovo mėn.
 author: sigitac
 ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8a83491da1d312406dfb36f5ad214c307c15cfbf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 321d59568bfd33bb00a1500afe514fbecf9a0250
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583760"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934238"
 ---
 # <a name="whats-new-march-2022---project-operations-lite-deployment"></a>Kas naujo 2022 m. kovo mėn. – „Project Operations“ „Lite“ visuotinis diegimas
 
 _Taikoma (kam): „Lite“ visuotiniam diegimui – sandoris į išankstinės sąskaitos faktūros kūrimą_
 
-Ši tema taikoma šiems "Microsoft" Dynamics 365 Project Operations komponentams ir versijoms:
+Šis straipsnis taikomas šiems "Microsoft" Dynamics 365 Project Operations komponentams ir versijoms:
 
 - Projekto operacijos aplinkos versijoje Dataverse 4.30.0.99
 
@@ -51,9 +51,9 @@ _Taikoma (kam): „Lite“ visuotiniam diegimui – sandoris į išankstinės s�
 
 ## <a name="removed-and-deprecated-features"></a>Pašalintos ir nebenaudojamos funkcijos
 
-" [Project Operations](../../whats-new/removed-depreciated-features-project.md) " temoje Pašalintos arba nebenaudojamos funkcijos apibūdinamos funkcijos, kurios buvo pašalintos arba nebenaudojamos Dynamics 365 Project Operations.
+Straipsnyje Pašalintos [arba nebenaudojamos "Project Operations](../../whats-new/removed-depreciated-features-project.md) " funkcijos aprašomos funkcijos, kurios buvo pašalintos arba nebenaudojamos Dynamics 365 Project Operations.
 
 - Pašalinta funkcija nebepasiekiama naudojantis šiuo produktu.
 - Nebenaudojama funkcija nėra aktyviai kuriama ir gali būti pašalinta ateityje atnaujinant.
 
-Pranešimas apie nusidėvėjimą bus rodomas "Project Operations [" temos pašalintose](../../whats-new/removed-depreciated-features-project.md) arba nebenaudojamose funkcijose likus 12 mėnesių iki bet kurios funkcijos pašalinimo iš produkto.
+Pranešimas apie nusidėvėjimą bus rodomas "Project Operations [" straipsnio pašalintose](../../whats-new/removed-depreciated-features-project.md) arba nebenaudojamose funkcijose likus 12 mėnesių iki bet kurios funkcijos pašalinimo iš produkto.

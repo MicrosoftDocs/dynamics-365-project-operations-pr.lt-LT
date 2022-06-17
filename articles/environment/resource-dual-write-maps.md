@@ -1,17 +1,17 @@
 ---
 title: „Project Operations“ dvigubo rašymo schemos versijos
-description: Šioje temoje pateikiamas dvigubo rašymo schemų, reikalingų naudojant „Dynamics 365 Project Operations“, sąrašas.
+description: Šiame straipsnyje pateikiamas dvigubo rašymo žemėlapių, reikalingų Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 385893e8ecdb29f4dc411c233b9ae19bb2448dfd
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: ee0b6a1722405e6a50c42db6bd2a25b872c6118c
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612764"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959663"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>„Project Operations“ dvigubo rašymo schemos versijos
 
@@ -54,7 +54,7 @@ Toliau nurodytos schemos yra reikalingos naudojant sprendimą „Project Operati
 | „Project Operations“ integravimo objektas, skirtas valandų įvertinimams (msdyn_resourceassignments) | 1.0.0.5 | Konfigūruojant naudoti nebūtina. ||
 | „Project Operations“ integracijos projekto išlaidų kategorijų eksportavimo objektas (msdyn_expensecategories) | 1.0.0.1 | Konfigūruojant naudoti nebūtina. ||
 | „Project Operations“ integravimo projekto išlaidų eksportavimo objektas (msdyn_expenses) | 1.0.0.3 | Konfigūruojant naudoti nebūtina. ||
-| „Project Operations“ integravimo projekto tiekėjų sąskaitų faktūrų eksportavimo objektas (msdyn_projectvendorinvoices) | 1.0.0.0 | Konfigūruojant naudoti nebūtina. ||
+| „Project Operations“ integravimo projekto tiekėjų sąskaitų faktūrų eksportavimo objektas (msdyn_projectvendorinvoices) | 1.0.0.1 | Konfigūruojant naudoti nebūtina. |10.0.26 arba naujesnė|
 | „Project Operations“ integravimo projekto tiekėjų sąskaitų eilučių eksportavimo objektas (msdyn_projectvendorinvoicelines) | 1.0.0.4 | Konfigūruojant naudoti nebūtina. | 10.0.26 arba naujesnė |
 | Projekto išteklių vaidmenys visoms įmonėms (bookableresourcecategories) | 1.0.0.1 | Norint, kad lentelės schema sinchronizuotų projektų vadovo ir komandos nario išteklių vaidmenis, kurie konfigūruojant įvedami „Dynamics 365“ „Dataverse“ aplinkoje, reikia atlikti pradinį sinchronizavimą. „Dataverse“ yra pagrindinis pradinio sinchronizavimo šaltinis. ||
 | Projektų užduotys (msdyn_projecttasks) | 1.0.0.4 | Konfigūruojant naudoti nebūtina. ||

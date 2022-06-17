@@ -1,17 +1,17 @@
 ---
 title: Projekto sutartys – pagrindinės sąvokos
-description: Šioje temoje pateikta informacija apie pagrindines projekto sutarčių sąvokas programoje „Project Operations“.
+description: Šiame straipsnyje pateikiama informacija apie pagrindines projekto sutarčių sąvokas projekto operacijose.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f87a29893ca3d9bec6fbd07dded66a282ff597c3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 016a5d1defacdc6ba5828ca26395c9123e9323d0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582950"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926234"
 ---
 # <a name="concepts-unique-to-project-based-contracts"></a>Unikalios projektu pagrįstų sutarčių sąvokos
 
@@ -19,7 +19,7 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 
 
 
-Šioje temoje pateikiamos pagrindinės sąvokos, kurias reikia žinoti prieš pradedant naudoti projektų sutartis programoje „Dynamics 365 Project Operations“:
+Šiame straipsnyje pateikiamos pagrindinės sąvokos, kurias reikia žinoti prieš pradėdami naudoti projekto sutartis:Dynamics 365 Project Operations
 
 ## <a name="owning-company"></a>Įmonė, kuriai priklauso
 

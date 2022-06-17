@@ -1,6 +1,6 @@
 ---
 title: Sinchronizuoti projekto išlaidų kategorijas tarp "Finance and Operations" ir "Project Service Automation"
-description: Šioje temoje aprašomi šablonai ir pagrindinės užduotys, naudojamos sinchronizuoti projekto išlaidų kategorijas nuo Microsoft Dynamics 365 Finance iki Dynamics 365 Project Service Automation.
+description: Šiame straipsnyje aprašomi šablonai ir pagrindinės užduotys, naudojamos sinchronizuoti projekto išlaidų kategorijas nuo Microsoft Dynamics 365 Finance iki Dynamics 365 Project Service Automation.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: c5513285c8beb96e2aa8b9c67ebde38b3c938edd
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 630c4fa7a159aa46b46984736080cd007d519a6c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685480"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927246"
 ---
 # <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Sinchronizuoti projekto išlaidų kategorijas tarp "Finance and Operations" ir "Project Service Automation"
 
 [!include[banner](../includes/banner.md)]
 
-Šioje temoje aprašomi šablonai ir pagrindinės užduotys, naudojamos sinchronizuoti projekto išlaidų kategorijas tarp Dynamics 365 Finance ir Dynamics 365 Project Service Automation.
+Šiame straipsnyje aprašomi šablonai ir pagrindinės užduotys, naudojamos sinchronizuoti projekto išlaidų kategorijas tarp Dynamics 365 Finance ir Dynamics 365 Project Service Automation.
 
 > [!NOTE]
 > - Projekto užduočių integravimas, išlaidų operacijų kategorijos, valandų įvertinimas, išlaidų įvertinimas ir funkcijų blokavimas prieinami 8.0 versijoje.

@@ -1,6 +1,6 @@
 ---
 title: Pasiūlymų kūrimo, įkainių nustatymo ir SF išrašymo pagrindinis puslapis
-description: Šioje temoje pateikta informacija, kaip kurti pasiūlymus, nustatyti įkainius ir išrašyti SF.
+description: Šiame straipsnyje pateikiama informacija apie citavimą, kainodarą ir atsiskaitymą.
 author: rumant
 ms.author: rumant
 ms.custom:
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 09be2e3ed2bb17374f5d5151abf4ce7e5e2530a1
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ef63d48703059bac8cadf3b12ecb025ae103d44d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581110"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926740"
 ---
 # <a name="quoting-pricing-and-billing-home-page"></a>Pasiūlymų kūrimo, įkainių nustatymo ir SF išrašymo pagrindinis puslapis
 
@@ -33,7 +33,7 @@ ms.locfileid: "8581110"
 
 Pasiūlymų kūrimas, įkainių nustatymas ir SF išrašymas yra funkcijos, kurias naudoja mažos ir didelės organizacijos. Suprasdami, kaip šios funkcijos veikia programoje, organizacijos gali lengviau tinkinti konfigūracijas.
 
-Tolesnėse temose pateikta daugiau informacijos apie PSA pasiūlymų teikimo, įkainių nustatymo ir SF išrašymo funkcijas:
+Šiuose straipsniuose pateikiama daugiau informacijos apie PSA citavimo, kainodaros ir atsiskaitymo funkcijas:
 
 - [Pardavimo procesas](basic-sales-process.md)
 - [Pasiūlymo eilutės](basic-quote-lines.md)

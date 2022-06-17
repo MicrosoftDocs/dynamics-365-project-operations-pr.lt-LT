@@ -1,6 +1,6 @@
 ---
 title: Projekto komandos kūrimas
-description: Šioje temoje pateikta informacija apie tai, kaip sukurti ir valdyti projekto komandas.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip kurti ir valdyti projektų komandas.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f134d7566954e640eea8ff8af98e184273ad570c
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: df9df8b3ee9b42a33c6031c78ff3673cad47bfe6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683042"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927338"
 ---
 # <a name="create-a-project-team"></a>Kurti projekto komandą
 

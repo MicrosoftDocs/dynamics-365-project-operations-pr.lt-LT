@@ -1,6 +1,6 @@
 ---
 title: SF išrašymas programoje „Project Service Automation“
-description: Šioje temoje pateikta informacija apie sąskaitų faktūrų išrašymą.
+description: Šiame straipsnyje pateikiama informacija apie sąskaitų faktūrų išrašymą.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 84134778225bfce1126ccf70b32e0c82c4ccc3fc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fa036dda6514449b04e1416bde2cd9c21fc558b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579316"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926832"
 ---
 # <a name="invoicing-in-project-service-automation"></a>SF išrašymas programoje „Project Service Automation“
 
@@ -94,7 +94,7 @@ Kai **ProcessRunner** baigia vykdymą, iškviečiamas **ProcessRunCaller**, pate
 Paketinė proceso užduotis, skirta sąskaitoms faktūroms kurti, yra pasikartojanti užduotis. Jei šis paketinis procesas vykdomas daug kartų, sukuriami keli užduoties egzemplioriai ir sukeliamos klaidos. Todėl paketinį procesą reikia pradėti tik vieną kartą, o jį paleisti iš naujo reikia tik tuo atveju, jei jis sustos.
 
 > [!NOTE]
-> Grupinis sąskaitų faktūrų išrašymas programoje „Project Service Automation“ vykdomas tik sutarčių eilutėms, sukonfigūruotoms pagal sąskaitų faktūrų grafikus. Sutarties eilutė su fiksuotos kainos atsiskaitymų metodu turi turėti sukonfigūruotus etapus. Norint naudoti projekto sutarties eilutę su laiko ir medžiagų atsiskaitymo metodu, reikės nustatyti data pagrįstą sąskaitos faktūros grafiką. Informacija apie sąskaitų faktūrų išrašymo dažnumo nustatymą atsižvelgiant į projektą, pagrįstą pasiūlymo eilute, pateikiama temoje [Pasiūlymai ir pasiūlymo eilutės](basic-quote-lines.md#invoice-schedule). Tokia pati tvarka galioja ir projektu pagrįstai sutarties eilutei.      
+> Grupinis sąskaitų faktūrų išrašymas programoje „Project Service Automation“ vykdomas tik sutarčių eilutėms, sukonfigūruotoms pagal sąskaitų faktūrų grafikus. Sutarties eilutė su fiksuotos kainos atsiskaitymų metodu turi turėti sukonfigūruotus etapus. Norint naudoti projekto sutarties eilutę su laiko ir medžiagų atsiskaitymo metodu, reikės nustatyti data pagrįstą sąskaitos faktūros grafiką. Informacija apie SF išrašymo dažnių nustatymą projekto, pagrįsto pasiūlymo eilute, kontekste pateikiama straipsnyje " [Pasiūlymai ir pasiūlymo eilutės"](basic-quote-lines.md#invoice-schedule). Tokia pati tvarka galioja ir projektu pagrįstai sutarties eilutei.      
  
 ### <a name="edit-a-draft-psa-invoice"></a>PSA sąskaitos faktūros juodraščio redagavimas
 

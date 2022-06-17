@@ -1,6 +1,6 @@
 ---
 title: Kas nauja arba pakeista „Project Service Automation“ V3 28.6 atnaujintame leidime, karštoji pataisa
-description: Šioje temoje išvardytos funkcijos ir pataisos, galimos „Project Service Automation“ V3 28.6 atnaujintame leidime, karštojoje pataisoje.
+description: Šiame straipsnyje išvardijamos funkcijos ir taisymai, kuriuos galima rasti "Project Service Automation Update Release 28.6 Hot Pataisosx", V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/22/2021
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: d6249febc1dc35e9ab3a2a8a876b6fe98e165c5b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6120cf62fcaa346d00c6db7babb0261d9c633775
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587183"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925130"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-286-v3"></a>Kas nauja arba pakeista „Project Service Automation“ V3 28.6 atnaujintame leidime
 
 Malonu pranešti apie naujausią „Dynamics 365“ programos „Project Service Automation“ naujinimą. Šiame leidime yra kai kurių svarbių kokybės, veikimo ir naudojimo patobulinimų. Šis leidimas suderinamas su „Dynamics 365“ 9.x versija. Norėdami naujinti šį leidimą, eikite į „Dynamics 365“ internetinių sprendimų puslapio administravimo centrą, iš kurio galite įdiegti naujinimą. Daugiau informacijos žr. [Pageidaujamo sprendimo diegimas, naujinimas arba šalinimas](/power-platform/admin/install-remove-preferred-solution).
 
-Šioje temoje išvardytos funkcijos ir pataisymai, kurie yra nauji arba pakeisti „Project Service Automation“ V3 28.6 atnaujintame leidime. Ši versija turi naują komponavimo versijos numerį V3.10.46.147 ir ją galima pasiekti per 2021 m. sausio mėn. automatinį naujinimą.
+Šiame straipsnyje išvardijamos naujos arba pakeistos "Project Service Automation V3", "Update Release 28.6" funkcijos ir pataisymai. Ši versija turi naują komponavimo versijos numerį V3.10.46.147 ir ją galima pasiekti per 2021 m. sausio mėn. automatinį naujinimą.
 
 ## <a name="update-release-286"></a>28.6 atnaujintas leidimas
 

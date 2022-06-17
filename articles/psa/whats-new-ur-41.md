@@ -1,6 +1,6 @@
 ---
 title: Kas nauja arba pakeista „Project Service Automation“ V3 41 atnaujintame leidime
-description: Šioje temoje išvardijamos funkcijos ir taisymai, kuriuos galima rasti 41 naujinimo leidime Microsoft Dynamics 365 Project Service Automation, V3.
+description: Šiame straipsnyje išvardijamos funkcijos ir pataisymai, kuriuos galima rasti 41 naujinimo leidime Microsoft Dynamics 365 Project Service Automation, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 03/07/2022
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 649d8bca36fda0a09dc7230ee4d742cadb32f3b3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8625ae16e45da30614b3a3eec44193bee0c0b36f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580926"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930558"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-41-v3"></a>Kas nauja arba pakeista „Project Service Automation“ V3 41 atnaujintame leidime
 
@@ -29,7 +29,7 @@ ms.locfileid: "8580926"
 
 Norime pranešti apie naujausią programos Microsoft Dynamics 365 Project Service Automation naujinimą. Šiame leidime yra kai kurių svarbių kokybės, veikimo ir naudojimo patobulinimų. Ji suderinama su „Dynamics 365 9.x“. Norėdami atnaujinti į šį leidimą, apsilankykite „Dynamics 365 Online“ sprendimų administravimo centro puslapyje ir įdiekite naujinimą. Daugiau informacijos žr. [Pageidaujamo sprendimo diegimas, naujinimas arba šalinimas](/power-platform/admin/install-remove-preferred-solution).
 
-Šioje temoje išvardijamos naujos arba pakeistos "Project Service Automation Update Release 41, V3" funkcijos ir taisymai. Ši versija turi naują komponavimo versijos numerį V3.10.62.162 ir ją galima pasiekti per 2022 m. kovo mėn. automatinį naujinimą.
+Šiame straipsnyje išvardijamos funkcijos ir taisymai, kurie yra nauji arba pakeisti "Project Service Automation Update Release 41, V3". Ši versija turi naują komponavimo versijos numerį V3.10.62.162 ir ją galima pasiekti per 2022 m. kovo mėn. automatinį naujinimą.
 
 ## <a name="update-release-41"></a>41 atnaujintas leidimas
 

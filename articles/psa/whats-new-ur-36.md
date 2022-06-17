@@ -1,6 +1,6 @@
 ---
 title: Kas nauja arba pakeista „Project Service Automation“ V3 36 atnaujintame leidime
-description: Šioje temoje išvardytos funkcijos ir pataisos, įtrauktos į „Microsoft Dynamics 365 Project Service Automation“ 36 naujinimo leidimo 3 v.
+description: Šiame straipsnyje išvardijamos funkcijos ir taisymai, kuriuos galima rasti 36 naujinimo leidime Microsoft Dynamics 365 Project Service Automation, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 10/06/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 108c75598dc7dd3dd0cdb9ce68e30423d051a4cf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a8942713109075da2503c9d22d40b6ac95ae00be
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586676"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924992"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-36-v3"></a>Kas nauja arba pakeista „Project Service Automation“ V3 36 atnaujintame leidime
 
@@ -29,7 +29,7 @@ ms.locfileid: "8586676"
 
 Norime pranešti apie naujausią programos Microsoft Dynamics 365 Project Service Automation naujinimą. Šiame leidime yra kai kurių svarbių kokybės, veikimo ir naudojimo patobulinimų. Ji suderinama su „Dynamics 365 9.x“. Norėdami atnaujinti į šį leidimą, apsilankykite „Dynamics 365 Online“ sprendimų administravimo centro puslapyje ir įdiekite naujinimą. Daugiau informacijos žr. [Pageidaujamo sprendimo diegimas, naujinimas arba šalinimas](/power-platform/admin/install-remove-preferred-solution).
 
-Šioje temoje išvardytos naujos arba pakeistos funkcijos ir pataisos, skirtos „Project Service Automation“ 36 naujinimo leidimo 3 v. Ši versija turi naują komponavimo versijos numerį V3.10.57.152 ir ją galima pasiekti per 2021 m. spalio mėn. automatinį naujinimą.
+Šiame straipsnyje išvardijamos naujos arba pakeistos "Project Service Automation Update Release 36, V3" funkcijos ir taisymai. Ši versija turi naują komponavimo versijos numerį V3.10.57.152 ir ją galima pasiekti per 2021 m. spalio mėn. automatinį naujinimą.
 
 ## <a name="update-release-36"></a>36 atnaujintas leidimas
 

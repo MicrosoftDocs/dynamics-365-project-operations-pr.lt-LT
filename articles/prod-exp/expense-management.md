@@ -1,6 +1,6 @@
 ---
 title: Išlaidų valdymo apžvalga
-description: Šioje temoje pateikta bendra informacija apie išlaidų valdymą ir saitus su papildomais ištekliais. Galite naudoti išlaidų valdymą, kad sukurtumėte integruotą darbo eigą, kurioje galėsite saugoti mokėjimo būdo informaciją, importuoti kredito kortelių operacijas ir sekti pinigus, kuriuos darbuotojai išleidžia, kai patiria išlaidų jūsų įmonės vardu.
+description: Šiame straipsnyje pateikiama bendra informacija apie išlaidų valdymą ir saitai į papildomus išteklius. Galite naudoti išlaidų valdymą, kad sukurtumėte integruotą darbo eigą, kurioje galėsite saugoti mokėjimo būdo informaciją, importuoti kredito kortelių operacijas ir sekti pinigus, kuriuos darbuotojai išleidžia, kai patiria išlaidų jūsų įmonės vardu.
 author: ShylaThompson
 ms.date: 07/25/2019
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 93a8581db26dfecb9f847740c979e096dc3e227d
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 778a068bc80b099037b895f7e0d4add4d454242f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684836"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934054"
 ---
 # <a name="expense-management-overview"></a>Išlaidų valdymo apžvalga
 

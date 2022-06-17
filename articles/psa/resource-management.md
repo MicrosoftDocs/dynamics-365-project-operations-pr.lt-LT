@@ -1,6 +1,6 @@
 ---
 title: Išteklių paskirstymo projektų pagrindinis puslapis
-description: Šioje temoje pateikiama informacija apie tai, kaip valdyti išteklių galimybes „Project Service Automation (PSA) for Dynamics 365“.
+description: Šiame straipsnyje pateikiama informacija apie išteklių valdymo galimybes "Project Service Automation" (PSA), skirtoje "Dynamics 365".
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ec114f6dc04b493e30fcaae0d50616108c695f2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 14328ba1af46eca3a8996d330180d888987b7966
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599832"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925268"
 ---
 # <a name="resourcing-projects-home-page"></a>Išteklių paskirstymo projektų pagrindinis puslapis
 
@@ -46,7 +46,7 @@ Ištekliai yra svarbiausias paslaugomis pagrįstas organizacijos turtas. Turėda
 - Tvarkyti įgūdžių ir kompetencijų saugyklą.
 
 
-Galite suformuoti savo komandą iš pagrindinės komandos arba PSA įvardintų išteklių. Galite naudoti įvairius metodus, kad įtrauktumėte ir priskirtumėte komandos narius ir valdytumėte jų rezervacijas ir priskyrimus. Papildomos informacijos ieškokite šiose temose:
+Galite suformuoti savo komandą iš pagrindinės komandos arba PSA įvardintų išteklių. Galite naudoti įvairius metodus, kad įtrauktumėte ir priskirtumėte komandos narius ir valdytumėte jų rezervacijas ir priskyrimus. Daugiau informacijos rasite šiuose straipsniuose:
 
 - [Įvardytų rezervuojamų išteklių rezervavimas projekto komandai ir užduočių priskyrimas](assign-named-bookable-resource.md)
 - [Bendrųjų rezervuojamų išteklių priskyrimas užduočiai ir išteklių reikalavimų generavimas](assign-generic-bookable-resource.md)

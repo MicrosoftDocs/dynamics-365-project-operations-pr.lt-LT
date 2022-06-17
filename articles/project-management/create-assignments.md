@@ -1,24 +1,24 @@
 ---
 title: Išteklių priskyrimų kūrimas
-description: Šioje temoje pateikta informacija apie bendrųjų ir įvardytųjų išteklių priskyrimų kūrimą.
+description: Šiame straipsnyje pateikiama informacija apie bendrųjų ir įvardytų išteklių priskyrimų kūrimą.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 2b918392fbcde1071aa52ffa7834938be1acd383
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 31404fc35d72acb9ad791ef8a755f23108f528ad
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576556"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933502"
 ---
 # <a name="create-resource-assignments"></a>Išteklių priskyrimų kūrimas
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
 
-Išteklių priskyrimas yra tiesioginė projekto komandos nario jungtis į lapų mazgo užduotį. Šioje temoje pateikiama informacija apie skirtingus išteklių priskyrimo būdus.
+Išteklių priskyrimas yra tiesioginė projekto komandos nario jungtis į lapų mazgo užduotį. Šiame straipsnyje pateikiama informacija apie įvairius išteklių priskyrimo būdus.
 
 ## <a name="create-a-generic-team-member-through-task-assignment"></a>Bendrojo komandos nario kūrimas priskiriant užduotį
 

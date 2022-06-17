@@ -1,21 +1,21 @@
 ---
 title: Kelių klientų valdymas projekto sutartyse
-description: Šioje temoje pateikiama informacijos, kaip tvarkyti kelis klientus projekto sutartyje.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip valdyti kelis klientus pagal projekto sutartį.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: bf8b0d313b2b07924d730fe8923b05559bbcc244
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 78ee117c1068e7af4674cc3b21e1055fd05bb43a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591322"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928350"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>Kelių klientų valdymas projekto sutartyse
 
-Šioje temoje pateikiama informacijos, kaip tvarkyti kelis klientus projekto sutartyje. Galite naudoti projekto sutartį, kai siekiant finansuoti sandorį reikia sudaryti sutartį su keliais klientais. Puslapio **Projekto sutartis** skirtuke **Suvestinė** pateikiama informacija apie pirminį sandorio klientą. Kitus klientus, dalyvaujančius sandoryje, galima pridėti skirtuke **Klientai**.
+Šiame straipsnyje pateikiama informacija apie tai, kaip valdyti kelis klientus pagal projekto sutartį. Galite naudoti projekto sutartį, kai siekiant finansuoti sandorį reikia sudaryti sutartį su keliais klientais. Puslapio **Projekto sutartis** skirtuke **Suvestinė** pateikiama informacija apie pirminį sandorio klientą. Kitus klientus, dalyvaujančius sandoryje, galima pridėti skirtuke **Klientai**.
 
 Visi sutarties klientai, esantys projekto sutarties skirtuke **Klientai**, nustatomi kaip numatytieji sutarties eilutės klientai visose naujose projektu pagrįstos sutarties eilutėse, skirtose projekto sutarčiai. Jokios esamos projektu pagrįstos sutarties eilutės nebus pakeistos naujais sutarties klientų įrašais, kurie sukuriami vėliau.
 

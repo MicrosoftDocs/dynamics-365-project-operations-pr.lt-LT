@@ -1,6 +1,6 @@
 ---
 title: Preliminarus išteklių rezervavimas
-description: Šioje temoje pateikiama informacija apie tai, kaip preliminariai planuoti arba preliminariai rezervuoti projekto komandos narius.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip preliminariai planuoti ar minkštos knygos projekto komandos narius.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -11,12 +11,12 @@ audience: Admin
 search.app:
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7940409db69259785268778b6f6b0b67f4b2812d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6c666e5c0a83a3d1b440144a62cbd58a58c5db81
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577982"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929132"
 ---
 # <a name="soft-book-a-resource"></a>Preliminarus išteklių rezervavimas
 

@@ -1,18 +1,18 @@
 ---
 title: Naudoti įsigijimo kategorijas su projekto pirkimo užsakymais ir laukiančiomis tiekėjo SF
-description: Šioje temoje aprašoma, kaip konfigūruoti įsigijimo kategorijas, kurias galima naudoti su projekto pirkimo užsakymais ir laukiančiomis tiekėjo SF.
+description: Šiame straipsnyje aprašoma, kaip konfigūruoti įsigijimo kategorijas, kurias galima naudoti su projekto pirkimo užsakymais ir laukiančiomis tiekėjo SF.
 author: sigitac
 ms.date: 04/07/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ee68d7906cb0c887c19a32363ec7fda547cb74bd
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
-ms.translationtype: HT
+ms.openlocfilehash: 7d774631a4712de9b29ddedfee2ea3fc4a2d436f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8613361"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927430"
 ---
 # <a name="use-procurement-categories-with-project-purchase-orders-and-pending-vendor-invoices"></a>Naudoti įsigijimo kategorijas su projekto pirkimo užsakymais ir laukiančiomis tiekėjo SF
 
@@ -47,7 +47,7 @@ Norėdami susieti projektų kategorijas su įsigijimo kategorijų hierarchijoje,
 
 1. Eikite į **viešųjų pirkimų ir pirkimų įsigijimo \> kategorijas**.
 1. Pasirinkite **Redaguoti kategorijų hierarchiją**.
-1. Pasirinkite norimą kategorijų hierarchijos mazgą, tada skirtuke **Priskirti projekto kategorijas** susiekite mazgą su projekto kategorija iš **kategorijos Laikas**, Išlaidos**arba **Prekės projektas** (t. y. **kategorijoje Numatytasis laikas** arba **Numatytosios išlaidos**).
+1. Pasirinkite norimą kategorijų hierarchijos mazgą, tada skirtuke **Priskirti projekto kategorijas** susiekite mazgą su projekto kategorija iš **kategorijos Laikas**, **Išlaidos** arba **Prekės projektas** (t. y. **kategorijoje Numatytasis laikas** arba **Numatytosios išlaidos**).
 1. Pasirinkite **Įrašyti**.
 1. Uždarykite puslapį.
 

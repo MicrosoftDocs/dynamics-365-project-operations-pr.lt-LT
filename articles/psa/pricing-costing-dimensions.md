@@ -1,6 +1,6 @@
 ---
 title: Kainodaros ir įkainojimo dimensijų pagrindinis puslapis
-description: Šioje temoje pateikta kainodaros dimensijų apžvalga.
+description: Šiame straipsnyje pateikiama kainodaros dimensijų apžvalga.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7dbee508cea074a8c443506d280a1b52eb698202
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 88c77d90bccaa5f10e8f75d60ae121d699bc0976
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593622"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925452"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Kainodaros ir įkainojimo dimensijų pagrindinis puslapis
 
@@ -47,7 +47,7 @@ PSA pateikiamas su numatytuoju kainodaros dimensijų rinkiniu. Jas galite perži
 > [!IMPORTANT]
 > Jei naudojote visiškai parengtus vaidmens ir organizacinio vieneto laukus kaip kainodaros dimensijas prieš 3 PSA versiją, jokių pastebimų pakeitimų nebus. Galite toliau naudoti „Project Service“ kaip įprasta. 
 
-Jei jums reikia nustatyti išteklių kainą arba savikainą naudojant papildomus atributus, galite sukurti pritaikytus laukus, objektus ir dimensijas. Daugiau informacijos rasite toliau pateikiamose temose, tačiau atkreipkite dėmesį, kad procedūras reikia atlikti toliau išvardyta tvarka:
+Jei jums reikia nustatyti išteklių kainą arba savikainą naudojant papildomus atributus, galite sukurti pritaikytus laukus, objektus ir dimensijas. Norėdami gauti daugiau informacijos, žiūrėkite šiuos straipsnius, tačiau atkreipkite dėmesį, kad turite atlikti procedūras toliau nurodyta tvarka:
 
 - [Sukurti pritaikytus laukus ir objektus](create-custom-fields-entities.md)
 - [Pridėti pritaikytus laukus prie kainos sąrankos ir operacijos objektų](field-references.md)

@@ -1,23 +1,23 @@
 ---
 title: Projekto pastangų sekimas
-description: Šioje temoje pateikta informacija apie tai, kaip sekti projekto pastangas ir darbo eigą.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip stebėti projekto pastangas ir darbo eigą.
 author: ruhercul
 ms.date: 02/15/2022
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 037118714cf01ba2fb91cdd94345495d12ccb645
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c41dbc138f6fc92a9586de173ba5dfc89c7e44e3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593806"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929270"
 ---
 # <a name="project-effort-tracking"></a>Projekto pastangų sekimas
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
-Poreikis sekti eigą atsižvelgiant į grafiką, priklauso nuo pramonės šakos. Kai kurie pramonės šakų atstovai seka projektą stambiu planu, o kitų pramonės šakų atstovai seka eigą bendru planu. Šioje temoje nurodyta, kaip planuoti norint atitikti jūsų organizacijos reikalavimus.
+Poreikis sekti eigą atsižvelgiant į grafiką, priklauso nuo pramonės šakos. Kai kurie pramonės šakų atstovai seka projektą stambiu planu, o kitų pramonės šakų atstovai seka eigą bendru planu. Šiame straipsnyje parodyta, kaip planuoti, kad atitiktų organizacijos reikalavimus.
 
 ## <a name="effort-tracking-view"></a>Pastangų sekimo rodinys
 

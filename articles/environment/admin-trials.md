@@ -1,17 +1,17 @@
 ---
 title: Užsiregistravimas norint naudotis „Project Operations“ bandomosiomis versijomis
-description: Šioje temoje pateikiama informacija apie tai, kaip įdiegti „Dynamics 365 Project Operations“ bandomąją versiją.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip įdiegti bandomąją Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584284"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959699"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Užsiregistravimas norint naudotis „Project Operations“ bandomosiomis versijomis 
 
@@ -19,9 +19,9 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 
 
 
-Šioje temoje aiškinama, kaip užsiprenumeruoti peržiūros partnerio pasiūlymą ir įdiegti „Dynamics 365 Project Operations“ aplinką.
+Šiame straipsnyje paaiškinama, kaip užsiprenumeruoti peržiūros partnerio pasiūlymą ir įdiegti Dynamics 365 Project Operations aplinką.
 
-Naudodami naują „Project Operations“ bandomąją versiją, galite automatiškai įdiegti bet kurį iš trijų palaikomų visuotinio diegimo scenarijų, prieš tai užpildę klausimyną, pagal kurį nustatomas geriausias visuotinio diegimo metodas. Šioje temoje pateikta informacija apie tai, kaip atlikti toliau nurodytus veiksmus.
+Naudodami naują „Project Operations“ bandomąją versiją, galite automatiškai įdiegti bet kurį iš trijų palaikomų visuotinio diegimo scenarijų, prieš tai užpildę klausimyną, pagal kurį nustatomas geriausias visuotinio diegimo metodas. Šiame straipsnyje pateikiama informacija apie tai, kaip:
 
 - Pasinaudoti bandomosios versijos pasiūlymu.
 - Pradėti parengimą.
@@ -89,7 +89,8 @@ Prieš pradėdami prisijunkite prie naršyklės naudodami vartotojo darbo paskyr
 4.  Pasirinkite atitinkamą Microsoft Dataverse URL ir "Finance and Operations" programų URL, kad patvirtintumėte diegimą.
 
 ## <a name="configuring-dual-write"></a>Dvigubo rašymo konfigūravimas
-- Norėdami konfigūruoti dvigubo rašymo saugos vaidmenis, žr [Dataverse](resource-provision-new-environment.md).
+- Norėdami konfigūruoti dvigubo rašymo saugos vaidmenis, žr [Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
+- Norėdami pasiekti dvigubo rašymo konfigūraciją, eikite į "Finance and Operations" egzempliorių, tada pereikite prie **duomenų valdymo** > **dvigubo rašymo**.
 - Norėdami konfigūruoti dvigubo rašymo žemėlapius, žr [...](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Licencijų priskyrimas

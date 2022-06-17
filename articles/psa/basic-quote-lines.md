@@ -1,6 +1,6 @@
 ---
 title: Pasiūlymai ir pasiūlymo eilutės
-description: Šioje temoje pateikiama informacija apie pasiūlymus ir pasiūlymo eilutes.
+description: Šiame straipsnyje pateikiama informacija apie kabutes ir pasiūlymo eilutes.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ff0a221b9d9ee1176f4e6c996613e33a6ca5e84
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4c59f018adc7ee439fd77a819e2fb7620941e958
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599050"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933364"
 ---
 # <a name="quotes-and-quote-lines"></a>Pasiūlymai ir pasiūlymo eilutės
 
@@ -39,7 +39,7 @@ Programoje „Dynamics 365 Project Service Automation“ naudojami dviejų tipų
 - Pardavimo pasiūlyme nėra kai kurių laukų ir koncepcijų, įtrauktų į projekto pasiūlymą. Šie laukai yra **Sutartį pasirašantis vienetas**, **Klientų vadybininkas** ir **Sąskaitų gavėjo kontakto vardas**.  
 - Pardavimo pasiūlymai ir projekto pasiūlymai taip pat identifikuojami pagal parinkčių rinkiniu grindžiamą lauką **Tipas**. Pardavimo pasiūlyme šio lauko reikšmė yra **Pagrįstas prekėmis**. Projekto pasiūlyme jo reikšmė yra **Pagrįstas darbais**.
 
-Šioje temoje pagrindinis dėmesys bus skiriamas projekto pasiūlymų informacijai.
+Šiame straipsnyje daugiausia dėmesio bus skiriama projekto pasiūlymų detalėms.
 
 PSA projekto pasiūlyme gali būti keli eilučių elementai arba pasiūlymo eilutės. Faktiškai projekto pasiūlyme yra du eilučių elementų tinkleliai. Vienas tinklelis skirtas projektu pagrįstoms eilutėms, kurias galima išsamiai įvertinti. Kitas tinklelis skirtas produktu pagrįstoms eilutėms, kurioms naudojamas tiesiog vieneto kaina ir kiekiu pagrįstas metodas.
 

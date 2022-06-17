@@ -1,6 +1,6 @@
 ---
 title: Duomenų pavyzdžių pagrindinis puslapis
-description: Šioje temoje pateikiama informacija apie duomenų pavyzdžius, pateikiamus „Dynamics 365 Project Operations“.
+description: Šiame straipsnyje pateikiama informacija apie "Dynamics 365 Project" operacijų duomenų pavyzdžius.
 author: rumant
 ms.date: 06/22/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: a6b3bf1eb3256ed1fdc1a043eaabc96c6a7860b3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c48be66622fba247a0947afae6dd1d0c335ead31
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589804"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931846"
 ---
 # <a name="sample-data-home-page"></a>Duomenų pavyzdžių pagrindinis puslapis
 

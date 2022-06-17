@@ -1,17 +1,17 @@
 ---
 title: Projektais pagrįstų galimybių valdymas
-description: Šioje temoje pateikta informacija apie tai, kaip naudoti su projektais susijusias galimybes.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip dirbti su galimybėmis, susijusiomis su projektais.
 author: rumant
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f39940ac063a8c202f33797ed649518907563e31
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 29e5a2c91186021eee9bb23aba3d42228fcd9381
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600430"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933226"
 ---
 # <a name="manage-project-based-opportunities"></a>Projektais pagrįstų galimybių valdymas
 
@@ -19,7 +19,7 @@ _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems s
 
 Projektų pagrindu dirbančios įmonės paprastai savo pristatymo operacijas vykdo keliose šalyse ir vietovėse. Projekto vykdymo ir pristatymo kaina gali skirtis atsižvelgiant į tai, kuri vietovė arba padalinys vykdo pristatymą. Savo ruožtu tai gali paveikti sandorio maržas. Projektais pagrįstų paslaugų pristatymas paprastai apima didelius personalo laiko kiekius, dideles kelionių išlaidas, materialines išlaidas ir kitas išlaidas.
 
-„Dynamics 365 Project Operations“ programoje sukurtos projektu pagrįstos galimybės yra sukurtos su „Dynamics 365 Sales“ plėtiniu. Šioje temoje pateikta išsami informacija apie įvairius laukus ir verslo logiką, kuri įtraukta į papildomas funkcijas, kurių reikalauja projektais pagrįstose įmonėse, kad būtų galima valdyti projektais pagrįstas galimybes.
+„Dynamics 365 Project Operations“ programoje sukurtos projektu pagrįstos galimybės yra sukurtos su „Dynamics 365 Sales“ plėtiniu. Straipsnyje pateikiama išsami informacija apie skirtingas sritis ir verslo logiką, įtrauktą į papildomas funkcijas, kurių reikia projektinėms įmonėms, kad galėtų valdyti projektines galimybes.
 
 ## <a name="view-all-project-based-opportunities"></a>Visų projektais pagrįstų galimybių peržiūra
 

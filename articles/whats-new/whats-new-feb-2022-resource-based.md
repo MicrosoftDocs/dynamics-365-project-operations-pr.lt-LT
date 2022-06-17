@@ -1,24 +1,24 @@
 ---
 title: 2022 m. vasario mėn. naujienos – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams
-description: Šioje temoje pateikiama informacija apie kokybės naujinimus, kuriuos galima rasti 2022 m. vasario mėn.
+description: Šiame straipsnyje pateikiama informacija apie kokybės atnaujinimus, kuriuos galima rasti 2022 m. vasario mėn.
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 76ae00517c857415c89d7a03f421686dad28da93
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b036c0a3c39c52cb15277293679ef88906cae2c4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600844"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932996"
 ---
 # <a name="whats-new-february-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>2022 m. vasario mėn. naujienos – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams
 
 *Taikoma: „Project Operations“, skirta išteklių / nelaikomų medžiagų scenarijams*
 
-Ši tema taikoma šiems "Microsoft" Dynamics 365 Project Operations komponentams ir versijoms:
+Šis straipsnis taikomas šiems "Microsoft" Dynamics 365 Project Operations komponentams ir versijoms:
 
 - Projekto operacijos aplinkos versijoje Dataverse 4.28.0.120
 - Projektų valdymas ir apskaita Dynamics 365 Finance aplinkoje 10.0.24 versija
@@ -49,7 +49,7 @@ Jei paleidę žemėlapį susiduriate su problema, vadovaukitės instrukcijomis, 
 | --- | --- | --- |
 | Sąskaitų siuntimas ir kainodara | 2415109 | Numatytoji **vertė lauke Operacijos mokėjimo sąlygos** turi būti projekto sutarties kliento įrašas ir formos SF įrašas. |
 | Sąskaitų siuntimas ir kainodara | 2497369 | Medžiagų taisymas turi atitikti datos reikšmę parametruose **Taisymas**. |
-| Sąskaitų siuntimas ir kainodara | 2498697 | Patobulinta laiko įrašo atšaukimo **saugos** konfigūracija. |
+| Sąskaitų siuntimas ir kainodara | 2498697 | Patobulinta laiko įrašo atšaukimo **saugos konfigūracija**. |
 | Sąskaitų siuntimas ir kainodara | 2513824 | Išteklių scenarijų operacijos kategorijos ID projekto operacijose neturi viršyti 28 simbolių. |
 | Sąskaitų siuntimas ir kainodara | 2517455 | Negalima leisti, kad veiksmo **Atnaujinti SF eilutės operacijas** būtų galima suaktyvinti kelis kartus vienu metu toje pačioje SF. |
 | Sąskaitų siuntimas ir kainodara | 2517465 | Veiksmas **Išjungti SF eilutės informaciją** užblokuotas, nes jis nepalaikomas. |
@@ -76,11 +76,11 @@ Jei paleidę žemėlapį susiduriate su problema, vadovaukitės instrukcijomis, 
 
 ## <a name="removed-and-deprecated-features"></a>Pašalintos ir nebenaudojamos funkcijos
 
-" [Project Operations](removed-depreciated-features-project.md) " temoje Pašalintos arba nebenaudojamos funkcijos apibūdinamos funkcijos, kurios buvo pašalintos arba nebenaudojamos Dynamics 365 Project Operations.
+Straipsnyje Pašalintos [arba nebenaudojamos "Project Operations](removed-depreciated-features-project.md) " funkcijos aprašomos funkcijos, kurios buvo pašalintos arba nebenaudojamos Dynamics 365 Project Operations.
 
 - Pašalinta funkcija nebepasiekiama naudojantis šiuo produktu.
 - Nebenaudojama funkcija nėra aktyviai kuriama ir gali būti pašalinta ateityje atnaujinant.
 
-Pranešimas apie nusidėvėjimą bus rodomas "Project Operations [" temos pašalintose](removed-depreciated-features-project.md) arba nebenaudojamose funkcijose likus 12 mėnesių iki bet kurios funkcijos pašalinimo iš produkto.
+Pranešimas apie nusidėvėjimą bus rodomas "Project Operations [" straipsnio pašalintose](removed-depreciated-features-project.md) arba nebenaudojamose funkcijose likus 12 mėnesių iki bet kurios funkcijos pašalinimo iš produkto.
 
 Jei norite nutraukti pakeitimus, kurie turi įtakos tik kompiliavimo laikui, bet yra dvejetainiai, suderinami su smėlio dėže ir gamybos aplinkomis, nusidėvėjimo laikas bus trumpesnis nei 12 mėnesių. Paprastai šie pakeitimai yra funkciniai naujinimai, kuriuos reikia atlikti kompiliatoriui.

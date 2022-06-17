@@ -1,6 +1,6 @@
 ---
 title: Būtinų pasirinktinių laukų įtraukimas į kainų sąranką ir operacijų objektus
-description: Šioje temoje pateikta informacija apie tai, kaip įtraukti būtinas pasirinktinių lauko nuorodų į objektus ir formas bei rodinius.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip įtraukti reikiamas pasirinktines lauko nuorodas į objektus ir formas bei rodinius.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d7b5a3e7976f1ec4c01df2d9bf0aa620e747e9f4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a984dc9e04857e101fa012734fd822440899aced
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597394"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926050"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Būtinų pasirinktinių laukų įtraukimas į kainų sąranką ir operacijų objektus
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
-Šioje temoje informacija pateikiama manant, kad baigėte temos [Pasirinktinių laukų ir objektų kūrimas ir objektai, naudojami kaip kainodaros dimensijos](create-custom-fields-entities-pricing-dimensions.md) procedūras. Jei neatlikote šių procedūrų, grįžkite ir jas atlikite, o tada grįžkite į šią temą. 
+Šiame straipsnyje daroma prielaida, kad atlikote procedūras straipsnyje Kurti pasirinktinius laukus ir objektus, [kurie bus naudojami kaip kainodaros dimensijos](create-custom-fields-entities-pricing-dimensions.md). Jei dar neatlikote šių procedūrų, grįžkite ir užpildykite jas, tada grįžkite į šį straipsnį. 
 
-Šioje temoje procedūromis parodoma, kaip įtraukti reikiamas pasirinktinio lauko nuorodas į objektus ir į vartotojo sąsajos (UI) elementus, pvz., formas ir rodinius.
+Šiame straipsnyje procedūros parodys, kaip įtraukti reikiamas pasirinktines lauko nuorodas į objektus ir vartotojo sąsajos (UI) elementus, pvz., formas ir rodinius.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>Pasirinktinių kainos dimensijų laukų įtraukimas 
 Sukūrus pasirinktinius laukus ir objektus, kitas žingsnis – kainų sąrankos ir operacinių objektų supažindinimas su bet kokiais pasirinktiniais objektais ar parinkčių rinkiniais, kuriant nuorodos laukus. Atsižvelgiant į tai, ar jūsų kainos dimensijų sąraše yra parinkčių rinkinio dimensijos, objekto dimensijos, ar abi, atlikite tik **„Parinkčių rinkinio pasirinktinių kainų dimensijos“** arba **„Objekto pasirinktinių kainų dimensijos“**, arba abiejuose skyriuose nurodytus žingsnius.
