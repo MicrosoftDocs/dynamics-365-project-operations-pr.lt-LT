@@ -1,18 +1,18 @@
 ---
 title: Tiekėjo sąskaitų faktūrų integravimas
-description: Šioje temoje pateikiama informacijos apie tiekėjų sąskaitų faktūrų integravimą naudojant „Project Operations“.
+description: Šiame straipsnyje pateikiama informacija apie tiekėjo SF integravimą į projekto operacijas.
 author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8650eed2230b99b821c1635fdc88252bb65c5583
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d1e41638b6fe827e9e577860a78a84a9948053e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591185"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912066"
 ---
 # <a name="vendor-invoice-integration"></a>Tiekėjo sąskaitų faktūrų integravimas
 
@@ -21,7 +21,7 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 Su projektais susijusius viešuosius pirkimus sprendime „Dynamics 365 Project Operations“ galima įrašyti nuėjus į **Mokėtinos sumos** > **Sąskaitos faktūros** > **Laukiančios tiekėjų sąskaitos faktūros** ir naudojant laukiančios tiekėjo sąskaitos faktūros dokumentą. Norėdami sužinoti daugiau, žr. [Atsargose nelaikomų medžiagų įsigijimas naudojant laukiančią tiekėjo sąskaitą faktūrą](../procurement/pending-vendor-invoices.md).
 
 > [!IMPORTANT]
-> Prieš naudodami šioje temoje aprašytas funkcijas, peržiūrėkite ir pritaikykite reikiamas konfigūracijas. Norėdami sužinoti daugiau, žr. [Galimybės naudoti atsargose nelaikomas medžiagas ir laukiančias tiekėjų sąskaitas faktūras įjungimas](../procurement/configure-materials-nonstocked.md).
+> Prieš naudodami šiame straipsnyje aprašytas funkcijas, peržiūrėkite ir taikykite reikiamas konfigūracijas. Norėdami sužinoti daugiau, žr. [Galimybės naudoti atsargose nelaikomas medžiagas ir laukiančias tiekėjų sąskaitas faktūras įjungimas](../procurement/configure-materials-nonstocked.md).
 
 Sprendime „Project Operations“ su projektais susijusios tiekėjų sąskaitos faktūros registruojamos naudojant specialias toliau nurodytas registravimo taisykles.
 

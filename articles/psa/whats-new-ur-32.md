@@ -1,6 +1,6 @@
 ---
 title: Kas nauja arba pakeista „Project Service Automation“ V3 32 atnaujintame leidime
-description: Šioje temoje išvardytos funkcijos ir pataisymai, kurie yra pasiekiami „Project Service Automation“ V3 32 atnaujintame leidime.
+description: Šiame straipsnyje išvardijamos funkcijos ir taisymai, galimi "Project Service Automation Update Release 32", V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 06/01/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 3ad87eceb90a48997aadf00803b8d14c5108eb83
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5124137c24da9b579ee1365524d66d9135b2d420
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580098"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912894"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-32-v3"></a>Kas nauja arba pakeista „Project Service Automation“ V3 32 atnaujintame leidime
 
@@ -29,7 +29,7 @@ ms.locfileid: "8580098"
 
 Norime pranešti apie naujausią programos Microsoft Dynamics 365 Project Service Automation naujinimą. Šiame leidime yra kai kurių svarbių kokybės, veikimo ir naudojimo patobulinimų. Ji suderinama su „Dynamics 365 9.x“. Norėdami atnaujinti į šį leidimą, apsilankykite „Dynamics 365 Online“ sprendimų administravimo centro puslapyje ir įdiekite naujinimą. Daugiau informacijos žr. [Pageidaujamo sprendimo diegimas, naujinimas arba šalinimas](/power-platform/admin/install-remove-preferred-solution).
 
-Šioje temoje išvardytos funkcijos ir pataisymai, kurie yra nauji arba pakeisti „Project Service Automation“ V3 32 atnaujintame leidime. Šios versijos komponavimo numeris yra V3.10.53.108; ji visuotinai pasiekiama naudojant 2021 m. birželio mėn. savarankišką naujinimą.
+Šiame straipsnyje išvardijamos naujos arba pakeistos "Project Service Automation V3", "Update Release 32" funkcijos ir taisymai. Šios versijos komponavimo numeris yra V3.10.53.108; ji visuotinai pasiekiama naudojant 2021 m. birželio mėn. savarankišką naujinimą.
 
 ## <a name="update-release-32"></a>32 atnaujintas leidimas
 

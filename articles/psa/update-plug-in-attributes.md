@@ -1,6 +1,6 @@
 ---
 title: Priedo atributų atnaujinimas norint įtraukti naujų kainodaros dimensijų
-description: Šioje temoje pateikta informacija apie kainodaros dimensijų priedo atributų atnaujinimą.
+description: Šiame straipsnyje pateikiama informacija apie kainodaros dimensijų priedų atributų naujinimą.
 author: Rumant
 ms.custom: ''
 ms.date: 11/19/2018
@@ -15,21 +15,21 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 0c9ac219dd19cf5dd14d54b199329de0c15fe2ae
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 459aefb510cc9a9ec55a86ca7e362db98ccabb70
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580881"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913216"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Priedo atributų atnaujinimas norint įtraukti naujų kainodaros dimensijų
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 > [!NOTE]
-> Jei nenaudojate „Project Service Automation“ (PSA) pasiūlymo teikimo ir sutarties sudarymo funkcijų, galite praleisti šią temą.
+> Jei nenaudojate "Project Service Automation" (PSA) citavimo ir sutarčių sudarymo funkcijų, galite praleisti šį straipsnį.
 
-Šioje temoje daroma prielaida, kad atlikote temose [Pasirinktinių laukų ir objektų kūrimas](create-custom-fields-entities.md), [Pasirinktinių laukų įtraukimas į kainos sąranką ir operacijų objektus](field-references.md) bei [Pasirinktinių laukų kaip kainodaros dimensijų nustatymas](set-up-pricing-dimensions.md) nurodytas procedūras. Jei neatlikote šių procedūrų, grįžkite ir jas atlikite, o tada grįžkite į šią temą.
+Šiame straipsnyje daroma prielaida, kad atlikote procedūras straipsniuose, [Kurti pasirinktinius laukus ir objektus](create-custom-fields-entities.md), [Įtraukti pasirinktinius laukus į kainų nustatymą ir operacijų objektus](field-references.md) ir [Nustatyti pasirinktinius laukus kaip kainodaros dimensijas](set-up-pricing-dimensions.md). Jei dar neatlikote šių procedūrų, grįžkite ir užpildykite jas, tada grįžkite į šį straipsnį.
 
 Kai pasiūlymo eilutės informacija sukuriama projekto pasiūlymo eilutės puslapyje **Pasiūlymo eilutė**, sistema sukuria dvi įvertinimo eilutes fone – vieną eilutę įvertinimo savikainos pusei, ir vieną pardavimo pusei. Tas pats taikoma projekto sutarties eilutėms.
 

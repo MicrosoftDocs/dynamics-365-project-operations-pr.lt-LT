@@ -1,6 +1,6 @@
 ---
 title: Darbo paskirstymo struktūros atnaujinimo aptarimas
-description: Šioje temoje pateikta informacija, kaip atnaujinti darbo paskirstymo struktūrą pereinant iš „Project Service Automation“ 2.x versijos į 3.x versiją.
+description: Šiame straipsnyje pateikiama informacija apie darbo paskirstymo struktūros atnaujinimą iš "Project Service Automation 2.x" į 3.x.
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/18/2019
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 13ad93d5be3c0ab07c81db28d3e13561e9d40017
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 42bf03b5e3be4b7bdce87148254ce69e381ffdf1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599740"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913124"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Darbo paskirstymo struktūros atnaujinimo aptarimas
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Šioje temoje pateikta informacija, kaip atnaujinti darbo paskirstymo struktūrą pereinant iš „Project Service Automation“ 2.x versijos į 3.x versiją. Šioje temoje apibūdinta tinkama „Project Service Automation“ (PSA) projekto būsena, kurios reikia norint sėkmingai atnaujinti. Taip pat pateikiama informacija apie įprastas blokavimo sąlygas, dėl kurių nepavyks atnaujinti. Daugiau informacijos apie projekto užduočių nustatymą ir jų funkcijas projekto grafike žr [Projekto grafikai](project-creating.md).
+Šiame straipsnyje pateikiama informacija apie darbo paskirstymo struktūros atnaujinimą iš "Project Service Automation 2.x" į 3.x. Šiame straipsnyje apibrėžiama sveika projekto būsena projekto projekte "Project Service Automation" (PSA), kurio reikia sėkmingam atnaujinimui. Taip pat pateikiama informacija apie įprastas blokavimo sąlygas, dėl kurių nepavyks atnaujinti. Daugiau informacijos apie projekto užduočių nustatymą ir jų funkcijas projekto grafike žr [Projekto grafikai](project-creating.md).
 
 ## <a name="key-entities"></a>Pagrindiniai objektai
 Tiksliai darbo paskirstymo struktūrai, į kurią jau įkelta išteklių, reikia toliau nurodytų objektų:

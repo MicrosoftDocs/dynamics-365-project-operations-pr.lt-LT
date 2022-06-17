@@ -1,6 +1,6 @@
 ---
 title: Projektų išteklių paskirstymo pagrindinis puslapis
-description: Šioje temoje pateikta informacija apie projektų išteklių paskirstymą.
+description: Šiame straipsnyje pateikiama informacija apie projekto išteklių atkūrimą.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 38793c4b9fc6cd2c1999661cb2acc587086b0143
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 605a6884cb342abf029644dbf8f2d75127df1786
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684882"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924026"
 ---
 # <a name="project-resourcing-home-page"></a>Projektų išteklių paskirstymo pagrindinis puslapis
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikta informacija apie projektų išteklių paskirstymą.
+Šiame straipsnyje pateikiama informacija apie projekto išteklių atkūrimą.
 
 Projekto planavimo etape projektų vadovams ir išteklių vadovams gali būti sudėtinga paskirstyti išteklus. Jie turi nustatyti ir rezervuoti tinkamus išteklius, kurie bus naudojami darbo su projektu metu. Dynamics 365 Finance projektų išteklių paskirstymo galimybės leidžia apibrėžti vaidmenis, kurie laikomi laikinais ištekliais, kuriuos galima rezervuoti konkrečiam įsipareigojimui ar įtraukimo daliai. Šis išteklių paskirstymo tipas leidžia projektų vadovams ir išteklių vadovams atlikti tolesnes užduotis.
 
@@ -41,7 +41,7 @@ Projekto planavimo etape projektų vadovams ir išteklių vadovams gali būti su
 
 Vykdant projekto planavimą, planuojamus išteklius galima pakeisti darbuotojams priskirtais ištekliais. Be to, bet kuriame projekto etape projekto vadovas gali grįžti ir atnaujinti išteklių paskirstymo rezervavimus.
 
-Pateikiamose temose pateikta informacija apie užduotis, kurias reikia atlikti dirbant su projektų išteklių paskirstymu.
+Tolesniuose straipsniuose pateikiama informacija apie užduotis, kurias reikia atlikti, kai dirbate su išteklių projektais.
 
 - [Projekto išteklių nustatymas](set-up-project-resources.md)
 - [Išteklių kompetencijų valdymas](manage-resource-competencies.md)

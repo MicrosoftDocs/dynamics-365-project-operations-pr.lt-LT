@@ -1,6 +1,6 @@
 ---
 title: Faktinių duomenų masiniai pataisymai pagal patvirtintus laiko ir išlaidų įrašus
-description: Šioje temoje aiškinama, kaip administratorius gali atlikti vieną pataisymą arba masinius anksčiau patvirtintų laiko ar išlaidų įrašu pataisymus, jei apmokėjimas dar nebaigtas.
+description: Šiame straipsnyje paaiškinama, kaip administratorius gali atlikti vienkartinius arba masinius anksčiau patvirtintų laiko ar išlaidų įrašų taisymus, jei atsiskaitymas nebaigtas.
 author: rumant
 ms.date: 04/02/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
 search.app:
 - ProjectOperations
-ms.openlocfilehash: 107ba01f2fd5717e1717824631aeee099d8a8205
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 82c9b38e4c79511fe3b6abfcb973fff8b56f1522
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683372"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916299"
 ---
 # <a name="bulk-corrections-of-actuals-created-by-approved-time-and-expense-entries"></a>Faktinių duomenų masiniai pataisymai pagal patvirtintus laiko ir išlaidų įrašus
 
@@ -28,7 +28,7 @@ ms.locfileid: "8683372"
 
 Kartais laiko arba išlaidų įrašas gali būti įvestas neteisingai. Pavyzdžiui, konsultantas gali pasirinkti neteisingą laiko įrašo sukūrimo datą arba gali perkelti skaičius įvesdamas išlaidas. Jei konsultantas negali atnaujinti pateiktų įrašų, administratorius gali tiesiogiai pataisyti projekto įrašą.
 
-Norėdami atlikti procedūras šioje temoje, turite turėti administratoriaus teises.
+Norėdami užbaigti šiame straipsnyje pateiktas procedūras, jums reikės administratoriaus teisių.
 
 ## <a name="correct-approved-time-entries"></a>Teisingi patvirtinti laiko įrašai     
 

@@ -1,6 +1,6 @@
 ---
 title: Kas nauja arba pakeista „Project Service Automation“ V3 15 atnaujintame leidime
-description: Šioje temoje pateikiama informacijos apie tai, kas nauja ir pakeista „Project Service Automation“ 15 atnaujintame leidime V3.
+description: Šiame straipsnyje pateikiama informacija apie tai, kas naujo "Project Service Automation Update Release 15", V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/27/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 26b9ee0a6ff1ad81d6c77a6a7091733667c493ff
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b87cae2cd8913457c2931d1661a57509d1398d29
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585158"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915654"
 ---
 # <a name="project-service-automation-update-release-15-v3"></a>„Project Service Automation“ V3 15 naujinimo leidimas
 
@@ -29,7 +29,7 @@ ms.locfileid: "8585158"
 
 Džiaugiamės galėdami pranešti apie naujausią Dynamics 365 Project Service Automation (PSA) programos naujinimą. Šiame leidime yra kai kurių svarbių kokybės, veikimo ir naudojimo patobulinimų. Šis leidimas suderinamas su „Dynamics 365“ 9.x versija. Norėdami naujinti šį leidimą, eikite į „Dynamics 365“ administravimo centrą, tada eikite į sprendimų puslapį, iš kurio galite įdiegti naujinimą. Daugiau informacijos žr. [Pageidaujamo sprendimo diegimas, naujinimas arba šalinimas](/power-platform/admin/install-remove-preferred-solution).
 
-Šioje temoje išvardytos funkcijos ir pataisymai, kurie yra nauji arba pakeisti PSA V3 15 atnaujintame leidime. Ši versija turi naują komponavimo versijos numerį V3.10.5.28 ir ją galima pasiekti per 2020 m. sausio mėn. automatinį naujinimą.
+Šiame straipsnyje išvardijamos funkcijos ir taisymai, kurie yra nauji arba pakeisti PSA V3, naujinimo 15 leidimas. Ši versija turi naują komponavimo versijos numerį V3.10.5.28 ir ją galima pasiekti per 2020 m. sausio mėn. automatinį naujinimą.
 
 ## <a name="update-release-15"></a>15 atnaujintas leidimas 
 

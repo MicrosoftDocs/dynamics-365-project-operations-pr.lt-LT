@@ -1,6 +1,6 @@
 ---
 title: Laiko ir išlaidų pakeitimai („Project Service Automation“ 3.x versija)
-description: Šioje temoje pateikta informacija apie laiko ir išlaidų pakeitimus sprendime.
+description: Šiame straipsnyje pateikiama informacija apie laiko ir išlaidų sprendimo pakeitimus.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -15,12 +15,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 9a425206407ed70691812ba18af09bc56b37ca30
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5fbe5aff5c6fb0348d5d742bbb8da29f67a28d27
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8573935"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915930"
 ---
 # <a name="time-and-expense-changes-project-service-automation-3x"></a>Laiko ir išlaidų pakeitimai („Project Service Automation“ 3.x versija)
 

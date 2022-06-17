@@ -1,17 +1,17 @@
 ---
 title: Įvertinimo importavimas į projektais pagrįstą sutarties eilutę
-description: Šioje temoje pateikta informacija apie projekto įvertinimų importavimą į sutarties eilutę.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip importuoti įvertinimus iš projekto į sutarties eilutę.
 author: rumant
 ms.date: 10/19/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8e03a384e401331aea6e65881b4ecc88da77d737
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d4a298cbcb8d13447c0f6e264d2aa85ad7ed43bf
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601626"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915102"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line"></a>Įvertinimo importavimas į projektais pagrįstą sutarties eilutę
 

@@ -1,24 +1,24 @@
 ---
 title: Projektų įvertinimų ir faktinių duomenų integravimas
-description: Šioje temoje pateikiama informacijos apie „Project Operations“ projektų įvertinimų ir faktinių duomenų dvigubo rašymo integravimą.
+description: Šiame straipsnyje pateikiama informacija apie projekto operacijų dvigubo rašymo integravimą projektų įverčiams ir faktams.
 author: sigitac
 ms.date: 4/26/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5aaa59020427438fa6ebab3789fbb70c5b86e272
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 43c868b051bf141cfc3211669c0a44333b4b2c65
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577200"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914596"
 ---
 # <a name="project-estimates-and-actuals-integration"></a>Projektų įvertinimų ir faktinių duomenų integravimas
 
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
-Šioje temoje pateikiama informacijos apie „Project Operations“ projektų įvertinimų ir faktinių duomenų dvigubo rašymo integravimą.
+Šiame straipsnyje pateikiama informacija apie projekto operacijų dvigubo rašymo integravimą projektų įverčiams ir faktams.
 
 ## <a name="project-estimates"></a>Projekto įvertinimai
 

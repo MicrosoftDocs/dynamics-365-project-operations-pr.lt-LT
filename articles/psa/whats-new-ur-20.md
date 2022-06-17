@@ -1,6 +1,6 @@
 ---
 title: Kas nauja arba pakeista „Project Service Automation“ V3 20 atnaujintame leidime
-description: Šioje temoje išvardytos funkcijos ir pataisymai, kurie yra pasiekiami „Project Service Automation“ V3 20 naujinimo leidime
+description: Šiame straipsnyje išvardijamos funkcijos ir taisymai, kuriuos galima rasti "Project Service Automation Update Release 20", V3
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 06/12/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4b1a8b5b65f0dfeeff74db363c918206c64e81f7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7265f4999ee9c584450efcf444621c00acd65920
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588838"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913078"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>„Project Service Automation“ V3 20 naujinimo leidimas
 
@@ -29,7 +29,7 @@ ms.locfileid: "8588838"
 
 Malonu pranešti apie naujausią „Dynamics 365“ programos „Project Service Automation“ naujinimą. Šiame leidime yra kai kurių svarbių kokybės, veikimo ir naudojimo patobulinimų. Šis leidimas suderinamas su „Dynamics 365“ 9.x versija. Norėdami naujinti šį leidimą, eikite į „Dynamics 365“ internetinių sprendimų puslapio administravimo centrą, iš kurio galite įdiegti naujinimą. Daugiau informacijos žr. [Pageidaujamo sprendimo diegimas, naujinimas arba šalinimas](/power-platform/admin/install-remove-preferred-solution).
 
-Šioje temoje išvardytos funkcijos ir pataisymai, kurie yra nauji arba pakeisti „Project Service Automation“ V3 20 atnaujintame leidime. Šios versijos komponavimo versijos numeris yra V 3.10.31.37 ir ji paprastai pasiekiama savaiminiu naujinimu, vykdytu 2020 m. birželio mėn.
+Šiame straipsnyje išvardijamos naujos arba pakeistos "Project Service Automation V3", "Update Release 20" funkcijos ir taisymai. Šios versijos komponavimo versijos numeris yra V 3.10.31.37 ir ji paprastai pasiekiama savaiminiu naujinimu, vykdytu 2020 m. birželio mėn.
 
 ## <a name="update-release-20"></a>20 atnaujintas leidimas
 

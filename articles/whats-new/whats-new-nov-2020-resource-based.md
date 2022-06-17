@@ -1,23 +1,23 @@
 ---
 title: 2020 m. lapkričio mėn. naujienos – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams
-description: Šioje temoje pateikiama informacija apie kokybės naujinimus, pasiekiamus 2020 m. lapkričio mėn. „Project Operations Lite”, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams.
+description: Šiame straipsnyje pateikiama informacija apie kokybės atnaujinimus, kuriuos galima rasti 2020 m. lapkričio mėn.
 author: sigitac
 ms.date: 10/30/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b76ebbff1cc2720e699334601d425879f2d20770
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b98c968a040c14f4d11c350885e2cbb984596c48
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600384"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923428"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>2020 m. lapkričio mėn. naujienos – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams
 
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
-Ši tema taikoma toliau nurodytiems „Dynamics 365 Project Operations“ komponentams ir versijoms:
+Šis straipsnis taikomas šiems Dynamics 365 Project Operations komponentams ir versijoms:
 
 - „Project Operations” CDS aplinkoje, 4.4.0.70 versija
 - Projektų valdymas ir apskaita Dynamics 365 Finance aplinkoje 10.0.14 versija

@@ -1,17 +1,17 @@
 ---
 title: Juodraštinių projekto sąskaitų faktūrų pasiūlymų apskaitos koregavimas
-description: Šioje temoje paaiškinta, kaip koreguoti su apskaita susijusią informaciją juodraštiniame sąskaitos faktūros pasiūlyme.
+description: Šiame straipsnyje paaiškinama, kaip koreguoti su apskaita susijusią informaciją sąskaitos faktūros pasiūlymo projekte.
 author: sigitac
 ms.date: 01/05/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: bf0a3d6b97880920b133cb3b30389adf0c83111c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 32f566a798d07b698693392f3aa1823f91fe5408
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575084"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921220"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>Juodraštinių projekto sąskaitų faktūrų pasiūlymų apskaitos koregavimas
 
@@ -19,7 +19,7 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 
 Projekto sąskaitų faktūrų *operacijų išsamią informaciją* projekto vadovas tvarko pro forma sąskaitoje faktūroje. Ši išsami informacija apima sprendimą dėl valandų, išlaidų, medžiagų ar etapų, kuriuos reikia įtraukti į sąskaitą faktūrą, tarifus ir avanso bei išankstinio apmokėjimo sumų taikymą. Patvirtinę originalią išankstinę sąskaitą faktūrą, galite koreguoti operacijų išsamią informaciją sukurdami ir patvirtindami [koreguojamąją išankstinę sąskaitą faktūrą](../proforma-invoicing/corrective-invoices.md).
 
-Projektų sąskaitų faktūrų *apskaitos informacija* tvarkoma klientui skirtame sąskaitų faktūrų dokumente. Į šią informaciją įtraukiamas PVM skaičiavimas ir sąskaitai faktūrai taikomos finansinės dimensijos. Šioje temoje pateikiama išsami informacija apie tai, kaip šią išsamią apskaitos informaciją galima koreguoti juodraštiniame projekto sąskaitos faktūros pasiūlyme.
+Projektų sąskaitų faktūrų *apskaitos informacija* tvarkoma klientui skirtame sąskaitų faktūrų dokumente. Į šią informaciją įtraukiamas PVM skaičiavimas ir sąskaitai faktūrai taikomos finansinės dimensijos. Šiame straipsnyje pateikiama išsami informacija apie tai, kaip šią apskaitos informaciją galima koreguoti projekto SF pasiūlymo projekte.
 
 ## <a name="adjust-sales-tax"></a>PVM koregavimas
 

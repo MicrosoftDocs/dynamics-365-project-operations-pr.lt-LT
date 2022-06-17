@@ -1,6 +1,6 @@
 ---
 title: Pagrindinis pasiūlymų, kainodaros ir atsiskaitymo vadovas
-description: Šioje temoje pateikiami pagrindinės informacijos apie pasiūlymų teikimą, kainodarą ir atsiskaitymą naudojant „Project Service Automation“ saitai.
+description: Šiame straipsnyje pateikiami saitai į informaciją apie pagrindinį kotiravimą, kainodarą ir atsiskaitymą programoje "Project Service Automation".
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 119fa9941a1f06108950e1ea1c08f84988530373
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 19b149e3cf9ee9c14af591968bc2afeb56a0abd4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592242"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910808"
 ---
 # <a name="basic-guide-to-quoting-pricing-and-billing"></a>Pagrindinis pasiūlymų, kainodaros ir atsiskaitymo vadovas
 
@@ -32,7 +32,7 @@ ms.locfileid: "8592242"
 
 Turėdamos galimybę rasti reikiamus išteklius tinkamu laiku, rezervuoti tuos išteklius projektams bei juos panaudoti, organizacijos gali siekti pajamų ir klientų pasitenkinimo tikslų. 
 
-Anksčiau šioje temoje pateiktas PDF failo saitas buvo pašalintas, o jo turinys perkeltas į toliau nurodytas temas.
+Pdf saitas, kuris anksčiau buvo šiame straipsnyje, buvo pašalintas ir turinys perkeltas į šiuos straipsnius:
 
 - [Pasiūlymų teikimas, kainodara ir atsiskaitymas](../quote-bill-price.md)
 - [Pardavimo procesai](../basic-sales-process.md)
@@ -50,7 +50,7 @@ Anksčiau šioje temoje pateiktas PDF failo saitas buvo pašalintas, o jo turiny
 - [Faktinių duomenų registravimas](../advanced-actuals.md)
 
 > [!NOTE]
-> Ši tema bus pašalinta iš būsimų atnaujintų dokumentų. 
+> Šis straipsnis bus pašalintas būsimame dokumentacijos atnaujinime. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

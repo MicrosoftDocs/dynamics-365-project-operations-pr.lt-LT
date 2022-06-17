@@ -1,6 +1,6 @@
 ---
 title: Išlaidų valdymo mobilioji darbo sritis
-description: Šioje temoje pateikiama informacija apie išlaidų valdymą mobiliojoje darbo srityje. Ši darbo sritis leidžia vartotojams fiksuoti ir nusiųsti kvitą, kad ją vėliau galėtų pridėti prie išlaidų ataskaitos. Vartotojai taip pat gali greitai sukurti išlaidų eilutę naudodami pridėtą kvitą ir kurti bei valdyti savo išlaidų ataskaitas.
+description: Šiame straipsnyje pateikiama informacija apie mobiliąją darbo sritį Išlaidų valdymas. Ši darbo sritis leidžia vartotojams fiksuoti ir nusiųsti kvitą, kad ją vėliau galėtų pridėti prie išlaidų ataskaitos. Vartotojai taip pat gali greitai sukurti išlaidų eilutę naudodami pridėtą kvitą ir kurti bei valdyti savo išlaidų ataskaitas.
 author: suvaidya
 ms.date: 12/01/2017
 ms.topic: article
@@ -12,16 +12,16 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: d5309b55ed146d21d7a42e0b40add9ee346d48aa
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: aba8073fcf788f94bbcc622ab963426d230e9999
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682812"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920898"
 ---
 # <a name="expense-management-mobile-workspace"></a>Išlaidų valdymo mobilioji darbo sritis
 
-Šioje temoje pateikiama informacija apie **išlaidų valdymą** mobiliojoje darbo srityje. Ši darbo sritis leidžia vartotojams fiksuoti ir nusiųsti kvitą, kad ją vėliau galėtų pridėti prie išlaidų ataskaitos. Vartotojai taip pat gali greitai sukurti išlaidų eilutę naudodami pridėtą kvitą ir kurti bei valdyti savo išlaidų ataskaitas. Be to, tvirtintojai gali naudoti **išlaidų valdymo** mobiliąją darbo sritį, kad galėtų peržiūrėti jiems priskirtas išlaidų ataskaitas ir patvirtinti arba atmesti tas išlaidų ataskaitas.
+Šiame straipsnyje pateikiama informacija apie mobiliąją **darbo sritį Išlaidų valdymas**. Ši darbo sritis leidžia vartotojams fiksuoti ir nusiųsti kvitą, kad ją vėliau galėtų pridėti prie išlaidų ataskaitos. Vartotojai taip pat gali greitai sukurti išlaidų eilutę naudodami pridėtą kvitą ir kurti bei valdyti savo išlaidų ataskaitas. Be to, tvirtintojai gali naudoti **išlaidų valdymo** mobiliąją darbo sritį, kad galėtų peržiūrėti jiems priskirtas išlaidų ataskaitas ir patvirtinti arba atmesti tas išlaidų ataskaitas.
 
 
 Ši mobilioji darbo sritis skirta naudoti su „Dynamics 365“ bendrųjų operacijų mobiliųjų įrenginių programėle.

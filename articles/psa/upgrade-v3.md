@@ -1,6 +1,6 @@
 ---
 title: Atnaujinimo aptarimas – „Microsoft Dynamics 365 Project Service Automation“  iš 2.x arba 1.x versijos į 3 versiją
-description: Šioje temoje pateikta informacija apie dalykus, į kuriuos reikia atsižvelgti atnaujinant iš „Project Service Automation“ 2.x arba 1.x versijos į 3 versiją.
+description: Šiame straipsnyje pateikiama informacija apie aplinkybes, kurias turite pateikti atnaujindami versiją iš "Project Service Automation" 2.x arba 1.x versijos į 3 versiją.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c37c30b7c694cec8c07b68492d935128881e6317
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3f67b2fe39c9d0224207e7c655892318ec7e09b8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601764"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918920"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Atnaujinimo aptarimas - iš PSA 2.x arba 1.x versijos į 3 versiją
 
@@ -40,7 +40,7 @@ Naudojant „Project Service Automation“ 2 versiją ir 1 versiją, užduočių
 
 „Project Service Automation“ 3 versijoje pasikeitė rezervuojamų išteklių priskyrimo užduotims schema. Eilutės užduotis nebenaudojama, o tarp užduoties **Užduoties objekte** ir komandos nario objekte **Išteklių priskyrimas** yra tiesioginis 1:1 ryšys. Projekto komandos nariui priskiriamos užduotys dabar saugomos tiesiogiai išteklių priskyrimo objekte.  
 
-Šie pakeitimai turi įtakos visų esamų projektų, kuriuose yra įvardytų rezervuojamų išteklių ir bendrųjų išteklių projekto komandoje priskyrimų, atnaujinimui. Šioje temoje nurodyti dalykai, į kuriuos reikės atsižvelgti dėl projektų atnaujinant iki 3 versijos. 
+Šie pakeitimai turi įtakos visų esamų projektų, kuriuose yra įvardytų rezervuojamų išteklių ir bendrųjų išteklių projekto komandoje priskyrimų, atnaujinimui. Šiame straipsnyje pateikiami aspektai, į kuriuos turėsite atsižvelgti savo projektuose, kai atnaujinsite į 3 versiją. 
 
 ### <a name="tasks-assigned-to-named-resources"></a>Įvardytiems ištekliams priskirtos užduotys
 Naudojant esamą užduoties objektą, 2 versijos ir 1 versijos užduotys leido komandos nariams atlikti kitą vaidmenį, o ne jų numatytąjį apibrėžtą vaidmenį. Pavyzdžiui, Irena Jankauskienė, kuriai pagal numatytuosius nustatymus priskirtas programų vadovo vaidmuo, galėjo būti priskirta užduočiai, kurios vaidmuo yra kūrėjas. 3 versijoje įvardytojo komandos nario vaidmuo visada yra numatytasis, todėl bet kokioje užduotyje, kuriai Irena Jankauskienė priskirta, naudojamas jos numatytasis programų vadovo vaidmuo.

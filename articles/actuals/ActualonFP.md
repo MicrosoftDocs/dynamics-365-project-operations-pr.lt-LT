@@ -1,6 +1,6 @@
 ---
 title: Faktinis poveikis fiksuotos kainos įtraukimui
-description: Šioje temoje pateikiama informacija apie poveikį lentelei Aktualijos įvairiuose įvykiuose per fiksuotos kainos įtraukimo į "Microsoft" gyvavimo ciklą Dynamics 365 Project Operations.
+description: Šiame straipsnyje pateikiama informacija apie poveikį lentelei Aktualijos įvairiais įvykiais per fiksuotos kainos įtraukimo į "Microsoft" gyvavimo ciklą Dynamics 365 Project Operations.
 author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 222e7c5eefd7c619e4d7389cdaff2f96176ff275
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 50819d77d56935bfe5438d7d9dae99562bcc0b49
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579238"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918138"
 ---
 # <a name="actuals-impact-in-a-fixed-price-engagement"></a>Faktinis poveikis fiksuotos kainos įtraukimui
 
@@ -37,6 +37,6 @@ _**Taikoma kam:** „Project Operations“ išteklių / ne atsargomis pagrįstie
 | Sutartis patvirtinta. | <p>Senųjų faktinių išlaidų koregavimo būsena atnaujinama į **Koreguota**.</p><p>Sukuriami atšaukimo savikainos faktiniai duomenys, kurių koregavimo **būsena yra Neapibrėžta**.</p><p>Naujos faktinės išlaidos sukuriamos iš naujo įvertinus sutarties taisykles.</p> | Netaikoma | Netaikoma | <p>Esamas faktinis, kuris atnaujinamas:</p><ul><li>**Faktinė kaina:** Bob Kozack, 8 val., USD 800, *Pakoreguota*</li></ul><p>Naujas faktinis, sukurtas ankstesniam finansiniam poveikiui pakeisti:</p><ul><li>**Faktinės išlaidos:** Bob Kozack, (8 val.), (800 USD), *Nepataisomas*</li></ul><p>Naujas faktinis, sukurtas iš naujo įvertintam finansiniam poveikiui:</p><ul><li>**Faktinė kaina:** Bobas Kozackas, 8 val., USD 800</li></ul> |
 | Sukuriama SF. | Netaikoma | Netaikoma | Netaikoma | |
 | Sąskaita faktūra patvirtinama orientyru. | Netaikoma | Netaikoma | Sukuriami nauji etapais pagrįsti pardavimo faktai, kuriems išrašytos sąskaitos. | <p>Esamas faktinis, kuris lieka nepakitęs:</p><ul><li>**Faktinė kaina:** Bobas Kozackas, 8 val., USD 800</li></ul><p>Naujas faktinis, sukurtas pardavimo vertėms, už kurias išrašyta sf, įrašyti:</p><ul><li>**Faktiniai pardavimai, už kuriuos išrašyta sąskaita:** orientyras, USD 5,000</li></ul> |
-| Sf pataisoma, kad būtų galima įskaityti tarpinį etapą. | Netaikoma | Netaikoma | Sukuriami atšaukimo pardavimo, už kurį išrašyta sf, faktinės sumos. | <p>Esamas faktinis, kuris lieka nepakitęs:</p><ul><li>**Faktinė kaina:** Bob kozack, 8 val., 800 USD</li></ul><p>Esamas faktinis, kuris atnaujinamas:</p><ul><li>**Faktiniai pardavimai, už kuriuos išrašyta sąskaita:** orientyras, USD 5,000, *koreguotas*</li></ul><p>Naujas faktinis, sukurtas pakeisti ankstesnes pardavimo vertes, už kurias išrašyta sf:</p><ul><li>**Faktiniai pardavimai, už kuriuos išrašyta sąskaita:** orientyras (5 000 JAV dolerių), *Nepataisomas*</li></ul> |
+| Sf pataisoma, kad būtų galima įskaityti tarpinį etapą. | Netaikoma | Netaikoma | Sukuriami atšaukimo pardavimo, už kurį išrašyta sf, faktinės sumos. | <p>Esamas faktinis, kuris lieka nepakitęs:</p><ul><li>**Faktinė kaina:** Bobas Kozackas, 8 val., 800 USD</li></ul><p>Esamas faktinis, kuris atnaujinamas:</p><ul><li>**Faktiniai pardavimai, už kuriuos išrašyta sąskaita:** orientyras, USD 5,000, *pakoreguotas*</li></ul><p>Naujas faktinis, sukurtas pakeisti ankstesnes pardavimo vertes, už kurias išrašyta sf:</p><ul><li>**Faktiniai pardavimai, už kuriuos išrašyta sąskaita:** orientyras (5 000 JAV dolerių), *Nepataisomas*</li></ul> |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

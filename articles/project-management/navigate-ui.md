@@ -1,17 +1,17 @@
 ---
 title: Vartotojo sąsajos naršymas
-description: Šioje temoje pateikiama informacija apie projektų valdymą „Dynamics 365 Project Operations“.
+description: Šiame straipsnyje pateikiama informacija apie projektų valdymą "Dynamics 365 Project" operacijose.
 author: ruhercul
 ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: de9d0477954da664b71020ef4dfae81a14b999c6
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1db62cd8538444552a1296c6f10b651c9dbd34ef
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589574"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923796"
 ---
 # <a name="navigating-the-user-interface"></a>Vartotojo sąsajos naršymas
 

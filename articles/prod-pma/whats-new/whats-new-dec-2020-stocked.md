@@ -1,24 +1,24 @@
 ---
 title: Kas nauja 2020 m. gruodžio mėn. – „Project Operations“, skirta laikomų medžiagų / gamyba pagrįstiems scenarijams
-description: Šioje temoje pateikiama informacija apie kokybės naujinimus, pasiekiamus 2020 m. gruodžio mėn. „Project Operations”, skirtos laikomų medžiagų / gamyba pagrįstiems scenarijams, leidime.
+description: Šiame straipsnyje pateikiama informacija apie kokybės atnaujinimus, kuriuos galima rasti 2020 m. gruodžio mėn.
 author: Yowelle
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 9550cf8fd594585b70d373ecf9eea1b32285e47f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e570bf3e7a808afa5d41db0c073045c91e4931d7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594956"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911376"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>Kas nauja ar pakeista 2020 m. gruodžio mėn. „Project Operations“, skirtos laikomų medžiagų / gamyba pagrįstiems scenarijams
 
 _Taikoma (kam): „Project Operations“, skirta laikomų medžiagų / gamyba pagrįstiems scenarijams_
 
-Ši tema taikoma toliau nurodytiems „Dynamics 365 Project Operations“ komponentams ir versijoms:
+Šis straipsnis taikomas šiems Dynamics 365 Project Operations komponentams ir versijoms:
 
   - Projektų valdymas ir apskaita Dynamics 365 Finance aplinkoje 10.0.15 versija
 

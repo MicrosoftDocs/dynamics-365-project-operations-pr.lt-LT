@@ -1,6 +1,6 @@
 ---
 title: Projekto eiga ir savikainos naudojimas
-description: Šioje temoje pateikta informacija apie projekto eigos ir sąnaudų sekimą.
+description: Šiame straipsnyje pateikiama informacija apie projekto eigos ir išlaidų suvartojimo stebėjimą.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 56b78aa70f23a9a723f008973678bb29c4bbce1d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: afcac5e6fbb7ed8a5a5f7f5876c6035b59eebcc2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575268"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921772"
 ---
 # <a name="project-progress-and-cost-consumption"></a>Projekto eiga ir savikainos naudojimas
 
@@ -30,7 +30,7 @@ ms.locfileid: "8575268"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Poreikis sekti eigą atsižvelgiant į grafiką, priklauso nuo pramonės šakos. Kai kurie pramonės šakų atstovai seka projektą stambiu planu, o kitų pramonės šakų atstovai seka eigą bendru planu. Šioje temoje nurodyta, kaip planuoti norint atitikti jūsų organizacijos reikalavimus.
+Poreikis sekti eigą atsižvelgiant į grafiką, priklauso nuo pramonės šakos. Kai kurie pramonės šakų atstovai seka projektą stambiu planu, o kitų pramonės šakų atstovai seka eigą bendru planu. Šiame straipsnyje parodyta, kaip planuoti, kad atitiktų organizacijos reikalavimus.
 
 ## <a name="effort-tracking-view"></a>Pastangų sekimo rodinys
 

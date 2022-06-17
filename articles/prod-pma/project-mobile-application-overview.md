@@ -1,6 +1,6 @@
 ---
 title: Projektams skirtų mobiliųjų įrenginių programėlių apžvalga
-description: Šioje temoje pateikiama bendra informacija apie su laiku susijusias projektų programas, skirtas „Microsoft Dynamics 365 Project Timesheet”, „Project Time Entry” ir „My Timesheets” / „Timesheets”, kurias galima pasiekti mobiliajame įrenginyje.
+description: Šiame straipsnyje pateikiama bendra informacija apie su projekto laiku susijusias programas, skirtas Microsoft Dynamics 365 Project Timesheet, Projekto laiko įrašas ir Mano tabeliai / tabeliai, pasiekiami mobiliajame įrenginyje.
 author: Yowelle
 ms.date: 05/28/2019
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: 35ac2fa52f488d38be4b647ae8a3babe2b117f79
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: ecd6bded5fcf834ea14f7aca1ff11a1ede162877
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685418"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922876"
 ---
 # <a name="project-mobile-applications-overview"></a>Projektams skirtų mobiliųjų įrenginių programėlių apžvalga
 

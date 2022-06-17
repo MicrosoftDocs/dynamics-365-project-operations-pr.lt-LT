@@ -1,6 +1,6 @@
 ---
 title: Produktų katalogo kainodara
-description: Šioje temoje pateikta informacija apie tai, kaip veikia produktų katalogo kainodara programoje Dynamics 365 Project Service Automation (PSA).
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip veikia produktų katalogo Dynamics 365 Project Service Automation kainodara (PSA).
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 6cf50a09226bd6fdb803fd1fd379fec80838be75
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 61d35a9ce16bb58abc66edab5e21dd83d607184e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600660"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913400"
 ---
 # <a name="product-catalog-pricing"></a>Produktų katalogo kainodara 
 

@@ -1,17 +1,17 @@
 ---
 title: Sukonfigūruokite grafiko lentą, kad būtų rodomi sutarties darbuotojai ir subrangos pajėgumas
-description: Šioje temoje aprašoma, kaip konfigūruoti planavimo lentą programoje "Microsoft" Dynamics 365 Project Operations, kad būtų rodomi subrangovų išteklių pajėgumai, kai įdarbinami projekto išteklių poreikiai.
+description: Šiame straipsnyje aprašoma, kaip konfigūruoti "Microsoft" Dynamics 365 Project Operations grafiko lentą, kad būtų rodomas subrangovų išteklių pajėgumas, kai įdarbinami projekto išteklių poreikiai.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6e382b33fafe91c8b96a91d033fe12b998114bdc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b965fd5011a575354f50c47081be198ab43248f9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587840"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919840"
 ---
 # <a name="configure-schedule-board-to-show-contract-workers-and-subcontracted-capacity"></a>Sukonfigūruokite grafiko lentą, kad būtų rodomi sutarties darbuotojai ir subrangos pajėgumas 
 

@@ -1,24 +1,24 @@
 ---
 title: Kas nauja arba pakeista 2021 m. kovo mėn. „Project Operations“, skirtoje laikomų medžiagų / gamyba pagrįstiems scenarijams
-description: Šioje temoje pateikiama informacija apie kokybės naujinimus, pasiekiamus 2021 m. kovo mėn. „Project Operations“, skirtoje laikomų medžiagų / gamyba pagrįstiems scenarijams.
+description: Šiame straipsnyje pateikiama informacija apie kokybės atnaujinimus, kuriuos galima rasti 2021 m. kovo mėn.
 author: andchoi
 ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 0f8d57db75f426d87bcdcdde8fb9dfbe1ccc479f
-ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
+ms.openlocfilehash: fffa9d70574c8c91b63ceb5055af64a49c9d398b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723732"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911330"
 ---
 # <a name="whats-new-or-changed-in-project-operations-march-2021-for-stockedproduction-based-scenarios"></a>Kas nauja arba pakeista 2021 m. kovo mėn. „Project Operations“, skirtoje laikomų medžiagų / gamyba pagrįstiems scenarijams
 
 _**Taikoma (kam):**„Project Operations“, skirta laikomų medžiagų / gamyba pagrįstiems scenarijams_
 
-Ši tema taikoma toliau nurodytiems „Dynamics 365 Project Operations“ komponentams ir versijoms:
+Šis straipsnis taikomas šiems Dynamics 365 Project Operations komponentams ir versijoms:
 
 - Projektų valdymas ir apskaita Dynamics 365 Finance aplinkoje 10.0.17 versija
 

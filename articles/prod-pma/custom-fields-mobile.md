@@ -1,6 +1,6 @@
 ---
 title: Mobiliųjų įrenginių programėlės „Microsoft Dynamics 365 Project Timesheet“, skirtos „iOS“ ir „Android“, pasirinktinių laukų diegimas
-description: Šioje temoje pateikiami įprasti būdai kaip naudoti plėtinius norint įdiegti pasirinktinius laukus.
+description: Šiame straipsnyje pateikiami bendri plėtinių naudojimo pasirinktiniams laukams įgyvendinti modeliai.
 author: Yowelle
 ms.date: 05/29/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 79ef62d6911b393248536e4cc73475f6c35a22e2
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 03b79d58d1f91e07034b8c9efb408e6d7a9c29a8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682766"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913722"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Mobiliųjų įrenginių programėlės „Microsoft Dynamics 365 Project Timesheet“, skirtos „iOS“ ir „Android“, pasirinktinių laukų diegimas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikiami įprasti būdai kaip naudoti plėtinius norint įdiegti pasirinktinius laukus. Aprašomos šios temos:
+Šiame straipsnyje pateikiami bendri plėtinių naudojimo pasirinktiniams laukams įgyvendinti modeliai. Aptariami šie straipsniai:
 
 - Įvairūs duomenų tipai, kuriuos palaiko pasirinktinio lauko sistema
 - Kaip rodyti tik skaitomus arba redaguojamus grafiko įrašų laukus ir įrašyti vartotojo pateikiamas reikšmes į duomenų bazę
@@ -35,7 +35,7 @@ ms.locfileid: "8682766"
 
 ## <a name="audience"></a>Auditorija
 
-Ši tema skirta programuotojams, integruojantiems pasirinktinius laukus į „Microsoft Dynamics 365 Project Timesheet“ mobiliųjų įrenginių programėlę, skirtą „Apple iOS“ ir „Google"Android“. Daroma prielaida, kad skaitytojai yra susipažinę su X++ kūrimu ir projekto grafikų funkcijomis.
+Šis straipsnis skirtas kūrėjams, kurie integruoja savo pasirinktinius laukus į mobiliąją Microsoft Dynamics 365 Project Timesheet programą, kuri yra prieinama "Apple iOS" ir "Google"Android. Daroma prielaida, kad skaitytojai yra susipažinę su X++ kūrimu ir projekto grafikų funkcijomis.
 
 ## <a name="data-contract--tstimesheetcustomfield-x-class"></a>Duomenų sutartis – „TSTimesheetCustomField“ X++ klasė
 
@@ -64,7 +64,7 @@ Ypatybė **FieldBaseType** objekte **TsTimesheetCustom** nustato lauko, kuris ro
 
 - Jei ypatybė **stringOptions** yra pateikta objekte **TSTimesheetCustomField**, šie sąrašo elementai yra vienintelės reikšmės, kurias vartotojai gali pažymėti naudodami parinkčių mygtukus (išrinkimo mygtukus).
 
-    Tokiu atveju eilutės laukas gali veikti kaip išvardijimo reikšmė, skirta vartotojo įrašui. Norėdami įrašyti reikšmę į duomenų bazę kaip išvardijimą, rankiniu būdu (naudodami komandų grandinę) susiekite eilutės reikšmę prieš įrašydami į duomenų bazę (kaip pavyzdį žr. tolesnį šios temos skyrių „TSTimesheetEntryService“ klasės komandų grandinės naudojimas norint įrašyti grafiko įrašą iš programėlės į duomenų bazę“).
+    Tokiu atveju eilutės laukas gali veikti kaip išvardijimo reikšmė, skirta vartotojo įrašui. Norėdami įrašyti reikšmę į duomenų bazę kaip išvardijimą, neautomatiniu būdu susiekite eilutės reikšmę atgal į išvardijimo reikšmę prieš įrašydami į duomenų bazę naudodami komandų grandinę (žr. skyrių "Naudoti komandų grandinę TSTimesheetEntryService klasėje, kad išsaugotumėte tabelio įrašą iš programos atgal į duomenų bazę" vėliau šiame straipsnyje).
 
 ### <a name="fieldextendedtype-tscustomfieldextendedtype"></a>fieldExtendedType (TSCustomFieldExtendedType)
 
@@ -106,7 +106,7 @@ Nustatykite šią ypatybę kaip **Taip**, jei norite, kad laukas grafiko įrašo
 
 ### <a name="stringoptions-list-of-strings"></a>stringOptions (eilučių sąrašas)
 
-Ši ypatybė taikoma tik tada, kai **fieldBaseType** yra nustatytas kaip **Eilutė**. Jei **stringOptions** yra nustatytas, eilutės reikšmės, kurias galima pasirinkti naudojant parinkčių mygtukus (išrinkimo mygtukus), nurodomos sąrašo eilutėmis. Jei nėra jokių eilučių, galima naudoti lauko laisvos formos įrašo eilutės (pavyzdys pateiktas šios temos tolimesniame skyriuje „TSTimesheetEntryService“ klasės komandų grandinės naudojimas norint įrašyti grafiko įrašą iš programėlės atgal į duomenų bazę“).
+Ši ypatybė taikoma tik tada, kai **fieldBaseType** yra nustatytas kaip **Eilutė**. Jei **stringOptions** yra nustatytas, eilutės reikšmės, kurias galima pasirinkti naudojant parinkčių mygtukus (išrinkimo mygtukus), nurodomos sąrašo eilutėmis. Jei eilutės nepateikiamos, leidžiama įvesti laisvos formos tekstą eilutės lauke (žr., pavyzdžiui, skyrių "TSTimesheetEntryService" komandų grandinės komandų grandinė, kad išsaugotumėte tabelio įrašą iš programos atgal į duomenų bazę").
 
 ### <a name="stringlength-int"></a>stringLength (int)
 

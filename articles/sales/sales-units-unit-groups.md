@@ -1,6 +1,6 @@
 ---
 title: Vienetai ir vienetų grupės
-description: Šioje temoje pateikiama informacija, kaip kurti vienetus ir vienetų grupes programoje „Dynamics 365 Project Operations“.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip kurti vienetus ir vienetų grupes programoje Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e0e1339c8fccb52b7471dc49a19be4dfc37be605
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a46b7d182d3d7fc77c1275c108f5dc569ffebff1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578442"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921450"
 ---
 # <a name="units-and-unit-groups"></a>Vienetai ir vienetų grupės
 
@@ -28,7 +28,7 @@ _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems s
 
 Vienetai yra kiekiai arba matavimo vienetai, kuriais skaičiuojami parduodami produktai arba paslaugos. Pavyzdžiui, jeigu parduodate sodo prekes, sėklas galite parduoti pakelių, dėžių arba padėklų vienetais. Vienetų grupė yra šių skirtingų vienetų rinkinys.
 
-Norėdami atlikti veiksmus šioje temoje, įsitikinkite, kad buvote priskirtas sistemos administratoriaus arba pardavimo specialisto vadovui arba turite atitinkamas teises.
+Norėdami atlikti šiame straipsnyje nurodytus veiksmus, įsitikinkite, kad buvote priskirti sistemos administratoriaus arba pardavimų specialisto vadovo vaidmeniui arba turite lygiavertes teises.
 
 ## <a name="create-a-unit-group"></a>Vienetų grupės kūrimas
 

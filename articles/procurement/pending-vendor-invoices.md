@@ -1,18 +1,18 @@
 ---
 title: Nelaikomų medžiagų arba įsigijimo kategorijų pirkimas naudojant laukiančią tiekėjo SF
-description: Šioje temoje paaiškinama, kaip įrašyti laukiančias tiekėjų sąskaitas faktūras.
+description: Šiame straipsnyje paaiškinama, kaip įrašyti laukiančias tiekėjo SF.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e81f7a54e304ae6fc9a9f2637124579b6e7b54e9
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: b1c05755f6759e90e031a11261f15a2c4b6b716e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612667"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922002"
 ---
 # <a name="purchase-non-stocked-materials-or-procurement-categories-using-a-pending-vendor-invoice"></a>Nelaikomų medžiagų arba įsigijimo kategorijų pirkimas naudojant laukiančią tiekėjo SF
 
@@ -23,7 +23,7 @@ Kadangi įmonė įsigyja projekto nelaikomas medžiagas ar pirkimo kategorijas, 
 Pvz., „Contoso Robotics US“ vykdo įrangos atnaujinimo projektą ir nori programinės įrangos licencijų. Šios licencijos įsigyjamos iš trečiosios šalies tiekėjo.  Naudodamasis Dynamics 365 Finance, mokėtinų sumų tarnautojas įrašo laukiantį tiekėjo SF dokumentą ir priskiria licencijos išlaidas tiesiogiai įrangos atnaujinimo projektui. 
 
 > [!IMPORTANT]
-> Prieš naudodami šioje temoje aprašytas funkcijas, peržiūrėkite ir pritaikykite reikiamas konfigūracijas. Daugiau informacijos ieškokite [Enable non-stocked materials and waiting waiting vendor SF](configure-materials-nonstocked.md) ir [Use procurement categories with project purchase orders and waiting vendor SF](configure-procurement-categories.md)
+> Prieš naudodami šiame straipsnyje aprašytas funkcijas, peržiūrėkite ir taikykite reikiamas konfigūracijas. Daugiau informacijos ieškokite [Enable non-stocked materials and waiting waiting vendor SF](configure-materials-nonstocked.md) ir [Use procurement categories with project purchase orders and waiting vendor SF](configure-procurement-categories.md)
 
 ## <a name="post-a-project-related-pending-vendor-invoice"></a>Su projektu susijusios laukiančios tiekėjo sąskaitos faktūros registravimas 
 

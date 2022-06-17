@@ -1,28 +1,28 @@
 ---
 title: Projekto grafiko API efektyvumas
-description: Šioje temoje pateikiama informacija apie projekto grafiko API efektyvumo sąlyginius etalonus ir nustatoma optimalaus naudojimo geriausia praktika.
+description: Šiame straipsnyje pateikiama informacija apie projekto tvarkaraščio API veiklos rezultatų lyginamuosius standartus ir nustatoma geriausia optimalaus naudojimo praktika.
 author: ruhercul
 ms.date: 11/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3c14d27c561a86cd359cbdcbb448ae764dd3d90e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1ee1bd8e4412ee1d10f445628c5dc87cc9fa91d3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593852"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911192"
 ---
 # <a name="project-schedule-api-performance"></a>Projekto grafiko API efektyvumas
 
 _**Taikoma:** „Project Operations“ ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams, „Lite“ visuotinis diegimas – sąskaitų faktūrų išrašymo sandoris, „Project for the web“_
 
-Šioje temoje pateikiama informacija apie projekto grafiko programų kūrimo sąsajas (API) efektyvumo sąlyginius etalonus ir nustatoma optimalaus naudojimo geriausia praktika.
+Šiame straipsnyje pateikiama informacija apie projekto tvarkaraščio taikomųjų programų programavimo sąsajų (API) našumo lyginamuosius standartus ir nurodoma geriausia naudojimo optimizavimo praktika.
 
 ## <a name="project-scheduling-service"></a>Projektų planavimo tarnyba
 Projektų planavimo tarnyba yra kelių nuomotojų aptarnavimas, vykdomas „Microsoft Azure”. Ji skirta sąveikai pagerinti, teikiant vartotojams greitas ir sklandžias darbo su projektais funkcijas. Šis patobulinimas pasiekiamas priimant keitimo užklausas, jas apdorojant ir nedelsiant pateikiant rezultatą. Aptarnavimas asinchroniškai išlieka „Dataverse” ir neblokuoja vartotojų leisdamas atlikti kitas operacijas.
 
-Projekto grafiko API, vykdydamos užklausas, aprašytas toliau šios temos skyriuose, priklauso nuo projektų planavimo tarnybos.
+Projekto tvarkaraščio API remiasi projektų planavimo tarnyba, kad galėtų vykdyti užklausas, kurios išsamiau aprašytos vėlesnėse šio straipsnio dalyse.
 
 Projekto grafiko API skirtos dirbti su toliau nurodytais darbo paskirstymo struktūros (WBS) objektais.
 

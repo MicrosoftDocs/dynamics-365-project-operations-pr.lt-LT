@@ -1,23 +1,23 @@
 ---
 title: Užbaigimo išlaidų apskaičiavimo metodai
-description: Šioje temoje pateikta informacija apie metodus, naudojamus norint apskaičiuoti išlaidas projektui užbaigti.
+description: Šiame straipsnyje pateikiama informacija apie metodus, naudojamus projekto užbaigimo išlaidoms apskaičiuoti.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 244afa919e5fbc16be8f905acce2e2354c7da974
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 39c10673afd04ad7d4a94a01211c2f9d335a02c2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601672"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920300"
 ---
 # <a name="cost-to-complete-methods"></a>Užbaigimo išlaidų apskaičiavimo metodai
 
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
-Šioje temoje pateikta informacija apie metodus, naudojamus norint apskaičiuoti išlaidas projektui užbaigti. Yra keli metodai, kuriuos galite naudoti projekto užbaigimo išlaidoms apskaičiuoti. 
+Šiame straipsnyje pateikiama informacija apie metodus, naudojamus projekto užbaigimo išlaidoms apskaičiuoti. Yra keli metodai, kuriuos galite naudoti projekto užbaigimo išlaidoms apskaičiuoti. 
 
 Kurdami projekto įvertinimą, puslapyje **Kurti įvertinimą**, lauke **Baigimo metodo išlaidos**, galite pasirinkti vienas iš toliau nurodytų metodų užbaigimo išlaidoms apskaičiuoti.
 

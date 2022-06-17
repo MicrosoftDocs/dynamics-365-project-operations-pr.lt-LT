@@ -1,24 +1,24 @@
 ---
 title: Kas nauja „Project Operations“ „Lite“ visuotinio diegimo 2021 m. 2 bangos išankstinės prieigos leidime
-description: Šioje temoje pateikiama informacija apie funkcijas, kurias galima rasti „Project Operations“ „Lite“ visuotinio diegimo 2021 m. 2 bangos išankstinės prieigos leidime.
+description: Šiame straipsnyje pateikiama informacija apie funkcijas, kurias galima rasti 2021 m. "Project Operations lite" diegimo 2 bangos ankstyvos prieigos leidime.
 author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7b5f3528e4b4e615b8e7f24bfd3702746fd584c9
-ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
+ms.openlocfilehash: d245868c8bd9ff332707a81c074d6c7ae3649378
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723686"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924118"
 ---
 # <a name="whats-new-2021-wave-2-early-access---project-operations-lite-deployment"></a>Kas nauja „Project Operations“ „Lite“ visuotinio diegimo 2021 m. 2 bangos išankstinės prieigos leidime
 
 _Taikoma (kam): „Lite“ visuotiniam diegimui – sandoris į išankstinės sąskaitos faktūros kūrimą_
 
-Ši tema taikoma toliau nurodytiems „Dynamics 365 Project Operations“ komponentams ir versijoms:
+Šis straipsnis taikomas šiems Dynamics 365 Project Operations komponentams ir versijoms:
 
   - „Project Operations“, esanti „Dataverse“ aplinkoje, 4.23.0.4 versija
 

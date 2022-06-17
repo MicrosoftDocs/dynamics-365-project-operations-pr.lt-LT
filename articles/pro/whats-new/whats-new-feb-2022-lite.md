@@ -1,24 +1,24 @@
 ---
 title: Kas naujo 2022 m. vasario mėn. – „Project Operations“ „Lite“ visuotinis diegimas
-description: Šioje temoje pateikiama informacija apie kokybės naujinimus, kuriuos galima rasti 2022 m. vasario mėn.
+description: Šiame straipsnyje pateikiama informacija apie kokybės atnaujinimus, kuriuos galima rasti 2022 m. vasario mėn.
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: af66a5f61adf4f016f3fa547bbdfc75d06b2711b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1203faa2dd53a8fb82cff0857a1725426ebff19a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574578"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922830"
 ---
 # <a name="whats-new-february-2022---project-operations-lite-deployment"></a>Kas naujo 2022 m. vasario mėn. – „Project Operations“ „Lite“ visuotinis diegimas
 
 _Taikoma (kam): „Lite“ visuotiniam diegimui – sandoris į išankstinės sąskaitos faktūros kūrimą_
 
-Ši tema taikoma šiems "Microsoft" Dynamics 365 Project Operations komponentams ir versijoms:
+Šis straipsnis taikomas šiems "Microsoft" Dynamics 365 Project Operations komponentams ir versijoms:
 
 - Projekto operacijos aplinkos versijoje Dataverse 4.28.0.120
 
@@ -31,7 +31,7 @@ Nuo šio leidimo į vieną projektą galite įtraukti iki 300 komandos narių. A
 | Funkcijų sritis | Nuorodos numeris | Kokybės naujinimas |
 | --- | --- | --- |
 | Sąskaitų siuntimas ir kainodara | 2497369 | Medžiagų taisymas turi atitikti datos reikšmę parametruose **Taisymas**. |
-| Sąskaitų siuntimas ir kainodara | 2498697 | Patobulinta laiko įrašo atšaukimo **saugos** konfigūracija. |
+| Sąskaitų siuntimas ir kainodara | 2498697 | Patobulinta laiko įrašo atšaukimo **saugos konfigūracija**. |
 | Sąskaitų siuntimas ir kainodara | 2517455 | Negalima **leisti, kad veiksmo Atnaujintos SF eilutės operacijos** būtų suaktyvintas kelis kartus vienu metu toje pačioje SF. |
 | Sąskaitų siuntimas ir kainodara | 2517465 | Veiksmas **Išjungti SF eilutės informaciją** užblokuotas, nes jis nepalaikomas. |
 | Sąskaitų siuntimas ir kainodara | 2556660 | Fiksavo datos efektyvumo patikrinimus, atliktus kainoraštyje, pridėtame prie projekto parametrų įrašo. |

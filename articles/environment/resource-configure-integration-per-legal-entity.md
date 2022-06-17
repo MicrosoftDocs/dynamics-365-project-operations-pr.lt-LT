@@ -1,23 +1,23 @@
 ---
 title: „Project Operations“ integracijos konfigūravimas juridiniam subjektui
-description: Šioje temoje pateikta informacija apie juridinio subjekto integracijos nustatymą naudojant „Project Operations“.
+description: Šiame straipsnyje pateikiama informacija apie juridinio subjekto integravimo į projekto operacijas nustatymą.
 author: sigitac
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 64606a20a49fd8e9602b6ac3c1ab1880796eb128
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3f33e641ee0932655282618c99a26e2603660059
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585848"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914688"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>„Project Operations“ integracijos konfigūravimas juridiniam subjektui 
 
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
-Šioje temoje pateikti kiekvienam juridiniam subjektui konfigūruoti „Dynamics 365 Project Operations“ būtini žingsniai.
+Šiame straipsnyje pateikiami veiksmai, kurių reikia norint konfigūruoti Dynamics 365 Project Operations kiekvieną juridinį subjektą.
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Įgalinti priemonių raktus Dynamics 365 Finance
 

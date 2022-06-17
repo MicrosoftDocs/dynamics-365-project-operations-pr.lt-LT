@@ -1,25 +1,25 @@
 ---
 title: Trikčių diagnostika dirbant su užduoties tinkleliu
-description: Šioje temoje pateikta trikčių diagnostikos informacija, būtina dirbant su užduočių tinkleliu.
+description: Šiame straipsnyje pateikiama trikčių šalinimo informacija, reikalinga dirbant užduočių tinklelyje.
 author: ruhercul
 ms.date: 04/05/2022
 ms.topic: article
 ms.product: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: ee80363cf6f9a65a91be43a84434d37f02511f26
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e6ab4f34fe3f6732f7bef252f298671e07a3c3ca
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596428"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911054"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Trikčių diagnostika dirbant su užduoties tinkleliu 
 
 
 _**Taikoma:** „Project Operations“ ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams, „Lite“ visuotinis diegimas – sąskaitų faktūrų išrašymo sandoris, „Project for the web“_
 
-Užduočių tinklelis, kurį naudoja „Dynamics 365 Project Operations, yra nuomojamas „iframe“, esantis „Microsoft Dataverse“. Dėl tokio naudojimo turi būti įvykdyti konkretūs reikalavimai, kad būtų užtikrintas tinkamas autentifikavimo ir autorizavimo veikimas. Šioje temoje aprašomos dažniausiai pasitaikančios problemos, kurios gali turėti įtakos tinklelio atvaizdavimui ar užduočių valdymui darbo paskirstymo struktūroje (WBS).
+Užduočių tinklelis, kurį naudoja „Dynamics 365 Project Operations, yra nuomojamas „iframe“, esantis „Microsoft Dataverse“. Dėl tokio naudojimo turi būti įvykdyti konkretūs reikalavimai, kad būtų užtikrintas tinkamas autentifikavimo ir autorizavimo veikimas. Šiame straipsnyje aprašomos bendros problemos, kurios gali turėti įtakos gebėjimui atvaizduoti tinklelį arba valdyti užduotis darbo paskirstymo struktūroje (WBS).
 
 Dažniausiai pasitaikančios problemos:
 

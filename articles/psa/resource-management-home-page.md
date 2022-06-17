@@ -1,6 +1,6 @@
 ---
 title: Išteklių valdymo pagrindinis puslapis
-description: Šioje temoje pateikiama informacija apie tai, kaip valdyti išteklius.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip valdyti išteklius.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1d909b0cb3530b5f1a829983d2d4737d81bf0d1b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bf61922ab185a4a5589b9aa9247ab93909ce169b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578764"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913262"
 ---
 # <a name="resource-management-home-page"></a>Išteklių valdymo pagrindinis puslapis
 
@@ -31,9 +31,9 @@ ms.locfileid: "8578764"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Ištekliai yra svarbiausias paslaugomis pagrįstas organizacijos turtas. Turėdama galimybę rasti ir rezervuoti reikiamus išteklius, kai jų reikia, bei juos panaudoti, organizacija gali siekti pajamų ir klientų pasitenkinimo tikslų. Toliau nurodytos temos skirtos Dynamics 365 Project Service Automation išteklių valdymo galimybėms:
+Ištekliai yra svarbiausias paslaugomis pagrįstas organizacijos turtas. Turėdama galimybę rasti ir rezervuoti reikiamus išteklius, kai jų reikia, bei juos panaudoti, organizacija gali siekti pajamų ir klientų pasitenkinimo tikslų. Šiuose straipsniuose daugiausia dėmesio skiriama išteklių valdymo galimybėms Dynamics 365 Project Service Automation:
 
-- [Tvarkyti išteklius](manage-resources.md)
+- [Išteklių tvarkymas](manage-resources.md)
 - [Pagrindinės sąvokos](reports-key-concepts.md)
 - [Išteklių užklausų įvykdymas](resource-management-fulfill-requests.md)
 - [Išteklių siūlymas](resource-management-propose-resources.md)

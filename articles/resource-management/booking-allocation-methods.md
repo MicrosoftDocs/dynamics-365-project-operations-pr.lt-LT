@@ -1,6 +1,6 @@
 ---
 title: Rezervavimo paskirstymo metodai
-description: Šioje temoje pateikta informacija apie tai, kaip rezervavimo priskyrimo metodai veikia „Project Operations“.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip užsakymo paskirstymo metodai veikia "Project Operations".
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: db3cb98227343465af1cf6a447ec9c5d6bdd13ff
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 55bf54ada3150bb42d1d47046ddc7e3a1fd8d192
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583042"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912756"
 ---
 # <a name="booking-allocation-methods"></a>Rezervavimo paskirstymo metodai
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
-Nesvarbu, ar komandos narį į projektą įtraukiate tiesiogiai skirtuke **Komanda**, ar rezervuojate išteklių projekte arba reikalavimą iš grafikos lentos, yra keli skirtingi paskirstymo metodai, kuriuos galite panaudoti. Šioje temoje paaiškinama, kaip veikia kiekvienas metodas ir kurių metodų taikymas gali tapti resursų per didelio kiekio rezervavimo priežastimi.
+Nesvarbu, ar komandos narį į projektą įtraukiate tiesiogiai skirtuke **Komanda**, ar rezervuojate išteklių projekte arba reikalavimą iš grafikos lentos, yra keli skirtingi paskirstymo metodai, kuriuos galite panaudoti. Šiame straipsnyje paaiškinama, kaip veikia kiekvienas metodas ir kokie metodai gali lemti išteklių perviršį.
 
 ## <a name="booking-allocation-methods"></a>Rezervavimo paskirstymo metodai
 

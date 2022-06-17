@@ -1,6 +1,6 @@
 ---
 title: Pasiūlymai – pagrindinės sąvokos
-description: Šioje temoje pateikta informacija apie projektų ir pardavimų pasiūlymus, prieinamus programoje „Project Operations“.
+description: Šiame straipsnyje pateikiama informacija apie projekto pasiūlymus ir pardavimo pasiūlymus, pasiekiamus programoje "Project Operations".
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: fbaed6a0967ce4ef4eec572de9e2a7da95c3cbd9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c0598b9ec276741f1f62e0cfc1717a3fd622cd7c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579928"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912526"
 ---
 # <a name="concepts-unique-to-project-based-quotes"></a>Unikalios projektu pagrįstų pasiūlymų sąvokos
 
@@ -35,7 +35,7 @@ Programoje „Dynamics 365 Project Operations“ naudojami dviejų tipų pasiūl
 - **Laukai ir sąvokos** – pardavimo pasiūlyme nėra kai kurių laukų ir sąvokų, įtrauktų į projekto pasiūlymą. Šie laukai yra **Sutartį pasirašantis vienetas**, **Klientų vadybininkas** ir **Sąskaitų gavėjo kontakto vardas**.  
 - **Tipas** – pardavimo pasiūlymai ir projekto pasiūlymai taip pat identifikuojami pagal parinkčių rinkiniu grindžiamą lauką **Tipas**. Pardavimo pasiūlyme šio lauko reikšmė yra **Pagrįstas prekėmis**. Projekto pasiūlyme jo reikšmė yra **Pagrįstas darbais**.
 
-Šioje temoje pagrindinis dėmesys skiriamas projekto pasiūlymų informacijai.
+Šiame straipsnyje daugiausia dėmesio skiriama projekto pasiūlymų detalėms.
 
 „Project Operations“ projekto pasiūlyme gali būti keli eilučių elementai arba pasiūlymo eilutės. Faktiškai projekto pasiūlyme yra du eilučių elementų tinkleliai. Vienas tinklelis skirtas projektu pagrįstoms eilutėms, kurias galima išsamiai įvertinti. Kitas tinklelis skirtas produktu pagrįstoms eilutėms, kurioms naudojamas tiesiog vieneto kaina ir kiekiu pagrįstas metodas.
 

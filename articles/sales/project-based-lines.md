@@ -1,17 +1,17 @@
 ---
 title: Projektu pagrįstos galimybių eilutės
-description: Šioje temoje pateikta informacija, kaip dirbti su projektu pagrįstomis galimybių eilutėmis.
+description: Šiame straipsnyje pateikiama informacija apie darbą su projektu pagrįstomis galimybių eilutėmis.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: cceb175210f7b597d682e9e4e910c79280211293
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f4b8d80a7e3ec06c4089d7c5c32fdb41ac86fb76
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600936"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918276"
 ---
 # <a name="project-based-opportunity-lines"></a>Projektu pagrįstos galimybių eilutės
 

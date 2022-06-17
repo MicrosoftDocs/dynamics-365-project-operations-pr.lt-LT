@@ -1,17 +1,17 @@
 ---
 title: Operacijos kategorijos kaip kainodaros dimensijos naudojimas
-description: Šioje temoje pateikiama informacijos, kaip operacijos kategorijos lauką naudoti kaip kainodaros dimensiją.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip naudoti lauką Operacijos kategorija kaip kainodaros dimensiją.
 author: rumant
 ms.date: 11/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a7fe9bfc87db992252f8ef3f0f688e7426cafebb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 648933299616a683b19bbe2f1231caac779bd1f8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591138"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911704"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Operacijos kategorijos kaip kainodaros dimensijos naudojimas
 
@@ -19,10 +19,10 @@ ms.locfileid: "8591138"
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
 
-Šioje temoje paaiškinta, kaip naudoti lauką **Operacijos kategorija** kaip kainodaros dimensiją. 
+Šiame straipsnyje paaiškinama, kaip naudoti **lauką Operacijos kategorija** kaip kainodaros dimensiją. 
 
 ## <a name="prerequisites"></a>Būtinosios sąlygos
-Kad galėtumėte atlikti šioje temoje nurodytus veiksmus, turite turėti naują savo organizacijos kainodaros dimensijos sprendimą. Jei dar jo nesukūrėte, žr. [Pasirinktinių laukų ir objektų kaip kainodaros dimensijų kūrimas](create-custom-fields-entities-pricing-dimensions.md).
+Prieš atlikdami šiame straipsnyje pateiktas procedūras, turite turėti naują savo organizacijos kainodaros dimensijos sprendimą. Jei dar jo nesukūrėte, žr. [Pasirinktinių laukų ir objektų kaip kainodaros dimensijų kūrimas](create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-transaction-category-field-to-forms-and-views"></a>Operacijos kategorijos lauko įtraukimas į formas ir rodinius
 Jei norite, kad laukas **Operacijos kategorija** būtų rodomas kainodaros dimensijos sprendime, reikia pridėti lauką prie visų formų ir rodinių kaip objektą.

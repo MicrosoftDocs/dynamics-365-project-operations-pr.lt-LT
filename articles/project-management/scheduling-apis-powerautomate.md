@@ -1,25 +1,25 @@
 ---
-title: Naudoti projekto grafiko API su Power Automate
-description: Šioje temoje pateikiamas pavyzdinis srautas, kuriame naudojamos projekto tvarkaraščio programų programavimo sąsajos (API).
+title: Projekto grafiko API naudojimas su „Power Automate“
+description: Šiame straipsnyje pateikiamas pavyzdinis srautas, kuriame naudojamos projekto tvarkaraščio programų programavimo sąsajos (API).
 author: ruhercul
 ms.date: 01/26/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 9708226b0955cfa6c405b9616c14765f9ebc21f7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2527375ff3f3d631f3bb3de1458abb3b8838db54
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597716"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916344"
 ---
-# <a name="use-project-schedule-apis-with-power-automate"></a>Naudoti projekto grafiko API su Power Automate
+# <a name="use-project-schedule-apis-with-power-automate"></a>Projekto grafiko API naudojimas su „Power Automate“
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
-Šioje temoje aprašomas srauto pavyzdys, rodantis, kaip sukurti visą projekto planą naudojant Microsoft Power Automate, kaip sukurti operacijų rinkinį ir kaip atnaujinti objektą. Pavyzdyje parodyta, kaip sukurti projektą, projekto komandos narį, operacijų rinkinius, projekto užduotis ir išteklių priskyrimus. Šioje temoje taip pat paaiškinama, kaip atnaujinti objektą ir vykdyti operacijų rinkinį.
+Šiame straipsnyje aprašomas srauto pavyzdys, rodantis, kaip sukurti visą projekto planą naudojant Microsoft Power Automate, kaip sukurti operacijų rinkinį ir kaip atnaujinti objektą. Pavyzdyje parodyta, kaip sukurti projektą, projekto komandos narį, operacijų rinkinius, projekto užduotis ir išteklių priskyrimus. Šiame straipsnyje taip pat paaiškinama, kaip atnaujinti objektą ir vykdyti operacijų rinkinį.
 
-Toliau pateikiamas išsamus veiksmų, kurie yra dokumentuoti šios temos imties sraute, sąrašas:
+Toliau pateikiamas išsamus veiksmų, kurie yra dokumentuoti šio straipsnio imties sraute, sąrašas:
 
 1. [Trigerio PowerApps kūrimas](#1)
 2. [Projekto kūrimas](#2)
@@ -40,7 +40,7 @@ Toliau pateikiamas išsamus veiksmų, kurie yra dokumentuoti šios temos imties 
 
 ## <a name="assumptions"></a>Prielaidos
 
-Šioje temoje daroma prielaida, kad turite pagrindinių žinių apie platformą Dataverse, debesies srautus ir projekto tvarkaraščio programų programavimo sąsają (API). Daugiau informacijos ieškokite tolesnės [temos skyriuje Nuorodos](#references).
+Šiame straipsnyje daroma prielaida, kad turite pagrindinių žinių apie platformą Dataverse, debesies srautus ir projekto tvarkaraščio programų programavimo sąsają (API). Daugiau informacijos rasite [šio straipsnio skyriuje Nuorodos](#references).
 
 ## <a name="create-a-flow"></a>Kurti srautą
 
@@ -65,7 +65,7 @@ Atlikite šiuos veiksmus, kad sukurtumėte [sprendimą suprantantį srautą](/po
 1. **Puslapyje Sprendimai** pasirinkite sukurtą sprendimą, tada pasirinkite **Naujas**.
 2. Kairiojoje srityje pasirinkite **Debesies srautai** \> **Automation** \> **Cloud flow** \> **Instant.**
 3. Lauke **Srauto pavadinimas** įveskite **Planuoti API demonstracinį srautą**.
-4. **Dalyje Pasirinkti, kaip suaktyvinti šį srautą**, pasirinkite **Power Apps**. Kai sukuriate trigerį Power Apps, logika priklauso nuo jūsų, kaip autoriaus. Šioje temoje palikite įvesties parametrus tuščius bandymų tikslais.
+4. **Dalyje Pasirinkti, kaip suaktyvinti šį srautą**, pasirinkite **Power Apps**. Kai sukuriate trigerį Power Apps, logika priklauso nuo jūsų, kaip autoriaus. Šiame straipsnyje palikite įvesties parametrus tuščius bandymų tikslais.
 5. Pasirinkite **Kurti**.
 
 ## <a name="step-2-create-a-project"></a><a id="2"></a>2 veiksmas. Sukurkite projektą

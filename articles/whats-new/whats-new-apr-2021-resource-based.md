@@ -1,24 +1,24 @@
 ---
 title: Kas nauja 2021 m. balandžio mėn. – „Project Operations“, skirtai ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams
-description: Šioje temoje pateikiama informacija apie kokybės naujinimus, pasiekiamus 2021 m. balandžio mėn. „Project Operations“, skirtoje ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams.
+description: Šiame straipsnyje pateikiama informacija apie kokybės atnaujinimus, kuriuos galima rasti 2021 m. balandžio mėn.
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 07622ed798fd8d70e0ce5cc42297bd5056402474
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a060bdc4e4c9f37ec666b1cf4d078986ad1571db
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589114"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912434"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Kas nauja 2021 m. balandžio mėn. – „Project Operations“, skirtai ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams
 
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
-Ši tema taikoma toliau nurodytiems „Dynamics 365 Project Operations“ komponentams ir versijoms:
+Šis straipsnis taikomas šiems Dynamics 365 Project Operations komponentams ir versijoms:
 
 - „Project Operations“, esanti „Dataverse“ aplinkoje, 4.9.0.221 versija
 - Projektų valdymas ir apskaita Dynamics 365 Finance aplinkoje 10.0.17 versija

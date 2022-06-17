@@ -1,22 +1,22 @@
 ---
 title: Projekto sąskaitų faktūrų integravimas
-description: Šioje temoje pateikiama informacijos apie „Project Operations“ dvigubo rašymo integravimą klientų sąskaitoms faktūroms teikti.
+description: Šiame straipsnyje pateikiama informacija apie "Project Operations" dvigubo rašymo integravimą kliento SF išrašymui.
 author: sigitac
 ms.date: 04/26/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1e7294360f041b030efca225c6754fe3bbc0eadf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5ee2d78f1ca1d78f6909d9995a92ac301f06d6a6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581248"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912112"
 ---
 # <a name="project-invoice-integration"></a>Projekto sąskaitų faktūrų integravimas
 
-Šioje temoje pateikiama informacijos apie „Project Operations“ dvigubo rašymo integravimą klientų sąskaitoms faktūroms teikti.
+Šiame straipsnyje pateikiama informacija apie "Project Operations" dvigubo rašymo integravimą kliento SF išrašymui.
 
 Naudodamas „Project Operations“ projektų vadovas tvarko nebaigtas projektų atsiskaitymo užduotis ir sprendime „Microsoft Dataverse“ klientui sukuria išankstinę sąskaitą faktūrą. Pagal šią išankstinę sąskaitą faktūrą gautinų sumų klerkas arba projekto buhalteris sukuria klientui skirtą sąskaitą faktūrą. Dvigubo rašymo integravimas užtikrina, kad proforma sąskaitos faktūros informacija būtų sinchronizuojama su "Finance and Operations" programomis. Kai klientui skirta sąskaita faktūra užregistruojama, sistema atitinkamo projekto faktinius duomenis sprendime „Dataverse“ atnaujina išsamia apskaitos informacija. Toliau pateiktame grafiniame elemente pateikiama aukšto lygio konceptuali šio integravimo apžvalga.
 

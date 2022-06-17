@@ -1,23 +1,23 @@
 ---
 title: „Azure“ prenumeratos įtraukimas į LCS projektą
-description: Šioje temoje pateikta informacija apie tai, kaip prijungti „Azure“ prenumeratą prie LCS projekto.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip prijungti "Azure" prenumeratą prie LCS projekto.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 839c510838b0bccb718b8ca8a4f71a1c46e7ea3f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 64ee8cfa7394a08c3d588c0e8f4a73185d9496cf
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595922"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912158"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>„Azure“ prenumeratos įtraukimas į LCS projektą
 
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
-Naudojant esamą „Azure“ prenumeratą būtina įdiegti debesyje esančią aplinką. Šioje temoje paaiškinta, kaip prijungti esamą „Azure“ prenumeratą prie LCS projekto. 
+Naudojant esamą „Azure“ prenumeratą būtina įdiegti debesyje esančią aplinką. Šiame straipsnyje paaiškinama, kaip prijungti esamą "Azure" prenumeratą prie LCS projekto. 
 
 ## <a name="grant-admin-consent"></a>Administratoriaus sutikimo davimas
 
@@ -59,7 +59,7 @@ Dabar autorizavimas baigtas.
 2. Įveskite savo „Azure“ prenumeratos ID. Savo „Azure“ prenumeratos ID galite rasti [„Azure“ portale](https://ms.portal.azure.com/) dalyje **Parametrai** apatiniame kairiajame ekrano kampe.
 3. Lauke **Konfigūruoti naudoti „Azure Resource Manager“** pasirinkite **Taip**.
 4. Įsitikinkite, kad „Azure“ prenumeratos AAD nuomotojo domenas atitinka domeno „Azure“ prenumeratą, kurią naudojate, ir pažymėkite **Kitas**.
-5. Ekrane **„Microsoft Azure“ sąranka** pasirinkite **Kitas**, kad patvirtintumėte. Jei šiame ekrane įvyksta klaida, grįžkite į skyrių [„Dynamics Deployment Services“ prieigos prie jūsų „Azure“ prenumeratos suteikimas](#provide)ir įsitikinkite, kad atlikote visus veiksmus.
+5. Ekrane **„Microsoft Azure“ sąranka** pasirinkite **Kitas**, kad patvirtintumėte. Jei šiame ekrane gaunate klaidą, grįžkite į šiame straipsnyje pateiktą skyrių ["Dynamics" diegimo tarnybų prieigos prie "Azure" prenumeratos](#provide) suteikimas ir įsitikinkite, kad atlikote visus veiksmus.
 6. Į vietinį aplanką savo kompiuteryje atsisiųskite „Azure“ tvarkymo sertifikatą. Paprašykite savo „Azure“ prenumeratos administratoriaus sertifikatą nusiųsti į „Azure“ tvarkymo portalą (reikia pasirinkti prenumeratą ir nueiti į **Parametrai** > **Tvarkymo sertifikatai**). Šis sertifikatas leidžia LCS palaikyti ryšį su „Azure“ jūsų vardu. Šį veiksmą galite praleisti, jei jūsų vartotojas turi prieigą prie prenumeratos.
 7. Pasirinkite **Toliau**.
 8. Pažymėkite „Azure“ regioną, skirtą visuotinai diegti, ir pasirinkite duomenų centrą, esantį netoli tos sistemos, kurią ketinate naudoti.

@@ -1,24 +1,24 @@
 ---
 title: „Project Operations“ sąrankos ir konfigūracijos duomenų integravimas
-description: Šioje temoje pateikiama informacijos apie „Project Operations“ dvigubo rašymo schemų nustatymą ir konfigūravimą.
+description: Šiame straipsnyje pateikiama informacija apie "Project Operations" dvigubo rašymo žemėlapių nustatymą ir konfigūravimą.
 author: sigitac
 ms.date: 4/23/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1ffa25ff36c39010d6aee31d928c3eaa0086c3d8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 173ff01e938af48d2d6488d5e59cf4e74b3af8e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586906"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914550"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>„Project Operations“ sąrankos ir konfigūracijos duomenų integravimas
 
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
-Šioje temoje pateikiama informacijos apie „Project Operations“ sąrankos ir konfigūracijos objektų dvigubo rašymo integravimą.
+Šiame straipsnyje pateikiama informacija apie "Project Operations" dvigubo rašymo integravimą sąrankos ir konfigūravimo objektams.
 
 ## <a name="project-contracts-contract-lines-and-projects"></a>Projektų sutartys, sutarčių eilutės ir projektai
 

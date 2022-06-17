@@ -1,6 +1,6 @@
 ---
 title: Vidinės įmonės projekto SF išrašymo konfigūravimas
-description: Šioje temoje parodyta, kaip nustatyti projekto SF išrašymą tarp dviejų jūsų organizacijos įmonių.
+description: Šiame straipsnyje parodyta, kaip nustatyti projekto SF išrašymą tarp dviejų jūsų organizacijos įmonių.
 author: Yowelle
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab0d1eb2806d2e1650faccf3fbb63c63c0fa9e05
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 74548a4c30ceb6826e5280948f6829e567bc02e0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683285"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916620"
 ---
 # <a name="configure-intercompany-project-invoicing"></a>Vidinės įmonės projekto SF išrašymo konfigūravimas
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje parodyta, kaip nustatyti projekto SF išrašymą tarp dviejų jūsų organizacijos įmonių. Šiai užduočiai atlikti naudojamas USSI duomenų rinkinys.
+Šiame straipsnyje parodyta, kaip nustatyti projekto SF išrašymą tarp dviejų jūsų organizacijos įmonių. Šiai užduočiai atlikti naudojamas USSI duomenų rinkinys.
 
 1. Naršymo srityje eikite į **Moduliai > Mokėtinos sumos > Tiekėjai > Visi tiekėjai**.
 2. Sąraše **Visi teikėjai** raskite ir pažymėkite norimą įrašą.

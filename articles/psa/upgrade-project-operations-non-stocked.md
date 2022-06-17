@@ -1,6 +1,6 @@
 ---
 title: Atnaujinimas iš "Project Service Automation" į "Project Operations"
-description: Šioje temoje apžvelgiamas procesas, kurį reikia atnaujinti iš Microsoft Dynamics 365 Project Service Automation į Dynamics 365 Project Operations.
+description: Šiame straipsnyje pateikiama proceso, kurį reikia atnaujinti iš Microsoft Dynamics 365 Project Service Automation į Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/13/2022
@@ -16,16 +16,16 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 3f31173197a3055cdc51567261dd91925fc9f430
-ms.sourcegitcommit: bec7382d1319d59645e8e79fdb20df58617c97c6
+ms.openlocfilehash: 30eb02240de6617d4c550ce59db2a454eee36f5b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8626741"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912986"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Atnaujinimas iš "Project Service Automation" į "Project Operations"
 
-Džiaugiamės galėdami pranešti apie pirmąjį iš trijų etapų, kuriuos reikia atnaujinti nuo Microsoft Dynamics 365 Project Service Automation iki Dynamics 365 Project Operations. Ši tema suteikia apžvalgą klientams, kurie pradeda šią įdomią kelionę. Būsimos temos apims kūrėjų svarstymus ir išsamią informaciją apie funkcijų patobulinimus. Jie ne tik pateiks gaires, kurios padės jums pasiruošti "Project Operations" atnaujinimui, bet ir paaiškins, ko galite tikėtis atnaujinę.
+Džiaugiamės galėdami pranešti apie pirmąjį iš trijų etapų, kuriuos reikia atnaujinti nuo Microsoft Dynamics 365 Project Service Automation iki Dynamics 365 Project Operations. Šiame straipsnyje pateikiama apžvalga klientams, kurie pradeda šią įdomią kelionę. Būsimuose straipsniuose bus įtraukti kūrėjų svarstymai ir išsami informacija apie funkcijų patobulinimus. Jie ne tik pateiks gaires, kurios padės jums pasiruošti "Project Operations" atnaujinimui, bet ir paaiškins, ko galite tikėtis atnaujinę.
 
 Atnaujinimo pristatymo programa bus suskirstyta į tris etapus.
 
@@ -90,7 +90,7 @@ Atnaujinę tinkinimus, kad būtų galima švariai importuoti "Project Operations
     > [!NOTE]
     > Atsižvelgiant į duomenų kiekį aplinkoje, atnaujinimas gali užtrukti kelias valandas. Pagrindinė komanda, valdanti atnaujinimą, turėtų atitinkamai planuoti ir vykdyti atnaujinimą ne darbo valandomis. Kai kuriais atvejais, jei duomenų apimtis yra didelė, atnaujinimas turėtų būti vykdomas savaitgalį. Sprendimas dėl tvarkaraščio turėtų būti grindžiamas bandymų rezultatais žemesnėje aplinkoje.
 
-3. Jei reikia, atnaujinkite pasirinktinius sprendimus. Šiuo metu įdiekite visus tinkinimų pakeitimus [šios temos skyriuje Tinkinimų](#testing-and-refactoring-customizations) testavimas ir tikslinimas.
+3. Jei reikia, atnaujinkite pasirinktinius sprendimus. Šiuo metu įdiekite visus tinkinimų pakeitimus [šio straipsnio skyriuje Tinkinimų](#testing-and-refactoring-customizations) testavimas ir pertvarkymas.
 4. Eikite į **Parametrų** \> **sprendimai** ir pasirinkite, kad pašalintumėte **"Project Operations" nebenaudojamų komponentų** sprendimą.
 
     Šis sprendimas yra laikinas sprendimas, kuriame saugomas esamas duomenų modelis ir komponentai, esantys atnaujinimo metu. Pašalinę šį sprendimą, pašalinate visus nebenaudojamus laukus ir komponentus. Tokiu būdu padedate supaprastinti sąsają ir palengvinti integraciją bei išplėtimą.
@@ -126,7 +126,6 @@ Tęsiant investicijas į projektų operacijas, atsiskaitymo ir kainodaros srityj
 | Project Service Automation                             | Projekto operacijos Lite diegimas                        | Palaikomas               |
 | Dynamics 365 Finance projektų valdymas ir apskaita | Projekto operacijos Lite diegimas                        | Šiuo metu nepalaikomas |
 | Finansų projektų valdymas ir apskaita              | „Project Operations“, skirta išteklių / nelaikomų medžiagų scenarijams     | Šiuo metu nepalaikomas |
-| Finansų projektų valdymas ir apskaita              | „Project Operations“, skirta laikomų medžiagų / gamybos užsakymo scenarijams | Šiuo metu nepalaikomas |
 | Projekto paslaugų automatizavimas 3.x                         | „Project Operations“, skirta išteklių / nelaikomų medžiagų scenarijams     | Šiuo metu nepalaikomas |
 | Interneto projektas (speciali aplinka)            | Projekto operacijos Lite diegimas                        | Šiuo metu nepalaikomas |
 

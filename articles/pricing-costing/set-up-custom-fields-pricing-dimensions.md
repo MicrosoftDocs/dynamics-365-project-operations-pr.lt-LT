@@ -1,6 +1,6 @@
 ---
 title: Pasirinktinių laukų kaip kainodaros dimensijų nustatymas
-description: Šioje temoje pateikiama informacija apie tai, kaip nustatyti kainodaros dimensijas naudojant pasirinktinius laukus.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip nustatyti kainodaros dimensijas naudojant pasirinktinius laukus.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 41c65d6bf64d8a81759239f2a31f3a68953181c8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0c0c43e483ebcb016747e533d685f13fd5dd8700
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599418"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917586"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Pasirinktinių laukų kaip kainodaros dimensijų nustatymas
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
-Prieš pradedant, šioje temoje daroma prielaida, kad atlikote temose [Pasirinktinių laukų ir objektų kūrimas](create-custom-fields-entities-pricing-dimensions.md) ir [Būtinų pasirinktinių laukų įtraukimas į kainos sąranką ir operacijų objektus](add-custom-fields-price-setup-transactional-entities.md)  nurodytas procedūras. Jei neatlikote šių procedūrų, grįžkite ir jas atlikite, o tada grįžkite į šią temą. 
+Prieš pradėdami, šiame straipsnyje daroma prielaida, kad atlikote procedūras straipsniuose, [kurti pasirinktinius laukus ir objektus](create-custom-fields-entities-pricing-dimensions.md) ir [įtraukti reikiamus pasirinktinius laukus į kainų nustatymą ir operacijų objektus](add-custom-fields-price-setup-transactional-entities.md). Jei dar neatlikote šių procedūrų, grįžkite ir užpildykite jas, tada grįžkite į šį straipsnį. 
 
-Šioje temoje pateikiama informacija apie tai, kaip nustatyti pasirinktines kainodaros dimensijas. Puslapyje **Parametrai**, skirtuke **Suma pagrįstos kainodaros dimensijos** rodomi kainodaros dimensijų objektų įrašai. Pagal numatytuosius nustatymus šiame skirtuke tinklelyje yra dvi eilutės:
+Šiame straipsnyje pateikiama informacija apie pasirinktinių kainodaros dimensijų nustatymą. Puslapyje **Parametrai**, skirtuke **Suma pagrįstos kainodaros dimensijos** rodomi kainodaros dimensijų objektų įrašai. Pagal numatytuosius nustatymus šiame skirtuke tinklelyje yra dvi eilutės:
 
 - **msdyn_resourcecategory** (vaidmuo)
 - **msdyn_OrganizationalUnit** (organizacinis vienetas)

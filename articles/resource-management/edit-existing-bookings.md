@@ -1,24 +1,24 @@
 ---
 title: Redaguoti rezervacijas
-description: Šioje temoje pateikta informacija apie tai, kaip atnaujinti ir keisti rezervavimus.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip atnaujinti ir keisti užsakymus.
 author: ruhercul
 ms.date: 11/12/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 94ff047e868b29eb75acce43b6e6594533a33bf0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4834d42d3b5d285a5c1b386ddd4ede1e09cf0067
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594358"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915240"
 ---
 # <a name="edit-bookings"></a>Redaguoti rezervacijas
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
 
-Kai dėl projekto pakeitimų reikia atnaujinti esamus rezervavimus, yra keli būdai atlikti keitimus. Šioje temoje aiškinama apie tai, kaip atnaujinti ir keisti rezervavimus.
+Kai dėl projekto pakeitimų reikia atnaujinti esamus rezervavimus, yra keli būdai atlikti keitimus. Šiame straipsnyje aprašoma, kaip atnaujinti ir keisti užsakymus.
 
 ## <a name="resource-reconciliation"></a>Išteklių suderinimas
 

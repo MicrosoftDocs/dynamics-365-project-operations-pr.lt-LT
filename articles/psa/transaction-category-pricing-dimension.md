@@ -1,6 +1,6 @@
 ---
 title: Operacijos kategorijos kaip kainodaros dimensijos naudojimas
-description: Šioje temoje pateikta informacija apie operacijos kategorijos kaip kainodaros dimensijos naudojimą.
+description: Šiame straipsnyje pateikiama informacija apie operacijos kategorijos naudojimą kaip kainodaros dimensiją.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: ede5f95a3ba7e122e28875acad1ecc63ff095e63
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1a1c2dc17c2092e5364d90e7efc1f13aee80703e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593346"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915746"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Operacijos kategorijos kaip kainodaros dimensijos naudojimas
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Šioje temoje parodyta, kaip naudoti operacijos kategoriją kaip kainodaros dimensiją. Prieš pradėdami, jei dar nesukūrėte kainodaros dimensijos sprendimo, turėsite sukurti naują sprendimą. Jei jau turite kainodaros dimensijos sprendimą, galite atlikti šio sprendimo pakeitimus. Jei savo organizacijai nesukūrėte naujo kainodaros dimensijos sprendimo, atlikite procedūras, nurodytas temoje [Pasirinktinių laukų ir objektų kūrimas](create-custom-fields-entities.md).
+Šiame straipsnyje parodyta, kaip naudoti operacijos kategoriją kaip kainodaros dimensiją. Prieš pradėdami, jei dar nesukūrėte kainodaros dimensijos sprendimo, turėsite sukurti naują sprendimą. Jei jau turite kainodaros dimensijos sprendimą, galite atlikti šio sprendimo pakeitimus. Jei nesukūrėte naujo kainodaros dimensijos sprendimo savo organizacijai, atlikite procedūras straipsnyje [Kurti pasirinktinius laukus ir objektus](create-custom-fields-entities.md).
 
 ## <a name="add-transaction-category-to-forms-and-views"></a>Operacijos kategorijos įtraukimas į formas ir rodinius
 Norint, kad operacijos kategorija būtų rodoma kainodaros dimensijos sprendimo UI, reikia peržiūrėti visų pagrindinių objektų formas ir rodinius ir į juos įtraukti šiuos laukus.

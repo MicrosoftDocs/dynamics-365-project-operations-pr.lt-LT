@@ -1,23 +1,23 @@
 ---
 title: Projekto sutarties parametrai
-description: Šioje temoje pateikta informacija apie laukus, kurie veikia sutarties eilutes, ir informacija apie sutartį, apibendrinanti visų eilučių elementus.
+description: Šiame straipsnyje pateikiama informacija apie laukus, kurie turi įtakos sutarties eilutėms, ir informacija apie sutartį, kuri apibendrinama visose eilutėse.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 461e6026730e4895b4d660db0f50b621432fd01a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1c3317eb36a98e14074fb504cfac5ff6e25fa3a0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580958"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921588"
 ---
 # <a name="header-details-for-project-based-contracts"></a>Projektu pagrįstų sutarčių antraštės išsami informacija
 
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
-Šioje temoje pateikiama informacija apie visai projekto sutarčiai taikomus laukus, įskaitant parametrus, turinčius įtakos visoms sutarties eilutėms. Taip pat įtraukta informacija apie sutartį, apibendrinanti visus eilučių elementus, kad būtų galima valdyti projekto sutarties KPI.
+Šiame straipsnyje pateikiama informacija apie laukus, taikomus visai projekto sutarčiai, įskaitant parametrus, kurie turi įtakos visoms sutarties eilutėms. Taip pat įtraukta informacija apie sutartį, apibendrinanti visus eilučių elementus, kad būtų galima valdyti projekto sutarties KPI.
 
 Šioje lentelėje išvardyti projekto sutarties laukai, kurie yra unikalūs programoje „Dynamics 365 Project Operations“ arba kurie turi kai kurių svarbių pardavimo užsakymo veikimo pakeitimų naudojant „Dynamics 365 Sales“.
 

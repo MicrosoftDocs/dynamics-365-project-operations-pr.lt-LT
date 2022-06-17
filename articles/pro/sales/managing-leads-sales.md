@@ -1,17 +1,17 @@
 ---
 title: Galimų klientų valdymas – „Lite“ versija
-description: Šioje temoje pateikta informacija apie projektu pagrįstų galimų klientų valdymą (Pro).
+description: Šiame straipsnyje pateikiama informacija apie projektinių galimų klientų (pro) valdymą.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 16c0ff96aa3acf6411723c2c0badd65e8dca65dc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 522558ec3ad2d7b17f7a92f12d6b54429cd44288
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591736"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911606"
 ---
 # <a name="manage-leads---lite"></a>Galimų klientų valdymas – „Lite“ versija
 

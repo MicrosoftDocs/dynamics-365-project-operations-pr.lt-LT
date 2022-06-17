@@ -1,24 +1,24 @@
 ---
 title: 2022 m. kovo mėn. naujienos – „Project Operations“, skirtos ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams
-description: Šioje temoje pateikiama informacija apie kokybės naujinimus, kuriuos galima rasti 2022 m. kovo mėn.
+description: Šiame straipsnyje pateikiama informacija apie kokybės naujinimus, kuriuos galima rasti 2022 m. kovo mėn.
 author: sigitac
 ms.date: 03/31/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: afd5149cda909b5367e7f12382423179d7e19267
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 986d0652ed502873085259fef5ad40aba99c278d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600752"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910916"
 ---
 # <a name="whats-new-march-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>2022 m. kovo mėn. naujienos – „Project Operations“, skirtos ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams
 
 *Taikoma: „Project Operations“, skirta išteklių / nelaikomų medžiagų scenarijams*
 
-Ši tema taikoma šiems "Microsoft" Dynamics 365 Project Operations komponentams ir versijoms:
+Šis straipsnis taikomas šiems "Microsoft" Dynamics 365 Project Operations komponentams ir versijoms:
 
 - Projekto operacijos aplinkos versijoje Dataverse 4.30.0.99
 - Projektų valdymas ir apskaita Dynamics 365 Finance aplinkoje 10.0.25 versija
@@ -91,11 +91,11 @@ Jei paleidę žemėlapį susiduriate su problema, vadovaukitės instrukcijomis, 
 
 ## <a name="removed-and-deprecated-features"></a>Pašalintos ir nebenaudojamos funkcijos
 
-" [Project Operations](removed-depreciated-features-project.md) " temoje Pašalintos arba nebenaudojamos funkcijos apibūdinamos funkcijos, kurios buvo pašalintos arba nebenaudojamos Dynamics 365 Project Operations.
+Straipsnyje Pašalintos [arba nebenaudojamos "Project Operations](removed-depreciated-features-project.md) " funkcijos aprašomos funkcijos, kurios buvo pašalintos arba nebenaudojamos Dynamics 365 Project Operations.
 
 - Pašalinta funkcija nebepasiekiama naudojantis šiuo produktu.
 - Nebenaudojama funkcija nėra aktyviai kuriama ir gali būti pašalinta ateityje atnaujinant.
 
-Pranešimas apie nusidėvėjimą bus rodomas "Project Operations [" temos pašalintose](removed-depreciated-features-project.md) arba nebenaudojamose funkcijose likus 12 mėnesių iki bet kurios funkcijos pašalinimo iš produkto.
+Pranešimas apie nusidėvėjimą bus rodomas "Project Operations [" straipsnio pašalintose](removed-depreciated-features-project.md) arba nebenaudojamose funkcijose likus 12 mėnesių iki bet kurios funkcijos pašalinimo iš produkto.
 
 Jei norite nutraukti pakeitimus, kurie turi įtakos tik kompiliavimo laikui, bet yra dvejetainiai, suderinami su smėlio dėže ir gamybos aplinkomis, nusidėvėjimo laikas bus trumpesnis nei 12 mėnesių. Paprastai šie pakeitimai yra funkciniai naujinimai, kuriuos reikia atlikti kompiliatoriui.

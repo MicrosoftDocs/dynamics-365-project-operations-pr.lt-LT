@@ -1,6 +1,6 @@
 ---
 title: Išplėstinių atsiskaitymo sutarčių kūrimas atsižvelgiant į eigą
-description: Šioje temoje paaiškinama, kaip kurti projektų sutartis, kad galėtumėte generuoti klientų sąskaitas faktūras remdamiesi atlikto darbo procentine dalimi.
+description: Šiame straipsnyje paaiškinama, kaip kurti projekto sutartis, kad galėtumėte generuoti sąskaitas faktūras klientams pagal užbaigto darbo procentą.
 author: RadhikaRS
 ms.date: 03/26/2020
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: bdafc2ed2398054d8b0bf42bdd96dfe0eccee93b
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 26fe072b8241c7fdc96629f534e33a8fe53d3164
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683173"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913676"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Išplėstinių atsiskaitymo sutarčių kūrimas atsižvelgiant į eigą
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip kurti projektų sutartis, kad galėtumėte sukurti klientų sąskaitas faktūras remdamiesi atlikto darbo procentine dalimi. Sąskaitos faktūros sumos automatiškai apskaičiuojamos pagal darbo, kurį nustatėte projekte, biudžeto kategorijas. Sąskaitų faktūrų išrašymo laikas nustatomas jums derantis su klientu dėl projekto sutarties.
+Šiame straipsnyje paaiškinama, kaip kurti projekto sutartis, kad galėtumėte kurti sąskaitas faktūras klientams pagal atliktų darbų procentą. Sąskaitos faktūros sumos automatiškai apskaičiuojamos pagal darbo, kurį nustatėte projekte, biudžeto kategorijas. Sąskaitų faktūrų išrašymo laikas nustatomas jums derantis su klientu dėl projekto sutarties.
 
-Naudodami šioje temoje nurodytas procedūras galite nustatyti sutartį, susijusį projektą ir atsiskaitymo taisykles, pagal kurias apskaičiuojamos darbo, nustatyto projekte, biudžeto kategorijų sąskaitų sumos.
+Naudokite šiame straipsnyje nurodytas procedūras, kad nustatytumėte sutartį, susijusį projektą ir atsiskaitymo taisykles, kurios apskaičiuotų SF sumas darbo kategorijoms, kurias nustatėte projektui.
 
 Sukūrę sutartį ir projektą, galite nustatyti projekto išsamią informaciją. Pavyzdžiui, galite apibrėžti veiklos rūšis ir priskirti projektui darbuotojus.
 

@@ -1,6 +1,6 @@
 ---
 title: Projekto planavimo pradinis puslapis
-description: Šioje temoje pateikta informacija apie projektų planavimą.
+description: Šiame straipsnyje pateikiama informacija apie projektų planavimą.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ef893b78ca3a421e22dbbabdce7a0a18d4b9abd
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f6309a2eecd0f6c7d38f2d88120300eb342be629
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588149"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919104"
 ---
 # <a name="project-planning-home-page"></a>Projekto planavimo pradinis puslapis
 
@@ -43,7 +43,7 @@ Projektų valdymo įrankiai, esantys „Project Service Automation“ (santr. PS
 - Prognozuoti išteklių poreikius, kol projektai yra ruošiami;
 - Sėkmingai pristatyti projektus sekant progresą ir sąnaudų suvartojimą.
 
-Toliau pateikiamose temose pateikta informacija, padedanti projektų vadovams įvertinti darbus, įvertinti projekto išlaidas ir prognozuoti išteklių poreikius naudojant PSA palaikomus įrankius:
+Šiuose straipsniuose pateikiama informacija, kuri padės projektų vadovams įvertinti darbą, įvertinti projekto išlaidas ir prognozuoti išteklių poreikius naudojant PSA palaikomus įrankius:
 
 - [Grafiko kūrimas](project-creating.md)
 - [Projekto savikainos ir įplaukų įvertinimas](project-estimating.md)

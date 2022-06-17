@@ -1,6 +1,6 @@
 ---
 title: Projektų biudžetų prognozės modelių kūrimas
-description: Šioje temoje aprašoma, kaip kurti likusių biudžetų prognozės modelį.
+description: Šiame straipsnyje aprašoma, kaip sukurti likusių biudžetų prognozės modelį.
 author: Yowelle
 ms.date: 04/24/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 992dd74524ae6a7c329612a125d60bebfcbe7dd2
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: e6b1419c41124d2062595f7346efb7538e50ee33
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683640"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916712"
 ---
 # <a name="create-forecast-models-for-project-budgets"></a>Projektų biudžetų prognozės modelių kūrimas 
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašoma, kaip kurti likusių biudžetų prognozės modelį. Projektas, kuriam taikoma biudžeto kontrolė, naudoja dviejų tipų biudžetus: pradinį ir likusį. Kurdami projekto biudžetą turite nurodyti pradinio ir likusio biudžeto prognozės modelius, sukurtus puslapyje **Prognozės modeliai**. Projektų biudžetai, pagrįsti nurodytais modeliais, kuriami patvirtinant projekto biudžetą.
+Šiame straipsnyje aprašoma, kaip sukurti likusių biudžetų prognozės modelį. Projektas, kuriam taikoma biudžeto kontrolė, naudoja dviejų tipų biudžetus: pradinį ir likusį. Kurdami projekto biudžetą turite nurodyti pradinio ir likusio biudžeto prognozės modelius, sukurtus puslapyje **Prognozės modeliai**. Projektų biudžetai, pagrįsti nurodytais modeliais, kuriami patvirtinant projekto biudžetą.
 
 > [!NOTE]
 > Prognozės modelis, naudojamas biudžeto kontrolėje, negali turėti papildomo modelio arba būti naudojamas kaip papildomas modelis.

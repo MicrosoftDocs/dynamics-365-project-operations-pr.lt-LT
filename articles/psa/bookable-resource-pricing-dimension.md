@@ -1,6 +1,6 @@
 ---
 title: Rezervuojamų išteklių naudojimas kaip kainodaros dimensijos
-description: Šioje temoje pateikiama informacijos apie rezervuojamų išteklių naudojimą kaip kainodaros dimensijos.
+description: Šiame straipsnyje pateikiama informacija apie rezervuoto ištekliaus naudojimą kaip kainodaros dimensiją.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7b07ac8659c9eccf3db41775acf5ca2043016a59
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: becb64bb137079422a765dd7cd61369297e1ffb1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576418"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916114"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Rezervuojamų išteklių naudojimas kaip kainodaros dimensijos
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Šioje temoje pateikiama informacijos apie rezervuojamų išteklių naudojimą kaip kainodaros dimensijos. Prieš pradėdami, jei dar nesukūrėte kainodaros dimensijos sprendimo, turėsite sukurti naują sprendimą. Jei jau turite kainodaros dimensijos sprendimą, galite atlikti šio sprendimo pakeitimus. Jei savo organizacijai nesukūrėte naujo kainodaros dimensijos sprendimo, atlikite procedūras, nurodytas temoje [Pasirinktinių laukų ir objektų kūrimas](create-custom-fields-entities.md).
+Šiame straipsnyje pateikiama informacija apie rezervuoto ištekliaus naudojimą kaip kainodaros dimensiją. Prieš pradėdami, jei dar nesukūrėte kainodaros dimensijos sprendimo, turėsite sukurti naują sprendimą. Jei jau turite kainodaros dimensijos sprendimą, galite atlikti šio sprendimo pakeitimus. Jei nesukūrėte naujo kainodaros dimensijos sprendimo savo organizacijai, atlikite procedūras straipsnyje [Kurti pasirinktinius laukus ir objektus](create-custom-fields-entities.md).
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>Rezervuojamų išteklių įtraukimas į formas ir rodinius
 Norint, kad laukai būtų rodomi kainodaros dimensijos sprendimo UI, reikia peržiūrėti visų pagrindinių „Project Service“ objektų formas ir rodinius ir į juos įtraukti šiuos laukus.

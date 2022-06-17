@@ -1,26 +1,26 @@
 ---
 title: Rezervuojamų išteklių kaip kainodaros dimensijos naudojimas
-description: Šioje temoje pateikiama informacijos, kaip naudoti rezervuojamus išteklius kaip kainodaros dimensiją.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip naudoti rezervuojamą išteklių kaip kainodaros dimensiją.
 author: Rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: dcd01d80236f0218bc6fa3a1fe1389f8314f3c9b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c467c45885bbd8931eccc75862f537c0f46433ef
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598637"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914826"
 ---
 # <a name="use-a-bookable-resource-as-a-pricing-dimension"></a>Rezervuojamų išteklių kaip kainodaros dimensijos naudojimas
 
  _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_ 
 
-Šioje temoje pateikiama informacijos, kaip naudoti rezervuojamus išteklius kaip kainodaros dimensiją. Jei jūsų kainodaros strategijoje nustatyta, kad kiekvienas rezervuojamas išteklius turi turėti konkrečią kainą ar įkainį, naudokite rezervuojamus išteklius kaip kainodaros dimensiją.
+Šiame straipsnyje pateikiama informacija apie tai, kaip naudoti rezervuojamą išteklių kaip kainodaros dimensiją. Jei jūsų kainodaros strategijoje nustatyta, kad kiekvienas rezervuojamas išteklius turi turėti konkrečią kainą ar įkainį, naudokite rezervuojamus išteklius kaip kainodaros dimensiją.
 
 ## <a name="prerequisites"></a>Būtinosios sąlygos
-Kad galėtumėte atlikti šioje temoje nurodytus veiksmus, turite turėti naują savo organizacijos kainodaros dimensijos sprendimą. Jei dar jo nesukūrėte, žr. [Pasirinktinių laukų ir objektų kūrimas](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
+Prieš atlikdami šiame straipsnyje pateiktas procedūras, turite turėti naują savo organizacijos kainodaros dimensijos sprendimą. Jei dar jo nesukūrėte, žr. [Pasirinktinių laukų ir objektų kūrimas](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-bookable-resource-field-to-forms-and-views"></a>Rezervuojamų išteklių lauko įtraukimas į formas ir rodinius
 Jei norite, kad laukas **Rezervuojami ištekliai** būtų rodomas kainodaros dimensijos sprendime, reikia pridėti lauką prie visų formų ir rodinių kaip objektą.

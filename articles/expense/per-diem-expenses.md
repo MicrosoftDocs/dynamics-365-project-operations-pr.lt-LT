@@ -1,6 +1,6 @@
 ---
 title: Dienpinigių išlaidos
-description: Šioje temoje pateikiama informacija apie tai, kaip dirbti su dienpinigių išlaidomis.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip dirbti su dienpinigių išlaidomis.
 author: suvaidya
 ms.date: 03/18/2022
 ms.topic: article
@@ -13,17 +13,17 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fe72f066a6819c3b43e3977d5e7afb01ba95338c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0d2f95b677720726049d7d010e9738ad8c513802
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596060"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923198"
 ---
 # <a name="per-diem-expenses"></a>Dienpinigių išlaidos
 
 > [!IMPORTANT] 
-> Šioje temoje aprašytos funkcijos yra prieinamos tiksliniams vartotojams kaip peržiūros leidimo dalis.
+> Šiame straipsnyje aprašytos funkcijos yra prieinamos tiksliniams vartotojams kaip peržiūros leidimo dalis.
 
 Dienpinigių mokėjimas yra fiksuotas, iš anksto nustatytas dienpinigis, kurį įmonė moka savo darbuotojams už apgyvendinimą (viešbučius), maitinimą ir atsitiktines išlaidas, kurias šie darbuotojai patiria keliaudami į darbą. Bendrovė moka šią išmoką darbuotojams, o ne moka faktines kelionės išlaidas. Darbuotojai gali naudoti savo **atsitiktinius / kitus** dienpinigius, kad padengtų patarimus, kambarių aptarnavimą, skalbinius ar sauso valymo paslaugas svarbiems verslo susitikimams. Dienpinigių tarifas gali skirtis, priklausomai nuo to, ar darbdavys nusprendžia kompensuoti bendras apgyvendinimo ir maitinimo išlaidas, ar tik už maitinimo ir atsitiktinių incidentų išlaidas.
 

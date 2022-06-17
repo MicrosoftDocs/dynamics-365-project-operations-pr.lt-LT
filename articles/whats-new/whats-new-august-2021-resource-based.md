@@ -1,24 +1,24 @@
 ---
 title: Kas nauja – 2021 m. rugpjūčio mėn. – „Project Operations“, skirta išteklių / nelaikomų medžiagų scenarijams
-description: Šioje temoje pateikiama informacija apie kokybinius naujinimus, kuriuos galima rasti 2021 m. rugpjūčio mėn. „Project Operations“, skirtos išteklių / nelaikomų medžiagų scenarijams, leidime.
+description: Šiame straipsnyje pateikiama informacija apie kokybės atnaujinimus, kuriuos galima rasti 2021 m. rugpjūčio mėn.
 author: sigitac
 ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 144a8c0d5ac47ad6fee54850c149a349f1698049
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bd91f7f6b3a6f78161f8900aa06c810a58609b53
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594174"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912296"
 ---
 # <a name="whats-new-august-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Kas nauja – 2021 m. rugpjūčio mėn. – „Project Operations“, skirta išteklių / nelaikomų medžiagų scenarijams
 
 *Taikoma: „Project Operations“, skirta išteklių / nelaikomų medžiagų scenarijams*
 
-Ši tema taikoma toliau nurodytiems „Dynamics 365 Project Operations“ komponentams ir versijoms:
+Šis straipsnis taikomas šiems Dynamics 365 Project Operations komponentams ir versijoms:
 
    - „Project Operations“ 4.13.0.152 versijos „Microsoft Dataverse“ aplinkoje.
    - Projektų valdymas ir apskaita Dynamics 365 Finance aplinkoje 10.0.20 versija.

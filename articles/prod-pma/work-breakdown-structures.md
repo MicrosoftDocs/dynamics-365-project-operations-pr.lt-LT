@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1e69d7cc97e3a7a59bdba387282fe19d12f5780
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 7f1a77c6e4e5f0926ff7afe1066f9a0cf7cdfb51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683410"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920668"
 ---
 # <a name="work-breakdown-structures-overview"></a>Darbo paskirstymo struktūros apžvalga
 
@@ -35,7 +35,7 @@ WBS išsamumo laipsnis priklauso nuo tikslumo lygio, pagal kurį vertinama, ir s
 
 Priešingai, projektai tam tikrose srityse, pvz., žiniasklaidoje ir reklamoje, programinėje įrangoje ir IT infrastruktūroje, paprastai yra unikalūs, o produktyvumas yra susijęs su užduotį atliekančio asmens patirtimi ir kompetencija. Todėl šiose srityse naudojama WBS, siekiant įvertinti projekto dydį, o ne atidžiai sekti šio projekto eigą. 
 
-WBS kūrimas yra daug pastangų reikalaujantis procesas, kuris paprastai užtrunka ilgai ir reikalauja, kad nemažai žmonių bendradarbiautų ir pateiktų informaciją. Šioje temoje aprašoma, kaip naudoti WBS patobulinimus, norint patenkinti vertinimo ir sekimo reikalavimus.
+WBS kūrimas yra daug pastangų reikalaujantis procesas, kuris paprastai užtrunka ilgai ir reikalauja, kad nemažai žmonių bendradarbiautų ir pateiktų informaciją. Šiame straipsnyje aprašoma, kaip galite naudoti WBS patobulinimus, kad atitiktumėte įvertinimų ir stebėjimo reikalavimus.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>WBS kūrimo būtinosios sąlygos
 Norėdami sukurti WBS, turite mokėti sukurti darbo grafiką ir apskaičiuoti darbo savikainą.
@@ -166,7 +166,7 @@ Kai kuriose srityse projekto eiga stebima WBS labai detaliai, o kitose eiga steb
 
 ### <a name="planning-view"></a>Planavimo rodinys
 
-Planavimo rodinyje rodomas suplanuotas arba pradinis grafiko ir savikainos informacijos įvertinimas. Nors funkcijų, skirtų projekto WBS versijai ir pagrindui sekti, nėra, šios rodinio reikšmės yra skirtos vaizduoti pagrindinę versiją. Šios temos grafiko įvertinimo ir savikainos įvertinimo skyriuose aprašomas šis rodinys ir jo naudojimas kuriant WBS.
+Planavimo rodinyje rodomas suplanuotas arba pradinis grafiko ir savikainos informacijos įvertinimas. Nors funkcijų, skirtų projekto WBS versijai ir pagrindui sekti, nėra, šios rodinio reikšmės yra skirtos vaizduoti pagrindinę versiją. Šio straipsnio skyriuose Grafiko įvertinimas ir išlaidų įvertinimas aprašomas šis rodinys ir kaip jis naudojamas WBS kurti.
 
 ### <a name="effort-tracking-view"></a>Pastangų sekimo rodinys
 

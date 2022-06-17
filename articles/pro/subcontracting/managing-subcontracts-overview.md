@@ -1,17 +1,17 @@
 ---
 title: „Project Operations“ valdymas pagal subrangos sutartį
-description: Šioje temoje pateikta tiesioginio subrangos valdymo proceso, paprastai atliekamo projektu pagrįstose oranizacijose, apžvalga.
+description: Šiame straipsnyje pateikiama ištisinio subrangos valdymo proceso, paprastai esančiomis projektinėse organizacijose, apžvalga.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d595e948b7be9a6822827f4841e737d3c0e1476b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8f5e025b5f741935494349fb1bdfd3a19bacb5e1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593024"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911515"
 ---
 # <a name="subcontract-management-in-project-operations"></a>„Project Operations“ valdymas pagal subrangos sutartį
 
@@ -19,7 +19,7 @@ ms.locfileid: "8593024"
 
 _**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
 
-Šioje temoje pateikta tiesioginio subrangos valdymo proceso, atliekamo projektu pagrįstose oranizacijose, apžvalga. Paslaugų subrangos procesas paprastai atliekamas vadovaujantis veiklos procesų seka, pavaizduota toliau pateiktoje diagramoje.
+Šiame straipsnyje apžvelgiamas ištisinis subrangos valdymo procesas projektinėse organizacijose. Paslaugų subrangos procesas paprastai atliekamas vadovaujantis veiklos procesų seka, pavaizduota toliau pateiktoje diagramoje.
 
 ![Subrangos procesų seka](../media/SubcontractingProcessFlow.png)
 

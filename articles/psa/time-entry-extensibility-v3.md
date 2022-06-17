@@ -1,6 +1,6 @@
 ---
 title: Savaitės laiko įrašo tinkinimas
-description: Šioje temoje pateikta informacija apie tai, kaip įdiegti pasirinktines veiklos taisykles, kuriomis grindžiama organizacijos veikla.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip įgyvendinti pasirinktines verslo taisykles, palaikančias organizacijos praktiką.
 author: stsporen
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1cc32a1d8776f4adaa0031154aba6bd6733b7f7d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bdc8df4050d895504fa126e2ee55fcd3b4de123f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581064"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918966"
 ---
 # <a name="customize-weekly-time-entry"></a>Savaitės laiko įrašo tinkinimas 
 
@@ -46,7 +46,7 @@ Skyriuje **Dimensijos** kaip stulpelių antraštės rodomos visos dimensijos, pr
 - Tipas
 - Įrašo būsena
 
-Skyriuje **Dimensijos** negalima atlikti įdėtojo redagavimo. Šiame skyriuje palaikomas rodinys, leidžiantis į savaitės laiko įrašo tinklelį įtraukti pasirinktinių laukų. Informacijos apie tai, kaip įtraukti pasirinktinius laukus, žr. toliau šioje temoje esantį skyrių „Išplėtimas“.
+Skyriuje **Dimensijos** negalima atlikti įdėtojo redagavimo. Šiame skyriuje palaikomas rodinys, leidžiantis į savaitės laiko įrašo tinklelį įtraukti pasirinktinių laukų. Informacijos apie tai, kaip įtraukti pasirinktinius laukus, ieškokite šio straipsnio skyriuje "Išplėtimas".
 
 ### <a name="duration"></a>Trukmė
 Skyrius Trukmė rodo savaitės dienas kaip stulpelių antraštes. Šiame skyriuje leidžiamas įdėtasis redagavimas. Sukūrus laiko įrašo eilutę, kurioje yra atitinkamos dimensijos, vartotojai gali greitai eilutėje įvesti laiką, kurį skyrė šioms dimensijoms.

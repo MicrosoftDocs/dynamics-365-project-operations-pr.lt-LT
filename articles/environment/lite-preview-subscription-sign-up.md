@@ -1,21 +1,21 @@
 ---
 title: Registracija norint gauti peržiūros versijos prenumeratą – „Lite“ versija
-description: Šioje temoje pateikta informacija apie tai, kaip prenumeruoti ir diegti „Project Operations Lite“ visuotinį diegimą – sandoris į išankstinės sąskaitos faktūros formą.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip užsiprenumeruoti ir įdiegti "Project Operations lite" diegimą - spręsti "proforma" SF išrašymą.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3b06ac29e8021967490534d3aefc8b5ce733413b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6953956c0b3401a6c64ee597f966ba4a4c0d07b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588010"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921266"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Registracija norint gauti peržiūros versijos prenumeratą – „Lite“ versija 
 
-Šioje temoje paaiškinama, kaip užsiprenumeruoti bandomajam pasiūlymui ir įdiegti „Dynamics 365 Project Operations“ „Lite“ įdiegtį – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo.
+Šiame straipsnyje paaiškinama, kaip užsiprenumeruoti bandomąjį pasiūlymą ir įdiegti Dynamics 365 Project Operations lite diegimą - spręsti proforma sąskaitų faktūrų išrašymą.
 
 > [!NOTE]
 > Šis procesas pasikeis būsimuose „Project Operations“ leidimuose.
@@ -50,7 +50,7 @@ Prieš pradėdami įsitikinkite, kad esate prisijungę prie naršyklės naudodam
 
 ## <a name="create-a-new-dataverse-environment"></a>Naujos „Dataverse” aplinkos kūrimas
 
-1. Parenkite naują „Project Operations“ „Dataverse“ visuotinio diegimo aplinką sekdami šioje temoje pateiktas instrukcijas – [„Dataverse“ visuotinio diegimo modelis](lite-deployment.md). Pasirinkę aplinkos tipą įsitikinkite, kad naudojate **bandomąją versiją (prenumeratos pagrindu)**.
+1. Pateikite naują "Project Operations Dataverse " diegimo aplinką vadovaudamiesi straipsnyje pateiktomis instrukcijomis, [Dataverse diegimo modeliu](lite-deployment.md). Pasirinkę aplinkos tipą įsitikinkite, kad naudojate **bandomąją versiją (prenumeratos pagrindu)**.
 
   ![Nauja aplinka.](./media/19CreateEnvironment.png)
 
@@ -65,7 +65,7 @@ Prieš pradėdami įsitikinkite, kad esate prisijungę prie naršyklės naudodam
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>CDS konfigūracijos ir sąrankos demonstracinių duomenų diegimas
 
-Įdiekite CDS konfigūraciją ir nustatykite demonstracinius duomenis vadovaudamiesi šioje temoje pateikiamomis instrukcijomis – [Demonstracinės sąrankos ir konfigūravimo duomenų taikymas](lite-apply-demo-setup-config-data.md).
+Įdiekite CDS konfigūraciją ir nustatykite demonstracinius duomenis vadovaudamiesi instrukcijomis, [pateiktomis straipsnyje Taikyti demonstracinę sąranką ir konfigūracijos duomenis](lite-apply-demo-setup-config-data.md).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

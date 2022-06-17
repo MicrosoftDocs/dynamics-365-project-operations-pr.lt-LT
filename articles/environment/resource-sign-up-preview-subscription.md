@@ -1,17 +1,17 @@
 ---
 title: Prisiregistravimas norint gauti „Project Operations“ peržiūros versijos prenumeratą, skirtą ištekliais / ne atsargomis pagrįstiems scenarijams
-description: Šioje temoje pateikiama informacijos, kaip užsiprenumeruoti ir įdiegti „Project Operations“, skirtą ištekliais / ne atsargomis pagrįstiems scenarijams.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip užsiprenumeruoti ir įdiegti "Project Operations", kad būtų galima iš naujo įdiegti / nekaupti pagrįstus scenarijus.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9094b6928c5c276a40166ef5d8cb0facb539685b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fb196a50b4cb9e8533db52414e8536d77a30e425
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575820"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920116"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Prisiregistravimas norint gauti „Project Operations“ peržiūros versijos prenumeratą, skirtą ištekliais / ne atsargomis pagrįstiems scenarijams
 
@@ -19,7 +19,7 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 
 
 
-Šioje temoje paaiškinama, kaip užsiprenumeruoti bandomosios versijos pasiūlymą ir įdiegti „Project Operations“ aplinką, skirtą ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams.
+Šiame straipsnyje paaiškinama, kaip užsiprenumeruoti bandomąjį pasiūlymą ir įdiegti "Project Operations" aplinką, skirtą ištekliui / nekauptiems scenarijams.
 
 ## <a name="prerequisites"></a>Būtinosios sąlygos
 - Vartotojas, kuris įdiegia peržiūros versiją, turi turėti „Azure“ kliento visuotinio administratoriaus teises. Pasinaudodami pirmuoju pasiūlymu, galite sukurti nuomotoją. 
@@ -60,19 +60,19 @@ Eikite į [„Dynamics 365 for Finance“ peržiūros bandomoji versija](https:/
 
 ## <a name="start-a-new-project-in-lcs"></a>Pradėkite naują LCS projektą
 
-Sukurkite naują LCS projektą, kaip aprašytą temoje [Naujo LCS projekto pradėjimas](create-lcs-project.md)
+Sukurkite naują LCS projektą, kaip aprašyta straipsnyje, [Pradėkite naują projektą LCS](create-lcs-project.md)
 
 ## <a name="add-an-azure-subscription-to-an-lcs-project"></a>„Azure“ prenumeratos įtraukimas į LCS projektą
 
-Norėdami atlikti šią užduotį, atlikite veiksmus, nurodytus temoje [„Azure“ prenumeratos įtraukimas į LCS projektą](resource-add-azure-subscription-lcs-project.md).
+Norėdami atlikti šią užduotį, atlikite straipsnyje ["Įtraukti "Azure" prenumeratą į LCS projektą](resource-add-azure-subscription-lcs-project.md).
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>„Finance“ demonstracinės aplinkos ir „Project Operations“, skirtos ištekliais / ne atsargomis pagrįstiems scenarijams, visuotinis diegimas
 
-Vadovaukitės nurodymais, pateiktais temoje [Naujos aplinkos parengimas](resource-provision-new-environment.md), kad užbaigtumėte visuotinį diegimą. Naudokite [demonstracinės aplinkos](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) visuotinio diegimo tipą, skirtą peržiūros versijai. 
+Vadovaukitės straipsnio "Naujos aplinkos [parengimas, kad būtų užbaigtas diegimas"](resource-provision-new-environment.md) pateiktomis gairėmis. Naudokite [demonstracinės aplinkos](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) visuotinio diegimo tipą, skirtą peržiūros versijai. 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>CDS sąrankos ir konfigūracijos duomenų diegimas
 
-Įdiekite CDS sąrankos ir konfigūracijos duomenis, kaip aprašyta temoje [Konfigūracijos duomenų nustatymas ir taikymas sistemoje „Common Data Service“](resource-apply-pro-setup-config-data.md).
+Įdiekite CDS sąrankos ir konfigūravimo duomenis, [kaip aprašyta straipsnyje Nustatyti ir taikyti konfigūracijos duomenis Common Data Service](resource-apply-pro-setup-config-data.md).
 Šį veiksmą atlikite tik įdiegę „Finance“ demonstracinę aplinką ir parengę demonstracinius duomenis.
 
 
