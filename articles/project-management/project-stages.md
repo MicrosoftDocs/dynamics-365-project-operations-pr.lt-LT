@@ -1,6 +1,6 @@
 ---
 title: Projekto etapai
-description: Šiame straipsnyje pateikiama informacija apie projekto etapus, kuriuos galima rasti Microsoft Dynamics programoje "Project Operations".
+description: Šiame straipsnyje pateikiama informacija apie projekto etapus, pasiekiamus " Microsoft Dynamics Project Operations".
 author: ruhercul
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: b146174583fdea45481b87375158ebe83ed63418
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: a8c8e63a2d8c238f582b67348f88b7285a0b1e12
+ms.sourcegitcommit: 278740b352f1ed9618ee5c79597c8f449984d6f4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911146"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "9177390"
 ---
 # <a name="project-stages"></a>Projekto etapai
 
@@ -47,7 +47,7 @@ Kai projektą susiejate su pasiūlymu ar jį sukuriate iš pasiūlymo, projekto 
 
 ## <a name="plan"></a>Planas
 
-Kai laimite su projektu susietą pasiūlymą ir kai bendravimas išsiplėtoja iki etapo **Sutartis**, projekto etapas atnaujinamas į **Planas**. Kai projektas yra etape **Pasiūlymas**, puslapyje **Projekto objektas** rodoma išsami informacija apie sutartį.
+Kai laimite su projektu susietą pasiūlymą ir kai bendravimas išsiplėtoja iki etapo **Sutartis**, projekto etapas atnaujinamas į **Planas**. Kol projektas yra **plano etape,** puslapio Projekto objektas **skirtuke Pardavimas** **rodoma** išsami sutarties informacija.
 
 ## <a name="deliver"></a>Pristatyti
 

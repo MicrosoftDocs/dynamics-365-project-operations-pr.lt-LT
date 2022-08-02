@@ -1,6 +1,6 @@
 ---
 title: Išlaidų valdymo apžvalga
-description: Šiame straipsnyje pateikiama bendra informacija apie išlaidų valdymą ir saitai į papildomus išteklius. Galite naudoti išlaidų valdymą, kad sukurtumėte integruotą darbo eigą, kurioje galėsite saugoti mokėjimo būdo informaciją, importuoti kredito kortelių operacijas ir sekti pinigus, kuriuos darbuotojai išleidžia, kai patiria išlaidų jūsų įmonės vardu.
+description: Šiame straipsnyje pateikiama bendroji informacija apie išlaidų valdymą ir saitai į papildomus išteklius. Galite naudoti išlaidų valdymą, kad sukurtumėte integruotą darbo eigą, kurioje galėsite saugoti mokėjimo būdo informaciją, importuoti kredito kortelių operacijas ir sekti pinigus, kuriuos darbuotojai išleidžia, kai patiria išlaidų jūsų įmonės vardu.
 author: ShylaThompson
 ms.date: 07/25/2019
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 778a068bc80b099037b895f7e0d4add4d454242f
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d693177ac68a92cec3893b4126a0bd7c79e0bb74
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934054"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029356"
 ---
 # <a name="expense-management-overview"></a>Išlaidų valdymo apžvalga
 
@@ -43,7 +43,7 @@ Daugiau informacijos žr. [Išlaidų ataskaitų pertvarkymas](ExpenseWorkspaceNe
 
 ### <a name="blogs"></a>Tinklaraščiai
 
-Nuomonių, naujienų ir kitos informacijos [Microsoft Dynamics galite rasti 365 tinklaraštyje](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) ir [Microsoft Dynamics "365 Finance and Operations - Financials" tinklaraštyje](https://community.dynamics.com/365/financeandoperations/b/financials).
+Nuomones, naujienas ir kitą informaciją [Microsoft Dynamics galite rasti tinklaraštyje 365 ir](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) tinklaraštyje [Microsoft Dynamics "365 Finance - Financials"](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 [„Microsoft Dynamics Operations“ partnerių bendruomenės tinklaraštyje](https://community.dynamics.com/partner/b/operationspartnercommunityblog) „Microsoft Dynamics“ partneriams suteikiamas vienas išteklius, kuriame jie gali sužinoti „MBS Operations“ naujienas ir tendencijas.
 

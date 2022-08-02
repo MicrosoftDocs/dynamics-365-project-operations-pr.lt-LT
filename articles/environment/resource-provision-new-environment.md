@@ -1,18 +1,18 @@
 ---
 title: Naujos aplinkos parengimas
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip pateikti naują projekto operacijų aplinką.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip parengti naują "Project Operations" aplinką.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9cc3dafd6a2b6f92b585643c5d43ab52a3faf59e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 78f40ebe79c038799fbc59902442ad6c23fb94d4
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931616"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028528"
 ---
 # <a name="provision-a-new-environment"></a>Naujos aplinkos parengimas
 
@@ -20,7 +20,7 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 
 
 
-Šiame straipsnyje pateikiama informacija apie tai, kaip sukurti naują Dynamics 365 Project Operations išteklių / nekauptų scenarijų aplinką.
+Šiame straipsnyje pateikiama informacija apie tai, kaip parengti naują Dynamics 365 Project Operations aplinką išteklių / ne atsargų scenarijams.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Automatinio „Project Operations“ parengimo įjungimas LCS projekte
 
@@ -34,7 +34,7 @@ Atlikite toliau nurodytus veiksmus, kad įjungtumėte automatinį „Project Ope
 
 ## <a name="provision-a-project-operations-environment"></a>„Project Operations“ aplinkos parengimas
 
-1. Atidarykite naują Dynamics 365 Finance [demonstracinę aplinką](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) arba [smėlio dėžės / gamybos aplinkos](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) diegimą. 
+1. Atidarykite naują demonstracinę aplinką Dynamics 365 Finance [arba](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) smėlio dėžės / gamybos aplinkos [diegimą.](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) 
 2. Atlikite vediklio **Aplinkos parengimas** veiksmus. 
 
    > [!IMPORTANT]
@@ -117,7 +117,7 @@ Kad galėtumėte gauti šią versiją, gali reikėti „Finance“ aplinkai taik
 
     ![Taikyti sprendimus.](./media/13ApplySolutions.png)
 
-5. Pasirinkite abu sprendimus, **Dynamics 365 Finance and Operations Dvigubo rašymo objekto žemėlapį** ir **Dynamics 365 Project Operations Dvigubo rašymo objektų žemėlapius**, tada pasirinkite **Taikyti**.
+5. Pasirinkite abu sprendimus, **Dynamics 365 Finance Dual Write Entity Map"** ir **Dynamics 365 Project Operations "Dual Write Entity Maps"**, tada pasirinkite **Taikyti**.
 
     ![Sprendimų patvirtinimas.](./media/14ConfirmSolutions.png)
 

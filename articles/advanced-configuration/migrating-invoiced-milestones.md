@@ -1,102 +1,102 @@
 ---
-title: Perkelti visiškai išrašytus atsiskaitymo etapus, kuriems išrašyta SF
-description: Šiame straipsnyje paaiškinama, kaip perkelti fiksuotos kainos atsiskaitymo etapus, kuriems klientui buvo išrašyta SF už atviras projekto sutartis iki įsigaliojimo datos.
+title: Perkelkite visiškai sąskaitoje faktūroje numatytus atsiskaitymo etapus per supaprastintą laikotarpį
+description: Šiame straipsnyje paaiškinama, kaip perkelti fiksuotos kainos atsiskaitymo etapus, kuriems klientui buvo išrašytos sąskaitos už atidarytas projekto sutartis iki paleidimo datos.
 author: sigitac
 ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d7bb3dbb5acd9be447c405ec17f18d00c500f655
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 05cd71f9860b5698e3a26bc72660b0b2044206c8
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912250"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028712"
 ---
-# <a name="migrate-fully-invoiced-billing-milestones-at-cutover"></a>Perkelti visiškai išrašytus atsiskaitymo etapus, kuriems išrašyta SF
+# <a name="migrate-fully-invoiced-billing-milestones-at-cutover"></a>Perkelkite visiškai sąskaitoje faktūroje numatytus atsiskaitymo etapus per supaprastintą laikotarpį
 
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
 ## <a name="scenario"></a>Scenarijus
 
-Contoso tiesiogiai bendradarbiauja su "Microsoft" Dynamics 365 Project Operations dėl išteklių / ne atsargų scenarijų. Vykdydama mažinimo veiklą, įgyvendinimo grupė turi perkelti atviras projektų sutartis iš senosios sistemos. Kai kuriose projekto sutartyse yra sutarties eilučių, kuriose naudojamas fiksuotos kainos atsiskaitymo metodas ir kurioms galutiniam pirkėjui jau iš dalies išrašyta SF. Diegimo komanda turi perkelti šiuos atsiskaitymo etapus kaip **užregistruotą** kliento SF, nes jie turi būti įtraukti į bendrą sutarties vertę įplaukų pripažinimo tikslais. Tačiau klientų balansams gautinose sumose ir DK neturi būti daromas poveikis.
+Contoso veikia su "Microsoft" Dynamics 365 Project Operations dėl išteklių / ne atsargų scenarijų. Vykdydama mažinimo veiklą, įgyvendinimo komanda turi perkelti atviras projekto sutartis iš senosios sistemos. Kai kurios projekto sutartys apima sutarčių eilutes, kuriose naudojamas fiksuotos kainos atsiskaitymo metodas ir už kurias jau buvo išrašytos iš dalies sąskaitos faktūros galutiniam klientui. Diegimo komanda turi perkelti šiuos atsiskaitymo etapus kaip **užregistruotą** kliento sf, nes pajamų atpažinimo tikslais jie turi būti įtraukti į bendrą sutarties vertę. Tačiau klientų balansams gautinose sumose ir Didžiojoje knygoje neturi būti daromas poveikis.
 
 ## <a name="solution"></a>Sprendimas
 
 ### <a name="prerequisites"></a>Būtinosios sąlygos
 
-- Dynamics 365 Finance 10.0.24 ar naujesnė versija turi būti įrengti.
-- Aplinka, kurioje bus atlikti perkėlimo etapai, turi būti techninės priežiūros režimu. Perkeliant etapus neturėtų būti vykdoma jokia kita veikla.
-- Perkėlimo veiksmai turi būti atliekami tiksliai taip, kaip aprašyta čia, ir gali būti naudojami tik pjovimo veiklai. "Microsoft" nepalaiko jokio kito šios galimybės naudojimo.
+- Dynamics 365 Finance 10.0.24 ar naujesnė versija turi būti įdiegta.
+- Aplinka, kurioje bus atlikti perkėlimo veiksmai, turi veikti priežiūros režimu. Perkeliant orientyrus, neturėtų būti vykdoma jokia kita veikla.
+- Perkėlimo veiksmai turi būti atliekami tiksliai taip, kaip aprašyta čia, ir gali būti naudojami tik apkarpymo veiklai. "Microsoft" nepalaiko jokio kito šios galimybės naudojimo.
 
-### <a name="create-a-cutover-version-of-the-project-operations-integration-contract-line-milestones-dual-write-map"></a>Kurti "Project Operations" integravimo sutarties eilučių etapų dvigubo rašymo žemėlapio ribinę versiją 
+### <a name="create-a-cutover-version-of-the-project-operations-integration-contract-line-milestones-dual-write-map"></a>Sukurkite "Project Operations" integravimo sutarties eilutės etapų dvigubo rašymo žemėlapio iškirptę versiją 
 
-1. Įsitikinkite, kad objekto **Projekto operacijos integravimo sutarties eilučių etapų tikslinis** susiejimas yra atnaujintas. 
+1. Įsitikinkite, kad objekto **"Project Operations" integravimo sutarties eilutės orientyrų tikslinis susiejimas** yra atnaujintas. 
 
-    1. Programoje "Finance" eikite į **Duomenų valdymo** \> **duomenų objektus** ir pasirinkite objektą **"Project Operations" integravimo sutarties eilutės etapai.** 
-    2. Pasirinkite **Modifikuoti tikslinius susiejimus**. 
-    3. **Puslapyje Susieti išdėstymą pagal paskirtį** pasirinkite **Generuoti susiejimą**, tada patvirtinkite, kad norite generuoti susiejimą.
+    1. Dalyje "Finance" eikite į **Duomenų valdymo** \> **duomenų objektus** ir pasirinkite objektą **Projekto operacijų integravimo sutarties eilutės orientyrai.** 
+    2. Pasirinkite **Keisti paskirties susiejimą**. 
+    3. **Puslapyje Žemėlapio skirstymas į paskirties vietą** pasirinkite **Generuoti susiejimą**, tada patvirtinkite, kad norite generuoti susiejimą.
 
-2. Sustabdyti ir atnaujinti **projekto operacijų integravimo sutarties eilučių etapų** (**msdyn\_ contractlineschedule ofvalues**) dvigubo rašymo žemėlapį. 
+2. Sustabdykite ir atnaujinkite **"Project Operations" integravimo sutarties eilutės etapus** (**msdyn\_ contractlinescheduleofvalues**) dvigubo rašymo žemėlapį. 
 
-    1. Eikite į **Duomenų valdymas** \> **Dvigubas rašymas**, pasirinkite žemėlapį ir atidarykite išsamią jo informaciją. 
-    2. Pasirinkite **Sustabdyti** ir palaukite, kol sistema sustabdys žemėlapį. 
+    1. Eikite į **Duomenų valdymas** \> **Du kartus rašykite**, pasirinkite žemėlapį ir atidarykite išsamią jo informaciją. 
+    2. Pasirinkite **Stabdyti** ir palaukite, kol sistema sustabdys žemėlapį. 
     3. Pasirinkite **Atnaujinti lenteles**.
 
 3. Įtraukite operacijos būsenos susiejimą.
 
     1. Pasirinkite **Įtraukti susiejimą**.
-    2. Naujoje eilutėje, stulpelyje **Finansų ir operacijų programos**, pasirinkite **lauką TRANSSTATUS \[TRANSSTATUS\]**.
-    3. Stulpelyje **Microsoft Dataverse** pasirinkite **msdyn\_ invoicestatus \[SF\]** būseną.
+    2. Naujos eilutės stulpelyje **Finansai ir operacijų programėlės** pasirinkite lauką **TRANSSTATUS \[TRANSSTATUS\]**.
+    3. Stulpelyje **Microsoft Dataverse** pasirinkite **msdyn\_ invoicestatus \[Invoice būseną\]**.
     4. Stulpelyje Žemėlapio **tipas** pasirinkite rodyklę dešinėn (**\>**).
-    5. Pasirodžiusio dialogo lango lauke Sinchronizavimo kryptis **pasirinkite** į "Finance and Operations" programas **Dataverse.**
-    6. Pasirinkite **Įtraukti transformaciją**.
-    7. Lauke Transformuoti tipą **pasirinkite** **ValueMap**.
-    8. Pasirinkite **Įtraukti vertės susiejimą**.
+    5. Pasirodžiusio dialogo lango lauke Sinchronizavimo **kryptis** pasirinkite **Dataverse programėlės** Finansai ir operacijos.
+    6. Pasirinkite **Pridėti transformaciją**.
+    7. **Lauke Transformuoti tipą** pasirinkite **ValueMap**.
+    8. Pasirinkite **Pridėti vertės susiejimą**.
     9. Kairiajame lauke įveskite **4**. Dešiniajame lauke įveskite **192350001**. 
     10. Pasirinkite **Įrašyti**, tada uždarykite dialogo langą.
 
-4. Pasirinkite **Įrašyti, kad** įrašytumėte dvigubo rašymo žemėlapio versiją. 
-5. Srities **Įtraukti lentelę** lauke Publisher **pasirinkite** **Numatytasis leidėjas**.
-6. Lauke **Versija** įveskite versiją.
-7. Lauke **Aprašas** įveskite pastabą apie šią iškirptąją žemėlapio versiją. 
+4. Pasirinkite **Išsaugoti kaip**, kad išsaugotumėte dvigubo rašymo žemėlapio versiją. 
+5. **Srities Įtraukti lentelę** lauke **Leidėjas** pasirinkite **Numatytasis leidėjas**.
+6. **Lauke Versija** įveskite versiją.
+7. **Lauke Aprašas** įveskite pastabą apie šią iškirptą žemėlapio versiją. 
 8. Pasirinkite **Įrašyti**.
-9. Pradėkite žemėlapį.
+9. Paleiskite žemėlapį.
 
-### <a name="migrate-invoiced-milestones-to-the-dataverse-environment"></a>Perkelti etapus, kuriems išrašyta SF, Dataverse į aplinką
+### <a name="migrate-invoiced-milestones-to-the-dataverse-environment"></a>Sąskaitose faktūrose nurodytų orientyrų perkėlimas į Dataverse aplinką
 
-1. Aplinkoje Projekto operacijos Dataverse sukurkite etapus, kurių SF būsena yra **Paruošta sf išrašymui**. Šiuo metu nekelkite jokių etapų, kuriems nebuvo išrašyta SF.
+1. "Project Operations" Dataverse aplinkoje kurkite gaires, kurių sąskaitos faktūros būsena **yra Paruošta sf išrašymui**. Šiuo metu neperkelkite jokių etapų, kuriems nebuvo išrašyta sąskaita faktūra.
 
     > [!NOTE]
-    > Prieš perkeldami atsiskaitymo etapus, įsitikinkite, kad su projekto sutarties eilute susijusios finansinės dimensijos nustatytos taip, kaip tikėtasi. Pasibaigus perkėlimui, finansinių dimensijų redaguoti negalima.
+    > Prieš perkeldami atsiskaitymo tarpinius įvykius, įsitikinkite, kad finansinės dimensijos, susijusios su projekto sutarties eilute, nustatytos taip, kaip tikėtasi. Baigus perkėlimą, finansinių dimensijų redaguoti negalima.
 
 2. Perkėlę visus etapus, sustabdykite šiuos dvigubo rašymo žemėlapius:
 
-    - Projekto operacijų integravimo sutarčių eilučių orientyrai (msdyn\_ sutarčių eilutės, apimančios vertes)
+    - "Project Operations" integravimo sutarties linijos etapai (msdyn\_ contractlineschedule ofvalues)
     - „Project Operations“ integravimo faktiniai duomenys (msdyn\_actuals)
     - Projekto sąskaitų faktūrų pasiūlymų V2 (SF)
 
     Norėdami sustabdyti žemėlapius, atlikite šiuos veiksmus:
 
-    1. Programoje "Finance" eikite į **Duomenų valdymas** \> **Dvigubas rašymas**, pasirinkite žemėlapį ir atidarykite išsamią jo informaciją.
-    2. Pasirinkite **Sustabdyti** ir palaukite, kol sistema sustabdys žemėlapį.
+    1. Programoje "Finance" eikite į **Duomenų valdymas** \> **Dvigubas rašymas**, pasirinkite žemėlapį ir atidarykite jo informaciją.
+    2. Pasirinkite **Stabdyti** ir palaukite, kol sistema sustabdys žemėlapį.
 
-3. Aplinkoje Projekto operacijos Dataverse kurkite ir patvirtinkite atsiskaitymo etapų pro forma SF. 
+3. Projekto operacijų Dataverse aplinkoje kurkite ir patvirtinkite išankstines atsiskaitymo etapų sąskaitas faktūras. 
 
-    1. Svetainės struktūroje eikite į projekto sutartis, pasirinkite sutartis, tada pasirinkite **Kurti SF**.
-    2. Sukūrę sąskaitas faktūras, atidarykite jas **svetainės struktūros meniu Sąskaitos** faktūros, tada pasirinkite **Patvirtinti**.
+    1. Svetainės schemoje eikite į projekto sutartis, pasirinkite sutartis, tada pasirinkite **Kurti sąskaitas faktūras**.
+    2. Sukūrę sąskaitas faktūras, atidarykite jas svetainės žemėlapio **meniu Sąskaitos faktūros**, tada pasirinkite **Patvirtinti**.
 
     Šis veiksmas sukuria reikiamus įrašus Dataverse aplinkoje. Tačiau tai neturi įtakos finansams ir gautinoms sumoms, nes anksčiau išvardyti dvigubo rašymo žemėlapiai buvo sustabdyti.
 
-4. Patvirtinus visas pro forma sąskaitas faktūras, grąžinkite visus dvigubo rašymo žemėlapius į pradinę būseną.
+4. Patvirtinę visas formalias sąskaitas faktūras, grąžinkite visus dvigubo rašymo žemėlapius į pradinę būseną.
 
-    1. Atnaujinkite projekto operacijų integravimo sutarties eilučių etapų **(** msdyn **contractlineschedule ofvalues\_) dvigubo rašymo žemėlapio versiją** atgal į originalą. 
-    2. Žemėlapių sąraše pasirinkite dvigubo rašymo žemėlapį, pasirinkite **Lentelės schemos versiją**, tada pasirinkite pradinę lentelės schemos versiją.
+    1. Atnaujinkite "Project Operations" integravimo sutarties eilutės etapų versiją **(** msdyn **contractlinescheduleofvalues\_) dvigubo rašymo žemėlapį atgal** į pradinį. 
+    2. Žemėlapių sąraše pasirinkite dvigubo rašymo žemėlapį, pasirinkite **Lentelės žemėlapio versija**, tada pasirinkite pradinę lentelės žemėlapio versiją.
     3. Pasirinkite **Įrašyti**.
     4. Iš naujo paleiskite šiuos dvigubo rašymo žemėlapius:
 
-        - Projekto operacijų integravimo sutarčių eilučių orientyrai (msdyn\_ sutarčių eilutės, apimančios vertes)
+        - "Project Operations" integravimo sutarties linijos etapai (msdyn\_ contractlineschedule ofvalues)
         - „Project Operations“ integravimo faktiniai duomenys (msdyn\_actuals)
         - Projekto sąskaitų faktūrų pasiūlymų V2 (SF)
 
-Etapai dabar perkelti, o sistema yra pasirengusi tolesniems pjovimo veiklos etapams.
+Orientyrai dabar perkeliami, o sistema yra pasirengusi tolesniems mažinimo veiklos veiksmams.

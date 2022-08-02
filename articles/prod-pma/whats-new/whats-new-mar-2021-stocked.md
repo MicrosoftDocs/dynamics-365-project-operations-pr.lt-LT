@@ -1,18 +1,18 @@
 ---
 title: Kas nauja arba pakeista 2021 m. kovo mėn. „Project Operations“, skirtoje laikomų medžiagų / gamyba pagrįstiems scenarijams
-description: Šiame straipsnyje pateikiama informacija apie kokybės atnaujinimus, kuriuos galima rasti 2021 m. kovo mėn.
+description: Šiame straipsnyje pateikiama informacija apie kokybės naujinimus, pasiekiamus 2021 m. kovo mėnesio "Project Operations" leidime, skirtame atsargomis / gamyba pagrįstiems scenarijams.
 author: andchoi
 ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: fffa9d70574c8c91b63ceb5055af64a49c9d398b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 727f2c782370b61fce65385fe29fbfa6f2387087
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911330"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028758"
 ---
 # <a name="whats-new-or-changed-in-project-operations-march-2021-for-stockedproduction-based-scenarios"></a>Kas nauja arba pakeista 2021 m. kovo mėn. „Project Operations“, skirtoje laikomų medžiagų / gamyba pagrįstiems scenarijams
 
@@ -121,7 +121,7 @@ _**Taikoma (kam):**„Project Operations“, skirta laikomų medžiagų / gamyba
 | Projektų valdymas ir apskaita | [533530](https://fix.lcs.dynamics.com/Issue/Details/?bugId=533530) | Darbo paskirstymo struktūros (WBS) senesnės klasės metodas, **ProjWBSUpdateController::updateOutlineNumbersAndPublishInPreOrder** yra nerekomenduojamas.                                                                                                   |
 
 ### <a name="regulatory-updates"></a>Reguliavimo naujinimai
-Informacijos apie "Finance and Operations" programų reguliavimo naujinimus ieškokite [reguliavimo naujinimai](/dynamics365/finance/localizations/regulatory-updates). Taip pat galite prisijungti prie LCS ir peržiūrėti planuojamus reguliavimo naujinimus naudodamiesi problemų ieškos įrankiu. Problemų ieška leidžia ieškoti pagal šalį, funkcijos tipą ir leidimą.
+Informacijos apie finansų ir operacijų programų reguliavimo naujinimus ieškokite [Reguliavimo naujinimai](/dynamics365/finance/localizations/regulatory-updates). Taip pat galite prisijungti prie LCS ir peržiūrėti planuojamus reguliavimo naujinimus naudodamiesi problemų ieškos įrankiu. Problemų ieška leidžia ieškoti pagal šalį, funkcijos tipą ir leidimą.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,18 +1,18 @@
 ---
 title: 2020 m. gruodžio mėn. naujienos – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams
-description: Šiame straipsnyje pateikiama informacija apie kokybės atnaujinimus, kuriuos galima rasti 2020 m. gruodžio mėn.
+description: Šiame straipsnyje pateikiama informacija apie kokybės naujinimus, pasiekiamus 2020 m. gruodžio mėnesio "Project Operations" leidime, skirtame ištekliais / ne atsargų scenarijams.
 author: sigitac
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8eb5d2e31f8d3506fc07332cf78efda979c46206
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2b2cf628e6b6f4744cc0ee9deee2a92528a2410d
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8933042"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029724"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>2020 m. gruodžio mėn. naujienos – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams
 
@@ -61,7 +61,7 @@ Informacijos apie tai, kaip naujinti į šį leidimą, ieškokite [„Project Op
 | Projektų planavimas ir sekimas | 2057197          | Įvertinimo eilutės kopija su užduoties nuoroda nepalaikoma                                                                                                     |
 | Projektų planavimas ir sekimas | 2060687          | Laiko juostos įspėjimas dabar dingsta po tam tikro laiko                                                                                                      |
 | Išteklių valdymas           | 1832887          | Numatytas išteklių kategorijos ID turi būti statinis, kad būtų galima pakartotinai įkelti duomenis, skirtus „Dataverse“ ir „Finance“ aplinkoms                                                 |
-| Laikas ir išlaidos              | 2081793          | **Išlaidų kategorijos pavadinimas** turi būti susietas su **išlaidų kategorijos aprašymo** lauku finansų ir operacijų programose                                                  |
+| Laikas ir išlaidos              | 2081793          | **Išlaidų kategorijos pavadinimas** turi būti susietas su **išlaidų kategorijos aprašo** lauku finansų ir operacijų programose                                                  |
 | Laikas ir išlaidos              | 2034882          | Mygtukas **Naujas** rodomas du kartus laiko įrašų komandų juostoje įdiegus „Dynamics 365 Field Service“                                          |
 | Laikas ir išlaidos              | 2056028          | Puslapio **Laiko redagavimas** atnaujinimas siekiant įtraukti laiko planavimo juostą                                                                                                              |
 | Laikas ir išlaidos              | 1983747          | Laiko įrašų diagramoje rodomi papildomi duomenys                                                                                                                   |
@@ -106,7 +106,7 @@ Informacijos apie tai, kaip naujinti į šį leidimą, ieškokite [„Project Op
 | Kelionės ir išlaidos                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | Išlaidų ataskaitos automatinio registravimo darbo eiga užbaigiama, bet sąskaita faktūra neužregistruojama                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Reguliavimo naujinimai
-Informacijos apie "Finance and Operations" programų reguliavimo naujinimus ieškokite [reguliavimo naujinimai](/dynamics365/finance/localizations/regulatory-updates). Taip pat galite prisijungti prie LCS ir peržiūrėti planuojamus reguliavimo naujinimus naudodamiesi problemų ieškos įrankiu. Problemų ieška leidžia ieškoti pagal šalį, funkcijos tipą ir leidimą.
+Informacijos apie finansų ir operacijų programų reguliavimo naujinimus ieškokite [Reguliavimo naujinimai](/dynamics365/finance/localizations/regulatory-updates). Taip pat galite prisijungti prie LCS ir peržiūrėti planuojamus reguliavimo naujinimus naudodamiesi problemų ieškos įrankiu. Problemų ieška leidžia ieškoti pagal šalį, funkcijos tipą ir leidimą.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

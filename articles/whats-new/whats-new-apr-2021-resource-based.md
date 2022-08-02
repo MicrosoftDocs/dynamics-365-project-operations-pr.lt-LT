@@ -1,18 +1,18 @@
 ---
 title: Kas nauja 2021 m. balandžio mėn. – „Project Operations“, skirtai ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams
-description: Šiame straipsnyje pateikiama informacija apie kokybės atnaujinimus, kuriuos galima rasti 2021 m. balandžio mėn.
+description: Šiame straipsnyje pateikiama informacija apie kokybės naujinimus, pasiekiamus 2021 m. balandžio mėnesio "Project Operations" leidime, skirtame ištekliais / ne atsargomis pagrįstiems scenarijams.
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a060bdc4e4c9f37ec666b1cf4d078986ad1571db
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 490b7aa38bfdfbcdce21a21e582296e4ce15aeeb
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912434"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029264"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Kas nauja 2021 m. balandžio mėn. – „Project Operations“, skirtai ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams
 
@@ -42,13 +42,13 @@ Toliau pateiktame sąraše parodytos dvigubo rašymo schemos, modifikuotos arba 
 | **Objekto schema** | **Atnaujinta versija** | **Komentarai** |
 | --- | --- | --- |
 | „Project Operations“ integravimo faktiniai duomenys (msdyn\_actuals) | 1.0.0.14 | Schema modifikuota norint sinchronizuoti medžiagų projektų faktinius duomenis. |
-| „Project Operations“ integravimo objektas, skirtas išlaidų įvertinimams (msdyn\_estimateslines) | 1.0.0.2 | Pridėta projekto sutarties eilutės sinchronizavimas su "Finance and Operations" programomis, skirtomis užduotimis pagrįstam atsiskaitymo palaikymui. |
-| „Project Operations“ integravimo objektas, skirtas valandų įvertinimams (msdyn\_resourceassignments) | 1.0.0.5 | Pridėta projekto sutarties eilutės sinchronizavimas su "Finance and Operations" programomis, skirtomis užduotimis pagrįstam atsiskaitymo palaikymui. |
-| „Project Operations“ integravimo lentelė, skirta medžiagų įvertinimams (msdyn\_estimatelines) | 1.0.0.0 | Nauja lentelės schema, skirta sinchronizuoti medžiagų įvertinimus iš Dataverse "Finance and Operations" programų. |
-| „Project Operations“ integravimo projekto tiekėjų sąskaitų faktūrų eksportavimo objektas (msdyn\_projectvendorinvoices) | 1.0.0.0 | Nauja lentelės schema, skirta sinchronizuoti tiekėjo SF antraštes iš "Finance and Operations" programų į Dataverse. |
-| „Project Operations“ integravimo projekto tiekėjų sąskaitų eilučių eksportavimo objektas (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Nauja lentelės struktūra, skirta sinchronizuoti tiekėjo SF eilutes iš "Finance and Operations" programų į Dataverse. |
+| „Project Operations“ integravimo objektas, skirtas išlaidų įvertinimams (msdyn\_estimateslines) | 1.0.0.2 | Pridėtas projekto sutarties eilutės sinchronizavimas su finansų ir operacijų programomis, skirtomis užduotimis pagrįstam atsiskaitymo palaikymui. |
+| „Project Operations“ integravimo objektas, skirtas valandų įvertinimams (msdyn\_resourceassignments) | 1.0.0.5 | Pridėtas projekto sutarties eilutės sinchronizavimas su finansų ir operacijų programomis, skirtomis užduotimis pagrįstam atsiskaitymo palaikymui. |
+| „Project Operations“ integravimo lentelė, skirta medžiagų įvertinimams (msdyn\_estimatelines) | 1.0.0.0 | Naujas lentelės žemėlapis, skirtas sinchronizuoti medžiagų įvertinimus nuo Dataverse finansų ir operacijų programų. |
+| „Project Operations“ integravimo projekto tiekėjų sąskaitų faktūrų eksportavimo objektas (msdyn\_projectvendorinvoices) | 1.0.0.0 | Naujas lentelių žemėlapis, skirtas tiekėjo SF antraštėms sinchronizuoti iš finansų ir operacijų programų į Dataverse. |
+| „Project Operations“ integravimo projekto tiekėjų sąskaitų eilučių eksportavimo objektas (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Naujas lentelių žemėlapis, skirtas sinchronizuoti tiekėjo SF eilutes iš finansų ir operacijų programų į Dataverse. |
 
-Visada turėtumėte paleisti naujausią žemėlapio versiją savo aplinkoje ir įgalinti visus susijusius lentelių žemėlapius, kai atnaujinate "Project Operations Dataverse " sprendimą ir "Finance and Operations" sprendimo versiją. Jei nesuaktyvinama naujausia schemos versija, kai kurios funkcijos ir galimybės gali veikti netinkamai. Aktyvią schemos versiją galite matyti puslapio **Dvigubas rašymas** stulpelyje **Versija**. Suaktyvinti naują schemos versiją galite pasirinkdami **Lentelės schemos versijos**, tada – naujausią versiją, tada pasirinktą versiją įrašydami. Jei tinkinote parengtą naudoti lentelės schemą, pakeitimus pritaikykite iš naujo. Norėdami sužinoti daugiau, žr. [Programų ciklo valdymas](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Visada turėtumėte paleisti naujausią žemėlapio versiją savo aplinkoje ir įgalinti visus susijusius lentelių žemėlapius, kai atnaujinate "Project Operations" Dataverse sprendimo ir finansų bei operacijų sprendimo versiją. Jei nesuaktyvinama naujausia schemos versija, kai kurios funkcijos ir galimybės gali veikti netinkamai. Aktyvią schemos versiją galite matyti puslapio **Dvigubas rašymas** stulpelyje **Versija**. Suaktyvinti naują schemos versiją galite pasirinkdami **Lentelės schemos versijos**, tada – naujausią versiją, tada pasirinktą versiją įrašydami. Jei tinkinote parengtą naudoti lentelės schemą, pakeitimus pritaikykite iš naujo. Norėdami sužinoti daugiau, žr. [Programų ciklo valdymas](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Jei paleidžiant schemą kyla kokia nors problema, vykdykite nurodymus, pateikiamus dvigubo rašymo trikčių šalinimo vadovo skyriuje [Trūkstamų lentelių stulpelių problema schemose](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps).
 

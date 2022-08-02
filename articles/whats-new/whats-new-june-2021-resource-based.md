@@ -1,18 +1,18 @@
 ---
 title: Kas nauja – 2021 m. birželio mėn. – „Project Operations“, skirta išteklių / nelaikomų medžiagų scenarijams
-description: Šiame straipsnyje pateikiama informacija apie kokybės atnaujinimus, kuriuos galima rasti 2021 m. birželio mėn.
+description: Šiame straipsnyje pateikiama informacija apie kokybės naujinimus, pasiekiamus 2021 m. birželio mėnesio "Project Operations" leidime, skirtuose ištekliais / ne atsargų scenarijams.
 author: sigitac
 ms.date: 06/14/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5bc8475554c4348fa1e88b9090450bd3bfaa924e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: fd745107fa6d50882ebea302d3d2ae0de21b79ad
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910594"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028256"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Kas nauja – 2021 m. birželio mėn. – „Project Operations“, skirta išteklių / nelaikomų medžiagų scenarijams
 
@@ -21,7 +21,7 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 Šis straipsnis taikomas šiems Dynamics 365 Project Operations komponentams ir versijoms:
 
 - „Project Operations“ 4.11.0.156 arba 4.11.0.164 versijos „Dynamics 365“ „Dataverse“ aplinkoje.
-- Projektų valdymas ir apskaita "Finance and Operations" programų aplinkose 10.0.19 versija.
+- Projektų valdymas ir apskaita finansų ir operacijų programų aplinkose 10.0.19 versija.
 
 ## <a name="features-included-in-this-release"></a>Į šį leidimą įtrauktos funkcijos
 
@@ -38,7 +38,7 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 
 Dabartinį „Project Operations“ dvigubo rašymo schemų sąrašą ir versijas rasite straipsnyje [„Project Operations“ dvigubo rašymo schemų versijos](../environment/resource-dual-write-maps.md).
 
-Visada paleiskite naujausią žemėlapio versiją savo aplinkoje ir įgalinkite visas susijusias lentelių struktūras, kai atnaujinsite "Project Operations Dataverse " sprendimą ir "Finance and Operations" programų sprendimo versiją. Jei nesuaktyvinama naujausia schemos versija, kai kurios funkcijos ir galimybės gali veikti netinkamai. Aktyvią schemos versiją galite matyti puslapio **Dvigubas rašymas** stulpelyje **Versija**. Naują schemos versiją galite suaktyvinti pasirinkdami **Lentelių schemų versijos**, pasirinkdami naujausią versiją ir įrašydami pasirinktą versiją. Jei tinkinote parengtą naudoti lentelės schemą, pakeitimus pritaikykite iš naujo. Norėdami sužinoti daugiau, žr. [Programų ciklo valdymas](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Visada paleiskite naujausią žemėlapio versiją savo aplinkoje ir įgalinkite visus susijusius lentelių žemėlapius, kai atnaujinsite "Project Operations Dataverse " sprendimo ir finansų bei operacijų programų sprendimo versiją. Jei nesuaktyvinama naujausia schemos versija, kai kurios funkcijos ir galimybės gali veikti netinkamai. Aktyvią schemos versiją galite matyti puslapio **Dvigubas rašymas** stulpelyje **Versija**. Naują schemos versiją galite suaktyvinti pasirinkdami **Lentelių schemų versijos**, pasirinkdami naujausią versiją ir įrašydami pasirinktą versiją. Jei tinkinote parengtą naudoti lentelės schemą, pakeitimus pritaikykite iš naujo. Norėdami sužinoti daugiau, žr. [Programų ciklo valdymas](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Jei paleisdami schemą susiduriate su problema, vykdykite nurodymus, pateikiamus vadovo Dvigubo rašymo trikčių šalinimas skyriuje [Trūkstamų lentelių stulpelių problema schemose](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps).
 
@@ -62,7 +62,7 @@ Jei paleisdami schemą susiduriate su problema, vykdykite nurodymus, pateikiamus
 | Laikas ir išlaidos | 2194431 | Tinklelis **Laiko įrašas** turi atsižvelgti į savaitės pradžią, kaip nustatyta **sistemos parametruose**. |
 | Laikas ir išlaidos | 2277311 | Panaikinus reikšmę tinklelio **Laiko įrašas** langelyje, žymiklis lieka tinklelyje. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektų valdymas ir apskaita pagal Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektų valdymas ir Dynamics 365 Finance apskaita
 
 | Funkcijų sritis | Nuorodos numeris | Kokybės naujinimas |
 | --- | --- | --- |

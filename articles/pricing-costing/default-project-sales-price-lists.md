@@ -1,17 +1,17 @@
 ---
 title: Numatytieji kainoraščiai
-description: Šiame straipsnyje pateikiama informacija apie numatytuosius "Project Operations" pardavimo ir savikainos kainoraščius.
+description: Šiame straipsnyje pateikiama informacija apie numatytuosius pardavimo ir savikainos kainoraščius programoje "Project Operations".
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7a8f99cd03e5c2c15941c17469cc5632765b0fdc
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 99af12577abeb0b77dc5d8a117d1e3b292bf0b80
+ms.sourcegitcommit: 260368e1d0751db713da073a641c63c04876fcdf
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917724"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "9036421"
 ---
 # <a name="default-price-lists"></a>Numatytieji kainoraščiai
 
@@ -25,7 +25,7 @@ Kiekviename „Dynamics 365 Project Operations“ projekto pasiūlyme ir sutarty
 Sistema baigia toliau nurodytą procesą, kad nustatytų, kokį kainoraštį pasirinkti kaip numatytąjį projekto pasiūlymo kainoraštį.
 
 1. Sistema atsižvelgia į kainoraščius, pridėtus prie kliento projektų kainoraščių. 
-2. Jei prie kliento įrašo pridėti projektų kainoraščiai, sistema atsižvelgia į pardavimo kainoraščius, pridėtus prie projekto parametrų, kurie atitinka projekto pasiūlymo valiutą.
+2. Jei prie sąskaitos įrašo nepridedama projekto kainoraščių, sistema peržiūri pardavimo kainoraščius, pridėtus prie projekto parametrų, atitinkančių projekto pasiūlymo valiutą.
 3. Tada sistema patikrina kainoraščių, atitinkančių projekto pasiūlymo datų intervalą, įsigaliojimo datą. Konkrečiai – datą, kai pasiūlymas buvo sukurtas.
 4. Jei yra keli kainoraščiai, kurie galioja projekto pasiūlymo datą, projekto pasiūlyme nustatomi visi numatytieji kainoraščiai.
 5. Jei projekto pasiūlymo datą galiojančių kainoraščių nėra, projekto pasiūlyme nėra numatytojo projekto kainoraščio. Projekto pasiūlyme pasirodys įspėjamasis pranešimas. Pranešime nurodoma, kad faktinės ir įvertintos projektų sumos nebus įkainotos, nes nėra pridėtų projektų kainoraščių.

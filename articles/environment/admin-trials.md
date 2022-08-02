@@ -6,12 +6,12 @@ ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: 6a6986cfd6c01d1c22d37a10c8d824730fad2e9e
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959699"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029310"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Užsiregistravimas norint naudotis „Project Operations“ bandomosiomis versijomis 
 
@@ -86,18 +86,18 @@ Prieš pradėdami prisijunkite prie naršyklės naudodami vartotojo darbo paskyr
  
   Kai parengimas baigtas, jūsų aplinkos būsena yra **Paruošta**. Aplinkos parengimas apima demonstracinių duomenų diegimą.
  
-4.  Pasirinkite atitinkamą Microsoft Dataverse URL ir "Finance and Operations" programų URL, kad patvirtintumėte diegimą.
+4.  Pasirinkite atitinkamą Microsoft Dataverse URL ir finansavimo bei operacijų programų URL, kad patvirtintumėte diegimą.
 
 ## <a name="configuring-dual-write"></a>Dvigubo rašymo konfigūravimas
-- Norėdami konfigūruoti dvigubo rašymo saugos vaidmenis, žr [Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
-- Norėdami pasiekti dvigubo rašymo konfigūraciją, eikite į "Finance and Operations" egzempliorių, tada pereikite prie **duomenų valdymo** > **dvigubo rašymo**.
-- Norėdami konfigūruoti dvigubo rašymo žemėlapius, žr [...](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
+- Norėdami konfigūruoti saugos vaidmenis dvigubam rašymui, žiūrėkite ["Project Operations" saugos parametrų naujinimas Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
+- Norėdami pasiekti dvigubo rašymo konfigūraciją, eikite į "Finance and Operations" egzempliorių, tada eikite į **"Data Management** > **Dual Write"**.
+- Norėdami konfigūruoti dvigubo rašymo žemėlapius, žiūrėkite ["Project Operations" dvigubo rašymo žemėlapių vykdymas](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Licencijų priskyrimas
 
 Norint atlikti toliau nurodytus veiksmus jums reikės administratoriaus prieigos prie organizacijos „Microsoft 365“ portalo.
 
-1. Eikite į [Microsoft 365 administravimo centrą](https://portal.office.com/), kad priskirtumėte licencijas savo vartotojams.
+1. Eikite į [Microsoft 365 administravimo centrą](https://portal.office.com/) ir priskirkite licencijas savo vartotojams.
 
    ![Administravimo centro pagrindinis puslapis](./media/14AdminPortal.png)
 
@@ -117,7 +117,7 @@ Toliau nurodytuose ištekliuose pateiktos naudingos gairės pradėjus veiklos ci
 
 ## <a name="frequently-asked-questions"></a>Dažnai užduodami klausimai
 
-### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Ką daryti, jei mano "Finance and Operations" programų aplinkai reikia ALM arba ELM?
+### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Ką daryti, jei mano finansų ir operacijų programų aplinkai reikia ALM arba ELM?
 
 - Partnerius, reikalaujančius visų aplinkos ciklo valdymo galimybių, žr. temoje [Partnerio smėlio dėžės licencijos užklausa](https://experience.dynamics.com/requestlicense) ir peržiūrėkite naują partnerio pasiūlymą. 
 - Partnerius, kuriems reikalinga daugiau informacijos apie vidines naudojimo teises, žr. straipsnyje [Vidinių naudojimo teisių debesies ir programinės įrangos pranašumas (microsoft.com](https://partner.microsoft.com/membership/internal-use-software).
@@ -125,7 +125,7 @@ Toliau nurodytuose ištekliuose pateiktos naudingos gairės pradėjus veiklos ci
 ### <a name="can-i-extend-my-trial-beyond-30-days"></a>Ar galiu bandomąja versija naudotis ilgiau nei 30 dienų?
 Norėdami prailginti bandomosios versijos laikotarpį, atlikite toliau nurodytus veiksmus.
 
-1. **Microsoft 365 Administravimo centre** eikite į **Produktų** > **atsiskaitymas**.
+1. **Microsoft 365 Administravimo centre** eikite į **Atsiskaitymas už** > **produktus**.
 2. Pasirinkite **„Dynamics 365 Project Operations (CE)“ – peržiūros versijos bandomąją versiją**.
 3. Dalyje **Galiojimo pabaigos data** pasirinkite **Nustatyti vėlesnę datą**.
 

@@ -4,7 +4,7 @@ description: Projekto šablono kūrimas „Project Service“
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
-ms.date: 8/03/2018
+ms.date: 07/19/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 127b6e43a15f19a42791e78b55865ab11ca50c7a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8159e0390441e5029f9beb0228cffcbc4d683479
+ms.sourcegitcommit: 278740b352f1ed9618ee5c79597c8f449984d6f4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599004"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "9177436"
 ---
 # <a name="create-a-project-template-project-service"></a>Projekto šablono kūrimas („Project Service“)
 
@@ -35,14 +35,21 @@ Naudojant Projektų šablonus galima sutaupyti laiko, jei jūsų įmonė regulia
 ## <a name="components-of-project-template"></a>Projekto šablono komponentai
  Projekto šabloną sudaro trys toliau nurodyti komponentai.  
   
-- **Darbo paskirstymo struktūra**: darbo paskirstymo struktūrą projekto šablone sudaro tie patys elementai kaip ir projekte. Galite kurti užduočių hierarchiją, susieti vaidmenis su užduotimis, nustatyti grafiko atributus, nustatyti priklausomybes ir peržiūrėti visus Ganto diagramos duomenis. Projekto šablonų darbo paskirstymo struktūra taip pat palaiko visų užduočių režimus. Kuriant darbo grafiką, skirtumų tarp projekto šablono ir projekto nėra.  
+- **Darbo paskirstymo struktūra**: darbo paskirstymo struktūrą projekto šablone sudaro tie patys elementai kaip ir projekte. Galite sukurti užduočių hierarchiją, susieti vaidmenis su užduotimi, apibrėžti grafiko atributus, nustatyti priklausomybes ir peržiūrėti visus Ganto duomenis. Projekto šablonų darbo paskirstymo struktūra taip pat palaiko kiekvienos užduoties užduočių režimus. Kuriant darbo grafiką nėra skirtumo tarp projekto šablono ir projekto.  
   
 - **Projekto sąmatos**: projekto šablonų ir projektų sąmatos sudaromos pagal tokį patį principą, išskyrus tai, kad numatytųjų išlaidų kainoraščiai ir pardavimo kainos visada yra numatytosios išlaidos ir pardavimo kainų sąrašai, nustatyti „[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]“ parametruose. Kitos funkcijos yra tokios pat kaip projekte.  
   
 - **Projekto komandos formavimas**: formuojant projekto komandą projekto šablone, jame negalima užsisakyti pavadino ištekliaus. Galite naudoti parinktį **Generuoti projekto komandą** darbo paskirstymo struktūroje, kad sukurtumėte bendrųjų išteklių rinkinį. Taip pat galite nurodyti reikiamus bendrųjų išteklių įgūdžius ir kvalifikaciją. Projekto šablonuose bendrojo ištekliaus negalima pakeisti rezervuojamu ištekliumi.  
-  
+
+## <a name="create-a-project-template-from-an-existing-project"></a>Projekto šablono kūrimas iš esamo projekto
+Projekto šabloną iš projekto galite sukurti šiais būdais:
+
+- **Darbo paskirstymo struktūra**: iš projekto išvesto šablono darbo paskirstymo struktūra nukopijuos visas užduotis ir priklausomybes. Sukurtos užduotys bus pagrįstos bendraisiais komandos nariais, kurie įtraukiami į projekto komandą kuriant projekto šabloną.
+- **Projekto įvertinimai**: kai projekto šablonas sukuriamas iš esamo projekto, šaltinio projekto įvertinimai nukopijuojami į projekto šabloną.
+- **Projekto komandos nariai**: kai šablonas sukuriamas iš esamo projekto, visi pavadinti komandos nariai pakeičiami bendruoju organizacijos ištekliumi. Išlaikomi visi pareigų pavadinimai ir vaidmenys.
+
 ## <a name="create-a-project-from-a-template"></a>Projekto kūrimas pagal šabloną  
- Projektą kurti šabloną galima toliau nurodytais būdais.  
+ Galite sukurti projektą iš šablono šiais būdais:  
   
 -   Kurdami projektą pagal pasiūlymą, projekto šabloną galite pasirinkti projekto sparčiojo kūrimo formoje.  
   

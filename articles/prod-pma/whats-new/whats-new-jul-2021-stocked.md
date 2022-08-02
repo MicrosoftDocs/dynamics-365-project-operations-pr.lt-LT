@@ -1,18 +1,18 @@
 ---
 title: Kas nauja ar pakeista 2021 m. liepos mėn. programoje „Project Operations“, skirtoje laikomų medžiagų / gamyba pagrįstiems scenarijams
-description: Šiame straipsnyje pateikiama informacija apie kokybės atnaujinimus, kuriuos galima rasti 2021 m. liepos mėn.
+description: Šiame straipsnyje pateikiama informacija apie kokybės naujinimus, pasiekiamus 2021 m. liepos mėnesio "Project Operations" leidime, skirtuose atsargomis / gamyba pagrįstiems scenarijams.
 author: andchoi
 ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: df9a68c5a12e6aec140867eb1db3d88279c05795
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: c04d0465f5f7dd43ba50d4c0d2937b45fed6df86
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8933640"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028850"
 ---
 # <a name="whats-new-or-changed-in-project-operations-july-2021-for-stockedproduction-based-scenarios"></a>Kas nauja ar pakeista 2021 m. liepos mėn. programoje „Project Operations“, skirtoje laikomų medžiagų / gamyba pagrįstiems scenarijams
 
@@ -64,7 +64,7 @@ _**Taikoma (kam):**„Project Operations“, skirta laikomų medžiagų / gamyb
 | Kelionės ir išlaidos                  | [523557](https://fix.lcs.dynamics.com/Issue/Details/?bugId=523557) | Jei nerandama darbo eiga, įrankis **Atkurti išlaidų dokumento būseną** turi išlaidų dokumento būseną atkurti į **Juodraštis**. 
 
 ### <a name="regulatory-updates"></a>Reguliavimo naujinimai
-Informacijos apie "Finance and Operations" programų reguliavimo naujinimus ieškokite [reguliavimo naujinimai](/dynamics365/finance/localizations/regulatory-updates). Taip pat galite prisijungti prie „Lifecycle Services“ (LCS) ir planuojamas reguliavimo naujienas peržiūrėti naudodami įrankį Problemų ieška. Problemų ieška leidžia ieškoti pagal šalį, funkcijos tipą ir leidimą.
+Informacijos apie finansų ir operacijų programų reguliavimo naujinimus ieškokite [Reguliavimo naujinimai](/dynamics365/finance/localizations/regulatory-updates). Taip pat galite prisijungti prie „Lifecycle Services“ (LCS) ir planuojamas reguliavimo naujienas peržiūrėti naudodami įrankį Problemų ieška. Problemų ieška leidžia ieškoti pagal šalį, funkcijos tipą ir leidimą.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

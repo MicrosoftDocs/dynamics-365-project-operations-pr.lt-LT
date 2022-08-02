@@ -1,6 +1,6 @@
 ---
-title: Sinchronizuoti projekto išlaidų kategorijas tarp "Finance and Operations" ir "Project Service Automation"
-description: Šiame straipsnyje aprašomi šablonai ir pagrindinės užduotys, naudojamos sinchronizuoti projekto išlaidų kategorijas nuo Microsoft Dynamics 365 Finance iki Dynamics 365 Project Service Automation.
+title: Projekto išlaidų kategorijų sinchronizavimas tarp finansų ir operacijų bei "Project Service Automation"
+description: Šiame straipsnyje aprašomi šablonai ir pagrindinės užduotys, naudojamos projekto išlaidų kategorijoms sinchronizuoti tarp Microsoft Dynamics 365 "Finance" ir Dynamics 365 Project Service Automation.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 630c4fa7a159aa46b46984736080cd007d519a6c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 8eba7defb93bd880db4b0e8fe425d07312cf5cb9
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927246"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028942"
 ---
-# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Sinchronizuoti projekto išlaidų kategorijas tarp "Finance and Operations" ir "Project Service Automation"
+# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Projekto išlaidų kategorijų sinchronizavimas tarp finansų ir operacijų bei "Project Service Automation"
 
 [!include[banner](../includes/banner.md)]
 
-Šiame straipsnyje aprašomi šablonai ir pagrindinės užduotys, naudojamos sinchronizuoti projekto išlaidų kategorijas tarp Dynamics 365 Finance ir Dynamics 365 Project Service Automation.
+Šiame straipsnyje aprašomi šablonai ir pagrindinės užduotys, naudojamos projekto išlaidų kategorijoms sinchronizuoti tarp Dynamics 365 Finance ir Dynamics 365 Project Service Automation.
 
 > [!NOTE]
 > - Projekto užduočių integravimas, išlaidų operacijų kategorijos, valandų įvertinimas, išlaidų įvertinimas ir funkcijų blokavimas prieinami 8.0 versijoje.
@@ -80,10 +80,10 @@ Projekto išlaidų kategorijos valdomos naudojant „Finance, o sinchronizuojamo
 
 ### <a name="power-query"></a>Power Query
 
-Kai sinchronizuojate su "Project Service Automation", turite naudoti "Microsoft Power Query for Excel", kad nustatytumėte atsiskaitymo tipą operacijų kategorijoje. Projekto išlaidų operacijų kategorijų („Fin and Ops“ į PSA) šablonas pateikia numatytąjį stulpelį ir susiejimą. Jei kuriate savo šabloną, turite įtraukti sąlyginį stulpelį į Power Query. Atlikite šiuos veiksmus.
+Kai sinchronizuojate su "Project Service Automation", turite naudoti "Microsoft for Power Query Excel", kad nustatytumėte atsiskaitymo tipą operacijos kategorijoje. Projekto išlaidų operacijų kategorijų („Fin and Ops“ į PSA) šablonas pateikia numatytąjį stulpelį ir susiejimą. Jei kuriate savo šabloną, sąlyginis stulpelis turi būti įtrauktas į Power Query. Atlikite šiuos veiksmus.
 
 1. Spustelėkite rodyklę, kad atidarytumėte projekto išlaidų kategorijų užduoties susiejimą projekto išlaidų operacijų kategorijų („Fin and Ops“ į PSA) šablone.
-2. Spustelėkite saitą **Išankstinė užklausa ir Filtravimas**, kad atidarytumėte Power Query.
+2. Spustelėkite saitą **Išankstinė užklausa ir filtravimas**, kad atidarytumėte Power Query.
 2. Pažymėkite **Įtraukti sąlyginį stulpelį**.
 3. Įveskite naujo stulpelio pavadinimą, pvz., **BillingType**.
 4. Įveskite šią sąlygą: **Jei CATEGORYID nėra lygi nuliui, tada 19235001, kitaip nulis**.

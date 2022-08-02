@@ -1,6 +1,6 @@
 ---
-title: Sinchronizuoti projekto faktinius duomenis tiesiogiai iš "Project Service Automation" į projekto integravimo žurnalą, kad būtų galima registruoti "Finance and Operations"
-description: Šiame straipsnyje aprašomi šablonai ir pagrindinės užduotys, naudojamos projekto faktiniams duomenims sinchronizuoti tiesiogiai iš Microsoft Dynamics 365 Project Service Automation "Finance and Operations".
+title: Sinchronizuokite projekto faktines sumas tiesiai iš "Project Service Automation" į projekto integravimo žurnalą, kad galėtumėte skelbti finansuose ir operacijose
+description: Šiame straipsnyje aprašomi šablonai ir pagrindinės užduotys, naudojamos projekto faktinėms aplinkybėms tiesiogiai sinchronizuoti su Microsoft Dynamics 365 Project Service Automation finansais ir operacijomis.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 7d912a11d9c7bc66ed43911ee32f25092d551cd6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 34a0a0f7277777895077d221cd95e8d962d2a902
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8929500"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028988"
 ---
-# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Sinchronizuoti projekto faktinius duomenis tiesiogiai iš "Project Service Automation" į projekto integravimo žurnalą, kad būtų galima registruoti "Finance and Operations"
+# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Sinchronizuokite projekto faktines sumas tiesiai iš "Project Service Automation" į projekto integravimo žurnalą, kad galėtumėte skelbti finansuose ir operacijose
 
 [!include[banner](../includes/banner.md)]
 
-Šiame straipsnyje aprašomi šablonai ir pagrindinės užduotys, naudojamos projekto faktiniams duomenims sinchronizuoti tiesiogiai iš Dynamics 365 Project Service Automation Dynamics 365 Finance į Dynamics 365 Finance.
+Šiame straipsnyje aprašomi šablonai ir pagrindinės užduotys, naudojamos projekto faktinėms aplinkybėms tiesiogiai sinchronizuoti nuo Dynamics 365 Project Service Automation Dynamics 365 Finance.
 
 Šablonas sinchronizuoja operacijas iš „Project Service Automation“ į paruošimo lenteles „Finance“. Baigę sinchronizuoti, **turite** importuoti duomenis iš paruošimo lentelės į integravimo žurnalą.
 
@@ -41,7 +41,7 @@ Naudojant „Project Service Automation“ į „Finance“ integravimo sprendim
 
 Šioje iliustracijoje pavaizduota, kaip duomenys sinchronizuojami tarp „Project Service Automation“ ir „Finance“.
 
-[![Duomenų srautas, skirtas "Project Service Automation" integravimui su finansais ir operacijomis.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Duomenų srautas, skirtas "Project Service Automation" integracijai su finansais ir operacijomis.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Projekto faktiniai duomenys iš „Project Service Automation“
 
@@ -74,7 +74,7 @@ Prieš sinchronizuodami faktinius duomenis, turite sukonfigūruoti „Project Se
 
 ### <a name="power-query"></a>Power Query
 
-Projekto faktinių duomenų šablone šioms užduotims atlikti turite naudoti "Microsoft Power Query for Excel":
+Projekto faktinių duomenų šablone turite naudoti "Microsoft for Excel" Power Query, kad atliktumėte šias užduotis:
 
 - Pakeisti operacijos tipą „Project Service Automation“ į tinkamą operacijos tipą „Finance“. Šis pakeitimas jau apibrėžtas projekto faktinių duomenų (PSA į „Fin and Ops“) žurnale.
 - Pakeisti atsiskaitymo tipą „Project Service Automation“ į tinkamą atsiskaitymo tipą „Finance“. Šis pakeitimas jau apibrėžtas projekto faktinių duomenų (PSA į „Fin and Ops“) žurnale. Tada atsiskaitymo tipas susiejamas su eilutės ypatybe pagal konfigūraciją puslapyje **„Project Service Automation“ integravimo parametrai**.
@@ -83,9 +83,9 @@ Projekto faktinių duomenų šablone šioms užduotims atlikti turite naudoti "M
 - Jei vidinės įmonės laiko arba vidinės įmonės išlaidų faktinės sumos nebus sinchronizuojamos į „Finance“, turite panaikinti paskutinį iš savo šablono įterptą sąlyginį stulpelį. Priešingu atveju gali įvykti integravimo klaida arba į „Finance“ gali būti importuotos netinkamos faktinių duomenų operacijos.
 
 #### <a name="contract-organizational-unit"></a>Sutarties organizacinis vienetas
-Norėdami atnaujinti į šabloną įterptą sąlyginį stulpelį, spustelėkite **Struktūros** rodyklę ir atidarykite susiejimą. Pasirinkite saitą **Išplėstinė užklausa ir filtravimas**, kad atidarytumėte Power Query.
+Norėdami atnaujinti į šabloną įterptą sąlyginį stulpelį, spustelėkite **Struktūros** rodyklę ir atidarykite susiejimą. Pasirinkite saitą **Išplėstinė užklausa ir filtravimas**, kurį norite atidaryti Power Query.
 
-- Jei naudojate numatytąjį projekto faktinių duomenų (PSA į suomius ir Ops) šabloną, skyriuje Taikomi veiksmai pasirinkite Power Query paskutinę **įterptą sąlygą** **.** Įraše **Funkcija** pakeiskite **USSI** juridinio subjekto pavadinimu, kuris turi būti naudojamas su šiuo integravimu. Jei reikia, įtraukite papildomų sąlygų į **Funkcija** įrašą ir atnaujinkite būsena **kitas** iš **USMF** į teisingą juridinį subjektą.
+- Jei naudojate numatytąjį šabloną Project actuals (PSA to Fin and Ops), in Power Query, pasirinkite paskutinę **įterptą sąlygą** iš sekcijos **Taikomi veiksmai**. Įraše **Funkcija** pakeiskite **USSI** juridinio subjekto pavadinimu, kuris turi būti naudojamas su šiuo integravimu. Jei reikia, įtraukite papildomų sąlygų į **Funkcija** įrašą ir atnaujinkite būsena **kitas** iš **USMF** į teisingą juridinį subjektą.
 - Jei kuriate naują šabloną, turite įtraukti stulpelį, kuriame palaikomas vidinės įmonės laikas ir išlaidos. Pasirinkite **Įtraukti sąlygos stulpelį** ir įveskite naujo stulpelio pavadinimą, pvz., **LegalEntity**. Įveskite stulpelio sąlygą, kur jei **msdyn\_contractorganizationalunitid.msdyn\_pavadinimas** yra \<organizational unit\>, tada \<enter the legal entity\>; kitu atveju neapibrėžta reikšmė.
 
 ### <a name="template-mapping-in-data-integration"></a>Šablonų susiejimas pasirinkus Duomenų integravimas
@@ -125,7 +125,7 @@ Projekto faktiniai duomenys valdomi „Project Service Automation“, o sinchron
 
 ### <a name="power-query"></a>Power Query
 
-Projekto faktinių duomenų atnaujinimo šablone turite naudoti Power Query šioms užduotims atlikti:
+Projekto faktinių duomenų naujinimo šablone turite naudoti Power Query šioms užduotims atlikti:
 
 - Pakeisti operacijos tipą „Finance“ į tinkamą operacijos tipą „Project Service Automation“. Šis pakeitimas jau apibrėžtas projekto faktinių duomenų naujinimo („Fin and Ops“ į PSA) šablone.
 - Pakeisti atsiskaitymo tipą Finance“ į tinkamą atsiskaitymo tipą „Project Service Automation“. Šis pakeitimas jau apibrėžtas projekto faktinių duomenų naujinimo („Fin and Ops“ į PSA) šablone.

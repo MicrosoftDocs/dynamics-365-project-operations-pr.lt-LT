@@ -1,6 +1,6 @@
 ---
 title: Peržiūrėti siūlomus išteklius
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip pasiūlyti projekto išteklius.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip siūlyti projekto išteklius.
 author: ruhercul
 ms.date: 08/18/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3f20dda2b7b384608b8f4b548c18ac21d07fee07
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2a5b5159ceb8aa5b29dffad59517bc11fbf16871
+ms.sourcegitcommit: 66e376675e6df8efc86fa84ec24e9aad6a980304
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924854"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "9183985"
 ---
 # <a name="review-proposed-resources"></a>Peržiūrėti siūlomus išteklius
 
@@ -40,8 +40,8 @@ Norėdami peržiūrėti siūlomus išteklius, atlikite toliau nurodytus veiksmus
     Galimi šie būsenos naujinimai:
 
     - Puslapyje **Planavimo pagalbinė priemonė** būsenos indikatoriai atnaujinami, kad būtų rodoma, jog rezervacija yra pasiūlyta, o ne galutinai rezervuota.
-    - Išteklių užklausoje būsena pakeičiama į **Reikia peržiūrėti**.
-    - Projekto skirtuke **Komanda** bendrosios komandos nario reikšmė **Pageidauti būsenos** pakeičiama į **Reikia peržiūrėti**.
+    - Išteklių užklausoje užklausos recenzentas turėtų pakeisti būseną į **Poreikių peržiūra**.
+    - Projekto skirtuke **Komanda** bendrojo komandos nario **užklausos būsenos** reikšmė automatiškai pakeičiama į **Reikia peržiūrėti**.
 
 Projekto vadovas šį pasiūlymą gali priimti arba atmesti.
 

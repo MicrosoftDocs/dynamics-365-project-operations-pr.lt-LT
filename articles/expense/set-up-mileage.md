@@ -1,17 +1,17 @@
 ---
 title: Kilometražo nustatymas naudojant kilometražo tarifo pakopas
-description: Šiame straipsnyje pateikiama informacija apie ridos tarifus ir ridos greičio pakopas.
+description: Šiame straipsnyje pateikiama informacija apie ridos įkainius ir ridos lygio pakopas.
 author: suvaidya
 ms.date: 05/20/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 03ca18c8fef6228f2ba553ebe50447beda5a857c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 9689bbaf4c4f88ad9f746c3f98676f97e634ab6c
+ms.sourcegitcommit: 5e1f549a2e55a87351b2979e3aff402ed35487e1
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8930144"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9064288"
 ---
 # <a name="set-up-mileage-using-mileage-rate-tiers"></a>Kilometražo nustatymas naudojant kilometražo tarifo pakopas
 
@@ -50,5 +50,15 @@ Funkcija **Kelių kilometražo pakopų, kurių tarifo funkcija yra ta pati** pag
 
 Įjungę funkciją, iš naujo nustatykite kilometražo pakopas, kad jos tinkamai atspindėtų lauko **Kiekis** reikšmę. 
 
+## <a name="enable-the-mileage-totals-calculation-by-fiscal-year-feature"></a>Įgalinkite ridos sumų skaičiavimą pagal finansiniai metai funkciją
+
+Funkcija Ridos **sumų skaičiavimas pagal finansiniai metai** įgalina naują išlaidų valdymo parametrų nustatymą, kuris atlieka visų ridos skaičiavimų skaičiavimus pagal finansiniai metai, o ne pagal kalendorinius metus. Norėdami įjungti šią funkciją, atlikite šiuos veiksmus.
+
+1. Eikite į **Darbo sritys** > **Funkcijų tvarkymas**.
+1. Sąraše raskite ir pasirinkite **Ridos sumų skaičiavimas pagal finansiniai metai**, tada pasirinkite **Įgalinti dabar**.
+1. Eikite į **Išlaidų valdymo** > **sąrankos** > **bendrieji** > **išlaidų valdymo parametrai**.
+1. **Puslapyje Išlaidų valdymo parametrai** raskite ir įgalinkite **Naudoti finansiniai metai ridos sumai**.
+
+Įjungus **naudoti finansiniai metai ridos sumai**, ridos sumos apskaičiuojamos pagal finansiniai metai.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

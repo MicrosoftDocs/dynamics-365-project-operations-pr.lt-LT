@@ -1,21 +1,21 @@
 ---
 title: Koreguojamosios projekto sąskaitos faktūros
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip kurti ir patvirtinti taisomąsias SF programoje "Project Operations".
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip kurti ir patvirtinti taisomąsias sąskaitas faktūras programoje "Project Operations".
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c6176247db37c3276d775050497585ead011e5a1
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: HT
+ms.openlocfilehash: 3e8e10d69368f4704ec6121106fbfd35394dc441
+ms.sourcegitcommit: 95dacb0e74fa8970f56fdb1cbaa915d3fbec6e0f
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917356"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "9023669"
 ---
 # <a name="corrective-project-invoices"></a>Koreguojamosios projekto sąskaitos faktūros
 
-_**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
+_**Taikoma (kam):** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo, „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
 Patvirtintą projekto sąskaitą faktūrą galima pataisyti, kad būtų apdoroti pakeitimai arba kreditai, dėl kurių susitarta su klientu ir projekto vadovu.
 

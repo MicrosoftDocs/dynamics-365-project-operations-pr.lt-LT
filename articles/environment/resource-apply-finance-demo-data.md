@@ -1,24 +1,24 @@
 ---
 title: Demonstracinių duomenų taikymas debesyje esančioje „Finance“ aplinkoje
-description: Šiame straipsnyje paaiškinama, kaip taikyti "Project Operations" demonstracinius duomenis Dynamics 365 Finance debesyje talpinamoje aplinkoje.
+description: Šiame straipsnyje paaiškinama, kaip pritaikyti demonstracinius duomenis iš "Project Operations" į Dynamics 365 Finance debesyje priglobtą aplinką.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 4ce53c171929f0610c53025becaebea46d902c90
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 793b1a01f3bf692bb9f4c2d9abad9a44b110544a
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924670"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029907"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Demonstracinių duomenų taikymas debesyje esančioje „Finance“ aplinkoje
 
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
 > [!IMPORTANT]
-> Šis straipsnis taikomas tik Microsoft Dynamics "365 Finance" 10.0.13 versijai ir gali būti atliekamas tik debesyje esančioje aplinkoje. Prieš taikydami kokybės naujinimus aplinkai, atlikite šiame straipsnyje **nurodytus** veiksmus.
+> Šis straipsnis taikomas tik Microsoft Dynamics 365 "Finance" 10.0.13 versijai ir gali būti atliekamas tik debesies priglobtoje aplinkoje. Atlikite šiame straipsnyje **nurodytus veiksmus PRIEŠ** pritaikydami kokybės naujinimus aplinkai.
 
 1. LCS projekte atidarykite puslapį **Išsami aplinkos informacija**. Atkreipkite dėmesį, kad jame yra išsami informacija, kurios reikia norint prisijungti prie aplinkos naudojant nuotolinio darbalaukio protokolą (RDP).
 

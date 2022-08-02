@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: df9d8a40fa853e72416e64846bf59748815048be
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f0fbaed028db11d8fb1551d304a40543faf35b0d
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8921496"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028339"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-project-operations"></a>Pašalintos arba nebenaudojamos funkcijos Dynamics 365 Project Operations
 
@@ -26,60 +26,60 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 Šis sąrašas yra skirtas tam, kad planuodami galėtumėte atsižvelgti į šias pašalintas ir nerekomenduojamas funkcijas.
 
 > [!NOTE]
-> Išsamią informaciją apie objektus "Finance and Operations" programose galima rasti techninėse informacinėse [**ataskaitose**](/dynamics/s-e/global/axtechrefrep_61). Galite palyginti skirtingas šių ataskaitų versijas, kad sužinotumėte apie objektus, kurie pasikeitė arba buvo pašalinti kiekvienoje "Finance and Operations" programų versijoje.
+> Išsamią informaciją apie objektus finansų ir operacijų programose galima rasti techninėse orientacinėse [**ataskaitose**](/dynamics/s-e/global/axtechrefrep_61). Galite palyginti skirtingas šių ataskaitų versijas, kad sužinotumėte apie objektus, kurie buvo pakeisti arba pašalinti kiekvienoje finansų ir operacijų programų versijoje.
 
-## <a name="features-removed-or-deprecated-in-the-project-operations-march-2022-release"></a>Priemonės, pašalintos arba nebenaudojamos "Project Operations" 2022 m. kovo mėn.
+## <a name="features-removed-or-deprecated-in-the-project-operations-march-2022-release"></a>Funkcijos, pašalintos arba nebenaudojamos iš "Project Operations" 2022 m. kovo mėn.
 
 ### <a name="project-management-and-accounting-always-create-adjustment-transaction-parameter"></a>Parametras Projektų valdymas ir apskaita "Visada kurti koregavimo operaciją"
 
 | &nbsp; | &nbsp; |
 |--------|--------|
-| **Priežastys, dėl kurių funkcijos yra nerekomenduojamos / pašalinamos** | Koregavimo operacijos reikalingos audito tikslais. Po nusidėvėjimo šis parametras bus paslėptas. Sistema visada sukurs koregavimo operacijas, kaip ir dabar, kai parametras nustatytas į **Taip**. |
+| **Priežastys, dėl kurių funkcijos yra nerekomenduojamos / pašalinamos** | Koregavimo operacijos reikalingos audito tikslais. Po nusidėvėjimo šis parametras bus paslėptas. Sistema visada sukurs koregavimo operacijas, kaip ir šiuo metu, kai parametras nustatytas į **Taip**. |
 | **Pakeičiama kita funkcija?** | No |
 | **Paveiktos produkto sritys** | Programa |
-| **Visuotinio diegimo parinktis** | Gamybos / sandėliuojamų scenarijų projekto operacijos |
-| **Būsena** | Nebenaudojama: Iki kovo 1 d. mes paslėpsime parametrą ir pakeisime sistemos veikimą, kad visada būtų sukurtos koregavimo operacijos. |
+| **Visuotinio diegimo parinktis** | Gamybos / atsargų scenarijų projekto operacijos |
+| **Būsena** | Nebenaudojama: iki 2023 m. kovo 1 d. paslėpsime parametrą ir pakeisime sistemos veikimą, kad visada būtų sukurtos koregavimo operacijos. |
 
-### <a name="project-management-and-accounting-use-adjustment-date-as-new-project-date-parameter"></a>Parametras Projektų valdymas ir apskaita "Naudoti koregavimo datą kaip naują projekto datą" parametras
+### <a name="project-management-and-accounting-use-adjustment-date-as-new-project-date-parameter"></a>Parametras Projektų valdymas ir apskaita "Koregavimo datos kaip naujos projekto datos naudojimas"
 
 | &nbsp; | &nbsp; |
 |--------|--------|
-| **Priežastys, dėl kurių funkcijos yra nerekomenduojamos / pašalinamos** | Šis parametras iš pradžių buvo naudojamas norint atlikti koregavimus uždarius ataskaitinis laikotarpis. Tačiau tai nebereikalinga, nes operacijos apskaitos datą galima pakeisti į pirmąją atviro laikotarpio datą, jei ji sukonfigūruota. Projekto datos keisti negalima, nes ji nurodo operacijos datą. |
+| **Priežastys, dėl kurių funkcijos yra nerekomenduojamos / pašalinamos** | Šis parametras iš pradžių buvo naudojamas, kad būtų galima atlikti koregavimus, kai ataskaitinis laikotarpis buvo uždarytas. Tačiau jis nebereikalingas, nes operacijos apskaitos datą galima pakeisti į pirmąją atidarymo laikotarpio datą, jei ji sukonfigūruota. Projekto data negali būti keičiama, nes ji nurodo datą, kada įvyko operacija. |
 | **Pakeičiama kita funkcija?** | No |
 | **Paveiktos produkto sritys** | Programa |
-| **Visuotinio diegimo parinktis** | Gamybos / sandėliuojamų scenarijų projekto operacijos |
-| **Būsena** | Nebenaudojama: Iki kovo 1 d. mes paslėpsime parametrą ir pakeisime sistemos veikimą, kad projekto data niekada nebūtų pakeista koreguojant. |
+| **Visuotinio diegimo parinktis** | Gamybos / atsargų scenarijų projekto operacijos |
+| **Būsena** | Nebenaudojama: iki 2023 m. kovo 1 d. paslėpsime parametrą ir pakeisime sistemos elgseną, kad atliekant koregavimus projekto data niekada nebūtų pakeista. |
 
-### <a name="resource-request-workflow-in-project-operations-for-stockedproduction-based-scenarios"></a>Išteklių užklausos darbo eiga projekto operacijose, skirtoje sandėliuojamiems / gamybos scenarijams
+### <a name="resource-request-workflow-in-project-operations-for-stockedproduction-based-scenarios"></a>Išteklių užklausos darbo eiga "Project Operations", skirtoje atsargomis / gamyba pagrįstiems scenarijams
 
 | &nbsp; | &nbsp; |
 |--------|--------|
-| **Priežastys, dėl kurių funkcijos yra nerekomenduojamos / pašalinamos** | Nebenaudojama dėl mažo naudojimo ir operacijų apimties apribojimų. |
+| **Priežastys, dėl kurių funkcijos yra nerekomenduojamos / pašalinamos** | Nebenaudojamas dėl mažo naudojimo ir operacijų apimties apribojimų. |
 | **Pakeičiama kita funkcija?** | No |
 | **Paveiktos produkto sritys** | Programa |
-| **Visuotinio diegimo parinktis** | Gamybos / sandėliuojamų scenarijų projekto operacijos |
-| **Būsena** | Nebenaudojama: Iki kovo 1 d. 2023 m. išjungsime galimybę prašyti projekto išteklių naudodami darbo eigą. |
+| **Visuotinio diegimo parinktis** | Gamybos / atsargų scenarijų projekto operacijos |
+| **Būsena** | Nebenaudojama: iki 2023 m. kovo 1 d. išjungsime parinktį prašyti projekto išteklių naudojant darbo eigą. |
 
-### <a name="project-invoice-proposal-page-without-header-and-lines-views"></a>Projekto SF pasiūlymo puslapis be antraštės ir eilučių rodinių
+### <a name="project-invoice-proposal-page-without-header-and-lines-views"></a>Projekto sąskaitos faktūros pasiūlymo puslapis be antraštės ir eilučių rodinių
 
 | &nbsp; | &nbsp; |
 |--------|--------|
-| **Priežastys, dėl kurių funkcijos yra nerekomenduojamos / pašalinamos** | Nebenaudojamas pagerinus puslapį, kuris buvo įvestas kartu su **formomis Naudoti projekto SF ir SF žurnalą su antraštės ir eilučių rodinio** priemonės raktu. |
+| **Priežastys, dėl kurių funkcijos yra nerekomenduojamos / pašalinamos** | Nebenaudojama dėl puslapio, kuris buvo pristatytas kartu su **pasiūlymu Naudoti projekto sf ir sąskaitų faktūrų žurnalo formas su antraštės ir linijų rodinio** funkcijų klavišu, patobulinimų. |
 | **Pakeičiama kita funkcija?** | Taip |
 | **Paveiktos produkto sritys** | Programa |
-| **Visuotinio diegimo parinktis** | Gamybos ir (arba) atsargų scenarijų projekto operacijos; Išteklių / nekauptų scenarijų projekto operacijos |
-| **Būsena** | Nebenaudojama: iki kovo 1 d. išjungsime ankstesnį (senstelėjusį) puslapį ir įjungsime **formas Naudoti projekto SF pasiūlymą ir SF žurnalo formas su antraštės ir eilučių rodinio** funkcijos raktu pagal numatytuosius nustatymus. |
+| **Visuotinio diegimo parinktis** | Projekto operacijos, skirtos gamybos / atsargų scenarijams; Išteklių / ne atsargų scenarijų projektų operacijos |
+| **Būsena** | Nebenaudojama: iki 2023 m. kovo 1 d. išjungsime ankstesnį (senstelėjusį) puslapį ir įjungsime **pasiūlymą Naudoti projekto sąskaitos faktūros pasiūlymą ir sąskaitų faktūrų žurnalo formas naudodami antraštės ir linijų rodinio** funkcijos klavišą pagal numatytuosius nustatymus. |
 
-## <a name="features-removed-or-deprecated-in-the-project-operations-december-2021-release"></a>Funkcijos pašalintos arba nebenaudojamos "Project Operations" 2021 m. gruodžio mėn.
+## <a name="features-removed-or-deprecated-in-the-project-operations-december-2021-release"></a>Funkcijos pašalintos arba nebenaudojamos iš "Project Operations" 2021 m. gruodžio mėn.
 
 ### <a name="collaboration-workspaces"></a>Bendradarbiavimo darbo sritys
 
-[Bendradarbiavimo darbo srities kūrimas arba susiejimas su ja (projektas)](/dynamicsax-2012/appuser-itpro/create-or-link-to-a-collaboration-workspace-project)
+[Bendradarbiavimo darbo srities kūrimas arba susiejimas su ja ("Project")](/dynamicsax-2012/appuser-itpro/create-or-link-to-a-collaboration-workspace-project)
 
 | &nbsp; | &nbsp; |
 |--------|--------|
-| **Priežastys, dėl kurių funkcijos yra nerekomenduojamos / pašalinamos** | Nebenaudojamas dėl mažo naudojimo. Klientai, naudojantys "Project Operations" išteklių / ne atsargų scenarijams, gali pasinaudoti [bendradarbiavimu su "Office" grupėmis](../project-management/collaboration-groups.md). |
+| **Priežastys, dėl kurių funkcijos yra nerekomenduojamos / pašalinamos** | Nebenaudojamas dėl mažo naudojimo. Klientai, naudojantys "Project Operations" išteklių / ne atsargų scenarijams, gali panaudoti [bendradarbiavimą su "Office" grupėmis](../project-management/collaboration-groups.md). |
 | **Pakeičiama kita funkcija?** | No |
 | **Paveiktos produkto sritys** | Programa  |
-| **Visuotinio diegimo parinktis** | Gamybos / sandėliuojamų scenarijų projekto operacijos |
-| **Būsena** | Nebenaudojama: iki gruodžio 1 d. planuojame nebepalaikyti bendradarbiavimo darbo vietų. |
+| **Visuotinio diegimo parinktis** | Gamybos / atsargų scenarijų projekto operacijos |
+| **Būsena** | Nebenaudojama: iki 2022 m. gruodžio 1 d. planuojame nebepalaikyti bendradarbiavimo darbo sričių. |

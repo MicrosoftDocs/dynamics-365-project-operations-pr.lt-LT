@@ -1,6 +1,6 @@
 ---
-title: Sinchronizuoti projekto užduotis tiesiogiai iš "Project Service Automation" į "Finance and Operations"
-description: Šiame straipsnyje aprašomas šablonas ir pagrindinė užduotis, naudojama projekto užduotims sinchronizuoti tiesiogiai iš Microsoft Dynamics 365 Project Service Automation Dynamics 365 Finance.
+title: Sinchronizuokite projekto užduotis tiesiai iš "Project Service Automation" į finansus ir operacijas
+description: Šiame straipsnyje aprašomas šablonas ir pagrindinė užduotis, naudojami projekto užduotims tiesiogiai sinchronizuoti iš Microsoft Dynamics 365 Project Service Automation Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 7b8ba77bbb08052952a8a557bb71300652dca3b2
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: ed559fcd9e0e666f68e7d9f4f1fca91417fe4970
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931156"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028371"
 ---
-# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Sinchronizuoti projekto užduotis tiesiogiai iš "Project Service Automation" į "Finance and Operations"
+# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Sinchronizuokite projekto užduotis tiesiai iš "Project Service Automation" į finansus ir operacijas
 
 [!include[banner](../includes/banner.md)]
 
-Šiame straipsnyje aprašomas šablonas ir pagrindinė užduotis, naudojama projekto užduotims sinchronizuoti tiesiogiai iš Dynamics 365 Project Service Automation Dynamics 365 Finance.
+Šiame straipsnyje aprašomas šablonas ir pagrindinė užduotis, naudojami projekto užduotims tiesiogiai sinchronizuoti iš Dynamics 365 Project Service Automation Dynamics 365 Finance.
 
 > [!NOTE]
 > - Projekto užduočių integravimas, išlaidų operacijų kategorijos, valandų įvertinimas, išlaidų įvertinimas ir funkcijų blokavimas prieinami 8.0 versijoje.
@@ -67,7 +67,7 @@ Prieš atliekant projekto užduočių sinchronizavimą, reikia sinchronizuoti pr
 
 ## <a name="power-query"></a>Power Query
 
-Jei tenkinama ši sąlyga, turite naudoti "Microsoft Power Query for Excel", kad filtruotumėte duomenis:
+Turite naudoti "Microsoft for Excel" Power Query, kad filtruotumėte duomenis, jei ši sąlyga įvykdyta:
 
 - Projekto užduotyje yra ištekliams būdingų įrašų.
 
