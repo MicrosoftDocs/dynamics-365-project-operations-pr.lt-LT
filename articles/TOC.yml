@@ -58,46 +58,52 @@
               href: environment/resource-dual-write-expense.md
             - name: Tiekėjo sąskaitų faktūrų integravimas
               href: environment/resource-dual-write-vendor-invoice.md
-        - name: „Dynamics 365 Project Operations“ pašalinimas
+        - name: Pašalinti „Dynamics 365 Project Operations“
           href: environment/uninstall-project-operations.md
     - name: Kas nauja
       items:
-        - name: '2022 m. gegužės mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
-          href: whats-new/whats-new-may-2022-resource-based.md
-        - name: '2022 m. balandžio mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
-          href: whats-new/whats-new-apr-2022-resource-based.md
-        - name: '2022 m. kovo mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
-          href: whats-new/whats-new-mar-2022-resource-based.md
-        - name: '2022 m. vasario mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
-          href: whats-new/whats-new-feb-2022-resource-based.md
-        - name: '2021 m. gruodžio mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
-          href: whats-new/whats-new-dec-2021-resource-based.md
-        - name: '2021 m. lapkričio mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
-          href: whats-new/whats-new-nov-2021-resource-based.md
-        - name: '2021 m. spalio mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
-          href: whats-new/whats-new-oct-2021-resource-based.md
-        - name: '2021 m. rugsėjo mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
-          href: whats-new/whats-new-sept-2021-resource-based.md
-        - name: '2021 m. rugpjūčio mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
-          href: whats-new/whats-new-august-2021-resource-based.md
-        - name: '2021 m. liepos mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
-          href: whats-new/whats-new-july-2021-resource-based.md
-        - name: '2021 m. birželio mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
-          href: whats-new/whats-new-june-2021-resource-based.md
-        - name: '2021 m. gegužės mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
-          href: whats-new/whats-new-may-2021-resource-based.md
-        - name: '2021 m. balandžio mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
-          href: whats-new/whats-new-apr-2021-resource-based.md
-        - name: '2021 m. kovo mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
-          href: whats-new/whats-new-mar-2021-resource-based.md
-        - name: '2021 m. vasario mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
-          href: whats-new/whats-new-feb-2021-resource-based.md
-        - name: '2021 m. sausio mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
-          href: whats-new/whats-new-jan-2021-resource-based.md
-        - name: '2020 m. gruodžio mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
-          href: whats-new/whats-new-dec-2020-resource-based.md
-        - name: '2020 m. lapkričio mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
-          href: whats-new/whats-new-nov-2020-resource-based.md
+        - name: '2022 m. liepos mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
+          href: whats-new/whats-new-july-2022-resource-based.md
+        - name: Archyvas
+          items:
+            - name: '2022 m. birželio mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
+              href: whats-new/whats-new-june-2022-resource-based.md
+            - name: '2022 m. gegužės mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
+              href: whats-new/whats-new-may-2022-resource-based.md
+            - name: '2022 m. balandžio mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
+              href: whats-new/whats-new-apr-2022-resource-based.md
+            - name: '2022 m. kovo mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
+              href: whats-new/whats-new-mar-2022-resource-based.md
+            - name: '2022 m. vasario mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
+              href: whats-new/whats-new-feb-2022-resource-based.md
+            - name: '2021 m. gruodžio mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
+              href: whats-new/whats-new-dec-2021-resource-based.md
+            - name: '2021 m. lapkričio mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
+              href: whats-new/whats-new-nov-2021-resource-based.md
+            - name: '2021 m. spalio mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
+              href: whats-new/whats-new-oct-2021-resource-based.md
+            - name: '2021 m. rugsėjo mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
+              href: whats-new/whats-new-sept-2021-resource-based.md
+            - name: '2021 m. rugpjūčio mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
+              href: whats-new/whats-new-august-2021-resource-based.md
+            - name: '2021 m. liepos mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
+              href: whats-new/whats-new-july-2021-resource-based.md
+            - name: '2021 m. birželio mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
+              href: whats-new/whats-new-june-2021-resource-based.md
+            - name: '2021 m. gegužės mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
+              href: whats-new/whats-new-may-2021-resource-based.md
+            - name: '2021 m. balandžio mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
+              href: whats-new/whats-new-apr-2021-resource-based.md
+            - name: '2021 m. kovo mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
+              href: whats-new/whats-new-mar-2021-resource-based.md
+            - name: '2021 m. vasario mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
+              href: whats-new/whats-new-feb-2021-resource-based.md
+            - name: '2021 m. sausio mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
+              href: whats-new/whats-new-jan-2021-resource-based.md
+            - name: '2020 m. gruodžio mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
+              href: whats-new/whats-new-dec-2020-resource-based.md
+            - name: '2020 m. lapkričio mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
+              href: whats-new/whats-new-nov-2020-resource-based.md
     - name: Projekto pardavimo procesas
       items:
         - name: Projekto pardavimo proceso apžvalga
@@ -468,6 +474,14 @@
           href: actuals/businesstransactions.md
         - name: Faktinių duomenų apžvalga
           href: actuals/actuals-overview.md
+        - name: Faktinių duomenų poveikis laiko ir medžiagų įtraukimui
+          href: actuals/ActualsonTM.md
+        - name: Faktinių duomenų poveikis fiksuotos kainos įtraukimui
+          href: actuals/ActualonFP.md
+        - name: Faktinių duomenų poveikis įtraukimui etape iki pardavimo
+          href: actuals/ActualonPreSales.md
+        - name: Faktinių duomenų poveikis vidiniam projektui
+          href: actuals/ActualonInternal.md
         - name: Operacijų kilmė – faktinių duomenų susiejimas su šaltiniu
           href: actuals/linkingactuals.md
         - name: Operacijų ryšiai – skirtingų operacijų tipų faktinių duomenų susiejimas
@@ -513,12 +527,14 @@
             - name: Išankstinės projektu pagrįstos sąskaitos faktūros patvirtinimas
               href: proforma-invoicing/confirm-proforma-invoice.md
             - name: Koreguojamų projektu pagrįstų sąskaitų faktūrų kūrimas
-              href: proforma-invoicing/corrective-invoices.md
+              href: pro/proforma-invoicing/corrective-invoices-sales.md
             - name: Projektu pagrįstos sąskaitos faktūros automatizavimo konfigūravimas
               href: proforma-invoicing/configure-automated-invoice-creation.md
+            - name: Koreguojamos projektu pagrįstos sąskaitos faktūros
+              href: proforma-invoicing/corrective-invoices.md
         - name: SF išrašymas klientams
           items:
-            - name: Projekto sąskaitų faktūrų pasiūlymų valdymas
+            - name: Tvarkyti projekto sąskaitų faktūrų pasiūlymus
               href: invoicing/format-update-project-invoice-proposals.md
             - name: Juodraštinių projekto sąskaitų faktūrų pasiūlymų apskaitos koregavimas
               href: invoicing/correct-project-invoice-proposals.md
@@ -594,44 +610,50 @@
           href: environment/security-model.md
     - name: Kas nauja
       items:
-        - name: Kas nauja 2021 m. 2 leidimo bangos ankstyvojoje prieigoje – „Lite“ visuotinis diegimas
-          href: pro/whats-new/whats-new-2021-early-access-lite.md
-        - name: Kas nauja – 2022 m. gegužės mėn. – „Lite“ visuotinis diegimas
-          href: pro/whats-new/whats-new-may-2022-lite.md
-        - name: Kas nauja – 2022 m. balandžio mėn. – „Lite“ visuotinis diegimas
-          href: pro/whats-new/whats-new-apr-2022-lite.md
-        - name: Kas nauja – 2022 m. kovo mėn. – „Lite“ visuotinis diegimas
-          href: pro/whats-new/whats-new-mar-2022-lite.md
-        - name: Kas nauja – 2022 m. vasario mėn. – „Lite“ visuotinis diegimas
-          href: pro/whats-new/whats-new-feb-2022-lite.md
-        - name: Kas nauja – 2021 m. gruodžio mėn. – „Lite“ visuotinis diegimas
-          href: pro/whats-new/whats-new-dec-2021-lite.md
-        - name: Kas nauja – 2021 m. lapkričio mėn. – „Lite“ visuotinis diegimas
-          href: pro/whats-new/whats-new-nov-2021-lite.md
-        - name: Kas nauja – 2021 m. spalio mėn. – „Lite“ visuotinis diegimas
-          href: pro/whats-new/whats-new-oct-2021-lite.md
-        - name: Kas nauja – 2021 m. rugsėjo mėn. – „Lite“ visuotinis diegimas
-          href: pro/whats-new/whats-new-sept-2021-lite.md
-        - name: Kas nauja – 2021 m. rugpjūčio mėn. – „Lite“ visuotinis diegimas
-          href: pro/whats-new/whats-new-august-2021-lite.md
-        - name: Kas nauja – 2021 m. liepos mėn. – „Lite“ visuotinis diegimas
-          href: pro/whats-new/whats-new-july-2021-lite.md
-        - name: Kas nauja – 2021 m. birželio mėn. – „Lite“ visuotinis diegimas
-          href: pro/whats-new/whats-new-june-2021-lite.md
-        - name: Kas nauja – 2021 m. gegužės mėn. – „Lite“ visuotinis diegimas
-          href: pro/whats-new/whats-new-may-2021-lite.md
-        - name: Kas nauja – 2021 m. balandžio mėn. – „Lite“ visuotinis diegimas
-          href: pro/whats-new/whats-new-apr-2021-lite.md
-        - name: Kas nauja – 2021 m. kovo mėn. – „Lite“ visuotinis diegimas
-          href: pro/whats-new/whats-new-mar-2021-lite.md
-        - name: Kas nauja – 2021 m. vasario mėn. – „Lite“ visuotinis diegimas
-          href: pro/whats-new/whats-new-feb-2021-lite.md
-        - name: Kas nauja – 2021 m. sausio mėn. – „Lite“ visuotinis diegimas
-          href: pro/whats-new/whats-new-jan-2021-lite.md
-        - name: Kas nauja – 2020 m. gruodžio mėn. – „Lite“ visuotinis diegimas
-          href: pro/whats-new/whats-new-dec-2020-lite.md
-        - name: Kas nauja – 2020 m. lapkričio mėn. – „Lite“ visuotinis diegimas
-          href: pro/whats-new/whats-new-nov-2020-lite.md
+        - name: Kas nauja – 2022 m. liepos mėn. – „Lite“ visuotinis diegimas
+          href: pro/whats-new/whats-new-july-2022-lite.md
+        - name: Archyvas
+          items:
+            - name: Kas nauja – 2022 m. birželio mėn. – „Lite“ visuotinis diegimas
+              href: pro/whats-new/whats-new-june-2022-lite.md
+            - name: Kas nauja 2021 m. 2 leidimo bangos ankstyvojoje prieigoje – „Lite“ visuotinis diegimas
+              href: pro/whats-new/whats-new-2021-early-access-lite.md
+            - name: Kas nauja – 2022 m. gegužės mėn. – „Lite“ visuotinis diegimas
+              href: pro/whats-new/whats-new-may-2022-lite.md
+            - name: Kas nauja – 2022 m. balandžio mėn. – „Lite“ visuotinis diegimas
+              href: pro/whats-new/whats-new-apr-2022-lite.md
+            - name: Kas nauja – 2022 m. kovo mėn. – „Lite“ visuotinis diegimas
+              href: pro/whats-new/whats-new-mar-2022-lite.md
+            - name: Kas nauja – 2022 m. vasario mėn. – „Lite“ visuotinis diegimas
+              href: pro/whats-new/whats-new-feb-2022-lite.md
+            - name: Kas nauja – 2021 m. gruodžio mėn. – „Lite“ visuotinis diegimas
+              href: pro/whats-new/whats-new-dec-2021-lite.md
+            - name: Kas nauja – 2021 m. lapkričio mėn. – „Lite“ visuotinis diegimas
+              href: pro/whats-new/whats-new-nov-2021-lite.md
+            - name: Kas nauja – 2021 m. spalio mėn. – „Lite“ visuotinis diegimas
+              href: pro/whats-new/whats-new-oct-2021-lite.md
+            - name: Kas nauja – 2021 m. rugsėjo mėn. – „Lite“ visuotinis diegimas
+              href: pro/whats-new/whats-new-sept-2021-lite.md
+            - name: Kas nauja – 2021 m. rugpjūčio mėn. – „Lite“ visuotinis diegimas
+              href: pro/whats-new/whats-new-august-2021-lite.md
+            - name: Kas nauja – 2021 m. liepos mėn. – „Lite“ visuotinis diegimas
+              href: pro/whats-new/whats-new-july-2021-lite.md
+            - name: Kas nauja – 2021 m. birželio mėn. – „Lite“ visuotinis diegimas
+              href: pro/whats-new/whats-new-june-2021-lite.md
+            - name: Kas nauja – 2021 m. gegužės mėn. – „Lite“ visuotinis diegimas
+              href: pro/whats-new/whats-new-may-2021-lite.md
+            - name: Kas nauja – 2021 m. balandžio mėn. – „Lite“ visuotinis diegimas
+              href: pro/whats-new/whats-new-apr-2021-lite.md
+            - name: Kas nauja – 2021 m. kovo mėn. – „Lite“ visuotinis diegimas
+              href: pro/whats-new/whats-new-mar-2021-lite.md
+            - name: Kas nauja – 2021 m. vasario mėn. – „Lite“ visuotinis diegimas
+              href: pro/whats-new/whats-new-feb-2021-lite.md
+            - name: Kas nauja – 2021 m. sausio mėn. – „Lite“ visuotinis diegimas
+              href: pro/whats-new/whats-new-jan-2021-lite.md
+            - name: Kas nauja – 2020 m. gruodžio mėn. – „Lite“ visuotinis diegimas
+              href: pro/whats-new/whats-new-dec-2020-lite.md
+            - name: Kas nauja – 2020 m. lapkričio mėn. – „Lite“ visuotinis diegimas
+              href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: Projekto pardavimo procesas
       items:
         - name: Projekto pardavimo proceso apžvalga
@@ -1068,26 +1090,54 @@
           href: team-member/project-operations-team-member.md
 - name: '„Project Operations“, skirta laikomų medžiagų / gamyba pagrįstiems scenarijams'
   items:
+    - name: Darbo pradžia
+      items:
+        - name: Konfigūruoti duomenų integravimą
+          items:
+            - name: „Project Service Automation“ apžvalga
+              href: prod-pma/PSA-integration.md
+            - name: „Project Service Automation“ integravimo parametrai
+              href: prod-pma/PSA-parameters.md
+            - name: Sinchronizuoti projektų sutartis ir projektus tiesiogiai iš „Project Service Automation“ į „Finance“
+              href: prod-pma/project-contracts-templates.md
+            - name: 'Sinchronizuoti projekto faktinius duomenis tiesiai iš „Project Service Automation“ į projekto integravimo žurnalą, kad būtų galima registruoti finansų ir operacijų srityje'
+              href: prod-pma/project-actuals-templates.md
+            - name: Sinchronizuoti projektų sąmatas tiesiai iš „Project Service Automation“ į finansų ir operacijų sritį
+              href: prod-pma/project-estimates-templates.md
+            - name: Sinchronizuoti finansų ir operacijų srities ir „Project Service Automation“ projektų išlaidų kategorijas
+              href: prod-pma/project-categories-templates.md
+            - name: Sinchronizuoti projektų užduotis tiesiai iš „Project Service Automation“ į finansų ir operacijų sritį
+              href: prod-pma/project-tasks-template.md
+        - name: Visuotinis aplinkų diegimas
+          items:
+            - name: Atnaujinti „Project Operations“ savo „Finance“ aplinkoje
+              href: whats-new/ur5-nonstocked-installation.md
     - name: Kas nauja
       items:
-        - name: 'Kas nauja – 2021 m. spalio mėn. – „Project Operations“, skirta laikomų medžiagų / gamyba pagrįstiems scenarijams'
-          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
-        - name: 'Kas nauja – 2021 m. rugsėjo mėn. – „Project Operations“, skirta laikomų medžiagų / gamyba pagrįstiems scenarijams'
-          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
-        - name: 'Kas nauja – 2021 m. liepos mėn. – „Project Operations“, skirta laikomų medžiagų / gamyba pagrįstiems scenarijams'
-          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
-        - name: 'Kas nauja – 2021 m. gegužės mėn. – „Project Operations“, skirta laikomų medžiagų / gamyba pagrįstiems scenarijams'
-          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
-        - name: 'Kas nauja – 2021 m. balandžio mėn. – „Project Operations“, skirta laikomų medžiagų / gamyba pagrįstiems scenarijams'
-          href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
-        - name: 'Kas nauja – 2021 m. kovo mėn. – „Project Operations“, skirta laikomų medžiagų / gamyba pagrįstiems scenarijams'
-          href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
-        - name: 'Kas nauja – 2021 m. sausio mėn. – „Project Operations“, skirta laikomų medžiagų / gamyba pagrįstiems scenarijams'
-          href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
-        - name: 'Kas nauja – 2020 m. gruodžio mėn. – „Project Operations“, skirta laikomų medžiagų / gamyba pagrįstiems scenarijams'
-          href: prod-pma/whats-new/whats-new-dec-2020-stocked.md
-        - name: 'Kas nauja – 2020 m. lapkričio mėn. – „Project Operations“, skirta laikomų medžiagų / gamyba pagrįstiems scenarijams'
-          href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
+        - name: 'Kas nauja – 2022 m. liepos mėn. – „Project Operations“, skirta laikomų medžiagų / gamyba pagrįstiems scenarijams'
+          href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
+        - name: Archyvas
+          items:
+            - name: 'Kas nauja – 2022 m. birželio mėn. – „Project Operations“, skirta laikomų medžiagų / gamyba pagrįstiems scenarijams'
+              href: prod-pma/whats-new/whats-new-jun-2022-stocked.md
+            - name: 'Kas nauja – 2021 m. spalio mėn. – „Project Operations“, skirta laikomų medžiagų / gamyba pagrįstiems scenarijams'
+              href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
+            - name: 'Kas nauja – 2021 m. rugsėjo mėn. – „Project Operations“, skirta laikomų medžiagų / gamyba pagrįstiems scenarijams'
+              href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
+            - name: 'Kas nauja – 2021 m. liepos mėn. – „Project Operations“, skirta laikomų medžiagų / gamyba pagrįstiems scenarijams'
+              href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
+            - name: 'Kas nauja – 2021 m. gegužės mėn. – „Project Operations“, skirta laikomų medžiagų / gamyba pagrįstiems scenarijams'
+              href: prod-pma/whats-new/whats-new-may-2021-stocked.md
+            - name: 'Kas nauja – 2021 m. balandžio mėn. – „Project Operations“, skirta laikomų medžiagų / gamyba pagrįstiems scenarijams'
+              href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
+            - name: 'Kas nauja – 2021 m. kovo mėn. – „Project Operations“, skirta laikomų medžiagų / gamyba pagrįstiems scenarijams'
+              href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
+            - name: 'Kas nauja – 2021 m. sausio mėn. – „Project Operations“, skirta laikomų medžiagų / gamyba pagrįstiems scenarijams'
+              href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
+            - name: 'Kas nauja – 2020 m. gruodžio mėn. – „Project Operations“, skirta laikomų medžiagų / gamyba pagrįstiems scenarijams'
+              href: prod-pma/whats-new/whats-new-dec-2020-stocked.md
+            - name: 'Kas nauja – 2020 m. lapkričio mėn. – „Project Operations“, skirta laikomų medžiagų / gamyba pagrįstiems scenarijams'
+              href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
     - name: '„Project Operations“, skirtos laikomų medžiagų / gamyba pagrįstiems scenarijams, visuotinio diegimo apžvalga'
       href: prod-pma/project-operations-prod-order-deployment-overview.md
     - name: Projektų valdymo ir apskaitos apžvalga
@@ -1118,11 +1168,13 @@
           href: prod-pma/project-mobile-application-overview.md
         - name: Mobilioji darbo sritis Projekto laiko įvedimas
           href: prod-pma/project-time-entry-mobile-workspace.md
-        - name: Projekto grafiko mobiliųjų įrenginių programėlė
+        - name: Mobiliųjų įrenginių programėlė „Project Timesheet“
           href: prod-pma/project-timesheet.md
-        - name: Projekto grafikai mobiliajame įrenginyje
+        - name: „Project Timesheet“ grafikai mobiliajame įrenginyje
           href: prod-pma/mobile-timesheets.md
-        - name: Pasirinktinių laukų diegimas „Project Timesheet“ mobiliųjų įrenginių programėlėje
+        - name: Projekto etapo pervardijimas arba modifikavimas
+          href: prod-pma/tasks/rename-project.md
+        - name: Pasirinktinių laukų diegimas mobiliųjų įrenginių programėlėje „Project Timesheet“
           href: prod-pma/custom-fields-mobile.md
     - name: Išteklių valdymas
       items:
@@ -1150,6 +1202,8 @@
       items:
         - name: Projektų prognozės ir biudžetai
           href: prod-pma/project-forecasts-budgets.md
+        - name: Projektų biudžeto arba biudžeto peržiūros paskyrimas pagal laikotarpius
+          href: prod-pma/tasks/allocate-project.md
         - name: Projektų biudžetų prognozės modelių kūrimas
           href: prod-pma/create-forecast-models-project-budgets.md
         - name: Projektų biudžetų perkėlimas finansinių metų pabaigoje
@@ -1240,12 +1294,16 @@
       items:
         - name: Vidinės įmonės sąskaitų faktūrų išrašymas
           href: prod-pma/intercompany-invoicing.md
-        - name: Vidinės įmonės projekto sąskaitos faktūros išrašymo konfigūravimas
+        - name: Konfigūruoti vidinių įmonės projektų sąskaitų faktūrų išrašymą
           href: prod-pma/tasks/configure-intercompany-project-invoicing.md
     - name: Pajamų pripažinimas
       items:
         - name: Projekto įvertinimo naikinimas
           href: prod-pma/eliminate-project-estimate.md
+    - name: Viešasis sektorius
+      items:
+        - name: Federalinių subsidijų tyrimo išlaidų grafikas
+          href: prod-pma/project-sefa-inquiry.md
 - name: Išlaidų valdymas
   items:
     - name: Išlaidų valdymo apžvalga
@@ -1264,6 +1322,8 @@
           href: expense/set-up-workflows.md
         - name: Perdavimo valdymas
           href: expense/manage-delegation.md
+        - name: Konfigūruoti išlaidų valdymą
+          href: prod-exp/plan-expense-management.md
         - name: Išlaidų valdymo parametrų konfigūravimas
           href: expense/configure-expense-management-parameters.md
         - name: Kredito kortelės integravimo nustatymas
@@ -1278,10 +1338,14 @@
       items:
         - name: Paskirstymas išlaidų ataskaitoje
           href: expense/distributions-expense-report.md
+        - name: Kredito kortelės operacijų importavimas ir tvarkymas
+          href: prod-exp/import-credit-card.md
     - name: Išlaidų ataskaitų tvirtinimas
       items:
         - name: Išlaidų ataskaitos ir keli tvirtintojai
           href: expense/expense-reports-multiple-approvers.md
+        - name: Išlaidų perdavimo valdymas
+          href: prod-exp/manage-expense-delegation.md
     - name: Išlaidų ataskaitų publikavimas
       href: expense/posting-expense-reports.md
     - name: Kelionės paraiška
@@ -1296,14 +1360,18 @@
       items:
         - name: PVM grąžinimas
           href: expense/vat-recovery.md
+        - name: Peržiūrėti išlaidų ataskaitą iš bendros didžiosios knygos arba įsigijimo ir šaltinio pasirinkimo
+          href: prod-exp/view-expense-report.md
 - name: Dynamics 365 Project Service Automation
   items:
-    - name: Project Service Automation
+    - name: „Project Service Automation“
       href: psa/overview.md
     - name: Kas nauja
       items:
         - name: „Project Service“ 3.x versijos naujinimų leidimo grafikas
           href: psa/version-history-ps.md
+        - name: 'Kas nauja arba pakeista 44 naujinimo leidime, V3'
+          href: psa/whats-new-ur-44.md
         - name: 'Kas nauja arba pakeista 43 naujinimo leidime, V3'
           href: psa/whats-new-ur43.md
         - name: 'Kas nauja arba pakeista 42 naujinimo leidime, V3'
@@ -1361,6 +1429,8 @@
         - name: 'Kas nauja arba pakeista 23 naujinimo leidime, V3'
           href: psa/whats-new-ur-23.md
         - name: 'Kas nauja arba pakeista 22 naujinimo leidime, V3'
+          href: psa/whats-new-ur-22.md
+        - name: 'Kas nauja arba pakeista 21 naujinimo leidime, V3'
           href: psa/whats-new-ur-21.md
         - name: 'Kas nauja arba pakeista 20 naujinimo leidime, V3'
           href: psa/whats-new-ur-20.md
