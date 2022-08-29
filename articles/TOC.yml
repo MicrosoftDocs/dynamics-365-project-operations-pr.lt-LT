@@ -58,14 +58,16 @@
               href: environment/resource-dual-write-expense.md
             - name: Tiekėjo sąskaitų faktūrų integravimas
               href: environment/resource-dual-write-vendor-invoice.md
-        - name: Pašalinti „Dynamics 365 Project Operations“
+        - name: Išdiegti Dynamics 365 Project Operations
           href: environment/uninstall-project-operations.md
     - name: Kas nauja
       items:
-        - name: '2022 m. liepos mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
-          href: whats-new/whats-new-july-2022-resource-based.md
+        - name: '2022 m. rugpjūčio mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
+          href: whats-new/whats-new-aug-2022-resource-based.md
         - name: Archyvas
           items:
+            - name: '2022 m. liepos mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
+              href: whats-new/whats-new-july-2022-resource-based.md
             - name: '2022 m. birželio mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
               href: whats-new/whats-new-june-2022-resource-based.md
             - name: '2022 m. gegužės mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
@@ -384,6 +386,42 @@
           items:
             - name: Išteklių naudingumo apžvalga
               href: resource-management/resource-utilization-overview.md
+    - name: Subrangos sutarties valdymas
+      items:
+        - name: „Project Operations“ valdymas pagal subrangos sutartį
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Svarbiausios subrangos sutarties sąvokos
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: Tiekėjų ir projektų kainoraščių valdymas
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: Subrangos sutartys kaip rezervuotini ištekliai
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Subrangos sutarčių antraščių informacija
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: 'Subrangos sutarties eilutės, skirtos laikui'
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: 'Subrangos sutarties eilutės, skirtos išlaidų kategorijoms'
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: 'Subrangos sutarties eilutės, skirtos produktams'
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: Subrangos sutarties eilučių ištekliai
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: Subrangos sutarties eilutės gairės
+          href: pro/subcontracting/subcontract-line-milestones.md
+        - name: Subrangos projekto komandos nariai
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: Subrangos projekto komandos narių parinktys
+          href: pro/subcontracting/subcon-options.md
+        - name: Subrangos išteklių priskyrimų išlaidų vertinimas
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: 'Sukonfigūruokite grafiko lentą, kad būtų rodomi sutarties darbuotojai ir subrangos pajėgumas'
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: Projekto su sutarties darbuotojais ir subrangos pajėgumo personalas
+          href: pro/subcontracting/staffing-cw.md
+        - name: 'Subrangos komponentų laiko, išlaidų ir medžiagų naudojimo registravimas'
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: Subrangos būsenos perėjimai
+          href: pro/subcontracting/subcon-states.md
     - name: Laikas
       items:
         - name: Laiko apžvalga
@@ -580,6 +618,8 @@
       items:
         - name: Visiškai išrašytų sąskaitų faktūrų išrašymo etapų perkėlimas
           href: advanced-configuration/migrating-invoiced-milestones.md
+        - name: 'Sinchronizuokite projekto būseną, kad neleistumėte patekti į uždarus projektus'
+          href: advanced-configuration/sync-project-status.md
     - name: Naujinimas
       items:
         - name: Moderniųjų patvirtinimų naujinimo aspektai
@@ -610,10 +650,12 @@
           href: environment/security-model.md
     - name: Kas nauja
       items:
-        - name: Kas nauja – 2022 m. liepos mėn. – „Lite“ visuotinis diegimas
-          href: pro/whats-new/whats-new-july-2022-lite.md
+        - name: Kas nauja – 2022 m. rugpjūčio mėn. – „Lite“ visuotinis diegimas
+          href: pro/whats-new/whats-new-aug-2022-lite.md
         - name: Archyvas
           items:
+            - name: Kas nauja – 2022 m. liepos mėn. – „Lite“ visuotinis diegimas
+              href: pro/whats-new/whats-new-july-2022-lite.md
             - name: Kas nauja – 2022 m. birželio mėn. – „Lite“ visuotinis diegimas
               href: pro/whats-new/whats-new-june-2022-lite.md
             - name: Kas nauja 2021 m. 2 leidimo bangos ankstyvojoje prieigoje – „Lite“ visuotinis diegimas
