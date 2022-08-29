@@ -1,17 +1,17 @@
 ---
-title: Konfigūracijos duomenų nustatymas ir taikymas programoje „Common Data Service”
-description: Šiame straipsnyje pateikiama informacija apie konfigūracijos duomenų nustatymą ir taikymą "Project Operations".
+title: Konfigūracijos duomenų nustatymas ir taikymas programoje „Microsoft Dataverse”
+description: Šiame straipsnyje pateikiama informacija apie konfigūracijos duomenų nustatymą ir taikymą programoje "Project Operations".
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 2c918425e9a6c5fe8888ed8a4258ca59f0464828
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b09d3ea7348082a0467fd7b47918c9e00d1f1e8c
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928028"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230248"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Konfigūracijos duomenų nustatymas ir taikymas programoje „Common Data Service” 
 
@@ -21,10 +21,10 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 
 ## <a name="prerequisites"></a>Būtinosios sąlygos
 
-Prieš pradedant konfigūruoti duomenis Common Data Service (CDS), reikia įvykdyti šias būtinąsias sąlygas:
+Prieš pradedant konfigūruoti duomenis, Microsoft Dataverse turi būti įvykdytos šios būtinosios sąlygos:
 
-1.  Pateikti CDS aplinką ir Dynamics 365 Finance aplinką projekto operacijoms.
-2.  Juridinio subjekto informacija iš Dynamics 365 Finance bendrinama su CDS aplinka. Tai reiškia, kad CDS esančiame objekte **Įmonė** yra toliau pateikiami įmonės įrašai.
+1.  Dataverse"Project Operations" aplinkos ir Dynamics 365 Finance aplinkos parengimas.
+2.  Juridinio asmens informacija iš Dynamics 365 Finance bendrinama su Dataverse aplinka. Tai reiškia, kad **Bendrovės** subjektas Dataverse turi šiuos įmonės įrašus:
   - THPM
   - USPM
   - GBPM

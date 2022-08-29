@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: b4ed85123c92a60c6b6308fda3d9ef2f6693a0dd
-ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.openlocfilehash: 74d3f5377559763e035155bd3f10818076f97ea3
+ms.sourcegitcommit: fcfcedacfea4d6feabacb6b83bb9c14e5a25fcaf
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/18/2022
-ms.locfileid: "9028896"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9316998"
 ---
 # <a name="project-mobile-applications-overview"></a>Projektams skirtų mobiliųjų įrenginių programėlių apžvalga
 
@@ -42,9 +42,8 @@ Mobiliųjų įrenginių programėlė „Dynamics 365 Project Timesheet“ leidž
 ## <a name="for-more-information"></a>Norėdami gauti daugiau informacijos, žr.
 
 - [Mobiliųjų įrenginių programėlė „Project Timesheet“](project-timesheet.md)
-- [Projekto laiko įvedimas]( project-time-entry-mobile-workspace.md)
+- [Projekto laiko įvedimas](project-time-entry-mobile-workspace.md)
 - [Projekto grafikai mobiliajame įrenginyje](Mobile-timesheets.md)
 - [Mobiliųjų įrenginių programėlės „Microsoft Dynamics 365 Project Timesheet”, skirtos „iOS“ ir „Android“, pasirinktinių laukų naudojimas](custom-fields-mobile.md)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

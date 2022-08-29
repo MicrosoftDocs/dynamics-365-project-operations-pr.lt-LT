@@ -1,17 +1,17 @@
 ---
 title: Projekto grafiko API sąsajų naudojimas operacijoms su planavimo objektais atlikti
-description: Šiame straipsnyje pateikiama informacija ir pavyzdžiai, kaip naudoti "Project Schedule API".
+description: Šiame straipsnyje pateikiama informacija ir pavyzdžiai, kaip naudoti "Project schedule" API.
 author: sigitac
 ms.date: 01/13/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ada06186121d41edddaa06f747b3e1687c303928
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 3248a057b831d81fdc2bc198b4ed4da5e46462f2
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8929224"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230326"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Projekto grafiko API sąsajų naudojimas operacijoms su planavimo objektais atlikti
 
@@ -42,12 +42,12 @@ OperationSet yra darbo vieneto modelis, kurį galima naudoti, kai operacijoje re
 
 Toliau pateikiamas dabartinių projekto grafiko API sąrašas.
 
-- **msdyn_CreateProjectV1**: šį API galima naudoti norint sukurti projektą. Projektas ir numatytoji projekto grupė sukuriami iš karto.
+- **msdyn_CreateProjectV1**: šį API galima naudoti norint sukurti projektą. Projekto ir numatytojo projekto kibiras sukuriami nedelsiant.
 - **msdyn_CreateTeamMemberV1**:šį API galima naudoti norint sukurti projekto komandos narį. Komandos nario įrašas sukuriamas nedelsiant.
 - **msdyn_CreateOperationSetV1**: šį API galima naudoti norint suplanuoti keletą užklausų, kurias reikia atlikti operacijoje.
-- **msdyn_PSSCreateV1**: šį API galima naudoti norint sukurti objektą. Toks objektas gali būti bet kuris projekto planavimo objektas, kuris palaiko kūrimo operaciją.
-- **msdyn_PSSUpdateV1**: šį API galima naudoti norint atnaujinti objektą. Toks objektas gali būti bet kuris projekto planavimo objektas, kuris palaiko naujinimo operaciją.
-- **msdyn_PSSDeleteV1**: šį API galima naudoti norint panaikinti objektą. Toks objektas gali būti bet kuris projekto planavimo objektas, kuris palaiko naikinimo operaciją.
+- **msdyn_PssCreateV1**: šią API galima naudoti objektui kurti. Toks objektas gali būti bet kuris projekto planavimo objektas, kuris palaiko kūrimo operaciją.
+- **msdyn_PssUpdateV1**: šią API galima naudoti norint atnaujinti objektą. Toks objektas gali būti bet kuris projekto planavimo objektas, kuris palaiko naujinimo operaciją.
+- **msdyn_PssDeleteV1**: šią API galima naudoti norint panaikinti objektą. Toks objektas gali būti bet kuris projekto planavimo objektas, kuris palaiko naikinimo operaciją.
 - **msdyn_ExecuteOperationSetV1**: šis API naudojamas norint vykdyti visas nurodyto operacijų rinkinio operacijas.
 
 ## <a name="using-project-schedule-apis-with-operationset"></a>Projekto grafiko API sąsajų naudojimas su OperationSet
@@ -58,10 +58,10 @@ Kadangi įrašai, naudojant **CreateProjectV1** ir **CreateTeamMemberV1**, sukur
 
 | Grafiko objektas | Kūrimas | Atnaujinimas | Delete | Svarbi informacija |
 | --- | --- | --- | --- | --- |
-Projekto užduotis | Taip | Taip | Taip | Laukus **Progress**, **EffortCompleted** ir **EffortRemaining** galima redaguoti programoje "Project for the Web", tačiau jų negalima redaguoti programoje "Project Operations".  |
-| Projekto užduoties priklausomybė | Taip |  | Taip | Projekto užduoties priklausomybės įrašai neatnaujinami. Vietoj to seną įrašą galima panaikinti ir sukurti naują įrašą. |
+Projekto užduotis | Taip | Taip | Taip | Laukus **"Progress",**"**EffortCompleted"** ir **"EffortRemaining"** galima redaguoti "Project for the Web", bet jų negalima redaguoti naudojant "Project Operations".  |
+| Projekto užduoties priklausomybė | Taip |  | Taip | Projekto užduoties priklausomybės įrašai neatnaujinami. Vietoj to galima panaikinti seną įrašą ir sukurti naują įrašą. |
 | Išteklių priskyrimas | Taip | Taip | | Nepalaikomos operacijos, kurioms naudojami šie laukai: **BookableResourceID**, **Pastangos**, **EffortCompleted**, **EffortRemaining** ir **PlannedWork**. Išteklių priskyrimo įrašai neatnaujinami. Vietoj to seną įrašą galima panaikinti ir sukurti naują įrašą. |
-| Projekto talpykla | Taip | Taip | Taip | Numatytasis kibiras sukuriamas naudojant **API CreateProjectV1**. Projekto kibirų kūrimo ir naikinimo palaikymas buvo įtrauktas į 16 naujinimo leidimą. |
+| Projekto talpykla | Taip | Taip | Taip | Numatytasis kibiras sukuriamas naudojant **"CreateProjectV1** " API. Projektų kaušų kūrimo ir ištrynimo palaikymas buvo įtrauktas į 16 versijos naujinimo leidimą. |
 | Projekto komandos narys | Taip | Taip | Taip | Kūrimo operacijai naudokite **CreateTeamMemberV1** API. |
 | Project | Taip | Taip |  | Nepalaikomos operacijos, kurioms naudojami šie laukai: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Pastangos**, **EffortCompleted**, **EffortRemaining**, **Eiga**, **Pabaiga**, **TaskEarliestStart** ir **Duration**. |
 
@@ -71,11 +71,11 @@ ID ypatybė yra pasirinktinė. Jei ji pateikta, sistema bando ypatybę panaudoti
 
 ## <a name="restricted-fields"></a>Apriboti laukai
 
-Šiose lentelėse apibrėžiami laukai, apriboti kurti **ir** **redaguoti**.
+Toliau pateiktose lentelėse apibrėžiami laukai, kurie yra apriboti iš **Kurti** ir **redaguoti**.
 
 ### <a name="project-task"></a>Projekto užduotis
 
-| Loginis pavadinimas                           | Gali sukurti     | Gali redaguoti         |
+| Loginis pavadinimas                           | Gali kurti     | Gali redaguoti         |
 |----------------------------------------|----------------|------------------|
 | msdyn_actualcost                       | No             | No               |
 | msdyn_actualcost_base                  | No             | No               |
@@ -86,8 +86,8 @@ ID ypatybė yra pasirinktinė. Jei ji pateikta, sistema bando ypatybę panaudoti
 | msdyn_costatcompleteestimate           | No             | No               |
 | msdyn_costatcompleteestimate_base      | No             | No               |
 | msdyn_costconsumptionpercentage        | No             | No               |
-| msdyn_effortcompleted                  | Ne (taip projektui)             | Ne (taip projektui)               |
-| msdyn_effortremaining                  | Ne (taip projektui)              | Ne (taip projektui)                |
+| msdyn_effortcompleted                  | Ne (taip, jei naudojate "Project")             | Ne (taip, jei naudojate "Project")               |
+| msdyn_effortremaining                  | Ne (taip, jei naudojate "Project")              | Ne (taip, jei naudojate "Project")                |
 | msdyn_effortestimateatcomplete         | No             | No               |
 | msdyn_iscritical                       | No             | No               |
 | msdyn_iscriticalname                   | No             | No               |
@@ -103,7 +103,7 @@ ID ypatybė yra pasirinktinė. Jei ji pateikta, sistema bando ypatybę panaudoti
 | msdyn_plannedsales                     | No             | No               |
 | msdyn_plannedsales_base                | No             | No               |
 | msdyn_pluginprocessingdata             | No             | No               |
-| msdyn_progress                         | Ne (taip projektui)             | Ne (taip projektui) |
+| msdyn_progress                         | Ne (taip, jei naudojate "Project")             | Ne (taip, jei naudojate "Project") |
 | msdyn_remainingcost                    | No             | No               |
 | msdyn_remainingcost_base               | No             | No               |
 | msdyn_remainingsales                   | No             | No               |
@@ -130,7 +130,7 @@ ID ypatybė yra pasirinktinė. Jei ji pateikta, sistema bando ypatybę panaudoti
 
 ### <a name="project-task-dependency"></a>Projekto užduoties priklausomybė
 
-| Loginis pavadinimas                  | Gali sukurti     | Gali redaguoti     |
+| Loginis pavadinimas                  | Gali kurti     | Gali redaguoti     |
 |-------------------------------|----------------|--------------|
 | msdyn_linktype                | No             | No           |
 | msdyn_linktypename            | No             | No           |
@@ -144,7 +144,7 @@ ID ypatybė yra pasirinktinė. Jei ji pateikta, sistema bando ypatybę panaudoti
 
 ### <a name="resource-assignment"></a>Išteklių priskyrimas
 
-| Loginis pavadinimas                 | Gali sukurti     | Gali redaguoti     |
+| Loginis pavadinimas                 | Gali kurti     | Gali redaguoti     |
 |------------------------------|----------------|--------------|
 | msdyn_bookableresourceid     | Taip            | No           |
 | msdyn_bookableresourceidname | Taip            | No           |
@@ -174,7 +174,7 @@ ID ypatybė yra pasirinktinė. Jei ji pateikta, sistema bando ypatybę panaudoti
 
 ### <a name="project-team-member"></a>Projekto komandos narys
 
-| Loginis pavadinimas                                     | Gali sukurti     | Gali redaguoti     |
+| Loginis pavadinimas                                     | Gali kurti     | Gali redaguoti     |
 |--------------------------------------------------|----------------|--------------|
 | msdyn_calendarid                                 | No             | No           |
 | msdyn_creategenericteammemberwithrequirementname | No             | No           |
@@ -196,7 +196,7 @@ ID ypatybė yra pasirinktinė. Jei ji pateikta, sistema bando ypatybę panaudoti
 
 ### <a name="project"></a>Project
 
-| Loginis pavadinimas                           | Gali sukurti     | Gali redaguoti     |
+| Loginis pavadinimas                           | Gali kurti     | Gali redaguoti     |
 |----------------------------------------|----------------|--------------|
 | msdyn_actualexpensecost                | No             | No           |
 | msdyn_actualexpensecost_base           | No             | No           |
@@ -255,7 +255,7 @@ ID ypatybė yra pasirinktinė. Jei ji pateikta, sistema bando ypatybę panaudoti
 
 ### <a name="project-bucket"></a>Projekto talpykla
 
-| Loginis pavadinimas          | Gali sukurti      | Gali redaguoti     |
+| Loginis pavadinimas          | Gali kurti      | Gali redaguoti     |
 |-----------------------|-----------------|--------------|
 | msdyn_displayorder    | Taip             | No           |
 | msdyn_name            | Taip             | Taip          |
@@ -265,7 +265,7 @@ ID ypatybė yra pasirinktinė. Jei ji pateikta, sistema bando ypatybę panaudoti
 ## <a name="limitations-and-known-issues"></a>Apribojimai ir žinomos problemos
 Toliau pateikiamas apribojimų ir žinomų problemų sąrašas.
 
-- Projekto grafiko API gali naudoti tik vartotojai, **turintys "Microsoft Project" licenciją**. Jų negali toliau nurodyti vartotojai.
+- Projekto grafiko API gali naudoti tik vartotojai, turintys **"Microsoft Project" licenciją**. Jų negali toliau nurodyti vartotojai.
 
     - Programų vartotojai
     - Sistemos vartotojai

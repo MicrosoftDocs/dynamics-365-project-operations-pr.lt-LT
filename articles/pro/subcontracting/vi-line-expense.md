@@ -6,42 +6,40 @@ ms.date: 03/25/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 3ffad20b53344221ead9b6850ecdc1efd48d5b13
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2c3cd2fab87af1cbfccd81e543f2cea0278978f6
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8925896"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9261693"
 ---
 # <a name="vendor-invoice-lines-for-expense-categories"></a>Tiekėjo sąskaitos faktūros eilutės, skirtos išlaidų kategorijoms
 
-[!include [banner](../../includes/dataverse-preview.md)]
-
 _**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
 
-"Microsoft" Dynamics 365 Project Operations tiekėjo SF gali turėti išlaidų kategorijų tiekėjo SF eilutes. Projektų vadovai gali naudoti tiekėjo SF eilutes išlaidų kategorijoms, kad įrašytų aptarnavimo, įsigyto kaip išlaidų kategorijos, išlaidas.
+Tiekėjo SF programoje "Microsoft" Dynamics 365 Project Operations gali būti tiekėjo SF eilutės, skirtos išlaidų kategorijoms. Projektų vadovai gali naudoti tiekėjo SF eilutes išlaidų kategorijoms, kad įrašytų įsigytų paslaugų išlaidas kaip išlaidų kategorijas.
 
-Išlaidų kategorijų tiekėjo SF eilutės gali arba negali nurodyti išlaidų kategorijų subrangos eilutės. Jei išlaidų kategorijų tiekėjo SF eilutė nurodo subrangos sutartį, projektų vadovai galės suderinti ir patikrinti išlaidas, kurioms tiekėjo SF eilutė išrašo SF eilutę, ir jas patikrinti su išlaidomis, įrašytomis šiose išlaidų kategorijose ir patvirtintomis projekto vadovų.
+Išlaidų kategorijų tiekėjo SF eilutės gali nurodyti išlaidų kategorijų subrangos eilutę arba ne. Jei išlaidų kategorijų tiekėjo SF eilutė nurodo subrangos sutartį, projektų vadovai galės susieti ir patikrinti išlaidas, kurioms tiekėjo SF eilutė išrašo sf, su išlaidomis, kurios įrašomos į šias išlaidų kategorijas ir kurias patvirtina projekto projektų vadovai.
 
 Šioje lentelėje pateikiama informacija apie išlaidų kategorijų tiekėjo SF eilučių laukus.
 
 | Laukas | Aprašą | Funkcinis poveikis |
 | --- | --- | --- |
 | Pavadinimą | Tiekėjo SF eilutės pavadinimas, padedantis identifikuoti. | Šis pavadinimas bus rodomas kaip pirmasis stulpelis visose peržvalgose, pagrįstose tiekėjo SF eilutėmis. |
-| Aprašą | Trumpas paslaugų, kurioms tiekėjas tiekėjo SF eilutėje išrašo SF, aprašymas. | Joks |
-| Subrangos sutartis | Subrangos sutartis, pagal kurią paslaugos iš pradžių buvo užsakytos. | Pasirinkus tiekėjo SF subrangos sutartį, visos tiekėjo SF eilutės paveldės tą pasirinkimą. Tiekėjo SF negali turėti tiekėjo SF eilučių, nurodančių skirtingas subrangos sutartis. |
-| Subrangos eilutė | Subrangos eilutė, kurioje buvo užsakytos paslaugos. Subrangos eilučių, kurias galima pasirinkti, sąrašas apsiriboja pasirinkto subrangos sutarties eilutėmis. | Kai išlaidų kategorijų tiekėjo SF eilutėje pasirenkama subrangos eilutė, iš atitinkamų subrangos eilutės laukų Projektas **,** Užduotis **ir** Operacija **numatytosios vertės** įvedamos iš atitinkamų subrangos eilutės laukų. Jei pasirinktos subrangos eilutės laukuose **Projektas**, **Projekto užduotis** ir **Operacija** yra reikšmių, atitinkamų tiekėjo SF eilutės laukų vertės negali skirtis nuo šių verčių. |
-| Operacijos data | Data, kai tiekėjo SF eilutės faktinė savikaina bus įrašyta į projektą. |Joks |
-| Operacijos klasė | Pasirinkite **Išlaidos**, jei norite įrašyti išlaidų kategorijos tiekėjo SF. | Vertė **Išlaidos** nurodo, kad tiekėjo SF eilutė naudojama aptarnavimo, kuris buvo įsigytas kaip išlaidų kategorijos, SF sumai įrašyti. |
-| Project | Projekto, kuriame buvo naudojamos paslaugos, kurioms išrašyta SF, pavadinimas. | Šis laukas yra būtinas ir negali būti paliktas tuščias. |
-| Užduotis | Projekto užduoties, kuriai buvo naudojamos paslaugos, kurioms išrašyta SF, pavadinimas. Šis laukas galimas tik pasirinkus projektą. Projekto užduoties pasirinkimas yra neprivalomas. | Jei šis laukas paliekamas tuščias, projekto vadovas gali suderinti tiekėjo SF eilutę su išlaidomis, įrašytomis į bet kurią projekto užduotį. Jei tiekėjo SF eilutė nenurodo subrangos eilutės ir šis laukas paliekamas tuščias, tiekėjo SF eilutėje sukurta faktinė savikaina nebus susieta su jokiais neapmokėtais pardavimo faktiniais duomenimis. Tokiu atveju, jei nustatytas užduotimis pagrįstas atsiskaitymas, išlaidoms gali nepavykti išrašyti SF galutiniam vartotojui. |
-| Operacijos kategorija | Operacijos kategorija, kuriai išrašyta SF. Turi būti sukurta atitinkama pasirinktos operacijos kategorijos išlaidų kategorija. | Operacijos kategorijos **ir vieneto** **verčių derinys bus naudojamas kaip numatytoji** arba apskaičiuota tiekėjo SF eilutės lauko Vieneto kaina **vertė**. |
-| Kiekis | Įveskite kiekį, kuriam SF eilutėje tiekėjas išrašo SF. |Joks|
-| Vienetų grupė | Numatytoji vertė įvedama pagal pasirinktos operacijos kategorijos vienetų grupę. | Joks |
-| Vienetas | Numatytoji vertė yra pasirinktos vienetų grupės bazinis vienetas. Šią vertę galite keisti, kad pirktumėte bet kuriame vienetų grupės vienete. | Operacijos kategorijos **ir vieneto** **verčių derinys bus naudojamas kaip numatytoji** arba apskaičiuota tiekėjo SF eilutės lauko Vieneto kaina **vertė**. |
-| Vieneto kaina | Numatytoji vieneto kaina naudoja operacijos kategorijos **ir** vieneto **verčių** derinį iš projekto kainoraščio, kuris taikomas tiekėjo SF eilutės operacijos datai. | Jei taikomo projekto kainoraščio kaina nustatoma vienetu, kuris skiriasi nuo vieneto tiekėjo SF eilutėje, sistema naudoja vieneto konvertavimą, kad apskaičiuotų vieneto kainą. |
-| Tarpinė suma | Šis tik skaitomas laukas apskaičiuojamas kaip *Kiekio*&times;*vieneto kaina*, jei vertės įvedamos ir **į lauką Kiekis**, ir į lauką Vieneto **kaina.** Jei vienas arba abu šie laukai yra tušti, šiame lauke galite įvesti vertę.| Joks |
+| Aprašą | Trumpas paslaugų, kurioms tiekėjas išrašo SF sf eilutę tiekėjo SF eilutėje, aprašas. | Joks |
+| Subrangos sutartis | Subrangos sutartis, pagal kurią paslaugos iš pradžių buvo užsakytos. | Tiekėjo SF pasirinkus subrangos sutartį, visos tiekėjo SF eilutės paveldės tą pasirinkimą. Tiekėjo SF negali būti tiekėjo SF eilučių, nurodančių skirtingas subrangos sutartis. |
+| Subrangos linija | Subrangos linija, pagal kurią buvo užsakytos paslaugos. Subrangos linijų, kurias galima pasirinkti, sąrašas apima tik pasirinktos subrangos linijas. | Kai išlaidų kategorijų tiekėjo SF eilutėje pasirenkama subrangos eilutė, numatytosios laukų **Projektas** **,** Užduotis **ir** Operacija reikšmės įvedamos iš atitinkamų subrangos eilutės laukų. Jei pasirinktoje subrangos eilutėje yra reikšmių laukuose **Projektas**, **Užduotis Projektas** ir **Operacija**, atitinkamų laukų tiekėjo SF eilutėje reikšmės negali skirtis nuo tų reikšmių. |
+| Operacijos data | Data, kada tiekėjo SF eilutės faktinės išlaidos bus įrašytos į projektą. |Joks |
+| Operacijos klasė | Pasirinkite **Išlaidos**, kad įrašytumėte išlaidų kategorijos tiekėjo SF. | Reikšmė **Išlaidos** nurodo, kad tiekėjo SF eilutė naudojama paslaugų, kurios buvo įsigytos kaip išlaidų kategorijos, SF sumai įrašyti. |
+| Project | Projekto, kuriame buvo naudojamos paslaugos, kurioms išrašomos sąskaitos faktūros, pavadinimas. | Šis laukas yra būtinas ir jo negalima palikti tuščio. |
+| Užduotis | Projekto užduoties, kuriai buvo naudojamos paslaugos, kurioms išrašomos sąskaitos faktūros, pavadinimas. Šis laukas galimas tik pasirinkus projektą. Projekto užduoties pasirinkimas yra neprivalomas. | Jei šis laukas paliekamas tuščias, projekto vadovas gali susieti tiekėjo SF eilutę su išlaidomis, kurios įrašomos atliekant bet kurią projekto užduotį. Jei tiekėjo SF eilutėje nenurodyta subrangos eilutė, o šis laukas paliekamas tuščias, faktinės išlaidos, kurias sukuria tiekėjo SF eilutė, nebus susietos su jokiais neįrašytais pardavimo faktiniais duomenimis. Tokiu atveju, jei nustatytas užduotimis pagrįstas atsiskaitymas, gali nepavykti išrašyti išlaidų sąskaitos faktūros galutiniam klientui. |
+| Operacijos kategorija | Operacijų kategorija, kuriai išrašomos sąskaitos faktūros. Pasirinktai operacijų kategorijai turi būti sukurta atitinkama išlaidų kategorija. | Operacijos kategorijos ir vieneto **reikšmių** derinys bus naudojamas kaip numatytoji arba apskaičiuota lauko Vieneto **kaina** tiekėjo SF eilutėje reikšmė.**·** |
+| Kiekis | Įveskite kiekį, kuriam sf sf išrašo tiekėjas SF sf eilutėje. |Joks|
+| Vienetų grupė | Numatytoji reikšmė įvedama pagal pasirinktos operacijos kategorijos vienetų grupę. | Joks |
+| Vienetas | Numatytoji reikšmė yra pasirinktos vienetų grupės pagrindinis vienetas. Šią vertę galite pakeisti norėdami įsigyti bet kurį vienetų grupės vienetą. | Operacijos kategorijos ir vieneto **reikšmių** derinys bus naudojamas kaip numatytoji arba apskaičiuota lauko Vieneto **kaina** tiekėjo SF eilutėje reikšmė.**·** |
+| Vieneto kaina | Numatytoji vieneto kaina naudoja operacijos kategorijos **ir** vieneto **reikšmių** derinį iš projekto kainoraščio, kuris taikomas tiekėjo SF eilutės operacijos datai. | Jei taikomo projekto kainoraščio kaina nustatoma vienete, kuris skiriasi nuo tiekėjo SF eilutėje nurodyto vieneto, sistema naudoja vieneto konvertavimą, kad apskaičiuotų vieneto kainą už vienetą. |
+| Tarpinė suma | Šis tik skaityti skirtas laukas apskaičiuojamas kaip *kiekio*&times;*vieneto kaina*, jei reikšmės įvedamos ir **lauke Kiekis,** ir lauke Vieneto **kaina.** Jei vienas arba abu šie laukai yra tušti, šiame lauke galite įvesti reikšmę.| Joks |
 | PVM | Įveskite PVM sumą. | Joks |
-| Bendra suma | Bendroji tiekėjo SF eilutės suma, įskaitant mokesčius. Šis laukas apskaičiuojamas kaip *tarpinės sumos* + *PVM*. | Joks |
+| Bendra suma | Bendra tiekėjo SF eilutės suma, įskaitant mokesčius. Šis laukas apskaičiuojamas kaip *tarpinis tarpinis PVM* + *·*. | Joks |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -6,16 +6,14 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ff9636f86102fa671a443d7646614070b3e2ee79
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b5852df1876eff591ae6a131b229d979eacf5aad
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934376"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9262133"
 ---
 # <a name="subcontract-lines-for-products"></a>Subrangos sutarties eilutės, skirtos produktams
-
-[!include [banner](../../includes/dataverse-preview.md)]
 
 _**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
 

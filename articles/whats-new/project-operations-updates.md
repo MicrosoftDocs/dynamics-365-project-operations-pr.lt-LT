@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b611862e74d04778ad46700ba6d33fc16cb79fae
-ms.sourcegitcommit: e91136d3335ee03db660529eccacd48907774453
-ms.translationtype: HT
+ms.openlocfilehash: a08bffa2e353f2ed1b9f3b0c27e2ed1e30731012
+ms.sourcegitcommit: 153eb9325df25b31539bb2b44077326386ab41ae
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "9188289"
+ms.lasthandoff: 08/15/2022
+ms.locfileid: "9295889"
 ---
 # <a name="project-operations-updates"></a>„Project Operations“ naujinimai
 
@@ -36,7 +36,7 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 
 | „Project Operations“ „Dataverse“ aplinkoje | Projektų valdymas ir apskaita finansų ir operacijų programų aplinkose | 
 | --- | --- |
-| 4.44.0.22 | 10.0.28 |
+| 4.45.0.53 | 10.0.28 |
 
 Jei naudojate "Project Operations Resource" / ne atsargų scenarijų, rekomenduojame naudoti dvigubo rašymo orkestravimo versiją, 2.3.1.15 arba naujesnę versiją.
 
@@ -47,24 +47,24 @@ Naujiniai, skirti „Project Operations” „Dataverse“ aplinkoje, yra pasiek
 | Stotis | Regiono ID | Dabartinės versijos numeris | „Lite“ visuotinio diegimo automatiniai naujinimai | Ištekliaus / ne atsargų visuotinio diegimo automatiniai naujinimai | Kitas versijos numeris | Kita visuotinai pasiekiama versija |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | 1 stotis |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Pirmasis leidimas         |  4.44.0.22      | Užbaigta           | Užbaigta            | TBD                 | 2022 m. rugpjūčio 05 d.       |
+|   &nbsp;  | Pirmasis leidimas         |  4.45.0.53      | Užbaigta           | Užbaigta            | TBD                 | 2022 m. rugpjūčio 26 d.       |
 | 2 stotis |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Pietų Amerika         |  4.44.0.22      | Užbaigta           | Užbaigta            | TBD                 | 2022 m. rugpjūčio 06 d.       |
-|   &nbsp;  | Kanada                |  4.44.0.22      | Užbaigta           | Užbaigta            | TBD                 | 2022 m. rugpjūčio 06 d.       |
-|   &nbsp;  | Indija                 |  4.44.0.22      | Užbaigta           | Užbaigta            | TBD                 | 2022 m. rugpjūčio 06 d.       |
-|   &nbsp;  | Prancūzija                |  4.44.0.22      | Užbaigta           | Užbaigta            | TBD                 | 2022 m. rugpjūčio 06 d.       |
-|   &nbsp;  | Pietų Afrika          |  4.44.0.22      | Užbaigta           | Užbaigta            | TBD                 | 2022 m. rugpjūčio 06 d.       |
-|   &nbsp;  | Šveicarija           |  4.44.0.22      | Užbaigta           | Užbaigta            | TBD                 | 2022 m. rugpjūčio 06 d.       |
+|   &nbsp;  | Pietų Amerika         |  4.45.0.53      | Užbaigta           | Užbaigta            | TBD                 | 2022 m. rugsėjo mėn. 02 d.       |
+|   &nbsp;  | Kanada                |  4.45.0.53      | Užbaigta           | Užbaigta            | TBD                 | 2022 m. rugsėjo mėn. 02 d.       |
+|   &nbsp;  | Indija                 |  4.45.0.53      | Užbaigta           | Užbaigta            | TBD                 | 2022 m. rugsėjo mėn. 02 d.       |
+|   &nbsp;  | Prancūzija                |  4.45.0.53      | Užbaigta           | Užbaigta            | TBD                 | 2022 m. rugsėjo mėn. 02 d.       |
+|   &nbsp;  | Pietų Afrika          |  4.45.0.53      | Užbaigta           | Užbaigta            | TBD                 | 2022 m. rugsėjo mėn. 02 d.       |
+|   &nbsp;  | Šveicarija           |  4.45.0.53      | Užbaigta           | Užbaigta            | TBD                 | 2022 m. rugsėjo mėn. 02 d.       |
 | 3 stotis |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japonija                 |  4.44.0.22      | Užbaigta      | Užbaigta       | TBD                 | 2022 m. rugpjūčio 12 d.       |
-|   &nbsp;  | Azijos ir Ramiojo vandenyno regionas          |  4.44.0.22      | Užbaigta      | Užbaigta       | TBD                 | 2022 m. rugpjūčio 12 d.       |
-|   &nbsp;  | Didžioji Britanija         |  4.44.0.22      | Užbaigta      | Užbaigta       | TBD                 | 2022 m. rugpjūčio 12 d.       |
-|   &nbsp;  | Okeanija               |  4.44.0.22      | Užbaigta      | Užbaigta       | TBD                 | 2022 m. rugpjūčio 12 d.       |
-|   &nbsp;  | Jungtiniai Arabų Emyratai  |  4.44.0.22      | Užbaigta      | Užbaigta       | TBD                 | 2022 m. rugpjūčio 12 d.       |
+|   &nbsp;  | Japonija                 |  4.44.0.22      | Užbaigta      | Užbaigta       | 4.45.0.53                 | 2022 m. rugpjūčio 19 d.       |
+|   &nbsp;  | Azijos ir Ramiojo vandenyno regionas          |  4.44.0.22      | Užbaigta      | Užbaigta       | 4.45.0.53                 | 2022 m. rugpjūčio 19 d.       |
+|   &nbsp;  | Didžioji Britanija         |  4.44.0.22      | Užbaigta      | Užbaigta       | 4.45.0.53                 | 2022 m. rugpjūčio 19 d.       |
+|   &nbsp;  | Okeanija               |  4.44.0.22      | Užbaigta      | Užbaigta       | 4.45.0.53                 | 2022 m. rugpjūčio 19 d.       |
+|   &nbsp;  | Jungtiniai Arabų Emyratai  |  4.44.0.22      | Užbaigta      | Užbaigta       | 4.45.0.53                 | 2022 m. rugpjūčio 19 d.       |
 | 4 stotis |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europa                |  4.43.0.119      | Užbaigta           | Užbaigta            | 4.44.0.22           | 2022 m. liepos 29 d.       |
+|   &nbsp;  | Europa                |  4.44.0.22      | Užbaigta           | Užbaigta            | 4.45.0.53           | 2022 m. rugpjūčio 26 d.       |
 | 5 stotis |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Šiaurės Amerika         |  4.43.0.119      | Užbaigta           | Užbaigta            | 4.44.0.22           | 2022 m. rugpjūčio 05 d.       |
+|   &nbsp;  | Šiaurės Amerika         |  4.44.0.22      | Užbaigta           | Užbaigta            | 4.45.0.53           | 2022 m. rugsėjo mėn. 02 d.       |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Projektų valdymo ir apskaitos išleidimo grafikas finansų ir operacijų programų aplinkoje
 

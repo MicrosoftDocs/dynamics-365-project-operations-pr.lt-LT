@@ -1,66 +1,64 @@
 ---
 title: Sukonfigūruokite grafiko lentą, kad būtų rodomi sutarties darbuotojai ir subrangos pajėgumas
-description: Šiame straipsnyje aprašoma, kaip konfigūruoti "Microsoft" Dynamics 365 Project Operations grafiko lentą, kad būtų rodomas subrangovų išteklių pajėgumas, kai įdarbinami projekto išteklių poreikiai.
+description: Šiame straipsnyje aprašoma, kaip konfigūruoti "Microsoft" Dynamics 365 Project Operations grafikų lentą, kad būtų rodomas subrangos būdu susietų išteklių pajėgumas, kai dirbama su projekto išteklių reikalavimais.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b965fd5011a575354f50c47081be198ab43248f9
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 355691b63f437de789afab499369afcdf87e6d3d
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8919840"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9262227"
 ---
 # <a name="configure-schedule-board-to-show-contract-workers-and-subcontracted-capacity"></a>Sukonfigūruokite grafiko lentą, kad būtų rodomi sutarties darbuotojai ir subrangos pajėgumas 
 
-[!include [banner](../../includes/dataverse-preview.md)]
-
 _**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
 
-Planavimo lenta programoje "Microsoft" Dynamics 365 Project Operations gali būti naudojama išteklių paieškai dviem būdais:
+"Microsoft" Dynamics 365 Project Operations tvarkaraščių lenta gali būti naudojama ieškant išteklių dviem būdais:
 
-- Bendroji išteklių paieška be jokio konkretaus projektinio išteklių poreikio konteksto.
-- Konkretaus poreikio išteklių ieška, kurioje projekto reikalavimas pateiks siūlomų išteklių kontekstą.
+- Bendroji išteklių paieška be jokio konkretaus projektu pagrįsto išteklių poreikio konteksto.
+- Konkretaus reikalavimo išteklių paieška, kai projekto reikalavimas suteiks siūlomų išteklių kontekstą.
 
-Norėdami pranešti grafiko lentai apie subrangovų išteklių pajėgumus ir sutartininkus, turite atnaujinti grafiko lentos parametrus. Šie naujinimai apima: 
-- Atnaujinti bendrosios išteklių ieškos grafiko lentos parametrus.
-- Atnaujinti poreikiu pagrįstos išteklių ieškos grafiko lentos parametrus.
+Norėdami pranešti grafiko valdybai apie subrangos būdu sudarytus išteklių pajėgumus ir sutartininkus, turite atnaujinti grafiko lentos parametrus. Šie naujinimai apima: 
+- Atnaujinkite bendrosios išteklių paieškos tvarkaraščių lentos parametrus.
+- Atnaujinkite tvarkaraščio lentos parametrus, kad galėtumėte atlikti ištekliais pagrįstą išteklių paiešką.
 
-## <a name="update-schedule-board-settings-for-general-resource-search"></a>Atnaujinti bendrosios išteklių ieškos grafiko lentos parametrus
-### <a name="update-filters-for-general-resource-search"></a>Atnaujinti bendrosios išteklių ieškos filtrus
-Kai ieškote ištekliaus, grafiko lentoje esantys filtrai turėtų būti atnaujinti, kad taip pat galėtumėte ieškoti išorinių išteklių, nurodydami bet kurį arba visus šiuos dalykus:
-  - Darbuotojo tipas, ar rodomi ištekliai turi būti sutartininkai, ar darbuotojai.
+## <a name="update-schedule-board-settings-for-general-resource-search"></a>Atnaujinkite bendrosios išteklių paieškos tvarkaraščio lentos nustatymus
+### <a name="update-filters-for-general-resource-search"></a>Bendrosios išteklių paieškos filtrų naujinimas
+Kai ieškote išteklių, tvarkaraščio lentoje esantys filtrai turėtų būti atnaujinti, kad galėtumėte ieškoti išorinių išteklių nurodydami bet kurį arba visus šiuos dalykus:
+  - Darbuotojo tipas, ar rodomi ištekliai turėtų būti sutartininkai, ar darbuotojai.
   - Tiekėjo įmonė, kuriai turėtų priklausyti išteklius.
-  - Ištekliai, priklausantys konkrečiai subrangos arba subrangos eilutei.
+  - Ištekliai, priklausantys konkrečiai subrangos arba subrangos linijai.
     
-### <a name="update-retrieve-resource-query"></a>Atnaujinti išteklių nuskaitymo užklausą
-Ieškai naudojama užklausa taip pat turėtų būti atnaujinta, kad būtų galima naudoti šiuos papildomus filtro atributus. Norėdami atnaujinti bendrosios išteklių ieškos grafiko lentos konfigūraciją, atlikite šiuos veiksmus:  
-1. Atidarykite **konkrečios grafiko lentos parametrus** konkrečiai grafiko lentai.
-2. Atidarykite skirtuką **Bendrieji parametrai** ir slinkite į **Kiti parametrai**.
-3. Šio skyriaus parametrų sąraše atnaujinkite **filtro maketą** į **Numatytąjį "Project Operations Lite**" filtro maketą.
-4. Atnaujinkite **gauti išteklių užklausą** į numatytąją **"Project Operations Lite" išteklių nuskaitymo užklausą**.
+### <a name="update-retrieve-resource-query"></a>Išteklių gavimo užklausos naujinimas
+Paieškai naudojama užklausa taip pat turėtų būti atnaujinta, kad būtų galima naudoti šiuos papildomus filtro atributus. Norėdami atnaujinti bendrosios išteklių ieškos planavimo lentos konfigūraciją, atlikite šiuos veiksmus:  
+1. Atidarykite **konkrečios tvarkaraščio lentos nustatymus**.
+2. Atidarykite skirtuką **Bendrieji nustatymai** ir slinkite iki **Kiti nustatymai**.
+3. Šio skyriaus parametrų sąraše atnaujinkite **filtro maketą** į **numatytąjį "Project Operations Lite"** filtro maketą.
+4. Atnaujinkite **išteklių gavimo užklausą** į **numatytąją išteklių gavimo užklausą, skirtą "Project Operations Lite"**.
 
-![Atnaujinti bendrosios išteklių ieškos grafiko lentos parametrus](../media/BoardSettings.png)  
+![Atnaujinkite bendrosios išteklių paieškos tvarkaraščio lentos nustatymus](../media/BoardSettings.png)  
 
-## <a name="update-schedule-board-settings-for-requirementbased-resource-search"></a>Atnaujinti poreikiu pagrįstos išteklių ieškos grafiko lentos parametrus
-### <a name="update-filters-for-requirement-specific-resource-search"></a>Atnaujinti konkretaus poreikio išteklių ieškos filtrus 
-Kai ieškote ištekliaus, grafiko lentoje esantys filtrai turėtų būti atnaujinti, kad taip pat galėtumėte ieškoti išorinių išteklių, nurodydami bet kurį arba visus šiuos dalykus:
- - Darbuotojo tipas, ar rodomi ištekliai turi būti sutartininkai, ar darbuotojai.
+## <a name="update-schedule-board-settings-for-requirementbased-resource-search"></a>Tvarkaraščio lentos parametrų naujinimas, kad būtų galima atlikti ištekliais pagrįstą išteklių paiešką
+### <a name="update-filters-for-requirement-specific-resource-search"></a>Konkrečių reikalavimų išteklių ieškos filtrų naujinimas 
+Kai ieškote išteklių, tvarkaraščio lentoje esantys filtrai turėtų būti atnaujinti, kad galėtumėte ieškoti išorinių išteklių nurodydami bet kurį arba visus šiuos dalykus:
+ - Darbuotojo tipas, ar rodomi ištekliai turėtų būti sutartininkai, ar darbuotojai.
  - Tiekėjo įmonė, kuriai turėtų priklausyti išteklius.
- - Ištekliai, priklausantys konkrečiai subrangos arba subrangos eilutei.
+ - Ištekliai, priklausantys konkrečiai subrangos arba subrangos linijai.
 
-### <a name="update-retrieve-resource-query-for-requirement-specific-resource-search"></a>Atnaujinti konkretaus poreikio išteklių ieškos nuskaitymo išteklių užklausą 
-Ieškai naudojama užklausa taip pat turėtų būti atnaujinta, kad būtų galima naudoti šiuos papildomus filtro atributus. Norėdami atnaujinti planavimo lentos konfigūraciją, atlikite šiuos veiksmus, kad galėtumėte ieškoti poreikiais pagrįstų išteklių:
+### <a name="update-retrieve-resource-query-for-requirement-specific-resource-search"></a>Naujinimas gauti išteklių užklausą, kad būtų galima atlikti konkrečių reikalavimų išteklių paiešką 
+Paieškai naudojama užklausa taip pat turėtų būti atnaujinta, kad būtų galima naudoti šiuos papildomus filtro atributus. Norėdami atnaujinti tvarkaraščio lentos konfigūraciją, kad atnaujintumėte reikalavimais pagrįstą išteklių paiešką, atlikite šiuos veiksmus:
 
-1. Atidarykite **konkrečios grafiko lentos parametrus**, tada pasirinkite **Atidaryti numatytuosius parametrus**, kad atidarytumėte konkretaus reikalavimo ieškos parametrus.
-2. Atidarykite skirtuką **Bendrieji parametrai** ir slinkite į **Kiti parametrai**.
-3. Šio skyriaus parametrų sąraše atnaujinkite **filtro maketą** į **Numatytąjį "Project Operations Lite**" filtro maketą.
-4. Atnaujinkite **gauti išteklių užklausą** į numatytąją **"Project Operations Lite" išteklių nuskaitymo užklausą**.
-5. Atidarykite skirtuką **Grafiko tipai** ir eikite į **"Project"**.
-6. Dalyje "Project" parametrai atnaujinkite **planavimo asistento** nuskaitymo išteklių užklausą **į numatytąją**"Project Operations Lite **" išteklių užklausą ir atnaujinkite** planavimo asistento nuskaitymo apribojimų užklausą **į numatytąją**"Project Operations Lite **" nuskaitymo apribojimų užklausą.**
+1. Atidarykite **konkrečios tvarkaraščių lentos parametrus**, tada pasirinkite **Atidaryti numatytuosius parametrus**, kad atidarytumėte konkrečių reikalavimų paieškos parametrus.
+2. Atidarykite skirtuką **Bendrieji nustatymai** ir slinkite iki **Kiti nustatymai**.
+3. Šio skyriaus parametrų sąraše atnaujinkite **filtro maketą** į **numatytąjį "Project Operations Lite"** filtro maketą.
+4. Atnaujinkite **išteklių gavimo užklausą** į **numatytąją išteklių gavimo užklausą, skirtą "Project Operations Lite"**.
+5. Atidarykite skirtuką **Tvarkaraščio tipai** ir eikite į **Projektas**.
+6. Dalyje "Project" parametrų atnaujinkite **grafiko** asistentą, kad gautumėte išteklių užklausą **į** numatytąją išteklių užklausą, skirtą "Project Operations Lite"**, ir atnaujinkite** grafiko asistentą Gauti apribojimų užklausą **į** numatytąją nuskaitymo apribojimų užklausą, skirtą "Project Operations Lite"**.**
 
-![Atnaujinti poreikiu pagrįstos išteklių ieškos grafiko lentos parametrus](../media/SASettings.png)  
+![Tvarkaraščio lentos parametrų naujinimas, kad būtų galima atlikti ištekliais pagrįstą išteklių paiešką](../media/SASettings.png)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
