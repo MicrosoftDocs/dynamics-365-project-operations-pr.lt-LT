@@ -1,45 +1,85 @@
 ---
-title: Projekto įvertinimų ir faktinių duomenų savikainų nustatymas
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip išsprendžiamos projekto sąmatų ir faktinių duomenų savikainos.
+title: Projektų įvertinimų ir faktinių duomenų savikainos tarifų nustatymas
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip nustatomi projekto įvertinimų ir faktinių aplinkybių išlaidų tarifai.
 author: rumant
-ms.date: 04/07/2021
+ms.date: 09/01/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c278d8994389145c6dbee7574d2354724d985722
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: c7dd264ebbd1da9b2f42d2284fb38988a09aa03f
+ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917540"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9410160"
 ---
-# <a name="resolve-cost-prices-on-project-estimates-and-actuals"></a>Projekto įvertinimų ir faktinių duomenų savikainų nustatymas 
+# <a name="determine-cost-rates-for-project-estimates-and-actuals"></a>Projektų įvertinimų ir faktinių duomenų savikainos tarifų nustatymas
 
 _**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
 
-Norėdama nustatyti išlaidų kainas ir įvertintų bei faktinių savikainų kainoraštį, sistema naudoja susijusio projekto laukų **Data**, **Valiuta** ir **Sutarties vienetai** informaciją. Nustačius savikainų kainoraštį, programa nustato savikainos tarifą.
+Norėdami nustatyti išlaidų kainoraštį ir išlaidų tarifus įvertinime ir faktiniuose kontekstuose, sistema naudoja informaciją susijusio projekto laukuose **Data**, **Valiuta** ir **Sutartinis vienetas**.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-time"></a>Savikainos tarifų faktinėse ir įvertintose laiko eilutėse nustatymas
+## <a name="determining-cost-rates-in-estimate-and-actual-contexts-for-time"></a>Išlaidų tarifų nustatymas įvertinime ir faktiniuose laiko kontekstuose
 
-Įvertintos laiko eilutės nurodo pasiūlymo ir sutarties eilutės duomenis, skirtus projekto laikui ir ištekliams priskirti.
+Laiko **įvertinimo kontekstas** reiškia:
 
-Nustačius savikainų kainoraštį, laukai **Vaidmuo** ir **Išteklių paskirstymo vienetas** laiko įvertinimo eilutėje yra gretinami su vaidmens kainos eilutėmis kainoraštyje. Šis atitikmuo reiškia, kad darbo savikainai naudojate standartinės kainodaros dimensijas. Jei sukonfigūravote, kad sistema atitiktų laukus vietoj arba greta laukų **Vaidmuo** ir **Išteklių paskirstymo vienetas**, tada kitoks derinys bus naudojamas gretinimo vaidmens kainos eilutei gauti. Jei programa suranda vaidmens kainos eilutę, kurios laukų **Vaidmuo** ir **Išteklių paskirstymo vienetas** derinys turi savikainos tarifą, tai yra numatytasis savikainos tarifas. Jei programa negali sugretinti laukų **Vaidmuo** ir **Išteklių paskirstymo vienetas** reikšmių, tada ji nuskaito vaidmens kainų eilutes su atitinkamu vaidmeniu, bet **Išteklių paskirstymo vieneto** reikšmės lieka neapibrėžtos. Kai jis turi atitinkantį vaidmens kainos įrašą, numatytasis savikainos tarifas nustatomas iš to įrašo. 
+- Citatos **eilutės informacija apie laiką**.
+- Sutarties eilutės informacija apie **laiką**.
+- Išteklių priskyrimai projektui.
+
+Faktinis **laiko** kontekstas reiškia:
+
+- Laiko **įvedimo ir taisymo žurnalo** eilutės.
+- Žurnalo eilutės, sukurtos, kai pateikiamas laiko įrašas.
+
+Nustačius savikainos kainoraštį, sistema atlieka šiuos veiksmus, kad įvestų numatytąjį išlaidų tarifą.
+
+1. Sistema suderina laukų Vaidmuo **ir** Išteklių vienetas **derinį** įvertinime arba faktiniame laiko **kontekste** su vaidmenų kainoraščio kainoraščio eilutėmis. Šiame atitikime daroma prielaida, kad naudojate standartines darbo sąnaudų kainodaros dimensijas. Jei sukonfigūravote sistemą taip, kad ji atitiktų kitus laukus nei vaidmenų **ir** išteklių gavimo vienetas **arba be jų**, norint gauti atitinkamą vaidmens kainos eilutę, naudojamas kitas derinys.
+1. Jei sistema randa vaidmens kainos eilutę, kurioje yra kombinacijos Vaidmens **ir** išteklių vienetas **savikainos koeficientas**, tas išlaidų tarifas naudojamas kaip numatytasis išlaidų tarifas.
+1. Jei sistema negali atitikti **reikšmių Vaidmuo** ir **Išteklių vienetas**, ji nuskaito vaidmens kainos eilutes, kuriose yra atitinkančios lauko Vaidmuo **reikšmės**, bet nulinės lauko Išteklių gavimo vienetas **reikšmės**. Kai sistemoje yra atitinkamas vaidmens kainos įrašas, to įrašo išlaidų tarifas bus naudojamas kaip numatytasis išlaidų lygis.
 
 > [!NOTE]
-> Jei sukonfigūravote kitokį **Vaidmens** ir **Išteklių paskirstymo vieneto** pirmumą arba jei turite kitokių didesnio prioriteto dimensijų, toks veikimas atitinkamai pasikeis. Sistema nuskaito vaidmens kainų įrašus su atitinkamomis kiekvienos kainodaros dimensijos vertėmis pirmumo tvarka: eilutės su neapibrėžtomis tų dimensijų vertėmis pateikiamos paskutinės.
+> Jei sukonfigūruosite skirtingą laukų **Vaidmenų** ir **išteklių ėmimo vienetas** prioritetų nustatymą arba jei turite kitų dimensijų, kurių prioritetas yra didesnis, ankstesnis veikimas atitinkamai pasikeis. Sistema nuskaito vaidmenų kainų įrašus, kurių reikšmės atitinka kiekvieną kainodaros dimensijos reikšmę prioriteto tvarka. Eilutės, kuriose yra neapibrėžtos tų dimensijų reikšmės, yra paskutinės.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-expense"></a>Savikainos tarifų faktinėse ir įvertintose išlaidų eilutėse nustatymas
+## <a name="determining-cost-rates-on-actual-and-estimate-lines-for-expense"></a>Išlaidų tarifų nustatymas faktinėse ir išlaidų įvertinimo eilutėse
 
-Išlaidų įvertintos eilutės nurodo pasiūlymo ir sutarties eilutės išlaidų informaciją ir projekto išlaidų įvertintas eilutes.
+Išlaidų **įvertinimo kontekstas** reiškia:
 
-Nustačius savikainų kainoraštį, sistema naudoja laukų **Kategorija** ir **Vienetas** derinį išlaidų įvertinimo eilutėje, kad būtų atitiktos **Kategorijos kaina** eilutės nustatytame kainoraštyje. Jei sistema suranda kategorijos kainos eilutę, kurios laukų **Kategorija** ir **Vienetas** derinys turi savikainos tarifą, savikainos tarifas bus numatytasis. Jei sistema negali atitikti **Kategorija** ir **Vienetas** reikšmių, arba jei sistema randa sutampančios kategorijos kainos eilutę, tačiau kainodaros būdas nėra **Vieneto kaina**, numatytasis savikainos tarifas bus nulis (0).
+- Išlaidų citatos **eilutės** informacija.
+- Sutarties eilutės informacija apie **išlaidas**.
+- Projekto išlaidų sąmatos.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-material"></a>Savikainos nustatymas Medžiagos faktinių duomenų ir įvertinimo eilutėse
+Faktinis **išlaidų** kontekstas reiškia:
 
-Medžiagos įvertinimo eilutėse nurodoma išsami medžiagos pasiūlymo ir sutarties eilutės informacija ir pateikiamos projekto medžiagos įvertinimo eilutės.
+- Įrašo ir taisymo žurnalo eilutės, skirtos **išlaidoms**.
+- Žurnalo eilutės, sukurtos pateikus išlaidų įrašą.
 
-Nustačius savikainos kainoraštį, sistemoje, medžiagos įvertinimo eilutėje, naudojamas laukų **Produktas** ir **Vienetas** derinys, kad **Kainų sąrašo elementai** eilutes būtų galima sugretinti su nustatytu kainoraščiu. Jei sistema aptinka produkto kainos eilutę, kurioje nurodytas laukų **Produktas** ir **Vienetas** derinio savikainos tarifas, šis savikainos tarifas nustatomas kaip numatytasis. Jei sistemoje negalima sugretinti **Produktas** ir **Vienetas** reikšmių arba joje randamas atitinkantis kainų sąrašo elementas, tačiau kainodaros būdas pagrįstas standartine arba dabartine kaina, iš kurių nė viena nėra apibrėžta produkte, vieneto savikainai nustatoma numatytoji nulinė reikšmė.
+Nustačius savikainos kainoraštį, sistema atlieka šiuos veiksmus, kad įvestų numatytąjį išlaidų tarifą.
 
+1. Sistema suderina laukų **Kategorija** ir **Vienetas** derinį įvertinime arba faktiniame išlaidų **kontekste** su kainoraštyje esančiomis kategorijų kainoraščio kaino eilutėmis.
+1. Jei sistema randa kategorijos kainos eilutę, kurioje yra kategorijų **ir** vienetų derinio **išlaidų tarifas, tas išlaidų tarifas** naudojamas kaip numatytasis išlaidų tarifas.
+1. Jei sistema negali atitikti **verčių Kategorija** ir **Vienetas**, pagal numatytuosius nustatymus kaina nustatoma kaip **0** (nulis).
+1. Įvertinimo kontekste, jei sistema gali rasti atitinkančią kategorijos kainų eilutę, bet kainodaros metodas yra ne **vieneto** kaina, pagal numatytuosius nustatymus savikaina nustatoma kaip **0** (nulis).
+
+## <a name="determining-cost-rates-on-actual-and-estimate-lines-for-material"></a>Savikainos tarifų nustatymas faktinėse ir sąmatos eilutėse, skirtose medžiagai
+
+Medžiagos **įvertinimo kontekstas** reiškia:
+
+- Medžiagos **citatos** eilutės informacija.
+- Medžiagos **sutarties eilutės informacija**.
+- Reikšmingos projekto sąmatos.
+
+Faktinis **medžiagos kontekstas** reiškia:
+
+- Medžiagos **įrašo ir taisymo žurnalo** eilutės.
+- Žurnalo eilutės, sukurtos pateikus medžiagos naudojimo žurnalą.
+
+Nustačius savikainos kainoraštį, sistema atlieka šiuos veiksmus, kad įvestų numatytąjį išlaidų tarifą.
+
+1. Sistema naudoja laukų **Produktas** ir **Vienetas** derinį medžiagos įvertinime arba faktiniame **kontekste** pagal kainoraščio prekių eilutes kainoraštyje.
+1. Jei sistema randa kainoraščio prekės eilutę, kurioje yra produkto **ir** vieneto derinio **išlaidų tarifas**, tas išlaidų tarifas naudojamas kaip numatytasis išlaidų tarifas.
+1. Jei sistema negali sutapti su produkto ir **vieneto** **reikšmėmis**, vieneto savikaina pagal numatytuosius nustatymus nustatoma kaip **0** (nulis).
+1. Įvertinime arba faktiniame kontekste, jei sistema gali rasti atitinkančią kainoraščio prekės eilutę, bet kainodaros metodas yra kažkas kita, o ne **valiutos suma**, vieneto savikaina pagal numatytuosius nustatymus nustatoma į **0**. Taip nutinka todėl, kad "Project Operations" palaiko tik **projekte naudojamų medžiagų valiutos sumos** kainodaros metodą.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

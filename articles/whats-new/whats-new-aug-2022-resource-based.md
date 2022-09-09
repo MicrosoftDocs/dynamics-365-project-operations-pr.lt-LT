@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 112dbb98de09ef342c03d122a29cb8025058e47f
-ms.sourcegitcommit: 6b6c2bfd04e3e613ed1f38355c7cd47c3a56748d
+ms.openlocfilehash: 4042dca72a33f48e04e51af2a3cfd2da83146afd
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "9348106"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403867"
 ---
 # <a name="whats-new-august-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Kas nauja – 2022 m. rugpjūčio mėn. – „Project Operations“, skirta išteklių / nelaikomų medžiagų scenarijams
 
@@ -38,6 +38,11 @@ Jei paleidę žemėlapį susiduriate su problema, vadovaukitės instrukcijomis, 
 | Funkcijų sritis | Nuorodos numeris | Kokybės naujinimas |
 | --- | --- | --- |
 |  Galimybių valdymas | 2762089 | Klaidų tvarkymas nutraukiant sutartį kaip prarastą, jei automatinis įrašymas organizacijoje yra išjungtas.|
+|Projektų planavimas ir sekimas | 2767841 | Telemetrija atnaujina projekto objektą Kurti arba Naujinti scenarijus.|
+|Sąskaitų pateikimas ir kainodara | 2771072 | Nulinės nuorodos išimčių tvarkymas laimint pasiūlymą.|
+|Sąskaitų pateikimas ir kainodara | 2844181 |Nepavyko gauti koreliacijos ID ir užblokuoti sąskaitos faktūros sukūrimo.|
+|Sąskaitų pateikimas ir kainodara | 2852836 | Vidinės įmonės faktinės sumos trūkstamos vidinės įmonės išlaidoms, sukurtoms ir patvirtintoms CE.|
+
 
 ### <a name="project-management-and-accounting-in-finance"></a>Projektų valdymas ir apskaita finansų srityje
 

@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: cbee9281d2fae485a3ebcd38bb884a2b2322f8d1
-ms.sourcegitcommit: 66e376675e6df8efc86fa84ec24e9aad6a980304
+ms.openlocfilehash: e63b29741dbaa400a2176ff8b4c35c6d64dfeab4
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "9183919"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403962"
 ---
 # <a name="whats-new-july-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Kas nauja – 2022 m. liepos mėn. – „Project Operations“, skirta išteklių / nelaikomų medžiagų scenarijams
 
@@ -45,6 +45,12 @@ Jei paleidę žemėlapį susiduriate su problema, vadovaukitės instrukcijomis, 
 | Sąskaitų pateikimas ir kainodara | 2675880 | Neleiskite, kad projektas būtų susietas su sutarties eilute, kuri nėra pagrįsta darbu. |
 | Sąskaitų pateikimas ir kainodara | 2664396 | Jei citatos kainoraštis išsaugomas be citatos, turi būti klaida, nurodanti, kad pasiūlymas negali būti tuščias. |
 | Sąskaitų pateikimas ir kainodara | 2184019 | Skirtukas Užduotimi **pagrįstas atsiskaitymas** neturėtų būti rodomas projektams, kurie neturi atsarginės sutarties ar pasiūlymo. |
+| Laikas ir išlaidos | 2754459 | Kai pasikartojantis debesų srauto planavimas yra neaktyvus, parodykite reklamjuostę ir apeikite asinchronizatorių apdorojimą. |
+| Sąskaitų pateikimas ir kainodara | 2724391 | Neteisinga išimtis atmetama, kai projekto sutarties padalijimo atsiskaitymo taisyklėje trūksta kliento vertės. |
+| Sąskaitų pateikimas ir kainodara | 2708638 | Įrašo nerasta ieškant naudojant tinklelio paiešką medžiagos naudojimo ir medžiagų naudojimo patvirtinimuose.|
+| Sąskaitų pateikimas ir kainodara | 2686977 | Neleiskite tikrinti sąskaitos faktūros eilutės tikrinimo kuriant sąskaitą faktūrą. |
+| Sąskaitų pateikimas ir kainodara | 2683032 | Apmokestinamų vaidmenų ir kategorijų kopijavimas neviršija 5000 įrašų.|
+| Sąskaitų pateikimas ir kainodara | 2673363 | Išlaidų sunaudojimas % projekte yra sugadintas, kai projektui yra ir pastangų, ir išlaidų sąmatos, ir faktinės aplinkybės. |
 
 ### <a name="project-management-and-accounting-in-finance"></a>Projektų valdymas ir apskaita finansų srityje
 

@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 56692661a08cd6676e68f9715a976000cdba3fba
-ms.sourcegitcommit: 66e376675e6df8efc86fa84ec24e9aad6a980304
+ms.openlocfilehash: 82812f0b7f172bf7386057b5684ff5ade67a6a22
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "9183920"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9404008"
 ---
 # <a name="whats-new-july-2022---project-operations-lite-deployment"></a>Kas nauja 2022 m. liepos mėn. „Project Operations“ „Lite“ visuotinėje įdiegtyje
 
@@ -34,3 +34,9 @@ _**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės
 | Sąskaitų pateikimas ir kainodara | 2675880 | Neleiskite, kad projektas būtų susietas su sutarties eilute, kuri nėra pagrįsta darbu. |
 | Sąskaitų pateikimas ir kainodara | 2664396 | Jei citatos kainoraštis išsaugomas be citatos, turi būti klaida, nurodanti, kad pasiūlymas negali būti tuščias. |
 | Sąskaitų pateikimas ir kainodara | 2184019 | Skirtukas Užduotimi **pagrįstas atsiskaitymas** neturėtų būti rodomas projektams, kurie neturi atsarginės sutarties ar pasiūlymo. |
+| Laikas ir išlaidos | 2754459 | Kai pasikartojantis debesų srauto planavimas yra neaktyvus, parodykite reklamjuostę ir apeikite asinchronizatorių apdorojimą. |
+| Sąskaitų pateikimas ir kainodara | 2724391 | Neteisinga išimtis atmetama, kai projekto sutarties padalijimo atsiskaitymo taisyklėje trūksta kliento vertės. |
+| Sąskaitų pateikimas ir kainodara | 2708638 | Įrašo nerasta ieškant naudojant tinklelio paiešką medžiagos naudojimo ir medžiagų naudojimo patvirtinimuose.|
+| Sąskaitų pateikimas ir kainodara | 2686977 | Neleiskite tikrinti sąskaitos faktūros eilutės tikrinimo kuriant sąskaitą faktūrą. |
+| Sąskaitų pateikimas ir kainodara | 2683032 | Apmokestinamų vaidmenų ir kategorijų kopijavimas neviršija 5000 įrašų.|
+| Sąskaitų pateikimas ir kainodara | 2673363 | Išlaidų sunaudojimas % projekte yra sugadintas, kai projektui yra ir pastangų, ir išlaidų sąmatos, ir faktinės aplinkybės. |
