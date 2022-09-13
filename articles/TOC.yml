@@ -168,6 +168,8 @@
                   href: sales/invoice-schedule-quote-line.md
             - name: Projekto pasiūlymų kopijavimas
               href: sales/lose-quote.md
+            - name: Projekto pasiūlymo aktyvinimas ir peržiūra
+              href: sales/activation-and-revision.md
             - name: Projekto pasiūlymų uždarymas
               href: sales/win-quote.md
         - name: Projekto sutarčių valdymas
@@ -198,6 +200,8 @@
                   href: sales/import-estimate-project-contract-line.md
                 - name: Sąskaitos faktūros grafikų kūrimas projektu pagrįstose sutarties eilutėse
                   href: sales/invoice-schedules-contract-line.md
+            - name: Projektu pagrįstų sutarčių kopijavimas
+              href: sales/copy-project-based-contracts-sales.md
             - name: Projekto sutarties patvirtinimas
               href: pro/sales/confirm-contract-sales.md
             - name: Avansai ir išankstiniai apmokėjimai
@@ -230,7 +234,7 @@
               href: pricing-costing/override-project-sales-price-list-default.md
             - name: Įvertinimų ir faktinių duomenų savikainos nustatymas
               href: pricing-costing/cost-price-resolution.md
-            - name: Įvertinimų ir faktinių duomenų pardavimo kainų sprendimas
+            - name: Įvertinimų ir faktinių duomenų pardavimo kainų nustatymas
               href: pricing-costing/sales-price-resolution.md
             - name: Kainoraščių kopijavimas
               href: pricing-costing/copy-price-lists.md
@@ -766,6 +770,8 @@
                   href: sales/invoice-schedule-quote-line.md
             - name: Projektu pagrįstų pasiūlymų kopijavimas
               href: sales/lose-quote.md
+            - name: Projekto pasiūlymo aktyvinimas ir peržiūra
+              href: sales/activation-and-revision.md
             - name: Projektu pagrįstų pasiūlymų uždarymas
               href: pro/sales/win-quote-sales.md
         - name: Projektu pagrįstų sutarčių valdymas
@@ -838,9 +844,9 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Projekto pardavimo kainoraščių perrašymas
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: Projekto savikainos įvertinimų ir faktinių duomenų sprendimas
+            - name: Projekto savikainos įvertinimų ir faktinių duomenų nustatymas
               href: pro/pricing-costing/cost-price-resolution-sales.md
-            - name: Projekto pardavimo kainų įvertinimų ir faktinių duomenų sprendimas
+            - name: Projekto pardavimo kainų įvertinimų ir faktinių duomenų nustatymas
               href: pro/pricing-costing/sales-price-resolution-sales.md
             - name: Kainoraščių kopijavimas
               href: pricing-costing/copy-price-lists.md
