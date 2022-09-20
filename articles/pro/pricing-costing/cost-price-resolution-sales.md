@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c7dd264ebbd1da9b2f42d2284fb38988a09aa03f
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: c2295174df1ce766c6d1304f4e9c55d32d5c4775
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410160"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475242"
 ---
 # <a name="determine-cost-rates-for-project-estimates-and-actuals"></a>Projektų įvertinimų ir faktinių duomenų savikainos tarifų nustatymas
 
 _**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
 
-Norėdami nustatyti išlaidų kainoraštį ir išlaidų tarifus įvertinime ir faktiniuose kontekstuose, sistema naudoja informaciją susijusio projekto laukuose **Data**, **Valiuta** ir **Sutartinis vienetas**.
+Norėdami nustatyti išlaidų tarifus pagal įverčius ir faktines sumas programoje "Microsoft" Dynamics 365 Project Operations, sistema pirmiausia naudoja datą ir valiutą gaunamame įvertinime arba faktiniame kontekste, kad nustatytų savikainos kainoraštį. Konkrečiai faktiniame kontekste sistema naudoja lauką **Operacijos data**, kad nustatytų, kuris kainoraštis yra taikytinas. Gaunamo **įvertinimo arba faktinio sandorio datos** vertė lyginama su **kainoraštyje esančiomis reikšmė Efektyvios pradžios (nepriklausoma nuo laiko juostos)** ir **Efektyvios pabaigos (laiko juostos nepriklausoma)** reikšmė. Nustačius išlaidų kainoraštį, sistema nustato išlaidų normą. 
 
 ## <a name="determining-cost-rates-in-estimate-and-actual-contexts-for-time"></a>Išlaidų tarifų nustatymas įvertinime ir faktiniuose laiko kontekstuose
 
@@ -33,7 +33,7 @@ Faktinis **laiko** kontekstas reiškia:
 - Laiko **įvedimo ir taisymo žurnalo** eilutės.
 - Žurnalo eilutės, sukurtos, kai pateikiamas laiko įrašas.
 
-Nustačius savikainos kainoraštį, sistema atlieka šiuos veiksmus, kad įvestų numatytąjį išlaidų tarifą.
+Nustačius išlaidų kainoraštį, sistema atlieka šiuos veiksmus, kad įvestų numatytąjį išlaidų tarifą.
 
 1. Sistema suderina laukų Vaidmuo **ir** Išteklių vienetas **derinį** įvertinime arba faktiniame laiko **kontekste** su vaidmenų kainoraščio kainoraščio eilutėmis. Šiame atitikime daroma prielaida, kad naudojate standartines darbo sąnaudų kainodaros dimensijas. Jei sukonfigūravote sistemą taip, kad ji atitiktų kitus laukus nei vaidmenų **ir** išteklių gavimo vienetas **arba be jų**, norint gauti atitinkamą vaidmens kainos eilutę, naudojamas kitas derinys.
 1. Jei sistema randa vaidmens kainos eilutę, kurioje yra kombinacijos Vaidmens **ir** išteklių vienetas **savikainos koeficientas**, tas išlaidų tarifas naudojamas kaip numatytasis išlaidų tarifas.
@@ -55,7 +55,7 @@ Faktinis **išlaidų** kontekstas reiškia:
 - Įrašo ir taisymo žurnalo eilutės, skirtos **išlaidoms**.
 - Žurnalo eilutės, sukurtos pateikus išlaidų įrašą.
 
-Nustačius savikainos kainoraštį, sistema atlieka šiuos veiksmus, kad įvestų numatytąjį išlaidų tarifą.
+Nustačius išlaidų kainoraštį, sistema atlieka šiuos veiksmus, kad įvestų numatytąjį išlaidų tarifą.
 
 1. Sistema suderina laukų **Kategorija** ir **Vienetas** derinį įvertinime arba faktiniame išlaidų **kontekste** su kainoraštyje esančiomis kategorijų kainoraščio kaino eilutėmis.
 1. Jei sistema randa kategorijos kainos eilutę, kurioje yra kategorijų **ir** vienetų derinio **išlaidų tarifas, tas išlaidų tarifas** naudojamas kaip numatytasis išlaidų tarifas.
@@ -72,10 +72,10 @@ Medžiagos **įvertinimo kontekstas** reiškia:
 
 Faktinis **medžiagos kontekstas** reiškia:
 
-- Medžiagos **įrašo ir taisymo žurnalo** eilutės.
+- Medžiagos įrašo ir taisymo žurnalo **eilutės**.
 - Žurnalo eilutės, sukurtos pateikus medžiagos naudojimo žurnalą.
 
-Nustačius savikainos kainoraštį, sistema atlieka šiuos veiksmus, kad įvestų numatytąjį išlaidų tarifą.
+Nustačius išlaidų kainoraštį, sistema atlieka šiuos veiksmus, kad įvestų numatytąjį išlaidų tarifą.
 
 1. Sistema naudoja laukų **Produktas** ir **Vienetas** derinį medžiagos įvertinime arba faktiniame **kontekste** pagal kainoraščio prekių eilutes kainoraštyje.
 1. Jei sistema randa kainoraščio prekės eilutę, kurioje yra produkto **ir** vieneto derinio **išlaidų tarifas**, tas išlaidų tarifas naudojamas kaip numatytasis išlaidų tarifas.

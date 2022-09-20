@@ -1,6 +1,6 @@
 ---
 title: Funkcijų pokyčiai lyginant „Project Service Automation“ ir „Project Operations“
-description: Šiame straipsnyje apžvelgiami funkcijų keitimai iš "Project Service Automation" į Dynamics 365 Project Operations.
+description: Šiame straipsnyje pateikiama funkcijų pakeitimų iš "Project Service Automation" į Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/03/2022
@@ -16,88 +16,88 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 8a6030faf777051ea1003679589af4bdf97322ab
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: a9c69fc4296d30763f3994a4955e64ab258ceb4f
+ms.sourcegitcommit: 675e9f3615e701c5f998de3a5ea3e25df11ae107
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8925360"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9459937"
 ---
 # <a name="feature-changes-from-project-service-automation-to-project-operations"></a>Funkcijų pokyčiai lyginant „Project Service Automation“ ir „Project Operations“
 
-Atnaujinimas iš Dynamics 365 Project Service Automation " Dynamics 365 Project Operations Lite" bus vykdomas trimis etapais. Šiame straipsnyje pateikiama informacija apie pagrindinius pakeitimus, kuriuos galite tikėtis pamatyti, kai naujinimas bus baigtas.
+Atnaujinimas iš Dynamics 365 Project Service Automation į Dynamics 365 Project Operations "Lite" bus pristatytas trimis etapais. Šiame straipsnyje pateikiama informacija apie pagrindinius pakeitimus, kuriuos galite tikėtis pamatyti, kai versijos naujinimas bus baigtas.
 
-| Atnaujinti pristatymą | 1 etapas <br>(2022 m. Sausio mėn.) | 2 etapas <br>(2022 m. Balandžio banga) | 3 etapas  |
+| Atnaujinimo pristatymas | 1 fazė <br>(Sausis 2022) | 2 fazė <br>(Lapkritis 2022) | 3 fazė  |
 |------------------|------------------------|---------------------------|---------------------------|
 | Nėra priklausomybės nuo projektų darbo paskirstymo struktūros (WBS). | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| WBS yra įtrauktas į šiuo metu palaikomas projekto operacijų ribas. | &nbsp; | :heavy_check_mark: | :heavy_check_mark: |
-| WBS nepatenka į šiuo metu palaikomas "Project Operations" ribas, įskaitant "Project" darbalaukio kliento palaikymą. | &nbsp; | &nbsp; | :heavy_check_mark: |
+| WBS yra įtrauktas į šiuo metu palaikomus projekto operacijų apribojimus. | &nbsp; | :heavy_check_mark: | :heavy_check_mark: |
+| WBS už šiuo metu palaikomų "Project Operations" apribojimų ribų, įskaitant "Project" darbalaukio kliento palaikymą. | &nbsp; | &nbsp; | :heavy_check_mark: |
 
 ## <a name="project-management"></a>Projektų valdymas
 
-Svarbiausi vartotojo patirties pokyčiai bus projektų planavimo srityje. "Project Operations" priima naują modernią patirtį valdant darbo paskirstymo struktūrą (WBS), panaudojant "Project for the Web" teikiamas [planavimo galimybes](https://support.microsoft.com/en-us/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5).
+Reikšmingiausi vartotojo patirties pokyčiai bus projekto planavimo srityje. "Project Operations" pritaiko naują modernią darbo paskirstymo struktūros (WBS) valdymo patirtį, panaudojant planavimo galimybes, kurias [teikia "Project for the Web"](https://support.microsoft.com/en-us/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5).
 
 ## <a name="differences-in-the-scheduling-experience"></a>Planavimo patirties skirtumai
 
 Šioje lentelėje apibendrinami planavimo skirtumai tarp "Project Service Automation" ir "Project Operations".
 
-|  Planavimas     |   „Project Operations“   |   PSA   |
+|  Planavimas     |   „Project Operations“   |   Psa   |
 |-----------------|------------------------|---------|
 | Projekto šablonai – galimybė apibrėžti ir taikyti projekto šablonus kuriant projektą  |  &nbsp;    | :heavy_check_mark: |
 | Projekto darbo paskirstymo struktūros (WBS) integravimas su darbalaukio klientu   |    &nbsp;  | :heavy_check_mark: |
-| Apribojimai – pradėti ne anksčiau kaip, baigti ne vėliau kaip  | :heavy_check_mark: |   &nbsp;  |
-| Etapai – nulinės trukmės užduotys   | :heavy_check_mark:  |  &nbsp;  |
-| Ištekliais grindžiamos užduotys atitiks priskirtų išteklių prieinamumą   | :heavy_check_mark: |  &nbsp;    |
-| Laiko tarpsnių redagavimas – redaguokite planus ir dirbkite kiekvieną dieną   |   &nbsp;  | :heavy_check_mark: |
-| Automatinis / neautomatinis planavimas – naudokite projekto planavimo variklį užduotims automatiškai arba rankiniu būdu planuoti |  &nbsp; | :heavy_check_mark:  |
-| Redaguoti didelius projektus tiesiogiai vartotojo sąsajoje: redaguojamų planų dydžiui nėra ribų  | 500 užduočių limitas  | :heavy_check_mark:       |
-| Įvykdymo procentas – pažymėti užduoties eigą   | :heavy_check_mark:  |  &nbsp;  |
-| [Projekto grafiko režimai](../project-management/scheduling-modes.md) – apibrėžkite projektą kaip fiksuotus vienetus, fiksuotas pastangas arba fiksuotą trukmę | :heavy_check_mark: | &nbsp; |
-| Laiko planavimo juosta – kurkite ir tinkinkite laiko planavimo juostos rodinį, kad vizualizuotumėte išsamią tvarkaraščio informaciją ir bendrautumėte su suinteresuotosiomis šalimis. | :heavy_check_mark:  | &nbsp; |
-| Į pastangas orientuotos užduotys – variklio palaikymo planavimas, skirtas užduoties planavimui kaip pastangų varomoms pastangoms  | :heavy_check_mark:  | &nbsp; |
-| **Dialogo langas Užduoties informacija** – išsamios užduoties informacijos įrašymas naudojant dialogo langą | :heavy_check_mark:  |  &nbsp;  |
-| Vilkimas ir numetimas – kelių pasirinkimų užduotys ir jų padėties modifikavimas WBS | :heavy_check_mark: | &nbsp;  |
-| Lankstūs nuolatiniai rodiniai – apibrėžkite išsamesnius užduočių atributų rodinius   | :heavy_check_mark:  | &nbsp; |
+| Apribojimai - Pradėkite ne anksčiau kaip, užbaikite ne vėliau kaip  | :heavy_check_mark: |   &nbsp;  |
+| Orientyrai – užduotys, kurių trukmė nulinė   | :heavy_check_mark:  |  &nbsp;  |
+| Ištekliais pagrįstos užduotys atitiks priskirtų išteklių prieinamumą   | :heavy_check_mark: |  &nbsp;    |
+| Redagavimas laiko tarpsniu – redaguokite planus ir dirbkite kiekvieną dieną   |   &nbsp;  | :heavy_check_mark: |
+| Automatinis / neautomatinis planavimas – naudokite projekto planavimo variklį, kad automatiškai arba rankiniu būdu suplanuotumėte užduotis |  &nbsp; | :heavy_check_mark:  |
+| Redaguokite didelius projektus tiesiogiai vartotojo sąsajoje: planų, kuriuos galima redaguoti, dydis neribojamas  | 500 užduočių limitas  | :heavy_check_mark:       |
+| Įvykdymo procentas – užduoties eigos žymėjimas   | :heavy_check_mark:  |  &nbsp;  |
+| [Projekto tvarkaraščio režimai](../project-management/scheduling-modes.md) – apibrėžkite projektą kaip fiksuotus vienetus, fiksuotas pastangas arba fiksuotą trukmę | :heavy_check_mark: | &nbsp; |
+| Laiko planavimo juosta – kurkite ir tinkinkite laiko juostos rodinį, kad vizualizuotumėte išsamią tvarkaraščio informaciją ir bendrautumėte su suinteresuotosiomis šalimis. | :heavy_check_mark:  | &nbsp; |
+| Į pastangas orientuotos užduotys – variklio palaikymo planavimas planuojant užduotį kaip varomą pastangų  | :heavy_check_mark:  | &nbsp; |
+| **Dialogo langas Užduoties informacija** – užduoties informacijos įrašymas naudojant dialogo langą | :heavy_check_mark:  |  &nbsp;  |
+| Vilkite ir numeskite – kelių pasirinkimų užduotys ir pakeiskite jų padėtį WBS | :heavy_check_mark: | &nbsp;  |
+| Lankstūs nuolatiniai rodiniai – išsamesnių užduočių atributų rodinių apibrėžimas   | :heavy_check_mark:  | &nbsp; |
 | WBS rūšiavimas ir filtravimas  | :heavy_check_mark:  | &nbsp; |
-| Ne krioklio projekto pristatymo lentų rodinys  | :heavy_check_mark:   | &nbsp; |
-| Laiko planavimo juostos rodinys – interaktyvi Ganto diagrama, naudojama WBS vizualizavimui ir redagavimui   | :heavy_check_mark:  | &nbsp; |
-| Spartieji klavišai – sparčiųjų klavišų naudojimas bendroms operacijoms, pvz., įtraukai arba įterpimui  | :heavy_check_mark:  |  &nbsp; |
-| Kelių lygių anuliavimas – atlikite analizę, kad visiškai suprastumėte pakeitimų poveikį, atšaukdami ir iš naujo taikydami visą operacijų rinkinį | :heavy_check_mark: | &nbsp; |
+| Lentų požiūris į ne krioklio projekto įgyvendinimą  | :heavy_check_mark:   | &nbsp; |
+| Laiko juostos rodinys – interaktyvi Ganto diagrama, naudojama WBS vizualizuoti ir redaguoti   | :heavy_check_mark:  | &nbsp; |
+| Spartieji klavišai – sparčiųjų klavišų naudojimas atliekant įprastas operacijas, pvz., įtrauką arba įterpimą  | :heavy_check_mark:  |  &nbsp; |
+| Daugiapakopis anuliavimas – atlikite sąlyginę analizę, kad visiškai suprastumėte pakeitimų poveikį, atbuline eiga ir iš naujo pritaikydami visą operacijų rinkinį | :heavy_check_mark: | &nbsp; |
 | Iškirpti / kopijuoti / įklijuoti - bendradarbiaukite kurdami tvarkaraštį kopijuodami ir įklijuodami tvarkaraščio informaciją tarp programų  | :heavy_check_mark: | &nbsp; |
-| Užduočių kontroliniai sąrašai – į užduotį įtraukti iki 20 kontrolinio sąrašo elementų   | :heavy_check_mark: | &nbsp; |
+| Užduočių kontroliniai sąrašai – prie užduoties pridėkite iki 20 kontrolinio sąrašo elementų   | :heavy_check_mark: | &nbsp; |
 
 ## <a name="project-planning"></a>Projekto planavimas
 
-" **Project Operations" puslapyje Projektas** yra daug skirtumų, **palyginti su "Project"** puslapiu "Project Service Automation".
+" **Project Operations" puslapyje "Project** " yra daug skirtumų, **palyginti su "Project"** puslapiu, esančiu "Project Service Automation".
 
-Atnaujinant 1 etapą iš **puslapio Projektai** buvo pašalinti šie veiksmai:
+Toliau nurodyti veiksmai buvo pašalinti iš **projekto** puslapio kaip 1 etapo atnaujinimo dalis:
 
   - **Atidaryti programoje „MS Project“**
   - **Kurti šabloną**
   - **Atsieti nuo „MS Project“**
 
-**Projekto** operacijų puslapyje yra šie nauji skirtukai.
+" **Project Operations" puslapyje Projektas** yra šie nauji skirtukai.
 
 - **Medžiagų įvertinimai**
 - **Užduočių atsiskaitymo sąranka**
 
-Skirtukas **Būsena** buvo pašalintas, o laukas **Būsena** dabar yra skirtuke **Suvestinė** su projekto planavimo režimu.
+**Būsenos** skirtukas pašalintas, o **laukas Būsena** dabar yra skirtuke **Suvestinė** su projekto planavimo režimu.
 
-   ![Projekto puslapio naujinimai.](media/projectform.png)
+   ![Projekto puslapio atnaujinimai.](media/projectform.png)
 
-Skirtukas Tvarkaraštis **buvo** pervardytas į skirtuką **Užduotis** ir jame yra nauja projekto planavimo patirtis su "Project for the Web".
+Skirtukas **Tvarkaraštis** buvo pervardytas į skirtuką **Užduotis** ir jame pateikiama nauja projekto planavimo patirtis naudojant "Project for the Web".
 
    ![Skirtukas Naujos projekto užduotys.](media/tasktab.png)
 
 ## <a name="scheduling-modes"></a>Planavimo režimai
 
-"Project Operations" pristatė naują funkciją – [planavimo režimus](../project-management/scheduling-modes.md). Visi esami "Project Service Automation" projektai bus numatyti kaip **fiksuota trukmė** projekto operacijose. Tačiau numatytąją naujų projektų reikšmę galima valdyti perėjus į parametrų **parametrų parametrų** > **·** > **grafiko režimą** > **.**
+"Project Operations" pristatė naują funkciją [– planavimo režimus](../project-management/scheduling-modes.md). Visi esami "Project Service Automation" projektai pagal numatytuosius nustatymus bus fiksuoti **"Project Operations" trukmės**. Tačiau numatytuosius naujų projektų nustatymus galima valdyti nuėjus į **nustatymų** > **parametrų** > **parametrų grafiko** > **režimą**.
 
-   ![Grafiko režimo projekto parametrų parametrai.](media/projectparameter.png)
+   ![Projekto parametrų parametrai grafiko režimui.](media/projectparameter.png)
 
-## <a name="project-planning-limits"></a>Projektų planavimo ribos
+## <a name="project-planning-limits"></a>Projekto planavimo apribojimai
 
-Visų projektų planavimo operacijų projekto operacijos remiasi žiniatinklio projektu. Žiniatinklio projektas valdo darbo paskirstymo struktūrą naudodamas šioje lentelėje nurodytas ribas.
+"Project Operations" remiasi žiniatinklio projektu visoms projekto planavimo operacijoms. "Project for the Web" valdo darbo paskirstymo struktūrą naudodama šioje lentelėje nurodytus apribojimus.
 
 | **Laukas**                                          | **Riba**             |
 |----------------------------------------------------|-----------------------|
@@ -116,7 +116,7 @@ Visų projektų planavimo operacijų projekto operacijos remiasi žiniatinklio p
 
 ## <a name="project-planning-extensibility-and-development"></a>Projektų planavimo išplėtimas ir plėtra
 
-Atnaujinę versiją į "Project Operations", turite naudoti projektų planavimo API, kad galėtumėte vykdyti šių objektų kūrimo, atnaujinimo ir naikinimo operacijas:
+Atnaujinę versiją į "Project Operations", turite naudoti projekto planavimo API, kad galėtumėte vykdyti šių objektų kūrimo, naujinimo ir naikinimo operacijas:
 
 |   Objekto pavadinimas           |   Loginis objekto pavadinimas       |
 |-------------------------|-----------------------------|
@@ -127,14 +127,14 @@ Atnaujinę versiją į "Project Operations", turite naudoti projektų planavimo 
 | Projekto talpykla          | msdyn_projectbucket         |
 | Projekto komandos narys     | msdyn_projectteam           |
 
-Jei šiuo metu turite tinkinimų, susijusių su šiais objektais, žr [...](../project-management/schedule-api-preview.md).
+Jei šiuo metu turite tinkinimų, susijusių su šiais objektais, diegimo rekomendacijų ieškokite [Projekto grafiko API naudojimas operacijoms su planavimo objektais](../project-management/schedule-api-preview.md) atlikti.
 
 ## <a name="data-model-changes"></a>Duomenų modelio pakeitimai
 
-Kaip 1 atnaujinimo etapo dalis, duomenų modelis keičiasi. Šie pakeitimai visų pirma yra esamų objektų lauko pakeitimai. 1 etape objektai, **msydn_project** ir **msdyn_projectteam** yra tinkinimų pertvarkymas. 
+Kaip 1 versijos naujinimo etapo dalis, yra duomenų modelio pakeitimų. Šie pakeitimai visų pirma yra esamų objektų lauko pakeitimai. 1 etape objektai, **msydn_project** ir **msdyn_projectteam** yra tinkinimų pertvarkymas. 
 
 > [!IMPORTANT]
-> Šis skyrius bus atnaujintas papildomais objektais, kai bus baigti būsimi atnaujinimo etapai.
+> Šis skyrius bus atnaujintas naudojant papildomus objektus, kai bus baigti būsimi atnaujinimo etapai.
 
 Šie laukai buvo pakeisti naujais laukais.
 
@@ -149,63 +149,63 @@ Kaip 1 atnaujinimo etapo dalis, duomenų modelis keičiasi. Šie pakeitimai vis�
 | msdyn_projectteam | msdyn_from           | msdyn_start           |
 | msdyn_projectteam | msdyn_to             | msdyn_finish          |
 
-Įtraukti šie laukai.
+Buvo įtraukti šie laukai.
 
 |   Entity          |   Loginis pavadinimas                               |   Aprašą |
 |-------------------|----------------------------------------------|---------------|
-| msdyn_project     | msdyn_actualfeesales                         | Rodo faktinių projekto mokesčių pardavimų suvestinę. Skirta naudoti tik "Project Service Automation". |
-| msdyn_project     | msdyn_actualmaterialcost                     | Rodo faktinių projekto medžiagų savikainos suvestinę. Skirta naudoti tik "Project Service Automation". |
-| msdyn_project     | msdyn_actualmaterialsales                    | Rodo faktinių medžiagų pardavimų projekte suvestinę. Skirta naudoti tik "Project Service Automation". |
+| msdyn_project     | msdyn_actualfeesales                         | Rodo projekto faktinių mokesčio pardavimų suvestinę. Skirta naudoti tik "Project Service Automation". |
+| msdyn_project     | msdyn_actualmaterialcost                     | Rodo projekto faktinių medžiagų sąnaudų suvestinę. Skirta naudoti tik "Project Service Automation". |
+| msdyn_project     | msdyn_actualmaterialsales                    | Rodo projekto faktinių medžiagų pardavimų suvestinę. Skirta naudoti tik "Project Service Automation". |
 | msdyn_project     | msdyn_businesscase                           |                |
-| msdyn_project     | msdyn_contractlineproject                    | Sutarties eilutė, susieta su šiuo projektu. |
-| msdyn_project     | msdyn_copyprojectcorrelationid               | Tai vidinės sistemos laukas, naudojamas **kopijuoti projektą**, susijusį su koreliacijos identifikatoriumi. Skirta naudoti tik "Project Service Automation". |
-| msdyn_project     | msdyn_copyprojectsessionid                   | Tai vidinės sistemos laukas, naudojamas **kopijuoti projektą**, susijusį su seanso identifikatoriumi. Skirta naudoti tik "Project Service Automation". |
-| msdyn_project     | msdyn_globalrevisiontoken                    | Paskutinis sinchronizuojamas xRM visuotinio peržiūros atpažinimo ženklas iš projekto planavimo tarnybos. |
-| msdyn_project     | msdyn_msprojectdocument                      | "Microsoft Project" dokumentas, priklausantis projektui. |
-| msdyn_project     | msdyn_plannedmaterialcost                    | Planuojamų projekto materialinių išlaidų visuma. Skirta naudoti tik "Project Service Automation". |
-| msdyn_project     | msdyn_plannedmaterialsales                   | Planuojamų medžiagų pardavimų sudarymu projekte. Skirta naudoti tik "Project Service Automation". |
+| msdyn_project     | msdyn_contractlineproject                    | Sutarties eilutė, susijusi su šiuo projektu. |
+| msdyn_project     | msdyn_copyprojectcorrelationid               | Tai vidinės sistemos laukas, naudojamas kopijavimo **projektui**, susijusiam su koreliacijos identifikatoriumi. Skirta naudoti tik "Project Service Automation". |
+| msdyn_project     | msdyn_copyprojectsessionid                   | Tai vidinis sistemos laukas, naudojamas **kopijuoti projektą**, susijusį su seanso identifikatoriumi. Skirta naudoti tik "Project Service Automation". |
+| msdyn_project     | msdyn_globalrevisiontoken                    | Paskutinis sinchronizavimas xRM visuotinio modifikavimo atpažinimo ženklas iš projekto planavimo tarnybos. |
+| msdyn_project     | msdyn_msprojectdocument                      | Projektui priklausantis "Microsoft Project" dokumentas. |
+| msdyn_project     | msdyn_plannedmaterialcost                    | Planuojamų projekto materialinių sąnaudų suma. Skirta naudoti tik "Project Service Automation". |
+| msdyn_project     | msdyn_plannedmaterialsales                   | Planuojamų medžiagų pardavimų projekte visuma. Skirta naudoti tik "Project Service Automation". |
 | msdyn_project     | msdyn_program                                | Programa, su kuriuo susijęs šis projektas. |
-| msdyn_project     | msdyn_quotelineproject                       | Pasiūlymo eilutė, susieta su šiuo projektu. |
+| msdyn_project     | msdyn_quotelineproject                       | Citatos eilutė, susijusi su šiuo projektu. |
 | msdyn_project     | msdyn_replaylogheader                        | Pakartojimo žurnalų antraštė. |
-| msdyn_project     | msdyn_schedulemode                           | Numatytasis planavimo režimas, naudojamas visoms projekto užduotims.  |
+| msdyn_project     | msdyn_schedulemode                           | Numatytasis planavimo režimas, naudojamas visoms projekto užduotims atlikti.  |
 | msdyn_project     | msdyn_taskearlieststart                      | Anksčiausia bet kurios projekto užduoties pradžios data.  |
 | msdyn_project     | msdyn_valuestatement                         |                |
 | msdyn_projectteam | msdyn_copiedfromprojectteammember            | Projekto komandos narys, iš kurio buvo nukopijuotas šis projekto komandos narys. |
-| msdyn_projectteam | msdyn_creategenericteammemberwithrequirement | Nurodo, ar kurti išteklių poreikį naujai sukurtam bendrosios komandos nariui.  |
-| msdyn_projectteam | msdyn_deletestatus                           | Komandos nario naikinimo būsena, kad būtų galima stebėti, ar projekto planavimo tarnybai siunčiama naikinimo užklausa ir ar ji sėkmingai siunčia atsakymą atgal per numatytą laiko langą. |
-| msdyn_projectteam | msdyn_effortcompleted                        | Seka komandos nario pastangas atliekant užduotis. |
-| msdyn_projectteam | msdyn_effortremaining                        | Seka pastangas, kurias komandos narys dar turi atlikti savo užduotyse. |
+| msdyn_projectteam | msdyn_creategenericteammemberwithrequirement | Nurodo, ar sukurti išteklių poreikį naujai sukurtam bendrosios komandos nariui.  |
+| msdyn_projectteam | msdyn_deletestatus                           | Komandos nario naikinimo būsena, kad būtų galima stebėti, ar yra naikinimo užklausa, išsiųsta projekto planavimo tarnybai, ir ar ji sėkmingai siunčia atsakymą atgal per numatytą laiko tarpą. |
+| msdyn_projectteam | msdyn_effortcompleted                        | Seka komandos nario pastangas, įdėtas atliekant užduotis. |
+| msdyn_projectteam | msdyn_effortremaining                        | Seka pastangas, kurias komandos narys dar turi atlikti atlikdamas savo užduotis. |
 | msdyn_projectteam | msdyn_markedfordeletiontimer                 | Laukimo laikotarpis nuo tada, kai komandos narys siunčia naikinimo užklausą projekto planavimo tarnybai, kol komandos narys iš tikrųjų panaikinamas Microsoft Dataverse.|
-| msdyn_projectteam | msdyn_markedfordeletiontimestamp             | Laiko žyma, skirta įrašyti, kai komandos narys naikina užklausą, siunčiama į projekto planavimo tarnybą. |
+| msdyn_projectteam | msdyn_markedfordeletiontimestamp             | Laiko žyma, skirta įrašyti, kada komandos nario naikinimo užklausa siunčiama į projekto planavimo tarnybą. |
 | msdyn_projectteam | msdyn_copiedfromprojectteammember            | Rodomas projekto komandos narys, iš kurio buvo nukopijuotas šis projekto komandos narys.  |
 
 ## <a name="project-templates"></a>Projekto šablonai
 
-Projekto operacijos nepalaiko projektų šablonų. Tačiau galite atkartoti didžiąją dalį pagrindinių funkcijų naudodami ["Project Copy API"](../project-management/dev-copy-project.md).
+"Project Operations" nepalaiko projektų šablonų. Tačiau didžiąją dalį pagrindinių funkcijų galite atkartoti naudodami ["Project Copy" API](../project-management/dev-copy-project.md).
 
-## <a name="desktop-add-in-support"></a>Darbalaukio priedo palaikymas
+## <a name="desktop-add-in-support"></a>Darbalaukio papildinio palaikymas
 
-"Microsoft Project Desktop" priedo palaikymas nebus pasiekiamas per pirmuosius 2 atnaujinimo etapus. 3 etape klientai, kurių projektai yra didesni už šiuo metu palaikomus "Project for the Web" apribojimus, galės naudoti darbalaukio priedą.
+"Microsoft Project Desktop" papildinio palaikymas nebus pasiekiamas per pirmuosius 2 versijos naujinimo etapus. 3 etape klientai, kurių projektai yra didesni nei šiuo metu palaikomi "Project for the Web" apribojimai, galės naudoti darbalaukio papildinį.
 
 ## <a name="editing-resource-assignment-contours"></a>Išteklių priskyrimo kontūrų redagavimas
 
-Galimybė redaguoti išteklių priskyrimo kontūrus bus prieinama, kai bus galima atnaujinti 2 etapą.
+Galimybė redaguoti išteklių priskyrimo kontūrus bus pasiekiama, kai bus pasiekiamas 2 versijos naujinimo etapas.
 
 ## <a name="billing-and-pricing"></a>Sąskaitų siuntimas ir kainodara
 
-Šios naujos funkcijos buvo įtrauktos į "Project Operations". Šios funkcijos yra papildomo pobūdžio ir neturi įtakos "Project Service Automation" duomenų modeliui.
+Šios naujos funkcijos įtrauktos į "Project Operations". Šios funkcijos yra papildomo pobūdžio ir neturi įtakos "Project Service Automation" duomenų modeliui.
 
-- [Medžiagos naudojimo registravimas projektuose ir projekto užduotyse](../material/material-usage-log.md)
-- [Subrangos sutarčių valdymas](../pro/subcontracting/managing-subcontracts-overview.md)
+- [Medžiagos naudojimo projektams ir projekto užduotims įrašyti įrašymas](../material/material-usage-log.md)
+- [Subrangos valdymas](../pro/subcontracting/managing-subcontracts-overview.md)
 - [Išankstinės arba išankstiniais apmokėjimais pagrįstos sutartys](../pro/sales/set-up-advances-retainer-based-contracts-sales.md)
-- [Sutarties būsena ir patvirtinimai, kurių būsena neviršijama](../pro/proforma-invoicing/manage-nte-status-validations-sales.md)
-- [Pagal užduotis pagrįstas atsiskaitymas](../pro/sales/mapping-projects-tasks-quote-line-sales.md)
+- [Sutarties, kuri neviršija statuso, ir patvirtinimai](../pro/proforma-invoicing/manage-nte-status-validations-sales.md)
+- [Užduotimis pagrįstas atsiskaitymas](../pro/sales/mapping-projects-tasks-quote-line-sales.md)
 
 ## <a name="deprecated-components"></a>Nebenaudojami komponentai
 
-Šiose lentelėse dokumentuojami visi nebenaudojami laukai, perkelti į nebenaudojamų komponentų sprendimą po atnaujinimo. Daugiau informacijos ir saito su sprendimu ieškokite [Dynamics 365 Project Service Automation 3x to Project Operations 4x nebenaudojamų komponentų](https://github.com/microsoft/Dynamics365-Project-Operations-PowerApps/tree/main/3x-4x-deprecated-solution).
+Toliau pateiktose lentelėse aprašomi visi nebenaudojami laukai, kurie po versijos naujinimo perkeliami į nebenaudojamų komponentų sprendimą. Daugiau informacijos ir nuorodą į sprendimą rasite [Dynamics 365 Project Service Automation 3x į Project Operations 4x nebenaudojami komponentai](https://github.com/microsoft/Dynamics365-Project-Operations-PowerApps/tree/main/3x-4x-deprecated-solution).
 
-### <a name="invoicedetail"></a>invoicedetail
+### <a name="invoicedetail"></a>Sąskaita faktūradetail
 
 | Laukai                                                    |
 |-----------------------------------------------------------------------------------------------|
@@ -221,7 +221,7 @@ Galimybė redaguoti išteklių priskyrimo kontūrus bus prieinama, kai bus galim
 
 | Laukai                                                    |
 |-----------------------------------------------------------------------------------------------|
-| msdyn_characteristicreqforteammember.msdyn_characteristic                                     |
+| msdyn_characteristicreqforteammember.msdyn_charakteristika                                     |
 | msdyn_characteristicreqforteammember.msdyn_characteristicreqforteammemberid                   |
 | msdyn_characteristicreqforteammember.msdyn_characteristictype                                 |
 | msdyn_characteristicreqforteammember.msdyn_name                                               |
@@ -284,7 +284,7 @@ Galimybė redaguoti išteklių priskyrimo kontūrus bus prieinama, kai bus galim
 | Laukai                                                    |
 |-----------------------------------------------------------------------------------------------|
 | msdyn_opportunitylineresourcecategory.msdyn_billingtype                                       |
-| msdyn_opportunitylineresourcecategory.msdyn_description                                       |
+| msdyn_opportunitylineresourcecategory.msdyn_aprašymas                                       |
 | msdyn_opportunitylineresourcecategory.msdyn_opportunitylineresourcecategoryid                 |
 | msdyn_opportunitylineresourcecategory.msdyn_opportunitylinetransactionclassification          |
 | msdyn_opportunitylineresourcecategory.msdyn_resourcecategory                                  |
@@ -296,7 +296,7 @@ Galimybė redaguoti išteklių priskyrimo kontūrus bus prieinama, kai bus galim
 | msdyn_opportunitylinetransaction.msdyn_accountcustomer                                        |
 | msdyn_opportunitylinetransaction.msdyn_accountingdate                                         |
 | msdyn_opportunitylinetransaction.msdyn_accountvendor                                          |
-| msdyn_opportunitylinetransaction.msdyn_amount                                                 |
+| msdyn_opportunitylinetransaction.msdyn_suma                                                 |
 | msdyn_opportunitylinetransaction.msdyn_amount_base                                            |
 | msdyn_opportunitylinetransaction.msdyn_amountmethod                                           |
 | msdyn_opportunitylinetransaction.msdyn_basisamount                                            |
@@ -309,19 +309,19 @@ Galimybė redaguoti išteklių priskyrimo kontūrus bus prieinama, kai bus galim
 | msdyn_opportunitylinetransaction.msdyn_contactcustomer                                        |
 | msdyn_opportunitylinetransaction.msdyn_contactvendor                                          |
 | msdyn_opportunitylinetransaction.msdyn_customertype                                           |
-| msdyn_opportunitylinetransaction.msdyn_description                                            |
+| msdyn_opportunitylinetransaction.msdyn_aprašymas                                            |
 | msdyn_opportunitylinetransaction.msdyn_documentdate                                           |
 | msdyn_opportunitylinetransaction.msdyn_enddatetime                                            |
-| msdyn_opportunitylinetransaction.msdyn_exchangeratedate                                       |
+| msdyn_opportunitylinetransaction.msdyn_exchangeeratedate                                       |
 | msdyn_opportunitylinetransaction.msdyn_opportunityline                                        |
 | msdyn_opportunitylinetransaction.msdyn_opportunitylinetransactionid                           |
-| msdyn_opportunitylinetransaction.msdyn_percent                                                |
-| msdyn_opportunitylinetransaction.msdyn_price                                                  |
+| msdyn_opportunitylinetransaction.msdyn_procentų                                                |
+| msdyn_opportunitylinetransaction.msdyn_kaina                                                  |
 | msdyn_opportunitylinetransaction.msdyn_price_base                                             |
 | msdyn_opportunitylinetransaction.msdyn_kainoraštis                                              |
 | msdyn_opportunitylinetransaction.msdyn_product                                                |
-| msdyn_opportunitylinetransaction.msdyn_project                                                |
-| msdyn_opportunitylinetransaction.msdyn_quantity                                               |
+| msdyn_opportunitylinetransaction.msdyn_projektas                                                |
+| msdyn_opportunitylinetransaction.msdyn_kiekis                                               |
 | msdyn_opportunitylinetransaction.msdyn_resourcecategory                                       |
 | msdyn_opportunitylinetransaction.msdyn_resourceorganizationalunitid                           |
 | msdyn_opportunitylinetransaction.msdyn_startdatetime                                          |
@@ -338,7 +338,7 @@ Galimybė redaguoti išteklių priskyrimo kontūrus bus prieinama, kai bus galim
 | Laukai                                                    |
 |-----------------------------------------------------------------------------------------------|
 | msdyn_opportunitylinetransactioncategory.msdyn_billingtype                                    |
-| msdyn_opportunitylinetransactioncategory.msdyn_description                                    |
+| msdyn_opportunitylinetransactioncategory.msdyn_aprašymas                                    |
 | msdyn_opportunitylinetransactioncategory.msdyn_opportunitylinetransactioncategoryid           |
 | msdyn_opportunitylinetransactioncategory.msdyn_opportunitylinetransactionclassification       |
 | msdyn_opportunitylinetransactioncategory.msdyn_transactioncategory                            |
@@ -348,7 +348,7 @@ Galimybė redaguoti išteklių priskyrimo kontūrus bus prieinama, kai bus galim
 | Laukai                                                    |
 |-----------------------------------------------------------------------------------------------|
 | msdyn_opportunitylinetransactionclassificatio.msdyn_billingtype                               |
-| msdyn_opportunitylinetransactionclassificatio.msdyn_description                               |
+| msdyn_opportunitylinetransactionclassificatio.msdyn_aprašymas                               |
 | msdyn_opportunitylinetransactionclassificatio.msdyn_include                                   |
 | msdyn_opportunitylinetransactionclassificatio.msdyn_opportunityline                           |
 | msdyn_opportunitylinetransactionclassificatio.msdyn_opportunitylinetransactionclassificatioid |
@@ -382,7 +382,7 @@ Galimybė redaguoti išteklių priskyrimo kontūrus bus prieinama, kai bus galim
 | msdyn_project.msdyn_istemplate                                                                |
 | msdyn_project.msdyn_plannedhours                                                              |
 | msdyn_project.msdyn_projecttemplate                                                           |
-| msdyn_project.msdyn_remaininghours                                                            |
+| msdyn_project.msdyn_likutis                                                            |
 | msdyn_project.msdyn_scheduleddurationminutes                                                  |
 | msdyn_project.msdyn_scheduledend                                                              |
 | msdyn_project.msdyn_stagename                                                                 |
@@ -398,12 +398,12 @@ Galimybė redaguoti išteklių priskyrimo kontūrus bus prieinama, kai bus galim
 | msdyn_projecttask.msdyn_aggregationdirection                                                  |
 | msdyn_projecttask.msdyn_assignedresources                                                     |
 | msdyn_projecttask.msdyn_assignedteammembers                                                   |
-| msdyn_projecttask.msdyn_automatinis planavimas                                                        |
+| msdyn_projecttask.msdyn_auto planavimas                                                        |
 | msdyn_projecttask.msdyn_costestimatecontour                                                   |
 | msdyn_projecttask.msdyn_effortcontour                                                         |
 | msdyn_projecttask.msdyn_islinetask                                                            |
-| msdyn_projecttask.msdyn_numberofresources                                                     |
-| msdyn_projecttask.msdyn_remaininghours                                                        |
+| msdyn_projecttask.msdyn_šaltinių_skaičius                                                     |
+| msdyn_projecttask.msdyn_likutis                                                        |
 | msdyn_projecttask.msdyn_resourceutilization                                                   |
 | msdyn_projecttask.msdyn_salesestimatecontour                                                  |
 | msdyn_projecttask.msdyn_scheduledhours                                                        |
@@ -414,28 +414,28 @@ Galimybė redaguoti išteklių priskyrimo kontūrus bus prieinama, kai bus galim
 | Laukai                                                    |
 |-----------------------------------------------------------------------------------------------|
 | msdyn_projecttaskstatususer.msdyn_bookableresource                                            |
-| msdyn_projecttaskstatususer.msdyn_description                                                 |
+| msdyn_projecttaskstatususer.msdyn_aprašymas                                                 |
 | msdyn_projecttaskstatususer.msdyn_expectedcompletiondate                                      |
 | msdyn_projecttaskstatususer.msdyn_expectedhours tocomplete                                     |
-| msdyn_projecttaskstatususer.msdyn_iscompleted                                                 |
+| msdyn_projecttaskstatususer.msdyn_is completeleted                                                 |
 | msdyn_projecttaskstatususer.msdyn_name                                                        |
-| msdyn_projecttaskstatususer.msdyn_percentcomplete                                             |
+| msdyn_projecttaskstatususer.msdyn_procentųiškomplektas                                             |
 | msdyn_projecttaskstatususer.msdyn_projecttaskid                                               |
 | msdyn_projecttaskstatususer.msdyn_projecttaskstatusindicator                                  |
-| msdyn_projecttaskstatususer.msdyn_projecttaskstatuserid                                     |
+| msdyn_projecttaskstatususer.msdyn_projecttaskstatususerid                                     |
 
 ### <a name="msdyn_projectteam"></a>msdyn_projectteam
 
 | Laukai                                                    |
 |-----------------------------------------------------------------------------------------------|
 | msdyn_projectteam.msdyn_applicantcount                                                        |
-| msdyn_projectteam.msdyn_applicantsavailable                                                   |
+| msdyn_projectteam.msdyn_pareiškėjai pasiekiami                                                   |
 | msdyn_projectteam.msdyn_assignedhours                                                         |
-| msdyn_projectteam.msdyn_description                                                           |
-| msdyn_projectteam.msdyn_nuo                                                                  |
+| msdyn_projectteam.msdyn_aprašymas                                                           |
+| msdyn_projectteam.msdyn_from                                                                  |
 | msdyn_projectteam.msdyn_hoursrequested                                                        |
 | msdyn_projectteam.msdyn_membershipstatus                                                      |
-| msdyn_projectteam.msdyn_number                                                                |
+| msdyn_projectteam.msdyn_numeris                                                                |
 | msdyn_projectteam.msdyn_to                                                                    |
 
 ### <a name="msdyn_projectteammembersignup"></a>msdyn_projectteammembersignup
@@ -454,7 +454,7 @@ Galimybė redaguoti išteklių priskyrimo kontūrus bus prieinama, kai bus galim
 |-----------------------------------------------------------------------------------------------|
 | msdyn_projecttransactioncategory.msdyn_billingtype                                            |
 | msdyn_projecttransactioncategory.msdyn_name                                                   |
-| msdyn_projecttransactioncategory.msdyn_project                                                |
+| msdyn_projecttransactioncategory.msdyn_projektas                                                |
 | msdyn_projecttransactioncategory.msdyn_projecttransactioncategoryid                           |
 | msdyn_projecttransactioncategory.msdyn_transactioncategory                                    |
 
@@ -473,17 +473,17 @@ Galimybė redaguoti išteklių priskyrimo kontūrus bus prieinama, kai bus galim
 
 | Laukai                                                    |
 |-----------------------------------------------------------------------------------------------|
-| msdyn_resourceassignment.msdyn_hours                                                          |
+| msdyn_resourceassignment.msdyn_valandos                                                          |
 | msdyn_resourceassignment.msdyn_fromdate                                                       |
 | msdyn_resourceassignment.msdyn_msprojectclientid                                              |
 | msdyn_resourceassignment.msdyn_todate                                                         |
-| msdyn_resourceassignmentdetail.msdyn_duration                                                 |
-| msdyn_resourceassignmentdetail.msdyn_nuo                                                     |
+| msdyn_resourceassignmentdetail.msdyn_trukmė                                                 |
+| msdyn_resourceassignmentdetail.msdyn_from                                                     |
 | msdyn_resourceassignmentdetail.msdyn_name                                                     |
 | msdyn_resourceassignmentdetail.msdyn_resourceassignmentdetailid                               |
 | msdyn_resourceassignmentdetail.msdyn_resourceassignmentid                                     |
 
-### <a name="salesorderdetail"></a>salesorderdetail
+### <a name="salesorderdetail"></a>Pardavimų pavedimas
 
 | Laukai                                                    |
 |-----------------------------------------------------------------------------------------------|

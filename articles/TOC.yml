@@ -232,6 +232,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Projekto pardavimo kainoraščių perrašymas
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Konkrečių kainoraštyje esančių kainų perrašymų įsigaliojimo datų nustatymas
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Įvertinimų ir faktinių duomenų savikainos nustatymas
               href: pricing-costing/cost-price-resolution.md
             - name: Įvertinimų ir faktinių duomenų pardavimo kainų nustatymas
@@ -262,7 +264,7 @@
                   href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
                 - name: Pasirinktinių laukų įtraukimas į kainų sąranką ir operacijų objektus
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
-                - name: 'Pasirinktinių laukų kaip kainodaros dimensijų nustatymas '
+                - name: Pasirinktinių laukų kaip kainodaros dimensijų nustatymas
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
                 - name: 'Priedo atributų atnaujinimas, kad būtų galima įtraukti naujas kainodaros dimensijas'
                   href: pricing-costing/update-plugin-attributes-pd.md
@@ -544,6 +546,14 @@
           href: procurement/pending-vendor-invoices.md
         - name: Projektams skirtų prekių ir paslaugų užsakymas pateikiant projekto pirkimo užsakymus
           href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Tiekėjo subrangos sutarčių sąskaitos faktūros „Dataverse“
+          items:
+            - name: Tiekėjo sąskaitų faktūrų kūrimas
+              href: procurement/Vendor-invoicing-concept-and-creation.md
+            - name: Tiekėjo sąskaitų faktūrų su patvirtintais faktiniais duomenimis tikrinimas
+              href: pro/subcontracting/VI-Verification.md
+            - name: Projekto tiekėjo sąskaitų faktūrų patvirtinimas
+              href: procurement/Confirm-a-project-vendor-invoice.md
         - name: Tiekėjo saugojimas
           items:
             - name: Tiekėjo saugojimo apžvalga
@@ -844,6 +854,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Projekto pardavimo kainoraščių perrašymas
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Konkrečių kainoraštyje esančių kainų perrašymų įsigaliojimo datų nustatymas
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Projekto savikainos įvertinimų ir faktinių duomenų nustatymas
               href: pro/pricing-costing/cost-price-resolution-sales.md
             - name: Projekto pardavimo kainų įvertinimų ir faktinių duomenų nustatymas
@@ -874,7 +886,7 @@
                   href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
                 - name: Pasirinktinių laukų įtraukimas į kainų sąranką ir operacijų objektus
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
-                - name: 'Pasirinktinių laukų kaip kainodaros dimensijų nustatymas '
+                - name: Pasirinktinių laukų kaip kainodaros dimensijų nustatymas
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
                 - name: 'Priedo atributų atnaujinimas, kad būtų galima įtraukti naujas kainodaros dimensijas'
                   href: pricing-costing/update-plugin-attributes-pd.md
@@ -1574,7 +1586,7 @@
               href: psa/create-custom-fields-entities.md
             - name: Pasirinktinių laukų įtraukimas į kainų sąranką ir operacijų objektus
               href: psa/field-references.md
-            - name: 'Pasirinktinių laukų kaip kainodaros dimensijų nustatymas '
+            - name: Pasirinktinių laukų kaip kainodaros dimensijų nustatymas
               href: psa/set-up-pricing-dimensions.md
             - name: 'Priedo atributų atnaujinimas, kad būtų galima įtraukti naujas kainodaros dimensijas'
               href: psa/update-plug-in-attributes.md

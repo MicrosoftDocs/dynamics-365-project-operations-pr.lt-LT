@@ -1,23 +1,23 @@
 ---
-title: Projektų įvertinimų ir faktinių aplinkybių pardavimo kainų nustatymas
+title: Projekto pardavimo kainų įvertinimų ir faktinių duomenų nustatymas
 description: Šiame straipsnyje pateikiama informacija apie tai, kaip nustatomos projekto įvertinimų ir faktinių aplinkybių pardavimo kainos.
 author: rumant
 ms.date: 09/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6504302578d1eb3d00c717ea93cd4c4212acb4e7
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: 1288a571d50604ee400db9c16822719d0649628b
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410129"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475195"
 ---
-# <a name="determine-sales-prices-for-project-estimates-and-actuals"></a>Projektų įvertinimų ir faktinių aplinkybių pardavimo kainų nustatymas
+# <a name="determine-sales-prices-for-project-estimates-and-actuals"></a>Projekto pardavimo kainų įvertinimų ir faktinių duomenų nustatymas
 
 _**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
 
-Norėdami nustatyti pardavimo kainas pagal "Microsoft" Dynamics 365 Project Operations įvertinimus ir faktines vertes, sistema pirmiausia naudoja datą ir valiutą gaunamame įvertinime arba faktiniame kontekste, kad nustatytų pardavimo kainoraštį. Konkrečiai faktiniame kontekste sistema naudoja lauką **Operacijos data**, kad nustatytų, kuris kainoraštis yra taikytinas. Nustačius pardavimo kainoraštį, sistema nustato pardavimo arba sąskaitos tarifą.
+Norėdami nustatyti pardavimo kainas pagal "Microsoft" Dynamics 365 Project Operations įvertinimus ir faktines vertes, sistema pirmiausia naudoja datą ir valiutą gaunamame įvertinime arba faktiniame kontekste, kad nustatytų pardavimo kainoraštį. Konkrečiai faktiniame kontekste sistema naudoja lauką **Operacijos data**, kad nustatytų, kuris kainoraštis yra taikytinas. Gaunamo **įvertinimo arba faktinio sandorio datos** vertė lyginama su **kainoraštyje esančiomis reikšmė Efektyvios pradžios (nepriklausoma nuo laiko juostos)** ir **Efektyvios pabaigos (laiko juostos nepriklausoma)** reikšmė. Nustačius pardavimo kainoraštį, sistema nustato pardavimo arba sąskaitos tarifą.
 
 ## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-time"></a>Pardavimo tarifų nustatymas faktinėse ir įvertintose laiko eilutėse
 
@@ -83,7 +83,7 @@ Medžiagos **įvertinimo kontekstas** reiškia:
 
 Faktinis **medžiagos kontekstas** reiškia:
 
-- Medžiagos **įrašo ir taisymo žurnalo** eilutės.
+- Medžiagos įrašo ir taisymo žurnalo **eilutės**.
 - Žurnalo eilutės, sukurtos pateikus medžiagos naudojimo žurnalą.
 - Medžiagos sąskaitos faktūros eilutės **duomenys**. 
 

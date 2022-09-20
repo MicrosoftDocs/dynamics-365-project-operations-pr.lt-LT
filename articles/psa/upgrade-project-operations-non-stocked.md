@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c7958c1474820361269f19ea8c9279b96f087d7a
-ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
+ms.openlocfilehash: 43ea29aeafb62f3ecd69b316f2c0a5b791707da5
+ms.sourcegitcommit: bc21fbe8547534d2644269f873eb05d509840f23
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9230262"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9446046"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Versijos naujinimas iš "Project Service Automation" į "Project Operations"
 
@@ -29,7 +29,7 @@ Džiaugiamės galėdami pranešti apie pirmąjį iš trijų atnaujinimo etapų n
 
 Atnaujinimo pristatymo programa bus padalinta į tris etapus.
 
-| Atnaujinimo pristatymas | 1 etapas (2022 m. sausio mėn.) | 2 etapas (2022 m. balandžio banga) | 3 fazė  |
+| Atnaujinimo pristatymas | 1 etapas (2022 m. sausio mėn.) | 2 etapas (2022 m. lapkričio mėn.) | 3 etapas (2023 m. balandžio banga)  |
 |------------------|------------------------|---------------------------|---------------------------|
 | Nėra priklausomybės nuo projektų darbo paskirstymo struktūros (WBS) | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | WBS šiuo metu palaikomose "Project Operations" ribose | | :heavy_check_mark: | :heavy_check_mark: |
@@ -39,7 +39,7 @@ Atnaujinimo pristatymo programa bus padalinta į tris etapus.
 
 Atnaujindami versiją, į svetainės žemėlapį įtraukėme atnaujinimo žurnalus, kad administratoriai galėtų lengviau diagnozuoti gedimus. Be naujos sąsajos, bus įtrauktos naujos tikrinimo taisyklės, kad būtų užtikrintas duomenų vientisumas po atnaujinimo. Toliau nurodyti tikrinimai bus įtraukti į versijos naujinimo procesą.
 
-| Tikrinimą | 1 etapas (2022 m. sausio mėn.) | 2 etapas (2022 m. balandžio banga) | 3 fazė  |
+| Tikrinimą | 1 etapas (2022 m. sausio mėn.) | 2 etapas (2022 m. lapkričio mėn.) | 3 fazė  |
 |-------------|------------------------|---------------------------|---------------------------|
 | WBS bus patikrintas pagal įprastus duomenų vientisumo pažeidimus (pvz., išteklių priskyrimus, susietus su ta pačia pirmine užduotimi, bet turinčius skirtingus pirminius projektus). | | :heavy_check_mark: | :heavy_check_mark: |
 | WBS bus patvirtintas pagal [žinomas "Project for the Web" ribas](/project-for-the-web/project-for-the-web-limits-and-boundaries). | | :heavy_check_mark: | :heavy_check_mark: |
