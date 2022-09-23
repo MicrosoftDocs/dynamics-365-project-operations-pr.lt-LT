@@ -508,6 +508,8 @@
           href: approvals/cancelapproval.md
         - name: Anksčiau patvirtintų įrašų atšaukimas
           href: approvals/recall-cancel.md
+        - name: Sauga ir patvirtinimas
+          href: approvals/approvals-security.md
         - name: Kūrėjų pastabos
           items:
             - name: Kūrėjų pastabos dėl patvirtinimų
@@ -560,6 +562,8 @@
               href: procurement/vendor-retention-overview.md
             - name: Tiekėjo saugojimo nustatymas
               href: procurement/set-up-vendor-retention.md
+            - name: Mokėti sumokėjus
+              href: procurement/Pay-when-paid.md
     - name: SF išrašymas
       items:
         - name: SF išrašymo proceso apžvalga
@@ -1102,6 +1106,8 @@
           href: approvals/cancelapproval.md
         - name: Anksčiau patvirtintų įrašų atšaukimas
           href: approvals/recall-cancel.md
+        - name: Sauga ir patvirtinimas
+          href: approvals/approvals-security.md
         - name: Kūrėjų pastabos
           items:
             - name: Kūrėjų pastabos dėl patvirtinimų
