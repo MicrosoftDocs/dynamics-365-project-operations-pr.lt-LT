@@ -6,284 +6,146 @@ ms.date: 01/13/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3248a057b831d81fdc2bc198b4ed4da5e46462f2
-ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
+ms.openlocfilehash: 159d395efff98f2af780e5ed1e5ab3d6483cba89
+ms.sourcegitcommit: b1c26ea57be721c5b0b1a33f2de0380ad102648f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9230326"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9541135"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Projekto grafiko API sąsajų naudojimas operacijoms su planavimo objektais atlikti
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
 
-
-## <a name="scheduling-entities"></a>Grafiko objektai
+**Grafiko objektai**
 
 Projekto grafiko API sąsajos suteikia galimybę atlikti kūrimo, naujinimo ir naikinimo operacijas su **planavimo objektais**. Šie objektai valdomi naudojant „Project for the Web“ planavimo variklį. Ankstesniuose „Dynamics 365 Project Operations“ leidimuose operacijų kūrimas, naujinimas ir naikinimas naudojant **planavimo objektus** buvo apribotas.
 
 Toliau esančioje lentelėje pateikiamas visas projekto grafiko objektų sąrašas.
 
-| Objekto pavadinimas  | Loginis objekto pavadinimas |
-| --- | --- |
-| Project | msdyn_project |
-| Projekto užduotis  | msdyn_projecttask  |
-| Projekto užduoties priklausomybė  | msdyn_projecttaskdependency  |
-| Išteklių priskyrimas | msdyn_resourceassignment |
-| Projekto talpykla  | msdyn_projectbucket |
-| Projekto komandos narys | msdyn_projectteam |
+| **Objekto pavadinimas**         | **Loginis objekto pavadinimas**     |
+|-------------------------|-----------------------------|
+| Project                 | msdyn_project               |
+| Projekto užduotis            | msdyn_projecttask           |
+| Projekto užduoties priklausomybė | msdyn_projecttaskdependency |
+| Išteklių priskyrimas     | msdyn_resourceassignment    |
+| Projekto talpykla          | msdyn_projectbucket         |
+| Projekto komandos narys     | msdyn_projectteam           |
+| Projekto kontroliniai sąrašai      | msdyn_projectchecklist      |
+| Projekto žyma           | msdyn_projectlabel          |
+| Projekto užduotis į etiketę   | msdyn_projecttasktolabel    |
+| Projekto sprintas          | msdyn_projectsprint         |
 
-## <a name="operationset"></a>OperationSet
+**OperationSet**
 
 OperationSet yra darbo vieneto modelis, kurį galima naudoti, kai operacijoje reikia apdoroti keletą grafikui poveikį darančių užklausų.
 
-## <a name="project-schedule-apis"></a>Projekto grafiko API sąsajos
+**Projekto grafiko API sąsajos**
 
 Toliau pateikiamas dabartinių projekto grafiko API sąrašas.
 
-- **msdyn_CreateProjectV1**: šį API galima naudoti norint sukurti projektą. Projekto ir numatytojo projekto kibiras sukuriami nedelsiant.
-- **msdyn_CreateTeamMemberV1**:šį API galima naudoti norint sukurti projekto komandos narį. Komandos nario įrašas sukuriamas nedelsiant.
-- **msdyn_CreateOperationSetV1**: šį API galima naudoti norint suplanuoti keletą užklausų, kurias reikia atlikti operacijoje.
-- **msdyn_PssCreateV1**: šią API galima naudoti objektui kurti. Toks objektas gali būti bet kuris projekto planavimo objektas, kuris palaiko kūrimo operaciją.
-- **msdyn_PssUpdateV1**: šią API galima naudoti norint atnaujinti objektą. Toks objektas gali būti bet kuris projekto planavimo objektas, kuris palaiko naujinimo operaciją.
-- **msdyn_PssDeleteV1**: šią API galima naudoti norint panaikinti objektą. Toks objektas gali būti bet kuris projekto planavimo objektas, kuris palaiko naikinimo operaciją.
-- **msdyn_ExecuteOperationSetV1**: šis API naudojamas norint vykdyti visas nurodyto operacijų rinkinio operacijas.
+| **Api**                                 | Aprašą                                                                                                                       |
+|-----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| **msdyn_CreateProjectV1**               | Ši API naudojama projektui kurti. Projekto ir numatytojo projekto kibiras sukuriami nedelsiant.                         |
+| **msdyn_CreateTeamMemberV1**            | Ši API naudojama projekto komandos nariui sukurti. Komandos nario įrašas sukuriamas nedelsiant.                                  |
+| **msdyn_CreateOperationSetV1**          | Ši API naudojama kelioms užklausoms, kurias reikia atlikti atliekant operaciją, suplanuoti.                                        |
+| **msdyn_PssCreateV1**                   | Ši API naudojama objektui kurti. Toks objektas gali būti bet kuris projekto planavimo objektas, kuris palaiko kūrimo operaciją. |
+| **msdyn_PssUpdateV1**                   | Ši API naudojama objektui naujinti. Objektas gali būti bet kuris iš projekto planavimo objektų, palaikančių naujinimo operaciją  |
+| **msdyn_PssDeleteV1**                   | Ši API naudojama objektui naikinti. Toks objektas gali būti bet kuris projekto planavimo objektas, kuris palaiko naikinimo operaciją. |
+| **msdyn_ExecuteOperationSetV1**         | Ši API naudojama visoms operacijoms, esančioms nurodytame operacijų rinkinyje, vykdyti.                                                 |
+| **msdyn_PssUpdateResourceAssignmentV1** | Ši API naudojama ištekliaus priskyrimo suplanuoto darbo kontūrui atnaujinti.                                                        |
 
-## <a name="using-project-schedule-apis-with-operationset"></a>Projekto grafiko API sąsajų naudojimas su OperationSet
+
+
+**Projekto grafiko API sąsajų naudojimas su OperationSet**
 
 Kadangi įrašai, naudojant **CreateProjectV1** ir **CreateTeamMemberV1**, sukuriami nedelsiant, šių API negalima naudoti tiesiai **OperationSet**. Tačiau API galite naudoti norėdami sukurti reikiamus įrašus, **OperationSet**, tada šiuos iš anksto sukurtus įrašus panaudoti **OperationSet**.
 
-## <a name="supported-operations"></a>Palaikomos operacijos
+**Palaikomos operacijos**
 
-| Grafiko objektas | Kūrimas | Atnaujinimas | Delete | Svarbi informacija |
-| --- | --- | --- | --- | --- |
-Projekto užduotis | Taip | Taip | Taip | Laukus **"Progress",**"**EffortCompleted"** ir **"EffortRemaining"** galima redaguoti "Project for the Web", bet jų negalima redaguoti naudojant "Project Operations".  |
-| Projekto užduoties priklausomybė | Taip |  | Taip | Projekto užduoties priklausomybės įrašai neatnaujinami. Vietoj to galima panaikinti seną įrašą ir sukurti naują įrašą. |
-| Išteklių priskyrimas | Taip | Taip | | Nepalaikomos operacijos, kurioms naudojami šie laukai: **BookableResourceID**, **Pastangos**, **EffortCompleted**, **EffortRemaining** ir **PlannedWork**. Išteklių priskyrimo įrašai neatnaujinami. Vietoj to seną įrašą galima panaikinti ir sukurti naują įrašą. |
-| Projekto talpykla | Taip | Taip | Taip | Numatytasis kibiras sukuriamas naudojant **"CreateProjectV1** " API. Projektų kaušų kūrimo ir ištrynimo palaikymas buvo įtrauktas į 16 versijos naujinimo leidimą. |
-| Projekto komandos narys | Taip | Taip | Taip | Kūrimo operacijai naudokite **CreateTeamMemberV1** API. |
-| Project | Taip | Taip |  | Nepalaikomos operacijos, kurioms naudojami šie laukai: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Pastangos**, **EffortCompleted**, **EffortRemaining**, **Eiga**, **Pabaiga**, **TaskEarliestStart** ir **Duration**. |
+| **Grafiko objektas**   | **Kūrimas** | **Atnaujinimas** | **Naikinti** | **Svarbi informacija**                                                                                                                                                                                                                                                                                                                            |
+|-------------------------|------------|------------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Projekto užduotis            | Taip        | Taip        | Taip        | Laukus **"Progress",**"**EffortCompleted"** ir **"EffortRemaining"** galima redaguoti "Project for the Web", bet jų negalima redaguoti naudojant "Project Operations".                                                                                                                                                                                             |
+| Projekto užduoties priklausomybė | Taip        | No         | Taip        | Projekto užduoties priklausomybės įrašai neatnaujinami. Vietoj to galima panaikinti seną įrašą ir sukurti naują įrašą.                                                                                                                                                                                                                                 |
+| Išteklių priskyrimas     | Taip        | Taip\*      | Taip        | Nepalaikomos operacijos, kurioms naudojami šie laukai: **BookableResourceID**, **Pastangos**, **EffortCompleted**, **EffortRemaining** ir **PlannedWork**. Išteklių priskyrimo įrašai neatnaujinami. Vietoj to seną įrašą galima panaikinti ir sukurti naują įrašą. Išteklių priskyrimo kontūrams atnaujinti buvo pateikta atskira API. |
+| Projekto talpykla          | Taip        | Taip        | Taip        | Numatytasis kibiras sukuriamas naudojant **"CreateProjectV1** " API. Projektų kaušų kūrimo ir ištrynimo palaikymas buvo įtrauktas į 16 versijos naujinimo leidimą.                                                                                                                                                                                                   |
+| Projekto komandos narys     | Taip        | Taip        | Taip        | Kūrimo operacijai naudokite **CreateTeamMemberV1** API.                                                                                                                                                                                                                                                                                           |
+| Project                 | Taip        | Taip        |            | Nepalaikomos operacijos, kurioms naudojami šie laukai: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Pastangos**, **EffortCompleted**, **EffortRemaining**, **Eiga**, **Pabaiga**, **TaskEarliestStart** ir **Duration**.                                                                                       |
+| Projekto kontroliniai sąrašai      | Taip        | Taip        | Taip        |                                                                                                                                                                                                                                                                                                                                                         |
+| Projekto žyma           | No         | Taip        | No         | Etikečių pavadinimus galima keisti. Ši funkcija galima tik "Project for the Web"                                                                                                                                                                                                                                                                      |
+| Projekto užduotis į etiketę   | Taip        | No         | Taip        | Ši funkcija galima tik "Project for the Web"                                                                                                                                                                                                                                                                                                  |
+| Projekto sprintas          | Taip        | Taip        | Taip        | Lauko **Pradžia** data turi būti ankstesnė nei laukas **Baigti**. To paties projekto sprintai negali sutapti vienas su kitu. Ši funkcija galima tik "Project for the Web"                                                                                                                                                                    |
 
-Šias API galima iškviesti naudojant objektus, kuriuose įtraukti pasirinktini laukai.
+
+
 
 ID ypatybė yra pasirinktinė. Jei ji pateikta, sistema bando ypatybę panaudoti ir, jei to padaryti negalima, pateikia išimtį. Jei ypatybė nepateikta, sistema ją sugeneruos.
 
-## <a name="restricted-fields"></a>Apriboti laukai
+**Apribojimai ir žinomos problemos**
 
-Toliau pateiktose lentelėse apibrėžiami laukai, kurie yra apriboti iš **Kurti** ir **redaguoti**.
-
-### <a name="project-task"></a>Projekto užduotis
-
-| Loginis pavadinimas                           | Gali kurti     | Gali redaguoti         |
-|----------------------------------------|----------------|------------------|
-| msdyn_actualcost                       | No             | No               |
-| msdyn_actualcost_base                  | No             | No               |
-| msdyn_actualend                        | No             | No               |
-| msdyn_actualsales                      | No             | No               |
-| msdyn_actualsales_base                 | No             | No               |
-| msdyn_actualstart                      | No             | No               |
-| msdyn_costatcompleteestimate           | No             | No               |
-| msdyn_costatcompleteestimate_base      | No             | No               |
-| msdyn_costconsumptionpercentage        | No             | No               |
-| msdyn_effortcompleted                  | Ne (taip, jei naudojate "Project")             | Ne (taip, jei naudojate "Project")               |
-| msdyn_effortremaining                  | Ne (taip, jei naudojate "Project")              | Ne (taip, jei naudojate "Project")                |
-| msdyn_effortestimateatcomplete         | No             | No               |
-| msdyn_iscritical                       | No             | No               |
-| msdyn_iscriticalname                   | No             | No               |
-| msdyn_ismanual                         | No             | No               |
-| msdyn_ismanualname                     | No             | No               |
-| msdyn_ismilestone                      | No             | No               |
-| msdyn_ismilestonename                  | No             | No               |
-| msdyn_LinkStatus                       | No             | No               |
-| msdyn_linkstatusname                   | No             | No               |
-| msdyn_msprojectclientid                | No             | No               |
-| msdyn_plannedcost                      | No             | No               |
-| msdyn_plannedcost_base                 | No             | No               |
-| msdyn_plannedsales                     | No             | No               |
-| msdyn_plannedsales_base                | No             | No               |
-| msdyn_pluginprocessingdata             | No             | No               |
-| msdyn_progress                         | Ne (taip, jei naudojate "Project")             | Ne (taip, jei naudojate "Project") |
-| msdyn_remainingcost                    | No             | No               |
-| msdyn_remainingcost_base               | No             | No               |
-| msdyn_remainingsales                   | No             | No               |
-| msdyn_remainingsales_base              | No             | No               |
-| msdyn_requestedhours                   | No             | No               |
-| msdyn_resourcecategory                 | No             | No               |
-| msdyn_resourcecategoryname             | No             | No               |
-| msdyn_resourceorganizationalunitid     | No             | No               |
-| msdyn_resourceorganizationalunitidname | No             | No               |
-| msdyn_salesconsumptionpercentage       | No             | No               |
-| msdyn_salesestimateatcomplete          | No             | No               |
-| msdyn_salesestimateatcomplete_base     | No             | No               |
-| msdyn_salesvariance                    | No             | No               |
-| msdyn_salesvariance_base               | No             | No               |
-| msdyn_scheduleddurationminutes         | No             | No               |
-| msdyn_scheduledend                     | No             | No               |
-| msdyn_scheduledstart                   | No             | No               |
-| msdyn_schedulevariance                 | No             | No               |
-| msdyn_skipupdateestimateline           | No             | No               |
-| msdyn_skipupdateestimatelinename       | No             | No               |
-| msdyn_summary                          | No             | No               |
-| msdyn_varianceofcost                   | No             | No               |
-| msdyn_varianceofcost_base              | No             | No               |
-
-### <a name="project-task-dependency"></a>Projekto užduoties priklausomybė
-
-| Loginis pavadinimas                  | Gali kurti     | Gali redaguoti     |
-|-------------------------------|----------------|--------------|
-| msdyn_linktype                | No             | No           |
-| msdyn_linktypename            | No             | No           |
-| msdyn_predecessortask         | Taip            | No           |
-| msdyn_predecessortaskname     | Taip            | No           |
-| msdyn_project                 | Taip            | No           |
-| msdyn_projectname             | Taip            | No           |
-| msdyn_projecttaskdependencyid | Taip            | No           |
-| msdyn_successortask           | Taip            | No           |
-| msdyn_successortaskname       | Taip            | No           |
-
-### <a name="resource-assignment"></a>Išteklių priskyrimas
-
-| Loginis pavadinimas                 | Gali kurti     | Gali redaguoti     |
-|------------------------------|----------------|--------------|
-| msdyn_bookableresourceid     | Taip            | No           |
-| msdyn_bookableresourceidname | Taip            | No           |
-| msdyn_bookingstatusid        | No             | No           |
-| msdyn_bookingstatusidname    | No             | No           |
-| msdyn_committype             | No             | No           |
-| msdyn_committypename         | No             | No           |
-| msdyn_effort                 | No             | No           |
-| msdyn_effortcompleted        | No             | No           |
-| msdyn_effortremaining        | No             | No           |
-| msdyn_finish                 | No             | No           |
-| msdyn_plannedcost            | No             | No           |
-| msdyn_plannedcost_base       | No             | No           |
-| msdyn_plannedcostcontour     | No             | No           |
-| msdyn_plannedsales           | No             | No           |
-| msdyn_plannedsales_base      | No             | No           |
-| msdyn_plannedsalescontour    | No             | No           |
-| msdyn_plannedwork            | No             | No           |
-| msdyn_projectid              | Taip            | No           |
-| msdyn_projectidname          | No             | No           |
-| msdyn_projectteamid          | No             | No           |
-| msdyn_projectteamidname      | No             | No           |
-| msdyn_start                  | No             | No           |
-| msdyn_taskid                 | No             | No           |
-| msdyn_taskidname             | No             | No           |
-| msdyn_userresourceid         | No             | No           |
-
-### <a name="project-team-member"></a>Projekto komandos narys
-
-| Loginis pavadinimas                                     | Gali kurti     | Gali redaguoti     |
-|--------------------------------------------------|----------------|--------------|
-| msdyn_calendarid                                 | No             | No           |
-| msdyn_creategenericteammemberwithrequirementname | No             | No           |
-| msdyn_deletestatus                               | No             | No           |
-| msdyn_deletestatusname                           | No             | No           |
-| msdyn_effort                                     | No             | No           |
-| msdyn_effortcompleted                            | No             | No           |
-| msdyn_effortremaining                            | No             | No           |
-| msdyn_finish                                     | No             | No           |
-| msdyn_hardbookedhours                            | No             | No           |
-| msdyn_hours                                      | No             | No           |
-| msdyn_markedfordeletiontimer                     | No             | No           |
-| msdyn_markedfordeletiontimestamp                 | No             | No           |
-| msdyn_msprojectclientid                          | No             | No           |
-| msdyn_percentage                                 | No             | No           |
-| msdyn_requiredhours                              | No             | No           |
-| msdyn_softbookedhours                            | No             | No           |
-| msdyn_start                                      | No             | No           |
-
-### <a name="project"></a>Project
-
-| Loginis pavadinimas                           | Gali kurti     | Gali redaguoti     |
-|----------------------------------------|----------------|--------------|
-| msdyn_actualexpensecost                | No             | No           |
-| msdyn_actualexpensecost_base           | No             | No           |
-| msdyn_actuallaborcost                  | No             | No           |
-| msdyn_actuallaborcost_base             | No             | No           |
-| msdyn_actualsales                      | No             | No           |
-| msdyn_actualsales_base                 | No             | No           |
-| msdyn_contractlineproject              | Taip            | No           |
-| msdyn_contractorganizationalunitid     | Taip            | No           |
-| msdyn_contractorganizationalunitidname | Taip            | No           |
-| msdyn_costconsumption                  | No             | No           |
-| msdyn_costestimateatcomplete           | No             | No           |
-| msdyn_costestimateatcomplete_base      | No             | No           |
-| msdyn_costvariance                     | No             | No           |
-| msdyn_costvariance_base                | No             | No           |
-| msdyn_duration                         | No             | No           |
-| msdyn_effort                           | No             | No           |
-| msdyn_effortcompleted                  | No             | No           |
-| msdyn_effortestimateatcompleteeac      | No             | No           |
-| msdyn_effortremaining                  | No             | No           |
-| msdyn_finish                           | Taip            | Taip          |
-| msdyn_globalrevisiontoken              | No             | No           |
-| msdyn_islinkedtomsprojectclient        | No             | No           |
-| msdyn_islinkedtomsprojectclientname    | No             | No           |
-| msdyn_linkeddocumenturl                | No             | No           |
-| msdyn_msprojectdocument                | No             | No           |
-| msdyn_msprojectdocumentname            | No             | No           |
-| msdyn_plannedexpensecost               | No             | No           |
-| msdyn_plannedexpensecost_base          | No             | No           |
-| msdyn_plannedlaborcost                 | No             | No           |
-| msdyn_plannedlaborcost_base            | No             | No           |
-| msdyn_plannedsales                     | No             | No           |
-| msdyn_plannedsales_base                | No             | No           |
-| msdyn_progress                         | No             | No           |
-| msdyn_remainingcost                    | No             | No           |
-| msdyn_remainingcost_base               | No             | No           |
-| msdyn_remainingsales                   | No             | No           |
-| msdyn_remainingsales_base              | No             | No           |
-| msdyn_replaylogheader                  | No             | No           |
-| msdyn_salesconsumption                 | No             | No           |
-| msdyn_salesestimateatcompleteeac       | No             | No           |
-| msdyn_salesestimateatcompleteeac_base  | No             | No           |
-| msdyn_salesvariance                    | No             | No           |
-| msdyn_salesvariance_base               | No             | No           |
-| msdyn_scheduleperformance              | No             | No           |
-| msdyn_scheduleperformancename          | No             | No           |
-| msdyn_schedulevariance                 | No             | No           |
-| msdyn_taskearlieststart                | No             | No           |
-| msdyn_teamsize                         | No             | No           |
-| msdyn_teamsize_date                    | No             | No           |
-| msdyn_teamsize_state                   | No             | No           |
-| msdyn_totalactualcost                  | No             | No           |
-| msdyn_totalactualcost_base             | No             | No           |
-| msdyn_totalplannedcost                 | No             | No           |
-| msdyn_totalplannedcost_base            | No             | No           |
-
-### <a name="project-bucket"></a>Projekto talpykla
-
-| Loginis pavadinimas          | Gali kurti      | Gali redaguoti     |
-|-----------------------|-----------------|--------------|
-| msdyn_displayorder    | Taip             | No           |
-| msdyn_name            | Taip             | Taip          |
-| msdyn_project         | Taip             | No           |
-| msdyn_projectbucketid | Taip             | No           |
-
-## <a name="limitations-and-known-issues"></a>Apribojimai ir žinomos problemos
 Toliau pateikiamas apribojimų ir žinomų problemų sąrašas.
 
-- Projekto grafiko API gali naudoti tik vartotojai, turintys **"Microsoft Project" licenciją**. Jų negali toliau nurodyti vartotojai.
+-   Projekto grafiko API gali naudoti tik vartotojai, turintys **"Microsoft Project" licenciją**. Jų negali toliau nurodyti vartotojai.
+    -   Programų vartotojai
+    -   Sistemos vartotojai
+    -   Integravimo vartotojai
+    -   Kiti vartotojai, neturintys reikiamos licencijos
+-   Kiekviename **OperationSet** gali būti ne daugiau kaip 100 operacijų.
+-   Kiekvienas vartotojas gali turėti ne daugiau kaip 10 atvirų **OperationSet**.
+-   „Project Operations“ šiuo metu palaikoma ne daugiau kaip 500 projekto užduočių iš viso.
+-   Kiekviena išteklių priskyrimo kontūro naujinimo operacija laikoma viena operacija.
+-   Kiekviename atnaujintų kontūrų sąraše gali būti ne daugiau kaip 100 laiko eilučių.
+-   **OperationSet** trikties būsena ir trikties žurnalai šiuo metu negalimi.
+-   Vienam projektui tenka ne daugiau kaip 400 sprintų.
+-   [Projektų ir užduočių](/project-for-the-web/project-for-the-web-limits-and-boundaries) ribos ir ribos.
+-   Etiketės šiuo metu galimos tik "Project for the Web".
 
-    - Programų vartotojai
-    - Sistemos vartotojai
-    - Integravimo vartotojai
-    - Kiti vartotojai, neturintys reikiamos licencijos
+**Klaidų apdorojimas**
 
-- Kiekviename **OperationSet** gali būti ne daugiau kaip 100 operacijų.
-- Kiekvienas vartotojas gali turėti ne daugiau kaip 10 atvirų **OperationSet**.
-- „Project Operations“ šiuo metu palaikoma ne daugiau kaip 500 projekto užduočių iš viso.
-- **OperationSet** trikties būsena ir trikties žurnalai šiuo metu negalimi.
-- [Projektų ir užduočių limitai bei ribos](/project-for-the-web/project-for-the-web-limits-and-boundaries)
+-   Norėdami peržiūrėti iš operacijų rinkinių sugeneruotas klaidas, eikite į **Parametrai** \> **Grafiko integravimas** \> **Operacijų rinkiniai**.
+-   Norėdami peržiūrėti klaidas, sugeneruotas projekto grafiko tarnyboje, eikite į **Parametrai** \> **Grafiko integracija** \> **PSS klaidų žurnalai**.
 
-## <a name="error-handling"></a>Klaidų apdorojimas
+**Išteklių priskyrimo kontūrų redagavimas**
 
-- Norėdami peržiūrėti iš operacijų rinkinių sugeneruotas klaidas, eikite į **Parametrai** \> **Grafiko integravimas** \> **Operacijų rinkiniai**.
-- Norėdami peržiūrėti klaidas, sugeneruotas projekto grafiko tarnyboje, eikite į **Parametrai** \> **Grafiko integracija** \> **PSS klaidų žurnalai**.
+Skirtingai nuo visų kitų projekto planavimo API, kurios atnaujina objektą, išteklių priskyrimo kontūro API yra atsakinga tik už vieno lauko msdyn_plannedwork naujinimus viename objekte, msydn_resourceassignment.
 
-## <a name="sample-scenario"></a>Scenarijaus pavyzdys
+Nurodytas tvarkaraščio režimas yra:
+
+-   **fiksuoti vienetai**
+-   Projekto kalendorius yra 9-5p yra 9-5pst, Pirmadienis, Tue, Tuurs, Penktadienis (BE DARBO TREČIADIENIAIS)
+-   Ir išteklių kalendorius yra nuo 9 iki 1p PST nuo pirmadienio iki penktadienio
+
+Ši užduotis atliekama vienai savaitei, keturioms valandoms per dieną. Taip yra todėl, kad išteklių kalendorius yra nuo 9 iki 1 PST arba keturias valandas per dieną.
+
+| &nbsp;     | Užduotis | Pradžios data | Pabaigos data  | Kiekis | 6/13/2022 | 6/14/2022 | 6/15/2022 | 6/16/2022 | 6/17/2022 |
+|------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
+| 9-1 darbuotojas |  T1  | 6/13/2022  | 6/17/2022 | 20       | 4         | 4         | 4         | 4         | 4         |
+
+Pavyzdžiui, jei norite, kad darbuotojas šią savaitę kiekvieną dieną dirbtų tik tris valandas, o kitoms užduotims atlikti leistų vieną valandą.
+
+#### <a name="updatedcontours-sample-payload"></a>AtnaujintasContours naudingosios apkrovos pavyzdys:
+
+```json
+[{
+
+"minutes":900.0,
+
+"start":"2022-06-13T00:00:00-07:00",
+
+"end":"2022-06-18T00:00:00-07:00"
+
+}]
+```
+
+Tai yra priskyrimas po to, kai paleidžiama naujinimo kontūro grafiko API.
+
+| &nbsp;     | Užduotis | Pradžios data | Pabaigos data  | Kiekis | 6/13/2022 | 6/14/2022 | 6/15/2022 | 6/16/2022 | 6/17/2022 |
+|------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
+| 9-1 darbuotojas | T1   | 6/13/2022  | 6/17/2022 | 15       | 3         | 3         | 3         | 3         | 3         |
+
+
+**Scenarijaus pavyzdys**
 
 Pagal šį scenarijų sukursite projektą, komandos narį, keturias užduotis ir du išteklių priskyrimus. Tada atnaujinsite vieną užduotį, atnaujinsite projektą, panaikinsite vieną užduotį, panaikinsite vieną išteklių priskyrimą ir sukursite užduoties priklausomybę.
 
@@ -333,7 +195,7 @@ CallExecuteOperationSetAction(operationSetId);
 Console.WriteLine("Done....");
 ```
 
-## <a name="additional-samples"></a>Papildomi pavyzdžiai
+** Papildomi mėginiai
 
 ```csharp
 #region Call actions --- Sample code ----

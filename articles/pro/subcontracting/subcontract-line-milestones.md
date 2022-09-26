@@ -2,20 +2,20 @@
 title: Subrangos sutarties eilutės etapai
 description: Šiame straipsnyje paaiškinama, kaip sukurti ir tvarkyti etapais pagrįstą sf grafiką subrangos sutarčiai su tiekėju.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2fe26f5ba3c7bbc689c83a2ba67d444a09a264d5
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 431a57adf82c79f72d44886636183d48e0931f53
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261804"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522475"
 ---
 # <a name="subcontract-line-milestones"></a>Subrangos sutarties eilutės etapai
 
-_**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
+_**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
 „Dynamics 365 Project Operations“ naudojant subrangos sutarties eilutę su fiksuotos kainos atsiskaitymo metodu, galima nurodyti etapais pagrįstą subrangos sutarties sąskaitos faktūros grafiką su tiekėju.
 

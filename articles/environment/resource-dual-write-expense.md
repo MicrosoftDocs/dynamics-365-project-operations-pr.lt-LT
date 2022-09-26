@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e11f1cfd714212691146eed59bcfb5b5facd750c
-ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.openlocfilehash: da37adcf63a10b9f245283d377e70fd08b3aa9c5
+ms.sourcegitcommit: 385081ecc839d7d4a557eda2bb1578ca073f7e41
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/18/2022
-ms.locfileid: "9029219"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528004"
 ---
 # <a name="expense-management-integration"></a>Išlaidų tvarkymo integravimas
 
@@ -34,7 +34,7 @@ Išlaidų kategorijos finansų ir operacijų programose priklauso nuo įmonės a
 
 ## <a name="expense-reports"></a>Išlaidų ataskaitos
 
-Išlaidų ataskaitos kuriamos ir patvirtinamos finansų ir operacijų programose. Norėdami sužinoti daugiau, žr. [Išlaidų ataskaitų kūrimas ir apdorojimas sprendime „Dynamics 365 Project Operations“](/learn/modules/create-process-expense-reports/). Kai išlaidų ataskaitą patvirtina projekto vadovas, ji užregistruojama didžiojoje knygoje. Sprendime „Project Operations“ su projektais susijusios išlaidų ataskaitų eilutės registruojamos naudojant specialias toliau nurodytas registravimo taisykles.
+Išlaidų ataskaitos kuriamos ir patvirtinamos finansų ir operacijų programose. Norėdami sužinoti daugiau, žr. [Išlaidų ataskaitų kūrimas ir apdorojimas sprendime „Dynamics 365 Project Operations“](/training/modules/create-process-expense-reports/). Kai išlaidų ataskaitą patvirtina projekto vadovas, ji užregistruojama didžiojoje knygoje. Sprendime „Project Operations“ su projektais susijusios išlaidų ataskaitų eilutės registruojamos naudojant specialias toliau nurodytas registravimo taisykles.
 
   - Su projektais susiję kaštai (įskaitant nesusigrąžinamus mokesčius) nėra iš karto registruojami didžiosios knygos projekto kaštų sąskaitoje – jie registruojami išlaidų integravimo sąskaitoje. Ši sąskaita konfigūruojama nuėjus į **Projektų tvarkymas ir apskaita** > **Sąranka** > **Projektų tvarkymo ir apskaitos parametrai**, skirtuke **„Project Operations“ naudojant „Dynamics 365 Customer Engagement“**.
   - Dvigubo rašymo funkcija su „Dataverse“ sinchronizuoja naudodama lentelės schemą **„Project Operations“ integravimo projekto išlaidų eksportavimo objektas (msdyn \_expenses)**.

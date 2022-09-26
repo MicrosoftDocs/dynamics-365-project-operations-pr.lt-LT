@@ -1,8 +1,8 @@
 ---
 title: Išlaidų ataskaitų publikavimas
 description: Šiame straipsnyje paaiškinama, kaip registruoti išlaidų ataskaitas.
-author: suvaidya
-ms.date: 09/09/2020
+author: ramagadu
+ms.date: 08/12/2022
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4b084357179a28279344c995047f1a0a458cf9aa
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d0ae4559a08553236158a663513401cb38cbe28f
+ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934514"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524880"
 ---
 # <a name="post-expense-reports"></a>Išlaidų ataskaitų publikavimas
 
@@ -30,5 +30,15 @@ Norėdami užregistruoti išlaidų ataskaitą puslapyje **Patvirtintos išlaidų
 
 Tuo pačiu metu galite paskelbti visas sąrašo išlaidų ataskaitas. Pažymėkite visas išlaidų ataskaitas, tada pasirinkite **Paskelbti**.
 
+## <a name="enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature"></a>Įgalinkite funkciją Galimybė registruoti išlaidų įsipareigojimus tiekėjo valiuta mokėjimo grynaisiais pinigais metodu
+
+Funkcija **Galimybė registruoti grynųjų pinigų mokėjimo metodo** išlaidų įsipareigojimus tiekėjo valiuta leidžia registruoti grynųjų pinigų mokėjimo metodo išlaidų ataskaitas tiekėjo valiuta.
+
+Šiuo metu, kai pateikiate grynųjų pinigų išlaidas, išlaidų ataskaitos registruojamos apskaitos valiuta. Dėl sumos konvertavimo tarp operacijos valiutos, apskaitos valiutos ir tiekėjo valiutos tiekėjams mokama neteisinga suma, jei išlaidų operacijos data ir faktinė mokėjimo data turi skirtingus valiutų kursus.
+
+Ši funkcija užtikrins, kad tiekėjo balansas bus įrašytas tiekėjo valiuta, kai bus užregistruota išlaidų ataskaita.
+
+1. Eikite į **Darbo sritys**\>**Funkcijų tvarkymas**.
+2. Sąraše raskite ir pasirinkite **Galimybė registruoti grynųjų pinigų mokėjimo metodo** išlaidų įsipareigojimą tiekėjo valiuta, tada pasirinkite **Įgalinti dabar**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

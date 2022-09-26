@@ -2,20 +2,20 @@
 title: Subrangos sutarties laiko eilutės
 description: Šiame straipsnyje paaiškinama, kaip įrašyti subrangos eilutes laikui ir įrašyti laiko pirkimą iš tiekėjų.
 author: rumant
-ms.date: 08/05/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8e9619dc713fde3127f552234e4a7427d99be683
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 3ba013dd7ad023acc4f0cf077099c8c2c8d5bcd8
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261993"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522243"
 ---
 # <a name="subcontract-lines-for-time"></a>Subrangos sutarties laiko eilutės
 
-_**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
+_**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
 „Dynamics 365 Project Operations“ subrangos sutartyje gali būti laikui skirta subrangos sutarties eilutė. Naudodamas subrangos sutarties laiko eilutes, projektų vadovas gali įsigyti tiekėjų išteklių laiko projektų užduotims ir išteklių reikalavimams įvykdyti.
 

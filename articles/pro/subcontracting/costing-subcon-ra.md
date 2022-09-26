@@ -2,20 +2,20 @@
 title: Subrangos išteklių priskyrimų išlaidų vertinimas
 description: Šiame straipsnyje paaiškinama, kaip "Microsoft" Dynamics 365 Project Operations apskaičiuoja subrangos būdu atliktų išteklių priskyrimų išlaidų įvertinimą.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5a4d0707f8373b5083272eacb7dc1318e82a23ac
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 9fded1baa63d2defc134994c858dfc6c09f75082
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262070"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522666"
 ---
 # <a name="cost-estimation-of-subcontracted-resource-assignments"></a>Subrangos išteklių priskyrimų išlaidų vertinimas
 
-_**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
+_**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
 Subrangovų projekto komandos narių užduočių priskyrimai įkainojami naudojant **pirkimo** kainoraštį, pridėtą prie subrangos sutarties, esantį susijusiame komandos nario įraše. Tai skiriasi nuo to, kaip įkainojami darbuotojų išteklių priskyrimai, kai darbuotojų išteklių užduočių priskyrimai įkainojami naudojant **išlaidų** kainoraštį, pridėtą prie projekto sutartinio vieneto. 
 

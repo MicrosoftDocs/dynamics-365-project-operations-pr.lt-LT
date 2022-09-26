@@ -2,20 +2,20 @@
 title: Išlaidų kategorijų subrangos sutarties eilutės
 description: Šiame straipsnyje paaiškinama, kaip įrašyti išlaidų subrangos eilutes ir naudoti laukus laiko pirkimui iš tiekėjų įrašyti.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7166642abc2187a53f7019639df6f0d7124f4765
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: ba1241ce40b7c5b488e278e8f1b8e9f352f45dc8
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261851"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522618"
 ---
 #  <a name="subcontract-lines-for-expense-categories"></a>Išlaidų kategorijų subrangos sutarties eilutės
 
-_**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
+_**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
 „Dynamics 365 Project Operations“ subrangos sutartyje gali būti išlaidų kategorijoms skirta eilutė. Išlaidų kategorijų subrangos sutarties eilutės suteikia projekto vadovui galimybę iš tiekėjų įsigyti paslaugų arba produktų kategorijas, kurios už naudojimą projekte gali būti apmokestintos.
 

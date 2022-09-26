@@ -2,20 +2,20 @@
 title: Subrangos komponentų laiko, išlaidų ir medžiagų naudojimo registravimas
 description: Šiame straipsnyje paaiškinama, kaip "Microsoft" seka laiką, išlaidas ir medžiagų naudojimą, įrašytą projektuose iš subrangos komponentų Dynamics 365 Project Operations.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 89fbbfcd1535660e92d0cc80beb91029331e990f
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: b82c14412cfb0405040902a2329c3b6692422d89
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261147"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522524"
 ---
 # <a name="recording-time-expenses-and-material-usage-on-projects-for-subcontracted-components"></a>Laiko, išlaidų ir medžiagų naudojimo registravimas subrangovų komponentų projektuose
 
-_**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
+_**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
 Šiame straipsnyje paaiškinama, kaip "Microsoft" seka laiką, išlaidas ir medžiagų naudojimą, įrašytą projektuose iš subrangos komponentų Dynamics 365 Project Operations.
 

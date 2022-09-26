@@ -2,21 +2,21 @@
 title: Svarbiausios subrangos sutarties sąvokos
 description: Šiame straipsnyje paaiškinamos kai kurios pagrindinės sąvokos, taikomos subrangai programoje "Microsoft" Dynamics 365 Project Operations.
 author: rumant
-ms.date: 08/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: e75f2cf9c1092604e43e5cb60dda0e2a1b7dcd64
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 9577169f12198222e647ed07ae8a1b6c55da4323
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262180"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522759"
 ---
 # <a name="key-concepts-in-subcontracting"></a>Svarbiausios subrangos sutarties sąvokos
 
 
-_**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
+_**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
 Straipsnyje paaiškinamos kai kurios pagrindinės sąvokos, kurias turėtumėte žinoti prieš pradėdami naudoti subrangos funkciją "Microsoft" Dynamics 365 Project Operations.
 

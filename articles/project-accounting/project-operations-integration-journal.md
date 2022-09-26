@@ -2,16 +2,16 @@
 title: Integravimo žurnalas programoje „Project Operations“
 description: Šiame straipsnyje pateikiama informacija apie darbą su "Project Operations" žurnalu Integravimas.
 author: sigitac
-ms.date: 06/29/2022
+ms.date: 09/22/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d6f1709c4bf44cfd45516d9ac74b30d4817bb653
-ms.sourcegitcommit: a5a1d81d2fe0a6f684e79859fcddf45e913d76bc
+ms.openlocfilehash: e947fe895a1caa9c9ea092597957a859cd8d61c9
+ms.sourcegitcommit: b1c26ea57be721c5b0b1a33f2de0380ad102648f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9106285"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9541088"
 ---
 # <a name="integration-journal-in-project-operations"></a>Integravimo žurnalas programoje „Project Operations“
 
@@ -65,6 +65,12 @@ Registravimas gali būti atliekamas interaktyviai arba pakete. Atminkite, kad vi
 > [!NOTE]
 > Norėdami naudoti šią galimybę, įgalinkite **funkciją Perkelti visas eilutes su registravimo klaidomis į naują "Project Operations" integravimo žurnalą**, esančią **darbo srityje Funkcijų valdymas**.
 
-Skelbiant žurnale "Project Operations" integravimas, sistema patvirtina kiekvieną žurnalo eilutę. Sistema skelbia visas eilutes, kuriose nėra klaidų, ir sukuria naują žurnalą visoms eilutėms, kuriose yra registravimo klaidų. Norėdami peržiūrėti žurnalus, kuriuose yra registravimo klaidų eilučių, eikite į žurnalą **Projektų valdymas ir apskaitos** > **žurnalai** > **Projekto operacijų integravimo žurnalas** ir filtruokite žurnalus naudodami lauką **Pradinis žurnalas**.
+Ši funkcija padeda pagerinti "Project Operations" integravimo žurnalo funkcijas. Kai jis įjungtas, dvigubo rašymo laiko problemos ir sąrankos problemos nebetrukdo skelbti galiojančių žurnalų. Skelbiant žurnale "Project Operations" integravimas, sistema patvirtina kiekvieną žurnalo eilutę. Jis skelbia visas eilutes, kuriose nėra klaidų, ir sukuria naują žurnalą visoms eilutėms, kuriose yra registravimo klaidų.
+
+Norėdami peržiūrėti žurnalus, kuriuose yra registravimo klaidų eilučių, eikite į žurnalą **Projektų valdymas ir apskaita** \> **Žurnalų** \> **projektų operacijų integravimo žurnalas** ir filtruokite žurnalų sąrašą naudodami lauką **Pradinis žurnalas.** Tolesnėje iliustracijoje parodytas pavyzdys, kai žurnalo **puslapyje "Project Operations" integravimo žurnalo** žurnalai buvo filtruoti tokiu būdu.
+
+![Pradinis žurnalas rodomas žurnalo puslapyje "Project Operations" integravimas.](./media/transferLines-originalJournal.png)
+
+Jei periodinė paketinė užduotis sukonfigūruota skelbti integravimo žurnalą, registravimas bus pakeistas iš naujo ir žurnalai bus paskelbti, jei laiko problema bus išspręsta. Visi likę žurnalai turėtų būti tiriami rankiniu būdu, peržiūrint žurnalus ir imantis visų reikiamų veiksmų.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

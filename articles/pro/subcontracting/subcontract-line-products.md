@@ -2,20 +2,20 @@
 title: Subrangos sutarties eilutės, skirtos produktams
 description: Šiame straipsnyje paaiškinama, kaip įrašyti produktų subrangos eilutes ir naudoti įvairius laukus produktų pirkimams iš tiekėjų įrašyti.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b5852df1876eff591ae6a131b229d979eacf5aad
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 1ca042eaf95a5e252f00248e83efb959ab3ce801
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262133"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522853"
 ---
 # <a name="subcontract-lines-for-products"></a>Subrangos sutarties eilutės, skirtos produktams
 
-_**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
+_**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
 „Dynamics 365 Project Operations“ subrangos sutartyje gali būti produktams skirta subrangos sutarties eilutė. Pasinaudodamas šiomis eilutėmis, projekto vadovas gali iš tiekėjų pirkti produktus ir vėliau panaudoti juos projekto užduotims.
 

@@ -2,20 +2,20 @@
 title: Projekto su sutarties darbuotojais ir subrangos pajėgumo personalas
 description: Šiame straipsnyje paaiškinama, kaip projekto reikalavimus galima įdarbinti naudojant sutartininkus arba subrangovų pajėgumus programoje "Microsoft"Dynamics 365 Project Operations.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8edb053467ef200ca3e051e2fd78106734318389
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 30e16efeed93ab4568eac57fb3ed46067a08524d
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261265"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522446"
 ---
 # <a name="staffing-a-project-with-contract-workers-and-subcontracted-capacity"></a>Projekto su sutarties darbuotojais ir subrangos pajėgumo personalas
 
-_**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
+_**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
 Bendrieji projekto komandos nariai gali turėti darbuotojų arba pagal sutartis dirbančių darbuotojų. Kai projekte dirbama su sutartininkais, galite apriboti savo personalo galimybes iki konkrečių pagal sutartį dirbančių darbuotojų, priskirtų subrangos linijai. 
 

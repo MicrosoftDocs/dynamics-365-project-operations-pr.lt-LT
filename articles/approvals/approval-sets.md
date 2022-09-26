@@ -1,17 +1,17 @@
 ---
 title: Patvirtinimo rinkiniai
-description: Šiame straipsnyje paaiškinama, kaip dirbti su patvirtinimo rinkiniais, užklausomis ir šių operacijų poaibiais.
+description: Šiame straipsnyje paaiškinama, kaip dirbti su patvirtinimo rinkiniais, užklausomis ir tų operacijų pogrupiais.
 author: stsporen
 ms.date: 02/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 5e030c1aa4a41b428a0f4541fd204a7a3deaba08
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: ca205073edbce2b399aab3ae273d635c8af96765
+ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8918092"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524927"
 ---
 # <a name="approval-sets"></a>Patvirtinimo rinkiniai
 
@@ -26,17 +26,17 @@ Patvirtinimo rinkiniuose nurodoma bendra su jais susijusių įrašų apdorojimo 
 
 Lauke **Patvirtinimo rinkinio galiojimo laikas** įrašomas bandymų apdoroti rinkinį skaičius, tik tada pažymimas kaip nepavykęs.
 
-Patvirtinimo rinkiniai apdorojami periodiškai aktyvuojant pagal debesies srautą **, pavadintą** **"Project Service" – periodiškai planuoti projektų patvirtinimo rinkinius**. Tai yra sprendime **,** pavadintame **"Project Operations"**. 
+Patvirtinimo rinkiniai apdorojami naudojant periodinį aktyvinimą, pagrįstą debesies srautu, **pavadintu** **"Project Service" – periodiškai suplanuokite projekto patvirtinimo rinkinius**. Tai randama sprendime **,** pavadintame **"Project Operations"**. 
 
 Įsitikinkite, kad srautas suaktyvintas, atlikdami šiuos veiksmus.
 
 1. Kaip administratorius, prisijunkite prie [flow.microsoft.com](https://powerautomate.microsoft.com).
-2. Viršutiniame dešiniajame kampe perjunkite aplinką, kurioje naudojate Dynamics 365 Project Operations.
-3. Pasirinkite **Sprendimai**, kad išvardytumėte aplinkoje įdiegtus sprendimus.
+2. Viršutiniame dešiniajame kampe perjunkite į aplinką, kurią naudojate Dynamics 365 Project Operations.
+3. Pasirinkite **Sprendimai**, kad pateiktumėte aplinkoje įdiegtų sprendimų sąrašą.
 4. Sprendimų sąraše pasirinkite **Projekto operacijos**.
-5. Pakeiskite filtrą iš **Visi** į **Debesies srautus**.
-6. Patikrinkite, **ar projekto tarnyba – periodiškai planuoti projekto patvirtinimo rinkinių** srautą nustatyta kaip **Įjungta**. Jei ne, pasirinkite srautą, tada pasirinkite **Įjungti**.
-7. Patikrinkite, ar apdorojimas vyksta kas penkias minutes, peržiūrėdami **sistemos užduočių** sąrašą, esantį **"Project Operations**" aplinkos srityje Parametrai Dataverse.
+5. Pakeiskite filtrą iš **Visi** į **Debesų srautai**.
+6. Patikrinkite, **ar "Project Service" – periodiškai suplanuoti projekto patvirtinimo rinkinių** srautą nustatyta kaip **Įjungta**. Jei ne, pasirinkite srautą, tada pasirinkite **Įjungti**.
+7. Patikrinkite, ar apdorojimas vyksta kas penkias minutes, peržiūrėdami sistemos užduočių **sąrašą, esantį** jūsų projekto operacijų **aplinkos srityje Parametrai**.Dataverse
 
 ## <a name="failed-approvals-and-approval-sets"></a>Patvirtinimų ir patvirtinimo rinkinių pažymėjimas kaip nepavykusių
 Rodinyje **Nesėkmingai atlikti patvirtinimai** pateikiami visi patvirtinimai, kuriems reikalingas vartotojo įsikišimas. Atidarykite susijusių patvirtinimo rinkinių žurnalus, kad būtų galima nustatyti nesėkmės priežastį.
@@ -45,14 +45,9 @@ Jei pažymėsite **Bandyti dar kartą**, bus pridedamas patvirtinimo rinkinio la
 ## <a name="configure-approval-sets"></a>Patvirtinimo rinkinių konfigūravimas
 
 ### <a name="enable-the-approval-sets-feature"></a>Įjungti patvirtinimo rinkinių funkciją
-Prieš įjungdami patvirtinimo rinkinių funkciją patikrinkite, ar šiuo metu nėra apdorojamų patvirtinimų.
+Prieš įjungdami patvirtinimo rinkinių funkciją patikrinkite, ar šiuo metu nėra apdorojamų patvirtinimų. Įjungus šią funkciją, jos negalima išjungti.
 
 - Eikite į puslapį **Projekto parametrai** ir pasirinkite **Funkcijų valdymas** > **Įjungti modernius patvirtinimus**.
-
-### <a name="turn-off-the-approval-sets-feature"></a>Išjungti patvirtinimo rinkinių funkciją
-Prieš išjungdami patvirtinimo rinkinių funkciją patikrinkite, ar šiuo metu nėra apdorojamų patvirtinimų.
-
-- Eikite į puslapį **Projekto parametrai** ir pasirinkite **Funkcijų valdymas** > **Išjungti modernius patvirtinimus**.
 
 ### <a name="configuring-the-asynchronous-threshold"></a>Asinchroninės ribinės vertės konfigūravimas 
 Kai sukuriami patvirtinimo rinkiniai, apdorojimas pereina į foną, kai pažymėtas patvirtinti įrašų skaičius viršija nurodytą ribinę vertę. Naudokite lauką **Asinchroninė ribinė reikšmė** ir konfigūruokite, kada patvirtinimo apdorojimas turėtų būti vykdomas sinchroniškai arba asinchroniškai. Pažymėkite vieną iš šių reikšmių:

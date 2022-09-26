@@ -2,20 +2,20 @@
 title: Nustatyti subrangovus kaip rezervuotinus išteklius
 description: Šiame straipsnyje paaiškinama, kaip nustatyti ir prižiūrėti subrangovų išteklius, sukurtus iš sistemos vartotojų ir kontaktų, kad juos būtų galima susieti su subrangos sutartimis programoje "Microsoft" Dynamics 365 Project Operations.
 author: rumant
-ms.date: 07/28/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 67df514cd1a0bd07d4ff2582e1a7738d913e0ac5
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 727508c41c190c3703e9cd1420066fa0e551f147
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261334"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522712"
 ---
 # <a name="set-up-subcontractors-as-bookable-resources"></a>Nustatyti subrangovus kaip rezervuotinus išteklius
 
-_**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
+_**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
 Norėdami nustatyti subrangovus kaip rezervuojamus išteklius programoje „Microsoft Dynamics 365 Project Operations”, atlikite toliau nurodytus veiksmus.
 
