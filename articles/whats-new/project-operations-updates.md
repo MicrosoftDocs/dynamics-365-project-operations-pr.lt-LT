@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ba33afd955170797bc43ae84d8baa9e2a04c5918
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: eb658f8b0150d5d70e9ed090ff0e25e33eedd5a3
+ms.sourcegitcommit: 6536e79aca5ce2cb0276a4366db69d688962a21f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9409946"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "9622031"
 ---
 # <a name="project-operations-updates"></a>„Project Operations“ naujinimai
 
@@ -47,24 +47,24 @@ Naujiniai, skirti „Project Operations” „Dataverse“ aplinkoje, yra pasiek
 | Stotis | Regiono ID | Dabartinės versijos numeris | „Lite“ visuotinio diegimo automatiniai naujinimai | Ištekliaus / ne atsargų visuotinio diegimo automatiniai naujinimai | Kitas versijos numeris | Kita visuotinai pasiekiama versija |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | 1 stotis |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Pirmasis leidimas         |  4.45.0.53      | Užbaigta           | Užbaigta            | TBD                 | 2022 m. rugsėjo mėn. 09 d.      |
+|   &nbsp;  | Pirmasis leidimas         |  4.46.0.60      | Užbaigta           | Užbaigta            | TBD                 | 2022 m. spalio 07 d.      |
 | 2 stotis |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Pietų Amerika         |  4.45.0.53      | Užbaigta           | Užbaigta            | TBD                 | 2022 m. rugsėjo mėn. 09 d.       |
-|   &nbsp;  | Kanada                |  4.45.0.53      | Užbaigta           | Užbaigta            | TBD                 | 2022 m. rugsėjo mėn. 09 d.       |
-|   &nbsp;  | Indija                 |  4.45.0.53      | Užbaigta           | Užbaigta            | TBD                 | 2022 m. rugsėjo mėn. 09 d.       |
-|   &nbsp;  | Prancūzija                |  4.45.0.53      | Užbaigta           | Užbaigta            | TBD                 | 2022 m. rugsėjo mėn. 09 d.       |
-|   &nbsp;  | Pietų Afrika          |  4.45.0.53      | Užbaigta           | Užbaigta            | TBD                 | 2022 m. rugsėjo mėn. 09 d.       |
-|   &nbsp;  | Šveicarija           |  4.45.0.53      | Užbaigta           | Užbaigta            | TBD                 | 2022 m. rugsėjo mėn. 09 d.       |
+|   &nbsp;  | Pietų Amerika         |  4.46.0.60      | Užbaigta           | Užbaigta            | TBD                 | 2022 m. spalio 14 d.       |
+|   &nbsp;  | Kanada                |  4.46.0.60      | Užbaigta           | Užbaigta            | TBD                 | 2022 m. spalio 14 d.       |
+|   &nbsp;  | Indija                 |  4.46.0.60      | Užbaigta           | Užbaigta            | TBD                 | 2022 m. spalio 14 d.       |
+|   &nbsp;  | Prancūzija                |  4.46.0.60      | Užbaigta           | Užbaigta            | TBD                 | 2022 m. spalio 14 d.       |
+|   &nbsp;  | Pietų Afrika          |  4.46.0.60      | Užbaigta           | Užbaigta            | TBD                 | 2022 m. spalio 14 d.       |
+|   &nbsp;  | Šveicarija           |  4.46.0.60      | Užbaigta           | Užbaigta            | TBD                 | 2022 m. spalio 14 d.       |
 | 3 stotis |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japonija                 |  4.45.0.53      | Užbaigta      | Užbaigta       | TBD                 | 2022 m. rugsėjo mėn. 09 d.       |
-|   &nbsp;  | Azijos ir Ramiojo vandenyno regionas          |  4.45.0.53      | Užbaigta      | Užbaigta       | TBD                 | 2022 m. rugsėjo mėn. 09 d.       |
-|   &nbsp;  | Didžioji Britanija         |  4.45.0.53      | Užbaigta      | Užbaigta       | TBD                 | 2022 m. rugsėjo mėn. 09 d.       |
-|   &nbsp;  | Okeanija               |  4.45.0.53      | Užbaigta      | Užbaigta       | TBD                 | 2022 m. rugsėjo mėn. 09 d.       |
-|   &nbsp;  | Jungtiniai Arabų Emyratai  |  4.45.0.53      | Užbaigta      | Užbaigta       | TBD                 | 2022 m. rugsėjo mėn. 09 d.       |
+|   &nbsp;  | Japonija                 |  4.46.0.60      | Užbaigta      | Užbaigta       | TBD                 | 2022 m. spalio 21 d.       |
+|   &nbsp;  | Azijos ir Ramiojo vandenyno regionas          |  4.46.0.60      | Užbaigta      | Užbaigta       | TBD                 | 2022 m. spalio 21 d.       |
+|   &nbsp;  | Didžioji Britanija         |  4.46.0.60      | Užbaigta      | Užbaigta       | TBD                 | 2022 m. spalio 21 d.       |
+|   &nbsp;  | Okeanija               |  4.46.0.60      | Užbaigta      | Užbaigta       | TBD                 | 2022 m. spalio 21 d.       |
+|   &nbsp;  | Jungtiniai Arabų Emyratai  |  4.46.0.60      | Užbaigta      | Užbaigta       | TBD                 | 2022 m. spalio 21 d.       |
 | 4 stotis |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europa                |  4.45.0.53      | Užbaigta           | Užbaigta            | TBD           | 2022 m. rugsėjo mėn. 16 d.       |
+|   &nbsp;  | Europa                |  4.46.0.60      | Užbaigta           | Užbaigta            | TBD           | 2022 m. spalio 28 d.       |
 | 5 stotis |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Šiaurės Amerika         |  4.45.0.53      | Užbaigta           | Užbaigta            | TBD           | 2022 m. rugsėjo mėn. 16 d.       |
+|   &nbsp;  | Šiaurės Amerika         |  4.46.0.60      | Užbaigta           | Užbaigta            | TBD           | 2022 m. lapkričio 04 d.       |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Projektų valdymo ir apskaitos išleidimo grafikas finansų ir operacijų programų aplinkoje
 

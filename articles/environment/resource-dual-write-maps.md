@@ -6,12 +6,12 @@ ms.date: 07/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e904ad18b6ea94cd6d31d1878b5bc9e7c52be741
-ms.sourcegitcommit: c8b8fef5626790208c5290b1bb92b17a5d90d286
+ms.openlocfilehash: b86b9ecdc63989189c76dd8380024aa44c7641a5
+ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9112439"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "9621092"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>„Project Operations“ dvigubo rašymo schemos versijos
 
@@ -48,14 +48,14 @@ Toliau nurodytos schemos yra reikalingos naudojant sprendimą „Project Operati
 | Projekto finansavimo šaltinis (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Konfigūruojant naudoti nebūtina. ||
 | Projekto integravimo lentelė reikšmingoms sąmatoms (msdyn\_ sąmatos eilutės) | 1.0.0.0 | Konfigūruojant naudoti nebūtina. ||
 | Projekto sąskaitų faktūrų pasiūlymai V2 (sąskaitos faktūros) | 1.0.0.3 | Konfigūruojant naudoti nebūtina. ||
-| „Project Operations“ integravimo faktiniai duomenys (msdyn_actuals) | 1.0.0.14 | Konfigūruojant naudoti nebūtina. ||
+| „Project Operations“ integravimo faktiniai duomenys (msdyn_actuals) | 1.0.0.15 | Konfigūruojant naudoti nebūtina. |10.0.29 arba naujesnė|
 | „Project Operations“ integracijos sutarties eilučių etapai (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Konfigūruojant naudoti nebūtina. ||
 | „Project Operations“ integracijos objektas, skirtas išlaidoms įvertinti (msdyn_estimatelines) | 1.0.0.2 | Konfigūruojant naudoti nebūtina. ||
 | „Project Operations“ integravimo objektas, skirtas valandų įvertinimams (msdyn_resourceassignments) | 1.0.0.5 | Konfigūruojant naudoti nebūtina. ||
 | „Project Operations“ integracijos projekto išlaidų kategorijų eksportavimo objektas (msdyn_expensecategories) | 1.0.0.1 | Konfigūruojant naudoti nebūtina. ||
 | „Project Operations“ integravimo projekto išlaidų eksportavimo objektas (msdyn_expenses) | 1.0.0.3 | Konfigūruojant naudoti nebūtina. ||
-| „Project Operations“ integravimo projekto tiekėjų sąskaitų faktūrų eksportavimo objektas (msdyn_projectvendorinvoices) | 1.0.0.1 | Konfigūruojant naudoti nebūtina. |10.0.26 arba naujesnė|
-| „Project Operations“ integravimo projekto tiekėjų sąskaitų eilučių eksportavimo objektas (msdyn_projectvendorinvoicelines) | 1.0.0.4 | Konfigūruojant naudoti nebūtina. | 10.0.26 arba naujesnė |
+| „Project Operations“ integravimo projekto tiekėjų sąskaitų faktūrų eksportavimo objektas (msdyn_projectvendorinvoices) | 1.0.0.2 | Konfigūruojant naudoti nebūtina. |10.0.29 arba naujesnė|
+| „Project Operations“ integravimo projekto tiekėjų sąskaitų eilučių eksportavimo objektas (msdyn_projectvendorinvoicelines) | 1.0.0.5 | Konfigūruojant naudoti nebūtina. | 10.0.29 arba naujesnė |
 | Projekto išteklių vaidmenys visoms įmonėms (bookableresourcecategories) | 1.0.0.1 | Norint, kad lentelės schema sinchronizuotų projektų vadovo ir komandos nario išteklių vaidmenis, kurie konfigūruojant įvedami „Dynamics 365“ „Dataverse“ aplinkoje, reikia atlikti pradinį sinchronizavimą. „Dataverse“ yra pagrindinis pradinio sinchronizavimo šaltinis. ||
 | Projektų užduotys (msdyn_projecttasks) | 1.0.0.4 | Konfigūruojant naudoti nebūtina. ||
 | Projektų operacijų kategorijos (msdyn_transactioncategories) | 1.0.0.0 | Konfigūruojant naudoti nebūtina. ||
