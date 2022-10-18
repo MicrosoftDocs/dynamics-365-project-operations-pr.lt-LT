@@ -6,12 +6,12 @@ ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a947c0a44464bfad6c3bd74b0cb4fb8128924859
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 19d2dfeff39fd3c5edd5124c27134a9fe360e4d1
+ms.sourcegitcommit: 8f4841387deea2998589b7365c3373585a16cb0e
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932076"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9655199"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Darbo paskirstymo struktūros (WBS) kūrimas
 
@@ -63,7 +63,7 @@ Norėdami perkelti užduotį į žemesnį arba aukštesnį lygį, atlikite tolia
 
 ### <a name="move-tasks-up-and-down"></a>Užduočių perkėlimas aukštyn ir žemyn
 
-Užduotis galite perkelti į bet kurį darbo paskirstymo struktūros lygį vienu iš dviejų būdų:
+Užduotis galima perkelti į bet kurį darbo paskirstymo struktūros lygį vienu iš dviejų būdų:
 
 - Pažymėkite dar vieną užduotį ir nuvilkite jas į norimą vietą.
 - Pažymėkite vieną ar daugiau užduočių, spustelėkite dešiniuoju pelės mygtuku ir pasirinkite **Iškirpti**, grafike pasirinkite paskirties langelį, o tada spustelėkite dešiniuoju pelės mygtuku ir pasirinkite **Įklijuoti**.
@@ -95,7 +95,7 @@ Kaip administratorius galite apibrėžti užduoties objekto pasirinktinius lauku
 
 ## <a name="staffing-attributes"></a>Darbuotojų atributai
 
-Personalo atributai pasiekiami grafiko lauke **Ištekliai**. Galite ieškoti esamų išteklių arba pasirinkti **Kurti** ir skyde **Spartusis kūrimas** pridėti projekto komandos narį kaip naują išteklių.  Kai ištekliaus ieškote naudodami išteklių parinkiklį užduočių tinklelyje, lentos rodinyje arba gante, ieška grąžina esamus projekto komandos narius arba aktyvius rezervuojamus išteklius.
+Personalo atributai pasiekiami grafiko lauke **Ištekliai**. Galite ieškoti esamų išteklių arba pasirinkti **Kurti** ir skyde **Spartusis kūrimas** pridėti projekto komandos narį kaip naują išteklių.  Kai ieškote išteklių naudodami išteklių parinkiklį užduočių tinklelyje, lentos rodinyje arba gante, ieška pateikia esamus projekto komandos narius arba aktyvius rezervuojamus išteklius.
 
 Laukai **Vaidmuo**, **Išteklių paskirstymo vienetas** ir **Padėties pavadinimas** yra naudojami apibūdinti užduoties personalo reikalavimus. Šie personalo atributai su užduočių grafiku naudojami pasiekiamiems ištekliams rasti, kad būtų galima atlikti šią užduotį.
 
@@ -113,6 +113,18 @@ Galite naudoti grafiką programoje „Project Operations“, kad kurtumėte anks
 
 Užduočių režimas nepaveikia naujinimų, atliktų su ankstesnėmis / priklausomų užduočių pradžios ir pabaigos datomis.
 
+## <a name="understanding-the-impacts-of-duration-resource-calendars-and-project-calendars-on-tasks"></a>Trukmės, išteklių kalendorių ir projektų kalendorių poveikio užduotims supratimas
+Užduoties trukmė apibrėžiama kaip darbo valandų skaičius nuo pradžios datos pradžios laiko iki užduoties pabaigos datos.   Internetinis projektas apibrėžia trukmės matavimo vienetus taip:
+
+| **Trukmės matas** | **Kiekis**|
+|----------------------------------------------------|----------------------|
+| Valandos per dieną | 8 |
+| Valandos per savaitę |  40 |
+| Dienos per mėnesį |  20 |
+
+Nepriskirtos užduotys planuojamos naudojant projekto kalendorių. Tačiau priskyrus pradinį išteklių, užduoties planavimas atnaujinamas, kad būtų laikomasi ištekliaus kalendoriaus. Vėlesniems užduoties, kuriai priskirtas priskyrimas, keitimams bus taikomas [projekto planavimo režimas](scheduling-modes.md). Norėdami sužinoti daugiau apie kalendorių įtaką užduotims, peržiūrėkite ["Project for the Web"](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) išteklių kalendoriai ir Užduočių pradžios laikas ir [jūsų projektai!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
+
+
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Spartieji klavišai, pritaikyti neįgaliesiems, ir klaviatūros spartieji klavišai
 
 Tinklelis **Grafikas** yra visiškai pasiekiamas ir gali būti naudojamas su ekrano skaitytuvais, pavyzdžiui, „Narrator“, „JAWS“ ar „NVDA“. Galite judėti per tinklelio sritį naudodami rodyklių klavišus (kaip programoje „Microsoft Excel“), galite naudoti tabuliavimo klavišą, kad pasiektumėte interaktyviuosius vartotojo sąsajos elementus, o norėdami pasirinkti ir atidaryti išplečiamuosius meniu galite naudoti rodyklės žemyn, „Enter“ arba tarpo klavišus.
@@ -127,7 +139,7 @@ Jei „Project Operations” naudojate darbo paskirstymo struktūrą, turite ži
 | Maksimalus bendras projekto išteklių skaičius              | 300                  |
 | Maksimalus bendras projekto saitų skaičius (tik vėlesnės veiklos) | 600                  |
 | Maksimalus bendras projekto pasirinktinių laukų skaičius          | 10                   |
-| Maksimalus kontrolinio sąrašo elementų skaičius vienai užduočiai                   | 20                   |
+| Maksimalus vienos užduoties kontrolinio sąrašo elementų skaičius                   | 20                   |
 
 **Užduoties apribojimai**
 
