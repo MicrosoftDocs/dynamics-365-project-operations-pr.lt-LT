@@ -1534,6 +1534,14 @@
           href: psa/whats-new-v3-2020-wave1.md
         - name: Kas nauja arba pakeista programos „Project Service Automation“ V3
           href: psa/whats-new-changed-v3.md
+    - name: „Project Service Automation“ versijos naujinimas („Project Operations“ 4.x paprastoji programos versija)
+      items:
+        - name: Naujinimas iš „Project Service Automation“ į „Project Operations“
+          href: psa/upgrade-project-operations-non-stocked.md
+        - name: Funkcijų pokyčiai lyginant „Project Service Automation“ ir „Project Operations“
+          href: psa/psa-project-operations-changes.md
+        - name: Iš „Project Service Automation“ į „Project Operations“ projektų planavimo konvertavimo procesas
+          href: psa/PSA-Upgrade-Project-Conversion.md
     - name: Planuokite diegimą (3.x programos versija)
       items:
         - name: Duomenų pavyzdžių įdiegimas
