@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 2d7b372cac391fab7a81ac6ac5d2ea6d12977b5c
-ms.sourcegitcommit: 9de444ae0460c8d15c77d225d0c0ad7f8445d5fc
-ms.translationtype: HT
+ms.openlocfilehash: 06a4de89be8176049d3a14a8c0d6427e228744ba
+ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9686986"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9709455"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Naujinimas iš „Project Service Automation“ į „Project Operations“
 
@@ -70,7 +70,7 @@ Kad galėtumėte gauti 2 etapo versijos naujinimą, turite atitikti šiuos krite
 
 ## <a name="licensing"></a>Licencijavimas
 
-Jei turite aktyvias "Project Service Automation" licencijas, galite įdiegti ir naudoti "Project Operations", kuri apima visas "Project Service Automation" galimybes ir kt. Tada galite išbandyti "Project Operations" galimybes atskiroje aplinkoje, kol toliau naudojate "Project Service Automation" gamyboje. Pasibaigus "Project Service Automation" licencijų galiojimo laikui, turėsite pereiti prie "Project Operations". Planuodami šį perėjimą turite atsižvelgti į tai, kad "Project Operations" licencijoje nėra "Project Service Automation" licencijos.
+Jei turite aktyvias "Project Service Automation" licencijas, galite įdiegti ir naudoti "Project Operations", kuri apima visas "Project Service Automation" galimybes ir kt. Tokiu būdu galite išbandyti "Project Operations" galimybes, kol toliau naudojate "Project Service Automation" gamyboje. Pasibaigus "Project Service Automation" licencijų galiojimo laikui, turėsite pereiti prie "Project Operations". Planuodami šį perėjimą turite atsižvelgti į tai, kad "Project Operations" licencijoje nėra "Project Service Automation" licencijos. Klientai, turintys scenarijų, kai įdiegė "Project Service Automation" ir kuriems reikia toliau naudoti arba didinti PSA licencijas, kol jie planuoja pereiti prie "Project Operations", gali prašyti laikinų PSA licencijų, pagrįstų įsigytomis "Project Operations" licencijomis. Viena "Project Service Automation" licencija bus išduota vienai "Project Operations" licencijai. Laikinųjų PSA licencijų galima prašyti naudojant šią nuorodą: aka.ms/ineedpsa
 
 ## <a name="testing-and-refactoring-customizations"></a>Tinkinimų testavimas ir pertvarkymas
 
