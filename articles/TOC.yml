@@ -1752,8 +1752,6 @@
               href: psa/FAQ-soft-book-in-web-app.md
             - name: Kaip tinkinti projekto etapų veiklos procesų sekas?
               href: psa/FAQ-customize-bpf.md
-            - name: Darbo paskirstymo struktūros atnaujinimo aptarimas
-              href: psa/upgrade-considerations-tasks.md
         - name: Techninė dokumentacija
           href: psa/white-papers.md
         - name: Administratoriaus vadovas
