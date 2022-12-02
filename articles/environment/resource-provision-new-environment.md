@@ -1,6 +1,6 @@
 ---
 title: Naujos aplinkos parengimas
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip parengti naują "Project Operations" aplinką.
+description: Šiame straipsnyje pateikiama informacija, kaip parengti naują „Project Operations“ aplinką.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
@@ -20,7 +20,7 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 
 
 
-Šiame straipsnyje pateikiama informacija apie tai, kaip parengti naują Dynamics 365 Project Operations aplinką išteklių / ne atsargų scenarijams.
+Šiame straipsnyje pateikiama informacijos, kaip sukonfigūruoti naują „Dynamics 365 Project Operations“ aplinką, skirtą ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Automatinio „Project Operations“ parengimo įjungimas LCS projekte
 
@@ -34,7 +34,7 @@ Atlikite toliau nurodytus veiksmus, kad įjungtumėte automatinį „Project Ope
 
 ## <a name="provision-a-project-operations-environment"></a>„Project Operations“ aplinkos parengimas
 
-1. Atidarykite naują demonstracinę aplinką Dynamics 365 Finance [arba](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) smėlio dėžės / gamybos aplinkos [diegimą.](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) 
+1. Atidarykite naują „Dynamics 365 Finance “ [demonstracinės aplinkos](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) arba [smėlio dėžės / gamybos aplinkos](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) visuotinio diegimo paketą. 
 2. Atlikite vediklio **Aplinkos parengimas** veiksmus. 
 
    > [!IMPORTANT]
@@ -117,7 +117,7 @@ Kad galėtumėte gauti šią versiją, gali reikėti „Finance“ aplinkai taik
 
     ![Taikyti sprendimus.](./media/13ApplySolutions.png)
 
-5. Pasirinkite abu sprendimus, **Dynamics 365 Finance Dual Write Entity Map"** ir **Dynamics 365 Project Operations "Dual Write Entity Maps"**, tada pasirinkite **Taikyti**.
+5. Pasirinkite abu sprendimus: **„Dynamics 365 Finance“** dvigubo rašymo objektų schema ir „**Dynamics 365 Project Operations dvigubo rašymo objektų schemos**, tada pasirinkite **Taikyti**.
 
     ![Sprendimų patvirtinimas.](./media/14ConfirmSolutions.png)
 

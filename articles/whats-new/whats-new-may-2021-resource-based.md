@@ -1,6 +1,6 @@
 ---
 title: Kas nauja 2021 m. gegužės mėn. – „Project Operations“, skirtai ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams
-description: Šiame straipsnyje pateikiama informacija apie kokybės naujinimus, pasiekiamus 2021 m. gegužės mėnesio "Project Operations" leidime, skirtame ištekliais / ne atsargomis pagrįstiems scenarijams.
+description: Šiame straipsnyje pateikiama informacija apie kokybės naujinimus, pasiekiamus 2021 m. gegužės mėn. „Project Operations“, skirtoje ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams.
 author: sigitac
 ms.date: 05/11/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "9029999"
 
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
-Šis straipsnis taikomas šiems Dynamics 365 Project Operations komponentams ir versijoms:
+Šis straipsnis taikomas toliau nurodytiems „Dynamics 365 Project Operations“ komponentams ir versijoms:
 
 - „Project Operations“ „Dynamics 365 Dataverse“ 4.10.0.186 versijos aplinkoje
-- Projektų valdymas ir apskaita finansų ir operacijų programų aplinkose 10.0.18 versija
+- Projektų valdymas ir apskaita finansų ir operacijų programų 10.0.18 versijos aplinkose
 
 ## <a name="features-included-in-this-release"></a>Į šį leidimą įtrauktos funkcijos
 
@@ -41,7 +41,7 @@ Toliau pateiktame sąraše parodytos dvigubo rašymo schemos, modifikuotos arba 
 | „Project Operations“ integravimo projekto tiekėjų sąskaitų eilučių eksportavimo objektas (msdyn\_projectvendorinvoicelines) | 1.0.0.1 | Kokybės naujinimai |
 | Projektai V2 (msdyn\_projects) | 1.0.0.2 | Kokybės naujinimai |
 
-Visada paleiskite naujausią žemėlapio versiją savo aplinkoje ir įgalinkite visus susijusius lentelių žemėlapius, kai atnaujinsite "Project Operations Dataverse " sprendimo ir finansų bei operacijų programų sprendimo versiją. Jei nesuaktyvinama naujausia schemos versija, kai kurios funkcijos ir galimybės gali veikti netinkamai. Aktyvią schemos versiją galite matyti puslapio **Dvigubas rašymas** stulpelyje **Versija**. Suaktyvinti naują schemos versiją galite pasirinkdami **Lentelės schemos versijos**, tada – naujausią versiją, tada pasirinktą versiją įrašydami. Jei tinkinote parengtą naudoti lentelės schemą, pakeitimus pritaikykite iš naujo. Norėdami sužinoti daugiau, žr. [Programų ciklo valdymas](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Atnaujindami „Project Operations“ „Dataverse“ sprendimo, finansų ir operacijų programų, ir „Finance“ sprendimo versijas, visada naudokite naujausią schemos versiją savo aplinkoje ir įjunkite visas susijusias lentelių schemas. Jei nesuaktyvinama naujausia schemos versija, kai kurios funkcijos ir galimybės gali veikti netinkamai. Aktyvią schemos versiją galite matyti puslapio **Dvigubas rašymas** stulpelyje **Versija**. Suaktyvinti naują schemos versiją galite pasirinkdami **Lentelės schemos versijos**, tada – naujausią versiją, tada pasirinktą versiją įrašydami. Jei tinkinote parengtą naudoti lentelės schemą, pakeitimus pritaikykite iš naujo. Norėdami sužinoti daugiau, žr. [Programų ciklo valdymas](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Jei paleidžiant schemą kyla kokia nors problema, vykdykite nurodymus, pateikiamus dvigubo rašymo trikčių šalinimo vadovo skyriuje [Trūkstamų lentelių stulpelių problema schemose](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps).
 
@@ -67,7 +67,7 @@ Jei paleidžiant schemą kyla kokia nors problema, vykdykite nurodymus, pateikia
 | Laiko įrašas | 2202476 | Puslapyje **Laiko įrašas** dabar naudojamas reaguojantis tinklelio valdiklis ir ištaisomos problemos, pvz., tinklelio nesulygiavimas. |
 | Laiko įrašas | 2223377 | Laiko įvestis paslėpta puslapio **Rezervuotini ištekliai** skyriuje **Susiję**, kad nebūtų galima naudoti. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektų valdymas ir apskaita Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektų valdymas ir apskaita „Dynamics 365 Finance” programos aplinkose
 
 | Funkcijų sritis | Nuorodos numeris | Kokybės naujinimas |
 | --- | --- | --- |

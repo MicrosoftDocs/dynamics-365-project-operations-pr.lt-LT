@@ -1,6 +1,6 @@
 ---
 title: 2021 m. vasario mėn. naujienos – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams
-description: Šiame straipsnyje pateikiama informacija apie kokybės naujinimus, pasiekiamus 2021 m. vasario mėnesio "Project Operations" leidime, skirtame išteklių / ne atsargų scenarijams.
+description: Šiame straipsnyje pateikiama informacijos apie kokybinius naujinimus, pasiekiamus 2021 m. vasario mėn. „Project Operations”, skirtos ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams, leidime.
 author: sigitac
 ms.date: 02/08/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "9029632"
 
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
-Šis straipsnis taikomas šiems Dynamics 365 Project Operations komponentams ir versijoms:
+Šis straipsnis taikomas toliau nurodytiems „Dynamics 365 Project Operations“ komponentams ir versijoms:
 
 - „Project Operations“ „Dataverse“ aplinkoje 4.7.0.95
-- Projektų valdymas ir apskaita Dynamics 365 Finance aplinkoje 10.0.16 versija 
+- Projektų valdymas ir apskaita „Dynamics 365 Finance“ aplinkos 10.0.16 versijoje 
 
 ## <a name="quality-updates"></a>Kokybės naujinimai
 
@@ -44,14 +44,14 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 | **Laiko įrašas** | 2129161 | Taikomi griežtesni apribojimai, siekiant užtikrinti, kad vartotojai negalėtų keisti ir atnaujinti pateikto ar patvirtinto laiko įrašo. |
 | **Laiko įrašas** | 2103572 | Ne projekto laiko įrašų laiko patvirtinimas negali ieškoti projekto tvirtintojo vaidmens. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektų valdymas ir apskaita Dynamics 365 Finance 
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektų valdymas ir apskaita „Dynamics 365 Finance” programos aplinkose 
 
-Daugiau informacijos apie projektų valdymą ir apskaitą Dynamics 365 Finance rasite [Kas naujo 2021 m. sausio mėn](whats-new-jan-2021-resource-based.md).
+Daugiau informacijos apie projektų valdymą ir apskaitą „Dynamics 365 Finance“ programoje žr. [2021 m. sausio mėn. naujienos – „Project Operations“, skirtos ištekliais / nelaikomomis medžiagomis pagrįstiems scenarijams](whats-new-jan-2021-resource-based.md).
 
 
 ## <a name="regulatory-updates"></a>Reguliavimo naujinimai
 
-Informacijos apie finansų ir operacijų programų reguliavimo naujinimus ieškokite [Reguliavimo naujinimai](/dynamics365/finance/localizations/regulatory-updates). Kitas būdas sužinoti apie reguliavimo atnaujinimus – prisijungti prie „Lifecycle Services“ (LCS) ir peržiūrėti suplanuotus reguliavimo naujinimus naudojant problemų ieškos įrankį. Problemų ieška leidžia ieškoti pagal šalį, funkcijos tipą ir leidimą.
+Norėdami gauti informacijos apie finansų ir operacijų programų reguliavimo naujinimus, žr. [Reguliavimo naujinimai](/dynamics365/finance/localizations/regulatory-updates). Kitas būdas sužinoti apie reguliavimo atnaujinimus – prisijungti prie „Lifecycle Services“ (LCS) ir peržiūrėti suplanuotus reguliavimo naujinimus naudojant problemų ieškos įrankį. Problemų ieška leidžia ieškoti pagal šalį, funkcijos tipą ir leidimą.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

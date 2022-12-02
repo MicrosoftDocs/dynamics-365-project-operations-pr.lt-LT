@@ -1,6 +1,6 @@
 ---
 title: Išlaidų ataskaitų publikavimas
-description: Šiame straipsnyje paaiškinama, kaip registruoti išlaidų ataskaitas.
+description: Šiame straipsnyje aiškinama, kaip skelbti išlaidų ataskaitas.
 author: ramagadu
 ms.date: 08/12/2022
 ms.topic: article
@@ -30,15 +30,15 @@ Norėdami užregistruoti išlaidų ataskaitą puslapyje **Patvirtintos išlaidų
 
 Tuo pačiu metu galite paskelbti visas sąrašo išlaidų ataskaitas. Pažymėkite visas išlaidų ataskaitas, tada pasirinkite **Paskelbti**.
 
-## <a name="enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature"></a>Įgalinkite funkciją Galimybė registruoti išlaidų įsipareigojimus tiekėjo valiuta mokėjimo grynaisiais pinigais metodu
+## <a name="enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature"></a>Funkcijos Galimybė skelbti išlaidų įsipareigojimus tiekėjo valiuta naudojant mokėjimo grynaisiais pinigais būdą įjungimas
 
-Funkcija **Galimybė registruoti grynųjų pinigų mokėjimo metodo** išlaidų įsipareigojimus tiekėjo valiuta leidžia registruoti grynųjų pinigų mokėjimo metodo išlaidų ataskaitas tiekėjo valiuta.
+Funkcija **Galimybė skelbti išlaidų įsipareigojimus tiekėjo valiuta naudojant mokėjimo grynaisiais pinigais būdą** leidžia išlaidų ataskaitas skelbti tiekėjo valiuta, kai naudojamas mokėjimo grynaisiais pinigais būdas.
 
-Šiuo metu, kai pateikiate grynųjų pinigų išlaidas, išlaidų ataskaitos registruojamos apskaitos valiuta. Dėl sumos konvertavimo tarp operacijos valiutos, apskaitos valiutos ir tiekėjo valiutos tiekėjams mokama neteisinga suma, jei išlaidų operacijos data ir faktinė mokėjimo data turi skirtingus valiutų kursus.
+Dabar, kai pateikiate grynųjų pinigų išlaidas, išlaidų ataskaitos skelbiamos apskaitos valiuta. Dėl sumos konvertavimo, naudojant operacijos valiutą, apskaitos valiutą ir tiekėjo valiutą, tiekėjams sumokama neteisinga suma, jei išlaidų operacijos dieną ir faktinio mokėjimo dieną būna skirtingi valiutų kursai.
 
-Ši funkcija užtikrins, kad tiekėjo balansas bus įrašytas tiekėjo valiuta, kai bus užregistruota išlaidų ataskaita.
+Ši funkcija užtikrins, kad skelbiant išlaidų ataskaitą tiekėjo balansas būtų įrašytas tiekėjo valiuta.
 
 1. Eikite į **Darbo sritys**\>**Funkcijų tvarkymas**.
-2. Sąraše raskite ir pasirinkite **Galimybė registruoti grynųjų pinigų mokėjimo metodo** išlaidų įsipareigojimą tiekėjo valiuta, tada pasirinkite **Įgalinti dabar**.
+2. Sąraše raskite ir pasirinkite **Galimybė skelbti išlaidų įsipareigojimus tiekėjo valiuta naudojant mokėjimo grynaisiais pinigais būdą**, tada pasirinkite **Įjungti dabar**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

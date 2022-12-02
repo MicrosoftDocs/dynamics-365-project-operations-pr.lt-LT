@@ -1,6 +1,6 @@
 ---
 title: Išteklių užklausos pateikimas
-description: Kaip išteklių užklausą galite pateikti sugeneruotus išteklių reikalavimus. Tada užklausa siunčiama išteklių valdytojui, kad šis įvykdytų.
+description: Kaip išteklių užklausą galite pateikti sugeneruotus išteklių reikalavimus. Tada užklausa siunčiama Išteklių valdytojui, kad ją įvykdytų.
 author: ruhercul
 ms.date: 10/04/2020
 ms.topic: article
@@ -17,18 +17,18 @@ ms.locfileid: "9137191"
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
-Kaip išteklių užklausą galite pateikti sugeneruotus išteklių reikalavimus. Tada užklausa siunčiama išteklių valdytojui, kad šis įvykdytų.
+Kaip išteklių užklausą galite pateikti sugeneruotus išteklių reikalavimus. Tada užklausa siunčiama Išteklių valdytojui, kad ją įvykdytų.
 
 1. Programoje „Dynamics 365 Project Operations“, puslapyje **Projektai** pasirinkite skirtuką **Komanda**, kad peržiūrėtumėte rezercuojamų išteklių sąrašą. 
 2. Sąraše pažymėkite bendrąjį išteklių, kuriam taikomas išteklių reikalavimas, tada spustelėkite **Pateikti užklausą.**
 
 Bendrosios komandos nario užklausos būsena bus pakeista į **Pateikta**.
 
-Išteklių užklausos gavėjas turi galimybę iš dalies užpildyti užklausą naudodamas vieną ar daugiau išteklių arba visiškai įvykdyti išteklių užklausą.
+Išteklių užklausos gavėjas gali iš dalies visiškai įvykdyti užklausą naudodamas vieną ar daugiau išteklių ar visiškai įvykdyti išteklių užklausą.
 
-Įvykdžius užklausą, vienas ar daugiau įvardytų išteklių įtraukiami į projektą kaip projekto komandos nariai. Jei išteklių reikalavimą įvykdo vienas išteklius, su išteklių užklausa susietas bendrasis komandos narys panaikinamas. 
+Kai prašymas įvykdytas, į projektą kaip projekto komandos nariai įtraukiami vienas ar daugiau nurodytų išteklių. Jei išteklių reikalavimą įvykdė vienas išteklius, panaikinamas bendrosios komandos narys, susietas su ištekliaus užklausa. 
 
-Kai išteklių užklausos gavėjas pasiūlo išteklius ir yra pasirengęs projektų vadovui peržiūrėti pasiūlytus išteklius, jis turėtų atnaujinti išteklių užklausos būseną į **Poreikių peržiūra**.
+Kai išteklių užklausos gavėjas pasiūlys išteklius ir yra pasirengęs projektų vadovui peržiūrėti pasiūlytus išteklius, jis turėtų atnaujinti išteklių užklausos būseną į **Poreikių peržiūra**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

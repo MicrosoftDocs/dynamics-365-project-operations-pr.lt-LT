@@ -1,6 +1,6 @@
 ---
 title: Subrangos išteklių priskyrimų išlaidų vertinimas
-description: Šiame straipsnyje paaiškinama, kaip "Microsoft" Dynamics 365 Project Operations apskaičiuoja subrangos būdu atliktų išteklių priskyrimų išlaidų įvertinimą.
+description: Šiame straipsnyje paaiškinta, kaip „Microsoft Dynamics 365 Project Operations“ apskaičiuoja subrangos išteklių priskyrimų išlaidų vertinimą.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article
@@ -17,32 +17,32 @@ ms.locfileid: "9522666"
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
-Subrangovų projekto komandos narių užduočių priskyrimai įkainojami naudojant **pirkimo** kainoraštį, pridėtą prie subrangos sutarties, esantį susijusiame komandos nario įraše. Tai skiriasi nuo to, kaip įkainojami darbuotojų išteklių priskyrimai, kai darbuotojų išteklių užduočių priskyrimai įkainojami naudojant **išlaidų** kainoraštį, pridėtą prie projekto sutartinio vieneto. 
+Subrangos projekto komandos narių užduočių priskyrimai įkainojami naudojant **Pirkimo** kainoraštį, pridėtą prie subrangos sutarties, esančios atitinkamame komandos nario įraše. Tai skiriasi nuo to, kaip įkainojami darbuotojų išteklių priskyrimai, kai darbuotojų išteklių užduočių priskyrimai įkainojami naudojant **Savikainos** kainoraštį, pridėtą prie projekto sutartį sudarančio vieneto. 
 
-Bendrųjų projekto komandos narių, kurie yra subrangovai, priskyrimai įkainojami naudojant vaidmenimis pagrįstą kainos nustatymą pirkimo kainoraštyje, pridėtame prie subrangos sutarties. Pirkimo kainas taip pat galima nustatyti specialiai kiekvienam ištekliui. Šioms konkretaus ištekliaus kainoms bus teikiama pirmenybė, kai įvardytų projekto komandos narių, pagal sutartis dirbančių darbuotojų, užduočių priskyrimas bus įkainotas. 
+Subrangos bendrųjų komandos narių priskyrimai įkainojami naudojant vaidmenimis pagrįstą kainą, nustatytą pirkimo kainoraštyje, pridėtame prie subrangos sutarties. Taip pat galima nustatyti kiekvieno konkretaus ištekliaus pirkimo kainas. Šioms konkrečių išteklių kainoms bus teikiama pirmenybė, kai bus įkainojami nurodytų projekto komandos narių, kurie yra pagal sutartis dirbantys darbuotojai, užduočių priskyrimai. 
 
-Konkretaus vaidmens pirkimo kainos naudojimo prioritetas, palyginti su konkrečiais ištekliais, priklauso nuo kainodaros dimensijos prioriteto nustatymo parametruose **> suma pagrįstų kainodaros aspektų**.
+Pirmenybė naudoti konkrečių vaidmenų pirkimo kainą arba konkrečių išteklių suteikiama pagal įkainių dimensijos prioritetą, nustatytą **Parametrai >Suma pagrįstos kainodaros dimensijos**.
 
-Ši dinamiškai gaunamų kainų funkcija, pagrįsta subrangovų pirkimo kainų matmenų nustatymu, yra panaši į tai, kaip nustatomos visą darbo dieną dirbančių darbuotojų išlaidos ir sąskaitų tarifai. 
+Ši dinamiškai gaunamų kainų funkcija, kai kainos gaunamos remiantis subrangovų pirkimo kainų dimensijos nustatymu, yra panaši į tai, kaip gaunami visą dieną dirbančių darbuotojų savikainos ir sąskaitų tarifai. 
 
-## <a name="creating-task-assignments-for-getting-cost-estimates-of-subcontractor-resources"></a>Užduočių priskyrimų kūrimas subrangovų išteklių išlaidų sąmatoms gauti
+## <a name="creating-task-assignments-for-getting-cost-estimates-of-subcontractor-resources"></a>Užduočių priskyrimų kūrimas, norint gauti subrangovų išteklių savikainos įvertinimus
 
-Užduočių priskyrimus subrangovams galima sukurti dviem būdais: 
-- Skirtuko **Užduotys** naudojimas.
-- Skirtuko **Komanda** naudojimas.
+Rangovų užduočių priskyrimus galima sukurti dviem būdais: 
+- Naudojant skirtuką **Užduotys**.
+- Naudojant skirtuką **Komanda**.
 
-### <a name="creating-resources-assignments-using-the-tasks-tab"></a>Išteklių užduočių kūrimas naudojant skirtuką Užduotys
-**Naudodami konkrečios užduoties skirtuke** Užduotys **esantį sąrašą Ištekliai**, galite sukurti įvardyto ištekliaus arba bendrojo ištekliaus užduoties priskyrimą. Jei pasirenkate įvardytą išteklių užduoties **išplečiamajame sąraše Priskirti ištekliai** ir šis išteklius yra sutartininkas, pavadintas išteklius priskiriamas užduočiai ir sukuriamas atitinkamas projekto komandos nario įrašas, kurio darbuotojo tipas nustatytas kaip **Sutartinis darbuotojas**, o **Galiojimas** nustatytas kaip **Neteisingas**. Atlikdami kitą veiksmą, turėsite atidaryti projekto komandos nario įrašą ir pasirinkti subrangos ir subrangos liniją. Tai atnaujins užduoties priskyrimą, kad būtų nuoroda į subrangos ir subrangos liniją, taip pat atnaujins komandos nario būseną į **Galiojanti**.
+### <a name="creating-resources-assignments-using-the-tasks-tab"></a>Išteklių priskyrimų kūrimas naudojant skirtuką Užduotys
+Konkrečiai užduočiai naudodami sąrašą **Ištekliai**, esantį skirtuke **Užduotys**, galite sukurti užduoties priskyrimą įvardytajam ištekliui arba bendrajam ištekliui. Jei užduoties išplečiamajame sąraše **Priskirti ištekliai** pasirinksite įvardytąjį išteklių ir jis bus pagal sutartį dirbantis darbuotojas, tas įvardytasis išteklius bus priskirtas užduočiai ir bus sukurtas atitinkamas projekto komandos nario įrašas, kuriame darbuotojo tipas bus nustatytas kaip **Pagal sutartį dirbantis darbuotojas**, o **Galiojimas** – kaip **Negalioja**. Kitas veiksmas – turėsite atidaryti projekto komandos nario įrašą ir pasirinkti subrangos sutartį ir subrangos sutarties eilutę. Tokiu atveju bus atnaujintas užduoties priskyrimas, kad būtų nuoroda į subrangos sutartį ir subrangos sutarties eilutę, o komandos nario būseną bus atnaujinta į **Galioja**.
 
-Jei pasirinksite sukurti bendrąjį komandos narį iš užduoties išplečiamojo sąrašo **Priskirti ištekliai**, **dialogo lange Bendrieji komandos nario kūrimas** galėsite pasirinkti subrangos ir subrangos liniją. Kai užduočiai priskiriamas bendrasis išteklius ir sukuriamas atitinkamas projekto komandos nario įrašas, pastebėsite, kad projekto komandos nario įrašas sukuriamas, kai darbuotojo tipas nustatytas kaip **Sutartinis darbuotojas**, o **Galiojimas** nustatytas kaip **Galiojantis**.
+Jei užduoties išplečiamajame sąraše **Priskirti ištekliai** pasirinksite kurti bendrąjį komandos narį, dialogo lange **Bendrojo komandos nario kūrimas** galėsite pasirinkti subrangos sutartį ir subrangos sutarties eilutę. Kai užduočiai bus priskirtas bendrasis išteklius ir sukurtas atitinkamas projekto komandos nario įrašas, pastebėsite, kad projekto komandos nario įrašas sukuriamas nustatant darbuotojo tipą kaip **Pagal sutartį dirbantis darbuotojas**, o **Galiojimas** nustatant kaip **Galioja**.
 
 ### <a name="creating-project-team-members-using-the-team-tab"></a>Projekto komandos narių kūrimas naudojant skirtuką Komanda
-Naudodami projekto skirtuką Komanda, galite sukurti bendrinį arba pavadintą komandos narį. Kurdami komandos narį, galite pasirinkti subrangos ir subrangos liniją. Sukūrę komandos narį, turėsite priskirti komandos narį užduočiai naudodami **užduoties išplečiamąjį meniu Priskirti ištekliai**. 
+Projekto skirtuke Komanda galite sukurti bendrąjį arba įvardintąjį komandos narį. Kurdami komandos narį, galite pasirinkti subrangos sutartį ir subrangos sutarties eilutę. Kai komandos narys bus sukurtas, turėsite jį priskirti užduočiai naudodami išplečiamąjį sąrašą **Priskirti ištekliai**. 
 
-## <a name="updating-estimates"></a>Sąmatų atnaujinimas
-Priskyrę projekto komandos narius užduotims, turėsite pereiti į **projekto skirtuką Sąmatos ir pasirinkti** Naujinti kainas **, kad užtikrintumėte, jog subrangovų išteklių priskyrimų išlaidų tarifai būtų atnaujinti pagal pirkimo kainoraštį, pridėtą prie subrangos** sutarties. Įvertinimai negeneruojami nepriskirtoms užduotims programoje "Microsoft"Dynamics 365 Project Operations. Todėl turėsite sukurti užduočių priskyrimus, kad įkainotumėte ir įkainotumėte įvairias projekto užduotis. 
+## <a name="updating-estimates"></a>Įvertinimų atnaujinimas
+Kai projekto komandos narius priskirsite užduotims, turėsite pereiti į projekto skirtuką **Įvertinimai** ir pasirinkti **Atnaujinti kainas**, kad užtikrintumėte, jog subrangovo išteklių priskyrimų savikainos tarifai būtų atnaujinti pagal pirkimo kainoraštį, pridėtą prie subrangos sutarties. Programoje „Microsoft Dynamics 365 Project Operations“ nepriskirtų užduočių įvertinimai negeneruojami. Todėl turėsite sukurti užduočių priskyrimus, kad būtų nustatyta įvairių projekto užduočių kainai ir savikaina. 
 
-> [PASTABA!] Projekto komandos nariai, kurių darbuotojo tipas **yra** sutarties darbuotojas **,** bet neturi subrangos nuorodos, tinklelyje **"Project" komandos nariai** pažymėti kaip **netinkami**. Jei yra projekto komandos narių, turinčių šią būseną, atidarykite projekto komandos nario įrašą ir rankiniu būdu atnaujinkite subrangos ir subrangos linijos laukus, kad finansinių išlaidų sąmata tiksliai atspindėtų subrangovo išlaidas skirtuke **Sąmatos**. 
+> [PASTABA!] Projekto komandos nariai, kurių **Darbuotojo tipas** yra **Pagal sutartį dirbantis darbuotojas**, bet jie neturi subrangos sutarties nuorodos, tinklelyje **Projekto komandos nariai** pažymimi kaip **Negalioja**. Jei yra projekto komandos narių, kurių būsena tokia, atidarykite tokio projekto komandos nario įrašą ir rankiniu būdu atnaujinkite subrangos sutarties ir subrangos sutarties eilutės laukus, kad finansinių išlaidų įvertinimas tiksliai atspindėtų subrangovo išlaidas skirtuke **Įvertinimai**. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

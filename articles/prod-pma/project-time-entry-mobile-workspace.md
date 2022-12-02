@@ -1,6 +1,6 @@
 ---
 title: Mobilioji darbo sritis Projekto laiko įvedimas
-description: Šiame straipsnyje pateikiama informacija apie mobiliąją darbo sritį Projekto laiko įvedimas. Šioje darbo srityje vartotojai gali įvesti ir sutaupyti projekto laiko, naudodami mobiliuosius įrenginius.
+description: Šioje temoje pateikiama informacija apie mobiliąją Projekto laiko įvedimo darbo sritį. Šioje darbo srityje vartotojai gali įvesti ir sutaupyti projekto laiko, naudodami mobiliuosius įrenginius.
 author: Yowelle
 ms.date: 12/01/2017
 ms.topic: article
@@ -26,7 +26,7 @@ ms.locfileid: "9029678"
 
 [!include [banner](../includes/banner.md)]
 
-Šiame straipsnyje pateikiama informacija apie mobiliąją **darbo sritį Projekto laiko įvedimas**. Šioje darbo srityje vartotojai gali įvesti ir sutaupyti projekto laiko, naudodami mobiliuosius įrenginius.
+Šiame straipsnyje pateikiama informacija apie mobiliąją **projekto laiko įvedimo** darbo sritį. Šioje darbo srityje vartotojai gali įvesti ir sutaupyti projekto laiko, naudodami mobiliuosius įrenginius.
 
 Ši mobilioji darbo sritis skirta naudoti su „Dynamics 365“ bendrųjų operacijų mobiliųjų įrenginių programėle. 
 
@@ -44,7 +44,7 @@ Tiksliau sakant, mobiliojoje darbo srityje **Projekto laiko įvedimas** vartotoj
 ## <a name="prerequisites"></a>Būtinosios sąlygos
 Būtinosios sąlygos skiriasi atsižvelgiant į „Microsoft Dynamics 365“ versiją, įdiegtą organizacijoje.
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Būtinos sąlygos, jei naudojate Dynamics 365 Finance
+### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Būtinosios sąlygos, jei naudojate „Dynamics 365 Finance"
 Jei organizacijoje įdiegta „Finance“, sistemos administratorius turi publikuoti mobiliąją darbo sritį **Projekto laiko įvedimas**. Instrukcijų ieškokite skyriuje [Mobiliosios darbo srities publikavimas](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Būtinosios sąlygos, jei naudojama 1611 versija su 3 arba naujesnės versijos platforma
@@ -82,7 +82,7 @@ Jei organizacijoje įdiegta 1611 versija su 3 arba naujesnės versijos platforma
 
 ## <a name="download-and-install-the-mobile-app"></a>Mobiliųjų įrenginių programėlės atsisiuntimas ir įdiegimas
 
-Atsisiųskite ir įdiekite programą "Finance and Operations" mobiliesiems:
+Atsisiųskite ir įdiekite finansų ir operacijų mobiliųjų įrenginių programėlę:
 
 -   [Skirta telefonams „Android“](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Skirta telefonams „iPhone“](https://go.microsoft.com/fwlink/?linkid=850663)

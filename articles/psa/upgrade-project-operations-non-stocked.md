@@ -1,6 +1,6 @@
 ---
 title: Naujinimas iš „Project Service Automation“ į „Project Operations“
-description: Šiame straipsnyje apžvelgiamas versijos naujinimo iš Microsoft Dynamics 365 Project Service Automation į Dynamics 365 Project Operations.
+description: Šiame straipsnyje apžvelgiamas procesas, nuo iki „Microsoft Dynamics 365 Project Service Automation“ ir „Dynamics 365 Project Operations“.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 10/11/2022
@@ -16,144 +16,144 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 06a4de89be8176049d3a14a8c0d6427e228744ba
-ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
+ms.openlocfilehash: ac2435c99f3aa9b2a6cdb08d7ce5f6628e7f6ac4
+ms.sourcegitcommit: bea5f9b4066277344add1da3a1567ed56a0cfd31
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9709455"
+ms.lasthandoff: 11/02/2022
+ms.locfileid: "9736677"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Naujinimas iš „Project Service Automation“ į „Project Operations“
 
-Džiaugiamės galėdami pranešti apie antrąjį iš trijų atnaujinimo iš Microsoft Dynamics 365 Project Service Automation "Microsoft" etapų Dynamics 365 Project Operations. Šiame straipsnyje pateikiama apžvalga klientams, kurie leidžiasi į šią įdomią kelionę. 
+Džiaugiamės galėdami pranešti apie antrąjį iš trijų naujovinimo iš Microsoft Dynamics 365 Project Service Automation etapą į Microsoft Dynamics 365 Project Operations. Šiame straipsnyje apžvelgiami klientai, kurie šiuo įdomiu veiklos ciklu yra išsamūs. 
 
-Atnaujinimo pristatymo programa bus padalinta į tris etapus.
+Naujinimo pristatymo programa bus padalyta į tris etapus.
 
-| Versijos naujinimo pristatymas | 1 etapas (2022 m. sausio mėn.) | 2 etapas (2022 m. lapkričio mėn.) | 3 etapas (2023 m. balandžio banga)  |
+| Naujinimo pristatymas | 1 etapas (2022 m. sausis) | 2 etapas (2022 m. lapkričio mėn.) | 3 etapas (2023 m. balandžio mėn.)  |
 |------------------|------------------------|---------------------------|---------------------------|
-| Nėra priklausomybės nuo projektų darbo paskirstymo struktūros (WBS) | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| PBS pagal šiuo metu palaikomas "Project Operations" ribas | | :heavy_check_mark: | :heavy_check_mark: |
-| WBS už šiuo metu palaikomų "Project Operations" ribų, įskaitant "Project" darbalaukio kliento palaikymą | | | :heavy_check_mark: |
+| Projektų darbo struktūros (WBS) priklausomybė nuo darbo struktūros | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| WBS pagal šiuo metu palaikomus projektų vykdymo „Project Operations“ | | :heavy_check_mark: | :heavy_check_mark: |
+| WBS, esantis už šiuo metu palaikomų "Project Operations" apribojimų, įskaitant "Project Desktop Client" palaikymą | | | :heavy_check_mark: |
 
-## <a name="upgrade-process-features"></a>Atnaujinimo proceso funkcijos 
+## <a name="upgrade-process-features"></a>Naujinimo proceso funkcijos 
 
-Vykdydami versijos naujinimo procesą, į svetainės schemą įtraukėme versijos naujinimo žurnalus, kad administratoriai galėtų lengviau diagnozuoti gedimus. Be naujos sąsajos, bus pridėtos naujos patvirtinimo taisyklės, kad būtų užtikrintas duomenų vientisumas po atnaujinimo. Toliau nurodyti patvirtinimai bus įtraukti į versijos naujinimo procesą.
+Atnaujinę į svetainės struktūrą įtraukėme naujinimo žurnalų, kad administratoriai galėtų lengviau diagnozuoti triktis. Be naujos sąsajos, naujos tikrinimo taisyklės bus pridėtos siekiant užtikrinti duomenų vientisumą po atnaujinimo. Toliau nurodyti tikrinimas bus įtrauktas į naujinimo procesą.
 
-| Tikrinimą | 1 etapas (2022 m. sausio mėn.) | 2 etapas (2022 m. lapkričio mėn.) | 3 fazė  |
+| Tikrinimai | 1 etapas (2022 m. sausis) | 2 etapas (2022 m. lapkričio mėn.) | 3 etapas  |
 |-------------|------------------------|---------------------------|---------------------------|
-| WBS bus tikrinama pagal įprastus duomenų vientisumo pažeidimus (pvz., išteklių priskyrimus, susietus su ta pačia pirmine užduotimi, bet turinčius skirtingus pirminius projektus). | | :heavy_check_mark: | :heavy_check_mark: |
-| WBS bus patvirtintas pagal [žinomus "Project for the Web" apribojimus](/project-for-the-web/project-for-the-web-limits-and-boundaries). | | :heavy_check_mark: | :heavy_check_mark: |
-| WBS bus patikrintas pagal žinomus "Project" darbalaukio kliento apribojimus. | |  | :heavy_check_mark: |
-| Rezervuojami ištekliai ir projektų kalendoriai bus vertinami pagal bendrąsias nesuderinamas kalendoriaus taisyklių išimtis. | | :heavy_check_mark: | :heavy_check_mark: |
+| WBS bus tikrinama pagal bendrą duomenų vientisumo vientisumą (pvz., išteklių priskyrimai, susieti su ta pačia pirmine užduotimi, bet turi skirtingus pirminius projektus). | | :heavy_check_mark: | :heavy_check_mark: |
+| WBS bus tikrinamas pagal žinomas [Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries). | | :heavy_check_mark: | :heavy_check_mark: |
+| WBS bus tikrinamas pagal žinomas žiniatinklio "Project desktop client" ribas . | |  | :heavy_check_mark: |
+| Rezervuotini ištekliai ir projektų kalendoriai bus įvertinti atsižvelgiant į įprastas kalendoriaus taisyklių išimtis. | | :heavy_check_mark: | :heavy_check_mark: |
 
-2 etape klientai, kurie atnaujina į "Project Operations", atnaujins savo esamus projektus į tik skaitymo funkciją, skirtą projektų planavimui. Šioje tik skaitymo aplinkoje visas WBS bus matomas stebėjimo tinklelyje. Norėdami redaguoti WBS, projektų vadovai pagrindiniame projekto puslapyje gali pasirinkti [**Konvertuoti**](/PSA-Upgrade-Project-Conversion.md). Tada foninis procesas atnaujina projektą, kad jis palaikytų naują projekto planavimo patirtį iš "Project for the Web". Šis etapas tinka klientams, turintiems projektų, kurie atitinka [žinomas "Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries)" ribas.
+2 etape klientai, kurie atnaujins į "Project Operations", esamų projektų bus atnaujinti ir projektai bus planuojami tik skaityti. Naudojant šį tik skaitomą rodinį visas WBS bus matomas sekimo tinklelyje. Norėdami redaguoti WBS, projektų vadovai [**projekto**](/PSA-Upgrade-Project-Conversion.md) pagrindiniame puslapyje gali pažymėti Konvertuoti. Tada foninis procesas atnaujina projektą, kad jį naudojant būtų palaikoma nauja „Project for the Web“ planavimo iš žiniatinklio funkcija. Šis etapas tinka klientams, kurie turi projektus, kurie atitinka [žinomas „Project for the Web“](/project-for-the-web/project-for-the-web-limits-and-boundaries).
 
-3 etape bus pridėtas "Project" darbalaukio kliento palaikymas, kad būtų naudinga klientams, norintiems toliau redaguoti savo projektus iš tos programos. Tačiau jei esami projektai konvertuojami į naują žiniatinklio projektą, prieiga prie papildinio bus išjungta kiekvienam konvertuotam projektui.
+3 etape bus įtrauktas „Project Desktop client" palaikymas, naudingas klientams, kurie nori toliau redaguoti savo projektus iš tos programos. Tačiau, jei esami projektai konvertuojami į naują „Project for the Web" patirtį, prieiga prie papildinyje bus išjungta kiekvienam konvertuotam projektui.
 
 ## <a name="prerequisites"></a>Būtinosios sąlygos
 
-Kad galėtumėte gauti 1 etapo versijos naujinimą, turite atitikti šiuos kriterijus:
+Norėdami, kad būtų galima atnaujinti 1 etapą, turite atitikti šiuos kriterijus:
 
-- Paskirties aplinkoje neturi būti jokių įrašų **msdyn_projecttask** objekte.
-- Galiojančios "Project Operations" licencijos turi būti priskirtos visiems aktyviems vartotojams. 
-- Turite patikrinti versijos naujinimo procesą bent vienoje ne gamybos aplinkoje, kurioje yra reprezentatyvus duomenų rinkinys, suderintas su jūsų gamybos aplinka.
-- Paskirties aplinka turi būti atnaujinta į "Project Service Automation Update Release 37" (V3.10.58.120) arba naujesnę versiją.
+- Paskirties aplinkoje neturi būti jokių objekto **msdyn_projecttask** įrašų.
+- Tinkamas "Project Operations" licencijas reikia priskirti visiems aktyviems vartotojams. 
+- Turite patikrinti naujinimo procesą bent vienoje ne gamybos aplinkoje, kurioje yra jūsų gamybos aplinką sutapęs atstovas duomenų rinkinys.
+- Paskirties aplinka turi būti atnaujinta į "Project Service Automation" 37 naujinimo leidimą (V3.10.58.120) arba naujesnę versiją.
 
-Kad galėtumėte gauti 2 etapo versijos naujinimą, turite atitikti šiuos kriterijus:
+Norėdami, kad būtų galima atnaujinti 2 etapą, turite atitikti šiuos kriterijus:
 
-- Galiojančios "Project Operations" licencijos turi būti priskirtos visiems aktyviems vartotojams. 
-- Turite patikrinti versijos naujinimo procesą bent vienoje ne gamybos aplinkoje, kurioje yra reprezentatyvus duomenų rinkinys, suderintas su jūsų gamybos aplinka.
-- Paskirties aplinka turi būti atnaujinta į "Project Service Automation Update Release 37" (V3.10.58.120) arba naujesnę versiją.
-- Aplinkos, kuriose yra užduočių (msdyn_projecttask), palaikomos tik tuo atveju, jei bendras vieno projekto užduočių skaičius yra 500 arba mažiau.
+- Tinkamas "Project Operations" licencijas reikia priskirti visiems aktyviems vartotojams. 
+- Turite patikrinti naujinimo procesą bent vienoje ne gamybos aplinkoje, kurioje yra jūsų gamybos aplinką sutapęs atstovas duomenų rinkinys.
+- Paskirties aplinka turi būti atnaujinta į "Project Service Automation" 37 naujinimo leidimą (V3.10.58.120) arba naujesnę versiją.
+- Aplinkos, kuriose yra užduočių (msdyn_projecttask) yra palaikomos tik jei bendras projekto užduočių skaičius yra 500 ar mažiau.
 
-3 etapo būtinosios sąlygos bus atnaujintos artėjant bendrajai pasiekiamumo datai.
+Būtinosios 3 etapo sąlygos bus atnaujintos kaip bendrosios prieinamumo datos.
 
 ## <a name="licensing"></a>Licencijavimas
 
-Jei turite aktyvias "Project Service Automation" licencijas, galite įdiegti ir naudoti "Project Operations", kuri apima visas "Project Service Automation" galimybes ir kt. Tokiu būdu galite išbandyti "Project Operations" galimybes, kol toliau naudojate "Project Service Automation" gamyboje. Pasibaigus "Project Service Automation" licencijų galiojimo laikui, turėsite pereiti prie "Project Operations". Planuodami šį perėjimą turite atsižvelgti į tai, kad "Project Operations" licencijoje nėra "Project Service Automation" licencijos. Klientai, turintys scenarijų, kai įdiegė "Project Service Automation" ir kuriems reikia toliau naudoti arba didinti PSA licencijas, kol jie planuoja pereiti prie "Project Operations", gali prašyti laikinų PSA licencijų, pagrįstų įsigytomis "Project Operations" licencijomis. Viena "Project Service Automation" licencija bus išduota vienai "Project Operations" licencijai. Laikinųjų PSA licencijų galima prašyti naudojant šią nuorodą: aka.ms/ineedpsa
+Jei turite aktyvias "Project Service Automation" licencijas, galite įdiegti ir naudoti „Project Operations", į kurią įtrauktos visos „Project Service Automation" galimybės ir kt. Tokiu būdu galite patikrinti "Project Operations" galimybes ir toliau naudoti "Project Service Automation" gamybai. Pasibaigus "Project Service Automation" licencijų galiojimui turėsite pereiti prie "Project Operations". Planuokite šį perėjimą, turite atsižvelgti į tai, kad "Project Operations" licencijoje nėra "Project Service Automation" licencijos. Klientai, kurie turi scenarijų, kai jie dislokavo "Project Service Automation" ir turi toliau naudoti arba padidinti PSA licencijas, kol ketina pereiti prie "Project Operations", gali prašyti laikinųjų PSA licencijų pagal įsigytas "Project Operations" licencijas. Viena "Project Service Automation" licencija bus viena "Project Operations" licencija. Laikinųjų PSA licencijų gali būti paprašyta naudojant šį saitą: aka.ms/ineedpsa
 
-## <a name="testing-and-refactoring-customizations"></a>Tinkinimų testavimas ir pertvarkymas
+## <a name="testing-and-refactoring-customizations"></a>Tinkinimų tikrinimas ir pergaminimas
 
-Pirmiausia importuokite visus tinkinimus į švarią "Project Operations" ("Lite") aplinką, kad patvirtintumėte, jog importavimas yra sėkmingas ir kad verslo operacijos veikia taip, kaip tikėtasi.
+Pradinis taškas – visus tinkinimus importuokite į švarią "Project Operations" (Lite) aplinką, kad įsitikintų, jog importas sėkmingas ir kad verslo operacijos veikia taip, kaip tikėjotės.
 
-Štai keletas dalykų, į kuriuos reikia atkreipti dėmesį:
+Toliau pateikiami keli dalykai, kurių reikia norint sužinoti:
 
-- Importuoti gali nepavykti, nes trūksta priklausomybių. Kitaip tariant, tinkinimų nuorodų laukai arba kiti komponentai, kurie buvo pašalinti iš "Project Operations". Tokiu atveju pašalinkite šias priklausomybes iš kūrimo aplinkos.
-- Jei jūsų nevaldomuosiuose ir valdomuosiuose sprendimuose yra komponentų, kurie nėra tinkinami, pašalinkite tuos komponentus iš sprendimo. Pavyzdžiui, kai tinkinate **projekto** objektą, į sprendimą įtraukite tik objekto antraštę. Neįtraukite visų laukų. Jei anksčiau įtraukėte visus subkomponentus, gali tekti rankiniu būdu sukurti naują sprendimą ir į jį įtraukti atitinkamų komponentų.
-- Formos ir rodiniai gali būti rodomi ne taip, kaip tikėtasi. Tam tikromis aplinkybėmis, jei tinkinote bet kurią iš anksto parengtų naudoti formų ar rodinių, tinkinimai gali neleisti įsigalioti naujiems "Project Operations" naujinimams. Jei norite nustatyti šias problemas, rekomenduojame kartu peržiūrėti švarų "Project Operations" diegimą ir "Project Operations" diegimą, kuris apima jūsų tinkinimus. Palyginkite dažniausiai įmonėje naudojamas formas, kad patvirtintumėte, jog jūsų formos versija vis dar yra prasminga ir jos netrūksta švarioje formos versijoje. Atlikite to paties tipo gretutines visų tinkintų rodinių peržiūras.
-- Verslo logika vykdymo metu gali nepavykti. Kadangi nuorodos į papildinių laukus importavimo metu nėra tikrinamos, verslo logika gali nepavykti dėl nuorodų į nebeegzistuojančius laukus ir galite gauti klaidos pranešimą, panašų į šį pavyzdį: "'Project' objekte nėra atributo su Name = 'msdyn_plannedhours' ir NameMapping = 'Logical'." Tokiu atveju modifikuokite tinkinimus, kad jie naudotų naujus laukus. Jei papildinio logikoje naudojate automatiškai sugeneruotas tarpinio serverio klases ir stiprias tipo nuorodas, apsvarstykite galimybę atkurti tuos tarpinius serverius iš švaraus diegimo. Tokiu būdu galite lengvai nustatyti visas vietas, kuriose papildiniai priklauso nuo nebenaudojamų laukų.
+- Importuoti gali nepavykti, nes trūksta priklausomybių. Kitaip tariant, tinkinimų nuorodos laukai arba kiti komponentai, pašalinti "Project Operations". Tokiu atveju pašalinkite šias priklausomybes iš programavimo aplinkos.
+- Jei jūsų nevaldomasis ir valdomasis sprendimai apima netinkintus komponentus, pašalinkite šiuos komponentus iš sprendimo. Pavyzdžiui, kai tinkinate projekto **objektą**, į savo sprendimą įtraukite tik objekto antraštę. Neį įtraukite ne visus laukus. Jei anksčiau įtraukėte visus antrinius komponentus, gali tekti rankiniu būdu sukurti naują sprendimą ir į jį įtraukti aktualių komponentų.
+- Formos ir rodiniai gali būti rodomi ne taip, kaip tikėjotės. Kai kuriais atvejais, jei tinkinote kurią nors iš anksto nustatyta formas arba rodinius, tinkinimai gali neleisti pritaikyti naujų "Project Operations" naujinimų. Kad būtų nustatytos šios problemos, rekomenduojame greta peržiūrėti švarų "Project Operations" diegimą ir "Project Operations" diegimą, kuriame yra jūsų tinkinimai. Palyginkite dažniausiai naudojamas verslo formas ir patvirtinkite, kad jūsų formos versija vis dar prasminga ir kad švarioje formos versijoje kažko nėra. Atlikite to paties tipo tinkintų rodinių peržiūrą greta.
+- Pa vykdymo metu gali nepavykti verslo logika. Kadangi nuorodos į laukus jūsų papilduose importavimo metu nėra tikrintos, verslo logika gali nepavykti dėl nuorodų į laukus, kurių nebėra, ir galite gauti klaidos pranešimą, kuriame pateikiamas toks pavyzdys: "Projektui" nėra atributo, kurio pavadinimas = "msdyn_plannedhours" ir "NameMapping " = "Loginis". Tokiu atveju modifikuokite tinkinimus, kad jie galėtų naudoti naujus laukus. Jei savo papildinio logioje naudojate automatiškai sugeneruotas "susietos" ir "susiakime" tipo nuorodas, apsvarstykite galimybę išvalyti tuos iš švarios įdiegties serverius. Tokiu būdu galite lengvai identifikuoti visas vietas, kur jūsų priedai priklauso nuo nebenaudojami laukai.
 
-Atnaujinę tinkinimus, kad būtų galima švariai importuoti "Project Operations", pereikite prie tolesnių veiksmų.
+Atnaujinę tinkinimus, kad būtų galima švariai importuoti "Project Operations", pereikite prie kitų veiksmų.
 
-## <a name="end-to-end-testing-in-development-environments"></a>Ištisinis testavimas kūrimo aplinkose
+## <a name="end-to-end-testing-in-development-environments"></a>Tikrinimas nuo pabaigos programavimo aplinkose
 
-### <a name="initiate-upgrade"></a>Versijos naujinimo inicijavimas 
+### <a name="initiate-upgrade"></a>Inicijuoti atnaujinimą 
 
-1. Power Platform Administravimo centre raskite ir pasirinkite savo aplinką. Tada programose raskite ir pasirinkite **Dynamics 365 Project Operations**.
-2. Pasirinkite **Įdiegti**, kad pradėtumėte naujinimą. Administravimo Power Platform centras pateiks šį diegimą kaip naują diegimą. Tačiau bus aptikta ankstesnė "Project Service Automation" versija, o esamas diegimas bus atnaujintas.
+1. Nueikite į Power Platform administravimo centrą adresu, ir suraskite bei pasirinkite savo aplinką. Tada programose suraskite ir rinkitės **Dynamics 365 Project Operations**.
+2. Rinkitės **Diegti** jei norite pradėti naujinti. Administravimo Power Platform centras pateiks šį diegimą kaip naują diegimą. Tačiau bus aptikta senesnė „Project Service Automation" versija ir bus atnaujinta esama įdiegtis.
 
-    Baigus naujinti versiją, aplinkoje turėtų būti rodoma, kad įdiegta "Project Operations" ir kad neįdiegta "Project Service Automation".
+    Kai naujinimas bus baigtas, aplinkoje turi būti rodoma, kad įdiegta „Project Operations" ir neįdiegta „Project Service Automation".
 
-    Atsižvelgiant į duomenų kiekį aplinkoje, versijos naujinimas gali užtrukti kelias valandas. Pagrindinė komanda, valdanti naujinimą, turėtų atitinkamai planuoti ir vykdyti naujinimą ne darbo valandomis. Kai kuriais atvejais, jei duomenų kiekis yra didelis, atnaujinimas turėtų būti vykdomas savaitgalį. Sprendimas dėl planavimo turėtų būti pagrįstas bandymų rezultatais žemesnėse aplinkose.
+    Priklausomai nuo duomenų sumos aplinkoje, naujinimas gali užtrukti kelias valandas. Pagrindinė komanda, valdanti atnaujinimą, turi atitinkamai planuoti ir vykdyti atnaujinimą ne darbo valandomis. Kai kuriais atvejais, jei duomenų apimtis yra didelė, plėtotė turi būti vykdoma naudojant ne darbo laiką. Sprendimas dėl planavimo turėtų būti pagrįstas bandymų rezultatais apatinėje aplinkoje.
 
-3. Jei reikia, atnaujinkite pasirinktinius sprendimus. Šiuo metu visus atliktus tinkinimų [keitimus įdiekite šio straipsnio skyriuje Tinkinimų](#testing-and-refactoring-customizations) tikrinimas ir pertvarkymas.
-4. Eikite į **Parametrų** \> **sprendimai** ir pasirinkite, kad pašalintumėte **"Project Operations" nebenaudojamų komponentų** sprendimą.
+3. Atitinkamai atnaujinkite pasirinktinius sprendimus. Šiuo metu šio straipsnio skyriuje [Tikrinimas ir pertvarkymai](#testing-and-refactoring-customizations) įdiekite visus tinkinimų pakeitimus.
+4. Eikite į **make.powerapps.com**, rinkitės savo aplinką iš iškritusio meniu dešinėje viršuje portalo, rinkitės **Sprendimai** kairiajame meniu, rinkitės **Project Operations nerekomenduojami komponentai** sprendimą ir **Išdiegti**.
 
-    Šis sprendimas yra laikinas sprendimas, kuriame saugomas esamas duomenų modelis ir komponentai, esantys naujinant versiją. Pašalindami šį sprendimą, pašalinate visus nebenaudojamus laukus ir komponentus. Tokiu būdu jūs padedate supaprastinti sąsają ir palengvinti integraciją bei plėtinį.
+    Šis sprendimas yra laikinas sprendimas, kuriame yra esamas duomenų modelis ir komponentai, pateikiami naujinant. Pašalindami šį sprendimą pašalinsite visus nebenaudojami laukus ir komponentus. Tokiu būdu galite supaprastinti sąsają ir palengvinti integravimą bei plėtinius.
     
-### <a name="upgrade-to-project-operations-lite"></a>Atnaujinimas į "Project Operations Lite"
+### <a name="upgrade-to-project-operations-lite"></a>Naujinti į „Project Operations Lite“
 
-Šie veiksmai apibūdina versijos naujinimo procesą ir susijusį klaidų registravimą:
+Toliau aprašyti naujinimo procesas ir susietas klaidų registravimas:
 
-1. **PSA versijos patikrinimas:** Norėdami įdiegti "Project Operations", turite turėti V3.10.58.120 arba naujesnę versiją.
-1. **Išankstinis tikrinimas:** kai administratorius inicijuoja versijos naujinimą, sistema vykdo išankstinio tikrinimo operaciją su kiekvienu objektu, kuris yra pagrindinis projekto operacijų sprendimo elementas. Atliekant šį veiksmą patikrinama, ar visos objektų nuorodos yra galiojančios, ir užtikrinama, kad duomenys, susiję su WBS, neviršytų publikuotų "Project for the Web" ribų.
-1. **Metaduomenų atnaujinimas:** po sėkmingo išankstinio patvirtinimo sistema inicijuoja schemos pakeitimus ir sukuria nebenaudojamų komponentų sprendimą. Šį nebenaudojamą sprendimą galite pašalinti atlikę visus reikiamus tinkinimų pertvarkymus. Šis veiksmas yra ilgiausia versijos naujinimo proceso dalis ir gali užtrukti iki keturių valandų.
-1. **Duomenų atnaujinimas:** atlikus visus būtinus schemos pakeitimus metaduomenų atnaujinimo veiksme, jūsų duomenys perkeliami į naują schemą ir atliekami visi būtini numatytieji ir perskaičiavimai.
-1. **Projekto grafiko modulio naujinimas:** sėkmingai atnaujinus duomenis, **pagrindinio puslapio skirtukas Tvarkaraštis** iš naujo **pažymimas kaip Užduotys**. Kai vartotojas pasirenka šį skirtuką po atnaujinimo, jam nurodoma pereiti į stebėjimo tinklelį, kad peržiūrėtų tik skaityti skirtą WBS versiją. Norėdami redaguoti WBS, jie turi pradėti tvarkaraščio [konvertavimo procesą](/PSA-Upgrade-Project-Conversion.md). Visi projektai, kuriuose nėra iš anksto nustatytos WBS, gali naudoti naują planavimo funkciją tiesiogiai, be konvertavimo.
+1. **PSA versijos tikrinimas:** norint įdiegti "Project Operations", reikia turėti V3.10.58.120 aukštesnę versiją.
+1. **Išankstinis tikrinimas:** kai administratorius inicijuoja atnaujinimą, sistema vykdo kiekvieno objekto, kuris yra pagrindinis „Project Operations“ sprendimo objektas, išankstinio tikrinimo operaciją. Šis veiksmas patikrina, ar visos objektų nuorodos yra tinkamos ir užtikrina, kad su WBS susiję duomenys yra paskelbti „Project for the Web“ limituose.
+1. **Metaduomenų naujinimas.** Sėkmingai atlikusi išankstinio patikrinimo procesą sistema iniciuoja schemos pakeitimus ir sukuria nebenaudojamų komponentų sprendimą. Baigę atlikti visus reikiamus tinkinimų veiksmus, galite pašalinti šį nebenaudojamą sprendimą. Šis veiksmas yra ilgiausią naujinimo proceso dalį ir gali užtrukti iki keturių valandų.
+1. **Duomenų naujinimas:** atlikus visus reikiamus schemos pakeitimus metaduomenų naujinimo žingsnyje jūsų duomenys perkeliami į naują schemą ir atliekami visi būtini numatytieji ir perskaičiavimai.
+1. **Projekto grafiko modulio naujinimas:** sėkmingai atnaujinus duomenis **pagrindiniame** puslapyje skirtukas Grafikas yra iš naujo ženkluotos **užduotys**. Kai vartotojas pasirenka šį skirtuką po atnaujinimo, jis nukreipiamas į stebėjimo tinklelį ir peržiūrėti WBS versiją, tik skaitomą. Norėdami redaguoti WBS, jie turi pradėti grafiko [konvertavimo procesą](/PSA-Upgrade-Project-Conversion.md). Visi projektai, neturintys iš anksto esamo WBS, gali tiesiogiai naudoti naują planavimo funkciją be konvertavimo.
  
-### <a name="validate-common-scenarios"></a>Įprastų scenarijų tikrinimas
+### <a name="validate-common-scenarios"></a>Patvirtinti bendrus scenarijus
 
-Kai tikrinate konkrečius tinkinimus, rekomenduojame taip pat peržiūrėti verslo procesus, kurie palaikomi visose programose. Šie verslo procesai apima (bet tuo neapsiribojama) pardavimo objektų, pvz., pasiūlymų ir sutarčių, kūrimą ir projektų, apimančių WBS ir faktinių duomenų patvirtinimą, kūrimą.
+Kai patikrinate konkrečius tinkinimus, rekomenduojame peržiūrėti ir visose programose palaikomus veiklos procesus. Šie verslo procesai apima, bet tuo neapsiribojant, pardavimo objektų, pvz., pasiūlymų ir sutarčių, kūrimą ir projektų, kuriuose yra WBS, kūrimą ir faktinių duomenų patvirtinimą.
 
-## <a name="major-changes-between-project-service-automation-and-project-operations"></a>Pagrindiniai pakeitimai tarp "Project Service Automation" ir "Project Operations"
+## <a name="major-changes-between-project-service-automation-and-project-operations"></a>Pagrindiniai pokyčiai lyginant „Project Service Automation“ ir „Project Operations“
 
-Šiame skyriuje pateikiama pagrindinių pakeitimų, kurių galite tikėtis tarp "Project Service Automation" ir "Project Operations", suvestinė.
+Šiame skyriuje pateikiama pagrindinių pakeitimų, kuriuos galite tikėtis tarp "Project Service Automation" ir "Project Operations", suvestinė.
 
 ### <a name="project-planning"></a>Projekto planavimas
 
-"Project Operations" projekto planavimo galimybės nebepriklauso nuo kliento ir serverio logikos derinio. Vietoj to, "Project Operations" naudoja "Project for the Web" kaip planavimo modulį. Šis planavimo galimybių pakeitimas įgalina keletą naujų funkcijų, pvz., lentos ir Ganto rodinius, ištekliais pagrįstą planavimą, [užduočių kontrolinio sąrašo elementus](https://support.microsoft.com/office/use-task-checklists-in-microsoft-project-for-the-web-c69bcf73-5c75-4ad3-9893-6d6f92360e9c) ir projektų planavimo režimus. Naujas planavimo galimybes taip pat palaiko gausus naujų [programų programavimo sąsajų (API)](../project-management/schedule-api-preview.md) rinkinys. Šios API skirtos padėti užtikrinti, kad jokia programinė WBS objekto kūrimo, naujinimo ar naikinimo operacija nesugadintų grafiko apskaičiuotųjų laukų.
+Projektų planavimo galimybės "Project Operations" nebenaudojamos kartu su kliento logika ir serverio logika. Vietoj to "Project Operations" naudoja "Project for the Web" kaip planavimo modulio funkciją. Šis planavimo galimybių keitimas leidžia naudoti kelias naujas funkcijas, pvz., [rodinius Lenta ir I. G. G](https://support.microsoft.com/office/use-task-checklists-in-microsoft-project-for-the-web-c69bcf73-5c75-4ad3-9893-6d6f92360e9c). I. G. G. O. O. Naujas planavimo galimybes taip pat palaiko gausus naujų programų [programavimo sąsajų (API) rinkinys](../project-management/schedule-api-preview.md). Šios API skirtos padėti užtikrinti, kad jokia programinė objekto kūrimo, naujinimo ar naikinimo operacija WBS sugadins tvarkaraščio apskaičiuotus laukus.
 
 ### <a name="billing-and-pricing"></a>Sąskaitų siuntimas ir kainodara
 
-Tęsiant investicijas į "Project Operations", yra keletas naujų atsiskaitymo ir kainodaros galimybių. Štai keli pavyzdžiai:
+"Project Operations" yra vienas iš indingų ir nauji atsiskaitymo ir kainodaros galimybių. Štai keli pavyzdžiai:
 
-- [Medžiagos naudojimo įrašymas projektuose ir projekto užduotyse](../material/material-usage-log.md)
-- [Subrangos sutarčių valdymas](../pro/subcontracting/managing-subcontracts-overview.md)
+- [Medžiagų naudojimo projektuose ir projekto užduotyse įrašymas](../material/material-usage-log.md)
+- [Subrangos sutarties valdymas](../pro/subcontracting/managing-subcontracts-overview.md)
 - [Išankstinės arba išankstiniais apmokėjimais pagrįstos sutartys](../pro/sales/set-up-advances-retainer-based-contracts-sales.md)
-- [Sutarties neviršijimo statusas ir patvirtinimai](../pro/proforma-invoicing/manage-nte-status-validations-sales.md)
+- [Neviršijimo būsenos ir tikrinimų sutartis](../pro/proforma-invoicing/manage-nte-status-validations-sales.md)
 - Užduotimis pagrįstas atsiskaitymas
 
 ### <a name="resource-management"></a>Išteklių valdymas
 
-"Project Operations" teikia pasirinktinį (URS) plokštės ir planavimo asistento Universal Resource Scheduling palaikymą. Ši nauja patirtis taps privaloma 2023 m. balandžio mėn.
+"Project Operations" teikia pasirenkamą Universal Resource Scheduling (URS) lentos ir planavimo asistento palaikymą. Ši nauja patirtis taps privaloma 2023 m. balandžio mėn.
 
 ## <a name="frequently-asked-questions"></a>Dažnai užduodami klausimai
 
-### <a name="which-deployment-types-are-currently-supported-for-upgrade"></a>Kokių tipų diegimai šiuo metu palaikomi naujinant versiją?
+### <a name="which-deployment-types-are-currently-supported-for-upgrade"></a>Kurie visuotinio diegimo tipai yra kol kas palaikomi naujinti?
 
 | Šaltinis                                                 | Vertimas                                                    | Būsena                  |
 |--------------------------------------------------------|-----------------------------------------------------------|-------------------------|
-| Project Service Automation                             | "Project Operations Lite" diegimas                        | Palaikomas               |
-| Dynamics 365 Finance Projektų valdymas ir apskaita | "Project Operations Lite" diegimas                        | Šiuo metu nepalaikoma |
-| Finansų projektų valdymas ir apskaita              | „Project Operations“, skirta išteklių / nelaikomų medžiagų scenarijams     | Šiuo metu nepalaikoma |
-| "Project Service Automation" 3.x                         | „Project Operations“, skirta išteklių / nelaikomų medžiagų scenarijams     | Šiuo metu nepalaikoma |
-| "Project for the Web" (speciali aplinka)            | "Project Operations Lite" diegimas                        | Šiuo metu nepalaikoma |
+| Project Service Automation                             | „Project Operations Lite visuotinis diegimas“                        | Palaikomas               |
+| Projektų valdymas ir apskaita „Dynamics 365 Finance” | „Project Operations Lite visuotinis diegimas“                        | Šiuo metu nepalaikoma |
+| „Finance“ projekto valdymas ir apskaita              | „Project Operations“, skirta išteklių / nelaikomų medžiagų scenarijams     | Šiuo metu nepalaikoma |
+| „Project Service Automation“ 3.x                         | „Project Operations“, skirta išteklių / nelaikomų medžiagų scenarijams     | Šiuo metu nepalaikoma |
+| „Project for the Web“ (paskirtosios aplinkos)            | „Project Operations Lite visuotinis diegimas“                        | Šiuo metu nepalaikoma |
 
-### <a name="how-can-i-install-project-operations-before-the-upgrade-tooling-is-available"></a>Kaip įdiegti "Project Operations", kol versijos naujinimo įrankiai dar neprieinami?
+### <a name="how-can-i-install-project-operations-before-the-upgrade-tooling-is-available"></a>Kaip įdiegti "Project Operations" prieš įdiegiant naujinimo įrankį?
 
-Yra dvi parinktys, kaip įdiegti "Project Operations" prieš pasiekiant naujinimo įrankius:
+Yra dvi "Project Operations" diegimo parinktys, kad būtų galima naudotis naujinimo įrankiais:
 
-- Naujos aplinkos kūrimas.
-- Įdiekite "Project Operations" atskirai bet kurioje pardavimo organizacijoje, kurioje nėra "Project Service Automation".
+- Naujos aplinkos parengimas.
+- „Project Operations" įdiekite atskirai bet kurioje pardavimo organizacijoje, kurioje nėra "Project Service Automation".
 
-Jei "Project Service Automation" įdiegta organizacijoje, bet nebuvo naudojama, ją galima pašalinti. Visiškai pašalinus "Project Service Automation", "Project Operations" galima įdiegti toje pačioje organizacijoje.
+Jei organizacijoje įdiegtas „Project Service Automation", tačiau jis nenaudotas, jį galima pašalinti. Kai visiškai pašalinsite „Project Service Automation", "Project Operations" bus galima įdiegti toje pačioje organizacijoje.

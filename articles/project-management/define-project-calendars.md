@@ -1,6 +1,6 @@
 ---
 title: Projekto kalendorių apibrėžimas
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip taikyti kalendoriaus šabloną projektui, kad būtų galima stebėti projekto tvarkaraštį.
+description: Šiame straipsnyje pateikiama informacijos apie tai, kaip projektui taikyti kalendoriaus šabloną projekto grafikui sekti.
 author: ruhercul
 ms.date: 02/05/2021
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Kas nauja 2022 m. rugpjūčio mėn. „Project Operations“ „Lite“ visuotinėje įdiegtyje
-description: Šiame straipsnyje pateikiama informacija apie kokybės naujinimus, kurie pasiekiami 2022 m. rugpjūčio mėnesio "Microsoft Lite" Dynamics 365 Project Operations diegimo leidime.
+description: Šioje temoje pateikiama informacija apie kokybės naujinimus, pasiekiamus 2022 m. rugpjūčio mėn. „Microsoft Dynamics 365 Project Operations“ lite talpinimas.
 author: ramagadu
 ms.date: 08/19/2022
 ms.topic: article
@@ -18,16 +18,16 @@ ms.locfileid: "9403914"
 
 _**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
 
-Šis straipsnis taikomas šiems "Microsoft" Dynamics 365 Project Operations komponentams ir versijoms:
+Šis straipsnis taikomas toliau nurodytiems „ Microsoft Dynamics 365 Project Operations“ komponentams ir versijoms:
 
-- "Project" operacijos Dataverse aplinkos versijos 4.45.0.53
+- „Project Operations“ 4.45.0.53 versijos „Dataverse“ aplinkoje
 
 ## <a name="quality-updates"></a>Kokybės naujinimai
 
 | Funkcijų sritis | Nuorodos numeris | Kokybės naujinimas |
 | --- | --- | --- |
-|  Galimybių valdymas | 2762089 | Klaidų tvarkymas nutraukiant sutartį kaip prarastą, jei automatinis įrašymas organizacijoje yra išjungtas.|
-|Projektų planavimas ir sekimas | 2767841 | Telemetrija atnaujina projekto objektą Kurti arba Naujinti scenarijus.|
-|Sąskaitų pateikimas ir kainodara | 2771072 | Nulinės nuorodos išimčių tvarkymas laimint pasiūlymą.|
-|Sąskaitų pateikimas ir kainodara | 2844181 |Nepavyko gauti koreliacijos ID ir užblokuoti sąskaitos faktūros sukūrimo.|
-|Sąskaitų pateikimas ir kainodara | 2852836 | Vidinės įmonės faktinės sumos trūkstamos vidinės įmonės išlaidoms, sukurtoms ir patvirtintoms CE.|
+|  Galimybių valdymas | 2762089 | Klaidos apdorojant sutartį kaip prarastą, jei organizacijos automatinio įrašymo funkcija išjungta.|
+|Projektų planavimas ir sekimas | 2767841 | Telemetrijos naujinimai projekto objekto kūrimo ar naujinimo scenarijai.|
+|Sąskaitų pateikimas ir kainodara | 2771072 | Nulinių nuorodų išimtų tvarkymas laimint pasiūlymą.|
+|Sąskaitų pateikimas ir kainodara | 2844181 |Nepavyko gauti susaistyto ID ir blokuoti sąskaitos faktūros kūrimo.|
+|Sąskaitų pateikimas ir kainodara | 2852836 | Tarpastautinių faktinių duomenų nėra, kad būtų sukurtos ir patvirtintos CE tarpusavio išlaidos.|

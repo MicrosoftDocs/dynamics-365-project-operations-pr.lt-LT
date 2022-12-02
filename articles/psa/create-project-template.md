@@ -35,21 +35,21 @@ Naudojant Projektų šablonus galima sutaupyti laiko, jei jūsų įmonė regulia
 ## <a name="components-of-project-template"></a>Projekto šablono komponentai
  Projekto šabloną sudaro trys toliau nurodyti komponentai.  
   
-- **Darbo paskirstymo struktūra**: darbo paskirstymo struktūrą projekto šablone sudaro tie patys elementai kaip ir projekte. Galite sukurti užduočių hierarchiją, susieti vaidmenis su užduotimi, apibrėžti grafiko atributus, nustatyti priklausomybes ir peržiūrėti visus Ganto duomenis. Projekto šablonų darbo paskirstymo struktūra taip pat palaiko kiekvienos užduoties užduočių režimus. Kuriant darbo grafiką nėra skirtumo tarp projekto šablono ir projekto.  
+- **Darbo paskirstymo struktūra**: darbo paskirstymo struktūrą projekto šablone sudaro tie patys elementai kaip ir projekte. Galite kurti užduočių hierarchiją, susieti vaidmenis su užduotimis, nustatyti grafiko atributus, nustatyti priklausomybes ir peržiūrėti visus Ganto diagramos duomenis. Projekto šablonų darbo paskirstymo struktūra taip pat palaiko visų užduočių režimus. Kuriant darbo grafiką, skirtumų tarp projekto šablono ir projekto nėra.  
   
 - **Projekto sąmatos**: projekto šablonų ir projektų sąmatos sudaromos pagal tokį patį principą, išskyrus tai, kad numatytųjų išlaidų kainoraščiai ir pardavimo kainos visada yra numatytosios išlaidos ir pardavimo kainų sąrašai, nustatyti „[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]“ parametruose. Kitos funkcijos yra tokios pat kaip projekte.  
   
 - **Projekto komandos formavimas**: formuojant projekto komandą projekto šablone, jame negalima užsisakyti pavadino ištekliaus. Galite naudoti parinktį **Generuoti projekto komandą** darbo paskirstymo struktūroje, kad sukurtumėte bendrųjų išteklių rinkinį. Taip pat galite nurodyti reikiamus bendrųjų išteklių įgūdžius ir kvalifikaciją. Projekto šablonuose bendrojo ištekliaus negalima pakeisti rezervuojamu ištekliumi.  
 
-## <a name="create-a-project-template-from-an-existing-project"></a>Projekto šablono kūrimas iš esamo projekto
-Projekto šabloną iš projekto galite sukurti šiais būdais:
+## <a name="create-a-project-template-from-an-existing-project"></a>Projekto šablono kūrimas pagal esamą projektą
+Kurti projekto šabloną iš projekto galima toliau nurodytais būdais.
 
-- **Darbo paskirstymo struktūra**: iš projekto išvesto šablono darbo paskirstymo struktūra nukopijuos visas užduotis ir priklausomybes. Sukurtos užduotys bus pagrįstos bendraisiais komandos nariais, kurie įtraukiami į projekto komandą kuriant projekto šabloną.
-- **Projekto įvertinimai**: kai projekto šablonas sukuriamas iš esamo projekto, šaltinio projekto įvertinimai nukopijuojami į projekto šabloną.
-- **Projekto komandos nariai**: kai šablonas sukuriamas iš esamo projekto, visi pavadinti komandos nariai pakeičiami bendruoju organizacijos ištekliumi. Išlaikomi visi pareigų pavadinimai ir vaidmenys.
+- **Darbo paskirstymo struktūra**: darbo paskirstymo struktūra šablone, išvestame iš projekto, bus nukopijuota į visas užduotis ir priklausomybes. Kuriami priskyrimai bus pagrįsti bendraisiais komandos nariais, kurie įtraukiami į projekto komandą kuriant projekto šabloną.
+- **Projekto įvertinimai**: kuriant projekto šabloną iš esamo projekto, į projekto šabloną nukopijuojami šaltinio projekto įvertinimai.
+- **Projekto komandos nariai**: kuriant šabloną iš esamo projekto, visi įvardintieji komandos nariai pakeičiami organizacijos bendraisiais ištekliais. Išlaikomi visi pareigų pavadinimai ir vaidmenys.
 
 ## <a name="create-a-project-from-a-template"></a>Projekto kūrimas pagal šabloną  
- Galite sukurti projektą iš šablono šiais būdais:  
+ Projektą kurti iš šablono galima toliau nurodytais būdais.  
   
 -   Kurdami projektą pagal pasiūlymą, projekto šabloną galite pasirinkti projekto sparčiojo kūrimo formoje.  
   

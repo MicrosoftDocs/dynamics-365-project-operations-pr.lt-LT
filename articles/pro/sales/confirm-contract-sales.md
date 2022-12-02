@@ -1,6 +1,6 @@
 ---
 title: Projekto sutarties patvirtinimas
-description: Šiame straipsnyje pateikiama informacija, kaip patvirtinti sutartį programoje "Project Operations".
+description: Šiame straipsnyje pateikta informacija, kaip patvirtinti sutartį programoje „Project Operations“.
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article

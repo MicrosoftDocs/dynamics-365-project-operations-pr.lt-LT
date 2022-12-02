@@ -1,6 +1,6 @@
 ---
 title: Projekto etapai
-description: Šiame straipsnyje pateikiama informacija apie projekto etapus, pasiekiamus " Microsoft Dynamics Project Operations".
+description: Šiame straipsnyje pateikta informacija apie „Microsoft Dynamics Project Operations“ galimus projektų etapus.
 author: ruhercul
 ms.date: 09/18/2020
 ms.topic: article
@@ -47,7 +47,7 @@ Kai projektą susiejate su pasiūlymu ar jį sukuriate iš pasiūlymo, projekto 
 
 ## <a name="plan"></a>Planas
 
-Kai laimite su projektu susietą pasiūlymą ir kai bendravimas išsiplėtoja iki etapo **Sutartis**, projekto etapas atnaujinamas į **Planas**. Kol projektas yra **plano etape,** puslapio Projekto objektas **skirtuke Pardavimas** **rodoma** išsami sutarties informacija.
+Kai laimite su projektu susietą pasiūlymą ir kai bendravimas išsiplėtoja iki etapo **Sutartis**, projekto etapas atnaujinamas į **Planas**. Kai projektas yra etape **Planas**, skirtuke **Pardavimas**, puslapyje **Projekto objektas**, rodoma išsami informacija apie sutartį.
 
 ## <a name="deliver"></a>Pristatyti
 

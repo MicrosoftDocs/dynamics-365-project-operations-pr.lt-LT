@@ -1,6 +1,6 @@
 ---
-title: Sinchronizuokite projekto užduotis tiesiai iš "Project Service Automation" į finansus ir operacijas
-description: Šiame straipsnyje aprašomas šablonas ir pagrindinė užduotis, naudojami projekto užduotims tiesiogiai sinchronizuoti iš Microsoft Dynamics 365 Project Service Automation Dynamics 365 Finance.
+title: Sinchronizuoti projektų užduotis tiesiai iš „Project Service Automation“ į finansų ir operacijų sritį
+description: Šiame straipsnyje aprašomas šablonas ir pagrindinė užduotis, naudojama norint sinchronizuoti projekto užduotis tiesiogiai iš „Microsoft Dynamics 365 Project Service Automation“ į „Dynamics 365 Finance“.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -21,11 +21,11 @@ ms.contentlocale: lt-LT
 ms.lasthandoff: 06/18/2022
 ms.locfileid: "9028371"
 ---
-# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Sinchronizuokite projekto užduotis tiesiai iš "Project Service Automation" į finansus ir operacijas
+# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Sinchronizuoti projektų užduotis tiesiai iš „Project Service Automation“ į finansų ir operacijų sritį
 
 [!include[banner](../includes/banner.md)]
 
-Šiame straipsnyje aprašomas šablonas ir pagrindinė užduotis, naudojami projekto užduotims tiesiogiai sinchronizuoti iš Dynamics 365 Project Service Automation Dynamics 365 Finance.
+Šiame straipsnyje aprašomas šablonas ir pagrindinė užduotis, naudojama norint sinchronizuoti projekto užduotis tiesiogiai iš „Dynamics 365 Project Service Automation“ į „Dynamics 365 Finance“.
 
 > [!NOTE]
 > - Projekto užduočių integravimas, išlaidų operacijų kategorijos, valandų įvertinimas, išlaidų įvertinimas ir funkcijų blokavimas prieinami 8.0 versijoje.
@@ -67,11 +67,11 @@ Prieš atliekant projekto užduočių sinchronizavimą, reikia sinchronizuoti pr
 
 ## <a name="power-query"></a>Power Query
 
-Turite naudoti "Microsoft for Excel" Power Query, kad filtruotumėte duomenis, jei ši sąlyga įvykdyta:
+Norėdami filtruoti duomenis, jei patenkinama toliau pateikiama sąlyga, turite naudoti „Microsoft Power Query“, skirtą programai „Excel“.
 
 - Projekto užduotyje yra ištekliams būdingų įrašų.
 
-Jei turite naudoti Power Query, vadovaukitės šiomis gairėmis:
+Jei reikia naudoti „Power Query“, vadovaukitės toliau pateikiamu nurodymu:
 
 - Projektų užduočių (PSA į „Fin and Ops“) šablone yra numatytasis filtras, neįtraukiantis ištekliams būdingų įrašų į projekto užduotį, nustatydamas filtro **IsLineTask** reikšmę **Klaidinga**. Kurdami savo šabloną, turite įtraukti šį filtrą.
 

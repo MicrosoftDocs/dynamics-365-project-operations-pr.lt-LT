@@ -1,6 +1,6 @@
 ---
-title: Šiuolaikinių patvirtinimų atnaujinimo aspektai
-description: Straipsnyje aptariami klausimai, į kuriuos administratoriai turėtų atsižvelgti, kai įjungia šiuolaikinių patvirtinimų funkciją.
+title: „Modern Approvals“ naujinimo aspektai
+description: Straipsnyje minimi taškai, į kuriuos administratoriai turi atsižvelgti įjungę „Modern Approvals“ funkcijas.
 author: stsporen
 ms.date: 01/31/2022
 ms.topic: article
@@ -13,39 +13,39 @@ ms.contentlocale: lt-LT
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8931754"
 ---
-# <a name="upgrade-considerations-for-modern-approvals"></a>Šiuolaikinių patvirtinimų atnaujinimo aspektai 
+# <a name="upgrade-considerations-for-modern-approvals"></a>„Modern Approvals“ naujinimo aspektai 
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
-Kaip dalis 2022 m. balandžio 1 bangos leidimo, šiuolaikinių patvirtinimų funkcija bus įjungta pagal numatytuosius nustatymus. Ši funkcija pagerina patvirtinimo logikos patikimumą ir užtikrina, kad galite nustatyti priežastį, jei patvirtinimo logika nepavyksta.
+Kaip 2022 m. balandžio mėn. „Modern Approvals" 1 bangos leidimo dalį, pagal numatytuosius nustatymus įjungiamos šiuolaikinės patvirtinimo funkcijos. Ši funkcija pagerina patvirtinimo logikos patikimumą ir užtikrina, kad galėsite nustatyti priežastį, jei patvirtinimo logika nepavyks.
 
-Atliekant šį pakeitimą, atnaujinami projekto patvirtinimų būsenos pakeitimai. Dabar būsena eina tiesiai iš **Pateikta** į **Patvirtintą**. **Laukiama** nebėra patvirtinimų būsena. Norėdami nustatyti, ar laukiama patvirtinimo, patikrinkite, ar patvirtinimas yra patvirtinimo rinkinio dalis, ir peržiūrėkite pridėto patvirtinimo rinkinio būseną.
+Kaip šio pakeitimo dalį sudaro projekto patvirtinimų būsenos pakeitimai. Dabar būsena tiesiogiai pereina iš **Pateikta** į **Patvirtinta**. **Laukiama** nebėra patvirtinimo būsena. Norėdami nustatyti, ar laukiama patvirtinimo, patikrinkite, ar patvirtinimas yra patvirtinimo rinkinio dalis, ir peržiūrėkite pridėto patvirtinimo rinkinio būseną.
 
-## <a name="before-you-upgrade"></a>Prieš atnaujindami versiją
+## <a name="before-you-upgrade"></a>Prieš pradėdami naujinti
 
-Prieš atnaujindami versiją į "Modern Approvals", įsitikinkite, kad neturite laukiančių patvirtinimų. Šiuolaikiniai patvirtinimai nenaudoja **būsenos Laukiama**. Todėl visi patvirtinimai, kurie po atnaujinimo vis dar pažymėti kaip **Laukiantys**, nebus apdorojami.
+Prieš naujdami į „Modern Approvals“ įsitikinkite, kad neturite laukiančių patvirtinimų. Naudojant modernius patvirtinimus, būsena **Laukiama** nėra. Todėl visi patvirtinimai, kurie po atnaujinimo vis dar pažymėti kaip **laukiami**, nebus apdorojami.
 
-## <a name="after-you-upgrade"></a>Atnaujinus versiją
+## <a name="after-you-upgrade"></a>Po Jūsų naujinimo
 
-Atnaujinęs versiją į Šiuolaikiniai patvirtinimai, administratorius turi patvirtinti, kad debesies srautas, apdorojantis patvirtinimus, buvo įgalintas.
+Kai atnaujinsite į „Modern Approvals“, administratorius turi patikrinti, ar įjungta debesies eiga, apdorojanti patvirtinimus.
 
-1. Prisijungti prie [flow.microsoft.com](https://flow.microsoft.com)
-2. Puslapio viršutiniame dešiniajame kampe perjunkite aplinką į atnaujintą aplinką.
-3. Pasirinkite **Sprendimai**, kad išvardytumėte aplinkoje įdiegtus sprendimus.
-4. Sprendimų sąraše pasirinkite **"Project Operations** " arba **"Project Service**".
-5. Pakeiskite filtrą iš **Visi** į **Debesies srautus**.
-6. Patikrinkite, ar parinktis **Projekto tarnyba – periodiškai planuoti projekto patvirtinimo rinkinius** nustatyta kaip **Įjungta**. Jei ne, pasirinkite srautą, tada pasirinkite **Įjungti**.
-7. Patikrinkite, ar apdorojimas vyksta kas penkias minutes, **peržiūrėdami sistemos užduočių** sąrašą **srityje Parametrai**.
+1. Prisijunkite prie [flow.microsoft.com](https://flow.microsoft.com)
+2. Viršutiniame dešiniajame puslapio kampe įjunkite aplinką, kurią atnaujinote.
+3. Pažymėkite **Sprendimus**, kad būtų išvardyti aplinkoje įdiegti sprendimai.
+4. Sprendimų sąraše pasirinkite **Project Operations** ar **Project Service**.
+5. Pakeiskite filtrą iš **Visi** į **Debesies srautai**.
+6. Patikrinkite, ar srautas **„Project Service“ – projekto patvirtinimo rinkinių planavimas pakartotinai** nustatytas kaip **Įjungta**. Jei eiga dar neįjungta, rinkitės eigą ir tada **Įjungti**.
+7. Patikrinkite, ar apdorojama kas penkias minutes, parametrų srityje **Sistemos užduotys** sąrašą **Nustatymo** srityje.
 
-## <a name="short-term-rollback"></a>Trumpalaikis grąžinimas
+## <a name="short-term-rollback"></a>Trumpo laikotarpio atšaukimas
 
-Jei negalite įsisavinti pakeitimų arba susiduriate su rimta šios funkcijos problema, galite laikinai grįžti prie pradinio patvirtinimo srauto atlikdami šiuos veiksmus:
+Jei negalite vykdyti pakeitimų arba susidūrėte su su šia funkcija susijusia problema, laikinai galite grįžti prie pradinės patvirtinimo eigos atlikdami šiuos veiksmus:
 1. Prisijunkite prie savo aplinkos ir patikrinkite, ar nėra laukiančių patvirtinimų.
-2. Eikite į **Parametrų** > **projekto parametrai**.
-3. Pasirinkite **Funkcijų valdymas**, tada pasirinkite **Modernūs patvirtinimai**, kad išjungtumėte funkciją.
+2. Eikite į **Nustatymai** > **Projekto parametrai**.
+3. Pasirinkite **Funkcijų valdymas** ir, norėdami **išjungti funkciją,** pasirinkite „Modern Approvals“.
 
-## <a name="removing-the-feature-flag"></a>Funkcijos vėliavėlės šalinimas
+## <a name="removing-the-feature-flag"></a>Funkcijos žymos pašalinimas
 
-2022 m. spalio mėn.
+2022 m. spalio mėn. „Wave 2“ naujinime, galimybė išjungti šią funkciją bus panaikinta.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

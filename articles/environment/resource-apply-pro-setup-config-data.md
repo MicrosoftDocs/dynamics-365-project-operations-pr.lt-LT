@@ -1,6 +1,6 @@
 ---
 title: Konfigūracijos duomenų nustatymas ir taikymas programoje „Microsoft Dataverse”
-description: Šiame straipsnyje pateikiama informacija apie konfigūracijos duomenų nustatymą ir taikymą programoje "Project Operations".
+description: Šiame straipsnyje pateikta informacija apie konfigūracijos duomenų nustatymą ir taikymą dalyje „Project Operations“.
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
@@ -21,10 +21,10 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 
 ## <a name="prerequisites"></a>Būtinosios sąlygos
 
-Prieš pradedant konfigūruoti duomenis, Microsoft Dataverse turi būti įvykdytos šios būtinosios sąlygos:
+Prieš pradedant konfigūruoti duomenis Microsoft Dataverse, reikia įvykdyti šias būtinąsias sąlygas:
 
-1.  Dataverse"Project Operations" aplinkos ir Dynamics 365 Finance aplinkos parengimas.
-2.  Juridinio asmens informacija iš Dynamics 365 Finance bendrinama su Dataverse aplinka. Tai reiškia, kad **Bendrovės** subjektas Dataverse turi šiuos įmonės įrašus:
+1.  „Dataverse” aplinkos ir „Dynamics 365 Finance“ aplinkos parengimas, skirtas „Project Operations”.
+2.  Juridinio objekto informacija iš „Dynamics 365 Finance“ bendrinama su „Dataverse” aplinka. Tai reiškia, kad „Dataverse“ esančiame objekte **Įmonė** yra toliau pateikiami įmonės įrašai.
   - THPM
   - USPM
   - GBPM

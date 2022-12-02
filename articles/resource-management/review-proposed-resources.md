@@ -40,8 +40,8 @@ Norėdami peržiūrėti siūlomus išteklius, atlikite toliau nurodytus veiksmus
     Galimi šie būsenos naujinimai:
 
     - Puslapyje **Planavimo pagalbinė priemonė** būsenos indikatoriai atnaujinami, kad būtų rodoma, jog rezervacija yra pasiūlyta, o ne galutinai rezervuota.
-    - Išteklių užklausoje užklausos recenzentas turėtų pakeisti būseną į **Poreikių peržiūra**.
-    - Projekto skirtuke **Komanda** bendrojo komandos nario **užklausos būsenos** reikšmė automatiškai pakeičiama į **Reikia peržiūrėti**.
+    - Išteklių užklausoje užklausos užklausėjas turėtų pakeisti būseną į **Reikia peržiūrėti**.
+    - Projekto skirtuke **Komanda** bendrosios komandos nario reikšmė **Užklausos būsena** automatiškai pakeičiama į **Reikia peržiūrėti**.
 
 Projekto vadovas šį pasiūlymą gali priimti arba atmesti.
 

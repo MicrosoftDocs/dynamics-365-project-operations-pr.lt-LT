@@ -1,6 +1,6 @@
 ---
 title: Projektų sutarčių ir projektų sinchronizavimas tiesiogiai iš „Project Service Automation“ į „Finance“
-description: Šiame straipsnyje aprašomas šablonas ir pagrindinės užduotys, naudojamos projekto sutartims ir projektams sinchronizuoti tiesiogiai iš Microsoft Dynamics 365 Project Service Automation Dynamics 365 Finance.
+description: Šiame straipsnyje aprašomi šablonas ir pagrindinės užduotys, kurie naudojami norint sinchronizuoti projekto sutartis ir projektus tiesiogiai iš „Microsoft Dynamics 365 Project Service Automation“ į „Dynamics 365 Finance“.
 author: Yowelle
 ms.date: 12/17/2020
 ms.topic: article
@@ -27,7 +27,7 @@ ms.locfileid: "8933870"
 
 
 
-Šiame straipsnyje aprašomas šablonas ir pagrindinės užduotys, naudojamos projekto sutartims ir projektams sinchronizuoti tiesiogiai iš Dynamics 365 Project Service Automation Dynamics 365 Finance.
+Šiame straipsnyje aprašomi šablonas ir pagrindinės užduotys, kurie naudojami norint sinchronizuoti projekto sutartis ir projektus tiesiogiai iš „Dynamics 365 Project Service Automation“ į „Dynamics 365 Finance“.
 
 > [!NOTE] 
 > Jei naudojate 7.3.0 versijos „Enterprise edition”, turite įdiegti KB 4074835.
@@ -120,15 +120,15 @@ Taikant „Project Service Automation” į „Finance” integravimo sprendimą
 
 ## <a name="power-query"></a>Power Query
 
-Naudokite "Microsoft Power Query for Excel" duomenims filtruoti, jei tenkinamos šios sąlygos:
+Naudokite „Microsoft Power Query for Excel“ duomenims filtruoti, jei laikomasi šių sąlygų:
 
 - Programoje „Dynamics 365 Sales” turite pardavimo užsakymų.
 - Programoje „Project Service Automation” turite kelis organizacijos vienetus ir šie organizaciniai vienetai bus susiejami su keliais juridiniais subjektais programoje „Finance”.
 
-Jei turite naudoti Power Query, vadovaukitės šiomis gairėmis:
+Jei reikia naudoti „Power Query“, vadovaukitės toliau pateikiamais nurodymais.
 
 - Projektų ir sutarčių (PSA į „Fin and Ops“) šablone yra numatytasis filtras, kuriame yra tik **Darbo elemento (msdyn\_ordertype = 192350001)** tipo pardavimo užsakymai. Šis filtras padeda užtikrinti, kad nebūtų kuriamos projektų sutartys, skirtos pardavimo užsakymams programoje „Finance”. Kurdami savo šabloną, turite įtraukti šį filtrą.
-- Power Query Sukurkite filtrą, kuriame būtų tik sutarčių organizacijos, kurios turėtų būti sinchronizuojamos su integravimo ryšio rinkinio juridiniu subjektu. Pavyzdžiui, projektų sutartys, kurias turite sudarę su sutarčių organizacijos vienetu „Contoso“, JAV, turi būti sinchronizuojamos su USSI juridiniu subjektu, o projektų sutartys, kurias turite sudarę su sutarčių organizacijos vienetu „Contoso Global“, turi būti sinchronizuojamos su USMF juridiniu subjektu. Jei neįtrauksite šio filtro į užduočių susiejimą, visos projektų sutartys bus sinchronizuojamos su juridiniu subjektu, nustatytu ryšio rinkiniui, neatsižvelgiant į sutarties organizacijos vienetą.
+- Sukurkite „Power Query“ filtrą, kuriame yra tik sutarties organizacijos, kurias reikia sinchronizuoti su integravimo ryšio rinkinio juridiniu subjektu. Pavyzdžiui, projektų sutartys, kurias turite sudarę su sutarčių organizacijos vienetu „Contoso“, JAV, turi būti sinchronizuojamos su USSI juridiniu subjektu, o projektų sutartys, kurias turite sudarę su sutarčių organizacijos vienetu „Contoso Global“, turi būti sinchronizuojamos su USMF juridiniu subjektu. Jei neįtrauksite šio filtro į užduočių susiejimą, visos projektų sutartys bus sinchronizuojamos su juridiniu subjektu, nustatytu ryšio rinkiniui, neatsižvelgiant į sutarties organizacijos vienetą.
 
 ## <a name="template-mapping-in-data-integration"></a>Šablonų susiejimas pasirinkus Duomenų integravimas
 

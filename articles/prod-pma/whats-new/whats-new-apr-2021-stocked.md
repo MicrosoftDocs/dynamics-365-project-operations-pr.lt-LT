@@ -1,6 +1,6 @@
 ---
 title: Kas nauja arba pakeista 2021 m. balandžio mėn. „Project Operations“, skirtoje laikomų medžiagų / gamyba pagrįstiems scenarijams
-description: Šiame straipsnyje pateikiama informacija apie kokybės naujinimus, pasiekiamus 2021 m. balandžio mėnesio "Project Operations" leidime, skirtame atsargomis / gamyba pagrįstiems scenarijams.
+description: Šiame straipsnyje pateikiama informacija apie kokybės naujinimus, pasiekiamus 2021 m. balandžio mėn. „Project Operations“, skirtoje laikomų medžiagų / gamyba pagrįstiems scenarijams.
 author: andchoi
 ms.date: 04/22/2021
 ms.topic: article
@@ -18,9 +18,9 @@ ms.locfileid: "9028204"
 
 _**Taikoma (kam):**„Project Operations“, skirta laikomų medžiagų / gamyba pagrįstiems scenarijams_
 
-Šis straipsnis taikomas šiems Dynamics 365 Project Operations komponentams ir versijoms:
+Šis straipsnis taikomas toliau nurodytiems „Dynamics 365 Project Operations“ komponentams ir versijoms:
 
-- Projektų valdymas ir apskaita Dynamics 365 Finance aplinkoje 10.0.18 versija
+- Projektų valdymas ir apskaita „Dynamics 365 Finance“ aplinkos 10.0.18 versijoje
  
 ### <a name="quality-updates"></a>Kokybės naujinimai
                                                                                                                                                                                   
@@ -83,7 +83,7 @@ _**Taikoma (kam):**„Project Operations“, skirta laikomų medžiagų / gamyba
 | Kelionės ir išlaidos                | [550575](https://fix.lcs.dynamics.com/Issue/Details/?bugId=550575) | Kai išlaidų kategorija yra ne projekto kategorija, puslapyje **Išlaidos** pasirinktos finansinės dimensijos nekopijuojamos į išlaidų ataskaitą.                                          |
 
 ### <a name="regulatory-updates"></a>Reguliavimo naujinimai
-Informacijos apie finansų ir operacijų programų reguliavimo naujinimus ieškokite [Reguliavimo naujinimai](/dynamics365/finance/localizations/regulatory-updates). Taip pat galite prisijungti prie LCS ir peržiūrėti planuojamus reguliavimo naujinimus naudodamiesi problemų ieškos įrankiu. Problemų ieška leidžia ieškoti pagal šalį, funkcijos tipą ir leidimą.
+Norėdami gauti informacijos apie finansų ir operacijų programų reguliavimo naujinimus, žr. [Reguliavimo naujinimai](/dynamics365/finance/localizations/regulatory-updates). Taip pat galite prisijungti prie LCS ir peržiūrėti planuojamus reguliavimo naujinimus naudodamiesi problemų ieškos įrankiu. Problemų ieška leidžia ieškoti pagal šalį, funkcijos tipą ir leidimą.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

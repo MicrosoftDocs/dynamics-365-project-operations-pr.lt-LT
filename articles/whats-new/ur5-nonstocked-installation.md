@@ -1,6 +1,6 @@
 ---
 title: „Project Operations“ naujinimas „Finance“ aplinkoje
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip atnaujinti "Project Operations" Dynamics 365 Finance aplinkoje.
+description: Šiame straipsnyje ieškokite informacijos apie tai, kaip naujinti į šį leidimą „Project Operations“ naujinimas „Dynamics 365 Finance“ aplinkoje.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
@@ -19,7 +19,7 @@ ms.locfileid: "9030045"
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
 
-Šiame straipsnyje pateikiama informacija apie tai, kaip atnaujinti Dynamics 365 Project Operations Dynamics 365 Finance aplinkoje. Yra trys procedūros, kurių reikia norint atnaujinti „Project Operations“ į 5 naujinimą (UR5):
+Šiame straipsnyje pateikta informacija apie tai, kaip naujinti „Dynamics 365 Project Operations“ Jūsų „Dynamics 365 Finance“ aplinkoje. Yra trys procedūros, kurių reikia norint atnaujinti „Project Operations“ į 5 naujinimą (UR5):
 
 - [Importuokite paketą į savo peržiūros projektą](#import)
 - [Taikykite naujinimą](#apply)
@@ -119,7 +119,7 @@ Toliau nurodyti objektų saugos teisių naujinimai būtini kaip UR5 naujinimo da
 4. Puslapyje **Lentelės struktūros versija** taikykite naują struktūros versiją kiekvienam iš trijų objektų.
 5. Puslapyje **Dvigubas rašymas** pasirinkite vykdyti ir iš naujo paleisti struktūras.
 6. Struktūrų sąraše pažymėkite **Didžioji knyga (msdyn_ledgers)** struktūrą su visomis būtinosiomis sąlygomis ir pasirinkite žymės langelį **Pradinis sinchronizavimas**. 
-7. **Lauke Pagrindinis pradiniam sinchronizavimui** pasirinkite **Finansų ir operacijų taikomosios programos**, tada pasirinkite **Vykdyti**.
+7. Lauke **Pradinio sinchronizavimo šablonas** rinkitės **Finansų ir operacijų programos** ir tada **Vykdyti**.
  
  ![Didžiosios knygos struktūros sinchronizavimas.](media/DW6.png)
  

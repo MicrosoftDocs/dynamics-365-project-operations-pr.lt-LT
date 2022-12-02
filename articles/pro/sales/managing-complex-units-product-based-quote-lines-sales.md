@@ -1,6 +1,6 @@
 ---
 title: Produktu pagrįsto pasiūlymo eilučių sudėtinių vienetų valdymas, pvz., pagal vartotoją ar pagal mėnesį – „Lite“ versija
-description: Šiame straipsnyje pateikiama informacija apie sudėtingų produktų pasiūlymų eilučių vienetų valdymą.
+description: Šiame straipsnyje pateikiama informacija apie produktu pagrįstų pasiūlymo eilučių sudėtinių vienetų valdymą.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article

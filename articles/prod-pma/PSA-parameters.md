@@ -1,6 +1,6 @@
 ---
 title: „Project Service Automation“ integravimo parametrai
-description: Šiame straipsnyje paaiškinama, kaip konfigūruoti, kaip įvesti numatytuosius duomenis, kai integruojate Microsoft Dynamics 365 for Project Service Automation su Microsoft Dynamics "365 Finance".
+description: Šiame straipsnyje paaiškinama, kaip konfigūruoti numatytųjų duomenų įvedimą, kai integruojate „Microsoft Dynamics 365 for Project Service Automation“ į „Microsoft Microsoft Dynamics 365 Finance“.
 author: ruhercul
 ms.date: 03/03/2020
 ms.topic: article
@@ -25,7 +25,7 @@ ms.locfileid: "8932306"
 
 [!include[banner](../includes/banner.md)]
 
-**Puslapyje "Project Service Automation" integravimo parametrai** galite konfigūruoti, kaip įvedami numatytieji duomenys, kai integruojate Dynamics 365 Project Service Automation su Dynamics 365 Finance. Norėdami, kad projektai būtų sėkmingai sinchronizuojami iš „Project Service Automation“ į „Finance“, turite nustatyti toliau pateikiamus laukus.
+Puslapyje **„Project Service Automation“ integravimo parametrai** galite konfigūruoti, kaip numatytieji duomenys įvedami, kai integruojate „Dynamics 365 Project Service Automation“ į „Dynamics 365 Finance“. Norėdami, kad projektai būtų sėkmingai sinchronizuojami iš „Project Service Automation“ į „Finance“, turite nustatyti toliau pateikiamus laukus.
 
 Norėdami atidaryti puslapį **„Project Service Automation“ integravimo parametrai**, eikite į **Projektų valdymas ir apskaita** \> **Sąranka** \> **„Dynamics 365 for Project Service Automation“ integravimo parametrai**. 
 

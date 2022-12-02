@@ -1,6 +1,6 @@
 ---
 title: Kas nauja arba pakeista „Project Service Automation“ V3 41 atnaujintame leidime
-description: Šiame straipsnyje išvardijamos funkcijos ir pataisymai, kuriuos galima rasti 41 naujinimo leidime Microsoft Dynamics 365 Project Service Automation, V3.
+description: Šiame straipsnyje išvardytos funkcijos ir pataisos, įtrauktos į „Microsoft Dynamics 365 Project Service Automation“ V3 41 atnaujintą leidimą.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 03/07/2022
@@ -29,7 +29,7 @@ ms.locfileid: "8930558"
 
 Norime pranešti apie naujausią programos Microsoft Dynamics 365 Project Service Automation naujinimą. Šiame leidime yra kai kurių svarbių kokybės, veikimo ir naudojimo patobulinimų. Ji suderinama su „Dynamics 365 9.x“. Norėdami atnaujinti į šį leidimą, apsilankykite „Dynamics 365 Online“ sprendimų administravimo centro puslapyje ir įdiekite naujinimą. Daugiau informacijos žr. [Pageidaujamo sprendimo diegimas, naujinimas arba šalinimas](/power-platform/admin/install-remove-preferred-solution).
 
-Šiame straipsnyje išvardijamos funkcijos ir taisymai, kurie yra nauji arba pakeisti "Project Service Automation Update Release 41, V3". Ši versija turi naują komponavimo versijos numerį V3.10.62.162 ir ją galima pasiekti per 2022 m. kovo mėn. automatinį naujinimą.
+Šiame straipsnyje išvardytos funkcijos ir pataisymai, kurie yra nauji arba pakeisti „Project Service Automation“ V3 41 atnaujintame leidime. Ši versija turi naują komponavimo versijos numerį V3.10.62.162 ir ją galima pasiekti per 2022 m. kovo mėn. automatinį naujinimą.
 
 ## <a name="update-release-41"></a>41 atnaujintas leidimas
 
@@ -38,10 +38,10 @@ Norime pranešti apie naujausią programos Microsoft Dynamics 365 Project Servic
 Buvo pataisytos tolesnės problemos.
 
 **Projektų valdymas**
-- Kai bandote sukurti projektą pagal šabloną, pagrįstą projektu, sukurtu iš darbalaukio priedo, rodoma ši klaida: "Išteklių priskyrimo suplanuoto darbo lauko tikrinimas: kiekvieno išteklių priskyrimo laiko segmento pabaigos data neturi būti ankstesnė už jo pradžios datą".
+- Kai bandote sukurti projektą pagal šabloną, pagrįstą projektu, sukurtu naudojant stalinio kompiuterio papildinį, rodoma klaida "Išteklių priskyrimo suplanuoto darbo lauko tikrinimas: kiekvieno išteklių priskyrimo laiko pabaigos data turi būti ne senesnė nei pradžios data".
 
 **Laikas ir išlaidos**
-- Kai bandote panaikinti laiko įrašą, rodomas šis klaidos pranešimas: "Iš ISV kodo įvyksta netikėta klaida".
+- Kai bandote panaikinti laiko įrašą, rodomas šis klaidos pranešimas "Iš ISV kodo įvyksta nenumatyta klaida".
 
 **Pardavimas**
-- Kai kuriate fiksuotos kainos etapo SF, **laukai Aprašas** ir **Išorinis aprašas** nepildomi. 
+- Kai sukuriate fiksuotos kainos etapo sąskaitą faktūrą, **aprašo** ir **išorinio** aprašo laukai neįkeliami. 

@@ -1,6 +1,6 @@
 ---
 title: 2021 m. lapkričio mėn. naujienos – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams
-description: Šiame straipsnyje pateikiama informacija apie kokybės atnaujinimus, kuriuos galima rasti 2021 m. lapkričio mėn.
+description: Šiame straipsnje pateikiama informacija apie kokybės naujinimus, pasiekiamus 2021 m. lapkričio mėn. „Project Operations Lite”, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams.
 author: sigitac
 ms.date: 11/09/2021
 ms.topic: article
@@ -18,61 +18,61 @@ ms.locfileid: "8932904"
 
 *Taikoma: „Project Operations“, skirta išteklių / nelaikomų medžiagų scenarijams*
 
-Šis straipsnis taikomas šiems "Microsoft" Dynamics 365 Project Operations komponentams ir versijoms:
+Šis straipsnis taikomas toliau nurodytiems „ Microsoft Dynamics 365 Project Operations“ komponentams ir versijoms:
 
-- Projekto operacijos aplinkos versijoje Dataverse 4.26.0.145, 4.26.0.148, 4.26.0.150, 4.26.0.155
-- Projektų valdymas ir apskaita Dynamics 365 Finance aplinkoje 10.0.22 versija
+- „Project Operations“ „Dataverse“ aplinkos versija 4.26.0.145, 4.26.0.148, 4.26.0.150, 4.26.0.155
+- Projektų valdymas ir apskaita „Dynamics 365 Finance“ aplinkos 10.0.22 versijoje
 
 ## <a name="features-included-in-this-release"></a>Į šį leidimą įtrauktos funkcijos
 
 Į šį leidimą buvo įtrauktos toliau nurodytos funkcijos.
 
-- Projekto planavimo programų programavimo sąsajos (API) dabar palaiko galimybę kurti ir naikinti "Project" kibirus.
+- Projektų planavimo programų programavimo sąsajos (API) dabar palaiko galimybę kurti ir naikinti projektų programavimo sąsajas.
 
 ## <a name="project-operations-dual-write-maps-updates"></a>„Project Operations“ dvigubo rašymo schemų naujinimai
 
 Šiame leidime nėra „Project Operations“ dvigubo rašymo schemų naujinimų. Dabartinį „Project Operations“ dvigubo rašymo schemų sąrašą ir versijas rasite straipsnyje [„Project Operations“ dvigubo rašymo schemų versijos](/dynamics365/project-operations/environment/resource-dual-write-maps).
 
-Visada paleiskite naujausią žemėlapio versiją savo aplinkoje ir įgalinkite visas susijusias lentelių struktūras, kai atnaujinsite "Project Operations Dataverse " sprendimą ir "Finance" sprendimo versiją. Kai kurios funkcijos ir galimybės gali neveikti tinkamai, jei naujausia žemėlapio versija nesuaktyvinta. Aktyvią schemos versiją galite peržiūrėti puslapio **Dvigubas rašymas** stulpelyje **Versija**. Suaktyvinti naują schemos versiją galite pasirinkdami **Lentelės schemos versijos**, tada – naujausią versiją, tada pasirinktą versiją įrašydami. Jei tinkinote lentelės struktūrą, iš naujo taikykite pakeitimus. Norėdami sužinoti daugiau, žr. [Programų ciklo valdymas](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Atnaujindami „Project Operations“ „Dataverse“ sprendimo ir „Finance“ sprendimo versijas, visada naudokite naujausią schemos versiją savo aplinkoje ir įjunkite visas susijusias lentelių schemas. Jei nesuaktyvinama naujausia schemos versija, kai kurios funkcijos ir galimybės gali veikti netinkamai. Aktyvią schemos versiją galite peržiūrėti puslapio **Dvigubas rašymas** stulpelyje **Versija**. Suaktyvinti naują schemos versiją galite pasirinkdami **Lentelės schemos versijos**, tada – naujausią versiją, tada pasirinktą versiją įrašydami. Jei tinkinote parengtą naudoti lentelės schemą, pakeitimus pritaikykite iš naujo. Norėdami sužinoti daugiau, žr. [Programų ciklo valdymas](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
-Jei paleidę žemėlapį susiduriate su problema, vadovaukitės instrukcijomis, pateiktomis [dvigubo rašymo trikčių šalinimo vadovo skyriuje Trūksta lentelės stulpelių problema žemėlapių](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) skyriuje.
+Jei paleidžiant schemą kyla kokia nors problema, vykdykite nurodymus, pateikiamus dvigubo rašymo trikčių šalinimo vadovo skyriuje [Trūkstamų lentelių stulpelių problema schemose](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps).
 
 ## <a name="quality-updates"></a>Kokybės naujinimai
 
-### <a name="project-operations-in-dataverse"></a>Projekto operacijos Dataverse
+### <a name="project-operations-in-dataverse"></a>„Project Operations“ „Dataverse“
 
 | Funkcijų sritis | Nuorodos numeris | Kokybės naujinimas |
 | --- | --- | --- |
-| Sąskaitų pateikimas ir kainodara | 2240080 | Laukas **Mokėjimo sąlygos** negali būti dubliuojamas išankstinėje SF. |
-| Sąskaitų pateikimas ir kainodara | 2358236 | SF taisymas turi leisti pataisymus, kurių eilutės yra nulinės kainos. |
-| Išteklių valdymas | 2410072 | Leisti nustatyti išteklių, priskirtų užduočiai kaip projekto vadovui. |
-| Sąskaitų pateikimas ir kainodara | 2430234 | Išspręskite išlaidų efektyvumo skaičiavimo problemą. |
-| Laikas ir išlaidos | 2436978 | Leisti įvesti laiką hh:mm formatu. |
-| Sąskaitų pateikimas ir kainodara | 2448623 | Leisti atnaujinti kainoraščius, susietus su organizaciniu vienetu. |
-| Laikas ir išlaidos | 2460396 | Leisti panaikinti laiko įrašą išvalant langelį. |
-| Sąskaitų pateikimas ir kainodara | 2467386 | Leisti panaikinti projektą su užduotimi, net jei užduotis susieta su laimėtu pasiūlymu. |
-| Laikas ir išlaidos | 2461744 | Rodinyje **Mano nesėkmingas patvirtinimas** yra tik projekto patvirtinimai **etape Pateikta**. |
-| Laikas ir išlaidos | 2464082 | Pašalinkite saitą iš projekto patvirtinimų į patvirtinimo rinkinį, kai sutampa paskirties būsena. |
-| Laikas ir išlaidos | 2468108 | Užduotis Grafikas neturėtų nustatyti **patvirtinimo rinkinio apdorojimo** būsenos. |
-| Laikas ir išlaidos | 2471503 | Panaikinkite septynių dienų senumo patvirtinimo rinkinius. |
-| Sąskaitų pateikimas ir kainodara | 2480687 | Sukūrus pasiūlymo eilutės etapą, pasiūlymo eilutės nuorodos pašalinti negalima. |
+| Sąskaitų pateikimas ir kainodara | 2240080 | Mokėjimo **terminų lauko** negalima dubliuoti pro forma sąskaitoje faktūroje. |
+| Sąskaitų pateikimas ir kainodara | 2358236 | Sąskaitos faktūros taisyme turi būti leidžiama atlikti pataisymus, kurių eilutės nulinės kainos. |
+| Išteklių valdymas | 2410072 | Rodomi projekto užduočiai priskirto ištekliaus naudojimo vienetai |
+| Sąskaitų pateikimas ir kainodara | 2430234 | Išlaidų efektyvumo skaičiavimo problemos sprendimas. |
+| Laikas ir išlaidos | 2436978 | Leisti laiką įvesti hh:mm formatu. |
+| Sąskaitų pateikimas ir kainodara | 2448623 | Leisti kainoraščius atnaujinti juos susietus su organizacijos vienetu. |
+| Laikas ir išlaidos | 2460396 | Vartotojai negali panaikinti laiko įrašo išvalydami langelį. |
+| Sąskaitų pateikimas ir kainodara | 2467386 | Leisti naikinti projektą, kuriame yra užduotis, net kai užduotis yra susieta su laimėta užklausa. |
+| Laikas ir išlaidos | 2461744 | Rodinyje **Mano nepavykęs patvirtinimas** yra tik tie projekto patvirtinimai, kurių būsena **Pateikta**. |
+| Laikas ir išlaidos | 2464082 | Pašalinsite saitą iš projekto patvirtinimų į patvirtinimo rinkinį, kai bus gretinta paskirties būsena. |
+| Laikas ir išlaidos | 2468108 | Planavimo užduotis neturėtų nustatyti patvirtinimo **rinkinio** apdorojimo būsenos. |
+| Laikas ir išlaidos | 2471503 | Panaikinkite patvirtinimo rinkinius, kurie yra septynių dienų senumo. |
+| Sąskaitų pateikimas ir kainodara | 2480687 | Pasiūlymo eilutės nuorodos negalima pašalinti sukūrus pasiūlymo eilutės etapą. |
 
-### <a name="project-management-and-accounting-in-finance"></a>Projektų valdymas ir apskaita finansų srityje
+### <a name="project-management-and-accounting-in-finance"></a>Projektų valdymas ir apskaita programoje „Finance”
 
 | Funkcijų sritis | Nuorodos numeris | Kokybės naujinimas |
 | --- | --- | --- |
-| Projektų valdymas ir apskaita | [584732](https://fix.lcs.dynamics.com/Issue/Details/?bugId=584732) | Nepaskirstytos tiekėjo sumos projekto išlaidų operacijose nerodomos operacijų sąraše. |
-| Projektų valdymas ir apskaita | [593068](https://fix.lcs.dynamics.com/Issue/Details/?bugId=593068) | Įjungus tiekėjo SF, vidinės įmonės tiekėjo SF sulūžta. |
-| Projektų valdymas ir apskaita | [593382](https://fix.lcs.dynamics.com/Issue/Details/?bugId=593382) | Mokėjimo sąlygos projekto SF neveikia taip, kaip tikėtasi. |
-| Projektų valdymas ir apskaita | [596263](https://fix.lcs.dynamics.com/Issue/Details/?bugId=596263) | Kai tiekėjo užlaikymas išleidžiamas, kvito registravime yra papildomų neteisingų eilučių. |
-| Projektų valdymas ir apskaita | [598758](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598758) | Užregistravus projekto operacijų integravimo žurnalą, jis nepavyksta dėl trūkstamų sąskaitos, kurioje neregistruojama, dimensijų. |
-| Projektų valdymas ir apskaita | [602650](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602650) | Skirtuko **Projektas** negalima redaguoti laukiančioje tiekėjo SF, kai prekei priskiriama įsigijimo kategorija. |
-| Projektų valdymas ir apskaita | [605121](https://fix.lcs.dynamics.com/Issue/Details/?bugId=605121) | Trūksta naršymo srities, jei nesate prisijungę prie "Project Operations Dataverse". |
-| Projektų valdymas ir apskaita | [602728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602728) | Kai registruojate pajamas iš projekto SF sugretintu užlaikantuvo atveju, iškyla problema, nes kvito operacijos nesubalansuojamos. |
-| Projektų valdymas ir apskaita | [603624](https://fix.lcs.dynamics.com/Issue/Details/?bugId=603624) | Įvertinimo sukūrimas užregistravus SF pasiūlymą blokuoja taisymo eilutes iš importavimo. |
-| Projektų valdymas ir apskaita | [606083](https://fix.lcs.dynamics.com/Issue/Details/?bugId=606083) | Neturėtų būti įmanoma modifikuoti visos sąskaitos faktūros etapo įrašo. |
-| Kelionės ir išlaidos | [575305](https://fix.lcs.dynamics.com/Issue/Details/?bugId=575305) | Visos išlaidų ataskaitos yra matomos, kai ieškote kategorijos mobiliųjų įrenginių programėlėje Išlaidos. |
-| Kelionės ir išlaidos | [583101](https://fix.lcs.dynamics.com/Issue/Details/?bugId=583101) | Neteisingos tiekėjo operacijų ir PVM operacijų sumos registruojamos iš išlaidų, sukurtų iš kredito kortelės operacijos. |
-| Kelionės ir išlaidos | [583760](https://fix.lcs.dynamics.com/Issue/Details/?bugId=583760) | Neatnaujinus puslapį Išlaidų ataskaita **, atsiranda nereikšmingas įspėjimas**. |
-| Kelionės ir išlaidos | [598656](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598656) | Neteisingas laikinasis tvirtintojas naudojamas, kai panaikinate laikinąjį tvirtintoją ir iš naujo pateikiate išlaidų ataskaitą naudodami darbo eigą. |
-| Kelionės ir išlaidos | [612742](https://fix.lcs.dynamics.com/Issue/Details/?bugId=612742) | Įvyksta registravimo klaida, susijusi su ridos nustatymu. |
+| Projektų valdymas ir apskaita | [584732](https://fix.lcs.dynamics.com/Issue/Details/?bugId=584732) | Projektų išlaidų operacijose išsaugotos tiekėjo sumos transakcijose nerodomas. |
+| Projektų valdymas ir apskaita | [593068](https://fix.lcs.dynamics.com/Issue/Details/?bugId=593068) | Įjungtą tiekėjo sąskaitų faktūrų integravimą, tarpusavio tiekėjo sąskaita faktūra bus sugadinta. |
+| Projektų valdymas ir apskaita | [593382](https://fix.lcs.dynamics.com/Issue/Details/?bugId=593382) | Projekto sąskaitų faktūrų apmokėjimo sąlygos neveikia taip, kaip tikėjotės. |
+| Projektų valdymas ir apskaita | [596263](https://fix.lcs.dynamics.com/Issue/Details/?bugId=596263) | Kai tiekėjo saugojimas išleidžiamas, perstabdymas turi neteisingų papildomų eilučių. |
+| Projektų valdymas ir apskaita | [598758](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598758) | Kai "Project Operations" integravimo žurnalas užregistruojamas, jis nevykdomas, nes nėra kliento, kuriame neįregistruotas, suseka. |
+| Projektų valdymas ir apskaita | [602650](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602650) | **Projekto** skirtukas yra neredaguojamas laukiamoje tiekėjo sąskaitoje, kai tiekimo kategorija yra priskirta elementui. |
+| Projektų valdymas ir apskaita | [605121](https://fix.lcs.dynamics.com/Issue/Details/?bugId=605121) | Jei nesate prisijungę prie „Project Operations", naršymo srities nėra Dataverse. |
+| Projektų valdymas ir apskaita | [602728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602728) | Kai publikuojate apyvartą iš projekto sąskaitos taikomu valdymo atveju, nutinka problema, nes perlaidos kvite nesutampa. |
+| Projektų valdymas ir apskaita | [603624](https://fix.lcs.dynamics.com/Issue/Details/?bugId=603624) | Sukūrus sąmatą, kai užregistruojate sąskaitos faktūros siūlymą, blokuojamos pataisų eilutės nuo importavimo. |
+| Projektų valdymas ir apskaita | [606083](https://fix.lcs.dynamics.com/Issue/Details/?bugId=606083) | Negalima modifikuoti visiškai išrašytos sf etapo įrašo. |
+| Kelionės ir išlaidos | [575305](https://fix.lcs.dynamics.com/Issue/Details/?bugId=575305) | Visos išlaidų ataskaitos matomos, kai ieškote kategorijos mobiliųjų išlaidų programoje. |
+| Kelionės ir išlaidos | [583101](https://fix.lcs.dynamics.com/Issue/Details/?bugId=583101) | Neteisingos sumos, nurodytos tiekėjo ir PVM operacijose, kurios užregistruotos iš išlaidų, sukurtų naudojant kredito kortelės operaciją. |
+| Kelionės ir išlaidos | [583760](https://fix.lcs.dynamics.com/Issue/Details/?bugId=583760) | Įspėjimas dėl išlaidų ataskaitos atnaujinimo **įvyksta**. |
+| Kelionės ir išlaidos | [598656](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598656) | Netinkamas tarpinis tvirtinantysis naudojamas, kai panaikinate tarpinį tvirtintinį ir iš naujo pateikiate išlaidų ataskaitą naudodami darbo eigą. |
+| Kelionės ir išlaidos | [612742](https://fix.lcs.dynamics.com/Issue/Details/?bugId=612742) | Yra registravimo klaida, susijusi su kilometražo sąranka. |

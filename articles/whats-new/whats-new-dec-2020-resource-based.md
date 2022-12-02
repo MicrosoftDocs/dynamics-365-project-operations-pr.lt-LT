@@ -1,6 +1,6 @@
 ---
 title: 2020 m. gruodžio mėn. naujienos – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams
-description: Šiame straipsnyje pateikiama informacija apie kokybės naujinimus, pasiekiamus 2020 m. gruodžio mėnesio "Project Operations" leidime, skirtame ištekliais / ne atsargų scenarijams.
+description: Šiame straipsnyje pateikiama informacijos apie kokybinius naujinimus, pasiekiamus 2020 m. gruodžio mėn. „Project Operations”, skirtos ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams, leidime.
 author: sigitac
 ms.date: 12/04/2020
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "9029724"
 
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
-Šis straipsnis taikomas šiems Dynamics 365 Project Operations komponentams ir versijoms:
+Šis straipsnis taikomas toliau nurodytiems „Dynamics 365 Project Operations“ komponentams ir versijoms:
 
 - „Project Operations“, esanti „Dataverse“ aplinkoje, 4.5.0.134 versija
-- Projektų valdymas ir apskaita Dynamics 365 Finance aplinkoje 10.0.15 versija
+- Projektų valdymas ir apskaita „Dynamics 365 Finance“ aplinkos 10.0.15 versijoje
 
 Informacijos apie tai, kaip naujinti į šį leidimą, ieškokite [„Project Operations“ naujinimas „Finance“ aplinkoje](ur5-nonstocked-installation.md).
 
@@ -61,12 +61,12 @@ Informacijos apie tai, kaip naujinti į šį leidimą, ieškokite [„Project Op
 | Projektų planavimas ir sekimas | 2057197          | Įvertinimo eilutės kopija su užduoties nuoroda nepalaikoma                                                                                                     |
 | Projektų planavimas ir sekimas | 2060687          | Laiko juostos įspėjimas dabar dingsta po tam tikro laiko                                                                                                      |
 | Išteklių valdymas           | 1832887          | Numatytas išteklių kategorijos ID turi būti statinis, kad būtų galima pakartotinai įkelti duomenis, skirtus „Dataverse“ ir „Finance“ aplinkoms                                                 |
-| Laikas ir išlaidos              | 2081793          | **Išlaidų kategorijos pavadinimas** turi būti susietas su **išlaidų kategorijos aprašo** lauku finansų ir operacijų programose                                                  |
+| Laikas ir išlaidos              | 2081793          | **Laukas Išlaidų kategorijos** turi būti pažymėtas **Išlaidų kategorijos aprašo** laukelyje finansų ir operacijų programose                                                  |
 | Laikas ir išlaidos              | 2034882          | Mygtukas **Naujas** rodomas du kartus laiko įrašų komandų juostoje įdiegus „Dynamics 365 Field Service“                                          |
 | Laikas ir išlaidos              | 2056028          | Puslapio **Laiko redagavimas** atnaujinimas siekiant įtraukti laiko planavimo juostą                                                                                                              |
 | Laikas ir išlaidos              | 1983747          | Laiko įrašų diagramoje rodomi papildomi duomenys                                                                                                                   |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektų valdymas ir apskaita Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektų valdymas ir apskaita „Dynamics 365 Finance” programos aplinkose
 
 | Funkcijų sritis                        | Nuorodos numeris | Kokybės naujinimas                                                                                                                                                                                                                                                   |
 |-------------------------------------|------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -106,7 +106,7 @@ Informacijos apie tai, kaip naujinti į šį leidimą, ieškokite [„Project Op
 | Kelionės ir išlaidos                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | Išlaidų ataskaitos automatinio registravimo darbo eiga užbaigiama, bet sąskaita faktūra neužregistruojama                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Reguliavimo naujinimai
-Informacijos apie finansų ir operacijų programų reguliavimo naujinimus ieškokite [Reguliavimo naujinimai](/dynamics365/finance/localizations/regulatory-updates). Taip pat galite prisijungti prie LCS ir peržiūrėti planuojamus reguliavimo naujinimus naudodamiesi problemų ieškos įrankiu. Problemų ieška leidžia ieškoti pagal šalį, funkcijos tipą ir leidimą.
+Norėdami gauti informacijos apie finansų ir operacijų programų reguliavimo naujinimus, žr. [Reguliavimo naujinimai](/dynamics365/finance/localizations/regulatory-updates). Taip pat galite prisijungti prie LCS ir peržiūrėti planuojamus reguliavimo naujinimus naudodamiesi problemų ieškos įrankiu. Problemų ieška leidžia ieškoti pagal šalį, funkcijos tipą ir leidimą.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

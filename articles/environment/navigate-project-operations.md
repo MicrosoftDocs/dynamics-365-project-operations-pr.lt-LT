@@ -1,6 +1,6 @@
 ---
 title: Pereiti į „Project Operations“
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip pasiekti "Project Operations" iš gyvavimo ciklo tarnybų.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip pasiekti „Project Operations” iš „Lifecycle Services”.
 author: sigitac
 ms.date: 10/28/2020
 ms.topic: article
@@ -22,9 +22,9 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 „Dynamics 365 Project Operations“, skirtą ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams, sudaro du komponentai: 
 
  - **„Project Operations“ „Common Data Service” (CDS) aplinkoje**. Šis komponentas apima galimybes ir procesus, pradedant galimybėmis ir baigiant „Proforma” sąskaitų faktūrų išrašymu. 
- - **Projektų valdymas ir apskaita Dynamics 365 Finance aplinkoje**: šis komponentas apima išlaidų valdymo galimybes, projektų apskaitą ir pajamų pripažinimą. 
+ - **Projektų valdymas ir apskaita „Dynamics 365 Finance” aplinkoje**: šis komponentas apima išlaidų valdymo galimybes, projektų apskaitą ir pajamų pripažinimą. 
 
-Kai pateikiate projekto operacijas, kaip aprašyta šiame straipsnyje, puslapis Gyvavimo ciklo tarnybų (LCS) **aplinkos informacija** suteikia lengvą prieigą prie abiejų projekto operacijų komponentų.  
+Parengus „Project Operations” kaip aprašyta šiame straipsnyje, „Lifecycle Services” (LCS) puslapis **Išsami aplinkos informacija** teikia lengvą prieigą prie abiejų „Project Operations” komponentų.  
 
 Naudokite aplinkos pavadinimą skyriuje **„Common Data Service” aplinkos pavadinimas**, kad pereitumėte prie „Project Operations” CDS aplinkoje. 
 

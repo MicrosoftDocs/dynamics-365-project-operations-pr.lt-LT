@@ -1,6 +1,6 @@
 ---
 title: Subrangos komponentų laiko, išlaidų ir medžiagų naudojimo registravimas
-description: Šiame straipsnyje paaiškinama, kaip "Microsoft" seka laiką, išlaidas ir medžiagų naudojimą, įrašytą projektuose iš subrangos komponentų Dynamics 365 Project Operations.
+description: Šiame straipsnyje paaiškinta, kaip "Microsoft Dynamics 365 Project Operations“ sekamas įrašytas laiko, išlaidų ir medžiagų naudojimas projektuose pagal subrangos sutarties komponentus.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article
@@ -13,26 +13,26 @@ ms.contentlocale: lt-LT
 ms.lasthandoff: 09/15/2022
 ms.locfileid: "9522524"
 ---
-# <a name="recording-time-expenses-and-material-usage-on-projects-for-subcontracted-components"></a>Laiko, išlaidų ir medžiagų naudojimo registravimas subrangovų komponentų projektuose
+# <a name="recording-time-expenses-and-material-usage-on-projects-for-subcontracted-components"></a>Subrangos komponentų laiko, išlaidų ir medžiagų naudojimo projektuose registravimas
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
-Šiame straipsnyje paaiškinama, kaip "Microsoft" seka laiką, išlaidas ir medžiagų naudojimą, įrašytą projektuose iš subrangos komponentų Dynamics 365 Project Operations.
+Šiame straipsnyje paaiškinta, kaip "Microsoft Dynamics 365 Project Operations“ sekamas įrašytas laiko, išlaidų ir medžiagų naudojimas projektuose pagal subrangos sutarties komponentus.
 
-## <a name="costing-for-subcontractor-time-on-projects"></a>Subrangovų laiko įkainojimas projektuose
-Programoje "Project Operations" pagal sutartis dirbantys darbuotojai gali įrašyti projektų laiką panašiai kaip darbuotojai. Nustatydamas laiką projektams ir (arba) projekto užduotims atlikti, pagal sutartį dirbantis darbuotojas gali pasirinkti konkrečią subrangos ir subrangos liniją.
+## <a name="costing-for-subcontractor-time-on-projects"></a>Projektų subrangos sutartčių laike įkainojimas
+„Project Operations“ sutarties darbuotojai projektų laiką gali įrašyti panašiai kaip darbuotojai. Įrašydamas laiką projektui ir / ar projekto užduočiai, sutarties darbuotojas gali pasirinkti konkrečią subrangos sutartį ir subrangos sutarties eilutę.
 
-Patvirtinus sutartininkų pateiktą laiką, projekto išlaidos įrašomos naudojant vieneto savikainos tarifą, nustatytą tam sutartinio darbuotojo ištekliui subrangos **sutarties pirkimo kainoraščio dalyje Vaidmenų kainos**.
+Kai sutarties darbuotojų pateiktas laikas patvirtinamas, projekto išlaidos įrašomos naudojant to sutarties darbuotojo ištekliaus vieneto išlaidų koeficientą, nustatytą pirkimo kaininių sąrašo skyriuje **Vaidmens kainos**.
 
-## <a name="costing-for-subcontracted-expenses-on-projects"></a>Subrangos sutartimi atliekamų projektų išlaidų įkainojimas
-Įvesdami projektų patirtas išlaidas, išlaidų įraše galite pasirinkti subrangos ir subrangos liniją. 
+## <a name="costing-for-subcontracted-expenses-on-projects"></a>Projektų išlaidų įvertinimai subrangos sutartims
+Įvesdami su projektais susijusias išlaidas, galite pažymėti išlaidų subrangos sutartį ir subrangos eilutę. 
 
-Kai šis išlaidų įrašas pateikiamas ir patvirtinamas, išlaidų savikaina įrašoma į projektą pagal vieneto kainą, nustatytą tai sandorių kategorijai **subrangos sutarties pirkimo kainoraščio skyriuje Kategorijos kainos**.
+Kai šis išlaidų įrašas pateikiamas ir patvirtinamas, projekto išlaidos įrašomos naudojant to sutarties darbuotojo ištekliaus vieneto išlaidų koeficientą, nustatytą pirkimo kaininių sąrašo skyriuje **Kategorijos kainos**.
 
-## <a name="costing-for-subcontracted-materials-on-projects"></a>Subrangos pagrindu pagamintų medžiagų, susijusių su projektais, įkainojimas
-Įvesdami medžiagų naudojimą projektuose, medžiagų naudojimo žurnale galite pasirinkti subrangos ir subrangos liniją. Kai medžiagos naudojimo žurnalas pateikiamas ir patvirtinamas, materialinė projekto savikaina įrašoma pagal vieneto kainą, nustatytą tam produktui **subrangos kainoraščio skiltyje Kainoraštis**.
+## <a name="costing-for-subcontracted-materials-on-projects"></a>Projektų medžiagų įvertinimai subrangos sutartims
+Įvesdami su projektais susijusį medžiagų naudojimą, galite pažymėti subrangos sutartį ir subrangos eilutę medžiagų naudojimo žurnale. Kai medžiagų naudojimo žurnalas pateikiamas ir patvirtinamas, projekto medžiagų kaina įrašoma naudojant to sutarties darbuotojo ištekliaus vieneto išlaidų koeficientą, nustatytą pirkimo kaininių sąrašo skyriuje **Kategorijos kainos**.
 
-Medžiagos panaudojimas taip pat gali būti registruojamas projektams. Šio tipo medžiagų naudojimą taip pat galima susieti su subrangos ir subrangos linija. Įrašydami medžiagos naudojimą įrašymo gaminiams, turite įvesti įrašymo produkto vieneto kainą. 
+Medžiagos naudojimą galima įrašyti ir projektų įrašams į produktus. Tokio tipo medžiagos naudojimas taip pat gali būti susietas su sąrangos sutartimi ir eilute. Įrašydami įvedamų produktų medžiagos naudojimą, turite įvesti į jį įvedamo produkto vieneto kainą. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

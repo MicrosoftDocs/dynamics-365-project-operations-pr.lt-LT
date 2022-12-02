@@ -1,6 +1,6 @@
 ---
 title: Subrangos sutarties laiko eilutės
-description: Šiame straipsnyje paaiškinama, kaip įrašyti subrangos eilutes laikui ir įrašyti laiko pirkimą iš tiekėjų.
+description: Šiame straipsnyje paaiškinama, kaip įrašyti subrangos sutarties laiko eilutes ir laiko pirkimą iš tiekėjų.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

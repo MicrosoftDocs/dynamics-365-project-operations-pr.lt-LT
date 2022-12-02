@@ -1,6 +1,6 @@
 ---
 title: Projektų kainoraščių valdymas projekto pasiūlymuose
-description: Šiame straipsnyje pateikiama informacija apie darbą su projekto kainoraščiais kabutėse.
+description: Šiame straipsnyje pateikta informacija, kaip dirbti su projektų kainoraščiais pasiūlymuose.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article

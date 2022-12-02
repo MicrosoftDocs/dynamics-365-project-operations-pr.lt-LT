@@ -1,6 +1,6 @@
 ---
 title: Kas nauja – 2022 m. rugpjūčio mėn. – „Project Operations“, skirta išteklių / nelaikomų medžiagų scenarijams
-description: Šiame straipsnyje pateikiama informacija apie kokybės naujinimus, kurie pasiekiami "Microsoft" Dynamics 365 Project Operations 2022 m. rugpjūčio mėnesio leidime, skirtuose išteklių / ne atsargų scenarijams.
+description: Šiame straipsnyje pateikiama informacija apie kokybinius naujinimus, kuriuos galima rasti 2022 m. rugpjūčio mėn. „Microsoft Dynamics 365 Project Operations“ išteklių ir nesaugomais pagrįsti scenarijai.
 author: ramagadu
 ms.date: 07/19/2022
 ms.topic: article
@@ -18,18 +18,18 @@ ms.locfileid: "9403867"
 
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
-Šis straipsnis taikomas šiems "Microsoft" Dynamics 365 Project Operations komponentams ir versijoms:
+Šis straipsnis taikomas toliau nurodytiems „ Microsoft Dynamics 365 Project Operations“ komponentams ir versijoms:
 
-- "Project" operacijos Dataverse aplinkos versijos 4.45.0.53
-- Projektų valdymas ir apskaita Dynamics 365 Finance aplinkoje 10.0.28 versija
+- „Project Operations“ 4.45.0.53 versijos „Dataverse“ aplinkoje
+- Projektų valdymas ir apskaita „Dynamics 365 Finance“ aplinkos 10.0.28 versijoje
 
 ## <a name="project-operations-dual-write-maps-updates"></a>„Project Operations“ dvigubo rašymo schemų naujinimai
 
 Šiame leidime nėra „Project Operations“ dvigubo rašymo schemų naujinimų. Dabartinį „Project Operations“ dvigubo rašymo schemų sąrašą ir versijas rasite straipsnyje [„Project Operations“ dvigubo rašymo schemų versijos](../environment/resource-dual-write-maps.md).
 
-Visada paleiskite naujausią žemėlapio versiją savo aplinkoje ir įgalinkite visus susijusius lentelių žemėlapius, kai atnaujinate "Project Operations" Dataverse sprendimą ir "Finance" sprendimo versiją. Kai kurios funkcijos ir galimybės gali neveikti tinkamai, jei nesuaktyvinta naujausia žemėlapio versija. Aktyvią schemos versiją galite peržiūrėti puslapio **Dvigubas rašymas** stulpelyje **Versija**. Suaktyvinti naują schemos versiją galite pasirinkdami **Lentelės schemos versijos**, tada – naujausią versiją, tada pasirinktą versiją įrašydami. Jei tinkinote paruoštą naudoti lentelės žemėlapį, iš naujo pritaikykite pakeitimus. Norėdami sužinoti daugiau, žr. [Programų ciklo valdymas](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Atnaujindami „Project Operations“ „Dataverse“ sprendimo ir „Finance“ sprendimo versijas, visada naudokite naujausią schemos versiją savo aplinkoje ir įjunkite visas susijusias lentelių schemas. Jei nesuaktyvinama naujausia schemos versija, kai kurios funkcijos ir galimybės gali veikti netinkamai. Aktyvią schemos versiją galite peržiūrėti puslapio **Dvigubas rašymas** stulpelyje **Versija**. Suaktyvinti naują schemos versiją galite pasirinkdami **Lentelės schemos versijos**, tada – naujausią versiją, tada pasirinktą versiją įrašydami. Jei tinkinote parengtą naudoti lentelės schemą, pakeitimus pritaikykite iš naujo. Norėdami sužinoti daugiau, žr. [Programų ciklo valdymas](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
-Jei paleidę žemėlapį susiduriate su problema, vadovaukitės instrukcijomis, pateiktomis skyriuje Trūksta lentelės stulpelių žemėlapiuose, esančiame [dvigubo](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) rašymo trikčių šalinimo vadovo skyriuje.
+Jei paleidžiant schemą kyla kokia nors problema, vykdykite nurodymus, pateikiamus dvigubo rašymo trikčių šalinimo vadovo skyriuje [Trūkstamų lentelių stulpelių problema schemose](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps).
 
 ## <a name="quality-updates"></a>Kokybės naujinimai
 
@@ -37,13 +37,13 @@ Jei paleidę žemėlapį susiduriate su problema, vadovaukitės instrukcijomis, 
 
 | Funkcijų sritis | Nuorodos numeris | Kokybės naujinimas |
 | --- | --- | --- |
-|  Galimybių valdymas | 2762089 | Klaidų tvarkymas nutraukiant sutartį kaip prarastą, jei automatinis įrašymas organizacijoje yra išjungtas.|
-|Projektų planavimas ir sekimas | 2767841 | Telemetrija atnaujina projekto objektą Kurti arba Naujinti scenarijus.|
-|Sąskaitų pateikimas ir kainodara | 2771072 | Nulinės nuorodos išimčių tvarkymas laimint pasiūlymą.|
-|Sąskaitų pateikimas ir kainodara | 2844181 |Nepavyko gauti koreliacijos ID ir užblokuoti sąskaitos faktūros sukūrimo.|
-|Sąskaitų pateikimas ir kainodara | 2852836 | Vidinės įmonės faktinės sumos trūkstamos vidinės įmonės išlaidoms, sukurtoms ir patvirtintoms CE.|
+|  Galimybių valdymas | 2762089 | Klaidos apdorojant sutartį kaip prarastą, jei organizacijos automatinio įrašymo funkcija išjungta.|
+|Projektų planavimas ir sekimas | 2767841 | Telemetrijos naujinimai projekto objekto kūrimo ar naujinimo scenarijai.|
+|Sąskaitų pateikimas ir kainodara | 2771072 | Nulinių nuorodų išimtų tvarkymas laimint pasiūlymą.|
+|Sąskaitų pateikimas ir kainodara | 2844181 |Nepavyko gauti susaistyto ID ir blokuoti sąskaitos faktūros kūrimo.|
+|Sąskaitų pateikimas ir kainodara | 2852836 | Tarpastautinių faktinių duomenų nėra, kad būtų sukurtos ir patvirtintos CE tarpusavio išlaidos.|
 
 
-### <a name="project-management-and-accounting-in-finance"></a>Projektų valdymas ir apskaita finansų srityje
+### <a name="project-management-and-accounting-in-finance"></a>Projektų valdymas ir apskaita programoje „Finance”
 
-Norėdami gauti informacijos apie į šį naujinimą įtrauktus klaidų pataisymus, prisijunkite prie Microsoft Dynamics "Lifecycle Services" (LCS) ir peržiūrėkite [KB straipsnį](https://fix.lcs.dynamics.com/Issue/Details?bugId=694438).
+Norėdami gauti daugiau informacijos apie klaidų ištaisymus, įtrauktus į šį naujinimą, prisijunkite prie „Microsoft Dynamics Lifecycle Services“ (LCS) ir rrodyti [KB straipsnis](https://fix.lcs.dynamics.com/Issue/Details?bugId=694438).

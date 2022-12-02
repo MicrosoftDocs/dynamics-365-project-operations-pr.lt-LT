@@ -1,6 +1,6 @@
 ---
 title: Projekto sutarčių kopijavimas
-description: Šiame straipsnyje pateikiama informacija apie projekto sutarčių kopijavimą programoje "Project Operations".
+description: Šiame straipsnyje pateikiama informacija apie projekto sutarčių kopijavimą programoje „Dynamics Project Operations“.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article

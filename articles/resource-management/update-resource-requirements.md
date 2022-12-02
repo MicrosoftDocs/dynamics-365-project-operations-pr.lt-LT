@@ -1,6 +1,6 @@
 ---
 title: Redaguoti ištekliaus reikalavimą
-description: Šiame straipsnyje pateikiama informacija apie išteklių poreikio informacijos atnaujinimą.
+description: Šiame straipsnyje pateikiama informacija apie ištekliaus reikalavimo informacijos naujinimą.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

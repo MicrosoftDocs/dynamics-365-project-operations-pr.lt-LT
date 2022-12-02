@@ -1,6 +1,6 @@
 ---
-title: Sinchronizuoti projekto būseną, kad būtų išvengta įėjimo į uždarytus projektus
-description: Šiame straipsnyje paaiškinama, kaip sinchronizuoti projekto būseną, kad būtų išvengta įėjimo į neaktyvius arba uždarytus projektus.
+title: Sinchronizuokite projekto būseną, kad neleistumėte patekti į uždarus projektus
+description: Šiame straipsnyje paaiškinta, kaip sinchronizuoti projekto būseną, kad nebūtų galima įvesti projektų su neaktyviais arba uždarytais projektais.
 author: ryansandnessMSFT
 ms.date: 08/09/2022
 ms.topic: article
@@ -13,62 +13,62 @@ ms.contentlocale: lt-LT
 ms.lasthandoff: 08/24/2022
 ms.locfileid: "9348111"
 ---
-# <a name="sync-project-status-to-prevent-entry-against-closed-projects"></a>Sinchronizuoti projekto būseną, kad būtų išvengta įėjimo į uždarytus projektus
+# <a name="sync-project-status-to-prevent-entry-against-closed-projects"></a>Sinchronizuokite projekto būseną, kad neleistumėte patekti į uždarus projektus
 
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
 ## <a name="scenario"></a>Scenarijus
 
-Contoso yra tiesioginis su "Microsoft" Dynamics 365 Project Operations išteklių / ne atsargų scenarijams. Vykdant įprastą verslo veiklą, projektai gali būti užbaigti arba sustabdyti. Galite inaktyvuoti projektą, kad užtikrintumėte, jog nebūtų generuojamos jokios išlaidos ar sąskaitos faktūros.
+„Contoso“ paleidžiama naudojant „Microsoft Dynamics 365 Project Operations“, skirtą išteklių / nelaikomų medžiagų scenarijams. Kaip įprasta verslo veikla, projektai gali būti užbaigti arba sulaikyti. Galite išjungti projektą ir įsitikinti, kad negeneruojama jokių išlaidų arba sąskaitų faktūrų.
 
 ## <a name="solution"></a>Sprendimas
 
 ### <a name="prerequisites"></a>Būtinosios sąlygos
 
--   Microsoft Dynamics 365 Finansai 10.0.29 arba naujesnė versija turi būti įdiegta.
--   "Dual Write" žemėlapio 1.0.0.3 projektams V2 (msdyn\_ projektams) turi būti įdiegtas arba sukonfigūruotas rankiniu būdu, kaip aprašyta toliau.
+-   Turi būti įdiegta „Microsoft Dynamics 365 Finance“ 10.0.29 arba naujesnė versija.
+-   Dviguba rašymo struktūra 1.0.0.3, skirtas V2 projektams (msdyn\_projektams), turi būti įdiegta arba rankiniu būdu sukonfigūruota, kaip nurodyta toliau.
 
-### <a name="create-an-updated-version-of-the-project-operations-integration-projects-v2-dual-write-map"></a>Sukurkite atnaujintą "Project Operations" integravimo projektų V2 dvigubo rašymo žemėlapio versiją
+### <a name="create-an-updated-version-of-the-project-operations-integration-projects-v2-dual-write-map"></a>Atnaujintos „Project Operations integration Projects V2" dvigubo rašymo struktūros versijos kūrimas
 
-Norėdami atnaujinti "Project Operations Projects V2" dvigubo rašymo žemėlapį:
+„Project Operations Projects V2“ dvigubo rašymo schemų naujinimai:
 
-1. Eikite į **duomenų valdymo** darbo sritį ir pasirinkite **Dvigubas rašymas**.
-2. Pasirinkite plytelę Dvigubas **rašymas**.
-3. Stulpelyje T **lentelės žemėlapis** raskite ir pasirinkite **Project V2 (msdyn\_ projektai)**, tada pasirinkite Stabdyti.
-4. Pasirinkite žemėlapio pavadinimą, kad atidarytumėte žemėlapį, tada pasirinkite **[Nėra]**.
-5. Dialogo lange Pasirinkti stulpelį pasirinkite **statecode \[projekto būsena\]**, tada pasirinkite Gerai. Norėdami susiaurinti sąrašą, filtro reikšmėje galite įvesti **būseną**.
-6.  Pasirinkite **Įtraukti arba redaguoti transformaciją** žemėlapio tipo **stulpelyje,** kad redaguotumėte transformaciją.
-7.  Iš **Transformavimo tipas** pasirinkite **ValueMap**.
-8.  Pasirinkite **Įtraukti reikšmių susiejimą**, tada įtraukite šiuos **raktus** ir **reikšmes**:
+1. Eikite į arbo sritį **Duomenų valdymas** ir pasirinkite **Dvigubas rašymas**.
+2. Pažymėkite **Dvigubo rašymo** plytelę.
+3. Stulpelyje T **Lentelės struktūra** raskite ir pažymėkite **Project V2" (msdyn\_projects)** ir pažymėkite Sustabdyti.
+4. Pažymėkite struktūros pavadinimą, kad atidarytumėte struktūrą, tada pažymėkite **[Nėra]**.
+5. Dialogo lange Stulpelio pasirinkimas pasirinkite **būsenos kodą \[Projekto būsena\]**, tada pasirinkite Gerai. Filtro reikšmę **galite** įvesti taip, kad susiaurintumėte sąrašą.
+6.  Norėdami redaguoti transformaciją, pasirinkite **Įtraukti arba redaguoti transformaciją** **struktūros tipo** stulpelyje.
+7.  Iš **Transformacijos tipo** pasirinkite **VertėsStruktūra**.
+8.  Pažymėkite **Įtraukti reikšmių susiejimą**, tada įtraukite šiuos **Raktus** ir **Reikšmes**:
 
    Klavišas       | Vertė 
    ----------|-------
-   "InProcess" | 0     
+   Apdorojama | 0     
    baigta | 1     
 
-![Ekrano kopija, kurioje rodomas dvigubo rašymo susiejimas](media/projectstage-dw-mapping.png)
+![Dvigubo rašymo susiejimo ekrano kopija](media/projectstage-dw-mapping.png)
 
 9. Pasirinkite **Įrašyti**.
-10. Puslapio Dvigubo rašymo **> projektai V2 (msdyn_projects)** viršuje pasirinkite **Įrašyti kaip**.
-11. Lauke **Leidėjas esančiame** sąraše Pridėti lentelę **pasirinkite** CDS numatytasis **leidėjas**.
-12. Nustatykite lauką **Versija** į 1.0.0.3.
-13. Įveskite **aprašą**, tada pasirinkite **Įrašyti**.
-14. Puslapio Dvigubo rašymo **> projektai V2 (msdyn_projects)** viršuje pasirinkite **Vykdyti**, kad paleistumėte žemėlapį, tada sekect **Taip**, jei prašoma patvirtinti prieš paleidžiant. 
+10. Puslapio **Dvigubas rašymas viršuje > „Projects V2" (msdyn_projects)** pasirinkite **Įrašyti kaip**.
+11. Iš srities **Įtraukti lentelę** lauke **Leidėjas** pasirinkite **CDS Numatytasis leidėjas**.
+12. Nustatykite **Versija** laukelį į 1.0.0.3.
+13. Įveskite **Aprašą** ir pasirinkite **Įrašyti**.
+14. Puslapio **Dvigubas rašymas viršuje > „Projects V2 msdyn_projects"** pasirinkite **Vykdyti**, kad paleistumėte struktūrą, tada pasirinkite **Taip**, jei prieš paleisdami būsite prašomi patvirtinti. 
 
-### <a name="close-a-newly-completed-project"></a>Uždarykite naujai užbaigtą projektą
+### <a name="close-a-newly-completed-project"></a>Naujai užbaigto projekto uždarymas
 
-Dynamics 365 Finance naudoja projekto etapo **lauką**, kad atskirtų vykdomus **arba** užbaigtus **projektus**. **Iš užbaigtų** projektų negalima patirti išlaidų ar išrašyti sąskaitų faktūrų klientams.
+„Dynamics 365 Finance" naudoja **projekto etapo** lauką, kad būtų atskirti **vykdomi** arba **baigti** projektai. **Baigti** projektai negali sukelti išlaidų arba klientams išrašyti jų sąskaitų faktūrų.
 
 1. Atidarykite projektą, kurį norite išjungti.
 2. Juostelėje pasirinkite **Išjungti**.
 
 > [!NOTE]
-> Galite išaktyvinti arba uždaryti projektą, nes jie abu veiks taip pat finansų kontekste.
+> Projektą galima išjungti arba uždaryti, nes jie abu elgsis taip pat, kaip ir finansų kontekste.
 
-3. Programoje "Finance" atidarykite sąrašo **puslapį** Visi projektai.
-4. Patvirtinkite, kad išjungtas projektas nerodomas sąraše.
-5. Virš sąrašo **esančiame rodymo projektų** filtre pakeiskite reikšmę iš **Aktyvus** į **Visi**.
-6. Dabar pamatysite išjungtą projektą.
+3. Finansų srityje atidarykite **Visų projektų sąrašo** puslapį.
+4. Patikrinkite, ar išjungto projekto nėra sąraše.
+5. **Rodomų projektų** filtre virš sąrašo reikšmę pakeiskite iš **Aktyvūs** į **Visi**.
+6. Dabar matysite išjungtą projektą.
 
-Jei bandote registruoti laiką ar išlaidas pagal šį projektą programoje "Finance", neturėtumėte matyti projekto, kad galėtumėte jį pasirinkti. Jei rankiniu būdu įvesite projekto numerį į išlaidas, matysite pranešimą, pvz., "Užbaigtas projekto etapas neleidžia įrašyti į projektą". Sąskaitų faktūrų išrašymo ir kitos atsiskaitymo funkcijos turėtų būti išjungtos, nes jos bus įtrauktos į uždarą projektą.
+Jei bandote registruoti laiką ar išlaidas pagal šį projektą finansų srityje, projekto pasirinkti negalite. Jei išlaidų projekto numerį įvesite rankiniu būdu, matysite pranešimą, pvz., „Projekto etapas baigtas, neleidžiama įrašyti projekto". Sąskaitų faktūrų išrašymo ir kitos sąskaitų siuntimo funkcijos turėtų būti išjungtos, nes jos bus uždaryto projekto kontekste.
 

@@ -1,6 +1,6 @@
 ---
 title: Produktais pagrįstų pasiūlymo eilučių įkainojimas
-description: Šiame straipsnyje pateikiama informacija apie savikainos taikymą produkto pasiūlymo eilutei.
+description: Šiame straipsnyje pateikta informacija apie tai, kaip taikyti savikainą produktu pagrįstai pasiūlymo eilutei.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

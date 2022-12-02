@@ -1,6 +1,6 @@
 ---
 title: Projekto tiekėjo sąskaitos faktūros patvirtinimas
-description: Šiame straipsnyje paaiškinama, kaip patvirtinti projekto tiekėjo SF programoje "Microsoft" Dynamics 365 Project Operations ir projekto tiekėjo SF patvirtinimo finansinis poveikis.
+description: Šiame straipsnyje paaiškinta, kaip patvirtinti projekto tiekėjo sąskaitą faktūrą programoje „Microsoft Dynamics 365 Project Operations“, ir projekto tiekėjo sąskaitos faktūros patvirtinimo finansinis poveikis.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
@@ -17,17 +17,17 @@ ms.locfileid: "9261522"
 
 _**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
 
-Patikrinę visas tiekėjo SF eilutes programoje "Microsoft" Dynamics 365 Project Operations, galite naudoti veiksmą Patvirtinti, kad patvirtintumėte tiekėjo SF.
+Programoje „Microsoft Dynamics 365 Project Operations“ patikrinę visas tiekėjo sąskaitos faktūros eilutes, galite naudoti veiksmą Patvirtinti, kad patvirtintumėte tiekėjo sąskaitą faktūrą.
 
-Kai tiekėjo SF pasirenkate **Patvirtinti**, įvyksta toks veiksmas:
+Kai tiekėjo sąskaitai faktūrai pasirenkate **Patvirtinti**, įvyksta tokie dalykai:
 
-1. Tiekėjo SF būsena atnaujinama į **Patvirtinta**.
-2. Patvirtinta tiekėjo SF ir su ja susiję įrašai tampa skirti tik skaityti ir jų negalima redaguoti ar panaikinti.
-3. Jei kokios nors savikainos faktinės sumos nurodo tiekėjo SF eilutę kaip susiejimo proceso dalį, visos faktinės savikainos, susietos su nurodyta tiekėjo SF eilute, yra atvirkštinės.
-4. Naujos savikainos faktinės sumos sukuriamos naudojant tiekėjo SF eilutėje esančią informaciją.
-5. Patvirtinus tiekėjo SF, nebegalite kurti taisymo žurnalų, apdoroti laiko įrašo atšaukimų arba atšaukti pradinio laiko, išlaidų ar esminių faktinių aplinkybių, kurios buvo atšauktos, patvirtinimo.
+1. Tiekėjo sąskaitos faktūros būsena atnaujinama į **Patvirtinta**.
+2. Patvirtinta tiekėjo sąskaita faktūra ir su ja susiję įrašai tampa tik skaitomi, jų negalima redaguoti ar naikinti.
+3. Jei gretinimo proceso metu kokie nors savikainos faktiniai duomenys nurodo tiekėjo sąskaitos faktūros eilutę, visi savikainos faktiniai duomenys, susieti su nurodoma tiekėjo sąskaitos faktūros eilute, atšaukiami.
+4. Nauji savikainos faktiniai duomenys sukuriami naudojant informaciją, esančią tiekėjo sąskaitos faktūros eilutėje.
+5. Patvirtinę tiekėjo sąskaitą faktūrą, nebegalite kurti koregavimo žurnalų, apdoroti laiko įrašų atšaukimų ar atšaukti pradinio laiko, išlaidų ar medžiagos faktinių duomenų, kurie buvo atšaukti, patvirtinimo.
 
 > [!NOTE]
-> Jei kurios nors tiekėjo SF eilutės patvirtinimo būsena yra kita nei **Baigta**, tiekėjo SF patvirtinti negalima.
+> Jei kurios nors tiekėjo sąskaitos faktūros eilutės tikrinimo būsena yra ne **Atlikta**, tiekėjo sąskaitos faktūros patvirtinti negalima.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Projekto pasiūlymo aktyvinimas ir peržiūra
-description: Šiame straipsnyje pateikiama informacija apie citatų aktyvinimą ir peržiūrą programoje "Microsoft"Dynamics 365 Project Operations.
+description: Šiame straipsnyje pateikta informacija, kaip aktyvinti ir peržiūrėti pasiūlymus „Microsoft Dynamics 365 Project Operations“.
 author: rumant
 ms.date: 09/01/2022
 ms.topic: article
@@ -17,34 +17,34 @@ ms.locfileid: "9410379"
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
-Aktyvinimo ir taisymo galimybės padeda sekti projektinių pasiūlymų versijų kūrimą vertinimo ir derybų etapuose. Suaktyvinus citatos juodraštį, jis tampa tik skaitomu.
+Aktyvinimo ir peržiūros galimybės padeda stebėti projektais pagrįstų pasiūlymų versijų kūrimą vertinimo ir aktyvinimo etapų metu. Kai suaktyvinamas pasiūlymo juodraštis, jis tampa tik skaitomas.
 
-Aktyvinimo ir taisymo galimybės leidžia atlikti šias užduotis:
+Aktyvinimo ir peržiūros galimybės leidžia atlikti toliau nurodytas užduotis.
 
-- Laimėkite arba pralaimėkite kabutes tik po aktyvinimo.
-- Peržiūrėkite pasiūlymą, kad pakeistumėte esamą pasiūlymą arba sukurtumėte naują versiją.
+- Laimėkite arba pralaimėkite pasiūlymus tik suaktyvinę.
+- Peržiūrėkite pasiūlymą ir atlikite esamo pasiūlymo pakeitimus arba sukurkite naują versiją.
 
 > [!NOTE]
-> Įjungus kabučių aktyvinimo ir peržiūros funkciją, jos negalima išjungti.
+> Įjungus pasiūlymų aktyvinimo ir peržiūros funkciją, jos išjungti nepavyks.
 
-Norėdami įjungti galimybę aktyvinti ir peržiūrėti projektinius pasiūlymus, atlikite šiuos veiksmus.
+Norėdami įjungti galimybę aktyvinti ir peržiūrėti projektais pagrįstus pasiūlymus, atlikite toliau nurodytus veiksmus.
 
-1. Eikite į **"Settings Parameters"** \> **·**.
-1. Atidarykite parametrų **įrašą**.
-1. Veiksmų srities skirtuke Funkcijų **valdymas** pasirinkite **Įgalinti kabučių aktyvinimą ir taisymą**.
+1. Eikite į **Parametrai** \> **Parametrai**.
+1. Atidarykite įrašą **Parametrai**.
+1. Veiksmų srities skirtuke **Funkcijų valdymas** pasirinkite **Įjungti pasiūlymų aktyvinimą ir peržiūrą**.
 1. Patvirtinimo dialogo lange pasirinkite **Gerai**.
-1. Po kelių akimirkų atnaujinkite naršyklę. Dabar turėtų būti pasiekiamos aktyvinimo ir peržiūros galimybės. Žinosite, kad šios galimybės buvo įjungtos, **jei veiksmų srityje nebepasirodo mygtukas Įgalinti kabučių** aktyvinimą ir taisymą.
+1. Po kelių sekundžių atnaujinkite naršyklę. Dabar aktyvinimo ir peržiūros galimybes bus pasiekiamos. Žinosite, kad šios galimybės įjungtos, jei veiksmų srityje nebebus rodomas mygtukas **Įjungti pasiūlymų aktyvinimą ir peržiūrą**.
 
 ## <a name="activating-a-quote"></a>Pasiūlymo aktyvinimas
 
-Įjungus kabučių aktyvinimo ir taisymo funkciją, veiksmų srityje esantys mygtukai Uždaryti citatą **kaip laimėtą** ir **Uždaryti citatą kaip prarastą** negalimi projekto pasiūlymų juodraščiams. Jie pasiekiami tik suaktyvinus citatą.
+Įjungus pasiūlymų aktyvinimo ir peržiūros funkciją, veiksmų srityje nebėra juodraštinių projekto pasiūlymų mygtukų **Uždaryti pasiūlymą kaip laimėtą** ir **Uždaryti kaip pralaimėtą**. Juos galima naudoti tik suaktyvinus pasiūlymą.
 
-Aktyvinimas nurodo pasiūlymo proceso etapą, kai norite išvengti daugiau pasiūlymo pakeitimų. Šiame etape pasiūlymas siunčiamas vidinei peržiūrai arba klientui.
+Aktyvinimas reiškia pasiūlymo proceso etapą, kai norite neleisti, kad pasiūlyme būtų daugiau pakeitimų. Šiame etape pasiūlymas siunčiamas vidinei peržiūrai arba klientui.
 
-Aktyvintoms **kabutėms galimi mygtukai Uždaryti kaip laimėtą** ir **Uždaryti kaip prarastą kaip prarastą** mygtukai veiksmų srityje. Priklausomai nuo vidinės arba klientų peržiūros rezultatų, galite naudoti vieną iš šių mygtukų, kad uždarytumėte suaktyvintą pasiūlymą. Galite atlikti derybas ir pakeitimus aktyvuotose kabutėse pasirinkdami Peržiūrėti **citatą**.
+Suaktyvintiems pasiūlymams pasiekiami veiksmų srities mygtukai **Uždaryti pasiūlymą kaip laimėtą** ir **Uždaryti pasiūlymą kaip pralaimėtą**. Atsižvelgdami į vidinės arba kliento peržiūros rezultatą, galite uždaryti suaktyvintą pasiūlymą naudodami vieną iš šių mygtukų. Dėl aktyvintų pasiūlymų galite vesti derybas ir juos keisti, pasirinkę **Peržiūrėti pasiūlymą**.
 
-## <a name="revising-a-quote"></a>Citatos peržiūra
+## <a name="revising-a-quote"></a>Pasiūlymo peržiūrėjimas
 
-Jei turite keisti suaktyvintą pasiūlymą, pasirinkite **Peržiūrėti pasiūlymą**. Citata uždaroma ir **naudojamas patikslintas** priežasties kodas. Tada sukuriamas naujas pasiūlymas, turintis tą patį ID ir padidintą versijos numerį. Visos detalės iš originalios citatos nukopijuojamos į naują citatą. Naujas pasiūlymas yra juodraščio būsenoje ir gali būti redaguojamas, jei reikia.
+Jei reikia pakeisti suaktyvintą pasiūlymą, pasirinkite **Peržiūrėti pasiūlymą**. Pasiūlymas uždaromas ir naudojamas priežasties kodas **peržiūrimas**. Tada sukuriamas naujas pasiūlymas, kurio ID yra toks pats, o peržiūros numeris padidintas. Visa informacija iš pradinio pasiūlymo nukopijuojama į naują pasiūlymą. Naujo pasiūlymo būsena yra juodraštis ir jį galima redaguoti pagal poreikį.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: 2020 m. lapkričio mėn. naujienos – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams
-description: Šiame straipsnyje pateikiama informacija apie kokybės naujinimus, pasiekiamus 2020 m. lapkričio mėnesio "Project Operations" leidime, skirtame ištekliais / ištekliais neaprūšiuotiems scenarijams.
+description: Šiame straipsnyje pateikiama informacija apie kokybės naujinimus, pasiekiamus 2020 m. lapkričio mėn. „Project Operations Lite”, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams.
 author: sigitac
 ms.date: 10/30/2020
 ms.topic: article
@@ -17,10 +17,10 @@ ms.locfileid: "9029540"
 
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
-Šis straipsnis taikomas šiems Dynamics 365 Project Operations komponentams ir versijoms:
+Šis straipsnis taikomas toliau nurodytiems „Dynamics 365 Project Operations“ komponentams ir versijoms:
 
 - „Project Operations” CDS aplinkoje, 4.4.0.70 versija
-- Projektų valdymas ir apskaita Dynamics 365 Finance aplinkoje 10.0.14 versija
+- Projektų valdymas ir apskaita „Dynamics 365 Finance“ aplinkos 10.0.14 versijoje
 
 ## <a name="updates-to-project-operations-for-resource-non-stocked-based-scenarios"></a>„Project Operations“, skirtos ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams, naujinimai
 
@@ -42,7 +42,7 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 | Laikas ir spartusis išlaidų įrašas | 2059859          | Kuriant išlaidų įrašą, atidaromas netikėtas iššokantysis langas.                                                                                                                         |
 | Kita                        | 2044181          | (Pirkimo užsakymo šalinimas) Bandant pašalinti msdyn_ProjectServiceCore_Patch ir msdyn „Project Service” pagrindinius sprendimus, įvyksta klaida „Įrašas nepasiekiamas“.  |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektų valdymas ir apskaita Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektų valdymas ir apskaita „Dynamics 365 Finance” programos aplinkose
 
 | Funkcijų sritis        | Nuorodos numeris | Kokybės naujinimas                                                                                                                                                            |
 |---------------------|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -65,7 +65,7 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 | Projekto apskaita  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Įjungus šią funkciją, kelios sutarties eilutės negalimos be CDS integravimo.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Reguliavimo naujinimai
-Informacijos apie finansų ir operacijų programų reguliavimo naujinimus ieškokite [Reguliavimo naujinimai](/dynamics365/finance/localizations/regulatory-updates). Taip pat galite prisijungti prie LCS ir peržiūrėti planuojamus reguliavimo naujinimus naudodamiesi problemų ieškos įrankiu. Problemų ieška leidžia ieškoti pagal šalį, funkcijos tipą ir leidimą.
+Norėdami gauti informacijos apie finansų ir operacijų programų reguliavimo naujinimus, žr. [Reguliavimo naujinimai](/dynamics365/finance/localizations/regulatory-updates). Taip pat galite prisijungti prie LCS ir peržiūrėti planuojamus reguliavimo naujinimus naudodamiesi problemų ieškos įrankiu. Problemų ieška leidžia ieškoti pagal šalį, funkcijos tipą ir leidimą.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

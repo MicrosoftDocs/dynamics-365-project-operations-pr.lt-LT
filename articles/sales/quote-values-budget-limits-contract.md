@@ -1,6 +1,6 @@
 ---
 title: Projekto pasiūlymo parametrai
-description: Šiame straipsnyje pateikiama informacija apie informaciją ir parametrus, taikomus projektų pasiūlymams ir turinčius jiems įtakos.
+description: Šiame straipsnyje pateikta informacija apie informaciją ir parametrus, taikomus projekto pasiūlymams ir jų poveikį.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

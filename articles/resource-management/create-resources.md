@@ -1,6 +1,6 @@
 ---
 title: Išteklių kūrimas
-description: Šiame straipsnyje pateikiama nuoroda į informaciją apie tai, kaip sukurti rezervuojamus išteklius.
+description: Šiame straipsnyje pateikta nuoroda į informaciją apie tai, kaip kurti rezervuojamus išteklius.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: article
@@ -19,10 +19,10 @@ _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems s
 
 Galite naudodami „Dynamics 365 Field Service“ kurti rezervuojamus išteklius, kuriuos galėsite naudoti „Dynamics 365 Project Operations“ aplinkoje. Norėdami sukurti šiuos išteklius, žr. [Rezervuojamų išteklių nustatymas](/dynamics365/field-service/set-up-bookable-resources).
 
-"Project Operations" palaiko šiuos išteklių tipus:
-- Abonementas
-- Prisijungti
-- User
+„Project Operations“ palaiko šių tipų išteklius:
+- Klientas
+- Kontaktas
+- Vartotojas
 - Įranga
 - Bendra
 

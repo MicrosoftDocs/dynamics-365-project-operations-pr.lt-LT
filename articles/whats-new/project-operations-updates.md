@@ -1,6 +1,6 @@
 ---
 title: „Project Operations“ naujinimai
-description: Šiame straipsnyje pateikiama informacija apie išleistas versijas Dynamics 365 Project Operations.
+description: Šiame straipsnyje pateikiama informacija apie išleistas „Dynamics 365 Project Operations“ versijas.
 author: sigitac
 ms.date: 03/28/2022
 ms.topic: article
@@ -25,7 +25,7 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 „Dynamics 365 Project Operations“ sudaro du komponentai:
 
 - „Project Operations“ „Dataverse” aplinkoje apima galimybes pradedant galimybėmis ir baigiant išankstinių sąskaitų faktūrų išrašymu. „Dataverse“ yra naudojama atliekant „Project Operations“ „Lite“ versijos visuotinį diegimą ir „Project Operations”, skirtos ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams, visuotinį diegimą.
-- Projektų valdymas ir apskaita Dynamics 365 Finance aplinkoje apima išlaidų valdymo galimybes, projektų apskaitą ir pajamų pripažinimą. "Finance and operations" programos aplinka naudojama "Project Operations" ištekliais / ne atsargų scenarijams ir "Project Operations", skirtai atsargomis / gamyba pagrįstiems scenarijams.
+- Projektų valdymas ir apskaita „Dynamics 365 Finance” aplinkoje apima išlaidų valdymo galimybes, projektų apskaitą ir pajamų pripažinimą. Finansų ir operacijų programos aplinka naudojama „Project Operations“, skirtos ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams ir „Project Operations“, skirtos laikomų medžiagų / gamyba pagrįstiems scenarijams.
 
 ## <a name="project-operations-release-notes"></a>„Project Operations“ leidimo pastabos
 - „Project Operations“ naujausio leidimo pastabos, skirtos [ištekliais / atsargose nelaikomomis prekėmis pagrįstiems](whats-new-july-2022-resource-based.md) scenarijams.
@@ -38,7 +38,7 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 | --- | --- |
 | 4.45.0.53 | 10.0.29 |
 
-Jei naudojate "Project Operations Resource" / ne atsargų scenarijų, rekomenduojame naudoti dvigubo rašymo orkestravimo versiją, 2.3.1.15 arba naujesnę versiją.
+Naudojant „Project Operations“ išteklių / nelaikomų medžiagų scenarijų, rekomenduojame naudoti dvigubo rašymo tvarkymo 2.3.1.15 arba naujesnę versiją.
 
 ## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>Leidimo grafikas, skirtas „Project Operations” „Dataverse“ aplinkoje
 
@@ -66,7 +66,7 @@ Naujiniai, skirti „Project Operations” „Dataverse“ aplinkoje, yra pasiek
 | 5 stotis |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
 |   &nbsp;  | Šiaurės Amerika         |  4.46.0.60      | Užbaigta           | Užbaigta            | TBD           | 2022 m. lapkričio 04 d.       |
 
-## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Projektų valdymo ir apskaitos išleidimo grafikas finansų ir operacijų programų aplinkoje
+## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Projektų valdymo ir apskaitos finansų ir operacijų programų aplinkoje leidimų grafikas
 
 Projektų valdymo ir apskaitos atnaujinimai išleidžiami aštuonis kartus per metus.
 

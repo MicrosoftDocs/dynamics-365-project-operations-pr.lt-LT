@@ -1,6 +1,6 @@
 ---
 title: Tiekėjo sąskaitų faktūrų antraštės informacija
-description: Šiame straipsnyje paaiškinamos funkcijos, pateiktos tiekėjo SF antraštėje programoje "Microsoft"Dynamics 365 Project Operations.
+description: Šiame straipsnyje aprašomos funkcijos, nurodytos tiekėjo sąskaitos faktūros antraštėje „Microsoft Dynamics 365 Project Operations“.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
@@ -17,29 +17,29 @@ ms.locfileid: "9261672"
 
 _**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
 
-Šiame straipsnyje paaiškinamos funkcijos, pateiktos tiekėjo SF antraštėje programoje "Microsoft"Dynamics 365 Project Operations.
+Šiame straipsnyje aprašomos funkcijos, nurodytos tiekėjo sąskaitos faktūros antraštėje „Microsoft Dynamics 365 Project Operations“.
 
-Kai projektų vadovai planuoja ir vykdo projektus, jie gali samdyti subrangovus ir pirkti produktus bei paslaugas iš tiekėjų. Projekto vykdymo metu išlaidos patiriamos dėl paslaugų, medžiagų ir išlaidų kategorijų, kurios perkamos subrangos sutartimis su tiekėjais. Tiekėjai išrašo sąskaitas faktūras už šias išlaidas projektams kurdami tiekėjo SF.
+Kaip projektų vadovo projektų planavimą ir vykdymą, jie gali naudoti subrangovus ir produkus bei paslaugas pirkti iš tiekėjų. Vykdant projektą išlaidos patiriamos dėl paslaugų, med iagų ir išlaidų kategorijų, kurios su pardavėjais susijusios su tomis išlaidų kategorijomis. Tiekėjams išrašo šių išlaidų sąskaitą faktūrą projektams sukurdami tiekėjo sąskaitas faktūras.
 
-Šioje lentelėje pateikiama informacija apie "Project Operations" tiekėjo SF antraščių laukus.
+Šioje lentelėje pateikiama informacija apie laukus, esančius tiekėjo sąskaitos antraštėje „Project Operations“.
 
 | Laukas | Aprašą | Funkcinis poveikis |
 | --- | --- | --- |
-| Pavadinimą | Tiekėjo SF pavadinimas. | Visuose išplečiamuosiuose tiekėjo SF sąrašuose tiekėjo SF pavadinimas pateikiamas pirmame stulpelyje, kad būtų lengviau identifikuoti tiekėjo SF. Pagal numatytuosius parametrus, kai tiekėjo SF sukuriama iš subrangos sutarties, **tiekėjo SF laukas Pavadinimas** nustatomas kaip reikšmė, kurią sudaro subrangos pavadinimas ir dabartinė data. |
-| Aprašą | Trumpas paslaugų ir produktų, kuriems išrašomos tiekėjo SF, aprašas. | Joks |
-| Tiekėjas | Įmonės, kuri išrašo sąskaitas faktūras už produktus ir paslaugas, pavadinimas. Ši įmonė turėtų būti abonemento įrašas, turintis tiekėjo arba tiekėjo santykių **tipą**.**·** | <p>Atsižvelgiant į pasirinktą tiekėją, numatytosios reikšmės automatiškai įvedamos į šiuos laukus:</p><ul><li>Valiuta</li><li>Kainoraščiai</li><li>Mokėjimo sąlygos</li><li>Mokėjimo adresas</li></ul> |
-| Subrangos sutartis | Tiekėjo SF nuoroda į subrangos sutartį. | <p>Atsižvelgiant į pasirinktą subrangos sutartį, numatytosios reikšmės automatiškai įvedamos į šiuos laukus:</p><ul><li>Valiuta</li><li>Kainoraščiai</li><li>Mokėjimo sąlygos</li><li>Mokėjimo adresas</li></ul><p>Tiekėjo SF antraštėje pasirinkta subrangos sutartis pagal numatytuosius nustatymus įvedama tiekėjo SF eilutėse ir ten negali būti keičiama.</p> |
-| Sąskaitos faktūros data | Faktinių išlaidų, kurios bus sukurtos patvirtinus tiekėjo SF, data. | Sąskaitos faktūros data taip pat naudojama norint pasirinkti tinkamą pirkimo kainoraštį iš kainoraščių, pridėtų prie susijusio tiekėjo, arba iš projekto parametrų. |
-| Būsenos tipas | Tiekėjo SF būsena. | <p>Būsena nustato, kur tiekėjo SF yra verslo procese ir ar ją galima redaguoti. Štai keletas galimų reikšmių:</p><ul><li>**Juodraštis** – tiekėjo SF galima redaguoti.</li><li>**Patvirtinta** – tiekėjo SF buvo patikrinta ir patvirtinta. Šios būsenos tiekėjo sf negalima redaguoti ar ištrinti.</li><li>**Proceso metu** – peržiūrima tiekėjo SF. Šios būsenos tiekėjo sf galima redaguoti, bet jų panaikinti negalima.</li><li>**Atšaukta** – tiekėjo SF buvo atšaukta. Šios būsenos tiekėjo sf negalima redaguoti ar ištrinti.</li></ul> |
-| Valiuta | Valiuta, kuria tiekėjas išrašo sf už tiekėjo SF nurodytus produktus ir paslaugas. | Tiekėjo SF, kuri nurodo subrangos sutartį, subrangos valiuta pagal numatytuosius nustatymus įvedama kaip tiekėjo SF valiuta. Tiekėjo SF, kuri nenurodo subrangos sutarties, numatytoji reikšmė įvedama iš tiekėjo abonemento įrašo ir gali būti pakeista. Įrašius tiekėjo SF, valiutos redaguoti nebegalima. |
-| Sutartį sudarantis vienetas | Įmonės padalinys, atsakingas už paslaugų ir (arba) produktų gavimą iš tiekėjo. | Joks |
-| Mokėjimo sąlygos | Išrašomų tiekėjo SF mokėjimo sąlygos. Numatytoji reikšmė automatiškai įvedama iš tiekėjo sąskaitos įrašo. | Mokėjimo sąlygos iš subrangos sutarties nukopijuojamos į visas tiekėjo sf, susijusias su subrangos sutartimi. Mokėjimo sąlygas galima atnaujinti, jei tiekėjo SF būsena yra **Juodraštis**. |
-| Mokėjimo adresas | Tiekėjo, kuriam turi būti siunčiami mokėjimai, adresas. Numatytoji reikšmė automatiškai įvedama iš tiekėjo sąskaitos įrašo. | Mokėjimo adresas iš subrangos sutarties nukopijuojamas kaip mokėjimo adresas į visas tiekėjo sf, sukurtas tai subrangos sutarčiai. Mokėjimo adresą galima atnaujinti, jei tiekėjo SF būsena yra **Juodraštis**. |
-| Tarpinė suma | Jei tiekėjo SF nėra eilučių, įveskite tarpinę SF sumą prieš mokesčius. Jei tiekėjo SF yra eilučių, šis laukas yra tik skaitomas. Tokiu atveju rodoma suma yra tarpinė suma iš visų tiekėjo SF eilučių. | Joks |
-| Iš viso mokesčio | Jei tiekėjo SF eilučių nėra, įveskite visus subrangos sutarties mokesčius. Jei tiekėjo SF yra eilučių, šis laukas yra tik skaitomas. Tokiu atveju rodoma suma yra mokesčių sumų suma iš visų tiekėjo SF eilučių. | Joks |
-| Bendra suma | Šiame apskaičiuotajame lauke rodoma bendra tiekėjo SF suma po to, kai įtraukiami mokesčiai. | Joks |
+| Pavadinimą | Tiekėjo sąskaitos faktūros pavadinimas. | Visuose tiekėjo sąskaitos faktūros išskleidžiamuosiuose sąrašuose sąskaitos faktūros pavadinimas pateikiamas pirmajame stulpelyje, kad būtų lengviau nustatyti sąskaitą faktūrą. Pagal numatytuosius nustatymus, kai tiekėjo sąskaita faktūra sukuriama naudojant susąrangą, **pardavėjo** sąskaitos faktūros pavadinimo laukas nustatomas kaip reikšmė, kurią sudaro išsamūs ir dabartinės datos pavadinimas. |
+| Aprašą | Trumpas paslaugų arba produktų, perkamų pagal tiekėjo sąskaitą faktūrą, aprašas. | Joks |
+| Tiekėjas | Įmonės, kuri išrašo sąskaitą faktūrą perkamiems produktams ir paslaugoms, pavadinimas. Ši įmonė turi būti ataskaitos įrašas, kuris turi sąntykio tipą tarp **Tiekėjo** ar **Pardavėjo**. | <p>Atsižvelgiant į pasirinktą tiekėją, automatiškai įvedamos numatytosios šių laukų reikšmės:</p><ul><li>Valiuta</li><li>Kainoraščiai</li><li>Mokėjimo sąlygos</li><li>Mokėjimo adresas</li></ul> |
+| Subrangos sutartis | Nuoroda į tiekėjo sąskaitos faktūros indą. | <p>Atsižvelgiant į pasirinktą subrangos tiekėją, automatiškai įvedamos numatytosios šių laukų reikšmės:</p><ul><li>Valiuta</li><li>Kainoraščiai</li><li>Mokėjimo sąlygos</li><li>Mokėjimo adresas</li></ul><p>Pagal numatytuosius nustatymus tiekėjo sąskaitos faktūros eilutėse įvedamas ir ten jo keisti negalima.</p> |
+| Sąskaitos faktūros data | Faktinių išlaidų data, kuri bus sukurta patvirtinus tiekėjo sąskaitą faktūrą. | Subrangos sutarties data naudojama norint pasirinkti tinkamą pirkimo kainoraštį iš kainoraščių, pridėtų prie susijusio tiekėjo, arba iš projekto parametrų. |
+| Būsenos tipas | Tiekėjo sąskaitos būsena. | <p>Būsena nustato, kurioje tiekėjo sąskaitos vietoje subrangos sutartis yra ir ar galima ją redaguoti. Čia pateikiame kelias prieinamas vertes:</p><ul><li>**Juodraštis**: tiekėjo sąskaitą galima redaguoti.</li><li>**Patvirtinta** – tiekėjo sąskaita faktūra buvo patvirtinta ir patvirtinta. Tiekėjo sąskaitos šioje būsenoje redaguojamos ar naikinamos būti negali.</li><li>**Procesas** – peržiūrima tiekėjo sąskaita faktūra. Tiekėjo sąskaitos šioje būsenoje redaguojamos ar naikinamos būti negali.</li><li>**Atšaukta** – tiekėjo sąskaita faktūra buvo atšaukta. Tiekėjo sąskaitos šioje būsenoje redaguojamos ar naikinamos būti negali.</li></ul> |
+| Valiuta | Valiuta, kuria išrašomi tiekėjo sąskaitos faktūros produktų ir aptarnavimo sąskaitos faktūros produktai ir aptarnavimas. | Tiekėjo sąskaitoje faktūroje, kuri nurodo persodinę, pagal numatytuosius nustatymus konvertuojama valiuta įvedama kaip tiekėjo sąskaitos faktūros valiuta. Tiekėjo sąskaitoje faktūroje, kuri neturi nuorodos į susegtinį, numatytoji reikšmė įvedama iš tiekėjo kliento įrašo ir gali būti pakeista. Įrašius tiekėjo sąskaitą faktūrą, valiutos redaguoti nebegalima. |
+| Sutartį sudarantis vienetas | Įmonės skyrius, atsakingas už paslaugų ir (arba) produktų gavimą iš tiekėjo. | Joks |
+| Mokėjimo sąlygos | Mokėjimo sąlygos pagal tiekėjo sąskaitas faktūras, išrašytas dėl šios subrangos sutarties. Numatytoji reikšmė automatiškai įvedama iš tiekėjo sąskaitos įrašo. | Apmokėjimo sąlygos iš subrangos sutarties nukopijuojamos į visas tiekėjo sąskaitas faktūras, susijusias su šia subrangos sutartimi. Mokėjimo sąlygas galima atnaujinti, jeigu tiekėjo SF būsena yra **Juodraštis**. |
+| Mokėjimo adresas | Tiekėjo, kuriam turi būti siunčiami mokėjimai, adresas. Numatytoji reikšmė automatiškai įvedama iš tiekėjo sąskaitos įrašo. | Mokėjimo adresas iš subrangos sutarties nukopijuojamas kaip mokėjimo adresas į visas tiekėjo sąskaitas faktūras, sukuriamas šiai subrangos sutarčiai. Mokėjimo adresą galima atnaujinti, jeigu tiekėjo SF būsena yra **Juodraštis**. |
+| Tarpinė suma | Jei tiekėjo SF nėra eilučių, įveskite tarpinę SF sumą prieš apskaičiuojant mokesčius. Jei tiekėjo SF eilučių yra, šis laukas yra skirtas tik skaityti. Šiuo atveju, rodoma suma yra tarpinė suma iš visų tiekėjo SF eilučių. | Joks |
+| Bendra mokesčių suma | Jei tiekėjo SF nėra eilučių, įveskite tarpinę mokeesčių sumą pagal subrangą. Jei tiekėjo SF eilučių yra, šis laukas yra skirtas tik skaityti. Šiuo atveju, rodoma suma yra tarpinė suma visų mokesčių suma iš visų tiekėjo SF eilučių. | Joks |
+| Bendra suma | Šiame apskaičiuotajame lauke pateikiama bendra tiekėjo SF suma įtraukus mokesčius. | Joks |
 
 > [!NOTE]
-> Įrašius tiekėjo SF, šių tiekėjo SF laukų keisti negalima: **Tiekėjo, Subrangos**, **Valiutos**, **Sutarties** vieneto **ir** Mokėjimo **sąlygų**. Jei reikia keisti šiuos tiekėjo SF laukus, turite panaikinti tiekėjo SF ir sukurti naują tiekėjo SF.
+> Įrašius tiekėjo sąskaitą faktūrą, šių laukų tiekėjo sąskaitoje faktūroje pakeisti negalima: **Tiekėjas**, **Subrangos sutartis**, **Valiuta**, **Sutarties šalis** ir **Mokėjimo sąlygos**. Jei reikia pakeisti šiuos laukus tiekėjo sąskaitoje faktūroje, turite panaikinti tiekėjo sąskaitą faktūrą ir sukurti naują tiekėjo sąskaitą faktūrą.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Subrangos sutarties eilutės, skirtos produktams
-description: Šiame straipsnyje paaiškinama, kaip įrašyti produktų subrangos eilutes ir naudoti įvairius laukus produktų pirkimams iš tiekėjų įrašyti.
+description: Šiame straipsnyje aiškinama, kaip įrašyti produktų subrangos sutarties eilutes, ir naudotis įvairiais laukais norint įrašyti produktų pirkimus iš tiekėjų.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

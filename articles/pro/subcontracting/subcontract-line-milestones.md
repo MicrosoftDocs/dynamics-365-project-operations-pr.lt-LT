@@ -1,6 +1,6 @@
 ---
 title: Subrangos sutarties eilutės etapai
-description: Šiame straipsnyje paaiškinama, kaip sukurti ir tvarkyti etapais pagrįstą sf grafiką subrangos sutarčiai su tiekėju.
+description: Šiame straipsnyje aiškinama, kaip sukurti ir prižiūrėti etapais pagrįstą subrangos sutarties sąskaitos faktūros grafiką su tiekėju.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

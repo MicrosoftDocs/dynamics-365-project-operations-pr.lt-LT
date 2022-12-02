@@ -1,6 +1,6 @@
 ---
 title: Projekto atsiskaitymo nebaigtų užduočių valdymas
-description: Šiame straipsnyje pateikiama informacija apie įvairius rodinius, kuriuos galima naudoti valdant projektų atsiskaitymo atsilikimą.
+description: Šiame straipsnyje pateikiama informacija apie įvairius galimus naudoti rodinius valdant projektų nebaigtas užduotis.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
-title: Tiekėjo SF kūrimas
-description: Šiame straipsnyje aprašoma tiekėjo sąskaitų faktūrų sąvoka ir paaiškinama, kaip jas sukurti "Microsoft"Dynamics 365 Project Operations.
+title: Tiekėjo sąskaitų faktūrų kūrimas
+description: Šiame straipsnyje aprašoma tiekėjo sąskaitų faktūrų sąvoka ir paaiškinta, kaip jas sukurti naudojant „Microsoft Dynamics 365 Project Operations“.
 author: suvaidya
 ms.date: 9/12/2022
 ms.topic: article
@@ -13,100 +13,100 @@ ms.contentlocale: lt-LT
 ms.lasthandoff: 09/13/2022
 ms.locfileid: "9475471"
 ---
-# <a name="create-vendor-invoices"></a>Tiekėjo SF kūrimas
+# <a name="create-vendor-invoices"></a>Tiekėjo sąskaitų faktūrų kūrimas
 
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
-Norėdami naudoti šiame straipsnyje aprašytas funkcijas, funkcijų valdymo **darbo srityje turite įjungti** funkciją Įgalinti faktinių subrangos sutarčių apdorojimą **naudojant "Project Operations", skirtą ištekliais pagrįstiems scenarijams**.
+Norėdami naudoti šiame straipsnyje aprašytas **funkcijas** turite įjungti funkciją Išteklių valdymo darbo srityje naudoti funkciją „Project Operations“ for ištekliams faktinių **duomenų** apdorojimą.
 
-Tiekėjo sąskaitų faktūrų išrašymas programoje "Microsoft" Dynamics 365 Project Operations gali būti naudojamas paslaugų ir (arba) medžiagų pristatymo išlaidoms, susijusioms su tiekėjų užbaigtu projektu, įrašyti.
+„Microsoft Dynamics 365 Project Operations“ tiekėjo sąskaitų faktūrų išrašymas gali būti naudojamas įrašant išlaidas pagal paslaugų ir (ar) medžiagos pristatymą projektui, kurį užbaigė pardavėjai.
 
-Kai paslaugos ir (arba) medžiagos subrangos sutartimi pavedamos tiekėjui, subrangos sutartis yra sutartinė sutartis su tuo tiekėju. Kai tiekėjas teikia paslaugas arba kai medžiagos gaunamos ir naudojamos projekto užduotims atlikti, išlaidos įrašomos į projektą. Tada tiekėjas periodiškai siunčia sąskaitas faktūras. Šios sąskaitos faktūros yra patikrintos ir suderinamos su išlaidomis, kurios įrašomos į projektą. Baigus tikrinimo procesą, tiekėjo SF patvirtinama ir išleidžiama mokėjimui.
+Kai aptarnavimas ir (arba) medžiaga yra prisodintas pardavėjui, šis su šiuo pardavėju susitarimas dėl išsaisvėjo. Kai tiekėjas teikia paslaugas arba kai medžiaga gauta ir naudojama projekto užduotims, išlaidos įrašomas į projektą. Tada tiekėjas periodiškai siunčia sąskaitas faktūras. Šios sąskaitos faktūros tikrinamos ir gretintos su įrašyomis projekto išlaidoms. Baigus tikrinimo procesą tiekėjo sąskaita faktūra patvirtinama ir išleidžiama apmokėti.
 
 ## <a name="scenarios-for-use"></a>Naudojimo scenarijai
 
-Tiekėjo sf programoje "Project Operations" galima naudoti dviem skirtingiems scenarijams palaikyti:
+„Project Operations" tiekėjo sąskaitas faktūras galima naudoti dviem skirtingais scenarijais:
 
-- Klientai naudojasi visomis subrangos funkcijomis.
-- Klientai nenaudoja visų subrangos funkcijų, bet nori turėti vieningą projektų išlaidų rodinį "Project Operations".
+- Klientai naudoja visas susaistymas ir funkcijas.
+- Klientai nenaudoja visų papildomai sąsodinimo funkcijų, tačiau nori turėti vieningą projektų išlaidų vaizdą "Project Operations".
 
-### <a name="customers-use-the-full-subcontracting-experiences"></a>Klientai naudojasi visomis subrangos funkcijomis
+### <a name="customers-use-the-full-subcontracting-experiences"></a>Klientai naudoja visas susaistymas ir funkcijas
 
-Tiekėjo SF funkcijos suteikia galimybę patikrinti laiko įrašus, medžiagų naudojimą ir išlaidų įrašus, nurodančius subrangos komponentus, ir suderinti juos su tiekėjo SF eilutėmis. Šis procesas gali būti naudojamas tiekėjo SF eilučių tikslumui patikrinti. Užbaigus tikrinimo procesą ir patvirtinus tiekėjo SF, sistema pakeičia faktines sumas, kurios buvo įrašytos patvirtintais laiko, išlaidų ir medžiagų naudojimo žurnalais, ir sukuria naujas savikainos faktines vertes naudodama tiekėjo SF eilutes.
+Naudojant tiekėjo sąskaitų faktūrų funkcijas galima patikrinti laiko įrašus, medžiagos naudojimą ir išlaidų įrašus, kurie nurodo komponentus, kurie yra sugretinti su tiekėjo sąskaitos faktūros eilutėmis. Šį procesą galima naudoti tiekėjo sąskaitos faktūros eilučių tikslumui patikrinti. Baigus tikrinimo procesą ir patvirtinus tiekėjo sąskaitą faktūrą, sistema, naudodama tiekėjo sąskaitos faktūros eilutes, surašo faktinius duomenis, kurie buvo įrašyti patvirtintu laiku, išlaidoms ir medžiagos naudojimo žurnalams, ir sukuria naujus faktinius išlaidų faktinius duomenis.
 
-### <a name="customers-dont-use-the-full-subcontracting-experiences-but-want-to-have-a-unified-view-of-costs-on-projects-in-project-operations"></a>Klientai nenaudoja visų subrangos funkcijų, bet nori turėti vieningą projektų išlaidų rodinį programoje "Project Operations"
+### <a name="customers-dont-use-the-full-subcontracting-experiences-but-want-to-have-a-unified-view-of-costs-on-projects-in-project-operations"></a>Klientai nenaudoja visų papildomai subrangos sutarties funkcijų, tačiau nori turėti vieningą projektų išlaidų vaizdą „Project Operations“
 
-Jei stebite subrangos procesą trečiosios šalies sistemoje, galite įrašyti išlaidas iš tos trečiosios šalies sistemos į "Project Operations" sukurdami tiekėjo SF, kuriose nenurodomos subrangos sutartys. Tokiu būdu jūsų projektų vadovai gali turėti vieną vieningą visų konkretaus projekto išlaidų vaizdą.
+Jei stebite trečiosios šalies sistemos indų sąsodį, galite įrašyti išlaidas iš tos trečiosios šalies sistemos į „Project Operations", sukurdami tiekėjo sąskaitas faktūras, kurios neturi nuorodos į sugretinimo funkciją. Tokiu būdu jūsų projektų vadovai gali turėti bendrą bendrą visų projekto išlaidų vaizdą.
 
-## <a name="create-vendor-invoices-in-project-operations"></a>Tiekėjo SF kūrimas programoje "Project Operations"
+## <a name="create-vendor-invoices-in-project-operations"></a>Sukurkite tiekėjo sąskaitas„Project Operations“
 
-Tiekėjo SF sukuriamos Dynamics 365 Finance, naudojant modulį **Mokėtinos sumos**. Negalite kurti tiekėjo SF tiesiogiai Dataverse.
+Tiekėjo sąskaitos faktūros kuriamos naudojant „Dynamics 365 Finance" **modulį Klientai**. Negalite kurti tiekėjo sąskaitų faktūrų tiesiogiai „Dataverse“.
 
-### <a name="set-up-vendor-invoice-verification"></a>Tiekėjo SF patvirtinimo nustatymas
+### <a name="set-up-vendor-invoice-verification"></a>Tiekėjo SF sąskaitų patikra
 
-Jei tiekėjo SF yra skirta subrangos Dataverse sutarčiai, turite įjungti parametrą Rankinis **tikrinimas pm yra būtinas**. Parinkties nustatymas nustato, ar tiekėjo SF turėtų būti automatiškai patvirtinta Dataverse, ar ją reikia patvirtinti rankiniu būdu. Kiekvienos projekto tiekėjo SF antraštėje yra to paties pavadinimo parinktis. Pagal numatytuosius nustatymus visų projekto tiekėjo SF antraštės parinktis nustatoma kaip reikšmė, kurią čia nustatėte. Tačiau galite atnaujinti reikšmę, kaip reikalaujama atskirų tiekėjo sf antraštėje.
+Jei tiekėjo sąskaita faktūra yra skirta tam, kad būtų galimas „Dataverse“ susekusi, **turite įjungti parametrą Rankiniu būdu patikrinti** pagal PM. Parinkties nustatymas nurodo, ar tiekėjo sąskaita faktūra turi būti automatiškai „Dataverse“ patvirtinama, ar ją reikia patvirtinti rankiniu būdu. Kiekvienos projekto tiekėjo sąskaitos faktūros antraštėje yra tokio paties pavadinimo parinktis. Pagal numatytuosius nustatymus visų projekto tiekėjo sąskaitų faktūrų antraštės parinktis nustatoma kaip čia nustatyta reikšmė. Tačiau, kaip nurodyta, atskirų tiekėjo sąskaitų faktūrų antraštėje galite atnaujinti reikšmę.
 
-Jei parinktis nustatyta kaip **Taip, tiekėjo SF, kuri sukuriama programoje "Finance" ir sinchronizuojama su** Dataverse juodraščio **būsena**. Tada sąskaitą faktūrą turi patvirtinti ir patikrinti projekto vadovas ir ji turi būti patvirtinta prieš ją apdorojant ir registruojant ją konkrečiame projekto ir DK sąskaitose programoje "Finance".
+Jei parinktis nustatyta kaip **Taip**, tiekėjo sąskaita faktūra, sukurta naudojant "Finance" ir sinchronizuota su juodraščio „Dataverse“ **būsena**. Tada projekto vadovas turi patikrinti ir patvirtinti sąskaitą faktūrą, kad ji būtų apdorota ir išsiųsta į konkretų projektą bei "Finance" klientai.
 
-Jei parinktis nustatyta kaip **Ne**, tiekėjo SF bus automatiškai patvirtinta. Jokių tolesnių veiksmų nereikia.
+Jei parinktis nustatyta kaip **Ne**, tiekėjo sąskaita faktūra patvirtinama automatiškai. Nereikia atlikti jokių tolesnių veiksmų.
 
-Norėdami nustatyti tiekėjo SF patvirtinimą, atlikite šiuos veiksmus.
+Norėdami nustatyti tiekėjo SF patikrą RCS, atlikite šiuos veiksmus:
 
-1. Dalyje Finansai eikite į **Projektų valdymas ir apskaitos** \> **sąranka** \> **Projektų valdymo ir apskaitos parametrai**.
-1. Skirtuke **Finansai** nustatykite parinktį Rankinis **tikrinimas pm yra būtinas** į **Taip,** jei įmonės strategija reikalauja patikrinti subrangovų tiekėjo sąskaitas faktūras. Jei projekto vadovo patvirtinimo nereikia Dataverse, palikite parinkčių rinkinys į **Ne**. Pagal numatytuosius nustatymus parametras bus naudojamas **puslapyje Laukiama tiekėjo SF**.
+1. Eikite į Finance **Projektų valdymas ir apskaita** \> **Sąranka** \> **Projektų valdymo ir apskaitos parametrai**.
+1. Skirtuke "Finansai **nustatykite** parinktį Neautomatinis tikrinimas **pagal** yra būtina parinktis Taip, jei įmonės strategija reikalauja patikrinti arba pardavėjo sąskaitas **faktūras**. Jei projekto vadovo tikrinimo nėra būtina, palikite „Dataverse“ žymę parinkčių rinkinys **Ne**. Pagal numatytuosius nustatymus parametras bus naudojamas puslapyje **Laukianti tiekėjo sąskaita faktūra**.
 
 > [!NOTE]
-> Tiekėjo sąskaitos faktūros, sukurtos subrangos sutartims, gali būti tinkamai apdorojamos tik tuo atveju Dataverse, **jei parinktis Rankinis KD patvirtinimas yra nustatyta** kaip **Taip**. Subrangovų kuriamas laiko, medžiagos ir išlaidų išlaidų faktines faktines vertes projekto vadovas gali rankiniu būdu susieti su tiekėjo SF eilutėmis tik tuo atveju, jei ši parinktis nustatyta kaip **Taip**.
+> Tiekėjo sąskaitos faktūros, sukurtos dėl indų su „Dataverse“ gali būti tinkamai apdorojamos tik tada **jei būtina neautomatinio** tikrinimo parinktis yra **Taip**. Projekto vadovas laiko, medžiagos ir išlaidų išlaidų faktines sumas, kurias sukuria instruktoriai, gali rankiniu būdu greti su tiekėjo sąskaitų faktūrų eilutėmis tik jei ši parinktis nustatyta kaip **Taip**.
 
-### <a name="set-up-a-procurement-integration-account-for-vendor-invoices"></a>Tiekėjo SF įsigijimo integravimo abonemento nustatymas
+### <a name="set-up-a-procurement-integration-account-for-vendor-invoices"></a>Viešųjų pirkimų integravimo sąskaitos nustatymas tiekėjo sąskaitoms
 
-Kai tiekėjo SF užregistruojama programoje "Finance for Project Operations" – integruotoji aplinka (ne atsargos), finansai registruojami įsigijimo integravimo paskyroje. Sistema sugeneruoja užregistruotos sąskaitos faktūros faktines Dataverse sumas. Šie faktiniai duomenys skelbiami programoje "Finance" naudojant žurnalą "Project" integravimas. Žurnalo "Project integration" registravimas skelbia faktines išlaidas ir pakeičia įsigijimo integravimo paskyrą.
+Kai tiekėjo sąskaita faktūra užregistruojama „Finance“ for „Project Operations“ – Integrated Environment" (ne akcijų), finansai užregistruojami į "Kai išsamūs integravimo abonementai". Sistema generuoja užregistruotos sąskaitos faktūros „Dataverse“ faktinius duomenis. Šie faktiniai rezultatai "Finance" užregistruojami naudojant "Project Integration". Užregistravus šį žurnalą, suma iš viešųjų pirkimų integravimo sąskaitos perkeliama į projekto kaštų sąskaitą.
 
-Norėdami nustatyti tiekėjo SF įsigijimo integravimo paskyrą, atlikite šiuos veiksmus.
+Norėdami nustatyti Viešojo integravimo paskyrą tiekėjo sąskaitoms, atlikite šiuos veiksmus.
 
-1. Dalyje Finansai eikite į **Projektų valdymas ir apskaitos** \> **sąranka** \> **Projektų valdymo ir apskaitos parametrai**.
-1. Skirtuke **"Project" operacijos, esančios "Dynamics 365 customer engagement"**, pasirinkite **Medžiagų** \> **įsigijimo integravimo paskyra.**
+1. Eikite į Finance **Projektų valdymas ir apskaita** \> **Sąranka** \> **Projektų valdymo ir apskaitos parametrai**.
+1. Skirtuke **„Project Operations“ naudojant „Dynamics 365 Customer Engagement“** pasirinkite **Medžiagos** \> **Įsigijimo integravimo paskyra**.
 
-### <a name="create-and-post-subcontract-vendor-invoices"></a>Subrangos tiekėjo SF kūrimas ir registravimas
+### <a name="create-and-post-subcontract-vendor-invoices"></a>Įmonės vidaus kliento ir tiekėjo sąskaitų faktūrų kūrimas
 
-Kai mokėtinų sumų tarnautojas gauna sąskaitą faktūrą iš subrangovo, programoje "Finance" sukuriama nauja sąskaita faktūra.
+Kai mokėtinos sumos yra išskleistos, gauna sąskaitą faktūrą iš jos, „Finance" sukuriama nauja sąskaita faktūra.
 
-1. Dalyje "Finance" eikite į **Mokėtinų** \> **sumų sąskaitos faktūros** \> **Laukiančios tiekėjo SF**.
-1. Veiksmų srityje **pasirinkite** **Naujas**, kad sukurtumėte tiekėjo SF.
-1. Sąskaitos faktūros antraštės **lauke Sąskaitos faktūros sąskaita** pasirinkite **Subrangovas**.
-1. Pasirinkite sąskaitos faktūros datą.
-1. Skirtuke **Antraštė** nustatykite parinktį Rankinis **tikrinimas PM yra būtinas** į **Taip**. Numatytasis šios parinkties nustatymas gaunamas iš **puslapio Projekto valdymas ir apskaitos parametrai**. Tačiau jį galima pakeisti tiekėjo SF lygiu.
-1. "FastTab" skirtuke **Sf eilutė** pasirinkite **Įtraukti eilutę**, kad sukurtumėte tiekėjo SF eilutę.
-1. Pasirinkite įsigijimo kategoriją, kuri buvo sukurta subrangos linijoms, ir įveskite vieneto kainą, matavimo vienetą ir kiekį.
-1. Sekcijos tiekėjo SF eilutės skirtuke **Projektas** pasirinkite projektą, pagal kurį subrangovas bendrina subrangos sąskaitą faktūrą.
-1. Pasirinkite projekto kategoriją. Tai gali būti bet kokio tipo **prekė**, **išlaidos**, **medžiagos** ar **valandos**.
-1. Pasirinkite vaidmenį tik tuo atveju, jei pasirinkta projekto kategorija yra **valandos** tipo.
-1. Pasirinkite **Skelbti**, kad užregistruotumėte tiekėjo SF.
+1. „Finance“ eikite į **Mokėtinos sumos** \> **Sąskaitos faktūros** \> **Laukančios tiekėjo sąskaitos**.
+1. **Veiksmų juostoje** pasirinkite **Nauja**, kad sukurtumėte tiekėjo sąskaitą faktūrą.
+1. Sąskaitos faktūros antraštės lauke Sąskaitos faktūros abonementas **pažymėkite** "Išrašymo ir išrašymo **vieta"**.
+1. Pasirinkite sąskaitų faktūrų datą.
+1. Skirtuke **Antraštė** nustatykite parinktį Rankiniu **būdu tikrinti pagal PM** kaip **Taip**. Numatytasis šios parinkties parametras nustatomas projektų **valdymo ir apskaitos parametrų** puslapyje. Tačiau jį galima keisti tiekėjo sąskaitos faktūros lygiu.
+1. **"FastTab" sąskaitos** faktūros eilutėje pažymėkite **Įtraukti eilutę,** kad sukurtumėte tiekėjo sąskaitos faktūros eilutę.
+1. Pažymėkite, kas buvo sukurta, kad būtų išsamūs, ir įveskite vieneto kainą, matavimo vienetą ir kiekį.
+1. Pardavėjo sąskaitų faktūrų eilučių skyriaus skirtuke **Projektas pažymėkite** projektą, pagal kurį ne tik nerašomos ir ne.
+1. Pažymėkite projekto kategoriją. Tai gali būti bet kokio tipo **elementas**, **išlaidos**, **medžiaga** arba **valandos**.
+1. Pažymėkite vaidmenį tik jei pasirinktos projekto kategorijos tipas Yra **Valanda**.
+1. Pasirinkite **Registruoti**, kad užregistruotumėte tiekėjo SF.
 
-Arba galite sukurti tiekėjo SF nuėję į **Mokėtinos** \> **sąskaitos faktūros Sąskaitos faktūros** \> **Atidarykite tiekėjo SF** ir pasirinkdami **Naujas.**
+Arba galite sukurti tiekėjo sąskaitą faktūrą nuėję į **Mokėtinos sumos** \> **Sąskaitos** \> **Atverti tiekėjo sąskaitas** ir rinktis **Naujas**.
 
-Kai užregistruojama tiekėjo SF, ji tampa pasiekiama Dataverse projektų vadovo patvirtinimui ir apdorojimui.
+Užregistrus tiekėjo sąskaitą faktūrą, ją galima naudoti projektų Dataverse vadovo tikrinimui ir apdorojimui.
 
-## <a name="vendor-invoice-processing-in-dataverse"></a>Tiekėjo SF apdorojimas Dataverse
+## <a name="vendor-invoice-processing-in-dataverse"></a>Tiekėjo sąskaitos apdorojimas Dataverse
 
-Tiekėjo SF, kuri sukurta programoje Dataverse, kai kurios laukų reikšmės gaunamos iš tiekėjo SF, įrašytos į "Finance". Kitos reikšmės yra numatytosios vertės, gaunamos iš subrangos sutarties.
+Sukurtose tiekėjo sąskaitos faktūrose kai Dataverse, kurios lauko reikšmės yra iš tiekėjo sąskaitos faktūros, įrašytos "Finance". Kitos reikšmės yra numatytosios reikšmės, kurios yra išsiejimos iš persėdus.
 
-Šie laukai ir susiję įrašai bus nukopijuoti iš subrangos sutarties į tiekėjo SF antraštę:
+Iš tiekėjo sąskaitos faktūros antraštės bus kopijuojami šie laukai ir susiję įrašai:
 
 - Valiuta
 - Sutartį sudarantis vienetas
 - Mokėjimo sąlygos
 
-Tiekėjo SF eilutėse "Project Operations" naudoja šias laukų reikšmes, kad įvestų numatytąją subrangos ir subrangos eilutės nuorodą:
+Tiekėjo sąskaitos faktūros eilutėse "Project Operations" naudoja šias lauko reikšmes, kad įvesite numatytąją neesmes ir indinės eilutės nuorodą:
 
 - Operacijos klasė
 - Vaidmuo
 - Operacijos kategorija
-- Produktų laukai
+- Produkto laukai
 - Project
 - Užduotis
 
 > [!NOTE]
-> Fiksuotos kainos subrangos eilutės nepalaikomos "Project Operations".
+> „Project Operations" nepalaiko fiksuotų kainų neasodavimo eilučių.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

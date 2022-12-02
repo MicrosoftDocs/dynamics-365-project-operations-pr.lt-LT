@@ -1,6 +1,6 @@
 ---
-title: Projektinių sutarčių kopijavimas
-description: Šiame straipsnyje pateikiama informacija apie projekto sutarčių kopijavimą programoje "Microsoft"Dynamics 365 Project Operations.
+title: Projektu pagrįstų sutarčių kopijavimas
+description: Šiame straipsnyje pateikiama informacija apie projekto sutarčių kopijavimą programoje „Microsoft Dynamics 365 Project Operations“.
 author: rumant
 ms.date: 09/01/2022
 ms.topic: article
@@ -13,36 +13,36 @@ ms.contentlocale: lt-LT
 ms.lasthandoff: 09/07/2022
 ms.locfileid: "9410374"
 ---
-# <a name="copy-project-based-contracts"></a>Projektinių sutarčių kopijavimas
+# <a name="copy-project-based-contracts"></a>Projektu pagrįstų sutarčių kopijavimas
 
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
-Galite lengvai kurti naujas projekto sutartis kopijuodami esamas sutartis vienu iš dviejų būdų:
+Galite lengvai sukurti naujas projekto sutartis, nukopijuodami esamas sutartis vienu iš dviejų būdu.
 
-- **Puslapyje Projekto sutartys** pasirinkite projekto sutartį, tada pasirinkite **Kopijuoti**.
+- Sąrašo puslapyje **Projekto sutartys** pasirinkite projekto sutartį, tada pasirinkite **Kopijuoti**.
 - Informacijos puslapyje **Projekto sutartis** pasirinkite **Kopijuoti**.
 
-Abiem atvejais pasirodo dialogo langas, kuriame galite nustatyti nukopijuotos sutarties parametrus. Dialogo lange yra šie laukai. Atsižvelgiant į pasirinktas reikšmes, kopijavimo procesas gali keistis.
+Abiem atvejais atsidarys dialogo langas, kuriame galėsite nustatyti nukopijuotos sutarties parametrus. Į dialogo langą įtraukti toliau nurodyti laukai. Atsižvelgiant į pasirinktas reikšmes, kopijavimo procesas gali pasikeisti.
 
 | Laukas | Aprašą | Tolesnis poveikis |
 | --- | --- | --- |
-| Tema | Įveskite paskirties sutarties temą. Atidarius dialogo langą, sistema nustato lauką į šaltinio sutarties pavadinimą, tačiau prie jo pridedamas žodis "kopijuoti". | Nėra jokio tolesnio šio lauko poveikio. |
-| kliente | Kliento įmonės arba kliento įrašo nuoroda. Atidarius dialogo langą, sistema nustato lauką į šaltinio sutarties paskyrą. | Šis laukas yra pirminis klientas sutartyje. |
-| Įmonė, kuriai priklauso | Įmonė, atsakinga už projektų, susijusių su šiuo sandoriu, pristatymą. Atidarius dialogo langą, sistema nustato lauką į šaltinio sutartį valdančią įmonę. | Valdančioji įmonė yra juridinis asmuo, kuris vykdys projektą po to, kai sandoris bus uždarytas. Valdančios bendrovės valiuta turi atitikti sutartinio vieneto valiutą. |
-| Sutartį sudarantis vienetas | Organizacijos padalinys, atsakingas už projektų, susijusių su šiuo sandoriu, pristatymą. Atidarius dialogo langą, sistema nustato lauką į šaltinio sutarties sudarymo vienetą. | Sutartį sudarantis vienetas yra įmonės padalinys, kuris vykdys projektus po to, kai sandoris bus uždarytas. Kiekvienas sutartį sudarantis vienetas turi valiutą. Ši valiuta naudojama pranešant apie apskaičiuotas ir faktines išlaidas, patirtas projekto metu. |
-| Valiuta | Valiuta, kuria vykdoma operacija. Atidarius dialogo langą, sistema nustato lauką į šaltinio sutarties valiutą. Valiutą galima keisti. Jei taip, laukas **Kopijuoti kainodarą** visada nustatomas kaip **Ne**, nes kainoraščiai šaltinio sutartyje nebėra aktualūs. | Ši valiuta naudojama numatytiesiems kainoraščiams, finansiniams sutarties įverčiams generuoti ir klientui išrašyti sąskaitą faktūrą, kai sandoris laimimas. |
-| Pageidaujama pristatymo data | Pristatymo data, kurios prašo klientas. | Ši data naudojama kaip pabaigos data, kai tam tikru dažnumu kuriate sąskaitų faktūrų išrašymo datas. |
-| Kopijavimo įkainiai | Vertė, nurodanti, ar sutartyje nustatyta kainodara turėtų būti nukopijuota iš šaltinio sutarties. | Jei laukas nustatytas kaip **Taip**, projekto ir produkto kainoraščio nuorodos nukopijuojamos iš šaltinio sutarties į tikslinę sutartį. Jei jis nustatytas kaip **Ne**, naudojami numatytieji kainoraščiai, pagrįsti naujausiais kainoraščiais paskyroje arba projekto parametruose. |
+| Tema | Įveskite paskirties sutarties temą. Kai atidaromas dialogo langas, sistema nustato šį lauką į šaltinio sutarties pavadinimą, bet pridedamas žodis „kopija“. | Nėra jokio tolesnio šio lauko poveikio. |
+| kliente | Kliento įmonės arba kliento įrašo nuoroda. Kai atidaromas dialogo langas, sistema nustato šį lauką į šaltinio sutarties klientą. | Šis laukas yra pirminis klientas sutartyje. |
+| Įmonė, kuriai priklauso | Įmonė, atsakinga už su šiuo sandoriu susijusių projektų pristatymą. Kai atidaromas dialogo langas, sistema nustato šį lauką į šaltinio sutarties valdomą įmonę. | Valdoma įmonė yra juridinis asmuo, kuris vykdys projektą, kai bus sudarytas sandoris. Valdomos įmonės valiuta turi sutapti su sutartį sudarančio vieneto valiuta. |
+| Sutartį sudarantis vienetas | Organizacijos vienetas, atsakingas už su šiuo sandoriu susijusių projektų pristatymą. Kai atidaromas dialogo langas, sistema nustato šį lauką į šaltinio sutarties sutartį sudarantį vienetą. | Sutartį sudarantis vienetas yra įmonės padalinys, kuris vykdys projektus po to, kai sandoris bus uždarytas. Kiekvienas sutartį sudarantis vienetas turi valiutą. Ši valiuta naudojama apskaičiuoti apytiksles ir faktines išlaidas, patiriamas vykdant projektą. |
+| Valiuta | Valiuta, kuria vykdoma operacija. Kai atidaromas dialogo langas, sistema nustato šį lauką į šaltinio sutarties valiutą. Valiutą galima keisti. Jei ji pakeista, lauko **Kopijuoti įkainius** reikšmė visada nustatomas kaip **Ne**, nes šaltinio sutarties kainoraščiai nebėra aktualūs. | Ši valiuta naudojama numatytajam kainoraščiui nustatyti, kad būtų galima apskaičiuoti sutarties finansinį įvertinimą ir išrašyti sąskaitą faktūrą klientui, kai sandoris bus laimėtas. |
+| Pageidaujama pristatymo data | Kliento prašyta pristatymo data. | Ši data naudojama kaip pabaigos data, kuriant sąskaitų faktūrų išrašymo datas pagal tam tikrą dažnumą. |
+| Kopijuoti įkainius | Reikšmė, nurodanti, ar sutarties įkainiai turėtų būti nukopijuoti iš šaltinio sutarties. | Jei laukas nustatytas kaip **Taip**, projekto ir produktų kainoraščio nuorodos nukopijuojamos iš šaltinio sutarties į paskirties sutartį. Jei nustatyta kaip **Ne**, numatytieji kainoraščiai naudojami pagal naujausius kainoraščius, nustatytus kliento arba projekto parametruose. |
 
-Kai dialogo lange pasirenkate **Gerai**, sistema sukuria sutarties kopiją pagal jūsų nustatytas parametrų reikšmes. Tada atidaroma nauja sutartis.
+Kai dialogo lange pasirenkate **Gerai**, sistema sukuria sutarties kopiją pagal nustatytas parametrų reikšmes. Tada atidaroma nauja sutartis.
 
-Ši informacija **nėra** nukopijuojama iš šaltinio sutarties į tikslinę sutartį, nes ji būdinga kiekvienai sutarčiai:
+Ši informacija iš šaltinio sutarties į paskirties sutartį **nekopijuojama**, nes ji specifinė kiekvienai sutarčiai:
 
 - Sąskaitos faktūros grafikai
 - Sutarties ir sutarties eilutės klientai
 - Projekto nuoroda projektais pagrįstos sutarties eilutėse
 - Kliento biudžeto informacija
 
-Kopijuojamos projektų ir produktų sutarčių eilutės, sutarčių eilučių duomenyse pateikti įvertinimai ir sutarčių lygio vertės, kurių vertė neviršijama. Numatytųjų kainų ir išlaidų tarifų įvedimas priklauso nuo pasirinkimo, esančio **dialogo lango Kopijuoti parametrus** lauke Kopijuoti **kainodarą**.
+Sutarties lygyje bus kopijuojamos projektų ir produktų sutarties eilutės, sutarties eilutės informacijoje esantys įvertinimai ir „Neviršyti“ reikšmės. Numatytųjų kainų ir savikainos tarifų įrašai priklauso nuo lauko **Kopijuoti įkainius**, esančio dialogo lange **Kopijuoti parametrus**, pasirinkimo.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

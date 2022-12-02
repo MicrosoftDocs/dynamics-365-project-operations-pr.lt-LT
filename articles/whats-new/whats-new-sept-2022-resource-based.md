@@ -1,6 +1,6 @@
 ---
 title: Kas nauja 2022 m. rugsėjo mėn. – „Project Operations“, skirta išteklių / atsargose nelaikomų medžiagų scenarijams
-description: Šiame straipsnyje pateikiama informacija apie kokybės naujinimus, pasiekiamus 2022 m. rugsėjo mėnesio "Microsoft" Dynamics 365 Project Operations leidime, skirtame ištekliais / be atsargų pagrįstiems scenarijams.
+description: Šiame straipsnyje pateikiama informacija apie kokybinius naujinimus, kuriuos galima rasti 2022 m. rugsėjo mėn. „Microsoft Dynamics 365 Project Operations“ išteklių ir nesaugomais pagrįsti scenarijai.
 author: ramagadu
 ms.date: 09/28/2022
 ms.topic: article
@@ -18,38 +18,38 @@ ms.locfileid: "9634816"
 
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
-Šis straipsnis taikomas šiems "Microsoft" Dynamics 365 Project Operations komponentams ir versijoms:
+Šis straipsnis taikomas toliau nurodytiems „ Microsoft Dynamics 365 Project Operations“ komponentams ir versijoms:
 
-- "Project Operations" Dataverse aplinkos versijoje 4.46.0.60
-- Projektų valdymas ir apskaita Dynamics 365 Finance aplinkoje 10.0.29 versija
+- „Project Operations“ 4.46.0.60 versijos „Dataverse“ aplinkoje
+- Projektų valdymas ir apskaita „Dynamics 365 Finance“ aplinkos 10.0.29 versijoje
 
 ## <a name="features-included-in-this-release"></a>Į šį leidimą įtrauktos funkcijos
 
 | Funkcijų sritis | Funkcijos pavadinimas | Daugiau informacijos |
 | --- | --- | --- |
-| Galimybės valdymas | **Citatų peržiūra ir aktyvinimas**<br>"Project Operations" visiškai palaiko pardavimo procesą. Projekto citatos gali būti suaktyvintos, kad atspindėtų būseną, kurioje citata yra tik skaitoma ir peržiūrima. Suaktyvintas citatas galima peržiūrėti, kad būtų sukurtos naujos citatos, turinčios padidintą redakcijos numerį. Suaktyvintos projekto citatos arba pasiūlymų pataisymai gali būti uždaryti kaip laimėti arba pralaimėti. | [Projekto pasiūlymo aktyvinimas ir peržiūra](/dynamics365/project-operations/sales/activation-and-revision) |
-| Sąskaitų pateikimas ir kainodara | **Numatytoji kaina pagal laiko juostą**<br>"Project Operations" visose projekto faktinėse situacijose įvedė laiko juostos agnostinės datos sąvoką. Naujas laukas Operacijos data **dabar** pasiekiamas žurnalo eilutėse ir faktiniuose duomenyse ir bus naudojamas operacijos įvykdymo datai saugoti, tačiau nekonvertuojant tos datos į suderintąjį visuotinį laiką. Ši data bus naudojama tolesniems procesams, pvz., numatytosioms kainoms ir sąskaitų faktūrų kūrimui. | <p>[Projektu pagrįstų įvertinimų ir faktinių duomenų išlaidų tarifų nustatymas](/dynamics365/project-operations/pricing-costing/cost-price-resolution)</p><p>[Projektinių įvertinimų ir faktinių duomenų pardavimo kainų nustatymas](/dynamics365/project-operations/pricing-costing/sales-price-resolution)</p> |
-| Sąskaitų pateikimas ir kainodara | **Datos kainų nepaisymas "Project Operations"**<br>Galiojančios datos kainų nepaisymas suteikia galimybę nepaisyti arba pakeisti konkrečias kainas kainoraštyje. | [Kainų nepaisymas pagal įsigaliojimo datą](/dynamics365/project-operations/pricing-costing/dateffective_price_overrides) |
-| Subrangos | **Subrangos ir tiekėjo sąskaitų faktūrų suderinimas**<br>Ši funkcija leidžia klientams kurti subrangos sutartis, kad įsigytų išteklių laiko, išlaidų kategorijų ir medžiagų, naudojamų projekto darbui. Ji taip pat leidžia klientams "finance and operations" programose įrašyti tiekėjo SF, kurios bus pasiekiamos projektų vadovams Dataverse patikrinti. | <p>[Subrangos sutarčių valdymas](/dynamics365/project-operations/pro/subcontracting/managing-subcontracts-overview)</p><p>[Tiekėjo sąskaitų faktūrų kūrimas](/dynamics365/project-operations/procurement/vendor-invoicing-concept-and-creation)</p> |
-| Laikas ir išlaidos | **"Global Approver"**<br>Ši funkcija įgalina nepriklausomą programinės įrangos tiekėją (ISV) ir centralizuotą patvirtinimą, neatsižvelgiant į projekto ar komandos nario būseną projekte. | [Sauga ir patvirtinimas](/dynamics365/project-operations/approvals/approvals-security) |
-| Išlaidų valdymas | **Galimybė registruoti išlaidų įsipareigojimą tiekėjo valiuta**<br>Ši funkcija leidžia registruoti grynųjų pinigų mokėjimo metodo išlaidų ataskaitas tiekėjo valiuta. | [Galimybė registruoti išlaidų įsipareigojimą tiekėjo valiuta](/dynamics365/project-operations/expense/posting-expense-reports#enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature) |
-| Projektų viešieji pirkimai | **Mokėkite, kai mokami tiekėjo mokėjimai**<br>Ši funkcija įgalina funkciją Mokėti, kai mokama (PWP) galima naudoti su "Project Operations" ne atsargų aplinka. Tai leidžia blokuoti / išlaikyti tiekėjo mokėjimus pagal saugojimo sąlygas, kol mokėjimas bus gautas iš kliento. | [Mokėkite, kai mokami tiekėjo mokėjimai](/dynamics365/project-operations/procurement/pay-when-paid) |
-| Projektų viešieji pirkimai | **Projekto pirkimo paraiškos**<br>Ši funkcija leidžia vartotojams kurti su projektu susijusius pirkimo užsakymus juridiniuose subjektuose, kuriuose įgalintos Dynamics 365 Customer Engagement integravimo "Project Operations". Projekto pirkimo užsakymai gali būti naudojami nesaugomų medžiagų įsigijimui pagal projektą, kurį vykdo Pirkimų skyriaus persona, įrašyti. Projektų pirkimo užsakymai nebus sinchronizuojami su Dataverse"". Tačiau galite naudoti virtualų objektą, kad pateiktumėte projekto pirkimo užsakymo eilutes Dataverse projekto vadovo informacijai. Su projektu susijusios tiekėjo SF savikaina yra integruota su objektu "Project Actuals", esančiu Dataverse. Projekto savikaina įrašoma į projekto antrinę knygą naudojant žurnalą "Project Operations Integration". | |
-|Projektų planavimas ir sekimas|**Projekto grafiko API sąsajų naudojimas operacijoms su planavimo objektais atlikti** </br> </br>Išteklių priskyrimo kontūro redagavimo API kūrėjai programiškai nurodo užduoties perėmėjo pastangas bet kurioje palaikomoje dienų sekoje, kad būtų galima detaliau planuoti pastangas etapais.|[Projekto grafiko API sąsajų naudojimas operacijoms su planavimo objektais atlikti](/dynamics365/project-operations/project-management/schedule-api-preview)|
+| Galimybės valdymas | **Pasiūlymų peržiūra ir aktyvavimas**<br>"Project Operations" visiškai palaiko pardavimo procesą. Projekto pasiūlymus galima įjungti, kad būtų galima nurodyti būseną, kai pasiūlymas yra skirtas tik skaityti ir yra peržiūrimas. Suaktyvintus pasiūlymus galima peržiūrėti, kad būtų sukurti nauji pasiūlymai, kurių peržiūros numeris yra didėjantis. Projekto pasiūlymą galima uždaryti kaip laimėtą arba pralaimėtą. | [Projekto pasiūlymo aktyvinimas ir peržiūra](/dynamics365/project-operations/sales/activation-and-revision) |
+| Sąskaitų pateikimas ir kainodara | **Numatytoji laiko juostos agnostinė kaina**<br>„Project Operations" pristatė laiko juostos agnostikos datos sąvoką visuose projekto faktiniuose operacijoms. Naujas laukas **Operacijos data**, dabar prieinamas skirtuko eilutėse ir faktiniuose duomenyse, bus naudojamas operacijos datai saugoti, tačiau tos datos neįrašius į "Pristabdęs visuotinį laiką". Ši data bus naudojama tolesniems procesams, pvz., numatytųjų kainų nustatymui ir sąskaitų faktūrų kūrimui. | <p>[Projekto savikainos tarifų nustatymas pagal įvertinimus ir faktinius duomenis](/dynamics365/project-operations/pricing-costing/cost-price-resolution)</p><p>[Projekto pagrindo pardavimo kainų įvertinimų ir faktinių duomenų nustatymas](/dynamics365/project-operations/pricing-costing/sales-price-resolution)</p> |
+| Sąskaitų pateikimas ir kainodara | **Datų kainos perrašymai "Project Operations"**<br>Kainos perrašymų įsigaliojimo data suteikia galimybę perrašyti arba pakeisti konkrečias kainoraštyje esančias kainas. | [Kainos perrašymų įsigaliojimo data](/dynamics365/project-operations/pricing-costing/dateffective_price_overrides) |
+| Subranga | **Sąskaitų faktūrų ir pardavėjų sąskaitų faktūrų išsąsdinimas**<br>Ši funkcija leidžia klientams kurti indus ir pirkti išteklių laiką, išlaidų kategorijas ir medžiagą, naudojamą projektų darbui. Tai taip pat leidžia klientams finansų ir operacijų programose įrašyti tiekėjo sąskaitas faktūras, kurias projektų vadovai galės patikrinti Dataverse. | <p>[Subrangos sutarties valdymas](/dynamics365/project-operations/pro/subcontracting/managing-subcontracts-overview)</p><p>[Tiekėjo sąskaitų faktūrų kūrimas](/dynamics365/project-operations/procurement/vendor-invoicing-concept-and-creation)</p> |
+| Laikas ir išlaidos | **Visuotinis tvirtinantis**<br>Ši funkcija leidžia independent software vendor (ISV) ir centralizuotai patvirtinti, neatsižvelgiant į projekto projekto ar komandos nario būseną. | [Sauga ir patvirtinimas](/dynamics365/project-operations/approvals/approvals-security) |
+| Išlaidų valdymas | **Galimybė skelbti išlaidų atsakomybę tiekėjo valiuta**<br>Ši funkcija leidžia išlaidų ataskaitas registruoti tiekėjo valiuta mokėjimo grynaisiais pinigais būdu. | [Galimybė skelbti išlaidų atsakomybę tiekėjo valiuta](/dynamics365/project-operations/expense/posting-expense-reports#enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature) |
+| Projektų rezultatai | **Tiekėjo mokėjimai „mokėti sumokėjus“**<br>Ši funkcija įjungia funkciją "Apmokėti, kai apmokėta" (PWP) galima naudoti su "Project Operations" ne akcijų aplinka. Tai leidžia blokuoti / išlaikyti pardavėjo apmokėjimą pagal saugojimo sąlygas tol, kol iš kliento gaunamas apmokėjimas. | [Tiekėjo mokėjimai „mokėti sumokėjus“](/dynamics365/project-operations/procurement/pay-when-paid) |
+| Projektų rezultatai | **Projekto pirkimo užsakymai**<br>Ši funkcija leidžia vartotojams kurti su projektais susijusius pirkimo užsakymus juridiniuose objektuose, kuriuose įjungta "Project Operations on Dynamics 365 Customer Engagement‟ integracija. Projektų pirkimo užsakymus galima naudoti nepaisomos medžiagos, dėl kurios projektą siųstas negavimo skyrius persona, įrašui įrašyti. Projektų pirkimo užsakymai nebus sinchronizuojami su Dataverse. Tačiau naudodami virtualų objektą projekto vadovo informacijai norite pateikti Dataverse projekto pirkimo užsakymo eilučių paviršiuje. Su projektu susijusios tiekėjo sąskaitos faktūros išlaidos integruojama su projekto faktinių duomenų objektu, esamu Dataverse. Projekto išlaidų apskaita įrašoma į „Project Operations“integravimo žurnalą dalyje „Integrational journal“. | |
+|Projektų planavimas ir sekimas|**Projekto grafiko API sąsajų naudojimas operacijoms su planavimo objektais atlikti** </br> </br>Išteklių priskyrimo priemonė, redaguojant API, kūrėjams programiškai nurodo užduočių priskyrimo pastangas bet kuriame palaikomame datų intervale, kad būtų galima planuoti daugiau laiko etapus.|[Projekto grafiko API sąsajų naudojimas operacijoms su planavimo objektais atlikti](/dynamics365/project-operations/project-management/schedule-api-preview)|
 
 ## <a name="project-operations-dual-write-maps-updates"></a>„Project Operations“ dvigubo rašymo schemų naujinimai
 
-Šioje lentelėje pateikiami dvigubo rašymo žemėlapiai, kurie buvo modifikuoti arba įtraukti į 2022 m. rugsėjo mėnesio "Project Operations" leidimą.
+Toliau pateiktame sąraše parodytos dvigubo rašymo schemos, modifikuotos arba įtrauktos „Project Operations“ 2022 m. rugsėjo mėn. leidime.
 
 | Objekto schema | Atnaujinta versija | Komentarai |
 | -------------- | ------------------- | ------------|
-| „Project Operations“ integravimo faktiniai duomenys (msdyn_actuals) | 1.0.0.15 | Šis žemėlapis palaiko subrangos faktinių sutarčių apdorojimą naudojant "Project Operations", skirtą ištekliais pagrįstiems scenarijams. |
-| „Project Operations“ integravimo projekto tiekėjų sąskaitų faktūrų eksportavimo objektas (msdyn_projectvendorinvoices) | 1.0.0.2 | Šis žemėlapis palaiko subrangos faktinių sutarčių apdorojimą naudojant "Project Operations", skirtą ištekliais pagrįstiems scenarijams. |
-| „Project Operations“ integravimo projekto tiekėjų sąskaitų eilučių eksportavimo objektas (msdyn_projectvendorinvoicelines) | 1.0.0.5 | Šis žemėlapis palaiko subrangos faktinių sutarčių apdorojimą naudojant "Project Operations", skirtą ištekliais pagrįstiems scenarijams. |
+| „Project Operations“ integravimo faktiniai duomenys (msdyn_actuals) | 1.0.0.15 | Ši struktūra palaiko ištekliaus scenarijų naudojant "Project Operations" faktinių duomenų apdorojimą. |
+| „Project Operations“ integravimo projekto tiekėjų sąskaitų faktūrų eksportavimo objektas (msdyn_projectvendorinvoices) | 1.0.0.2 | Ši struktūra palaiko ištekliaus scenarijų naudojant "Project Operations" faktinių duomenų apdorojimą. |
+| „Project Operations“ integravimo projekto tiekėjų sąskaitų eilučių eksportavimo objektas (msdyn_projectvendorinvoicelines) | 1.0.0.5 | Ši struktūra palaiko ištekliaus scenarijų naudojant "Project Operations" faktinių duomenų apdorojimą. |
 
-Visada paleiskite naujausią žemėlapio versiją savo aplinkoje ir įgalinkite visus susijusius lentelių žemėlapius, kai naujinate "Project Operations Dataverse " sprendimą ir "Finance" sprendimo versiją. Kai kurios funkcijos ir galimybės gali neveikti tinkamai, jei nesuaktyvinta naujausia žemėlapio versija. Aktyvią schemos versiją galite peržiūrėti puslapio **Dvigubas rašymas** stulpelyje **Versija**. Suaktyvinti naują schemos versiją galite pasirinkdami **Lentelės schemos versijos**, tada – naujausią versiją, tada pasirinktą versiją įrašydami. Jei tinkinote parengtą naudoti lentelės žemėlapį, pakeitimus taikykite iš naujo. Norėdami sužinoti daugiau, žr. [Programų ciklo valdymas](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Atnaujindami „Project Operations“ „Dataverse“ sprendimo ir „Finance“ sprendimo versijas, visada naudokite naujausią schemos versiją savo aplinkoje ir įjunkite visas susijusias lentelių schemas. Jei nesuaktyvinama naujausia schemos versija, kai kurios funkcijos ir galimybės gali veikti netinkamai. Aktyvią schemos versiją galite peržiūrėti puslapio **Dvigubas rašymas** stulpelyje **Versija**. Suaktyvinti naują schemos versiją galite pasirinkdami **Lentelės schemos versijos**, tada – naujausią versiją, tada pasirinktą versiją įrašydami. Jei tinkinote parengtą naudoti lentelės schemą, pakeitimus pritaikykite iš naujo. Norėdami sužinoti daugiau, žr. [Programų ciklo valdymas](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
-Jei paleidę žemėlapį susiduriate su problema, vykdykite nurodymus, pateiktus [dviejų rašinių trikčių šalinimo vadovo žemėlapių skyriuje](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) Trūkstami lentelės stulpeliai.
+Jei paleidžiant schemą kyla kokia nors problema, vykdykite nurodymus, pateikiamus dvigubo rašymo trikčių šalinimo vadovo skyriuje [Trūkstamų lentelių stulpelių problema schemose](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps).
 
 ## <a name="quality-updates"></a>Kokybės naujinimai
 
@@ -57,25 +57,25 @@ Jei paleidę žemėlapį susiduriate su problema, vykdykite nurodymus, pateiktus
 
 | Funkcijų sritis | Nuorodos numeris | Kokybės naujinimas |
 | --- | --- | --- |
-| Sąskaitų pateikimas ir kainodara | 2754422 | Medžiagų ir išlaidų įvertinimai neperkeliami į "Finance", kai projektai nukopijuojami į Dataverse"". |
-| Laikas ir išlaidos | 2787409 | Negaliojantis tvirtintojas gali patvirtinti ne projekto laiko įrašą. |
-| Galimybės valdymas | 2788907 | Atnaujintas klaidos pranešimas apie užsakymo eilučių, kuriose yra vėliavėlių, unikalumo tikrinimą. |
-| Laikas ir išlaidos | 2842253 | Nulinis išimčių tvarkymas laiko patvirtinimui. |
-| Sąskaitų pateikimas ir kainodara | 2844181 | Nepavykus gauti koreliacijos ID, blokuojamas sąskaitos faktūros kūrimas. |
-| Sąskaitų pateikimas ir kainodara | 2876628 | QLD, CLD – įvertinkite kainoraščio skiriamąją gebą, naudokite senstelėjusius kainoraščio dienų sekos laukus. |
-| Subrangos | 2893222 | Jei subrangos linijos vaidmuo nenurodytas, turėtų būti įmanoma pasirinkti tą eilutę komandos nariui bet kuriam vaidmeniui. |
+| Sąskaitų pateikimas ir kainodara | 2754422 | Kopijuojant projektus, į projektus medžiagos ir išlaidų sąmatos neįeina į "Finance" Dataverse. |
+| Laikas ir išlaidos | 2787409 | Nepatvirtintojas gali patvirtinti ne projekto laiko į įrašą. |
+| Galimybės valdymas | 2788907 | Atnaujintas klaidos pranešimas dėl unikalių užsakymo eilučių, kuriose yra vėliavos, tikrinimo. |
+| Laikas ir išlaidos | 2842253 | Nulinių išimtų tvarkymas siekiant patvirtinti laiką. |
+| Sąskaitų pateikimas ir kainodara | 2844181 | Nepavyko sukurti sąskaitų faktūrų, o ne gauti išsąsdų ID. |
+| Sąskaitų pateikimas ir kainodara | 2876628 | Q TIK, C JID – kai kainų sąrašo sprendimo vertinimas turi naudoti senesnius kai kainų sąrašo datų diapazono laukus. |
+| Subranga | 2893222 | Jei nenurodytas nė vienas komandos nario, kuriam nors vaidmeniui, eilutė turi būti išsamus, galima pažymėti. |
 
-### <a name="project-management-and-accounting-in-finance"></a>Projektų valdymas ir apskaita finansų srityje
+### <a name="project-management-and-accounting-in-finance"></a>Projektų valdymas ir apskaita programoje „Finance”
 
-Norėdami gauti informacijos apie klaidų pataisymus, kurie įtraukti į šį naujinimą, prisijunkite prie Microsoft Dynamics "Lifecycle Services" ir peržiūrėkite [KB straipsnį](https://fix.lcs.dynamics.com/Issue/Details?bugId=726559).
+Norėdami gauti daugiau informacijos apie klaidų ištaisymus, įtrauktus į šį naujinimą, prisijunkite prie „Microsoft Dynamics Lifecycle Services“ (LCS) ir rrodyti [KB straipsnis](https://fix.lcs.dynamics.com/Issue/Details?bugId=726559).
 
-## <a name="features-turned-on-by-default-in-upcoming-release"></a>Funkcijos, įjungtos pagal numatytuosius nustatymus būsimame leidime
+## <a name="features-turned-on-by-default-in-upcoming-release"></a>Būsimame leidime funkcijos bus įjungtos pagal numatytuosius parametrus
 
-Šioje lentelėje išvardytos funkcijos, kurios yra įjungtos pagal numatytuosius nustatymus 10.0.30 versijoje. Daugumą automatiškai įjungtų funkcijų galima išjungti dalyje [Funkcijų valdymas](/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview). Ateityje kai kurios automatiškai įjungtos funkcijos gali būti pašalintos iš funkcijų valdymo ir tapti privalomos. Šis pakeitimas užtikrina, kad klientai naudoja dabartines funkcijas, kad patobulinimai galėtų būti grindžiami dabartinėmis funkcijomis, kai jie pridedami. Funkcijos niekada nebus automatiškai įjungtos greičiau nei per vienerius metus, nebent bus nustatyta, kad jos yra būtinos.
+Tolesnėje lentelėje pateiktos funkcijos, kurios įjungtos pagal nustatymus 10.0.30 versijoje. Daugelį funkcijų, kurios buvo automatiškai įjungtos, gali būti išjungtos [Funkcijų valdyme](/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview). Ateityje kai kurios automatiškai įjungtos funkcijos gali būti pašalintos iš funkcijų valdymo ir tapti privalomos. Šis pakeitimas užtikrina, kad klientai naudoja dabartines funkcijas, kad patobulinimai galėtų būti sukurti pagal dabartinę funkciją, nes jos yra pridėtos. Funkcijos niekada nebus automatiškai įjungiamos trumpiau nei metus, nebent jos bus nustatytos kaip būtinos.
 
-| Funkcijos pavadinimas | Įjungimo data | Funkcija pridėta | Funkcijos būsena | Modulis |
+| Funkcijos pavadinimas | Įgalinti datą | Funkcija įtraukta | Funkcijos būsena | Modulis |
 | --- | --- | --- |--- |--- |
-| Įgalinkite "async" veikimą, kai vartotojui reikia perjungti sinchronizavimo ir "async" operacijas | 2022 m. spalio 21 d. | 2021 m. balandžio 9 mėn. | Įjungta pagal numatytuosius nustatymus | Išlaidų valdymas |
-| Reikalingų kvitų išlaidų politikos vertinimas | 2022 m. spalio 21 d. | 2021 m. gruodžio 20 d. | Įjungta pagal numatytuosius nustatymus | Išlaidų valdymas |
-| Išlaidų ataskaitų, sukurtų perduodant darbuotojus, sąrašo rodinys | 2022 m. spalio 21 d. | 2020 m. vasario 19 d. | Įjungta pagal numatytuosius nustatymus | Išlaidų valdymas |
-| Ridos sumų skaičiavimas pagal finansiniai metai | 2022 m. spalio 21 d. | 2022 m. gegužės mėn. 10 d. | Įjungta pagal numatytuosius nustatymus | Išlaidų valdymas |
+| Įjunkite "Async" operaciją, kai vartotojui reikia perjungti sinchronizavimo ir "async" operacijas | 2022 m. spalio 21 d. | 2021 m. balandžio 9 mėn. | Įjungta pagal numatytuosius parametrus | Išlaidų valdymas |
+| Reikiamo gavimo išlaidų strategijos sutemos | 2022 m. spalio 21 d. | 2021 m. gruodžio 20 d. | Įjungta pagal numatytuosius parametrus | Išlaidų valdymas |
+| Išlaidų ataskaitų, sukurtų išrašant darbuotojus, sąrašo rodinys | 2022 m. spalio 21 d. | 2020 m. vasario 19 d. | Įjungta pagal numatytuosius parametrus | Išlaidų valdymas |
+| Alitesų sumų skaičiavimas pagal finansiniai metai | 2022 m. spalio 21 d. | 2022 m. gegužės mėn. 10 d. | Įjungta pagal numatytuosius parametrus | Išlaidų valdymas |

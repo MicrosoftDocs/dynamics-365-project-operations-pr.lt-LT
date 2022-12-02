@@ -1,6 +1,6 @@
 ---
-title: Projektinių įvertinimų ir faktinių duomenų pardavimo kainų nustatymas
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip nustatomos projektais pagrįstų įvertinimų pardavimo kainos ir faktinės aplinkybės.
+title: Projektu grįstų pardavimų kainų įvertinimų ir faktinių duomenų nustatymas
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip nustatomos projektu grįstų pardavimų kainos pagal įvertinimus ir faktinius duomenis.
 author: rumant
 ms.date: 09/12/2022
 ms.topic: article
@@ -13,83 +13,83 @@ ms.contentlocale: lt-LT
 ms.lasthandoff: 09/13/2022
 ms.locfileid: "9475380"
 ---
-#  <a name="determine-sales-prices-for-project-based-estimates-and-actuals"></a>Projektinių įvertinimų ir faktinių duomenų pardavimo kainų nustatymas
+#  <a name="determine-sales-prices-for-project-based-estimates-and-actuals"></a>Projektu grįstų pardavimų kainų įvertinimų ir faktinių duomenų nustatymas
 
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
-Norėdami nustatyti pardavimo kainas pagal "Microsoft" Dynamics 365 Project Operations įvertinimus ir faktines vertes, sistema pirmiausia naudoja datą ir valiutą gaunamame įvertinime arba faktiniame kontekste, kad nustatytų pardavimo kainoraštį. Konkrečiai faktiniame kontekste sistema naudoja lauką **Operacijos data**, kad nustatytų, kuris kainoraštis yra taikytinas. Gaunamo **įvertinimo arba faktinio sandorio datos** vertė lyginama su **kainoraštyje esančiomis reikšmė Efektyvios pradžios (nepriklausoma nuo laiko juostos)** ir **Efektyvios pabaigos (laiko juostos nepriklausoma)** reikšmė. Nustačius pardavimo kainoraštį, sistema nustato pardavimo arba sąskaitos tarifą.
+Nustatydama pardavimų kainą pagal įvertinimus ir faktinius duomenis programoje „Microsoft Dynamics 365 Project Operations“, sistema iš pradžių naudoja datą ir valiutą, esančias gaunamame įvertinime arba faktinių duomenų kontekste, kad nustatytų pardavimo kainoraštį. Konkrečiai faktinių duomenų kontekste sistema naudoja lauką **Operacijos data**, kad nustatytų, kuris kainoraštis taikomas. Gaunamo įvertinimo arba faktinių duomenų reikšmė **Operacijos data** palyginama su kainoraščio reikšmėmis **Efektyvi pradžios data (nekonvertuoti pagal laiko juostą)** ir **Efektyvi pabaigos data (nekonvertuoti pagal laiko juostą)**. Nustačiusi pardavimų kainoraštį, sistema nustato pardavimo arba sąskaitų tarifą.
 
-## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-time"></a>Pardavimo tarifų nustatymas faktinėse ir įvertintose laiko eilutėse
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-time"></a>Pardavimo tarifų faktinėse ir įvertinimo eilutėse (skirtose laikui) nustatymas
 
-Laiko **įvertinimo kontekstas** reiškia:
+**Laiko** įvertinimo kontekstas nurodo:
 
-- Citatos **eilutės informacija apie laiką**.
-- Sutarties eilutės informacija apie **laiką**.
-- Išteklių priskyrimai projektui.
+- **Laiko** pasiūlymo eilutės išsami informacija
+- **Laiko** sutarties eilutės išsami informacija
+- Išteklių priskyrimas projektui.
 
-Faktinis **laiko** kontekstas reiškia:
+**Laiko** faktinis kontekstas nurodo:
 
-- Laiko **įvedimo ir taisymo žurnalo** eilutės.
-- Žurnalo eilutės, sukurtos, kai pateikiamas laiko įrašas.
-- "Time"**sąskaitos faktūros eilutės duomenys**. 
+- **Laiko** įrašo ir koregavimo žurnalo eilutės.
+- Žurnalo eilutės, sukurtos pateikus laiko įrašą.
+- **Laiko** sąskaitos faktūros eilutės išsami informacija 
 
-Nustačius pardavimo kainoraštį, sistema atlieka šiuos veiksmus, kad įvestų numatytąjį sąskaitų tarifą.
+Kai pardavimo kainoraštis nustatytas, sistema atlieka toliau nurodytus veiksmus, kad įvestų numatytąjį sąskaitų tarifą.
 
-1. Sistema suderina laukų **Vaidmuo**, **Išteklių gavimo įmonė** ir **Išteklių ėmimo vienetas** derinį laiko **įvertinime arba faktiniame kontekste** pagal vaidmenų kainoraščio kainoraščio eilutes. Šiame atitikime daroma prielaida, kad sąskaitų tarifams naudojate nekokybiškus kainodaros aspektus. Jei kainodarą sukonfigūravote taip, kad ji pagrįsta kitais laukais nei vaidmuo **,** išteklių gavimo įmonė **ir** išteklių gavimo vienetas **arba be jų**, šis laukų derinys naudojamas norint gauti atitinkamą vaidmens kainos eilutę.
-1. Jei sistema randa vaidmens kainos eilutę, kurioje yra "Role", **"** Resourcing Company" ir **"** Resourcing Unit" derinių sąskaitų **tarifas**, tas sąskaitų tarifas naudojamas kaip numatytasis sąskaitos tarifas.
+1. Sistema sugretina **Laiko** įvertinimo arba faktinių duomenų konteksto laukų **Vaidmuo**, **Išteklių paskirstymo įmonė** ir **Išteklių paskirstymo vienetas** derinį su vaidmens kainų eilutėmis, esančiomis kainoraštyje. Šiame gretinime laikoma, kad jūs naudojate paruoštas sąskaitų tarifų kainodaros dimensijos. Jei kainodarą sukonfigūravote remdamiesi bet kuriais kitais laukais vietoj arba greta laukų **Vaidmuo**, **Išteklių paskirstymo įmonė** ir **Išteklių paskirstymo vienetas**, tada toks laukelis bus naudojamas gretinimo vaidmens kainos eilutei gauti.
+1. Jei sistema suranda vaidmens kainos eilutę, kurios laukų **Vaidmuo**, **Išteklių paskirstymo įmonė** ir **Išteklių paskirstymo vienetas** derinys turi sąskaitos tarifą, tas sąskaitos tarifas bus naudojamas kaip numatytasis.
 
 > [!NOTE]
-> Jei sukonfigūruosite skirtingą laukų **Vaidmuo**, **Išteklių paskirstymo įmonė** ir **Išteklių ėmimo vienetas** prioritetų nustatymą arba jei turite kitų dimensijų, kurioms suteiktas didesnis prioritetas, ankstesnis veikimas atitinkamai pasikeis. Sistema nuskaito vaidmenų kainų įrašus, kurių reikšmės atitinka kiekvieną kainodaros dimensijos reikšmę prioriteto tvarka. Eilutės, kuriose yra neapibrėžtos tų dimensijų reikšmės, yra paskutinės.
+> Jei sukonfigūravote kitokį **Vaidmens**, **Išteklių paskirstymo įmonės** ir **Išteklių paskirstymo vieneto** laukelių pirmumą arba jei turite kitokių didesnio prioriteto dimensijų, toks veikimas atitinkamai pasikeis. Sistema nuskaito vaidmens kainos įrašus, kurių reikšmės atitinka kiekvieną įkainio dimensijos reikšmę prioriteto tvarka. Eilutės, kurios turi nulines šių dimensijų reikšmes, yra paskutinės.
 
-## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-expense"></a>Pardavimo tarifų nustatymas faktinėse ir išlaidų įvertinimo eilutėse
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-expense"></a>Pardavimo tarifų faktinėse ir įvertinimo eilutėse (skirtose išlaidoms) nustatymas
 
-Išlaidų **įvertinimo kontekstas** reiškia:
+**Išlaidų** įvertinimo kontekstas nurodo:
 
-- Išlaidų citatos **eilutės** informacija.
-- Sutarties eilutės informacija apie **išlaidas**.
-- Projekto išlaidų įvertinimo eilutės.
+- **Išlaidų** pasiūlymo eilutės išsami informacija
+- **Išlaidų** sutarties eilutės išsami informacija
+- Projekto išlaidų eilučių įvertinimas.
 
-Faktinis **išlaidų** kontekstas reiškia:
+**Išlaidų** faktinių duomenų kontekstas nurodo:
 
-- Įrašo ir taisymo žurnalo eilutės, skirtos **išlaidoms**.
+- **Išlaidų** įrašo ir koregavimo žurnalo eilutės.
 - Žurnalo eilutės, sukurtos pateikus išlaidų įrašą.
-- Sąskaitos faktūros eilutės informacija apie **išlaidas**. 
+- **Išlaidų** sąskaitos faktūros eilutės išsami informacija. 
 
-Nustačius pardavimo kainoraštį, sistema atlieka šiuos veiksmus, kad įvestų numatytąją vieneto pardavimo kainą.
+Kai sudaromas pardavimo kainoraštis, sistema atlieka toliau nurodytus veiksmus, kad įvestų numatytąją vieneto pardavimo kainą.
 
-1. Sistema suderina laukų **Kategorija** ir **Vienetas** derinį išlaidų **įvertinimo eilutėje su** kainoraštyje esančiomis kategorijų kainoraščio kainoraščio eilutėmis.
-1. Jei sistema randa kategorijos kainos eilutę, kurioje yra kategorijų ir **vienetų** derinio **pardavimo** rodiklis, tas pardavimo rodiklis naudojamas kaip numatytasis pardavimo rodiklis.
-1. Jei sistema randa atitinkančią kategorijos kainos eilutę, kainodaros metodas gali būti naudojamas norint įvesti numatytąją pardavimo kainą. Šioje lentelėje parodytas numatytasis išlaidų kainų veikimas programoje "Project Operations".
+1. Sistema išlaidų įvertinimo eilutėje priderina laukų **Kategorija** ir **Vienetas** derinį prie **Išlaidų** eilutės, kad sugretintų su kategorijų kainų eilutėmis sudarytame kainoraštyje.
+1. Jei sistema suranda kategorijos kainos eilutę, kurios laukų **Kategorija** ir **Vienetas** derinys turi pardavimo tarifą, tas pardavimo tarifas bus naudojamas kaip numatytasis.
+1. Jei sistema randa atitinkamos kategorijos kainų eilutę, kainodaros metodą galima naudoti numatytajai pardavimo kainai įvesti. Toliau pateiktoje lentelėje parodytas išlaidų kainos numatytasis veikimas naudojant „Project Operations“.
 
     | Kontekstas | Kainodaros metodas | Numatytoji kaina |
     | --- | --- | --- |
-    | Numatyti | Vieneto kaina | Pagal kategorijos kainos eilutę. |
+    | Numatyti | Vieneto kaina | Remiantis kategorijų kainų eilute. |
     |        | Savikaina | 0.00 |
     |        | Antkainis prie savikainos | 0.00 |
-    | Faktinis | Vieneto kaina | Pagal kategorijos kainos eilutę. |
-    |        | Savikaina | Remiantis faktinėmis susijusiomis išlaidomis. |
-    |        | Antkainis prie savikainos | Antkainis, kaip apibrėžta kategorijos kainos eilutėje, taikomas faktinių susijusių išlaidų vieneto savikainos tarifui. |
+    | Faktinis | Vieneto kaina | Remiantis kategorijų kainų eilute. |
+    |        | Savikaina | Remiantis susijusia faktine savikaina. |
+    |        | Antkainis prie savikainos | Antkainis pritaikytas, kaip apibrėžta susijusios faktinės savikainos vieneto savikainos tarifo kategorijų kainų eilutėje. |
 
-1. Jei sistema negali atitikti **verčių Kategorija** ir **Vienetas**, pardavimo rodiklis pagal numatytuosius nustatymus nustatytas kaip **0** (nulis).
+1. Jei sistemai nepavyksta sugretinti laukų **Kategorija** ir **Vienetas** reikšmių, pagal numatytuosius nustatymus pardavimo tarifas nustatomas kaip **0** (nulis).
 
-## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-material"></a>Pardavimo tarifų nustatymas faktinėse ir įvertintose medžiagos eilutėse
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-material"></a>Pardavimo kainų nustatymas Medžiagos faktinių duomenų ir įvertinimo eilutėse
 
-Medžiagos **įvertinimo kontekstas** reiškia:
+**Medžiagos** įvertinimo kontekstas nurodo:
 
-- Medžiagos **citatos** eilutės informacija.
-- Medžiagos **sutarties eilutės informacija**.
+- **Medžiagos** pasiūlymo eilutės išsami informacija
+- **Medžiagos** sutarties eilutės išsami informacija
 - Projekto medžiagų įvertinimo eilutės.
 
-Faktinis **medžiagos kontekstas** reiškia:
+**Medžiagos** faktinių duomenų kontekstas nurodo:
 
-- Medžiagos įrašo ir taisymo žurnalo **eilutės**.
-- Žurnalo eilutės, sukurtos pateikus medžiagos naudojimo žurnalą.
-- Medžiagos sąskaitos faktūros eilutės **duomenys**. 
+- **Medžiagos** įrašo ir koregavimo žurnalo eilutės.
+- Žurnalo eilutės, sukurtos pateikus medžiagų naudojimo žurnalą.
+- **Medžiagų** sąskaitos faktūros eilutės išsami informacija. 
 
-Nustačius pardavimo kainoraštį, sistema atlieka šiuos veiksmus, kad įvestų numatytąją vieneto pardavimo kainą.
+Kai sudaromas pardavimo kainoraštis, sistema atlieka toliau nurodytus veiksmus, kad įvestų numatytąją vieneto pardavimo kainą.
 
-1. Sistema suderina laukų Produktas ir Vienetas **derinį** medžiagos **įvertinimo eilutėje su** kainoraščio prekių eilutėmis kainoraštyje.**·**
-1. Jei sistema randa kainoraščio prekės eilutę, kurioje yra produkto ir vieneto **derinio** pardavimo kursas, ir jei kainodaros metodas yra **Suma Valiuta**, naudojama kainoraščio eilutėje nurodyta pardavimo kaina.**·** 
-1. **Jei lauko Produkto** ir **vieneto** reikšmės nesutampa arba jei kainodaros metodas yra kažkas kita, o ne **valiutos suma**, pardavimo kursas pagal numatytuosius nustatymus nustatomas kaip **0** (nulis). Taip nutinka todėl, kad "Project Operations" palaiko tik **projekte naudojamų medžiagų valiutos sumos** kainodaros metodą.
+1. Sistema **Medžiagos** įvertinimo eilutei priderina laukų **Produktas** ir **Vienetas** derinį, kad sugretintų kainų sąrašo elemento eilutes nustatytame kainoraštyje.
+1. Jei sistema randa kainų sąrašo elemento eilutę, kurioje nurodytos laukų **Produktas** ir **Vienetas** derinio pardavimo kainos, o įkainojimo metodas nustatytas kaip **Valiutos suma**, naudojama kainoraščio eilutėje nurodyta pardavimo kaina. 
+1. Jei laukelių **Produktas** ir **Vienetas** reikšmės neatitinka arba jei kainodaros metodas yra kitas nei **Valiutos suma** pagal numatytuosius nustatymus pardavimo kursas nustatomas kaip **0** (nulinis). Taip nutinka dėl to, kad „Project Operations“ palaiko tik **Valiutos sumos** įkainių metodą, taikomą projekte naudojamoms medžiagoms.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

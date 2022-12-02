@@ -1,6 +1,6 @@
 ---
 title: Tiekėjo sąskaitų faktūrų su patvirtintais faktiniais duomenimis tikrinimas
-description: Šiame straipsnyje paaiškinama, kaip "Microsoft" Dynamics 365 Project Operations projektų vadovai tikrina tiekėjo SF su faktinėmis sąskaitomis faktūromis, kurios buvo patvirtintos kaip rangovai, atliko darbą ir įrašė laiką, taip pat išlaidomis ir medžiagomis, kurias naudojo projekto komandos nariai.
+description: Šiame straipsnyje paaiškinta, kaip "Microsoft Dynamics 365 Project Operations " projektų vadovai patikrina tiekėjo sąskaitas faktūras su faktiniais įrašais, kurie buvo patvirtinti kaip rangovai, atliko darbą ir įrašė laiką, taip pat išlaidas ir medžiagą, kurią naudojo projekto komandos nariai.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
@@ -17,41 +17,41 @@ ms.locfileid: "9522946"
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
-"Microsoft" Dynamics 365 Project Operations leidžia projektų vadovams tikrinti tiekėjo SF eilutes šiais būdais:
+"Microsoft Dynamics 365 Project Operations" projektų vadovai patikrinkime tiekėjo sąskaitų faktūrų eilutes šiais būdais:
 
-- **Naudokite tiekėjo SF eilučių lauką Patvirtinimo būsena**.
-- Jei tiekėjo SF eilutėse nurodoma subrangos eilutė, susiekite faktines išlaidas iš subrangovo veiklos su tomis tiekėjo SF eilutėmis. Saitas sukuriamas suderinus išlaidų faktines sumas su tiekėjo SF eilutėmis.
+- Naudokite tiekėjo **sąskaitos faktūros** eilučių lauką Tikrinimo būsena.
+- Jei tiekėjo sąskaitos faktūros eilutės nurodo indūrinę eilutę, susiekite išlaidų faktinius sąrašus iš inertoriaus veiklos su tomis tiekėjo sąskaitų faktūrų eilutėmis. Saitas sukuriamas sugretinus faktinius tiekėjo sąskaitos faktūros eilučių išlaidų faktinius skaičius.
 
     > [!NOTE]
-    > Nors tiekėjo SF eilučių, kurios nenurodo subrangos sutarties, tikrinimo būseną galima sekti, faktinių išlaidų negalima susieti su tomis tiekėjo SF eilutėmis.
+    > Nors galima sekti tiekėjo sąskaitos faktūros eilučių, kurios neturi nuorodos į susektą, tikrinimo būseną, išlaidų faktinių duomenų su tomis tiekėjo sąskaitos faktūros eilutėmis susieti negalima.
 
-## <a name="verification-status"></a>Patvirtinimo būsena
+## <a name="verification-status"></a>Tikrinimo būsena
 
-Tiekėjo SF eilutės laukas **Patvirtinimo būsena** nurodo tą patvirtinimo būseną. Palaikomos šios būsenos:
+Patvirtinimo **būsenos laukas** tiekėjo sąskaitos faktūros eilutėje rodo, kad tikrinimo būsena. Palaikomos tolesnės būsenos:
 
 1. Nepradėta
 2. Vykdoma
 3. Užbaigta
 
-Tiekėjo SF eilutes, kurių patvirtinimo būsena **yra Nepradėta**, galima redaguoti.
+Tiekėjo sąskaitos faktūros eilučių, kurių tikrinimo būsena yra **Nepradėta**, redaguoti negalima.
 
-Tiekėjo SF eilučių, kurių patvirtinimo būsena **yra Vykdoma**, nebegalima redaguoti. Tiekėjo SF eilutėje, kuri nurodo subrangos sutartį, tikrinimo būsena automatiškai nustatoma kaip **Vykdoma**, kai tik pirmosios faktinės išlaidos suderinamos su tiekėjo SF eilute.
+Tiekėjo sąskaitos faktūros eilutę galima sukurti tik tuomet, kai jos **Vykdoma** nebegalima redaguoti. Jei tai tiekėjo sąskaitos faktūros eilutė, kuri nurodo perdėtą, tikrinimo būsena automatiškai nustatoma kaip Vykdoma iš karto, kai tik pirmą kartą faktinės išlaidos gretintos su tiekėjo sąskaitos faktūros **eilute**.
 
-Tiekėjo SF eilučių, kurių patvirtinimo būsena **yra Baigta**, redaguoti nebegalima. Kai visos tiekėjo SF eilutės turi šią patvirtinimo būseną, tiekėjo SF gali būti patvirtinta.
+Tiekėjo sąskaitos faktūros eilutę galima sukurti tik tuomet, kai jos **Atlikta** nebegalima redaguoti. Kai visų tiekėjo sąskaitos faktūros eilučių tikrinimo būsena yra tokia, galima patvirtinti tiekėjo sąskaitą faktūrą.
 
-## <a name="match-cost-actuals-to-vendor-invoice-lines"></a>Faktinių išlaidų susiejimas su tiekėjo SF eilutėmis
+## <a name="match-cost-actuals-to-vendor-invoice-lines"></a>Sugretinti realius kaštus su tiekėjo SF eilutėmis
 
-Faktinių išlaidų atitikimas padeda atlikti patvirtinimo procesą tiekėjo SF eilutėje. Norėdami susieti faktines išlaidų sumas su tiekėjo SF eilute, atlikite šiuos veiksmus.
+Išlaidų faktinių duomenų gretinimas padeda patikrinti tiekėjo sąskaitos faktūros eilutę. Norėdami sugretinti išlaidų faktines sumas su tiekėjo sąskaitos faktūros eilute, atlikite toliau nurodytus veiksmus.
 
-1. Atidarykite tiekėjo SF eilutę ir pasirinkite skirtuką **Nesuderintos savikainos faktinės** sumos. Tinklelyje rodomas faktinių išlaidų sąrašas, nurodantis tą pačią subrangos eilutę kaip ir tiekėjo SF eilutė.
-2. Pasirinkite vieną ar daugiau faktinių išlaidų, tada įrankių juostoje virš tinklelio pasirinkite **Atitiktis**. Sistema patikrina, ar pasirinktos savikainos faktinės sumos gali būti suderintos. Praėjus tikrinimui, faktinės savikainos susiejamos tiekėjo SF eilutėje.
+1. Atidarykite tiekėjo sąskaitos faktūros eilutę ir pažymėkite skirtuką **Nesutaptos išlaidos** faktiniai duomenys. Tinklelyje pateikiamas išlaidų faktinių duomenų sąrašas, kuris nurodo tą pačią asidėją kaip ir tiekėjo sąskaitos faktūros eilutę.
+2. Pažymėkite vieną ar daugiau išlaidų faktinių duomenų, tada virš **tinklelio** esančioje įrankių juostoje pasirinkite Greti. Sistema patikrina, ar galima gretuoti pažymėtus faktinius išlaidų duomenis. Patvirtinę, išlaidų faktiniai rezultatai susiejami su tiekėjo sąskaitos faktūros eilute.
 
-### <a name="validation-criteria-that-are-used-to-link-cost-actuals-to-vendor-invoice-lines"></a>Tikrinimo kriterijai, naudojami susieti faktines išlaidų sumas su tiekėjo SF eilutėmis
+### <a name="validation-criteria-that-are-used-to-link-cost-actuals-to-vendor-invoice-lines"></a>Tikrinimo kriterijai, naudojami išlaidų faktiniams sąrašams susieti su tiekėjo sąskaitos faktūros eilutėmis
 
-Susiejimo proceso metu saitą tarp faktinės savikainos ir tiekėjo SF eilutės galima nustatyti tik tuo atveju, jei įvykdomos abi šios sąlygos:
+Vykstant gretinimo procesui, ryšys tarp faktinių išlaidų ir tiekėjo sąskaitos faktūros eilutės gali būti nustatomas tik tada, jei laikomasi šių sąlygų:
 
-- Laukas **Koregavimo būsena** kiekvienai pasirinktai faktinei savikainai turi būti tuščias. Kitaip tariant, faktinės išlaidos neturėjo būti pakeistos kitomis faktinėmis išlaidomis atšaukimo, patvirtinimo atšaukimo ar taisymo žurnalo proceso metu.
-- Toliau nurodytų laukų reikšmės suderinamos tiekėjo SF eilutėje ir pasirinktoje faktinėje savikainoje. Jei tiekėjo SF eilutėje nenustatytas kuris nors laukas, į jį neatsižvelgiama.
+- Kiekvieno **pažymėto faktinio** kainos nustatymo būsenos laukas turi būti tuščias. Kitaip tariant, išlaidų faktinių duomenų negalima pakeisti kitomis išlaidų faktinėmis sąrašomis, kurios turi būti atšaukimo, patvirtinimo atšaukimo ar pataisymų proceso metu.
+- Toliau nurodytų laukų reikšmės gretintos tarp tiekėjo sąskaitos faktūros eilutės ir pažymėtos faktinės kainos. Jei tiekėjo sąskaitos faktūros eilutėje nėra lauko, jis neatitinka.
 
     - Projekto sutartis
     - Projekto sutarties eilutė
@@ -61,14 +61,14 @@ Susiejimo proceso metu saitą tarp faktinės savikainos ir tiekėjo SF eilutės 
     - Išteklių kategorija
     - Operacijos kategorija
     - Produktas
-    - Subrangos linija
+    - Subrangos sutarties eilutė
     - Rezervuojami ištekliai
 
-## <a name="unmatch-cost-actuals-from-a-vendor-invoice-line"></a>Nesuderintų išlaidų faktinių sumų iš tiekėjo SF eilutės
+## <a name="unmatch-cost-actuals-from-a-vendor-invoice-line"></a>Atsieti realius kaštus nuo tiekėjo SF eilutės
 
-Faktinių išlaidų neatitikimas taip pat gali padėti atlikti tiekėjo SF patvirtinimo procesą, nes bus galima pašalinti anksčiau nustatytus saitus. Faktines išlaidų sumas galima nesuderinti tik iš tiekėjo SF eilučių, kurių patvirtinimo būsena **yra Vykdoma**. Norėdami nesuderinti faktinių išlaidų sumų iš tiekėjo SF eilutės, atlikite šiuos veiksmus.
+Išlaidų faktinių duomenų nesutapimas taip pat gali padėti patikrinti tiekėjo sąskaitą faktūrą, nes galima pašalinti anksčiau nustatytus saitus. Realūs kaštai gali būti atsieti nuo tiekėjo sąskaitos eilučių, kurių patvirtinimo būsena **Vykdoma**. Norėdami atiesti išlaidų faktines sumas su tiekėjo sąskaitos faktūros eilute, atlikite toliau nurodytus veiksmus.
 
-1. Atidarykite tiekėjo SF eilutę ir pasirinkite skirtuką **Sutapusios savikainos faktinės** sumos. Tinklelyje rodomas faktinių išlaidų sąrašas, nurodantis tiekėjo SF eilutę.
-2. Pasirinkite vieną ar daugiau faktinių išlaidų, tada virš tinklelio esančioje įrankių juostoje pasirinkite **Nesuderinti**.
+1. Atidarykite tiekėjo sąskaitos faktūros eilutę ir pažymėkite skirtuką **Susietos išlaidos** faktiniai duomenys. Tinklelyje pateikiamas išlaidų faktinių duomenų sąrašas, kuris nurodo tą pačią asidėją kaip ir tiekėjo sąskaitos faktūros eilutę.
+2. Pažymėkite vieną ar daugiau išlaidų faktinių duomenų, tada virš **tinklelio** esančioje įrankių juostoje pasirinkite atsieti.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

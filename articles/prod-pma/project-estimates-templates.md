@@ -1,6 +1,6 @@
 ---
-title: Sinchronizuokite projekto įvertinimus tiesiogiai iš "Project Service Automation" į finansus ir operacijas
-description: Šiame straipsnyje aprašomi šablonai ir pagrindinės užduotys, naudojami projekto valandų įverčiams ir projekto išlaidų sąmatoms tiesiogiai sinchronizuoti nuo Microsoft Dynamics 365 Project Service Automation Dynamics 365 Finance.
+title: Sinchronizuoti projektų sąmatas tiesiai iš „Project Service Automation“ į finansų ir operacijų sritį
+description: Šiame straipsnyje aprašomi šablonai ir pagrindinės užduotys, kurie naudojami norint sinchronizuoti projekto valandų įvertinimus ir projekto išlaidų įvertinimus tiesiogiai iš „Microsoft Dynamics 365 Project Service Automation“ į „Dynamics 365 Finance“.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -21,11 +21,11 @@ ms.contentlocale: lt-LT
 ms.lasthandoff: 06/18/2022
 ms.locfileid: "9029815"
 ---
-# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Sinchronizuokite projekto įvertinimus tiesiogiai iš "Project Service Automation" į finansus ir operacijas
+# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Sinchronizuoti projektų sąmatas tiesiai iš „Project Service Automation“ į finansų ir operacijų sritį
 
 [!include[banner](../includes/banner.md)]
 
-Šiame straipsnyje aprašomi šablonai ir pagrindinės užduotys, naudojami projekto valandų įverčiams ir projekto išlaidų sąmatoms tiesiogiai sinchronizuoti nuo Dynamics 365 Project Service Automation Dynamics 365 Finance.
+Šiame straipsnyje aprašomi šablonai ir pagrindinės užduotys, kurie naudojami norint sinchronizuoti projekto valandų įvertinimus ir projekto išlaidų įvertinimus tiesiogiai iš „Dynamics 365 Project Service Automation“ į „Dynamics 365 Finance“.
 
 > [!NOTE]
 > - Projekto užduočių integravimas, išlaidų operacijų kategorijos, valandų įvertinimas, išlaidų įvertinimas ir funkcijų blokavimas prieinami 8.0 versijoje.
@@ -69,7 +69,7 @@ Prieš atliekant projekto valandų įvertinimų sinchronizavimą, reikia sinchro
 
 ### <a name="power-query"></a>Power Query
 
-Projekto valandos įvertinimų šablone turite naudoti "Microsoft for Power Query Excel", kad atliktumėte šias užduotis:
+Projekto valandų įvertinimo šablone turite naudoti „Microsoft Power Query for Excel”, kad atliktumėte tolesnes užduotis.
 
 - Nustatykite numatytojo prognozės modelio ID, kuris bus naudojamas, kai integruojant bus kuriamos naujos valandų prognozės.
 - Filtruokite visus konkretiems ištekliams būdingus užduoties įrašus, kuriuos nepavyks integruoti į valandų prognozes.
@@ -80,7 +80,7 @@ Projekto valandos įvertinimų šablone turite naudoti "Microsoft for Power Quer
 Norėdami šablone atnaujinti numatytojo prognozės modelio ID, spustelėkite **struktūros** rodyklę ir atidarykite susiejimą. Tada pasirinkite saitą **Išplėstinė užklausa ir filtravimas**.
 
 - Jei naudojate numatytąjį projekto valandų įvertinimų šabloną (PSA į „Fin and Ops“), sąraše **Taikomi veiksmai** pažymėkite **Įtraukta sąlyga**. Įraše **Funkcija** pakeiskite **O\_prognozė** prognozės modelio ID pavadinimu, kuris turi būti naudojamas su šiuo integravimu. Numatytajame šablone naudojamas demonstracinių duomenų prognozės modelio ID.
-- Jei kuriate naują šabloną, turite įtraukti šį stulpelį. Į Power Query, pasirinkite **Įtraukti sąlyginį stulpelį** ir įveskite naujo stulpelio pavadinimą, pvz **., ModelID**. Įveskite stulpelio sąlygą, kur, jei projekto užduotis apibrėžta, tada \<enter the forecast model ID\>; kitu atveju neapibrėžta reikšmė.
+- Jei kuriate naują šabloną, turite įtraukti šį stulpelį. „Power Query” pasirinkite **Įtraukti sąlygos stulpelį** ir įveskite naujo stulpelio pavadinimą, pvz., **ModelID**. Įveskite stulpelio sąlygą, kur, jei projekto užduotis apibrėžta, tada \<enter the forecast model ID\>; kitu atveju neapibrėžta reikšmė.
 
 #### <a name="filter-out-resource-specific-records"></a>Filtruokite konkretiems ištekliams būdingus įrašus
 
@@ -125,7 +125,7 @@ Prieš atliekant projekto išlaidų įvertinimų sinchronizavimą, reikia sinchr
 
 ### <a name="power-query"></a>Power Query
 
-Projekto išlaidų įvertinimų šablone turite naudoti Power Query norėdami atlikti šias užduotis:
+Projekto išlaidų įvertinimo šablone turite naudoti „Power Query”, kad atliktumėte tolesnes užduotis.
 
 - Filtruokite, kad įtrauktumėte tik išlaidų įvertinimų eilučių įrašus.
 - Nustatykite numatytojo prognozės modelio ID, kuris bus naudojamas, kai integruojant bus kuriamos naujos valandų prognozės.
@@ -140,8 +140,8 @@ Projekto išlaidų įvertinimų (PSA į „Fin and Ops“) šablone yra numatyta
 
 Norėdami šablone atnaujinti numatytojo prognozės modelio ID, pasirinkite užduotį **Išlaidų įvertinimai**, tada spustelėkite **struktūros** rodyklę ir atidarykite susiejimą. Pasirinkite saitą **Išplėstinė užklausa ir filtravimas**.
 
-- Jei naudojate numatytąjį šabloną Projekto išlaidų įvertinimai (PSA į Fin ir Ops), in Power Query, pasirinkite pirmąją **Įterptą sąlygą** iš sekcijos **Taikomi veiksmai**. Įraše **Funkcija** pakeiskite **O\_prognozė** prognozės modelio ID pavadinimu, kuris turi būti naudojamas su šiuo integravimu. Numatytajame šablone naudojamas demonstracinių duomenų prognozės modelio ID.
-- Jei kuriate naują šabloną, turite įtraukti šį stulpelį. Į Power Query, pasirinkite **Įtraukti sąlyginį stulpelį** ir įveskite naujo stulpelio pavadinimą, pvz **., ModelID**. Įveskite stulpelio sąlygą, kur, jei įvertinimo eilutės ID apibrėžta, tada \<enter the forecast model ID\>; kitu atveju neapibrėžta reikšmė.
+- Jei naudojate numatytąjį projekto išlaidų įvertinimų šabloną (PSA į „Fin and Ops“), „Power Query” skyriuje **Taikomi veiksmai** pasirinkite pirmą **Įtrauktą sąlygą**. Įraše **Funkcija** pakeiskite **O\_prognozė** prognozės modelio ID pavadinimu, kuris turi būti naudojamas su šiuo integravimu. Numatytajame šablone naudojamas demonstracinių duomenų prognozės modelio ID.
+- Jei kuriate naują šabloną, turite įtraukti šį stulpelį. „Power Query” pasirinkite **Įtraukti sąlygos stulpelį** ir įveskite naujo stulpelio pavadinimą, pvz., **ModelID**. Įveskite stulpelio sąlygą, kur, jei įvertinimo eilutės ID apibrėžta, tada \<enter the forecast model ID\>; kitu atveju neapibrėžta reikšmė.
 
 #### <a name="transform-the-billing-types"></a>Atsiskaitymo tipų keitimas
 

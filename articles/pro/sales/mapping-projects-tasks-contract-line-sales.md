@@ -1,6 +1,6 @@
 ---
 title: Projektų ir užduočių susiejimas su projektu pagrįstos sutarties eilute – „Lite“ versija
-description: Šiame straipsnyje pateikiama informacija apie projektų ir užduočių įtraukimą ir pašalinimą į sutarties eilutę.
+description: Šiame straipsnyje pateikiama informacija apie projektų ir užduočių įtraukimą į sutarties eilutę ir šalinimą iš jos.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article

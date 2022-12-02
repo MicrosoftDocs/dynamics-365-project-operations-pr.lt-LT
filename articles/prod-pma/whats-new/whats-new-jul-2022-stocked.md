@@ -1,6 +1,6 @@
 ---
 title: Kas nauja ar pakeista 2022 m. liepos mėn. programoje „Project Operations“, skirtoje laikomų medžiagų / gamyba pagrįstiems scenarijams
-description: Šiame straipsnyje pateikiama informacija apie kokybės naujinimus, kurie pasiekiami "Microsoft" Dynamics 365 Project Operations 2022 m. liepos mėnesio leidime, skirtuose atsargomis / gamyba pagrįstiems scenarijams.
+description: Šiame straipsnyje pateikiama informacija apie kokybinius naujinimus, kuriuos galima rasti 2022 m. liepos mėn. „Microsoft Dynamics 365 Project Operations“ išteklių ir nesaugomais pagrįsti scenarijai.
 author: ramagadu
 ms.date: 8/17/2022
 ms.topic: article
@@ -18,38 +18,38 @@ ms.locfileid: "9305926"
 
 _**Taikoma (kam):**„Project Operations“, skirta laikomų medžiagų / gamyba pagrįstiems scenarijams_
 
-Šis straipsnis taikomas šiems "Microsoft" Dynamics 365 Project Operations komponentams ir versijoms:
+Šis straipsnis taikomas toliau nurodytiems „ Microsoft Dynamics 365 Project Operations“ komponentams ir versijoms:
 
-- Projektų valdymas ir apskaita Dynamics 365 Finance aplinkoje 10.0.28 versija
+- Projektų valdymas ir apskaita „Dynamics 365 Finance“ aplinkos 10.0.28 versijoje
 
 ## <a name="quality-updates"></a>Kokybės naujinimai
 
-Norėdami gauti informacijos apie į šį naujinimą įtrauktus klaidų pataisymus, prisijunkite prie Microsoft Dynamics "Lifecycle Services" (LCS) ir peržiūrėkite [KB straipsnį](https://fix.lcs.dynamics.com/Issue/Details?bugId=694438).
+Norėdami gauti daugiau informacijos apie klaidų ištaisymus, įtrauktus į šį naujinimą, prisijunkite prie „Microsoft Dynamics Lifecycle Services“ (LCS) ir rrodyti [KB straipsnis](https://fix.lcs.dynamics.com/Issue/Details?bugId=694438).
 
-## <a name="features-turned-on-by-default-in-upcoming-release"></a>Funkcijos, įjungtos pagal numatytuosius nustatymus būsimame leidime
+## <a name="features-turned-on-by-default-in-upcoming-release"></a>Būsimame leidime funkcijos bus įjungtos pagal numatytuosius parametrus
 
-Šioje lentelėje išvardytos funkcijos, kurios pagal numatytuosius nustatymus yra įjungtos 10.0.29 versijoje. Daugumą automatiškai įjungtų funkcijų galima išjungti funkcijų [valdyme](/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview). Ateityje kai kurios automatiškai įjungtos funkcijos gali būti pašalintos iš funkcijų valdymo ir taps privalomos. Šis pakeitimas užtikrina, kad klientai naudotų dabartines funkcijas, kad patobulinimai galėtų būti pagrįsti dabartinėmis funkcijomis, kai jos pridedamos. Funkcijos niekada nebus automatiškai įjungtos per mažiau nei vienerius metus, nebent bus nustatyta, kad jos yra būtinos.
+Tolesnėje lentelėje pateiktos funkcijos, kurios įjungtos pagal nustatymus 10.0.29 versijoje. Daugelį funkcijų, kurios buvo automatiškai įjungtos, gali būti išjungtos [Funkcijų valdyme](/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview). Ateityje kai kurios automatiškai įjungtos funkcijos gali būti pašalintos iš funkcijų valdymo ir tapti privalomos. Šis pakeitimas užtikrina, kad klientai naudoja dabartines funkcijas, kad patobulinimai galėtų būti sukurti pagal dabartinę funkciją, nes jos yra pridėtos. Funkcijos niekada nebus automatiškai įjungiamos trumpiau nei metus, nebent jos bus nustatytos kaip būtinos.
 
-| Funkcijos pavadinimas | Įjungimo data | Funkcija pridėta | Funkcijos būsena | Modulis |
+| Funkcijos pavadinimas | Įgalinti datą | Funkcija įtraukta | Funkcijos būsena | Modulis |
 | --- | --- | --- |--- |--- |
-| Įgalinti valandų operacijos koregavimą atsižvelgiant į finansavimo taisyklių paskirstymo pakeitimą | 2022 m. rugsėjo mėn. 16 d. | 2020 m. spalio 7 d. | Įjungta pagal numatytuosius nustatymus | Projektų valdymas ir apskaita |
-| Projekto pirkimo užsakymo išankstinio apmokėjimo sąskaitos faktūros atšaukimo funkcija | 2022 m. rugsėjo mėn. 16 d. | 2021 m. spalio 6 d. | Įjungta pagal numatytuosius nustatymus | Projektų valdymas ir apskaita |
-| Ištrinkite sąskaitos faktūros pasiūlymo eilutes, kai naudojate "Project Operations" scenarijams, pagrįstiems ištekliais / be atsargų | 2022 m. rugsėjo mėn. 16 d. | 2021 m. spalio 6 d. | Įjungta pagal numatytuosius nustatymus | Projektų valdymas ir apskaita |
-| Apskaitos koregavimas pagal užregistruotą projekto operaciją | 2022 m. rugsėjo mėn. 16 d. | 2020 m. gegužės mėn. 10 d. | Įjungta pagal numatytuosius nustatymus | Projektų valdymas ir apskaita |
-| Numatytojo projekto apskaitos nustatymo įgalinimas | 2022 m. rugsėjo mėn. 16 d. | 2020 m. vasario 19 d. | Įjungta pagal numatytuosius nustatymus | Projektų valdymas ir apskaita |
-| Įjungti keletą projekto sutarties eilučių | 2022 m. rugsėjo mėn. 16 d. | 2020 m. birželio 29 d. | Įjungta pagal numatytuosius nustatymus | Projektų valdymas ir apskaita |
-| Padarykite "Project Hour" žurnalus skirtus tik skaityti, jei dabartinė patvirtinimo būsena neleidžia redaguoti | 2022 m. rugsėjo mėn. 16 d. | 2021 m. spalio 6 d. | Įjungta pagal numatytuosius nustatymus | Projektų valdymas ir apskaita |
-| Įgalinkite pardavimo eilučių sinchronizavimą iš pirkimo eilučių, kai atnaujinamos pirkimo eilutės ir įjungiamas pirkimo užsakymo keitimo valdymo parametras | 2022 m. rugsėjo mėn. 16 d. | 2020 m. spalio 7 d. | Įjungta pagal numatytuosius nustatymus | Projektų valdymas ir apskaita |
-| "Project" operacijų įgalinimas Dynamics 365 Customer Engagement | 2022 m. rugsėjo mėn. 16 d. | 2020 m. birželio 29 d. | Įjungta pagal numatytuosius nustatymus | Projektų valdymas ir apskaita |
-| Projekto operacijų atšaukimo taisymo funkcija | 2022 m. rugsėjo mėn. 16 d. | 2020 m. liepos 13 d. | Įjungta pagal numatytuosius nustatymus | Projektų valdymas ir apskaita |
+| Įjungti valandinės transakcijos sudė pakeitimą, pagal priskyrimo taisyklę | 2022 m. rugsėjo mėn. 16 d. | 2020 m. spalio 7 d. | Įjungta pagal numatytuosius parametrus | Projektų valdymas ir apskaita |
+| Projekto pirkimo užsakymo išsamūs sąskaitų faktūrų atšaukimo funkcija | 2022 m. rugsėjo mėn. 16 d. | 2021 m. spalio 6 d. | Įjungta pagal numatytuosius parametrus | Projektų valdymas ir apskaita |
+| Naikinti SF pasiūlymų eilutes naudojant, „Project Operations“, skirta ištekliais pagal ar nelaikomomis prekėmis pagrįstiems scenarijams | 2022 m. rugsėjo mėn. 16 d. | 2021 m. spalio 6 d. | Įjungta pagal numatytuosius parametrus | Projektų valdymas ir apskaita |
+| Koreguokite užregistruotos projekto transakcijos sąskaitą | 2022 m. rugsėjo mėn. 16 d. | 2020 m. gegužės mėn. 10 d. | Įjungta pagal numatytuosius parametrus | Projektų valdymas ir apskaita |
+| Įjungti projekto numatytąją apskaitos sąranką | 2022 m. rugsėjo mėn. 16 d. | 2020 m. vasario 19 d. | Įjungta pagal numatytuosius parametrus | Projektų valdymas ir apskaita |
+| Įjungti keletą projekto sutarties eilučių | 2022 m. rugsėjo mėn. 16 d. | 2020 m. birželio 29 d. | Įjungta pagal numatytuosius parametrus | Projektų valdymas ir apskaita |
+| Nustatyti, kad projekto valandų valdymo įrankiai būtų tik skaitomi, jei dabartinio patvirtinimo būsena neleidžia redaguoti | 2022 m. rugsėjo mėn. 16 d. | 2021 m. spalio 6 d. | Įjungta pagal numatytuosius parametrus | Projektų valdymas ir apskaita |
+| Kai pirkimo eilutės atnaujinamos ir įjungiamas pirkimo užsakymo pakeitimų valdymo parametras, įjungti pardavimo eilučių sinchronizavimą iš pirkimo eilučių | 2022 m. rugsėjo mėn. 16 d. | 2020 m. spalio 7 d. | Įjungta pagal numatytuosius parametrus | Projektų valdymas ir apskaita |
+| "Project Operations‟ įjungimas "Dynamics 365 Customer Engagement‟ | 2022 m. rugsėjo mėn. 16 d. | 2020 m. birželio 29 d. | Įjungta pagal numatytuosius parametrus | Projektų valdymas ir apskaita |
+| Projekto transakcijos atšaukimo taisymo funkcija | 2022 m. rugsėjo mėn. 16 d. | 2020 m. liepos 13 d. | Įjungta pagal numatytuosius parametrus | Projektų valdymas ir apskaita |
 
-## <a name="features-that-become-mandatory-in-the-upcoming-release"></a>Funkcijos, kurios taps privalomos būsimame leidime
+## <a name="features-that-become-mandatory-in-the-upcoming-release"></a>Funkcijos, kurios būsimame leidime tampa privalomos
 
-Toliau pateiktoje lentelėje išvardytos funkcijos, kurios yra privalomos nuo 10.0.29 versijos.
+Tolesnėje lentelėje pateiktos būtinosios funkcijos, kurios įjungtos pagal nustatymus 10.0.29. versijoje ir vėlesnėse.
 
-| Funkcijos pavadinimas | Įjungimo data | Funkcija pridėta | Funkcijos būsena | Modulis |
+| Funkcijos pavadinimas | Įgalinti datą | Funkcija įtraukta | Funkcijos būsena | Modulis |
 | --- | --- | --- | --- | --- |
-| Apskaičiuokite įsipareigotą vertę finansavimo šaltinyje neapvalindami valiutos kurso | 2022 m. rugsėjo mėn. 16 d. | 2020 m. birželio 14 d. | Privaloma | Projektų valdymas ir apskaita |
-| Įgalinkite projekto koregavimo registravimą naudodami tą pačią DK sąskaitą kaip ir pradinė operacija | 2022 m. rugsėjo mėn. 16 d. | 2020 m. birželio 14 d. | Privaloma | Projektų valdymas ir apskaita |
-| Išsami informacija apie projekto sutartyje numatytą sumą | 2022 m. rugsėjo mėn. 16 d. | 2019 m. rugpjūčio 31 d. | Privaloma | Projektų valdymas ir apskaita |
-| Rūšiavimo pagal išteklius įgalinimas kuriant projekto sąskaitos faktūros pasiūlymą | 2022 m. rugsėjo mėn. 16 d. | 2019 m. rugpjūčio 31 d. | Privaloma | Projektų valdymas ir apskaita |
+| Apskaičiuokite fiksuotą vertę pagal indavimo šaltinį ne apvalinimo valiutos kursą | 2022 m. rugsėjo mėn. 16 d. | 2020 m. birželio 14 d. | Privaloma | Projektų valdymas ir apskaita |
+| Įjungti projekto išsakcijos registravimą naudojant tą pačią, kaip ir originalią operaciją, paskyrą | 2022 m. rugsėjo mėn. 16 d. | 2020 m. birželio 14 d. | Privaloma | Projektų valdymas ir apskaita |
+| Projekto sutarties fiksuotos sumos išsami informacija | 2022 m. rugsėjo mėn. 16 d. | 2019 m. rugpjūčio 31 d. | Privaloma | Projektų valdymas ir apskaita |
+| Įjungti rūšiavimą pagal išteklius projekto sąskaitų faktūrų kūrimo metu | 2022 m. rugsėjo mėn. 16 d. | 2019 m. rugpjūčio 31 d. | Privaloma | Projektų valdymas ir apskaita |

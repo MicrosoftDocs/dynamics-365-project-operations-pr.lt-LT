@@ -1,6 +1,6 @@
 ---
-title: Iš naujo parengtos išlaidų ataskaitos (yra vaizdo įrašas)
-description: Šiame straipsnyje paaiškinama pertvarkyta ir pertvarkyta išlaidų ataskaitos įvedimo patirtis.
+title: Išlaidų ataskaitų pertvarkymas (yra vaizdo įrašas)
+description: Šiame straipsnyje paaiškinama, kaip pertvarkyti ir iš naujo nustatyti išlaidų ataskaitų įrašų patirtį.
 author: suvaidya
 ms.date: 12/16/2021
 ms.topic: article
@@ -58,7 +58,7 @@ Norėdami įjungti naująsias funkcijas, darbo srityje **Funkcijų valdymas** į
 | Naujų išlaidų eilučių išsaugojimas ir įtraukimas | Įvesdami naujas išlaidas, galite naudoti mygtukus **Įrašyti** ir **Nauja**, kad greitai įvestumėte išlaidų eilutes. |
 | Išskaidytų ir detaliai išvardytų eilučių geresnis matomumas | Detaliai išvardytos ir išskaidytos eilutės tiesiogiai įtraukiamos į išlaidų sąrašą, kad būtų padidintas matomumas ir būtų lengviau nustatyti, ar yra klaidų. |
 | Subkategorijų duomenų peržiūra detalizuotose eilutėse | Detalizuotose pirminių išlaidų eilutėse rodomos išlaidų ataskaitos subkategorijų žymos. Naudojant detalizavimo funkciją galima greitai peržiūrėti detalią informaciją.|
-|Greitai išvardykite pasikartojančias išlaidas | Iš naujo nustatyta išlaidų darbo sritis suteikia galimybę greitai detalizuoti pasikartojančias išlaidas, pridedant subkategoriją, pradžios datą ir kiekį. Kiekis nurodo, kiek kartų mokestis kartojamas per nepertraukiamą laikotarpį. |
+|Greitas pasikartojančių išlaidų detalizavimas | Pertvarkytoje išlaidų darbo srityje suteikiama galimybė greitai detalizuoti pasikartojančias išlaidas, pridedant antrinę kategoriją, pradžios datą ir kiekį. Kiekis nurodo kartų, kai mokestis kartojosi per tam tikrą ištisinį laikotarpį, skaičių. |
 | Kvitų rodymas detalizavimo metu | Galite matyti kvitus detalizavimo metu. |
 | Avanso grynaisiais pinigais pasirinkimas | Pažymėkite vieną ar daugiau avansų grynaisiais pinigais, kad būtų galima atlikti vieną išlaidų operaciją. |
 | Avanso grynaisiais pinigais balansas | Realiuoju laiku peržiūrėkite avanso grynaisiais pinigais balansą, kai kuriate išlaidų įrašą pagal patvirtintus ir apmokėtus avansus grynaisiais pinigais. |

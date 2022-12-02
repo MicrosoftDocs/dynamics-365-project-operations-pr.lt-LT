@@ -1,6 +1,6 @@
 ---
 title: Perdavimo valdymas
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip išlaidų atstovas gali kurti ir valdyti kito darbuotojo išlaidų ataskaitas.
+description: Šiame straipsnyje pateikta informacija apie tai, kaip išlaidų atstovas gali kurti ir valdyti kito darbuotojo išlaidų ataskaitas.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article

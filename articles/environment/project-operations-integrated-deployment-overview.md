@@ -1,6 +1,6 @@
 ---
 title: „Project Operations“, skirtos ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams, visuotinio diegimo apžvalga
-description: Šiame straipsnyje pateikiama informacija apie diegimo tipą, Išteklių / nekauptų scenarijų projekto operacijos.
+description: Šiame straipsnyje pateikiama informacija apie „Project Operations“, skirtos ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams, visuotinio diegimo tipą.
 author: rumant
 ms.date: 11/02/2020
 ms.topic: overview
@@ -31,7 +31,7 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 - Projekto pajamų pripažinimas
 - Išplėčiamumas naudojant „Power Platform”
 
-Šis diegimo tipas suteikia Dynamics 365 Finance ir Dynamics 365 Supply Chain Management taikomųjų programų teikiamų funkcijų plėtinį.
+Šis visuotinio diegimo tipas išplečia „Dynamics 365 Finance” ir „Dynamics 365 Supply Chain Management” programų teikiamas funkcijas.
 
 Naudokite šį visuotinio diegimo tipą, jei tikitės programoje „Project Operations” naudoti visą projekto ciklą, įskaitant toliau pateikiamus reikalavimus.
 

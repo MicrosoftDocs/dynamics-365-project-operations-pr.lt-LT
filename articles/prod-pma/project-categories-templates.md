@@ -1,6 +1,6 @@
 ---
-title: Projekto išlaidų kategorijų sinchronizavimas tarp finansų ir operacijų bei "Project Service Automation"
-description: Šiame straipsnyje aprašomi šablonai ir pagrindinės užduotys, naudojamos projekto išlaidų kategorijoms sinchronizuoti tarp Microsoft Dynamics 365 "Finance" ir Dynamics 365 Project Service Automation.
+title: Sinchronizuoti finansų ir operacijų srities ir „Project Service Automation“ projektų išlaidų kategorijas
+description: Šiam straipsnyje aprašomi šablonai ir pagrindinės užduotys, kurios naudojami norint sinchronizuoti projekto išlaidų kategorijas tarp „Microsoft Dynamics 365 Finance“ ir „Dynamics 365 Project Service Automation“.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -21,11 +21,11 @@ ms.contentlocale: lt-LT
 ms.lasthandoff: 06/18/2022
 ms.locfileid: "9028942"
 ---
-# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Projekto išlaidų kategorijų sinchronizavimas tarp finansų ir operacijų bei "Project Service Automation"
+# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Sinchronizuoti finansų ir operacijų srities ir „Project Service Automation“ projektų išlaidų kategorijas
 
 [!include[banner](../includes/banner.md)]
 
-Šiame straipsnyje aprašomi šablonai ir pagrindinės užduotys, naudojamos projekto išlaidų kategorijoms sinchronizuoti tarp Dynamics 365 Finance ir Dynamics 365 Project Service Automation.
+Šiam straipsnyje aprašomi šablonai ir pagrindinės užduotys, kurios naudojami norint sinchronizuoti projekto išlaidų kategorijas tarp „Dynamics 365 Finance“ ir „Dynamics 365 Project Service Automation“.
 
 > [!NOTE]
 > - Projekto užduočių integravimas, išlaidų operacijų kategorijos, valandų įvertinimas, išlaidų įvertinimas ir funkcijų blokavimas prieinami 8.0 versijoje.
@@ -80,10 +80,10 @@ Projekto išlaidų kategorijos valdomos naudojant „Finance, o sinchronizuojamo
 
 ### <a name="power-query"></a>Power Query
 
-Kai sinchronizuojate su "Project Service Automation", turite naudoti "Microsoft for Power Query Excel", kad nustatytumėte atsiskaitymo tipą operacijos kategorijoje. Projekto išlaidų operacijų kategorijų („Fin and Ops“ į PSA) šablonas pateikia numatytąjį stulpelį ir susiejimą. Jei kuriate savo šabloną, sąlyginis stulpelis turi būti įtrauktas į Power Query. Atlikite šiuos veiksmus.
+Kai sinchronizuojate su „Project Service Automation“, turite naudoti „ Microsoft Power Query for Excel“, kad nustatytumėte atsiskaitymo tipą pagal operacijos kategoriją. Projekto išlaidų operacijų kategorijų („Fin and Ops“ į PSA) šablonas pateikia numatytąjį stulpelį ir susiejimą. Kurdami savo šabloną, turite įtraukti šį sąlygos stulpelį į „Power Query“. Atlikite šiuos veiksmus.
 
 1. Spustelėkite rodyklę, kad atidarytumėte projekto išlaidų kategorijų užduoties susiejimą projekto išlaidų operacijų kategorijų („Fin and Ops“ į PSA) šablone.
-2. Spustelėkite saitą **Išankstinė užklausa ir filtravimas**, kad atidarytumėte Power Query.
+2. Spustelėkite saitą **Išplėstinė užklausa ir filtravimas**, kad atidarytumėte „Power Query“.
 2. Pažymėkite **Įtraukti sąlyginį stulpelį**.
 3. Įveskite naujo stulpelio pavadinimą, pvz., **BillingType**.
 4. Įveskite šią sąlygą: **Jei CATEGORYID nėra lygi nuliui, tada 19235001, kitaip nulis**.

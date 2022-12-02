@@ -1,6 +1,6 @@
 ---
 title: Finansinio įvertinimo sąvokos
-description: Šiame straipsnyje pateikiama informacija apie projekto operacijų projektų finansines sąmatas.
+description: Šiame straipsnyje pateikiama informacija apie „Project Operations“ projektų finansinius įvertinimus.
 author: rumant
 ms.date: 03/22/2021
 ms.topic: overview

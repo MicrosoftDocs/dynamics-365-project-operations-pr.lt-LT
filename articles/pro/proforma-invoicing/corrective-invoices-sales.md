@@ -1,6 +1,6 @@
 ---
 title: Koreguojamosios projekto sąskaitos faktūros
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip kurti ir patvirtinti taisomąsias sąskaitas faktūras programoje "Project Operations".
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip sukurti ir patvirtinti koreguojamąsias sąskaitas faktūras „Project Operations“.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
-title: Projekto tiekėjo SF patvirtinimas
-description: Šiame straipsnyje paaiškinama, kaip patvirtinti projekto tiekėjo SF programoje "Microsoft" Dynamics 365 Project Operations, ir aprašomas projekto tiekėjo SF patvirtinimo finansinis poveikis.
+title: Projekto tiekėjo sąskaitų faktūrų patvirtinimas
+description: Šiame straipsnyje paaiškinta, kaip patvirtinti projekto tiekėjo sąskaitą faktūrą programoje „Microsoft Dynamics 365 Project Operations“, ir aprašomas projekto tiekėjo sąskaitos faktūros patvirtinimo finansinis poveikis.
 author: suvaidya
 ms.date: 8/25/2022
 ms.topic: article
@@ -13,24 +13,24 @@ ms.contentlocale: lt-LT
 ms.lasthandoff: 09/13/2022
 ms.locfileid: "9475476"
 ---
-# <a name="confirm-project-vendor-invoices"></a>Projekto tiekėjo SF patvirtinimas
+# <a name="confirm-project-vendor-invoices"></a>Projekto tiekėjo sąskaitų faktūrų patvirtinimas
 
 _ **Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams
 
-Įgalinus parametrą **Rankinis** patvirtinimas pm metodu, tiekėjo sf, kurios sukuriamos naudojant juodraščio Microsoft Dataverse būseną, turi **juodraščio** būseną. Tokiu būdu sukurtos tiekėjo sąskaitos faktūros turi būti peržiūrėtos ir patvirtintos rankiniu būdu. Kai parametras Rankinis **patvirtinimas PM yra išjungtas**, automatiškai patvirtinamos sukurtos Dataverse tiekėjo sąskaitos faktūros. Jokių tolesnių veiksmų nereikia. 
+Kai įjungtas parametras **Reikalingas PM rankinis patvirtinimas**, programoje „Microsoft Dataverse“ sukurtų tiekėjo sąskaitų faktūrų būsena yra **Juodraštis**. Taip sukurtas tiekėjo sąskaitas faktūras reikia peržiūrėti ir patvirtinti rankiniu būdu. Kai parametras **Reikalingas PM rankinis patvirtinimas,** išjungtas, programoje „Dataverse“ sukurtos tiekėjo sąskaitos faktūros patvirtinamos automatiškai. Nereikia atlikti jokių tolesnių veiksmų. 
 
-Patikrinę visas tiekėjo SF eilutes Dynamics 365 Project Operations, pasirinkite **Patvirtinti**, kad patvirtintumėte tiekėjo SF.
+Programoje „Dynamics 365 Project Operations“ patikrinę visas tiekėjo sąskaitos faktūros eilutes, pasirinkite **Patvirtinti**, kad patvirtintumėte tiekėjo sąskaitą faktūrą.
 
-Kai tiekėjo SF pasirenkate **Patvirtinti**, įvyksta toks veiksmas:
+Kai tiekėjo sąskaitai faktūrai pasirenkate **Patvirtinti**, įvyksta tokie dalykai:
 
-1. Tiekėjo SF būsena atnaujinama į **Patvirtinta**.
-1. Patvirtinta tiekėjo SF ir su ja susiję įrašai tampa skirti tik skaityti ir jų negalima redaguoti ar panaikinti.
-1. Jei kokios nors savikainos faktinės sumos nurodo tiekėjo SF eilutę kaip susiejimo proceso dalį, visos faktinės savikainos, susietos su nurodyta tiekėjo SF eilute, yra atvirkštinės.
-1. Naujos savikainos faktinės sumos sukuriamos naudojant tiekėjo SF eilutėje esančią informaciją.
-1. Nebegalite kurti taisymo žurnalų, apdoroti laiko įrašų atšaukimų arba atšaukti pradinio laiko, išlaidų ar esminių faktinių aplinkybių, kurios buvo atšauktos, patvirtinimo.
-1. **Dynamics 365 Finance projekto savikainos** reikšmė atnaujinama naudojant žurnalą "Project integration", o įsigijimo integravimo paskyra atšaukiama *po* to, kai paskelbiamas žurnalas "Project" integravimas.
+1. Tiekėjo sąskaitos faktūros būsena atnaujinama į **Patvirtinta**.
+1. Patvirtinta tiekėjo sąskaita faktūra ir su ja susiję įrašai tampa tik skaitomi, jų negalima redaguoti ar naikinti.
+1. Jei gretinimo proceso metu kokie nors savikainos faktiniai duomenys nurodo tiekėjo sąskaitos faktūros eilutę, visi savikainos faktiniai duomenys, susieti su nurodoma tiekėjo sąskaitos faktūros eilute, atšaukiami.
+1. Nauji savikainos faktiniai duomenys sukuriami naudojant informaciją, esančią tiekėjo sąskaitos faktūros eilutėje.
+1. Nebegalite kurti koregavimo žurnalų, apdoroti laiko įrašų atšaukimų ar atšaukti pradinio laiko, išlaidų ar medžiagos faktinių duomenų, kurie buvo atšaukti, patvirtinimo.
+1. Programoje „Dynamics 365 Finance“ reikšmė **Projekto savikaina**‟ atnaujinama naudojant „Project“ integravimo žurnalą, o jį užregistravus *atšaukiama* įsigijimo integravimo sąskaita.
 
 > [!NOTE]
-> Jei kurios nors tiekėjo SF eilutės patvirtinimo būsena yra kita nei **Baigta**, tiekėjo SF patvirtinti negalima.
+> Jei kurios nors tiekėjo sąskaitos faktūros eilutės tikrinimo būsena yra ne **Atlikta**, tiekėjo sąskaitos faktūros patvirtinti negalima.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

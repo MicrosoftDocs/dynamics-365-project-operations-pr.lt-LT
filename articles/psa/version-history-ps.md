@@ -1,6 +1,6 @@
 ---
 title: „Project Service” 3.x versijos naujinimo leidimo grafikas
-description: Šiame straipsnyje pateikiama informacija apie galimus ir būsimus "Dynamics 365 Project Service Automation.
+description: Šiame straipsnyje pateikta informacija apie esamus ir būsimus „Dynamics 365 Project Service Automation“ leidimus.
 ms.custom: dyn365-projectservice
 ms.date: 03/28/2022
 ms.reviewer: johnmichalak
@@ -65,7 +65,7 @@ Norėdami gauti informacijos apie „Project Service“ naujinimus, žr. [„Dyn
 |<strong>4 stotis</strong> | |  |  | |
 | | <i>Europa</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022 m. spalio 21 d.
 |<strong>5 stotis</strong> | |  |  | |
-| | <i>Šiaurės Amerika</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | Lapkritis 04 2022
+| | <i>Šiaurės Amerika</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022 m. lapkričio 4 d.
 |<strong>6 stotis</strong> | |  |  | |
 | | <i>„Government Community Cloud“</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022 m. lapkričio 02 d.
 | | <i>Priskirtos skalės grupės</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022 m. lapkričio 11 d.

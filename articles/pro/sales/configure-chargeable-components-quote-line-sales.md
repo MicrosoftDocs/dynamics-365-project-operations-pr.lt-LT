@@ -1,6 +1,6 @@
 ---
 title: Pasiūlymo eilutės apmokestinamų komponentų konfigūravimas
-description: Šiame straipsnyje pateikiama informacija apie apmokestinamų ir neapmokestinamų komponentų nustatymą projekto pasiūlymo eilutėje.
+description: Šiame straipsnyje pateikta informacija apie apmokestinamų ir neapmokestinamų komponentų nustatymą projektais pagrįsto pasiūlymo eilutėje.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article

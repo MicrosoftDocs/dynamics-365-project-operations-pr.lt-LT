@@ -1,6 +1,6 @@
 ---
 title: Projektais pagrįstų galimybių valdymas
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip dirbti su galimybėmis, susijusiomis su projektais.
+description: Šiame straipsnyje pateikta informacija apie tai, kaip naudoti su projektais susijusias galimybes.
 author: rumant
 ms.date: 10/21/2020
 ms.topic: article
@@ -19,7 +19,7 @@ _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems s
 
 Projektų pagrindu dirbančios įmonės paprastai savo pristatymo operacijas vykdo keliose šalyse ir vietovėse. Projekto vykdymo ir pristatymo kaina gali skirtis atsižvelgiant į tai, kuri vietovė arba padalinys vykdo pristatymą. Savo ruožtu tai gali paveikti sandorio maržas. Projektais pagrįstų paslaugų pristatymas paprastai apima didelius personalo laiko kiekius, dideles kelionių išlaidas, materialines išlaidas ir kitas išlaidas.
 
-„Dynamics 365 Project Operations“ programoje sukurtos projektu pagrįstos galimybės yra sukurtos su „Dynamics 365 Sales“ plėtiniu. Straipsnyje pateikiama išsami informacija apie skirtingas sritis ir verslo logiką, įtrauktą į papildomas funkcijas, kurių reikia projektinėms įmonėms, kad galėtų valdyti projektines galimybes.
+„Dynamics 365 Project Operations“ programoje sukurtos projektu pagrįstos galimybės yra sukurtos su „Dynamics 365 Sales“ plėtiniu. Šiame straipsnyje pateikta išsami informacija apie įvairius laukus ir verslo logiką, kuri įtraukta į papildomas funkcijas, kurių reikalauja projektais pagrįstose įmonėse, kad būtų galima valdyti projektais pagrįstas galimybes.
 
 ## <a name="view-all-project-based-opportunities"></a>Visų projektais pagrįstų galimybių peržiūra
 

@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Project Operations
-description: Šiame straipsnyje pateikiama informacija apie "Dynamics 365 Project" operacijas.
+description: Šiame straipsnyje pateikiama informacija apie „Dynamics 365 Project Operations“.
 author: stsporen
 ms.date: 09/16/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: kfend
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 0cda9df5b04e96dc347976d328a87739a48ac8a7
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f802583a60eec45a9fd4d1e28e1aeafe03f3218a
+ms.sourcegitcommit: bea5f9b4066277344add1da3a1567ed56a0cfd31
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924440"
+ms.lasthandoff: 11/02/2022
+ms.locfileid: "9736724"
 ---
 # <a name="dynamics-365-project-operations"></a>Dynamics 365 Project Operations
 
@@ -37,7 +37,7 @@ Pats „Project Operations“ turi daug funkcijų, tačiau jų gali papildyti kl
 Norėdami gauti daugiau informacijos žr.:
 
 - [„Project Operations“ apžvalga](https://dynamics.microsoft.com/en-us/project-operations/overview/)
-- [„Dynamics 365 Project Operations“ 2022 m. 1 leidimo apžvalga](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-project-operations/)
+- [„Dynamics 365 Project Operations“ 2022 m. 2 leidimo apžvalga](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-project-operations/)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

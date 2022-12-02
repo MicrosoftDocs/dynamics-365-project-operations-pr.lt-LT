@@ -18,11 +18,11 @@ ms.locfileid: "8929776"
 
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
-Šiame straipsnyje pateikiama informacija apie tai, kaip nustatyti tiekėjo užlaikymą.
+Šiame straipsnyje pateikiama informacija, kaip nustatyti tiekėjo užlaikymą.
 
 ## <a name="set-up-a-vendor-retention-account-in-general-ledger"></a>Tiekėjo užlaikymo sąskaitos nustatymas didžiojoje knygoje
 
-1. Dalyje Dynamics 365 Finance eikite į **DK** > **registravimo nustatymo nustatymus** > **Sąskaitos, skirtos automatinėms operacijoms**.
+1. Programoje „Dynamics 365 Finance“ eikite į **Didžioji knyga** > **Skelbimo nustatymas** > **Automatinių operacijų sąskaitos**.
 2. Įtraukite naują eilutę.
 3. Lauke **Registravimo tipas** pasirinkite **Tiekėjo užlaikymas**.
 4. Pasirinkite pagrindinę tiekėjo užlaikymo registravimo sąskaitą.

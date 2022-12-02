@@ -1,6 +1,6 @@
 ---
 title: Dienpinigiai
-description: Šiame straipsnyje pateikiama informacija apie dienpinigių taisykles, naudojamas išlaidų valdyme.
+description: Šiame straipsnyje pateikta informacija apie dienpinigių taisykles, kurios naudojamos išlaidų valdyme.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article

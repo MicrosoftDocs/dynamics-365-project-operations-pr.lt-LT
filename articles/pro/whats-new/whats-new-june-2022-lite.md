@@ -1,6 +1,6 @@
 ---
 title: Kas nauja 2022 m. birželio mėn. „Project Operations“ „Lite“ visuotinėje įdiegtyje
-description: Šiame straipsnyje pateikiama informacija apie kokybės naujinimus, kurie pasiekiami 2022 m. birželio mėnesio "Microsoft Lite" Dynamics 365 Project Operations diegimo leidime.
+description: Šioje temoje pateikiama informacija apie kokybės naujinimus, pasiekiamus 2022 m. birželio mėn. „Microsoft Dynamics 365 Project Operations“ lite talpinimas.
 author: sigitac
 ms.date: 06/03/2022
 ms.topic: article
@@ -18,20 +18,20 @@ ms.locfileid: "9031203"
 
 _**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
 
-Šis straipsnis taikomas šiems "Microsoft" Dynamics 365 Project Operations komponentams ir versijoms:
+Šis straipsnis taikomas toliau nurodytiems „ Microsoft Dynamics 365 Project Operations“ komponentams ir versijoms:
 
-- "Project" operacijos Dataverse aplinkos versijoje 4.43.0.77 arba 4.43.0.119
+- „Project Operations“ 4.43.0.77 arba 4.43.0.119 versijos „Dataverse“ aplinkoje
 
 ## <a name="quality-updates"></a>Kokybės naujinimai
 
 | Funkcijų sritis | Nuorodos numeris | Kokybės naujinimas |
 | --- | --- | --- |
-| Subrangos | 2708885 | Ištaisytas klaidos pranešimas, rodomas vartotojui sukūrus rezervuojamą išteklių rezervavimo antraštės įrašą, kuriame neužpildomas joks rezervuojamas išteklius. |
-| Projektų planavimas ir sekimas | 2629441 | Ištaisė darbo eigos paleidimo logiką, kad būtų išvengta begalinio ciklo, kai atnaujinamos projekto užduotys. |
-| Laikas ir išlaidos | 2641209 | Laiko įvedimo importavimas iš pavedimų / užsakymų turi išlaikyti rezervuojamą išteklių nuorodą. |
-| Projektų planavimas ir sekimas | 2651148 | Projekto dokumento antraštė turi būti saugoma.|
-| Projektų planavimas ir sekimas | 2653145 | Įtraukti tikrinimai, siekiant užtikrinti, kad nebūtų galima sukurti projekto įrašo, kurio pavadinime yra neleistinų simbolių. |
-| Laikas ir išlaidos | 2654710 | Pataisė filtravimą **puslapyje Patvirtinimai**. |
-| Sąskaitų siuntimas ir kainodara | 2667805 | Pridėta tikrinimo, kad būtų išvengta sąskaitų apmokėtų pardavimo faktinių duomenų kūrimo, jei nėra neįveiktų pardavimo faktų palaikymo. |
-| Sąskaitų siuntimas ir kainodara | 2668378 | Pridėta tikrinimo, kad būtų išvengta tinkintos kainodaros dimensijos įtraukimo, nebent užpildomas loginis pavadinimas ir lauko pavadinimas. |
-| Laikas ir išlaidos | 2700428 | Patobulinta patvirtinimo logika, siekiant užtikrinti, kad kiti projekto patvirtinimo rinkiniai galėtų būti apdorojami, net jei vienas iš patvirtinimo rinkinių įstrigo sistemos užduotyse. |
+| Subranga | 2708885 | Išspręstas klaidos pranešimas, rodomas, kai vartotojas sukuria rezervuotinos išteklių rezervavimo antraštės įrašą, į kurį neįrašoma rezervuotina išteklių. |
+| Projektų planavimas ir sekimas | 2629441 | Taisė darbo eigos paleidimo logiką, kad atnaujinus projekto užduotis būtų užkirstas kelias "susveikti". |
+| Laikas ir išlaidos | 2641209 | Laiko įvesties importas iš priskyrimų / rezervavimo turi išlaikyti rezervuotinos išteklių nuorodą. |
+| Projektų planavimas ir sekimas | 2651148 | Projekto dokumento antraštė turi būti atsainiai.|
+| Projektų planavimas ir sekimas | 2653145 | Įtrauktas patikrinimas, siekiant užtikrinti, kad nebus sukurtas projekto įrašas, kurio pavadinime yra neleistini simboliai. |
+| Laikas ir išlaidos | 2654710 | Taisė filtravimą **patvirtinimo** puslapyje. |
+| Sąskaitų siuntimas ir kainodara | 2667805 | Įtraukti tikrinimą, padedantys išvengti faktinių sąskaitų faktūrų pardavimo rezultatų, jei nėra atsarginių nepažymėtų pardavimo faktinių duomenų. |
+| Sąskaitų siuntimas ir kainodara | 2668378 | Įtraukti tikrinimą, kad būtų užkirstas kelias pasirinktinių kainodaros prisiejimių sąrašo įd ėmei, jei nėra loginio pavadinimo ir lauko pavadinimo. |
+| Laikas ir išlaidos | 2700428 | Patobulintos patvirtinimų logikos siekiant užtikrinti, kad kiti projekto patvirtinimo rinkiniai gali būti apdorojami net jei vienas iš patvirtinimo rinkinių įstringa sistemos užduotyse. |

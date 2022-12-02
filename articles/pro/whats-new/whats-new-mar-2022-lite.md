@@ -1,6 +1,6 @@
 ---
 title: Kas naujo 2022 m. kovo mėn. – „Project Operations“ „Lite“ visuotinis diegimas
-description: Šiame straipsnyje pateikiama informacija apie kokybės atnaujinimus, kuriuos galima rasti 2022 m. kovo mėn.
+description: Šiame straipsnyje pateikiama informacija apie kokybinius naujinimus, pasiekiamus 2022 m. kovo mėn. „Project Operations Lite” visuotinio diegimo leidime.
 author: sigitac
 ms.date: 03/18/2022
 ms.topic: article
@@ -18,42 +18,42 @@ ms.locfileid: "8934238"
 
 _Taikoma (kam): „Lite“ visuotiniam diegimui – sandoris į išankstinės sąskaitos faktūros kūrimą_
 
-Šis straipsnis taikomas šiems "Microsoft" Dynamics 365 Project Operations komponentams ir versijoms:
+Šis straipsnis taikomas toliau nurodytiems „ Microsoft Dynamics 365 Project Operations“ komponentams ir versijoms:
 
-- Projekto operacijos aplinkos versijoje Dataverse 4.30.0.99
+- „Project Operations“ 4.30.0.99 versijos „Dataverse“ aplinkoje
 
 ## <a name="features-included-in-this-release"></a>Į šį leidimą įtrauktos funkcijos
 
-- Subrangos sutartys: tiekėjo SF kūrimas ir gretinimo funkcijos
+- Apmokėjimas: pardavėjo sąskaitų faktūrų kūrimas ir atitikimo funkcijos
 
 ## <a name="quality-updates"></a>Kokybės naujinimai
 
 | Funkcijų sritis | Nuorodos numeris | Kokybės naujinimas |
 | --- | --- | --- |
-| Laikas ir išlaidos | 2388011 | Masinio patvirtinimo metu rodyti atmetimo komentarus laiko įrašų pateikėjams. |
-| Projektų planavimas ir sekimas | 2495294 | Išsamios projekto informacijos negalima redaguoti **puslapyje Išsami užduoties informacija**. |
-| Sąskaitų siuntimas ir kainodara | 2499605 | Sutarties etapai, sukurti iš pasiūlymo etapų, neteisingai pažymėti kaip skirti tik skaityti. |
-| Projektų planavimas ir sekimas | 2506050 | Operacijų rinkinys lieka laukiamas vieną valandą, jei nėra įrašymo pakeitimų. Tada rinkinys klaidingai pažymimas kaip **Nepavyko**, o jį reikia nedelsiant užbaigti. |
-| Sąskaitų siuntimas ir kainodara | 2507401 | Numatytieji rangos vienetai neteisingai įvedami į projektus dėl neteisingo talpyklos nustatymo. |
-| Sąskaitų siuntimas ir kainodara | 2541660 | **Pardavimo užsakymo kūrimo tikrinimas** dvigubu rašymu turėtų būti taikomas tik projektiniams užsakymams. |
-| Sąskaitų siuntimas ir kainodara | 2552745 | Mokestis nėra padalintas tarp klientų, kurie nustatė padalinto atsiskaitymo taisykles. |
-| Sąskaitų siuntimas ir kainodara | 2558859 | Patobulino klaidų pranešimus, kai nustatomos kainodaros dimensijos. |
-| Sąskaitų siuntimas ir kainodara | 2558933 | **Importuoti iš projekto įvertinimų** nepavyksta, kai **msdyn\_ projektas** įtraukiamas kaip kainodaros dimensija. |
-| Sąskaitų siuntimas ir kainodara | 2559101 | Projekto parametrų naikinimas nėra užblokuotas ir sukelia problemų. |
-|  Galimybių valdymas | 2570390 | Dvigubo rašymo priedas verčia sąskaitos tipą pasiūlymuose, užsakymuose ir galimybėse būti **klientu**, net jei tas sąskaitos tipas neteisingas. |
-| Sąskaitų siuntimas ir kainodara | 2586097 | Išbraukus projektą iš projekto sutarties eilutės, išskaičiuotų išlaidų faktinės sąskaitos neatšaukiamos. |
-| Sąskaitų siuntimas ir kainodara | 2589619 | Įrašomosios medžiagos mokestis platinamas į neapmokėtus pardavimo faktus ir SF. |
-|  Galimybių valdymas | 2594015 | Pasiūlymo negalima uždaryti kaip laimėto klientams, turintiems **"Net60** " mokėjimo sąlygas. |
-| Projektų planavimas ir sekimas | 2595841 | Programoje "Project for the Web" vartotojai gauna klaidos pranešimą apie trūkstamą **msdyn\_ actualstart,** kai sukuria naują išteklių užklausą. |
-| Laikas ir išlaidos | 2602511 | Laiko **įrašų lauke Atmesta pagal** rodoma **Sistema**, o ne įvardytas vartotojas kaip atmetimo priemonė. |
-| Laikas ir išlaidos | 2602528 | Projekto tvirtintojas gali patvirtinti projektų, kuriuose jie nėra išvardyti kaip tvirtintojai, laiką. |
-| Sąskaitų siuntimas ir kainodara | 2608550 | Taisymo SF galima patvirtinti, net jei originalas nekeičiamas. |
+| Laikas ir išlaidos | 2388011 | Masinio patvirtinimo metu rodyti komentarus apie laiko įvedimo komentarus. |
+| Projektų planavimas ir sekimas | 2495294 | Projekto išsamios informacijos puslapyje Užduoties išsamių duomenų **negalima redaguoti**. |
+| Sąskaitų siuntimas ir kainodara | 2499605 | Sutarties etapai, sukurti naudojant pasiūlymo etapus, neteisingai pažymimi kaip tik skaitomi. |
+| Projektų planavimas ir sekimas | 2506050 | Jei jokių pakeitimų įrašyti, operacijos rinkinys lieka laukiamas vieną valandą. Tada rinkinys klaidingai pažymimas kaip **nepavykęs**, o jį reikia užpildyti nedelsiant. |
+| Sąskaitų siuntimas ir kainodara | 2507401 | Dėl netinkamos talpyklos projektai neteisingai įvedami numatytieji perkantieji vienetai. |
+| Sąskaitų siuntimas ir kainodara | 2541660 | **Pardavimo užsakymo kūrimo tikrinimas** naudojant indų rašymo procesą turėtų būti skirtas tik projektais pagrįsties užsakymams. |
+| Sąskaitų siuntimas ir kainodara | 2552745 | Mokesčius neskaidyti klientai, kurie nustatė split atsiskaitymo taisykles. |
+| Sąskaitų siuntimas ir kainodara | 2558859 | Patobulinti klaidų pranešimai, kai nustatomi kainodaros aspektai. |
+| Sąskaitų siuntimas ir kainodara | 2558933 | **Importuoti iš projektų sąmatų** nepavyksta, kai **msdyn\_projektas įtraukiamas** kaip kainodaros susiejimumas. |
+| Sąskaitų siuntimas ir kainodara | 2559101 | Projekto parametrų naikinimas neužblokuojamas ir kyla problemų. |
+|  Galimybių valdymas | 2570390 | "Dvigubas" rašymo priedas prijungė kliento tipą pasiūlymuose, **užsakymuose** ir galimybėse būti klientu net jei to tipo klientas yra neteisingas. |
+| Sąskaitų siuntimas ir kainodara | 2586097 | Iš projekto sutarties eilutės paėmus projektą, sąskaitose išrašytų išlaidų faktiniai rezultatai nepavirinami. |
+| Sąskaitų siuntimas ir kainodara | 2589619 | Įrašomosios medžiagos mokestis platinamas iki nepažymėtų pardavimo faktinių duomenų ir sąskaitos faktūros. |
+|  Galimybių valdymas | 2594015 | Klientams, kurie turi Net60 mokėjimo terminus, pasiūlymo **uždaryti** negalima. |
+| Projektų planavimas ir sekimas | 2595841 | "Project for the Web" vartotojai **kurdami naują išteklių užklausą, gauna klaidos pranešimą apie trūkstamą msdyn\_actualstart**. |
+| Laikas ir išlaidos | 2602511 | Laiko **įrašų lauke Atmesti** įrašai rodo **sistemą**, o ne pavadintą vartotoją kaip atmetėją. |
+| Laikas ir išlaidos | 2602528 | Projekto patvirtinimas gali patvirtinti laiką tuose projektus, kuriuose jie nėra patvirtinti. |
+| Sąskaitų siuntimas ir kainodara | 2608550 | Taisymo sąskaitą faktūrą galima patvirtinti net jei originalo pakeitimų nėra. |
 
-## <a name="removed-and-deprecated-features"></a>Pašalintos ir nebenaudojamos funkcijos
+## <a name="removed-and-deprecated-features"></a>Pašalintos ir nerekomenduojamos funkcijos
 
-Straipsnyje Pašalintos [arba nebenaudojamos "Project Operations](../../whats-new/removed-depreciated-features-project.md) " funkcijos aprašomos funkcijos, kurios buvo pašalintos arba nebenaudojamos Dynamics 365 Project Operations.
+Straipsnyje ["Project Operations" pašalintos arba nebenaudojamos](../../whats-new/removed-depreciated-features-project.md) funkcijos aprašomos funkcijos, kurios buvo pašalintos arba nebenaudojamos Dynamics 365 Project Operations.
 
 - Pašalinta funkcija nebepasiekiama naudojantis šiuo produktu.
-- Nebenaudojama funkcija nėra aktyviai kuriama ir gali būti pašalinta ateityje atnaujinant.
+- Nerekomenduojama funkcija nėra aktyviai programuojama ir gali būti pašalinta būsimuose atnaujinimuose.
 
-Pranešimas apie nusidėvėjimą bus rodomas "Project Operations [" straipsnio pašalintose](../../whats-new/removed-depreciated-features-project.md) arba nebenaudojamose funkcijose likus 12 mėnesių iki bet kurios funkcijos pašalinimo iš produkto.
+Nebenaudojamas skelbimas bus rodomas ["Project Operations](../../whats-new/removed-depreciated-features-project.md) " straipsnyje, po 12 mėnesių iki funkcijos išėmimo iš produkto, iš jo bus rodomas nebenaudojamas arba nebenaudojamas funkcijas.

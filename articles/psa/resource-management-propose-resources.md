@@ -1,6 +1,6 @@
 ---
 title: Projektų išteklių siūlymas
-description: Šiame straipsnyje pateikiama informacija apie projektų išteklių pasiūlymą.
+description: Šiame straipsnyje pateikiama informacija apie siūlomus projekto išteklius.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

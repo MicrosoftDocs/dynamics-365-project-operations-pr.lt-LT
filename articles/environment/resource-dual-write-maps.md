@@ -1,6 +1,6 @@
 ---
 title: „Project Operations“ dvigubo rašymo schemos versijos
-description: Šiame straipsnyje pateikiamas dvigubo rašymo žemėlapių, reikalingų Dynamics 365 Project Operations.
+description: Šiame straipsnyje pateikiamas dvigubo rašymo schemų, reikalingų naudojant „Dynamics 365 Project Operations“, sąrašas.
 author: sigitac
 ms.date: 07/01/2021
 ms.topic: article
@@ -25,12 +25,12 @@ Toliau nurodytos schemos yra būtinieji sprendimo „Project Operations“ kompo
 
 | Lentelės schema | Pradinis sinchronizavimas |
 | --- | --- |
-| Didžioji knyga (msdyn_ledgers) | Reikia iš pradžių sinchronizuoti lentelės schemą ir visus būtinuosius komponentus. Pradinio sinchronizavimo meistras yra finansų ir operacijų programos. |
+| Didžioji knyga (msdyn_ledgers) | Reikia iš pradžių sinchronizuoti lentelės schemą ir visus būtinuosius komponentus. Pradinio sinchronizavimo šablonas yra finansų ir operacijų programos. |
 | Juridiniai subjektai (cdm_companies) | Nebūtina. Sistema šį objektą įveda automatiškai, kai aplinkos yra susiejamos naudojant dvigubo rašymo funkciją. |
 | Klientai V3 (accounts) | Konfigūruojant naudoti nebūtina. |
 | Tiekėjai V2 (msdyn_vendors) | Konfigūruojant naudoti nebūtina. |
 
-1. Schemų sąraše pasirinkite Didžioji knyga **(msdyn\_ledgers)** schemą su visomis būtinosiomis sąlygomis ir pažymėkite žymės langelį **Pradinis sinchronizavimas**. Lauke Pradinio sinchronizavimo meistras **pasirinkite** Finansų ir operacijų programos **, skirtos tiek DK žemėlapiui, tiek visiems būtiniesiems žemėlapiams**. Pasirinkite **Vykdyti**.
+1. Schemų sąraše pasirinkite Didžioji knyga **(msdyn\_ledgers)** schemą su visomis būtinosiomis sąlygomis ir pažymėkite žymės langelį **Pradinis sinchronizavimas**. Tiek didžiosios knygos schemos, tiek visų būtinųjų schemų lauke **Pradinio sinchronizavimo šablonas** pasirinkite **Finansų ir operacijų programos**. Pasirinkite **Vykdyti**.
 
 ![Didžiosios knygos struktūros sinchronizavimas.](media/DW6.png)
 
@@ -40,13 +40,13 @@ Toliau nurodytos schemos yra būtinieji sprendimo „Project Operations“ kompo
 
 Toliau nurodytos schemos yra reikalingos naudojant sprendimą „Project Operations“. Dvigubo rašymo schemos versijos išvardijamos pradedant „Project Operations“ 2021 m. gegužės mėn. 4.10.0.186.
 
-| Objekto schema | Naujausia versija | Pradinis sinchronizavimas | Būtina Dynamics 365 Finance versija |
+| Objekto schema | Naujausia versija | Pradinis sinchronizavimas | Reikiama „Dynamics 365 Finance" versija |
 | --- | --- | --- | --- |
 | Projekto operacijų ryšių integravimo objektas (msdyn\_transactionconnections) | 1.0.0.0 | Konfigūruojant naudoti nebūtina. ||
 | Projekto sutarčių antraštės (pardavimo užsakymai) | 1.0.0.1 | Konfigūruojant naudoti nebūtina. ||
 | Projekto sutarties eilutės (salesorderdetails) | 1.0.0.0 | Konfigūruojant naudoti nebūtina. ||
 | Projekto finansavimo šaltinis (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Konfigūruojant naudoti nebūtina. ||
-| Projekto integravimo lentelė reikšmingoms sąmatoms (msdyn\_ sąmatos eilutės) | 1.0.0.0 | Konfigūruojant naudoti nebūtina. ||
+| Projekto integravimo lentelė, skirta medžiagų įvertinimams (msdyn\_estimatelines) | 1.0.0.0 | Konfigūruojant naudoti nebūtina. ||
 | Projekto sąskaitų faktūrų pasiūlymai V2 (sąskaitos faktūros) | 1.0.0.3 | Konfigūruojant naudoti nebūtina. ||
 | „Project Operations“ integravimo faktiniai duomenys (msdyn_actuals) | 1.0.0.15 | Konfigūruojant naudoti nebūtina. |10.0.29 arba naujesnė|
 | „Project Operations“ integracijos sutarties eilučių etapai (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Konfigūruojant naudoti nebūtina. ||

@@ -1,6 +1,6 @@
 ---
 title: „Lite“ visuotinio diegimo apžvalga
-description: Šiame straipsnyje pateikiama informacija apie "Lite" diegimą Dynamics 365 Project Operations.
+description: Šiame straipsnyje pateikiama informacija apie „Dynamics 365 Project Operations“ „Lite“ visuotinį diegimą.
 author: rumant
 ms.date: 11/02/2020
 ms.topic: overview

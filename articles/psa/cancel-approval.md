@@ -1,6 +1,6 @@
 ---
 title: Anksčiau patvirtintų laiko ir išlaidų įrašų atšaukimas
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip atšaukti patvirtintą projekto laiko ir išlaidų operaciją.
+description: Šiame straipsnyje pateikta informacija apie tai, kaip atšaukti anksčiau patvirtintą projekto laiko ir išlaidų operaciją.
 author: rumant
 ms.custom:
 - dyn365-projectservice

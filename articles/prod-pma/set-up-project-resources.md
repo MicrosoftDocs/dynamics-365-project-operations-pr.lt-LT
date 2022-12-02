@@ -1,6 +1,6 @@
 ---
 title: Projekto išteklių nustatymas
-description: Šiame straipsnyje pateikiama informacija apie projekto išteklių nustatymą arba užklausą.
+description: Šiame straipsnyje pateikiama informacija, kaip nustatyti arba prašyti projekto išteklių.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

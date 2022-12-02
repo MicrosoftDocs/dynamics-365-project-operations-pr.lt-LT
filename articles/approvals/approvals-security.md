@@ -1,6 +1,6 @@
 ---
 title: Sauga ir patvirtinimas
-description: Šiame straipsnyje pateikiama informacija apie saugos sąranką dirbant su patvirtinimais "Microsoft"Dynamics 365 Project Operations.
+description: Šiame straipsnyje pateikta informacija apie saugos sąranką darbui su patvirtinimais programoje „Microsoft Dynamics 365 Project Operations“.
 author: stsporen
 ms.date: 08/29/2022
 ms.topic: security
@@ -17,22 +17,22 @@ ms.locfileid: "9709408"
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
-"Microsoft" Dynamics 365 Project Operations naudoja du saugos vaidmenis, kad leistų patvirtinti laiko, išlaidų ir medžiagų įrašus:
+„Microsoft Dynamics 365 Project Operations“ naudojami du saugos vaidmenys, kad leistų patvirtinti laiką, išlaidas ir medžiagos įrašus:
 
 - Projekto tvirtintojas
-- "Project Approver" administratorius
+- Projektų tvirtinimo administratorius
 
 ## <a name="project-approver"></a>Projekto tvirtintojas
 
-Turite turėti **projekto tvirtintojo** saugos vaidmuo, kad galėtumėte patvirtinti projekto laiką, išlaidas ir medžiagų įrašus. Taip pat turite turėti prieigą prie atitinkamų susijusių objektų, pvz., **"Project"**. Šią prieigą gali priskirti asmuo, **turintis projekto vadovo** vaidmenį. Be to, turite būti projekto komandos narys ir pažymėtas kaip tvirtintojas.
+Privalote turėti saugos vaidmenį **Projekto tvirtintojas**, kad galėtumėte tvirtinti projekto laiką, išlaidas ir medžiagos įrašus. Taip pat privalote turėti prieigą prie atitinkamų susijusių objektų, pvz., **Projektas**. Šią prieigą gali priskirti asmuo, kuriam priskirtas vaidmuo **Projektų vadovas**. Be to, turite būti projekto komandos narys ir būti pažymėtas kaip tvirtintojas.
 
-Norėdami patvirtinti ne projekto įrašus, turite būti pateikėjo vadovas.
+Jei norite patvirtinti ne projekto įrašus, turite būti pateikėjo vadovas.
 
-## <a name="project-approver-admin"></a>"Project Approver" administratorius
+## <a name="project-approver-admin"></a>Projektų tvirtinimo administratorius
 
 > [!NOTE]
-> Patvirtinimo [rinkinių](approval-sets.md) funkcija turi būti įjungta, kad galėtumėte naudoti "Project Approver Admin" funkcijas.
+> Kad būtų galima naudoti projektų tvirtinimo administratoriaus funkciją, turi būti įjungta funkcija [Patvirtinimo rinkiniai](approval-sets.md).
 
-"**Project Approver Admin saugos vaidmuo**" leidžia vartotojams apeiti strategijas ir leidžia patvirtinti visų projektų įrašus. Priskyrus šį vaidmenį, bus apeinama tikrinimo logika, reikalaujanti komandos narystės ir pažymėjimo kaip tvirtintojo. Turite turėti prieigą prie atitinkamų susijusių lentelių, pvz., **"Project**", naudodami jums priskirtus saugos vaidmenis.
+Saugos vaidmuo **Projektų tvirtinimo administratorius** leidžia vartotojams apeiti strategijas ir leidžia patvirtinti visų projektų įrašus. Šio vaidmens priskyrimas apeis tikrinimo logiką, pagal kurią būtina turėti komandos narystę ir būti pažymėtam kaip tvirtintojas. Per jums priskirtus saugos vaidmenis privalote turėti prieigą prie atitinkamų susijusių lentelių, pvz., **Projektas**.
 
-SYSTEM vartotojo kontekstas apeina patvirtinimus taip pat, kaip saugos vaidmuo Project Approver Admin".
+SISTEMOS vartotojo kontekstas apeina tikrinimą taip pat, kaip ir saugos vaidmuo Projektų tvirtinimo administratorius.

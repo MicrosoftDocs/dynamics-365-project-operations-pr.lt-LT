@@ -1,6 +1,6 @@
 ---
 title: Išlaidų valdymo konfigūravimas
-description: Šiame straipsnyje aprašomi svarstymai ir sprendimai, kuriuos turite priimti planavimo proceso metu prieš konfigūruodami išlaidų valdymą programoje Microsoft Dynamics "365 Finance".
+description: Šiame straipsnyje aprašomos pastabos ir sprendimai, kuriuos turite padaryti planavimo proceso metu, prieš konfigūruodami išlaidų valdymą programoje „Microsoft Microsoft Dynamics 365 Finance“.
 author: KimANelson
 ms.date: 08/29/2017
 ms.topic: article
@@ -24,7 +24,7 @@ ms.locfileid: "8934008"
 ---
 # <a name="configure-expense-management"></a>Išlaidų valdymo konfigūravimas
 
-Šiame straipsnyje aprašomi svarstymai ir sprendimai, kuriuos turite priimti planavimo proceso metu prieš konfigūruodami išlaidų valdymą. Išlaidų valdyme galite saugoti informaciją apie mokėjimo būdus, kelionių paraiškas, išlaidų ataskaitas, strategijas ir kt.
+Šiame straipsnyje aprašomos pastabos ir sprendimai, kuriuos turite padaryti planavimo proceso metu, prieš konfigūruodami išlaidų valdymą. Išlaidų valdyme galite saugoti informaciją apie mokėjimo būdus, kelionių paraiškas, išlaidų ataskaitas, strategijas ir kt.
 
 Kadangi daugelis sprendimų, kuriuos turite atlikti planuodami savo išlaidų valdymo konfigūraciją, priklauso nuo organizacijos hierarchijos ir finansinės struktūros, turite nurodyti šių sričių planavimo dokumentus.
 

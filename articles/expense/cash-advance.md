@@ -1,6 +1,6 @@
 ---
 title: Avansinis mokėjimas
-description: Šiame straipsnyje pateikiama informacija apie grynųjų pinigų avansus.
+description: Šiame straipsnyje pateikta informacija apie avansinius mokėjimus.
 author: suvaidya
 ms.date: 03/25/2021
 ms.topic: article
@@ -66,7 +66,7 @@ Prieš pateikdami išlaidų ataskaitą, galite pasirinkti ataskaitos išlaidų o
  
  Įgalinę šias funkcijas galite atlikti toliau nurodytus veiksmus.
  
-  - Galite pridėti vieną ar daugiau avansų grynaisiais pinigais kiekvienai išlaidų eilutei.
+  - Kiekvienai išlaidų eilutei galite įtraukti vieną ar daugiau avansinių mokėjimų.
   - Įrašius išlaidų ataskaitą, galimas avansinio mokėjimo likutis rodomas realiuoju laiku. Tai leidžia vienu metu apdoroti išlaidų operacijas ir grąžinti grynųjų pinigų operaciją.
   - Vienai išlaidų eilutei galite parinkti keletą avansinių mokėjimų.
   - Naudojant užklausą galima peržiūrėti avansinio mokėjimo suderinimo duomenis. 

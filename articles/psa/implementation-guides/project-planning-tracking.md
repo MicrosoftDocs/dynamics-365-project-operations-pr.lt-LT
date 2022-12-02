@@ -1,6 +1,6 @@
 ---
 title: Projektų planavimas ir sekimas
-description: Šiame straipsnyje pateikiamas saitas į informaciją apie planavimą ir stebėjimą "Project Service Automation".
+description: Šiame straipsnyje pateikta nuoroda į informaciją, kaip planuoti ir sekti, naudojantis „Project Service Automation“.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -32,7 +32,7 @@ ms.locfileid: "8933272"
 
 „Project Service“ programa padeda šioms aptarnavimo organizacijoms identifikuoti galimybes, pateikti kainos pasiūlymus, pasiekti sutartinius susitarimus, valdyti išteklius, sekti laiką ir išlaidas, išrašyti sąskaitą faktūrą klientams bei atlikti projektus laiku ir pagal biudžetą. 
 
-Pdf saitas, kuris anksčiau buvo šiame straipsnyje, buvo pašalintas ir turinys perkeltas į šiuos straipsnius:
+Anksčiau šiame straipsnyje pateiktas PDF failo saitas buvo pašalintas, o jo turinys perkeltas į toliau nurodytus straipsnius.
 
 - [Projekto grafikai](../project-creating.md)
 - [Projekto savikaina ir pajamos](../project-estimating.md)
@@ -43,7 +43,7 @@ Pdf saitas, kuris anksčiau buvo šiame straipsnyje, buvo pašalintas ir turinys
 - [Projekto parametrai](../project-settings.md)
 
 > [!NOTE]
-> Šis straipsnis bus pašalintas būsimame dokumentacijos atnaujinime. 
+> Šis straipsnis bus pašalinta iš būsimų atnaujintų dokumentų. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

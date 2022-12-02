@@ -1,6 +1,6 @@
 ---
 title: Anksčiau patvirtintų įrašų atšaukimas
-description: Šiame straipsnyje paaiškinama, kaip projekto komandos narys gali prašyti atšaukti anksčiau pateiktus ir patvirtintus laiko, išlaidų ir medžiagų naudojimo įrašus ir kaip projekto vadovas gali patvirtinti arba atmesti atšaukimo užklausas.
+description: Šiame straipsnyje paaiškinta, kaip projekto komandos narys gali prašyti anksčiau pateiktų ir patvirtintų laiko, išlaidų ir medžiagų naudojimo įrašų, taip pat kaip projekto vadovas gali patvirtinti arba atmesti atmetimo užklausas.
 author: rumant
 ms.date: 01/31/2021
 ms.topic: overview
@@ -17,26 +17,26 @@ ms.locfileid: "8930374"
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
-Projekto komandos narys, pateikęs laiko, išlaidų ar medžiagų naudojimo įrašą, gali prisiminti tą įrašą po to, kai jis buvo patvirtintas. Atšaukimo procesas turi du pagrindinius etapus:
+Projekto komandos narys, kuris pateikia laiko, išlaidų ar medžiagų naudojimo įrašą, gali atšaukti tą įrašą po to kai jis buvo patvirtintas. Atšaukimo procesą sudaro du pagrindiniai veiksmai:
 
 1. Pateikėjas prašo atšaukti.
-2. Tvirtintojas patvirtina atšaukimo užklausą.
+2. Tvirtintojas patvirtina atšaukimo prašymą.
 
 ## <a name="request-a-recall"></a>Prašymas atšaukti
 
-Atlikite šiuos veiksmus, kad paprašytumėte atšaukti patvirtintus laiko, išlaidų ar medžiagų naudojimo įrašus.
+Norėdami prašyti atšaukti patvirtintą laiko, išlaidų arba medžiagų naudojimo įrašą, atlikite šiuos veiksmus.
 
-1. Atlikite vieną iš šių veiksmų, atsižvelgdami į įrašo, kurį norite atšaukti, tipą:
+1. Atsižvelgdami į norimo atšaukti įrašo tipą, atlikite vieną iš toliau pateiktų veiksmų:
 
-    - Norėdami gauti laiko įrašus, eikite į **Projektai** \> **Mano darbo** \> **laiko įrašas** ir pasirinkite visus konkretaus projekto ir užduoties derinio laiko įrašus. Arba tinklelyje pažymėkite pavienius laiko langelius, nurodyti tam tikro projekto konkrečiai datai.
-    - Išlaidų įrašų **ieškokite Projects** \> **My Work** \> **Expenses** ir pasirinkite eilutę, kurią norite atšaukti išlaidų įrašui.
-    - Medžiagų naudojimo įrašų atveju eikite į **Projektai** \> **Mano darbo** \> **medžiagos naudojimo žurnalas** ir pasirinkite medžiagos naudojimo įrašo, kurį norite atšaukti, eilutę.
+    - Jei naudojate laiko įrašus, eikite į **Projektai** \> **Mano darbas** \>**Laiko įrašas** ir pažymėkite visus laiko įrašus, skirtus konkrečiam projekto ir užduoties deriniui. Arba tinklelyje pažymėkite pavienius laiko langelius, nurodyti tam tikro projekto konkrečiai datai.
+    - Jei tai išlaidų įrašai, eikite į **Projektai** \> **Mano darbas** \> **Išlaidos** ir pažymėkite išlaidų įrašo, skirto atšaukti, eilutę.
+    - Jei tai materialaus naudojimo įrašai, eikite į **Projektai** \> **Mano darbas** \> **Medžiagų naudojimo žurnalas** ir pažymėkite medžiagų naudojimo įrašo, skirto atšaukti, eilutę.
 
-2. Pažymėkite **Atšaukti**. Rodomos patvirtinimo dialogo langas. Jei pasirinkti laiko, išlaidų ar medžiagų naudojimo įrašai jau buvo patvirtinti, būsite paraginti įvesti atšaukimo priežastį.
+2. Pažymėkite **Atšaukti**. Rodomos patvirtinimo dialogo langas. Jei pažymėti laiko, išlaidų ar medžiagų naudojimo įrašai jau buvo patvirtinti, būsite paraginti įvesti grąžinimo priežastį.
 3. Įveskite atšaukimo priežastį, tada pažymėkite **Gerai**, kad patvirtintumėte operaciją. Sistema siunčia asmeniui, patvirtinusiam įrašus, užklausą patvirtinti atšaukimą.
 
 > [!IMPORTANT]
-> Negalite sukurti patvirtinto laiko, išlaidų ar medžiagų naudojimo įrašo, kuriam klientui jau išrašyta SF, atšaukimo užklausos. Jei bandysite, gausite pranešimą, kuriame nurodoma, kad laiko, išlaidų ar medžiagų naudojimo įrašo atšaukti negalima, nes jam jau išrašyta SF. Tokiu atveju galite prašyti atšaukti įrašą tik tuo atveju, jei taisomoji sąskaita faktūra naudojama klientui išrašyti visą kreditą arba grąžinti pinigus iš pradinės SĄSKAITOS faktūros.
+> Negalite sukurti atšaukimo prašymo anksčiau patvirtintų laiko, išlaidų ar medžiagos naudojimo įrašų, pagal kuriuos klientui jau išrašyta sąskaita faktūra, patvirtinimo. Jei bandysite, gausite pranešimą, kuriame teigiama, kad laiko, išlaidų ar medžiagų naudojimo negalima atšaukti, nes jau buvo išrašyta sąskaita faktūra. Tokiu atveju galite prašyti atšaukti įrašą tik tuomet, jei naudojama koreguojamoji sąskaita faktūra, norint pradinės sąskaitos faktūros klientui išrašyti visą kreditą arba atlikti grąžinimą.
 
 ## <a name="approve-or-reject-a-recall-request"></a>Atšaukimo užklausos patvirtinimas arba atmetimas
 
@@ -52,7 +52,7 @@ Norėdami patvirtinti arba atmesti atšaukimo užklausą, atlikite šiuos veiksm
     Jei pasirinkote **Atmesti**, atšaukimo užklausa atmetama.
 
 > [!IMPORTANT]
-> Kai atšaukimas patvirtinamas, kaip ir tada, kai to prašoma, sistema tikrina, ar nėra sf išrašymo veiklos laiko, išlaidų ar medžiagų naudojimo įrašuose. Jei įrašui jau išrašyta SF arba jei jis yra SF projekte, tvirtintojas gauna klaidos pranešimą, kuriame nurodoma, kad atšaukimo laiko ar išlaidų patvirtinti negalima, nes jam jau išrašyta SF. Tokiu atveju tvirtintojas gali patvirtinti atšaukimą tik tuo atveju, jei taisomoji sąskaita faktūra naudojama išrašant klientui visą kreditą arba grąžinimą originalioje SF.
+> Kai atšaukimas patvirtinamas, kai jis buvo paprašytas, sistema tikrina, ar nėra sąskaitų faktūrų išrašymo veiklos pagal laiko, išlaidų ar medžiagų naudojimo įrašus. Jei įrašui jau buvo išrašyta sąskaita faktūra arba jis yra juodraščio sąskaitoje faktūroje, tvirtintojas gauna klaidos pranešimą, kuriame nurodoma, kad laiko ar išlaidų negalima patvirtinti atšaukti, nes jau buvo išrašyta sąskaita faktūra. Tokiu atveju patvirtintojas galite patvirtinti įrašo atšaukimą tik tuomet, jei naudojama koreguojamoji sąskaita faktūra, norint pradinės sąskaitos faktūros klientui išrašyti visą kreditą arba atlikti grąžinimą.
 
 ## <a name="impact-of-a-recall-request"></a>Atšaukimo užklausos poveikis
 
@@ -60,9 +60,9 @@ Kai patvirtinama atšaukti, atsiranda operatyvinis ir finansinis poveikis.
 
 ### <a name="operational-impact"></a>Operatyvinis poveikis
 
-Jei atšaukimo užklausa patvirtinama, patvirtinimo įrašas pažymimas kaip **Atmesta**. Įrašo būsena keičiama į Grąžinta **arba** **Atmesta**, atsižvelgiant į tai, ar tai laiko įrašas, ar išlaidų ar medžiagų naudojimo įrašas.
+Jei atšaukimo užklausa patvirtinama, patvirtinimo įrašas pažymimas kaip **Atmesta**. Įrašo būsena pakeičiama į **Grąžinta** arba **Atmesta**, atsižvelgiant į tai, ar tai yra laiko įrašas, ar išlaidų įrašas, ar medžiagos naudojimo įrašas.
 
-Projekto komandos narys gali peržiūrėti įrašus, redaguoti ir iš naujo pateikti įrašus arba visiškai panaikinti įrašus.
+Projekto komandos narys gali peržiūrėti įrašus, redaguoti ir pakartotinai pateikti įrašus arba visiškai panaikinti įrašus.
 
 Jei atšaukimo užklausa atmetama, įrašo būsena lieka **Patvirtinta**, o projekto komandos nariui ar projekto tvirtintojui negalima redaguoti įrašo.
 
@@ -79,14 +79,14 @@ Jei atšaukimo užklausa atmetama, ji neturi finansinio poveikio projektui.
 
 ## <a name="changes-to-time-entry-records"></a>Laiko įrašų kitimai
 
-Toliau pateiktoje iliustracijoje rodomi pakeitimai, atsirandantys patvirtintiems laiko įrašams ir atitinkamiems patvirtinimo įrašams, kai jie atšaukiami.
+Šioje iliustracijoje rodomi kitimai, kurie įvyksta dėl patvirtintų laiko įrašų ir atitinkamčių patvirtinimo įrašų, kai jie atšaukiami.
 
-![Laiko įvedimo būsenos perėjimai.](media/TimeEntryStateTransitions.png)
+![Laiko įrašo būsenos perėjimai.](media/TimeEntryStateTransitions.png)
 
-## <a name="changes-to-expense-and-material-usage-entry-records"></a>Išlaidų ir medžiagų naudojimo įrašų įrašų pakeitimai
+## <a name="changes-to-expense-and-material-usage-entry-records"></a>Išlaidų įrašų ir medžiagų naudojimo įrašų kitimai
 
-Toliau pateiktoje iliustracijoje rodomi pakeitimai, atsirandantys patvirtintiems išlaidų ir medžiagų naudojimo įrašams bei atitinkami patvirtinimo įrašai, kai jie atšaukiami.
+Šioje iliustracijoje rodomi kitimai, kurie įvyksta dėl patvirtintų išlaidų ir medžiagų naudojimo įrašų ir atitinkamčių patvirtinimo įrašų, kai jie atšaukiami.
 
-![Išlaidų įvedimo būsenos perėjimai.](media/ExpenseEntryStateTransitions.png)
+![Išlaidų įrašų būsenos perėjimai.](media/ExpenseEntryStateTransitions.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

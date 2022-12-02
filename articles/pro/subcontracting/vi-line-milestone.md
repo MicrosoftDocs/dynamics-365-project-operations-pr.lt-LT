@@ -1,6 +1,6 @@
 ---
 title: Tiekėjo sąskaitos faktūros etapų eilutės
-description: Šiame straipsnyje paaiškinama, kaip sukurti tiekėjo SF eilutes, skirtas svarbiems įvykiams subrangos sutartyje.
+description: Šiame straipsnyje paaiškinta, kaip sukurti etapams skirtas tiekėjo sąskaitos faktūros eilutes dėl sustabdymo.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
@@ -17,28 +17,28 @@ ms.locfileid: "9261038"
 
 _**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
 
-Tiekėjo SF programoje "Microsoft" Dynamics 365 Project Operations tiekėjo SF eilutėse gali būti tiekėjo SF eilutės, skirtos etapams, apibrėžtiems subrangos eilutėje. Projektų vadovai gali naudoti tiekėjo SF eilutes riboženkliams, kad įrašytų paslaugų, kurios perkamos kaip tarpinėmis reikšmėmis pagrįstos išlaidos, patirtas dėl projektui įsigytų paslaugų ar produktų, išlaidas.
+„Microsoft Dynamics 365 Project Operations " tiekėjo sąskaitoje faktūroje gali būti etapų tiekėjo sąskaitos faktūros eilučių, apibrėžtų išsamūsoje eilutėje. Projektų vadovai gali naudoti etapų tiekėjo sąskaitų faktūrų eilutes, kad įrašydamos aptarnavimo išlaidas, kurios yra įsigytos kaip etapinės išlaidos, susijusios su projektui įsigytais aptarnavimais arba produktais.
 
-Tiekėjo SF eilutėse, skirtose riboženkliams, visada turi būti nurodytas subrangos eilutė, kurioje yra atsiskaitymo už fiksuotą kainą metodas. Kai tiekėjo SF eilutė, skirta riboženkliams, nurodo subrangos liniją, projektų vadovai galės susieti ir patikrinti pagrindines laiko, išlaidų ar medžiagų, nurodančių tą subrangos liniją, išlaidas arba medžiagas, nurodančias tą subrangos liniją, su tarpiniu įvykiu, kuriam tiekėjas išrašo SF.
+Etapų tiekėjo sąskaitos faktūros eilutėse visada turi būti nurodyta sudėtys, kurioms taikomas fiksuotos kainos atsiskaitymo metodas. Kai etapų tiekėjo sąskaitos faktūros eilutė nurodo sudėčių eilutę, projektų vadovai galės greti ir patikrinti pagrindines laiko, išlaidų ar medžiagos išlaidas, kurios nurodo, kad etapą, kuriam tiekėjas išrašo sąskaitą faktūrą, sugretinti.
 
-Šioje lentelėje pateikiama informacija apie tiekėjo SF eilučių laukus, skirtus riboženkliams.
+Toliau pateiktoje lentelėje nurodyta informacija apie laukelius tiekėjo sąskaitos eilutėse pagrindiniams terminams.
 
 | Laukas | Aprašą | Funkcinis poveikis |
 | --- | --- | --- |
-| Pavadinimą | Tiekėjo SF eilutės pavadinimas, padedantis identifikuoti. | Šis pavadinimas bus rodomas kaip pirmasis stulpelis visose peržvalgose, pagrįstose tiekėjo SF eilutėmis. |
-| Aprašą | Trumpas paslaugų, kurioms tiekėjas išrašo SF sf tiekėjo SF eilutėje, aprašas. | Joks |
-| Subrangos sutartis | Subrangos sutartis, pagal kurią paslaugos iš pradžių buvo užsakytos. | Tiekėjo SF pasirinkus subrangos sutartį, visos tiekėjo SF eilutės paveldės tą pasirinkimą. Tiekėjo SF negali būti tiekėjo SF eilučių, nurodančių skirtingas subrangos sutartis. |
-| Subrangos linija | Subrangos linija, pagal kurią buvo užsakytos paslaugos. Subrangos linijų, kurias galima pasirinkti, sąrašas apima tik pasirinktos subrangos linijas. | Kai tiekėjo SF eilutėje pasirenkama gairių tiekėjo SF eilutė, **laukai Vaidmenų** ir operacijų kategorija **ir** su produktu susiję laukai yra nesvarbūs ir negalimi. Laukai **Kiekis**, **Vienetas** ir **Vienetas grupės** taip pat nėra aktualūs tiekėjo SF eilutėms, pagrįstoms tiekėjo SF eilutėmis. |
-| Operacijos data | Data, kada tiekėjo SF eilutės faktinės išlaidos bus įrašytos į projektą. | Joks |
-| Operacijos klasė | Pasirinkite **Etapas**, kad įrašytumėte užbaigto etapo tiekėjo SF, kuri buvo apibrėžta subrangos eilutėje, tiekėjo SF. | Joks |
-| Etapas | Pasirinkite riboženklį, apibrėžtą susijusioje subrangos eilutėje, kuri pažymėta kaip **Paruošta sf**. | Subrangos eilutės gaires, kurių būsena **paruošta sf**, galima pasirinkti tiekėjo SF eilutėje. |
-| Project | Projekto, kuriame buvo naudojamos paslaugos, kurioms išrašomos sąskaitos faktūros, pavadinimas. | Šis laukas yra būtinas ir jo negalima palikti tuščio. |
-| Užduotis | Projekto užduoties, kuriai buvo naudojamos paslaugos, kurioms išrašomos sąskaitos faktūros, pavadinimas. Šis laukas galimas tik pasirinkus projektą. Projekto užduoties pasirinkimas yra neprivalomas. | Jei šis laukas paliekamas tuščias, projekto vadovas gali susieti tiekėjo SF eilutę su operacijų klase susijusioje subrangos eilutėje, kuri įrašoma atliekant bet kurią projekto užduotį. Jei tiekėjo SF eilutėje nenurodyta subrangos eilutė, o šis laukas paliekamas tuščias, faktinės išlaidos, kurias sukuria tiekėjo SF eilutė, nebus susietos su jokiais neįrašytais pardavimo faktiniais duomenimis. Tokiu atveju, jei nustatytas užduotimis pagrįstas atsiskaitymas, gali nepavykti išrašyti išlaidų sąskaitos faktūros galutiniam klientui. |
-| Etapo suma | Įveskite riboženklio reikšmę, apibrėžtą subrangos eilutėje, kuri yra parengta apmokėti sąskaitą faktūrą. | Joks |
+| Pavadinimą | Subrangos sąskaitos eiltuės pavadinimas, kuris padeda identifikuoti. | Jis bus rodomas kaip pirmasis visų peržvalgų stulpelis, remiantis subrangos sutarties eilutėmis. |
+| Aprašą | Trumpas paslaugų arba produktų, perkamų pagal tiekėjo sąskaitos faktūros eilutes, aprašas. | Joks |
+| Subrangos sutartis | Paslaugų papildomo tiekėjo užsakymas. | Kai pasirenkamas tiekėjo sąskaitos faktūros sutemdumas, visos tiekėjo sąskaitos faktūros eilutės paveldės tą pasirinkimą. Tiekėjo sąskaitoje faktūroje negali būti tiekėjo sąskaitos faktūros eilučių, kurios nurodo skirtingus inodus. |
+| Subrangos sutarties eilutė | Papildoma sutarties eilutė, pagal kurią paslaugos buvo užsakytos. Galima pasirinkti tik pažymėtų ne darbo laiko tarpo eilučių sąrašą. | Kai tiekėjo sąskaitos faktūros eilutėje, susijusioje su etapais, yra pasirinkta sąrangos **eilutė** vaidmenų **ir operacijų kategorijos** laukai ir su produktu susiję laukai yra netinkami ir jų nėra. Kiekio **vieneto** ir **vienetų** grupės laukai taip **pat** nėra susiję su etapų tiekėjo sąskaitos faktūros eilutėmis. |
+| Operacijos data | Data, kai į projektą bus įrašytos tiekėjo sąskaitos faktūros eilutės išlaidos. | Joks |
+| Operacijos klasė | Pažymėkite **etapą**, kad būtų galima įrašyti užbaigto etapo, kuris buvo apibrėžtas sudėtame ne išsamūs eilutėje, tiekėjo sąskaitą faktūrą. | Joks |
+| Etapas | Pažymėkite etapą, apibrėžtą susijusioje susietus sąrangos eilutėje, pažymėtoje kaip Paruošta **sąskaita faktūra**. | Papildomos sutarties eiltuės pagrindiniai terminai **Paruoštą išrašyti sąskaitą** gali būti pasirinkti tiekėjo sąskaitose eilutėje. |
+| Project | Projekto pavadinimas, dėl kurio naudojamos paslaugos buvo įtrauktos į sąskaitą. | Būtinas užpildyti laukas negali būti tuščias. |
+| Užduotis | Projekto užduoties pavadinimas, dėl kurio naudojamos paslaugos buvo įtrauktos į sąskaitą. Šis laukas galimas tik jei pažymėtas projektas. Projekto užduoties pasirinkimas yra pasirinktinis. | Jei šis laukas paliekamas tuščias, projekto vadovas gali sugretinti tiekėjo sąskaitos faktūros eilutę su susijusios eilutės, įrašytos bet kurioje projekto užduotyje, operacijų klasėmis. Jei tiekėjo sąskaitos faktūros eilutėje nėra nuorodos į suslėptą eilutę, o šis laukas paliekamas tuščias, faktinės išlaidos, kurias sukūrė tiekėjo sąskaitos faktūros eilutė, nebus susietos su bet kokiais neišrašytus pardavimo faktiniais įrašais. Tokiu atveju, jei nustatomas užduotimis pagrįstas atsiskaitymas, klientui sąskaitos faktūros gali nepavykti išrašyti. |
+| Etapo suma | Įveskite vertę etape, apibrėžtą susijusioje susietus sąrangos eilutėje, pažymėtoje kaip Paruošta sąskaita faktūra. | Joks |
 | PVM | Įveskite PVM sumą. | Joks |
-| Bendra suma | Bendra tiekėjo SF eilutės suma, įskaitant mokesčius. Šis laukas apskaičiuojamas kaip *tarpinė suma* + *PVM*. | Joks |
+| Bendra suma | Bendra subrangos tiekėjo SF eilutės suma įskaitant mokesčius. Tai tik skaityti skirtas laukas *Etapo suma* + *Pardavimo mokesčiai*. | Joks |
 
 > [!NOTE]
-> Kai sukuriama tiekėjo SF eilutė, nurodanti subrangos eilutės riboženklį, subrangos etapo būsena atnaujinama į **sukurtą** tiekėjo SF. Tada, kai ta tiekėjo SF patvirtinama, subrangos eilutės etapo būsena atnaujinama į **Patvirtinta** tiekėjo SF.
+> Sukūrus tiekėjo sąskaitos faktūros eilutę, kuri nurodo etapą,, kuriame yra išsąstas etapas, išiemos etapo būsena atnaujinama į sukurtą tiekėjo **sąskaitą faktūrą**. Tada, kai patvirtinama ta tiekėjo sąskaita faktūra, persodinamas eilutės etapas atnaujinamas į tiekėjo **sąskaitą faktūrą**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

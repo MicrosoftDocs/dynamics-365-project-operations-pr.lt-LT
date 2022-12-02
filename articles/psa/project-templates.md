@@ -1,6 +1,6 @@
 ---
 title: Projekto šablonai
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip naudoti projekto šablonus greitam projekto nustatymui.
+description: Šiame straipsnyje pateikta informacija apie tai, kaip naudoti projektų šablonus, skirtus greitam projektų nustatymui.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

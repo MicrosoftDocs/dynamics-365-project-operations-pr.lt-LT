@@ -1,6 +1,6 @@
 ---
 title: Patvirtinimo rinkiniai
-description: Šiame straipsnyje paaiškinama, kaip dirbti su patvirtinimo rinkiniais, užklausomis ir tų operacijų pogrupiais.
+description: Šiame straipsnyje aiškinama, kaip dirbti su patvirtinimo rinkiniais, užklausomis ir šių operacijų antriniais rinkiniais.
 author: stsporen
 ms.date: 02/01/2022
 ms.topic: article
@@ -26,17 +26,17 @@ Patvirtinimo rinkiniuose nurodoma bendra su jais susijusių įrašų apdorojimo 
 
 Lauke **Patvirtinimo rinkinio galiojimo laikas** įrašomas bandymų apdoroti rinkinį skaičius, tik tada pažymimas kaip nepavykęs.
 
-Patvirtinimo rinkiniai apdorojami naudojant periodinį aktyvinimą, pagrįstą debesies srautu, **pavadintu** **"Project Service" – periodiškai suplanuokite projekto patvirtinimo rinkinius**. Tai randama sprendime **,** pavadintame **"Project Operations"**. 
+Patvirtinimo rinkiniai apdorojami naudojant periodinį aktyvinimą, pagrįstą **debesies srautu**, pavadintu **„Project Service“ – projekto patvirtinimo rinkinių planavimas pakartotinai**. Tai galima rasti **sprendime**, pavadintame **Project Operations**. 
 
-Įsitikinkite, kad srautas suaktyvintas, atlikdami šiuos veiksmus.
+Įsitikinkite, kad srautas suaktyvintas, atlikdami toliau nurodytus veiksmus.
 
-1. Kaip administratorius, prisijunkite prie [flow.microsoft.com](https://powerautomate.microsoft.com).
-2. Viršutiniame dešiniajame kampe perjunkite į aplinką, kurią naudojate Dynamics 365 Project Operations.
-3. Pasirinkite **Sprendimai**, kad pateiktumėte aplinkoje įdiegtų sprendimų sąrašą.
-4. Sprendimų sąraše pasirinkite **Projekto operacijos**.
-5. Pakeiskite filtrą iš **Visi** į **Debesų srautai**.
-6. Patikrinkite, **ar "Project Service" – periodiškai suplanuoti projekto patvirtinimo rinkinių** srautą nustatyta kaip **Įjungta**. Jei ne, pasirinkite srautą, tada pasirinkite **Įjungti**.
-7. Patikrinkite, ar apdorojimas vyksta kas penkias minutes, peržiūrėdami sistemos užduočių **sąrašą, esantį** jūsų projekto operacijų **aplinkos srityje Parametrai**.Dataverse
+1. Administratoriaus teisėmis prisijunkite prie [flow.microsoft.com](https://powerautomate.microsoft.com).
+2. Viršutiniame dešiniajame kampe įjunkite aplinką, kurią naudojate dėl „Dynamics 365 Project Operations“.
+3. Pažymėkite **Sprendimus**, kad būtų išvardyti aplinkoje įdiegti sprendimai.
+4. Sprendimų sąraše pasirinkite **Project Operations**.
+5. Pakeiskite filtrą iš **Visi** į **Debesies srautai**.
+6. Patikrinkite, ar srautas **„Project Service“ – projekto patvirtinimo rinkinių planavimas pakartotinai** nustatytas kaip **Įjungta**. Jei eiga dar neįjungta, rinkitės eigą ir tada **Įjungti**.
+7. Patikrinkite, ar apdorojama kas penkias minutes, peržiūrėdami **sistemos užduočių** sąrašą srityje **Parametrai**, esančioje „Project Operations“ „Dataverse“ aplinkoje.
 
 ## <a name="failed-approvals-and-approval-sets"></a>Patvirtinimų ir patvirtinimo rinkinių pažymėjimas kaip nepavykusių
 Rodinyje **Nesėkmingai atlikti patvirtinimai** pateikiami visi patvirtinimai, kuriems reikalingas vartotojo įsikišimas. Atidarykite susijusių patvirtinimo rinkinių žurnalus, kad būtų galima nustatyti nesėkmės priežastį.
@@ -45,7 +45,7 @@ Jei pažymėsite **Bandyti dar kartą**, bus pridedamas patvirtinimo rinkinio la
 ## <a name="configure-approval-sets"></a>Patvirtinimo rinkinių konfigūravimas
 
 ### <a name="enable-the-approval-sets-feature"></a>Įjungti patvirtinimo rinkinių funkciją
-Prieš įjungdami patvirtinimo rinkinių funkciją patikrinkite, ar šiuo metu nėra apdorojamų patvirtinimų. Įjungus šią funkciją, jos negalima išjungti.
+Prieš įjungdami patvirtinimo rinkinių funkciją patikrinkite, ar šiuo metu nėra apdorojamų patvirtinimų. Įjungus šią funkciją, jos išjungti negalima.
 
 - Eikite į puslapį **Projekto parametrai** ir pasirinkite **Funkcijų valdymas** > **Įjungti modernius patvirtinimus**.
 

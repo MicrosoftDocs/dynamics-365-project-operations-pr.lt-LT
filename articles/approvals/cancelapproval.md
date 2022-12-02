@@ -1,6 +1,6 @@
 ---
-title: Atšaukti anksčiau patvirtintų įrašų patvirtinimą
-description: Šiame straipsnyje paaiškinama, kaip projekto vadovas gali atšaukti anksčiau patvirtintų laiko, išlaidų ar medžiagų naudojimo įrašų patvirtinimą.
+title: Anksčiau patvirtintų įrašų patvirtinimo atšaukimas
+description: Šiame straipsnyje paaiškinta, kaip projekto vadovas gali atšaukti anksčiau patvirtintų laiko, išlaidų arba medžiagos naudojimo įrašų patvirtinimą.
 author: rumant
 ms.date: 01/31/2021
 ms.topic: overview
@@ -13,35 +13,35 @@ ms.contentlocale: lt-LT
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8930466"
 ---
-# <a name="cancel-the-approval-of-previously-approved-entries"></a>Atšaukti anksčiau patvirtintų įrašų patvirtinimą
+# <a name="cancel-the-approval-of-previously-approved-entries"></a>Anksčiau patvirtintų įrašų patvirtinimo atšaukimas
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
-Projekto vadovas arba tvirtintojas, anksčiau patvirtinęs laiko, išlaidų ar medžiagų naudojimo įrašus, gali atšaukti šių įrašų patvirtinimą. 
+Projekto vadovas arba tvirtintojas, kuris anksčiau patvirtino laiko, išlaidų arba medžiagos naudojimo įrašus, gali atšaukti jų patvirtinimą. 
 
-Atlikite šiuos veiksmus, kad atšauktumėte anksčiau patvirtinto laiko, išlaidų ar medžiagų naudojimo įrašo patvirtinimą.
+Norėdami atšaukti anksčiau patvirtintą laiko, išlaidų ar medžiagos naudojimo įrašą, atlikite toliau nurodytus veiksmus.
 
 1. Nueikite į **Projektai** \> **Mano darbai** \> **Patvirtinimai**.
-2. Sąrašo **puslapyje Patvirtinimai rodomi visų laikų** įrašai, kurie laukia patvirtinimo. Pakeiskite rodinį į **Mano ankstesni patvirtinimai**.
-3. Pasirinkite atšaukimo laiką, išlaidas arba medžiagų patvirtinimus. Tada veiksmų srityje pasirinkite **Atšaukti patvirtinimą**.
-4. Pasirodžiusiame patvirtinimo pranešimo lauke pasirinkite **Gerai**, kad patvirtintumėte operaciją.
+2. Sąrašo puslapyje **Patvirtinimai** rodomi visi laiko įrašai, laukiantys patvirtinimo. Rodinį pakeiskite į **Mano ankstesni patvirtinimai**.
+3. Pasirinkite norimus atšaukti laiko, išlaidų arba medžiagos patvirtinimus. Tada veiksmų srityje pasirinkite **Atšaukti patvirtinimą**.
+4. Rodomame patvirtinimo pranešime pasirinkite **Gerai**, kad patvirtintumėte operaciją.
 
 > [!IMPORTANT]
-> Negalite atšaukti anksčiau patvirtinto laiko, išlaidų ir medžiagų naudojimo įrašo, kuriam klientui jau išrašyta SF, patvirtinimo. Jei bandysite, gausite pranešimą, kuriame nurodoma, kad patvirtinimo atšaukti negalima, nes jam jau išrašyta SF. Tokiu atveju patvirtinimą galite atšaukti tik tuo atveju, jei taisomoji sąskaita faktūra naudojama norint išrašyti klientui visą kreditą arba grąžinti pinigus iš pradinės sąskaitos faktūros.
+> Negalite atšaukti anksčiau patvirtintų laiko, išlaidų ir medžiagos naudojimo įrašų, pagal kuriuos klientui jau išrašyta sąskaita faktūra, patvirtinimo. Jei bandysite, gausite pranešimą, kuriame teigiama, kad patvirtinimo atšaukti negalima, nes jau buvo išrašyta sąskaita faktūra. Tokiu atveju patvirtinimą galite atšaukti tik tuomet, jei naudojama koreguojamoji sąskaita faktūra, norint pradinės sąskaitos faktūros klientui išrašyti visą kreditą arba atlikti grąžinimą.
 
-## <a name="impact-of-canceling-the-approval-of-a-previously-approved-entry"></a>Anksčiau patvirtinto įrašo patvirtinimo atšaukimo poveikis
+## <a name="impact-of-canceling-the-approval-of-a-previously-approved-entry"></a>Anksčiau patvirtintų įrašų patvirtinimo atšaukimo poveikis
 
 Atšaukus patvirtinimą, patiriamas veiklos ir finansinis poveikis.
 
 ### <a name="operational-impact"></a>Operatyvinis poveikis
 
-Jei įrašo patvirtinimas atšaukiamas, patvirtinimo įrašas pažymimas kaip **Pateiktas**. Įrašo būsena pakeičiama į **Pateikta**. Šiame etape projekto komandos narys gali atšaukti įrašą nepateikdamas atšaukimo užklausos.
+Jei įrašo patvirtinimas atšaukiamas, patvirtinimo įrašas pažymimas kaip **Pateiktas**. Įrašo būsena pakeičiama į **Pateikta**. Šiame etape projekto komandos narys gali atšaukti nepateikdamas atšaukimo užklausos.
 
-Tvirtintojas gali pakeisti **atsiskaitymo kiekio** ir **atsiskaitymo tipo** vertes, tada dar kartą patvirtinti įrašą.
+Tvirtintojas gali pakeisti laukų **Apmokėtinas kiekis** ir **Atsiskaitymo tipas** reikšmes, tada dar kartą patvirtinti šį įrašą.
 
 ### <a name="financial-impact"></a>Finansinis poveikis
 
-Jei įrašo patvirtinimas atšaukiamas, atitinkami faktiniai išlaidų ir pardavimų duomenys atnaujinami taip:
+Jei įrašo patvirtinimas atšaukiamas, atitinkami savikainos ir pardavimo faktiniai duomenys atnaujinami tokiu būdu:
 
 - Laukas **Koregavimo būsena** atnaujinamas į **Pakoreguota**.
 - Laukas **SF išrašymo būsena** atnaujinamas į **Pakoreguota**.

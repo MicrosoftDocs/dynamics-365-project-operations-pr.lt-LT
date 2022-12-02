@@ -1,6 +1,6 @@
 ---
 title: 2020 m. lapkričio mėn. naujienos – „Project Operations“, skirta laikomų medžiagų / gamyba pagrįstiems scenarijams
-description: Šiame straipsnyje pateikiama informacija apie kokybės naujinimus, pasiekiamus 2020 m. lapkričio mėnesio "Project Operations" leidime, skirtuose atsargomis pagrįstiems gamybos scenarijams.
+description: Šiame straipsnyje pateikiama informacija apie kokybės naujinimus, pasiekiamus 2020 m. lapkričio mėn. „Project Operations Lite”, skirta laikomų medžiagų / gamyba pagrįstiems scenarijams.
 author: sigitac
 ms.date: 10/15/2020
 ms.topic: article
@@ -23,7 +23,7 @@ Norėdami gauti informacijos apie į šį naujinimą įtrauktus taisymus, prisij
 
 ## <a name="regulatory-updates"></a>Reguliavimo naujinimai
 
-Informacijos apie "Dynamics 365" finansų ir operacijų programų reguliavimo naujinimus ieškokite [Reguliavimo naujinimai](/dynamics365/finance/localizations/regulatory-updates). Taip pat galite prisijungti prie LCS ir peržiūrėti planuojamus reguliavimo naujinimus naudodamiesi problemų ieškos įrankiu. Problemų ieška leidžia ieškoti pagal šalį, funkcijos tipą ir leidimą.
+Norėdami gauti informacijos apie „Dynamics 365“ finansų ir operacijų programų reguliavimo naujinimus, žr. [Reguliavimo naujinimai](/dynamics365/finance/localizations/regulatory-updates). Taip pat galite prisijungti prie LCS ir peržiūrėti planuojamus reguliavimo naujinimus naudodamiesi problemų ieškos įrankiu. Problemų ieška leidžia ieškoti pagal šalį, funkcijos tipą ir leidimą.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

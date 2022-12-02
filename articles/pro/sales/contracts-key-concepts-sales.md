@@ -1,6 +1,6 @@
 ---
 title: Projekto sutartys – pagrindinės sąvokos – „Lite“ versija
-description: Šiame straipsnyje pateikiama informacija apie pagrindines projektų sutarčių sąvokas.
+description: Šiame straipsnyje pateikiama informacija apie pagrindines projekto sutarčių sąvokas.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
@@ -19,7 +19,7 @@ _**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės
 
 
 
-Šiame straipsnyje pateikiamos pagrindinės sąvokos, kurias reikia žinoti prieš pradėdami naudoti projekto sutartis:Dynamics 365 Project Operations
+Šiame straipsnyje pateikiamos pagrindinės sąvokos, kurias reikia žinoti prieš pradedant naudoti projektų sutartis programoje „Dynamics 365 Project Operations“:
 
 ## <a name="contracting-unit"></a>Sutartį sudarantis vienetas
 

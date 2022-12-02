@@ -1,6 +1,6 @@
 ---
 title: Kas nauja arba pakeista programos „Project Service Automation“ 2021 m. 1 ankstyvo leidimo bangos V3 versijoje?
-description: Šiame straipsnyje išvardijamos funkcijos ir pataisymai, kuriuos galima rasti "Project Service Automation Early Access Wave 1 2021", V3.
+description: Šiame straipsnyje išvardijamos funkcijos ir pataisos, kurias galima rasti „Project Service Automation“ 2021 m. 1 ankstyvo leidimo bangos V3 versijoje.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/29/2021
@@ -31,7 +31,7 @@ ms.locfileid: "8930742"
 
 Malonu pranešti apie naujausią „Dynamics 365“ programos „Project Service Automation“ naujinimą. Šiame leidime yra kai kurių svarbių kokybės, veikimo ir naudojimo patobulinimų. Šis leidimas suderinamas su „Dynamics 365“ 9.x versija. Norėdami naujinti šį leidimą, eikite į „Dynamics 365“ internetinių sprendimų puslapio administravimo centrą, iš kurio galite įdiegti naujinimą. Daugiau informacijos žr. [Pageidaujamo sprendimo diegimas, naujinimas arba šalinimas](/power-platform/admin/install-remove-preferred-solution).
 
-Šiame straipsnyje išvardijamos funkcijos ir taisymai, kurie yra nauji arba pakeisti "Project Service Automation V3", "Early Access Wave 1 2021". Šios versijos numeris yra V3.10.49.3 ir ji visuotinai pasiekiama įdiegiant savaiminį 2021 m. vasario mėn. naujinimą.
+Šiame straipsnyje išvardijamos funkcijos ir pataisos, kurios yra naujos arba buvo pakeistos programos „Project Service Automation“ 2021 m. 1 ankstyvo leidimo bangos V3 versijoje. Šios versijos numeris yra V3.10.49.3 ir ji visuotinai pasiekiama įdiegiant savaiminį 2021 m. vasario mėn. naujinimą.
 
 
 ### <a name="bug-fixes"></a>Ištaisytos klaidos

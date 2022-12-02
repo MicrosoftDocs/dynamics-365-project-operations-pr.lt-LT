@@ -1,6 +1,6 @@
 ---
 title: Išlaidų ataskaitos iš didžiosios knygos arba įsigijimo ir šaltinio pasirinkimo peržiūra
-description: Šiame straipsnyje paaiškinama, kaip peržiūrėti pradinę išlaidų ataskaitą, kurioje buvo rodoma operacija.
+description: Šiame straipsnyje paaiškinama, kaip peržiūrėti pradinę išlaidų ataskaitą, kurioje yra operacija.
 author: saraschi2
 ms.date: 02/26/2018
 ms.topic: article

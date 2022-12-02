@@ -1,6 +1,6 @@
 ---
-title: "\"Project Service Automation to Project Operations\" projekto planavimo konvertavimo procesas"
-description: Šiame straipsnyje apžvelgiami funkcijų pakeitimai, skirti Microsoft Dynamics 365 Project Service Automation ""Dynamics 365 Project Operations.
+title: Iš „Project Service Automation“ į „Project Operations“ projektų planavimo konvertavimo procesas
+description: Šiame straipsnyje apžvelgiami funkcijos pakeitimai iš „Microsoft Dynamics 365 Project Service Automation“ į „Dynamics 365 Project Operations“.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 10/07/2022
@@ -23,65 +23,65 @@ ms.contentlocale: lt-LT
 ms.lasthandoff: 10/08/2022
 ms.locfileid: "9642579"
 ---
-# <a name="project-service-automation-to-project-operations-project-scheduling-conversion-process"></a>"Project Service Automation to Project Operations" projekto planavimo konvertavimo procesas
+# <a name="project-service-automation-to-project-operations-project-scheduling-conversion-process"></a>Iš „Project Service Automation“ į „Project Operations“ projektų planavimo konvertavimo procesas
 
-Sėkmingai atnaujinus projektą iš Microsoft Dynamics 365 Project Service Automation 3.X į Dynamics 365 Project Operations Lite, projekto užduočių tinklelio darbo paskirstymo struktūroje (WBS) redaguoti projekto užduočių neįmanoma. Klientai galės peržiūrėti WBS sekimo tinklelyje, į kurį buvo įtraukti nauji laukai, kad pateiktų visą su užduotimi susijusią informaciją. Projektams, kuriuos reikia redaguoti WBS, galite pasirinktinai konvertuoti reikalavimus atitinkančius projektus į naują projektą, kad galėtumėte planuoti žiniatinklyje.
+Sėkmingai atnaujinus projektą „Microsoft Dynamics 365 Project Service Automation“ iš 3.X į „Dynamics 365 Project Operations Lite“, redaguoti projekto užduočių darbo paskirstymo struktūros (WBS) tinklelyje neįmanoma. Klientai galės peržiūrėti WBS sekimo tinklelyje, kur įtraukti nauji laukai, kad pateiktų visą su užduotimi susijusią informaciją. Jei reikia projektų, kuriuose reikia redaguoti WBS, galite pasirinktinai konvertuoti tinkamus projektus į naują „Project for the web“, kad būtų galima planuoti.
 
-## <a name="project-conversion-process"></a>Projekto konvertavimo procesas
+## <a name="project-conversion-process"></a>Projektų konvertavimo procesas
 
-Norėdami konvertuoti projektą, atlikite šiuos veiksmus.
+Norėdami konvertuoti projektą, atlikite toliau pateikiamus veiksmus.
 
 1. Atidarykite pagrindinį projekto puslapį ir veiksmų srityje pasirinkite **Konvertuoti**.
-1. Patvirtinimo pranešimo laukelyje pasirinkite **Gerai**, kad pradėtumėte projekto konvertavimą. Atliekami šie veiksmai:
+1. Rodomame patvirtinimo pranešime pasirinkite **Gerai**, kad pradėtumėte projekto konvertavimą. Atsitinka toliau nurodyti veiksmai:
 
-    1. Pranešimų juostoje, kuri rodoma pagrindiniame projekto puslapyje, nurodoma: "Projekto grafikas konvertuojamas. Negalite keisti projekto, kol nebus baigta konversija."
-    1. Esate nukreipiami į projektų sąrašą.
+    1. Pranešimų juosta, rodoma projekto pagrindiniame puslapyje: „Projekto grafikas konvertuojamas. Negalima atlikti pakeitimų, kol konvertavimas nebus baigtas.“
+    1. Būsite nukreipti į projektų sąrašą.
 
-    Baigus projekto konversiją, atliekami šie veiksmai:
+    Atlikus projekto konvertavimą, gali būti atlikti šie veiksmai:
 
-    1. Priskirtas projekto vadovas gauna pranešimą dešinėje paraiškos pusėje.
-    1. Pranešimų juosta, nurodanti, kad vyksta konversija, pašalinama.
-    1. Skirtuke **Grafikas** rodoma nauja planavimo patirtis naudojant "Project for the Web". Bet kuris vartotojas, turintis atitinkamas licencijas ir saugos vaidmenis, gali redaguoti WBS.
-    1. Laukas **Planavimo modulis** atnaujinamas į **"Project", skirtą žiniatinkliui**.
+    1. Paskirtasis projekto vadovas gauna pranešimą dešinėje programos pusėje.
+    1. Pranešimų juosta, kuri rodo, kad vyksta konvertavimas, pašalinama.
+    1. Skirtuke **Grafikas** rodoma nauja „Project for the web" planavimo patirtis. WBS gali redaguoti bet kuris vartotojas, kuris turi atitinkamas licencijas ir saugos vaidmenis.
+    1. Laukas **Planavimo modulis** atnaujintas į " **Project for the web"**.
     1. Mygtukas **Konvertuoti** pašalinamas iš veiksmų srities.
 
 > [!IMPORTANT]
-> Masinis projektų konvertavimas neleidžiamas. Bet koks bandymas vienu metu atnaujinti didelį projektų kiekį bus sužlugdytas. Šis apribojimas padeda užtikrinti aukštą našumą visiems klientams.
+> Projektų masinis konvertavimas neleidžiamas. Bet koks bandymas tuo pat metu atnaujinti didelį projektų kiekį bus užblokuotas. Šis apribojimas padeda užtikrinti aukštą efektyvumą visiems klientams.
 
-## <a name="manual-tasks-vs-automatic-tasks"></a>Neautomatinės užduotys ir automatinės užduotys
+## <a name="manual-tasks-vs-automatic-tasks"></a>Rankinės užduotys ir automatinės užduotys
 
-Kai aplinka atnaujinama iš "Project Service Automation" į "Project Operations", visos WBS užduotys laikomos automatiškai suplanuotomis. Neautomatiškai suplanuotų užduočių koncepcija negalima internetinėje "Project". Tačiau kurdami naujus projektus galite nustatyti pageidaujamą projektų planavimo veikimą naudodami planavimo režimo [parametrą](/project-management/scheduling-modes.md).
+Kai aplinka atnaujinama iš „Project Service Automation" į “Project Operations", visos WBS užduotys laikomos suplanuotomis automatiškai. Rankiniu būdu suplanuotų užduočių sąvokos „Project for the web“ nėra. Tačiau kurdami naujus projektus galite apibrėžti pageidaujamą savo projektų planavimo veikimą naudodami [planavimo režimą](/project-management/scheduling-modes.md).
 
-## <a name="restricted-operations-for-pre-conversion-projects"></a>Apribotos prieš konversiją vykdomų projektų operacijos
+## <a name="restricted-operations-for-pre-conversion-projects"></a>Ribotos operacijos, taikomos išankstinio konvertavimo projektams
 
-Šiame skyriuje aprašomi funkciniai skirtumai, kurių galite tikėtis, kai projektai nebuvo konvertuoti.
+Šiame skyriuje aprašomi veikimo skirtumai, kurių galite tikėtis, kai projektai nebuvo konvertuoti.
 
 ### <a name="copy-project"></a>Kopijuoti projektą
 
-Kopijavimo **operacija** palaikoma tik konvertuotuose projektuose. Naujovintų projektų negalima nukopijuoti prieš konversiją.
+Operacija **kopijuoti** palaikoma tik konvertuotų projektų atveju. Atnaujintų projektų negalima kopijuoti prieš konvertavimą.
 
 ### <a name="move-project"></a>Perkelti projektą
 
-Pakeitus projekto pradžios datą, užduočių pradžia nebus proporcingai perkelta, nebent projektas bus konvertuotas.
+Jei projektas nėra konvertuotas, projekto pradžios datos pakeitimas proporcingai nepaveiks užduočių pradžios.
 
 ## <a name="frequently-asked-questions"></a>Dažnai užduodami klausimai
 
-### <a name="what-are-the-differences-between-converted-projects-and-new-projects-that-are-created-after-the-upgrade-has-been-completed"></a>Kuo skiriasi konvertuoti projektai ir nauji projektai, sukurti užbaigus naujinimą?
+### <a name="what-are-the-differences-between-converted-projects-and-new-projects-that-are-created-after-the-upgrade-has-been-completed"></a>Kokie yra skirtumai tarp konvertuotų projektų ir naujų projektų, sukurtų atlikus atnaujinimą?
 
-Projektams, kurie konvertuojami atnaujinus aplinkos versiją, bus nustatyta vėliavėlė, nurodanti grafikui laikytis tik projekto kalendoriaus. Šis veikimas atitinka "Project Service Automation" veikimą. Tačiau vėliavėlė nebus nustatyta naujiems projektams, sukurtiems atnaujinus versiją. Todėl grafikas atitiks išteklių darbo valandas, kai jie bus priskirti užduočiai.
+Jei projektai konvertuojami atnaujinus aplinką, bus nustatyta žyma, nurodanti grafikui atsižvelgti tik į projekto kalendorių. Šis veikimas atitinka "Project Service Automation" veikimą. Tačiau nebus nustatyta naujų projektų, sukurtų po atnaujinimo, žyma. Todėl grafike bus paisomos išteklių darbo valandos, kai jie yra priskirti užduočiai.
 
-### <a name="what-should-i-do-if-my-project-fails-to-be-converted"></a>Ką daryti, jei nepavyksta konvertuoti projekto?
+### <a name="what-should-i-do-if-my-project-fails-to-be-converted"></a>Ką daryti, jei mano projekto konvertuoti nepavyksta?
 
-Jei jūsų projekto nepavyksta konvertuoti, pirmiausia reikia peržiūrėti klaidų žurnalus, kad nustatytumėte visas įprastas problemas, susijusias su jūsų WBS. Jei žurnaluose nenurodyta konkreti klaida, dėl kurios galėtumėte imtis veiksmų, kreipkitės į klientų aptarnavimo tarnybą, kad jūsų atvejį būtų galima peržiūrėti toliau.
+Jei projekto konvertuoti nepavyksta, pirmasis veiksmas yra peržiūrėti klaidų žurnalus ir nustatyti bet kokias įprastas problemas, susijusias su jūsų WBS. Jei žurnalai nerodo konkrečios klaidos, dėl kurios galite imtis veiksmų, kreipkitės į klientų aptarnavimo tarnybą, kad atvejį būtų galima peržiūrėti toliau.
 
-### <a name="how-are-business-closures-handled-in-project-for-the-web"></a>Kaip verslo uždarymas tvarkomas internetinėje "Project"?
+### <a name="how-are-business-closures-handled-in-project-for-the-web"></a>Kaip įmonės ne darbo laiko išlaidos tvarkomos žiniatinklyje naudojant „Project for the web"?
 
-"Project", skirta žiniatinkliui, nepaiso verslo uždarymų, kuriuos įmonė apibrėžia organizacijos lygiu. Tačiau jis gerbs kitų tipų poilsio dienas, apibrėžtas tam tikrame darbo valandos šablone.
+„Project for the web“ neatsižvelgia į įmonės ne darbo laikotarpius, kuriuos įmonė apibrėžia organizacijos lygiu. Tačiau jis paisys kitų ne darbo valandų šablone apibrėžtų dienų tipų.
 
-### <a name="what-are-the-limitations-of-project-for-the-web"></a>Kokie yra "Project for the Web" apribojimai?
+### <a name="what-are-the-limitations-of-project-for-the-web"></a>Kokie yra „Project for the web“ funkcijos apribojimai?
 
-Žiūrėkite [Darbo paskirstymo struktūros kūrimas: Projekto apribojimai](/project-management/create-wbs#project-limitations.md).
+Žr. [Sukurkite darbo paskirstymo struktūrą: Projekto apribojimai](/project-management/create-wbs#project-limitations.md).
 
-### <a name="can-i-expect-changes-to-my-cost-and-sales-estimates"></a>Ar galiu tikėtis savo išlaidų ir pardavimo įvertinimų pokyčių?
+### <a name="can-i-expect-changes-to-my-cost-and-sales-estimates"></a>Ar galiu tikėtis išlaidų ir pardavimo verčių pakeitimų?
 
-Retais atvejais, kai išteklių priskyrimo kontūrai perskaičiuojami arba kai jie patenka į kitą datos ribą nei šaltinio projektas, galite matyti pardavimo ir išlaidų įvertinimų skirtumus. Tikimasi, kad atnaujinimo proceso metu klientai išbandys reprezentatyvų projektų pavyzdžių rinkinį, kad galėtų suprasti bet kokius galimus tvarkaraščio pakeitimus.
+Kartais, kai perskaičiuojami išteklių kontūrai, arba kai jie patenka į kitą datos apribojimą nei šaltinio projektas, galite matyti pardavimo ir išlaidų verčių skirtumus. Plėtotės proceso metu klientai turėtų išbandyti tipinį projektų pavyzdžių rinkinį, kad jie galėtų suprasti visus galimus grafiko pakeitimus.

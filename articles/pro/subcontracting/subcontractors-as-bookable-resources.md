@@ -1,6 +1,6 @@
 ---
 title: Nustatyti subrangovus kaip rezervuotinus išteklius
-description: Šiame straipsnyje paaiškinama, kaip nustatyti ir prižiūrėti subrangovų išteklius, sukurtus iš sistemos vartotojų ir kontaktų, kad juos būtų galima susieti su subrangos sutartimis programoje "Microsoft" Dynamics 365 Project Operations.
+description: Šiame straipsnyje paaiškinta, kaip nustatyti ir tvarkyti subrangovo išteklius, kurie sukuriami sistemoje iš vartotojų ir sutarčių, siekiant juos susieti su subrangos sutartimis programoje „Microsoft Dynamics 365 Project Operations”.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Projekto įvertinimo šalinimas
-description: Šiame straipsnyje pateikiama informacija apie projekto sąmatos pašalinimą po to, kai ji bus baigta.
+description: Šiame straipsnyje pateikta informacija apie užbaigto projekto įvertinimo pašalinimą.
 author: Yowelle
 ms.date: 05/26/2020
 ms.topic: article

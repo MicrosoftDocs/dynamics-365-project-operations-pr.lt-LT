@@ -1,6 +1,6 @@
 ---
 title: „Project Service Automation“ apžvalga
-description: Šiame straipsnyje pateikiama informacija apie Dynamics 365 Project Service Automation Dynamics 365 Finance integracijos sprendimą.
+description: Šiame straipsnyje pateikiama informacija apie „Dynamics 365 Project Service Automation“ integravimo į „Dynamics 365 Finance" sprendimą.
 author: ruhercul
 ms.date: 07/25/2019
 ms.topic: overview
@@ -25,7 +25,7 @@ ms.locfileid: "8929592"
 [!include[banner](../includes/banner.md)]
 
 
-"Project Service Automation to Finance" integravimo sprendimas naudoja duomenų integravimo funkciją, kad sinchronizuotų duomenis įvairiuose Dynamics 365 Finance egzemplioriuose ir Dynamics 365 Project Service Automation per Common Data Service. Integravimo šablonai, kuriuos galima naudoti su duomenų integravimo funkcija, leidžia vykdyti projektų, projektų sutarčių, projektų sutarčių eilučių, projektų sutarčių eilučių etapų, projektų užduočių, išlaidų operacijų kategorijų, valandų įvertinimo ir išlaidų įvertinimo srautą iš „Project Service Automation“ į „Finance“.
+Naudojant „Project Service Automation“ į „Finance“ integravimo sprendimą, naudojama duomenų integravimo funkcija, sinchronizuojant duomenis „Dynamics 365 Finance“ ir „Dynamics 365 Project Service Automation“ egzemplioriuose per „Common Data Service“. Integravimo šablonai, kuriuos galima naudoti su duomenų integravimo funkcija, leidžia vykdyti projektų, projektų sutarčių, projektų sutarčių eilučių, projektų sutarčių eilučių etapų, projektų užduočių, išlaidų operacijų kategorijų, valandų įvertinimo ir išlaidų įvertinimo srautą iš „Project Service Automation“ į „Finance“.
 
 > [!NOTE]
 > - Jei naudojate 7.3.0 versiją, turite įdiegti KB 4074835. Tada galėsite integruoti fiksuotos kainos projektus.

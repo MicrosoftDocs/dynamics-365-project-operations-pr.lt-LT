@@ -1,6 +1,6 @@
 ---
 title: Galimybės parametrai – „Lite“ versija
-description: Šiame straipsnyje pateikiama informacija apie projektais pagrįstus sandorius ir projektines galimybių eilutes.
+description: Šiame straipsnyje pateikiama informacija apie projektu pagrįstų sandorių ir projektu pagrįstų galimybių eilutes.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

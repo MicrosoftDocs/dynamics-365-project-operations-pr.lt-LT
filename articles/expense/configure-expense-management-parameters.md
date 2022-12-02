@@ -1,6 +1,6 @@
 ---
 title: Išlaidų valdymo parametrų konfigūravimas
-description: Šiame straipsnyje aprašomi parametrai, kontroliuojantys bendrą išlaidų valdymo elgesį.
+description: Šiame straipsnyje aprašomi parametrai, kontroliuojantys bendrą išlaidų valdymo elgseną.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8931478"
 
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
-Šiame straipsnyje aprašomi parametrai, kontroliuojantys bendrą išlaidų valdymo elgesį.
+Šiame straipsnyje aprašomi parametrai, kontroliuojantys bendrą išlaidų valdymo elgseną.
 
 ## <a name="general"></a>Bendroji informacija
 

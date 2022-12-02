@@ -1,6 +1,6 @@
 ---
 title: Projekto pasiūlymo patvirtinimas, atnaujinimas ir siuntimas
-description: Šiame straipsnyje pateikiama informacija apie pasiūlymo siuntimą klientui patvirtinimui, modifikavimą remiantis atsiliepimais ir pasiūlymo siuntimą iš naujo.
+description: Šiame straipsnyje pateikta informacija apie pasiūlymo siuntimą klientui patvirtinti, keisti pagal atsiliepimą, tada iš naujo išsiųsti pasiūlymą.
 author: ruhercul
 ms.date: 05/09/2020
 ms.topic: article

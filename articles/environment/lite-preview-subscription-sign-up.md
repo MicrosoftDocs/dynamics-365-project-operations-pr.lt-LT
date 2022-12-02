@@ -1,6 +1,6 @@
 ---
 title: Registracija norint gauti peržiūros versijos prenumeratą – „Lite“ versija
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip užsiprenumeruoti ir įdiegti "Project Operations lite" diegimą – spręsti proforma sąskaitų faktūrų išrašymą.
+description: Šiame straipsnyje pateikta informacija apie tai, kaip prenumeruoti ir diegti „Project Operations Lite“ visuotinį diegimą – sandoris į išankstinės sąskaitos faktūros formą.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
@@ -15,7 +15,7 @@ ms.locfileid: "9410044"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Registracija norint gauti peržiūros versijos prenumeratą – „Lite“ versija 
 
-Šiame straipsnyje paaiškinama, kaip užsiprenumeruoti bandomąjį pasiūlymą ir įdiegti Dynamics 365 Project Operations supaprastintą diegimą - spręsti proforma sąskaitų faktūrų išrašymą.
+Šiame straipsnyje paaiškinama, kaip užsiprenumeruoti bandomajam pasiūlymui ir įdiegti „Dynamics 365 Project Operations“ „Lite“ įdiegtį – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo.
 
 > [!NOTE]
 > Šis procesas pasikeis būsimuose „Project Operations“ leidimuose.
@@ -43,14 +43,14 @@ Prieš pradėdami įsitikinkite, kad esate prisijungę prie naršyklės naudodam
 > Norint atlikti toliau nurodytus veiksmus jums reikės administratoriaus prieigos prie organizacijos „Microsoft 365“ portalo.
 
 
-1. Eikite į [Microsoft 365 administravimo centrą](https://portal.office.com/) ir priskirkite licencijas savo vartotojams.
+1. Eikite į [Microsoft 365 administravimo centrą](https://portal.office.com/), kad priskirtumėte licencijas vartotojams.
 2. Puslapyje **Aktyvūs vartotojai** pasirinkite vartotojus, kuriems norite priskirti licenciją.
 3. Patikrinkite, ar pasirinkta **„Dynamics 365 Project Operations“** licencija. 
 4. Pasirinkite **Įrašyti pakeitimus**.
 
 ## <a name="create-a-new-dataverse-environment"></a>Naujos „Dataverse” aplinkos kūrimas
 
-1. Konfigūruokite naują "Project Operations" Dataverse diegimo aplinką vykdydami instrukcijas, pateiktas straipsnyje diegimo [Dataverse modelis](lite-deployment.md). Pasirinkę aplinkos tipą įsitikinkite, kad naudojate **bandomąją versiją (prenumeratos pagrindu)**.
+1. Parenkite naują „Project Operations“ „Dataverse“ visuotinio diegimo aplinką sekdami šiame straipsnyje pateiktas instrukcijas – [„Dataverse“ visuotinio diegimo modelis](lite-deployment.md). Pasirinkę aplinkos tipą įsitikinkite, kad naudojate **bandomąją versiją (prenumeratos pagrindu)**.
 
   ![Nauja aplinka.](./media/19CreateEnvironment.png)
 
@@ -65,7 +65,7 @@ Prieš pradėdami įsitikinkite, kad esate prisijungę prie naršyklės naudodam
 
 ## <a name="set-up-demo-data"></a>Demonstracinių duomenų nustatymas
 
-Nustatykite demonstracinius duomenis vadovaudamiesi straipsnyje ["Taikyti demonstracinius sąrankos ir konfigūravimo duomenis" pateiktomis instrukcijomis](lite-apply-demo-setup-config-data.md).
+Nustatykite demonstracinius duomenis vadovaudamiesi šiame straipsnyje pateikiamomis instrukcijomis – [Demonstracinės sąrankos ir konfigūravimo duomenų taikymas](lite-apply-demo-setup-config-data.md).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

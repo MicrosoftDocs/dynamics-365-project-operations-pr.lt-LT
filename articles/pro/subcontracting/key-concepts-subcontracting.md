@@ -1,6 +1,6 @@
 ---
 title: Svarbiausios subrangos sutarties sąvokos
-description: Šiame straipsnyje paaiškinamos kai kurios pagrindinės sąvokos, taikomos subrangai programoje "Microsoft" Dynamics 365 Project Operations.
+description: Šiame straipsnyje paaiškinamos kai kurios pagrindinės sąvokos, taikomos subrangai programoje „Microsoft Dynamics 365 Project Operations”.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "9522759"
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
-Straipsnyje paaiškinamos kai kurios pagrindinės sąvokos, kurias turėtumėte žinoti prieš pradėdami naudoti subrangos funkciją "Microsoft" Dynamics 365 Project Operations.
+Šiame straipsnyje paaiškinamos kai kurios pagrindinės sąvokos, kurias turėtumėte žinoti prieš pradėdami naudoti subrangos funkciją programoje „Microsoft Dynamics 365 Project Operations“.
 
 ## <a name="contracting-unit-on-the-subcontract"></a>Sutarties vienetas subrangos sutartyje
 

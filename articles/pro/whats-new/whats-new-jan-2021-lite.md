@@ -1,6 +1,6 @@
 ---
 title: Kas naujo 2021 m. sausio mėn. – „Project Operations“ „Lite“ visuotinis diegimas
-description: Šiame straipsnyje pateikiama informacija apie kokybės atnaujinimus, kuriuos galima rasti 2021 m. sausio mėn.
+description: Šiame straipsnyje pateikiama informacija apie kokybinius naujinimus, pasiekiamus 2021 m. sausio mėn. „Project Operations Lite” visuotinio diegimo leidime.
 author: sigitac
 ms.date: 01/12/2021
 ms.topic: article
@@ -19,7 +19,7 @@ ms.locfileid: "8934284"
 
 _Taikoma (kam): „Lite“ visuotiniam diegimui – sandoris į išankstinės sąskaitos faktūros kūrimą_
 
-Šis straipsnis taikomas šiems Dynamics 365 Project Operations komponentams ir versijoms:
+Šis straipsnis taikomas toliau nurodytiems „Dynamics 365 Project Operations“ komponentams ir versijoms:
 
   - „Project Operations“ „Dataverse“ aplinkoje, 4.6.0.154 versija.
   

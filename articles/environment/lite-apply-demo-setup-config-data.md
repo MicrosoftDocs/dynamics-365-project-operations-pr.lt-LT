@@ -1,6 +1,6 @@
 ---
 title: Demonstracinės sąrankos ir konfigūracijos duomenų taikymas – „Lite“ versija
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip taikyti demonstracinius sąrankos ir konfigūravimo duomenis "Project Operations".
+description: Šiame straipsnyje pateikta informacija apie tai, kaip taikyti demonstracinę sąranką ir konfigūracijos programai „Project Operations“.
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
@@ -8,7 +8,7 @@ ms.reviewer: johnmichalak
 ms.author: sigitac
 ms.openlocfilehash: 9a3a99c326b7ebbdfa859c3298b35e910af0eb2a
 ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 09/07/2022
 ms.locfileid: "9410033"
@@ -21,7 +21,7 @@ _** „Lite“ visuotinis diegimas – sandoris į išankstinės sąskaitos fakt
 
 ## <a name="prerequisites"></a>Būtinosios sąlygos
 
-Prieš pradėdami konfigūraciją, turite turėti aplinką, Dataverse sukonfigūruotą Dynamics 365 Project Operations.
+Prieš pradėdami konfigūraciją, turite turėti „Dataverse“ aplinką, sukonfigūruotą programai „Dynamics 365 Project Operations“.
 
 
 ## <a name="instructions"></a>Instrukcijos

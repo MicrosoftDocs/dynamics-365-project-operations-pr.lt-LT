@@ -1,6 +1,6 @@
 ---
 title: Subrangos sutarčių antraščių informacija
-description: Šiame straipsnyje paaiškinamos funkcijos, pateiktos subrangos antraštėje programoje "Project Operations".
+description: Šiame straipsnyje aiškinamos „Project Operations“ subrangos sutarties eilutės funkcijos.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "9522571"
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
-Šiame straipsnyje paaiškinamos funkcijos, pateiktos subrangos sutarties antraštėje Dynamics 365 Project Operations.
+Šiame straipsnyje aiškinamos „Dynamics 365 Project Operations“ subrangos sutarties eilutės funkcijos.
 
 Projektų vadovui planuojant ir vykdant projektus, jie gali naudoti subrangovus ir produkus bei paslaugas pirkti iš tiekėjų. Kai projekto vadovas turi įsigyti produktų ar paslaugų, „Project Operations“ galima sukurti subrangos sutartį.
 

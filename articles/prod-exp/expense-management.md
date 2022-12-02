@@ -1,6 +1,6 @@
 ---
 title: Išlaidų valdymo apžvalga
-description: Šiame straipsnyje pateikiama bendroji informacija apie išlaidų valdymą ir saitai į papildomus išteklius. Galite naudoti išlaidų valdymą, kad sukurtumėte integruotą darbo eigą, kurioje galėsite saugoti mokėjimo būdo informaciją, importuoti kredito kortelių operacijas ir sekti pinigus, kuriuos darbuotojai išleidžia, kai patiria išlaidų jūsų įmonės vardu.
+description: Šiame straipsnyje pateikta bendra informacija apie išlaidų valdymą ir saitus su papildomais ištekliais. Galite naudoti išlaidų valdymą, kad sukurtumėte integruotą darbo eigą, kurioje galėsite saugoti mokėjimo būdo informaciją, importuoti kredito kortelių operacijas ir sekti pinigus, kuriuos darbuotojai išleidžia, kai patiria išlaidų jūsų įmonės vardu.
 author: ShylaThompson
 ms.date: 07/25/2019
 ms.topic: overview
@@ -43,7 +43,7 @@ Daugiau informacijos žr. [Išlaidų ataskaitų pertvarkymas](ExpenseWorkspaceNe
 
 ### <a name="blogs"></a>Tinklaraščiai
 
-Nuomones, naujienas ir kitą informaciją [Microsoft Dynamics galite rasti tinklaraštyje 365 ir](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) tinklaraštyje [Microsoft Dynamics "365 Finance - Financials"](https://community.dynamics.com/365/financeandoperations/b/financials).
+Galite rasti nuomones, naujienas ir kitą informaciją [„Microsoft Dynamics 365“ tinklaraštyje](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) ir [„Microsoft Dynamics 365 Finance“ – finansų tinklaraštyje](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 [„Microsoft Dynamics Operations“ partnerių bendruomenės tinklaraštyje](https://community.dynamics.com/partner/b/operationspartnercommunityblog) „Microsoft Dynamics“ partneriams suteikiamas vienas išteklius, kuriame jie gali sužinoti „MBS Operations“ naujienas ir tendencijas.
 

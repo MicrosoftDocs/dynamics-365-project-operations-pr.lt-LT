@@ -1,6 +1,6 @@
 ---
 title: Naujo LCS projekto pradėjimas
-description: Šiame straipsnyje pateikiama informacija apie naujo projekto kūrimą LCS jūsų "Project Operations" aplinkoje.
+description: Šiame straipsnyje pateikiama informacija, kaip sukurti naują LCS projektą jūsų „Project Operations“ aplinkai.
 author: stsporen
 ms.date: 10/01/2020
 ms.topic: article

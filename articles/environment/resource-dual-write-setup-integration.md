@@ -1,6 +1,6 @@
 ---
 title: „Project Operations“ sąrankos ir konfigūracijos duomenų integravimas
-description: Šiame straipsnyje pateikiama informacija apie "Project Operations" dvigubo rašymo žemėlapių nustatymą ir konfigūravimą.
+description: Šiame straipsnyje pateikiama informacijos apie „Project Operations“ dvigubo rašymo schemų nustatymą ir konfigūravimą.
 author: sigitac
 ms.date: 4/23/2021
 ms.topic: article
@@ -18,38 +18,38 @@ ms.locfileid: "9029162"
 
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
-Šiame straipsnyje pateikiama informacija apie "Project Operations" dvigubo rašymo integravimą sąrankos ir konfigūravimo objektams.
+Šiame straipsnyje pateikiama informacijos apie „Project Operations“ sąrankos ir konfigūracijos objektų dvigubo rašymo integravimą.
 
 ## <a name="project-contracts-contract-lines-and-projects"></a>Projektų sutartys, sutarčių eilutės ir projektai
 
-Projektų sutartys, sutarčių eilutės ir projektai kuriami Dataverse ir sinchronizuojami su finansų ir operacijų programomis, kad būtų galima atlikti papildomą apskaitą. Šių objektų įrašus galima kurti ir naikinti tik naudojant „Dataverse“. Tačiau apskaitos atributus, pvz., PVM grupės numatytuosius nustatymus ir finansines dimensijas, galima įtraukti į šiuos įrašus finansų ir operacijų programose.
+Projekto sutartys, sutarties eilutės ir projektai yra sukurti „Dataverse“ ir sinchronizuoti finansų ir operacijų programoms, papildomai apskaitai. Šių objektų įrašus galima kurti ir naikinti tik naudojant „Dataverse“. Tačiau į šiuos finansų ir operacijų programų įrašus galima įtraukti apskaitos atributus, pvz., numatytąsias pardavimų mokesčių grupių reikšmes ir finansines dimensijas.
 
   ![Projektų sutarčių integravimo sąvokos.](./media/1ProjectContract.jpg)
 
-Pardavimo veiklos potencialūs klientai, galimybės ir pasiūlymai yra sekami ir nesinchronizuojami Dataverse su finansų ir operacijų programomis, nes nėra tolesnės apskaitos, susijusios su šia veikla.
+Galimos pardavimo veiklos, galimybės ir pasiūlymai sekami „Dataverse“ ir nesinchronizuojami su finansų ir operacijų programomis, nes su šia veikla nėra susietos tolimesnės apskaitos.
 
-Projekto sutarties funkcija Dataverse sukuria projekto sutarties įrašą finansų ir operacijų programose, naudodama lentelės žemėlapį **"Project" sutarčių antraštės (pardavimo užsakymų teikėjai).** Įrašius projekto sutartį sprendime „Dataverse“, taip pat paleidžiamas projekto sutarties kliento objekto įrašo kūrimas. Šis įrašas sinchronizuojamas su finansų ir operacijų programomis naudojant **lentelės žemėlapį Projekto finansavimo šaltinis (msdyn\_ projectcontractssplitbillingrules).** Ši schema taip pat sinchronizuoja projekto sutarties klientų įtraukimus, naujinimus ir naikinimus. Išskaidyti atsiskaitymo procentai tarp projekto sutarties klientų yra valdomi tik Dataverse finansų ir operacijų programose, o ne sinchronizuojami su jomis.
+„Dataverse“ projektų sutarčių funkcija sukuria projekto sutarties įrašą finansų ir operacijų programose naudodama lentelės schemą **Projektų sutarčių antraštės (salesorders)**. Įrašius projekto sutartį sprendime „Dataverse“, taip pat paleidžiamas projekto sutarties kliento objekto įrašo kūrimas. Šis įrašas sinchronizuojamas su finansų ir operacijų programomis naudojant lentelės schemą **Projekto finansavimo šaltinis (msdyn\_projectcontractssplitbillingrules)**. Ši schema taip pat sinchronizuoja projekto sutarties klientų įtraukimus, naujinimus ir naikinimus. Išskaidymo atsiskaitymo procentai tarp projekto sutarties klientų valdomi tik „Dataverse“ ir nėra sinchronizuojami su finansų ir operacijų programomis.
 
-Sukūrus projekto sutartį, projekto buhalteris Dataverse gali atnaujinti šios projekto sutarties apskaitos atributus finansų ir operacijų programose, eidamas į **Projektų valdymas ir apskaita** > **Projekto sutartys** > **Nustatyti rodyti** > **numatytąją apskaitą**. Buhalteris gali peržiūrėti veiklos projekto sutarties atributus, pvz., prašomą pristatymo datą ir sutarties sumą, finansų ir operacijų programose pasirinkdamas projekto sutarties ID, kuris atidaro susijusį projekto sutarties įrašą Dataverse.
+Kai projekto sutartis sukuriama naudojant „Dataverse“, projekto buhalteris gali atnaujinti šios projekto sutarties apskaitos atributus finansų ir operacijų programose nuėjęs į **Projektų tvarkymas ir apskaita** > **Projektų sutartys** > **Nustatymas** > **Rodyti numatytąją apskaitą**. Buhalteris gali peržiūrėti projekto sutarties operacijų atributus, pvz., pageidaujamą pristatymo datą ir sutarties sumą, pasirinkdamas projekto sutarties ID finansų ir operacijų programose, taip atidarydamas susijusį projekto sutarties įrašą sprendime „Dataverse“.
 
-Projekto objektas sinchronizuojamas su finansavimo ir operacijų programomis naudojant lentelės žemėlapį **Projektai V2 (msdyn\_ projektai).** Projekto buhalteris gali atlikti toliau nurodytas užduotis.
+Projekto objektas sinchronizuojamas su finansų ir operacijų programomis naudojant lentelės schemą **Projektai V2 (msdyn\_projects)**. Projekto buhalteris gali atlikti toliau nurodytas užduotis.
 
-  - Peržiūrėkite finansų ir operacijų programų projektus eidami į **Projektų valdymas ir apskaita** > **Visi projektai**. 
-  - Atnaujinkite projekto apskaitos atributus finansų ir operacijų programose eidami į **Projekto valdymas ir apskaita** > **Visi projektai** > **Nustatyti** > **Rodyti numatytąją apskaitą**.  
-  - Peržiūrėkite veiklos projekto atributus, pvz., numatomas pradžios ir pabaigos datas, finansų ir operacijų programose pasirinkdami projekto ID, kuris atidaro susijusį projekto įrašą Dataverse.
+  - Peržiūrėti projektus finansų ir operacijų programose galima nuėjus į **Projektų tvarkymas ir apskaita**  > **Visi projektai**. 
+  - Atnaujinti projekto apskaitos atributus finansų ir operacijų programose galima nuėjus į **Projektų tvarkymas ir apskaita** > **Visi projektai** > **Nustatymai** > **Rodyti numatytąją apskaitą**.  
+  - Peržiūrėti projektų operacijų atributus, pvz., numatomas pradžios ir pabaigos datas, galima pasirinkus projekto ID finansų ir operacijų programose, taip susijusį projekto įrašą atidarant „Dataverse“.
 
 Projektą galima susieti su projekto sutartimi naudojant objektą **Projekto sutarties eilutė**.
 
-Projekto sutarčių eilutės sukuria Dataverse projekto sutarties atsiskaitymo taisyklę finansų ir operacijų programose, naudojant lentelės žemėlapį **Projekto sutarties eilutės (salesorderdetails).** Atsiskaitymo metodas apibrėžia projekto sutarties atsiskaitymo taisyklės tipą finansų ir operacijų programose:
+„Dataverse“ projektų sutarčių eilutės sukuria projekto sutarties atsiskaitymo taisyklę finansų ir operacijų programose naudodamos lentelės schemą **Projektų sutarčių eilutės (salesorderdetails)**. Atsiskaitymo metodas apibrėžia projekto sutarties sąskaitų išrašymo taisyklės tipą finansų ir operacijų programose:
 
   - Projektų sutarčių eilutėse, kuriose naudojamas laiko ir medžiagų atsiskaitymo metodas, sukuriama laiko ir medžiagų tipo atsiskaitymo taisyklė.
   - Fiksuotos kainos atsiskaitymo metodo sutarčių eilutėse sukuriama etapų tipo atsiskaitymo taisyklė.
 
-Projekto sutarties eilutes projekto buhalteris gali peržiūrėti finansų ir operacijų programose, nuėjęs į **Projekto valdymas ir apskaita** > **Projektų sutartys** > **Nustatyti rodyti** > **numatytąją apskaitą** ir peržiūrėjęs išsamią informaciją skirtuke **Sutarties eilutės** . Buhalteris šiame skirtuke taip pat gali nustatyti numatytąsias fiksuotos kainos atsiskaitymo metodo sutarties eilučių finansines dimensijas.
+Projektų sutarčių eilutes projekto buhalteris gali peržiūrėti finansų ir operacijų programose nueidamas į **Projektų tvarkymas ir apskaita** > **Projektų sutartys** > **Nustatymas** > **Rodyti numatytąją apskaitą** ir peržiūrėdamas išsamią informaciją skirtuke **Sutarčių eilutės**. Šiame skirtuke buhalteris taip pat gali nustatyti numatytąsias fiksuotos kainos atsiskaitymo metodo sutarčių eilučių finansines dimensijas.
 
 ## <a name="billing-milestones"></a>Atsiskaitymo etapai
 
-Projektų sutarčių eilutėms, kuriose naudojamas fiksuotos kainos atsiskaitymo metodas, sąskaitos faktūros išrašomos taikant atsiskaitymo etapus. Atsiskaitymo etapai sinchronizuojami su projekto operacijomis sąskaitoje finansų ir operacijų programose naudojant lentelės žemėlapį **"Project Operations" integravimo sutarties eilutės orientyrai (msdyn\_ contractlinescheduleofvalues).**
+Projektų sutarčių eilutėms, kuriose naudojamas fiksuotos kainos atsiskaitymo metodas, sąskaitos faktūros išrašomos taikant atsiskaitymo etapus. Atsiskaitymo etapai finansų ir operacijų programose sinchronizuojami su projektų sąskaitų operacijomis naudojant lentelės schemą **„Project Operations“ integravimo sutarčių eilučių etapus (msdyn\_contractlinescheduleofvalues)**.
 
   ![Atsiskaitymo etapų integravimas.](./media/2Milestones.jpg)
 
@@ -59,21 +59,21 @@ Jums pirmą kartą sukūrus konkrečios projekto sutarties eilutės atsiskaitymo
 
 ### <a name="project-tasks"></a>Projekto užduotys
 
-Projekto užduotys sinchronizuojamos su finansų ir operacijų programomis naudojant **lentelės žemėlapį Project tasks (msdyn\_ projecttasks)** tik informaciniais tikslais. Operacijų kūrimas, naujinimas ir naikinimas nepalaikomas naudojant "Finance and Operations" programas.
+Projektų užduotys su finansų ir operacijų programomis sinchronizuojamos tik informaciniais tikslais, naudojant lentelės schemą **Projekto užduotys (msdyn\_projecttasks)**. Naudojant finansų ir operacijų programas, kūrimo, naujinimo ir naikinimo operacijos nepalaikomos.
 
   ![Projektų užduočių integravimas.](./media/3Tasks.jpg)
 
 ## <a name="project-resources"></a>Projektų ištekliai
 
-Objektas **Projekto išteklių vaidmenys** sinchronizuojamas su finansų ir operacijų programomis, naudojant **visų įmonių (rezervuojamų išteklių išteklių vaidmenų)** lentelės žemėlapį tik informaciniais tikslais. Kadangi išteklių vaidmenys Dataverse nėra būdingi konkrečiai įmonei, sistema automatiškai sukuria atitinkamus konkrečios įmonės išteklių vaidmenų įrašus finansų ir operacijų programose visiems juridiniams subjektams, įtrauktiems į dvigubo rašymo integravimo aprėptį.
+Objektas **Projektų išteklių vaidmenys** su finansų ir operacijų programomis sinchronizuojamas tik informaciniais tikslais, naudojant lentelės schemą **Visų įmonių projektų išteklių vaidmenys (bookableresourcecategories)**. Kadangi išteklių vaidmenys „Dataverse“ nėra specifiški įmonei, sistema automatiškai sukuria atitinkamus, įmonei specifiškus išteklių vaidmenų įrašus finansų ir operacijų programoje visiems teisiniams subjektams įskaitant dvigubo rašymo integracijos aprėptį.
 
 ![Išteklių vaidmenų integravimas.](./media/5Resources.jpg)
 
-"Project Operations" projekto ištekliai yra prižiūrimi Dataverse ir nesinchronizuojami su finansų ir operacijų programomis.
+„Project Operations“ projektų ištekliai tvarkomi „Dataverse“ ir nesinchronizuojami su finansų ir operacijų programomis.
 
 ### <a name="transaction-categories"></a>Operacijų kategorijos
 
-Operacijų kategorijos tvarkomos Dataverse ir sinchronizuojamos su finansų ir operacijų programomis naudojant lentelės žemėlapį **"Project" operacijų kategorijos (msdyn\_ operationscategories).** Kai sinchronizuojamas operacijų kategorijos įrašas, sistema automatiškai sukuria keturis bendrai naudojamus kategorijos įrašus. Kiekvienas įrašas atitinka operacijos tipą finansų ir operacijų programose ir susieja jį su operacijos kategorijos įrašu.
+Operacijų kategorijos tvarkomos sprendime „Dataverse“ ir sinchronizuojamos su finansų ir operacijų programomis naudojant lentelės schemą **Projektų operacijų kategorijos (msdyn\_transactioncategories)**. Kai sinchronizuojamas operacijų kategorijos įrašas, sistema automatiškai sukuria keturis bendrai naudojamus kategorijos įrašus. Kiekvienas įrašas atitinka finansų ir operacijų programų operacijų tipą ir jį susieja su operacijų kategorijos įrašu.
 
 ![Operacijų kategorijų integravimas.](./media/4TransactionCategories.jpg)
 

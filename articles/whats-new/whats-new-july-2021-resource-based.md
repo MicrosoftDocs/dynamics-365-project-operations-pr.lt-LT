@@ -1,6 +1,6 @@
 ---
 title: Kas nauja – 2021 m. liepos mėn. – „Project Operations“, skirta išteklių / nelaikomų medžiagų scenarijams
-description: Šiame straipsnyje pateikiama informacija apie kokybės atnaujinimus, kuriuos galima rasti 2021 m. liepos mėn.
+description: Šiame straipsnyje pateikiama informacija apie kokybinius naujinimus, kuriuos galima rasti 2021 m. liepos mėn. „Project Operations“, skirtos išteklių / nelaikomų medžiagų scenarijams, leidime.
 author: sigitac
 ms.date: 07/07/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "8931708"
 
 *Taikoma: „Project Operations“, skirta išteklių / nelaikomų medžiagų scenarijams*
 
-Šis straipsnis taikomas šiems Dynamics 365 Project Operations komponentams ir versijoms:
+Šis straipsnis taikomas toliau nurodytiems „Dynamics 365 Project Operations“ komponentams ir versijoms:
 
    - „Project Operations“ 4.12.0.148 arba 4.12.0.152 versijos „Microsoft Dataverse“ aplinkoje.
-   - Projektų valdymas ir apskaita Dynamics 365 Finance aplinkoje 10.0.20 versija.
+   - Projektų valdymas ir apskaita „Dynamics 365 Finance“ aplinkos 10.0.20 versijoje.
 
 ## <a name="features-included-in-this-release"></a>Į šį leidimą įtrauktos funkcijos
 
@@ -80,7 +80,7 @@ Jei paleisdami schemą susiduriate su problema, vykdykite nurodymus, pateikiamus
 | Bendroji informacija                       | 2253682              | „Project Operations“ dvigubo rašymo sprendimas neturi būti diegiamas, kai pagrindinis dvigubo rašymo sprendimas įdiegtas aplinkoje be dvigubo rašymo tvarkymo sprendimo.                                                |
 | Bendroji informacija                       | 2316420              | Jei programos vartotojo verslo vienetas pakeičiamas, įvyksta projektų vykdymo paslaugų pagrindinio sprendimo parengimo triktis.                                                                                                                     |
 | Bendroji informacija                       | 2376405              | Išspręsta leidėjo valdoma naujinimo problema (Kokybiškas naujinys pasiekiamas 4.12.0.152 versijoje)                                                                                                                     |
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektų valdymas ir apskaita pagal Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektų valdymas ir apskaita „Dynamics 365 Finance” programos aplinkose
 
 | Funkcijų sritis                      | Nuorodos numeris | Kokybės naujinimas                                                                                                                                                                                                                                                                                                                |
 |-----------------------------------|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

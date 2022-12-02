@@ -1,6 +1,6 @@
 ---
 title: Laikotarpių tipai
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip nustatyti įplaukų įvertinimo laikotarpių tipus.
+description: Šiame straipsnyje pateikiama informacijos, kaip tvarkyti pajamų įvertinimo laikotarpių tipus.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
@@ -17,12 +17,12 @@ ms.locfileid: "8930972"
 
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
-Laikotarpio tipas apibrėžia, kaip dažnai apskaičiuojamos projekto pajamos. Šiame straipsnyje pateikiama informacija apie tai, kaip nustatyti įplaukų įvertinimo laikotarpių tipus. 
+Laikotarpio tipas apibrėžia, kaip dažnai apskaičiuojamos projekto pajamos. Šiame straipsnyje pateikiama informacijos, kaip tvarkyti pajamų įvertinimo laikotarpių tipus. 
 
 ## <a name="create-and-work-with-period-types"></a>Laikotarpių tipų kūrimas ir naudojimas
 Norėdami kurti ir naudoti laikotarpių tipus, atlikite toliau nurodytus veiksmus.
 
-1. Dynamics 365 Finance aplinkoje eikite į **Projektų valdymo ir apskaitos** > **nustatymo įvertinimų** > **·** > **laikotarpių tipus**.
+1. „Dynamics 365 Finance“ aplinkoje eikite į **Projektų valdymas ir apskaita** > **Sąranka** > **Įvertinimai** > **Laikotarpių tipai**.
 2. Pasirinkite **Naujas**, kad sukurtumėte naują laikotarpio tipą. Įveskite pavadinimą ir aprašą.
 3. Lauke **Dažnumas** pasirinkite atitinkamą reikšmę.
 

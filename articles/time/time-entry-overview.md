@@ -1,6 +1,6 @@
 ---
 title: Laiko apžvalga
-description: Šiame straipsnyje pateikiama informacija apie laiko funkciją, esančią programoje Dynamics 365 Project Operations.
+description: Šiame straipsnyje pateikiama informacijos apie „Dynamics 365 Project Operations“ laiko funkciją.
 author: stsporen
 ms.date: 10/02/2020
 ms.topic: overview

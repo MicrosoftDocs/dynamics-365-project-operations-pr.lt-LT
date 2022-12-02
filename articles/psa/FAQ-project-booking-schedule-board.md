@@ -1,6 +1,6 @@
 ---
 title: Projekto rezervavimo kūrimas i iš Grafiko lentos
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip sukurti projekto užsakymą iš tvarkaraščio lentos.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip kurti projekto rezervavimą iš grafiko lentos.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

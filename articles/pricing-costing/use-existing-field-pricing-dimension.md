@@ -1,6 +1,6 @@
 ---
 title: „Project Operations“ laukai kaip kainodaros dimensijos
-description: Šiame straipsnyje pateikiama informacija naudojant laukus kaip kainodaros dimensijas Dynamics 365 Project Operations.
+description: Šiame straipsnyje pateikiama informacijos apie laukų naudojimą, pvz., „Dynamics 365 Project Operations“ kainodaros dimensijas.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

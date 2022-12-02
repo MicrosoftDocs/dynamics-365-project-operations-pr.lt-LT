@@ -1,6 +1,6 @@
 ---
 title: Subrangos sutarties eilutės ištekliai
-description: Šiame straipsnyje paaiškinama, kaip nurodyti tam skirtus išteklius, kuriuos tiekėjas teikia konkrečiai subrangos eilutei tam tikram laikui.
+description: Šiame straipsnyje paaiškinta, kaip nurodyti išteklius, kuriuos tiekėjas priskiria konkrečiai subrangos sutarties laiko eilutei.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

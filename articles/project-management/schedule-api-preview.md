@@ -1,6 +1,6 @@
 ---
 title: Projekto grafiko API sąsajų naudojimas operacijoms su planavimo objektais atlikti
-description: Šiame straipsnyje pateikiama informacija ir pavyzdžiai, kaip naudoti "Project schedule" API.
+description: Šiame straipsnyje pateikiama informacija apie projekto grafiko API sąsajų naudojimą ir jo pavyzdžiai.
 author: sigitac
 ms.date: 01/13/2022
 ms.topic: article
@@ -34,7 +34,7 @@ Toliau esančioje lentelėje pateikiamas visas projekto grafiko objektų sąraš
 | Projekto komandos narys     | msdyn_projectteam           |
 | Projekto kontroliniai sąrašai      | msdyn_projectchecklist      |
 | Projekto žyma           | msdyn_projectlabel          |
-| Projekto užduotis į etiketę   | msdyn_projecttasktolabel    |
+| Projekto užduotis, skirta žymėti   | msdyn_projecttasktolabel    |
 | Projekto sprintas          | msdyn_projectsprint         |
 
 **OperationSet**
@@ -45,16 +45,16 @@ OperationSet yra darbo vieneto modelis, kurį galima naudoti, kai operacijoje re
 
 Toliau pateikiamas dabartinių projekto grafiko API sąrašas.
 
-| **Api**                                 | Aprašą                                                                                                                       |
+| **API**                                 | Aprašą                                                                                                                       |
 |-----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| **msdyn_CreateProjectV1**               | Ši API naudojama projektui kurti. Projekto ir numatytojo projekto kibiras sukuriami nedelsiant.                         |
-| **msdyn_CreateTeamMemberV1**            | Ši API naudojama projekto komandos nariui sukurti. Komandos nario įrašas sukuriamas nedelsiant.                                  |
-| **msdyn_CreateOperationSetV1**          | Ši API naudojama kelioms užklausoms, kurias reikia atlikti atliekant operaciją, suplanuoti.                                        |
-| **msdyn_PssCreateV1**                   | Ši API naudojama objektui kurti. Toks objektas gali būti bet kuris projekto planavimo objektas, kuris palaiko kūrimo operaciją. |
-| **msdyn_PssUpdateV1**                   | Ši API naudojama objektui naujinti. Objektas gali būti bet kuris iš projekto planavimo objektų, palaikančių naujinimo operaciją  |
-| **msdyn_PssDeleteV1**                   | Ši API naudojama objektui naikinti. Toks objektas gali būti bet kuris projekto planavimo objektas, kuris palaiko naikinimo operaciją. |
-| **msdyn_ExecuteOperationSetV1**         | Ši API naudojama visoms operacijoms, esančioms nurodytame operacijų rinkinyje, vykdyti.                                                 |
-| **msdyn_PssUpdateResourceAssignmentV1** | Ši API naudojama ištekliaus priskyrimo suplanuoto darbo kontūrui atnaujinti.                                                        |
+| **msdyn_CreateProjectV1**               | Šis API yra naudojamas sukurti projektą. Projektas ir numatytoji projekto talpykla yra sukuriami nedelsiant.                         |
+| **msdyn_CreateTeamMemberV1**            | Šis API yra naudojamas sukurti projekto komandos narį. Komandos nario įrašas sukuriamas nedelsiant.                                  |
+| **msdyn_CreateOperationSetV1**          | Šį API galima naudoti norint suplanuoti keletą užklausų, kurias reikia atlikti operacijoje.                                        |
+| **msdyn_PssCreateV1**                   | Šis API yra naudojamas sukurti objektą. Toks objektas gali būti bet kuris projekto planavimo objektas, kuris palaiko kūrimo operaciją. |
+| **msdyn_PssUpdateV1**                   | Šis API yra naudojamas atnaujinti objektą. Toks objektas gali būti bet kuris projekto planavimo objektas, kuris palaiko naujinimo operaciją  |
+| **msdyn_PssDeleteV1**                   | Šis API yra naudojamas panaikinti objektą. Toks objektas gali būti bet kuris projekto planavimo objektas, kuris palaiko naikinimo operaciją. |
+| **msdyn_ExecuteOperationSetV1**         | Šis API naudojamas norint vykdyti visas nurodyto operacijų rinkinio operacijas.                                                 |
+| **msdyn_PssUpdateResourceAssignmentV1** | Šis API naudojamas išteklių priskyrimo suplanuoto darbo susiejinimui naujinti.                                                        |
 
 
 
@@ -66,16 +66,16 @@ Kadangi įrašai, naudojant **CreateProjectV1** ir **CreateTeamMemberV1**, sukur
 
 | **Grafiko objektas**   | **Kūrimas** | **Atnaujinimas** | **Naikinti** | **Svarbi informacija**                                                                                                                                                                                                                                                                                                                            |
 |-------------------------|------------|------------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Projekto užduotis            | Taip        | Taip        | Taip        | Laukus **"Progress",**"**EffortCompleted"** ir **"EffortRemaining"** galima redaguoti "Project for the Web", bet jų negalima redaguoti naudojant "Project Operations".                                                                                                                                                                                             |
-| Projekto užduoties priklausomybė | Taip        | No         | Taip        | Projekto užduoties priklausomybės įrašai neatnaujinami. Vietoj to galima panaikinti seną įrašą ir sukurti naują įrašą.                                                                                                                                                                                                                                 |
-| Išteklių priskyrimas     | Taip        | Taip\*      | Taip        | Nepalaikomos operacijos, kurioms naudojami šie laukai: **BookableResourceID**, **Pastangos**, **EffortCompleted**, **EffortRemaining** ir **PlannedWork**. Išteklių priskyrimo įrašai neatnaujinami. Vietoj to seną įrašą galima panaikinti ir sukurti naują įrašą. Išteklių priskyrimo kontūrams atnaujinti buvo pateikta atskira API. |
-| Projekto talpykla          | Taip        | Taip        | Taip        | Numatytasis kibiras sukuriamas naudojant **"CreateProjectV1** " API. Projektų kaušų kūrimo ir ištrynimo palaikymas buvo įtrauktas į 16 versijos naujinimo leidimą.                                                                                                                                                                                                   |
+| Projekto užduotis            | Taip        | Taip        | Taip        | Laukus **Eiga**, **Pastangos įdėtos** ir **Pastangos** galima redaguoti „Project for the Web", tačiau jų negalima redaguoti „Project Operations“.                                                                                                                                                                                             |
+| Projekto užduoties priklausomybė | Taip        | No         | Taip        | Projekto užduoties priklausomybės įrašai neatnaujinami. Vietoj to, seną įrašą galima panaikinti ir sukurti naują.                                                                                                                                                                                                                                 |
+| Išteklių priskyrimas     | Taip        | Taip\*      | Taip        | Nepalaikomos operacijos, kurioms naudojami šie laukai: **BookableResourceID**, **Pastangos**, **EffortCompleted**, **EffortRemaining** ir **PlannedWork**. Išteklių priskyrimo įrašai neatnaujinami. Vietoj to, seną įrašą galima panaikinti ir sukurti naują. Siekiant atnaujinti išteklių priskyrimo kontūrus, buvo pateikta atskira API. |
+| Projekto talpykla          | Taip        | Taip        | Taip        | Numatytoji talpykla sukuriama naudojant **CreateProjectV1** API. Projektų naikinimo ir kūrimo palaikymas buvo įtrauktas į 16 naujinimo leidimą.                                                                                                                                                                                                   |
 | Projekto komandos narys     | Taip        | Taip        | Taip        | Kūrimo operacijai naudokite **CreateTeamMemberV1** API.                                                                                                                                                                                                                                                                                           |
 | Project                 | Taip        | Taip        |            | Nepalaikomos operacijos, kurioms naudojami šie laukai: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Pastangos**, **EffortCompleted**, **EffortRemaining**, **Eiga**, **Pabaiga**, **TaskEarliestStart** ir **Duration**.                                                                                       |
 | Projekto kontroliniai sąrašai      | Taip        | Taip        | Taip        |                                                                                                                                                                                                                                                                                                                                                         |
-| Projekto žyma           | No         | Taip        | No         | Etikečių pavadinimus galima keisti. Ši funkcija galima tik "Project for the Web"                                                                                                                                                                                                                                                                      |
-| Projekto užduotis į etiketę   | Taip        | No         | Taip        | Ši funkcija galima tik "Project for the Web"                                                                                                                                                                                                                                                                                                  |
-| Projekto sprintas          | Taip        | Taip        | Taip        | Lauko **Pradžia** data turi būti ankstesnė nei laukas **Baigti**. To paties projekto sprintai negali sutapti vienas su kitu. Ši funkcija galima tik "Project for the Web"                                                                                                                                                                    |
+| Projekto žyma           | No         | Taip        | No         | Žymų pavadinimus galima keisti. Ši funkcija pasiekiama tik „Project for the Web“                                                                                                                                                                                                                                                                      |
+| Projekto užduotis, skirta žymėti   | Taip        | No         | Taip        | Ši funkcija pasiekiama tik „Project for the Web“                                                                                                                                                                                                                                                                                                  |
+| Projekto sprintas          | Taip        | Taip        | Taip        | Lauko **Pradžia** data turi būti ankstesnė nei **Pabaigos** laukelyje. To paties projekto vykdymas vienas su kitu nepersidengia. Ši funkcija pasiekiama tik „Project for the Web“                                                                                                                                                                    |
 
 
 
@@ -86,7 +86,7 @@ ID ypatybė yra pasirinktinė. Jei ji pateikta, sistema bando ypatybę panaudoti
 
 Toliau pateikiamas apribojimų ir žinomų problemų sąrašas.
 
--   Projekto grafiko API gali naudoti tik vartotojai, turintys **"Microsoft Project" licenciją**. Jų negali toliau nurodyti vartotojai.
+-   Projekto grafiko API sąsajas gali naudoti tik **Vartotojai, turintys „Microsoft Project“ licenciją**. Jų negali toliau nurodyti vartotojai.
     -   Programų vartotojai
     -   Sistemos vartotojai
     -   Integravimo vartotojai
@@ -94,12 +94,12 @@ Toliau pateikiamas apribojimų ir žinomų problemų sąrašas.
 -   Kiekviename **OperationSet** gali būti ne daugiau kaip 100 operacijų.
 -   Kiekvienas vartotojas gali turėti ne daugiau kaip 10 atvirų **OperationSet**.
 -   „Project Operations“ šiuo metu palaikoma ne daugiau kaip 500 projekto užduočių iš viso.
--   Kiekviena išteklių priskyrimo kontūro naujinimo operacija laikoma viena operacija.
--   Kiekviename atnaujintų kontūrų sąraše gali būti ne daugiau kaip 100 laiko eilučių.
+-   Kiekviena išteklių priskyrimo naujinimo operacija apskaičiuojama kaip viena operacija.
+-   Kiekviename atnaujintų kontūrų sąraše gali būti ne daugiau kaip 100 laiko pjūvių.
 -   **OperationSet** trikties būsena ir trikties žurnalai šiuo metu negalimi.
--   Vienam projektui tenka ne daugiau kaip 400 sprintų.
--   [Projektų ir užduočių](/project-for-the-web/project-for-the-web-limits-and-boundaries) ribos ir ribos.
--   Etiketės šiuo metu galimos tik "Project for the Web".
+-   Vienam projektui įgyvendinti galimi ne daugiau kaip 400 spustelėjimų.
+-   [Projektų ir užduočių limitai bei ribos](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+-   Žymos kol kas pasiekiamos tik „Project for the Web“.
 
 **Klaidų apdorojimas**
 
@@ -108,23 +108,23 @@ Toliau pateikiamas apribojimų ir žinomų problemų sąrašas.
 
 **Išteklių priskyrimo kontūrų redagavimas**
 
-Skirtingai nuo visų kitų projekto planavimo API, kurios atnaujina objektą, išteklių priskyrimo kontūro API yra atsakinga tik už vieno lauko msdyn_plannedwork naujinimus viename objekte, msydn_resourceassignment.
+Skirtingai nei visos kitos projekto planavimo API, atnaujinančios objektą, išteklių priskyrimo API yra visiškai atsakinga už vieno lauko msdyn_plannedwork, t. y. vieno objekto, msydn_resourceassignment.
 
-Nurodytas tvarkaraščio režimas yra:
+Nurodytas grafiko režimas yra:
 
 -   **fiksuoti vienetai**
--   Projekto kalendorius yra 9-5p yra 9-5pst, Pirmadienis, Tue, Tuurs, Penktadienis (BE DARBO TREČIADIENIAIS)
--   Ir išteklių kalendorius yra nuo 9 iki 1p PST nuo pirmadienio iki penktadienio
+-   projekto kalendorius yra 9-5p yra 9-5pst, pirmadienis, antradienis, ketvirtadienis, penktadienis (TREČIADIENIAIS NEDIRBAMA)
+-   Ir išteklių kalendorius yra 9-1p PST nuno pirmadienio iki penktadienio
 
-Ši užduotis atliekama vienai savaitei, keturioms valandoms per dieną. Taip yra todėl, kad išteklių kalendorius yra nuo 9 iki 1 PST arba keturias valandas per dieną.
+Šis priskyrimas skirtas savaitei, keturioms valandoms per dieną. Taip yra todėl, kad išteklių kalendorius yra iš 9-1 PST arba keturių valandų per dieną.
 
-| &nbsp;     | Užduotis | Pradžios data | Pabaigos data  | Kiekis | 6/13/2022 | 6/14/2022 | 6/15/2022 | 6/16/2022 | 6/17/2022 |
+| &nbsp;     | Užduotis | Pradžios data | Pabaigos data  | Kiekis | 2022-06-13 | 2022-06-14 | 2022-06-15 | 2022-06-16 | 2022-06-17 |
 |------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
-| 9-1 darbuotojas |  T1  | 6/13/2022  | 6/17/2022 | 20       | 4         | 4         | 4         | 4         | 4         |
+| 9–1 darbuotojai |  T1  | 2022-06-13  | 2022-06-17 | 20       | 4         | 4         | 4         | 4         | 4         |
 
-Pavyzdžiui, jei norite, kad darbuotojas šią savaitę kiekvieną dieną dirbtų tik tris valandas, o kitoms užduotims atlikti leistų vieną valandą.
+Pavyzdžiui, jei norite, kad darbuotojas dirbtų tik tris valandas kiekvieną šios savaitės dieną ir leisti vieną valandą atlikti kitas užduotis.
 
-#### <a name="updatedcontours-sample-payload"></a>AtnaujintasContours naudingosios apkrovos pavyzdys:
+#### <a name="updatedcontours-sample-payload"></a>UpdatedContours apkrovos pavyzdys:
 
 ```json
 [{
@@ -138,11 +138,11 @@ Pavyzdžiui, jei norite, kad darbuotojas šią savaitę kiekvieną dieną dirbt�
 }]
 ```
 
-Tai yra priskyrimas po to, kai paleidžiama naujinimo kontūro grafiko API.
+Tai yra priskyrimas paleidus grafiko API kontūro naujinimą.
 
-| &nbsp;     | Užduotis | Pradžios data | Pabaigos data  | Kiekis | 6/13/2022 | 6/14/2022 | 6/15/2022 | 6/16/2022 | 6/17/2022 |
+| &nbsp;     | Užduotis | Pradžios data | Pabaigos data  | Kiekis | 2022-06-13 | 2022-06-14 | 2022-06-15 | 2022-06-16 | 2022-06-17 |
 |------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
-| 9-1 darbuotojas | T1   | 6/13/2022  | 6/17/2022 | 15       | 3         | 3         | 3         | 3         | 3         |
+| 9–1 darbuotojai | T1   | 2022-06-13  | 2022-06-17 | 15       | 3         | 3         | 3         | 3         | 3         |
 
 
 **Scenarijaus pavyzdys**
@@ -195,7 +195,7 @@ CallExecuteOperationSetAction(operationSetId);
 Console.WriteLine("Done....");
 ```
 
-** Papildomi mėginiai
+** Papildomi pavyzdžiai
 
 ```csharp
 #region Call actions --- Sample code ----

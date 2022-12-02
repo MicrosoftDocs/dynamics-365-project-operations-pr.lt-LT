@@ -1,6 +1,6 @@
 ---
 title: Produktai
-description: Šiame straipsnyje pateikiama informacija apie produktų katalogą, kurį galite naudoti teikdami informaciją klientams apie jūsų organizacijos siūlomus produktus ir kainas.
+description: Šiame straipsnyje pateikta informacija apie produktų katalogą, kurį galite naudoti norėdami klientams pateikti informaciją apie produktus ir kainodarą jūsų organizacijoje.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

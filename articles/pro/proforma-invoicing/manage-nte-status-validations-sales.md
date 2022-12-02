@@ -1,6 +1,6 @@
 ---
 title: Būsenos Neviršyti ir tikrinimų valdymas
-description: Šiame straipsnyje pateikiama informacija apie "Project Operations" atliekamus ribinius patikrinimus, kurių negalima viršyti.
+description: Šiame straipsnyje pateikiama informacija apie limito, kurio negalima viršyti, patikras, atliekamas sistemoje „Project Operations“.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

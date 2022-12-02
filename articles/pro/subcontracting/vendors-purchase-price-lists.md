@@ -1,6 +1,6 @@
 ---
 title: Tiekėjų ir pirkimo kainoraščių valdymas programoje „Project Operations”
-description: Šiame straipsnyje pateikiama informacija, kuri padės kurti ir tvarkyti tiekėjo duomenis ir pirkimo kainoraščius subrangos sutartims sudaryti.
+description: Šiame straipsnyje pateikta informacija, kuri padės kurti ir prižiūrėti tiekėjo duomenis bei pirkimo kainoraščius, naudojamus subrangos sutarčiai sudaryti.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: article

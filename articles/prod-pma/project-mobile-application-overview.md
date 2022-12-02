@@ -1,6 +1,6 @@
 ---
 title: Projektams skirtų mobiliųjų įrenginių programėlių apžvalga
-description: Šiame straipsnyje pateikiama bendra informacija apie su projekto laiku susijusias programas, skirtas, Projekto laiko įvedimas Microsoft Dynamics 365 Project Timesheet ir Mano darbo laiko apskaitos žiniaraščiai / darbo laiko apskaitos žiniaraščiai, kurie pasiekiami mobiliajame įrenginyje.
+description: Šis straipsnis suteikia bendrąją informaciją apie su laiku susijusių projektų programas „Microsoft Dynamics 365 Project Timesheet“, projekto laiko įrašą ir mano grafikus / grafikus, kurie yra prieinami mobiliajame įrenginyje.
 author: Yowelle
 ms.date: 05/28/2019
 ms.topic: overview
@@ -29,15 +29,15 @@ Trijų su projekto laiku susijusių mobiliųjų įrenginių programėlių, skirt
 
 ## <a name="project-timesheet-mobile-app"></a>Mobiliųjų įrenginių programėlė „Project Timesheet“
 
-Mobiliųjų įrenginių programėlė „Dynamics 365 Project Timesheet“ leidžia vartotojams pateikti ir tvirtinti projektų grafikus mobiliuosiuose įrenginiuose. Ši mobilioji programėlė pateikia darbo laiko apskaitos žiniaraščio funkciją Dynamics 365 Finance projektų valdymo ir apskaitos srityje. Ji padeda gerinti vartotojų produktyvumą ir efektyvumą, taip pat laiku teikti ir tvirtinti projektų grafikus.
+Mobiliųjų įrenginių programėlė „Dynamics 365 Project Timesheet“ leidžia vartotojams pateikti ir tvirtinti projektų grafikus mobiliuosiuose įrenginiuose. Ši mobiliųjų įrenginių programėlė apima grafiko funkcionalumą, esantį „Dynamics 365 Finance“ projektų valdymo ir apskaitos srityje. Ji padeda gerinti vartotojų produktyvumą ir efektyvumą, taip pat laiku teikti ir tvirtinti projektų grafikus.
 
 ## <a name="project-time-entry-workspace"></a>„Project Time Entry” darbo sritis
 
-„Project Time Entry” darbo srityje vartotojams leidžiama įvesti ir įrašyti projekto laiką. Tačiau joje vartotojai negali teikti arba tvirtinti projekto grafikų. Ji gali būti naudojama tik laikui įvesti. Ši mobilioji darbo sritis skirta naudoti kartu su mobiliąja finansų ir operacijų programa.
+„Project Time Entry” darbo srityje vartotojams leidžiama įvesti ir įrašyti projekto laiką. Tačiau joje vartotojai negali teikti arba tvirtinti projekto grafikų. Ji gali būti naudojama tik laikui įvesti. Ši mobilioji darbo sritis skirta naudoti kartu su finansų ir operacijų mobiliųjų įrenginių programa.
 
 ## <a name="my-timesheetstimesheets-for-my-review"></a>„My Timesheets” / „Timesheets for my Review”
 
-„My Timesheets” (optimizuota mobiliesiems įrenginiams) ir „Timesheets for my Review” (optimizuota mobiliesiems įrenginiams) sudaro sprendimą, kuris leidžia darbuotojams kurti, teikti ir tvirtinti projekto grafikus mobiliajame įrenginyje. Darbuotojai gali pasiekti „Finance” funkcijas naudodami programėlės URL. Šiam sprendimui nereikia finansų ir operacijų mobiliosios programos.
+„My Timesheets” (optimizuota mobiliesiems įrenginiams) ir „Timesheets for my Review” (optimizuota mobiliesiems įrenginiams) sudaro sprendimą, kuris leidžia darbuotojams kurti, teikti ir tvirtinti projekto grafikus mobiliajame įrenginyje. Darbuotojai gali pasiekti „Finance” funkcijas naudodami programėlės URL. Šiam sprendimui nebūtina mobilioji finansų ir operacijų mobiliųjų įrenginių programa.
 
 ## <a name="for-more-information"></a>Norėdami gauti daugiau informacijos, žr.
 

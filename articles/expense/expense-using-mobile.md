@@ -1,6 +1,6 @@
 ---
 title: Mobilioji išlaidų programėlė
-description: Šiame straipsnyje pateikiama informacija apie mobiliąją darbo sritį Išlaidų valdymas.
+description: Šiame straipsnyje pateikiama informacija apie išlaidų valdymą mobiliojoje darbo srityje.
 author: suvaidya
 ms.date: 11/15/2021
 ms.topic: article
@@ -24,7 +24,7 @@ ms.locfileid: "8930236"
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
-Šiame straipsnyje pateikiama informacija apie mobiliąją **darbo sritį Išlaidų valdymas**. Ši darbo sritis leidžia vartotojams fiksuoti ir nusiųsti kvitą, kad ją vėliau galėtų pridėti prie išlaidų ataskaitos. Vartotojai taip pat gali greitai sukurti išlaidų eilutę naudodami pridėtą kvitą ir kurti bei valdyti savo išlaidų ataskaitas. Be to, tvirtintojai gali naudoti **išlaidų valdymo** mobiliąją darbo sritį, kad galėtų peržiūrėti jiems priskirtas išlaidų ataskaitas ir patvirtinti arba atmesti tas išlaidų ataskaitas.
+Šiame straipsnyje pateikiama informacija apie **Išlaidų valdymą** mobiliojoje darbo srityje. Ši darbo sritis leidžia vartotojams fiksuoti ir nusiųsti kvitą, kad ją vėliau galėtų pridėti prie išlaidų ataskaitos. Vartotojai taip pat gali greitai sukurti išlaidų eilutę naudodami pridėtą kvitą ir kurti bei valdyti savo išlaidų ataskaitas. Be to, tvirtintojai gali naudoti **išlaidų valdymo** mobiliąją darbo sritį, kad galėtų peržiūrėti jiems priskirtas išlaidų ataskaitas ir patvirtinti arba atmesti tas išlaidų ataskaitas.
 
 Ši mobilioji darbo sritis skirta naudoti su „Dynamics 365“ bendrųjų operacijų mobiliųjų įrenginių programėle.
 
@@ -47,7 +47,7 @@ Taip pat galite naudoti šias funkcijas:
 - Pateikite patvirtinimo ir kompensavimo išlaidų ataskaitą.
 - Patvirtinkite arba atmeskite išlaidų ataskaitas, kurioms esate priskirtas tvirtintojas.
 
-## <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Būtinosios sąlygos, jei naudojate Dynamics 365 Finance
+## <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Būtinosios sąlygos, jei naudojate „Dynamics 365 Finance"
 
 Jei organizacijoje įdiegta „Finance“, sistemos administratorius turi publikuoti mobiliąją darbo sritį **Išlaidų valdymas**. 
 
@@ -100,7 +100,7 @@ Atsisiųskite ir įdiekite „Dynamics 365 Unified Ops“ mobiliųjų įrengini�
 
 10. Pasirinkite **Atlikta**.
 
-## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace"></a>Patvirtinti išlaidų ataskaitą naudojant mobiliąją darbo sritį Išlaidų valdymas
+## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace"></a>Išlaidų ataskaitos patvirtinimas naudojant išlaidų valdymo mobiliąją darbo sritį
 
 1. Mobiliajame įrenginyje atidarykite **išlaidų valdymo** darbo sritį.
 2. **Išlaidų patvirtinimuose** pateikiamas jums priskirtų išlaidų ataskaitų skaičius patvirtinimui. Numeris atnaujinamas maždaug kas 30 minučių. Pažymėkite **išlaidų patvirtinimai**.
@@ -113,7 +113,7 @@ Atsisiųskite ir įdiekite „Dynamics 365 Unified Ops“ mobiliųjų įrengini�
 6. Įveskite visus patvirtinimo veiksmo komentarus.
 7. Pasirinkite **Atlikta**.
 
-## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace"></a>Sukurkite naują išlaidų ataskaitą ir pateikite ją tvirtinti naudodami mobiliąją darbo sritį Išlaidų valdymas
+## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace"></a>Naujos išlaidų ataskaitos kūrimas ir jos pateikimas patvirtinimui naudojant išlaidų valdymo mobiliąją darbo sritį
 
 1. Mobiliajame įrenginyje atidarykite **išlaidų valdymo** darbo sritį.
 2. Pasirinkite **Išlaidų įvedimas**.
@@ -204,28 +204,28 @@ Atsisiųskite ir įdiekite „Dynamics 365 Unified Ops“ mobiliųjų įrengini�
 
 ## <a name="frequently-asked-questions"></a>Dažnai užduodami klausimai
 
-### <a name="why-doesnt-the-expense-mobile-app-enter-the-payment-method-by-default"></a>Kodėl mobilioji programėlė "Expense" pagal numatytuosius nustatymus neįveda mokėjimo metodo?
+### <a name="why-doesnt-the-expense-mobile-app-enter-the-payment-method-by-default"></a>Kodėl mobiliųjų įrenginių išlaidų programėlė neįves mokėjimo būdo pagal numatytuosius parametrus?
 
-Organizacijos gali tinkinti **kiekvienos sukurtos išlaidų kategorijos numatytojo mokėjimo metodo** parametrą. Be to, kai nustatote mokėjimo būdus, lauką Numatytasis mokėjimo būdas galite nustatyti **tik importuoti**.**·**
+Organizacijos gali tinkinti kiekvienos išlaidų kategorijos parametrą **Numatytasis mokėjimo būdas**, kai jas kuria. Be to, nustatę mokėjimo būdus galite nustatyti lauką **Numatytasis mokėjimo būdas** kaip **Tik importuoti**.
 
-Kai **leidžiama importuoti tik** mokėjimo metodą, mokėjimo metodas pagal numatytuosius nustatymus neįvedamas. Jis bus tuščias išlaidų kategorijose, kuriose nustatytas šis mokėjimo būdas. Šis elgesys yra nuoseklus tiek žiniatinklio patirtyje, tiek mobiliojo ryšio patirtyje.
+Kai mokėjimo būdui įjungta **Tik importuoti**, pagal numatytuosius parametrus mokėjimo būdas neįvedamas. Išlaidų kategorijose, kuriose nustatomas šis mokėjimo būdas, jis bus tuščias. Toks veikimo būdas nuosekliai veikia ir naudojant žiniatinklį, ir mobiliųjų įrenginių programėles.
     
-Kai **importavimas neįgalintas tik** mokėjimo metodui, nustatyta vertė pagal numatytuosius nustatymus įvedama išlaidų kategorijoms, kuriose nustatytas šis mokėjimo metodas. Tačiau yra žinoma problema, kai numatytoji reikšmė neįvesta į mobiliųjų įrenginių programėlę "Expense". Norėdami išspręsti šią problemą, prieš įrašydami išlaidų ataskaitą rankiniu būdu pasirinkite mokėjimo būdą. 
+Jei mokėjimo būdui neįjungta **Tik importuoti**, pagal numatytuosius parametrus įvedama nustatyta išlaidų kategorijos reikšmė, kai nustatytas šis mokėjimo būdas. Tačiau yra žinoma problema, kai numatytoji reikšmė neįvedama išlaidų mobiliųjų įrenginių programėlėje. Norėdami išspręsti šią problemą, prieš įrašydami išlaidų ataskaitą rankiniu būdu pasirinkite mokėjimo būdą. 
 
-### <a name="why-cant-i-add-or-edit-financial-dimensions-in-the-expense-mobile-app"></a>Kodėl negaliu įtraukti arba redaguoti finansinių aspektų mobiliųjų įrenginių programėlėje Išlaidos?
+### <a name="why-cant-i-add-or-edit-financial-dimensions-in-the-expense-mobile-app"></a>Kodėl negaliu įtraukti arba redaguoti finansinių dimensijų išlaidų mobiliųjų įrenginių programėlėje?
 
-Dimensijų ir paskirstymų įvedimas nepalaikomas. Norėdami apeiti šį apribojimą, galite nustatyti šiuos laukus pagal numatytuosius nustatymus mobiliojoje programėlėje nustatydami numatytąsias finansines dimensijas vienam projektui ar darbuotojui.
+Dimensijų ir paskirstymų įvedimas nepalaikomas. Norėdami išspręsti šį apribojimą, mobiliųjų įrenginių programėlėje šiuos laukus galite nustatyti pagal numatytuosius parametrus, nustatydami numatytąsias projekto ar darbuotojo finansines dimensijas.
 
-### <a name="why-do-i-sometimes-see-a-synchronization-error-in-the-expense-mobile-app"></a>Kodėl kartais matau sinchronizavimo klaidą mobiliųjų įrenginių programėlėje Išlaidos?
+### <a name="why-do-i-sometimes-see-a-synchronization-error-in-the-expense-mobile-app"></a>Kodėl išlaidų mobiliųjų įrenginių programėlėje kartais rodoma sinchronizavimo klaida?
 
-Jei išlaidų eilutės neatitinka strategijos reikalavimų, o vartotojas pateikia išlaidų ataskaitą nesikreipdamas į strategijos įspėjimą, mobilieji duomenys nesinchronizuojami su serveriu ir įvyksta sinchronizavimo klaida. Visos išlaidų ataskaitos, pateiktos įvykus sinchronizavimo gedimui, liks nepavykusioje būsenoje ir sukels daugiau sinchronizavimo gedimų. Vienintelis būdas išspręsti šią situaciją yra rankiniu būdu ištrinti sinchronizavimo pranešimus. Ši problema buvo išspręsta sustabdant išlaidų ataskaitų pateikimą, kai strategijos įspėjimai nebuvo pašalinti, kad būtų išvengta sinchronizavimo klaidų.
+Jei išlaidų eilutės neatitinka strategijos reikalavimų ir vartotojas pateikia išlaidų ataskaitą, nekreipdamas dėmesio į strategijos įspėjimą, mobilieji duomenys su serveriu nesinchronizuojami ir įvyksta sinchronizavimo triktis. Visos išlaidų ataskaitos, pateikiamos po sinchronizavimo trikties, išliks būsenos Nepavyko ir sukels daugiau sinchronizavimo trikčių. Vienintelis būdas ištaisyti šią situaciją yra rankiniu būdu panaikinti sinchronizavimo pranešimus. Ši problema buvo išspręsta sustabdant išlaidų ataskaitų pateikimą, kai nesureaguojama į strategijos įspėjimus, kad būtų išvengta sinchronizavimo klaidų.
 
-### <a name="why-isnt-project-and-category-validation-correctly-reflected-in-the-expense-mobile-app"></a>Kodėl projekto ir kategorijos patvirtinimas tinkamai neatsispindi mobiliųjų įrenginių programėlėje Išlaidos?
+### <a name="why-isnt-project-and-category-validation-correctly-reflected-in-the-expense-mobile-app"></a>Kodėl išlaidų mobiliųjų įrenginių programėlėje tinkamai neatsispindi projektų ir kategorijų tikrinimas?
 
-Šis tikrinimas šiuo metu nepalaikomas. Tačiau parama gali būti pridėta ateityje. 
+Šis tikrinimas šiuo metu nepalaikomas. Tačiau šis palaikymas gali būti įtrauktas ateityje. 
 
-### <a name="what-document-types-are-supported-in-the-expense-mobile-app"></a>Kokie dokumentų tipai palaikomi mobiliųjų įrenginių programėlėje Išlaidos?
+### <a name="what-document-types-are-supported-in-the-expense-mobile-app"></a>Kokie dokumentų tipai palaikomi išlaidų mobiliųjų įrenginių programėlėje?
 
-"Cost" mobilioji programa palaiko tik vaizdus. Šiuo metu ji nepalaiko PDF rinkmenų ar kitų dokumentų.
+Išlaidų mobiliųjų įrenginių programėlėje palaiko tik vaizdus. Nepalaikomi PDF arba kitokie dokumentai.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

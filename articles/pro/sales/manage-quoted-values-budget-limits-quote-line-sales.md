@@ -1,6 +1,6 @@
 ---
 title: Projektu pagrįstų pasiūlymo eilučių apžvalga
-description: Šiame straipsnyje pateikiama informacija apie projekto pasiūlymų eilučių naudojimą projekto darbams.
+description: Šiame straipsnyje pateikiama informacija apie projektu pagrįstų pasiūlymo eilučių naudojimą projektiniam darbui.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: overview

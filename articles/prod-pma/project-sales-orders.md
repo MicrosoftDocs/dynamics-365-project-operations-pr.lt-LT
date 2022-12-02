@@ -1,6 +1,6 @@
 ---
 title: Laiko ir medžiagų projektų pardavimo užsakymai
-description: Šiame straipsnyje paaiškinama, kaip kurti projektinius laiko ir medžiagų projektų pardavimo užsakymus.
+description: Šiame straipsnyje aiškinama, kaip kurti projektu pagrįstus pardavimų užsakymus laiko ir medžiagų projektams.
 author: Yowelle
 ms.date: 04/05/2019
 ms.topic: article

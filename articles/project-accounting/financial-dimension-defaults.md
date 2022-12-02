@@ -1,6 +1,6 @@
 ---
 title: Finansinės dimensijos numatytosios reikšmės
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip nustatyti numatytąsias finansinių dimensijų reikšmes.
+description: Šiame straipsnyje pateikta informacija apie tai, kaip nustatyti finansinių dimensijų numatytąsias reikšmes.
 author: sigitac
 ms.date: 12/14/2021
 ms.topic: article
@@ -19,7 +19,7 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 
 
 
-Dynamics 365 Project Operations [naudoja finansinių dimensijų](/dynamics365/finance/general-ledger/financial-dimensions) sistemą Dynamics 365 Finance, kad pateiktų papildomų įžvalgų apie projektų sublederio ir DK operacijas.
+„Dynamics 365 Project Operations“ naudoja [finansinių dimensijų](/dynamics365/finance/general-ledger/financial-dimensions) sistemą programoje „Dynamics 365 Finance“, kad teiktų papildomų įžvalgų apie projekto papildomos knygos ir didžiosios knygos operacijas.
 
 Numatytąsias finansines dimensijas galima nustatyti klientui, projekto finansavimo šaltiniui, etapui, projekto sutarties eilutei arba projektui.
 

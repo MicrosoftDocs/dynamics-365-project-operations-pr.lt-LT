@@ -1,6 +1,6 @@
 ---
 title: Subrangos būsenos perėjimai
-description: Šiame straipsnyje paaiškinami būsenos perėjimai pagal subrangos sutartį programoje "Microsoft" Dynamics 365 Project Operations, kai sukuriama, vykdoma ir uždaroma subrangos sutartis.
+description: Šiame straipsnyje paaiškinta, kaip sukuriami, vykdomi ir uždaromi būsenos perėjimai naudojant „Microsoft Dynamics 365 Project Operations".
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article
@@ -17,18 +17,18 @@ ms.locfileid: "9522941"
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
-Šiame straipsnyje paaiškinami būsenos perėjimai subrangoje programoje "Microsoft" Dynamics 365 Project Operations. Kiekviena valstija pateikiama kaip juodraštis, patvirtinama, uždaroma arba atšaukiama. Šis vaizdas atspindi būsenos perėjimus.
+Šiame straipsnyje paaiškinami subrangovo sutarties faktūros būsenos perėjimai „Microsoft Dynamics 365 Project Operations“. Kiekviena būsena vaizduojama kaip juodraštis, patvirtinta, uždaryta arba atšaukta. Tolesniuose paveikslėliuose pateikti būsenos perėjimai.
 
 ![Subrangos būsenos modelis](../media/SubconStates.png)  
 
-Šioje lentelėje pateikiamas aprašymas, ką kiekviena būsena reiškia subrangos ciklo programoje "Project Operations".
+Toliau esančioje lentelėje paaiškinta, ką kiekviena būsena atitinka „Project Operations" tiekėjo subrangos gyvavimo cikle.
 
-| Rajonas | Aprašą | Leidžiami perėjimai |
+| Rajonas | Aprašą | Leisti perėjimai |
 | --- | --- | --- |
-| Juodraštis | Tai rodo pradinę subrangos sutarties būseną. Vyksta derybos su pardavėju. Linijos ir kainodara gali būti keičiamos. Šios būklės subrangos sutartis gali būti naudojama išteklių ir medžiagų projekto poreikiams įvertinti ir darbuotojų projektams. Jis taip pat gali būti nurodytas pagal laiką, išlaidas ir medžiagų naudojimą projekte. Šios būsenos subrangos sutartis gali būti redaguojama ir ištrinama. | Patvirtinta |
-| Patvirtinta | Tai yra subrangos etapas po to, kai derybos su pardavėju dėl kainų nustatymo ir perkamų prekių linijų kainos yra baigtos. Tačiau faktinis medžiagų pristatymas ir (arba) darbas pagal subrangos sutartis sudarytais ištekliais vis dar vyksta. Šios būklės subrangos sutartis gali būti naudojama išteklių ir medžiagų projekto poreikiams įvertinti ir darbuotojų projektams. Jis taip pat gali būti nurodytas pagal laiką, išlaidas ir medžiagų naudojimą projekte. Šios būsenos subrangos sutartis negali būti redaguojama ar ištrinama. Mygtukas **Atšaukti** leidžia atšaukti patvirtintą subrangos sutartį. Mygtukas **Iš naujo atidaryti** leidžia iš naujo atidaryti subrangos sutartį, kad ji vėl būtų įtraukta į **juodraščio** būseną. Naudokite mygtuką **Uždaryti**, kad uždarytumėte patvirtintą subrangos sutartį. | Uždaryta <br> Atšauktos <br> Juodraštis |
-| Uždaryta | Tai yra subrangos etapas, kai baigiamas faktinis medžiagų pristatymas ir (arba) darbas subrangos būdu iš subrangovų išteklių. Subrangos sutartis šioje būsenoje nebegali būti naudojama išteklių ir medžiagų išteklių ir medžiagų projektų reikalavimams įvertinti ir darbuotojų projektams. Be to, jo nebegalima nurodyti laiku, išlaidomis ir medžiagų naudojimu projekte. Šios būsenos subrangos sutartis negali būti redaguojama ar ištrinama. | Joks |
-| Atšauktos | Tai yra subrangos etapas, kai nebereikia faktinio medžiagų pristatymo ir (arba) darbo naudojant subrangos išteklius. Šios būsenos subrangos sutartis negali būti naudojama išteklių ir medžiagų projekto poreikiams įvertinti ir darbuotojų projektams, taip pat negalima nurodyti laiko, išlaidų ir medžiagų panaudojimo projekte. Šios būsenos subrangos sutartis negali būti redaguojama ar ištrinama. | Joks |
+| Juodraštis | Tai atitinka pradinę subrangos būseną. Vyksta derybos su pardavėju. Eilutės ir kainos gali būti modifikuojamos. Šios būsenos subrangos sutartis gali būti naudojama įvertinti darbuotojų projektų reikalavimus ištekliams ir medžiagoms. Jį taip pat galima nurodyti atsižvelgiant į laiką, išlaidas ir medžiagos naudojimą projektui. Šios būsenos subrangos sutartį galima redaguoti ir panaikinti. | Patvirtinta |
+| Patvirtinta | Tai yra subrangos sutarties etapo pabaiga, po derybų su pardavėju dėl įsigytų kainų ir eilučių elementų. Tačiau faktinis medžiagų ir (arba) darbo pristatymas naudojant subrangos sutarties išteklius vis dar vykdomas. Šios būsenos subrangos sutartis gali būti naudojama įvertinti darbuotojų projektų reikalavimus ištekliams ir medžiagoms. Jį taip pat galima nurodyti atsižvelgiant į laiką, išlaidas ir medžiagos naudojimą projektui. Šios būsenos subrangos sutarties negalima redaguoti ar panaikinti. Mygtukas **Atšaukti** leidžia atšaukti patvirtintą subrangos sutartį. Mygtukas **Iš naujo atidaryti** leidžia iš naujo atidaryti subrangos sutartį, kad ji grįžtų į **juodraščio** būseną. Naudokite mygtuką **Uždaryti** kad uždarytumėte patvirtintą subrangos sutartį. | Uždaryta <br> Atšauktos <br> Juodraštis |
+| Uždaryta | Ši būsena atitinka etapą, kai faktinis subrangos sutarties medžiagų ir (arba) išteklių pristatymas yra baigtas. Šios būsenos subrangos sutartis gali būti naudojama įvertinti darbuotojų projektų reikalavimus ištekliams ir medžiagoms. Jį taip pat jo nebegalima nurodyti atsižvelgiant į laiką, išlaidas ir medžiagos naudojimą projektui. Šios būsenos subrangos sutarties negalima redaguoti ar panaikinti. | Joks |
+| Atšauktos | Ši būsena atitinka etapą, kai faktinis subrangos sutarties medžiagų ir (arba) išteklių pristatymas yra nebereikalingas. Šios būsenos nenaudojama, jei norite įvertinti išteklių ir medžiagos personalo projekto reikalavimus, be to, jo negalima nurodyti laiko, išlaidų ir medžiagos naudojimo projektui. Šios būsenos subrangos sutarties negalima redaguoti ar panaikinti. | Joks |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Išankstinės projekto sąskaitos faktūros
-description: Šiame straipsnyje pateikiama informacija apie proformos projekto SF projekto operacijose.
+description: Šiame straipsnyje pateikiama informacija apie „Project Operations“ išankstines projektu pagrįstas sąskaitas faktūras.
 author: rumant
 ms.date: 04/06/2021
 ms.topic: article

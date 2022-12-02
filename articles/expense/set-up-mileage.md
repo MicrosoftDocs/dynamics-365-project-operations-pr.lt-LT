@@ -1,6 +1,6 @@
 ---
 title: Kilometražo nustatymas naudojant kilometražo tarifo pakopas
-description: Šiame straipsnyje pateikiama informacija apie ridos įkainius ir ridos lygio pakopas.
+description: Šiame straipsnyje pateikiama informacija apie kilometražo tarifus ir kilometražo tarifo pakopas.
 author: suvaidya
 ms.date: 05/20/2021
 ms.topic: article
@@ -50,15 +50,15 @@ Funkcija **Kelių kilometražo pakopų, kurių tarifo funkcija yra ta pati** pag
 
 Įjungę funkciją, iš naujo nustatykite kilometražo pakopas, kad jos tinkamai atspindėtų lauko **Kiekis** reikšmę. 
 
-## <a name="enable-the-mileage-totals-calculation-by-fiscal-year-feature"></a>Įgalinkite ridos sumų skaičiavimą pagal finansiniai metai funkciją
+## <a name="enable-the-mileage-totals-calculation-by-fiscal-year-feature"></a>Kilometražo sumų skaičiavimo pagal finansinius metus funkcijos įgalinimas
 
-Funkcija Ridos **sumų skaičiavimas pagal finansiniai metai** įgalina naują išlaidų valdymo parametrų nustatymą, kuris atlieka visų ridos skaičiavimų skaičiavimus pagal finansiniai metai, o ne pagal kalendorinius metus. Norėdami įjungti šią funkciją, atlikite šiuos veiksmus.
+Naudojant **Kilometražo sumų skaičiavimas pagal finansinius metus** funkciją, bendrosios sumos apskaičiuojamos naudojant naują Išlaidų valdymo parametrą, skaičiuojantį kilometražo sumas ne pagal kalendorinius metus, o pagal finansinius metus. Norėdami įjungti šią funkciją, atlikite šiuos veiksmus.
 
 1. Eikite į **Darbo sritys** > **Funkcijų tvarkymas**.
-1. Sąraše raskite ir pasirinkite **Ridos sumų skaičiavimas pagal finansiniai metai**, tada pasirinkite **Įgalinti dabar**.
-1. Eikite į **Išlaidų valdymo** > **sąrankos** > **bendrieji** > **išlaidų valdymo parametrai**.
-1. **Puslapyje Išlaidų valdymo parametrai** raskite ir įgalinkite **Naudoti finansiniai metai ridos sumai**.
+1. Sąraše raskite ir pasirinkite **Kilometražo sumų skaičiavimas pagal finansinius metus**, tada pasirinkite **Įjungti dabar**.
+1. Eikite į **Išlaidų valdymas** > **Sąranka** > **Bendrieji** > **Išlaidų valdymo parametrai**.
+1. Puslapyje **Išlaidų valdymo parametrai** raskite ir įjunkite parinktį **Naudoti finansinius metai kilometražų sumoms**.
 
-Įjungus **naudoti finansiniai metai ridos sumai**, ridos sumos apskaičiuojamos pagal finansiniai metai.
+Įjungę funkciją **Naudoti finansinius metus kilometražų sumoms**, kilometražų sumas apskaičiuosite pagal finansinius metus.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

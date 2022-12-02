@@ -1,6 +1,6 @@
 ---
 title: Vaidmenimis grindžiamų kainų nustatymas
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip nustatyti konkrečių vaidmenų kainodarą.
+description: Šiame straipsnyje pateikiama informacija, kaip nustatyti konkrečių vaidmenų kainodarą.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

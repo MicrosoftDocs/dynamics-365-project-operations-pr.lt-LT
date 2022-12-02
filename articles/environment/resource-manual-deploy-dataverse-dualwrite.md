@@ -1,6 +1,6 @@
 ---
 title: Visuotinis „Project Operations“ „Dataverse“ programos su dvigubo rašymo palaikymu diegimas rankiniu būdu
-description: Šiame straipsnyje paaiškinama, kaip rankiniu būdu įdiegti programą "Project Operations Dataverse ", kad ji palaikytų dvigubą rašymą.
+description: Šiame straipsnyje paaiškinta, kaip rankiniu būdu visuotinai įdiegti „Project Operations“ „Dataverse“ programą, kad ji palaikytų dvigubą rašymą.
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
@@ -17,9 +17,9 @@ ms.locfileid: "9028574"
 
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
-Šiame straipsnyje paaiškinama, kaip rankiniu būdu įdiegti "Microsoft"Dynamics 365 Project Operations Microsoft Dataverse, kad ji palaikytų dvigubą rašymą. „Project Operations“ aptinka aplinkos konfigūraciją ir įtraukia papildomą dvigubo rašymo palaikymą, jei tenkinamos būtinosios sąlygos.
+Šiame straipsnyje paaiškinta, kaip rankiniu būdu į „Microsoft Dataverse“ visuotinai įdiegti „Microsoft Dynamics 365 Project Operations“, kad ji palaikytų dvigubą rašymą. „Project Operations“ aptinka aplinkos konfigūraciją ir įtraukia papildomą dvigubo rašymo palaikymą, jei tenkinamos būtinosios sąlygos.
 
-Diegdami per Microsoft Dynamics "Lifecycle Services" (LCS), jei vykdėte šiame straipsnyje pateiktas instrukcijas, galite praleisti integravimo (anksčiau vadinto aplinka) diegimą Microsoft Power Platform Common Data Service.
+Jei, visuotinai diegdami per „Microsoft Dynamics“ „Lifecycle Services“ (LCS), vadovavotės šiame straipsnyje pateiktais nurodymais, galite praleisti visuotinį „Microsoft Power Platform“ integracijos (anksčiau vadintos „Common Data Service“ aplinka) diegimą.
 
 „Project Operations“ visuotinio diegimo į „Dataverse“ procesas, kad ji palaikytų dvigubą rašymą, apima keturis pagrindinius veiksmus, nurodytus toliau.
 
@@ -37,7 +37,7 @@ Norėdami atlikti šią procedūrą, turite prisijungti kaip administratorius.
 3. Pasirinkite aplinkos tipą. Jei užsiregistravote naudoti bandomosios versijos pasiūlymą, pasirinkite **Bandomoji versija (pagrįsta prenumerata)**.
 4. Patvirtinkite visuotinio diegimo regioną.
 5. Įjunkite parinktį **Kurti duomenų bazę šiai aplinkai**. 
-6. Patvirtinkite kalbą ir patvirtinkite, kad valiuta atitinka jūsų finansų ir operacijų programų valiutą.
+6. Patvirtinkite kalbą, tada patvirtinkite, kad valiuta atitinka jūsų finansų ir operacijų programų valiutą.
 7. Įjunkite parinktį **„Dynamics 365“ programos** ir patvirtinkite, kad laukas **Automatiškai visuotinai diegti šias programas** nustatytas kaip **Nėra**.
 8. Jei reikia saugos grupės, ją įtraukite.
 9. Norėdami sukurti aplinką, pasirinkite **Įrašyti**.
@@ -62,4 +62,4 @@ Atlikite šią procedūrą norėdami į savo aplinką įtraukti dvigubo rašymo 
 
 ## <a name="link-your-environments"></a><a name="link"></a>Aplinkų susiejimas
 
-Dataverse Įdiegę aplinką, galite nustatyti nuorodą savo finansų ir operacijų programose. Atlikite veiksmus, nurodytus dalyje [Aplinkų susiejimas naudojant dvigubo rašymo vedlį](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).
+Įdiegę „Dataverse“ aplinką, galite nustatyti saitą savo finansų ir operacijų programose. Atlikite veiksmus, nurodytus dalyje [Aplinkų susiejimas naudojant dvigubo rašymo vedlį](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).

@@ -1,6 +1,6 @@
 ---
 title: Išlaidų kategorijų subrangos sutarties eilutės
-description: Šiame straipsnyje paaiškinama, kaip įrašyti išlaidų subrangos eilutes ir naudoti laukus laiko pirkimui iš tiekėjų įrašyti.
+description: Šiame straipsnyje aiškinama, kaip įrašyti išlaidų subrangos sutarties eilutes, ir šiuos laukus panaudoti norint įrašyti pirkimo iš tiekėjų laiką.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

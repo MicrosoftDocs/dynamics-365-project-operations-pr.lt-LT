@@ -1,6 +1,6 @@
 ---
 title: Būsenos perėjimai tiekėjo sąskaitoje faktūroje
-description: Šiame straipsnyje paaiškinami tiekėjo SF būsenos perėjimai programoje "Microsoft"Dynamics 365 Project Operations.
+description: Šiame straipsnyje paaiškinami tiekėjo sąskaitos faktūros būsenos perėjimai „Microsoft Dynamics 365 Project Operations“.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
@@ -17,20 +17,20 @@ ms.locfileid: "9261027"
 
 _**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
 
-Šiame straipsnyje paaiškinami tiekėjo SF būsenos perėjimai programoje "Microsoft"Dynamics 365 Project Operations. Naudojamos šios būsenos: **Juodraštis**, **Peržiūrima**, **Patvirtinta**, **Sulaikyta** ir **Atšaukta**.
+Šiame straipsnyje paaiškinami tiekėjo sąskaitos faktūros būsenos perėjimai „Microsoft Dynamics 365 Project Operations“. Naudojamos šios būsenos: **Juodraštis**, **Peržiūrima**, **Patvirtinta**, **Sulaikyta** ir **Atšaukta**.
 
-Toliau pateiktose iliustracijose rodomi būsenos perėjimai.
+Tolesniuose paveikslėliuose pateikti būsenos perėjimai.
 
-![Subrangos būsenos perėjimo modelis.](../media/VI_State_Model.jpg)
+![Papildomos rangos būsenos perleidimo modelis.](../media/VI_State_Model.jpg)
 
-Šioje lentelėje paaiškinama, ką kiekviena būsena reiškia tiekėjo SF palaikymo cikle "Project Operations".
+Toliau esančioje lentelėje paaiškinta, ką kiekviena būsena atitinka „Project Operations" tiekėjo sąskaitos faktūros gyvavimo cikle.
 
-| Rajonas | Aprašą | Leidžiami perėjimai |
+| Rajonas | Aprašą | Leisti perėjimai |
 | --- | --- | --- |
-| Juodraštis | Ši būsena yra pradinė tiekėjo SF būsena. Linijos ir kainodara gali būti keičiamos. Šios būsenos tiekėjo SF galima redaguoti ir panaikinti. | Vyksta procesas |
-| Peržiūrima | Ši būsena reiškia tiekėjo SF apdorojimo būseną. Bent vienos tiekėjo SF eilutės patvirtinimo būsena **yra Vykdoma**. | Patvirtinta, sulaikyta |
-| Patvirtinta | Ši būsena nurodo tiekėjo SF etapą, kai programa sukūrė kiekvienos tiekėjo SF eilutės faktines išlaidų sumas. Visos susietos savikainos faktinės sumos, kurios buvo suderintos su tiekėjo SF eilutėmis, buvo atšauktos ir pakeistos faktinėmis sąnaudomis iš tų tiekėjo SF eilučių. Šios būsenos tiekėjo SF redaguoti ar naikinti negalima. Galite naudoti mygtuką Atšaukti **,** kad atšauktumėte patvirtintą tiekėjo SF. Veiksmas Atšaukti panaikina veiksmo Patvirtinti poveikį. | Atšauktos |
-| Sulaikyta | <p>Ši būsena reiškia tiekėjo SF etapą, kai tiekėjo SF negali būti perkelta dėl sąskaitos faktūros arba tiekėjo būsenos problemos. Šios būsenos tiekėjo SF negalima patvirtinti, atšaukti, redaguoti ar panaikinti.</p><p>Galite naudoti veiksmą Iš naujo atidaryti, kad perkeltumėte tiekėjo SF į juodraščio **arba** **peržiūros** būseną. Jei bent vienos tiekėjo SF eilutės patvirtinimo būsena **yra Vykdoma** arba **Baigta**, tiekėjo SF bus iš naujo atidaryta būsenoje **Peržiūrima**. Jei visų tiekėjo SF eilučių tikrinimo būsena **yra Nepradėta**, tiekėjo SF bus iš naujo atidaryta juodraščio **būsenoje**.</p> | Juodraštis, Peržiūrimas |
-| Atšauktos | Ši būsena reiškia subrangos etapą, kai nebereikia faktinio medžiagų pristatymo ir (arba) darbo naudojant subrangos išteklius. Šios būsenos subrangos sutartis negali būti naudojama išteklių ir medžiagų projekto poreikiams įvertinti ir darbuotojų projektų poreikiams įvertinti, taip pat negali būti nurodyta pagal laiką, išlaidas ir medžiagų naudojimą projekte. Šios būsenos subrangos sutarties redaguoti ar ištrinti negalima. | Joks |
+| Juodraštis | Ši būsena yra pradinė tiekėjo sąskaitos faktūros būsena. Eilutės ir kainos gali būti modifikacijos. Šios būsenos tiekėjo sąskaitą faktūrą galima redaguoti ir panaikinti. | Apdorajama |
+| Peržiūrima | Ši būsena yra pradinė tiekėjo sąskaitos faktūros būsena. Bent vienos tiekėjo sąskaitos faktūros eilutės tikrinimo būsena yra **Vykdoma**. | Patvirtinta, Laukiama |
+| Patvirtinta | Ši būsena atitinka tiekėjo sąskaitos faktūros etapą, kai programa sukūrė kiekvienos tiekėjo sąskaitos faktūros eilutės išlaidų faktinius rezultatus. Visos susietos išlaidų faktinės sumos, kurios buvo gretintos su tiekėjo sąskaitos faktūros eilutėmis, buvo atšauktos ir pakeistos išlaidų faktinėmis sąrangomis iš tų tiekėjo sąskaitos faktūros eilučių. Šios būsenos tiekėjo sąskaitą faktūrą galima redaguoti ar panaikinti. Norėdami atšaukti patvirtintą tiekėjo **sąskaitą faktūrą**, galite naudoti mygtuką Atšaukti. Veiksmas Atšaukti panaikina veiksmo Patvirtinti poveikį. | Atšauktos |
+| Sulaikyta | <p>Ši būsena atitinka tiekėjo sąskaitos faktūros etapą, kuriame tiekėjo sąskaitos faktūros perkelti negalima dėl sąskaitos faktūros arba tiekėjo būsenos problemos. Šios būsenos tiekėjo sąskaitą faktūrą galima patvirtinti, atšaukti, redaguoti ar panaikinti.</p><p>Norėdami perkelti tiekėjo sąskaitą faktūrą į juodraščio arba **peržiūros būseną, galite naudoti** veiksmą Atidaryti **iš** naujo. Jei bent vienos tiekėjo sąskaitos faktūros eilutės **tikrinimo** būsena yra **Vykdoma** ar Baigta, tiekėjo sąskaita faktūra bus atidaryta iš **naujo peržiūros būsenoje**. Jei visų tiekėjo sąskaitos faktūros eilučių tikrinimo būsena **yra Nepradėta** tiekėjo sąskaita faktūra bus atidaryta iš naujo būsenos **Juodraštis**.</p> | Šablonas, Peržiūrimas |
+| Atšauktos | Ši būsena atitinka etapą, kai nebereikalingas faktinis med iagų ir (arba) išteklių prisiejimas naudojant išteklius. Šios būsenos nenaudokite, jei norite įvertinti išteklių ir medžiagos personalo projekto reikalavimus, be to, jo negalima nurodyti laiku, išlaidoms ir medžiagos naudojimui projektui. Šios būsenos papildomo tiekėjo sąskaitą faktūrą galima redaguoti ar panaikinti. | Joks |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

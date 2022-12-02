@@ -1,6 +1,6 @@
 ---
 title: Išankstinės arba išankstiniais apmokėjimais pagrįstos sutartys
-description: Šiame straipsnyje pateikiama informacija apie laikikliais pagrįstus sutarčių sudarymo modelius ir projekto operacijų pažangą.
+description: Šiame straipsnyje pateikta informacija apie išankstiniais apmokėjimais pagrįstų sutarčių modelius ir avansus naudojant „Project Operations“.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article

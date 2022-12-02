@@ -1,6 +1,6 @@
 ---
 title: Projekto kategorijų nustatymas
-description: Šiame straipsnyje pateikiama informacija apie projektų kategorijų nustatymą.
+description: Šiame straipsnyje pateikta informacija apie projektų kategorijų nustatymą.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
@@ -35,7 +35,7 @@ Operacijų kategorijos apibrėžiamos „Project Operations“ modulyje.
 
 ## <a name="shared-categories"></a>Bendrai naudojamos kategorijos
 
-"Dynamics 365" naudoja bendrinamų kategorijų koncepciją, kad suskirstytų išlaidas į kategorijas skirtingose programose, pvz., Dynamics 365 Finance,"5", "Dynamics 365 Supply Chain" ir Dynamics 365 Project Operations. Kiekvienai sukurtai operacijos kategorijai „Project Operations“ automatiškai sukuria keturias susijusias bendrai naudojamas kategorijas: valandos, išlaidos, mokesčiai ir elementas. Bendrai naudojamas kategorijas galite peržiūrėti ir koreguoti nuėję į **Projektų valdymas ir apskaita**\>**Nustatymas**\>**Kategorijas**\>**Bendrai naudojamos kategorijos**.
+„Dynamics 365“ naudoja bendrai naudojamų kategorijų sąvoką išlaidoms skirstyti į kategorijas skirtingose programose, pvz., „Dynamics 365 Finance“, „Dynamics 365 Supply Chain“ ir „Dynamics 365 Project Operations“. Kiekvienai sukurtai operacijos kategorijai „Project Operations“ automatiškai sukuria keturias susijusias bendrai naudojamas kategorijas: valandos, išlaidos, mokesčiai ir elementas. Bendrai naudojamas kategorijas galite peržiūrėti ir koreguoti nuėję į **Projektų valdymas ir apskaita**\>**Nustatymas**\>**Kategorijas**\>**Bendrai naudojamos kategorijos**.
 
 ## <a name="project-categories"></a>Projekto kategorijos
 

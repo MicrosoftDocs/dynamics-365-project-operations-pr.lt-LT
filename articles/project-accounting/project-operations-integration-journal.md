@@ -1,6 +1,6 @@
 ---
 title: Integravimo žurnalas programoje „Project Operations“
-description: Šiame straipsnyje pateikiama informacija apie darbą su "Project Operations" žurnalu Integravimas.
+description: Šiame straipsnyje pateikiama informacija apie darbą su integravimo žurnalu programoje „Project Operations”.
 author: sigitac
 ms.date: 09/22/2022
 ms.topic: article
@@ -17,16 +17,16 @@ ms.locfileid: "9541088"
 
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
-Laikas, išlaidos, mokestis ir reikšmingi įrašai sukuria **faktines operacijas**, kurios atspindi pagal projektą atlikto darbo veiklos rodinį. „Dynamics 365 Project Operations“ teikia apskaitininkams įrankį, skirtą operacijoms peržiūrėti ir apskaitos atributams koreguoti, kai reikia. Užbaigus peržiūrą ir koregavimus, operacijos skelbiamos projekto papildomoje knygoje ir didžiojoje knygoje. Buhalteris gali atlikti šią veiklą naudodamas žurnalą **"Project Operations Integration**" (**Dynamics 365 Finance** > **projektų valdymo ir apskaitos** > **žurnalų** > **"Project Operations Integration**".
+Laiko, išlaidų, mokesčių ir materialiniai įrašai sukuria **Faktines** operacijas, kurios nurodo pagal projektą užbaigto darbo veiklos rodinį. „Dynamics 365 Project Operations“ teikia apskaitininkams įrankį, skirtą operacijoms peržiūrėti ir apskaitos atributams koreguoti, kai reikia. Užbaigus peržiūrą ir koregavimus, operacijos skelbiamos projekto papildomoje knygoje ir didžiojoje knygoje. Buhalteris gali vykdyti šias veiklas naudodamas **„Project Operations“ integravimo** žurnalą (**„Dynamics 365 Finance“** > **Projektų valdymas ir apskaita** > **Žurnalai** > **„Project Operations“ integravimo** žurnalas.
 
 ![Integravimo žurnalo srautas.](./media/IntegrationJournal.png)
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>Įrašų kūrimas „Project Operations“ integravimo žurnale
 
-Įrašai „Project Operations“ integravimo žurnale įrašai kuriami naudojant periodinį procesą, **Importuoti iš paruošimo lentelės**. Šį procesą galite vykdyti nuėję į **Dynamics 365 Finance** > **Projekto valdymas ir apskaita** > **Periodinių** > **projektų operacijų integravimas** > **Importavimas iš išdėstymo lentelės**. Jeigu reikia, galite vykdyti procesą interaktyviai arba sukonfigūruoti procesą, kad veiktų fone.
+Įrašai „Project Operations“ integravimo žurnale įrašai kuriami naudojant periodinį procesą, **Importuoti iš paruošimo lentelės**. Šį procesą galite vykdyti eidami į **Dynamics 365 Finance** > **Projektų valdymas ir apskaita** > **Periodinis** > **„Project Operations“ integravimas** > **Importuoti iš paruošimo lentelės**. Jeigu reikia, galite vykdyti procesą interaktyviai arba sukonfigūruoti procesą, kad veiktų fone.
 
 Vykdant periodinį procesą, randami visi faktiniai duomenys, kurie dar neįtraukti į „Project Operations“ integravimo žurnalą. Sukuriama kiekvienos faktinės operacijos žurnalo eilutė.
-Sistema sugrupuoja žurnalo eilutes į atskirus žurnalus pagal reikšmę, pasirinktą lauke Laikotarpio vienetas, esančiame projekto operacijų integravimo žurnale ("Finance **Project management and accounting Setup Project management and accounting** Setup **Project management and accounting parameters** > **",** > **"Project Operations on Dynamics 365 Customer Engagement** > **" skirtuke).** **·** Toliau pateikiamos galimos šio lauko reikšmės.
+Sistema grupuoja žurnalo eilutes į atskirus žurnalus pagal reikšmę, pasirinktą lauke **Laiko vienetas „Project Operations“ integravimo žurnale** (**„Finansai”** > **Projektų valdymas ir apskaita** > **Sąranka** > **Projektų valdymo ir apskaitos parametrai**, **„Project Operations”, veikiančios „Dynamics 365 Customer Engagement”** skirtuke). Toliau pateikiamos galimos šio lauko reikšmės.
 
   - **Dienos**: faktiniai duomenys grupuojami pagal operacijos datą. Sukuriamas atskiras kiekvienos dienos žurnalas.
   - **Mėnesiai**: faktiniai duomenys grupuojami pagal kalendorinį mėnesį. Sukuriamas atskiras kiekvieno mėnesio žurnalas.
@@ -40,37 +40,37 @@ Sistema sugrupuoja žurnalo eilutes į atskirus žurnalus pagal reikšmę, pasir
   - Lauke **Kvitas** rodomas kiekvienos faktinės operacijos kvito numeris. Kvitų numerių seka yra nurodyta puslapio **Projektų valdymo ir apskaitos parametrai** skirtuke **Numerių sekos**. Kiekvienai eilutei priskiriamas naujas numeris. Paskelbę kvitą, galite peržiūrėti, kaip yra susijusios išlaidų operacijos ir pardavimo operacijos, kurioms neišrašyta sąskaita, pasirinkdami **Susiję kvitai** puslapyje **Kvito operacija**.
   - Laukas **Kategorija** atitinka projekto operaciją ir numatytąsias reikšmes pagal susijusio projekto faktinių duomenų operacijos kategoriją.
     - Jei **Operacijos kategorija** nustatyta projekto faktiniuose duomenyse, o susijusi **Projekto kategorija** yra nurodytame juridiniame subjekte, pagal numatytuosius nustatymus kategorija priskiriama šiai projekto kategorijai.
-    - Jei **kategorija Operacija nenustatyta faktiniame projekte, sistema naudoja reikšmę, esančią lauke Projekto kategorijos numatytieji nustatymai**, esančiame **puslapio** Projekto valdymo ir apskaitos parametrai **skirtuke** Projekto operacijos Dynamics 365 Customer **Engagement**.
+    - Jeigu **Operacijos kategorija** nenustatyta projekto faktiniuose duomenyse, sistema naudoja reikšmę, esančią **Projekto valdymo ir apskaitos parametrai** puslapio **„Project Operations” programoje „Project Operations on Dynamics 365 Customer Engagement”** skirtuko **Projektų kategorijos parametrai** laukelyje.
   - Laukas **Ištekliai** atitinka projekto išteklius, susijusius su šia operacija. Šie ištekliai naudojami kaip nuoroda projekto sąskaitų faktūrų pasiūlymuose klientams.
-  - Laukas **Valiutos kursas** pagal numatytuosius parametrus pagal **valiutos keitimo kursą**, nustatytą Dynamics 365 Finance. Jeigu valiutos kurso sąrankos nėra, periodinis procesas **Importuoti iš paruošimo** neįtrauks įrašo į žurnalą ir klaidos pranešimas bus įtrauktas į užduoties vykdymo žurnalą.
-  - Laukas **Eilutės ypatybės** atitinka atsiskaitymo tipą projekto faktiniuose duomenyse. Eilutės ypatybė ir atsiskaitymo tipo susiejimas apibrėžiami **puslapio Projektų valdymas ir apskaitos parametrai** skirtuke **Projekto operacijos Dynamics 365 Customer Engagement**.
+  - Laukelis **Valiutos kursas** nustatomas pagal **Valiutos keitimo kursą**, nustatytą „Dynamics 365 Finance”. Jeigu valiutos kurso sąrankos nėra, periodinis procesas **Importuoti iš paruošimo** neįtrauks įrašo į žurnalą ir klaidos pranešimas bus įtrauktas į užduoties vykdymo žurnalą.
+  - Laukas **Eilutės ypatybės** atitinka atsiskaitymo tipą projekto faktiniuose duomenyse. Eilutės ypatybės ir atsiskaitymo tipo susiejimas apibrėžiami puslapio **Projektų valdymo ir apskaitos parametrai** skirtuke **„Project Operations“ programoje „Dynamics 365 Customer Engagement“**.
 
 Tik toliau pateikiami apskaitos atributai gali būti atnaujinti „Project Operations” integravimo žurnalo eilutėse.
 
 - **Atsiskaitymo PVM grupė** ir **Atsiskaitymo elemento PVM grupė**
 - **Finansinės dimensijos** (naudojant veiksmą **Paskirstyti sumas**)
 
-Integravimo žurnalo eilutes galima panaikinti. Tačiau visos neskelbtos eilutės vėl bus įterptos į žurnalą, kai iš naujo paleisite **periodinio proceso importavimo iš inscenizavimo** procesą.
+Integravimo žurnalo eilutes galima naikinti. Vis dėlto, iš naujo paleidus periodinį procesą **Importuoti iš paruošimo**, visos neužregistruotos eilutės bus vėl įterptos į žurnalą.
 
-### <a name="post-the-project-operations-integration-journal"></a>Žurnalo "Project Operations" integravimo registravimas
+### <a name="post-the-project-operations-integration-journal"></a>Paskelbti „Project Operations“ integravimo žurnalą
 
 Kai registruojate integravimo žurnalą, sukuriamos projekto antrinės knygos ir DK operacijos. Jos naudojamos toliau sąskaitas faktūras klientams teikti, pajamoms pripažinti ir finansinėms ataskaitoms teikti.
 
-Pasirinktą "Project Operations" integravimo žurnalą galima registruoti naudojant **įrašą** puslapyje "Project Operations" integravimo žurnalas. Visus žurnalus galima automatiškai paskelbti vykdant procesą žurnale **Periodinių** > **projektų operacijų integravimas** > **Po projekto operacijų integravimo**.
+Parinktą "Project Operations" integravimo žurnalą galima paskelbti naudojant funkciją **Skelbti** „Project Operations“ integravimo žurnalo puslapyje. Visus žurnalus galima automatiškai skelbti vykdant procesą **Periodika** > **„Project Operations" integravimas** > **„Project Operations“ postintegravimo žurnalas**.
 
-Registravimas gali būti atliekamas interaktyviai arba pakete. Atminkite, kad visi žurnalai, kuriuose yra daugiau nei 100 eilučių, bus automatiškai paskelbti pakete. Norėdami pagerinti našumą, kai žurnalai, kuriuose yra daug eilučių, skelbiami pakete, įgalinkite integravimo žurnalą **"Post Project Operations" naudodami kelių paketinių užduočių** funkciją **funkcijų valdymo** srityje. 
+Paskelbimas gali būti vykdomas interaktyviai arba pakete. Atkreipkite dėmesį, kad visi žurnalai, turintys daugiau nei 100 eilučių, bus automatiškai paskelbti pakete. Kad procesas būtų efektyvesnis, kai pakete užregistruojami žurnalai, turintys daug eilučių, įgalinkite **„Project Operations" postintegravimo žurnalo, naudojant kelių paketų užduočių** funkciją **Funkcijų valdymo** darbo srityje. 
 
-#### <a name="transfer-all-lines-that-have-posting-errors-to-a-new-journal"></a>Perkelkite visas eilutes, kuriose yra registravimo klaidų, į naują žurnalą
+#### <a name="transfer-all-lines-that-have-posting-errors-to-a-new-journal"></a>Perkelti visas eilutes, kuriose yra paskelbimo klaidų, į naują žurnalą
 
 > [!NOTE]
-> Norėdami naudoti šią galimybę, įgalinkite **funkciją Perkelti visas eilutes su registravimo klaidomis į naują "Project Operations" integravimo žurnalą**, esančią **darbo srityje Funkcijų valdymas**.
+> Norėdami naudoti šią galimybę, įjunkite funkciją **Perkelti visas eilutes su registravimo klaidomis į naują „Project Operations" integravimo žurnalą** **Funkcijų valdymo** darbo srityje.
 
-Ši funkcija padeda pagerinti "Project Operations" integravimo žurnalo funkcijas. Kai jis įjungtas, dvigubo rašymo laiko problemos ir sąrankos problemos nebetrukdo skelbti galiojančių žurnalų. Skelbiant žurnale "Project Operations" integravimas, sistema patvirtina kiekvieną žurnalo eilutę. Jis skelbia visas eilutes, kuriose nėra klaidų, ir sukuria naują žurnalą visoms eilutėms, kuriose yra registravimo klaidų.
+Ši funkcija padeda pagerinti "Project Operations" integravimo žurnalo naudojimo patirtį. Kai ši funkcija įjungta, dvigubo rašymo laiko problemos ir sąrankos problemos nebetrukdo galiojančių žurnalų paskelbimui. Skelbiant „Project Operations" integravimo žurnalą sistema patikrina kiekvieną žurnalo eilutę. Jame skelbiamos visos eilutės, kuriose nėra klaidų, ir sukuriamas naujas visų eilučių, kuriose yra registravimo klaidų, žurnalas.
 
-Norėdami peržiūrėti žurnalus, kuriuose yra registravimo klaidų eilučių, eikite į žurnalą **Projektų valdymas ir apskaita** \> **Žurnalų** \> **projektų operacijų integravimo žurnalas** ir filtruokite žurnalų sąrašą naudodami lauką **Pradinis žurnalas.** Tolesnėje iliustracijoje parodytas pavyzdys, kai žurnalo **puslapyje "Project Operations" integravimo žurnalo** žurnalai buvo filtruoti tokiu būdu.
+Norėdami peržiūrėti registravimo klaidų turinčių eilučių žurnalą, eikite į **Projekto valdymas ir apskaita** \> **Žurnalai** \> **„Project Operations“ integravimo žurnalas** ir filtruokite žurnalų sąrašą naudodami laukelį **Originalus žurnalas**. Šioje iliustracijoje pateikiamas pavyzdys, kai žurnalai puslapyje **„Project Operations" integravimo žurnalas** filtruoti tokiu būdu.
 
-![Pradinis žurnalas rodomas žurnalo puslapyje "Project Operations" integravimas.](./media/transferLines-originalJournal.png)
+![Orignalus žurnalas parodytas „Project Operations“ integravimo žurnalo puslapyje.](./media/transferLines-originalJournal.png)
 
-Jei periodinė paketinė užduotis sukonfigūruota skelbti integravimo žurnalą, registravimas bus pakeistas iš naujo ir žurnalai bus paskelbti, jei laiko problema bus išspręsta. Visi likę žurnalai turėtų būti tiriami rankiniu būdu, peržiūrint žurnalus ir imantis visų reikiamų veiksmų.
+Jei periodinis užduočių paketas sukonfigūruotas taip, kad būtų skelbiamas integravimo žurnalas, paskelbimas bus kartojamas ir žurnalai bus paskelbti, jei laiko problema bus išspręsta. Visus likusius žurnalus reikia ištirti rankiniu būdu peržiūrint žurnalus ir imantis bet kokių reikiamų veiksmų.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

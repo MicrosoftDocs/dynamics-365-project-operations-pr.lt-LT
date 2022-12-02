@@ -1,6 +1,6 @@
 ---
 title: „Project Operations“ valdymas pagal subrangos sutartį
-description: Šiame straipsnyje apžvelgiamas subrangos sutarčių valdymo procesas, paprastai atliekamas projektais pagrįstose organizacijose.
+description: Šiame straipsnyje pateikta tiesioginio subrangos valdymo proceso, paprastai atliekamo projektu pagrįstose organizacijose, apžvalga.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: overview
@@ -18,7 +18,7 @@ ms.locfileid: "9522336"
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
-Šiame straipsnyje apžvelgiamas subrangos sutarčių valdymo procesas projektu pagrįstose organizacijose nuo galo iki galo. Paslaugų subrangos procesas paprastai atliekamas vadovaujantis veiklos procesų seka, pavaizduota toliau pateiktoje diagramoje.
+Šiame straipsnyje pateikta tiesioginio subrangos valdymo proceso, atliekamo projektu pagrįstose organizacijose, apžvalga. Paslaugų subrangos procesas paprastai atliekamas vadovaujantis veiklos procesų seka, pavaizduota toliau pateiktoje diagramoje.
 
 ![Subrangos procesų seka](../media/SubcontractingProcessFlow.png)
 
@@ -45,7 +45,7 @@ Subrangos sutarties eilutė gali būti pagrįsta kiekiu arba darbu.
 
 Kai subrangos sutarties eilutė yra **pagrįsta kiekiu**, kiekį, perkamą laiko, išlaidų arba medžiagos subrangos sutarties eilutėje, galima naudoti kiekvienam projektui.
 
-Kai subrangos sutarties eilutė yra **pagrįsta darbu**, subrangos sutarties eilutė susiejama su darbo struktūra, kurią nurodo projekto plano mazgas. Subrangos sutarties eilutės vertė yra visų komponentų, reikalingų tai darbo struktūrai pateikti, suma. Šie modeliuojami kaip išsamūs subrangos sutarties eilutės duomenys ir gali būti laiko, išlaidų ar medžiagų rinkinys. Darbu pagrįstos subrangos sutarties eilutės atveju subrangos sutarties eilutė taip pat yra skiriama tik vienam projektui. Šių tipų subrangos sutartys yra currenlty, kurių nepalaiko "Project Operations".
+Kai subrangos sutarties eilutė yra **pagrįsta darbu**, subrangos sutarties eilutė susiejama su darbo struktūra, kurią nurodo projekto plano mazgas. Subrangos sutarties eilutės vertė yra visų komponentų, reikalingų tai darbo struktūrai pateikti, suma. Šie modeliuojami kaip išsamūs subrangos sutarties eilutės duomenys ir gali būti laiko, išlaidų ar medžiagų rinkinys. Darbu pagrįstos subrangos sutarties eilutės atveju subrangos sutarties eilutė taip pat yra skiriama tik vienam projektui. Šiuo metu „Project Operations“ nepalaiko šių tipų subrangos sutarčių.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

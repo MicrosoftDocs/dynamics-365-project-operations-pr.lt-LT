@@ -1,6 +1,6 @@
 ---
 title: Projektu pagrįstų sutarties eilučių apžvalga
-description: Šiame straipsnyje pateikiama informacija apie darbą su projektu pagrįstomis sutarčių eilutėmis.
+description: Šiame straipsnyje pateikta informacija apie darbą su projektu pagrįstomis sutarčių eilutėmis.
 author: rumant
 ms.date: 10/28/2020
 ms.topic: overview
