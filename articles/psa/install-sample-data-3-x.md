@@ -1,6 +1,6 @@
 ---
 title: Duomenų pavyzdžių įdiegimas
-description: Šiame straipsnyje pateikiama informacija apie duomenų pavyzdžių diegimą "Project Service Automation".
+description: Šiame straipsnyje pateikta informacija apie „Project Service Automation“ duomenų pavyzdžio diegimą.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
 ms.reviewer: johnmichalak

@@ -1,6 +1,6 @@
 ---
 title: Projektų finansiniai išlaidų įvertinimai
-description: Šiame straipsnyje pateikiama informacija apie projekto išlaidų nustatymą arba įvertinimą.
+description: Šiame straipsnyje pateikta informacija apie projektu pagrįstų išlaidų nustatymą arba vertinimą.
 author: rumant
 ms.date: 03/19/2021
 ms.topic: article

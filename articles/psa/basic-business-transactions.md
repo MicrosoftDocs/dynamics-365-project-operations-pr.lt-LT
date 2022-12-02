@@ -1,6 +1,6 @@
 ---
 title: Verslo operacijos
-description: Šiame straipsnyje pateikiama informacija apie verslo sandorius.
+description: Šiame straipsnyje pateikiama informacija apie verslo operacijas.
 author: rumant
 ms.custom:
 - dyn365-projectservice

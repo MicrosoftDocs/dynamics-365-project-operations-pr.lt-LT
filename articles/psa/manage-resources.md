@@ -1,6 +1,6 @@
 ---
 title: Tvarkyti išteklius
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip galite valdyti išteklius.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip galite tvarkyti išteklius.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

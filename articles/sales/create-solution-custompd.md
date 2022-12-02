@@ -1,6 +1,6 @@
 ---
 title: Sprendimo pasirinktinėms kainodaros dimensijoms kūrimas
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip kurti pasirinktinių kainodaros dimensijų sprendimus.
+description: Šiame straipsnyje pateikta informacijos, kaip kurti sprendimus, skirtus pasirinktinėms kainodaros dimensijoms.
 author: Rumant
 ms.date: 11/09/2020
 ms.topic: article

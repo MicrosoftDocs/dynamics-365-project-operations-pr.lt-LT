@@ -1,6 +1,6 @@
 ---
 title: Pasiūlymo perkėlimas į projektą
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip perkelti pasiūlymą į naują arba esamą projektą.
+description: Šiame straipsnyje pateikta informacija, kaip perkelti pasiūlymą į naują arba esamą projektą.
 author: kfend
 ms.date: 05/28/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Grafiko lentos naudojimas projekto išteklių rezervavimui
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip užsisakyti išteklius.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip rezervuoti išteklius.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

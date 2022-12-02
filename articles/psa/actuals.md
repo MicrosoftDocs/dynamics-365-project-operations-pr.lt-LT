@@ -1,6 +1,6 @@
 ---
 title: Faktinių duomenų apžvalga
-description: Šiame straipsnyje pateikiama informacija apie projekto faktinius duomenis.
+description: Šiame straipsnyje pateikta informacija apie projekto faktinius duomenis.
 author: rumant
 ms.custom:
 - dyn365-projectservice

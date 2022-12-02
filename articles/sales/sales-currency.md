@@ -1,6 +1,6 @@
 ---
 title: Valiuta
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip įtraukti ir pašalinti valiutos tipus programoje "Project Operations".
+description: Šiame straipsnyje pateikta informacija apie tai, kaip įtraukti ir pašalinti valiutos tipus programoje „Project Operations“.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

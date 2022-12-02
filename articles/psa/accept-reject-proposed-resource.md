@@ -1,6 +1,6 @@
 ---
 title: Pasiūlyto projekto išteklių priėmimas arba atmetimas
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip patvirtinti arba atmesti siūlomą projekto išteklių.
+description: Šiame straipsnyje pateikta informacija apie tai, kaip patvirtinti arba atmesti siūlomą projekto išteklių.
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/07/2018
@@ -30,7 +30,7 @@ ms.locfileid: "8916206"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Šiame straipsnyje pateikiama informacija apie tai, kaip patvirtinti arba atmesti siūlomą projekto išteklių.
+Šiame straipsnyje pateikta informacija apie tai, kaip patvirtinti arba atmesti siūlomą projekto išteklių.
 
 Kai išteklių valdytojas pasiūlo įvardytą šaltinį užpildyti bendrąją projekto išteklių užklausą, bendrosios komandos nario **Užklausos būsena** laukas bus atnaujintas į **Reikia peržiūros**. Užklausa bus išsiųsta projekto vadovui patvirtinti arba atmesti.
 

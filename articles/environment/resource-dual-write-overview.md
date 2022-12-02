@@ -1,6 +1,6 @@
 ---
 title: „Project Operations“ dvigubo rašymo integravimas
-description: Šiame straipsnyje pateikiama "Project Operations" dvigubo rašymo integravimo apžvalga.
+description: Šiame straipsnyje apžvelgiamas „Project Operations“ dvigubo rašymo integravimas.
 author: sigitac
 ms.date: 04/28/2021
 ms.topic: overview
@@ -18,7 +18,7 @@ ms.locfileid: "8927982"
 
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
-"Project Operations" naudoja [dvigubo rašymo galimybes](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page), kad sinchronizuotų duomenis visoje Microsoft Dataverse ir Dynamics 365 Finance.
+„Project Operations“ naudoja [Dvigubo rašymo galimybes](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page) duomenims tarp „Microsoft Dataverse“ ir „Dynamics 365 Finance“ sinchronizuoti.
 
 Toliau pateiktoje iliustracijoje pavaizduota, kaip duomenys sinchronizuojami atliekant šį „Dataverse“ ir „Finance“ integravimą.
 

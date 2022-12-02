@@ -1,6 +1,6 @@
 ---
 title: Komandos narių įtraukimas iš komandos narių tinklelio
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip galite valdyti komandos narių išteklius.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip galite tvarkyti komandos nario išteklius.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

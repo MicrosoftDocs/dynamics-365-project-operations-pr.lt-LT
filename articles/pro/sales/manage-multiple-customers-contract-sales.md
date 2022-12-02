@@ -1,6 +1,6 @@
 ---
 title: Kelių klientų tvarkymas projekto sutartyse – „Lite“ versija
-description: Šiame straipsnyje pateikiama informacija apie kelių klientų valdymą pagal projekto sutartis.
+description: Šiame straipsnyje pateikiama informacija apie kelių klientų tvarkymą projekto sutartyse.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Projekto komandos kūrimas
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip kurti ir valdyti projektų komandas.
+description: Šiame straipsnyje pateikta informacija apie tai, kaip sukurti ir valdyti projekto komandas.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

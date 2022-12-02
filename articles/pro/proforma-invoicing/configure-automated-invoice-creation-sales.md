@@ -1,6 +1,6 @@
 ---
 title: Automatinių sąskaitų faktūrų kūrimo nustatymas
-description: Šiame straipsnyje pateikiama informacija apie automatinio proforma SF kūrimo nustatymą ir konfigūravimą.
+description: Šiame straipsnyje pateikiama informacija apie automatinių išankstinių sąskaitų faktūrų kūrimą ir konfigūravimą.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

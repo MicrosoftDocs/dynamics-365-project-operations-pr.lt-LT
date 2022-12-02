@@ -1,6 +1,6 @@
 ---
 title: Projektu pagrįstos pasiūlymo eilutės įvertinimas
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip sukurti įvertinimą pagal projektą pagrįstoje pasiūlymo eilutėje.
+description: Šiame straipsnyje pateikta informacija apie tai, kaip sukurti įvertinimą projektu pagrįstai pasiūlymo eilutei.
 author: rumant
 ms.date: 04/01/2021
 ms.topic: article

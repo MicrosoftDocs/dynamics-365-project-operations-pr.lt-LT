@@ -1,6 +1,6 @@
 ---
 title: Projekto kainodara
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip veikia kainodara Dynamics 365 Project Service Automation.
+description: Šiame straipsnyje pateikiama informacija apie „Dynamics 365 Project Service Automation“ kainodarą.
 author: rumant
 ms.custom:
 - dyn365-projectservice

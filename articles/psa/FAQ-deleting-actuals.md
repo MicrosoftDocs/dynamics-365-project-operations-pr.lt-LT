@@ -1,6 +1,6 @@
 ---
 title: Kodėl negalima panaikinti įrašų iš objekto Faktiniai duomenys?
-description: Šiame straipsnyje pateikiama informacija apie tai, kodėl negalite panaikinti įrašų iš faktinio objekto.
+description: Šiame straipsnyje pateikiama informacija apie tai, kodėl negalima panaikinti įrašo iš faktinės reikšmės objekto.
 author: JPBurrows
 ms.custom:
 - dyn365-projectservice

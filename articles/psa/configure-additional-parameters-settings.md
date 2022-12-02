@@ -30,7 +30,7 @@ ms.locfileid: "8919242"
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Sukonfigūravę ankstesnių straipsnių elementus, turite nustatyti papildomus projekto parametrus, kuriuos naudosite savo projektams. Kai pirmą kartą įdiegėte „[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]“, sukūrėte parametrų nustatymą pirmiausia kurti visus įrašus, reikalingus „[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]“. Dabar laikas grįžti atgal ir konfigūruoti papildomus šių parametrų nustatymo laukus.  
+Kai sukonfigūruosite ankstesnių straipsnių elementus, jums reikės nustatyti papildomus projekto parametrus, naudotinus jūsų projektuose. Kai pirmą kartą įdiegėte „[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]“, sukūrėte parametrų nustatymą pirmiausia kurti visus įrašus, reikalingus „[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]“. Dabar laikas grįžti atgal ir konfigūruoti papildomus šių parametrų nustatymo laukus.  
   
  Turite būti sukonfigūravę tolesnius parametrus.  
   

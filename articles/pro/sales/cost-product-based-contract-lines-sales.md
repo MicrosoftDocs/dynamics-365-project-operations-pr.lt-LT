@@ -1,6 +1,6 @@
 ---
 title: Kaštų produktu pagrįstos sutarties eilutės – „Lite“ versija
-description: Šiame straipsnyje pateikiama informacija apie kūrimą
+description: Šiame straipsnyje pateikta informacija apie tai, kaip kurti
 author: rumant
 ms.date: 10/19/2020
 ms.topic: article

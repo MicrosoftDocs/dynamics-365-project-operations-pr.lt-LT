@@ -1,6 +1,6 @@
 ---
 title: Tiekėjo sąskaitų faktūrų integravimas
-description: Šiame straipsnyje pateikiama informacija apie tiekėjo SF integravimą į projekto operacijas.
+description: Šiame straipsnyje pateikiama informacijos apie tiekėjų sąskaitų faktūrų integravimą naudojant „Project Operations“.
 author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
@@ -21,7 +21,7 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 Su projektais susijusius viešuosius pirkimus sprendime „Dynamics 365 Project Operations“ galima įrašyti nuėjus į **Mokėtinos sumos** > **Sąskaitos faktūros** > **Laukiančios tiekėjų sąskaitos faktūros** ir naudojant laukiančios tiekėjo sąskaitos faktūros dokumentą. Norėdami sužinoti daugiau, žr. [Atsargose nelaikomų medžiagų įsigijimas naudojant laukiančią tiekėjo sąskaitą faktūrą](../procurement/pending-vendor-invoices.md).
 
 > [!IMPORTANT]
-> Prieš naudodami šiame straipsnyje aprašytas funkcijas, peržiūrėkite ir taikykite reikiamas konfigūracijas. Norėdami sužinoti daugiau, žr. [Galimybės naudoti atsargose nelaikomas medžiagas ir laukiančias tiekėjų sąskaitas faktūras įjungimas](../procurement/configure-materials-nonstocked.md).
+> Prieš naudodami šiame straipsnyje aprašytas funkcijas, peržiūrėkite ir pritaikykite reikiamas konfigūracijas. Norėdami sužinoti daugiau, žr. [Galimybės naudoti atsargose nelaikomas medžiagas ir laukiančias tiekėjų sąskaitas faktūras įjungimas](../procurement/configure-materials-nonstocked.md).
 
 Sprendime „Project Operations“ su projektais susijusios tiekėjų sąskaitos faktūros registruojamos naudojant specialias toliau nurodytas registravimo taisykles.
 
@@ -34,7 +34,7 @@ Sprendime „Project Operations“ su projektais susijusios tiekėjų sąskaitos
      > [!NOTE]
      > Tiekėjų sąskaitų faktūrų išsamios informacijos sprendime „Dataverse“ redaguoti negalima.
 
-Mokesčių subklasteris, tiekėjo subklasteris ir kiti finansiniai registravimai įrašomi kaip taikytina Dynamics 365 Finance, kai registruojama tiekėjo SF.
+Registruojant tiekėjo sąskaitą faktūrą „Dynamics 365 Finance“ pagal poreikį įrašomos papildomos mokesčių knygos, papildomos tiekėjų knygos ir kiti finansiniai registravimai.
 
 ![Tiekėjo sąskaitų faktūrų integravimas.](media/DW7VendorInvoice.png)
 

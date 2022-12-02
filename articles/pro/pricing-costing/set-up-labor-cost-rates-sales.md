@@ -1,6 +1,6 @@
 ---
 title: Darbo savikainos tarifų sąranka – „Lite“ versija
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip nustatyti darbo sąnaudų tarifus programoje "Project Operations".
+description: Šiame straipsnyje pateikta informacija, kaip nustatyti darbo savikainos tarifus naudojant „Project Operations“.
 author: rumant
 ms.date: 10/12/2020
 ms.topic: article

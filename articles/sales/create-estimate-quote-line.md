@@ -1,6 +1,6 @@
 ---
 title: Įvertinimų kūrimas pasiūlymo eilutėje
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip sukurti projekto pasiūlymo eilutės įvertinimą.
+description: Šiame straipsnyje pateikta informacija apie tai, kaip sukurti projekto pasiūlymo eilutės įvertinimą.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

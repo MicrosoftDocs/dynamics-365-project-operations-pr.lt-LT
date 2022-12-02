@@ -1,6 +1,6 @@
 ---
 title: Projektu pagrįstų galimybių kopijavimas
-description: Šiame straipsnyje pateikiama informacija apie projekto galimybių kopijavimą "Project Operations".
+description: Šiame straipsnyje pateikta informacija apie tai, kaip kopijuoti projektu pagrįstas galimybes programoje „Project Operations“.
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article

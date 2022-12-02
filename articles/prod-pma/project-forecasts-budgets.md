@@ -1,6 +1,6 @@
 ---
 title: Projektų prognozės ir biudžetai
-description: Microsoft Dynamics"365 Finance" teikia projektų prognozes ir projektų biudžetus, kad galėtų valdyti ir kontroliuoti savo projektus.
+description: „Microsoft Dynamics 365 Finance” teikia projektų prognozes ir projektų biudžetus, kad galėtumėte tvarkyti ir valdyti savo projektus.
 author: Yowelle
 ms.date: 10/25/2017
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: „Project Service“ esamo lauko kaip kainodaros dimensijos naudojimas
-description: Šiame straipsnyje pateikiama informacija apie esamų "Project Service" laukų naudojimą kaip kainodaros dimensijas.
+description: Šiame straipsnyje pateikta informacija apie tai, kaip esamus „Project Service“ laukus naudoti kaip kainodaros dimensijas.
 author: Rumant
 ms.custom:
 - dyn365-projectservice

@@ -26,9 +26,9 @@ ms.locfileid: "8917586"
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
-Prieš pradėdami, šiame straipsnyje daroma prielaida, kad atlikote procedūras straipsniuose, [kurti pasirinktinius laukus ir objektus](create-custom-fields-entities-pricing-dimensions.md) ir [įtraukti reikiamus pasirinktinius laukus į kainų nustatymą ir operacijų objektus](add-custom-fields-price-setup-transactional-entities.md). Jei dar neatlikote šių procedūrų, grįžkite ir užpildykite jas, tada grįžkite į šį straipsnį. 
+Prieš pradedant, šiame straipsnyje daroma prielaida, kad atlikote straipsniuose [Pasirinktinių laukų ir objektų kūrimas](create-custom-fields-entities-pricing-dimensions.md) ir [Būtinų pasirinktinių laukų įtraukimas į kainos sąranką ir operacijų objektus](add-custom-fields-price-setup-transactional-entities.md)  nurodytas procedūras. Jei neatlikote šių procedūrų, grįžkite ir jas atlikite, o tada grįžkite į šią straipsnį. 
 
-Šiame straipsnyje pateikiama informacija apie pasirinktinių kainodaros dimensijų nustatymą. Puslapyje **Parametrai**, skirtuke **Suma pagrįstos kainodaros dimensijos** rodomi kainodaros dimensijų objektų įrašai. Pagal numatytuosius nustatymus šiame skirtuke tinklelyje yra dvi eilutės:
+Šiame straipsnyje pateikiama informacija apie tai, kaip nustatyti pasirinktines kainodaros dimensijas. Puslapyje **Parametrai**, skirtuke **Suma pagrįstos kainodaros dimensijos** rodomi kainodaros dimensijų objektų įrašai. Pagal numatytuosius nustatymus šiame skirtuke tinklelyje yra dvi eilutės:
 
 - **msdyn_resourcecategory** (vaidmuo)
 - **msdyn_OrganizationalUnit** (organizacinis vienetas)

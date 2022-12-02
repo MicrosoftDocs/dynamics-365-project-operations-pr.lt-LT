@@ -1,6 +1,6 @@
 ---
 title: Kas nauja 2021 m. birželio mėn. „Project Operations“ „Lite“ visuotinėje įdiegtyje
-description: Šiame straipsnyje pateikiama informacija apie kokybės atnaujinimus, kuriuos galima rasti 2021 m. birželio mėn.
+description: Šiame straipsnyje pateikiama informacija apie kokybinius naujinimus, kuriuos galima rasti 2021 m. birželio mėn. „Project Operations“ „Lite“ visuotinėje įdiegtyje.
 author: sigitac
 ms.date: 06/10/2021
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8913952"
 
 _Taikoma (kam): „Lite“ visuotiniam diegimui – sandoris į išankstinės sąskaitos faktūros kūrimą_
 
-Šis straipsnis taikomas šiems Dynamics 365 Project Operations komponentams ir versijoms:
+Šis straipsnis taikomas toliau nurodytiems „Dynamics 365 Project Operations“ komponentams ir versijoms:
 
   - „Project Operations“ 4.11.0.156 arba 4.11.0.164 versijos „Dataverse“ aplinkoje.
 

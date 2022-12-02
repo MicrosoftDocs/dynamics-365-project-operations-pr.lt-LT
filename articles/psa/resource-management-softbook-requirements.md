@@ -1,6 +1,6 @@
 ---
 title: Preliminaraus rezervavimo reikalavimai
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip laikytis minkštųjų knygų reikalavimų.
+description: Šiame straipsnyje pateikiama informacija apie preliminaraus rezervavimo reikalavimus.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

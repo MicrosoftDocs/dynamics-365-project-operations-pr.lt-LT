@@ -1,6 +1,6 @@
 ---
 title: Projekto parametrai
-description: Šiame straipsnyje pateikiama informacija apie projektų valdymo parametrus.
+description: Šiame straipsnyje pateikta informacija apie projektų valdymo parametrus.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

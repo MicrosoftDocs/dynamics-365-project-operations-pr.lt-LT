@@ -1,6 +1,6 @@
 ---
 title: Kas nauja arba pakeista „Project Service Automation“ V3 35 atnaujintame leidime
-description: Šiame straipsnyje išvardijamos funkcijos ir taisymai, kuriuos galima rasti 35 naujinimo leidime Microsoft Dynamics 365 Project Service Automation, V3.
+description: Šiame straipsnyje išvardytos funkcijos ir pataisos, įtrauktos į „Microsoft Dynamics 365 Project Service Automation“ V3 35 atnaujintą leidimą.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 09/03/2021
@@ -29,7 +29,7 @@ ms.locfileid: "8912848"
 
 Norime pranešti apie naujausią programos Microsoft Dynamics 365 Project Service Automation naujinimą. Šiame leidime yra kai kurių svarbių kokybės, veikimo ir naudojimo patobulinimų. Ji suderinama su „Dynamics 365 9.x“. Norėdami atnaujinti į šį leidimą, apsilankykite „Dynamics 365 Online“ sprendimų administravimo centro puslapyje ir įdiekite naujinimą. Daugiau informacijos žr. [Pageidaujamo sprendimo diegimas, naujinimas arba šalinimas](/power-platform/admin/install-remove-preferred-solution).
 
-Šiame straipsnyje išvardijamos naujos arba pakeistos "Project Service Automation Update Release 35, V3" funkcijos ir taisymai. Šios komponavimo versijos numeris yra V3.10.56.110 ir ji visuotinai pasiekiama naudojant savaimini naujinimą 2021 m. rugsėjo mėn.
+Šiame straipsnyje išvardytos funkcijos ir pataisymai, kurie yra nauji arba pakeisti „Project Service Automation“ V3 35 atnaujintame leidime. Šios komponavimo versijos numeris yra V3.10.56.110 ir ji visuotinai pasiekiama naudojant savaimini naujinimą 2021 m. rugsėjo mėn.
 
 ## <a name="update-release-35"></a>35 atnaujintas leidimas
 

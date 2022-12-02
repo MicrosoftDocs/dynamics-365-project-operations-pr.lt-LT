@@ -1,6 +1,6 @@
 ---
 title: 2020 m. gruodžio mėn. naujienos – „Project Operations Lite“ visuotinis diegimas – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo
-description: Šiame straipsnyje pateikiama informacija apie kokybės atnaujinimus, kuriuos galima rasti 2020 m. gruodžio mėn.
+description: Šiame straipsnyje pateikiama informacija apie kokybinius naujinimus, pasiekiamus 2020 m. gruodžio mėn. „Project Operations Lite” visuotinio diegimo leidime – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo.
 author: sigitac
 ms.date: 12/07/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8924072"
 
 _**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
 
-Šis straipsnis taikomas šiems Dynamics 365 Project Operations komponentams ir versijoms:
+Šis straipsnis taikomas toliau nurodytiems „Dynamics 365 Project Operations“ komponentams ir versijoms:
 
   - „Project Operations“, esanti „Dataverse“ aplinkoje, 4.5.0.134 versija 
 

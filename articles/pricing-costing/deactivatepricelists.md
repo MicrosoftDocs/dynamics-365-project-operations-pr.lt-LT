@@ -1,6 +1,6 @@
 ---
 title: Kainoraščių išjungimas
-description: Šiame straipsnyje paaiškinama, kaip išjungti arba pašalinti nenaudojamus ar senus kainoraščius.
+description: Šiame straipsnyje aiškinama, kaip išjungti arba pašalinti nenaudojamus ar senus kainoraščius.
 author: rumant
 ms.date: 03/19/2021
 ms.topic: article

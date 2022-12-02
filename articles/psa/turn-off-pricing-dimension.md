@@ -1,6 +1,6 @@
 ---
 title: Kainodaros dimensijos išjungimas
-description: Šiame straipsnyje parodyta, kaip nustatyti kainodaros dimensijas "Project Service" sprendime.
+description: Šiame straipsnyje aprašyta, kaip nustatyti kainodaros dimensijas naudojant sprendimą „Project Service“.
 author: Rumant
 ms.custom:
 - dyn365-projectservice

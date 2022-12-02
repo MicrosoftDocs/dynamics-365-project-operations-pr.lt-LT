@@ -1,6 +1,6 @@
 ---
 title: Preliminarus išteklių rezervavimas
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip preliminariai planuoti ar minkštos knygos projekto komandos narius.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip preliminariai planuoti arba preliminariai rezervuoti projekto komandos narius.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

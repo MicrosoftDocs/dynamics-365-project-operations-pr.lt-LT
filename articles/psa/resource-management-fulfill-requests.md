@@ -1,6 +1,6 @@
 ---
 title: Išteklių reikalavimų įvykdymas
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip įvykdyti išteklių reikalavimus.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip įgyvendinti išteklių reikalavimus.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

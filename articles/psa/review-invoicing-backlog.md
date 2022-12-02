@@ -1,6 +1,6 @@
 ---
 title: Sąskaitų faktūrų įsiskolinimų peržiūra projektuose ir projektų sutartyse
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip peržiūrėti laiko, išlaidų ir produktų atsilikimą ir kaip pažymėti juos kaip paruoštus išrašyti SF.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip peržiūrėti laiko, savikainos ir produktų įsiskolinimus ir kaip juos pažymėti kaip paruoštus išrašyti sąskaitą faktūrą.
 author: rumant
 ms.custom: ''
 ms.author: rumant
@@ -28,7 +28,7 @@ ms.locfileid: "8928902"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Kai operacijai galima išrašyti sukurtą ir apdorotą sąskaitą faktūrą, operaciją reikia pažymėti kaip **Paruošta išrašyti sąskaitą faktūrą**. Šiame straipsnyje aprašomi operacijų, kurias galima sukurti, tipai.
+Kai operacijai galima išrašyti sukurtą ir apdorotą sąskaitą faktūrą, operaciją reikia pažymėti kaip **Paruošta išrašyti sąskaitą faktūrą**. Šiame straipsnyje aprašyti operacijų tipai, kuriuos galima sukurti.
 
 ## <a name="review-the-time-and-material-billing-backlog"></a>Laiko ir medžiagų atsiskaitymo įsiskolinimų peržiūra
 

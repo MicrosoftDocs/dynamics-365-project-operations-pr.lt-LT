@@ -1,6 +1,6 @@
 ---
 title: Projekto eiga ir savikainos naudojimas
-description: Šiame straipsnyje pateikiama informacija apie projekto eigos ir išlaidų suvartojimo stebėjimą.
+description: Šiame straipsnyje pateikta informacija apie projekto eigos ir sąnaudų sekimą.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -30,7 +30,7 @@ ms.locfileid: "8921772"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Poreikis sekti eigą atsižvelgiant į grafiką, priklauso nuo pramonės šakos. Kai kurie pramonės šakų atstovai seka projektą stambiu planu, o kitų pramonės šakų atstovai seka eigą bendru planu. Šiame straipsnyje parodyta, kaip planuoti, kad atitiktų organizacijos reikalavimus.
+Poreikis sekti eigą atsižvelgiant į grafiką, priklauso nuo pramonės šakos. Kai kurie pramonės šakų atstovai seka projektą stambiu planu, o kitų pramonės šakų atstovai seka eigą bendru planu. Šiame straipsnyje nurodyta, kaip planuoti norint atitikti jūsų organizacijos reikalavimus.
 
 ## <a name="effort-tracking-view"></a>Pastangų sekimo rodinys
 

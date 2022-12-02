@@ -1,6 +1,6 @@
 ---
 title: Projekto savikainos sekimas
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip projekto operacijos seka pažangą, palyginti su darbo sąnaudomis ir išlaidomis projektui.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip „Project Operations“ eiga sekama pagal projekto savikainą ir išlaidas.
 author: rumant
 ms.date: 03/22/2021
 ms.topic: article

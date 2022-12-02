@@ -1,6 +1,6 @@
 ---
 title: Projektu pagrįstų pasiūlymo eilučių sąskaitų faktūrų grafikai
-description: Šiame straipsnyje pateikiama informacija apie SF grafikų ir pasiūlymų eilučių etapų kūrimą.
+description: Šiame straipsnyje pateikta informacija apie sąskaitų faktūrų grafikų ir pasiūlymo eilučių etapų kūrimą.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

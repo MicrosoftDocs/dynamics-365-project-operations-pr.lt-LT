@@ -1,6 +1,6 @@
 ---
 title: Kainoraščių kopijavimas
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip kopijuoti kainoraščius programoje "Project Operations".
+description: Šiame straipsnyje pateikta informacija apie kainoraščių kopijavimą programoje „Project operations“.
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article

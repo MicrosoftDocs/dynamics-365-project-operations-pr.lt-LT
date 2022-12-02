@@ -1,6 +1,6 @@
 ---
 title: Išlaidų sąrašas
-description: Šiame straipsnyje paaiškinama, kaip detalizuoti išlaidas naudojant iš naujo suplanuotą išlaidų darbo sritį.
+description: Šiame straipsnyje paaiškinta, kaip detalizuoti išlaidas naudojant pertvarkytą išlaidų darbo sritį.
 author: suvaidya
 ms.date: 12/16/2021
 ms.topic: article
@@ -19,31 +19,31 @@ ms.locfileid: "8920944"
 
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
-Organizacijos dažnai reikalauja, kad darbuotojai išsamiai suskirstytų kelionės metu patirtas išlaidas. Pavyzdžiui, viešbučio lape gali būti kelios detalios kambario tarifo, mokesčių, automobilių stovėjimo aikštelės ir kitų įvairių išlaidų, patiriamų kiekvieną dieną viešnagės metu, eilutės. Arba maitinimo išlaidos gali pareikalauti, kad pusryčiams, pietums ar vakarienei pateiktumėte išsamesnį suskirstymą. Nepriklausomai nuo organizacijos poreikių, kiekviena išlaidų kategorija gali būti nustatyta taip, kad atspindėtų subkategorijas arba eilutės elementus, kurie sudaro išlaidas. Nors išlaidų valdyme **visada buvo palaikomas** išvardijimas, **darbo sritis Iš naujo suplanuotos išlaidos** įgalina efektyvesnį išvardijimą, kai įjungiama funkcija, **Gebėjimas greitai** detalizuoti pasikartojančias išlaidas.  
+Organizacijos dažnai reikalauja, kad darbuotojai pateiktų išsamų išlaidų, patiriamų kelionės metu, paskirstymą. Pavyzdžiui, viešbučio sąskaitoje gali būti kelios detalizuotos kambario mokesčio, mokesčių, vietos automobiliui ir kitų įvairių išlaidų, patiriamų kiekvieną dieną buvimo viešbutyje metu, eilutės. Arba dėl maisto išlaidų reikia pateikti išsamesnį pusryčių, pietų ir vakarienės detalizavimą. Nepriklausomai nuo organizacijos poreikių, kiekvieną išlaidų kategoriją galima nustatyti taip, kad ji atspindėtų papildomas kategorijas arba eilutės elementus, kurie sudaro išlaidas. Nors detalizavimas visada buvo palaikomas dalyje **Išlaidų valdymas**, darbo srityje **Pertvarkytos išlaidos** detalizuoti galima efektyviau, kai įjungta funkcija **Galimybė greitai detalizuoti pasikartojančias išlaidas**.  
 
-## <a name="enable-quick-itemization"></a>Įgalinti greitą išvardijimą 
+## <a name="enable-quick-itemization"></a>Sparčiojo detalizavimo įjungimas 
 
-Galite naudoti **funkciją Galimybė greitai** detalizuoti pasikartojančias išlaidas, kad greitai detalizuotumėte pasikartojančias išlaidas, tuo pačiu išvengdami būtinybės kiekvieną kartą įvesti kasdienes išlaidas viešnagės metu. Atlikite šiuos veiksmus, kad įgalintumėte greitą išvardijimą.
+Galite naudoti funkciją **Galimybė greitai detalizuoti pasikartojančias išlaidas** ir greitai detalizuoti pasikartojančias išlaidas, išvengdami būtinybės kiekvieną kartą įvesti kasdienes išlaidas visai buvimo trukmei. Norėdami įjungti spartųjį detalizavimą, atlikite toliau nurodytus veiksmus.
 
-1. Eikite į **darbo sritį Funkcijų valdymas** ir funkcijų sąraše raskite ir pasirinkite Išlaidų **ataskaitos iš naujo nustatytos**. 
+1. Eikite į darbo sritį **Funkcijų valdymas** ir funkcijų sąraše raskite ir pasirinkite **Išlaidų ataskaitų pertvarkymas**. 
 2. Pasirinkite **Įjungti dabar**. 
-3. Funkcijų sąraše raskite ir pasirinkite, **Gebėjimas greitai** detalizuoti pasikartojančias išlaidas.
+3. Funkcijų sąraše raskite ir pasirinkite **Galimybė greitai detalizuoti pasikartojančias išlaidas**.
 4. Pasirinkite **Įjungti dabar**. 
 
-## <a name="itemization-grid"></a>Išvardijimo tinklelis 
+## <a name="itemization-grid"></a>Detalizavimo tinklelis 
 
-Jei išlaidų kategorijoje yra subkategorijų arba skirtingų komponentų, sudarančių tas išlaidas, ją galima detalizuoti. Norėdami detalizuoti išlaidas, išlaidų ataskaitoje pasirinkite išlaidų eilutę, o srityje Išlaidų informacija **pasirinkite** **Veiksmai** > **Detalizuoti**. Detalizavimo **slankiklis** atskleidžia tinklelį su laukais. Šioje lentelėje pateikiamas kiekvieno tinklelio lauko ir to, kaip laukas atvaizduojamas išlaidų ataskaitoje, pavyzdys. 
+Jei išlaidų kategorija turi antrinių kategorijų arba skirtingų komponentų, sudarančių tas išlaidas, ją galima detalizuoti. Norėdami detalizuoti išlaidas, išlaidų ataskaitoje pasirinkite išlaidų eilutę ir srityje **Išlaidų išsami informacija** pasirinkite **Veiksmai** > **Detalizuoti**. **Detalizavimo** slankiklyje rodomas tinklelis su laukais. Šioje lentelėje pateikiamas kiekvieno tinklelio lauko pavyzdys ir kaip laukas atvaizduojamas išlaidų ataskaitoje. 
 
 |     Laukas          |     Aprašą                                                                                  |     Pavyzdžiui              |
 |--------------------|--------------------------------------------------------------------------------------------------|--------------------------|
-|     Subkategorija    |     Subkategorijų, sukonfigūruotų pagal išlaidų kategorijos tipą, viešbutis **,** sąrašas.             |     Dienos kambarių kainos      |
-|     Pradžios data     |     Išlaidų elemento pirmą kartą patirto data.                                           |     09/13/2021           |
-|     Dienos tarifas     |     Išlaidų elemento suma.                                                    |     Virš 200                  |
-|     Kiekis       |     Kiek kartų mokestis kartojamas per nepertraukiamą laikotarpį.                       |     3                    |
+|     Subkategorija    |     Antrinių kategorijų, sukonfigūruotų pagal išlaidų kategorijos tipą, sąrašas, **Viešbutis**.             |     Kambario paros tarifas      |
+|     Pradžios data     |     Data, kai išlaidų elementas buvo patirtas pirmą kartą.                                           |     2021-09-13           |
+|     Paros tarifas     |     Išlaidų elemento suma.                                                    |     Virš 200                  |
+|     Kiekis       |     Kartų, kai mokestis kartojosi per tam tikrą ištisinį laikotarpį, skaičius.                       |     3                    |
 
-![Detalizuoti išlaidas.](media/Itemization%20screen%201.png)
+![Išlaidų detalizavimas.](media/Itemization%20screen%201.png)
 
-Kai įrašysite detalizavimą, pamatysite individualią detalizuotą kiekio, nurodyto detalizavimo tinklelyje, eilutę. Kiekviena eilutė prasideda tą dieną, kuri nurodyta tinklelyje.
+Įrašę detalizavimą, matysite atskirą detalizavimo eilutę kiekiui, nurodytam detalizavimo tinklelyje. Kiekviena eilutė prasideda tinklelyje nurodytą dieną.
 
-![Detalizuota ataskaita.](media/Itemization%20screen%202.png)
+![Tinkinta ataskaita.](media/Itemization%20screen%202.png)
 

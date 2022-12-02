@@ -31,7 +31,7 @@ ms.locfileid: "8913262"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Ištekliai yra svarbiausias paslaugomis pagrįstas organizacijos turtas. Turėdama galimybę rasti ir rezervuoti reikiamus išteklius, kai jų reikia, bei juos panaudoti, organizacija gali siekti pajamų ir klientų pasitenkinimo tikslų. Šiuose straipsniuose daugiausia dėmesio skiriama išteklių valdymo galimybėms Dynamics 365 Project Service Automation:
+Ištekliai yra svarbiausias paslaugomis pagrįstas organizacijos turtas. Turėdama galimybę rasti ir rezervuoti reikiamus išteklius, kai jų reikia, bei juos panaudoti, organizacija gali siekti pajamų ir klientų pasitenkinimo tikslų. Toliau nurodyti straipsniai skirti „Dynamics 365 Project Service Automation“ išteklių valdymo galimybėms:
 
 - [Išteklių tvarkymas](manage-resources.md)
 - [Pagrindinės sąvokos](reports-key-concepts.md)

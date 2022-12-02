@@ -1,6 +1,6 @@
 ---
 title: Produkto kainoraščiai
-description: Šiame straipsnyje pateikiama informacija apie kainoraščius katalogo kainodaroje, naudojamoje projektų pasiūlymams ir sutartims.
+description: Šiam straipsnyje pateikta informacija apie kainoraščius katalogo kainodara, naudojama projektų pasiūlymams ir sutartims.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

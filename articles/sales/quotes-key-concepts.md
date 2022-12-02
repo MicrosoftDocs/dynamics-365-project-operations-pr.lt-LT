@@ -1,6 +1,6 @@
 ---
 title: Pasiūlymai – pagrindinės sąvokos
-description: Šiame straipsnyje pateikiama informacija apie projekto pasiūlymus ir pardavimo pasiūlymus, pasiekiamus programoje "Project Operations".
+description: Šiame straipsnyje pateikta informacija apie projektų ir pardavimų pasiūlymus, prieinamus programoje „Project Operations“.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -35,7 +35,7 @@ Programoje „Dynamics 365 Project Operations“ naudojami dviejų tipų pasiūl
 - **Laukai ir sąvokos** – pardavimo pasiūlyme nėra kai kurių laukų ir sąvokų, įtrauktų į projekto pasiūlymą. Šie laukai yra **Sutartį pasirašantis vienetas**, **Klientų vadybininkas** ir **Sąskaitų gavėjo kontakto vardas**.  
 - **Tipas** – pardavimo pasiūlymai ir projekto pasiūlymai taip pat identifikuojami pagal parinkčių rinkiniu grindžiamą lauką **Tipas**. Pardavimo pasiūlyme šio lauko reikšmė yra **Pagrįstas prekėmis**. Projekto pasiūlyme jo reikšmė yra **Pagrįstas darbais**.
 
-Šiame straipsnyje daugiausia dėmesio skiriama projekto pasiūlymų detalėms.
+Šiame straipsnyje pagrindinis dėmesys skiriamas projekto pasiūlymų informacijai.
 
 „Project Operations“ projekto pasiūlyme gali būti keli eilučių elementai arba pasiūlymo eilutės. Faktiškai projekto pasiūlyme yra du eilučių elementų tinkleliai. Vienas tinklelis skirtas projektu pagrįstoms eilutėms, kurias galima išsamiai įvertinti. Kitas tinklelis skirtas produktu pagrįstoms eilutėms, kurioms naudojamas tiesiog vieneto kaina ir kiekiu pagrįstas metodas.
 

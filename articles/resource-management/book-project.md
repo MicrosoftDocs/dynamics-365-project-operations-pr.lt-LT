@@ -1,6 +1,6 @@
 ---
 title: Rezervacija į projektą
-description: Šiame straipsnyje pateikiama informacija apie išteklių rezervavimą projektui.
+description: Šiame straipsnyje pateikiama informacija apie projekto išteklių rezervavimą.
 author: ruhercul
 ms.date: 01/24/2022
 ms.topic: article
@@ -55,7 +55,7 @@ Kai išteklių vadovas turi užsakyti išteklių tiesiogiai projektui, jis gali 
     - Trukmė
    
    > [!NOTE]
-   > Dynamics 365 Project Operations Šiuo metu nepalaiko tvarkaraščio lentos.   
+   > Šiuo metu „Dynamics 365 Project Operations“ nepalaiko grafiko lentos.   
 
 ## <a name="book-from-the-project-form"></a>Rezervavimas iš Projekto formos
 

@@ -1,6 +1,6 @@
 ---
 title: Išteklių naudingumo apžvalga
-description: Šiame straipsnyje pateikiama informacija apie išteklių naudojimą projekto operacijose.
+description: Šiame straipsnyje pateikiama informacija apie išteklių naudojimą „Project Operations”.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: overview

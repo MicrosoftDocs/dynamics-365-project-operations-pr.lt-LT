@@ -1,6 +1,6 @@
 ---
 title: Darbo paskirstymo struktūros šablonų vaidmenų nustatymas
-description: Šiame straipsnyje pateikiama informacija apie vaidmens informacijos nustatymą darbo paskirstymo struktūros šablonuose.
+description: Šiame straipsnyje pateikta informacija apie vaidmens informacijos nustatymą darbo paskirstymo struktūros šablonuose.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

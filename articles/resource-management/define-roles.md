@@ -1,6 +1,6 @@
 ---
 title: Vaidmenų apibrėžimas
-description: Šiame straipsnyje pateikiamas saitas į informaciją apie užsakomųjų išteklių kategorijų nustatymą.
+description: Šiame straipsnyje pateikta nuoroda į informaciją apie rezervuojamų išteklių kategorijų nustatymą.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: article

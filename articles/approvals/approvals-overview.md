@@ -1,6 +1,6 @@
 ---
 title: Tvirtinimų apžvalga
-description: Šiame straipsnyje pateikiama informacija apie darbą su patvirtinimais projekto operacijose.
+description: Šiame straipsnyje pateikta informacija, kaip dirbti su patvirtinimais programoje „Project Operations“.
 author: stsporen
 ms.date: 03/31/2021
 ms.topic: overview

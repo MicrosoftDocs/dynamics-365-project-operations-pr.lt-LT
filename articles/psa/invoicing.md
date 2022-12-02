@@ -1,6 +1,6 @@
 ---
 title: SF išrašymas programoje „Project Service Automation“
-description: Šiame straipsnyje pateikiama informacija apie sąskaitų faktūrų išrašymą.
+description: Šiame straipsnyje pateikta informacija apie sąskaitų faktūrų išrašymą.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -94,7 +94,7 @@ Kai **ProcessRunner** baigia vykdymą, iškviečiamas **ProcessRunCaller**, pate
 Paketinė proceso užduotis, skirta sąskaitoms faktūroms kurti, yra pasikartojanti užduotis. Jei šis paketinis procesas vykdomas daug kartų, sukuriami keli užduoties egzemplioriai ir sukeliamos klaidos. Todėl paketinį procesą reikia pradėti tik vieną kartą, o jį paleisti iš naujo reikia tik tuo atveju, jei jis sustos.
 
 > [!NOTE]
-> Grupinis sąskaitų faktūrų išrašymas programoje „Project Service Automation“ vykdomas tik sutarčių eilutėms, sukonfigūruotoms pagal sąskaitų faktūrų grafikus. Sutarties eilutė su fiksuotos kainos atsiskaitymų metodu turi turėti sukonfigūruotus etapus. Norint naudoti projekto sutarties eilutę su laiko ir medžiagų atsiskaitymo metodu, reikės nustatyti data pagrįstą sąskaitos faktūros grafiką. Informacija apie SF išrašymo dažnių nustatymą projekto, pagrįsto pasiūlymo eilute, kontekste pateikiama straipsnyje " [Pasiūlymai ir pasiūlymo eilutės"](basic-quote-lines.md#invoice-schedule). Tokia pati tvarka galioja ir projektu pagrįstai sutarties eilutei.      
+> Grupinis sąskaitų faktūrų išrašymas programoje „Project Service Automation“ vykdomas tik sutarčių eilutėms, sukonfigūruotoms pagal sąskaitų faktūrų grafikus. Sutarties eilutė su fiksuotos kainos atsiskaitymų metodu turi turėti sukonfigūruotus etapus. Norint naudoti projekto sutarties eilutę su laiko ir medžiagų atsiskaitymo metodu, reikės nustatyti data pagrįstą sąskaitos faktūros grafiką. Informacija apie sąskaitų faktūrų išrašymo dažnumo nustatymą atsižvelgiant į projektą, pagrįstą pasiūlymo eilute, pateikiama straipsnyje [Pasiūlymai ir pasiūlymo eilutės](basic-quote-lines.md#invoice-schedule). Tokia pati tvarka galioja ir projektu pagrįstai sutarties eilutei.      
  
 ### <a name="edit-a-draft-psa-invoice"></a>PSA sąskaitos faktūros juodraščio redagavimas
 

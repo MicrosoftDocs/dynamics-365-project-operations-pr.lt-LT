@@ -1,6 +1,6 @@
 ---
 title: Projekto savikaina ir pajamos
-description: Šiame straipsnyje pateikiama informacija apie projekto išlaidų ir pajamų įvertinimą.
+description: Šiame straipsnyje pateikiama informacija apie projektų savikainų ir pajamų įvertinimą.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Kas nauja 2021 m. rugpjūčio mėn. „Project Operations“ „Lite“ visuotinėje įdiegtyje
-description: Šiame straipsnyje pateikiama informacija apie kokybės atnaujinimus, kuriuos galima rasti 2021 m. rugpjūčio mėn.
+description: Šiame straipsnyje pateikiama informacija apie kokybinius naujinimus, kuriuos galima rasti 2021 m. rugpjūčio mėn. „Project Operations“ „Lite“ visuotinėje įdiegtyje.
 author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8922048"
 
 _Taikoma (kam): „Lite“ visuotiniam diegimui – sandoris į išankstinės sąskaitos faktūros kūrimą_
 
-Šis straipsnis taikomas šiems Dynamics 365 Project Operations komponentams ir versijoms:
+Šis straipsnis taikomas toliau nurodytiems „Dynamics 365 Project Operations“ komponentams ir versijoms:
 
   - „Project Operations“, esanti „Dataverse“ aplinkoje, 4.13.0.152 versija
 

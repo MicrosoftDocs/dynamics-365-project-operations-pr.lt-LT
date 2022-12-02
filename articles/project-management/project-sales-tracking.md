@@ -1,6 +1,6 @@
 ---
 title: Projekto pardavimo sekimas
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip projekto operacijos seka projekto darbo pajamų pažangą.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip „Project Operations“ eiga sekama pagal projekto darbo pajamas.
 author: rumant
 ms.date: 03/24/2021
 ms.topic: article

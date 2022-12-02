@@ -1,6 +1,6 @@
 ---
 title: Sąskaitos faktūros grafikų kūrimas projektais pagrįstoje sutarties eilutėje
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip sutarties eilutėse kurti SF grafikus ir tarpinius etapus.
+description: Šiame straipsnyje pateikta informacija apie sąskaitų faktūrų grafikų ir sutarties eilučių etapų kūrimą.
 author: rumant
 ms.date: 10/17/2020
 ms.topic: article

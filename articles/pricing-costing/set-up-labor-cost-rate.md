@@ -1,6 +1,6 @@
 ---
 title: Darbo sąnaudų tarifų nustatymas
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip nustatyti darbo sąnaudų tarifus Projekto operacijos
+description: Šiame straipsnyje pateikta informacija, kaip nustatyti darbo savikainos tarifus naudojant „Project Operations“
 author: rumant
 ms.date: 10/12/2020
 ms.topic: article

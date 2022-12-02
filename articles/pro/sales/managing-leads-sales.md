@@ -1,6 +1,6 @@
 ---
 title: Galimų klientų valdymas – „Lite“ versija
-description: Šiame straipsnyje pateikiama informacija apie projektinių galimų klientų (pro) valdymą.
+description: Šiame straipsnyje pateikta informacija apie projektu pagrįstų galimų klientų valdymą (Pro).
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

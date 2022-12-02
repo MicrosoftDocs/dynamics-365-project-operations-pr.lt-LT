@@ -1,6 +1,6 @@
 ---
 title: Rezervavimo būsenos
-description: Šiame straipsnyje pateikiama nuoroda į informaciją apie tai, kaip nustatyti projekto operacijų užsakymo būsenas.
+description: Šiame straipsnyje pateikiama informacijos, kaip nustatyti „Project Operations” rezervavimo būsenas, nuoroda.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: article

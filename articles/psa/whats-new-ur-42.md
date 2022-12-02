@@ -1,6 +1,6 @@
 ---
 title: Kas nauja arba pakeista „Project Service Automation“ V3 42 atnaujintame leidime
-description: Šiame straipsnyje išvardijamos funkcijos ir taisymai, kuriuos galima rasti 42 naujinimo leidime Microsoft Dynamics 365 Project Service Automation, V3.
+description: Šiame straipsnyje išvardytos funkcijos ir pataisos, įtrauktos į „Microsoft Dynamics 365 Project Service Automation“ V3 42 atnaujintą leidimą.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 04/05/2022
@@ -29,7 +29,7 @@ ms.locfileid: "8912725"
 
 Norime pranešti apie naujausią programos Microsoft Dynamics 365 Project Service Automation naujinimą. Šiame leidime yra kai kurių svarbių kokybės, veikimo ir naudojimo patobulinimų. Ji suderinama su „Dynamics 365 9.x“. Norėdami atnaujinti į šį leidimą, apsilankykite „Dynamics 365 Online“ sprendimų administravimo centro puslapyje ir įdiekite naujinimą. Daugiau informacijos žr. [Pageidaujamo sprendimo diegimas, naujinimas arba šalinimas](/power-platform/admin/install-remove-preferred-solution).
 
-Šiame straipsnyje išvardijamos naujos arba pakeistos "Project Service Automation Update Release 42, V3" funkcijos ir taisymai. Šios versijos komponavimo versijos numeris yra V3.10.73.61 ir ji paprastai pasiekiama savaiminiu naujinimu, vykdytu 2022 m. balandžio mėn.
+Šiame straipsnyje išvardytos funkcijos ir pataisymai, kurie yra nauji arba pakeisti „Project Service Automation“ V3 42 atnaujintame leidime. Šios versijos komponavimo versijos numeris yra V3.10.73.61 ir ji paprastai pasiekiama savaiminiu naujinimu, vykdytu 2022 m. balandžio mėn.
 
 ## <a name="update-release-42"></a>42 atnaujintas leidimas
 
@@ -39,10 +39,10 @@ Buvo pataisytos tolesnės problemos.
 
 **Laikas ir išlaidos**
 
-- Kai tabelis atmetamas, jį atmetęs vartotojas neteisingai identifikuojamas kaip **Sistema**.
-- Importuojant laiko įrašus **, trūksta išteklių kategorijos** vertės.
-- Projektų tvirtintojai gali patvirtinti pateiktus projektus, kai jų teisės nėra konkrečiai nustatytos kaip **Gali patvirtinti**.
+- Kai laiko aprašas atmetamas, jį atmetęs vartotojas neteisingai identifikuojamas kaip **sistema**.
+- Kai importuojami laiko įrašai, trūksta **išteklių kategorijos** reikšmės.
+- Projektų patvirtinimas gali patvirtinti pateiktus projektus, kai jų teisės nėra nustatytos kaip Galima **patvirtinti**.
 
 **Pardavimas**
 
-- Kai faktiniai duomenys registruojami ne šakninio lygio užduotyse, faktinės išlaidos yra neteisingai sumuojamos.
+- Kai faktiniai duomenys registruojami ne šakninio lygio užduotyse, faktinės išlaidos neteisingai agreguojami.

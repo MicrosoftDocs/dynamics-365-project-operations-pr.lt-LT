@@ -1,6 +1,6 @@
 ---
 title: Tiekėjo užlaikymo apžvalga
-description: Šiame straipsnyje pateikiama tiekėjo saugojimo galimybių apžvalga.
+description: Šiame straipsnyje apžvelgiamos tiekėjo užlaikymo galimybės.
 author: sigitac
 ms.date: 10/01/2021
 ms.topic: overview

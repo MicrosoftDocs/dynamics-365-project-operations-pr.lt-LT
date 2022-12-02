@@ -1,6 +1,6 @@
 ---
 title: Sąnaudų šablonų nustatymas
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip kurti ir naudoti išlaidų šablonus "Project Operations".
+description: Šiame straipsnyje pateikiama informacijos apie tai, kaip kurti ir naudoti savikainos šablonus programoje „Project Operations”.
 author: sigitac
 ms.date: 11/18/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8918414"
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
 
-Šiame straipsnyje pateikiama informacija apie tai, kaip kurti ir naudoti išlaidų šablonus "Project Operations". Sąnaudų šablonas nustato:
+Šiame straipsnyje pateikiama informacijos apie tai, kaip kurti ir naudoti savikainos šablonus programoje „Project Operations”. Sąnaudų šablonas nustato:
 
 - projekto kategorijas, taikomas prognozuojamoms ir faktinėms operacijoms, kurios bus įtrauktos į projekto atlikimo skaičiavimo procentinę vertę. Tada atlikimo procentais vertė naudojama siekiant apskaičiuoti pajamas;
 - ar galima modifikuoti atlikimo procentinę vertę, jei ji apskaičiuojama automatiškai;
@@ -56,7 +56,7 @@ Sprendimas, kokį sąnaudų šabloną kurti, priklauso nuo įvairių aspektų.
 ## <a name="create-cost-templates"></a>Sąnaudų šablonų kūrimas
 Norėdami sukurti sąnaudų šabloną, atlikite toliau nurodytus veiksmus.
 
-1. Norėdami pasiekti išlaidų šablonus, Dynamics 365 Finance aplinkoje eikite į **Projektų valdymo ir apskaitos** > **nustatymo sąmatų** > **išlaidų šabloną** > **·**.
+1. Norėdami pasiekti savikainos šablonus, „Dynamics 365 Finance“ aplinkoje eikite į **Projektų valdymas ir apskaita** > **Sąranka** > **Įvertinimai** > **Savikainos šablonas**.
 2. Norėdami sukurti naują sąnaudų šabloną, pasirinkite **Naujas**. Įveskite pavadinimą ir aprašą.
 3. Nurodykite kiekvieno tipo operacijos sąnaudų eilutės ID.
 4. Pasirinkite numatytąjį atlikimo skaičiavimo metodą:

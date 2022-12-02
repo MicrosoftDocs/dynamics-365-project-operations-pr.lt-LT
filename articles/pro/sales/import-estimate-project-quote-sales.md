@@ -1,6 +1,6 @@
 ---
 title: Projekto įvertinimų importavimas į projektu pagrįstą pasiūlymo eilutę – „Lite“ versija
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip importuoti įvertinimus iš projekto į pasiūlymo eilutę.
+description: Šiame straipsnyje pateikta informacija apie projekto įvertinimų importavimą į pasiūlymo eilutę.
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article

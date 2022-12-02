@@ -1,6 +1,6 @@
 ---
 title: Įtraukti naujas pasirinktinių objektų formas (Project Service Automation 2.x)
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip įtraukti pasirinktinių objektų formas galimybėms, pasiūlymams, užsakymams arba sąskaitoms faktūroms Dynamics 365 Project Service Automation 2.x.
+description: 'Šiame straipsnyje pateikta informacija, kaip įtraukti pasirinktinių objektų formas, skirtas galimybėms, pasiūlymams, užsakymams arba sąskaitoms faktūroms „Dynamics 365 Project Service Automation“ 2.x. '
 author: makk
 ms.custom:
 - dyn365-projectservice

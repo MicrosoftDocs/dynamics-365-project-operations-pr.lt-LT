@@ -1,6 +1,6 @@
 ---
 title: Išlaidų ataskaitos ir keli tvirtintojai
-description: Šiame straipsnyje pateikiama informacija apie išlaidų ataskaitas, kurias turi patvirtinti daugiau nei vienas asmuo.
+description: Šiame straipsnyje pateikta informacija apie išlaidų ataskaitas, kurias patvirtinti reikalauja daugiau nei vienas asmuo.
 author: suvaidya
 ms.date: 09/23/2020
 ms.topic: article

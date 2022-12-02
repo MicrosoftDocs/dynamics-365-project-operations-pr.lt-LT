@@ -1,6 +1,6 @@
 ---
 title: Atsiskaitymo nebaigtų užduočių tvarkymas
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip peržiūrėti ir dirbti su atsiskaitymo atsilikimu programoje "Project Operations".
+description: Šiame straipsnyje pateikta informacija, kaip peržiūrėti ir tvarkyti atsiskaitymo nebaigtas užduotis naudojant „Project Operations“.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Išteklių valdymo pagrindinės sąvokos
-description: Šiame straipsnyje pateikiama informacija apie išteklių valdymo galimybes projekto operacijose Microsoft Dynamics.
+description: Šiame straipsnyje pateikiama informacija apie „Microsoft Dynamics Project Operations“ išteklių valdymo funkcijas.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

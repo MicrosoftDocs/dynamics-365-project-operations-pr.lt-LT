@@ -1,6 +1,6 @@
 ---
 title: Projektų kainoraščių valdymas projekto sutartyse
-description: Šiame straipsnyje pateikiama informacija apie projektų kainoraščių valdymą projekto sutartyse.
+description: Šiame straipsnyje pateikiama informacija apie projekto kainoraščius projekto sutartyse.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Kelių klientų tvarkymas projektu pagrįstose sutarties eilutėse
-description: Šiame straipsnyje pateikiama informacija apie darbą su sutarties eilutėmis ir sutartimis, kuriose yra keli klientai.
+description: Šiame straipsnyje pateikiama informacija, kaip dirbti su sutarties eilutėmis ir sutartimis, kuriose yra keli klientai.
 author: rumant
 ms.date: 10/22/2020
 ms.topic: article

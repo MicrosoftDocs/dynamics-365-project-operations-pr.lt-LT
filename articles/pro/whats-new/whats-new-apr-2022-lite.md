@@ -1,6 +1,6 @@
 ---
 title: Kas nauja – 2022 m. balandžio mėn. „Project Operations Lite“ visuotinis diegimas
-description: Šiame straipsnyje pateikiama informacija apie kokybės naujinimus, kuriuos galima rasti 2022 m. balandžio Dynamics 365 Project Operations mėn.
+description: Šioje temoje pateikiama informacija apie kokybės naujinimus, pasiekiamus 2022 m. balandžio mėn. „Microsoft Dynamics 365 Project Operations“ lite talpinimas.
 author: sigitac
 ms.date: 04/08/2022
 ms.topic: article
@@ -18,21 +18,21 @@ ms.locfileid: "8927476"
 
 _**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
 
-Šis straipsnis taikomas šiems "Microsoft" Dynamics 365 Project Operations komponentams ir versijoms:
+Šis straipsnis taikomas toliau nurodytiems „ Microsoft Dynamics 365 Project Operations“ komponentams ir versijoms:
 
-- Projekto operacijos aplinkos versijoje Dataverse 4.41.0.45
+- „Project Operations“ 4.41.0.45 versijos „Dataverse“ aplinkoje
 
 ## <a name="quality-updates"></a>Kokybės naujinimai
 
 | Funkcijų sritis | Nuorodos numeris | Kokybės naujinimas |
 | --- | --- | --- |
-| Laikas ir išlaidos | 2573900 | Šiuolaikinio **patvirtinimo** funkcija turi būti įjungta pagal numatytuosius nustatymus. |
-| Sąskaitų siuntimas ir kainodara | 2603313 | Ištaisyta įrašo dublikato klaida, dėl kurios nebuvo galima įtraukti pasiūlymo ir sutarties eilučių, kuriose yra produktas. |
-| Diegimas ir konfigūravimas | 2611368 | Klientai turi turėti galimybę įtraukti iki penkių pasirinktinių objektų į sprendimą naudodami šiuolaikinį programų dizaino įrankį. |
-| Laikas ir išlaidos | 2628285 | Išspręsta problema, kuri turėjo įtakos galimybei nustatyti tinkamą išteklių kategoriją importuojant laiko įrašą. |
-|  Galimybių valdymas| 2628815 | Atnaujinkite pasiūlymo eilutės išsamios informacijos aprašo simbolių limitą, kad jis atitiktų užduoties temos simbolių ribą, kad būtų galima importuoti užduotis, kurių tema ilgesnė nei 100 simbolių. |
-| Laikas ir išlaidos| 2629547 | Projekto **patvirtinimų laukas Pateikta pagal** turi nurodyti įrašą pateikusį vartotoją. |
-| Laikas ir išlaidos| 2629865 | Kopijuojant **projektus, užduočių laukas Kopijuoti kategoriją**. |
-| Laikas ir išlaidos| 2636463 | Pritvirtino patvirtinimų filtrus šiuolaikinėse patvirtinimo formose. |
-| Projektų planavimas ir sekimas | 2648300 | Išspręsta problema, neleidžianti keisti projekto savininko. |
-| Sąskaitų siuntimas ir kainodara | 2563000 | Negalima leisti leistino neapmokėto pardavimo žurnalo eilučių, kai valiuta skiriasi nuo sutarties valiutos. |
+| Laikas ir išlaidos | 2573900 | Pagal **numatytuosius nustatymus** šiuolaikinę patvirtinimo funkciją reikia įjungti. |
+| Sąskaitų siuntimas ir kainodara | 2603313 | Fiksuota įrašo dublikato klaida, dėl kurios nebuvo galima įtraukti pasiūlymo ir sutarties eilučių, į kurias įtrauktas produktas. |
+| Visuotinis diegimas ir konfigūravimas | 2611368 | Klientai į sprendimą turi turėti galimybę įtraukti iki penkių pasirinktinių objektų naudodami modernią programų dizaino įrankį. |
+| Laikas ir išlaidos | 2628285 | Išspręsta problema, dėl kurios importuojant laiką buvo paveikta galimybė nustatyti teisingą išteklių kategoriją. |
+|  Galimybių valdymas| 2628815 | Atnaujinkite pasiūlymo eilutės išsamios informacijos aprašo simbolių limitą, kad jis atitiktų užduoties temos simbolių limitą, kad būtų galima importuoti užduotis, kai tema ilgesnė nei 100 simbolių. |
+| Laikas ir išlaidos| 2629547 | Laukelis **Pateikta** pagal projekto patvirtinimų lauką turi nurodyti įrašą pateikęs vartotojas. |
+| Laikas ir išlaidos| 2629865 | Kopijuojant **projektus**, užduočių lauke Kopijuoti kategoriją. |
+| Laikas ir išlaidos| 2636463 | Šiuolaikinėse patvirtinimo formose fiksuoti patvirtinimų filtrai. |
+| Projektų planavimas ir sekimas | 2648300 | Išspręsta problema, dėl kurios projekto savininko keisti negalima. |
+| Sąskaitų siuntimas ir kainodara | 2563000 | Negalima naudoti neišrašyto pardavimo, kai valiuta skiriasi nuo sutarties valiutos, eilučių. |

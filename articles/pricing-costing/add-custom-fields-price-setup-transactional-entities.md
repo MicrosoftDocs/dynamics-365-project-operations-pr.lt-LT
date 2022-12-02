@@ -1,6 +1,6 @@
 ---
 title: Būtinų pasirinktinių laukų įtraukimas į kainų sąranką ir operacijų objektus
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip įtraukti reikiamas pasirinktines lauko nuorodas į objektus ir formas bei rodinius.
+description: Šiame straipsnyje pateikta informacija apie tai, kaip įtraukti būtinas pasirinktinių lauko nuorodų į objektus ir formas bei rodinius.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -26,9 +26,9 @@ ms.locfileid: "8926050"
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
-Šiame straipsnyje daroma prielaida, kad atlikote procedūras straipsnyje Kurti pasirinktinius laukus ir objektus, [kurie bus naudojami kaip kainodaros dimensijos](create-custom-fields-entities-pricing-dimensions.md). Jei dar neatlikote šių procedūrų, grįžkite ir užpildykite jas, tada grįžkite į šį straipsnį. 
+Šiame straipsnyje informacija pateikiama manant, kad baigėte straipsnio [Pasirinktinių laukų ir objektų kūrimas ir objektai, naudojami kaip kainodaros dimensijos](create-custom-fields-entities-pricing-dimensions.md) procedūras. Jei neatlikote šių procedūrų, grįžkite ir jas atlikite, o tada grįžkite į šią straipsnį. 
 
-Šiame straipsnyje procedūros parodys, kaip įtraukti reikiamas pasirinktines lauko nuorodas į objektus ir vartotojo sąsajos (UI) elementus, pvz., formas ir rodinius.
+Šiame straipsnyje procedūromis parodoma, kaip įtraukti reikiamas pasirinktinio lauko nuorodas į objektus ir į vartotojo sąsajos (UI) elementus, pvz., formas ir rodinius.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>Pasirinktinių kainos dimensijų laukų įtraukimas 
 Sukūrus pasirinktinius laukus ir objektus, kitas žingsnis – kainų sąrankos ir operacinių objektų supažindinimas su bet kokiais pasirinktiniais objektais ar parinkčių rinkiniais, kuriant nuorodos laukus. Atsižvelgiant į tai, ar jūsų kainos dimensijų sąraše yra parinkčių rinkinio dimensijos, objekto dimensijos, ar abi, atlikite tik **„Parinkčių rinkinio pasirinktinių kainų dimensijos“** arba **„Objekto pasirinktinių kainų dimensijos“**, arba abiejuose skyriuose nurodytus žingsnius.

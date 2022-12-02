@@ -1,6 +1,6 @@
 ---
 title: Išteklių kalendorių apibrėžimas
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip apibrėžti "Project Operations" išteklių darbo valandų kalendorius.
+description: Šiame straipsnyje pateikta informacija apie tai, kaip apibrėžti darbo valandų kalendorius, skirtus „Project Operations“ ištekliams.
 author: ruhercul
 ms.date: 10/05/2020
 ms.topic: article

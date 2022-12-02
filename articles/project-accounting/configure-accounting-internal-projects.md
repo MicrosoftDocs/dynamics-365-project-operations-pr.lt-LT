@@ -1,6 +1,6 @@
 ---
 title: Vidinių projektų apskaitos konfigūravimas
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip nustatyti vidinių projektų apskaitos praktiką programoje "Project Operations".
+description: Šiame straipsnyje pateikta informacija, kaip nustatyti vidinių projektų apskaitos praktikas naudojant „Project Operations“.
 author: sigitac
 ms.date: 10/09/2020
 ms.topic: article

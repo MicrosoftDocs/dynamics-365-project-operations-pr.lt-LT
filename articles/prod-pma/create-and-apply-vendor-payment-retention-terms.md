@@ -1,6 +1,6 @@
 ---
 title: Tiekėjo mokėjimo sulaikymo sąlygų kūrimas ir taikymas
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip nustatyti ir išlaikyti tiekėjo mokėjimų užlaikymo sąlygas.
+description: Šiame straipsnyje pateikta informacija apie tai, kaip nustatyti ir tvarkyti tiekėjo mokėjimų sulaikymo sąlygas.
 author: Yowelle
 ms.date: 05/26/2020
 ms.topic: article

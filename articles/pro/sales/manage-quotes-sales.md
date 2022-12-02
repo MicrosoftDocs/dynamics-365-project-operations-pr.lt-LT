@@ -1,6 +1,6 @@
 ---
 title: Projektų pasiūlymų valdymas
-description: Šiame straipsnyje pateikiama informacija apie projekto pasiūlymus.
+description: Šiame straipsnyje pateikta informacija apie projektų pasiūlymus.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
@@ -33,7 +33,7 @@ Visų projekto pasiūlymų sąrašą galite matyti sąrašo puslapyje **Pasiūly
 Pasiūlymus galima kurti arba naikinti šiame sąrašo puslapyje arba išsamios informacijos puslapyje.
 
  > [!NOTE]
- > Pasiūlymų, su kuriais susieti projektai, užduotys, įvertinimai, žurnalai ir (arba) faktiniai duomenys, panaikinti negalima. Be to, kai pasiūlymas uždaromas kaip Laimėtas arba Prarastas, jo nebegalima panaikinti ar modifikuoti. 
+ > Pasiūlymų, kurie turi su jais susietų projektų, užduočių, įvertinimų, žurnalų ir (arba) faktinių duomenų, panaikinti negalima. Be to, uždarius pasiūlymą kaip laimėtą arba pralaimėtą, jo nebegalima panaikinti arba modifikuoti. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

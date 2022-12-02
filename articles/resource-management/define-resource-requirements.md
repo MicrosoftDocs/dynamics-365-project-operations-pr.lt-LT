@@ -1,6 +1,6 @@
 ---
 title: Išteklių reikalavimų apibrėžimas
-description: Šiame straipsnyje pateikiama informacija apie išteklių poreikio informacijos nustatymą.
+description: Šiame straipsnyje pateikiama informacija apie išteklių reikalavimo informacijos apibrėžimą.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

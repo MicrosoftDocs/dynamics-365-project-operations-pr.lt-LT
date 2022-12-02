@@ -1,6 +1,6 @@
 ---
 title: Išteklių užklausos pateikimas
-description: Šiame straipsnyje pateikiama informacija apie projekto ištekliaus užklausos pateikimą.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip pateikti užklausą projekto ištekliams.
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/1/2018

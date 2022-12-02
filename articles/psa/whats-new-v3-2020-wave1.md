@@ -1,6 +1,6 @@
 ---
 title: Kas naujo arba pakeista programos „Project Service Automation“ 3.x wave 1 2020 versijoje
-description: Šiame straipsnyje pateikiama informacija apie tai, kas nauja ir pakeista "Project Service Automation" 3 bangos 1 2020 versijoje.
+description: Šiame straipsnyje pateikiama informacijos apie tai, kas nauja ir pakeista „Project Service Automation“ 3 wave 1 2020 versijoje.
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/15/2020
@@ -28,7 +28,7 @@ ms.locfileid: "8928626"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Straipsnyje pabrėžiami pagrindiniai atnaujinimo aspektai pereinant prie naujausio "Project Service Automation" (PSA) 3.x bangos 1 2020 versijos leidimo.
+Šiame straipsnyje aprašomi pagrindiniai naujinimai pereinant į naujausią „Project Service Automation“ (PSA) 3.x wave 1 2020 versijos leidimą.
 
 ## <a name="time-entry"></a>Laiko įrašas
 Laiko įrašo patirtis išplėsta, kad laiko įrašo išplėtimo galimybes būtų galima įtraukti į daugiau kliento scenarijų. Tai apima galimybę įtraukti įrašų tipus, kuri dabar pasižymi nauju specifiniu elgesiu, pagrįstu lauko schemos pavadinimu **Laiko įrašo parametrai**, rodomu kaip **Laiko ištekliai**. Naujas sprendimas, vadinamas Laiku, išlaidomis, būsenų nustatymu ir patvirtinimais (santr. angl. TESA), buvo įtrauktas palaikyti šią funkciją.

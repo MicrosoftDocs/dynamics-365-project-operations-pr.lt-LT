@@ -31,7 +31,7 @@ ms.locfileid: "8926694"
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 
-Dynamics 365 Project Service Automation išplečia kitus programos objektus ir įveda nuosavus objektus į Common Data Service duomenų modelį. Šiame straipsnyje aprašomi kai kurie objektai, su kuriais susidursite tipiniuose PSA ataskaitų teikimo scenarijuose.
+Dynamics 365 Project Service Automation išplečia kitus programos objektus ir įveda nuosavus objektus į Common Data Service duomenų modelį. Šiame straipsnyje aprašomi keli objektai, su kuriais susidursite įprastuose PSA ataskaitų scenarijuose.
 
 ## <a name="reporting-on-opportunities"></a>Ataskaitų apie galimybes teikimas
 

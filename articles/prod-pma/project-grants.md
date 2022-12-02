@@ -1,6 +1,6 @@
 ---
 title: Projektų subsidijos
-description: Šiame straipsnyje paaiškinama, kaip sukurti arba modifikuoti dotaciją.
+description: Šiame straipsnyje paaiškinama, kaip sukurti arba modifikuoti subsidiją.
 author: RadhikaRS
 ms.date: 04/22/2020
 ms.topic: article

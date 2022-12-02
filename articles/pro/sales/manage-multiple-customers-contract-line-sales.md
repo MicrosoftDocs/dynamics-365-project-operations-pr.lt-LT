@@ -1,6 +1,6 @@
 ---
 title: Kelių klientų tvarkymas projektu pagrįstose sutarties eilutėse – „Lite“ versija
-description: Šiame straipsnyje pateikiama informacija apie kelių klientų valdymą pagal projektą pagrįstų sutarčių eilutėse.
+description: Šiame straipsnyje pateikiama informacija apie kelių klientų tvarkymą projektu pagrįstose sutarties eilutėse.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article

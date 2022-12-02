@@ -1,6 +1,6 @@
 ---
 title: Kas nauja arba pakeista „Project Service Automation“ V3 44 atnaujintame leidime
-description: Šiame straipsnyje išvardijamos funkcijos ir taisymai, kuriuos galima rasti 44 naujinimo leidime Microsoft Dynamics 365 Project Service Automation, V3.
+description: Šiame straipsnyje išvardytos funkcijos ir pataisos, įtrauktos į „Microsoft Dynamics 365 Project Service Automation“ V3 43 atnaujintą leidimą.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 05/26/2022
@@ -29,7 +29,7 @@ ms.locfileid: "8918690"
 
 Norime pranešti apie naujausią programos Microsoft Dynamics 365 Project Service Automation naujinimą. Šiame leidime yra kai kurių svarbių kokybės, veikimo ir naudojimo patobulinimų. Ji suderinama su „Dynamics 365 9.x“. Norėdami atnaujinti į šį leidimą, apsilankykite „Dynamics 365 Online“ sprendimų administravimo centro puslapyje ir įdiekite naujinimą. Daugiau informacijos žr. [Pageidaujamo sprendimo diegimas, naujinimas arba šalinimas](/power-platform/admin/install-remove-preferred-solution).
 
-Šiame straipsnyje išvardijamos naujos arba pakeistos "Project Service Automation Update Release 44, V3" funkcijos ir taisymai. Šios versijos komponavimo numeris yra V3.10.75.142; ji visuotinai pasiekiama naudojant 2022 m. birželio mėn. savarankišką naujinimą.
+Šiame straipsnyje išvardytos funkcijos ir pataisymai, kurie yra nauji arba pakeisti „Project Service Automation“ V3 44 atnaujintame leidime. Šios versijos komponavimo numeris yra V3.10.75.142; ji visuotinai pasiekiama naudojant 2022 m. birželio mėn. savarankišką naujinimą.
 
 ## <a name="update-release-44"></a>44 atnaujintas leidimas
 
@@ -39,4 +39,4 @@ Buvo pataisytos tolesnės problemos.
 
 **Laikas ir išlaidos**
 
-- Uždelstos sistemos užduotys neleido apdoroti laukiančių patvirtinimų.
+- Sistemos užduočių, dėl kurių nebuvo galima apdoroti laukiančių patvirtinimų, tvarkymą buvo užkirstas kelias.

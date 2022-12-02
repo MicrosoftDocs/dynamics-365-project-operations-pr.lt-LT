@@ -1,6 +1,6 @@
 ---
 title: Išteklių kompetencijų valdymas
-description: Šiame straipsnyje pateikiama informacija apie projekto išteklių kompetencijų nustatymą.
+description: Šiame straipsnyje pateikiama informacija, kaip nustatyti projekto išteklių kompetencijas.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

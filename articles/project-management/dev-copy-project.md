@@ -1,6 +1,6 @@
 ---
 title: Projektų šablonų kūrimas naudojant veiksmą Kopijuoti projektą
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip kurti projekto šablonus naudojant pasirinktinį veiksmą Kopijuoti projektą.
+description: Šiame straipsnyje pateikta informacija apie tai, kaip kurti projektų šablonus naudojant pasirinktinį veiksmą Kopijuoti projektą.
 author: stsporen
 ms.date: 03/10/2022
 ms.topic: article
@@ -25,40 +25,40 @@ Pasirinkus **Kopijuoti projektą**, tikslinio projekto būsena atnaujinama. Naud
 
 ### <a name="name"></a>Pavadinimą 
 
-msdyn\_ CopyProjectV3
+msdyn\_CopyProjectV3
 
 ### <a name="input-parameters"></a>Įvesties parametrai
 
 Yra trys įvesties parametrai.
 
-- **ReplaceNamedResources** arba **ClearTeamsAndAssignments** – nustatykite tik vieną iš parinkčių. Nenustatykite abiejų.
+- **ReplaceNamedResources** arba **ClearTeamsAndAssignments** – nustatykite tik vieną iš šių parinkčių. Nenustatykite abiejų.
 
-    - **\{"ReplaceNamedResources":true\}** – numatytasis "Project Operations" veikimo būdas. Visi pavadinti ištekliai pakeičiami bendraisiais ištekliais.
-    - **\{"ClearTeamsAndAssignments":true\}** – numatytasis "Project for the Web" veikimo būdas. Visos užduotys ir komandos nariai pašalinami.
+    - **\{"ReplaceNamedResources":true\}** – numatytasis „Project Operations“ veikimo būdas. Visi įvardytieji ištekliai pakeičiami bendraisiais ištekliais.
+    - **\{"ClearTeamsAndAssignments":true\}** – numatytasis žiniatinklio „Project for the Web“ veikimo būdas. Visi priskyrimai ir komandos nariai pašalinami.
 
-- **SourceProject** – šaltinio projekto, iš kurio kopijuojama, objekto nuoroda. Šis parametras negali būti neapibrėžtas.
-- **Tikslas** – tikslinio projekto, į kurį norite kopijuoti, objekto nuoroda. Šis parametras negali būti neapibrėžtas.
+- **SourceProject** – šaltinio projekto, iš kurio reikia kopijuoti, objekto nuoroda. Šis parametras negali būti nulinis.
+- **Target** – tikslinio projekto, į kurį reikia kopijuoti, objekto nuoroda. Šis parametras negali būti nulinis.
 
-Šioje lentelėje pateikiama trijų parametrų santrauka.
+Toliau pateiktoje lentelėje pateikta šių trijų parametrų suvestinė.
 
 | Parametras                | Tipas             | Vertė                 |
 |--------------------------|------------------|-----------------------|
-| ReplaceNamedResources    | Bulio logikos          | **Teisinga** arba **klaidinga** |
-| ClearTeamsAndAssignments | Bulio logikos          | **Teisinga** arba **klaidinga** |
+| ReplaceNamedResources    | Bulio logikos          | **Teisinga** arba **Klaidinga** |
+| ClearTeamsAndAssignments | Bulio logikos          | **Teisinga** arba **Klaidinga** |
 | SourceProject            | Objekto nuoroda | Šaltinio projektas    |
-| Vertimas                   | Objekto nuoroda | Tikslinis projektas    |
+| Target                   | Objekto nuoroda | Tikslinis projektas    |
 
-Daugiau numatytųjų veiksmų ypatybių ieškokite [Use Web API actions](/powerapps/developer/common-data-service/webapi/use-web-api-actions).
+Daugiau informacijos apie veiksmus žr. [Žiniatinklio API veiksmai](/powerapps/developer/common-data-service/webapi/use-web-api-actions).
 
-### <a name="validations"></a>Tikrinimą
+### <a name="validations"></a>Tikrinimai
 
-Atliekami šie patvirtinimai.
+Atliekami toliau nurodyti tikrinimai.
 
-1. Null tikrina ir nuskaito šaltinio ir tikslinius projektus, kad patvirtintų abiejų projektų buvimą organizacijoje.
-2. Sistema patvirtina, kad tikslinis projektas galioja kopijavimui, patikrinusi šias sąlygas:
+1. Naudojant nulines reikšmes tikrinami ir nuskaitomi šaltinio ir tikslinis projektai, kad būtų patvirtintas abiejų projektų egzistavimą organizacijoje.
+2. Sistema tikrina, ar tikslinis projektas tinkamas kopijuoti, patikrindama šias sąlygas:
 
-    - Projekte nėra ankstesnės veiklos (įskaitant skirtuko **Užduotys** pasirinkimą) ir projektas kuriamas naujai.
-    - Nėra ankstesnės kopijos, šiame projekte nebuvo pareikalauta importuoti, o projekto būsena **nepavyko**.
+    - Su projektu neatliekamos ankstesnės veiklos (įskaitant skirtuko **Užduotys** parinkimą) ir projektas yra naujai sukurtas.
+    - Nėra ankstesnės kopijos, neprašoma šio projekto importuoti, projekto būsena nėra **Nepavyko**.
 
 3. Operacija neiškviečiama naudojant HTTP.
 
@@ -68,7 +68,7 @@ Kai veiksmas iškviečiamas, funkcija **Kopijuoti projektą** ieškos projekto r
 
 ### <a name="example"></a>Pavyzdžiui
 
-Toliau pateiktame pavyzdyje parodyta, kaip iškviesti pasirinktinį veiksmą **CopyProjectV3** su **parametrų rinkiniu RemoveNamedResources**.
+Toliau pateiktame pavyzdyje parodyta, kaip iškviesti pasirinktinį veiksmą **CopyProjectV3** naudojant parametrų rinkinį **removeNamedResources**.
 
 ```C#
 {

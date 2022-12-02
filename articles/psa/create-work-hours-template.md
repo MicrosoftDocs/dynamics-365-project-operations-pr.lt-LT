@@ -1,6 +1,6 @@
 ---
 title: Darbo valandų šablono kūrimas
-description: Šiame straipsnyje aprašoma, kaip sukurti darbo valandų šabloną programoje "Project Service".
+description: Šiame straipsnyje paaiškinta, kaip sprendime „Project Service“ sukurti darbo valandų šabloną.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

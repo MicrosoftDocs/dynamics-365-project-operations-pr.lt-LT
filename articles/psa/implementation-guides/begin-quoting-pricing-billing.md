@@ -1,6 +1,6 @@
 ---
 title: Pagrindinis pasiūlymų, kainodaros ir atsiskaitymo vadovas
-description: Šiame straipsnyje pateikiami saitai į informaciją apie pagrindinį kotiravimą, kainodarą ir atsiskaitymą programoje "Project Service Automation".
+description: Šiame straipsnyje pateikiami pagrindinės informacijos apie pasiūlymų teikimą, kainodarą ir atsiskaitymą naudojant „Project Service Automation“ saitai.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -32,7 +32,7 @@ ms.locfileid: "8910808"
 
 Turėdamos galimybę rasti reikiamus išteklius tinkamu laiku, rezervuoti tuos išteklius projektams bei juos panaudoti, organizacijos gali siekti pajamų ir klientų pasitenkinimo tikslų. 
 
-Pdf saitas, kuris anksčiau buvo šiame straipsnyje, buvo pašalintas ir turinys perkeltas į šiuos straipsnius:
+Anksčiau šiame straipsnyje pateiktas PDF failo saitas buvo pašalintas, o jo turinys perkeltas į toliau nurodytus straipsnius.
 
 - [Pasiūlymų teikimas, kainodara ir atsiskaitymas](../quote-bill-price.md)
 - [Pardavimo procesai](../basic-sales-process.md)
@@ -50,7 +50,7 @@ Pdf saitas, kuris anksčiau buvo šiame straipsnyje, buvo pašalintas ir turinys
 - [Faktinių duomenų registravimas](../advanced-actuals.md)
 
 > [!NOTE]
-> Šis straipsnis bus pašalintas būsimame dokumentacijos atnaujinime. 
+> Šis straipsnis bus pašalinta iš būsimų atnaujintų dokumentų. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

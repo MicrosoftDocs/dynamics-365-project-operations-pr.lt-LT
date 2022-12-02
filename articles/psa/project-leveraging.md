@@ -1,6 +1,6 @@
 ---
 title: Pardavimo sąmatos ir projektai
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip pasinaudoti pardavimo proceso grafiku ir įvertinimais.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip pardavimo proceso metu pasinaudoti tvarkaraščio ir sąmatų privalumais.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

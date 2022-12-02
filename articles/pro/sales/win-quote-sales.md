@@ -1,6 +1,6 @@
 ---
 title: Pasiūlymo uždarymas – „Lite“ versija
-description: Šiame straipsnyje pateikiama informacija apie pasiūlymo uždarymą programoje "Project Operations".
+description: Šiame straipsnyje pateikta informacija apie „Project Operations“ pasiūlymo uždarymą.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

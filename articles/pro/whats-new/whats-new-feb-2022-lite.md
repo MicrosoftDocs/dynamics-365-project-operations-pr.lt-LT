@@ -1,6 +1,6 @@
 ---
 title: Kas naujo 2022 m. vasario mėn. – „Project Operations“ „Lite“ visuotinis diegimas
-description: Šiame straipsnyje pateikiama informacija apie kokybės atnaujinimus, kuriuos galima rasti 2022 m. vasario mėn.
+description: Šiame straipsnyje pateikiama informacija apie kokybinius naujinimus, pasiekiamus 2022 m. vasario mėn. „Project Operations Lite” visuotinio diegimo leidime.
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
@@ -18,22 +18,22 @@ ms.locfileid: "8922830"
 
 _Taikoma (kam): „Lite“ visuotiniam diegimui – sandoris į išankstinės sąskaitos faktūros kūrimą_
 
-Šis straipsnis taikomas šiems "Microsoft" Dynamics 365 Project Operations komponentams ir versijoms:
+Šis straipsnis taikomas toliau nurodytiems „ Microsoft Dynamics 365 Project Operations“ komponentams ir versijoms:
 
-- Projekto operacijos aplinkos versijoje Dataverse 4.28.0.120
+- „Project Operations“ 4.28.0.120 versijos „Dataverse“ aplinkoje
 
 ## <a name="features-included-in-this-release"></a>Į šį leidimą įtrauktos funkcijos
 
-Nuo šio leidimo į vieną projektą galite įtraukti iki 300 komandos narių. Anksčiau komandos narių skaičiaus apribojimas buvo 150. Daugiau informacijos ieškokite [Project limits](../../project-management/create-wbs.md#project-limitations).
+Šiame leidime į vieną projektą galite įtraukti iki 300 komandos narių. Anksčiau komandos narių skaičiaus apribojimas buvo 150. Daugiau informacijos ieškokite skyriuje [Projekto apribojimai](../../project-management/create-wbs.md#project-limitations).
 
 ## <a name="quality-updates"></a>Kokybės naujinimai
 
 | Funkcijų sritis | Nuorodos numeris | Kokybės naujinimas |
 | --- | --- | --- |
-| Sąskaitų siuntimas ir kainodara | 2497369 | Medžiagų taisymas turi atitikti datos reikšmę parametruose **Taisymas**. |
-| Sąskaitų siuntimas ir kainodara | 2498697 | Patobulinta laiko įrašo atšaukimo **saugos konfigūracija**. |
-| Sąskaitų siuntimas ir kainodara | 2517455 | Negalima **leisti, kad veiksmo Atnaujintos SF eilutės operacijos** būtų suaktyvintas kelis kartus vienu metu toje pačioje SF. |
-| Sąskaitų siuntimas ir kainodara | 2517465 | Veiksmas **Išjungti SF eilutės informaciją** užblokuotas, nes jis nepalaikomas. |
-| Sąskaitų siuntimas ir kainodara | 2556660 | Fiksavo datos efektyvumo patikrinimus, atliktus kainoraštyje, pridėtame prie projekto parametrų įrašo. |
-|  Galimybių valdymas | 2369202 | Pataisė verslo logiką, kuri patikrina, ar kainoraščiai, kurių įgyvendinimo datos sutampa, gali būti pridedami prie tos pačios projekto sutarties. |
-|  Galimybių valdymas | 2385965 | Ištaisė elgesį **puslapio Projekto sutartis** skirtuke **Klientai**, kai pasirenkate **Įrašyti ir uždaryti**. |
+| Sąskaitų siuntimas ir kainodara | 2497369 | Pataisos parametrai turi atitikti **datos** reikšmę. |
+| Sąskaitų siuntimas ir kainodara | 2498697 | Patobulintos laiko įvesties išsamūs **saugos konfigūracijos parametrai**. |
+| Sąskaitų siuntimas ir kainodara | 2517455 | Atnaujinti **sąskaitos faktūros eilutės operacijų veiksmo** negalima paleisti kelis tos pačios sąskaitos faktūros kartus. |
+| Sąskaitų siuntimas ir kainodara | 2517465 | Sąskaitos **faktūros eilutės išsamios informacijos išjungimo** veiksmas yra užblokuotas, nes jis nepalaikomas. |
+| Sąskaitų siuntimas ir kainodara | 2556660 | Fiksuota datos poveikio kontrolė, atlikta kainotrašte, pridėtame prie projekto parametrų įrašo. |
+|  Galimybių valdymas | 2369202 | Ištaisyti verslo logiką, kuri tikrina, kad kainoraščius, kurie turi persidengiančias poveikio datas, galima pridėti prie tos pačios projekto sutarties. |
+|  Galimybių valdymas | 2385965 | Kai pasirenkate Įrašyti ir **uždaryti** projekto sutarties puslapio **skirtuke** Klientai **taisė elgseną**. |

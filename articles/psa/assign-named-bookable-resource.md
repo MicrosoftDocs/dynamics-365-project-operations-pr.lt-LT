@@ -1,6 +1,6 @@
 ---
 title: Įvardytų rezervuojamų išteklių rezervavimas projekto komandai ir užduočių priskyrimas
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip rezervuoti įvardytus išteklius projektų komandoms ir priskirti juos užduotims.
+description: Šiame straipsnyje pateikiama informacija apie įvardytų išteklių rezervavimą projektų komandoms ir jų priskyrimą užduotims.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice

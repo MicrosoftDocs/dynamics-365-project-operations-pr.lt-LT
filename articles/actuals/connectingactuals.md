@@ -1,6 +1,6 @@
 ---
 title: Operacijų ryšiai – skirtingų operacijų tipų faktinių duomenų susiejimas
-description: Šiame straipsnyje paaiškinama, kaip operacijos ryšys naudojamas skirtingų tipų faktams susieti, kad būtų galima stebėti pelningumą, atsiskaitymo atsilikimą ir sąskaitų faktūrų, palyginti su neapmokėtais pajamų skaičiavimais.
+description: Šiame straipsnyje paaiškinta, kaip operacijų ryšys naudojamas skirtingų tipų faktiniams duomenims sujungti, kad būtų galima sekti pelningumą, atsiskaitymo nebaigtas užduotis ir pajamų, už kurias išrašyta sąskaita, palyginti su pajamomis, už kurias neišrašyta sąskaita, skaičiavimus.
 author: rumant
 ms.date: 03/25/2021
 ms.topic: article
@@ -17,22 +17,22 @@ ms.locfileid: "8926096"
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
-Operacijos ryšio įrašai sukuriami siekiant susieti skirtingų tipų faktinius duomenis, nes laikas, išlaidos ar medžiagų naudojimas perkelia jo gyvavimo ciklą iš pasiūlymo arba išankstinio pardavimo etapo į sutarties etapą, patvirtinimus ir (arba) atšaukimus, SF išrašymą ir galimą kredito ar taisomosios SF išrašymą.
+Operacijų ryšio įrašai kuriami norint susieti skirtingų tipų faktinius duomenis, pvz., laiko, išlaidų ar medžiagos naudojimo trukmės pokyčius ciklo metu, nuo pasiūlymo arba etapo prieš pardavimą iki sutarties etapo, patvirtinimų ir (arba) atšaukimų, sąskaitų faktūrų išrašymo ir galimai kredito arba koreguojamųjų sąskaitą faktūrų išrašymo.
 
 Toliau pateiktame pavyzdyje parodytas tipinis „Project Operations“ projekto ciklo laiko įrašų apdorojimas.
 
-> ![Apdorojami laiko įrašai projekto operacijose.](media/basic-guide-17.png)
+> ![Laiko įrašų apdorojimas programoje „Project Operations“.](media/basic-guide-17.png)
 
-Projekto operacijų projekto gyvavimo ciklo laiko įrašų apdorojimas atliekamas šiais veiksmais: 
+Laiko įrašų apdorojimas „Project Operations“ projekto cikle vykdomas atliekant šiuos veiksmus: 
 
-1. Pateikus laiko įrašą, sukuriamos dvi žurnalo eilutės: viena savikainai ir viena neapmokėtiems pardavimams. 
-2. Patvirtinus laiko įrašą, sukuriami du faktiniai duomenys: vienas savikainai ir vienas neapmokėtiems pardavimams. Šie 2 faktiniai duomenys yra susieti naudojant operacijų ryšius.
+1. Pateikus laiko įrašą sukuriamos dvi žurnalo eilutės: viena išlaidų eilutė ir viena pardavimo, už kurį neišrašyta sąskaita, eilutė. 
+2. Galiausiai patvirtinus laiko įrašą, sukuriamos dvi faktinės sumos: viena išlaidų suma ir viena pardavimo, už kurį neišrašyta sąskaita, suma. Šie 2 faktiniai duomenys susiejami naudojant operacijų ryšius.
 3. Vartotojui kuriant projekto sąskaitą faktūrą, sąskaitos faktūros eilutės operacija sukuriama naudojant faktinės pardavimo, už kurį neišrašyta sąskaita, sumos duomenis.
-4. Patvirtinus SF, sukuriami du nauji faktiniai duomenys: neapdorotas pardavimo atšaukimas ir faktinis pardavimas, kuriam išrašyta sf. Neapdorotas pardavimo atšaukimas ir pradinis neįregistruotas pardavimas faktinis yra prijungti naudojant atšaukiamus operacijų ryšius. Pardavimai, už kuriuos išrašytos sąskaitos, ir pradiniai neapmokėti pardavimo faktiniai duomenys taip pat yra susieti, kad būtų rodomi ryšiai tarp to, kas kažkada buvo neįvykdyta arba nebaigta darbo (NG) pajamų su tuo, kas dabar apmokestinama pajamomis.   
+4. Patvirtinus sąskaitą faktūrą, sukuriamos dvi naujos faktinės sumos: pardavimo, už kurį neišrašyta sąskaita, atšaukimo suma ir faktinė pardavimo, už kurį išrašyta sąskaita, suma. Pardavimo, už kurį neišrašyta sąskaita, atšaukimo ir pradinio pardavimo, už kurį neišrašyta sąskaita, faktiniai duomenys sujungiami naudojant atšaukimo operacijos ryšius. Pardavimo, už kurį išrašyta sąskaita, ir pradinio pardavimo, už kurį neišrašyta sąskaita, faktiniai duomenys taip pat sujungiami, kad būtų parodyti ryšiai tarp to, kas anksčiau buvo nebaigtų užduočių arba vykdomo darbo (WIP) pajamos ir to, kas dabar yra pajamos, už kurias išrašyta sąskaita faktūra.   
 
-Kiekvienas apdorojimo darbo eigos įvykis suaktyvina įrašų kūrimą lentelėje **Operacijos ryšys**. Tai padeda sukurti ryšių tarp įrašų, sukurtų pagal laiko įrašą, žurnalo eilutę, faktinę ir SF eilutės informaciją, sekimą.
+Kiekvienas apdorojimo darbo eigos įvykis inicijuoja įrašų kūrimą lentelėje **Operacijos ryšys**. Tai padeda sukurti ryšių tarp įrašų, sukurtų laiko įrašuose, žurnalo eilutėse, faktiniuose duomenyse ir sąskaitos faktūros eilutės informacijos dalyje, sekimą.
 
-Šioje lentelėje rodomi ankstesnės darbo eigos objekto **Operacijos ryšio** įrašai.
+Tolesnėje lentelėje pateikiami ankstesnės darbo eigos objekto **Operacijos ryšys** įrašai.
 
 |Įvykis                   |1 operacija                 |1 operacijos vaidmuo |1 operacijos tipas       |2 operacija          |2 operacijos vaidmuo |2 operacijos tipas |
 |------------------------|------------------------------|---------------|-----------------------------|-----------------------------|-------------------|-------------------|
@@ -43,11 +43,11 @@ Kiekvienas apdorojimo darbo eigos įvykis suaktyvina įrašų kūrimą lentelėj
 |                        |Pardavimo, už kurį išrašyta sąskaita, GUID             |Pardavimas, už kurį išrašyta sąskaita   |msdyn_actual                 |Pardavimo, už kurį neišrašyta sąskaita, faktinės sumos GUID   |Pardavimas, už kurį neišrašyta sąskaita  |msdyn_actual       |
 |Sąskaitos faktūros juodraščio koregavimas |Sąskaitos faktūros eilutės operacijos GUID|Pakeitimas      |msdyn_invoicelinetransaction |Pardavimo, už kurį išrašyta sąskaita, GUID            |Pradinis        |msdyn_actual       |
 |Sąskaitos faktūros koregavimo patvirtinimas|Pardavimo, už kurį išrašyta sąskaita, atšaukimo GUID  |Atšaukimas      |msdyn_actual                 |Pardavimo, už kurį išrašyta sąskaita, GUID            |Pradinis        |msdyn_actual       |
-|                        |Naujas neapmokėtas pardavimo GUID |Pakeitimas            |msdyn_actual                 |Pardavimo, už kurį išrašyta sąskaita, GUID            |Pradinis        |msdyn_actual       |
+|                        |Naujo pardavimo, už kurį neišrašyta sąskaita, GUID |Pakeitimas            |msdyn_actual                 |Pardavimo, už kurį išrašyta sąskaita, GUID            |Pradinis        |msdyn_actual       |
 
 
-Toliau pateiktoje iliustracijoje rodomi saitai, sukurti tarp skirtingų tipų faktinių duomenų įvairiuose renginiuose, naudojant laiko įrašų pavyzdį projekto operacijose.
+Toliau pateiktoje iliustracijoje pavaizduoti saitai, sukurti tarp skirtingų faktinių duomenų tipų įvairiais, įvykus įvairiems įvykiams, naudojant „Project Operations“ laiko įrašų pavyzdį.
 
-> ![Kaip skirtingų tipų aktualijos yra tarpusavyje susietos projekto operacijose.](media/TransactionConnections.png)
+> ![Kaip skirtingų tipų faktiniai duomenys susiejami vieni su kitais programoje „Project Operations“.](media/TransactionConnections.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

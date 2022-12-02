@@ -1,6 +1,6 @@
 ---
 title: Produktu pagrįstų sutarties eilučių sudėtinių vienetų valdymas – „Lite“ versija
-description: Šiame straipsnyje pateikiama informacija apie prenumerata pagrįstų produktų pardavimo palaikymą.
+description: Šiame straipsnyje pateikta informacija apie tai, kaip palaikomas prenumeruojamų produktų pardavimas.
 author: rumant
 ms.date: 10/28/2020
 ms.topic: article

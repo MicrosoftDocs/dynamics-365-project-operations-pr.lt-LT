@@ -1,6 +1,6 @@
 ---
 title: Išlaidų kategorijų nustatymas
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip nustatyti išlaidų ataskaitų išlaidų kategorijas ir bendrinamas kategorijas.
+description: Šiame straipsnyje pateikta informacija, kaip nustatyti išlaidų kategorijas ir bendrai naudojamas išlaidų ataskaitų kategorijas.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article

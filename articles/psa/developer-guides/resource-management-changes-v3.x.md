@@ -1,6 +1,6 @@
 ---
 title: Išteklių valdymo pakeitimai (Project Service Automation 3.x)
-description: Šiame straipsnyje pateikiama informacija apie išteklių valdymo srities pakeitimus.
+description: Šiame straipsnyje pateikiama informacija apie pakeitimus išteklių valdymo srityje.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -26,7 +26,7 @@ ms.locfileid: "8916022"
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
-Šio straipsnio skyriuose pateikiama informacija apie pakeitimus, atliktus 3.x versijos išteklių valdymo srityje Dynamics 365 Project Service Automation.
+Šio straipsnio skyriuose pateikiama informacija apie pakeitimus, kurie atlikti „Dynamics 365 Project Service Automation“ 3.x versijos išteklių valdymo srityje.
 
 ## <a name="project-estimates"></a>Projekto įvertinimai
 

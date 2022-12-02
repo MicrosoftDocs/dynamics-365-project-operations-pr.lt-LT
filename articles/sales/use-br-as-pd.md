@@ -1,6 +1,6 @@
 ---
 title: Rezervuojamų išteklių kaip kainodaros dimensijos naudojimas
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip naudoti rezervuojamą išteklių kaip kainodaros dimensiją.
+description: Šiame straipsnyje pateikiama informacijos, kaip naudoti rezervuojamus išteklius kaip kainodaros dimensiją.
 author: Rumant
 ms.date: 11/18/2020
 ms.topic: article
@@ -17,10 +17,10 @@ ms.locfileid: "8914826"
 
  _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_ 
 
-Šiame straipsnyje pateikiama informacija apie tai, kaip naudoti rezervuojamą išteklių kaip kainodaros dimensiją. Jei jūsų kainodaros strategijoje nustatyta, kad kiekvienas rezervuojamas išteklius turi turėti konkrečią kainą ar įkainį, naudokite rezervuojamus išteklius kaip kainodaros dimensiją.
+Šiame straipsnyje pateikiama informacijos, kaip naudoti rezervuojamus išteklius kaip kainodaros dimensiją. Jei jūsų kainodaros strategijoje nustatyta, kad kiekvienas rezervuojamas išteklius turi turėti konkrečią kainą ar įkainį, naudokite rezervuojamus išteklius kaip kainodaros dimensiją.
 
 ## <a name="prerequisites"></a>Būtinosios sąlygos
-Prieš atlikdami šiame straipsnyje pateiktas procedūras, turite turėti naują savo organizacijos kainodaros dimensijos sprendimą. Jei dar jo nesukūrėte, žr. [Pasirinktinių laukų ir objektų kūrimas](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
+Kad galėtumėte atlikti šiame straipsnyje nurodytus veiksmus, turite turėti naują savo organizacijos kainodaros dimensijos sprendimą. Jei dar jo nesukūrėte, žr. [Pasirinktinių laukų ir objektų kūrimas](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-bookable-resource-field-to-forms-and-views"></a>Rezervuojamų išteklių lauko įtraukimas į formas ir rodinius
 Jei norite, kad laukas **Rezervuojami ištekliai** būtų rodomas kainodaros dimensijos sprendime, reikia pridėti lauką prie visų formų ir rodinių kaip objektą.

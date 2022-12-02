@@ -1,6 +1,6 @@
 ---
 title: Projekto pardavimo ir išlaidų įvertinimas, kai rezervuojami ištekliai projekte atlieka kelis vaidmenis
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip kainodaros dimensijos gali būti naudojamos išteklių, kurie užpildo kelis projekto vaidmenis, kainodarai ir įkainojimui palaikyti.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip naudoti kainodaros dimensijas, skirtas išteklių, kurie projekte atlieka kelis vaidmenis, kainodarai ir įkainojimui palaikyti.
 author: rumant
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Projektu pagrįstos sutarties eilutės apmokestinamų komponentų konfigūravimas
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip įtraukti apmokestinamus komponentus į sutarties eilutes projekto operacijose.
+description: Šiame straipsnyje pateikta informacija apie tai, kaip įtraukti apmokestinamus komponentus į sutarties eilutes naudojant „Project Operations“.
 author: rumant
 ms.date: 10/08/2020
 ms.topic: article

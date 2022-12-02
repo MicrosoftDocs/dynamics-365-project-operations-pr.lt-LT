@@ -1,6 +1,6 @@
 ---
 title: Išplėstinė informacija apie pasiūlymus, kainodarą ir atsiskaitymą
-description: Šiame straipsnyje pateikiama informacija apie citavimą, atsiskaitymą ir kainodarą "Project Service Automation".
+description: Šiame straipsnyje pateikiama informacija apie „Project Service Automation“ pasiūlymus, atsiskaitymo ir kainodarą.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -32,7 +32,7 @@ ms.locfileid: "8921818"
 
 Turėdamos galimybę rasti reikiamus išteklius tinkamu laiku, rezervuoti tuos išteklius projektams bei juos panaudoti, organizacijos gali siekti pajamų ir klientų pasitenkinimo tikslų. 
 
-Pdf saitas, kuris anksčiau buvo šiame straipsnyje, buvo pašalintas ir turinys perkeltas į šiuos straipsnius:
+Anksčiau šiame straipsnyje pateiktas PDF failo saitas buvo pašalintas, o jo turinys perkeltas į toliau nurodytus straipsnius.
 
 - [Pasiūlymų teikimas, kainodara ir atsiskaitymas](../quote-bill-price.md)
 - [Pardavimo procesai](../basic-sales-process.md)
@@ -50,7 +50,7 @@ Pdf saitas, kuris anksčiau buvo šiame straipsnyje, buvo pašalintas ir turinys
 - [Faktinių duomenų registravimas](../advanced-actuals.md)
 
 > [!NOTE]
-> Šis straipsnis bus pašalintas būsimame dokumentacijos atnaujinime. 
+> Šis straipsnis bus pašalinta iš būsimų atnaujintų dokumentų. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

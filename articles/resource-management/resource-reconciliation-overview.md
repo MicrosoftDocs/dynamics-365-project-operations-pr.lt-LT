@@ -1,6 +1,6 @@
 ---
 title: Išteklių suderinimo apžvalga
-description: Šiame straipsnyje pateikiama informacija, kuri padės užtikrinti, kad išteklių užsakymai ir projektų priskyrimai būtų suderinti.
+description: Šiame straipsnyje pateikiama informacija, kuri padės užtikrinti, kad projektų išteklių rezervavimai ir priskyrimai būtų suderinti.
 author: ruhercul
 ms.date: 01/08/2021
 ms.topic: overview

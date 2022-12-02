@@ -1,6 +1,6 @@
 ---
 title: Susieti projektus ir užduotis su projektu pagrįsta pasiūlymo eilute
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip susieti projektus ir užduotis su projektu pagrįsta užduočių eilute.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip susieti projektus ir užduotis su projekto užduočių eilute.
 author: rumant
 ms.date: 10/05/2020
 ms.topic: article

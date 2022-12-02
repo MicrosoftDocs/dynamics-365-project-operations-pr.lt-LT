@@ -1,6 +1,6 @@
 ---
 title: Kopijuoti projektą
-description: Šiame straipsnyje pateikiama informacija apie projektų kopijavimą programoje Dynamics 365 Project Operations.
+description: Šiame straipsnyje pateikta informacija apie projektų kopijavimą programoje „Dynamics 365 Project Operations“.
 author: ruhercul
 ms.date: 03/07/2022
 ms.topic: article
@@ -25,14 +25,14 @@ Naudodami „Dynamics 365 Project Operations“ galite greitai kurti naujus proj
 - Projekto įvertinimai
 - Projekto išlaidų įvertinimai
 - Projekto medžiagų įvertinimai
-- Projektų kontroliniai sąrašai
-- Projekto kaušai
+- Projekto kontroliniai sąrašai
+- Projektų segmentai
 
 ## <a name="project-properties"></a>Projekto ypatybes
 
-Kopijuojant projektą, kopijuojamos šių laukų vertės.
+Kai projektas kopijuojamas, kopijuojamos toliau nurodytų laukų reikšmės.
 
-| Laukas | Projekto operacijos nekaupiamos medžiagos | Projekto operacijos Lite | Žiniatinklio projektas |
+| Laukas | „Project Operations“ nelaikomos medžiagos | Project Operations Lite | Project for the Web |
 |-------|------------------------------------------|-------------------------|---------------------|
 | Pavadinimą | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | Aprašą | :heavy_check_mark: | :heavy_check_mark: | |
@@ -46,8 +46,8 @@ Kopijuojant projektą, kopijuojamos šių laukų vertės.
 | Bendroji projekto būsena | :heavy_check_mark: | :heavy_check_mark: | |
 | Komentarai | :heavy_check_mark: | :heavy_check_mark: | |
 | Įvertinimai | :heavy_check_mark: | :heavy_check_mark: | |
-| <p>Numatoma pradžios data</p><p><strong>Pastaba:</strong> Šiame lauke nurodoma projekto sukūrimo iš kopijos data. | :heavy_check_mark: | :heavy_check_mark: | |
-| <p>Numatoma pabaigos data</p><p><strong>Pastaba:</strong> Data šiame lauke koreguojama pagal naujo projekto, kuris buvo atliktas iš kopijos, pradžios datą.</p> | :heavy_check_mark: | :heavy_check_mark: | |
+| <p>Numatoma pradžios data</p><p><strong>Pastaba:</strong> šis laukas nurodo datą, kai projektas kuriamas iš kopijos. | :heavy_check_mark: | :heavy_check_mark: | |
+| <p>Numatoma pabaigos data</p><p><strong>Pastaba:</strong> šiame lauke esanti data koreguojama pagal naujo projekto, sukurto iš kopijos, pradžios datą.</p> | :heavy_check_mark: | :heavy_check_mark: | |
 | Pastangos (valandos) | :heavy_check_mark: | :heavy_check_mark: | |
 | Įvertintos darbo sąnaudos | :heavy_check_mark: | :heavy_check_mark: | |
 | Įvertinta išlaidų savikaina | :heavy_check_mark: | :heavy_check_mark: | |
@@ -58,14 +58,14 @@ Kopijuojant projektą, kopijuojamos šių laukų vertės.
 
 ## <a name="work-breakdown-structure"></a>Darbo paskirstymo struktūra
 
-Kai projektas kopijuojamas, nukopijuojama visa išteklių įkelta darbo paskirtstymo struktūra. Įvardytieji ištekliai pakeičiami bendraisiais ištekliais. Jei įvardytų išteklių darbo valandos nesutampa su bendruoju ištekliumi, tvarkaraštis bus perskaičiuotas, o užduoties trukmė gali keistis.
+Kai projektas kopijuojamas, nukopijuojama visa išteklių įkelta darbo paskirtstymo struktūra. Įvardytieji ištekliai pakeičiami bendraisiais ištekliais. Jei įvardytieji ištekliai neturi tokių pačių darbo valandų kaip bendrasis išteklius, grafikas bus perskaičiuotas ir užduoties trukmė gali pasikeisti.
 
 ## <a name="project-team-members"></a>Projekto komandos nariai
 
 Kai projekto komanda kopijuojama iš šaltinio projekto, kopijuojami bendrieji ištekliai. Bendrųjų išteklių priskyrimai tvarkomi taip pat kaip ir šaltinio projekte. Įvardytieji ištekliai bus konvertuoti į bendruosius komandos narius.
 
 > [!NOTE]
-> Komandos nariai ir priskyrimai nekopijuojami programoje "Project for the Web".
+> Komandos nariai ir priskyrimai į „Project for the Web“ nekopijuojami.
 
 ## <a name="estimates"></a>Įvertinimai
 
@@ -75,6 +75,6 @@ Norėdami gauti informacijos apie tai, kaip programiškai pasiekti funkciją Kop
 
 ## <a name="quotes-and-contracts"></a>Pasiūlymai ir sutartys
 
-Pasiūlymai ir sutartys nėra susieti su paskirties projektu.
+Pasiūlymai ir sutartys nesusiejamos su paskirties projektu.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Galimų klientų valdymas
-description: Šiame straipsnyje pateikiama informacija apie projektinių galimų klientų valdymą.
+description: Šiame straipsnyje pateikta informacija apie projektu pagrįstų galimų klientų valdymą.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Pajamų pripažinimo apžvalga
-description: Šiame straipsnyje pateikiama informacija apie pajamų atpažinimą projekto operacijose.
+description: Šiame straipsnyje pateikiama informacijos apie pajamų pripažinimą programoje „Project Operations”.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: overview
@@ -17,7 +17,7 @@ ms.locfileid: "8926280"
 
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
-Programoje „Dynamics 365 Project Operations“ pajamų pripažinimo principai skiriasi atsižvelgiant į pasirinktą atsiskaitymo metodą, taikomą projektui arba projekto daliai. Šiame straipsnyje pateikiama informacija apie pajamų atpažinimą projekto operacijose.
+Programoje „Dynamics 365 Project Operations“ pajamų pripažinimo principai skiriasi atsižvelgiant į pasirinktą atsiskaitymo metodą, taikomą projektui arba projekto daliai. Šiame straipsnyje pateikiama informacijos apie pajamų pripažinimą programoje „Project Operations”.
 
 ## <a name="transactions-accounted-using-time-and-material-billing-method"></a>Operacijos, įtraukiamos naudojant atsiskaitymo už laiką ir medžiagas metodą
 

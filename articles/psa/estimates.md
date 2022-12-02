@@ -1,6 +1,6 @@
 ---
 title: Įvertinimai
-description: Šiame straipsnyje pateikiama informacija apie įverčius Dynamics 365 Project Service Automation.
+description: Šiame straipsnyje pateikiama informacija apie įvertinimų teikimą programoje „Dynamics 365 Project Service Automation“.
 author: rumant
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Kas nauja arba pakeista „Project Service Automation“ V3 40 atnaujintame leidime
-description: Šiame straipsnyje išvardijamos funkcijos ir taisymai, kuriuos galima rasti 40-ajame naujinimo leidime Microsoft Dynamics 365 Project Service Automation, V3.
+description: Šiame straipsnyje išvardytos funkcijos ir pataisos, įtrauktos į „Microsoft Dynamics 365 Project Service Automation“ V3 40 atnaujintą leidimą.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/31/2022
@@ -29,21 +29,21 @@ ms.locfileid: "8912802"
 
 Norime pranešti apie naujausią programos Microsoft Dynamics 365 Project Service Automation naujinimą. Šiame leidime yra kai kurių svarbių kokybės, veikimo ir naudojimo patobulinimų. Ji suderinama su „Dynamics 365 9.x“. Norėdami atnaujinti į šį leidimą, apsilankykite „Dynamics 365 Online“ sprendimų administravimo centro puslapyje ir įdiekite naujinimą. Daugiau informacijos žr. [Pageidaujamo sprendimo diegimas, naujinimas arba šalinimas](/power-platform/admin/install-remove-preferred-solution).
 
-Šiame straipsnyje išvardijamos funkcijos ir taisymai, kurie yra nauji arba pakeisti "Project Service Automation Update Release 40" V3. Šios versijos numeris yra V3.10.61.61 ir ji visuotinai pasiekiama įdiegiant savaiminį 2022 m. vasario mėn. naujinimą.
+Šiame straipsnyje išvardytos funkcijos ir pataisymai, kurie yra nauji arba pakeisti „Project Service Automation“ V3 40 atnaujintame leidime. Šios versijos numeris yra V3.10.61.61 ir ji visuotinai pasiekiama įdiegiant savaiminį 2022 m. vasario mėn. naujinimą.
 
 ## <a name="update-release-40"></a>40 atnaujintas leidimas
 
 ### <a name="features"></a>Funkcijos
-1 etapas atnaujinimo iš projekto paslaugų automatizavimo į projekto operacijas - "Lite" bus išleistas 2022 m. Vasario mėn. Norėdami patikrinti tinkamumą, žr [...](upgrade-project-operations-non-stocked.md). Jei taikomoji programa nerodoma jūsų egzemplioriuje Administravimo centre, susisiekite su palaikymo Power Platform tarnyba ir paprašykite, kad skrydis būtų įgalintas jūsų aplinkoje. Jūsų prašyme turi būti pateiktas aplinkos ID, kuriuose turi būti įjungtas skrydis, sąrašas.
+Atnaujinimo iš „Project Service Automation" į "Project Operations" 1 etapas – "Lite" bus išleistas visiems klientams 2022 m. vasario mėn. Norėdami patikrinti suderinamumą, žr. [Naujinimas iš „Project Service Automation“ į „Project Operations“ – „Lite“](upgrade-project-operations-non-stocked.md). Jei taikomoji programa administravimo centre nerodoma jūsų Power Platform egzemplioriuje, kreipkitės į klientų aptarnavimo tarnybą ir prašo įgalinti jūsų aplinkose įjungtą skrydžių funkciją. Jūsų užklausoje turi būti aplinkos IDs sąrašas, kuriame reikia įjungti išvykimą.
 
 ### <a name="bug-fixes"></a>Ištaisytos klaidos
 
 Buvo pataisytos tolesnės problemos.
 
 **Laikas ir išlaidos**
-- Pastabos įrašo trūksta, kai laiko įrašas atmetamas arba atšaukiamas. 
+- Atmetus arba atšaukus laiko įrašą, trūksta pastabos įrašo. 
 
 **Pardavimas**
 
-- Kai atnaujinate išlaidų arba pardavimų įvertinimus naudodami "out-of-the-box" papildinius, jums neteisingai leidžiama siųsti JSON naudingąsias apkrovas, kurios negalioja už vartotojo sąsajos ribų.
-- Kai atnaujinate pasiūlymo eilutes naudodami spartųjį rodinį, jums leidžiama aktyvinti pasiūlymus.
+- Kai atnaujinate išlaidas arba pardavimo vertinimus naudodami iš anksto nustatytas papildinys, jums neteisingai leidžiama siųsti JSON payloads, kurie galioja ne vartotojo sąsajoje.
+- Kai atnaujinate pasiūlymo eilutes naudodami sparčiąjį rodinį, jums leidžiama aktyvinti pasiūlymus.

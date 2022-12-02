@@ -1,6 +1,6 @@
 ---
 title: Įgūdžiai ir sertifikatai
-description: Šiame straipsnyje pateikiama informacija apie įgūdžių ir sertifikavimo charakteristikų pridėjimą prie išteklių.
+description: Šiame straipsnyje pateikta informacija apie charakteristikų, susijusių su įgūdžiais ir sertifikatais, įtraukimą į išteklių duomenis.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

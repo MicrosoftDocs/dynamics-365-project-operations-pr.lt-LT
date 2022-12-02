@@ -1,6 +1,6 @@
 ---
 title: Kas nauja arba pakeista „Project Service Automation“ V3 37.5 atnaujintame leidime
-description: Šiame straipsnyje išvardijamos funkcijos ir taisymai, kuriuos galima rasti naujinimo leidime Microsoft Dynamics 365 Project Service Automation 37.5, V3.
+description: Šiame straipsnyje išvardytos funkcijos ir pataisos, įtrauktos į „Microsoft Dynamics 365 Project Service Automation“ V3 37.5 atnaujintą leidimą.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 11/15/2021
@@ -29,7 +29,7 @@ ms.locfileid: "8915286"
 
 Norime pranešti apie naujausią programos Microsoft Dynamics 365 Project Service Automation naujinimą. Šiame leidime yra kai kurių svarbių kokybės, veikimo ir naudojimo patobulinimų. Ji suderinama su „Dynamics 365 9.x“. Norėdami atnaujinti į šį leidimą, apsilankykite „Dynamics 365 Online“ sprendimų administravimo centro puslapyje ir įdiekite naujinimą. Daugiau informacijos žr. [Pageidaujamo sprendimo diegimas, naujinimas arba šalinimas](/power-platform/admin/install-remove-preferred-solution).
 
-Šiame straipsnyje išvardijamos funkcijos ir pataisymai, kurie yra nauji arba pakeisti "Project Service Automation Update Release 37.5,V3". Šios versijos komponavimo numeris yra V3.10.58.130 ir ji yra visuotinai pasiekiama naudojant 2021 m. lapkričio mėn. savaiminį atnaujinimą.
+Šiame straipsnyje išvardytos funkcijos ir pataisymai, kurie yra nauji arba pakeisti „Project Service Automation“ V3 37.5 atnaujintame leidime. Šios versijos komponavimo numeris yra V3.10.58.130 ir ji yra visuotinai pasiekiama naudojant 2021 m. lapkričio mėn. savaiminį atnaujinimą.
 
 ## <a name="update-release-375"></a>37.5 atnaujintas leidimas
 
@@ -38,4 +38,4 @@ Norime pranešti apie naujausią programos Microsoft Dynamics 365 Project Servic
 Buvo pataisytos tolesnės problemos.
 
 **Išteklių valdymas**
-- Dubliai užsakymai sukuriami, kai atnaujinate esamus užsakymus, o **proporcingas** pasirenkamas metodui **Padidinti** valandas arba **Sumažinti valandas metodui**.
+- Dublikatai sukuriami atnaujinus esamus rezervavimus, o metodo **Proporcinis** yra pasirinktas **Padidintų valandų metodui** ar **Sumažintų valandų metodui**.

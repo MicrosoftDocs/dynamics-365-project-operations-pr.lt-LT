@@ -1,6 +1,6 @@
 ---
 title: Kelių klientų tvarkymas projekto pasiūlymuose – „Lite“ versija
-description: Šiame straipsnyje pateikiama informacija apie darbą su pasiūlymais su keliais klientais, kurie finansuos projektą. („Sales“)
+description: Šiame straipsnyje pateikta informacija apie darbą su pasiūlymais, apimančiais kelis klientus, kurie finansuos projektą. („Sales“)
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

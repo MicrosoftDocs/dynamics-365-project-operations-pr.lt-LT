@@ -1,6 +1,6 @@
 ---
 title: Saugos modelis
-description: Šiame straipsnyje pateikiama informacija apie saugos modelį programoje Dynamics 365 Project Operations.
+description: Šiame straipsnyje pateikiama informacijos apie „Dynamics 365 Project Operations“ saugos modelį.
 author: stsporen
 ms.date: 10/01/2020
 ms.topic: article
@@ -70,7 +70,7 @@ Dialogo lange **Grupės valdymas** galima ieškoti tik grupės narių, kurie nus
 
 Norėdami gauti daugiau informacijos žr. [Sauga sistemoje „Common Data Service“](/power-platform/admin/wp-security).
 
-## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Projekto operacijos ir Microsoft Dynamics 365 finansinis saugumas
+## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>„Project Operations“ ir „Microsoft Dynamics 365 Finance“ sauga
 „Project Operations“ apima toliau nurodytus vaidmenis:
 
 - Projekto vadovas

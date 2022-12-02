@@ -1,6 +1,6 @@
 ---
 title: Koregavimo žurnalų kūrimas ir patvirtinimas
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip sukurti ir patvirtinti taisymo žurnalą.
+description: Šiame straipsnyje pateikta informacija apie tai, kaip sukurti ir patvirtinti koregavimo žurnalą.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -24,7 +24,7 @@ ms.locfileid: "8928074"
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
-Kartais laiko ar išlaidų įrašas gali būti įvestas neteisingai. Pavyzdžiui, konsultantas gali pasirinkti neteisingą datą, kai sukuria laiko įrašą, arba jis gali pasirinkti netinkamą projektą, kai įveda išlaidas. Jei konsultantas negali atnaujinti pateiktų įrašų, vidinis administratorius gali tiesiogiai ištaisyti projekto faktinius duomenis.
+Kartais laiko arba išlaidų įrašas gali būti įvestas neteisingai. Pavyzdžiui, konsultantas gali pasirinkti neteisingą laiko įrašo sukūrimo datą arba gali pasirinkti netinkamą projektą įvesdamas išlaidas. Jei konsultantas negali atnaujinti pateiktų įrašų, vidinis administratorius gali tiesiogiai pataisyti projekto faktinius duomenis.
 
 ## <a name="correct-approved-time-entries"></a>Teisingi patvirtinti laiko įrašai     
 
@@ -73,30 +73,30 @@ Atlikite toliau nurodytus veiksmus norėdami pataisyti vieną ar daugiau išlaid
 
 6. Jei pataisytos reikšmės rodomos taip, kaip tikėjotės, pasirinkite **Patvirtinti**. Dialogo lange pasirinkite **Gerai.** Jei rodomos ne tos reikšmės, kurių tikėjotės, pasirinkite **Atšaukti**, kas grįžtumėte į sąrašą **Patvirtintos išlaidos**. Pakartokite 2–5 veiksmus. 
 
-7. Patvirtinę taisymo žurnalą, grįžkite į projektą arba projektus, kuriuos atnaujinote, kad peržiūrėtumėte pakeitimus.
+7. Patvirtinę koregavimo žurnalą, grįžkite prie atnaujintų projekto arba projektų ir peržiūrėkite savo pakeitimus.
 
-8. Projekto puslapio skirtuke **Faktiniai duomenys peržiūrėkite** sąrašą Faktiniai **susiję rodiniai**. Rodomi pradiniai įrašai ir pataisyti įrašai.
+8. Projekto puslapio skirtuke **Faktiniai duomenys** peržiūrėkite sąrašą **Faktinių duomenų susietasis rodinys**. Rodomi pradiniai įrašai ir pataisyti įrašai.
 
 
-## <a name="correct-approved-material-usage-logs"></a>Taisyti patvirtintus medžiagų naudojimo žurnalus
+## <a name="correct-approved-material-usage-logs"></a>Patvirtintų medžiagos naudojimo žurnalų koregavimas
 
-Atlikite šiuos veiksmus, kad ištaisytumėte vieną ar daugiau medžiagų naudojimo žurnalo įrašų.
+Atlikite toliau nurodytus veiksmus norėdami pataisyti vieną ar daugiau medžiagos naudojimo įrašų.
 
-1. Pardavimų **srities** kairiojoje naršymo srities dalyje **Operacijos** pasirinkite **Faktinės**.
+1. Srities **Pardavimas** kairiojoje naršymo srityje pasirinkite **Operacijos**, tada pasirinkite **Faktiniai duomenys**.
 
-2. **Sąraše Faktiniai duomenys naudokite stulpelių filtrus**, kad pasirinktumėte **medžiagų** operacijų klasę, kad būtų rodomi tik faktiniai medžiagų duomenys. Norėdami dar labiau apriboti rodomus faktus, naudokite kitus stulpelių filtrus. Radę norimą faktinių duomenų rinkinį, pasirinkite faktinius duomenis ir pasirinkite **Teisingi įrašai**. Automatiškai sukuriamas naujas taisymo žurnalas ir priskiriamas **medžiagų taisymo** tipas.
+2. Sąraše **Faktiniai duomenys** naudodami stulpelių filtrus pasirinkite operacijų klasę **Medžiaga**, kad būtų rodomi tik medžiagos faktiniai duomenys. Norėdami labiau apriboti rodomus faktinius duomenis, naudokite kitus stulpelių filtrus. Radę norimą faktinių duomenų rinkinį, pasirinkite tuos faktinius įrašus, tada pasirinkite **Tinkami įrašai** . Automatiškai sukuriamas naujas koregavimo žurnalas ir priskiriamas tipas **Medžiagos koregavimas**.
 
-3. **Puslapio Naujas žurnalas** lauke Aprašas **įveskite** taisymo aprašymą. Tada skirtuko **Medžiagų taisymas** skyriuje Naujos medžiagų **vertės pasirinkite** duomenų laukus, kuriuos norite taisyti pasirinktoms medžiagų eilutėms. Pavyzdžiui, galite priskirti medžiagą kitam projektui arba pataisyti produktą, medžiagos datą arba subrangos sutartį.
+3. Puslapio **Naujas žurnalas** lauke **Aprašas** įveskite koregavimo aprašą. Tada skyriaus **Naujos medžiagos reikšmės** skirtuke **Medžiagos koregavimas** pasirinkite pasirinktų medžiagos eilučių koreguotinus duomenų laukus. Pavyzdžiui, medžiagą galite priskirti kitam projektui arba pataisyti produktą, medžiagos datą arba subrangos sutartį.
 
-4. Pasirinkite **Peržiūra**. Tada dialogo lange pasirinkite **Gerai**.
+4. Pasirinkite **Peržiūra**. Tada kitame dialogo lange pasirinkite **Gerai**.
 
-5. Skirtuke Žurnalo **eilutės** patikrinkite taisymus. Galite peržiūrėti pradinių faktinių aplinkybių, susijusių su pasirinktais medžiagos įrašais, kurie buvo atšaukti, ir pataisytų atitinkamų eilučių, kurios buvo sukurtos, sąrašą.
+5. Skirtuke **Žurnalo eilutės** patikrinkite pataisymus. Galite peržiūrėti pirminių faktinių duomenų, susietų su pasirinktais medžiagos įrašais, kurie buvo anuliuoti, ir pataisytomis atitinkamomis eilutėmis, kurios buvo sukurtos, sąrašą.
 
-6. Jei pataisytos reikšmės rodomos taip, kaip tikėjotės, pasirinkite **Patvirtinti**. Tada dialogo lange pasirinkite **Gerai**. Jei reikšmės nėra tokios, kokių tikėtasi, pasirinkite **Atšaukti**, kad grįžtumėte į **sąrašą Faktiniai** duomenys. Tada pakartokite 2-5 veiksmus.
+6. Jei pataisytos reikšmės rodomos taip, kaip tikėjotės, pasirinkite **Patvirtinti**. Tada kitame dialogo lange pasirinkite **Gerai**. Jei reikšmės ne tokios, kurių tikėjotės, pasirinkite **Atšaukti**, kad grįžtumėte į sąrašą **Faktiniai duomenys**. Tada pakartokite 2–5 veiksmus.
 
-7. Patvirtinę taisymo žurnalą, grįžkite į projektą arba projektus, kuriuos atnaujinote, kad peržiūrėtumėte pakeitimus.
+7. Patvirtinę koregavimo žurnalą, grįžkite prie atnaujintų projekto arba projektų ir peržiūrėkite savo pakeitimus.
 
-8. Projekto puslapio skirtuke **Faktiniai duomenys peržiūrėkite** sąrašą Faktiniai **susiję rodiniai**. Rodomi pradiniai įrašai ir pataisyti įrašai.
+8. Projekto puslapio skirtuke **Faktiniai duomenys** peržiūrėkite sąrašą **Faktinių duomenų susietasis rodinys**. Rodomi pradiniai įrašai ir pataisyti įrašai.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

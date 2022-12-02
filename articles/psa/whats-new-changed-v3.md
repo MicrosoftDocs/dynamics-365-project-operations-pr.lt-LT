@@ -1,6 +1,6 @@
 ---
 title: Kas nauja arba pakeista programos „Project Service Automation“ 3 versijoje
-description: Šiame straipsnyje pateikiama informacija apie tai, kas nauja ir pakeista "Project Service Automation" 3 versijoje.
+description: Šiame straipsnyje pateikiama informacijos apie tai, kas nauja ir pakeista „Project Service Automation“ 3 versijoje.
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -32,7 +32,7 @@ ms.locfileid: "8926602"
 
 
 
-Šiame straipsnyje pateikiama informacija apie vartotojo sąsajos (vartotojo sąsajos), funkcijų ir terminologijos pakeitimus "Project Service Automation" tarp 2 arba 1 ir 3 versijų.
+Šiame straipsnyje pateikiama informacijos apie programos „Project Service Automation“ (PSA) vartotojo sąsajos (UI), funkcijų ir terminologijos pakeitimus, palyginant 1 arba 2 versiją su 3 versija.
 
 ## <a name="project-scheduling"></a>Projektų planavimas
 Projekto grafikas, kuris ankstesnėse versijose buvo vadinamas darbo paskirstymo struktūra (WBS), buvo pervadintas pasirenkant pavadinimą Grafikas ir pasiekiamas spustelint skirtuką **Grafikas**. 
@@ -150,7 +150,7 @@ Jei esama užduočių, kurios priskirtos ištekliams be rezervavimų (rezervavim
 Šiame skyriuje pateikiama informacijos apie programos „Project Service Automation“ 3 versijos laiko, išlaidų ir patvirtinimo pakeitimus. Kadangi funkcija **Laiko įrašas** yra Dynamics 365 Project Service Automation sprendimo dalis, ji atnaujinta, kad būtų išnaudojamos vieningosios sąsajos sistemos galimybės. Tokiu būdu galima užtikrinti pastovią vartotojo sąsają, kurią rengiant pasirinktas poreikius atitinkantis dizainas, kad būtų galima optimaliai peržiūrėti bet kokio dydžio ekrane arba bet kokiame įrenginyje. 
 
 ### <a name="landing-page"></a>Nukreipimo puslapis
-Nepratęsiamo pasirinktinio laiko įrašo funkcija 3 versijoje nebenaudojama. Dabar galima naudotis pratęsiamo ir prieinamo vietinio tinklelio funkcija. Laiko įrašo funkcija pasiekiama naudojantis kairėje pusėje esančia svetainės struktūra. Kadangi buvo atliktas šis pakeitimas, nebegalėsite vienu metu įvesti vienos savaitės trukmės laiko. Tinklelyje atskirai turėsite sukurti kiekvienos dienos laiko įrašą. Sukūrę kelis įrašus, vartotojai gali masiškai kurti laiko įrašus naudodami **funkciją Kopijuoti**, paaiškintą vėliau šiame straipsnyje. 
+Nepratęsiamo pasirinktinio laiko įrašo funkcija 3 versijoje nebenaudojama. Dabar galima naudotis pratęsiamo ir prieinamo vietinio tinklelio funkcija. Laiko įrašo funkcija pasiekiama naudojantis kairėje pusėje esančia svetainės struktūra. Kadangi buvo atliktas šis pakeitimas, nebegalėsite vienu metu įvesti vienos savaitės trukmės laiko. Tinklelyje atskirai turėsite sukurti kiekvienos dienos laiko įrašą. Sukūrę keletą laiko įrašų, naudodamiesi toliau šiame straipsnyje paaiškinta funkcija **Kopijuoti**, vartotojai vienu metu gali kurti kelis laiko įrašus. 
 
 ![Laiko įrašo nukreipimo puslapis.](media/time-entry-landing-page-07.png)
  

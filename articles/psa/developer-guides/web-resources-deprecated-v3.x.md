@@ -1,6 +1,6 @@
 ---
 title: „Project Service Automation“ 3.x nebenaudojami žiniatinklio ištekliai
-description: Šiame straipsnyje aprašomi žiniatinklio ištekliai, kurie nebenaudojami Dynamics 365 Project Service Automation 3.0.
+description: Šiame straipsnyje aprašomi žiniatinklio ištekliai, kurie nebenaudojami „Dynamics 365 Project Service Automation“ 3.0 versijoje.
 author: makk
 ms.custom:
 - dyn365-projectservice

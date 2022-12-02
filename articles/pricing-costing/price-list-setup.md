@@ -1,6 +1,6 @@
 ---
 title: Kainoraščių nustatymas
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip nustatyti išlaidų ir pardavimo kainoraščius.
+description: Šiame straipsnyje pateikta informacija, kaip nustatyti savikainos ir pardavimo kainoraščius.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article

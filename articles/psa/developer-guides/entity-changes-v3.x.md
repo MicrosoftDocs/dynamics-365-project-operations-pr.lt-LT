@@ -1,6 +1,6 @@
 ---
 title: Objekto, valdiklio ir vartotojo sąsajos pakeitimai („Project Service Automation 3.x“)
-description: Šiame straipsnyje aprašomi "Project Service Automation 3.x" sprendimų pakeitimai Microsoft Dynamics.
+description: Šiame straipsnyje aprašomi „Microsoft Dynamics Project Service Automation 3.x“ skirti sprendimo pakeitimai.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -27,7 +27,7 @@ ms.locfileid: "8926878"
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
 
-Išleidus „Microsoft Dynamics Project Service Automation (PSA), 3.x“, buvo pristatyta daug objektų, valdiklių, rodinių ir vartotojo sąsajos pakeitimų. Šiame straipsnyje pateikiama informacija apie šiuos svarbius pokyčius.
+Išleidus „Microsoft Dynamics Project Service Automation (PSA), 3.x“, buvo pristatyta daug objektų, valdiklių, rodinių ir vartotojo sąsajos pakeitimų. Šiame straipsnyje pateikiama informacija, susijusi su šiais svarbiais pakeitimais.
 
 ## <a name="parent-child-relationships-for-sales-document-sales-document-line-sales-document-line-detail-entities"></a>Pardavimo dokumento, pardavimo dokumento eilutės, pardavimo dokumento eilutės informacijos objektų pirminių ir antrinių elementų ryšiai
 Naudojant „Dynamics 365 Project Service Automation“ (PSA) versijas, išleistas iki versijos 3.0, kai kurie ryšiai tarp pardavimo dokumentų, pardavimo dokumento eilučių ir pardavimo dokumento eilutės informacijos objektų būdavo įdiegiami naudojant eilutės laukus, kuriuose būdavo susijusio objekto GUID eilutės atvaizdavimas. Taip vykdavo dėl platformos apribojimų, o norint juos pašalinti reikėdavo atlikti nemažai pasirinktinio programavimo darbų serveryje ir iš kliento sprendimo pusės, kad šie ryšiai veiktų panašiai, kaip įprasti „Dynamics CRM“ objekto ryšiai, o eilučių laukai veiktų kaip peržvalgos laukai.

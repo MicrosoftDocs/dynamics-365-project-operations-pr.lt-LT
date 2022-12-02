@@ -1,6 +1,6 @@
 ---
 title: Ataskaitų vadovas
-description: Šiame straipsnyje pateikiamos nuorodos į informaciją apie ataskaitas.
+description: Šiame straipsnyje pateikiamos nuorodos į informaciją apie ataskaitų teikimą.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -32,14 +32,14 @@ ms.locfileid: "8919196"
 
 Ataskaitų teikimo metodai ir technologijos šioje programoje gali padėti nustatyti jūsų projektų būklę ir nustatyti, kada reikia imtis korekcinių veiksmų. 
 
-Pdf saitas, kuris anksčiau buvo šiame straipsnyje, buvo pašalintas ir turinys perkeltas į šiuos straipsnius:
+Anksčiau šiame straipsnyje pateiktas PDF failo saitas buvo pašalintas, o jo turinys perkeltas į toliau nurodytus straipsnius.
 
 - [Ataskaitų pagrindinis puslapis](../reports-reporting-dynamics-365-project-service.md)
 - [Ataskaitų sritys](../reports-dashboards.md)
 - [Darbas su „Project Service Automation“ duomenų modeliu](../reports-working-project-service-data-model.md)
 
 > [!NOTE]
-> Šis straipsnis bus pašalintas būsimame dokumentacijos atnaujinime. 
+> Šis straipsnis bus pašalinta iš būsimų atnaujintų dokumentų. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

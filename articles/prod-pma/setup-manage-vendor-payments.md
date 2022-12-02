@@ -1,6 +1,6 @@
 ---
 title: Tiekėjo mokėjimų „mokėti sumokėjus“ nustatymas ir naudojimas
-description: Šiame straipsnyje paaiškinama, kaip sukurti mokėjimo, kai mokama (PWP) sąlygas, kad galėtumėte išleisti dalinius tiekėjo mokėjimus, pagrįstus klientų mokėjimais.
+description: Šiame straipsnyje paaiškinama, kaip sukurti „mokėjimo sumokėjus“ (PWP) sąlygas, kad būtų galima atlikti dalinius tiekėjo mokėjimus remiantis kliento mokėjimais.
 author: RadhikaRS
 ms.date: 03/30/2020
 ms.topic: article

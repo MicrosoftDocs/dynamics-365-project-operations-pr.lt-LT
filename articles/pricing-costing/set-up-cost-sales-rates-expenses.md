@@ -1,6 +1,6 @@
 ---
 title: Išlaidų savikainos ir pardavimo tarifų nustatymas
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip nustatyti operacijų ir išlaidų kategorijų savikainą ir pardavimo tarifus.
+description: Šiame straipsnyje pateikta informacija, kaip nustatyti operacijų ir išlaidų kategorijų išlaidų bei pardavimo tarifus.
 author: rumant
 ms.date: 04/07/2021
 ms.topic: article

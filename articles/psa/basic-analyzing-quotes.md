@@ -1,6 +1,6 @@
 ---
 title: Projekto pasiūlymų analizė
-description: Šiame straipsnyje pateikiama informacija apie projektų pasiūlymų analizę.
+description: Šiame straipsnyje pateikiama informacija apie projekto pasiūlymų analizę.
 author: rumant
 ms.custom:
 - dyn365-projectservice

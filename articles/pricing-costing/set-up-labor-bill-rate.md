@@ -1,6 +1,6 @@
 ---
 title: Darbo sąskaitų tarifų sąranka
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip nustatyti darbo atsiskaitymo tarifus "Project Operations".
+description: Šiame straipsnyje pateikta informacija, kaip nustatyti atsiskaitymo už darbą tarifus naudojant „Project Operations“.
 author: rumant
 ms.date: 04/07/2021
 ms.topic: article

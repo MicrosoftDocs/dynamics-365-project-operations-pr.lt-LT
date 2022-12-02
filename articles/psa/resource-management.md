@@ -1,6 +1,6 @@
 ---
 title: Išteklių paskirstymo projektų pagrindinis puslapis
-description: Šiame straipsnyje pateikiama informacija apie išteklių valdymo galimybes "Project Service Automation" (PSA), skirtoje "Dynamics 365".
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip valdyti išteklių galimybes „Project Service Automation (PSA)“ programai „Dynamics 365“.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice
@@ -46,7 +46,7 @@ Ištekliai yra svarbiausias paslaugomis pagrįstas organizacijos turtas. Turėda
 - Tvarkyti įgūdžių ir kompetencijų saugyklą.
 
 
-Galite suformuoti savo komandą iš pagrindinės komandos arba PSA įvardintų išteklių. Galite naudoti įvairius metodus, kad įtrauktumėte ir priskirtumėte komandos narius ir valdytumėte jų rezervacijas ir priskyrimus. Daugiau informacijos rasite šiuose straipsniuose:
+Galite suformuoti savo komandą iš pagrindinės komandos arba PSA įvardintų išteklių. Galite naudoti įvairius metodus, kad įtrauktumėte ir priskirtumėte komandos narius ir valdytumėte jų rezervacijas ir priskyrimus. Papildomos informacijos ieškokite šiuose straipsniuose:
 
 - [Įvardytų rezervuojamų išteklių rezervavimas projekto komandai ir užduočių priskyrimas](assign-named-bookable-resource.md)
 - [Bendrųjų rezervuojamų išteklių priskyrimas užduočiai ir išteklių reikalavimų generavimas](assign-generic-bookable-resource.md)

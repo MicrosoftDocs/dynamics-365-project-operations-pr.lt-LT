@@ -1,6 +1,6 @@
 ---
 title: Laiko įrašų išplėtimas
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip kūrėjai gali išplėsti laiko įvedimo kontrolę.
+description: Šiame straipsnyje pateikta informacija apie tai, kaip kūrėjai gali išplėsti laiko įrašų valdiklį.
 author: stsporen
 ms.date: 01/27/2022
 ms.topic: article
@@ -43,7 +43,7 @@ Laiko įrašai yra pagrindinis objektas, naudojamas keliuose scenarijuose. 2020�
 
 
 ### <a name="time-entries-and-the-time-source-entity"></a>Laiko įrašai ir laiko šaltinio objektas
-Kiekvieną kartą laiko įrašas susiejamas su laiko šaltinio įrašu. Šis įrašas nustato, kurios paraiškos turėtų apdoroti laiko įrašą ir kaip.
+Kiekvieną kartą laiko įrašas susiejamas su laiko šaltinio įrašu. Šis įrašas nustato, kaip ir kokios programos turėtų apdoroti laiko įrašą.
 
 Laiko įrašai visada yra vienas nepertraukiamo laiko blokas, susijęs su pradžia, pabaiga ir trukme.
 
@@ -55,7 +55,7 @@ Logika automatiškai atnaujins laiko įrašo įrašą šiose situacijose:
     - **msdyn_end**
     - **msdyn_duration**
 
-- msdyn_start **ir** **msdyn_end** laukai žino laiko juostą.
+- Laukuose **msdyn_start** ir **msdyn_end** paisoma laiko juostos.
 - Laiko įrašai, sukurti naudojant tik **msdyn_date** ir **msdyn_duration**, prasidės vidurnaktį. Laukai **msdyn_start** ir **msdyn_end** bus atitinkamai atnaujinti.
 
 #### <a name="time-entry-types"></a>Laiko įrašo tipai
@@ -78,57 +78,57 @@ Kūrėjai gali įtraukti papildomų laukų ir peržvalgų į kitus objektus bei 
 ### <a name="add-custom-fields-with-lookups-to-other-entities"></a>Pasirinktinių laukų su peržvalgomis įtraukimas į kitus objektus
 Yra trys pagrindiniai veiksmai, kaip į savaitės laiko įrašo tinklelį įtraukti pasirinktinį lauką.
 
-1. Įtraukite pasirinktinį lauką į dialogo langą **Spartus kūrimas**.
+1. Įtraukite pasirinktinį lauką į dialogo langą **Spartusis kūrimas**.
 2. Sukonfigūruokite tinklelį, kad būtų rodomas pasirinktinis laukas.
-3. Jei reikia, įtraukite pasirinktinį lauką į **puslapį Eilutės redagavimas** arba **Laiko įrašo redagavimas**.
+3. Įtraukite pasirinktinį lauką atitinkamai į puslapį **Eilutės redagavimas** arba **Laiko įrašas**.
 
-Įsitikinkite, kad naujame lauke yra reikiamas tikrinimas puslapyje Eilutės redagavimas **arba** **Laiko įrašo redagavimas**. Atlikdami šią užduotį užrakinkite lauką pagal laiko įrašo būseną.
+Įsitikinkite, kad naujas laukas turi reikiamus tikrinimus puslapyje **Eilutės redagavimas** arba **Laiko įrašas**. Atlikdami šią užduotį, užrakinkite lauką pagal laiko įrašo būseną.
 
-Kai į **tinklelį Laiko įrašas** įtraukiate pasirinktinį lauką ir sukuriate laiko įrašus tiesiai tinklelyje, šių įrašų pasirinktinis laukas automatiškai nustatomas taip, kad jis atitiktų eilutę. 
+Kai įtraukiate pasirinktinį lauką į tinklelį **Laiko įrašas**, tada sukuriate laiko įrašus tiesiogiai tinklelyje, šių įrašų pasirinktinis laukas nustatomas automatiškai, kad atitiktų eilutę. 
 
-### <a name="add-the-custom-field-to-the-quick-create-dialog-box"></a>Pasirinktinio lauko įtraukimas į dialogo langą Spartus kūrimas
-Įtraukite pasirinktinį lauką į dialogo langą **Greitas kūrimas: kurti laiko įrašą**. Vartotojai gali įvesti reikšmę įtraukdami laiko įrašus pasirinkdami **Naujas**.
+### <a name="add-the-custom-field-to-the-quick-create-dialog-box"></a>Pasirinktinio lauko įtraukimas į sparčiojo kūrimo dialogo langą
+Į dialogo langą **Spartusis kūrimas: laiko įrašo kūrimas** įtraukite pasirinktinį lauką. Vartotojai gali įvesti reikšmę įtraukdami laiko įrašus pasirinkdami **Naujas**.
 
 ### <a name="configure-the-grid-to-show-the-custom-field"></a>Sukonfigūruokite tinklelį, kad būtų rodomas pasirinktinis laukas
-Yra du būdai įtraukti pasirinktinį lauką į savaitės laiko įvedimo **tinklelį**.
+Įtraukti pasirinktinį lauką į tinklelį **Savaitės laiko įrašas** galima dviem būdais.
 
-- Tinkinkite **rodinį Mano savaitės laiko įrašai** ir įtraukite į jį pasirinktinį lauką. Redaguodami rodinio ypatybes galite nurodyti pasirinktinio lauko vietą ir dydį tinklelyje.
-- Sukurkite naują pasirinktinio laiko įrašo rodinį ir nustatykite jį kaip numatytąjį rodinį. Šiame rodinyje, be stulpelių **, kuriuos norite įtraukti tinklelyje, turėtų būti laukai Aprašas** ir **Išoriniai komentarai**. Redaguodami rodinio ypatybes galite nurodyti tinklelio padėtį, dydį ir numatytąją rūšiavimo tvarką. Tada sukonfigūruokite pasirinktinį šio rodinio valdiklį, kad jis būtų valdiklis **Laiko įrašo tinklelis**. Įtraukite valdiklį į rodinį ir pasirinkite jį **žiniatinklyje**, **telefone** ir **planšetiniame kompiuteryje**. Tada konfigūruokite savaitės laiko įvedimo **tinklelio** parametrus. **Nustatykite lauką Pradžios data** į **Msdyn\_ datą**, nustatykite **lauką Trukmė** į **msdyn\_ trukmę** ir nustatykite **lauką Būsena** į **msdyn\_ entrystatus**. Laukas Tik **skaitomas būsenų sąrašas** nustatytas kaip **192350002 (patvirtinta)**, **192350003 (pateikta)**, arba **192350004 (atšaukta prašoma)**.
+- Tinkinkite rodinį **Mano savaitės laiko įrašai** ir įtraukite į jį pasirinktinį lauką. Galite nurodyti pasirinktinio lauko padėtį ir dydį tinklelyje redaguodami šias ypatybes rodinyje.
+- Sukurkite naują pasirinktinį laiko įrašo rodinį ir nustatykite jį kaip numatytąjį rodinį. Šiame rodinyje turėtų būti laukai **Aprašas** ir **Išoriniai komentarai**, taip pat stulpeliai, kurie turėtų būti tinklelyje. Galite nurodyti tinklelio padėtį, dydį ir numatytąją rikiavimo tvarką redaguodami šias ypatybes rodinyje. Tada sukonfigūruokite pasirinktinį šio rodinio valdiklį, kad jis būtų valdiklis **Laiko įrašo tinklelis**. Įtraukite šį valdiklį į rodinį ir pasirinkite jį naudoti **Žiniatinklyje**, **Telefone** ir **Planšetiniame kompiuteryje**. Tada sukonfigūruokite tinklelio **Savaitės laiko įrašas** parametrus. Lauką **Pradžios data** nustatykite kaip **msdyn\_date**, lauką **Trukmė** nustatykite kaip **msdyn\_duration**, o lauką **Būsena** nustatykite kaip **msdyn\_entrystatus**. Laukas **Tik skaitymo būsenos sąrašas** nustatomas kaip **192350002 (Patvirtinta)**, **192350003 (Pateikta)** arba **192350004 (Pateikta atšaukimo užklausa)**.
 
 ### <a name="add-the-custom-field-to-the-appropriate-edit-page"></a>Pasirinktinio lauko įtraukimas į atitinkamą redagavimo puslapį
-Puslapius, naudojamus laiko įrašui arba laiko įrašų eilutei redaguoti, galima rasti dalyje **Formos**. Tinklelio mygtukas **Redaguoti įrašą** atidaro **puslapį Redaguoti įrašą**, o mygtukas **Redaguoti eilutę** atidaro puslapį Eilutės **redagavimas**. Galite redaguoti šiuos puslapius, kad juose būtų pasirinktiniai laukai.
+Puslapius, naudojamus laiko įrašui arba laiko įrašų eilutei redaguoti, galima rasti dalyje **Formos**. Tinklelio mygtukas **Redaguoti įrašą** atidaro puslapį **Įrašo redagavimas**, o mygtukas **Redaguoti eilutę** atidaro puslapį **Eilutės redagavimas**. Galite redaguoti šiuos puslapius, kad juose būtų pasirinktinių laukų.
 
-Abi parinktys pašalina kai kuriuos "Project" ir **"** Project Task **" objektų filtravimą** lauke, kad būtų matomi visi objektų peržvalgos rodiniai. Pirmą kartą paleidus matomi tik susiję peržvalgos rodiniai.
+Abi parinktys pašalina kai kuriuos parengtus naudoti objektų **Projektas** ir **Projekto užduotis** filtrus, todėl rodomi visi objektų peržvalgos rodiniai. Pirmą kartą paleidus matomi tik susiję peržvalgos rodiniai.
 
-Turite nustatyti atitinkamą pasirinktinio lauko puslapį. Labiausiai tikėtina, kad jei įtraukėte lauką į tinklelį, jis turėtų eiti į **puslapį Eilutės redagavimas**, kuris naudojamas laukams, taikomiems visai laiko įrašų eilutei. Jei pasirinktinis laukas kiekvieną dieną eilutėje turi unikalią reikšmę (pvz., jei tai pasirinktinis pabaigos laiko laukas), jis turėtų būti rodomas **puslapyje Laiko įrašo redagavimas**.
+Turite nustatyti tinkamą pasirinktinio lauko puslapį. Tikriausiai, jei įtraukėte lauką į tinklelį, jis turėtų patekti į puslapį **Eilutės redagavimas**, naudojamą laukams, kurie taikomi visai laiko įrašų eilutei. Jei pasirinktinis laukas eilutėje kiekvieną dieną turi skirtingą reikšmę (pvz., pabaigos laiko pasirinktinis laukas), jis turėtų patekti į puslapį **Laiko įrašo redagavimas**.
 
-Norėdami įtraukti pasirinktinį lauką į puslapį, vilkite lauko **elementą** į atitinkamą puslapio vietą ir nustatykite jo ypatybes.
+Norėdami į puslapį įtraukti pasirinktinį lauką, nuvilkite elementą **Laukas** į reikiamą vietą puslapyje ir nustatykite jo ypatybes.
 
 ### <a name="add-new-option-set-values"></a>Naujų parinkčių rinkinio reikšmių įtraukimas
-Norėdami įtraukti parinkčių rinkinys reikšmes į lauką lauke, kuriame nėra langelio, atlikite šiuos veiksmus.
+Norėdami parinkčių rinkinio reikšmes įtraukti į parengtą naudoti lauką, atlikite toliau nurodytus veiksmus.
 
-1. Atidarykite lauko redagavimo puslapį, tada dalyje **Tipas** šalia parinkčių rinkinys pasirinkite **Redaguoti**.
-2. Įtraukite naują parinktį, turinčią pasirinktinę žymą ir spalvą. Jei norite įtraukti naują laiko įrašo būseną, laukas lauke Lauke Yra įrašo **būsena**.
+1. Atidarykite lauko redagavimo puslapį, tada srityje **Tipas** šalia parinkčių rinkinio pasirinkite **Redaguoti**.
+2. Įtraukite naują parinktį, turinčią pasirinktinę žymą ir spalvą. Jei norite įtraukti naują laiko įrašo būseną, parengto naudoti lauko pavadinimas yra **Įrašo būsena**.
 
 ### <a name="designate-a-new-time-entry-status-as-read-only"></a>Naujos laiko įrašo būsenos nustatymas kaip skirtos tik skaityti
-Norėdami nustatyti naują laiko įrašo būseną kaip skirtą tik skaityti, įtraukite naują laiko įrašo reikšmę į ypatybę **Tik skaitymo būsenos sąrašas**. Būtinai pridėkite numerį, o ne etiketę. Redaguojama laiko įvedimo tinklelio dalis dabar bus užrakinta eilutėms, turinčioms naują būseną. Norėdami skirtingai nustatyti **ypatybę Tik skaityti skirtas būsenų sąrašas** skirtingiems **laiko įrašo** rodiniams, įtraukite **laiko įrašo** tinklelį į rodinio pasirinktinių **valdiklių** sekciją ir atitinkamai konfigūruokite parametrus.
+Norėdami nustatyti naują laiko įrašo būseną kaip skirtą tik skaityti, įtraukite naują laiko įrašo reikšmę į ypatybę **Tik skaitymo būsenos sąrašas**. Įsitikinkite, kad pridedate skaičių, o ne etiketę. Dabar eilučių, kurios turi naują būseną, laiko įrašo tinklelio redaguojama dalis bus užrakinta. Jei ypatybę **Tik skaitymo būsenos sąrašas** norite skirtingai nustatyti skirtingiems rodiniams **Laiko įrašas**, įtraukite tinklelį **Laiko įrašas** į rodinio skyrių **Pasirinktiniai valdikliai** ir atitinkamai sukonfigūruokite parametrus.
 
-Tada įtraukite verslo taisykles, kad užrakintumėte visus laukus, esančius puslapiuose Eilutės redagavimas **ir** **Laiko įrašo redagavimas**. Norėdami pasiekti šių puslapių verslo taisykles, atidarykite kiekvieno puslapio formų rengyklė, tada pasirinkite **Verslo taisyklės**. Naują būseną galite įtraukti į esamų veiklos taisyklių sąlygą arba galite įtraukti naują naujos būsenos veiklos taisyklę.
+Tada įtraukite veiklos taisyklių, kad užrakintumėte visus laukus puslapiuose **Eilutės redagavimas** ir **Laiko įrašo redagavimas**. Norėdami pasiekti šių puslapių veiklos taisykles, atidarykite kiekvieno puslapio formų rengyklę, tada pasirinkite **Veiklos taisyklės**. Naują būseną galite įtraukti į esamų veiklos taisyklių sąlygą arba galite įtraukti naują naujos būsenos veiklos taisyklę.
 
 ### <a name="add-custom-validation-rules"></a>Pasirinktinių tikrinimo taisyklių įtraukimas
-Savaitės laiko įvedimo **tinklelio patirtį galite įtraukti dviejų tipų tikrinimo taisykles**:
+Galite pridėti dviejų tipų tikrinimo taisyklių, skirtų **Savaitės laiko įrašas** tinkleliui:
 
-- Kliento verslo taisyklės, veikiančios puslapiuose
-- Serverio priedo patvirtinimai, taikomi visų laikų įrašų naujinimams
+- Puslapiuose taikomos kliento verslo taisyklės
+- Serverio priedo tikrinimai, kurie taikomi visiems laiko įrašų atnaujinimams
 
 #### <a name="client-side-business-rules"></a>Kliento verslo taisyklės
-Naudodami veiklos taisykles, galite užrakinti ir atrakinti laukus, laukuose įvesti numatytąsias reikšmes ir nustatyti tikrinimus, kuriems reikia informacijos tik iš esamo laiko įrašo įrašo. Norėdami pasiekti puslapio verslo taisykles, atidarykite formų rengyklė, tada pasirinkite **Verslo taisyklės**. Tada galite redaguoti esamas veiklos taisykles arba įtraukti naują veiklos taisyklę.
+Naudodami veiklos taisykles, galite užrakinti ir atrakinti laukus, laukuose įvesti numatytąsias reikšmes ir nustatyti tikrinimus, kuriems reikia informacijos tik iš esamo laiko įrašo įrašo. Norėdami pasiekti puslapio veiklos taisykles, atidarykite formų rengyklę, tada pasirinkite **Veiklos taisyklės**. Tada galite redaguoti esamas veiklos taisykles arba įtraukti naują veiklos taisyklę.
 
-#### <a name="server-side-plug-in-validations"></a>Serverio papildinio tikrinimas
-Priedų patvirtinimus turėtumėte naudoti bet kokiems patvirtinimams, kuriems reikia daugiau konteksto, nei galima pasiekti vieno laiko įrašo įraše. Taip pat turėtumėte juos naudoti bet kokiems patvirtinimams, kuriuos norite vykdyti įdėtuosiuose naujiniuose tinklelyje. Norėdami užbaigti tikrinimą, objekte Laiko įrašas **sukurkite** pasirinktinį priedą.
+#### <a name="server-side-plug-in-validations"></a>Serverio priedų tikrinimai
+Norėdami atlikti bet kokius tikrinimus, kuriems reikia daugiau konteksto, nei yra viename laiko įrašo įraše, turite naudoti priedo tikrinimus. Taip pat juos turėtumėte naudoti visiems tikrinimams, kuriuos tinklelyje norite taikyti įdėtiesiems naujinimams. Norėdami atlikti tikrinimus, sukurkite pasirinktinį priedą objekte **Laiko įrašas**.
 
 ### <a name="limits"></a>Apribojimai
-Šiuo metu laiko įvedimo **tinklelyje** yra 500 eilučių dydžio riba. Jei yra daugiau nei 500 eilučių, perteklinės eilutės nebus rodomos. Nėra jokio būdo padidinti šią dydžio ribą.
+Šiuo metu tinkleliui **Laiko įrašas** taikomas dydžio apribojimas iki 500 eilučių. Jei yra daugiau nei 500 eilučių, tos eilutės nebus rodomos. Nėra jokios galimybės padidinti šį dydžio apribojimą.
 
 ### <a name="copying-time-entries"></a>Laiko įrašų kopijavimas
 Norėdami apibrėžti laukų, kuriuos reikia kopijuoti įrašant laiką, sąrašą, naudokite rodinį **Kopijuoti laiko įrašo stulpelius**. **Data** ir **Trukmė** yra būtini laukai, todėl jų negalima pašalinti iš rodinio.

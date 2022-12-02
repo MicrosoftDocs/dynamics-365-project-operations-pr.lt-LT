@@ -1,6 +1,6 @@
 ---
 title: Medžiagų naudojimo projektuose ir projekto užduotyse įrašymas
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip registruoti medžiagų naudojimą pagal projektus ir projekto užduotis.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip užregistruoti medžiagos naudojimą projektuose ir projekto užduotyse.
 author: rumant
 ms.date: 03/31/2021
 ms.topic: article

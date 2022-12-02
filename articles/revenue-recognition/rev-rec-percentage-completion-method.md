@@ -1,6 +1,6 @@
 ---
 title: Fiksuotos kainos pajamų įvertinimo projektai
-description: Šiame straipsnyje pateikiama informacija apie projektų fiksuotos kainos pajamas.
+description: Šiame straipsnyje pateikiama informacijos apie fiksuotos kainos pajamų naudojimą projektuose.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
@@ -26,7 +26,7 @@ Kai kuriate projekto sutarties eilutę naudodami toliau nurodytus atributus prog
 ## <a name="review-fixed-price-revenue-estimates-projects"></a>Fiksuotos kainos pajamų įvertinimo projektų peržiūra
 Norėdami peržiūrėti fiksuotos kainos pajamų įvertinimo projektus, atlikite toliau nurodytus veiksmus.
 
-1. Dynamics 365 Finance aplinkoje eikite į **Projektų valdymo ir apskaitos** > **projektai** > **Fiksuotos kainos pajamų sąmatos projektai**.
+1. „Dynamics 365 Finance“ aplinkoje eikite į **Projektų valdymas ir apskaita** > **Projektai** > **Fiksuotos kainos pajamų įvertinimo projektai**.
 2. Pasirinkite projektą, kurį norite peržiūrėti, ir dukart spustelėkite **Vertinamo projekto ID**, kad atidarytumėte įrašą ir peržiūrėtumėte projekto informaciją.
 3. Išplėskite skirtuką **Projektas**. Matysite vieną projektą tinklelyje **Pasirinkti projektai**. Sistema naudoja jį kaip numatytąjį projektą, nes tai yra projektas, susietas su projekto sutarties eilute. 
 4. Norėdami pakeisti susiejimą, pasirinkite papildomus projektus ir pridėkite juos prie tinklelio **Pasirinkti projektai**. Jei šiame tinklelyje pasirenkami keli projektai, projekto įvykdymo procentinė vertė ir pajamų įvertinimai apskaičiuojami kartu visiems pasirinktiems projektams.

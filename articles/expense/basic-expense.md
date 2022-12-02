@@ -1,6 +1,6 @@
 ---
 title: Išlaidų įrašas („Lite“ versija)
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip dirbti su išlaidų įrašu lite diegime.
+description: Šiame straipsnyje pateikta informacija apie tai, kaip dirbti su išlaidų įrašu „Lite“ visuotiniame diegime.
 author: stsporen
 ms.date: 11/19/2020
 ms.topic: article

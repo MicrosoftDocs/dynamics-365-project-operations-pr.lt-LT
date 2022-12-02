@@ -1,6 +1,6 @@
 ---
 title: „Project Service Automation“ patvirtinimo rinkiniai
-description: Šiame straipsnyje pateikiama informacija apie patvirtinimo rinkinį, užklausas ir tų operacijų poaibius.
+description: Šiame straipsnyje pateikiama informacija apie patvirtinimo rinkinį, užklausas ir šių operacijų antrinius rinkinius.
 author: stsporen
 manager: tfehr
 ms.date: 05/28/2021

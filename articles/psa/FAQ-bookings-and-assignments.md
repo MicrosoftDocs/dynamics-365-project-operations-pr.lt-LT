@@ -1,6 +1,6 @@
 ---
 title: Išteklių rezervavimas ir kaip jis susijęs su užduočių priskyrimais
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip valdyti įvardytus išteklius, išteklių rezervavimus ir užduočių priskyrimus bei kaip jie susiję tarpusavyje.
+description: Šiame straipsnyje pateikiama informacija, kaip valdyti įvardytus išteklius, išteklių rezervavimus ir užduočių priskyrimus bei paaiškinama, kaip jie susieti.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

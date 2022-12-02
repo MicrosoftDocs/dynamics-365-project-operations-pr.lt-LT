@@ -1,6 +1,6 @@
 ---
 title: Projektų sutarčių valdymas
-description: Šiame straipsnyje pateikiama informacija apie projektinių sutarčių peržiūrą.
+description: Šiame straipsnyje pateikta informacija apie projektu pagrįstų sutarčių peržiūrą.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
@@ -33,7 +33,7 @@ Visų projekto sutarčių sąrašą galite matyti sąrašo puslapyje **Sutartys*
 Sutartis galima kurti arba naikinti šiame sąrašo puslapyje arba išsamios informacijos puslapyje.
 
 > [!NOTE]
-> Sutarčių, kuriose yra su jais susieti projektai, užduotys, įvertinimai, žurnalai ir (arba) faktinės aplinkybės, panaikinti negalima. 
+> Sutarčių, kurie turi su jais susietų projektų, užduočių, įvertinimų, žurnalų ir (arba) faktinių duomenų, panaikinti negalima. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

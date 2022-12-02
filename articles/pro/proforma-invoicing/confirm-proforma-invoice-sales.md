@@ -1,6 +1,6 @@
 ---
 title: Išankstinės projekto sąskaitos faktūros patvirtinimas
-description: Šiame straipsnyje pateikiama informacija apie proformos projekto SF patvirtinimą projekto operacijose.
+description: Šiame straipsnyje pateikiama informacija apie išankstinių projektu pagrįstų sąskaitų faktūrų patvirtinimą „Project Operations“.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

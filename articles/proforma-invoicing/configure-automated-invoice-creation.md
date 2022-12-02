@@ -1,6 +1,6 @@
 ---
 title: Automatizuotų sąskaitų faktūrų kūrimo konfigūravimas
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip sukonfigūruoti sistemą, kad automatiškai generuotų sąskaitas faktūras.
+description: Šiame straipsnyje pateikta informacija apie tai, kaip konfigūruojant sistemą automatiškai generuoti sąskaitas faktūras.
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article

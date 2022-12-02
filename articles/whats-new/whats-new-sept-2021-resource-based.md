@@ -1,6 +1,6 @@
 ---
 title: Kas nauja 2021 m. rugsėjo mėn. – „Project Operations“, skirta išteklių / atsargose nelaikomų medžiagų scenarijams
-description: Šiame straipsnyje pateikiama informacija apie kokybės atnaujinimus, kuriuos galima rasti 2021 m. rugsėjo mėn.
+description: Šiame straipsnyje pateikiama informacija apie kokybės naujinimus, pasiekiamus 2021 m. rugsėjo „Project Operations“ leidime, skirtame išteklių / atsargose nelaikomų medžiagų scenarijams.
 author: sigitac
 ms.date: 09/12/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "8923382"
 
 *Taikoma: „Project Operations“, skirta išteklių / nelaikomų medžiagų scenarijams*
 
-Šis straipsnis taikomas šiems Dynamics 365 Project Operations komponentams ir versijoms:
+Šis straipsnis taikomas toliau nurodytiems „Dynamics 365 Project Operations“ komponentams ir versijoms:
 
    - „Project Operations“ 4.14.0.99 versijos „Microsoft Dataverse“ aplinkoje.
-   - Projektų valdymas ir apskaita Dynamics 365 Finance aplinkoje 10.0.20 versija.
+   - Projektų valdymas ir apskaita „Dynamics 365 Finance“ aplinkos 10.0.20 versijoje.
 
 ## <a name="project-operations-dual-write-maps-updates"></a>„Project Operations“ dvigubo rašymo schemų naujinimai
 
@@ -45,7 +45,7 @@ Jei paleidžiant schemą iškyla problema, vykdykite instrukcijas, pateikiamas D
 | Sąskaitų pateikimas ir kainodara | 2385802 | Ištaisyta klaida, įvykstanti atnaujinus projekto bendrąsias sumas su neigiamomis faktinėmis valandomis. |
 | Sąskaitų pateikimas ir kainodara | 2389675 | Patobulintas išankstinių sąskaitų faktūrų patvirtinimo veikimas. Ilgai vykdomų užduočių objektas turi atsižvelgti į veiklą, reikalingą norint rašyti apskaitos patvirtinimo rezultatus. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektų valdymas ir apskaita Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektų valdymas ir apskaita „Dynamics 365 Finance” programos aplinkose
 
 | Funkcijų sritis | Nuorodos numeris | Kokybės naujinimas |
 | --- | --- | --- |

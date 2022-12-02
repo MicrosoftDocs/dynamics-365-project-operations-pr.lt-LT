@@ -1,6 +1,6 @@
 ---
 title: Įvertinimų importavimas į projektu pagrįstą į sutarties eilutę – „Lite“ versija
-description: Šiame straipsnyje pateikiama informacija apie finansinių įvertinimų importavimą iš projekto į sutarties eilutę.
+description: Šiame straipsnyje pateikta informacija apie projekto finansinių įvertinimų importavimą į sutarties eilutę.
 author: rumant
 ms.date: 10/19/2020
 ms.topic: article

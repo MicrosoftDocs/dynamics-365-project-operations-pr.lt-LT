@@ -1,6 +1,6 @@
 ---
 title: Kainodaros dimensijų apžvalga
-description: Šiame straipsnyje pateikiama informacija apie kainodaros dimensijas programoje Dynamics 365 Project Operations.
+description: Šiame straipsnyje pateikiama informacijos apie „Dynamics 365 Project Operations“ kainodaros dimensijas.
 author: rumant
 ms.date: 11/30/2020
 ms.topic: overview
@@ -34,7 +34,7 @@ Dėl to egzistuoja dviejų tipų kainodaros dimensijų reikšmės:
 
 ![„Project Service“ parametrų ekrano kopija su pažymėtu lauku „Taikoma pardavimui“.](media/PS-OOB-parameters.png)
 
-Jei jums reikia nustatyti išteklių kainą arba savikainą naudojant papildomus atributus, galite sukurti pritaikytus laukus, objektus ir dimensijas. Daugiau informacijos rasite šiuose straipsniuose. 
+Jei jums reikia nustatyti išteklių kainą arba savikainą naudojant papildomus atributus, galite sukurti pritaikytus laukus, objektus ir dimensijas. Daugiau informacijos žr. tolesniuose straipsniuose. 
   
   > [!NOTE]
   > Procedūras reikia atlikti tokia tvarka, kokia jos nurodytos.

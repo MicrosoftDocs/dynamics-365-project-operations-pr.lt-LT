@@ -1,6 +1,6 @@
 ---
 title: Produktu pagrįstos pasiūlymo eilutės
-description: Šiame straipsnyje pateikiama informacija apie produkto pasiūlymo eilutes.
+description: Šiame straipsnyje pateikta informacija apie produktu pagrįstas pasiūlymo eilutes.
 author: rumant
 ms.custom:
 - dyn365-projectservice

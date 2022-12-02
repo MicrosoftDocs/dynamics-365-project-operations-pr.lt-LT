@@ -1,6 +1,6 @@
 ---
 title: Laiko ir išlaidų pakeitimai („Project Service Automation“ 3.x versija)
-description: Šiame straipsnyje pateikiama informacija apie laiko ir išlaidų sprendimo pakeitimus.
+description: Šiame straipsnyje pateikta informacija apie laiko ir išlaidų pakeitimus sprendime.
 author: makk
 ms.custom:
 - dyn365-projectservice

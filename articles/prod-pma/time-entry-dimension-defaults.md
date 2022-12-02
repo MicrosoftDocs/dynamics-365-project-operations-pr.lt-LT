@@ -1,6 +1,6 @@
 ---
 title: Projekto laiko įrašų finansinių dimensijų numatytųjų parametrų nustatymas
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip numatytosios finansinės dimensijos taikomos laiko įrašams.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip numatytieji finansiniai aspektai taikomi laiko įrašams.
 author: stsporen
 ms.date: 01/24/2022
 ms.topic: article
@@ -17,12 +17,12 @@ ms.locfileid: "8916574"
 
 [!include [banner](../includes/banner.md)]
 
-Kai projekto laiko įrašams naudojate finansines dimensijas, numatytoji dimensijos vertė įvertinama tokia tvarka:
+Kai naudojate projekto laiko įrašų finansinę nenaudo reikšmę, numatytoji nenaudotos reikšmės yra tokios:
 
 1. Išteklius
 2. Project
 3. Finansavimo šaltinis
 
-Pavyzdžiui, jei numatytoji dimensija nurodyta ištekliuje, numatytoji vertė taikoma pagal numatytąją vertę, nurodytą projektui. Taip pat, jei numatytoji dimensija nurodyta projekte, numatytoji vertė taikoma pagal numatytąją vertę, nurodytą lėšų skyrimo šaltiniui.
+Pavyzdžiui, jei ištekliuje nurodomas numatytasis persod idmuo, numatytoji reikšmė taikoma projektui nurodytai numatytai reikšmei. Taip pat, jei ištekliuje nurodomas numatytasis projektas, numatytoji reikšmė taikoma projektui nurodytai numatytai reikšmei pagal finansavimo šaltinį.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

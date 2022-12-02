@@ -1,6 +1,6 @@
 ---
 title: Kas nauja arba pakeista „Project Service Automation“ V3 39 atnaujintame leidime
-description: Šiame straipsnyje išvardijamos funkcijos ir taisymai, kuriuos galima rasti 39 naujinimo leidime Microsoft Dynamics 365 Project Service Automation, V3.
+description: Šiame straipsnyje išvardytos funkcijos ir pataisos, įtrauktos į „Microsoft Dynamics 365 Project Service Automation“ V3 39 atnaujintą leidimą.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/20/2022
@@ -29,7 +29,7 @@ ms.locfileid: "8922462"
 
 Norime pranešti apie naujausią programos Microsoft Dynamics 365 Project Service Automation naujinimą. Šiame leidime yra kai kurių svarbių kokybės, veikimo ir naudojimo patobulinimų. Ji suderinama su „Dynamics 365 9.x“. Norėdami atnaujinti į šį leidimą, apsilankykite „Dynamics 365 Online“ sprendimų administravimo centro puslapyje ir įdiekite naujinimą. Daugiau informacijos žr. [Pageidaujamo sprendimo diegimas, naujinimas arba šalinimas](/power-platform/admin/install-remove-preferred-solution).
 
-Šiame straipsnyje išvardijamos funkcijos ir taisymai, kurie yra nauji arba pakeisti "Project Service Automation Update Release 39", V3. Ši versija turi naują komponavimo versijos numerį V3.10.60.170 ir ją galima pasiekti per 2022 m. sausio mėn. automatinį naujinimą.
+Šiame straipsnyje išvardytos funkcijos ir pataisymai, kurie yra nauji arba pakeisti „Project Service Automation“ V3 39 atnaujintame leidime. Ši versija turi naują komponavimo versijos numerį V3.10.60.170 ir ją galima pasiekti per 2022 m. sausio mėn. automatinį naujinimą.
 
 ## <a name="update-release-39"></a>39 atnaujintas leidimas
 
@@ -39,14 +39,14 @@ Buvo pataisytos tolesnės problemos.
 
 **Bendroji informacija**
 
-- Buvo atlikti keli arabų kalbos vertimo svetainės žemėlapio patobulinimai.
+- Svetainės struktūra patobulinta dėl arabų kalbos vertimo.
 
 **Projektų valdymas**
 
-- Klaida įvyksta, kai pakeičiate projekto vadovą į vartotoją, kuris jau yra projekto komandos narys.
+- Kai projekto vadovą pakeičiate vartotojui, kuris jau yra projekto komandos narys, įvyksta klaida.
 
 **Pardavimas**
 
-- Projekto sutarties kainoraščio **savininkas** neteisingas, kai kainoraštis kuriamas automatiškai. 
-- Kainoraščio datos įgyvendinamumas nepaisomas, kai kainoraštis taikomas projekto parametrui.
-- Redaguojant du atskirus pasiūlymus, perkančioji organizacija gali neturėti tinkamos numatytosios vertės.
+- Projekto sutarties kainoto **sąrašo savininkas yra neteisingas**, kai kaimas sukuriamas automatiškai. 
+- Kai kainrašo datos poveikis nėra išsaškintas, kai projekto parametrui taikomas kaininis sąrašas.
+- Redaguojant du atskirus pasiūlymus sutarties vienetas gali turėti ne teisingą numatytąją reikšmę.

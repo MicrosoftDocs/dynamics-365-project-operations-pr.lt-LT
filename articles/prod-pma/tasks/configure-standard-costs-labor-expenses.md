@@ -1,6 +1,6 @@
 ---
 title: Darbo standartinių kainų ir išlaidų konfigūravimas
-description: Šiame straipsnyje paaiškinama, kaip nustatyti standartines darbo sąnaudas ir projekto išlaidas.
+description: Šiame straipsnyje paaiškinama, kaip nustatyti projekto darbo standartines kainas ir išlaidas.
 author: Yowelle
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -25,7 +25,7 @@ ms.locfileid: "8919522"
 
 [!include [banner](../../includes/banner.md)]
 
-Šiame straipsnyje paaiškinama, kaip nustatyti standartines darbo sąnaudas ir projekto išlaidas. Šiai užduočiai atlikti naudojamas USSI duomenų rinkinys.
+Šiame straipsnyje paaiškinama, kaip nustatyti projekto darbo standartines kainas ir išlaidas. Šiai užduočiai atlikti naudojamas USSI duomenų rinkinys.
 
 1. Naršymo srityje eikite į **Moduliai > Projektų valdymas ir apskaita > Sąranka > Kainos > Savikaina (val.)**.
 2. Pasirinkite **Naujas**.

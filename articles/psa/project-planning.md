@@ -1,6 +1,6 @@
 ---
 title: Projekto planavimo pradinis puslapis
-description: Šiame straipsnyje pateikiama informacija apie projektų planavimą.
+description: Šiame straipsnyje pateikta informacija apie projektų planavimą.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -43,7 +43,7 @@ Projektų valdymo įrankiai, esantys „Project Service Automation“ (santr. PS
 - Prognozuoti išteklių poreikius, kol projektai yra ruošiami;
 - Sėkmingai pristatyti projektus sekant progresą ir sąnaudų suvartojimą.
 
-Šiuose straipsniuose pateikiama informacija, kuri padės projektų vadovams įvertinti darbą, įvertinti projekto išlaidas ir prognozuoti išteklių poreikius naudojant PSA palaikomus įrankius:
+Toliau pateikiamuose straipsniuose pateikta informacija, padedanti projektų vadovams įvertinti darbus, įvertinti projekto išlaidas ir prognozuoti išteklių poreikius naudojant PSA palaikomus įrankius:
 
 - [Grafiko kūrimas](project-creating.md)
 - [Projekto savikainos ir įplaukų įvertinimas](project-estimating.md)

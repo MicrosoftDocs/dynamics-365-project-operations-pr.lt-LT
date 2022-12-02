@@ -1,6 +1,6 @@
 ---
 title: Įmonės vidaus kliento ir tiekėjo sąskaitų faktūrų kūrimas
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip kurti vidinės įmonės kliento ir tiekėjo SF.
+description: Šiame straipsnyje pateikiama informacija, kaip kurti įmonės vidaus klientų ir tiekėjų sąskaitas faktūras.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -27,7 +27,7 @@ Skolinimo juridinio objekto projekto apskaitininkas gali nustatyti paketinį pro
 
 Skolinančiajame juridiniame subjekte reikia atlikti toliau nurodytus veiksmus. 
 
-1. Dalyje Dynamics 365 Finance eikite į **Projektų valdymas ir apskaita** > **Projekto SF** > **Vidinės įmonės kliento SF**. **Vidinių įmonių klientų SF** sąrašo puslapyje esančioje veiksmų srityje pasirinkite **Naujas.**
+1. Programoje „Dynamics 365 Finance“ eikite į **Projektų valdymas ir apskaita** > **Projekto sąskaitos faktūros** > **Vidinės įmonės klientų sąskaitos faktūros**. **Vidinių įmonių klientų SF** sąrašo puslapyje esančioje veiksmų srityje pasirinkite **Naujas.**
 2. Puslapyje **Kurti vidinės įmonės SF**, lauke **Juridinis objektas**, pasirinkite skolinimosi juridinį objektą.
 3. Pasirinktinai: įveskite konkrečios projekto sutarties ir projekto numerius.
 4. Susiaurinkite iešką pasirinkdami datų diapazoną. Laukuose **Pradžios data** ir **Pabaigos data** įveskite konkrečias datas. Ieškos rezultatuose rodomos tik tos įmonės vidaus operacijos, kurios užregistruotos šio datų diapazono ribose.

@@ -52,7 +52,7 @@ Jei norite kurti išlaidas arba sugretinti išlaidas iš kvito, atlikite toliau 
 
 ## <a name="installation"></a>Diegimas
 
-Norėdami naudoti šias išplėstines išlaidų galimybes, įdiekite "365 Finance" Microsoft Dynamics išlaidų valdymo tarnybos priedą ir įjunkite savo egzemplioriaus funkcijas. Galite pasiekti papildinį iš savo projekto programoje „Microsoft Dynamics Lifecycle Services“ (LCS).
+Norėdami naudoti šias išplėstinių išlaidų galimybes, įdiekite „Expense Management Service“ papildinį, skirtą „Microsoft Dynamics 365 Finance“ ir įgalinkite savo egzempliorių funkcijas. Galite pasiekti papildinį iš savo projekto programoje „Microsoft Dynamics Lifecycle Services“ (LCS).
 
 1. Prisijunkite prie LCS ir atidarykite pageidaujamą aplinką.
 2. Eikite į **Pilna išsami informacija**.
@@ -85,7 +85,7 @@ Ne, „Microsoft“ sukūrė bendrąjį mašininio mokymo modelį, skirtą kvito
 
 **Kur ši funkciją prieinama ir apdorojama?**
 
-Šios funkcijos prieinamumas skirtinguose regionuose pateikiamas šioje lentelėje. Jei jūsų regionas šiuo metu nepalaikomas, pateikite užklausą, kad pirmenybė būtų teikiama OCR paslaugos prieinamumui jūsų regione. 
+Šios funkcijos pasiekiamumas skirtinguose regionuose nurodomas toliau pateiktoje lentelėje. Jei jūsų regionas šiuo metu nepalaikomas, pateikite užklausą, kad būtų suteiktas prioritetas OCR tarnybos pasiekiamumui jūsų regione. 
 
 | Regiono ID | Palaikomas                         |
 |--------|-----------------------------------|
@@ -93,7 +93,7 @@ Ne, „Microsoft“ sukūrė bendrąjį mašininio mokymo modelį, skirtą kvito
 | CAN    | Taip                               |
 | JK     | Taip                               |
 | AUS    | Taip                               |
-| ES     | Dalinai. Tik angliški kvitai. |
+| ES     | Iš dalies. Tik kvitai anglų k. |
 | Azija   | No                                |
 | Japonija  | No                                |
 | Afrika | No                                |

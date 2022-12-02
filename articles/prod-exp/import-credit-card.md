@@ -1,6 +1,6 @@
 ---
 title: Kredito kortelių operacijų importavimas ir tvarkymas
-description: Šiame straipsnyje paaiškinama, kaip importuoti ir prižiūrėti su išlaidomis susijusias kredito kortelių operacijas. Šias operacijas galima nustatyti taip, kad jos būtų automatiškai importuojamos pagal pasikartojantį grafiką, arba pagal poreikį jas galima importuoti neautomatiškai.
+description: Šiame straipsnyje aiškinama, kaip importuoti ir prižiūrėti su išlaidomis susijusias kredito kortelių operacijas. Šias operacijas galima nustatyti taip, kad jos būtų automatiškai importuojamos pagal pasikartojantį grafiką, arba pagal poreikį jas galima importuoti neautomatiškai.
 author: KimANelson
 ms.date: 01/12/2018
 ms.topic: article

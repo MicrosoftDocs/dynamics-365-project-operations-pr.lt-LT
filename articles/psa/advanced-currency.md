@@ -1,6 +1,6 @@
 ---
 title: Kelių valiutų scenarijai (versija 3.x)
-description: Šiame straipsnyje pateikiama informacija apie kelių valiutų scenarijus.
+description: Šiame straipsnyje pateikta informacija apie kelių valiutų scenarijus.
 author: rumant
 ms.custom:
 - dyn365-projectservice

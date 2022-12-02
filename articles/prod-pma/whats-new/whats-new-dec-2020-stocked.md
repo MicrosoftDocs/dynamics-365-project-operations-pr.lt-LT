@@ -1,6 +1,6 @@
 ---
 title: Kas nauja 2020 m. gruodžio mėn. – „Project Operations“, skirta laikomų medžiagų / gamyba pagrįstiems scenarijams
-description: Šiame straipsnyje pateikiama informacija apie kokybės atnaujinimus, kuriuos galima rasti 2020 m. gruodžio mėn.
+description: Šiame straipsnyje pateikiama informacija apie kokybės naujinimus, pasiekiamus 2020 m. gruodžio mėn. „Project Operations”, skirtos laikomų medžiagų / gamyba pagrįstiems scenarijams, leidime.
 author: Yowelle
 ms.date: 12/11/2020
 ms.topic: article
@@ -18,9 +18,9 @@ ms.locfileid: "8911376"
 
 _Taikoma (kam): „Project Operations“, skirta laikomų medžiagų / gamyba pagrįstiems scenarijams_
 
-Šis straipsnis taikomas šiems Dynamics 365 Project Operations komponentams ir versijoms:
+Šis straipsnis taikomas toliau nurodytiems „Dynamics 365 Project Operations“ komponentams ir versijoms:
 
-  - Projektų valdymas ir apskaita Dynamics 365 Finance aplinkoje 10.0.15 versija
+  - Projektų valdymas ir apskaita „Dynamics 365 Finance“ aplinkos 10.0.15 versijoje
 
 ## <a name="quality-updates"></a>Kokybės naujinimai
 
@@ -139,7 +139,7 @@ _Taikoma (kam): „Project Operations“, skirta laikomų medžiagų / gamyba pa
 
 ## <a name="regulatory-updates"></a>Reguliavimo naujinimai
 
-Informacijos apie Dynamics 365 Finance reguliavimo naujinimus ieškokite [Reguliavimo naujinimai](/dynamics365/finance/localizations/regulatory-updates). Kitas būdas sužinoti apie reguliavimo atnaujinimus – prisijungti prie „Lifecycle Services“ (LCS) ir peržiūrėti suplanuotus reguliavimo naujinimus naudojant problemų ieškos įrankį. Problemų ieška leidžia ieškoti pagal šalį, funkcijos tipą ir leidimą.
+Norėdami gauti informacijos apie „Dynamics 365 Finance“, žr. [Reglamentavimo naujinimai](/dynamics365/finance/localizations/regulatory-updates). Kitas būdas sužinoti apie reguliavimo atnaujinimus – prisijungti prie „Lifecycle Services“ (LCS) ir peržiūrėti suplanuotus reguliavimo naujinimus naudojant problemų ieškos įrankį. Problemų ieška leidžia ieškoti pagal šalį, funkcijos tipą ir leidimą.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

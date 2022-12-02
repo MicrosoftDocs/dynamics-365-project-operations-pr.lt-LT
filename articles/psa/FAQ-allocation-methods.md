@@ -1,6 +1,6 @@
 ---
 title: „Project Service Automation“ rezervavimo paskirstymo būdai
-description: Šiame straipsnyje pateikiama informacija apie įvairius paskirstymo užsakymo būdus.
+description: Šiame straipsnyje pateikta informacija apie įvairius paskirstymo būdus.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -28,7 +28,7 @@ ms.locfileid: "8929178"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Nesvarbu, ar komandos narį į projektą įtraukiate tiesiogiai skirtuke **Komanda**, ar rezervuojate išteklių projekte arba reikalavimą iš grafikos lentos, yra keli skirtingi paskirstymo metodai, kuriuos galite panaudoti. Šiame straipsnyje paaiškinama, kaip veikia kiekvienas metodas ir kokie metodai gali lemti išteklių perviršį.
+Nesvarbu, ar komandos narį į projektą įtraukiate tiesiogiai skirtuke **Komanda**, ar rezervuojate išteklių projekte arba reikalavimą iš grafikos lentos, yra keli skirtingi paskirstymo metodai, kuriuos galite panaudoti. Šiame straipsnyje paaiškinama, kaip veikia kiekvienas metodas ir kurių metodų taikymas gali tapti resursų per didelio kiekio rezervavimo priežastimi.
 
 ## <a name="full-capacity"></a>Visas pajėgumas 
 Visas pajėgumo metodas – rezervuojamas visas ištekliaus pajėgumas nurodytu pradžios ir pabaigos datų laikotarpiu. Pavyzdžiui, jei nustatyta, kad ištekliaus kalendorius turi veikti 8 valandas per dieną, 5 dienas per savaitę, nustačius pradžios ir pabaigos laikotarpį, apimantį penkias darbo dienas, išteklius bus rezervuotas 40 valandų. Toks rezervavimas atliekamas neatsižvelgiant į išteklių pajėgumo likutį. Jei nurodytu laikotarpiu išteklius jau rezervuotas kitiems projektams, 40 valandų rezervuojamos kaip papildomos, o tai gali tapti per didelio kiekio rezervavimo priežastimi.

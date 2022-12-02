@@ -1,6 +1,6 @@
 ---
 title: Produktų katalogo kainodara
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip veikia produktų katalogo Dynamics 365 Project Service Automation kainodara (PSA).
+description: Šiam straipsnyje pateikta informacija apie tai, kaip veikia produktų katalogo kainodara programoje Dynamics 365 Project Service Automation (PSA).
 author: rumant
 ms.custom:
 - dyn365-projectservice

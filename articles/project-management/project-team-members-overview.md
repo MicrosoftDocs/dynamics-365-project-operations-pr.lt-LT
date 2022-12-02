@@ -1,6 +1,6 @@
 ---
 title: Projekto komandos nariai
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip dirbti su projekto komandos nario informacija, atributais ir planavimu.
+description: Šiame straipsnyje pateikta informacija apie tai, kaip naudoti projekto komandos nario informaciją, atributus ir planavimą.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview

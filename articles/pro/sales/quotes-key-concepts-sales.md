@@ -1,6 +1,6 @@
 ---
 title: Pasiūlymai – pagrindinės sąvokos – „Lite“ versija
-description: Šiame straipsnyje pateikiama informacija apie projekto pasiūlymų naudojimą projekto operacijose.
+description: Šiame straipsnyje pateikta informacija apie „Project Operations“ projektų pasiūlymų naudojimą.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

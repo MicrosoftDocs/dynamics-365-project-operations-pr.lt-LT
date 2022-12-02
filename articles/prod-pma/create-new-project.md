@@ -1,6 +1,6 @@
 ---
 title: Kurti naują projektą;
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip sukurti naują projektą.
+description: Šiame straipsnyje pateikta informacija apie tai, kaip sukurti naują projektą.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Pasirinktinių laukų ir objektų kūrimas
-description: Šiame straipsnyje paaiškinama, kaip kurti parinkčių rinkinius ir objektus savo sprendime platformoje Power Apps.
+description: Šiame straipsnyje paaiškinama, kaip kurti parinkčių rinkinius ir objektus naudojant asmeninį sprendimą „Power Apps“ platformoje.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -28,7 +28,7 @@ ms.locfileid: "8926924"
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 Atlikite toliau nurodytus veiksmus bet kuriuo metu, kai norite sukurti pasirinktinį parinkčių rinkinį arba objektą „Power Apps“ platformoje.  
-Šiame straipsnyje pateiktos procedūros turėtų būti baigtos naudojant "Project Service Automation" (PSA) žiniatinklio sąsają.
+Šiame straipsnyje nurodytas procedūras reikia atlikti naudojant „Project Service Automation“ (PSA) internetinę sąsają.
 
 > [!IMPORTANT]
 > Rekomenduojame visus pasirinktinio kainodaros dimensijų pakeitimus atlikti naudojant atskirą sprendimą. Ši svarbi geriausia praktika suteikia lankstumo ateityje siekiant tinkamai atnaujinti arba pašalinti pakeitimus ir padės pakartotinai panaudoti savo darbą, o pakeitimus bus galima lengviau perkelti į kitą egzempliorių. Atlikę visus reikiamus pakeitimus, eksportuokite šį sprendimą kaip **valdomąjį sprendimą** ir importuokite jį į kitus egzempliorius, kad būtų galima pakartotinai naudoti kainodaros nustatymus.

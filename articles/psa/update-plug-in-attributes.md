@@ -1,6 +1,6 @@
 ---
 title: Priedo atributų atnaujinimas norint įtraukti naujų kainodaros dimensijų
-description: Šiame straipsnyje pateikiama informacija apie kainodaros dimensijų priedų atributų naujinimą.
+description: Šiame straipsnyje pateikta informacija apie kainodaros dimensijų priedo atributų atnaujinimą.
 author: Rumant
 ms.custom: ''
 ms.date: 11/19/2018
@@ -27,9 +27,9 @@ ms.locfileid: "8913216"
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 > [!NOTE]
-> Jei nenaudojate "Project Service Automation" (PSA) citavimo ir sutarčių sudarymo funkcijų, galite praleisti šį straipsnį.
+> Jei nenaudojate „Project Service Automation“ (PSA) pasiūlymo teikimo ir sutarties sudarymo funkcijų, galite praleisti šį straipsnį.
 
-Šiame straipsnyje daroma prielaida, kad atlikote procedūras straipsniuose, [Kurti pasirinktinius laukus ir objektus](create-custom-fields-entities.md), [Įtraukti pasirinktinius laukus į kainų nustatymą ir operacijų objektus](field-references.md) ir [Nustatyti pasirinktinius laukus kaip kainodaros dimensijas](set-up-pricing-dimensions.md). Jei dar neatlikote šių procedūrų, grįžkite ir užpildykite jas, tada grįžkite į šį straipsnį.
+Šiame straipsnyje daroma prielaida, kad atlikote straipsniuose [Pasirinktinių laukų ir objektų kūrimas](create-custom-fields-entities.md), [Pasirinktinių laukų įtraukimas į kainos sąranką ir operacijų objektus](field-references.md) bei [Pasirinktinių laukų kaip kainodaros dimensijų nustatymas](set-up-pricing-dimensions.md) nurodytas procedūras. Jei neatlikote šių procedūrų, grįžkite ir jas atlikite, o tada grįžkite į šią straipsnį.
 
 Kai pasiūlymo eilutės informacija sukuriama projekto pasiūlymo eilutės puslapyje **Pasiūlymo eilutė**, sistema sukuria dvi įvertinimo eilutes fone – vieną eilutę įvertinimo savikainos pusei, ir vieną pardavimo pusei. Tas pats taikoma projekto sutarties eilutėms.
 

@@ -1,6 +1,6 @@
 ---
 title: Įgūdžių ir kvalifikacijų apibrėžimas
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip nustatyti kvalifikacijos modelius ištekliams įvertinti.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip nustatyti įgūdžių ir kvalifikacijos modelius ištekliams vertinti.
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article

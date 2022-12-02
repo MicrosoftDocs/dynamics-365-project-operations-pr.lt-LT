@@ -1,6 +1,6 @@
 ---
 title: Išankstinių apmokėjimų grafiko nustatymas
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip nustatyti "Project Operations" užsaugos grafiką.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip nustatyti išankstinių apmokėjimų grafiką programoje „Project Operations”.
 author: rumant
 ms.date: 10/22/2020
 ms.topic: article

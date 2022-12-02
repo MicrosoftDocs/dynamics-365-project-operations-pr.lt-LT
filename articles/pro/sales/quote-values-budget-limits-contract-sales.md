@@ -1,6 +1,6 @@
 ---
 title: Projekto pasiūlymo suvestinės informacija – „Lite“ versija
-description: Šiame straipsnyje pateikiama informacija apie informaciją ir parametrus, taikomus projektų pasiūlymams ir turinčius jiems įtakos. („Sales“)
+description: Šiame straipsnyje pateikta informacija apie informaciją ir parametrus, taikomus projekto pasiūlymams ir jų poveikį. („Sales“)
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

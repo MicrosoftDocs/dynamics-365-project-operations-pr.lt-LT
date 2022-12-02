@@ -1,6 +1,6 @@
 ---
 title: Pirkimo užsakymo elementų gavimas iš elementų reikalavimo
-description: Šiame straipsnyje paaiškinama, kaip gauti prekes pirkimo užsakyme iš prekės poreikio.
+description: Šiame straipsnyje paaiškinama, kaip iš elementų reikalavimo gauti pirkimo užsakymo elementus.
 author: Yowelle
 ms.date: 08/06/2019
 ms.topic: business-process
@@ -24,7 +24,7 @@ ms.locfileid: "8929546"
 
 [!include [banner](../../includes/banner.md)]
 
-Šiame straipsnyje paaiškinama, kaip gauti prekes pirkimo užsakyme iš prekės poreikio.
+Šiame straipsnyje paaiškinama, kaip iš elementų reikalavimo gauti pirkimo užsakymo elementus.
 
 Naudodami elementų reikalavimą, o ne elementų operaciją, galite planuoti pristatymą prieš pat panaudojant elementą, sukurti pirkimo užsakymą, įtraukti elementą į prekybos sutarčių sistemą ir įtraukti elementų reikalavimą į gamybos planavimą. 
 

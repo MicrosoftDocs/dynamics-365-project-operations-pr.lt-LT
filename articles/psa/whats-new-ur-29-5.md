@@ -1,6 +1,6 @@
 ---
 title: Kas nauja arba pakeista „Project Service Automation“ V3 29.5 atnaujintame leidime, karštoji pataisa
-description: Šiame straipsnyje išvardijamos funkcijos ir pataisymai, kuriuos galima rasti "Project Service Automation Update Release 29.5 Hot pataisosx", V3.
+description: Šiame straipsnyje išvardytos funkcijos ir pataisos, galimos „Project Service Automation“ V3 29.5 atnaujintame leidime, karštojoje pataisoje.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 03/26/2021
@@ -27,7 +27,7 @@ ms.locfileid: "8926372"
 
 Malonu pranešti apie naujausią „Dynamics 365“ programos „Project Service Automation“ naujinimą. Šiame leidime yra kai kurių svarbių kokybės, veikimo ir naudojimo patobulinimų. Šis leidimas suderinamas su „Dynamics 365“ 9.x versija. Norėdami naujinti šį leidimą, eikite į „Dynamics 365“ internetinių sprendimų puslapio administravimo centrą, iš kurio galite įdiegti naujinimą. Daugiau informacijos žr. [Pageidaujamo sprendimo diegimas, naujinimas arba šalinimas](/power-platform/admin/install-remove-preferred-solution).
 
-Šiame straipsnyje išvardijamos naujos arba pakeistos "Project Service Automation V3", "Update Release 29.5" funkcijos ir taisymai. Ši versija turi naują komponavimo versijos numerį V3.10.47.150 ir ją galima pasiekti per 2021 m. sausio mėn. automatinį naujinimą.
+Šiame straipsnyje išvardytos funkcijos ir pataisymai, kurie yra nauji arba pakeisti „Project Service Automation“ V3 29.5 atnaujintame leidime. Ši versija turi naują komponavimo versijos numerį V3.10.47.150 ir ją galima pasiekti per 2021 m. sausio mėn. automatinį naujinimą.
 
 ## <a name="update-release-295"></a>29.5 atnaujintas leidimas
 

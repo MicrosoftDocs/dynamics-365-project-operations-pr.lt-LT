@@ -1,6 +1,6 @@
 ---
 title: PVM susigrąžinimas naudojant modulį Išlaidų valdymas
-description: Šiame straipsnyje paaiškinama, kaip gauti grąžinamąsias išmokas už reikalavimus atitinkančias pridėtinės vertės mokesčio (PVM) operacijas.
+description: Šiame straipsnyje aiškinama, kaip susigrąžinti PVM už atitinkamas pridėtinės vertės mokesčio (PVM) operacijas.
 author: suvaidya
 ms.date: 10/10/2020
 ms.topic: article

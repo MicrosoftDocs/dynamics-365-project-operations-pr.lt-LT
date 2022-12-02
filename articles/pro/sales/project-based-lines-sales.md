@@ -1,6 +1,6 @@
 ---
 title: Projektu pagrįstos galimybių eilutės – „Lite“ versija
-description: Šiame straipsnyje pateikiama informacija apie projektu pagrįstas galimybių eilutes. (Pro)
+description: Šiam straipsnyje pateikta informacija apie projektu pagrįstos galimybės eilutes. (Pro)
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

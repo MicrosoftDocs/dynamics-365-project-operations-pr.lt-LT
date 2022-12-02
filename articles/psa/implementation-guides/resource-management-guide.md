@@ -1,6 +1,6 @@
 ---
 title: Išteklių valdymo vadovas
-description: Šiame straipsnyje pateikiami saitai į informaciją apie išteklių valdymą "Project Service Automation"
+description: Šiame straipsnyje pateikiamos nuorodos į informaciją apie išteklių valdymą naudojant „Project Service Automation“
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -30,7 +30,7 @@ ms.locfileid: "8910789"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
-Pdf saitas, kuris anksčiau buvo šiame straipsnyje, buvo pašalintas ir turinys perkeltas į šiuos straipsnius:
+Anksčiau šiame straipsnyje pateiktas PDF failo saitas buvo pašalintas, o jo turinys perkeltas į toliau nurodytus straipsnius.
 
 - [Išteklių valdymo pagrindinis puslapis](../resource-management-home-page.md)
 - [Pagrindinės sąvokos](../reports-key-concepts.md)
@@ -42,7 +42,7 @@ Pdf saitas, kuris anksčiau buvo šiame straipsnyje, buvo pašalintas ir turinys
 - [Išteklių valdymo DUK](../resource-management-faq.md)
 
 > [!NOTE]
-> Šis straipsnis bus pašalintas būsimame dokumentacijos atnaujinime. 
+> Šis straipsnis bus pašalinta iš būsimų atnaujintų dokumentų. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

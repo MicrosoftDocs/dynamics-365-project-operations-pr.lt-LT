@@ -1,6 +1,6 @@
 ---
 title: Projekto būsenos paaiškinimas
-description: Šiame straipsnyje pateikiama informacija apie būseną, priskirtą projektams programoje Dynamics 365 Project Operations.
+description: Šiame straipsnyje pateikiama informacija apie projektams priskirtą būseną programoje „Dynamics 365 Project Operations“.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

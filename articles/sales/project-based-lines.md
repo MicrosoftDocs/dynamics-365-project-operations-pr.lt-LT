@@ -1,6 +1,6 @@
 ---
 title: Projektu pagrįstos galimybių eilutės
-description: Šiame straipsnyje pateikiama informacija apie darbą su projektu pagrįstomis galimybių eilutėmis.
+description: Šiam straipsnyje pateikta informacija, kaip dirbti su projektu pagrįstomis galimybių eilutėmis.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

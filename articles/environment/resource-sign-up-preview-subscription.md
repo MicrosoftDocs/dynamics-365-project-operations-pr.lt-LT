@@ -1,6 +1,6 @@
 ---
 title: Prisiregistravimas norint gauti „Project Operations“ peržiūros versijos prenumeratą, skirtą ištekliais / ne atsargomis pagrįstiems scenarijams
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip užsiprenumeruoti ir įdiegti "Project Operations", kad būtų galima iš naujo įdiegti / nekaupti pagrįstus scenarijus.
+description: Šiame straipsnyje pateikiama informacijos, kaip užsiprenumeruoti ir įdiegti „Project Operations“, skirtą ištekliais / ne atsargomis pagrįstiems scenarijams.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
@@ -19,7 +19,7 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 
 
 
-Šiame straipsnyje paaiškinama, kaip užsiprenumeruoti bandomąjį pasiūlymą ir įdiegti "Project Operations" aplinką, skirtą ištekliui / nekauptiems scenarijams.
+Šiame straipsnyje paaiškinama, kaip užsiprenumeruoti bandomosios versijos pasiūlymą ir įdiegti „Project Operations“ aplinką, skirtą ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams.
 
 ## <a name="prerequisites"></a>Būtinosios sąlygos
 - Vartotojas, kuris įdiegia peržiūros versiją, turi turėti „Azure“ kliento visuotinio administratoriaus teises. Pasinaudodami pirmuoju pasiūlymu, galite sukurti nuomotoją. 
@@ -40,7 +40,7 @@ Prieš pradėdami įsitikinkite, kad esate prisijungę prie naršyklės naudodam
 
   Pamatysite sėkmingai panaudotą patvirtinimo pasiūlymą.
 
-### <a name="dynamics-365-finance-preview-trial"></a>Dynamics 365 Finance peržiūros bandomoji versija
+### <a name="dynamics-365-finance-preview-trial"></a>„Dynamics 365 Finance preview" bandomoji versija
 
 Eikite į [„Dynamics 365 for Finance“ peržiūros bandomoji versija](https://aka.ms/trypoche) ir pakartokite ankstesnio skyriaus veiksmus su pasiūlymu Registracija norint naudoti debesyje esančią aplinką.  
 
@@ -49,7 +49,7 @@ Eikite į [„Dynamics 365 for Finance“ peržiūros bandomoji versija](https:/
 > [!IMPORTANT]
 > Norint atlikti toliau nurodytus veiksmus jums reikės administratoriaus prieigos prie organizacijos „Microsoft 365“ portalo.
 
-1. Eikite į [Microsoft 365 administravimo centrą](https://portal.office.com/), kad priskirtumėte licencijas savo vartotojams.
+1. Eikite į [Microsoft 365 administravimo centrą](https://portal.office.com/), kad priskirtumėte licencijas vartotojams.
 
 2. Puslapyje **Aktyvūs vartotojai** pasirinkite vartotojus, kuriems norite priskirti licenciją.
 
@@ -60,19 +60,19 @@ Eikite į [„Dynamics 365 for Finance“ peržiūros bandomoji versija](https:/
 
 ## <a name="start-a-new-project-in-lcs"></a>Pradėkite naują LCS projektą
 
-Sukurkite naują LCS projektą, kaip aprašyta straipsnyje, [Pradėkite naują projektą LCS](create-lcs-project.md)
+Sukurkite naują LCS projektą, kaip aprašytą straipsnyje [Naujo LCS projekto pradėjimas](create-lcs-project.md)
 
 ## <a name="add-an-azure-subscription-to-an-lcs-project"></a>„Azure“ prenumeratos įtraukimas į LCS projektą
 
-Norėdami atlikti šią užduotį, atlikite straipsnyje ["Įtraukti "Azure" prenumeratą į LCS projektą](resource-add-azure-subscription-lcs-project.md).
+Norėdami atlikti šią užduotį, atlikite veiksmus, nurodytus stripsnyje [„Azure“ prenumeratos įtraukimas į LCS projektą](resource-add-azure-subscription-lcs-project.md).
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>„Finance“ demonstracinės aplinkos ir „Project Operations“, skirtos ištekliais / ne atsargomis pagrįstiems scenarijams, visuotinis diegimas
 
-Vadovaukitės straipsnio "Naujos aplinkos [parengimas, kad būtų užbaigtas diegimas"](resource-provision-new-environment.md) pateiktomis gairėmis. Naudokite [demonstracinės aplinkos](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) visuotinio diegimo tipą, skirtą peržiūros versijai. 
+Vadovaukitės nurodymais, pateiktais straipsnyje [Naujos aplinkos parengimas](resource-provision-new-environment.md), kad užbaigtumėte visuotinį diegimą. Naudokite [demonstracinės aplinkos](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) visuotinio diegimo tipą, skirtą peržiūros versijai. 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>CDS sąrankos ir konfigūracijos duomenų diegimas
 
-Įdiekite CDS sąrankos ir konfigūravimo duomenis, [kaip aprašyta straipsnyje Nustatyti ir taikyti konfigūracijos duomenis Common Data Service](resource-apply-pro-setup-config-data.md).
+Įdiekite CDS sąrankos ir konfigūracijos duomenis, kaip aprašyta straipsnyje [Konfigūracijos duomenų nustatymas ir taikymas sistemoje „Common Data Service“](resource-apply-pro-setup-config-data.md).
 Šį veiksmą atlikite tik įdiegę „Finance“ demonstracinę aplinką ir parengę demonstracinius duomenis.
 
 

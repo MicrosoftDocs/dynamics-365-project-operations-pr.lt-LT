@@ -1,6 +1,6 @@
 ---
 title: Projektu pagrįsto pasiūlymo eilutės apmokestinamų komponentų konfigūravimas
-description: Šiame straipsnyje pateikiama informacija apie įtrauktus, apmokestinamus ir neapmokestinamus komponentus, esančius projekto pasiūlymo eilutėse.
+description: Šiame straipsnyje pateikiama informacija apie įtrauktus, apmokestinamus ir neapmokestinamus komponentus projektu pagrįsto pasiūlymo eilutėse.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article

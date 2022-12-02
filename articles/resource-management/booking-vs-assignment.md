@@ -1,6 +1,6 @@
 ---
 title: Rezervacijos ir priskyrimai
-description: Šiame straipsnyje pateikiama informacija apie skirtumus tarp išteklių užsakymų ir išteklių priskyrimo.
+description: Šiame straipsnyje pateikta informacija apie skirtumus tarp išteklių rezervavimų ir išteklių priskyrimų.
 author: ruhercul
 ms.date: 01/08/2021
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Sukurti pasirinktinius sprendimus kainodaros dimensijoms
-description: Šiame straipsnyje paaiškinama, kaip sukurti pasirinktinį sprendimą kuriant pasirinktines kainodaros dimensijas.
+description: Šiame straipsnyje aiškinama, kaip sukurti pasirinktinį sprendimą kuriant pasirinktines kainodaros dimensijas.
 author: Rumant
 ms.custom:
 - dyn365-projectservice

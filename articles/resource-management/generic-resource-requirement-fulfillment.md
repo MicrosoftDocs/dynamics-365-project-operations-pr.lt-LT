@@ -1,6 +1,6 @@
 ---
 title: Bendrųjų išteklių reikalavimų vykdymas
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip rezervuoti įvardytus išteklius bendrajam išteklių poreikiui.
+description: Šiame straipsnyje pateikiama informacija apie įvardytų išteklių rezervavimą bendrųjų išteklių reikalavimui.
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article

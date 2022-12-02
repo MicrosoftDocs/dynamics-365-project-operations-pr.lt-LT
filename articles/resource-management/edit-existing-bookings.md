@@ -1,6 +1,6 @@
 ---
 title: Redaguoti rezervacijas
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip atnaujinti ir keisti užsakymus.
+description: Šiame straipsnyje pateikta informacija apie tai, kaip atnaujinti ir keisti rezervavimus.
 author: ruhercul
 ms.date: 11/12/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8915240"
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
 
-Kai dėl projekto pakeitimų reikia atnaujinti esamus rezervavimus, yra keli būdai atlikti keitimus. Šiame straipsnyje aprašoma, kaip atnaujinti ir keisti užsakymus.
+Kai dėl projekto pakeitimų reikia atnaujinti esamus rezervavimus, yra keli būdai atlikti keitimus. Šiame straipsnyje aiškinama apie tai, kaip atnaujinti ir keisti rezervavimus.
 
 ## <a name="resource-reconciliation"></a>Išteklių suderinimas
 

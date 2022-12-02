@@ -1,6 +1,6 @@
 ---
 title: Visuotinio diegimo tipo nustatymas
-description: Šiame straipsnyje pateikiama informacija, padedanti nustatyti tinkamą įmonės "Project" operacijų diegimo tipą.
+description: Šiame straipsnyje pateikta informacija padės jums nustatyti teisingą visuotinio diegimo tipą, skirtą jūsų įmonės „Project Operations“.
 author: stsporen
 ms.date: 03/15/2021
 ms.topic: article
@@ -25,7 +25,7 @@ _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems s
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Esami „Dynamics“ klientai, naudojantys „Dynamics 365 Project Service Automation“
 „Project Operations“ pateikiamos galimybės, pristatytos su „Project Service Automation“. Naujovinimo kelias šiems klientams bus išleistas 2021 m. 1-osios leidimų bangos metu.
 
-## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Esami Dynamics 365 Finance klientai, naudojantys projektų valdymą ir apskaitą 
+## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Esami „Dynamics 365 Finance“ klientai, naudojantys projektų valdymą ir apskaitą 
 
 Esami „Finance“ klientai, naudojantys projektų valdymo ir apskaitos funkcijas, gali ją naudoti taip, kaip dabar. Žr. [„Project Operations“, skirta laikomų medžiagų / gamybos užsakymo scenarijams](#pma).
 

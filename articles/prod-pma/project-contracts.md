@@ -44,7 +44,7 @@ Kai kuriose projektų sutartyse nurodyta, kad projekto išlaidų finansavimo ats
 -   Kelių projektą bendrai finansuoja dvi savivaldybės.
 -   Tilto statybos projektą finansuoja valstybinė institucija ir privati korporacija.
 
-Dynamics 365 Finance galite padalyti vienos operacijos ar viso projekto atsiskaitymą keliems klientams, dotacijoms ar organizacijoms. 
+Programoje „Dynamics 365 Finance” galite išskaidyti vienos operacijos arba viso projekto sąskaitas tarp kelių klientų, dotacijų arba organizacijų. 
 
 Projektuose, kuriuose yra keletas finansuotojų, visos šalys, prisidedančios prie išplėstinio finansavimo projekto finansavimo, vadinamos finansavimo šaltiniais. Apibrėžus klientą, organizaciją arba dotaciją kaip finansavimo šaltinį, galima juos priskirti vienai arba keletui finansavimo taisyklių. Finansavimo taisyklėse nurodomi kriterijai, apibrėžiantys, kaip mokesčiai paskirstomi tarp įvairių projekto finansavimo šaltinių. 
 

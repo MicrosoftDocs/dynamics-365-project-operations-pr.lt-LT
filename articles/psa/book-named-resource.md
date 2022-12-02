@@ -1,6 +1,6 @@
 ---
 title: Įvardytų išteklių rezervavimas iš išteklių reikalavimų
-description: Šiame straipsnyje pateikiama informacija apie įvardytų išteklių rezervavimą bendram išteklių poreikiui.
+description: Šiame straipsnyje pateikiama informacija apie įvardytų išteklių rezervavimą bendrųjų išteklių reikalavimui.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Mobiliųjų įrenginių programėlės „Microsoft Dynamics 365 Project Timesheet“, skirtos „iOS“ ir „Android“, pasirinktinių laukų diegimas
-description: Šiame straipsnyje pateikiami bendri plėtinių naudojimo pasirinktiniams laukams įgyvendinti modeliai.
+description: Šiame straipsnyje pateikiami įprasti būdai kaip naudoti plėtinius norint įdiegti pasirinktinius laukus.
 author: Yowelle
 ms.date: 05/29/2019
 ms.topic: article
@@ -26,7 +26,7 @@ ms.locfileid: "8913722"
 
 [!include [banner](../includes/banner.md)]
 
-Šiame straipsnyje pateikiami bendri plėtinių naudojimo pasirinktiniams laukams įgyvendinti modeliai. Aptariami šie straipsniai:
+Šiame straipsnyje pateikiami įprasti būdai kaip naudoti plėtinius norint įdiegti pasirinktinius laukus. Apimami šie straipsniai:
 
 - Įvairūs duomenų tipai, kuriuos palaiko pasirinktinio lauko sistema
 - Kaip rodyti tik skaitomus arba redaguojamus grafiko įrašų laukus ir įrašyti vartotojo pateikiamas reikšmes į duomenų bazę
@@ -35,7 +35,7 @@ ms.locfileid: "8913722"
 
 ## <a name="audience"></a>Auditorija
 
-Šis straipsnis skirtas kūrėjams, kurie integruoja savo pasirinktinius laukus į mobiliąją Microsoft Dynamics 365 Project Timesheet programą, kuri yra prieinama "Apple iOS" ir "Google"Android. Daroma prielaida, kad skaitytojai yra susipažinę su X++ kūrimu ir projekto grafikų funkcijomis.
+Šis straipsnis skirta programuotojams, integruojantiems pasirinktinius laukus į „Microsoft Dynamics 365 Project Timesheet“ mobiliųjų įrenginių programėlę, skirtą „Apple iOS“ ir „Google"Android“. Daroma prielaida, kad skaitytojai yra susipažinę su X++ kūrimu ir projekto grafikų funkcijomis.
 
 ## <a name="data-contract--tstimesheetcustomfield-x-class"></a>Duomenų sutartis – „TSTimesheetCustomField“ X++ klasė
 
@@ -64,7 +64,7 @@ Ypatybė **FieldBaseType** objekte **TsTimesheetCustom** nustato lauko, kuris ro
 
 - Jei ypatybė **stringOptions** yra pateikta objekte **TSTimesheetCustomField**, šie sąrašo elementai yra vienintelės reikšmės, kurias vartotojai gali pažymėti naudodami parinkčių mygtukus (išrinkimo mygtukus).
 
-    Tokiu atveju eilutės laukas gali veikti kaip išvardijimo reikšmė, skirta vartotojo įrašui. Norėdami įrašyti reikšmę į duomenų bazę kaip išvardijimą, neautomatiniu būdu susiekite eilutės reikšmę atgal į išvardijimo reikšmę prieš įrašydami į duomenų bazę naudodami komandų grandinę (žr. skyrių "Naudoti komandų grandinę TSTimesheetEntryService klasėje, kad išsaugotumėte tabelio įrašą iš programos atgal į duomenų bazę" vėliau šiame straipsnyje).
+    Tokiu atveju eilutės laukas gali veikti kaip išvardijimo reikšmė, skirta vartotojo įrašui. Norėdami įrašyti reikšmę į duomenų bazę kaip išvardijimą, rankiniu būdu (naudodami komandų grandinę) susiekite eilutės reikšmę prieš įrašydami į duomenų bazę (kaip pavyzdį žr. tolesnį šio straipsnio skyrių „TSTimesheetEntryService“ klasės komandų grandinės naudojimas norint įrašyti grafiko įrašą iš programėlės į duomenų bazę“).
 
 ### <a name="fieldextendedtype-tscustomfieldextendedtype"></a>fieldExtendedType (TSCustomFieldExtendedType)
 
@@ -106,7 +106,7 @@ Nustatykite šią ypatybę kaip **Taip**, jei norite, kad laukas grafiko įrašo
 
 ### <a name="stringoptions-list-of-strings"></a>stringOptions (eilučių sąrašas)
 
-Ši ypatybė taikoma tik tada, kai **fieldBaseType** yra nustatytas kaip **Eilutė**. Jei **stringOptions** yra nustatytas, eilutės reikšmės, kurias galima pasirinkti naudojant parinkčių mygtukus (išrinkimo mygtukus), nurodomos sąrašo eilutėmis. Jei eilutės nepateikiamos, leidžiama įvesti laisvos formos tekstą eilutės lauke (žr., pavyzdžiui, skyrių "TSTimesheetEntryService" komandų grandinės komandų grandinė, kad išsaugotumėte tabelio įrašą iš programos atgal į duomenų bazę").
+Ši ypatybė taikoma tik tada, kai **fieldBaseType** yra nustatytas kaip **Eilutė**. Jei **stringOptions** yra nustatytas, eilutės reikšmės, kurias galima pasirinkti naudojant parinkčių mygtukus (išrinkimo mygtukus), nurodomos sąrašo eilutėmis. Jei nėra jokių eilučių, galima naudoti lauko laisvos formos įrašo eilutės (pavyzdys pateiktas šio straipsnio tolimesniame skyriuje „TSTimesheetEntryService“ klasės komandų grandinės naudojimas norint įrašyti grafiko įrašą iš programėlės atgal į duomenų bazę“).
 
 ### <a name="stringlength-int"></a>stringLength (int)
 

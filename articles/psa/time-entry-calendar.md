@@ -1,6 +1,6 @@
 ---
 title: Laiko įrašų kalendorius
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip naudoti laiko įvedimo kalendorių.
+description: Šiame straipsnyje pateikiama informacija apie tai, kai naudoti laiko įrašų kalendorių.
 author: rumant
 ms.custom:
 - dyn365-projectservice

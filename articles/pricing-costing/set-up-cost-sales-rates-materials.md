@@ -1,6 +1,6 @@
 ---
 title: Medžiagų savikainos ir pardavimo kainų sąranka
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip nustatyti projektuose naudojamų medžiagų savikainą ir pardavimo tarifus.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip nustatyti projektuose naudojamų medžiagų savikainą ir pardavimo kainas.
 author: rumant
 ms.date: 03/21/2022
 ms.topic: article
@@ -25,9 +25,9 @@ Norėdami nustatyti produktų savikainą ir pardavimo kainas, atlikite toliau nu
 2. Dalies **Kainų sąrašo elementai** papildomo tinklelio meniu pasirinkite **Naujas kainų sąrašo elementas**. 
 3. Puslapyje **Spartusis kūrimas** įveskite produktą ir vienetą, kuriam kuriate naują kainą.
 
-Daugiau informacijos apie tai, kaip nustatyti katalogo prekių kainas, ieškokite [Define product pricing with price lists and price list items](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products) and [decimal precision in currency and pricing](/dynamics365/sales/decimal-precision-currency-pricing).
+Norėdami gauti daugiau informacijos apie tai, kaip nustatyti katalogo prekių kainas, žr. [Produktų kainodaros, kainoraščių ir kainų sąrašo elementų nustatymas](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products) ir [Valiutos tikslumas po kablelio ir kainodara](/dynamics365/sales/decimal-precision-currency-pricing).
 > [!NOTE]
-> Dynamics 365 Project Operations nepalaiko visų produktų kainodaros metodų, kaip "Dynamics 365 Sales". Vienintelis palaikomas produktų, kurie bus naudojami projektuose, kainodaros metodas yra *valiutos suma*.
+> „Dynamics 365 Project Operations" nepalaiko visų produktų kainodaros metodų kaip „Dynamics 365 Sales". Vienintelis produktų, kurie bus naudojami projektuose, kainodaros metodas yra *Valiutos suma*.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

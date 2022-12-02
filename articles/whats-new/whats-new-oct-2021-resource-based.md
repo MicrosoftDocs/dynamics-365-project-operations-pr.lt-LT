@@ -1,6 +1,6 @@
 ---
 title: Kas nauja 2021 m. spalio mėn. – „Project Operations“, skirta išteklių / atsargose nelaikomų medžiagų scenarijams
-description: Šiame straipsnyje pateikiama informacija apie kokybės atnaujinimus, kuriuos galima rasti 2021 m. spalio mėn.
+description: Šiame straipsnyje pateikiama informacija apie kokybės naujinimus, pasiekiamus 2021 m. spalio „Project Operations“ leidime, skirtame išteklių / atsargose nelaikomų medžiagų scenarijams.
 author: sigitac
 ms.date: 10/06/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "8914647"
 
 *Taikoma: „Project Operations“, skirta išteklių / nelaikomų medžiagų scenarijams*
 
-Šis straipsnis taikomas šiems Dynamics 365 Project Operations komponentams ir versijoms:
+Šis straipsnis taikomas toliau nurodytiems „Dynamics 365 Project Operations“ komponentams ir versijoms:
 
    - „Project Operations“ 4.25.0.91 versijos „Microsoft Dataverse“ aplinkoje
-   - Projektų valdymas ir apskaita Dynamics 365 Finance aplinkoje 10.0.21 versija
+   - Projektų valdymas ir apskaita „Dynamics 365 Finance“ aplinkos 10.0.21 versijoje
 
 ## <a name="features-included-in-this-release"></a>Į šį leidimą įtrauktos funkcijos
 
@@ -49,7 +49,7 @@ Jei paleidžiant schemą iškyla problema, vykdykite instrukcijas, pateikiamas D
 | Sąskaitų siuntimas ir kainodara | 2338357 | Kai pasirenkamas projektas, valiuta medžiagų naudojimo žurnale turi pagal numatytuosius nustatymus sutapti su projekto valiuta. |
 | Laikas ir išlaidos | 2414777 | Turi būti įmanomas patvirtinimo atšaukimas, kai išlaidų arba laiko įrašas turi daugiau nei vieną susietą projekto patvirtinimą. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektų valdymas ir apskaita pagal Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektų valdymas ir apskaita „Dynamics 365 Finance” programos aplinkose
 
 | Funkcijų sritis | Nuorodos numeris | Kokybės naujinimas |
 | --- | --- | --- |

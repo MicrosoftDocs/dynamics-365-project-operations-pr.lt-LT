@@ -1,6 +1,6 @@
 ---
 title: Išankstinės sąskaitos faktūros
-description: Šiame straipsnyje pateikiama informacija apie proformos SF projekto operacijose.
+description: Šiame straipsnyje pateikiama informacija apie išankstines sąskaitas faktūras „Project Operations“.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article
@@ -84,7 +84,7 @@ Sukūrus juodraštinę projekto sąskaitą faktūrą, visos pardavimo operacijos
 Pažymėkite **Patvirtinti**, kad patvirtintumėte sąskaitą faktūrą. Patvirtinimo veiksmas yra vienpusis veiksmas. Pasirinkus **Patvirtinti**, sąskaita faktūra sistemoje tampa tik skaitoma ir sukuriami faktiniai pardavimai, už kuriuos išrašyta sąskaita, iš kiekvienos sąskaitos faktūros eilutės išsamios informacijos kiekvienai sąskaitos faktūros eilutei. Jei sąskaitos faktūros eilutėje nurodomas faktinis pardavimas, už kurį neišrašyta sąskaita, sistema taip pat atšaukia faktinį pardavimą, už kurį neišrašyta sąskaita. (Bet kuri sąskaitos faktūros eilutės išsami informacija, sukurta naudojant laiko ar išlaidų įrašą, nurodo faktinį pardavimą, už kurį neišrašyta sąskaita). Didžiosios knygos integravimo sistemos gali naudoti šį atšaukimą, kad atšauktų projekto nebaigtą gamybą (NG) apskaitos tikslais.
 
 > [!NOTE]
-> Patvirtintų proformos SF ir susijusių įrašų, pvz., SF eilučių ir SF eilutės informacijos, redaguoti arba panaikinti negalima. 
+> Patvirtintų išankstinių sąskaitų faktūrų ir susijusių įrašų, pvz., sąskaitų faktūrų eilučių ir sąskaitų faktūrų eilučių išsamios informacijos, redaguoti arba panaikinti negalima. 
 
 ### <a name="correct-a-confirmed-invoice"></a>Patvirtintos sąskaitos faktūros taisymas
 

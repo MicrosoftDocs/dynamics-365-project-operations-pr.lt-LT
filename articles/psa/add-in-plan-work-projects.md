@@ -1,6 +1,6 @@
 ---
 title: Darbo planavimas naudojant „Microsoft Project“ ir „Project Service“ papildinį
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip naudoti "Microsoft Project" priedą, skirtą "Microsoft Project Service".
+description: Šiame straipsnyje pateikta informacija apie tai, kaip naudoti „Microsoft Project“ papildinį, skirtą „Microsoft Project Service“.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

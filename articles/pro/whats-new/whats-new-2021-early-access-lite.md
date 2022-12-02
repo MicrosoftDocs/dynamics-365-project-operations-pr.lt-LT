@@ -1,6 +1,6 @@
 ---
 title: Kas nauja „Project Operations“ „Lite“ visuotinio diegimo 2021 m. 2 bangos išankstinės prieigos leidime
-description: Šiame straipsnyje pateikiama informacija apie funkcijas, kurias galima rasti 2021 m. "Project Operations lite" diegimo 2 bangos ankstyvos prieigos leidime.
+description: Šiame straipsnyje pateikiama informacija apie funkcijas, kurias galima rasti „Project Operations“ „Lite“ visuotinio diegimo 2021 m. 2 bangos išankstinės prieigos leidime.
 author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8924118"
 
 _Taikoma (kam): „Lite“ visuotiniam diegimui – sandoris į išankstinės sąskaitos faktūros kūrimą_
 
-Šis straipsnis taikomas šiems Dynamics 365 Project Operations komponentams ir versijoms:
+Šis straipsnis taikomas toliau nurodytiems „Dynamics 365 Project Operations“ komponentams ir versijoms:
 
   - „Project Operations“, esanti „Dataverse“ aplinkoje, 4.23.0.4 versija
 

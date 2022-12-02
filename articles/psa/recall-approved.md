@@ -1,6 +1,6 @@
 ---
 title: Patvirtintas laiko arba išlaidų įrašų atšaukimas
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip atšaukti anksčiau patvirtintą laiko ar išlaidų operaciją.
+description: Šiame straipsnyje pateikta informacija apie tai, kaip atšaukti anksčiau patvirtintą laiko arba išlaidų operaciją.
 author: rumant
 ms.custom: ''
 ms.author: rumant

@@ -1,6 +1,6 @@
 ---
 title: Išteklių pajėgumo sinchronizavimas
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip sinchronizuoti ištekliaus pajėgumą įvairiuose kalendoriuose ir projektuose.
+description: Šiame straipsnyje pateikta informacija, kaip sinchronizuoti ištekliaus pajėgumą kalendoriuose ir projektuose.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

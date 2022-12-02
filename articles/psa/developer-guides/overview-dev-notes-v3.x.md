@@ -1,6 +1,6 @@
 ---
 title: Kūrimo pagrindinis puslapis („Project Service Automation“ 3.x versija)
-description: Šiame straipsnyje pateikiamos nuorodos į straipsnius, kuriuose pateikiama (PSA) 3.x versijos kūrimo informacija Dynamics 365 Project Service Automation.
+description: Šiame straipsnyje pateikiamos nuorodos į straipsnius, kuriuose pateikta kūrimo informacija, skirta Dynamics 365 Project Service Automation (PSA) 3.x versijai.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -27,7 +27,7 @@ ms.locfileid: "8928994"
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
-Dynamics 365 Project Service Automation 3.x versija siūlo naujas funkcijas, naujų platformų galimybių diegimą ir esamų funkcijų patobulinimą įvairiose srityse. Tolesniuose straipsniuose pateikiama daugiau informacijos apie pakeitimus, atliktus naujausioje PSA versijoje:
+Dynamics 365 Project Service Automation 3.x versija siūlo naujas funkcijas, naujų platformų galimybių diegimą ir esamų funkcijų patobulinimą įvairiose srityse. Toliau pateikiamuose straipsniuose pateikta daugiau informacijos apie pakeitimus naujausioje PSA versijoje:
 
 - [Objekto, valdiklio ir vartotojo sąsajos pakeitimai („Project Service Automation“ 3.x versija)](../developer-guides/entity-changes-v3.x.md)
 - [Laiko ir išlaidų pakeitimai („Project Service Automation“ 3.x versija)](../developer-guides/time-expense-changes-v3.x.md)

@@ -1,6 +1,6 @@
 ---
 title: Kainodaros ir įkainojimo dimensijų pagrindinis puslapis
-description: Šiame straipsnyje pateikiama kainodaros dimensijų apžvalga.
+description: Šiame straipsnyje pateikta kainodaros dimensijų apžvalga.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -47,7 +47,7 @@ PSA pateikiamas su numatytuoju kainodaros dimensijų rinkiniu. Jas galite perži
 > [!IMPORTANT]
 > Jei naudojote visiškai parengtus vaidmens ir organizacinio vieneto laukus kaip kainodaros dimensijas prieš 3 PSA versiją, jokių pastebimų pakeitimų nebus. Galite toliau naudoti „Project Service“ kaip įprasta. 
 
-Jei jums reikia nustatyti išteklių kainą arba savikainą naudojant papildomus atributus, galite sukurti pritaikytus laukus, objektus ir dimensijas. Norėdami gauti daugiau informacijos, žiūrėkite šiuos straipsnius, tačiau atkreipkite dėmesį, kad turite atlikti procedūras toliau nurodyta tvarka:
+Jei jums reikia nustatyti išteklių kainą arba savikainą naudojant papildomus atributus, galite sukurti pritaikytus laukus, objektus ir dimensijas. Daugiau informacijos rasite toliau pateikiamuose straipsniuose, tačiau atkreipkite dėmesį, kad procedūras reikia atlikti toliau išvardyta tvarka:
 
 - [Sukurti pritaikytus laukus ir objektus](create-custom-fields-entities.md)
 - [Pridėti pritaikytus laukus prie kainos sąrankos ir operacijos objektų](field-references.md)

@@ -1,6 +1,6 @@
 ---
 title: Kelių klientų tvarkymas projekto pasiūlyme
-description: Šiame straipsnyje pateikiama informacija apie darbą su kabutėmis, kuriose dalyvauja keli klientai, kurie finansuos projektą.
+description: Šiame straipsnyje pateikta informacija apie darbą su pasiūlymais, apimančiais kelis klientus, kurie finansuos projektą.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

@@ -48,11 +48,11 @@ Jūsų ištekliai savo telefone gali naudoti programą „Project Finder Mobile�
   
 4. Nustatykite **Leisti naujinti įgūdžius pagal išteklius** į parinktį **Taip**.  
   
-   ![ProjectService&#95; ProjectFinderEnable.](../psa/media/project-service-project-finder-enable.png "ProjectService_ProjectFinderEnable")  
+   ![ProjectService_ProjectFinderEnable.](../psa/media/project-service-project-finder-enable.png "ProjectService_ProjectFinderEnable")  
   
    Tai visuotinis parametras. Projektų vadovai gali nustatyti, ar atskiras projektas bus matomas to projekto puslapyje **Projekto grupė**.  
   
-   ![ProjectService&#95; ProjectTeamVisible.](../psa/media/project-service-project-team-visible.png "ProjectService_ProjectTeamVisible")  
+   ![ProjectService_ProjectTeamVisible.](../psa/media/project-service-project-team-visible.png "ProjectService_ProjectTeamVisible")  
   
 ## <a name="email-notifications"></a>El. pašto pranešimai  
  „[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]“ siunčia el. laiškus dėl išteklių užklausų toliau pateiktiems gavėjams nurodytu laiku.  

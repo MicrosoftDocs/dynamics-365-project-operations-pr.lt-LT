@@ -1,6 +1,6 @@
 ---
-title: Operacijos kilmė – faktinių duomenų susiejimas su jų šaltiniu
-description: Šiame straipsnyje paaiškinama, kaip operacijų kilmės sąvoka naudojama faktiniams duomenims susieti su pradiniais šaltinio įrašais, pvz., laiko įvedimu, išlaidų įrašu arba medžiagų naudojimo žurnalais.
+title: Operacijų kilmė – faktinių duomenų susiejimas su jų šaltiniu
+description: Šiame straipsnyje aiškinama, kaip operacijos koncepcija naudojama norint susieti faktinius duomenis su originaliais šaltinio įrašais, pvz., laiko ir išlaidų įrašais arba medžiagos naudojimo žurnalais.
 author: rumant
 ms.date: 03/25/2021
 ms.topic: article
@@ -14,22 +14,22 @@ ms.contentlocale: lt-LT
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8921312"
 ---
-# <a name="transaction-origins---link-actuals-to-their-source"></a>Operacijos kilmė – faktinių duomenų susiejimas su jų šaltiniu
+# <a name="transaction-origins---link-actuals-to-their-source"></a>Operacijų kilmė – faktinių duomenų susiejimas su jų šaltiniu
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
-Operacijos kilmės įrašai sukuriami siekiant susieti faktinius duomenis su jų šaltiniu, tokiais laiko įrašais, išlaidų įrašais, medžiagų naudojimo žurnalais ir projekto SF.
+Operacijos kilmės įrašai kuriami norint susieti faktinius duomenis su jų šaltiniu, pvz., laiko įrašais, išlaidų įrašais, medžiagos naudojimo žurnalais ir projekto sąskaitomis faktūromis.
 
 Toliau pateiktame pavyzdyje parodytas tipinis „Project Operations“ projekto ciklo laiko įrašų apdorojimas.
 
-> ![Visas apdorojimo laikas projekto operacijose.](media/basic-guide-17.png)
+> ![Laiko įrašų apdorojimas programoje „Project Operations“.](media/basic-guide-17.png)
  
-1. Pateikus laiko įrašą, sukuriamos dvi žurnalo eilutės: viena savikainai ir viena neapmokėtiems pardavimams.
-2. Patvirtinus laiko įrašą, sukuriami du faktiniai duomenys: vienas savikainai ir vienas neapmokėtiems pardavimams.
+1. Pateikus laiko įrašą sukuriamos dvi žurnalo eilutės: viena išlaidų eilutė ir viena pardavimo, už kurį neišrašyta sąskaita, eilutė.
+2. Galiausiai patvirtinus laiko įrašą, sukuriamos dvi faktinės sumos: viena išlaidų suma ir viena pardavimo, už kurį neišrašyta sąskaita, suma.
 3. Vartotojui kuriant projekto sąskaitą faktūrą, sąskaitos faktūros eilutės operacija sukuriama naudojant faktinės pardavimo, už kurį neišrašyta sąskaita, sumos duomenis.
 4. Patvirtinus sąskaitą faktūrą, sukuriamos dvi naujos faktinės sumos: pardavimo, už kurį neišrašyta sąskaita, atšaukimo suma ir faktinė pardavimo, už kurį išrašyta sąskaita, suma.
 
-Kiekvienas šios apdorojimo darbo eigos įvykis suaktyvina įrašų kūrimą operacijos kilmės objekte, kad padėtų sukurti ryšius tarp šių įrašų, sukurtų pagal laiko įrašą, žurnalo eilutę, faktinę ir SF eilutės informaciją.
+Kiekvienas šios apdorojimo darbo eigos įvykis inicijuoja objektų kūrimą objekte Operacijos kilmė, kad būtų lengviau sekti ryšį tarp šių įrašų, sukurtų laiko įrašų, žurnalo eilučių, faktinių sumų ir sąskaitos faktūros eilučių išsamioje informacijoje.
 
 Tolesnėje lentelėje pateikiami ankstesnės darbo eigos objekto Operacijos kilmė įrašai.
 
@@ -70,8 +70,8 @@ Tolesnėje lentelėje pateikiami ankstesnės darbo eigos objekto Operacijos kilm
 | Koregavimo sąskaitos faktūros GUID      | Sąskaita faktūra                  | Naujos pardavimo, už kurį neišrašyta sąskaita, faktinės sumos GUID    | Faktinis                            |                          |
 
 
-Toliau pateiktoje iliustracijoje rodomi saitai, sukurti tarp faktinių ir jų šaltinių įvairiuose renginiuose, naudojant laiko įrašų pavyzdį projekto operacijose.
+Toliau pateiktoje iliustracijoje pavaizduoti saitai, sukurti tarp faktinių duomenų ir jų šaltinių, įvykus įvairiems įvykiams, naudojant „Project Operations“ laiko įrašų pavyzdį.
 
-> ![Kaip faktiniai duomenys yra susieti su šaltinio įrašais "Project Operations".](media/TransactionOrigins.png)
+> ![Kaip faktiniai duomenys susiejami su „Project Operations“ šaltinio įrašais.](media/TransactionOrigins.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

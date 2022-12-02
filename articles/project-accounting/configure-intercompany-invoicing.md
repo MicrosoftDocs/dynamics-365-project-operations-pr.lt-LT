@@ -1,6 +1,6 @@
 ---
 title: Įmonės vidaus SF išrašymo konfigūravimas
-description: Šiame straipsnyje pateikiama informacija ir pavyzdžiai apie vidinės įmonės SF išrašymo projektams konfigūravimą.
+description: Šiame straipsnyje pateikta informacija ir pavyzdžiai apie įmonės vidaus SF išrašymo už projektus konfigūravimą.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -25,7 +25,7 @@ Toliau pateiktame pavyzdyje „Contoso Robotics USA“ (USPM) yra skolinimosi ju
 
 1. **Įmonės vidaus apskaitos skirtinguose juridiniuose subjektuose konfigūravimas**. Kiekviena skolinimosi ir skolinimo juridinių objektų pora turi būti konfigūruota didžiosios knygos [įmonės vidaus apskaitos](/dynamics365/finance/general-ledger/intercompany-accounting-setup) puslapyje.
     
-    1. Dalyje Dynamics 365 Finance eikite į **DK** > **registravimo nustatymo** > **vidinės įmonės apskaita**. Sukurkite įrašą nurodydami toliau pateiktą informaciją:
+    1. Programoje „Dynamics 365 Finance“ eikite į **Didžioji knyga** > **Registravimo nustatymas** > **Vidinių įmonių apskaita**. Sukurkite įrašą nurodydami toliau pateiktą informaciją:
 
         - **Pradinė įmonė** = **GBPM**
         - **Paskirties įmonė** = **USPM**

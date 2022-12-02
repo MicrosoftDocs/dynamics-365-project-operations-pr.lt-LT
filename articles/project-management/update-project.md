@@ -1,6 +1,6 @@
 ---
 title: Projekto kūrimas ir naujinimas
-description: Šiame straipsnyje pateikiama informacija apie projektų "Project Operations" atnaujinimą.
+description: Šiame straipsnyje pateikta informacija apie „Project Operations“ projektų naujinimą.
 author: ruhercul
 ms.date: 10/20/2021
 ms.topic: article

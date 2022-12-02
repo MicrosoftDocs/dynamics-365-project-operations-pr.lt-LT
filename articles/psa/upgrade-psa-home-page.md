@@ -1,6 +1,6 @@
 ---
 title: Pagrindinio puslapio atnaujinimas
-description: Šiame straipsnyje rodoma, kur rasti svarbios informacijos apie naujas ir pakeistas funkcijas Dynamics 365 Project Service Automation, ir atnaujinimo į naujausią versiją procesą.
+description: Šiame straipsnyje nurodoma, kur rasti svarbią informaciją apie naujas ir pakeistas „Dynamics 365 Project Service Automation“ funkcijas bei naujinimo į naujausią versiją procesą.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -48,14 +48,14 @@ Anksčiau klientai, kurie turi PSA 2.x versijos egzempliorių ir turėjo jį atn
 Prieš pradedant naujinimo procesą rekomenduojame atlikti šias užduotis:
 
 - Patikrinkite, ar nustatytame egzemplioriuje yra įdiegta ir „Dynamics 365 Field Service“, ir „Project Service Automation“. Jei abu sprendimai įdiegti, prieš tęsdami įprastą egzemplioriaus naudojimą turėtumėte suplanuoti atnaujinti juos abu.
-- Atidžiai peržiūrėkite šiuos straipsnius. Žinodami apie versijų skirtumus ir juos suprasdami galėsite lengviau vykdyti atnaujinimo procesą. Šiuose straipsniuose pateikiama informacija apie pagrindinius PSA pakeitimus, taip pat svarstymai ir rekomendacijos, kaip planuoti atnaujinimą į 3.x versiją.
+- Atidžiai peržiūrėkite toliau pateiktus straipsnius. Žinodami apie versijų skirtumus ir juos suprasdami galėsite lengviau vykdyti atnaujinimo procesą. Šiuose straipsniuose pateikta informacija apie svarbiausius PSA pakeitimus kartu su dalykais, į kuriuos reikia atsižvelgti, ir rekomendacijomis planuojant atnaujinimą į 3.x versiją.
 
     - [Kas nauja arba pakeista programos „Project Service Automation“ 3 versijoje](whats-new-changed-v3.md)
     - [Atnaujinimo aptarimas - iš „Project Service Automation“ 2.x arba 1.x versijos į 3 versiją](upgrade-v3.md)
 
 - Prieš naujindami gamybos egzempliorius, atnaujinkite smėlio dėžės egzempliorius, kad įvertintumėte diegimo keitimus.
 
-Peržiūrėję anksčiau minėtus straipsnius ir pasirengę atnaujinti į PSA 3.x versiją arba UCI pagrįstą versiją, pateikite užklausą "Microsoft" palaikymo tarnybai, kad naujinimas būtų pasiekiamas iš administravimo centro. Užklausoje nurodykite savo egzemplioriaus išsamią informaciją.
+Kai peržiūrėsite straipsnius, kuriie buvo paminėti anksčiau, ir būsite pasiruošę atnaujinti į PSA 3.x versiją arba UCI pagrįstą versiją, pateikite „Microsoft“ palaikymo tarnybai užklausą, kad atnaujinimas būtų pasiekiamas iš administravimo centro. Užklausoje nurodykite savo egzemplioriaus išsamią informaciją.
 
 ## <a name="older-versions-of-psa-psa-version-2x-in-a-newly-created-instance"></a>Senesnės PSA versijos (PSA 2.x versija) naujai sukurtame egzemplioriuje
 

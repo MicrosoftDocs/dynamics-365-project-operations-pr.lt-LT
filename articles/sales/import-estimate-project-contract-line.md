@@ -1,6 +1,6 @@
 ---
 title: Įvertinimo importavimas į projektais pagrįstą sutarties eilutę
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip importuoti įvertinimus iš projekto į sutarties eilutę.
+description: Šiame straipsnyje pateikta informacija apie projekto įvertinimų importavimą į sutarties eilutę.
 author: rumant
 ms.date: 10/19/2020
 ms.topic: article

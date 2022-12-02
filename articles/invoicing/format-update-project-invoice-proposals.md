@@ -1,6 +1,6 @@
 ---
 title: Projekto sąskaitos faktūros pasiūlymų valdymas
-description: Šiame straipsnyje pateikiama išsami informacija apie su klientais susijusių SF apdorojimą naudojant "Project Operations", skirtą išteklių / nekauptų scenarijų scenarijams.
+description: Šiame straipsnyje pateikiama išsami informacija apie klientų sąskaitų faktūrų apdorojimą naudojant „Project Operations“, skirtą išteklių / nelaikomų medžiagų scenarijams.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -22,7 +22,7 @@ Projektų sąskaitų faktūrų pasiūlymus gali apdoroti sąskaitų pateikimo sk
   - Projektų vadovas patvirtina išankstinę sąskaitą faktūrą programoje „Microsoft Dataverse“.
   - Visos laiko ir medžiagų pardavimo operacijos, už kurias neišrašyta sąskaita, įtrauktos į išankstinę sąskaitą faktūrą, registruojamos naudojant „Dynamics 365 **Project Operations“ integravimo** žurnalą.
 
-Norėdami užbaigti projekto SF pasiūlymą Dynamics 365 Finance, atlikite šiuos veiksmus.
+Norėdami užbaigti projekto sąskaitos faktūros pasiūlymą programoje „Dynamics 365 Finance“, atlikite toliau nurodytus veiksmus.
 
 1. Peržiūrėkite laiko ir medžiagų operacijų sąskaitų išrašymo informaciją ir registruokite **„Project Operations“ integravimo** žurnalą.
 2. Peržiūrėkite fiksuotos kainos atsiskaitymo etapų sąskaitų išrašymo informaciją.

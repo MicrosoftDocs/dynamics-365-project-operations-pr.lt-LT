@@ -1,6 +1,6 @@
 ---
 title: Projekto sutartys – pagrindinės sąvokos
-description: Šiame straipsnyje pateikiama informacija apie pagrindines projekto sutarčių sąvokas projekto operacijose.
+description: Šiame straipsnyje pateikta informacija apie pagrindines projekto sutarčių sąvokas programoje „Project Operations“.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
@@ -19,11 +19,11 @@ _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomo
 
 
 
-Šiame straipsnyje pateikiamos pagrindinės sąvokos, kurias reikia žinoti prieš pradėdami naudoti projekto sutartis:Dynamics 365 Project Operations
+Šiame straipsnyje pateikiamos pagrindinės sąvokos, kurias reikia žinoti prieš pradedant naudoti projektų sutartis programoje „Dynamics 365 Project Operations“:
 
 ## <a name="owning-company"></a>Įmonė, kuriai priklauso
 
-Valdanti įmonė yra juridinis asmuo iš projekto valdymo ir apskaitos **modulio** projekto operacijoms nuo Dynamics 365 Finance. Valdanti įmonė yra juridinis subjektas, kuris bus atsakingas už išlaidas ir pajamas, susidariusias iš sandorio.
+Valdanti įmonė yra juridinis objektas iš modulio **Projekto valdymas ir apskaita**, priklausančio programai „Project Operations“ iš „Dynamics 365 Finance“. Valdanti įmonė yra juridinis subjektas, kuris bus atsakingas už išlaidas ir pajamas, susidariusias iš sandorio.
 
 ## <a name="contracting-unit"></a>Sutartį sudarantis vienetas
 

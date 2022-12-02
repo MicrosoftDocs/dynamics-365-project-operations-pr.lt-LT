@@ -1,6 +1,6 @@
 ---
 title: Pasiūlymų kūrimo, įkainių nustatymo ir SF išrašymo pagrindinis puslapis
-description: Šiame straipsnyje pateikiama informacija apie citavimą, kainodarą ir atsiskaitymą.
+description: Šiame straipsnyje pateikta informacija, kaip kurti pasiūlymus, nustatyti įkainius ir išrašyti SF.
 author: rumant
 ms.author: rumant
 ms.custom:
@@ -33,7 +33,7 @@ ms.locfileid: "8926740"
 
 Pasiūlymų kūrimas, įkainių nustatymas ir SF išrašymas yra funkcijos, kurias naudoja mažos ir didelės organizacijos. Suprasdami, kaip šios funkcijos veikia programoje, organizacijos gali lengviau tinkinti konfigūracijas.
 
-Šiuose straipsniuose pateikiama daugiau informacijos apie PSA citavimo, kainodaros ir atsiskaitymo funkcijas:
+Tolesnėse temose pateikta daugiau informacijos apie PSA pasiūlymų teikimo, įkainių nustatymo ir SF išrašymo funkcijas:
 
 - [Pardavimo procesas](basic-sales-process.md)
 - [Pasiūlymo eilutės](basic-quote-lines.md)

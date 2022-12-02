@@ -1,6 +1,6 @@
 ---
 title: Galimybės uždarymas
-description: Šiame straipsnyje pateikiama informacija apie projekto galimybės uždarymą.
+description: Šiame straipsnyje pateikta informacija apie projekto galimybės uždarymą.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

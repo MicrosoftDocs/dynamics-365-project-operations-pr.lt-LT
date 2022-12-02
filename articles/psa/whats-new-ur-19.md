@@ -1,6 +1,6 @@
 ---
 title: Kas nauja arba pakeista „Project Service Automation“ V3 19 atnaujintame leidime
-description: Šiame straipsnyje išvardijamos funkcijos ir taisymai, kuriuos galima rasti "Project Service Automation Update Release 19", V3.
+description: Šiame straipsnyje išvardytos funkcijos ir pataisymai, kurie yra pasiekiami „Project Service Automation“ V3 19 atnaujintame leidime.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 05/05/2020
@@ -29,7 +29,7 @@ ms.locfileid: "8915516"
 
 Malonu pranešti apie naujausią „Dynamics 365“ programos „Project Service Automation“ naujinimą. Šiame leidime yra kai kurių svarbių kokybės, veikimo ir naudojimo patobulinimų. Šis leidimas suderinamas su „Dynamics 365“ 9.x versija. Norėdami naujinti šį leidimą, eikite į „Dynamics 365“ internetinių sprendimų puslapio administravimo centrą, iš kurio galite įdiegti naujinimą. Daugiau informacijos žr. [Pageidaujamo sprendimo diegimas, naujinimas arba šalinimas](/power-platform/admin/install-remove-preferred-solution).
 
-Šiame straipsnyje išvardijamos naujos arba pakeistos PSA V3, naujinimo 19 leidimo funkcijos ir pataisymai. Šios versijos komponavimo versijos numeris yra V3.10.30.41 ir ji paprastai pasiekiama savaiminiu naujinimu, vykdytu 2020 m. gegužės mėn.
+Šiame straipsnyje išvardytos funkcijos ir pataisymai, kurie yra nauji arba pakeisti PSA V3 19 atnaujintame leidime. Šios versijos komponavimo versijos numeris yra V3.10.30.41 ir ji paprastai pasiekiama savaiminiu naujinimu, vykdytu 2020 m. gegužės mėn.
 
 ## <a name="update-release-19"></a>19 atnaujintas leidimas
 

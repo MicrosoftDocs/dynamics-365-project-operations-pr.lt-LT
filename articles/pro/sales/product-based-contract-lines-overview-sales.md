@@ -1,6 +1,6 @@
 ---
 title: Produktu pagrįstų sutarties eilučių apžvalga – „Lite“ versija
-description: Šiame straipsnyje pateikiama informacija apie produktu pagrįstas sutarties eilutes.
+description: Šiame straipsnyje pateikta informacija apie produktu pagrįstas sutarties eilutes.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: overview

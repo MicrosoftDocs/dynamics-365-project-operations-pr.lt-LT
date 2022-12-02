@@ -1,6 +1,6 @@
 ---
 title: Išankstinio apmokėjimo arba išankstiniu mokėjimu pagrįsto mokėjimo sąskaita faktūra
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip išrašyti SF užfiksuotojui arba avansui programoje "Project Operations".
+description: Šiame straipsnyje pateikta informacija apie išankstinio arba avansinio apmokėjimo sąskaitų faktūrų išrašymą naudojant „Project Operations“.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article

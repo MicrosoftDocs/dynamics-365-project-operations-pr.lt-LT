@@ -1,6 +1,6 @@
 ---
 title: Planavimo režimai
-description: Šiame straipsnyje pateikiama informacija apie planavimo režimus.
+description: Šiame straipsnyje pateikta informacijos apie planavimo režimus.
 author: ruhercul
 ms.date: 05/28/2021
 ms.topic: article
@@ -38,7 +38,7 @@ Kai nustatote projekto planavimo režimą, nustatote vieną iš šių reikšmių
 | Fiksuotų pastangų užduotis    | Trukmė perskaičiuojama. | Vienetai perskaičiuojami.    | Trukmė perskaičiuojama. |
 | Fiksuotos trukmės užduotis  | Pastangos perskaičiuojamos.   | Pastangos perskaičiuojamos.    | Vienetai perskaičiuojami.   |
 
-Norėdami daugiau sužinoti apie tam tikro režimo poveikį, žr. [Užduoties tipo keitimas norint tiksliau planuoti](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). Straipsnyje vietoj **pastangų vartojamas terminas** Darbas **·**.
+Norėdami daugiau sužinoti apie tam tikro režimo poveikį, žr. [Užduoties tipo keitimas norint tiksliau planuoti](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). Straipsnyje vietoj termino **Pastangos** naudojamas terminas **Darbas**.
 
 ## <a name="change-the-organizations-scheduling-mode"></a>Organizacijos planavimo režimo keitimas
 

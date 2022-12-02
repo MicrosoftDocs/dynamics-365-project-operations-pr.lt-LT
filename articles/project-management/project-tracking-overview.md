@@ -1,6 +1,6 @@
 ---
 title: Projekto pastangų sekimas
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip stebėti projekto pastangas ir darbo eigą.
+description: Šiame straipsnyje pateikta informacija apie tai, kaip sekti projekto pastangas ir darbo eigą.
 author: ruhercul
 ms.date: 02/15/2022
 ms.topic: overview
@@ -17,7 +17,7 @@ ms.locfileid: "8929270"
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
-Poreikis sekti eigą atsižvelgiant į grafiką, priklauso nuo pramonės šakos. Kai kurie pramonės šakų atstovai seka projektą stambiu planu, o kitų pramonės šakų atstovai seka eigą bendru planu. Šiame straipsnyje parodyta, kaip planuoti, kad atitiktų organizacijos reikalavimus.
+Poreikis sekti eigą atsižvelgiant į grafiką, priklauso nuo pramonės šakos. Kai kurie pramonės šakų atstovai seka projektą stambiu planu, o kitų pramonės šakų atstovai seka eigą bendru planu. Šiame straipsnyje nurodyta, kaip planuoti norint atitikti jūsų organizacijos reikalavimus.
 
 ## <a name="effort-tracking-view"></a>Pastangų sekimo rodinys
 
@@ -45,8 +45,8 @@ Pastangas suvestinėms užduotims ar talpyklės užduotims galima dar kartą pro
 - Apskaičiuojamas kiekvienos individualios užduoties iki lapo mazgo užduočių naujas EAC. 
 - Paveiktų antrinių užduočių iki lapų mazgų pastangų likutis ir eiga procentais perskaičiuojami pagal EAC reikšmę. Taip sukuriama nauja pastangų užduočiai nuokrypio prognozė. 
 - Suvestinių užduočių iki šaknies mazgo EAC perskaičiuojamas.
-- Patvirtintos pastangos atlikti santraukos užduotį yra patvirtintų pastangų, susijusių su visomis antrinėmis užduotimis, ir patvirtintų pastangų, susijusių su suvestinės užduotimi, suma.
-- Likusios suvestinės užduoties pastangos yra likusių pastangų, susijusių su visomis antrinėmis užduotimis, suma, atėmus patvirtintas suvestinės užduoties pastangas.
+- Patvirtintos suvestinės užduoties pastangos yra visų antrinių užduočių patvirtintų pastangų ir patvirtintų suvestinės užduoties pastangų suma.
+- Likusios suvestinės užduoties pastangos yra visų antrinių užduočių likusių pastangų ir patvirtintų suvestinės užduoties pastangų skirtumas.
 
 ## <a name="project-status-summary"></a>Projekto būsenos suvestinė
 

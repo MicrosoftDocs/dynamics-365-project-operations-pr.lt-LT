@@ -1,6 +1,6 @@
 ---
 title: Projektų etapų tipai
-description: Šiame straipsnyje pateikiama informacija apie projekto etapus.
+description: Šiame straipsnyje pateikta informacija apie projektų etapus.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

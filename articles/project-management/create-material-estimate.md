@@ -1,6 +1,6 @@
 ---
 title: Projektų žaliavų finansiniai įvertinimai
-description: Šiame straipsnyje pateikiama informacija apie projektinės medžiagos apibrėžimą arba vertinimą.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip apibrėžti arba įvertinti projektu pagrįstas medžiagas.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8925712"
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
-Programoje „Dynamics 365 Project Operations“ projektų vadovai kiekvienam projektui arba užduočiai gali nustatyti projektu pagrįstas medžiagos savikainas. Kiekvieną medžiagų įvertinimą galima susieti su konkrečia projekto užduotimi. Medžiagos, naudojamos projektuose, gali būti įrašymo produktai arba produktai iš produktų katalogo. Kiekvieno produkto ir vieneto derinio kainą galima nustatyti pardavimo projektų kainoraščiuose ir projekto išlaidų kainoraščiuose.  
+Programoje „Dynamics 365 Project Operations“ projektų vadovai kiekvienam projektui arba užduočiai gali nustatyti projektu pagrįstas medžiagos savikainas. Kiekvieną medžiagų įvertinimą galima susieti su konkrečia projekto užduotimi. Projektuose naudojamos medžiagos gali būti įtraukiamieji produktai arba produktai iš produktų katalogo. Kiekvieno produkto ir vieneto derinio kainą galima apibrėžti projekto pardavimo kainoraščiuose ir projekto savikainos kainoraščiuose.  
 
 Norėdami peržiūrėti, įtraukti arba panaikinti projekto medžiagos įvertinimą, atlikite toliau nurodytus veiksmus.
 

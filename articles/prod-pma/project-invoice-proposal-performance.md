@@ -1,6 +1,6 @@
 ---
 title: Projekto sąskaitų faktūrų pasiūlymų efektyvumas
-description: Šiame straipsnyje pateikiama informacija apie projekto SF pasiūlymų našumo patobulinimus.
+description: Šiame straipsnyje pateikiama informacija apie projekto projekto sąskaitų faktūrų pasiūlymų efektyvumo patobulinimus.
 author: Yowelle
 ms.date: 06/16/2021
 ms.topic: article

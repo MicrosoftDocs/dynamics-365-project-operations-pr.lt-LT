@@ -1,6 +1,6 @@
 ---
 title: Išlaidų apžvalga
-description: Šiame straipsnyje pateikiama informacija apie projekto operacijų išlaidų funkciją.
+description: Šiame straipsnyje pateikiama informacija apie išlaidų funkcijas programoje „Project Operations“.
 author: stsporen
 ms.date: 10/06/2020
 ms.topic: overview

@@ -1,6 +1,6 @@
 ---
 title: Kas nauja 2020 m. lapkričio mėn. – „Project Operations Lite“ diegimas – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo
-description: Šiame straipsnyje pateikiama informacija apie kokybės atnaujinimus, kuriuos galima rasti 2020 m. lapkričio mėn.
+description: Šiame straipsnyje pateikiama informacija apie kokybės naujinimus, pasiekiamus 2020 m. lapkričio mėn. „Project Operations Lite” visuotinio diegimo leidime – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo.
 author: sigitac
 ms.date: 11/02/2020
 ms.topic: article

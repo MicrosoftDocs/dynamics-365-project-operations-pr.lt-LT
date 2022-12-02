@@ -1,6 +1,6 @@
 ---
 title: Išteklių valdymo režimų apžvalga
-description: Šiame straipsnyje pateikiama informacija apie išteklių valdymo funkcijas programoje Dynamics 365 Project Operations.
+description: Šiame straipsnyje pateikiama informacija apie išteklių valdymo funkciją programoje „Dynamics 365 Project Operations“.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview
@@ -38,7 +38,7 @@ Organizacijoms, kurioms reikia lankstumo priskiriant išteklius, hibridinis rež
 
 ![Hibridinis režimas.](./media/resource-management-hybrid.png)
 
-Be palaikomo centrinio režimo proceso, peržiūrėkite šiuos straipsnius, kad galėtumėte valdyti visus kitus palaikomus užsakymų srautus hibridiniu režimu:
+Be palaikomo centralizuoto režimo proceso, peržiūrėkite toliau pateiktus straipsnius, kad galėtumėte valdyti visas kitas palaikomas hibridinio režimo rezervavimo eigas:
 
 Tiesioginis ištekliaus rezervavimas projekte:
 - [Įvardytų rezervuojamų išteklių rezervavimas projekto komandai ir užduočių priskyrimas](/dynamics365/project-service/assign-named-bookable-resource)

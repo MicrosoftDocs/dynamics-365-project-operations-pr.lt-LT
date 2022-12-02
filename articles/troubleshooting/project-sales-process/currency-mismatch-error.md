@@ -1,6 +1,6 @@
 ---
 title: Valiutos neatitikimo klaida
-description: Šiame straipsnyje pateikiama trikčių šalinimo informacija apie valiutos neatitikimo klaidą, kuri įvyksta įrašant konkrečius įrašų tipus.
+description: Šiame straipsnyje pateikiama trikčių diagnostikos informacija apie valiutos neatitikimo klaidą, įvykstančią įrašant tam tikrų tipų įrašus.
 author: sigitac
 ms.date: 12/09/2021
 ms.topic: article
@@ -18,15 +18,15 @@ ms.locfileid: "8914734"
 
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
-Kai įrašote projektą, sutartį, pasiūlymą ar rezervuojamą išteklių, galite gauti klaidą, **valdomos įmonės valiuta neatitinka perkančiojo vieneto valiutos. Norėdami tęsti, pasirinkite kitą valdončią įmonę arba perkančiąjį vienetą**. Taip yra todėl, kad įrašo perkančiojo vieneto valiuta nesutampa su įrašo ir nuosavybės teise priklausančios įmonės valiuta.
+Įrašant projektą, sutartį, pasiūlymą ar rezervuojamus išteklius gali įvykti klaida: **Valdančios įmonės valiuta nesutampa su sutartį sudarančio vieneto valiuta. Norėdami tęsti, pasirinkite kitą valdančią įmonę arba sutartį sudarantį vienetą**. Ji įvyksta todėl, kad yra sutartį sudarančio vieneto valiutos ir valdančios įmonės valiutos neatitikimas.
 
 
 ## <a name="resolution"></a>Vertinimas
 
-Norėdami išspręsti šią problemą, atlikite šiuos veiksmus:
-- Patikrinkite šio įrašo perkančiojo vieneto valiutą. Valiutą galite pamatyti atidarę organizacinio vieneto įrašą ir patikrinę vertę skirtuke **Bendra**, esančiame **lauke Valiuta**.
-- Patikrinkite nuosavybės teise priklausančios įmonės valiutą. Valiutą galite pamatyti įmonės įraše nuėję į **Susijusios** > **knygos**. Dukart spustelėkite dk įrašą, susietą su įmone, ir patikrinkite vertę, esančią **lauke Apskaitos valiuta** esančiame skirtuke **Bendra**.
+Norėdami išspręsti šią problemą, atlikite toliau nurodytus veiksmus.
+- Patikrinkite šio įrašo sutartį sudarančio vieneto valiutą. Valiutą galite matyti atidarę organizacinio vieneto įrašą ir patikrinę reikšmę skirtuke **Bendra** esantį lauką **Valiuta**.
+- Patikrinkite valdančios įmonės valiutą. Valiutą galite matyti įmonės įraše nuėję **Susiję** > **Didžiosios knygos**. Dukart spustelėkite su įmone susietą didžiąją knygą ir patikrinkite reikšmę, esančią skirtuko **Bendra** lauke **Apskaitos valiuta**.
 
-Jei sutarties vienete nustatyta valiuta ir DK įrašas nesutampa, įrašykite įrašą koreguokite konfigūraciją arba pasirinkite skirtingas vertes. Sistemai reikia, kad šie įrašai atitiktų reikalavimus, kad būtų užtikrinti teisingi vidinės įmonės SF išrašymo srautai. Daugiau informacijos apie vidinės įmonės konfigūracijas ieškokite [Create intercompany transactions](../../project-accounting/create-intercompany-transactions.md).
+Jei sutartį sudarančio vieneto ir didžiosios knygos įrašo nustatyta valiuta nesutampa, pakoreguokite konfigūraciją arba įrašydami įrašą pasirinkite kitas reikšmes. Sugretinant sistemai reikia šių įrašų, kad būtų užtikrinti tinkami vidiniai įmonės sąskaitų faktūrų išrašymo srautai. Daugiau informacijos apie vidines įmonės konfigūracijas žr. [Vidinių įmonės operacijų kūrimas](../../project-accounting/create-intercompany-transactions.md).
 
-Jei įmonės įraše nėra susieto DK įrašo, tai rodo, kad nustatant aplinką trūksta konfigūracijos. Konfigūraciją turi pataisyti sistemos administratorius. Sistemos administratorius turi pereiti į **dvigubo rašymo konfigūracijas** ir sustabdyti bei iš naujo paleisti **DK dvigubo rašymo žemėlapį**, iš pradžių sinchronizuodamas šį žemėlapį ir tai yra būtinos sąlygos. Daugiau informacijos žr. [„Project Operations“ dvigubo rašymo schemų versijas](../../environment/resource-dual-write-maps.md).
+Jei įmonės įrašas neturi susieto didžiosios knygos įrašo, tai reiškia, kad nustatant aplinką nesukurta konfigūracija. Konfigūraciją turi pataisyti sistemos administratorius. Sistemos administratorius turi eiti į **Dvigubo rašymo konfigūracijos**, tada sustabdyti ir iš naujo paleisti **Didžiųjų knygų dvigubo rašymo schemą** ir atlikti pradinį šios schemos ir jos būtinųjų sąlygų sinchronizavimą. Daugiau informacijos žr. [„Project Operations“ dvigubo rašymo schemų versijas](../../environment/resource-dual-write-maps.md).

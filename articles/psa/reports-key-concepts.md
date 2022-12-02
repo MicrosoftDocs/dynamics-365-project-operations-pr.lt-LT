@@ -1,6 +1,6 @@
 ---
 title: Pagrindinės sąvokos
-description: Šiame straipsnyje pateikiama informacija apie pagrindines išteklių valdymo sąvokas "Project Service Automation".
+description: Šiame straipsnyje pateikta informacija apie pagrindines išteklių valdymo sąvokas, minimas „Project Service Automation“.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

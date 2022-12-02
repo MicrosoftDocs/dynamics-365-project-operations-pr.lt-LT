@@ -1,6 +1,6 @@
 ---
 title: Vidinės įmonės operacijų kūrimas
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip kurti vidinės įmonės operacijas.
+description: Šiame straipsnyje pateikiama informacijos, kaip kurti vidinės įmonės operacijas.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -30,14 +30,14 @@ Patvirtinus vidinės įmonės operaciją, sukuriamos toliau nurodytos faktinės 
 
 Savikainą, išteklių paskirstymo vieneto savikainą ir tarp organizacijų vykdomo pardavimo operacijos kainą ir valiutą valdo **organizacinis vienetas**. Tai svarbu prisiminti priimant sprendimą, kaip diegimo aplinkoje struktūrizuoti įmones ir organizacinius vienetus.
 
-Kai kuriate galimybę, pasiūlymą, projekto sutartį ir projekto įrašus, sistema patikrina, ar sutartį sudarančio vieneto valiuta atitinka sutartį sudarančios įmonės apskaitos valiutą. Jei jos nesutampa, šių įrašo sukurti nepavyks. Organizacinio vieneto valiutą galima apibrėžti „Dynamics 365 Project Operations“ dalyje **„Dataverse“** > **Parametrai** > **Organizaciniai vienetai**. Įmonės apskaitos valiuta Dynamics 365 Finance nurodyta einant į **DK** > **nustatymą** > **DK**. Valiuta sinchronizuojama su jūsų „Dataverse“ aplinka naudojant didžiųjų knygų dvigubo rašymo struktūrą.
+Kai kuriate galimybę, pasiūlymą, projekto sutartį ir projekto įrašus, sistema patikrina, ar sutartį sudarančio vieneto valiuta atitinka sutartį sudarančios įmonės apskaitos valiutą. Jei jos nesutampa, šių įrašo sukurti nepavyks. Organizacinio vieneto valiutą galima apibrėžti „Dynamics 365 Project Operations“ dalyje **„Dataverse“** > **Parametrai** > **Organizaciniai vienetai**. Įmonės apskaitos valiutą galima nurodyti „Dynamics 365 Finance“ dalyje **Didžioji knyga** > **Didžiosios knygos nustatymas** > **Didžioji knyga**. Valiuta sinchronizuojama su jūsų „Dataverse“ aplinka naudojant didžiųjų knygų dvigubo rašymo struktūrą.
 
 Sistema sukuria išteklių paskirstymo vieneto savikainą ir tarp organizacijų vykdomo pardavimo faktinius duomenis toliau nurodytais atvejais.
 
   - Kai išteklių paskirstymo vienetas skiriasi nuo sutartį sudarančio vieneto
   - Kai išteklių paskirstymo įmonė skiriasi nuo sutartį sudarančios įmonės
 
-Tačiau tik tie sandoriai, kurių tiekimo įmonė skiriasi nuo perkančiosios bendrovės, bus perkelti į Dynamics 365 Finance aplinką papildomai apskaitai.
+Tačiau tik operacijos, kurių išteklių paskirstymo įmonė skiriasi nuo sutartį sudarančios įmonės, bus perkeltos į „Dynamics 365 Finance“ aplinką papildomos apskaitos tikslais.
 
 Projekto faktinių duomenų apskaita įrašoma į „Project Operations“integravimo žurnalą dalyje „Finance“. Sistema sukuria toliau nurodytas žurnalo eilutes.
 

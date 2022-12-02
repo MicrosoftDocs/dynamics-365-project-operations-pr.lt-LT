@@ -1,6 +1,6 @@
 ---
 title: Pasirinktinių laukų kaip kainodaros dimensijų nustatymas
-description: Šiame straipsnyje pateikiama informacija apie pasirinktinių kainodaros dimensijų nustatymą.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip nustatyti pasirinktines kainodaros dimensijas.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -27,9 +27,9 @@ ms.locfileid: "8922607"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Prieš pradėdami, šiame straipsnyje daroma prielaida, kad atlikote procedūras straipsniuose, [Kurti pasirinktinius laukus ir objektus](create-custom-fields-entities.md) bei [Įtraukti pasirinktinius laukus į kainų nustatymą ir operacijų objektus](field-references.md). Jei dar neatlikote šių procedūrų, grįžkite ir užpildykite jas, tada grįžkite į šį straipsnį. 
+Prieš pradedant, šiame straipsnyje daroma prielaida, kad atlikote straipsniuose [Pasirinktinių laukų ir objektų kūrimas](create-custom-fields-entities.md) ir [Pasirinktinių laukų įtraukimas į kainos sąranką ir operacijų objektus](field-references.md)  nurodytas procedūras. Jei neatlikote šių procedūrų, grįžkite ir jas atlikite, o tada grįžkite į šią straipsnį. 
 
-Šiame straipsnyje pateikiama informacija apie pasirinktinių kainodaros dimensijų nustatymą. „Project Service“ žiniatinklio sąsajos puslapio **Parametrai** skirtuke **Kaina pagrįstos kainodaros dimensijos** rodomi įrašai kainodaros dimensijų objektuose. Pagal numatytuosius parametrus „Project Service“ diegimas sukuria 2 eilutes šio skirtuko tinklelyje:
+Šiame straipsnyje pateikiama informacija apie tai, kaip nustatyti pasirinktines kainodaros dimensijas. „Project Service“ žiniatinklio sąsajos puslapio **Parametrai** skirtuke **Kaina pagrįstos kainodaros dimensijos** rodomi įrašai kainodaros dimensijų objektuose. Pagal numatytuosius parametrus „Project Service“ diegimas sukuria 2 eilutes šio skirtuko tinklelyje:
 
 - **msdyn_resourcecategory** (vaidmuo)
 - **msdyn_OrganizationalUnit** (organizacinis vienetas)

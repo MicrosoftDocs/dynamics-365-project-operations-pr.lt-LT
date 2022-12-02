@@ -1,6 +1,6 @@
 ---
 title: Kas nauja 2021 m. spalio mėn. – „Project Operations lite“ visuotinis diegimas
-description: Šiame straipsnyje pateikiama informacija apie kokybės atnaujinimus, kuriuos galima rasti 2021 m. spalio mėn.
+description: Šiame straipsnyje pateikiama informacija apie kokybės naujinimus, pasiekiamus 2021 m. spalio „Project Operations lite“ visuotinio diegimo leidime.
 author: sigitac
 ms.date: 10/05/2021
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8921956"
 
 _Taikoma (kam): „Lite“ visuotiniam diegimui – sandoris į išankstinės sąskaitos faktūros kūrimą_
 
-Šis straipsnis taikomas šiems Dynamics 365 Project Operations komponentams ir versijoms:
+Šis straipsnis taikomas toliau nurodytiems „Dynamics 365 Project Operations“ komponentams ir versijoms:
 
   - „Project Operations“, esanti „Microsoft Dataverse“ aplinkoje, 4.25.0.91 versija
 

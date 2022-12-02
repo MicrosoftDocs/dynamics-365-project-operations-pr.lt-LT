@@ -1,6 +1,6 @@
 ---
 title: Užsakymų ir priskyrimų derinimas
-description: Šiame straipsnyje pateikiama informacija apie faktines aplinkybes.
+description: Šiame straipsnyje pateikta informacija apie faktinius duomenis.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

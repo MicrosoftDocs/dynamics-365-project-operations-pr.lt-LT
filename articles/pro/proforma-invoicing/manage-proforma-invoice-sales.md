@@ -1,6 +1,6 @@
 ---
 title: Išankstinės projekto sąskaitos faktūros valdymas
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip dirbti su proforma projekto SF.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip dirbti su išankstinėmis projektu pagrįstomis sąskaitomis faktūromis.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

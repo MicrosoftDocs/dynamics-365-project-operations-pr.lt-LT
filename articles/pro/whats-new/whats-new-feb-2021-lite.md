@@ -1,6 +1,6 @@
 ---
 title: Kas naujo 2021 m. vasario mėn. – „Project Operations“ „Lite“ visuotinis diegimas
-description: Šiame straipsnyje pateikiama informacija apie kokybės atnaujinimus, kuriuos galima rasti 2021 m. vasario mėn.
+description: Šiame straipsnyje pateikiama informacija apie kokybinius naujinimus, pasiekiamus 2021 m. vasario mėn. „Project Operations Lite” visuotinio diegimo leidime.
 author: sigitac
 ms.date: 02/08/2021
 ms.topic: article
@@ -16,7 +16,7 @@ ms.locfileid: "8914044"
 ---
 # <a name="whats-new-february-2021---project-operations-lite-deployment"></a>Kas naujo 2021 m. vasario mėn. – „Project Operations“ „Lite“ visuotinis diegimas
 
-Šis straipsnis taikomas šiems Dynamics 365 Project Operations komponentams ir versijoms:
+Šis straipsnis taikomas toliau nurodytiems „Dynamics 365 Project Operations“ komponentams ir versijoms:
 
   - „Project Operations“, esanti „Dataverse“ aplinkoje, 4.7.0.95 versija
 

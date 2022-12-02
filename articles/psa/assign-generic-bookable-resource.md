@@ -1,6 +1,6 @@
 ---
 title: Bendrųjų rezervuojamų išteklių priskyrimas užduočiai ir projekto komandai
-description: Šiame straipsnyje pateikiama informacija apie bendrųjų išteklių rezervavimą užduotims ir projektų komandoms.
+description: Šiame straipsnyje pateikiama informacija apie bendrųjų išteklių rezervavimą užduotims ir projekto komandoms.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice

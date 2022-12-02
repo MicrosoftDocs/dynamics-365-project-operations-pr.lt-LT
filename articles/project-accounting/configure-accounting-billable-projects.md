@@ -1,6 +1,6 @@
 ---
 title: Apmokėtinų projektų apskaitos konfigūravimas
-description: Šiame straipsnyje pateikiama informacija apie apmokėtinų projektų apskaitos galimybes.
+description: Šiame straipsnyje pateikta informacija apie apmokėtinų projektų apskaitos galimybes.
 author: sigitac
 ms.date: 04/05/2021
 ms.topic: article

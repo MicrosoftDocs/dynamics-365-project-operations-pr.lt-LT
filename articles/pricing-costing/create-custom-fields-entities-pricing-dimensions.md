@@ -1,6 +1,6 @@
 ---
 title: Pasirinktinių laukų ir objektų kūrimas kaip kainodaros dimensijų
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip kurti pasirinktinius parinkčių rinkinius arba objektus.
+description: Šiame straipsnyje pateikta informacija apie tai, kaip kurti pasirinktinių parinkčių rinkinius arba objektus.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article

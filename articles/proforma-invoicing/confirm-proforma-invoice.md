@@ -1,6 +1,6 @@
 ---
 title: Išankstinės projektu pagrįstos sąskaitos faktūros patvirtinimas
-description: Šiame straipsnyje pateikiama informacija apie proforma projekto sf patvirtinimą.
+description: Šiame straipsnyje pateikiama informacija apie išankstinės projektu pagrįstos sąskaitos faktūros patvirtinimą.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

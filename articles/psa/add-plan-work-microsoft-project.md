@@ -1,6 +1,6 @@
 ---
 title: Planuodami savo darbą „Microsoft Project“, naudokite „Project Service“ papildinį | „MicrosoftDocs“
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip įtraukti, konfigūruoti ir naudoti "Microsoft Project" priedą, skirtą "Microsoft Project Service".
+description: Šiame straipsnyje pateikta informacija apie tai, kaip įtraukti, konfigūruoti ir naudoti „Microsoft Project“ papildinį, skirtą „Microsoft Project Service“.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

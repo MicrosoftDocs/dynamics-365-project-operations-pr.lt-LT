@@ -1,6 +1,6 @@
 ---
 title: Ataskaitų pagrindinis puslapis
-description: Šiame straipsnyje pateikiama informacija apie ataskaitų teikimą Dynamics 365 Project Service Automation.
+description: Šiame straipsnyje pateikiamos nuorodos į informaciją apie ataskaitų teikimą „Dynamics 365 Project Service Automation“ programoje.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -47,7 +47,7 @@ Jei jūsų įmonei reikia specifinės ataskaitos, kurios negalima sukurti naudoj
 
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
-Daugiau informacijos apie ataskaitas PSA ieškokite šiuose straipsniuose:
+Norėdami gauti daugiau informacijos apie PSA ataskaitų teikimą, žr. šiuose straipsniuose:
 
 - [Darbas su „Project Service“ duomenų modeliu](reports-working-project-service-data-model.md)
 - [Ataskaitų sritys](reports-dashboards.md)

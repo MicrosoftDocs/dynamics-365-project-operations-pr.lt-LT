@@ -1,6 +1,6 @@
 ---
 title: Projektų pasiūlymų kūrimas iš galimybių
-description: Šiame straipsnyje pateikiama informacija apie projekto pasiūlymo kūrimą iš galimybės.
+description: Šiame straipsnyje pateikta informacija apie projekto pasiūlymo kūrimą iš galimybės.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

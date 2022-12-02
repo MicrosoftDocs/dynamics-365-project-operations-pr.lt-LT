@@ -1,6 +1,6 @@
 ---
 title: Išteklių valdymas DUK
-description: Šiame straipsnyje pateikiami atsakymai į dažnai užduodamus klausimus apie išteklių valdymą.
+description: Šiame straipsnyje pateikiami atsakymai į dažniausiai užduodamus klausimus apie išteklių valdymą.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

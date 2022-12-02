@@ -1,6 +1,6 @@
 ---
-title: Išplėstiniai organizaciniai vienetai
-description: Šiame straipsnyje pateikiama informacija apie organizacinius vienetus Dynamics 365 Project Service Automation.
+title: Išplėstiniai organizacijos vienetai
+description: Šiame straipsnyje pateikta informacija apie organizacijos vienetus „Dynamics 365 Project Service Automation“.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -24,7 +24,7 @@ ms.contentlocale: lt-LT
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8927108"
 ---
-# <a name="about-organizational-units"></a>Apie organizacinius vienetus 
+# <a name="about-organizational-units"></a>Apie organizacijos vienetus 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 

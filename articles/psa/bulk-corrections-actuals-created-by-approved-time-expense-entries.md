@@ -1,6 +1,6 @@
 ---
 title: Faktinių duomenų masiniai pataisymai pagal patvirtintus laiko ir išlaidų įrašus
-description: Šiame straipsnyje paaiškinama, kaip administratorius gali atlikti vienkartinius arba masinius anksčiau patvirtintų laiko ar išlaidų įrašų taisymus, jei atsiskaitymas nebaigtas.
+description: Šiame straipsnyje aiškinama, kaip administratorius gali atlikti vieną pataisymą arba masinius anksčiau patvirtintų laiko ar išlaidų įrašu pataisymus, jei apmokėjimas dar nebaigtas.
 author: rumant
 ms.date: 04/02/2020
 ms.topic: article
@@ -28,7 +28,7 @@ ms.locfileid: "8916299"
 
 Kartais laiko arba išlaidų įrašas gali būti įvestas neteisingai. Pavyzdžiui, konsultantas gali pasirinkti neteisingą laiko įrašo sukūrimo datą arba gali perkelti skaičius įvesdamas išlaidas. Jei konsultantas negali atnaujinti pateiktų įrašų, administratorius gali tiesiogiai pataisyti projekto įrašą.
 
-Norėdami užbaigti šiame straipsnyje pateiktas procedūras, jums reikės administratoriaus teisių.
+Norėdami atlikti procedūras šiame straipsnyje, privalote turėti administratoriaus teises.
 
 ## <a name="correct-approved-time-entries"></a>Teisingi patvirtinti laiko įrašai     
 

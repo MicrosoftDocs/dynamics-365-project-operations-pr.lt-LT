@@ -1,6 +1,6 @@
 ---
 title: Projekto grafikai
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip sukurti tvarkaraštį.
+description: Šiame straipsnyje pateikta informacija apie tai, kaip sukurti grafiką.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

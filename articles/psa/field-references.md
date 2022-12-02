@@ -1,6 +1,6 @@
 ---
 title: Pasirinktinių laukų įtraukimas į kainų sąranką ir operacinius objektus
-description: Šiame straipsnyje pateikiama informacija apie pasirinktinių laukų įtraukimą į kainų nustatymą ir operacijų objektus.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip įtraukti pasirinktinius laukus į kainų sąranką ir operacinius objektus.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -27,9 +27,9 @@ ms.locfileid: "8920484"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Šiame straipsnyje daroma prielaida, kad atlikote procedūras straipsnyje Kurti [pasirinktinius laukus ir objektus](create-custom-fields-entities.md). Jei dar neatlikote šių procedūrų, grįžkite ir užpildykite jas, tada grįžkite į šį straipsnį. 
+Šiame straipsnyje informacija pateikiama manant, kad baigėte straipsnio [„Pasirinktinių laukų ir objektų kūrimas“](create-custom-fields-entities.md) procedūras. Jei neatlikote šių procedūrų, grįžkite ir jas atlikite, o tada grįžkite į šią straipsnį. 
 
-Šiame straipsnyje procedūros parodys, kaip įtraukti reikiamas pasirinktines lauko nuorodas į objektus ir vartotojo sąsajos (UI) elementus, pvz., formas ir rodinius.
+Šiame straipsnyje procedūromis parodoma, kaip įtraukti reikiamas pasirinktinio lauko nuorodas į objektus ir į vartotojo sąsajos (UI) elementus, pvz., formas ir rodinius.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>Pasirinktinių kainos dimensijų laukų įtraukimas 
 Sukūrus pasirinktinius laukus ir objektus, kitas žingsnis – kainų sąrankos ir operacinių objektų supažindinimas su bet kokiais pasirinktiniais objektais ar parinkčių rinkiniais, kuriant nuorodos laukus. Atsižvelgiant į tai, ar jūsų kainos dimensijų sąraše yra parinkčių rinkinio dimensijos, objekto dimensijos, ar abi, atlikite tik **„Parinkčių rinkinio pasirinktinių kainų dimensijos“** arba **„Objekto pasirinktinių kainų dimensijos“**, arba abiejuose skyriuose nurodytus žingsnius.

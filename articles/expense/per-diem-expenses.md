@@ -23,104 +23,104 @@ ms.locfileid: "8923198"
 # <a name="per-diem-expenses"></a>Dienpinigių išlaidos
 
 > [!IMPORTANT] 
-> Šiame straipsnyje aprašytos funkcijos yra prieinamos tiksliniams vartotojams kaip peržiūros leidimo dalis.
+> Šiame straipsnyje apibūdintos funkcijos tiksliniams vartotojams pasiekiamos kaip peržiūros leidimo dalis.
 
-Dienpinigių mokėjimas yra fiksuotas, iš anksto nustatytas dienpinigis, kurį įmonė moka savo darbuotojams už apgyvendinimą (viešbučius), maitinimą ir atsitiktines išlaidas, kurias šie darbuotojai patiria keliaudami į darbą. Bendrovė moka šią išmoką darbuotojams, o ne moka faktines kelionės išlaidas. Darbuotojai gali naudoti savo **atsitiktinius / kitus** dienpinigius, kad padengtų patarimus, kambarių aptarnavimą, skalbinius ar sauso valymo paslaugas svarbiems verslo susitikimams. Dienpinigių tarifas gali skirtis, priklausomai nuo to, ar darbdavys nusprendžia kompensuoti bendras apgyvendinimo ir maitinimo išlaidas, ar tik už maitinimo ir atsitiktinių incidentų išlaidas.
+Dienpinigių mokėjimas yra fiksuota, iš anksto nustatyta kasdienė išmoka, kurią įmonė moka darbuotojams už nakvynę (viešbučius), maistą ir papildomas išlaidas, su kuriomis šie darbuotojai susiduria keliaudami į darbą. Įmonė šią išmoką moka darbuotojams, o ne apmoka faktines kelionės išlaidas. Darbuotojai gali naudoti savo **Nenumatytų/Kitų išlaidų** dienpinigių išmoką arbatpinigiams, kambarių aptarnavimui, skalbimui arba sausojo valymo paslaugoms per svarbius verslo susitikimus. Dienpinigių norma gali skirtis atsižvelgiant į tai, ar darbuotojas pasirenka kompensuoti bendrą nakvynės ir maisto kainą, ar tik maisto ir nenumatytų išlaidų kainą.
 
-Dienpinigiai gali būti pagrįsti metų laiku, kelionės vieta arba abiem. Kai sukuriate dienpinigių taisyklę, galite nurodyti, kad dienpinigių normos procentas bus išskaičiuotas, jei darbuotojas gaus nemokamą maitinimą ar paslaugas. Taip pat galite nustatyti minimalų valandų skaičių ir maksimalų valandų skaičių, kurį dienpinigių tarifas gali būti taikomas darbuotojo kelionei.
+Dienpinigiai gali būti pagrįsti metų laiku, kelionės vieta arba abiem. Kai sukuriate dienpinigių taisyklę, galite nurodyti, kad už dienpinigius procentinė dalis bus išskaičiuota, jei darbuotojas gaus papildomą maitinimą ar aptarnavimą. Taip pat galite nustatyti mažiausią ir didžiausią valandų skaičių, už kurias būtų skiriami dienpinigiai darbuotojui keliaujant.
 
-Dienpinigiai apskaičiuojami kaip bendra pašalpa, siūloma per dieną, atėmus darbuotojui suteiktą maitinimo sumažėjimą (nemokamo maitinimo išlaidas).
+Dienpinigiai apskaičiuojami kaip bendra per dieną siūlomų išlaidų suma atėmus darbuotojui teikiamo maisto sumažinimą (papildomo maitinimo kainą).
 
-## <a name="configure-per-diems"></a>Konfigūruoti pagal dienpinigius
+## <a name="configure-per-diems"></a>Sukonfigūruokite dienpinigius
 
-Norėdami konfigūruoti dienpinigių išlaidas, atlikite šiuos veiksmus.
+Norėdami sukonfigūruoti dienpinigių išlaidas, atlikite toliau nurodytus veiksmus.
 
-1. Eikite į **Išlaidų valdymo** \> **nustatymo** \> **bendrųjų** \> **išlaidų valdymo parametrai.**
-2. Skirtuko **dienpinigiai** lauke Skaičiuoti maisto kiekio mažinimą **pagal dydį** pasirinkite, kaip turėtų būti apskaičiuojamas dienpinigių skaičius:
+1. Eikite **į Išlaidų valdymas** \> **Sąranka** \> **Bendrieji** \> **Išlaidų valdymo parametrai.**
+2. Skirtuko **Dienpinigiai**, lauke **Skaičiuoti maisto sumažinimą pagal** pažymėkite, kaip turėtų būti apskaičiuojami dienpinigiai:
 
-    - **Maitinimo tipas vienai kelionei** - Apskaičiuokite dienpinigius pagal įvesto valgio tipą (pusryčius, pietus ar vakarienę) ir pagal valgio sumažinimą, kuris nurodomas kiekvienam valgio tipui už dienpinigių pašalpą kelionės metu.
-    - **Valgio tipas per dieną** - Apskaičiuokite dienpinigius pagal įvesto valgio tipą ir pagal valgio sumažinimą, kuris nurodomas kiekvienam valgio tipui už dienpinigius per dieną.
-    - **Valgių skaičius per dieną** - Apskaičiuokite dienpinigius pagal per dieną įvestų valgių skaičių ir pagal kiekvieną dieną tiekiamų valgių skaičių.
+    - **Maitinimo tipai kelionėje** apskaičiuokite dienpinigius pagal įvestus maitinimo tipus (pusryčiai, pietūs, vakarienė) ir pagal maisto sumažinimą, kuris yra apibrėžtas kiekvienam maitinimo tipui dienpinigiams kelionės trukmei.
+    - **Maitinimo tipai per dieną** apskaičiuokite dienpinigius pagal įvestus maitinimo tipus ir pagal maisto sumažinimą, kuris yra apibrėžtas kiekvienam maitinimo tipui dienpinigiams per dieną.
+    - **Maitinimų skaičius per dieną** apskaičiuokite dienpinigius pagal tai, kiek maitinimų buvo per dieną ir pagal maitinimo sumažinimą kasdien teikiamų maitinimų skaičiui.
 
-3. Eikite į **Išlaidų valdymo** \> **nustatymo** \> **skaičiavimai ir dienpinigių vietų** kodai.\>**·**
-4. Pridėkite vietas, kuriose galima naudoti dienpinigius.
-5. Kiekvienoje pridėtoje **vietoje skirtuke Dienpinigiai** pasirinkite dienpinigių kursą ir valiutą, galiojančią tarp konkrečių apgyvendinimo pradžios ir pabaigos datų, maitinimo ir kitų išlaidų. Norėdami konfigūruoti dienpinigių kursus ir valiutas, eikite į **Išlaidų valdymo** \> **nustatymo** \> **skaičiavimai ir kodai** \> **Pagal dienpinigius.**
+3. Eikite į **Išlaidų valdymas** \> **Nustatymai** \> **Skaičiavimai ir kodai** \> **Dienpinigių vietos**.
+4. Įtraukite vietas, kur galima naudoti dienpinigius.
+5. Kiekvienai įtrauktai vietai **Dienpinigių** skirtuke, pasirinkite dienpinigių normą ir valiutą, galiojančią nuo konkrečios pradžios iki pabaigos datos nakvynei, maitinimui ir kitoms išlaidoms. Norėdami sukonfigūruoti dienpinigių normas ir valiutas, eikite į **Išlaidų valdymas** \> **Sąranka** \> **Skaičiavimai ir kodai** \> **Dienpinigiai**
 
-## <a name="per-diems-in-the-reimagined-expense-interface"></a>Per dienpinigius iš naujo įsivaizduojamoje išlaidų sąsajoje
+## <a name="per-diems-in-the-reimagined-expense-interface"></a>Dienpinigiai pakeistoje išlaidų sąsajoje
 
-Dienpinigių funkcija palaikoma atnaujintoje **išlaidų valdymo** darbo srityje 365 Finance 10.0.25 ir vėlesnėje Microsoft Dynamics versijoje.
+Dienpinigių funkcija yra palaikoma pakeistoje **Išlaidų valdymo** darbo srityje „Microsoft Dynamics 365 Finance“ 10.0.25 ir vėlesnėse versijose.
 
-Norėdami įjungti dienpinigius, atlikite šiuos veiksmus.
+Norėdami įjungti dienpinigių funkciją, atlikite toliau nurodytus veiksmus.
 
-1. **Darbo srityje Funkcijų valdymas** raskite ir pasirinkite **sąraše esančią funkciją Išlaidų ataskaitos iš naujo suplanuotos**, tada pasirinkite **Įgalinti dabar**.
-2. Sąraše raskite ir pasirinkite **išlaidų ataskaitos iš naujo įsivaizduojamos sąsajos** funkciją Per-diem, tada pasirinkite **Įgalinti dabar**.
+1. **Funkcijų valdymo** darbo srityje raskite ir sąraše pasirinkite funkciją **Pakeistų išlaidų ataskaita**, tada pasirinkite **Įgalinti dabar**.
+2. Raskite ir sąraše pasirinkite funkciją **Dienpinigiai išlaidų ataskaitai pakeistoje sąsajoje**, tada pasirinkite **Įgalinti dabar**.
 
-## <a name="how-the-feature-works"></a>Kaip veikia funkcija
+## <a name="how-the-feature-works"></a>Kaip veikia ši funkcija
 
-Šiame skyriuje pateikiami trijų konfigūracijos scenarijų pavyzdžiai. Kiekvieno pavyzdžio laukas **Skaičiuoti maisto kiekio sumažinimą pagal** yra nustatytas į kitą reikšmę. Visų trijų pavyzdžių atveju bendra mokėtina suma yra tokia pati, kol bus taikomas valgio sumažinimas. Po šio punkto bendra mokėtina suma kiekvienam pavyzdžiui skiriasi.
+Šiame skyriuje pateikiami trijų konfigūravimo scenarijų pavyzdžiai. Kiekvienam pavyzdžiui laukelis **Apskaičiuotų maitinimo sumažinimą pagal** nustatytas skirtingomis reikšmėms. Visų trijų pavyzdžių bendra suma, kuri yra apmokama, yra ta pati tol, kol taikomas maitinimo sumažinimas. Po to bendra mokama suma skiriasi kiekviename pavyzdyje.
 
-Norėdami sukurti dienpinigių išlaidas, naudojamas visiems trims pavyzdžiams, atlikite šiuos veiksmus.
+Norėdami sukurti dienpinigių išlaidas, naudojamas visuose trijuose pavyzdžiuose, atlikite šiuos veiksmus.
 
-1. Eikite į **Darbo sričių** \> **išlaidų valdymas**.
-2. Pasirinkite **Nauja išlaidų ataskaita** arba pasirinkite esamą išlaidų ataskaitą.
-3. Pridėkite naujas išlaidas. Lauke **Kategorija pasirinkite** dienpinigiai **·**. Pasirinkite kelionės vietą ir pradžios bei pabaigos datas. Apgyvendinimo, maitinimo ir atsitiktinių išlaidų (kitų išlaidų) dienpinigiai apskaičiuojami pagal pasirinktoje vietoje nustatytus dienpinigius.
+1. Eikite į **Darbo sritys** \> **Išlaidų valdymas**.
+2. Pasirinkite **Nauja išlaidų ataskaita** arba pažymėkite esamą išlaidų ataskaitą.
+3. Įtraukti naujas išlaidas. Laukelyje **Kategorija** pasirinkite **Dienpinigiai**. Pažymėkite savo kelionės vietą ir pradžios bei pabaigos datas. Dienpinigiai nakvynei, maitinimui ir nenumatytoms (kitoms) išlaidoms apskaičiuojami pagal kasdienę išmoką, nustatytą pasirinktai vietai.
 
-    Pavyzdžiui, kaip vietą pasirenkate **Redmond (JAV).** Dienpinigiai už tą vietą yra 150 JAV dolerių (150 USD) už apgyvendinimą, USD 75 maistui ir USD 5 atsitiktiniams atvejams. Pradžios data yra sausio 10 d., O pabaigos data yra sausio 14 d. Todėl pasirinkta trukmė yra penkios dienos, kai pasirinkta konfigūracija yra kalendorinės dienos su laiku, o pasirinktas laikas prasideda ir baigiasi 12:00 pradžios ir pabaigos datomis. Štai skaičiavimai:
+    Pvz., pasirenkate vietą **Redmondas (JAV)**. Kasdienė tos vietos išmoka yra 150 JAV dolerių (150 USD) nakvynei, 75 USD maitinimui ir 5 USD nenumatytoms išlaidoms. Pradžios data yra Sausio 10 d., o pabaigos data yra Sausio 14 d. Todėl pažymėta trukmė yra penkios dienos, kai pasirinkta konfigūracija yra kalendorinės dienos su laiku, o pažymėtas laikas prasideda ir baigiasi 12:00 val. pradžios ir pabaigos datomis. Štai skaičiavimai:
 
-    - Bendra mokėtina suma = 5 × (150 + 75 + 5) = 5 × 230 = USD 1,150
-    - Bendros sumos miltai ir atsitiktinė dalis = 5 × (75 + 5) = USD 400
+    - Bendra mokama suma = 5 × (150 + 75 + 5) = 5 × 230 = 1150 USD
+    - Bendros sumos dalis maistui ir nenumatytoms išlaidoms = 5 × (75 + 5) = 400 USD
 
-Jei kelionės metu buvo tiekiami pusryčiai, pietūs ir vakarienė, šie patiekalai turi būti apskaitomi kaip valgio sumažinimas.
+Jei per kelionę buvo suteikti pusryčiai, pietūs ir vakarienė, maitinimai turi būti apskaityti kaip maitinimo sumažinimas.
 
-### <a name="example-1-per-diem-where-meal-reductions-are-based-on-meal-type-per-trip"></a>1 pavyzdys: dienpinigiai, kai maisto sumažinimas grindžiamas valgio tipu vienai kelionei
+### <a name="example-1-per-diem-where-meal-reductions-are-based-on-meal-type-per-trip"></a>1 pavyzdys: dienpinigiai, kai maisto sumažinimai kelionėje grindžiami maitinimo tipais
 
-Šiame pavyzdyje maistas sumažinamas 30 procentų pusryčiams, 30 procentų pietums ir 40 procentų vakarienei. **Puslapyje Išlaidų valdymo parametrai laukas** Skaičiuoti maisto sumažinimą **pagal** yra nustatytas kaip **Maitinimo tipas vienai kelionei**. Čia pateikiami skaičiavimai, jei darbuotojui buvo pateikti trys pusryčiai, du pietūs ir nulinės vakarienės:
+Šiame pavyzdyje maitinimo sumažinimas yra 30 procentų pusryčiams, 30 procentų pietums ir 40 procentų vakarienei. Puslapyje **Išlaidų valdymo parametrai** laukelis **Apskaičiuoti maitinimo sumažinimą pagal** nustatytas kaip **Kelionės maitinimo tipai**. Štai skaičiavimai, jei darbuotojui buvo pateikti treji pusryčiai, dveji pietūs ir nulis vakarienių:
 
-- Miltų sumažinimas = (3 × \[75 × 30%\]) + (2 × \[75 × 30%\]) + 0 = (3 × 22,50) + (2 × 22,50) + 0 = 67,50 + 45 + 0 = USD 112.50
-- Maitinimas ir atsitiktiniai atvejai = 400 – 112,50 = USD 287.50
-- Bendra mokėtina suma = Bendra pašalpa – Maitinimo sumažinimas = 1 150 –112,50 = USD 1,037.50
+- Maitinimo sumažinimas = (3 × \[75 × 30%\]) + (2 × \[75 × 30%\]) + 0 = (3 × 22,50) + (2 × 22,50) + 0 = 67,50 + 45 + 0 = 112,50 USD
+- Maitinimas ir nenumatytos išlaidos = 400 – 112,50 = 287,50 USD
+- Bendra mokėtina suma = Bendra išmoka – Maitinimo sumažinimas = 1 150 – 112,50 = 1037,50 USD
 
-![Dienpinigių išlaidos, kai valgio sumažinimas grindžiamas valgio tipu vienai kelionei.](media/1-meal-type-per-trip.png)
+![Dienpinigių išlaidos, kai maitinimo sumažinimas kelionėje grindžiamas maitinimo tipais.](media/1-meal-type-per-trip.png)
 
-### <a name="example-2-per-diem-where-meal-reductions-are-based-on-meal-type-per-day"></a>2 pavyzdys: dienpinigiai, kai maisto sumažinimas grindžiamas valgio tipu per dieną
+### <a name="example-2-per-diem-where-meal-reductions-are-based-on-meal-type-per-day"></a>2 pavyzdys: dienpinigiai, kai maitinimo sumažinimai grindžiami maitinimo tipais per dieną
 
-Šiame pavyzdyje maistas sumažinamas 30 procentų pusryčiams, 30 procentų pietums ir 40 procentų vakarienei. **Puslapyje Išlaidų valdymo parametrai** laukas Skaičiuoti maisto sumažinimą **pagal** yra nustatytas kaip **Valgio tipas per dieną**. Tokiu atveju dialogo lange Koreguoti išlaidas **esančiame tinklelyje Maitinimas išvalykite** **žymės langelius**, nurodančius, kokie patiekalai jums buvo pateikti kelionės metu.
+Šiame pavyzdyje maitinimo sumažinimas yra 30 procentų pusryčiams, 30 procentų pietums ir 40 procentų vakarienei. Puslapyje **Išlaidų valdymo parametrai** laukelis **Apskaičiuoti maitinimo sumažinimą pagal** nustatytas kaip **Maitinimo tipai per dieną**. Tokiu atveju, tinklelio **Maitinimai** **Redaguoti išlaidas** dialogo lange, išvalykite žymės langelius ir nurodykite, kurie maitinimai jums buvo pateikti kelionės metu.
 
-Pavyzdžiui, čia pateikiami skaičiavimai, ar pusryčiai buvo pateikti pirmosioms trims kelionės dienoms:
+Pavyzdžiui, čia pateikiami skaičiavimai, jei pusryčiai buvo pateikti du kartus per pirmąsias tris kelionės dienas:
 
-- Dienos valgio sumažinimas kiekvienai iš pirmųjų trijų dienų = 75 × 30% = USD 22.50
-- Bendras valgio sumažinimas = 3 × 22,50 = USD 67.50
-- Maitinimas ir atsitiktiniai atsitikimai nuo 1 iki 3 dienų = 75–22,50 = USD 57.50
-- Bendras maistas ir atsitiktiniai atvejai = valgio ir atsitiktinių atsitikimų suma per penkias dienas = 400–67,50 = USD 332.50
-- Bendra mokėtina suma = Bendra mokėtina suma – Valgio sumažinimas = 1 150 – 67,50 = USD 1,082.50
+- Kasdieni maitinimo sumažinimas per kiekvieną iš pirmųjų trijų dienų = 75 × 30% = 22,50 USD
+- Bendras maitinimo sumažinimas = 3 × 22,50 = 67,50 USD
+- Nuo 1 iki 3 dienų maitinimai ir nenumatytos išlaidos = 75 – 22,50 = 57,50 USD
+- Iš viso maitinimai ir nenumatytos išlaidos = maitinimų ir nenumatytų išlaidų suma per penkias dienas = 400 – 67,50 = 332,50 USD
+- Bendra mokėtina suma = Bendra suma – Maitinimo sumažinimas = 1150 – 67,50 = 1082,50 USD
 
-![Dienpinigių išlaidos, kai valgio sumažinimas grindžiamas valgio tipu per dieną.](media/2-meal-type-per-day.png)
+![Dienpinigių išlaidos, kai maitinimo sumažinimas grindžiamas maitinimo tipais per dieną.](media/2-meal-type-per-day.png)
 
-### <a name="example-3-per-diem-where-meal-reductions-are-based-on-number-of-meals-per-day"></a>3 pavyzdys: dienpinigiai, kuriuose maistas sumažinamas atsižvelgiant į valgių skaičių per dieną
+### <a name="example-3-per-diem-where-meal-reductions-are-based-on-number-of-meals-per-day"></a>3 pavyzdys: dienpinigiai, kai maitinimo sumažinimai grindžiami maitinimų skaičiumi per dieną
 
-Šiame pavyzdyje valgio sumažinimas apskaičiuojamas pagal per dieną suteiktų patiekalų skaičių (ty **puslapio Išlaidų valdymo parametrai laukas** Skaičiuoti maisto sumažinimą **pagal** dydį nustatomas kaip **Valgių skaičius per dieną**). **Dialogo lange Koreguoti išlaidas** esančiame tinklelyje Maitinimas išvalykite **žymės langelius**, nurodančius, kokie patiekalai buvo pateikti.
-Tokiu atveju valgio sumažinimas grindžiamas tik suteiktų patiekalų #, o ne tiekiamo valgio tipu (pusryčiai / pietūs / vakarienė).
+Šiame pavyzdyje, maitinimo sumažinimai apskaičiuojami pagal tai, kiek maitinimų buvo pateikiama per dieną (tai yra, **Apskaičiuoti maitinimo sumažinimą pagal** laukelis **Išlaidų valdymo parametrų** puslapyje nustatytas **Maitinimų skaičius per dieną**). Tinklelio **Maitinimai** **Redaguoti išlaidas** dialogo lange, išvalykite žymės langelius ir nurodykite, kurie maitinimai jums buvo suteikti.
+Tokiu atveju, maitinimo sumažinimas dėl yra pagrįstas tik # teikiamais maitinimais, o ne pateikiamo maitinimo tipais (Pusryčiai / pietūs / vakarienė).
 
-Čia pateikiami dienpinigių skaičiavimai, kai dienpinigiai yra USD 150 apgyvendinimui, USD 75 maistui ir USD 5 atsitiktiniams atvejams:
+Toliau pateikiami dienpinigių skaičiavimai, kai kasdienė išmoka nakvynei yra 150 USD, maitinimui – 75 USD, o nenumatytoms išlaidoms – 5 USD:
 
-- **Bendra mokėtina** suma = 5 × (150 + 75 + 5) = 5 × 230 = USD 1,150
-- **Vienas valgis:** valgio sumažinimas = 20% = USD 15
-- **Du valgiai:** valgio sumažinimas = 50% = USD 37.50
-- **Trys valgiai:** valgio sumažinimas = 100% = USD 75
+- **Bendra mokama suma** = 5 × (150 + 75 + 5) = 5 × 230 = 1150 USD
+- **Vienas maitinimas:** Maitinimo sumažinimas = 20 % = 15 USD
+- **Du maitinimai:** Maitinimo sumažinimas = 50 % = 37,50 USD
+- **Trys maitinimai:** Maitinimo sumažinimas = 100 % = 75 USD
 
-Čia pateikiami maisto ir atsitiktinių leidimų **apskaičiavimai**, į kuriuos įeina atsitiktinių USD 5:
+Toliau pateikiami **maitinimo ir nenumatytų išlaidų išmokos** skaičiavimai, apimantys 5 USD nenumatytoms išlaidoms:
 
-- 1 diena - Du valgiai = (75–37,50) + 5 = 37,50 + 5 = USD 42.50
-- 2 diena - Du valgiai = (75–37,50) + 5 = 37,50 + 5 = USD 42.50
-- 3 diena - Vienas valgis = (75–15) + 5 = 60 + 5 = USD 65
-- 4 diena - Nulinis maitinimas = (75-0) + 5 = 75 + 5 = USD 80
-- 5 diena - Trys valgiai = (75–75) + 5 = 0 + 5 = 0 + 5 = USD 5
+- 1 diena – pateikti du maitinimai = ( 75 – 37,50) + 5 = 37,50 + 5 = 42,50 USD
+- 2 diena – pateikti du maitinimai = ( 75 – 37,50) + 5 = 37,50 + 5 = 42,50 USD
+- 3 diena – pateiktas vienas maitinimas = (75 –15) + 5 = 60 + 5 = USD 65
+- 4 diena – pateikta nulis maitinimų = ( 75 – 0) + 5 = 75 + 5 = 80 USD
+- 5 diena – pateikti trys maitinimai = ( 75 – 75) + 5 = 0 + 5 = 5 USD
 
-- Bendras maistas ir atsitiktiniai atsitikimai = maistas ir atsitiktiniai atsitikimai 1 dieną + 2 dieną + 3 diena + 4 diena + 5 diena = USD 235
-- Bendras valgio sumažinimas = valgio sumažinimas 1 dieną + 2 diena +3 diena + 4 diena+ 5 diena = 37,5+ 37,5+ 37,5+ 15 + 0 + 75 = USD 165
-- Bendra mokėtina suma = Bendra išmoka – Bendras valgio sumažinimas = USD 1,150 – USD 165 = USD 985
+- Bendras maitinimų ir nenumatytų išlaidų skaičius = 1 diena + 2 diena + 3 diena + 4 diena + 5 diena = 235 USD
+- Bendras maitinimo umažinimas = Maitinimo sumažinimas 1 dieną + 2 dieną + 3 dieną + 4 dieną + 5 dieną = 37,5 + 37,5 + 15 + 0 + 75 = 165 USD
+- Bendra mokėtina suma = Bendra išmoka – Bendras maitinimo sumažinimas = 1 150 USD – 165 USD = 985 USD
 
-![Dienpinigių išlaidos, kai valgio sumažinimas grindžiamas valgių skaičiumi per dieną.](media/3-number-of-meals-per-day.png)
+![Dienpinigių išlaidos, kai maitinimo sumažinimas grindžiamas maitinimų skaičiumi per dieną.](media/3-number-of-meals-per-day.png)
 
 > [!NOTE]
-> Nuo "Finance" versijos 10.0.23, jei naudojate iš naujo įsivaizduojamą išlaidų sąsają, negalite sukurti dienpinigių išlaidų, kurių datos sutampa. Jei bandysite, gausite klaidos pranešimą.
+> 10.0.23 finansų versijos atveju, jei naudojate perkurtą išlaidų sąsają, negalite sukurti dienpinigių išlaidų, kurios turi persidengiančias datas. Jei bandote, gausite klaidos pranešimą.

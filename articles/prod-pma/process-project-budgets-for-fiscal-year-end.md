@@ -1,6 +1,6 @@
 ---
 title: Projektų biudžetų perkėlimas finansinių metų pabaigoje
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip perkelti likusias biudžeto sumas į ateinančius metus ir sukurti išsamią biudžeto registro informaciją.
+description: Šiame straipsnyje pateikiama informacija, kaip perkelti likusias biudžeto sumas į būsimus metus ir sukurti biudžeto registro duomenis.
 author: Yowelle
 ms.date: 03/23/2020
 ms.topic: article

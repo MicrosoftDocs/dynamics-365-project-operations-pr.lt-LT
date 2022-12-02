@@ -1,6 +1,6 @@
 ---
 title: Projekto išteklių planavimo efektyvumas
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip pagerinti daugelio projektų išteklių planavimo našumą.
+description: Šiame straipsnyje pateikta informacija apie tai, kaip padidinti daugelio projektų išteklių planavimo efektyvumą.
 author: Yowelle
 ms.date: 08/31/2020
 ms.topic: article

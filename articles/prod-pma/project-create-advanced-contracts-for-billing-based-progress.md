@@ -1,6 +1,6 @@
 ---
 title: Išplėstinių atsiskaitymo sutarčių kūrimas atsižvelgiant į eigą
-description: Šiame straipsnyje paaiškinama, kaip kurti projekto sutartis, kad galėtumėte generuoti sąskaitas faktūras klientams pagal užbaigto darbo procentą.
+description: Šiame straipsnyje paaiškinama, kaip kurti projektų sutartis, kad galėtumėte generuoti klientų sąskaitas faktūras remdamiesi atlikto darbo procentine dalimi.
 author: RadhikaRS
 ms.date: 03/26/2020
 ms.topic: article
@@ -25,9 +25,9 @@ ms.locfileid: "8913676"
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Išplėstinių atsiskaitymo sutarčių kūrimas atsižvelgiant į eigą
 [!include [banner](../includes/banner.md)]
 
-Šiame straipsnyje paaiškinama, kaip kurti projekto sutartis, kad galėtumėte kurti sąskaitas faktūras klientams pagal atliktų darbų procentą. Sąskaitos faktūros sumos automatiškai apskaičiuojamos pagal darbo, kurį nustatėte projekte, biudžeto kategorijas. Sąskaitų faktūrų išrašymo laikas nustatomas jums derantis su klientu dėl projekto sutarties.
+Šiame straipsnyje paaiškinama, kaip kurti projektų sutartis, kad galėtumėte sukurti klientų sąskaitas faktūras remdamiesi atlikto darbo procentine dalimi. Sąskaitos faktūros sumos automatiškai apskaičiuojamos pagal darbo, kurį nustatėte projekte, biudžeto kategorijas. Sąskaitų faktūrų išrašymo laikas nustatomas jums derantis su klientu dėl projekto sutarties.
 
-Naudokite šiame straipsnyje nurodytas procedūras, kad nustatytumėte sutartį, susijusį projektą ir atsiskaitymo taisykles, kurios apskaičiuotų SF sumas darbo kategorijoms, kurias nustatėte projektui.
+Naudodami šiame straipsnyje nurodytas procedūras galite nustatyti sutartį, susijusį projektą ir atsiskaitymo taisykles, pagal kurias apskaičiuojamos darbo, nustatyto projekte, biudžeto kategorijų sąskaitų sumos.
 
 Sukūrę sutartį ir projektą, galite nustatyti projekto išsamią informaciją. Pavyzdžiui, galite apibrėžti veiklos rūšis ir priskirti projektui darbuotojus.
 

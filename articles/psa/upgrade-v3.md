@@ -1,6 +1,6 @@
 ---
 title: Atnaujinimo aptarimas – „Microsoft Dynamics 365 Project Service Automation“  iš 2.x arba 1.x versijos į 3 versiją
-description: Šiame straipsnyje pateikiama informacija apie aplinkybes, kurias turite pateikti atnaujindami versiją iš "Project Service Automation" 2.x arba 1.x versijos į 3 versiją.
+description: Šiame straipsnyje pateikta informacija apie dalykus, į kuriuos reikia atsižvelgti atnaujinant iš „Project Service Automation“ 2.x arba 1.x versijos į 3 versiją.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -40,7 +40,7 @@ Naudojant „Project Service Automation“ 2 versiją ir 1 versiją, užduočių
 
 „Project Service Automation“ 3 versijoje pasikeitė rezervuojamų išteklių priskyrimo užduotims schema. Eilutės užduotis nebenaudojama, o tarp užduoties **Užduoties objekte** ir komandos nario objekte **Išteklių priskyrimas** yra tiesioginis 1:1 ryšys. Projekto komandos nariui priskiriamos užduotys dabar saugomos tiesiogiai išteklių priskyrimo objekte.  
 
-Šie pakeitimai turi įtakos visų esamų projektų, kuriuose yra įvardytų rezervuojamų išteklių ir bendrųjų išteklių projekto komandoje priskyrimų, atnaujinimui. Šiame straipsnyje pateikiami aspektai, į kuriuos turėsite atsižvelgti savo projektuose, kai atnaujinsite į 3 versiją. 
+Šie pakeitimai turi įtakos visų esamų projektų, kuriuose yra įvardytų rezervuojamų išteklių ir bendrųjų išteklių projekto komandoje priskyrimų, atnaujinimui. Šiame straipsnyje nurodyti dalykai, į kuriuos reikės atsižvelgti dėl projektų atnaujinant iki 3 versijos. 
 
 ### <a name="tasks-assigned-to-named-resources"></a>Įvardytiems ištekliams priskirtos užduotys
 Naudojant esamą užduoties objektą, 2 versijos ir 1 versijos užduotys leido komandos nariams atlikti kitą vaidmenį, o ne jų numatytąjį apibrėžtą vaidmenį. Pavyzdžiui, Irena Jankauskienė, kuriai pagal numatytuosius nustatymus priskirtas programų vadovo vaidmuo, galėjo būti priskirta užduočiai, kurios vaidmuo yra kūrėjas. 3 versijoje įvardytojo komandos nario vaidmuo visada yra numatytasis, todėl bet kokioje užduotyje, kuriai Irena Jankauskienė priskirta, naudojamas jos numatytasis programų vadovo vaidmuo.

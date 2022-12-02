@@ -1,6 +1,6 @@
 ---
 title: Darbo sąskaitų tarifų sąranka – „Lite“ versija
-description: Šiame straipsnyje pateikiama informacija apie darbo atsiskaitymo tarifų nustatymą projekto operacijose.
+description: Šiame straipsnyje pateikta informacija apie atsiskaitymo už darbą tarifų nustatymą naudojant „Project Operations“.
 author: rumant
 ms.date: 10/16/2020
 ms.topic: article

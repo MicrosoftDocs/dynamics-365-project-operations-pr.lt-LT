@@ -1,6 +1,6 @@
 ---
 title: Projekto sutarties parametrai – „Lite“ versija
-description: Šiame straipsnyje pateikiama informacija apie laukus, turinčius įtakos sutarties eilutėms, ir informacija apie sutartį, kuri apibendrinama pagal visas eilutės prekes.
+description: Šiame straipsnyje pateikta informacija apie laukus, kurie veikia sutarties eilutes, ir informacija apie sutartį, apibendrinančią visų eilučių elementus.
 author: rumant
 ms.date: 03/08/2022
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8917080"
 
 _**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
 
-Šiame straipsnyje pateikiama informacija apie laukus, taikomus visai projekto sutarčiai, įskaitant parametrus, kurie turi įtakos visoms sutarties eilutėms. Taip pat įtraukta informacija apie sutartį, apibendrinanti visus eilučių elementus, kad būtų galima valdyti projekto sutarties KPI.
+Šiame straipsnyje pateikiama informacija apie visai projekto sutarčiai taikomus laukus, įskaitant parametrus, turinčius įtakos visoms sutarties eilutėms. Taip pat įtraukta informacija apie sutartį, apibendrinanti visus eilučių elementus, kad būtų galima valdyti projekto sutarties KPI.
 
 Šioje lentelėje išvardyti projekto sutarties laukai, kurie yra unikalūs programoje „Dynamics 365 Project Operations“ arba kurie turi kai kurių svarbių pardavimo užsakymo veikimo pakeitimų naudojant „Dynamics 365 Sales“.
 
@@ -35,7 +35,7 @@ _**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės
 Nurodyti KPI pasiekiami projekto sutarties skirtuke **Sutarties efektyvumas**. 
 
 >[!NOTE]
->Visos sumos skirtuke **Sutarties vykdymas** išreiškiamos numatytąja aplinkos valiuta.
+>Skirtuke **Sutarties efektyvumas** visos sumos išreikštos numatytąja aplinkos valiuta.
 
 | Laukas | Vieta | Aprašą |
 | --- | --- | --- |

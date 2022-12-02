@@ -1,6 +1,6 @@
 ---
 title: Įgūdžių ir kvalifikacijos modeliai
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip naudoti įgūdžius ir kvalifikacijos modelius.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip naudoti įgūdžių ir kvalifikacijos modelius.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

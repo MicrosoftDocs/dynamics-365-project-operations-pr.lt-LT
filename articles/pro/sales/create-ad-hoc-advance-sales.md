@@ -1,6 +1,6 @@
 ---
 title: Ad hoc avanso kūrimas sutartyje
-description: Šiame straipsnyje pateikiama informacija apie sutarties avanso sukūrimą, jei reikia.
+description: Šiame straipsnyje pateikta informacija apie tai, kaip prireikus sutartyje sukurti avansą.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article

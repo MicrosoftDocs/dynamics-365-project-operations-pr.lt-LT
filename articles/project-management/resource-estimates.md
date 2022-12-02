@@ -1,6 +1,6 @@
 ---
 title: Projektų išteklių laiko finansiniai įvertinimai
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip apskaičiuojami laiko finansiniai įvertinimai.
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip apskaičiuojami finansiniai laiko įvertinimai.
 author: rumant
 ms.date: 03/19/2021
 ms.topic: article

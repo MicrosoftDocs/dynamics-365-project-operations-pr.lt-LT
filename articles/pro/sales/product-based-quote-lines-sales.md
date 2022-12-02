@@ -1,6 +1,6 @@
 ---
 title: Produktu pagrįstų pasiūlymo eilučių apžvalga – „Lite“ versija
-description: Šiame straipsnyje pateikiama informacija apie darbą su produktais pagrįstomis pasiūlymo eilutėmis.
+description: Šiam straipsnyje pateikta informacija apie darbą su produktu pagrįstomis pasiūlymo eilutėmis.
 author: rumant
 ms.date: 10/30/2020
 ms.topic: overview

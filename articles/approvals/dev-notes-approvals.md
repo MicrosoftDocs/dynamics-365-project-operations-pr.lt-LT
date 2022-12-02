@@ -1,6 +1,6 @@
 ---
 title: Kūrėjų pastabos dėl patvirtinimų
-description: Šiame straipsnyje pateikiama papildoma kūrėjo informacija apie darbą su patvirtinimais.
+description: Šiame straipsnyje pateikta papildoma kūrėjų informacija apie darbą su patvirtinimais.
 author: stsporen
 ms.date: 11/09/2020
 ms.topic: article

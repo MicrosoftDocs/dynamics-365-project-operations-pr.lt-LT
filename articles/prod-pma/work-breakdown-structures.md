@@ -35,7 +35,7 @@ WBS išsamumo laipsnis priklauso nuo tikslumo lygio, pagal kurį vertinama, ir s
 
 Priešingai, projektai tam tikrose srityse, pvz., žiniasklaidoje ir reklamoje, programinėje įrangoje ir IT infrastruktūroje, paprastai yra unikalūs, o produktyvumas yra susijęs su užduotį atliekančio asmens patirtimi ir kompetencija. Todėl šiose srityse naudojama WBS, siekiant įvertinti projekto dydį, o ne atidžiai sekti šio projekto eigą. 
 
-WBS kūrimas yra daug pastangų reikalaujantis procesas, kuris paprastai užtrunka ilgai ir reikalauja, kad nemažai žmonių bendradarbiautų ir pateiktų informaciją. Šiame straipsnyje aprašoma, kaip galite naudoti WBS patobulinimus, kad atitiktumėte įvertinimų ir stebėjimo reikalavimus.
+WBS kūrimas yra daug pastangų reikalaujantis procesas, kuris paprastai užtrunka ilgai ir reikalauja, kad nemažai žmonių bendradarbiautų ir pateiktų informaciją. Šiame straipsnyje aprašoma, kaip naudoti WBS patobulinimus, norint patenkinti vertinimo ir sekimo reikalavimus.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>WBS kūrimo būtinosios sąlygos
 Norėdami sukurti WBS, turite mokėti sukurti darbo grafiką ir apskaičiuoti darbo savikainą.
@@ -166,7 +166,7 @@ Kai kuriose srityse projekto eiga stebima WBS labai detaliai, o kitose eiga steb
 
 ### <a name="planning-view"></a>Planavimo rodinys
 
-Planavimo rodinyje rodomas suplanuotas arba pradinis grafiko ir savikainos informacijos įvertinimas. Nors funkcijų, skirtų projekto WBS versijai ir pagrindui sekti, nėra, šios rodinio reikšmės yra skirtos vaizduoti pagrindinę versiją. Šio straipsnio skyriuose Grafiko įvertinimas ir išlaidų įvertinimas aprašomas šis rodinys ir kaip jis naudojamas WBS kurti.
+Planavimo rodinyje rodomas suplanuotas arba pradinis grafiko ir savikainos informacijos įvertinimas. Nors funkcijų, skirtų projekto WBS versijai ir pagrindui sekti, nėra, šios rodinio reikšmės yra skirtos vaizduoti pagrindinę versiją. Šio straipsnio grafiko įvertinimo ir savikainos įvertinimo skyriuose aprašomas šis rodinys ir jo naudojimas kuriant WBS.
 
 ### <a name="effort-tracking-view"></a>Pastangų sekimo rodinys
 

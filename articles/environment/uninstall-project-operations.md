@@ -1,6 +1,6 @@
 ---
 title: „Dynamics 365 Project Operations“ šalinimas
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip pašalinti Dynamics 365 Project Operations.
+description: Šiame straipsnyje pateikiama informacija apie „Dynamics 365 Project Operations“ pašalinimą.
 author: stsporen
 ms.date: 11/09/2021
 ms.topic: article
@@ -35,8 +35,8 @@ Jeigu norite pašalinti „Dynamics 365 Project Operations”, jums turi būti p
     | 6 | ProjectServiceCore_Patch                           | Papildomų pastabų nėra.                                                                         |
     | 7 | ProjectServiceCore                                 | Papildomų pastabų nėra.                                                                         |
     | 8 | ProjectServiceDeprecatedComponents                 | Jeigu neradote šio sprendimo, jį praleiskite.                                                            |
-    | 9 | Field Service Common                                 | Reikalingas dvigubam rašymui su Dynamics 365 Finance arba Dynamics 365 Supply Chain Management.   |
-    | 10 | msdyn_AssetCommon                                  | Reikalingas dvigubam rašymui su Dynamics 365 Finance arba Dynamics 365 Supply Chain Management.   |
+    | 9 | Field Service Common                                 | Privaloma, norint naudoti dvigubo rašymo funkciją programose „Dynamics 365 Finance“ ar „Dynamics 365 Supply Chain Management“.   |
+    | 10 | msdyn_AssetCommon                                  | Privaloma, norint naudoti dvigubo rašymo funkciją programose „Dynamics 365 Finance“ ar „Dynamics 365 Supply Chain Management“.   |
     | 11 | msdyn_TESA_Anchor                                  | Privaloma „Dynamics 365 Field Service”.                                                     |
     | 12 | msdyn_TESA_Patch                                   | Privaloma „Dynamics 365 Field Service”.                                                     |
     | 13 | msdyn_TESA                                         | Privaloma „Dynamics 365 Field Service”.                                                     |

@@ -1,6 +1,6 @@
 ---
 title: Kelių klientų tvarkymas projektu pagrįstose pasiūlymo eilutėse – „Lite“ versija
-description: Šiame straipsnyje aprašoma, kaip valdyti kelis klientus projekto pasiūlymo eilutėse.
+description: Šiame straipsnyje paaiškinama, kaip valdyti kelis klientus projektu pagrįsto pasiūlymo eilutėse.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article

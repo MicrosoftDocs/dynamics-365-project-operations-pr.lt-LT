@@ -1,6 +1,6 @@
 ---
 title: Kas nauja arba pakeista „Project Service Automation“ V3 43 atnaujintame leidime
-description: Šiame straipsnyje išvardijamos funkcijos ir pataisymai, kuriuos galima rasti 43 naujinimo leidime Microsoft Dynamics 365 Project Service Automation, V3.
+description: Šiame straipsnyje išvardytos funkcijos ir pataisos, įtrauktos į „Microsoft Dynamics 365 Project Service Automation“ V3 43 atnaujintą leidimą.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 05/04/2022
@@ -27,9 +27,9 @@ ms.locfileid: "8915332"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Norime pranešti apie naujausią programos Microsoft Dynamics 365 Project Service Automation naujinimą. Šiame leidime yra kai kurių svarbių kokybės, veikimo ir naudojimo patobulinimų. Jis suderinamas su "Dynamics 365 9.x". Norėdami atnaujinti į šį leidimą, apsilankykite „Dynamics 365 Online“ sprendimų administravimo centro puslapyje ir įdiekite naujinimą. Daugiau informacijos žr. [Pageidaujamo sprendimo diegimas, naujinimas arba šalinimas](/power-platform/admin/install-remove-preferred-solution).
+Norime pranešti apie naujausią programos Microsoft Dynamics 365 Project Service Automation naujinimą. Šiame leidime yra kai kurių svarbių kokybės, veikimo ir naudojimo patobulinimų. Ji suderinama su „Dynamics 365 9.x“. Norėdami atnaujinti į šį leidimą, apsilankykite „Dynamics 365 Online“ sprendimų administravimo centro puslapyje ir įdiekite naujinimą. Daugiau informacijos žr. [Pageidaujamo sprendimo diegimas, naujinimas arba šalinimas](/power-platform/admin/install-remove-preferred-solution).
 
-Šiame straipsnyje išvardijamos naujos arba pakeistos "Project Service Automation Update Release 43, V3" funkcijos ir taisymai. Šios versijos komponavimo versijos numeris yra V3.10.74.200 ir ji paprastai pasiekiama savaiminiu naujinimu, vykdytu 2022 m. gegužės mėn.
+Šiame straipsnyje išvardytos funkcijos ir pataisymai, kurie yra nauji arba pakeisti „Project Service Automation“ V3 43 atnaujintame leidime. Šios versijos komponavimo versijos numeris yra V3.10.74.200 ir ji paprastai pasiekiama savaiminiu naujinimu, vykdytu 2022 m. gegužės mėn.
 
 ## <a name="update-release-43"></a>43 atnaujintas leidimas
 
@@ -40,6 +40,6 @@ Buvo pataisytos tolesnės problemos.
 
 **Laikas ir išlaidos**
 
-- Importuojant laiko įrašus iš užsakymų ar išteklių priskyrimų, nuoroda į susijusį rezervuojamą išteklių nėra tvarkoma.
-- Kai laiko įvedimo tinklelis išplečiamas iki viso ekrano, naršymas tinklelyje su skirtuko klavišu neveikia.
-- Pateikiant kito vartotojo sukurtą laiko įrašą, laukas **Pateikta pagal** neteisingai užpildomas vartotoju, sukūrusiu tabelį.
+- Importuojant laiko įrašus iš rezervavimų arba išteklių priskyrimų, nuoroda į susijusius rezervuojamus išteklius neišsilaikoma.
+- Kai laiko įvesties tinklelis išplečiamas į visą ekraną, tinklelio naršymas naudojant tabuliavimo klavišą neveikia.
+- Pateikiant kito vartotojo sukurtą laiko įrašą lauke **Pateikta** neteisingai įrašomas laiko aprašą sukūrusis vartotojas.

@@ -1,6 +1,6 @@
 ---
 title: Projektu pagrįstos sutarties eilutės įvertinimas – „Lite“ versija
-description: Šiame straipsnyje pateikiama informacija apie projekto sutarties eilutės įvertinimą.
+description: Šiame straipsnyje pateikta informacija apie projektu pagrįstos sutarties eilutės įvertinimą.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article

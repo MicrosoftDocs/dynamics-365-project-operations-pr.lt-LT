@@ -1,6 +1,6 @@
 ---
-title: "\"Project Operations Team Member\" programa"
-description: Šiame straipsnyje pateikiama informacija apie "Project Operations Team Member" programą programoje "Microsoft"Dynamics 365 Project Operations.
+title: „Project Operations“ komandos narių programa
+description: Šiame straipsnyje pateikiama informacija apie „Project Operations“ komandos narių programą „Microsoft Dynamics 365 Project Operations“.
 author: stsporen
 ms.date: 04/20/2022
 ms.topic: article
@@ -22,20 +22,20 @@ ms.contentlocale: lt-LT
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8918230"
 ---
-# <a name="project-operations-team-member-app"></a>"Project Operations Team Member" programa
+# <a name="project-operations-team-member-app"></a>„Project Operations“ komandos narių programa
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
-"Project Operations Team Member" programa (anksčiau vadinta "Project Resource Hub") apima visas galimybes, kurias "Microsoft" Dynamics 365 Project Operations siūlo komandos narių vartotojo licencijai.
+Į „Project Operations“ komandos narių programą (anksčiau vadintą projektų išteklių telkiniu) įtrauktos visos galimybės, kurias „Microsoft Dynamics 365 Project Operations" siūlo komandos narių vartotojo licencijai.
 
-Štai keletas "Project Operations Team Member" programos galimybių:
+Toliau pateiktos kelios „Project Operations“ komandos narių programos galimybės:
 
 - Laiko įrašas
-- Išlaidų įrašas (Lite diegimas)
+- Išlaidų įrašas („Lite“ visuotinis diegimas)
 - Medžiagų naudojimas
 - Patvirtinimai
-- Išplėtimas (iki 15 subjektų)
+- Išplečiamumas (iki 15 objektų)
 
-Norėdami naudoti programą "Project Operations Team Member", turite turėti visą "Project Operations" licenciją arba "Dynamics Team" narių vartotojo licenciją. Daugiau informacijos apie licencijas ieškokite ["Dynamics 365" licencijavimo vadove](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409). "Project Operations Team Member" programai reikia įdiegti "Project Operations".
+Norėdami naudoti „Project Operations“ komandos narių programą, turite turėti pilną „Project Operations" licenciją arba „Dynamics" komandos narių vartotojo licenciją. Daugiau informacijos apie licencijas žr. [„Dynamics 365“ licencijavimo vadove](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409). „Project Operations“ komandos narių programai reikalingas visuotinis „Project Operations“ diegimas.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

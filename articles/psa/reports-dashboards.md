@@ -1,6 +1,6 @@
 ---
 title: Ataskaitų sritys
-description: Šiame straipsnyje pateikiama informacija apie ataskaitų sritis, įtrauktas į Dynamics 365 Project Service Automation.
+description: Šiame straipsnyje pateikta informacija apie ataskaitų teikimo ataskaitų sritis, įtrauktas į „Dynamics 365 Project Service Automation“.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

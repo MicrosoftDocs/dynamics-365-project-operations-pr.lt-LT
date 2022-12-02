@@ -1,6 +1,6 @@
 ---
 title: Atsargose nelaikomų medžiagų ir laukiančių tiekėjo sąskaitų faktūrų konfigūravimas
-description: Šiame straipsnyje paaiškinama, kaip įgalinti nelaikomas medžiagas ir laukiančias tiekėjo SF.
+description: Šiame straipsnyje paaiškinta, kaip įjungti atsargose nelaikomų medžiagų ir laukiančių tiekėjo sąskaitų faktūrų naudojimo galimybę.
 author: sigitac
 ms.date: 06/22/2021
 ms.topic: article
@@ -27,12 +27,12 @@ Norint „Dynamics 365 Project Operations“ atsargose nelaikomų medžiagų / 
 - „Project Operations“ – 4.9.0.221 arba naujesnė
 - Dvigubo rašymo programų tvarkymo sprendimas – 2.2.2.23 arba naujesnė
 
-Dynamics 365 Finance:
+„Dynamics 365 Finance“:
 - 10.0.18 (10.0.793.52) arba naujesnė. Siekdami atitikti minimalių versijų reikalavimus, įsitikinkite, kad jūsų „Finance“ aplinka yra naujausia ir kad pritaikyti visi kokybės naujinimai.
 
 ## <a name="run-dual-write-maps-for-non-stocked-materials-and-vendor-invoice-integration"></a>Atsargose nelaikomų medžiagų dvigubo rašymo schemų vykdymas ir tiekėjų sąskaitų faktūrų integravimas
 
-Šiame skyriuje pateikiama informacija apie konkrečias schemas, kurias reikia naudoti su atsargose nelaikomomis medžiagomis ir tiekėjų sąskaitomis faktūromis. Patikrinkite, ar jūsų aplinkoje veikia būtinųjų sąlygų žemėlapiai, [išvardyti straipsnyje Provision a nauja aplinka](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps).
+Šiame skyriuje pateikiama informacija apie konkrečias schemas, kurias reikia naudoti su atsargose nelaikomomis medžiagomis ir tiekėjų sąskaitomis faktūromis. Patikrinkite, ar jūsų aplinkoje veikia būtinosios schemos, išvardytos straipsnyje [Naujos aplinkos konfigūravimas](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 1. Nueikite į „Lifecycle Services“ (LCS), pereikite prie savo LCS projekto ir nueikite į puslapį **Išsami aplinkos informacija**.
 2. Skyriuje **„Common Data Service“ aplinkos informacija** pasirinkite **Susieti su CDS programoms**. Pasirinkus saitą būsite nukreipti į susiejimų objektų sąrašą.

@@ -1,6 +1,6 @@
 ---
 title: Sąskaitos faktūros grafikų kūrimas projektu pagrįstoje sutarties eilutėje – „Lite“ versija
-description: Šiame straipsnyje pateikiama informacija apie SF tvarkaraščių ir etapų kūrimą.
+description: Šiame straipsnyje pateikta informacija apie sąskaitų faktūrų grafikų ir etapų kūrimą.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article

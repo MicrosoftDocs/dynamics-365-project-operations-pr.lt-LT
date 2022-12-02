@@ -1,6 +1,6 @@
 ---
 title: Planavimo pagalbinės priemonės apžvalga
-description: Šiame straipsnyje pateikiama informacija apie darbą su planavimo asistentu, kad būtų galima rezervuoti išteklius.
+description: Šiame straipsnyje pateikta informacija, kaip naudojant planavimo pagalbinę priemonę rezervuoti išteklius.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview

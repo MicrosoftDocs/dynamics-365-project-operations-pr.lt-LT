@@ -1,6 +1,6 @@
 ---
 title: Priedo atributų atnaujinimas siekiant įtraukti naujas kainodaros dimensijas
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip atnaujinti kainodaros dimensijų priedo atributus.
+description: Šiame straipsnyje pateikta informacijos, kaip atnaujinti priedo atributus, kad būtų galima naudoti kainodaros dimensijas.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
@@ -15,19 +15,19 @@ ms.locfileid: "8920024"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>Priedo atributų atnaujinimas siekiant įtraukti naujas kainodaros dimensijas
 
-Šiame straipsnyje pateikiama informacija apie tai, kaip atnaujinti kainodaros dimensijų priedo atributus.
+Šiame straipsnyje pateikta informacijos, kaip atnaujinti priedo atributus, kad būtų galima naudoti kainodaros dimensijas.
 
 > [!NOTE]
-> Šis straipsnis taikomas tik citatos ir sutarties funkcijoms, esančioms programoje Dynamics 365 Project Operations.
+> Šis straipsnis taikomas tik „Dynamics 365 Project Operations“ pasiūlymo ir sutarties funkcijoms.
 
 ## <a name="prerequisites"></a>Būtinosios sąlygos
-Prieš atlikdami šiame straipsnyje nurodytus veiksmus, turite būti atlikę procedūras šiuose straipsniuose:
+Kad galėtumėte atlikti šiame straipsnyje nurodytus veiksmus, pirmiau turite būti užbaigę toliau nurodytuose straipsniuose aprašytas procedūras:
 
   - [Pasirinktinių laukų ir objektų kūrimas](create-custom-fields-entities-pricing-dimensions.md) 
   - [Pasirinktinių laukų įtraukimas į kainų sąranką ir operacijų objektus ](add-custom-fields-price-setup-transactional-entities.md)
   - [Pasirinktinių laukų kaip kainodaros dimensijų nustatymas](set-up-custom-fields-pricing-dimensions.md). 
   
-Jei dar nebaigėte šių procedūrų, užpildykite jas ir grįžkite į šį straipsnį.
+Jei neatlikote šių procedūrų, atlikite jas ir tada grįžkite į šį straipsnį.
 
 ## <a name="register-a-plug-in"></a>Priedo užregistravimas
 Kai puslapyje **Pasiūlymo eilutė** sukuriama projekto pasiūlymo eilutei skirta pasiūlymo eilutės informacija, sistema sukuria dvi įvertinimo eilutes. Viena įvertinimo eilutė skirta sąnaudoms, o kita eilutė – pardavimui. Tas pats taikoma projekto sutarties eilutėms.

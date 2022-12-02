@@ -24,7 +24,7 @@ ms.locfileid: "8683870"
 
 [!include [banner](../../includes/banner.md)]
 
-Projekto etapai gali būti naudojami kaip projekto ciklo vadovas. Galite apibrėžti projekto etapus, kuriuos norite įtraukti į projektus, puslapio Projekto valdymo ir apskaitos parametrai srityje Projekto etapas. Dynamics 365 Finance pateikia penkis iš anksto nustatytus projekto etapus ir tris vartotojo apibrėžtus etapus. Galite atnaujinti projekto etapo, kurį naudojate sekdami projektų vykdymo eigą, pavadinimą. Taip pat galite pateikti vartotojo nustatytų būsenos pavadinimų pavadinimus. Šioje užduotyje parodoma, kaip pervardyti arba modifikuoti projekto etapą; be to, joje naudojamas USSI duomenų rinkinys.
+Projekto etapai gali būti naudojami kaip projekto ciklo vadovas. Galite apibrėžti projekto etapus, kuriuos norite įtraukti į projektus, puslapio Projekto valdymo ir apskaitos parametrai srityje Projekto etapas. „Dynamics 365 Finance“ pateikiami penki iš anksto nustatyti projekto etapai ir trys vartotojo nustatyti etapai. Galite atnaujinti projekto etapo, kurį naudojate sekdami projektų vykdymo eigą, pavadinimą. Taip pat galite pateikti vartotojo nustatytų būsenos pavadinimų pavadinimus. Šioje užduotyje parodoma, kaip pervardyti arba modifikuoti projekto etapą; be to, joje naudojamas USSI duomenų rinkinys.
 
 1. Eikite į Projektų valdymas ir apskaita > Sąranka > Projektų valdymo ir apskaitos parametrai.
 2. Spustelėkite skirtuką Projekto etapas.

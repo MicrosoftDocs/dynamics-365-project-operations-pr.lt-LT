@@ -1,6 +1,6 @@
 ---
 title: Federalinių subsidijų tyrimo išlaidų grafikas
-description: Šiame straipsnyje pateikiama informacija apie federalinių apdovanojimų išlaidų sąrašo tyrimą.
+description: Šiame straipsnyje pateikta informacija apie federalinių subsidijų tyrimo išlaidų grafiką.
 author: velofog
 ms.date: 04/2/2020
 ms.topic: article

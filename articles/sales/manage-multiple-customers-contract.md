@@ -1,6 +1,6 @@
 ---
 title: Kelių klientų valdymas projekto sutartyse
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip valdyti kelis klientus pagal projekto sutartį.
+description: Šiame straipsnyje pateikiama informacijos, kaip tvarkyti kelis klientus projekto sutartyje.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
@@ -15,7 +15,7 @@ ms.locfileid: "8928350"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>Kelių klientų valdymas projekto sutartyse
 
-Šiame straipsnyje pateikiama informacija apie tai, kaip valdyti kelis klientus pagal projekto sutartį. Galite naudoti projekto sutartį, kai siekiant finansuoti sandorį reikia sudaryti sutartį su keliais klientais. Puslapio **Projekto sutartis** skirtuke **Suvestinė** pateikiama informacija apie pirminį sandorio klientą. Kitus klientus, dalyvaujančius sandoryje, galima pridėti skirtuke **Klientai**.
+Šiame straipsnyje pateikiama informacijos, kaip tvarkyti kelis klientus projekto sutartyje. Galite naudoti projekto sutartį, kai siekiant finansuoti sandorį reikia sudaryti sutartį su keliais klientais. Puslapio **Projekto sutartis** skirtuke **Suvestinė** pateikiama informacija apie pirminį sandorio klientą. Kitus klientus, dalyvaujančius sandoryje, galima pridėti skirtuke **Klientai**.
 
 Visi sutarties klientai, esantys projekto sutarties skirtuke **Klientai**, nustatomi kaip numatytieji sutarties eilutės klientai visose naujose projektu pagrįstos sutarties eilutėse, skirtose projekto sutarčiai. Jokios esamos projektu pagrįstos sutarties eilutės nebus pakeistos naujais sutarties klientų įrašais, kurie sukuriami vėliau.
 
