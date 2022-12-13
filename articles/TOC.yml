@@ -62,10 +62,14 @@
           href: environment/uninstall-project-operations.md
     - name: Kas nauja
       items:
-        - name: '2022 m. rugsėjo mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
-          href: whats-new/whats-new-sept-2022-resource-based.md
+        - name: '2022 m. lapkričio mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
+          href: whats-new/whats-new-nov-2022-resource-based.md
         - name: Archyvas
           items:
+            - name: '2022 m. spalio mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
+              href: whats-new/whats-new-oct-2022-resource-based.md
+            - name: '2022 m. rugsėjo mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
+              href: whats-new/whats-new-sept-2022-resource-based.md
             - name: '2022 m. rugpjūčio mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
               href: whats-new/whats-new-aug-2022-resource-based.md
             - name: '2022 m. liepos mėn. – „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams'
@@ -122,9 +126,9 @@
               href: sales/sales-currency.md
             - name: Organizaciniai vienetai
               href: sales/OrgUnits.md
-        - name: Projekto galimų klientų valdymas
+        - name: Projektu pagrįstų galimų klientų valdymas
           href: sales/manage-leads.md
-        - name: Projekto galimybių valdymas
+        - name: Valdykite projektais pagrįstas galimybes
           items:
             - name: Projekto galimybių valdymo apžvalga
               href: sales/manage-project-based-opportunities.md
@@ -132,13 +136,13 @@
               href: sales/opportunity-header.md
             - name: Projektu pagrįstų galimybių eilutės
               href: sales/project-based-lines.md
-            - name: Projekto pasiūlymų kūrimas iš galimybių
+            - name: Pasiūlymų kūrimas iš projekto galimybių
               href: sales/link-quotes-opportunities.md
-            - name: Projektu pagrįstų galimybių kopijavimas
+            - name: Projekto galimybių kopijavimas
               href: sales/copy-project-based-opportunity.md
             - name: Projekto galimybės uždarymas
               href: sales/close-opportunity.md
-        - name: Projekto pasiūlymų valdymas
+        - name: Projektu pagrįstų pasiūlymų valdymas
           items:
             - name: Projekto pasiūlymų valdymo apžvalga
               href: pro/sales/manage-quotes-sales.md
@@ -146,61 +150,59 @@
               href: sales/quotes-key-concepts.md
             - name: Projektu pagrįstų pasiūlymų antraščių informacija
               href: sales/quote-values-budget-limits-contract.md
-            - name: Kelių klientų valdymas projekto pasiūlyme
+            - name: Kelių klientų valdymas projektu pagrįstame pasiūlyme
               href: sales/manage-multiple-customers-quote.md
-            - name: Projektų kainoraščių valdymas pasiūlyme
+            - name: Projekto pasiūlymuose esantys projekto kainoraščiai
               href: pro/sales/manage-project-price-lists-sales.md
             - name: Projektu pagrįstos pasiūlymo eilutės
               items:
-                - name: Projektu pagrįstų pasiūlymo eilučių apžvalga
+                - name: Projekto pasiūlymo eilučių apžvalga
                   href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
                 - name: Kelių klientų valdymas projektu pagrįsto pasiūlymo eilutėse
                   href: sales/manage-multiple-customers-quote-line.md
-                - name: Projektų ir užduočių susiejimas su projektu pagrįsto pasiūlymo eilutėmis
+                - name: Projektų ir užduočių susiejimas su projekto pasiūlymo eilutėmis
                   href: pro/sales/mapping-projects-tasks-quote-line-sales.md
-                - name: 'Apmokestinamų komponentų, projektu pagrįsto pasiūlymo eilutėse, konfigūravimas'
+                - name: Apmokestinamų komponentų konfigūravimas projekto pasiūlymo eilutėse
                   href: pro/sales/configure-chargeable-components-quote-line-sales.md
-                - name: Apmokestinamų komponentų projekto pasiūlymo eilutėje konfigūravimas
-                  href: sales/configure-chargeable-quoteline.md
                 - name: Projekto pasiūlymo eilutės įvertinimas
-                  href: sales/create-estimate-quote-line.md
-                - name: Projekto įvertinimų importavimas į projektu pagrįsto pasiūlymo eilutę
-                  href: sales/import-estimate-quote-line.md
-                - name: Projektu pagrįstų pasiūlymo eilučių sąskaitų faktūrų grafikai
+                  href: pro/sales/create-estimate-quote-line-sales.md
+                - name: Įvertinimų importavimas iš projekto į projekto pasiūlymo eilutę
+                  href: pro/sales/import-estimate-project-quote-sales.md
+                - name: Projekto pasiūlymo eilučių sąskaitų faktūrų grafikai
                   href: sales/invoice-schedule-quote-line.md
             - name: Projekto pasiūlymų kopijavimas
               href: sales/lose-quote.md
             - name: Projekto pasiūlymo aktyvinimas ir peržiūra
               href: sales/activation-and-revision.md
-            - name: Projekto pasiūlymų uždarymas
+            - name: Projektu pagrįstų pasiūlymų uždarymas
               href: sales/win-quote.md
-        - name: Projekto sutarčių valdymas
+        - name: Projektu pagrįstų sutarčių valdymas
           items:
-            - name: Projekto sutarčių valdymo apžvalga
+            - name: Projekto sutarčių valdymas
               href: pro/sales/manage-contracts-sales.md
             - name: Unikalios projektu pagrįstų sutarčių sąvokos
               href: sales/contracts-key-concepts.md
             - name: Projektu pagrįstų sutarčių antraščių informacija
               href: sales/project-contract-settings.md
-            - name: Projekto kainoraščių valdymas projekto sutartyse
+            - name: Projekto kainoraščių valdymas projektu pagrįstose sutartyse
               href: sales/contracts-manage-project-price-lists.md
-            - name: Kelių klientų valdymas projekto sutartyse
+            - name: Kelių klientų valdymas projektu pagrįstose sutartyse
               href: sales/manage-multiple-customers-contract.md
             - name: Projektu pagrįstos sutarties eilutės
               items:
-                - name: Projektu pagrįstų sutarties eilučių apžvalga
+                - name: Projekto sutarties eilučių apžvalga
                   href: pro/sales/manage-contract-values-project-based-sales.md
                 - name: Kelių klientų valdymas projektu pagrįstose sutarties eilutėse
                   href: sales/manage-multiple-customers-contract-line.md
-                - name: Projektų ir užduočių susiejimas projekto sutarties eilutėje
+                - name: Projektų ir užduočių susiejimas su projekto sutarties eilute
                   href: pro/sales/mapping-projects-tasks-contract-line-sales.md
-                - name: Apmokestinamų komponentų projekto sutarties eilutei konfigūravimas
+                - name: Projekto sutarties eilutės apmokestinamų komponentų konfigūravimas
                   href: pro/sales/configure-chargeable-components-contract-line.md
-                - name: Projekto sutarties eilutės įvertinimas
+                - name: Projektu pagrįstos sutarties eilutės įvertinimas
                   href: sales/create-estimate-contract-line.md
-                - name: Projekto įvertinimų importavimas į projektu pagrįstą sutarties eilutę
-                  href: sales/import-estimate-project-contract-line.md
-                - name: Sąskaitos faktūros grafikų kūrimas projektu pagrįstose sutarties eilutėse
+                - name: Įvertinimų importavimas iš projekto į projekto sutarties eilutę
+                  href: pro/sales/import-estimate-project-contract-line-sales.md
+                - name: Sąskaitos faktūros grafikų kūrimas projektu pagrįstoje sutarties eilutėje
                   href: sales/invoice-schedules-contract-line.md
             - name: Projektu pagrįstų sutarčių kopijavimas
               href: sales/copy-project-based-contracts-sales.md
@@ -208,11 +210,11 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Avansai ir išankstiniai apmokėjimai
               items:
-                - name: Avansinės arba išankstiniais apmokėjimais pagrįstos sutartys
+                - name: Avansai arba išankstiniais apmokėjimais pagrįstos projekto sutartys
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
                 - name: Išankstinių apmokėjimų grafiko nustatymas
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: Ad hoc avanso kūrimas sutartyje
+                - name: Ad hoc avanso kūrimas projekto sutartyje
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Kainodara ir įkainojimas
       items:
@@ -642,7 +644,9 @@
           href: advanced-configuration/migrating-invoiced-milestones.md
         - name: 'Sinchronizuokite projekto būseną, kad neleistumėte patekti į uždarus projektus'
           href: advanced-configuration/sync-project-status.md
-    - name: Naujinimas
+        - name: Valiutos konvertavimo sąranka pardavimo kainoms apskaičiuoti pagal savikainos tarifus
+          href: advanced-configuration/currencyconversion.md
+    - name: Versijos naujinimas
       items:
         - name: Moderniųjų patvirtinimų naujinimo aspektai
           href: upgrade/upgrade-considerations-modern-approvals.md
@@ -664,7 +668,7 @@
           href: pro/project-operations-overview-lite.md
         - name: Registracija norint gauti peržiūros versijos prenumeratą – „Lite“ versija
           href: environment/lite-preview-subscription-sign-up.md
-        - name: „Project Operations“ visuotinis diegimas – „Lite“ versija
+        - name: „Project Operations“ „Lite“ versijos visuotinis diegimas
           href: environment/lite-deployment.md
         - name: Demonstracinės sąrankos ir konfigūracijos duomenų taikymas – „Lite“ versija
           href: environment/lite-apply-demo-setup-config-data.md
@@ -672,10 +676,14 @@
           href: environment/security-model.md
     - name: Kas nauja
       items:
-        - name: Kas nauja – 2022 m. rugsėjo mėn. – „Lite“ visuotinis diegimas
-          href: pro/whats-new/whats-new-sept-2022-lite.md
+        - name: Kas nauja – 2022 m. lapkričio mėn. – „Lite“ visuotinis diegimas
+          href: pro/whats-new/whats-new-nov-2022-lite.md
         - name: Archyvas
           items:
+            - name: Kas nauja – 2022 m. spalio mėn. – „Lite“ visuotinis diegimas
+              href: pro/whats-new/whats-new-oct-2022-lite.md
+            - name: Kas nauja – 2022 m. rugsėjo mėn. – „Lite“ visuotinis diegimas
+              href: pro/whats-new/whats-new-sept-2022-lite.md
             - name: Kas nauja – 2022 m. rugpjūčio mėn. – „Lite“ visuotinis diegimas
               href: pro/whats-new/whats-new-aug-2022-lite.md
             - name: Kas nauja – 2022 m. liepos mėn. – „Lite“ visuotinis diegimas
@@ -748,19 +756,19 @@
               href: pro/sales/project-based-lines-sales.md
             - name: Pasiūlymų kūrimas iš projekto galimybių
               href: sales/link-quotes-opportunities.md
-            - name: Projektu pagrįstų galimybių kopijavimas
+            - name: Projekto galimybių kopijavimas
               href: sales/copy-project-based-opportunity.md
             - name: Projekto galimybės uždarymas
               href: sales/close-opportunity.md
-        - name: Projektu pagrįstų pasiūlymų valdymas
+        - name: Projekto pasiūlymų valdymas
           items:
-            - name: Projektu pagrįstų pasiūlymų apžvalga
+            - name: Projekto pasiūlymų apžvalga
               href: pro/sales/manage-quotes-sales.md
             - name: Unikalios projekto pasiūlymų sąvokos
               href: pro/sales/quotes-key-concepts-sales.md
             - name: Projekto pasiūlymų antraščių informacija
               href: pro/sales/quote-values-budget-limits-contract-sales.md
-            - name: 'Keli klientai, esantys projekto pasiūlymuose'
+            - name: Kelių klientų valdymas projekto pasiūlymuose
               href: pro/sales/manage-multiple-customers-quote-sales.md
             - name: Projekto pasiūlymuose esantys projekto kainoraščiai
               href: pro/sales/manage-project-price-lists-sales.md
@@ -772,37 +780,37 @@
                   href: pro/sales/costing-product-based-quote-lines-sales.md
                 - name: Produktu pagrįstų pasiūlymo eilučių sudėtinių vienetų valdymas
                   href: pro/sales/managing-complex-units-product-based-quote-lines-sales.md
-            - name: Projektu pagrįstos pasiūlymo eilutės
+            - name: Projekto pasiūlymo eilutės
               items:
-                - name: Projektu pagrįstų pasiūlymo eilučių apžvalga
+                - name: Projekto pasiūlymo eilučių apžvalga
                   href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
-                - name: Kelių klientų valdymas
+                - name: Kelių klientų valdymas projekto pasiūlymo eilutėse
                   href: pro/sales/manage-multiple-customers-quote-line-sales.md
-                - name: Projektų ir užduočių susiejimas
+                - name: Projektų ir užduočių susiejimas su projekto pasiūlymo eilutėmis
                   href: pro/sales/mapping-projects-tasks-quote-line-sales.md
-                - name: Apmokestinamų komponentų konfigūravimas
+                - name: Apmokestinamų komponentų konfigūravimas projekto pasiūlymo eilutėse
                   href: pro/sales/configure-chargeable-components-quote-line-sales.md
-                - name: Projektu pagrįstos pasiūlymo eilutės įvertinimas
+                - name: Projekto pasiūlymo eilutės įvertinimas
                   href: pro/sales/create-estimate-quote-line-sales.md
-                - name: Įvertinimo importavimas iš projekto
+                - name: Įvertinimų importavimas iš projekto į projekto pasiūlymo eilutę
                   href: pro/sales/import-estimate-project-quote-sales.md
-                - name: Sąskaitos faktūros grafikų valdymas
+                - name: Projekto pasiūlymo eilučių sąskaitų faktūrų grafikai
                   href: sales/invoice-schedule-quote-line.md
-            - name: Projektu pagrįstų pasiūlymų kopijavimas
+            - name: Projekto pasiūlymų kopijavimas
               href: sales/lose-quote.md
             - name: Projekto pasiūlymo aktyvinimas ir peržiūra
               href: sales/activation-and-revision.md
-            - name: Projektu pagrįstų pasiūlymų uždarymas
+            - name: Projekto pasiūlymų uždarymas
               href: pro/sales/win-quote-sales.md
-        - name: Projektu pagrįstų sutarčių valdymas
+        - name: Projekto sutarčių valdymas
           items:
-            - name: Projektu pagrįstų sutarčių apžvalga
+            - name: Projekto sutarčių apžvalga
               href: pro/sales/manage-contracts-sales.md
             - name: Unikalios projekto sutarčių sąvokos
               href: pro/sales/contracts-key-concepts-sales.md
             - name: Projekto sutarčių antraščių informacija
               href: pro/sales/project-contract-settings-sales.md
-            - name: Projekto sutartyse esantys keli klientai
+            - name: Kelių klientų valdymas projekto sutartyse
               href: pro/sales/manage-multiple-customers-contract-sales.md
             - name: 'Projekto kainoraščiai, esantys projekto sutartyse'
               href: sales/contracts-manage-project-price-lists.md
@@ -814,21 +822,21 @@
                   href: pro/sales/cost-product-based-contract-lines-sales.md
                 - name: Produktu pagrįstų sutarties eilučių sudėtinių vienetų valdymas
                   href: pro/sales/manage-complex-units-product-based-contract-lines-sales.md
-            - name: Projektu pagrįstos sutarties eilutės
+            - name: Projekto sutarties eilutės
               items:
-                - name: Projektu pagrįstų sutarties eilučių apžvalga
+                - name: Projekto sutarties eilučių apžvalga
                   href: pro/sales/manage-contract-values-project-based-sales.md
-                - name: Kelių sutarties klientų valdymas
+                - name: Kelių klientų valdymas projekto sutartyse
                   href: pro/sales/manage-multiple-customers-contract-line-sales.md
                 - name: Projektų ir užduočių susiejimas su projekto sutarties eilute
                   href: pro/sales/mapping-projects-tasks-contract-line-sales.md
                 - name: Projekto sutarties eilutės apmokestinamų komponentų konfigūravimas
                   href: pro/sales/configure-chargeable-components-contract-line.md
-                - name: Projektu pagrįstos sutarties eilutės įvertinimas
+                - name: Projekto sutarties eilutės įvertinimas
                   href: pro/sales/create-estimate-project-contract-line-sales.md
                 - name: Įvertinimų importavimas iš projekto į projekto sutarties eilutę
                   href: pro/sales/import-estimate-project-contract-line-sales.md
-                - name: Projekto sutarties eilutės sąskaitos faktūros grafikų valdymas
+                - name: Projekto sutarties eilutės sąskaitos faktūros grafikų kūrimas
                   href: pro/sales/invoice-schedules-contract-line-sales.md
             - name: Projekto sutarčių kopijavimas
               href: pro/sales/copy-project-contracts-sales.md
@@ -836,11 +844,11 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Avansai ir išankstiniai apmokėjimai
               items:
-                - name: Išankstinės arba išankstiniais apmokėjimais pagrįstos sutartys – „Lite“ versija
+                - name: Avansai arba išankstiniais apmokėjimais pagrįstos sutartys
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Išankstinio apmokėjimo grafiko nustatymas – „Lite“ versija
+                - name: Išankstinių apmokėjimų grafiko nustatymasIšankstinių apmokėjimų grafiko nustatymas
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: Ad hoc avanso kūrimas sutartyje – „Lite“ versija
+                - name: Ad hoc avanso kūrimas projekto sutartyje
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Kainodara ir įkainojimas
       items:
@@ -1154,7 +1162,7 @@
           href: pro/proforma-invoicing/corrective-invoices-sales.md
         - name: Projekto sąskaitos faktūros automatizavimo konfigūravimas
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
-    - name: Naujinimas
+    - name: Versijos naujinimas
       items:
         - name: Moderniųjų patvirtinimų naujinimo aspektai
           href: upgrade/upgrade-considerations-modern-approvals.md
@@ -1188,10 +1196,12 @@
               href: whats-new/ur5-nonstocked-installation.md
     - name: Kas nauja
       items:
-        - name: 'Kas nauja – 2022 m. rugsėjo mėn. – „Project Operations“, skirta laikomų medžiagų / gamyba pagrįstiems scenarijams'
-          href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
+        - name: 'Kas nauja – 2022 m. spalio mėn. – „Project Operations“, skirta laikomų medžiagų / gamyba pagrįstiems scenarijams'
+          href: prod-pma/whats-new/whats-new-oct-2022-stocked.md
         - name: Archyvas
           items:
+            - name: 'Kas nauja – 2022 m. rugsėjo mėn. – „Project Operations“, skirta laikomų medžiagų / gamyba pagrįstiems scenarijams'
+              href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
             - name: 'Kas nauja – 2022 m. liepos mėn. – „Project Operations“, skirta laikomų medžiagų / gamyba pagrįstiems scenarijams'
               href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
             - name: 'Kas nauja – 2022 m. birželio mėn. – „Project Operations“, skirta laikomų medžiagų / gamyba pagrįstiems scenarijams'
@@ -1216,8 +1226,12 @@
               href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
     - name: '„Project Operations“, skirtos laikomų medžiagų / gamyba pagrįstiems scenarijams, visuotinio diegimo apžvalga'
       href: prod-pma/project-operations-prod-order-deployment-overview.md
-    - name: Projektų valdymo ir apskaitos apžvalga
-      href: prod-pma/overview-project-management-accounting.md
+    - name: Projekto apskaita
+      items:
+        - name: Projektų valdymo ir apskaitos apžvalga
+          href: prod-pma/overview-project-management-accounting.md
+        - name: Projekto koregavimai
+          href: project-accounting/project-adjustments.md
     - name: Projekto pardavimo procesas
       items:
         - name: Projekto pasiūlymai
