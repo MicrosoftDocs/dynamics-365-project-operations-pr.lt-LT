@@ -1,31 +1,29 @@
 ---
-title: Galimų klientų valdymas
+title: Projektu pagrįstų potencialių klientų valdymas
 description: Šiame straipsnyje pateikta informacija apie projektu pagrįstų galimų klientų valdymą.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 080f53ee2f800b8433d055525852f5c2e21aab77
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2e1ea2ade5302427c02b271cd5d595206b137bd7
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8920208"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825810"
 ---
-# <a name="manage-leads"></a>Galimų klientų valdymas
+# <a name="manage-project-based-leads"></a>Projektu pagrįstų potencialių klientų valdymas
 
 _**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
 Projektu pagrįstus galimus klientus galima tvarkyti ir kvalifikuoti „Project Operations“. Galimų klientų valdymo procesas apima darbu pagrįstų galimų klientų kūrimą ir jų patvirtinimą. 
 
-## <a name="project-sales-leads"></a>Projektu pagrįsti galimi klientai
-
 Skyrius **Pardavimas**, esantis kairiojoje naršymo srityje, atidaro sąrašo **Galimi klientai** puslapį, kur galima peržiūrėti visų sistemos galimų klientų įrašų sąrašą. Rodomą galimų klientų sąrašą sudaro darbu pagrįsti ir kitų tipų galimi klientai, kuriuos galima sukurti, jei turite „Dynamics 365 Sales“ arba „Dynamics 365 Field Service“ programą.
 
 Galite sukurti filtruotą rodinį, kad matytumėte tik projektu pagrįstus galimus klientus, sukurdami filtrą reikšmėje **Tipas**. Pavyzdžiui, galite pasirinkti, kad būtų rodomi tik darbu pagrįsti galimi klientai.
 
-## <a name="create-a-new-lead-for-a-project-based-deal"></a>Naujo galimo kliento, skirto projektu pagrįstam sandoriui, kūrimas
+## <a name="create-a-new-project-based-lead"></a>Naujo projektinio potencialaus kliento kūrimas 
 
 Kai projektu pagrįstas galimas klientas yra kvalifikuotas, sukuriama galimybė ir klientas. Projektu pagrįsta galimybė yra pradinis su pardavimu susijusios veiklos galimybių etape taškas. Projektu pagrįstos galimybės turi unikalių galimybių, reikalingų pardavimo projekto darbui. Šios galimybės apima:
 

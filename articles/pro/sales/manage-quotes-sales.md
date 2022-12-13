@@ -6,12 +6,12 @@ ms.date: 10/26/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b9dad9ab9b6cef11ad337f9c3f536fe467b6a347
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 79da23d83133241204eaad44e39e64c5c6a1591d
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911652"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826092"
 ---
 # <a name="manage-project-quotes"></a>Projektų pasiūlymų valdymas
 
@@ -23,7 +23,7 @@ Programoje „Dynamics 365 Project Operations“ projekto pasiūlymai kuriami pa
   - Pasiūlymo eilutės išsami informacija, kuria nustatomas ir įvertinamas kiekvieno aukšto lygio komponento arba pasiūlymo eilutės darbas. Darbo grafiko arba datos sąmatos ir finansiniai aspektai susiejami su šia pasiūlymo eilute.
   - Sutarties sudarymo modeliai ir apmokestinami komponentai nustatomi kiekvienai pasiūlymo eilutei. Šį sąranka padeda įvertinti kiekvienos pasiūlymo eilutės ir bendrą pasiūlymo pajamų, išlaidų ir pelningumo pasiskirstymą.
 
-## <a name="view-all-project-based-quotes"></a>Visų projektu pagrįstų pasiūlymų peržiūra
+## <a name="view-all-project-quotes"></a>Peržiūrėti visus projekto pasiūlymus
 
 Visų projekto pasiūlymų sąrašą galite matyti sąrašo puslapyje **Pasiūlymai**. 
 

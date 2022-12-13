@@ -1,32 +1,32 @@
 ---
-title: Projektu pagrįstos sutarties eilutės įvertinimas – „Lite“ versija
+title: Įvertinkite projec sutarties eilutę
 description: Šiame straipsnyje pateikta informacija apie projektu pagrįstos sutarties eilutės įvertinimą.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8b4379cc5822d08b55623f0f3d4d49791af90927
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 86872aa58067f55243fa19dc865971f76660f594
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914412"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824778"
 ---
-# <a name="estimate-a-projectbased-contract-line---lite"></a>Projektu pagrįstos sutarties eilutės įvertinimas – „Lite“ versija
+# <a name="estimate-a-project-contract-line"></a>Projekto sutarties eilutės įvertinimas
 
 _**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
 
-Naudodami „Dynamics 365 Project Operations“, projektu pagrįstoje sutarties eilutėje pateikiama išsami informacija, kuri padeda įvertinti susijusio darbo savikainą ir potencialias pajamas sutarties eilutei pateikti.
+Projekto Dynamics 365 Project Operations sutarties eilutėje yra išsami informacija, padedanti įvertinti darbo, susijusio su sutarties eilutės pristatymu, išlaidas ir galimas pajamas.
 
-Norėdami įvertinti projektu pagrįstą sutarties eilutę, nueikite į projektu pagrįstos **sutarties eilutės** skirtuką **Sutarties eilutės informacija**.  Yra du tolesni būdai, kaip įvertinti projektu pagrįstą sutarties eilutę.
+Norėdami įvertinti projekto sutarties eilutę, eikite į **skirtuką Sutarties eilutės informacija**, esantį projektinėje **sutarties eilutėje**.  Yra du tolesni būdai, kaip įvertinti projektu pagrįstą sutarties eilutę.
 
    - Įvertinimą sukurkite tiesiai sutarties eilutėje, rankiniu būdu įtraukdami sutarties eilutės informaciją.
    - Sukurkite projektą ir projekto planą bei susiekite projektą ir užduotis su projekto sutarties eilute. Tokiu būdu galite importuoti projekto plano sąmatą į sutarties eilutę pagal sutarties eilutėje esančius komponentus.
 
 ## <a name="create-an-estimation-directly-on-a-projectbased-contract-line"></a>Sąmatos kūrimas tiesai projektu pagrįstoje sutarties eilutėje
 
-Norėdami įvertinimą sukurti tiesiai projektu pagrįstoje sutarties eilutėje, atlikite toliau nurodytus veiksmus.
+Norėdami sukurti įvertinimą tiesiogiai projekto sutarties eilutėje, atlikite šiuos veiksmus:
 
 1. Nueikite į sutarties eilutę ir pasirinkite skirtuką **Sutarties eilutės informacija**. Šiame skirtuke sukurtos eilutės yra apibendrinamos ir rodomos kaip šios **sutarties eilutės** **sutarties reikšmė**. 
 2. Papildomame tinklelyje **Sutarties eilutės informacija** pasirinkite **Nauja sutarties eilutės informacija**. Atidaromas sparčiojo kūrimo slankiklis. Toliau nurodytus laukus galima rasti sutarties puslapyje **Sutarties eilutės išsami informacija**.

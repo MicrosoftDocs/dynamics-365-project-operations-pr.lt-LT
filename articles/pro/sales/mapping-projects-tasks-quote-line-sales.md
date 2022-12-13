@@ -1,23 +1,23 @@
 ---
-title: Susieti projektus ir užduotis su projektu pagrįsta pasiūlymo eilute
-description: Šiame straipsnyje pateikiama informacija apie tai, kaip susieti projektus ir užduotis su projekto užduočių eilute.
+title: Projektų ir užduočių susiejimas su projekto pasiūlymo eilutėmis
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip susieti projektus ir užduotis su projekto pasiūlymo eilutėmis.
 author: rumant
 ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8971a334bd19f0ef106f88034a1abbb3c338de22
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b276e7fb6ec8b98188c9396aca5092d19848afcc
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917172"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824357"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>Susieti projektus ir užduotis su projektu pagrįsta pasiūlymo eilute
+# <a name="map-projects-and-tasks-to-project-quote-lines"></a>Projektų ir užduočių susiejimas su projekto pasiūlymo eilutėmis
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
-Projektais pagrįstų pasiūlymų eilutėse galite susieti konkrečias projekto užduotis, kurios jau susietos su pasiūlymo eilute.
+Projekto pasiūlymo eilutėse galite susieti konkrečias projekto, kuris jau susietas su pasiūlymo eilute, užduotis.
 
 Kai susiejate užduotis su pasiūlymo eilute, toliau nurodyti elementai, kuriuos nurodėte pasiūlymo eilutėje, taikomi tik šioms užduotims:
 

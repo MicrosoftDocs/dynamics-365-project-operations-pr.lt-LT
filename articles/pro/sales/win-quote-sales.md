@@ -1,5 +1,5 @@
 ---
-title: Pasiūlymo uždarymas – „Lite“ versija
+title: Projekto pasiūlymų uždarymas
 description: Šiame straipsnyje pateikta informacija apie „Project Operations“ pasiūlymo uždarymą.
 author: rumant
 ms.date: 10/01/2020
@@ -7,14 +7,14 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: e3a199843f379dc53d63372f91e8be2e1bcbf4e9
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 4335fa5467640af840c0f68a648c9b8a6864d834
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916942"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826186"
 ---
-# <a name="close-a-quote---lite"></a>Pasiūlymo uždarymas – „Lite“ versija
+# <a name="close-project-quotes"></a>Projekto pasiūlymų uždarymas
 
 _**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
 
@@ -30,7 +30,7 @@ Jei pasiūlymas pridedamas prie galimybės, kiti projekto pasiūlymai dėl galim
 
 Jei prie pasiūlymo juodraščio projekto faktinių duomenų projekto metu yra faktinių duomenų, įrašoma tik laiko arba išlaidų kaina. Kai pasiūlymas uždaromas kaip laimėtas, programa restruktūrizuos išlaidas atšaukdama senesnius išlaidų faktinius duomenis ir iš naujo sukurdama naujus išlaidų faktinius duomenis. Programa apdoros šiuos išlaidų faktinius duomenis pagal susietos projekto sutarties eilutės atsiskaitymo metodą. Jei išlaidų faktiniai duomenys nurodo laiką ir medžiagos sutarties eilutę, uždarius pasiūlymą ir sukūrus projekto sutartį sukuriami atitinkami pardavimo, už kurį neišrašyta SF, faktiniai duomenys. Jei išlaidų faktiniai duomenys nuoro fiksuotos kainos sutarties eilutę, programa sustabdys išlaidų faktinių duomenų, pagrįstų projekto sutarties klientų atsiskaitymo taisyklėmis, apdorojimą.
 
-## <a name="closing-a-quote-as-lost"></a>Pasiūlymo uždarymas kaip pralaimėto:
+## <a name="closing-a-quote-as-lost"></a>Citatos uždarymas kaip prarastos
 
 Kai uždarote projekto pasiūlymą kaip pralaimėtą, būsena nustatoma į uždarytą, o būsenos tipas yra pralaimėtas. Uždarius pasiūlymą projekto pasiūlymas yra tik skaitomas. Kadangi uždaryto pasiūlymo atidaryti iš naujo negalima, prieš uždarant pasiūlymą pateikiamas patvirtinimo dialogo langas, kuriame reikės patvirtinti keitimus.
 

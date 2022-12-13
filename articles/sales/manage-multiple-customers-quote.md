@@ -1,23 +1,23 @@
 ---
-title: Kelių klientų tvarkymas projekto pasiūlyme
+title: Kelių klientų valdymas naudojant projektu pagrįstą pasiūlymą
 description: Šiame straipsnyje pateikta informacija apie darbą su pasiūlymais, apimančiais kelis klientus, kurie finansuos projektą.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 16cd07527fddd093748a18c1f7c900c8b32be85d
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7b9c82ababdb9a588a0d28cae60a49d0594378d9
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928212"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825159"
 ---
-# <a name="manage-multiple-customers-on-a-project-quote"></a>Kelių klientų tvarkymas projekto pasiūlyme
+# <a name="manage-multiple-customers-on-a-project-based-quote"></a>Kelių klientų valdymas naudojant projektu pagrįstą pasiūlymą
 
-_**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
+_**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
-Projekto pasiūlymai palaiko scenarijų, kai pasiūlymas apima kelis klientus, kurie finansuos sandorį. Pasiūlymo skirtuke **Suvestinė** yra laukas **Potencialus klientas**, kuris nustato pirminį sandorio klientą. Kitus sandėrio klientus galima nustatyti projekto pasiūlymo skirtuke **Klientai**.
+Projektais pagrįstos citatos palaiko scenarijų, kai pasiūlyme dalyvauja keli klientai, kurie finansuos sandorį. Pasiūlymo skirtuke **Suvestinė** yra laukas **Potencialus klientas**, kuris nustato pirminį sandorio klientą. Kitus sandėrio klientus galima nustatyti projekto pasiūlymo skirtuke **Klientai**.
 
 Visi pasiūlymo klientai, esantys projekto pasiūlymo skirtuke **Klientai** nustatomi kaip pasiūlymo eilutės klientai bet kuriose **naujo** projektu pagrįsto pasiūlyo eilutėse, sukurtose šiam pasiūlymui. Bet kokios esamos projektu pagrįsto pasiūlymo eilutės nepaveldės naujo pasiūlymo klientų įrašų, sukurtų po jų.
 

@@ -1,8 +1,8 @@
 ---
-title: Pasiūlymai – pagrindinės sąvokos
-description: Šiame straipsnyje pateikta informacija apie projektų ir pardavimų pasiūlymus, prieinamus programoje „Project Operations“.
+title: Unikalios sąvokos projektu pagrįstiems pasiūlymams
+description: Šiame straipsnyje pateikiama informacija apie projektų pasiūlymus "Microsoft" Dynamics 365 Project Operations.
 author: rumant
-ms.date: 09/18/2020
+ms.date: 12/02/2022
 ms.topic: article
 ms.prod: ''
 audience: Application User
@@ -15,117 +15,91 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c0598b9ec276741f1f62e0cfc1717a3fd622cd7c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 89867cfbe92f47d58b16da40b62d3d9dd6a15b64
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912526"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824338"
 ---
-# <a name="concepts-unique-to-project-based-quotes"></a>Unikalios projektu pagrįstų pasiūlymų sąvokos
+# <a name="concepts-unique-to-project-based-quotes"></a>Unikalios sąvokos projektu pagrįstiems pasiūlymams
 
-_**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
+_**Taikoma:** „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
-Programoje „Dynamics 365 Project Operations“ naudojami dviejų tipų pasiūlymai: projekto pasiūlymai ir pardavimo pasiūlymai. Šių pasiūlymų dviejų tipų skirtumai išvardyti toliau.
+Prieš pradėdami naudoti projekto pasiūlymus "Microsoft", Dynamics 365 Project Operations turėtumėte žinoti šias pagrindines sąvokas.
 
-- **Tinkleliai eilutės elementams**: pardavimo pasiūlymuose yra tik vienas tinklelis eilutės elementams. Projekto pasiūlyme yra du eilučių elementų tinkleliai. Vienas tinklelis skirtas projektų eilutėms, o kitas – produktų eilutėms.
-- **Aktyvinimas ir peržiūrėjimas** – pardavimo pasiūlymus galima aktyvuoti ir peržiūrėti. Šie procesai nepalaikomi projekto pasiūlyme.
-- **Pridėti užsakymai** – į pardavimo pasiūlymą galima įtraukti keletą užsakymų. Į projekto pasiūlymą galima įtraukti tik vieną projekto sutartį.
-- **Pasiūlymo laimėjimas** – kai laimite pardavimo pasiūlymą, susijusi galimybė gali likti atvira. Laimėjus projekto pasiūlymą, susijusi galimybė uždaroma.
-- **Laukai ir sąvokos** – pardavimo pasiūlyme nėra kai kurių laukų ir sąvokų, įtrauktų į projekto pasiūlymą. Šie laukai yra **Sutartį pasirašantis vienetas**, **Klientų vadybininkas** ir **Sąskaitų gavėjo kontakto vardas**.  
-- **Tipas** – pardavimo pasiūlymai ir projekto pasiūlymai taip pat identifikuojami pagal parinkčių rinkiniu grindžiamą lauką **Tipas**. Pardavimo pasiūlyme šio lauko reikšmė yra **Pagrįstas prekėmis**. Projekto pasiūlyme jo reikšmė yra **Pagrįstas darbais**.
+## <a name="owning-company"></a>Valdančioji įmonė
 
-Šiame straipsnyje pagrindinis dėmesys skiriamas projekto pasiūlymų informacijai.
+Nuosavybės įmonė atstovauja juridiniam asmeniui, kuriam priklauso projekto pristatymas. Pasiūlyme nurodytas klientas turi būti galiojantis klientas tame "finance and operations" programų juridiniame subjekte. Turi sutapti valdančios įmonės valiuta ir sutarties vieneto valiuta, pasirinkta pagal projektu pagrįstą pasiūlymą.
 
-„Project Operations“ projekto pasiūlyme gali būti keli eilučių elementai arba pasiūlymo eilutės. Faktiškai projekto pasiūlyme yra du eilučių elementų tinkleliai. Vienas tinklelis skirtas projektu pagrįstoms eilutėms, kurias galima išsamiai įvertinti. Kitas tinklelis skirtas produktu pagrįstoms eilutėms, kurioms naudojamas tiesiog vieneto kaina ir kiekiu pagrįstas metodas.
+## <a name="contracting-unit"></a>Sutartį sudarantis vienetas
 
-- **Pagrįstas projektu** – siūloma vertė nustatoma įvertinus reikiamo darbo kiekį. Galite įvertinti darbo aukštą lygį tiesiogiai kaip eilutės išsamią informaciją po kiekvienos pasiūlymo eilutės arba pagal žemės sąmatą, naudodami projekto ir projekto planą. Projektu pagrįstas pasiūlymo eilutes galima rasti tik projekto pasiūlymuose, sukurtuose naudojant „Project Operations“. Šio tipo pasiūlymo eilutė yra pildomų pasiūlymo eilučių, esančių programoje „Microsoft Dynamics 365 Sales“, tinkinta forma.
+Sutarties vienetas atstovauja padaliniui ar praktikai, kuriai priklauso projekto pristatymas. Galite nustatyti kiekvieno sutarties vieneto išteklių savikainą. Kai nurodote išteklių išlaidas sutarties vienete, galite nustatyti skirtingus išlaidų tarifus ištekliams, iš kurių sutarties vienetas skolinasi, arba kitiems įmonės padaliniams ar praktikai. Šios išlaidų normos vadinamos sandorių kainomis, išteklių skolinimusi arba valiutų kainomis. Kai nustatote išteklių skolinimosi iš kitų padalinių kainą, galite nustatyti išlaidų normas skolinimo skyriaus valiuta.
 
-- **Pagrįstas produktu** – siūloma vertė nustatoma pagal parduotų vienetų kiekį ir produkto vieneto pardavimo kainą. Produktas, esantis produktu grindžiamoje eilutėje, gali būti produktas iš „Sales“ produktų katalogo arba tai gali būti jūsų nustatytas produktas. Šio tipo pasiūlymo eilutė taip pat galima projektu pagrįstuose pasiūlymuose, sukurtuose naudojant „Project Operations“.
+## <a name="cost-currency"></a>Savikainos valiuta
 
-Pasiūlymo suma – tai bendra produktu pagrįstų eilučių ir projektu pagrįstų eilučių suma.
+"Project Operations" savikainos valiuta yra valiuta, kuria išlaidos ataskaitos. Ši valiuta gaunama iš valiutos, kuri pridėta prie **pasiūlymo pasiūlymo, sutarties ir projekto lauko Sutarties vienetas** . Projekto išlaidos gali būti registruojamos bet kuria valiuta. Tačiau valiuta konvertuojama iš valiutos, kuria buvo įrašytos išlaidos, į projekto išlaidų valiutą.
 
-> [!NOTE]
-> Pasiūlymai ir pasiūlymo eilutės nėra būtini naudojant „Project Operations“. Projekto procesą galite pradėti nuo projekto sutarties (parduodamas projektas). Tačiau galimybė yra visada būtina, nepaisant to, ar pradedate nuo pasiūlymo ar projekto sutarties.
+Kadangi valiutų kursai Dataverse platformoje negali būti galiojantys pagal datą, ekrane rodomos bendros išlaidų sumos laikui bėgant gali keistis, jei atnaujinsite valiutos keitimo kursus. Tačiau į duomenų bazę įrašytos išlaidos lieka nepakitusios, nes sumos saugomos ta valiuta, kuria jos buvo patirtos.
 
-## <a name="project-based-quote-lines"></a>Projektu pagrįstos pasiūlymo eilutės
+## <a name="sales-currency"></a>Pardavimo valiuta
 
-„Project Operations“ projektu pagrįstoje pasiūlymo eilutėje galimi toliau nurodyti atsiskaitymo būdai:
+"Project Operations" pardavimo valiuta yra valiuta, kuria įrašomos ir rodomos apskaičiuotos ir faktinės pardavimo sumos. Tai taip pat valiuta, kuria klientui išrašoma sąskaita faktūra už sandorį. Projekto pasiūlyme numatytoji pardavimo valiuta nustatoma iš kliento arba kliento įrašo ir ją galima keisti sukūrus pasiūlymą. Tačiau įrašius pasiūlymą, pardavimo valiutos keisti negalima. Numatytieji produktų ir projektų kainoraščiai nustatomi pagal pasiūlymo pardavimo valiutą.
 
-- Laikas ir medžiagos
-- Fiksuota kaina
+Skirtingai nuo išlaidų, pardavimo vertės gali būti įrašomos **tik** pardavimo valiuta.
 
-### <a name="time-and-material"></a>Laikas ir medžiagos
+## <a name="billing-method"></a>Atsiskaitymo metodas
 
-Laiko ir medžiagų atsiskaitymo metodas grindžiamas suvartojimu. Pasirinkus šį atsiskaitymo metodą, klientui išrašoma sąskaita faktūra, kai patiriamos projekto išlaidos. Kuriamos periodinės, data grindžiamos sąskaitos faktūros. Pardavimo proceso metu siūloma laiko ir medžiagų komponentų vertė klientui nurodo tik apytikrę galutinių išlaidų vertę. Tiekėjas neįsipareigoja užbaigti projekto tiksliai už pasiūlytą vertę. Naudojant atsiskaitymą už laiko ir medžiagų komponentus didėja kliento rizika. Klientai gali norėti susitarti dėl papildomų vertės, kurios negalima viršyti, sąlygų, kad sumažintų savo riziką. Naudojant „Project Operations“, vertės, kurios negalima viršyti, sąlygų nustatymas nepalaikomas.
+Projektai paprastai turi fiksuoto mokesčio ir vartojimo pagrindu sudarytus sutarčių sudarymo modelius. Programoje "Project Operations" projekto sutarčių sudarymo modelis pateikiamas atsiskaitymo metodu. Atsiskaitymo metodas turi dvi vertes: laiką ir medžiagą bei fiksuotą kainą.
 
-### <a name="fixed-price"></a>Fiksuota kaina
+- **Laikas ir medžiaga**  – vartojimu pagrįstas sutarčių sudarymo modelis, kai kiekviena patirta kaina yra pagrįsta atitinkamomis pajamomis. Kai numatote arba patiriate daugiau išlaidų, atitinkami numatyti ir faktiniai pardavimai taip pat bus padidinti. Galite nurodyti neviršyti pasiūlymo eilučių, turinčių šį atsiskaitymo būdą, limitų. Tokiu būdu galite apriboti faktines pajamas. Apskaičiuotoms pajamoms neturi įtakos ribos, kurių negalima viršyti.
+- **Fiksuota kaina** - Fiksuoto mokesčio sutarčių sudarymo modelis, kai pardavimo vertės nepriklauso nuo patirtų išlaidų. Pardavimo reikšmė yra fiksuota ir ji nekinta, kai numatote arba patiriate daugiau išlaidų.
 
-Naudojant fiksuotos kainos atsiskaitymo metodą, tiekėjas įsipareigoja klientui įvykdyti projektą už fiksuotą kainą. Klientui išrašoma pasiūlytos vertės sąskaita pagal fiksuotos kainos pasiūlymo eilutę, neatsižvelgiant į tiekėjo vykdant šią pasiūlymo eilutę patirtas išlaidas. Sąskaita pagal fiksuotos kainos pasiūlymo eilutės vertę išrašoma naudojant vieną iš toliau nurodytų būdų. 
+## <a name="project-price-lists"></a>Projekto kainoraščiai
 
-- Mokant vienkartinę sumą projekto pradžioje arba pabaigoje, arba užbaigus projekto etapą. 
-- Mokant periodines fiksuotos pasiūlymo eilutės kainos įmokas lygiomis dalimis nustatytomis datomis. Šios įmokos vadinamos kaip periodiniu sąskaitų pateikimu etapais.
-- Mokant dalimis, kurių piniginė išraiška atitinka darbų eigą arba įvykdytus projekto etapus. Šiuo atveju kiekvienos įmokos vertė gali skirtis, tačiau jų suma turi atitikti fiksuotą pasiūlymo eilutės kainą.
+Projekto kainoraščiai yra kainoraščiai, naudojami norint įvesti laiko, išlaidų ir kitų su projektu susijusių komponentų numatytąsias kainas, o ne išlaidų tarifus. Gali būti keletas kainoraščių, o kiekvienas sąrašas gali galioti pagal datą kiekvienam projekto pasiūlymui. "Project Operations" nepalaiko projekto kainoraščių datų persidengimo.
 
-„Project Operations“ palaiko visų trijų tipų fiksuotos kainos pasiūlymo eilučių sąskaitų faktūrų pateikimo grafikus.
+## <a name="product-price-lists"></a>Produkto kainoraščiai
 
-## <a name="transaction-classification"></a>Operacijų klasifikacija
+Produktų kainoraščiai yra kainoraščiai, naudojami norint įvesti pasiūlymo produktų eilučių numatytąsias kainas, o ne išlaidų tarifus. Yra tik vienas produkto kainoraštis vienai citatai.
 
-Profesionalių paslaugų organizacijos paprastai teikia klientams pasiūlymus ir išrašo sąskaitas faktūras pagal išlaidų klasifikaciją. Išlaidos nurodomos pagal toliau pateiktas operacijų klasifikacijas.
+## <a name="transaction-classes"></a>Operacijos klasės
 
-- **Laikas** – ši klasifikacija apima žmogiškųjų išteklių darbo su projektu laiko sąnaudas.
-- **Išlaidos** – ši klasifikacija apima visų kitų tipų su projektu susijusias išlaidas. Kadangi išlaidas iš esmės galima klasifikuoti labai įvairiai, dauguma organizacijų kuria papildomų kategorijų, pvz., kelionių, automobilių nuomos, viešbučių arba raštinės reikmenų išlaidos.
-- **Mokestis** – ši klasifikacija apima įvairias papildomas išlaidas, baudas ir kitus kliento mokamus elementus. 
-- **Mokesčiai** – ši klasifikacija apima mokesčių sumas, kurias vartotojai įtraukia įvesdami išlaidas.
-- **Medžiagų operacija** – ši klasifikacija apima faktines produktų eilučių sumas patvirtintoje projekto sąskaitoje faktūroje.
-- **Etapas** – ši klasifikacija naudojama fiksuotos kainos atsiskaitymo logikai.
+„Project Operations“ palaiko keturis operacijų klasių tipus:
 
-Su kiekviena pasiūlymo eilute galima susieti vieną arba kelias iš šių operacijų klasifikacijų. Laimėjus pasiūlymą, operacijų klasifikacijos susiejimas ir pasiūlymo eilutė perkeliami į sutarties eilutę.
-  
-Pavyzdžiui, pasiūlyme gali būti šios dvi pasiūlymo eilutės: 
+- Laikas
+- Išlaidos
+- Medžiaga
+- Rinkliava
 
-- konsultavimo darbas, už kurį atsiskaitoma naudojant laiko ir medžiagų atsiskaitymo metodą, taikant operacijų klasifikacijas Laikas ir Mokestis. Pavyzdžiui, klientui išrašoma sąskaita faktūra už visas pavyzdinio projekto **Visuotinis „Dynamics AX“ diegimas** laiko ir mokesčio klasifikacijų operacijas, atsižvelgiant į laiko ir medžiagų sąnaudas; 
-- susijusios kelionių išlaidos, kurioms taikomas fiksuotos kainos atsiskaitymo metodas. Pavyzdžiui, sąskaita už visas pavyzdinio projekto **Visuotinis „Dynamics AX“ diegimas** kelionių išlaidas išrašoma naudojant fiksuotą piniginę vertę.
+Savikainos ir pardavimo vertės gali būti įvertintos ir patirtos **laiko**, išlaidų **ir** medžiagų **operacijų klasėse** . **Mokestis** yra tik pajamų operacijų klasė.
 
-> [!NOTE]
-> Su pasiūlymo eilute arba sutarties eilute susietų operacijų klasifikacijų **Laikas**, **Išlaidos** ir **Mokestis** derinys turi būti unikalus. Jei tas pats projekto ir operacijų klasių derinys susiejamas su daugiau nei viena sutarties eilute arba pasiūlymo eilute, „Project Operations“ veiks netinkamai.
+## <a name="work-entities-and-billing-entities"></a>Darbo objektai ir atsiskaitymo objektai
 
-## <a name="billing-types"></a>Atsiskaitymo tipai
+Projektai ir užduotys yra objektai, atspindintys darbą. Pasiūlymo eilutės ir Sutarties eilutės yra objektai, nurodantys atsiskaitymą. Galite susieti skirtingus darbo objektus su atsiskaitymo parinktimis, susiedami juos su pasiūlymo eilutėmis arba sutarties eilutėmis.
 
-Lauke **Atsiskaitymo tipas** nustatoma apmokestinimo sąvoka. Tai – parinkčių rinkinys, galintis apimti toliau nurodytas reikšmes.
+## <a name="multi-customer-deals"></a>Kelių klientų sandoriai
 
-- **Apmokestinamos** – šiame vaidmenyje / kategorijoje kaupiamos išlaidos laikomos tiesioginėmis su projekto vykdymu susijusiomis išlaidomis ir klientas sumokės už šį darbą. Mokėjimas gali būti administruojamas kaip laiko ir medžiagų arba fiksuotos kainos susitarimas. Tačiau šiam darbui laiką skyrusiam darbuotojui bus išmokėtas atitinkamas kreditas už apmokėtiną efektyvumą.
-- **Neapmokestinamos** – šiame vaidmenyje / kategorijoje kaupiamos išlaidos laikomos tiesioginėmis su projekto vykdymu susijusiomis išlaidomis, net jei klientas nepripažįsta šio fakto ir už šį darbą nemokės. Laiką skyrusiam darbuotojui nebus mokama už apmokėtiną efektyvumą.
-- **Nemokamos** – šiame vaidmenyje / kategorijoje kaupiamos išlaidos laikomos tiesioginėmis su projekto vykdymu susijusiomis išlaidomis ir klientas pripažįsta šį faktą. Laiką skyrusiam darbuotojui bus sumokėta už apmokėtiną efektyvumą. Tačiau šios išlaidos nebus priskirtos klientui.
-- **Nėra** – naudojant šią parinktį sekamos su vidaus projektais, kurių pajamų nereikia sekti, susijusios išlaidos.
+Pasiūlymai keliems klientams sudaromi, kai vienoje sąskaitoje faktūroje yra daugiau nei vienas klientas. Štai keletas tipiškų pavyzdžių:
 
-## <a name="invoice-schedule"></a>Sąskaitų faktūrų grafikas
+- **Originalios įrangos gamintojų (OĮG) įmonės ir jų partneriai** – Partneriai ir perpardavėjai parduoda produktą, kuris apima pridėtinės vertės paslaugas. Sandorio su klientu metu OEM paprastai siūlo finansuoti dalį projekto.
+- **Viešojo sektoriaus projektai** - Keli savivaldybės departamentai sutinka finansuoti projektą ir jiems sąskaitos faktūros išrašomos pagal anksčiau sutartą padalijimą. Pavyzdžiui, mokyklos skyrius ir miesto arba vietos valstybinės institucijos departamentas susitaria finansuoti baseino pastatą.
 
-Sąskaitų faktūrų grafikas – tai su projektų susijusių sąskaitų faktūrų išrašymo datų seka. Galite pasirinktinai sukurti sąskaitų faktūrų grafiką pasiūlymo eilutėje. Kiekvienai pasiūlymo eilutei galima sukurti atskirą sąskaitų faktūrų grafiką. Norėdami sukurti sąskaitų faktūrų grafiką, turite nurodyti šias atributų reikšmes:
+## <a name="invoice-schedules"></a>Sąskaitos faktūros grafikai
 
-- atsiskaitymo pradžios data; 
-- pristatymo data, nurodanti projekto pabaigos datą;
-- sąskaitų faktūrų išrašymo dažnis;
+Sąskaitų faktūrų tvarkaraščiai yra būdingi kiekvienai pasiūlymo eilutei ir yra pasirinktiniai. Sąskaitų faktūrų tvarkaraščiai kuriami pagal konkrečias pradžios ir pabaigos datas bei sąskaitų faktūrų dažnumą. Jie naudojami sutarties etape, kai sukonfigūruojamas automatinis sąskaitų faktūrų kūrimo procesas. Pasiūlymo etape sąskaitų faktūrų tvarkaraščiai yra neprivalomi. Jei jie sukuriami pasiūlymo etape, jie nukopijuojami į projekto sutartį, kuri sukuriama laimėjus projekto pasiūlymą.
 
-Šios trys atributų reikšmės naudojamos, kad būtų sukurtas preliminarų sąskaitų faktūrų išrašymo datų rinkinį.
+## <a name="differences-from-dynamics-365-sales-quotes"></a>Skirtumai nuo "Dynamics 365 Sales" pasiūlymų
 
-## <a name="invoice-frequency"></a>SF išrašymo dažnis
+"Project Operations" pasiūlymai sukurti naudojant "Dynamics 365 Sales" pasiūlymus. Tačiau yra keletas svarbių funkcijų skirtumų, kuriuos turėtumėte žinoti:
 
-Sąskaitų faktūrų išrašymo dažnis – tai objektas, apimantis atributų reikšmės, padedančias išreikšti sąskaitų faktūrų kūrimo dažnį. Šie atributai išreiškia arba nustato sąskaitų faktūrų išrašymo dažnio objektą:
+- "Project Operations" pasiūlymuose yra dviejų skirtingų tipų eilutės: viena skirta projektams, kita – produktams.
+- "Project Operations" pasiūlymai turi savo puslapio ir vartotojo sąsajos (UI) elementus, verslo taisykles, verslo logiką papildiniuose ir kliento scenarijus, dėl kurių jie skiriasi nuo pardavimo pasiūlymų.
+- Dalyje "Sales" prie vieno pardavimo pasiūlymo galite pridėti kelis užsakymus. Programoje "Project Operations" prie projekto pasiūlymo galite pridėti tik vieną projekto sutartį.
+- Kai laimite pardavimo pasiūlymą, susijusi galimybė gali likti atvira. Laimėjus projekto pasiūlymą, susijusi galimybė uždaroma.
+- Pardavimo pasiūlyme nėra kai kurių laukų ir sąvokų, kurios įtraukiamos į projekto pasiūlymą. Šie laukai yra **Sutartį pasirašantis vienetas**, **Klientų vadybininkas** ir **Sąskaitų gavėjo kontakto vardas**.
+- Pardavimo pasiūlymai ir projekto pasiūlymai identifikuojami pagal lauką parinkčių rinkinys pagrįstas **tipas** . Pardavimo pasiūlymo šio lauko reikšmė yra **Pagrįsta** elementu. Projekto pasiūlymo reikšmė yra **Pagrįsta** darbu.
 
-- **Laikotarpis** – palaikomi laikotarpiai: kas mėnesį, kas dvi savaites ir kas savaitę. 
-- **Vykdymų skaičius per laikotarpį** – laikotarpiams kas savaitę ir kas dvi savaites galima nustatyti tik vieną vykdymą per laikotarpį. Laikotarpiams kas mėnesį galima nustatyti nuo vieno iki keturių vykdymų per laikotarpį; 
-- **Vykdymo dienos** – sąskaitų faktūrų išrašymo dienos. Šį atributą galima sukonfigūruoti dviem būdais:
-  - **Savaitės dienos** – pavyzdžiui, galite nurodyti, kad sąskaitos faktūros būtų išrašomos kiekvieną pirmadienį arba kas antrą pirmadienį. Klientai, kuriems reikia nustatyti sąskaitų faktūrų išrašymo dieną kaip darbo dieną, gali pageidauti šio tipo konfigūracijos; 
-  - **Kalendorinės dienos** – pavyzdžiui, galite nurodyti, kad sąskaitos faktūros būtų išrašomos kiekvieno mėnesio septintą ir dvidešimt pirmą dienomis. Kai kurios organizacijos gali teikti pirmenybę šio tipo konfigūracijai, nes ji padeda užtikrinti, kad sąskaitos faktūros būtų išrašomos kas mėnesį pagal fiksuotą grafiką.
-  
-### <a name="invoice-schedule-for-a-fixed-price-quote-line"></a>Fiksuotos kainos pasiūlymo eilutės sąskaitų faktūrų grafikas
-
-Fiksuotos kainos pasiūlymo eilutėms galite naudoti tinklelį **Sąskaitų faktūrų grafikas** ir sukurti atsiskaitymo etapus, atitinkančius pasiūlymo eilutės vertę.
-
-- Jei norite sukurti lygiai padalytus sąskaitų išrašymo etapus, pasirinkite sąskaitų faktūrų išrašymo dažnį, į pasiūlymo eilutę įveskite atsiskaitymo pradžios datą ir pasiūlymo antraštės srityje **Suvestinė** pasirinkite pasiūlymo **Pageidaujamą užbaigimo datą**. Tada pasirinkite **Generuoti periodinį sąskaitų pateikimą etapais** ir sukurkite lygiai padalytus etapus pagal pasirinktą sąskaitų faktūrų išrašymo dažnį. 
-- Norėdami sukurti atsiskaitymo vienkartine suma etapą, sukurkite etapą ir tada kaip etapo sumą įveskite pasiūlymo eilutės vertę.
-- Norėdami sukurti konkrečiomis projekto plano užduotimis pagrįstus sąskaitų išrašymo etapus, sukurkite etapą ir atsiskaitymo etapo UI susiekite jį su projekto grafiko elementu.
-
+Dėl šių skirtumų nerekomenduojame naudoti pardavimo pasiūlymų ir "Project Operations" pasiūlymų pakaitomis.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,21 +1,21 @@
 ---
-title: Įvertinimų importavimas į projektu pagrįstą į sutarties eilutę – „Lite“ versija
+title: Įvertinimų importavimas iš projekto į projekto sutarties eilutę
 description: Šiame straipsnyje pateikta informacija apie projekto finansinių įvertinimų importavimą į sutarties eilutę.
 author: rumant
 ms.date: 10/19/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d6e3bdfeb1ea9de32d6712ac5671be39c243702a
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 73ae0ccbb5372c9dfbc28ac154094c89add0913d
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924210"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824685"
 ---
-# <a name="import-an-estimate-to-a-project-based-contract-line---lite"></a>Įvertinimų importavimas į projektu pagrįstą į sutarties eilutę – „Lite“ versija
+# <a name="import-estimates-from-a-project-to-a-project-contract-line"></a>Įvertinimų importavimas iš projekto į projekto sutarties eilutę
 
-_**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
+_**Taikoma:**  "Lite" diegimas – sandoris su proforma sąskaitų faktūrų išrašymu, "Project Operations" ištekliams / be atsargų pagrįstiems scenarijams_ _
 
 Programoje „Dynamics 365 Project Operations“ galite importuoti įvertinimus iš projekto į projektu pagrįstą sutarties eilutę.
 

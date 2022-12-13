@@ -1,23 +1,23 @@
 ---
-title: Kelių klientų tvarkymas projektu pagrįstose pasiūlymo eilutėse – „Lite“ versija
-description: Šiame straipsnyje paaiškinama, kaip valdyti kelis klientus projektu pagrįsto pasiūlymo eilutėse.
+title: Kelių klientų valdymas projekto pasiūlymo eilutėse
+description: Šiame straipsnyje aprašoma, kaip valdyti kelis klientus projekto pasiūlymo eilutėse.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fbd0c17de3de8dc4cd84860851fb5837b86586cd
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 70007499ea61e7d81df071cc6d003896d721555b
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927798"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824449"
 ---
-# <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>Kelių klientų tvarkymas projektu pagrįstose pasiūlymo eilutėse – „Lite“ versija
+# <a name="manage-multiple-customers-on-project-quote-lines"></a>Kelių klientų valdymas projekto pasiūlymo eilutėse
 
 _**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
 
-Projektu pagrįsto pasiūlymo eilučių palaikymo scenarijai, kai kiekvienoje pasiūlymo eilutėje yra klientų, mokančių už jį, sąrašas. Projektu pagrįsto pasiūlymo eilutėse esančių klientų sąrašas gali būti toks pat, kaip ir pasiūlyme esančių klientų sąrašas. Taip pat galite pakeisti klientų sąrašą, kad jis būtų skirtingas. Laimėjus pasiūlymą, projektu pagrįsto pasiūlymo eilutėse esantis klientų sąrašas kopijuojamas į atitinkamą projeku pagrįstą sutarties eilutę, kad būtų sukurtas galima projekto sutartis. Projektu pagrįstame pasiūlyme esantys klientai kopijuojami į projekto sutartį.
+Projekto pasiūlymo eilutės palaiko scenarijus, kai kiekvienoje pasiūlymo eilutėje yra už ją mokančių klientų sąrašas. Projektu pagrįsto pasiūlymo eilutėse esančių klientų sąrašas gali būti toks pat, kaip ir pasiūlyme esančių klientų sąrašas. Taip pat galite pakeisti klientų sąrašą, kad jis būtų skirtingas. Laimėjus pasiūlymą, projektu pagrįsto pasiūlymo eilutėse esantis klientų sąrašas kopijuojamas į atitinkamą projeku pagrįstą sutarties eilutę, kad būtų sukurtas galima projekto sutartis. Projektu pagrįstame pasiūlyme esantys klientai kopijuojami į projekto sutartį.
 
 Kai galutinio projekto sutarčiai išrašote sąskaitą faktūrą, klientų sąrašas, esantis projektu pagrįstos sutarties eilutėje, pirmenybę teikia projekto sutarties sąrašui. Klientų sąrašas projekto sutartyje naudojamas tik numatytosioms naujoms projekto sutarties eilutėms.
 

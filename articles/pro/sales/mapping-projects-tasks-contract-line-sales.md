@@ -1,23 +1,23 @@
 ---
-title: Projektų ir užduočių susiejimas su projektu pagrįstos sutarties eilute – „Lite“ versija
+title: Projektų ir užduočių susiejimas su projekto sutarties eilute
 description: Šiame straipsnyje pateikiama informacija apie projektų ir užduočių įtraukimą į sutarties eilutę ir šalinimą iš jos.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c8075e3161acd904969f964e5ab32dfe04edc4b6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 45118bb5a36203a3121a5f7ada0992d2c2491a4a
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932536"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825069"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>Projektų ir užduočių susiejimas su projektu pagrįstos sutarties eilute 
+# <a name="map-projects-and-tasks-to-a-project-contract-line"></a>Projektų ir užduočių susiejimas su projekto sutarties eilute 
 
 _**Taikoma (kam):** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo, „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
-Projektu pagrįstose sutarties eilutėse galite susieti konkrečias projekto užduotis su sutarties eilute.
+Projekto sutarties eilutėse galite susieti konkrečias projekto užduotis su sutarties eilute.
 
 Susiejus konkrečias užduotis su sutarties eilute, sutarties eilutėje nurodyti atsiskaitymo būdas, apmokestinimo parinktys, sutarties limitai, kurių negalima viršyti, ir klientai bus taikomi tik šioms konkrečioms užduotims.
 
@@ -25,7 +25,7 @@ Jei turite scenarijų, pagal kurį vienas projekto etapas, pavyzdžiui, prototip
 
 Visi kiti projekto darbo paskirstymo struktūros (WBS) etapai gali būti susieti su laiku ir medžiagomis pagrįsta sutarties eilute.
 
-## <a name="associate-tasks-to-project-based-contract-lines"></a>Užduočių susiejimas su projektu pagrįstomis sutarties eilutėmis
+## <a name="associate-tasks-to-project-contract-lines"></a>Užduočių susiejimas su projekto sutarties eilutėmis
 
 Užduotys gali būti susietos su sutarčių eilutėmis iš puslapio **Sutarties eilutė** skirtuko **Apmokestinamos užduotys** arba iš puslapio **Projektas** skirtuko **Užduoties atsiskaitymas**.
 

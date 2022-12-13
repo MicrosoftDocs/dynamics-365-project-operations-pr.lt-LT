@@ -1,17 +1,17 @@
 ---
-title: Pasiūlymai – pagrindinės sąvokos – „Lite“ versija
+title: Unikalios projekto pasiūlymų sąvokos
 description: Šiame straipsnyje pateikta informacija apie „Project Operations“ projektų pasiūlymų naudojimą.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a8c2f009b7a0bebbf6a49bf942dd19f97205072e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7f0a33f1d7d77f3b5aebfdcf8e6aeb14072cd596
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916988"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825904"
 ---
 # <a name="concepts-unique-to-project-quotes"></a>Unikalios projekto pasiūlymų sąvokos
 
@@ -82,9 +82,13 @@ Sąskaitos faktūros grafikas būdingas kiekvienai pasiūlymo eilutei ir yra pas
 
 „Project Operations“ pasiūlymai kuriami „Dynamics 365 Sales“ pasiūlymuose. Tačiau yra keletas svarbių funkcijų skirtumų, kuriuos turėtumėte žinoti:
 
-- Veiksmai **Peržiūrėti** ir **Aktyvinti**.
+
 - „Project Operations“ pasiūlymuose yra dviejų skirtingų tipų eilutės. Viena yra projektams, o kita – produktams.
 - „Project Operations“ pasiūlymai turi savus formos ir UI elementus, verslo taisykles, verslo logiką papildiniuose ir kliento scenarijus, kuriais jie ir skiriasi nuo „Sales“ pasiūlymų.
+- Pardavimo pasiūlymai leidžia prie pardavimo pasiūlymo pridėti kelis užsakymus. Programoje "Project Operations" prie projekto pasiūlymo galima pridėti tik vieną projekto sutartį.
+- Kai laimite pardavimo pasiūlymą, susijusi galimybė gali likti atvira. Laimėjus projekto pasiūlymą, susijusi galimybė uždaroma.
+- Pardavimo pasiūlyme nėra kai kurių laukų ir sąvokų, įtrauktų į projekto pasiūlymą. Šie laukai yra **Sutartį pasirašantis vienetas**, **Klientų vadybininkas** ir **Sąskaitų gavėjo kontakto vardas**.  
+- **Tipas** – pardavimo pasiūlymai ir projekto pasiūlymai taip pat identifikuojami pagal parinkčių rinkiniu grindžiamą lauką **Tipas**. Pardavimo pasiūlyme šio lauko reikšmė yra **Pagrįstas prekėmis**. Projekto pasiūlyme jo reikšmė yra **Pagrįstas darbais**.
 
 Dėl šių priežasčių nerekomenduojama naudoti „Sales“ pasiūlymo ir „Project Operations“ pasiūlymų keičiant juos vietomis.
 

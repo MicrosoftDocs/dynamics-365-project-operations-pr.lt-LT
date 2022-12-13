@@ -1,27 +1,27 @@
 ---
-title: Projektu pagrįstų pasiūlymo eilučių sąskaitų faktūrų grafikai
+title: Sąskaitų faktūrų tvarkaraščiai projekto pasiūlymo eilutėse
 description: Šiame straipsnyje pateikta informacija apie sąskaitų faktūrų grafikų ir pasiūlymo eilučių etapų kūrimą.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b1e431bc3586f9fef7a01348555e4ee4e06cc66c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 98006cc2857f01298054c4f0e70781bf4b8b474b
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8918322"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825764"
 ---
-# <a name="invoice-schedules-on-project-based-quote-lines"></a>Projektu pagrįstų pasiūlymo eilučių sąskaitų faktūrų grafikai
+# <a name="invoice-schedules-on-project-quote-lines"></a>Sąskaitų faktūrų tvarkaraščiai projekto pasiūlymo eilutėse
 
 _**Taikoma:** „Project Operations“ išteklių / ne atsargomis pagrįstiems scenarijams, „Lite“ visuotiniui diegimui – „Proforma“ sąskaitų faktūrų išrašymui_
 
-Projektu pagrįsta pasiūlymo eilutė suteikia galimybę išreikšti sąskaitos faktūros grafiką. Tai nebūtina pasiūlymo etape, nes programa nepalaiko projekto sąskaitos faktūros išrašymo, kai jis susiejamas su pasiūlymo eilute. Sąskaitų faktūrų išrašymas galimas tik gavus pasiūlymą. Vienintelis pasrovinis sąskaitų faktūrų grafiko kūrimo poveikis pasiūlymo etape yra tai, kad šis sąskaitų faktūrų grafikas kopijuojamas į projektu pagrįstą sutarties eilutę. Jei nesukursite sąskaitų faktūrų grafiko pasiūlymo etape, galėsite tai padaryti projektu pagrįstoje sutarties eilutėje.
+Projekto pasiūlymo eilutė suteikia galimybę išreikšti sąskaitų faktūrų tvarkaraštį. Tai nebūtina pasiūlymo etape, nes programa nepalaiko projekto sąskaitos faktūros išrašymo, kai jis susiejamas su pasiūlymo eilute. Sąskaitų faktūrų išrašymas galimas tik gavus pasiūlymą. Vienintelis pasrovinis sąskaitų faktūrų grafiko kūrimo poveikis pasiūlymo etape yra tai, kad šis sąskaitų faktūrų grafikas kopijuojamas į projektu pagrįstą sutarties eilutę. Jei nesukursite sąskaitų faktūrų grafiko pasiūlymo etape, galėsite tai padaryti projektu pagrįstoje sutarties eilutėje.
 
 Apskritai sąskaitų faktūrų grafikų paskirtis – leisti automatiškai kurti projektu pagrįstos sutarties eilutės juodraštines sąskaitas faktūras. 
 
-## <a name="create-a-time-and-material-invoice-schedule-for-a-project-based-quote-line"></a>Projektu pagrįstos pasiūlymo eilutės laiko ir medžiagos sąskaitų faktūrų grafiko kūrimas
+## <a name="create-a-time-and-material-invoice-schedule-for-a-project-quote-line"></a>Projekto pasiūlymo eilutės laiko ir medžiagų sąskaitų faktūrų grafiko kūrimas
 
 Kai projektu pagrįstos pasiūlymo eilutės atsiskaitymo būdas yra laikas ir medžiaga, sistema sugeneruoja data pagrįstą sąskaitos faktūros grafiką. Norėdami automatiškai sugeneruoti data pagrįstą sąskaitos faktūros grafiką, atlikite toliau nurodytus veiksmus.
 
@@ -36,7 +36,7 @@ Kai projektu pagrįstos pasiūlymo eilutės atsiskaitymo būdas yra laikas ir me
     - **Operacijos galutinė data** nustatoma į tą dieną prieš **Sąskaitos faktūros vykdymo datą**.
     - **Vykdymo būsena** automatiškai nustatoma į **Nevykdoma**. Kai automatinio sąskaitos faktūros kūrimo užduotis paleidžiama tam tikrai sąskaitos faktūros vykdymo datai, ji atnaujins šį lauką į **Vykdymas sėkmingas** arba **Vykdymas nepavyko**.
 
-## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-quote-line"></a>Projektu pagrįstos pasiūlymo eilutės fiksuotos kainos sąskaitų faktūrų grafiko kūrimas
+## <a name="create-a-fixed-price-invoice-schedule-for-a-project-quote-line"></a>Projekto pasiūlymo eilutės fiksuotos kainos SF grafiko kūrimas
 
 Kai projektu pagrįstoje pasiūlymo eilutėje yra **Fiksuotas** atsiskaitymo būdas, sistema sukuria etapu pagrįstą sąskaitų faktūrų grafiką. Atlikite šiuos veiksmus, kad automatiškai generuotumėte šį grafiką, skirtą etapų, kurie vienodai paskirstyti kalendoriniam laikotarpiui, fiksuotam rinkiniui.
 

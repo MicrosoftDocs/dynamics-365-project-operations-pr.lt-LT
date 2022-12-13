@@ -1,21 +1,21 @@
 ---
-title: Projektu pagrįstos pasiūlymo eilutės įvertinimas
-description: Šiame straipsnyje pateikta informacija apie tai, kaip sukurti įvertinimą projektu pagrįstai pasiūlymo eilutei.
+title: Projekto pasiūlymo eilutės įvertinimas
+description: Šiame straipsnyje pateikiama informacija apie tai, kaip sukurti įvertinimą projekto pasiūlymo eilutėje.
 author: rumant
 ms.date: 04/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2a8aa2971431cd1f2082c8fc80db1438be185f5b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: bac3a3fa2d14c857edfb469a005406c346c8dbf6
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914366"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825998"
 ---
-# <a name="estimating-a-project-based-quote-line"></a>Projektu pagrįstos pasiūlymo eilutės įvertinimas
+# <a name="estimate-a-project-quote-line"></a>Projekto pasiūlymo eilutės įvertinimas
 
-_**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
+_**Taikoma (kam):** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo, „Project Operations“, skirta ištekliais / atsargose nelaikomomis prekėmis pagrįstiems scenarijams_
 
 Projektu pagrįstoje pasiūlymo eilutėje pateikta išsami informacija, padedanti įvertinti darbo išlaidas ir potencialias pajamas, kad būtų sukurta pasiūlymo eilutė.
 
@@ -24,7 +24,7 @@ Norėdami įvertinti projektu pagrįstą pasiūlymo eilutę, projektu pagrįstoj
 - Rankiniu būdu sukurti įvertinimą tiesiogiai pasiūlymo eilutėje naudojant pasiūlymo eilutės išsamią informaciją. 
 - Sukurti projektą ir projekto planą, o tada susieti projektą ir projekto užduotis su pasiūlymo eilute. Procesas, skirtas projekto plano įvertinimų importavimui į pasiūlymo eilutę pagal jūsų pateiktą informaciją, bus įjungtas.
 
-## <a name="create-estimates-directly-on-a-project-based-quote-line"></a>Įvertinimų kūrimas tiesiogiai projektu pagrįstoje pasiūlymo eilutėje
+## <a name="create-estimates-directly-on-a-project-quote-line"></a>Įvertinimų kūrimas tiesiogiai projekto pasiūlymo eilutėje
 
 Jei norite kurti įvertinimą projektu pagrįstoje pasiūlymo eilutėje, pažymėkite skirtuką **Pasiūlymo eilutės informacija**. Šiame skirtuke sukurtas eilutės elementas apibendrins šios pasiūlymo eilutės pasiūlytą reikšmę. 
 
@@ -68,8 +68,7 @@ Išlaidų pasiūlymo eilutės išsamios informacijos valiuta pagal numatytąsias
 
 Pelningumo skaičiavimas konvertuoja išlaidų ir pardavimų pasiūlymo eilutės išsamią informaciją į pagrindinę aplinkos valiutą, kad praneštų apie bendrą numatomą pasiūlymo maržą.
 
-> [!PASTABA
-> > Dėl trūkstamų nuo datos priklausančių valiutos kursų gali įvykti valiutos apvalinimo klaidų ir pasikeisti maržos. Šiuos skaičiavimus naudokite tik projekto sutartyse, nes jie yra apytiksliai ir nėra skirti įstatymų nustatytoms faktinėms arba kitoms ataskaitoms, kuriose reikalaujama tiksliau apvalinti ir pateikti valiutų kursų įsigaliojimo datą.
+> [! PASTABA Valiutų apvalinimo klaidos ir maržos gali atsirasti dėl to, kad nėra datos efektyviųjų valiutų kursų. Šiuos skaičiavimus naudokite tik projekto sutartyse, nes jie yra apytiksliai ir nėra skirti įstatymų nustatytoms faktinėms arba kitoms ataskaitoms, kuriose reikalaujama tiksliau apvalinti ir pateikti valiutų kursų įsigaliojimo datą.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

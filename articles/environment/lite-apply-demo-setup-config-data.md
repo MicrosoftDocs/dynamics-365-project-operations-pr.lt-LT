@@ -2,16 +2,16 @@
 title: Demonstracinės sąrankos ir konfigūracijos duomenų taikymas – „Lite“ versija
 description: Šiame straipsnyje pateikta informacija apie tai, kaip taikyti demonstracinę sąranką ir konfigūracijos programai „Project Operations“.
 author: sigitac
-ms.date: 01/27/2021
+ms.date: 11/29/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9a3a99c326b7ebbdfa859c3298b35e910af0eb2a
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
-ms.translationtype: HT
+ms.openlocfilehash: 8ac8c910ce2d91fa47df08e8fb6efb723c0dc5fa
+ms.sourcegitcommit: 38cb012502cbd640abbc21a0912b195112b27ccb
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410033"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "9811036"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Demonstracinės sąrankos ir konfigūracijos duomenų taikymas naudojant „Project Operations“ – „Lite“ versija 
 
@@ -26,31 +26,31 @@ Prieš pradėdami konfigūraciją, turite turėti „Dataverse“ aplinką, suko
 
 ## <a name="instructions"></a>Instrukcijos
 
-1. Atsisiųskite [pagrindinių duomenų paketą](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData-%20CE%20only.zip). 
-2. Eikite į aplanką *ProjOpsSampleSetupData - CE only CMT* ir paleiskite vykdomą failą *DataMigrationUtility*.
-3. „Common Data Service“ konfigūravimo perkėlimo (CMT) vedlio 1 puslapyje pasirinkite **Importuoti duomenis**, o tada pasirinkite **Tęsti**.
+1.  [Atsisiųskite sąrankos duomenų paketą](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData-%20CE%20only.zip). 
+1. Eikite į aplanką *ProjOpsSampleSetupData - CE only CMT* ir paleiskite vykdomą failą *DataMigrationUtility*.
+1. „Common Data Service“ konfigūravimo perkėlimo (CMT) vedlio 1 puslapyje pasirinkite **Importuoti duomenis**, o tada pasirinkite **Tęsti**.
 
     ![Konfigūravimo perkėlimas.](./media/1ConfigurationMigration.png)
 
-4. CMT vedlio 2 puslapyje pažymėkite **„Microsoft 365“** kaip **Visuotinio diegimo tipą**.
-5. Pažymėkite žymės langelius **Rodyti galimų organizacijų sąrašą** ir **Rodyti išsamiau**.
-6. Pasirinkite savo nuomotojo regioną, įveskite savo kredencialus, o tada pasirinkite **Prisijungti**.
+1. CMT vedlio 2 puslapyje pažymėkite **„Microsoft 365“** kaip **Visuotinio diegimo tipą**.
+1. Pažymėkite žymės langelius **Rodyti galimų organizacijų sąrašą** ir **Rodyti išsamiau**.
+1. Pasirinkite savo nuomotojo regioną, įveskite savo kredencialus, o tada pasirinkite **Prisijungti**.
 
    ![Prisijungimas prie konfigūracijos.](./media/2ConfigurationSignin.png)
 
-7. 3 puslapyje iš nuomotojo organizacijų sąrašo pasirinkite į kurią organizaciją norite importuoti demonstracinius duomenis, o tada pasirinkite **Prisijungti**.
-8. 4 puslapyje pasirinkite zip. failą *SampleSetupAndConfigData* nesupakuotame aplanke *ProjOpsSampleSetupData - CE only CMT*.
+1. 3 puslapyje iš nuomotojo organizacijų sąrašo pasirinkite į kurią organizaciją norite importuoti demonstracinius duomenis, o tada pasirinkite **Prisijungti**.
+1. 4 puslapyje pasirinkite zip. failą *SampleSetupAndConfigData* nesupakuotame aplanke *ProjOpsSampleSetupData - CE only CMT*.
 
    ![Suglaudintas failas.](./media/3ZipFile.png)
 
    ![Pasirinkti failą.](./media/4SelectAFile.png)
 
-9. Pasirinkę suglaudintą failą, pasirinkite **Importuoti duomenis**.
+1. Pasirinkę suglaudintą failą, pasirinkite **Importuoti duomenis**.
 
    ![Importuoti duomenis.](./media/5ImportData.png)
 
-10. Priklausomai nuo jūsų tinklo spartos, importavimas užims apie 2-10 minučių. Baigę importuoti uždarykite CMT vediklį. 
-11. Patikrinkite savo organizacijos duomenis šiuose 18 objektų:
+1. Priklausomai nuo jūsų tinklo spartos, importavimas užims apie 2-10 minučių. Baigę importuoti uždarykite CMT vediklį. 
+1. Patikrinkite savo organizacijos duomenis šiuose 18 objektų:
 
     -   Valiuta
     -   Paskyra

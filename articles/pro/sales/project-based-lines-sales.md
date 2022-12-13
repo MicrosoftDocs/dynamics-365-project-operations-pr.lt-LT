@@ -1,29 +1,29 @@
 ---
-title: Projektu pagrįstos galimybių eilutės – „Lite“ versija
+title: Projekto galimybių eilutės
 description: Šiam straipsnyje pateikta informacija apie projektu pagrįstos galimybės eilutes. (Pro)
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8b5a8fc32ca903d7da2e090137bed358b364902a
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: e4f67bd9b7d51559e2942e9005b8f5f9187b1f78
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914274"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824966"
 ---
-# <a name="project-based-opportunity-lines---lite"></a>Projektu pagrįstos galimybių eilutės – „Lite“ versija
+# <a name="project-opportunity-lines"></a>Projekto galimybių eilutės 
 
 _**Taikoma:** „Lite“ visuotiniam diegimui – nuo sandorio iki išankstinės sąskaitos faktūros kūrimo_
 
-Projektu pagrįstos galimybės eilutės pasiekiamos tik projektu pagrįstose galimybėse. Projektu pagrįsta galimybė, kurios lauko **Tipas** reikšmė nustatyta į **Pagrįstas darbu**.
+Projekto galimybių eilutės pasiekiamos tik naudojant projektais pagrįstas galimybes. Projektu pagrįsta galimybė, kurios lauko **Tipas** reikšmė nustatyta į **Pagrįstas darbu**.
 
-Projektu pagrįstos galimybės eilutės yra eilutės elementai, kurie bus pristatomi klientui naudojant projektą. Tačiau projekto negalima susieti su projektu pagrįstos galimybės eilute. Projektai gali būti susieti su eilučių elementais iš etapo **Pasiūlymas**, nes paprastai galimybė vyksta ankstyvuoju sandorio ciklo etapu. Nustatymas, kiek projektų bus naudojama darbui klientui suteikti, yra sprendimas, padarytas vėliau pardavimo etape. Galite naudoti galimybės etapą, kad nustatytumėte atskirus kliento pristatymo komponentus. Sprendimus, susijusius su faktiniu šių komponentų pristatymo projektų skaičiumi, galima perkelti į priekį tol, kol bus žinoma daugiau informacijos apie patį darbą.
+Projekto galimybių eilutės yra eilutės elementai, kurie bus pristatyti klientui naudojant projektą. Tačiau projekto negalima susieti su projektu pagrįstos galimybės eilute. Projektai gali būti susieti su eilučių elementais iš etapo **Pasiūlymas**, nes paprastai galimybė vyksta ankstyvuoju sandorio ciklo etapu. Nustatymas, kiek projektų bus naudojama darbui klientui suteikti, yra sprendimas, padarytas vėliau pardavimo etape. Galite naudoti galimybės etapą, kad nustatytumėte atskirus kliento pristatymo komponentus. Sprendimus, susijusius su faktiniu šių komponentų pristatymo projektų skaičiumi, galima perkelti į priekį tol, kol bus žinoma daugiau informacijos apie patį darbą.
 
-Žemiau yra laukai, esantys projektu pagrįstos galimybės eilutėje:
+Toliau pateikiami projekto galimybių eilutės laukai:
 
-| **Laukas** | **Vieta** | **Aprašas** | **Tolesnis poveikis** |
+| **Laukas** | **Location** | **Aprašymas** | **Tolesnis poveikis** |
 | --- | --- | --- | --- |
 | Produkto tipas | Bendros informacijos skirtukas (paslėptas) | Galite pasirinkti vieną iš šių parinkčių:</br>– Projektais pagrįsta paslauga (galima tik įdiegus „Dynamics 365 Project Operations“)</br>- Produktas (yra tik jei turite įsidiegę „Project Operations“ ir „Dynamics 365 Sales") | Šio lauko reikšmė nustatoma kaip **Projektu pagrįsta paslauga**, kai galimybėje kuriate projektu pagrįstos galimybės eilutę pagal projektu pagrįstų eilučių tinklelį. <br> Jei šią reikšmę pakeisite arba perrašysite, projekto funkcijos nebus įjungtos jūsų projektu pagrįstų eilučių elementuose. |
 | Galimybė | Bendros informacijos skirtukas | Šis laukas yra skirtas tik skaityti ir nurodo pirminį galimybės įrašą, kuriam priklauso šis eilutės elementas. | Nėra jokio tolesnio šio lauko poveikio. |
