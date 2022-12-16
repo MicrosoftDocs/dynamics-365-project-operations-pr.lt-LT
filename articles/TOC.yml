@@ -844,9 +844,9 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Avansai ir išankstiniai apmokėjimai
               items:
-                - name: Avansai arba išankstiniais apmokėjimais pagrįstos sutartys
+                - name: Avansinės arba išankstiniais apmokėjimais pagrįstos sutartys
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Išankstinių apmokėjimų grafiko nustatymasIšankstinių apmokėjimų grafiko nustatymas
+                - name: Išankstinių apmokėjimų grafiko nustatymas
                   href: pro/sales/set-up-schedule-retainers-sales.md
                 - name: Ad hoc avanso kūrimas projekto sutartyje
                   href: pro/sales/create-ad-hoc-advance-sales.md
@@ -1162,7 +1162,7 @@
           href: pro/proforma-invoicing/corrective-invoices-sales.md
         - name: Projekto sąskaitos faktūros automatizavimo konfigūravimas
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
-    - name: Versijos naujinimas
+    - name: Naujinimas
       items:
         - name: Moderniųjų patvirtinimų naujinimo aspektai
           href: upgrade/upgrade-considerations-modern-approvals.md
